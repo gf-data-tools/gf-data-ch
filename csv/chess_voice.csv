@@ -1,0 +1,13 @@
+id,situation,chip_group,is_show,surprise,code
+1,jump,0,1,,PHRASE
+2,fly,0,1,,OPERATIONBEGIN
+3,missPVP,0,2,,MOOD1
+4,hurtLess,0,2,,MOOD2
+5,hurtMore,0,3,,BREAK
+6,enemyDiePVP,0,3,,WIN
+7,enemySurvivePVP,0,2,,LOWMOOD
+8,onboard,0,1,,"GAIN,HELLO"
+9,die,0,0,,RETREAT
+10,recoverHP,0,1,,FIX
+11,shieldIncrease,0,0,,APPRECIATE
+12,enemyMissPVP,0,1,,DEFENSE
