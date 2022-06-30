@@ -1,0 +1,912 @@
+[
+    {
+        "id": 1,
+        "type": "cumulative_login",
+        "title": "累计登录",
+        "content": "累计登录{0}天",
+        "function_control_id": 0
+    },
+    {
+        "id": 2,
+        "type": "friend_praise",
+        "title": "友谊的小船",
+        "content": "活动期间累计被点赞{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 3,
+        "type": "consume_iop_contract",
+        "title": "人形制造",
+        "content": "累计消耗人形制造契约*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 4,
+        "type": "consume_coin1",
+        "title": "训练资料",
+        "content": "消耗初级训练资料*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 5,
+        "type": "consume_coin2",
+        "title": "训练资料",
+        "content": "消耗中级训练资料*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 6,
+        "type": "consume_coin3",
+        "title": "训练资料",
+        "content": "消耗高级训练资料*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 7,
+        "type": "consume_fight_report",
+        "title": "作战报告书",
+        "content": "消耗作战报告书*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 8,
+        "type": "develop_gun_rank4",
+        "title": "血统验证",
+        "content": "累计造出4星人形*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 9,
+        "type": "develop_gun_rank5",
+        "title": "血统验证",
+        "content": "累计造出5星人形*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 10,
+        "type": "get_build_coin",
+        "title": "收集电池",
+        "content": "累计获得电池*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 11,
+        "type": "mission_win",
+        "title": "战役关卡",
+        "content": "战役胜利情况下挑战任意战役关卡{0}次（自律除外）",
+        "function_control_id": 0
+    },
+    {
+        "id": 12,
+        "type": "upgrade",
+        "title": "技能升级",
+        "content": "累计升级人形/妖精技能{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 13,
+        "type": "borrow_friend_team",
+        "title": "支援梯队",
+        "content": "累计部署支援梯队次数*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 14,
+        "type": "operation_duration",
+        "title": "后勤支援",
+        "content": "后勤支援累计完成{0}小时",
+        "function_control_id": 0
+    },
+    {
+        "id": 15,
+        "type": "collect_gun",
+        "title": "救援人形",
+        "content": "在任意关卡或战斗中累计救援任意人形{0}个（自律除外）",
+        "function_control_id": 0
+    },
+    {
+        "id": 16,
+        "type": "consume_furniture_coin",
+        "title": "限时采购",
+        "content": "累计消耗采购币*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 17,
+        "type": "fix_gun",
+        "title": "修复工作",
+        "content": "累计修复人形或融合势力单位{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 18,
+        "type": "consume_bp",
+        "title": "动能消耗（包含超导动能）",
+        "content": "累计消耗动能*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 19,
+        "type": "consume_voucher",
+        "title": "校准点券",
+        "content": "累计消耗校准点券*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 20,
+        "type": "upvote",
+        "title": "点赞使者",
+        "content": "活动期间累计点赞{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 21,
+        "type": "consume_ammo",
+        "title": "弹药消耗",
+        "content": "累计消耗弹药*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 22,
+        "type": "mission_common_win",
+        "title": "普通战役挑战",
+        "content": "战斗胜利情况下挑战普通战役{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 23,
+        "type": "mission_emergent_win",
+        "title": "紧急战役挑战",
+        "content": "战斗胜利情况下挑战紧急战役{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 24,
+        "type": "mission_night_win",
+        "title": "夜战关卡",
+        "content": "战役胜利情况下挑战夜战战役关卡{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 25,
+        "type": "s_win",
+        "title": "S胜挑战",
+        "content": "以S评价完成{0}场战斗",
+        "function_control_id": 0
+    },
+    {
+        "id": 26,
+        "type": "operation",
+        "title": "后勤支援",
+        "content": "后勤支援累计完成{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 27,
+        "type": "mission_duplicate_type1",
+        "title": "经验特训",
+        "content": "模拟作战-经验特训累计{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 28,
+        "type": "mission_duplicate_type2",
+        "title": "强化练习",
+        "content": "模拟作战-强化练习累计{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 29,
+        "type": "mission_duplicate_type3",
+        "title": "资源采样",
+        "content": "模拟作战-资源采样累计{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 30,
+        "type": "gun_level_up_count",
+        "title": "人形升级",
+        "content": "人形升级{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 31,
+        "type": "eat_gun",
+        "title": "人形强化",
+        "content": "人形强化{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 32,
+        "type": "favor_up",
+        "title": "好感度",
+        "content": "好感度上升{0}点",
+        "function_control_id": 0
+    },
+    {
+        "id": 33,
+        "type": "soul_bond_gun",
+        "title": "誓约次数",
+        "content": "缔结誓约{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 34,
+        "type": "develop_gun",
+        "title": "人形制造次数",
+        "content": "人形制造{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 35,
+        "type": "develop_equip",
+        "title": "装备制造",
+        "content": "累计进行装备普通制造{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 36,
+        "type": "develop_equip_rank4",
+        "title": "血统验证_装备",
+        "content": "累计造出4星装备*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 37,
+        "type": "develop_equip_rank5",
+        "title": "血统验证_装备",
+        "content": "累计造出5星装备*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 38,
+        "type": "consume_mp",
+        "title": "人力消耗",
+        "content": "累计消耗人力*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 39,
+        "type": "consume_mre",
+        "title": "口粮消耗",
+        "content": "累计消耗口粮*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 40,
+        "type": "consume_part",
+        "title": "零件消耗",
+        "content": "累计消耗零件*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 41,
+        "type": "buy_bp_count",
+        "title": "体力购买",
+        "content": "累计购买体力{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 42,
+        "type": "consume_core",
+        "title": "核心消耗",
+        "content": "核心消耗*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 43,
+        "type": "consume_exchange_coin",
+        "title": "兑换券消耗",
+        "content": "兑换券消耗*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 44,
+        "type": "consume_skin_exchange",
+        "title": "黑卡消耗",
+        "content": "黑卡消耗*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 45,
+        "type": "open_gift",
+        "title": "礼物赠送",
+        "content": "累计赠送礼物*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 46,
+        "type": "gasha_count",
+        "title": "采购次数",
+        "content": "采购次数*{0}（10连抽算11次）",
+        "function_control_id": 0
+    },
+    {
+        "id": 47,
+        "type": "consume_capsule",
+        "title": "增幅胶囊",
+        "content": "累计消耗增幅胶囊*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 48,
+        "type": "consume_quick_training",
+        "title": "快速训练契约",
+        "content": "消耗快速训练契约*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 49,
+        "type": "consume_quick_reinforce",
+        "title": "快速修复契约",
+        "content": "消耗快速修复契约*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 50,
+        "type": "consume_gem",
+        "title": "钻石消耗",
+        "content": "钻石消耗*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 51,
+        "type": "cumulative_recharge_amount",
+        "title": "累计充值额度",
+        "content": "累计充值￥{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 52,
+        "type": "cumulative_recharge_days",
+        "title": "累计充值天数",
+        "content": "累计充值{0}天（任意充值额度，一天内有过充值行为记为1天，不论充值次数）",
+        "function_control_id": 0
+    },
+    {
+        "id": 53,
+        "type": "special_develop_gun",
+        "title": "重型制造",
+        "content": "累计重型制造{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 54,
+        "type": "adjust_equip",
+        "title": "装备校验",
+        "content": "",
+        "function_control_id": 0
+    },
+    {
+        "id": 55,
+        "type": "trial_mission",
+        "title": "防御演习",
+        "content": "",
+        "function_control_id": 0
+    },
+    {
+        "id": 56,
+        "type": "win_hunter",
+        "title": "",
+        "content": "战斗胜利情况下累计消灭铁血BOSS猎手*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 57,
+        "type": "win_executioner",
+        "title": "",
+        "content": "战斗胜利情况下累计消灭铁血BOSS刽子手*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 58,
+        "type": "win_architect",
+        "title": "",
+        "content": "战斗胜利情况下累计消灭铁血BOSS建筑师 *{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 59,
+        "type": "win_ouroboros",
+        "title": "",
+        "content": "战斗胜利情况下累计消灭铁血BOSS衔尾蛇*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 60,
+        "type": "get_friend_points",
+        "title": "",
+        "content": "活动期间，获得友情点数*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 61,
+        "type": "consume_friend_points",
+        "title": "",
+        "content": "活动期间，消耗友情点数*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 62,
+        "type": "consume_build_coin",
+        "title": "",
+        "content": "活动期间，消耗建设资料*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 63,
+        "type": "win_jammer",
+        "title": "通缉令",
+        "content": "战斗胜利情况下累计消灭铁血BOSS干扰者*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 64,
+        "type": "win_destroyer",
+        "title": "通缉令",
+        "content": "战斗胜利情况下累计消灭铁血BOSS破坏者*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 65,
+        "type": "win_alchemist",
+        "title": "通缉令",
+        "content": "战斗胜利情况下累计消灭铁血BOSS炼金术士*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 66,
+        "type": "consume_quick_develop",
+        "title": "",
+        "content": "累计消耗快速制造契约{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 67,
+        "type": "operation_big_success",
+        "title": "后勤大成功",
+        "content": "累计后勤大成功{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 68,
+        "type": "mystery_mission_1",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡E”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 69,
+        "type": "mystery_mission_2",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡F”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 70,
+        "type": "mystery_mission_3",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡G”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 71,
+        "type": "mystery_mission_4",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡H”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 72,
+        "type": "mystery_mission_5",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡I”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 73,
+        "type": "mystery_mission_6",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡J”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 74,
+        "type": "mystery_mission_7",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡K”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 75,
+        "type": "mystery_mission_8",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡L”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 76,
+        "type": "mystery_mission_9",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡M”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 77,
+        "type": "mystery_mission_10",
+        "title": "特殊作战",
+        "content": "战役胜利情况下挑战关卡“测试关卡N”{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 78,
+        "type": "special_develop_equip",
+        "title": "",
+        "content": "装备重型建造",
+        "function_control_id": 0
+    },
+    {
+        "id": 79,
+        "type": "mission_activities_win",
+        "title": "",
+        "content": "活动关卡或普通关卡挑战",
+        "function_control_id": 0
+    },
+    {
+        "id": 80,
+        "type": "mind_update",
+        "title": "",
+        "content": "进行{0}次心智升级",
+        "function_control_id": 0
+    },
+    {
+        "id": 81,
+        "type": "reset_mission_group",
+        "title": "",
+        "content": "重置{0}次活动关卡",
+        "function_control_id": 0
+    },
+    {
+        "id": 82,
+        "type": "special_mission_point",
+        "title": "",
+        "content": "兔洞达到{0}分",
+        "function_control_id": 0
+    },
+    {
+        "id": 83,
+        "type": "coffeeshop_comic",
+        "title": "",
+        "content": "购买{0}次漫画",
+        "function_control_id": 0
+    },
+    {
+        "id": 84,
+        "type": "coffeeshop_pv",
+        "title": "",
+        "content": "购买{0}次PV",
+        "function_control_id": 0
+    },
+    {
+        "id": 85,
+        "type": "mission_duplicate_type5",
+        "title": "",
+        "content": "参与云图回廊{0}次（任意难度）",
+        "function_control_id": 0
+    },
+    {
+        "id": 86,
+        "type": "develop_fairy",
+        "title": "",
+        "content": "获得战术妖精{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 87,
+        "type": "special_develop",
+        "title": "",
+        "content": "重型建造{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 88,
+        "type": "squad_base_data_analyse",
+        "title": "情报解析",
+        "content": "使用原始数据样本进行{0}次情报解析",
+        "function_control_id": 0
+    },
+    {
+        "id": 89,
+        "type": "squad_senior_data_analyse",
+        "title": "情报解析",
+        "content": "使用纯净数据样本进行{0}次情报解析",
+        "function_control_id": 0
+    },
+    {
+        "id": 90,
+        "type": "squad_data_analyse",
+        "title": "情报解析",
+        "content": "累计进行{0}次情报解析（原始/高级皆可）",
+        "function_control_id": 0
+    },
+    {
+        "id": 91,
+        "type": "squad_data_by_analyse",
+        "title": "中枢数据",
+        "content": "通过情报解析获得中枢数据*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 92,
+        "type": "squad_chip_rank4_by_analyse",
+        "title": "血统验证",
+        "content": "通过情报解析获得4星芯片*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 93,
+        "type": "squad_chip_rank5_by_analyse",
+        "title": "血统验证",
+        "content": "通过情报解析获得5星芯片*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 94,
+        "type": "squad_level_up_times",
+        "title": "重装等级提升",
+        "content": "重装部队累计提升{0}级",
+        "function_control_id": 0
+    },
+    {
+        "id": 95,
+        "type": "squad_strengthen_times",
+        "title": "重装部队强化",
+        "content": "使用{0}个增幅胶囊强化重装部队",
+        "function_control_id": 0
+    },
+    {
+        "id": 96,
+        "type": "squad_train_and_skill_times",
+        "title": "重装部队训练",
+        "content": "重装部队完成{0}次训练（经验/技能皆可）",
+        "function_control_id": 0
+    },
+    {
+        "id": 97,
+        "type": "squad_up_rank",
+        "title": "重装部队晋升",
+        "content": "重装部队晋升{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 98,
+        "type": "squad_up_advanced_times",
+        "title": "重装部队迭代",
+        "content": "累计进行{0}次迭代",
+        "function_control_id": 0
+    },
+    {
+        "id": 99,
+        "type": "squad_eat_chip_num",
+        "title": "芯片强化",
+        "content": "将{0}个芯片用于芯片强化",
+        "function_control_id": 0
+    },
+    {
+        "id": 100,
+        "type": "combine_gun",
+        "title": "人形扩编",
+        "content": "人形扩编{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 101,
+        "type": "win_armorrobot",
+        "title": "装甲机械铁血兵",
+        "content": "战斗胜利情况下消灭{0}个装甲机械铁血兵",
+        "function_control_id": 0
+    },
+    {
+        "id": 102,
+        "type": "win_robot",
+        "title": "普通机械铁血兵",
+        "content": "战斗胜利情况下消灭{0}个普通机械铁血兵",
+        "function_control_id": 0
+    },
+    {
+        "id": 103,
+        "type": "win_person",
+        "title": "普通人形铁血兵",
+        "content": "战斗胜利情况下消灭{0}个普通人形铁血兵",
+        "function_control_id": 0
+    },
+    {
+        "id": 104,
+        "type": "win_boss",
+        "title": "消灭BOSS",
+        "content": "战斗胜利情况下消灭{0}个BOSS",
+        "function_control_id": 0
+    },
+    {
+        "id": 105,
+        "type": "from_friend_build_coin",
+        "title": "电池领取",
+        "content": "累计领取好友宿舍电池{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 106,
+        "type": "finish_squad_daily_task",
+        "title": "完成情报任务",
+        "content": "完成{0}次情报任务",
+        "function_control_id": 0
+    },
+    {
+        "id": 107,
+        "type": "consume_quick_analyse",
+        "title": "消耗快速解析契约",
+        "content": "累计消耗快速解析契约*{0}",
+        "function_control_id": 0
+    },
+    {
+        "id": 108,
+        "type": "get_squad_fragment_type1",
+        "title": "血统验证_BGM-71",
+        "content": "累计获得{0}个反坦克武器中枢碎片",
+        "function_control_id": 0
+    },
+    {
+        "id": 109,
+        "type": "get_squad_fragment_type2",
+        "title": "血统验证_2B14",
+        "content": "累计获得{0}个迫击炮中枢碎片",
+        "function_control_id": 0
+    },
+    {
+        "id": 110,
+        "type": "get_squad_fragment_type3",
+        "title": "血统验证_AGS-30",
+        "content": "累计获得{0}个榴弹发射器中枢碎片",
+        "function_control_id": 0
+    },
+    {
+        "id": 111,
+        "type": "get_base_data",
+        "title": "获取原始数据样本",
+        "content": "累计获得{0}个原始数据样本",
+        "function_control_id": 0
+    },
+    {
+        "id": 112,
+        "type": "get_senior_data",
+        "title": "获取纯净数据样本",
+        "content": "累计获得{0}个纯净数据样本",
+        "function_control_id": 0
+    },
+    {
+        "id": 113,
+        "type": "get_fight_report",
+        "title": "生产任意作战报告书",
+        "content": "累计生产任意作战报告书*{0}（包括作战报告书和特种作战报告书）",
+        "function_control_id": 0
+    },
+    {
+        "id": 114,
+        "type": "explore_has_time",
+        "title": "完成探索",
+        "content": "累计完成{0}个小时探索",
+        "function_control_id": 0
+    },
+    {
+        "id": 115,
+        "type": "buy_commander_uniform",
+        "title": "指挥官服装购买",
+        "content": "累计购买{0}件指挥官服装",
+        "function_control_id": 0
+    },
+    {
+        "id": 116,
+        "type": "get_commander_uniform",
+        "title": "指挥官服装获得",
+        "content": "累计获得{0}件指挥官服装",
+        "function_control_id": 0
+    },
+    {
+        "id": 117,
+        "type": "buy_random_dye",
+        "title": "随机染色剂",
+        "content": "累计购买{0}个随机染色剂",
+        "function_control_id": 0
+    },
+    {
+        "id": 118,
+        "type": "buy_assign_dye",
+        "title": "指定染色剂",
+        "content": "累计购买{0}个指定染色剂",
+        "function_control_id": 0
+    },
+    {
+        "id": 119,
+        "type": "use_dye",
+        "title": "使用染色剂",
+        "content": "累计使用{0}个染色剂",
+        "function_control_id": 0
+    },
+    {
+        "id": 120,
+        "type": "sangvis_daily_retrieval",
+        "title": "常规捕获",
+        "content": "累计完成收归行动-常规捕获{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 121,
+        "type": "sangvis_aided_retrieval",
+        "title": "委托捕获",
+        "content": "累计完成收归行动-委托捕获{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 122,
+        "type": "sangvis_exercise",
+        "title": "融合演习",
+        "content": "累计完成模拟作战-融合演习{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 123,
+        "type": "sangvis_exercise_exp",
+        "title": "防卫构思集训",
+        "content": "累计完成融合演习-防卫构思集训{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 124,
+        "type": "sangvis_exercise_star",
+        "title": "开发调节操练",
+        "content": "累计完成融合演习-开发调节操练{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 125,
+        "type": "sangvis_exercise_analysis",
+        "title": "解密算法练习",
+        "content": "累计完成融合演习-解密算法练习{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 126,
+        "type": "consume_sangvis_exp_item",
+        "title": "突击成长",
+        "content": "累计消耗突击成长存储碟{0}个",
+        "function_control_id": 0
+    },
+    {
+        "id": 127,
+        "type": "consume_sangvis_advance_item",
+        "title": "开发培养",
+        "content": "累计消耗开发培养皿{0}个",
+        "function_control_id": 0
+    },
+    {
+        "id": 128,
+        "type": "consume_sangvis_skill_coin1",
+        "title": "训练密钥",
+        "content": "累计消耗初级训练密钥{0}个",
+        "function_control_id": 0
+    },
+    {
+        "id": 129,
+        "type": "consume_sangvis_skill_coin2",
+        "title": "训练密钥",
+        "content": "累计消耗高级训练密钥{0}个",
+        "function_control_id": 0
+    },
+    {
+        "id": 130,
+        "type": "consume_sangvis_material1_coin",
+        "title": "势能消耗（包括超导势能）",
+        "content": "累计消耗势能{0}个",
+        "function_control_id": 0
+    }
+]
