@@ -956,7 +956,7 @@ function RefreshVotoBoxUI()
 	end
 	--print(votoNum);
 	local txt1 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(votoNum);	
-	txtTitle.text=tostring(CS.System.String.Format(CS.Data.GetLang(60312),txt1,txt0));
+	txtTitle.text=tostring(CS.System.String.Format(CS.Data.GetLang(60312),txt0,txt1));
 	local txtShowNum = votobox.transform:Find("Main/InputField/PlaceHolder"):GetComponent(typeof(CS.ExText));
 	txtShowNum.text = tostring(votoNum).."/"..tostring(CS.GameData.GetItem(itemid));
 	local txt2 = CS.GameData.listItemInfo:GetDataById(itemid).name.."x"..tostring(CS.GameData.GetItem(itemid));		
