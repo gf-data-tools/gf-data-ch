@@ -143,7 +143,11 @@ local OpenRuler = function(self)
 end
 local ShowItemRuler = function(self)
 	if self.specialItemObj~= nil and not self.specialItemObj:isNull() then
-		local txt = self.specialItemObj.transform:Find("MissionItems/Btn_Rule/URL"):GetComponent(typeof(CS.ExText));
+		local txtUrl = self.specialItemObj.transform:Find("MissionItems/Btn_Rule/URL");
+		if txtUrl == nil then
+			return;
+		end
+		local txt = txtUrl:GetComponent(typeof(CS.ExText));
 		if not CS.System.String.IsNullOrEmpty(txt.text) then
 			self:OpenAnnouncement(txt.text);
 			return;
