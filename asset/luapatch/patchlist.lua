@@ -163,6 +163,7 @@ patch2090={
 "2090/FormationEffectItemController",
 "2090/TheaterMissiontSettlement",
 "2090/TheaterCombatSettlementUIController",
+"2090/DormFurniturePieceController",	
 }
 patch3010={
 "3010/DeploymentTeamController",
