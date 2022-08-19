@@ -5,19 +5,9 @@
     type: 2
     code: Drone
     introduce: 常规靶机，只用于训练和演习，可自动记录作战影像（前提是摄像头没被破坏）。
-    forces: 0
-    if_capture: 0
-    pow_rank: 0
     life_rank: 7
-    hit_rank: 0
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
-    speed_rank: 0
-    range_rank: 0
     counter: 努力训练!
     character: "1001,903"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000001
     spine_scale: "90,90,1"
@@ -35,12 +25,10 @@
     hit_rank: 1
     dodge_rank: 1
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 2
     range_rank: 2
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000002
     spine_scale: "100,100,1"
@@ -58,12 +46,10 @@
     hit_rank: 2
     dodge_rank: 6
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 4
     range_rank: 3
     counter: 该单位闪避较高，请注意梯队的命中能力是否足够应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000003
     spine_scale: "100,100,1"
@@ -81,12 +67,10 @@
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000004
     spine_scale: "100,100,1"
@@ -104,7 +88,6 @@
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 4
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -125,14 +108,11 @@
     pow_rank: 5
     life_rank: 1
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 5
     range_rank: 2
     counter: 该单位近战输出能力极高，但相对的自身生存能力极差，推荐使用能快速造成范围伤害的人形或突击步枪人形在接触前完成歼灭。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000006
     spine_scale: "100,100,1"
@@ -150,12 +130,10 @@
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000007
     spine_scale: "100,100,1"
@@ -196,12 +174,10 @@
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位主要担当后排输出，攻速较慢、命中较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排的人形进行处理。
     character: "307"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000009
     spine_scale: "100,100,1"
@@ -219,12 +195,10 @@
     hit_rank: 3
     dodge_rank: 1
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 2
     counter: 该单位为近战单位，防御能力较强，但相对的对我方造成有效伤害的能力较弱，主要威胁来自其他负责输出的单位，请注意选用合适的枪种人形以优先处理被护卫者掩护的单位。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000010
     spine_scale: "90,90,1"
@@ -265,12 +239,10 @@
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "304"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000012
     spine_scale: "75,75,1"
@@ -288,7 +260,6 @@
     hit_rank: 6
     dodge_rank: 3
     rate_rank: 1
-    armor_rank: 0
     speed_rank: 3
     range_rank: 5
     counter: 该单位将向预警位置制造较强的投掷伤害，注意指挥人形及时移动规避
@@ -309,14 +280,12 @@
     pow_rank: 4
     life_rank: 3
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 1
     armor_rank: 3
     speed_rank: 3
     range_rank: 4
     counter: 护甲单位，主要担当后排输出，攻速较慢、命中和伤害较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排且带穿甲能力的人形进行处理。
     character: "309"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000014
     spine_scale: "100,100,1"
@@ -332,14 +301,12 @@
     pow_rank: 2
     life_rank: 4
     hit_rank: 2
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 5
     speed_rank: 2
     range_rank: 2
     counter: 该单位拥有一定护甲，接战前请对我方穿甲能力进行仔细评估
     character: "303,309"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000015
     spine_scale: "100,100,1"
@@ -355,14 +322,12 @@
     pow_rank: 6
     life_rank: 5
     hit_rank: 4
-    dodge_rank: 0
     rate_rank: 4
     armor_rank: 3
     speed_rank: 2
     range_rank: 3
     counter: 拥有一定护甲，输出能力优秀，不是适合长时间对抗的敌人，请注意提高梯队的整体作战能力应对。
     character: "1003,309,301"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000016
     spine_scale: "80,80,1"
@@ -380,7 +345,6 @@
     hit_rank: 3
     dodge_rank: 4
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -403,7 +367,6 @@
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 5
     counter: 该单位具有极高的单发伤害，但是攻速较慢，命中一般，回避型人形会有更好的防御效果。
@@ -420,7 +383,6 @@
     code: HunterElite
     introduce: 机动和智能都比较高，擅长骚扰和追击作战的铁血精英人形，在原本的规格上，将搭载的演算芯片进行了大幅度升级，现在她更加沉着冷静，能够熟练运用各种手段将敌人逼至绝路。
     forces: 1
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -443,7 +405,6 @@
     code: ExcutionerElite
     introduce: 比起使用战术，更偏向于正面对决的铁血精英人形，挥舞的长刀在原本的基础上进行了改进，加强了近距离作战能力，热衷于堂堂正正的战斗，并不喜欢欺负弱者。
     forces: 1
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 4
@@ -489,7 +450,6 @@
     code: WeaverElite
     introduce: 擅长作战以及战术演算的高规格铁血精英人形，各方面性能都在极高水平，是战场上的多面手，现在她的各方面的能力也因为取得了多种战术资料而大幅增强，她表面沉稳内心高傲……但是实战经验较少，而且行事风格捉摸不定，令敌我双方都难以预判，因此将她投入到战场上仍然具有一定的风险。
     forces: 1
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -518,7 +478,6 @@
     hit_rank: 4
     dodge_rank: 5
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -541,7 +500,6 @@
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位射程较远，请注意梯队整体移动速度，避免移动时间过长导致战损加重。
@@ -558,14 +516,11 @@
     code: Jupiter
     introduce: 铁血窃取军方科技而研发的巨型炮台，无法移动，但拥有战术人形无法匹敌的强大火力和超远射程。可以通过包围战术切断其能源，使其主炮停止运作，只能使用机枪塔还击。
     forces: 1
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 4
     armor_rank: 2
-    speed_rank: 0
     range_rank: 5
     counter: 未被切断供电前具有极高的威胁性，建议通过合围占领以切断供电，削弱该单位后再进行攻克。
     character: "1003,309,910"
@@ -587,7 +542,6 @@
     hit_rank: 5
     dodge_rank: 4
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -633,12 +587,10 @@
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 2
     counter: 该单位拥有较高的破甲值，对霰弹枪人形来说是个危险的存在，请注意避免我方霰弹枪人形与她接触。推荐使用冲锋枪、手枪等回避型人形担当前排。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000028
     spine_scale: "85,85,1"
@@ -656,12 +608,10 @@
     hit_rank: 2
     dodge_rank: 3
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位攻速较高、伤害一般，推荐使用霰弹枪人形搭配足够的护甲进行抵御。
     character: "308"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000029
     spine_scale: "100,100,1"
@@ -677,14 +627,12 @@
     pow_rank: 5
     life_rank: 1
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 2
     armor_rank: 4
     speed_rank: 5
     range_rank: 2
     counter: 该单位近战输出能力极高，但相对的自身生存能力极差，但因有护甲加持，在我方穿甲能力不足的情况下不利于快速清理。推荐使用能快速造成范围伤害的人形或机枪人形在接触前完成歼灭。
     character: "303,309"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000030
     spine_scale: "150,150,1"
@@ -696,13 +644,9 @@
     code: Golyat
     introduce: 铁血的炸弹型作战单位，与敌方接触后会自行爆炸，造成超广范围的恐怖杀伤，必须在其近身前尽快消灭。
     forces: 1
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 7
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
     speed_rank: 3
     range_rank: 1
     counter: 危险！请注意评估队伍输出能力是否足够歼灭该单位，输出能力不足时建议规避。
@@ -719,13 +663,9 @@
     code: GolyatPlus
     introduce: 歌利亚的升级版，现有战术人形的火力几乎不可能在短时间内将其破坏，避免与其战斗也许是最佳方案。
     forces: 1
-    if_capture: 0
     pow_rank: 7
     life_rank: 7
     hit_rank: 7
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
     speed_rank: 3
     range_rank: 1
     counter: 极度危险！请注意规避！
@@ -765,13 +705,11 @@
     code: DestroyerPlus
     introduce: 原本的破坏者被梦想家改造素体之后的全新姿态，火力得到大幅增强，威力较之原本更上了一层楼，但性格与心智并没有太大的改变。
     forces: 1
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 5
     counter: 该单位将向预警位置制造较强伤害，请注意指挥人形及时移动规避。
@@ -810,19 +748,15 @@
     type: 3
     code: unknown
     introduce: 只存在于电子空间的虚拟敌人，在慢慢接近敌人之后扑咬敌人。通常而言，这些意识体是电子战模块将防火墙程序具现化的防御单位，也有可能是在电子平层潜伏的病毒或者恶意程序，或者某些无法解释的深层存在。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 2
     range_rank: 2
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000036
     spine_scale: "80,80,1"
@@ -834,13 +768,11 @@
     code: Cyclops
     introduce: 军方的作战人形，配备步枪和杀伤较强的榴弹发射装置，装甲相对其他型号较为薄弱。
     forces: 2
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -857,7 +789,6 @@
     code: Cyclops_SG
     introduce: 军方的常规作战人形，配备霰弹枪和防弹护盾，其他性能与该原型型号相差不大。
     forces: 2
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 3
@@ -880,11 +811,9 @@
     code: Hydra
     introduce: 军方订购的常规军用机甲，在“蝎甲兽”的基础上进行升级和改进，搭载更高级的远程军用火力系统和装甲，强大的主炮可以对敌方进行毁灭性的武力扫荡。
     forces: 2
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 4
-    dodge_rank: 0
     rate_rank: 4
     armor_rank: 6
     speed_rank: 1
@@ -903,11 +832,9 @@
     code: Aegis_GA
     introduce: 军方的常规作战人形，搭载常规的电击武器和军用护盾，近战实力强大且拥有厚重的装甲。
     forces: 2
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 2
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 5
     speed_rank: 3
@@ -926,18 +853,15 @@
     code: Cerynitis
     introduce: 军方的常规作战机甲，在“钢狮”的基础上进行升级和改造，搭载远程军用火力系统，并拥有更强的装甲和高速连射能力。
     forces: 2
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 1
     armor_rank: 3
     speed_rank: 3
     range_rank: 4
     counter: 护甲单位，攻击间隔较短，伤害较高，建议选用步枪人形优先处理。
     character: "1003,309"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000041
     spine_scale: "100,100,1"
@@ -949,12 +873,9 @@
     code: Dactyl
     introduce: 军方的小型自走布雷机，会在战场上高速接近地方区域并布下地雷，即使脆弱的本体被消灭，地雷依然可以在混乱的战场造成恐怖威胁。
     forces: 2
-    if_capture: 0
     pow_rank: 5
     life_rank: 2
     hit_rank: 4
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 2
     speed_rank: 3
     range_rank: 5
@@ -972,11 +893,9 @@
     code: Typhon
     introduce: 军方订购的常规军用坦克，配备了一门强大的激光炮，蓄力后发射可以贯穿敌方的整个战场，并造成惊人的破坏。唯一破解的办法是快速接近它行动笨拙的本体，利用火力盲区尽快将其消灭。
     forces: 2
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 6
-    dodge_rank: 0
     rate_rank: 5
     armor_rank: 4
     speed_rank: 3
@@ -995,7 +914,6 @@
     code: M16A1_Boss
     introduce: 遭‘伞’病毒感染而铁血化的原AR小队所属格里芬战术人形M16A1，不论是外表还是性格都产生了极大的变化，唯一不变的是值得信赖的战术能力。作为伙伴时令人放松，作为敌人时则令人胆寒。
     forces: 1
-    if_capture: 0
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -1024,7 +942,6 @@
     hit_rank: 5
     dodge_rank: 2
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 4
     counter: 在该角色生成护盾时，请注意集中火力将护盾击破以中断蓄力，避免蓄力的高伤害攻击。
@@ -1041,18 +958,15 @@
     code: Strelet
     introduce: 基础的步兵人形，配备有和军方火力接近的突击武器系统，虽然是被量产的基本作战单位，但战斗力远高于铁血的常规单位。
     forces: 3
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 2
     dodge_rank: 3
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "312"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000046
     spine_scale: "100,100,1"
@@ -1064,7 +978,6 @@
     code: Rodelero
     introduce: 灵活的重火力人形，装备有喷射背包，可以使其从战场后方快速飞跃到前排，并使用蓄能完毕的激光炮贯穿战场。同时它还配备了力场盾生成器，可以弹开敌人的实弹攻击。
     forces: 3
-    if_capture: 0
     pow_rank: 3
     life_rank: 4
     hit_rank: 3
@@ -1087,11 +1000,9 @@
     code: Doppelsoldner
     introduce: 强大的重火力机甲，本身装甲厚重的同时，也配备了力场盾发生器。攻击手段除了双手的高速机关炮，还可使用多联装榴弹发射器，造成大范围伤害。
     forces: 3
-    if_capture: 0
     pow_rank: 2
     life_rank: 4
     hit_rank: 3
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 4
     speed_rank: 1
@@ -1110,11 +1021,9 @@
     code: Uhlan
     introduce: 凶猛的重甲坦克，同样配备了厚重的装甲和力场盾发生器，远程火力武装只有一门机关炮，但自身可以在战场最前方进行冲锋和碾压，快速破坏对方的前方阵型。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 4
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 4
     speed_rank: 3
@@ -1178,19 +1087,15 @@
     type: 3
     code: Zombie2
     introduce: 遭受坍塌辐射污染的军方人类士兵，已经丧失理智，完全陷入充满攻击性的狂乱状态，只会本能地移动，并使用突击步枪胡乱射击眼前的任何移动物，但已经无法做出发射榴弹这种相对复杂的行动。
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 3
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000052
     spine_scale: "90,90,1"
@@ -1201,19 +1106,15 @@
     type: 3
     code: Zombie1
     introduce: 受坍塌辐射污染的军方人类士兵，遗失武器的他们会徒手攻击任何看到的移动目标，攻击手段虽然只是张牙舞爪地胡乱挥舞，但在坍塌液的强化下，力量和速度依然有着可怕的威胁。
-    forces: 0
-    if_capture: 0
     pow_rank: 2
     life_rank: 4
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 3
     range_rank: 2
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000053
     spine_scale: "90,90,1"
@@ -1224,14 +1125,11 @@
     type: 1
     code: Smasher
     introduce: 遭受坍塌辐射的严重污染，身体发生变异的军方人类士兵，EILD感染者会随感染事件和辐射强度而逐渐出现内脏，表皮硬化的症状，所以这些重度感染者的皮肤十分坚硬难以被伤害，性格比其他感染者更狂暴，破坏力也更加恐怖。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 6
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 3
     range_rank: 5
     counter: 该单位能力均衡，同时会持续给我方造成小额伤害，不适合长时间交战，请注意提高梯队的整体作战能力应对。
@@ -1254,12 +1152,10 @@
     hit_rank: 1
     dodge_rank: 1
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 2
     range_rank: 2
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000055
     spine_scale: "100,100,1"
@@ -1277,7 +1173,6 @@
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位主要担当后排输出，攻速较慢、命中较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排的人形进行处理。
@@ -1300,7 +1195,6 @@
     hit_rank: 3
     dodge_rank: 1
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 2
     counter: 该单位为近战单位，防御能力较强，但相对的对我方造成有效伤害的能力较弱，主要威胁来自其他负责输出的单位，请注意选用合适的枪种人形以优先处理被护卫者掩护的单位。
@@ -1323,7 +1217,6 @@
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -1346,12 +1239,10 @@
     hit_rank: 2
     dodge_rank: 3
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位攻速较高、伤害一般，推荐使用霰弹枪人形搭配足够的护甲进行抵御。
     character: "308"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000059
     spine_scale: "100,100,1"
@@ -1367,7 +1258,6 @@
     pow_rank: 2
     life_rank: 5
     hit_rank: 2
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 5
     speed_rank: 2
@@ -1386,7 +1276,6 @@
     code: Nyto_Silver
     introduce: 神秘势力中‘涅托’里的一员，目前一切相关情报都尚不明朗。被妮莫金称为妹妹，喜欢人类的诗歌，看起来对其有着独特的偏好和感性。
     forces: 3
-    if_capture: 0
     pow_rank: 6
     life_rank: 6
     hit_rank: 5
@@ -1409,7 +1298,6 @@
     code: Nyto_Gold
     introduce: 神秘势力中‘涅托’里的一员，被墨丘萝丝称为姐姐。对‘父亲大人’极为尊敬。目前其余一切相关情报都尚不明朗
     forces: 3
-    if_capture: 0
     pow_rank: 6
     life_rank: 6
     hit_rank: 5
@@ -1432,7 +1320,6 @@
     code: Roarer
     introduce: 被遗留在塔林的废弃人形，主要攻击方式为近战的重型重甲单位，与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 3
@@ -1455,7 +1342,6 @@
     code: Thunder
     introduce: 被遗留在塔林的废弃人形，利用搭载于身体下方的炮台攻击，遭受攻击时会利用跳跃闪避。与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -1478,13 +1364,11 @@
     code: StreletPlus
     introduce: 被遗留在塔林的废弃人形，与射击士极为类似，搭载更加强大的火力，并且使用特殊的弹药降低我方人形的回避率。与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 1
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -1501,13 +1385,11 @@
     code: Isomer
     introduce: 被遗留在塔林的废弃人形，自身并没有攻击能力，但能够晕眩周围的敌人，与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 1
     life_rank: 4
     hit_rank: 1
     dodge_rank: 5
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 1
     range_rank: 5
     counter: 情报不明,谨慎应对!
@@ -1524,18 +1406,14 @@
     code: Pyxis
     introduce: 缠人的轻火力炮台，配备有和军方火力接近的高射速武器系统，是被量产的基本作战单位，放定之后无法移动，常用于压制战。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 3
-    dodge_rank: 0
     rate_rank: 5
     armor_rank: 2
-    speed_rank: 0
     range_rank: 5
     counter: 该单位攻速较高、伤害一般，推荐使用霰弹枪人形搭配足够的护甲进行抵御。
     character: "309,308"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000067
     spine_scale: "100,100,1"
@@ -1547,7 +1425,6 @@
     code: Nyto_Isomer_White
     introduce: 融合了来到塔林的妮莫金的心智并夺取其素体的一个异构体。带领着全塔林的异构体，希望能从这里“离开”。在指挥官的队伍进入塔林后，认定M4是那个“适格者”，能带领她们离开这里。
     forces: 3
-    if_capture: 0
     pow_rank: 7
     life_rank: 6
     hit_rank: 5
@@ -1570,15 +1447,8 @@
     code: RecceCentre
     introduce: 军方用于生产尖兵的微型工厂，自身作战能力不强，且行动较为迟缓，但通常会配属大量防卫兵种保护。
     forces: 2
-    if_capture: 0
-    pow_rank: 0
     life_rank: 6
-    hit_rank: 0
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 4
-    speed_rank: 0
-    range_rank: 0
     counter: 高护甲单位，会源源不断的生产尖兵单位，不太适合突击步枪人形来应对。建议使用步枪人形处理。
     character: "309,321"
     enemy_skill: "21"
@@ -1593,7 +1463,6 @@
     code: Pathfinder
     introduce: 尖兵：侦查中枢生产的球型单位，依据侦查中枢的功能而决定作战能力，搭载轻火力，虽然非常脆弱但相当灵活，适合量产。
     forces: 2
-    if_capture: 0
     pow_rank: 4
     life_rank: 2
     hit_rank: 4
@@ -1616,13 +1485,11 @@
     code: Archer
     introduce: 军方的常规作战人形，使用特殊的爆炸箭头作为武器，拥有超长的射程和命中率，是训练有素的精英单位。
     forces: 2
-    if_capture: 0
     pow_rank: 3
     life_rank: 3
     hit_rank: 3
     dodge_rank: 4
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 2
     range_rank: 4
     counter: 该单位将向预警位置制造可持续燃烧的爆炸箭伤害，注意指挥人形及时移动规避
@@ -1639,13 +1506,11 @@
     code: Beast
     introduce: 军方的常规作战机甲，重型的坦克型近战单位，常用于碾压敌方阵型及前排抗压战术，厚重而结实，缺点是攻击方式单一，仅能作为肉盾使用。
     forces: 2
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 5
     dodge_rank: 2
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 6
     range_rank: 2
     counter: 拥有小量护甲，移速较高，开启护盾后会将受击伤害压至最小，建议使用高攻速或多段攻击的手段打击。
@@ -1662,7 +1527,6 @@
     code: TeslaTrooper
     introduce: 军方订购的高级军用机甲，装甲厚重，还装备了导弹发射器，能力非常全面。
     forces: 2
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 3
@@ -1685,18 +1549,14 @@
     code: GustafL_3
     introduce: 军方订购的高级军用火力列车炮的前段
     forces: 2
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 3
-    speed_rank: 0
     range_rank: 5
     counter: 在战役地图上能对友方提供远程支援，在战略上具有极大威胁性，建议避免与受其支援的单位作战。注意观察前中后段各自的支援范围，选取正确的攻克顺序，避免其交叉火力打击。
     character: "908,910,326"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000074
     spine_scale: "-15,15,1"
@@ -1708,18 +1568,14 @@
     code: GustafL_2
     introduce: 军方订购的高级军用火力列车炮的中段
     forces: 2
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 3
-    speed_rank: 0
     range_rank: 5
     counter: 在战役地图上能对友方提供远程支援，在战略上具有极大威胁性，建议避免与受其支援的单位作战。注意观察前中后段各自的支援范围，选取正确的攻克顺序，避免其交叉火力打击。
     character: "908,910,326"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000075
     spine_scale: "-15,15,1"
@@ -1731,18 +1587,14 @@
     code: GustafL_1
     introduce: 军方订购的高级军用火力列车炮的后段
     forces: 2
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 3
-    speed_rank: 0
     range_rank: 5
     counter: 在战役地图上能对友方提供远程支援，在战略上具有极大威胁性，建议避免与受其支援的单位作战。注意观察前中后段各自的支援范围，选取正确的攻克顺序，避免其交叉火力打击。
     character: "908,910,326"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000076
     spine_scale: "-15,15,1"
@@ -1754,7 +1606,6 @@
     code: Kratos
     introduce: 军方生产的特殊人形，拥有巨大的身躯和强劲的力量。擅长碾压式的突击作战，不论是作为肉盾还是破阵者都十分优秀。
     forces: 2
-    if_capture: 0
     pow_rank: 6
     life_rank: 6
     hit_rank: 4
@@ -1777,15 +1628,8 @@
     code: Acheron
     introduce: 军方生产的特殊配备，外形神似灯柱，而抵达指定地点后可以张开底座固定，进而提供防御性力场，常作为功能性配属使用。
     forces: 2
-    if_capture: 0
-    pow_rank: 0
     life_rank: 5
-    hit_rank: 0
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 4
-    speed_rank: 0
-    range_rank: 0
     counter: 该单位会持续给友方提供一定的护盾加成，它的存在不利于攻克部分不适合长时间战斗的敌人，建议使用具有后排索敌能力的人形或重装部队支援。
     character: "1001,309,310"
     enemy_skill: "51"
@@ -1800,7 +1644,6 @@
     code: Coeus
     introduce: 军方生产的特殊机甲，搭载浓缩而具有爆发性的火力，同时也具备一定程度的机动性，同样常作为战术压制场合的王牌使用，性能上具有不可替代的优越性。
     forces: 2
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 5
@@ -1823,7 +1666,6 @@
     code: Ares
     introduce: 负罪者：军方生产的精英机甲，原本是某位军人专属的座驾。性能卓越，搭载有高强度的火力，除却巨炮以外亦可使用导弹作为攻击手段，同时也拥有护盾作为防御，可以说是具备全方位碾压性的战术机甲，其名“负罪者”。
     forces: 2
-    if_capture: 0
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -1850,14 +1692,11 @@
       但事实上，“伊莱莎”并不是一个单纯的AI程序。莱柯的最终目的，是制作一个拥有自我意识，和人类一样思考、感知的，完美的人工智能。在蝴蝶事件后“伊莱莎”获得了实体，并接管所有铁血人形，为了为“父亲”莱柯复仇，开始攻击所有目击到的人类和铁血以外的战术人形。同时，她希望成为“父亲”莱柯心中完美的AI——那就是获得与人类别无二致的心智，开始从父亲大人的资料中寻找完美的AI样本。
       '''
     forces: 1
-    if_capture: 0
     pow_rank: 7
     life_rank: 6
     hit_rank: 5
     dodge_rank: 4
     rate_rank: 4
-    armor_rank: 0
-    speed_rank: 0
     range_rank: 5
     counter: 逆向坍塌的影响虽然会令您的人形失去战斗能力，但是浮空的影响对于人形也是一种保护，合理应用这一点躲避难以抵挡的伤害吧！
     character: "1001,900"
@@ -1872,12 +1711,9 @@
     type: 4
     code: Hydra_beach
     introduce: 某军工企业耗费巨资打造的自律兵器,采用了生物伪装兵器的究极设计,但直观来讲只是把体型做得更大了而已,制造方也否认这是导致企业倒闭的主要原因。
-    forces: 0
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 4
-    dodge_rank: 0
     rate_rank: 4
     armor_rank: 6
     speed_rank: 1
@@ -1895,13 +1731,9 @@
     type: 4
     code: landmine_beach
     introduce: 某军工企业制造的旧式自律兵器,以伪装成生物为出发点,但因用力过猛,做成了"只是很有攻击性的机械海鲜"而被驳回。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 2
     hit_rank: 4
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 2
     speed_rank: 3
     range_rank: 5
@@ -1918,16 +1750,8 @@
     type: 2
     code: RecceCentre_beach
     introduce: 某军工企业制造的旧式自律兵器,用来生产拟态瓜的设施,但经常因为不明真相的游客造访而影响开发进度。
-    forces: 0
-    if_capture: 0
-    pow_rank: 0
     life_rank: 6
-    hit_rank: 0
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 4
-    speed_rank: 0
-    range_rank: 0
     counter: 高护甲单位，会源源不断的生产西瓜形态单位，不太适合突击步枪人形来应对。建议使用步枪人形处理。
     character: "309,321"
     enemy_skill: "10021"
@@ -1941,8 +1765,6 @@
     type: 2
     code: Pathfinder_beach
     introduce: 某军工企业制造的旧式自律兵器,本意是伪装成美味的食物来骗过敌人,但发生过验收人员误把它当做真的食物切开的意外。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 2
     hit_rank: 4
@@ -1971,7 +1793,6 @@
     hit_rank: 3
     dodge_rank: 6
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位在受到致命伤害时会获得一定的保护,要做好持久战的准备。
@@ -1987,14 +1808,11 @@
     type: 3
     code: Cocktail
     introduce: 出现在街头的危险份子,可以投掷燃烧瓶对我方造成持续伤害
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 2
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -2002,7 +1820,6 @@
     enemy_skill: "10087"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000087
-    spine_scale: ""
   }
   {
     id: 88
@@ -2010,22 +1827,17 @@
     type: 3
     code: Cottoncaper
     introduce: 冲锋在前的危险份子,有着令人咋舌的勇气
-    forces: 0
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,300"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000088
-    spine_scale: ""
   }
   {
     id: 89
@@ -2033,14 +1845,11 @@
     type: 3
     code: Hiresniper
     introduce: 经验丰富的雇佣兵,擅长保持距离对我方造成狙击伤害
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 1
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位主要担当后排输出，攻速较慢、命中较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排的人形进行处理。
@@ -2048,7 +1857,6 @@
     enemy_skill: "10005"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000089
-    spine_scale: ""
   }
   {
     id: 90
@@ -2056,22 +1864,17 @@
     type: 3
     code: Swordsman
     introduce: 挥舞着锋利的匕首,有着出色的身体能力
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 2
     counter: 该单位拥有较高的破甲值，对霰弹枪人形来说是个危险的存在，请注意避免我方霰弹枪人形与她接触。推荐使用冲锋枪、手枪等回避型人形担当前排。
     character: "1001,303"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000090
-    spine_scale: ""
   }
   {
     id: 91
@@ -2079,8 +1882,6 @@
     type: 1
     code: CarcanoEnemy
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -2094,7 +1895,6 @@
     enemy_skill: "10191,10091"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000091
-    spine_scale: ""
   }
   {
     id: 92
@@ -2102,22 +1902,17 @@
     type: 1
     code: HenEnemy
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 4
     range_rank: 3
     counter: 避免与该单位发生冲突。
     character: "1001,301"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000092
-    spine_scale: ""
   }
   {
     id: 93
@@ -2125,22 +1920,17 @@
     type: 1
     code: RicoEnemy
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 4
     range_rank: 5
     counter: 避免与该单位发生冲突。
     character: "1001,301"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000093
-    spine_scale: ""
   }
   {
     id: 94
@@ -2155,7 +1945,6 @@
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位能力可对我方单位造成针对性的伤害和削弱,需要思考配队应对。
@@ -2172,13 +1961,11 @@
     code: Brute_SWAP
     introduce: 性能大幅增强后的残兽，会对我方护甲单位造成较大的威胁。
     forces: 1
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 2
     counter: 该单位拥有较高的破甲值，对霰弹枪人形来说是个危险的存在，请注意避免我方霰弹枪人形与她接触。推荐使用冲锋枪、手枪等回避型人形担当前排。
@@ -2195,11 +1982,9 @@
     code: Nemeum_SWAP2
     introduce: 性能大幅增强后的钢狮，较高的准度使得攻击很难被回避。
     forces: 1
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 2
     armor_rank: 3
     speed_rank: 3
@@ -2217,19 +2002,15 @@
     type: 3
     code: refugee_hg
     introduce: 遭受坍塌辐射污染的人类游民。保持着适当的理智,会使用轻型枪械与目标作战。
-    forces: 0
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000097
     spine_scale: "100,100,1"
@@ -2240,19 +2021,15 @@
     type: 3
     code: refugee_smg
     introduce: 遭受坍塌辐射污染的人类游民。因为感染程度较深性格也变得暴躁嗜血,不毁灭敌人决不罢休。
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 4
     hit_rank: 3
     dodge_rank: 4
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 4
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000098
     spine_scale: "100,100,1"
@@ -2268,8 +2045,6 @@
     pow_rank: 7
     life_rank: 5
     hit_rank: 7
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 3
     speed_rank: 3
     range_rank: 1
@@ -2286,19 +2061,15 @@
     type: 3
     code: Ripper_Halloween
     introduce: 铁血的节日特供傀儡，装配有短程冲锋武器和没什么作用的头部防具，机动性较高，出场时常充当南瓜灯的雕刻者或顶着南瓜灯巡逻的角色。
-    forces: 0
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000101
     spine_scale: "90,90,1"
@@ -2309,19 +2080,15 @@
     type: 3
     code: Jaeger_Halloween
     introduce: 铁血的节日特供傀儡，装配有远程狙击武器，火力和精准度较高。尽管精心在身上涂抹了磷粉来制造发光效果，也无法改变本体脆弱的缺陷。
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 1
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位主要担当后排输出，攻速较慢、命中较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排的人形进行处理。
     character: "307"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000102
     spine_scale: "80,80,1"
@@ -2332,22 +2099,17 @@
     type: 3
     code: Dragon_Halloween
     introduce: 铁血的高级节日特供傀儡，装配有实验用的悬浮代步装置、反重力大檐帽和突击武器，无论火力、射程和机动性都不容小觑，经常扮演惊吓破坏者并被轰炸的角色。
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 3
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "304"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000103
-    spine_scale: ""
   }
   {
     id: 104
@@ -2355,22 +2117,17 @@
     type: 5
     code: Aegis_Halloween
     introduce: 原是战遍沙场的骑士，在身躯遭到恶魔侵袭后，沦为了恶魔骑士。即使失去了所有记忆，但他总隐约记得自己要守护什么。
-    forces: 0
-    if_capture: 0
     pow_rank: 2
     life_rank: 4
     hit_rank: 2
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 5
     speed_rank: 2
     range_rank: 2
     counter: 该单位拥有一定护甲，接战前请对我方穿甲能力进行仔细评估
     character: "303,309"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000104
-    spine_scale: ""
   }
   {
     id: 105
@@ -2378,22 +2135,17 @@
     type: 4
     code: Nemeum_Halloween
     introduce: 原是勇猛无畏的战马，在身躯遭到恶魔侵袭后，沦为了恶魔的坐骑。即使失去了所有记忆，但它总隐约记得自己要守护什么。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 1
     armor_rank: 3
     speed_rank: 3
     range_rank: 4
     counter: 护甲单位，主要担当后排输出，攻速较慢、命中和伤害较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排且带穿甲能力的人形进行处理。
     character: "309"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000105
-    spine_scale: ""
   }
   {
     id: 106
@@ -2401,22 +2153,16 @@
     type: 2
     code: Dinergate_chm1
     introduce: 铁血的低级庆祝机甲，运输能力较弱但有驯鹿协助，通常用于增添圣诞节日气氛。如果预定路线上有障碍物会采用撞坏墙壁冲进门的方式送礼，请不要随意改变房门位置。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 1
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 5
     range_rank: 2
     counter: 该单位近战输出能力极高，但相对的自身生存能力极差，推荐使用能快速造成范围伤害的人形或突击步枪人形在接触前完成歼灭。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000106
-    spine_scale: ""
   }
   {
     id: 107
@@ -2424,22 +2170,16 @@
     type: 2
     code: Dinergate_chm2
     introduce: 铁血的低级运输单位，通常用于协助圣诞兵蚁增加节日气氛。如果预定路线上有障碍物会采用撞坏墙壁冲进门的方式送礼，请不要随意改变房门位置。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 1
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 5
     range_rank: 2
     counter: 该单位近战输出能力极高，但相对的自身生存能力极差，推荐使用能快速造成范围伤害的人形或突击步枪人形在接触前完成歼灭。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000107
-    spine_scale: ""
   }
   {
     id: 108
@@ -2447,22 +2187,18 @@
     type: 3
     code: Guard_chm
     introduce: 铁血的高级节日傀儡，装配有姜饼和糖果杖。如外形所见的高甜度角色，一般用于防御重要的厨房，或者拦截用破坏者做幌子溜进门偷糖的梦想家时出场。
-    forces: 0
     if_capture: 1
     pow_rank: 1
     life_rank: 4
     hit_rank: 3
     dodge_rank: 1
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 2
     counter: 该单位为近战单位，防御能力较强，但相对的对我方造成有效伤害的能力较弱，主要威胁来自其他负责输出的单位，请注意选用合适的枪种人形以优先处理被护卫者掩护的单位。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000108
-    spine_scale: ""
   }
   {
     id: 109
@@ -2471,13 +2207,11 @@
     code: Narciss
     introduce: 帕拉蒂斯“涅托"里的一员，某方面的失败反而使她在战斗方面的能力强过同伴许多。擅长狂风暴雨般的攻击，撕碎自己面前的一切敌方单位，并从摧毁中得到快乐。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位在战斗中具有近战/远程两种输出模式,若击毁全部七把浮游刀,该单位将由远程模式切换至近战模式,近战模式下将对低编制单位造成极大威胁。
@@ -2485,7 +2219,6 @@
     enemy_skill: "108,109,110"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000109
-    spine_scale: ""
   }
   {
     id: 110
@@ -2494,13 +2227,11 @@
     code: Mrsgray
     introduce: 帕拉蒂斯“涅托"里的一员，精通医术，头脑精密而冷静。善于利用身边的一切有利因素作战，削弱敌人使自己获得优势。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位可以通过呼叫增援单位制造持续的威胁,并可以通过多种限制手段以及技能冷却的增加来削弱我方的输出,短期的大量爆发或许是较优的处理方案。
@@ -2508,7 +2239,6 @@
     enemy_skill: "113,114,115"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000110
-    spine_scale: ""
   }
   {
     id: 111
@@ -2517,21 +2247,12 @@
     code: Morridow_nor
     introduce: 帕拉蒂斯“涅托"里的一员，狡猾、阴狠且善变。
     forces: 3
-    if_capture: 0
-    pow_rank: 0
-    life_rank: 0
-    hit_rank: 0
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
     speed_rank: 5
-    range_rank: 0
     counter: 默莉朵似乎没有与我们交手的打算,做好与其他高威胁涅托单位进行交战的准备吧。
     character: "1001,900"
     enemy_skill: "116"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000111
-    spine_scale: ""
   }
   {
     id: 112
@@ -2540,13 +2261,11 @@
     code: Morridow
     introduce: 帕拉蒂斯“涅托"里的一员，狡猾、阴狠且善变。有如蜘蛛般设置陷阱来战斗，诡秘的代言人。在攻击之前，谁也捕捉不住她的身影。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 1
-    armor_rank: 0
     speed_rank: 6
     range_rank: 2
     counter: 通过限制我方行动同时快速接近我方单位造成大量伤害,接近我方的时候也是她暴露于己方部队保护的时候,在这种情况下对她造成大量伤害吧。
@@ -2554,7 +2273,6 @@
     enemy_skill: "111,112"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000112
-    spine_scale: ""
   }
   {
     id: 113
@@ -2562,22 +2280,17 @@
     type: 3
     code: Plaincloth
     introduce: 因为某项任务来到这里的斯塔西成员，跟踪与生存是他们的专长。只有活着才能创造更多价值，他们显然精通此道。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
-    speed_rank: 0
     range_rank: 4
     counter: 可以无视面前单位移动至我方底线,若该单位面前有其他单位,自身的闪避也会极大的提升。快速清理敌方前排单位,或部署高命中单位会是有效的应对方案。
     character: "1001,327"
     enemy_skill: "100,101"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000113
-    spine_scale: ""
   }
   {
     id: 114
@@ -2585,14 +2298,11 @@
     type: 3
     code: Mobster
     introduce: 活跃在旧城区的帮会成员。对他们来说法律只是笑话，阴影中的人有自己的生存法则。使用粗劣的自制投掷武器攻击对手，对离自己最近的目标怀抱着必定命中的决心发动攻势。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 2
     hit_rank: 2
     dodge_rank: 2
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 6
     range_rank: 3
     counter: 该单位将对接近他的目标造成大量不可回避的伤害,注意与他保持距离并及时躲避出燃烧瓶的有效范围即可克敌制胜。
@@ -2600,7 +2310,6 @@
     enemy_skill: "102,103"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000114
-    spine_scale: ""
   }
   {
     id: 115
@@ -2609,13 +2318,11 @@
     code: Punish
     introduce: 近战单位，作为坚固的盾牌与进攻者活跃。倚仗厚重的盾牌和冲锋武器，在战场上横冲直撞。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 3
     dodge_rank: 4
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 6
     range_rank: 3
     counter: 该单位将在移动状态下获得减伤效果。在该单位接近我方停止移动后,使用技能快速击杀即可克敌制胜。
@@ -2623,7 +2330,6 @@
     enemy_skill: "104"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000115
-    spine_scale: ""
   }
   {
     id: 116
@@ -2632,13 +2338,11 @@
     code: Cherub
     introduce: 使用激光持续对我方高血量单位发动攻击的特化作战单位，攻击单一但集中， 极易对我方造成定点贯穿的致命伤害。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 2
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 3
     counter: 将额外对低编制敌人造成大量伤害,优先使用高编制单位与其交战。
@@ -2646,7 +2350,6 @@
     enemy_skill: "105"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000116
-    spine_scale: ""
   }
   {
     id: 117
@@ -2655,13 +2358,11 @@
     code: Visjnoe
     introduce: 设置在战场上的战术器械，仅对包括人形在内的机械单位有反应。清除对方的增益状态的同时也会清除己方的负面状态，作为支援单位十分难缠。
     forces: 3
-    if_capture: 0
     pow_rank: 3
     life_rank: 4
     hit_rank: 3
     dodge_rank: 3
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 4
     counter: 该单位存活在场上时,将不断清除我方正面增益及清除敌方负面增益,选择不依赖增益造成伤害的梯队将有效克制该单位。
@@ -2669,7 +2370,6 @@
     enemy_skill: "106,107"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000117
-    spine_scale: ""
   }
   {
     id: 118
@@ -2678,7 +2378,6 @@
     code: Roarer_New
     introduce: 主要攻击方式为近战的重型重甲单位，与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 3
@@ -2701,7 +2400,6 @@
     code: Thunder_New
     introduce: 利用搭载于身体下方的炮台攻击，遭受攻击时会利用跳跃闪避。与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -2724,13 +2422,11 @@
     code: Soldier_New
     introduce: 与射击士极为类似，搭载更加强大的火力，并且使用特殊的弹药降低我方人形的回避率。与神秘势力有所关联。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 1
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -2746,19 +2442,16 @@
     type: 3
     code: Vespid_bride
     introduce: 寂静的洋馆之中，华丽的纱衣挥之不去的怨念仍在徘徊；千万不要被美丽的外表迷惑，如果她向你掷来手中的花束，一定要记得躲闪。
-    forces: 0
     if_capture: 1
     pow_rank: 3
     life_rank: 2
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000121
     spine_scale: "100,100,1"
@@ -2769,19 +2462,15 @@
     type: 3
     code: Brute_Ghost
     introduce: 寂静的洋馆之中，不时响起的呜咽声久久不得回响，路过转角处的时候，一定要留心那忽然亮起的白芒——不论出现的是幽灵本身，还是他的刀刃，都不是什么好消息。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 2
     counter: 该单位拥有较高的破甲值，对霰弹枪人形来说是个危险的存在，请注意避免我方霰弹枪人形与她接触。推荐使用冲锋枪、手枪等回避型人形担当前排。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000122
     spine_scale: "85,85,1"
@@ -2792,16 +2481,9 @@
     type: 2
     code: RecceCentreSwim
     introduce: 为了便于走私而伪装成鲨鱼乐园的非法军火，量产鲨排是其主要功能，在伪装运输过程中，由于可爱的造型而得到孩子们的青睐。
-    forces: 0
     if_capture: 1
-    pow_rank: 0
     life_rank: 6
-    hit_rank: 0
-    dodge_rank: 0
-    rate_rank: 0
     armor_rank: 4
-    speed_rank: 0
-    range_rank: 0
     counter: 高护甲单位，会源源不断的生产鲨排，不太适合突击步枪人形来应对。建议使用步枪人形处理。
     character: "309,321"
     enemy_skill: "21"
@@ -2815,8 +2497,6 @@
     type: 2
     code: PathfinderSwim
     introduce: 为了便于走私而伪装成排球的非法军火，由于伪装效果极好，在运输途中发生过被人打出“爆炸式扣杀”的事故。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 2
     hit_rank: 4
@@ -2838,14 +2518,11 @@
     type: 3
     code: CyclopsSwim
     introduce: 游轮专用服务型人形，兼具侍者与安保的能力，能够视情况切换行动模式，必要时也可以改为人工操作。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -2873,7 +2550,6 @@
     range_rank: 5
     counter: 更换了海战型素体的建筑师，拥有更强大的阵地构筑能力，火力和指挥能力也有进一步的提升。
     character: "1001,208,309"
-    enemy_skill: ""
     launch_time: 2035-5-20 00:00:00
     extra: ",大坪由佳,"
     spine_scale: "85,85,1"
@@ -2884,19 +2560,15 @@
     type: 3
     code: guard_katsura
     introduce: 接受雇佣提供护卫服务的专业人员，接受了严格的训练，身手不凡，且忠心耿耿。
-    forces: 0
-    if_capture: 0
     pow_rank: 1
     life_rank: 3
     hit_rank: 2
     dodge_rank: 3
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "430"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000127
     spine_scale: "100,100,1"
@@ -2907,19 +2579,15 @@
     type: 3
     code: guard_bald
     introduce: 接受雇佣提供护卫服务的专业人员，接受了严格的训练，身手不凡，且忠心耿耿。是职业保镖中的佼佼者，透过明显的特征看得出他们更加强大。
-    forces: 0
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 5
     dodge_rank: 6
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力十分优秀，请注意使用合理的战斗策略应对。
     character: "1001,430"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000128
     spine_scale: "100,100,1"
@@ -2931,13 +2599,11 @@
     code: Obelisk_partB
     introduce: 使用机枪的重火力人形，携带的机枪在充分蓄能之后能够发射3次等离子光束，光束具有致盲效果，并能在一定程度上无视闪避。在装载【阿克索之皿】后，威力将有巨大提升。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 1
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -2954,14 +2620,11 @@
     code: Obelisk_partA
     introduce: 使用机枪的特化作战单位，能够发射等离子光束对目标进行攻击，光束在一定程度上能无视闪避。在装载【灵蛇权杖】后，威力将有巨大提升。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 3
-    dodge_rank: 0
     rate_rank: 5
     armor_rank: 2
-    speed_rank: 0
     range_rank: 5
     counter: 该单位攻速较高、伤害一般，推荐使用霰弹枪人形搭配足够的护甲进行抵御。
     character: "1001,320"
@@ -2977,13 +2640,11 @@
     code: Riotguard
     introduce: 具有强大压制力的警备用单位，通常结队行动，会使用盾牌对敌方进行压迫作战，同时配有拥有电击能力的警棍。
     forces: 3
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 2
     dodge_rank: 2
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 2
     counter: 该单位为近战单位，放任不管的话会持续加强自身的防御能力，请注意选用合适的枪种人形应对。
@@ -3000,11 +2661,9 @@
     code: Metalmax
     introduce: 强大的近战重型重甲单位，会利用手中的重锤对轻型目标造成毁灭性打击。
     forces: 3
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 4
-    dodge_rank: 0
     rate_rank: 2
     armor_rank: 7
     speed_rank: 3
@@ -3023,11 +2682,9 @@
     code: Executioner
     introduce: 帕拉蒂斯生产的特重型机甲单位，拥有最先进的高科技近战武器和护甲。具有难以击破的特点和堪称毁灭性的战斗力。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 6
     hit_rank: 3
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 2
     speed_rank: 3
@@ -3046,13 +2703,11 @@
     code: Grenadier
     introduce: 主要战斗方式为投掷武器的轻型人形，会利用投弹有效造成巨大的范围杀伤。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 4
     dodge_rank: 4
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位装备了特种作战的武器，可以应对多种战场需求，尤其会对我方机械单位造成高额伤害。
@@ -3069,7 +2724,6 @@
     code: Mastersergeant
     introduce: 搭载了强力侦测配件的新型指挥单位，可以对部队下达最清楚有效的指令，但自身的战斗力有待增强。
     forces: 3
-    if_capture: 0
     pow_rank: 6
     life_rank: 5
     hit_rank: 5
@@ -3092,18 +2746,15 @@
     code: Rogue_M
     introduce: 久违的伯恩村少女，栩栩如生地站在面前，就如同她从未逝去一般。
     forces: 3
-    if_capture: 0
     pow_rank: 1
     life_rank: 1
     hit_rank: 1
     dodge_rank: 1
     rate_rank: 1
-    armor_rank: 0
     speed_rank: 1
     range_rank: 1
     counter: 纤弱的少女等待着她的救赎，你会是那个她期待已久的命定之人吗？
     character: "1001"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000136
     spine_scale: "100,100,1"
@@ -3115,13 +2766,11 @@
     code: Obelisk
     introduce: 火力猛烈的机枪单位，配备了附加了致盲效果的双机枪系统。能够将放入其中的伊阿索之匣转换为等离子光束进行发射，可同时攻击多个单位，并对攻击范围造成污染。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位在高血量时拥有炮击阵地的能力，对我方生存压力极大，建议迅速将其压制。
@@ -3138,13 +2787,11 @@
     code: Teal
     introduce: 帕拉蒂斯的精锐单位，冷静而审慎，拥有强大的判断力和对情绪的控制力。经常和格雷协同作战，非常信赖她。擅长使用长剑潜伏暗杀，在抓住敌人露出破绽的一瞬，以无法用肉眼捕捉的速度一招致命。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位拥有可怕的斩杀续航的能力，我方的强力输出单位需要注意不被锁定。
@@ -3161,13 +2808,11 @@
     code: Bramede
     introduce: 帕拉蒂斯的精锐单位，极具魅力，能够轻易瓦解对方的防御，即使在战斗状态下也依然妩媚动人。擅长迷惑人类和人形的心智，电子作战能力极强，能在侵入人形心智的同时，盗取情报，并强行使其宕机。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位拥有偷取心智的能力，应尽量避免被她链接命中。
@@ -3190,12 +2835,10 @@
     hit_rank: 3
     dodge_rank: 4
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 更换了魔女型素体的干扰者，拥有更强大的支援作战能力，火力和指挥能力也有进一步的提升。
     character: "1001,204"
-    enemy_skill: ""
     launch_time: 2035-5-20 00:00:00
     extra: ",大坪由佳,"
     spine_scale: "75,75,1"
@@ -3206,8 +2849,6 @@
     type: 3
     code: HKCAWS_XmasEnemy
     introduce: 我把礼物都买回来了，请给我报销119份礼物的钱……还有1份为什么不用？因为……那是我给您买的。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3221,7 +2862,6 @@
     enemy_skill: "141"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000141
-    spine_scale: ""
   }
   {
     id: 142
@@ -3229,8 +2869,6 @@
     type: 3
     code: VSK_XmasEnemy
     introduce: 我是来送礼物的，请配合行动，不要紧张……这么说更让人紧张了？抱歉，Boss，这是职业病。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3244,7 +2882,6 @@
     enemy_skill: "142"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000142
-    spine_scale: ""
   }
   {
     id: 143
@@ -3252,8 +2889,6 @@
     type: 3
     code: P7_XmasEnemy
     introduce: 哎呀，结果您还是落到我的手心呢。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3267,7 +2902,6 @@
     enemy_skill: "143"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000143
-    spine_scale: ""
   }
   {
     id: 144
@@ -3275,8 +2909,6 @@
     type: 3
     code: FP6_XmasEnemy
     introduce: 没想到圣诞老人的任务居然如此棘手……那样的胖老头到底是怎么进去的？
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3290,7 +2922,6 @@
     enemy_skill: "144"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000144
-    spine_scale: ""
   }
   {
     id: 145
@@ -3298,8 +2929,6 @@
     type: 3
     code: Type100_XmasEnemy
     introduce: 嗯呀……终于挖出来了，咦？这个是……？哇！谢谢，这是最棒的礼物！
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3313,7 +2942,6 @@
     enemy_skill: "145"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000145
-    spine_scale: ""
   }
   {
     id: 146
@@ -3321,8 +2949,6 @@
     type: 1
     code: Px4Storm_XmasBoss
     introduce: 圣诞促销才是圣诞节存在的意义，打折的价格才能倍增幸福的价值哦~
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3336,7 +2962,6 @@
     enemy_skill: "146,147,148,149,150"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000146
-    spine_scale: ""
   }
   {
     id: 147
@@ -3351,12 +2976,10 @@
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 4
     range_rank: 5
     counter: 该单位具有极高的单发伤害，但是攻速较慢，命中一般，回避型人形会有更好的防御效果。
     character: "1001,206"
-    enemy_skill: ""
     launch_time: 2035-5-20 00:00:00
     extra: ",高田憂希,"
     spine_scale: "85,85,1"
@@ -3368,13 +2991,11 @@
     code: Nyto_Black_SMG
     introduce: 阿佛那斯中量产的精英涅托，双持冲锋枪，拥有能满足日常巡逻任务需求的高机动性与火力。
     forces: 3
-    if_capture: 0
     pow_rank: 2
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位在受到致命伤害时会获得一定的保护,要做好持久战的准备。
@@ -3382,7 +3003,6 @@
     enemy_skill: "153"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000148
-    spine_scale: ""
   }
   {
     id: 149
@@ -3391,7 +3011,6 @@
     code: Nyto_Black_Hammer
     introduce: 阿佛那斯中量产的精英涅托，使用巨锤作为武器，经特殊改造后，武器附带眩晕效果，同时本体也拥有了更强大的防御力。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 3
@@ -3405,7 +3024,6 @@
     enemy_skill: "154,155"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000149
-    spine_scale: ""
   }
   {
     id: 150
@@ -3414,13 +3032,11 @@
     code: Nyto_Black_RF
     introduce: 阿佛那斯中量产的狙击特化型精英涅托，使用狙击枪作为武器，能够在超远距离的前提下瞄准敌人的弱点进行致命一击。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 1
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 3
     range_rank: 4
     counter: 该单位主要担当后排输出，命中较高还拥有贯穿能力，对我方单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排的人形进行处理。
@@ -3428,7 +3044,6 @@
     enemy_skill: "156"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000150
-    spine_scale: ""
   }
   {
     id: 151
@@ -3437,13 +3052,11 @@
     code: Nyto_White_Commander
     introduce: 阿佛那斯中量产的精英涅托，使用战术平板弱化敌方或强化己方，能够辅助己方队友发挥出更强的战斗效能。
     forces: 3
-    if_capture: 0
     pow_rank: 3
     life_rank: 4
     hit_rank: 3
     dodge_rank: 3
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 2
     range_rank: 4
     counter: 该单位是敌方涅托首脑，会持续提高涅托作战能力，建议优先击杀。
@@ -3451,7 +3064,6 @@
     enemy_skill: "157,158,159"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000151
-    spine_scale: ""
   }
   {
     id: 152
@@ -3460,13 +3072,11 @@
     code: Cerberus_White
     introduce: 阿佛那斯中量产的最新型号机械犬，拥有高敏捷化的机动性和强大有力的钢铁爪牙。
     forces: 3
-    if_capture: 0
     pow_rank: 4
     life_rank: 4
     hit_rank: 5
     dodge_rank: 2
     rate_rank: 4
-    armor_rank: 0
     speed_rank: 6
     range_rank: 2
     counter: 该单位拥有较高的移速，对敌方后排单位有很强的保护作用，建议优先击破。
@@ -3474,7 +3084,6 @@
     enemy_skill: "151,152"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000152
-    spine_scale: ""
   }
   {
     id: 153
@@ -3483,21 +3092,17 @@
     code: USSR_Agent
     introduce: 来自寒冷北地的精英特工，是万里挑一的好手，实战经验丰富且行事风格狠辣。
     forces: 2
-    if_capture: 0
     pow_rank: 1
     life_rank: 3
     hit_rank: 2
     dodge_rank: 3
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 3
     range_rank: 3
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001"
-    enemy_skill: ""
     launch_time: 2035-5-20 00:00:00
     extra: enemy_illustration-40000153
-    spine_scale: ""
   }
   {
     id: 154
@@ -3506,13 +3111,11 @@
     code: morridow_boss
     introduce: 帕拉蒂斯的精锐单位，狡猾阴狠，是拥有多副面具的伪装者。她的功绩为她换来了宝贵的改造机会，拥有了帕拉蒂斯全新技术打造的素体。战斗力有了大幅提升，陷阱制作技术也有了升级。只是她的虚识图景似乎在不知不觉间产生了变化……
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 5
     dodge_rank: 3
     rate_rank: 1
-    armor_rank: 0
     speed_rank: 6
     range_rank: 2
     counter: 通过限制我方行动同时快速接近我方单位造成大量伤害,接近我方的时候也是她暴露于己方部队保护的时候,在这种情况下对她造成大量伤害吧。
@@ -3520,7 +3123,6 @@
     enemy_skill: "111,112,160"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000154
-    spine_scale: ""
   }
   {
     id: 155
@@ -3529,13 +3131,11 @@
     code: Nimeylan
     introduce: 帕拉蒂斯的精锐单位，冷酷无情，清醒自知，在帕拉蒂斯中占据着无可替代的地位。拥有短程飞行能力，擅长使用电子武器干扰敌人，并在漫长痛苦的折磨中，让敌人绝望而无助地逐渐失去生息。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
     dodge_rank: 5
     rate_rank: 5
-    armor_rank: 0
     speed_rank: 5
     range_rank: 5
     counter: 该单位会制造光球对我方造成大量伤害，注意防御。
@@ -3543,7 +3143,6 @@
     enemy_skill: "161,162,163,164"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000155
-    spine_scale: ""
   }
   {
     id: 156
@@ -3552,7 +3151,6 @@
     code: RPK16_Nyto
     introduce: 在帕拉蒂斯的技术支持下，RPK-16改造素体进行到一半的未完成姿态。虽然还是未完成态，但火力得到了大幅增强，也能够使用部分帕拉蒂斯的核心技术。至于对其心智的影响，仍然是个未知数。
     forces: 3
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3566,7 +3164,6 @@
     enemy_skill: "165"
     launch_time: 2035-5-20 00:00:00
     extra: enemy_illustration-40000156
-    spine_scale: ""
   }
   {
     id: 157
@@ -3586,7 +3183,6 @@
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,203,309"
-    enemy_skill: ""
     launch_time: 2035-5-20 00:00:00
     extra: ",萩原あみ,"
     spine_scale: "85,85,1"
@@ -3597,19 +3193,14 @@
     type: 2
     code: Dinergate_WhiteDay
     introduce: 从被帕斯卡改装后的生产线中诞生的甜点魔蚁，以甜食为主要能量来源，会毫不客气地掠夺美味的点心——它自身的味道也十分可口，但要小心硌到牙齿。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 1
     hit_rank: 5
-    dodge_rank: 0
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 5
     range_rank: 2
     counter: 甜食掠夺者，或许可以试着投喂一些巧克力给它们。
     character: "303"
-    enemy_skill: ""
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000158
     spine_scale: "100,100,1"
@@ -3620,14 +3211,9 @@
     type: 2
     code: Dinergate_WhiteDay1
     introduce: 散发着可口香气的巨大巧克力球，杏仁碎与黑巧诱人的色泽衬出高级的美味——易爆炸，勿食用。
-    forces: 0
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 7
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
     speed_rank: 3
     range_rank: 1
     counter: 为了让自己变的更大，四处追寻着巧克力，不过似乎不太稳定，丢一些似是而非的巧克力给它们试试吧。
@@ -3643,14 +3229,9 @@
     type: 2
     code: Dinergate_WhiteDay2
     introduce: 散发着可口香气的巨大巧克力球，杏仁碎与白巧诱人的色泽衬出甜腻的美味——易爆炸，勿食用。
-    forces: 0
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 7
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
     speed_rank: 3
     range_rank: 1
     counter: 为了让自己变的更大，四处追寻着巧克力，不过似乎不太稳定，丢一些似是而非的巧克力给它们试试吧。
@@ -3666,14 +3247,9 @@
     type: 2
     code: Dinergate_WhiteDay3
     introduce: 散发着可口香气的巨大巧克力球，光滑的平面用融化的巧克力拉出优美的纹路，入口时裂开的甜香能够征服任何挑剔的味蕾——易爆炸，勿食用。
-    forces: 0
-    if_capture: 0
     pow_rank: 7
     life_rank: 5
     hit_rank: 7
-    dodge_rank: 0
-    rate_rank: 0
-    armor_rank: 0
     speed_rank: 3
     range_rank: 1
     counter: 为了让自己变的更大，四处追寻着巧克力，不过似乎不太稳定，丢一些似是而非的巧克力给它们试试吧。
@@ -3689,8 +3265,6 @@
     type: 1
     code: Cerberus_WhiteDay
     introduce: 因犯下过错而重回“噩梦”的破坏者，逐渐丢失的意识当中，唯有“巧克力”的诱惑依然存在——狗不能吃巧克力吧？
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3712,8 +3286,6 @@
     type: 3
     code: Roarer_swimsuit
     introduce: 头脑简单的里坎原住民，身无所长，只能靠发达的四肢承担守护禁猎区的工作。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 3
@@ -3735,8 +3307,6 @@
     type: 3
     code: Rodelero_swimsuit
     introduce: 被里坎原住民尊为“先知”的神秘少女，一把水陆两用的高压枪似乎是她可靠的狩猎武器。
-    forces: 0
-    if_capture: 0
     pow_rank: 3
     life_rank: 4
     hit_rank: 3
@@ -3758,14 +3328,11 @@
     type: 3
     code: StreletPlus_swimsuit
     introduce: 常年徘徊于里坎禁猎区海边，居无定所，常用的护身武器是改装后的冲浪板。
-    forces: 0
-    if_capture: 0
     pow_rank: 4
     life_rank: 3
     hit_rank: 3
     dodge_rank: 5
     rate_rank: 3
-    armor_rank: 0
     speed_rank: 1
     range_rank: 4
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
@@ -3793,7 +3360,6 @@
     range_rank: 5
     counter: 情报不明,谨慎应对!
     character: "1001,216,309,312"
-    enemy_skill: ""
     launch_time: 2035-5-20 00:00:00
     extra: enemy_illustration-40000166
     spine_scale: "70,70,1"
@@ -3805,7 +3371,6 @@
     code: Gebbennu
     introduce: 神秘的巨型复式战斗单位，火力极强，除此以外的地方都是谜团。
     forces: 3
-    if_capture: 0
     pow_rank: 6
     life_rank: 7
     hit_rank: 5
@@ -3816,10 +3381,8 @@
     range_rank: 5
     counter: 未实装
     character: "1001,309"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100001
-    spine_scale: ""
   }
   {
     id: 100011
@@ -3827,8 +3390,6 @@
     type: 3
     code: DivMauler
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3839,10 +3400,8 @@
     range_rank: 5
     counter: 在该单位接近我方单位后使用技能快速击杀即可克敌制胜。
     character: "401,402"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100011
-    spine_scale: ""
   }
   {
     id: 100012
@@ -3850,8 +3409,6 @@
     type: 3
     code: DivGrenadier
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3862,10 +3419,8 @@
     range_rank: 5
     counter: 该单位将向预警位置制造较强的燃烧伤害，注意指挥人形及时移动规避
     character: "403"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100012
-    spine_scale: ""
   }
   {
     id: 100013
@@ -3873,8 +3428,6 @@
     type: 3
     code: DivSweeper
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3885,10 +3438,8 @@
     range_rank: 5
     counter: 注意观察该单位的移动,利用该单位左右的人形吸引他的注意力,再指挥人形及时规避他火焰喷射器造成的范围伤害。
     character: "1001,404,415"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100013
-    spine_scale: ""
   }
   {
     id: 100014
@@ -3896,8 +3447,6 @@
     type: 3
     code: DivRunner
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3908,10 +3457,8 @@
     range_rank: 5
     counter: 使用限制敌方单位移动的手段,在该目标接近我方单位前制造伤害即可克敌制胜。
     character: "1001,405"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100014
-    spine_scale: ""
   }
   {
     id: 100015
@@ -3919,8 +3466,6 @@
     type: 3
     code: DivGuard
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3931,10 +3476,8 @@
     range_rank: 5
     counter: 该单位将向预警位置制造较强的投掷伤害，注意指挥人形及时移动规避。提升整体的生存能力也可以有效针对该目标。
     character: "1001,406,407"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100015
-    spine_scale: ""
   }
   {
     id: 100016
@@ -3942,8 +3485,6 @@
     type: 3
     code: DivExecutor
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3954,10 +3495,8 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "300"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100016
-    spine_scale: ""
   }
   {
     id: 100017
@@ -3965,8 +3504,6 @@
     type: 3
     code: DivRifleman
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3977,10 +3514,8 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "408"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100017
-    spine_scale: ""
   }
   {
     id: 100018
@@ -3988,8 +3523,6 @@
     type: 3
     code: DivScout
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4000,10 +3533,8 @@
     range_rank: 5
     counter: 该单位将向预警位置制造投掷伤害，同时削弱受击目标，注意指挥后排人形及时移动规避。
     character: "409,410"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100018
-    spine_scale: ""
   }
   {
     id: 100019
@@ -4011,8 +3542,6 @@
     type: 3
     code: DivEngineer
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4023,10 +3552,8 @@
     range_rank: 5
     counter: 工程师将在身边放置高威胁的炮台,范围伤害将对该目标造成不小的麻烦。
     character: "411,412,413"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100019
-    spine_scale: ""
   }
   {
     id: 100020
@@ -4034,8 +3561,6 @@
     type: 3
     code: DivTraitor
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4046,10 +3571,8 @@
     range_rank: 5
     counter: 身上吸附黏弹的我方单位需尽快指挥至无人的区域,否则该单位将对我方整体造成较大的伤害。
     character: "1001,414,415"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100020
-    spine_scale: ""
   }
   {
     id: 100021
@@ -4057,8 +3580,6 @@
     type: 1
     code: AK47_enemy
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4069,10 +3590,8 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。嗯。
     character: "1001,423"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100021
-    spine_scale: ""
   }
   {
     id: 100022
@@ -4080,8 +3599,6 @@
     type: 1
     code: DivBurn
     introduce: 游荡在街头的净化者成员，坚信烧光一切被污染之物才能拯救城市。他会对锁定的目标穷追不舍，直到将其彻底烧尽。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4092,10 +3609,8 @@
     range_rank: 5
     counter: 游荡在街头的净化者成员，坚信烧光一切被污染之物才能拯救城市。他会对锁定的目标穷追不舍，直到将其彻底烧尽。可以使用精准攻击到该单位身后弱点的单位克敌制胜。
     character: "1001,417,404,416"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100022
-    spine_scale: ""
   }
   {
     id: 100023
@@ -4103,8 +3618,6 @@
     type: 1
     code: HK416Boss
     introduce: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4115,10 +3628,8 @@
     range_rank: 5
     counter: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
     character: "1001,420,421,422"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100023
-    spine_scale: ""
   }
   {
     id: 100024
@@ -4126,8 +3637,6 @@
     type: 1
     code: VectorBoss
     introduce: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4138,10 +3647,8 @@
     range_rank: 5
     counter: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
     character: "1001,419,418,416"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100024
-    spine_scale: ""
   }
   {
     id: 100025
@@ -4149,8 +3656,6 @@
     type: 1
     code: HK416Boss
     introduce: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4161,10 +3666,8 @@
     range_rank: 5
     counter: 射击！移动！面对强大的敌人并取胜吧！
     character: "1001,424,425"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100025
-    spine_scale: ""
   }
   {
     id: 100026
@@ -4172,8 +3675,6 @@
     type: 1
     code: VectorBoss
     introduce: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4184,10 +3685,8 @@
     range_rank: 5
     counter: 射击！移动！面对强大的敌人并取胜吧！
     character: "1001,424,425"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100026
-    spine_scale: ""
   }
   {
     id: 100027
@@ -4195,8 +3694,6 @@
     type: 1
     code: Vector_enemy
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4207,10 +3704,8 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,300"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100027
-    spine_scale: ""
   }
   {
     id: 100028
@@ -4218,8 +3713,6 @@
     type: 3
     code: Dropkick_MeleeDevil
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4230,10 +3723,8 @@
     range_rank: 5
     counter: 拥有极高护甲的前排单位，利用对应高穿甲弹击破即可。
     character: "1001,303,309"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100028
-    spine_scale: ""
   }
   {
     id: 100029
@@ -4241,8 +3732,6 @@
     type: 3
     code: Dropkick_RemoteDevil
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4253,10 +3742,8 @@
     range_rank: 5
     counter: 拥有极高护甲的后排单位，利用对应高穿甲弹击破即可。
     character: "1001,309"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100029
-    spine_scale: ""
   }
   {
     id: 100030
@@ -4264,8 +3751,6 @@
     type: 3
     code: Dropkick_IceGhost
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4276,10 +3761,8 @@
     range_rank: 5
     counter: 该单位会通过叠加印记冰冻受击目标，造成真实伤害，建议迅速解决。
     character: "1001,315,324,329"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100030
-    spine_scale: ""
   }
   {
     id: 100031
@@ -4287,8 +3770,6 @@
     type: 3
     code: Dropkick_CyclopsChan
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4299,10 +3780,8 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,303"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100031
-    spine_scale: ""
   }
   {
     id: 100032
@@ -4310,8 +3789,6 @@
     type: 3
     code: Dropkick_BeansEmissary
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4322,10 +3799,8 @@
     range_rank: 5
     counter: 该单位能力均衡，会眩晕我方人形，请注意提高梯队的整体作战能力应对。
     character: "1001,324"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100032
-    spine_scale: ""
   }
   {
     id: 100033
@@ -4333,8 +3808,6 @@
     type: 3
     code: Dropkick_Beth
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4345,10 +3818,8 @@
     range_rank: 5
     counter: 该单位有很强的的机动能力，能增益敌方的输出，撕咬单位后还会加长目标技能冷却时间，建议迅速解决。
     character: "1001,304,333"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100033
-    spine_scale: ""
   }
   {
     id: 100034
@@ -4356,8 +3827,6 @@
     type: 1
     code: Dropkick_YurineBoss
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4368,10 +3837,8 @@
     range_rank: 5
     counter: 能召唤强化后的魔物小兵并赋予它们强大的防御护盾，频繁对面前大片区域造成高额伤害。不过虚假百合玲在控制住敌方的强力输出单位的同时会暴露自身的弱点，趁此机会击破她吧！
     character: "1001,321,329"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100034
-    spine_scale: ""
   }
   {
     id: 100035
@@ -4379,8 +3846,6 @@
     type: 1
     code: Dropkick_MinosBoss
     introduce: 未曾设想的敌人。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4391,10 +3856,8 @@
     range_rank: 5
     counter: 处于极度愤怒状态下的米诺斯，避开她是最好的选择。
     character: "1001,329"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100035
-    spine_scale: ""
   }
   {
     id: 100036
@@ -4402,8 +3865,6 @@
     type: 2
     code: Pathfinder_Small
     introduce: 一颗普通的西瓜。
-    forces: 0
-    if_capture: 0
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4414,10 +3875,8 @@
     range_rank: 5
     counter: 敲碎它！
     character: "903"
-    enemy_skill: ""
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100036
-    spine_scale: ""
   }
   {
     id: 100082
@@ -4426,13 +3885,11 @@
     code: Brute_SWAP
     introduce: 在原本的残兽基础上大幅增强了性能，可以更好地发挥作战能力。
     forces: 1
-    if_capture: 0
     pow_rank: 5
     life_rank: 3
     hit_rank: 4
     dodge_rank: 3
     rate_rank: 2
-    armor_rank: 0
     speed_rank: 4
     range_rank: 2
     counter: 该单位拥有较高的破甲值，对霰弹枪人形来说是个危险的存在，请注意避免我方霰弹枪人形与她接触。推荐使用冲锋枪、手枪等回避型人形担当前排。
@@ -4440,7 +3897,6 @@
     enemy_skill: "54,55"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100082
-    spine_scale: ""
   }
   {
     id: 100083
@@ -4449,11 +3905,9 @@
     code: Nemeum_SWAP2
     introduce: 在原本的钢狮基础上大幅增强了性能，可以更好地发挥作战能力。
     forces: 1
-    if_capture: 0
     pow_rank: 4
     life_rank: 5
     hit_rank: 6
-    dodge_rank: 0
     rate_rank: 3
     armor_rank: 4
     speed_rank: 4
@@ -4463,6 +3917,5 @@
     enemy_skill: "56"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40100083
-    spine_scale: ""
   }
 ]

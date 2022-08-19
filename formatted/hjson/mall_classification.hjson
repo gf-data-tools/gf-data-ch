@@ -1,7 +1,6 @@
 [
   {
     id: 1000
-    parent_id: 0
     sort: 1
     name: 活动
     description: 限时活动
@@ -11,7 +10,6 @@
     parent_id: 1000
     sort: 1
     name: 真核面具
-    description: ""
   }
   {
     id: 1002
@@ -22,7 +20,6 @@
       里坎禁猎区
       勋章兑换
       '''
-    description: ""
   }
   {
     id: 1003
@@ -33,7 +30,6 @@
       捩浪人
       勋章兑换
       '''
-    description: ""
   }
   {
     id: 1004
@@ -44,14 +40,12 @@
       捩浪人
       代币兑换
       '''
-    description: ""
   }
   {
     id: 1005
     parent_id: 1000
     sort: 5
     name: 蚀心面具
-    description: ""
   }
   {
     id: 1006
@@ -62,39 +56,32 @@
       里坎禁猎区
       代币兑换
       '''
-    description: ""
   }
   {
     id: 1007
     parent_id: 1000
     sort: 7
     name: a
-    description: ""
   }
   {
     id: 1008
     parent_id: 1000
     sort: 8
     name: a
-    description: ""
   }
   {
     id: 2000
-    parent_id: 0
     sort: 2
     name: 军需
-    description: ""
   }
   {
     id: 2002
     parent_id: 6000
     sort: 1
     name: 月卡
-    description: ""
   }
   {
     id: 3000
-    parent_id: 0
     sort: 4
     name: 礼包
     description: 所有礼包内容
@@ -104,7 +91,6 @@
     parent_id: 3000
     sort: 1
     name: 七日礼包
-    description: ""
   }
   {
     id: 3002
@@ -129,14 +115,12 @@
   }
   {
     id: 4000
-    parent_id: 0
     sort: 5
     name: 服装
     description: 指挥官服装
   }
   {
     id: 5000
-    parent_id: 0
     sort: 6
     name: 物品
     description: 消耗品
@@ -146,48 +130,40 @@
     parent_id: 5000
     sort: 1
     name: 资源
-    description: ""
   }
   {
     id: 5002
     parent_id: 5000
     sort: 2
     name: 契约
-    description: ""
   }
   {
     id: 5003
     parent_id: 5000
     sort: 3
     name: 基建
-    description: ""
   }
   {
     id: 5004
     parent_id: 5000
     sort: 4
     name: 道具
-    description: ""
   }
   {
     id: 6000
-    parent_id: 0
     sort: 3
     name: 特供
-    description: ""
   }
   {
     id: 6002
     parent_id: 6000
     sort: 2
     name: 每日
-    description: ""
   }
   {
     id: 6003
     parent_id: 6000
     sort: 3
     name: 补给
-    description: ""
   }
 ]

@@ -17,8 +17,6 @@
     id: "2"
     name: 初始
     rank: "2"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "7"
     description: IOP配发的家居。
     bonus_description: furniture_classes-30000002
@@ -31,8 +29,6 @@
     id: "3"
     name: 新世界(I)
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "15"
     description: 欢迎来到美好的战后世界，在这里生存的秘诀就在于永远做好准备，保持警惕，以及只喝瓶装水。
     bonus_description: furniture_classes-30000003
@@ -45,7 +41,6 @@
     id: "4"
     name: 秋
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: 出于抚慰指挥官们疲劳心灵的目的而设计出的可爱家居套装，本次主题是温暖的秋季，似乎很受女性欢迎。
@@ -59,8 +54,6 @@
     id: "5"
     name: 新世界(II)
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "15"
     description: 欢迎来到美好的战后世界，在这里生存的秘诀就在于永远做好准备，保持警惕，以及只喝瓶装水。
     bonus_description: furniture_classes-30000005
@@ -73,7 +66,6 @@
     id: "6"
     name: LOFT
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: 因为贫穷只能住在旧厂房里的艺术家们创造的家居风格，却在百年后引领了战后时尚，成为指挥官们竞相追求的稀有补给。
@@ -87,8 +79,6 @@
     id: "7"
     name: 宁静日常
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "16"
     description: 宁静风格的家具组合，性格稳重的人形会倍感安心，让家中荡漾起水蓝色的宁静气息吧。
     bonus_description: furniture_classes-30000007
@@ -101,8 +91,6 @@
     id: "8"
     name: 可爱日常
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "16"
     description: 可爱风格的家具组合，会深受性格活泼的人形喜爱，让家中洋溢起淡粉色的可爱氛围吧。
     bonus_description: furniture_classes-30000008
@@ -129,8 +117,6 @@
     id: "10"
     name: 咖啡店
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "13"
     description: 大战前流行的文化设施，名为补充咖啡因的饮料店，实则是平时难以集中注意力的作家的创作圣地
     bonus_description: furniture_classes-30000010
@@ -143,7 +129,6 @@
     id: "11"
     name: 暖冬和风
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 6:2000
     bonus_number: "13"
     description: 温暖和风主题的家具组合，即使在严寒的冬季也能让人形们体味幸福的气氛，一起在房间欣赏雪花们的日常吧。
@@ -157,7 +142,6 @@
     id: "12"
     name: 清冬和风
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 6:2000
     bonus_number: "13"
     description: 清新和风主题的家具组合，即使在冷酷的冬季也能让人形们保持沉静的心情，一起在房间里欣赏凛冬中的日常吧。
@@ -199,8 +183,6 @@
     id: "15"
     name: 便利店
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "15"
     description: 24小时营业的便利店是人类文明的基石，是战火纷飞下最温暖的慰藉，只要便利店还营业，一切就都不会太糟。所以意料之外情理之中的，便利店成了每个格里芬支部中防守最森严的部分。
     bonus_description: furniture_classes-30000015
@@ -213,7 +195,6 @@
     id: "16"
     name: 极地雪屋
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: 在冬季推出的极地印象家具套装。采用了很多原始风格的设计，毛绒绒的小动物们也非常可爱。
@@ -241,7 +222,6 @@
     id: "18"
     name: 游戏部门
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: 大家的老朋友IOP制造公司旗下产业涉及诸多领域，进军当下热点的移动平台游戏开发也不意外，但他们很快就意识到行业的残酷。
@@ -255,28 +235,23 @@
     id: "19"
     name: 精英徽记
     rank: "5"
-    bonus_picture: "0"
     k_bonus: 6:2000,9:5000,12:8000
     bonus_number: "20"
     description: 格里芬精英梯队的徽记，仅授予那些在作战中积极踊跃的指挥官。也许，会令您想起那些与她们并肩作战的宝贵岁月。
     bonus_description: 收集更多战利品，可获得额外舒适度。
     code: sp2017_deco_09_icon
     is_showed: "1"
-    placement: "0"
     years: "2017"
   }
   {
     id: "20"
     name: 纪念
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "6"
     description: furniture_classes-20000020
     bonus_description: furniture_classes-30000020
     code: pv_2018winter_icon
     is_showed: "2"
-    placement: "0"
     years: "2018"
   }
   {
@@ -297,7 +272,6 @@
     id: "22"
     name: 春日课堂
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: 教室主题的家具组合，无论想要逃离还是回味，请从往日的风景中开始你的故事吧！
@@ -311,7 +285,6 @@
     id: "23"
     name: 假日漫步
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: 街景主题的家具组合，享受一个浪漫的假期吧，不过你想在这一天与谁邂逅呢？
@@ -353,7 +326,6 @@
     id: "26"
     name: 五彩社团
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: 社团活动主题的家具组合，忙碌的生活总伴随无法取代的记忆，铭记它们，珍惜它们吧！
@@ -367,7 +339,6 @@
     id: "27"
     name: 都市摄影棚
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: 一个好的摄影棚，在有经验的摄影大师掌控下，配合全套的专业设备，拍出的照片几乎能媲美少女们用手机的自拍，几乎。
@@ -395,7 +366,6 @@
     id: "29"
     name: 童心园
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: 儿童玩具为主题的家具组合，这里曾经是一整个世界，虽然会随着岁月而缩小，但永远不会消失。
@@ -423,21 +393,16 @@
     id: "31"
     name: 幻想遗产
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "6"
     description: 在各类奇异事件中收获的珍贵纪念。传说也许从未发生于世间，但依然真实存在于我们的心中……
     bonus_description: furniture_classes-30000031
     code: SP_GGBB_1A_icon
     is_showed: "3"
-    placement: "0"
-    years: "0"
   }
   {
     id: "32"
     name: 海边小屋
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: 海边休息室为主题的家具组合，海边小屋只是个可爱的昵称，谁不想要个更豪华的假期呢？
@@ -465,7 +430,6 @@
     id: "34"
     name: 去首尔吧
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: 韩国都市为主题的家具组合，请坐下来，安静地欣赏那些来自回忆中的新潮旋律吧。
@@ -493,8 +457,6 @@
     id: "36"
     name: 酒与避难所
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "17"
     description: 避难所为主题的家具组合，驻守在污染区的人形对人类旧日的文明充满好奇，她们收集着遗物并模仿他们去生活。
     bonus_description: furniture_classes-30000036
@@ -521,7 +483,6 @@
     id: "38"
     name: 深夜厨房
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: 厨房为主题的家具组合，人形们会结伴来到这里忙碌，然后留下一个个温馨的故事……有的时候。
@@ -549,7 +510,6 @@
     id: "40"
     name: 花房茶会
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "14"
     description: 原野中的花房为主题的家具组合，“希望自己被爱的时候，请先爱上那些无名的花朵吧！”
@@ -563,7 +523,6 @@
     id: "41"
     name: 王之裁缝
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: 特工裁缝店为主题的家具组合，接受任务，然后优雅地完成它，维护世界和平就是这么简单。
@@ -591,7 +550,6 @@
     id: "43"
     name: 发薪日
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: 地下银行为主题的家具组合，只是个装饰用的主题，即使身无分文的人形也可以在里面为所欲为，别呆太久，也别当真。
@@ -619,7 +577,6 @@
     id: "45"
     name: 海盗遗产
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: 海盗船舱为主题的家具组合，这属于几百年前一部分人的生活，在漂泊中享乐、争斗然后活着或死去，和现在的人一样。
@@ -647,7 +604,6 @@
     id: "47"
     name: 单车日记
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "14"
     description: 以自行车和摩托车店为主题的家具组合，每个人都有至少一个瞬间想去远方，除了诗，你还需要它，和买下它们的钞票。
@@ -675,7 +631,6 @@
     id: "49"
     name: 梯队收藏
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "18"
     description: 以御宅族收藏品为主题的家具组合，无论是更硬派还是更可爱的收藏品，这是你独一无二的爱好，人生中最属于自己的宝贵部分。
@@ -717,7 +672,6 @@
     id: "53"
     name: 漫展风波
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "18"
     description: 以动漫展会为主题的家具组合，如果人形提前五十年出现在世上会是什么景象？集齐这一切你就会知道啦。
@@ -773,7 +727,6 @@
     id: "57"
     name: 幸福起点站
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "14"
     description: 以机场候机厅为主题的家具组合，体验航班到达前的时光吧，下一刻我们就会离它们非常遥远了——物理层面上。
@@ -829,7 +782,6 @@
     id: "61"
     name: 幸福汉堡
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "18"
     description: 以汉堡店为主题的家具组合，提供轻松的气氛和充足的热量，两者在这个时代都意味着幸福。
@@ -983,7 +935,6 @@
     id: "72"
     name: 灰色订制品
     rank: "5"
-    bonus_picture: "0"
     k_bonus: 6:2000,9:2500,12:3000
     bonus_number: "8"
     description:
@@ -994,8 +945,6 @@
     bonus_description: 收集更多战利品，可获得额外舒适度。
     code: Stepmania_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
   {
     id: "73"
@@ -1113,14 +1062,11 @@
     id: "81"
     name: 珍藏版纪念
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "6"
     description: furniture_classes-20000081
     bonus_description: furniture_classes-30000081
     code: harp_2019_icon
     is_showed: "3"
-    placement: "0"
     years: "2019"
   }
   {
@@ -1197,15 +1143,11 @@
     id: "87"
     name: 羁绊的证明
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "5"
     description: 以格里芬成员之间的羁绊为主题的家具组合。争吵、欢笑、泪水……那些曾对人形来说意义重大的事情也许都会随着心智云图的一次次清理升级而变成平凡的往事，但总会有一些奇妙的见证者幸存下来，并在时间的长河中屹立不倒。
     bonus_description: furniture_classes-30000087
     code: Fetter_Repository_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
   {
     id: "88"
@@ -1225,7 +1167,6 @@
     id: "89"
     name: 格里芬居酒屋
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: 以日本酒屋为主题的家具组合。做什么都于事无补的时候，不如一杯浊酒喝个尽兴，再大哭一场吧。
@@ -1345,7 +1286,6 @@
     code: MiniGameFlightChess_deco_01_icon
     is_showed: "1"
     placement: "1"
-    years: "0"
   }
   {
     id: "98"
@@ -1463,84 +1403,58 @@
     id: "299"
     name: 宠物
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "10"
     description: furniture_classes-20000299
     bonus_description: furniture_classes-30000299
     code: SP_CatHouseLabel01_icon
-    is_showed: "0"
-    placement: "0"
-    years: "0"
   }
   {
     id: "300"
     name: 海报
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "136"
     description: 换装礼包附赠的海报
     bonus_description: furniture_classes-30000300
     code: poster_wa2000_halloween_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
   {
     id: "301"
     name: 小黑屋
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: ""
-    bonus_number: "0"
     description: 想要藏起来的东西丢进来
     bonus_description: furniture_classes-30000301
     code: poster_wa2000_halloween_icon
-    is_showed: "0"
-    placement: "0"
-    years: "0"
   }
   {
     id: "400"
     name: 附属房间设施
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "100"
     description: furniture_classes-20000400
     bonus_description: furniture_classes-30000400
     code: xsh2017_deco_02_icon
-    is_showed: "0"
-    placement: "0"
     years: "2017"
   }
   {
     id: "500"
     name: 人形往事
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "7"
     description: 人形们各种各样事件中获取的纪念品，或者是彼此，或者是指挥官，那些都是永远记录在心智云图中的宝贵记忆
     bonus_description: furniture_classes-30000500
     code: poster_2016xmas_icon
     is_showed: "2"
-    placement: "0"
     years: "2016"
   }
   {
     id: "600"
     name: 平凡的站牌
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "28"
     description: 以格里芬部门站牌为主题的家具组合。用来标识部门的站牌，平平无奇且占墙面积大，但从没有谁想过摘下它换上别的。或许就像某位格里芬雇员梦中念叨过的家乡菜，不管多么平庸甚至让人厌烦，但是跟随它的味道总能找到回家的路。
     bonus_description: furniture_classes-30000600
     code: Fetter_Stations_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
 ]

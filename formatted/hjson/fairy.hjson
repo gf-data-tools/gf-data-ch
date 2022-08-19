@@ -10,7 +10,6 @@
     hit: 160
     dodge: 100
     armor: 100
-    critical_harm_rate: 0
     grow: 100
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900110"
@@ -26,14 +25,11 @@
     powerup_ammo: 14
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-1.2,-1.2,0"
     avatar_scale: "0.58,0.58,0.58"
     picture_offset: "-60,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -45,7 +41,6 @@
     introduce: 拥有的提高暴击效率的能力，平日可用于喊话和吵架助理。
     type: 2
     pow: 100
-    hit: 0
     dodge: 100
     armor: 100
     critical_harm_rate: 199
@@ -64,14 +59,11 @@
     powerup_ammo: 14
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,21,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-60,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -83,8 +75,6 @@
     introduce: 拥有提高霰弹装甲的能力，平日可用于地面安保工作。
     type: 3
     pow: 145
-    hit: 0
-    dodge: 0
     armor: 242
     critical_harm_rate: 101
     grow: 100
@@ -102,14 +92,11 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "5,10,0"
     avatar_scale: "0.58,0.58,0.58"
     picture_offset: "-130,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -123,8 +110,6 @@
     pow: 130
     hit: 120
     dodge: 200
-    armor: 0
-    critical_harm_rate: 0
     grow: 100
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "756019"
@@ -140,14 +125,11 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,-16,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-40,-50,0"
     picture_scale: "1,1,1"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -159,10 +141,8 @@
     introduce: 拥有提高防御的能力，平日可用于保守秘密和紧急护理。
     type: 5
     pow: 131
-    hit: 0
     dodge: 180
     armor: 180
-    critical_harm_rate: 0
     grow: 121
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "757047"
@@ -178,14 +158,11 @@
     powerup_ammo: 3
     powerup_mre: 10
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,12,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-40,-70,0"
     picture_scale: "1,1,1"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -216,14 +193,11 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "20,-13,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-100,-90,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -234,7 +208,6 @@
     description: “人形能救的，只有自己一方的事情。”
     introduce: 拥有狙击敌人的能力，平日可用于校准武器。
     type: 4
-    pow: 0
     hit: 175
     dodge: 70
     armor: 141
@@ -254,14 +227,11 @@
     powerup_ammo: 14
     powerup_mre: 10
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "17,0,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-100,-65,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -273,10 +243,8 @@
     introduce: 拥有发动迫击炮的能力，平日可用于大扫除。
     type: 4
     pow: 372
-    hit: 0
     dodge: 140
     armor: 60
-    critical_harm_rate: 0
     grow: 100
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900108"
@@ -292,14 +260,11 @@
     powerup_ammo: 14
     powerup_mre: 10
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "20,4,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-70,-90,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -314,7 +279,6 @@
     hit: 79
     dodge: 79
     armor: 79
-    critical_harm_rate: 0
     grow: 150
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900109"
@@ -330,14 +294,11 @@
     powerup_ammo: 14
     powerup_mre: 10
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,4,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-80,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -349,7 +310,6 @@
     introduce: 拥有呼叫增援人形的能力，平日可用于通讯和紧急呼救。
     type: 5
     pow: 60
-    hit: 0
     dodge: 175
     armor: 81
     critical_harm_rate: 60
@@ -368,14 +328,11 @@
     powerup_ammo: 3
     powerup_mre: 10
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "5,20,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-50,-90,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -387,7 +344,6 @@
     introduce: 拥有控制机场的能力，平日可用于布置场地。
     type: 5
     pow: 190
-    hit: 0
     dodge: 62
     armor: 60
     critical_harm_rate: 155
@@ -406,14 +362,11 @@
     powerup_ammo: 3
     powerup_mre: 10
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-5,15,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-80,0,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -427,8 +380,6 @@
     pow: 200
     hit: 100
     dodge: 242
-    armor: 0
-    critical_harm_rate: 0
     grow: 73
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: *10
@@ -444,14 +395,11 @@
     powerup_ammo: 10
     powerup_mre: 14
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,-5,0"
     avatar_scale: "0.68,0.68,0.68"
     picture_offset: "-100,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -462,9 +410,7 @@
     description: “嘻嘻……我在你上面……”
     introduce: 拥有发射火箭炮的能力，平日可用于庆典礼花工作。
     type: 6
-    pow: 0
     hit: 100
-    dodge: 0
     armor: 241
     critical_harm_rate: 200
     grow: 75
@@ -482,14 +428,11 @@
     powerup_ammo: 10
     powerup_mre: 14
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "10,0,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-80,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -520,14 +463,11 @@
     powerup_ammo: 10
     powerup_mre: 14
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "5,0,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-60,-90,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -539,7 +479,6 @@
     introduce: 拥有提高经验的能力，平日可用于辅助演习和教学。
     type: 1
     pow: 285
-    hit: 0
     dodge: 92
     armor: 85
     critical_harm_rate: 201
@@ -558,14 +497,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,25,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-90,-110,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -579,8 +515,6 @@
     pow: 270
     hit: 200
     dodge: 200
-    armor: 0
-    critical_harm_rate: 0
     grow: 60
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "1000001"
@@ -596,14 +530,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "3,0,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-90,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -614,7 +545,6 @@
     description: “被掳走的人……在隧道的……另一边？”
     introduce: 拥有夜间额外视野的能力，平日可用于夜间探险和打暗号。
     type: 1
-    pow: 0
     hit: 200
     dodge: 87
     armor: 80
@@ -634,14 +564,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-20,-15,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-80,-120,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -672,14 +599,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-100,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "511,0"
   }
@@ -710,14 +634,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-100,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "512,0"
   }
@@ -732,7 +653,6 @@
     hit: 82
     dodge: 44
     armor: 40
-    critical_harm_rate: 0
     grow: 260
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900155"
@@ -748,14 +668,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "502,0"
   }
@@ -767,7 +684,6 @@
     introduce: 拥有释放杀伤性爆竹的能力，平日可用于节庆活动、捕捞鱼鲜、论坛交流。
     type: 6
     pow: 110
-    hit: 0
     dodge: 31
     armor: 125
     critical_harm_rate: 80
@@ -786,14 +702,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "503,0"
   }
@@ -805,9 +718,7 @@
     introduce: 拥有短距离击退的能力，平日可用于清空场地。
     type: 6
     pow: 105
-    hit: 0
     dodge: 50
-    armor: 0
     critical_harm_rate: 80
     grow: 300
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -824,14 +735,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "504,0"
   }
@@ -844,8 +752,6 @@
     type: 6
     pow: 220
     hit: 188
-    dodge: 0
-    armor: 0
     critical_harm_rate: 80
     grow: 80
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -862,14 +768,11 @@
     powerup_ammo: 10
     powerup_mre: 14
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,24,0"
     avatar_scale: "0.58,0.58,0.58"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -880,11 +783,9 @@
     description: “左侧弹……啊不，护甲太薄了！”
     introduce: 拥有为梯队内带护甲人形张开护盾的能力，平日可用于负重减肥和包快递。
     type: 3
-    pow: 0
     hit: 145
     dodge: 80
     armor: 220
-    critical_harm_rate: 0
     grow: 95
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900168"
@@ -900,14 +801,11 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "5,10,0"
     avatar_scale: "0.58,0.58,0.58"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -922,7 +820,6 @@
     hit: 110
     dodge: 110
     armor: 105
-    critical_harm_rate: 0
     grow: 115
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900159"
@@ -938,14 +835,11 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,-24.5,0"
     avatar_scale: "0.5,0.5,0.5"
     picture_offset: "20,-70,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "38"
   }
@@ -960,7 +854,6 @@
     hit: 22
     dodge: 30
     armor: 120
-    critical_harm_rate: 0
     grow: 60
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "901001"
@@ -976,14 +869,11 @@
     powerup_ammo: 14
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-10,-27,0"
     avatar_scale: "0.58,0.58,0.58"
     picture_offset: "-60,-100,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "509,510"
   }
@@ -997,7 +887,6 @@
     pow: 110
     hit: 120
     dodge: 200
-    armor: 0
     critical_harm_rate: 100
     grow: 120
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -1014,14 +903,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-10,37,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "0,-60,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "505,0"
   }
@@ -1035,7 +921,6 @@
     pow: 185
     hit: 55
     dodge: 138
-    armor: 0
     critical_harm_rate: 70
     grow: 115
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -1052,14 +937,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "506,0"
   }
@@ -1074,7 +956,6 @@
     hit: 124
     dodge: 40
     armor: 141
-    critical_harm_rate: 0
     grow: 140
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "902378"
@@ -1090,14 +971,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-10,-35,0"
     avatar_scale: "0.58,0.58,0.58"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "507,0"
   }
@@ -1111,7 +989,6 @@
     pow: 200
     hit: 80
     dodge: 100
-    armor: 0
     critical_harm_rate: 80
     grow: 200
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -1128,14 +1005,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "15,17,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "508,0"
   }
@@ -1148,8 +1022,6 @@
     type: 6
     pow: 200
     hit: 120
-    dodge: 0
-    armor: 0
     critical_harm_rate: 120
     grow: 80
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -1166,14 +1038,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,-35,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "40,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
     org_id: 10502
     obtain_ids: "513,0"
   }
@@ -1185,7 +1054,6 @@
     introduce: 拥有群体伤害的能力，战斗中产生大量火柱，对接触到的敌人造成伤害。
     type: 4
     pow: 220
-    hit: 0
     dodge: 75
     armor: 65
     critical_harm_rate: 200
@@ -1204,15 +1072,12 @@
     powerup_ammo: 14
     powerup_mre: 10
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "0,30,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-80,-70,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "303,317"
   }
   {
@@ -1222,7 +1087,6 @@
     description: “淡漠无名，月下起舞。”
     introduce: 拥有地图伤害的能力，在大地图中对范围不大于2的最多3队敌人造成伤害。
     type: 6
-    pow: 0
     hit: 173
     dodge: 75
     armor: 180
@@ -1242,15 +1106,12 @@
     powerup_ammo: 10
     powerup_mre: 14
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "5,12,0"
     avatar_scale: "0.5,0.5,0.5"
     picture_offset: "-70,-90,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "314,318"
   }
   {
@@ -1264,7 +1125,6 @@
     hit: 135
     dodge: 199
     armor: 65
-    critical_harm_rate: 0
     grow: 60
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900119"
@@ -1280,15 +1140,12 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "5,10,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-100,-80,0"
     picture_scale: "0.8,0.8,0.8"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "314,318"
   }
   {
@@ -1298,8 +1155,6 @@
     description: “我需要你，请留在我身边哦！”
     introduce: 拥有指定地点施加增益的能力，平时会帮大家蹲点观察和约会盯梢。
     type: 6
-    pow: 0
-    hit: 0
     dodge: 175
     armor: 170
     critical_harm_rate: 150
@@ -1318,15 +1173,12 @@
     powerup_ammo: 14
     powerup_mre: 10
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "0,30,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-80,-70,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "315,319"
   }
   {
@@ -1339,7 +1191,6 @@
     pow: 100
     hit: 80
     dodge: 125
-    armor: 0
     critical_harm_rate: 100
     grow: 100
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
@@ -1356,15 +1207,12 @@
     powerup_ammo: 10
     powerup_mre: 14
     powerup_part: 8
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "20,20,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-90,-90,0"
     picture_scale: "0.8,0.8,0.8"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "315,319"
   }
   {
@@ -1394,15 +1242,12 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "-20,0,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-90,-90,0"
     picture_scale: "0.8,0.8,0.8"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "315,319"
   }
   {
@@ -1416,7 +1261,6 @@
     hit: 65
     dodge: 180
     armor: 80
-    critical_harm_rate: 0
     grow: 80
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900158"
@@ -1432,15 +1276,12 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "0,30,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "0,-70,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "316,223"
   }
   {
@@ -1454,7 +1295,6 @@
     hit: 50
     dodge: 150
     armor: 150
-    critical_harm_rate: 0
     grow: 115
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "756045"
@@ -1470,15 +1310,12 @@
     powerup_ammo: 10
     powerup_mre: 3
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
     is_additional: 1
     avatar_offset: "0,30,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "0,-70,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
     obtain_ids: "242,244"
   }
   {
@@ -1495,7 +1332,6 @@
     critical_harm_rate: 100
     grow: 100
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
-    skill_id: "0"
     quality_exp: 100
     quality_need_number: 1:0,2:100,3:500,4:1500,5:3000
     category: 99
@@ -1508,16 +1344,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,0,0"
     avatar_scale: "1,1,1"
     picture_offset: "0,0,0"
     picture_scale: "1,1,1"
-    launch_time: "0"
-    org_id: 0
-    obtain_ids: ""
   }
   {
     id: 90002
@@ -1530,7 +1361,6 @@
     hit: 50
     dodge: 80
     armor: 150
-    critical_harm_rate: 0
     grow: 115
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "501029"
@@ -1546,16 +1376,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,0,0"
     avatar_scale: "1,1,1"
     picture_offset: "0,0,0"
     picture_scale: "1,1,1"
-    launch_time: "0"
-    org_id: 0
-    obtain_ids: ""
   }
   {
     id: 90003
@@ -1564,7 +1389,6 @@
     description: “被掳走的人……在隧道的……另一边？”
     introduce: 拥有夜间额外视野的能力，平日可用于夜间探险和打暗号。
     type: 1
-    pow: 0
     hit: 200
     dodge: 87
     armor: 80
@@ -1584,16 +1408,11 @@
     powerup_ammo: 3
     powerup_mre: 14
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "-20,-15,0"
     avatar_scale: "0.7,0.7,0.7"
     picture_offset: "-80,-120,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
-    obtain_ids: ""
   }
   {
     id: 90004
@@ -1606,7 +1425,6 @@
     hit: 79
     dodge: 79
     armor: 79
-    critical_harm_rate: 0
     grow: 150
     proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
     skill_id: "900109"
@@ -1622,15 +1440,10 @@
     powerup_ammo: 14
     powerup_mre: 10
     powerup_part: 3
-    armor_piercing: 0
     ai: 3000
-    is_additional: 0
     avatar_offset: "0,4,0"
     avatar_scale: "0.6,0.6,0.6"
     picture_offset: "-80,-80,0"
     picture_scale: "0.864,0.864,0.864"
-    launch_time: "0"
-    org_id: 0
-    obtain_ids: ""
   }
 ]

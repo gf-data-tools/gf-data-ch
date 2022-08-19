@@ -1,49 +1,30 @@
 [
   {
     id: "1"
-    campaign: "0"
     name: 应援训练
     description: 战斗梯队正在休整,支援梯队将负责维持该地区秩序。
     duration: "3000"
-    mp: "0"
     ammo: "145"
     mre: "145"
-    part: "0"
     item_pool: "3,4,0"
     team_leader_min_level: "40"
     gun_min: "4"
-    guntype1_min: "0"
-    guntype2_min: "0"
     guntype3_min: "1"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "2"
-    campaign: "0"
     name: 梯队集训
     description: 区域遭遇攻击！支援梯队需要辅助战斗梯队快速反应。
     duration: "10800"
     mp: "550"
-    ammo: "0"
-    mre: "0"
     part: "350"
     item_pool: "1,0"
     team_leader_min_level: "45"
     gun_min: "5"
-    guntype1_min: "0"
     guntype2_min: "3"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "3"
-    campaign: "0"
     name: 特种支援
     description: 由于该区域无法从后方获得补给,支援梯队需要在当地搜寻补给。
     duration: "43200"
@@ -55,33 +36,21 @@
     team_leader_min_level: "45"
     gun_min: "5"
     guntype1_min: "2"
-    guntype2_min: "0"
     guntype3_min: "2"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "4"
-    campaign: "0"
     name: 联合演习
     description: 战斗梯队无法抵御大量敌人,支援梯队不得不将补给留给战斗梯队后迅速撤离。
     duration: "86400"
-    mp: "0"
     ammo: "1200"
     mre: "800"
     part: "750"
     item_pool: "41"
     team_leader_min_level: "50"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
     guntype4_min: "1"
     guntype5_min: "1"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "5"
@@ -92,17 +61,9 @@
     mp: "10"
     ammo: "30"
     mre: "15"
-    part: "0"
-    item_pool: "0"
     team_leader_min_level: "1"
     gun_min: "2"
     guntype1_min: "1"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "6"
@@ -110,20 +71,12 @@
     name: 巡逻戒严
     description: 战术少女开始最基础的战术训练,这将有助于增加她们在战场中的存活率。
     duration: "1800"
-    mp: "0"
     ammo: "40"
     mre: "60"
-    part: "0"
-    item_pool: "0"
     team_leader_min_level: "3"
     gun_min: "2"
     guntype1_min: "1"
     guntype2_min: "1"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "7"
@@ -132,19 +85,12 @@
     description: 战术少女开始进行射击和搏击训练,在完成以上训练后她们可以进入实战了。
     duration: "3600"
     mp: "30"
-    ammo: "0"
     mre: "30"
     part: "10"
     item_pool: "4,0"
     team_leader_min_level: "5"
     gun_min: "3"
-    guntype1_min: "0"
     guntype2_min: "2"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "8"
@@ -154,18 +100,11 @@
     duration: "7200"
     mp: "160"
     ammo: "160"
-    mre: "0"
-    part: "0"
     item_pool: "1,0"
     team_leader_min_level: "6"
     gun_min: "5"
     guntype1_min: "1"
-    guntype2_min: "0"
-    guntype3_min: "0"
     guntype4_min: "1"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "9"
@@ -174,19 +113,10 @@
     description: 战术少女组成的支援梯队将进行第一次简单但必要的后勤任务。
     duration: "2400"
     mp: "100"
-    ammo: "0"
-    mre: "0"
     part: "30"
-    item_pool: "0"
     team_leader_min_level: "5"
     gun_min: "3"
     guntype1_min: "2"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "10"
@@ -197,17 +127,11 @@
     mp: "60"
     ammo: "200"
     mre: "80"
-    part: "0"
     item_pool: "4,0"
     team_leader_min_level: "8"
     gun_min: "4"
     guntype1_min: "2"
     guntype2_min: "1"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "11"
@@ -222,13 +146,8 @@
     item_pool: "3,4"
     team_leader_min_level: "10"
     gun_min: "5"
-    guntype1_min: "0"
     guntype2_min: "2"
-    guntype3_min: "0"
     guntype4_min: "1"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "12"
@@ -236,7 +155,6 @@
     name: 采集数据
     description: 支援梯队遭遇了伏击！她们需要击退小股入侵者以完成运送任务。
     duration: "21600"
-    mp: "0"
     ammo: "250"
     mre: "600"
     part: "60"
@@ -244,12 +162,7 @@
     team_leader_min_level: "15"
     gun_min: "5"
     guntype1_min: "2"
-    guntype2_min: "0"
-    guntype3_min: "0"
     guntype4_min: "1"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "13"
@@ -258,19 +171,10 @@
     description: 描述13
     duration: "1200"
     mp: "50"
-    ammo: "0"
     mre: "75"
-    part: "0"
-    item_pool: "0"
     team_leader_min_level: "12"
     gun_min: "4"
     guntype1_min: "3"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "14"
@@ -278,20 +182,13 @@
     name: 截获密报
     description: 描述14
     duration: "2700"
-    mp: "0"
     ammo: "120"
     mre: "70"
     part: "30"
-    item_pool: "0"
     team_leader_min_level: "20"
     gun_min: "5"
-    guntype1_min: "0"
     guntype2_min: "1"
-    guntype3_min: "0"
     guntype4_min: "1"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "15"
@@ -299,20 +196,12 @@
     name: 交通管制
     description: 描述15
     duration: "5400"
-    mp: "0"
     ammo: "300"
-    mre: "0"
-    part: "0"
     item_pool: "3,4,0"
     team_leader_min_level: "15"
     gun_min: "4"
-    guntype1_min: "0"
-    guntype2_min: "0"
     guntype3_min: "1"
     guntype4_min: "1"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "16"
@@ -320,20 +209,12 @@
     name: 封锁密道
     description: 描述16
     duration: "18000"
-    mp: "0"
-    ammo: "0"
     mre: "300"
     part: "300"
     item_pool: "1,2,0"
     team_leader_min_level: "25"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
     guntype4_min: "3"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "17"
@@ -341,20 +222,12 @@
     name: 视野支援
     description: 描述17
     duration: "3600"
-    mp: "0"
     ammo: "185"
     mre: "185"
-    part: "0"
     item_pool: "2,0"
     team_leader_min_level: "30"
     gun_min: "4"
-    guntype1_min: "0"
     guntype2_min: "2"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "18"
@@ -362,20 +235,11 @@
     name: 切断补给
     description: 描述18
     duration: "7200"
-    mp: "0"
-    ammo: "0"
-    mre: "0"
     part: "210"
     item_pool: "3,0"
     team_leader_min_level: "35"
     gun_min: "5"
     guntype1_min: "4"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "19"
@@ -385,18 +249,11 @@
     duration: "21600"
     mp: "800"
     ammo: "550"
-    mre: "0"
-    part: "0"
     item_pool: "1,4"
     team_leader_min_level: "40"
     gun_min: "5"
     guntype1_min: "1"
-    guntype2_min: "0"
-    guntype3_min: "0"
     guntype4_min: "3"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "20"
@@ -411,13 +268,8 @@
     item_pool: "3"
     team_leader_min_level: "40"
     gun_min: "5"
-    guntype1_min: "0"
     guntype2_min: "1"
     guntype3_min: "2"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "21"
@@ -425,20 +277,10 @@
     name: 例行检阅
     description: 描述21
     duration: "1800"
-    mp: "0"
-    ammo: "0"
     mre: "100"
     part: "45"
-    item_pool: "0"
     team_leader_min_level: "30"
     gun_min: "4"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "22"
@@ -446,20 +288,11 @@
     name: 现场救援
     description: 描述22
     duration: "9000"
-    mp: "0"
     ammo: "600"
     mre: "300"
-    part: "0"
     item_pool: "4,0"
     team_leader_min_level: "35"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "23"
@@ -470,17 +303,9 @@
     mp: "800"
     ammo: "400"
     mre: "400"
-    part: "0"
     item_pool: "2,0"
     team_leader_min_level: "40"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "24"
@@ -489,19 +314,10 @@
     description: 描述24
     duration: "25200"
     mp: "100"
-    ammo: "0"
-    mre: "0"
     part: "700"
     item_pool: "1,0"
     team_leader_min_level: "40"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "25"
@@ -511,18 +327,9 @@
     duration: "7200"
     mp: "300"
     ammo: "300"
-    mre: "0"
     part: "100"
-    item_pool: "0"
     team_leader_min_level: "35"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "26"
@@ -530,20 +337,12 @@
     name: 远程侦查
     description: 描述26
     duration: "10800"
-    mp: "0"
     ammo: "200"
     mre: "550"
     part: "100"
     item_pool: "3,4"
     team_leader_min_level: "40"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "27"
@@ -551,20 +350,11 @@
     name: 提取科技
     description: 描述27
     duration: "18000"
-    mp: "0"
-    ammo: "0"
     mre: "200"
     part: "500"
     item_pool: "2,0"
     team_leader_min_level: "45"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "28"
@@ -575,17 +365,9 @@
     mp: "800"
     ammo: "800"
     mre: "800"
-    part: "0"
     item_pool: "41,0"
     team_leader_min_level: "45"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "29"
@@ -594,19 +376,9 @@
     description: 描述29
     duration: "9000"
     mp: "650"
-    ammo: "0"
     mre: "650"
-    part: "0"
-    item_pool: "0"
     team_leader_min_level: "40"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "30"
@@ -614,20 +386,11 @@
     name: 接应队友
     description: 描述30
     duration: "14400"
-    mp: "0"
     ammo: "650"
-    mre: "0"
     part: "300"
     item_pool: "1,4"
     team_leader_min_level: "45"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "31"
@@ -638,17 +401,9 @@
     mp: "900"
     ammo: "600"
     mre: "600"
-    part: "0"
     item_pool: "2,0"
     team_leader_min_level: "50"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "32"
@@ -663,13 +418,6 @@
     item_pool: "3,0"
     team_leader_min_level: "50"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "33"
@@ -680,17 +428,9 @@
     mp: "150"
     ammo: "150"
     mre: "150"
-    part: "0"
     item_pool: "2,0"
     team_leader_min_level: "45"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "34"
@@ -698,20 +438,10 @@
     name: 解析碎片
     description: 描述34
     duration: "10800"
-    mp: "0"
-    ammo: "0"
-    mre: "0"
     part: "450"
     item_pool: "4,0"
     team_leader_min_level: "50"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "35"
@@ -722,17 +452,9 @@
     mp: "400"
     ammo: "800"
     mre: "800"
-    part: "0"
     item_pool: "3,4"
     team_leader_min_level: "55"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "36"
@@ -747,13 +469,6 @@
     item_pool: "1,0"
     team_leader_min_level: "60"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "37"
@@ -761,20 +476,10 @@
     name: 清理哨站
     description: 描述37
     duration: "1800"
-    mp: "0"
-    ammo: "0"
     mre: "100"
     part: "50"
-    item_pool: "0"
     team_leader_min_level: "55"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "38"
@@ -783,19 +488,11 @@
     description: 描述38
     duration: "5400"
     mp: "180"
-    ammo: "0"
     mre: "180"
     part: "100"
     item_pool: "3,0"
     team_leader_min_level: "60"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "39"
@@ -805,18 +502,9 @@
     duration: "16200"
     mp: "750"
     ammo: "750"
-    mre: "0"
-    part: "0"
     item_pool: "1,0"
     team_leader_min_level: "65"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "40"
@@ -827,17 +515,9 @@
     mp: "500"
     ammo: "900"
     mre: "900"
-    part: "0"
     item_pool: "2"
     team_leader_min_level: "70"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "41"
@@ -847,18 +527,8 @@
     duration: "2400"
     mp: "140"
     ammo: "200"
-    mre: "0"
-    part: "0"
-    item_pool: "0"
     team_leader_min_level: "65"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "42"
@@ -866,20 +536,11 @@
     name: 前线支援
     description: 描述38
     duration: "6000"
-    mp: "0"
     ammo: "240"
     mre: "180"
-    part: "0"
     item_pool: "1,3"
     team_leader_min_level: "70"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "43"
@@ -887,20 +548,12 @@
     name: 腹地侦察
     description: 描述39
     duration: "19200"
-    mp: "0"
     ammo: "480"
     mre: "480"
     part: "300"
     item_pool: "3,4"
     team_leader_min_level: "75"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "44"
@@ -915,13 +568,6 @@
     item_pool: "2,0"
     team_leader_min_level: "75"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "45"
@@ -931,18 +577,9 @@
     duration: "14400"
     mp: "350"
     ammo: "1050"
-    mre: "0"
-    part: "0"
     item_pool: "1,2"
     team_leader_min_level: "70"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "46"
@@ -953,17 +590,9 @@
     mp: "360"
     ammo: "540"
     mre: "540"
-    part: "0"
     item_pool: "1"
     team_leader_min_level: "75"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "47"
@@ -971,20 +600,12 @@
     name: 外观伪装
     description: 描述39
     duration: "28800"
-    mp: "0"
     ammo: "750"
     mre: "1500"
     part: "250"
     item_pool: "4,0"
     team_leader_min_level: "80"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "48"
@@ -992,20 +613,11 @@
     name: 突击支援
     description: 描述40
     duration: "36000"
-    mp: "0"
     ammo: "1650"
-    mre: "0"
     part: "900"
     item_pool: "3"
     team_leader_min_level: "80"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "49"
@@ -1013,20 +625,11 @@
     name: 维护装备
     description: 描述37
     duration: "3600"
-    mp: "0"
     ammo: "220"
     mre: "220"
-    part: "0"
     item_pool: "2,0"
     team_leader_min_level: "80"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "50"
@@ -1035,19 +638,9 @@
     description: 描述38
     duration: "5400"
     mp: "360"
-    ammo: "0"
-    mre: "0"
     part: "120"
-    item_pool: "0"
     team_leader_min_level: "80"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "51"
@@ -1058,17 +651,9 @@
     mp: "800"
     ammo: "1200"
     mre: "1200"
-    part: "0"
     item_pool: "3"
     team_leader_min_level: "85"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "52"
@@ -1077,19 +662,10 @@
     description: 描述40
     duration: "43200"
     mp: "1800"
-    ammo: "0"
     mre: "1800"
-    part: "0"
     item_pool: "1"
     team_leader_min_level: "90"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "53"
@@ -1097,20 +673,10 @@
     name: 紧急救护
     description: 描述37
     duration: "10800"
-    mp: "0"
-    ammo: "0"
     mre: "1200"
-    part: "0"
     item_pool: "3"
     team_leader_min_level: "85"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "54"
@@ -1122,16 +688,8 @@
     ammo: "800"
     mre: "800"
     part: "300"
-    item_pool: "0"
     team_leader_min_level: "85"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "55"
@@ -1139,20 +697,11 @@
     name: 回收军备
     description: 描述39
     duration: "86400"
-    mp: "0"
     ammo: "4000"
-    mre: "0"
     part: "1200"
     item_pool: "2"
     team_leader_min_level: "90"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
   {
     id: "56"
@@ -1160,19 +709,9 @@
     name: 解构残骸
     description: 描述40
     duration: "21600"
-    mp: "0"
-    ammo: "0"
-    mre: "0"
     part: "1000"
     item_pool: "1"
     team_leader_min_level: "95"
     gun_min: "5"
-    guntype1_min: "0"
-    guntype2_min: "0"
-    guntype3_min: "0"
-    guntype4_min: "0"
-    guntype5_min: "0"
-    guntype6_min: "0"
-    guntype7_min: "0"
   }
 ]
