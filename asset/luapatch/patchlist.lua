@@ -171,7 +171,9 @@ patch3010={
 "3010/MailData",
 "3010/ItemData",
 "3010/HomeController",		
-"3010/GunData",	
+"3010/GunData",
+"3010/CommanderSpineAnimation",	
+"3010/BattleSangvisResultController",
 }
 -- va11
 print("load Va11");
