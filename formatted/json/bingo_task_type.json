@@ -51,8 +51,8 @@
     {
         "id": 8,
         "task_type": "consume_equip_contract",
-        "title": "消耗装备制造契约",
-        "content": "累计消耗装备制造契约*{0}",
+        "title": "消耗装备&妖精制造契约",
+        "content": "累计消耗装备&妖精制造契约*{0}",
         "function_control_id": 0
     },
     {
@@ -205,8 +205,8 @@
     {
         "id": 30,
         "task_type": "operation_equip_contract",
-        "title": "行动回报-装备制造契约",
-        "content": "通过后勤支援获得装备制造契约*{0}",
+        "title": "行动回报-装备&妖精制造契约",
+        "content": "通过后勤支援获得装备&妖精制造契约*{0}",
         "function_control_id": 0
     },
     {
@@ -893,6 +893,13 @@
         "task_type": "sangvis_exercise_analysis",
         "title": "解密算法练习",
         "content": "完成解密算法练习{0}次",
+        "function_control_id": 0
+    },
+    {
+        "id": 129,
+        "task_type": "special_develop_fairy",
+        "title": "妖精重造",
+        "content": "进行{0}次妖精重型制造",
         "function_control_id": 0
     }
 ]

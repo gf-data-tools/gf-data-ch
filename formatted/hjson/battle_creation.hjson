@@ -419,7 +419,7 @@
     exist_duration: "30"
     effect_param_2: "1"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -1653,6 +1653,7 @@
     effect_param_1: *101
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -1722,6 +1723,7 @@
     effect_param_2: *101
     hurt_id: "22"
     is_form_play: 1
+    creation_type: 2
     scale: "1,1,0"
     trigger_creation_id: "119,120,121,122"
     trigger_creation_delay: "2,2,2,2"
@@ -3244,6 +3246,7 @@
     hurt_id: "2"
     buff_id: "247"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -4180,6 +4183,7 @@
     effect_param_2: "3"
     hurt_id: "1"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -8548,6 +8552,7 @@
     is_form_offset_start: 1
     exist_duration: "45"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "650"
     trigger_creation_delay: "3"
@@ -9362,6 +9367,7 @@
     effect_param_2: "1"
     hurt_id: "327"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -9446,6 +9452,7 @@
     effect_param_2: *101
     hurt_id: "1"
     is_form_play: 1
+    creation_type: 2
     scale: "1,1,0"
     sound_order: BT_firebomb_explode
   }
@@ -11458,7 +11465,7 @@
     destination_offset: "0,0,-1"
     exist_duration: "30"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "0.7,0.7"
     trigger_creation_id: "789"
     trigger_creation_delay: "2"
@@ -11474,7 +11481,7 @@
     destination_offset: "1,0,1"
     exist_duration: "30"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "0.7,0.7"
     trigger_creation_id: "790"
     trigger_creation_delay: "2"
@@ -11490,7 +11497,7 @@
     destination_offset: "1,0,1"
     exist_duration: "30"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "0.7,0.7"
     sound_order: BT_grenade_explode
   }
@@ -11946,6 +11953,7 @@
     effect_param_2: "2"
     hurt_id: "346"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -12986,6 +12994,7 @@
     effect_param_1: *101
     hurt_id: "322"
     is_form_play: 1
+    creation_type: 2
     scale: "1.5,1.5"
     sound_order: BT_grenade_explode
   }
@@ -18992,6 +19001,7 @@
     is_tracing: 1
     exist_duration: "30"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
     is_die_delete: 1
@@ -22944,6 +22954,7 @@
     effect_param_1: *101
     hurt_id: "22"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "1803"
     trigger_creation_delay: "4"
@@ -23081,6 +23092,7 @@
     effect_param_1: *101
     hurt_id: "441"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -23421,6 +23433,7 @@
     effect_area: 1
     hurt_id: "442"
     is_form_play: 1
+    creation_type: 2
     scale: "0.7,0.7"
     sound_order: BT_grenade_explode
   }
@@ -26688,6 +26701,7 @@
     effect_param_1: "2"
     buff_id: "954"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_squad_explode
   }
@@ -26864,6 +26878,7 @@
     effect_param_1: *101
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -26932,6 +26947,7 @@
     hurt_id: "2"
     buff_id: "972"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -26971,6 +26987,7 @@
     hurt_id: "2"
     buff_id: "972"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -27330,6 +27347,7 @@
     effect_param_1: *101
     hurt_id: "999001"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_squad_explode
   }
@@ -27402,6 +27420,7 @@
     effect_param_1: *101
     hurt_id: "999001"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_squad_explode
   }
@@ -28901,6 +28920,7 @@
     hurt_id: "2"
     buff_id: "593"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -29804,6 +29824,7 @@
     effect_param_2: "3"
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: skill_electrosold_explo
   }
@@ -29919,6 +29940,7 @@
     effect_param_2: "3"
     hurt_id: "4"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: skill_firearrow_explo
   }
@@ -30305,6 +30327,7 @@
     hurt_id: "471"
     buff_id: "3171"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -30355,6 +30378,7 @@
     effect_param_1: *101
     hurt_id: "472"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -33628,7 +33652,7 @@
     is_form_offset_start: 1
     exist_duration: "30"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -37851,6 +37875,7 @@
     effect_param_1: *101
     hurt_id: "503"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -37886,6 +37911,7 @@
     effect_param_1: *101
     hurt_id: "504"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -37975,6 +38001,7 @@
     effect_param_2: "3"
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -38977,6 +39004,7 @@
     effect_param_2: "3"
     hurt_id: "506"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -40348,6 +40376,7 @@
     effect_param_1: *101
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "2998,2999"
     trigger_creation_delay: "1,1"
@@ -40366,6 +40395,7 @@
     effect_param_1: *101
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "3000"
     trigger_creation_delay: "1"
@@ -40384,6 +40414,7 @@
     effect_param_1: *101
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "3001"
     trigger_creation_delay: "1"
@@ -44571,6 +44602,7 @@
     effect_type: 2
     effect_area: 1
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -45456,6 +45488,7 @@
     effect_area: 1
     hurt_id: "540"
     is_form_play: 1
+    creation_type: 2
     scale: "0.35,0.35,1"
   }
   {
@@ -45473,6 +45506,7 @@
     effect_area: 1
     hurt_id: "541"
     is_form_play: 1
+    creation_type: 2
     scale: "0.35,0.35,1"
   }
   {
@@ -45531,6 +45565,7 @@
     effect_area: 1
     hurt_id: "545"
     is_form_play: 1
+    creation_type: 2
     scale: "0.35,0.35,1"
   }
   {
@@ -45547,6 +45582,7 @@
     effect_area: 1
     hurt_id: "546"
     is_form_play: 1
+    creation_type: 2
     scale: "0.35,0.35,1"
   }
   {
@@ -45563,6 +45599,7 @@
     effect_area: 1
     hurt_id: "547"
     is_form_play: 1
+    creation_type: 2
     scale: "0.35,0.35,1"
   }
   {
@@ -45579,6 +45616,7 @@
     effect_area: 1
     hurt_id: "548"
     is_form_play: 1
+    creation_type: 2
     scale: "0.35,0.35,1"
   }
   {
@@ -49921,6 +49959,7 @@
     is_form_offset_start: 1
     is_tracing: 1
     exist_duration: "60"
+    creation_type: 2
     scale: "1"
   }
   {
@@ -49984,6 +50023,7 @@
     effect_param_2: *102
     hurt_id: "595"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -50311,6 +50351,7 @@
     effect_param_2: *102
     hurt_id: "595"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -53285,7 +53326,7 @@
     start_offset: "0,0,0.3"
     destination_type: "8"
     destination_offset: "0,0,0.3"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53303,7 +53344,7 @@
     start_offset: "0,0,-3.9"
     destination_type: "8"
     destination_offset: "0,0,-3.9"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53321,7 +53362,7 @@
     start_offset: "-2.6"
     destination_type: "8"
     destination_offset: "-2.6"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53339,7 +53380,7 @@
     start_offset: "-5"
     destination_type: "8"
     destination_offset: "-5"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53357,7 +53398,7 @@
     start_offset: "0,0,0.3"
     destination_type: "8"
     destination_offset: "0,0,0.3"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53375,7 +53416,7 @@
     start_offset: "0,0,-3.9"
     destination_type: "8"
     destination_offset: "0,0,-3.9"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53393,7 +53434,7 @@
     start_offset: "-2.6"
     destination_type: "8"
     destination_offset: "-2.6"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -53411,7 +53452,7 @@
     start_offset: "-5"
     destination_type: "8"
     destination_offset: "-5"
-    is_tracing: 2
+    is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
     effect_area: 2
@@ -54083,6 +54124,7 @@
     effect_area: 1
     effect_param_1: *101
     hurt_id: "441"
+    creation_type: 2
     scale: "1"
   }
   {
@@ -56427,6 +56469,7 @@
     effect_param_1: *101
     hurt_id: "2"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -57090,6 +57133,7 @@
     effect_param_2: "2"
     hurt_id: "2522"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -57385,7 +57429,6 @@
     start_offset: "-0.7,0.2,0"
     destination_type: "6"
     destination_offset: "-0.7,0.2,0"
-    is_form_offset_start: 1
     is_tracing: 1
     exist_duration: "44"
     is_form_play: 1
@@ -57401,7 +57444,6 @@
     start_offset: "-0.7,0.2,0"
     destination_type: "6"
     destination_offset: "-0.7,0.2,0"
-    is_form_offset_start: 1
     is_tracing: 1
     exist_duration: "89"
     is_form_play: 1
@@ -57521,7 +57563,7 @@
     destination_offset: "-2,0,0"
     exist_duration: "30"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "0.7,0.7"
     trigger_creation_id: "790"
     trigger_creation_delay: "25"
@@ -57779,6 +57821,7 @@
     effect_area: 1
     effect_param_1: "2"
     hurt_id: "1"
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "556301"
     trigger_creation_delay: "30"
@@ -57882,6 +57925,7 @@
     effect_param_1: *101
     hurt_id: "2548"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -57918,6 +57962,7 @@
     effect_param_1: *101
     hurt_id: "2548"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -58252,6 +58297,7 @@
     effect_param_1: *101
     hurt_id: "2550"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -58486,6 +58532,7 @@
     effect_param_1: *201
     hurt_id: "2555"
     is_form_play: 1
+    creation_type: 2
     scale: "0.7,0.7"
     sound_order: BT_grenade_explode
   }
@@ -58521,6 +58568,7 @@
     hurt_id: "2555"
     buff_id: "3815"
     is_form_play: 1
+    creation_type: 2
     scale: "0.7,0.7"
     sound_order: BT_grenade_explode
   }
@@ -58705,6 +58753,7 @@
     effect_param_1: *201
     hurt_id: "2560"
     is_form_play: 1
+    creation_type: 2
     scale: "0.8,0.8"
     sound_order: BT_grenade_explode
   }
@@ -59135,7 +59184,7 @@
     effect_param_1: *101
     effect_param_2: *101
     buff_id: 3945:1
-    buff_cd: "15"
+    buff_cd: "14"
     is_form_play: 1
     creation_type: 2
     scale: "1"
@@ -60600,6 +60649,7 @@
     effect_area: 1
     hurt_id: "2652"
     is_form_play: 1
+    creation_type: 2
     scale: "0.4,0.4"
     sound_order: BT_pistol
   }
@@ -62508,6 +62558,7 @@
     effect_param_1: *102
     hurt_id: "2030"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -63031,6 +63082,7 @@
     effect_param_1: *102
     hurt_id: "2066"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -67331,7 +67383,7 @@
     effect_param_1: "2"
     hurt_id: "2166"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67346,7 +67398,7 @@
     effect_param_1: "2"
     hurt_id: "2167"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67361,7 +67413,7 @@
     effect_param_1: "2"
     hurt_id: "2168"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67376,7 +67428,7 @@
     effect_param_1: "2"
     hurt_id: "2169"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67391,7 +67443,7 @@
     effect_param_1: "2"
     hurt_id: "2170"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67406,7 +67458,7 @@
     effect_param_1: "2"
     hurt_id: "2171"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67421,7 +67473,7 @@
     effect_param_1: "2"
     hurt_id: "2172"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67436,7 +67488,7 @@
     effect_param_1: "2"
     hurt_id: "2173"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67451,7 +67503,7 @@
     effect_param_1: "2"
     hurt_id: "2174"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -67466,7 +67518,7 @@
     effect_param_1: "2"
     hurt_id: "2175"
     is_form_play: 1
-    creation_type: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -68118,6 +68170,7 @@
     buff_id: 8036:1,8037:2,8038:2,8033:2
     buff_cd: "0,0,0,0"
     is_single_hurt: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -68500,6 +68553,7 @@
     effect_param_1: *101
     hurt_id: "2192"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -68621,6 +68675,7 @@
     effect_param_1: *101
     hurt_id: "2197"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -68751,6 +68806,7 @@
     buff_type: 101:-99,102:-99,103:-99,104:-99,801:-99,802:-99,803:-99,804:-99
     buff_cd: "0,0,0,0,0,0,0,0"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -70183,6 +70239,7 @@
     effect_param_1: *102
     hurt_id: "2218"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -70311,6 +70368,7 @@
     is_form_offset_start: 1
     exist_duration: "45"
     is_form_play: 1
+    creation_type: 2
     scale: "-1"
     trigger_creation_delay: "3"
     sound_order: BT_HellDog_LaserShot
@@ -72304,6 +72362,20 @@
     is_die_delete: 1
   }
   {
+    id: 8917
+    name: AUG装备子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2268"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -73833,6 +73905,7 @@
     destination_type: "6"
     exist_duration: "30"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -83386,6 +83459,7 @@
     effect_type: 2
     effect_area: 1
     is_form_play: 1
+    creation_type: 2
     scale: "1.8,1.8"
     sound_order: BT_boss9_skill_2
     sound_delay: "2"
@@ -84644,6 +84718,7 @@
     effect_area: 1
     effect_param_1: "2"
     hurt_id: "1"
+    creation_type: 2
     scale: "1"
     trigger_creation_id: "556302"
     trigger_creation_delay: "30"
@@ -84659,6 +84734,7 @@
     effect_area: 1
     effect_param_1: "1"
     hurt_id: "2"
+    creation_type: 2
     scale: "1"
   }
   {
@@ -85292,6 +85368,19 @@
     effect_param_2: *102
     buff_id: 101:1,1201:1
     buff_cd: "0,0"
+    scale: "1,0,2"
+  }
+  {
+    id: 565709
+    name: PM1910
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "1"
+    effect_param_2: *102
+    buff_id: 844401:-1
     scale: "1,0,2"
   }
   {
@@ -86639,6 +86728,7 @@
     effect_param_1: "1"
     hurt_id: "2626"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -86719,6 +86809,7 @@
     effect_param_1: "1"
     hurt_id: "262601"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -86876,6 +86967,7 @@
     effect_area: 1
     effect_param_1: "1"
     hurt_id: "2630"
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -87027,6 +87119,7 @@
     effect_area: 1
     effect_param_1: "1"
     hurt_id: "263001"
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -88349,6 +88442,7 @@
     effect_area: 1
     effect_param_1: "1"
     hurt_id: "2635"
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -88455,6 +88549,7 @@
     effect_param_2: "2"
     hurt_id: "2635"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -88472,6 +88567,7 @@
     effect_param_2: "2"
     hurt_id: "263501"
     is_form_play: 1
+    creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
   }
@@ -92220,6 +92316,154 @@
     is_form_play: 1
     scale: "0.4,0.4"
     sound_order: BT_pistol
+  }
+  {
+    id: 777010
+    name: 磁场每秒伤害15目标
+    code: test_elc
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "7772"
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777011
+    name: 磁场每秒伤害15自己脚下
+    code: test_elc
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "5"
+    hurt_id: "7772"
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777012
+    name: 红色冲击波目标
+    code: test_red
+    start_type: "6"
+    start_offset: "0,2,0"
+    destination_type: "6"
+    destination_offset: "0,2,0"
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "7773"
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777013
+    name: 红色冲击波自己
+    code: test_red
+    start_type: "3"
+    start_offset: "0,2,0"
+    destination_type: "3"
+    destination_offset: "0,2,0"
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "5"
+    hurt_id: "7773"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 777014
+    name: 枪亡语buff友提升
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "29"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "20"
+    buff_id: 777012:1
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777015
+    name: buff死后我方黄色保留
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "20"
+    buff_id: 777010:1
+    buff_cd: "5"
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777016
+    name: 敌方电磁场标记-披萨
+    code: Shengdan_ps_led
+    start_type: "3"
+    start_offset: "0,2,0"
+    destination_type: "3"
+    destination_offset: "0,2,0"
+    is_tracing: 1
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 777017
+    name: 枪亡语buff敌下降
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "29"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "20"
+    buff_id: 777011:1
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777018
+    name: 敌亡语友提升
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "29"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "20"
+    buff_id: 777014:1
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 777019
+    name: 敌亡语敌下降
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "29"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "20"
+    buff_id: 777013:1
+    is_form_play: 1
+    scale: "1"
+    still_exist: 1
   }
   {
     id: 800101

@@ -14505,8 +14505,8 @@
     name: ***
     action_order: "3"
     action_playspeed: "100"
-    creation_order: "565701,565702,565703,565704,565705,565706,565707,565708"
-    creation_delay: "0,0,0,0,0,0,0,0"
+    creation_order: "565701,565702,565703,565704,565705,565706,565707,565708,565709"
+    creation_delay: "0,0,0,0,0,0,0,0,5"
   }
   {
     id: 5345
@@ -19740,6 +19740,14 @@
     creation_order: "5553"
   }
   {
+    id: 8474
+    name: AUG普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "5,21,139,139,9,9,9,9,21,21,21,21,21,8917"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,0"
+  }
+  {
     id: 9001
     name: 狙击妖精
     creation_order: "901,951"
@@ -23676,6 +23684,55 @@
     action_playspeed: "100"
     creation_order: "591104"
     creation_delay: "27"
+  }
+  {
+    id: 777010
+    name: 电磁弹
+    creation_order: "777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012"
+    creation_delay: "1,1,30,30,60,60,90,90,120,120,150,150,180,180,210,210,240,240,270,270"
+    creation_afterdeath: "1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0"
+  }
+  {
+    id: 777011
+    name: 敌方电磁场
+    creation_order: "777016,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777011,777013"
+    creation_delay: "1,1,30,60,90,120,150,180,210,240,270,300,330,360,390,420,450,480,510,540,570,600"
+    creation_afterdeath: "1,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,1"
+  }
+  {
+    id: 777012
+    name: 在场buff
+    creation_order: "777015"
+    creation_delay: "1"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 777013
+    name: 枪亡语buff友提升
+    creation_order: "777014"
+    creation_delay: "1"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 777014
+    name: 枪亡语buff敌下降
+    creation_order: "777017"
+    creation_delay: "1"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 777015
+    name: 敌亡语友提升
+    creation_order: "777018"
+    creation_delay: "1"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 777016
+    name: 敌亡语敌下降
+    creation_order: "777019"
+    creation_delay: "1"
+    creation_afterdeath: "1"
   }
   {
     id: 900002

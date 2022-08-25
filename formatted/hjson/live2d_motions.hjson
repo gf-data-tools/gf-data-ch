@@ -21,6 +21,13 @@
     name: live2d_motions-10000308
   }
   {
+    id: 309
+    type: 101
+    motion_name: motions/BG.mtn
+    probability: 1.0
+    name: live2d_motions-10000309
+  }
+  {
     id: 501
     type: 101
     motion_name: motions/daiji_idle_01.mtn
@@ -28069,7 +28076,6 @@
     name: 交互1
     camera: 1
     is_hurt: 1
-    delay: 1500
     voice_code: DEFENSE
   }
   {
@@ -28083,7 +28089,6 @@
     name: 交互2
     camera: 1
     is_hurt: 1
-    delay: 1000
     voice_code: RETREAT
   }
   {
@@ -28097,7 +28102,6 @@
     name: 交互3
     camera: 1
     is_hurt: 1
-    delay: 1000
     voice_code: FIX
   }
   {
@@ -28111,7 +28115,6 @@
     name: 交互4
     camera: 1
     is_hurt: 1
-    delay: 600
     voice_code: MEET
   }
   {
@@ -28125,7 +28128,6 @@
     name: 交互5
     camera: 1
     is_hurt: 1
-    delay: 1000
     voice_code: DIALOGUE3
   }
   {
@@ -28138,7 +28140,6 @@
     name: 上线响应
     camera: 1
     is_hurt: 1
-    delay: 5000
     voice_code: HELLO
   }
   {
@@ -28296,67 +28297,71 @@
   {
     id: 740614
     type: 402
-    motion_name: motions/touch_1.mtn
+    motion_name: motions/broken_1.mtn
     touch_area: head
     probability: 1.0
-    voice: GUN|G41|FEED
-    text: GUN|G41|FEED
+    voice: GUN|G41|DIALOGUE2
+    text: GUN|G41|DIALOGUE2
     name: 交互1
     camera: 1
     is_hurt: 1
-    voice_code: BREAK
+    delay: 1000
+    voice_code: DIALOGUE2
   }
   {
     id: 740615
     type: 402
-    motion_name: motions/touch_2.mtn
-    touch_area: head
+    motion_name: motions/broken_2.mtn
+    touch_area: body
     probability: 1.0
     voice: GUN|G41|DIALOGUE3
     text: GUN|G41|DIALOGUE3
     name: 交互2
     camera: 1
     is_hurt: 1
-    voice_code: FIX
+    delay: 500
+    voice_code: DIALOGUE3
   }
   {
     id: 740616
     type: 402
-    motion_name: motions/touch_3.mtn
+    motion_name: motions/broken_3.mtn
     touch_area: body
     probability: 1.0
-    voice: GUN|G41|FORMATION
-    text: GUN|G41|FORMATION
+    voice: GUN|G41|DIALOGUE1
+    text: GUN|G41|DIALOGUE1
     name: 交互3
     camera: 1
     is_hurt: 1
-    voice_code: SKILL3
+    voice_code: DIALOGUE1
   }
   {
     id: 740617
     type: 402
-    motion_name: motions/touch_4.mtn
-    touch_area: body
+    motion_name: motions/broken_4.mtn
+    touch_area: head
     probability: 1.0
-    voice: GUN|G41|DIALOGUE2
-    text: GUN|G41|DIALOGUE2
+    voice: GUN|G41|BREAK
+    text: GUN|G41|BREAK
     name: 交互4
     camera: 1
     is_hurt: 1
-    voice_code: DIALOGUE3
+    delay: 2000
+    voice_code: BREAK
   }
   {
     id: 740618
     type: 402
-    motion_name: motions/touch_5.mtn
+    motion_name: motions/broken_5.mtn
     touch_area: leg
     probability: 1.0
-    voice: GUN|G41|TIP
-    text: GUN|G41|TIP
+    voice: GUN|G41|MEET
+    text: GUN|G41|MEET
     name: 交互5
     camera: 1
     is_hurt: 1
-    voice_code: RETREAT
+    delay: 1000
+    voice_code: MEET
   }
   {
     id: 740619
@@ -28368,6 +28373,7 @@
     name: 上线响应
     camera: 1
     is_hurt: 1
+    delay: 7100
     voice_code: HELLO
   }
   {

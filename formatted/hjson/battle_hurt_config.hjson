@@ -180,6 +180,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
+    ui_control: 1
   }
   {
     id: 17
@@ -1317,7 +1318,6 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 2
-    is_ricochet: 100
   }
   {
     id: 381
@@ -5847,6 +5847,17 @@
     hit_type: 1
   }
   {
+    id: 2268
+    description: AUG装备攻击
+    damage_ratio: "60"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
     id: 2330
     description: 起源弹新
     damage_ratio: *202
@@ -7520,6 +7531,21 @@
     is_form_hurt: 1
     hit_type: 1
     fix_damage: 1000003959
+  }
+  {
+    id: 7772
+    description: 10%磁场伤害
+    damage_ratio: "10"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 7773
+    description: 15冲击波伤害
+    extra_damage: "15"
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 15
   }
   {
     id: 12509

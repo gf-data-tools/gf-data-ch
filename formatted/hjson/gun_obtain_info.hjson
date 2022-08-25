@@ -1,39 +1,41 @@
 [
   {
-    description: -暂时无法获取,请期待后续活动
+    description: 暂时无法获取,请期待后续活动
   }
   {
     obtain_id: "1"
-    description: -可通过常规制造获取
+    description: 可通过常规制造获取
+    goto_page_id: "25"
   }
   {
     obtain_id: "2"
-    description: -可通过重型制造获取
+    description: 可通过重型制造获取
+    goto_page_id: "25"
   }
   {
     obtain_id: "3"
-    description: -可在通常战役中救援获得
+    description: 可在通常战役中救援获得
     detail: "1"
   }
   {
     obtain_id: "4"
-    description: -可在通常战役Boss关卡中救援获得
+    description: 可在通常战役Boss关卡中救援获得
   }
   {
     obtain_id: "5"
-    description: -可通过本月签到奖励获得
+    description: 可通过本月签到奖励获得
   }
   {
     obtain_id: "6"
-    description: -可随主线剧情进度获得
+    description: 可随主线剧情进度获得
   }
   {
     obtain_id: "7"
-    description: -可通过成就奖励获得
+    description: 可通过成就奖励获得
   }
   {
     obtain_id: "8"
-    description: -可通过【普通1-6】【紧急1-4】中
+    description: 可通过【普通1-6】【紧急1-4】中
   }
   {
     obtain_id: "9"
@@ -41,7 +43,7 @@
   }
   {
     obtain_id: "10"
-    description: -可通过【普通2-6】【紧急2-4】中
+    description: 可通过【普通2-6】【紧急2-4】中
   }
   {
     obtain_id: "11"
@@ -49,7 +51,7 @@
   }
   {
     obtain_id: "12"
-    description: -可通过【普通3-6】【紧急3-4】中
+    description: 可通过【普通3-6】【紧急3-4】中
   }
   {
     obtain_id: "13"
@@ -57,7 +59,7 @@
   }
   {
     obtain_id: "14"
-    description: -可通过【普通4-6】【紧急4-4】中
+    description: 可通过【普通4-6】【紧急4-4】中
   }
   {
     obtain_id: "15"
@@ -65,7 +67,7 @@
   }
   {
     obtain_id: "16"
-    description: -可通过【普通5-6】【紧急5-4】中
+    description: 可通过【普通5-6】【紧急5-4】中
   }
   {
     obtain_id: "17"
@@ -73,7 +75,7 @@
   }
   {
     obtain_id: "18"
-    description: -可通过【普通6-6】【紧急6-4】中
+    description: 可通过【普通6-6】【紧急6-4】中
   }
   {
     obtain_id: "19"
@@ -81,7 +83,7 @@
   }
   {
     obtain_id: "20"
-    description: -可通过【普通7-6】【紧急7-4】中
+    description: 可通过【普通7-6】【紧急7-4】中
   }
   {
     obtain_id: "21"
@@ -89,7 +91,7 @@
   }
   {
     obtain_id: "22"
-    description: -可通过【普通8-6】【紧急8-4】中
+    description: 可通过【普通8-6】【紧急8-4】中
   }
   {
     obtain_id: "23"
@@ -97,19 +99,19 @@
   }
   {
     obtain_id: "24"
-    description: -限时战役【深层映射】中救援获得
+    description: 限时战役【深层映射】中救援获得
   }
   {
     obtain_id: "25"
-    description: -限时战役【深层映射】通关奖励
+    description: 限时战役【深层映射】通关奖励
   }
   {
     obtain_id: "26"
-    description: -限时战役【深层映射】中打开物资箱获得
+    description: 限时战役【深层映射】中打开物资箱获得
   }
   {
     obtain_id: "27"
-    description: -可通过【普通9-6】【紧急9-4】中
+    description: 可通过【普通9-6】【紧急9-4】中
   }
   {
     obtain_id: "28"
@@ -117,7 +119,7 @@
   }
   {
     obtain_id: "29"
-    description: -可通过【普通10-6】【紧急10-4】中
+    description: 可通过【普通10-6】【紧急10-4】中
   }
   {
     obtain_id: "30"
@@ -125,7 +127,7 @@
   }
   {
     obtain_id: "31"
-    description: -可通过【普通11-6】【紧急11-4】中
+    description: 可通过【普通11-6】【紧急11-4】中
   }
   {
     obtain_id: "32"
@@ -133,7 +135,7 @@
   }
   {
     obtain_id: "33"
-    description: -可通过【普通12-6】【紧急12-4】中
+    description: 可通过【普通12-6】【紧急12-4】中
   }
   {
     obtain_id: "34"
@@ -141,11 +143,12 @@
   }
   {
     obtain_id: "35"
-    description: -可通过心智升级获取
+    description: 可通过心智升级获取
+    goto_page_id: "186"
   }
   {
     obtain_id: "36"
-    description: -可通过【普通13-6】【紧急13-4】中
+    description: 可通过【普通13-6】【紧急13-4】中
   }
   {
     obtain_id: "37"
@@ -153,615 +156,620 @@
   }
   {
     obtain_id: "38"
-    description: -可通过装备重型制造获取
+    description: 可通过装备重型制造获取
+  }
+  {
+    obtain_id: "39"
+    description: 可通过妖精制造获取
+    goto_page_id: "380"
   }
   {
     obtain_id: "101"
-    description: -常驻活动【失温症】中救援获得
+    description: 常驻活动【失温症】中救援获得
   }
   {
     obtain_id: "102"
-    description: -常驻活动【魔方行动】中救援获得
+    description: 常驻活动【魔方行动】中救援获得
   }
   {
     obtain_id: "103"
-    description: -限时战役【失温症】中救援获得
+    description: 限时战役【失温症】中救援获得
   }
   {
     obtain_id: "104"
-    description: -限时战役【失温症】通关奖励
+    description: 限时战役【失温症】通关奖励
   }
   {
     obtain_id: "105"
-    description: -常驻活动【深层映射】中救援获得
+    description: 常驻活动【深层映射】中救援获得
   }
   {
     obtain_id: "106"
-    description: -常驻活动【深层映射】通关奖励
+    description: 常驻活动【深层映射】通关奖励
   }
   {
     obtain_id: "107"
-    description: -常驻活动【深层映射】中打开物资箱获得
+    description: 常驻活动【深层映射】中打开物资箱获得
   }
   {
     obtain_id: "201"
-    description: -限时战役【魔方行动】中救援获得
+    description: 限时战役【魔方行动】中救援获得
   }
   {
     obtain_id: "202"
-    description: -限时战役【魔方行动】通关奖励
+    description: 限时战役【魔方行动】通关奖励
   }
   {
     obtain_id: "203"
-    description: -限时活动【塌缩点】中救援获得
+    description: 限时活动【塌缩点】中救援获得
   }
   {
     obtain_id: "204"
-    description: -限时活动【塌缩点】通关奖励
+    description: 限时活动【塌缩点】通关奖励
   }
   {
     obtain_id: "205"
-    description: -限时活动【塌缩点】中打开物资箱获得
+    description: 限时活动【塌缩点】中打开物资箱获得
   }
   {
     obtain_id: "206"
-    description: -限时活动【荣耀日】2-3通关获得
+    description: 限时活动【荣耀日】2-3通关获得
   }
   {
     obtain_id: "207"
-    description: -作战纲领【暗影密令】奖励
+    description: 作战纲领【暗影密令】奖励
   }
   {
     obtain_id: "208"
-    description: -成就奖励
+    description: 成就奖励
   }
   {
     obtain_id: "209"
-    description: -限时活动【粽日大作战】兑换
+    description: 限时活动【粽日大作战】兑换
   }
   {
     obtain_id: "210"
-    description: -作战纲领【猩红魔女】奖励
+    description: 作战纲领【猩红魔女】奖励
   }
   {
     obtain_id: "211"
-    description: -限时活动【有序紊流】中救援获得
+    description: 限时活动【有序紊流】中救援获得
   }
   {
     obtain_id: "212"
-    description: -限时活动【有序紊流】通关奖励
+    description: 限时活动【有序紊流】通关奖励
   }
   {
     obtain_id: "213"
-    description: -限时活动【有序紊流】中打开物资箱获得
+    description: 限时活动【有序紊流】中打开物资箱获得
   }
   {
     obtain_id: "214"
-    description: -作战纲领【中秋岗哨】奖励
+    description: 作战纲领【中秋岗哨】奖励
   }
   {
     obtain_id: "215"
-    description: -限时活动【异构体】中救援获得
+    description: 限时活动【异构体】中救援获得
   }
   {
     obtain_id: "216"
-    description: -限时活动【异构体】通关奖励
+    description: 限时活动【异构体】通关奖励
   }
   {
     obtain_id: "217"
-    description: -限时活动【异构体】中打开物资箱获得
+    description: 限时活动【异构体】中打开物资箱获得
   }
   {
     obtain_id: "218"
-    description: -限时活动【Hit-Hop】奖励
+    description: 限时活动【Hit-Hop】奖励
   }
   {
     obtain_id: "219"
-    description: -作战纲领【蜜蜂与四叶草】奖励
+    description: 作战纲领【蜜蜂与四叶草】奖励
   }
   {
     obtain_id: "220"
-    description: -限时活动【瓦尔哈拉】1-1通关奖励
+    description: 限时活动【瓦尔哈拉】1-1通关奖励
   }
   {
     obtain_id: "221"
-    description: -限时活动【瓦尔哈拉】1-8通关奖励
+    description: 限时活动【瓦尔哈拉】1-8通关奖励
   }
   {
     obtain_id: "222"
-    description: -限时活动【瓦尔哈拉】中救援获得
+    description: 限时活动【瓦尔哈拉】中救援获得
   }
   {
     obtain_id: "223"
-    description: -限时活动【瓦尔哈拉】商店兑换
+    description: 限时活动【瓦尔哈拉】商店兑换
   }
   {
     obtain_id: "224"
-    description: -限时活动【裂变链接】中救援获得
+    description: 限时活动【裂变链接】中救援获得
   }
   {
     obtain_id: "225"
-    description: -限时活动【裂变链接】通关奖励
+    description: 限时活动【裂变链接】通关奖励
   }
   {
     obtain_id: "226"
-    description: -限时活动【裂变链接】中打开物资箱获得
+    description: 限时活动【裂变链接】中打开物资箱获得
   }
   {
     obtain_id: "227"
-    description: -密钥活动【粉调岁歌】奖励
+    description: 密钥活动【粉调岁歌】奖励
   }
   {
     obtain_id: "228"
-    description: -限时活动【偏振光】中救援获得
+    description: 限时活动【偏振光】中救援获得
   }
   {
     obtain_id: "229"
-    description: -限时活动【偏振光】通关奖励
+    description: 限时活动【偏振光】通关奖励
   }
   {
     obtain_id: "230"
-    description: -限时活动【偏振光】中打开物资箱获得
+    description: 限时活动【偏振光】中打开物资箱获得
   }
   {
     obtain_id: "231"
-    description: -限时活动【神枪少女】通关奖励
+    description: 限时活动【神枪少女】通关奖励
   }
   {
     obtain_id: "232"
-    description: -限时活动【神枪少女】中救援获得
+    description: 限时活动【神枪少女】中救援获得
   }
   {
     obtain_id: "233"
-    description: -限时活动【神枪少女】商店兑换
+    description: 限时活动【神枪少女】商店兑换
   }
   {
     obtain_id: "234"
-    description: -限时活动【双联乱数】中救援获得
+    description: 限时活动【双联乱数】中救援获得
   }
   {
     obtain_id: "235"
-    description: -限时活动【双联乱数】通关奖励
+    description: 限时活动【双联乱数】通关奖励
   }
   {
     obtain_id: "236"
-    description: -限时活动【双联乱数】中打开物资箱获得
+    description: 限时活动【双联乱数】中打开物资箱获得
   }
   {
     obtain_id: "237"
-    description: -限时活动【暗金潮】商店兑换
+    description: 限时活动【暗金潮】商店兑换
   }
   {
     obtain_id: "238"
-    description: -限时活动【暗金潮】通关奖励
+    description: 限时活动【暗金潮】通关奖励
   }
   {
     obtain_id: "239"
-    description: -限时活动【镜像论】中救援获得
+    description: 限时活动【镜像论】中救援获得
   }
   {
     obtain_id: "240"
-    description: -限时活动【镜像论】通关奖励
+    description: 限时活动【镜像论】通关奖励
   }
   {
     obtain_id: "241"
-    description: -限时活动【镜像论】中打开物资箱获得
+    description: 限时活动【镜像论】中打开物资箱获得
   }
   {
     obtain_id: "242"
-    description: -限时活动【小邪神前线】通关奖励
+    description: 限时活动【小邪神前线】通关奖励
   }
   {
     obtain_id: "243"
-    description: -限时活动【小邪神前线】中救援获得
+    description: 限时活动【小邪神前线】中救援获得
   }
   {
     obtain_id: "244"
-    description: -限时活动【小邪神前线】商店兑换
+    description: 限时活动【小邪神前线】商店兑换
   }
   {
     obtain_id: "245"
-    description: -限时活动【熵减焓增】中救援获得
+    description: 限时活动【熵减焓增】中救援获得
   }
   {
     obtain_id: "246"
-    description: -限时活动【熵减焓增】通关奖励
+    description: 限时活动【熵减焓增】通关奖励
   }
   {
     obtain_id: "247"
-    description: -限时活动【熵减焓增】中打开物资箱获得
+    description: 限时活动【熵减焓增】中打开物资箱获得
   }
   {
     obtain_id: "248"
-    description: -限时活动【静风点】中救援获得
+    description: 限时活动【静风点】中救援获得
   }
   {
     obtain_id: "249"
-    description: -限时活动【静风点】通关奖励
+    description: 限时活动【静风点】通关奖励
   }
   {
     obtain_id: "250"
-    description: -限时活动【静风点】中打开物资箱获得
+    description: 限时活动【静风点】中打开物资箱获得
   }
   {
     obtain_id: "301"
-    description: -作战纲领【金色月夕】奖励
+    description: 作战纲领【金色月夕】奖励
   }
   {
     obtain_id: "302"
-    description: -中秋节签到奖励
+    description: 中秋节签到奖励
   }
   {
     obtain_id: "303"
-    description: -限时战役【猎兔行动】通关奖励
+    description: 限时战役【猎兔行动】通关奖励
   }
   {
     obtain_id: "304"
-    description: -限时战役【猎兔行动】中救援获得
+    description: 限时战役【猎兔行动】中救援获得
   }
   {
     obtain_id: "305"
-    description: -限时战役【猎兔行动】中打开魔素概率获得
+    description: 限时战役【猎兔行动】中打开魔素概率获得
   }
   {
     obtain_id: "306"
-    description: -限时商城兑换
+    description: 限时商城兑换
   }
   {
     obtain_id: "307"
-    description: -限时战役【独法师】中救援获得
+    description: 限时战役【独法师】中救援获得
   }
   {
     obtain_id: "308"
-    description: -限时战役【独法师】第四关过关奖励
+    description: 限时战役【独法师】第四关过关奖励
   }
   {
     obtain_id: "309"
-    description: -限时战役【独法师】第六关过关奖励
+    description: 限时战役【独法师】第六关过关奖励
   }
   {
     obtain_id: "310"
-    description: -密钥活动【阵前考核】奖励
+    description: 密钥活动【阵前考核】奖励
   }
   {
     obtain_id: "311"
-    description: -【未知】
+    description: 【未知】
   }
   {
     obtain_id: "312"
-    description: -作战纲领【狂热夏夜】奖励
+    description: 作战纲领【狂热夏夜】奖励
   }
   {
     obtain_id: "313"
-    description: -密钥活动【街垒涂鸦】奖励
+    description: 密钥活动【街垒涂鸦】奖励
   }
   {
     obtain_id: "314"
-    description: -限时战役【独法师】通关奖励
+    description: 限时战役【独法师】通关奖励
   }
   {
     obtain_id: "315"
-    description: -限时战役【荣耀日】通关奖励
+    description: 限时战役【荣耀日】通关奖励
   }
   {
     obtain_id: "316"
-    description: -限时战役【瓦尔哈拉】通关奖励
+    description: 限时战役【瓦尔哈拉】通关奖励
   }
   {
     obtain_id: "317"
-    description: -限时战役【猎兔行动】商店兑换
+    description: 限时战役【猎兔行动】商店兑换
   }
   {
     obtain_id: "318"
-    description: -限时战役【独法师】商店兑换
+    description: 限时战役【独法师】商店兑换
   }
   {
     obtain_id: "319"
-    description: -限时战役【荣耀日】商店兑换
+    description: 限时战役【荣耀日】商店兑换
   }
   {
     obtain_id: "403"
-    description: -常驻活动【塌缩点】中救援获得
+    description: 常驻活动【塌缩点】中救援获得
   }
   {
     obtain_id: "411"
-    description: -常驻活动【有序紊流】中救援获得
+    description: 常驻活动【有序紊流】中救援获得
   }
   {
     obtain_id: "415"
-    description: -常驻活动【异构体】中救援获得
+    description: 常驻活动【异构体】中救援获得
   }
   {
     obtain_id: "424"
-    description: -常驻活动【裂变链接】中救援获得
+    description: 常驻活动【裂变链接】中救援获得
   }
   {
     obtain_id: "502"
-    description: -常驻活动【有序紊流】中限时积分模式奖励
+    description: 常驻活动【有序紊流】中限时积分模式【飓风营救】奖励
   }
   {
     obtain_id: "503"
-    description: -常驻活动【异构体】中限时积分模式奖励
+    description: 常驻活动【异构体】中限时积分模式【混沌落幕】奖励
   }
   {
     obtain_id: "504"
-    description: -常驻活动【裂变链接】中限时积分模式奖励
+    description: 常驻活动【裂变链接】中限时积分模式【终焉花海】奖励
   }
   {
     obtain_id: "505"
-    description: -常驻活动【偏振光】中限时积分模式奖励
+    description: 常驻活动【偏振光】中限时积分模式【逃逸加速度EX-I】或【谜境守卫】奖励
   }
   {
     obtain_id: "506"
-    description: -限时活动【双联乱数】积分模式奖励
+    description: 限时活动【双联乱数】积分模式奖励
   }
   {
     obtain_id: "507"
-    description: -限时活动【镜像论】积分模式奖励
+    description: 限时活动【镜像论】积分模式奖励
   }
   {
     obtain_id: "508"
-    description: -限时活动【熵减焓增】积分模式奖励
+    description: 限时活动【熵减焓增】积分模式奖励
   }
   {
     obtain_id: "509"
-    description: -大型战役关卡奖励
+    description: 大型战役关卡奖励
   }
   {
     obtain_id: "510"
-    description: -商城礼包
+    description: 商城礼包
   }
   {
     obtain_id: "511"
-    description: -常驻活动【深层映射】中限时积分模式奖励
+    description: 常驻活动【深层映射】中限时积分模式【虚数迷宫】奖励
   }
   {
     obtain_id: "512"
-    description: -常驻活动【塌缩点】中限时积分模式奖励
+    description: 常驻活动【塌缩点】中限时积分模式【马蜂窝】奖励
   }
   {
     obtain_id: "513"
-    description: -限时活动【静风点】积分模式奖励
+    description: 限时活动【静风点】积分模式奖励
   }
   {
     obtain_id: "1701"
-    description: -2017年1月签到奖励
+    description: 2017年1月签到奖励
   }
   {
     obtain_id: "1702"
-    description: -2017年2月签到奖励
+    description: 2017年2月签到奖励
   }
   {
     obtain_id: "1703"
-    description: -2017年3月签到奖励
+    description: 2017年3月签到奖励
   }
   {
     obtain_id: "1704"
-    description: -2017年4月签到奖励
+    description: 2017年4月签到奖励
   }
   {
     obtain_id: "1705"
-    description: -2017年5月签到奖励
+    description: 2017年5月签到奖励
   }
   {
     obtain_id: "1706"
-    description: -2017年6月签到奖励
+    description: 2017年6月签到奖励
   }
   {
     obtain_id: "1707"
-    description: -2017年7月签到奖励
+    description: 2017年7月签到奖励
   }
   {
     obtain_id: "1708"
-    description: -2017年8月签到奖励
+    description: 2017年8月签到奖励
   }
   {
     obtain_id: "1709"
-    description: -2017年9月签到奖励
+    description: 2017年9月签到奖励
   }
   {
     obtain_id: "1710"
-    description: -2017年10月签到奖励
+    description: 2017年10月签到奖励
   }
   {
     obtain_id: "1711"
-    description: -2017年11月签到奖励
+    description: 2017年11月签到奖励
   }
   {
     obtain_id: "1712"
-    description: -2017年12月签到奖励
+    description: 2017年12月签到奖励
   }
   {
     obtain_id: "1801"
-    description: -2018年1月签到奖励
+    description: 2018年1月签到奖励
   }
   {
     obtain_id: "1802"
-    description: -2018年2月签到奖励
+    description: 2018年2月签到奖励
   }
   {
     obtain_id: "1803"
-    description: -2018年3月签到奖励
+    description: 2018年3月签到奖励
   }
   {
     obtain_id: "1804"
-    description: -2018年4月签到奖励
+    description: 2018年4月签到奖励
   }
   {
     obtain_id: "1805"
-    description: -2018年5月签到奖励
+    description: 2018年5月签到奖励
   }
   {
     obtain_id: "1806"
-    description: -2018年6月签到奖励
+    description: 2018年6月签到奖励
   }
   {
     obtain_id: "1807"
-    description: -2018年7月签到奖励
+    description: 2018年7月签到奖励
   }
   {
     obtain_id: "1808"
-    description: -2018年8月签到奖励
+    description: 2018年8月签到奖励
   }
   {
     obtain_id: "1809"
-    description: -2018年9月签到奖励
+    description: 2018年9月签到奖励
   }
   {
     obtain_id: "1810"
-    description: -2018年10月签到奖励
+    description: 2018年10月签到奖励
   }
   {
     obtain_id: "1811"
-    description: -2018年11月签到奖励
+    description: 2018年11月签到奖励
   }
   {
     obtain_id: "1812"
-    description: -2018年12月签到奖励
+    description: 2018年12月签到奖励
   }
   {
     obtain_id: "1901"
-    description: -2019年1月签到奖励
+    description: 2019年1月签到奖励
   }
   {
     obtain_id: "1902"
-    description: -2019年2月签到奖励
+    description: 2019年2月签到奖励
   }
   {
     obtain_id: "1903"
-    description: -2019年3月签到奖励
+    description: 2019年3月签到奖励
   }
   {
     obtain_id: "1904"
-    description: -2019年4月签到奖励
+    description: 2019年4月签到奖励
   }
   {
     obtain_id: "1905"
-    description: -2019年5月签到奖励
+    description: 2019年5月签到奖励
   }
   {
     obtain_id: "1906"
-    description: -2019年6月签到奖励
+    description: 2019年6月签到奖励
   }
   {
     obtain_id: "1907"
-    description: -2019年7月签到奖励
+    description: 2019年7月签到奖励
   }
   {
     obtain_id: "1908"
-    description: -2019年8月签到奖励
+    description: 2019年8月签到奖励
   }
   {
     obtain_id: "1909"
-    description: -2019年9月签到奖励
+    description: 2019年9月签到奖励
   }
   {
     obtain_id: "1910"
-    description: -2019年10月签到奖励
+    description: 2019年10月签到奖励
   }
   {
     obtain_id: "1911"
-    description: -2019年11月签到奖励
+    description: 2019年11月签到奖励
   }
   {
     obtain_id: "1912"
-    description: -2019年12月签到奖励
+    description: 2019年12月签到奖励
   }
   {
     obtain_id: "2001"
-    description: -2020年1月签到奖励
+    description: 2020年1月签到奖励
   }
   {
     obtain_id: "2002"
-    description: -2020年2月签到奖励
+    description: 2020年2月签到奖励
   }
   {
     obtain_id: "2003"
-    description: -2020年3月签到奖励
+    description: 2020年3月签到奖励
   }
   {
     obtain_id: "2004"
-    description: -2020年4月签到奖励
+    description: 2020年4月签到奖励
   }
   {
     obtain_id: "2005"
-    description: -2020年5月签到奖励
+    description: 2020年5月签到奖励
   }
   {
     obtain_id: "2006"
-    description: -2020年6月签到奖励
+    description: 2020年6月签到奖励
   }
   {
     obtain_id: "2007"
-    description: -2020年7月签到奖励
+    description: 2020年7月签到奖励
   }
   {
     obtain_id: "2008"
-    description: -2020年8月签到奖励
+    description: 2020年8月签到奖励
   }
   {
     obtain_id: "2009"
-    description: -2020年9月签到奖励
+    description: 2020年9月签到奖励
   }
   {
     obtain_id: "2010"
-    description: -2020年10月签到奖励
+    description: 2020年10月签到奖励
   }
   {
     obtain_id: "2011"
-    description: -2020年11月签到奖励
+    description: 2020年11月签到奖励
   }
   {
     obtain_id: "2012"
-    description: -2020年12月签到奖励
+    description: 2020年12月签到奖励
   }
   {
     obtain_id: "2013"
-    description: -2021年1月签到奖励
+    description: 2021年1月签到奖励
   }
   {
     obtain_id: "2014"
-    description: -2021年2月签到奖励
+    description: 2021年2月签到奖励
   }
   {
     obtain_id: "2015"
-    description: -2021年3月签到奖励
+    description: 2021年3月签到奖励
   }
   {
     obtain_id: "2016"
-    description: -2021年4月签到奖励
+    description: 2021年4月签到奖励
   }
   {
     obtain_id: "2017"
-    description: -2021年5月签到奖励
+    description: 2021年5月签到奖励
   }
   {
     obtain_id: "2018"
-    description: -2021年6月签到奖励
+    description: 2021年6月签到奖励
   }
   {
     obtain_id: "2019"
-    description: -2021年7月签到奖励
+    description: 2021年7月签到奖励
   }
   {
     obtain_id: "2020"
-    description: -2021年8月签到奖励
+    description: 2021年8月签到奖励
   }
   {
     obtain_id: "2021"
-    description: -2021年9月签到奖励
+    description: 2021年9月签到奖励
   }
   {
     obtain_id: "2022"
-    description: -2021年10月签到奖励
+    description: 2021年10月签到奖励
   }
   {
     obtain_id: "2023"
-    description: -2021年11月签到奖励
+    description: 2021年11月签到奖励
   }
   {
     obtain_id: "2024"
-    description: -2021年12月签到奖励
+    description: 2021年12月签到奖励
   }
   {
     obtain_id: "3000"
@@ -770,6 +778,7 @@
   {
     obtain_id: "3001"
     description: 可通过装备制造获取
+    goto_page_id: "21"
   }
   {
     obtain_id: "3002"
@@ -778,6 +787,7 @@
   {
     obtain_id: "3003"
     description: 可通过机密商店兑换
+    goto_page_id: "217"
   }
   {
     obtain_id: "3004"
@@ -830,6 +840,7 @@
   {
     obtain_id: "3016"
     description: 可通过心智升级获取
+    goto_page_id: "186"
   }
   {
     obtain_id: "3017"
@@ -878,6 +889,7 @@
   {
     obtain_id: "3028"
     description: 前进营地中途奖励
+    goto_page_id: "217"
   }
   {
     obtain_id: "3029"

@@ -381,7 +381,7 @@
         "id": 55,
         "type": "trial_mission",
         "title": "防御演习",
-        "content": "carnival_task_type-20000055",
+        "content": "累计完成{0}次模拟作战-防御演习",
         "function_control_id": 0
     },
     {
@@ -908,5 +908,12 @@
         "title": "势能消耗（包括超导势能）",
         "content": "累计消耗势能{0}个",
         "function_control_id": 0
+    },
+    {
+        "id": 131,
+        "type": "special_develop_fairy",
+        "title": "妖精重型制造",
+        "content": "累计进行妖精重型制造{0}次",
+        "function_control_id": 1
     }
 ]

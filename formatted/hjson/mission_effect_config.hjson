@@ -134,7 +134,7 @@
     name: 蓝光圈常驻
     code: chuansong_01xh
     description: 蓝光圈常驻
-    size: 0.3
+    size: 0.02
     offset: "90,30"
   }
   {
@@ -142,7 +142,7 @@
     name: 蓝光圈吸入
     code: chuansong_01
     description: 蓝光圈吸入
-    size: 0.3
+    size: 0.02
     offset: "60,0"
   }
   {
@@ -150,7 +150,7 @@
     name: 蓝光圈吐出
     code: chuansong_01_02
     description: 蓝光圈吐出
-    size: 0.3
+    size: 0.02
     offset: "60,0"
   }
   {
@@ -158,7 +158,7 @@
     name: 橙光圈常驻
     code: chuansong_02xh
     description: 橙光圈常驻
-    size: 0.3
+    size: 0.02
     offset: "-180,30"
   }
   {
@@ -166,7 +166,7 @@
     name: 橙光圈吐出
     code: chuansong_02
     description: 橙光圈吐出
-    size: 0.3
+    size: 0.02
     offset: "-270,0"
   }
   {
@@ -174,7 +174,7 @@
     name: 传送门蓝光圈
     code: chuansong_01xh
     description: 蓝光圈常驻
-    size: 0.3
+    size: 0.02
     offset: "90,35"
   }
   {
@@ -182,7 +182,7 @@
     name: 传送门橙光圈
     code: chuansong_02xh
     description: 橙光圈常驻
-    size: 0.3
+    size: 0.02
     offset: "-130,35"
   }
   {
@@ -396,7 +396,7 @@
     name: 沙舞妖精特效
     code: bian_sz
     description: 沙舞妖精特效
-    size: 1.0
+    size: 0.1
     offset: "0,0"
   }
   {
@@ -408,6 +408,7 @@
     delay: 0.33
     size: 1.0
     sound: BT_The_Division_Flash_Bomb
+    if_starting: 1
     offset: "0,0"
   }
   {
@@ -428,6 +429,7 @@
     delay: 0.33
     size: 1.0
     sound: BT_The_Division_Grenade
+    if_starting: 1
     offset: "0,0"
   }
   {
@@ -675,8 +677,8 @@
     description: 孙红雷投掷
     duration: 1.0
     size: 1.0
-    if_starting: 1
-    relative_position: "1000,3000"
+    if_starting: 3
+    relative_position: "-500,1000"
     offset: "0,0"
   }
   {
@@ -890,12 +892,12 @@
     name: 粘性炸药投掷
     code: Viscosity_Bomb
     description: 粘性炸药投掷
-    priority: 10
+    priority: 1
     duration: 0.46
     size: 0.5
     sound: 21Summer_Bomb_Whoosh
-    if_starting: 1
-    relative_position: "-1000,2000"
+    if_starting: 3
+    relative_position: "-800,1000"
     offset: "0,0"
   }
   {
@@ -903,7 +905,7 @@
     name: 粘性炸药倒计时
     code: Viscosity_Bomb
     description: 粘性炸药倒计时
-    priority: 10
+    priority: 1
     delay: 0.86
     size: 0.5
     sound: 21Summer_Bomb_Alarm
@@ -971,7 +973,7 @@
     code: MGT_shouji
     description: 受击特效
     duration: 0.5
-    size: 1.0
+    size: 0.02
     offset: "0,0"
   }
   {
@@ -980,7 +982,7 @@
     code: MGT_shouji_1
     description: 瓦尔哈拉用特效
     duration: 0.5
-    size: 1.0
+    size: 0.02
     sound: BT_Sniper_skill_1
     offset: "0,0"
   }
@@ -1028,7 +1030,7 @@
     name: 传送门橙光圈
     code: chuansong_03xh
     description: 橙光圈常驻
-    size: 0.3
+    size: 0.02
     offset: "90,35"
   }
   {
@@ -1038,7 +1040,7 @@
     description: 传送lv1 HG生效
     priority: 5
     duration: 1.0
-    size: 1.0
+    size: 0.05
     offset: "0,0"
   }
   {
@@ -1120,7 +1122,7 @@
     name: 粘性炸药无声倒计时
     code: Viscosity_Bomb
     description: 粘性炸药无声倒计时
-    priority: 10
+    priority: 1
     delay: 0.86
     size: 0.5
     spine: 2

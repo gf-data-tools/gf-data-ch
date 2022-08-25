@@ -92,7 +92,7 @@
   {
     id: 10
     type: 1
-    sort: 3
+    sort: 4
     item_ids: 1-1
     gemprice: 48
     giftbag_name: mall-10000010
@@ -102,7 +102,7 @@
   {
     id: 12
     type: 1
-    sort: 5
+    sort: 7
     item_ids: 3-1
     gemprice: 50
     giftbag_name: mall-10000012
@@ -112,7 +112,7 @@
   {
     id: 13
     type: 1
-    sort: 6
+    sort: 8
     item_ids: 3-10
     gemprice: 380
     if_cheap: 1
@@ -123,7 +123,7 @@
   {
     id: 14
     type: 1
-    sort: 7
+    sort: 9
     item_ids: 4-1
     gemprice: 50
     giftbag_name: mall-10000014
@@ -133,7 +133,7 @@
   {
     id: 15
     type: 1
-    sort: 8
+    sort: 10
     item_ids: 4-10
     gemprice: 380
     if_cheap: 1
@@ -144,7 +144,7 @@
   {
     id: 16
     type: 1
-    sort: 9
+    sort: 11
     item_ids: 8-1
     gemprice: 250
     giftbag_name: mall-10000016
@@ -154,7 +154,7 @@
   {
     id: 17
     type: 1
-    sort: 10
+    sort: 12
     item_ids: 8-5
     gemprice: 980
     if_cheap: 1
@@ -176,7 +176,7 @@
   {
     id: 19
     type: 1
-    sort: 11
+    sort: 5
     item_ids: 2-1
     gemprice: 24
     giftbag_name: mall-10000019
@@ -293,6 +293,17 @@
     item_ids: 605-10
     gemprice: 1600
     giftbag_name: mall-10000032
+    discount: 1.0
+    label: 1
+    classification_id: 5004
+  }
+  {
+    id: 35
+    type: 1
+    sort: 3
+    item_ids: 10606-5
+    gemprice: 60
+    giftbag_name: mall-10000035
     discount: 1.0
     label: 1
     classification_id: 5004
@@ -26309,6 +26320,31 @@
     pay_type: 1
     itemprice: 100147-5
     classification_id: 1002
+  }
+  {
+    id: 11022
+    type: 8
+    gemprice: 580
+    quota: 2002
+    giftbag_name: 9月特惠礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: 1.0
+    prize_id: 660
+    classification_id: 3002
+  }
+  {
+    id: 11023
+    type: 8
+    gemprice: 128
+    quota: 2001
+    giftbag_name: 每日特惠礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_navy
+    daily_quota: 1
+    discount: 1.0
+    prize_id: 1542
+    classification_id: 3002
   }
   {
     id: 99001

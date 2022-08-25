@@ -5058,7 +5058,7 @@
     max_tier: 1
     type: 400
     duration_type: 1
-    duration: "9999"
+    duration: "180"
     boss_available: 1
     is_form_play: 1
   }
@@ -7106,6 +7106,9 @@
     duration: *101
     boss_available: 1
     shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
   }
   {
     id: 868
@@ -15873,7 +15876,7 @@
     description: 稻草人1技能标记
     conflict_type: 903
     max_tier: 6
-    type: 500
+    type: 400
     duration_type: 1
     duration: "99999"
     boss_available: 1
@@ -18750,7 +18753,7 @@
     name: SV-98命中提升
     description: 命中上升
     conflict_type: 973
-    max_tier: 4
+    max_tier: 1
     type: 103
     duration_type: 1
     duration: *101
@@ -18766,7 +18769,7 @@
     name: 射速上升
     description: 射速上升
     conflict_type: 974
-    max_tier: 5
+    max_tier: 1
     type: 104
     duration_type: 1
     duration: *101
@@ -27871,6 +27874,42 @@
     name: 冰瓜被打死亡
     conflict_type: 355
     max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    delay: 1
+    boss_available: 1
+  }
+  {
+    id: 4848
+    name: 夜视抵消
+    conflict_type: 356
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *101
+    delay: 1
+    boss_available: 1
+    night_view_percent: *201
+  }
+  {
+    id: 4849
+    name: 夜视抵消
+    conflict_type: 357
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *101
+    delay: 1
+    boss_available: 1
+    night_view_percent: "10"
+  }
+  {
+    id: 4850
+    name: 压制屏蔽
+    description: 龙骑用
+    conflict_type: 358
+    max_tier: 6
     type: 501
     duration_type: 1
     duration: "-1"
@@ -39099,6 +39138,16 @@
     boss_available: 1
   }
   {
+    id: 8444
+    name: AUG装备标记
+    conflict_type: 2142
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -47730,6 +47779,461 @@
     duration: "999"
     boss_available: 1
     is_form_play: 1
+  }
+  {
+    id: 777010
+    name: 在场时黄色射速提升5%
+    conflict_type: 5701
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "6"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777011
+    name: 亡语伤害下降
+    conflict_type: 5702
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: "90"
+    trigger_creation_id: "205"
+    buff_animation: BlueFlash
+  }
+  {
+    id: 777012
+    name: 亡语伤害提升
+    conflict_type: 5703
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: "110"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777013
+    name: 亡语射速下降
+    conflict_type: 5704
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    rate_number: "80"
+    trigger_creation_id: "205"
+    buff_animation: BlueFlash
+  }
+  {
+    id: 777014
+    name: 亡语射速提升
+    conflict_type: 5705
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    rate_number: "120"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777015
+    name: 大破射速buff
+    conflict_type: 5706
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777016
+    name: 撤退射速buff
+    conflict_type: 5707
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777017
+    name: 目标死亡射速buff
+    conflict_type: 5708
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777018
+    name: 技能释放时射速buff
+    conflict_type: 5702
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777019
+    name: 大破监视
+    conflict_type: 5701
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7001
+  }
+  {
+    id: 777020
+    name: 撤退监视
+    conflict_type: 5701
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7002
+  }
+  {
+    id: 777021
+    name: 目标死亡监视
+    conflict_type: 5702
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7003
+  }
+  {
+    id: 777022
+    name: 技能释放监视
+    conflict_type: 5702
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7004
+  }
+  {
+    id: 777023
+    name: 受到伤害时射速buff
+    conflict_type: 5702
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777024
+    name: 受伤监视
+    conflict_type: 5702
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7005
+  }
+  {
+    id: 777025
+    name: 掉编黄色射速buff
+    conflict_type: 5703
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777026
+    name: 开局掉编监视
+    conflict_type: 5703
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    watch_id: 7007
+  }
+  {
+    id: 777027
+    name: 期间掉编蓝色命中buff
+    conflict_type: 5703
+    max_tier: 99
+    type: 103
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    hit_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: BlueFlash
+  }
+  {
+    id: 777028
+    name: 开局buff监视
+    conflict_type: 5703
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7006
+  }
+  {
+    id: 777029
+    name: 掉编了
+    conflict_type: 5704
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 777030
+    name: 伤害buff监视20秒
+    conflict_type: 5704
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+  }
+  {
+    id: 777031
+    name: buff监视黄色射速buff
+    conflict_type: 5705
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777032
+    name: 伤害debuff
+    conflict_type: 5705
+    max_tier: 99
+    type: 201
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    pow_number: "90"
+    trigger_creation_id: "205"
+  }
+  {
+    id: 777033
+    name: 造成伤害黄色射速buff
+    conflict_type: 5706
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777034
+    name: 开局造成伤害监视
+    conflict_type: 5706
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7008
+  }
+  {
+    id: 777035
+    name: 造成暴击黄色射速buff
+    conflict_type: 5707
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777036
+    name: 开局造成暴击监视
+    conflict_type: 5707
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 7009
+  }
+  {
+    id: 777037
+    name: ar伤害
+    conflict_type: 5707
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "110"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+    available_gun_type: "4"
+  }
+  {
+    id: 777038
+    name: smg回避
+    conflict_type: 5707
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    dodge_number: "110"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+    available_gun_type: "2"
+  }
+  {
+    id: 777039
+    name: 开局护盾
+    conflict_type: 5707
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    shield_number: "100"
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+  }
+  {
+    id: 777040
+    name: 期间未掉编黄色射速buff
+    conflict_type: 5704
+    max_tier: 99
+    type: 104
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 777041
+    name: 眩晕
+    conflict_type: 5705
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "209"
+  }
+  {
+    id: 777042
+    name: 禁足
+    conflict_type: 5705
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+  }
+  {
+    id: 777043
+    name: "215"
+    conflict_type: 5706
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    move_number: "90"
+  }
+  {
+    id: 777044
+    name: "205"
+    conflict_type: 5706
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    move_number: "90"
+  }
+  {
+    id: 777045
+    name: "805"
+    conflict_type: 5706
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    move_number: "5"
+  }
+  {
+    id: 777046
+    name: "105"
+    conflict_type: 5706
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    move_number: "110"
+  }
+  {
+    id: 844401
+    name: PM1910技能
+    conflict_type: 2142
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
   }
   {
     id: 999007

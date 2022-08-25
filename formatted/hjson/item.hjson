@@ -7,7 +7,7 @@
     item_name: 人形制造契约
     introduction: 委托IOP制造人形的订单。万幸，我们的老朋友一直是我们坚实的后援。
     rank: 1
-    sort: 2
+    sort: 10
     item_access: "1,4,5,3"
     detail_introduction: 可在工厂-人形制造中委托IOP进行人形制造。
   }
@@ -19,7 +19,7 @@
     item_name: 装备制造契约
     introduction: 委托16Lab制造装备的订单。打折的代价就是随机。
     rank: 1
-    sort: 3
+    sort: 15
     item_access: "1,4,5,3"
     detail_introduction: 可在工厂-装备制造中委托16lab进行装备制造。
   }
@@ -31,7 +31,7 @@
     item_name: 快速制造契约
     introduction: 为制造订单附上加急的需求。加急有风险，货已售出，非质量问题概不退换。
     rank: 1
-    sort: 4
+    sort: 20
     item_access: "1,4,5,3"
     detail_introduction: 可在工厂中立即完成人形或装备的制造。
   }
@@ -43,7 +43,7 @@
     item_name: 快速修复契约
     introduction: 为修复附上加急的需求。她迫不及待地想和你一起重回前线了。
     rank: 1
-    sort: 5
+    sort: 25
     item_access: "1,4,5,3"
     detail_introduction: 可立即完成受损单位的修复。
   }
@@ -75,7 +75,7 @@
     item_name: 誓约之证
     introduction: 与心意相通的战术少女缔结誓约的证明。是时候让你们的关系升华一下了！
     rank: 1
-    sort: 1
+    sort: 5
     item_access: "1"
     detail_introduction: 可与好感度达到上限的人形缔结誓约，提高好感度上限。
   }
@@ -87,7 +87,7 @@
     item_name: 快速训练契约
     introduction: 虽然人类的学习需要时间，但在金钱的堆砌下，战术单位可以不需要。
     rank: 1
-    sort: 6
+    sort: 30
     item_access: "1,3"
     detail_introduction: 可在研发-技能训练中立即完成单位的技能训练。
   }
@@ -99,7 +99,7 @@
     item_name: 增幅胶囊
     introduction: 有多种果味可选的强化胶囊，据说最近为了配合某些人形增加了酒味的版本。
     rank: 1
-    sort: 7
+    sort: 35
     item_access: "25,6"
     detail_introduction: 可在工厂-人形强化中提高人形未达上限的四项属性各一点，溢出部分会少量并依次分配到其它属性。
   }
@@ -111,7 +111,7 @@
     item_name: 替代核心
     introduction: 驱动傀儡的模块。“经原主人的许可才能卸下，进而演化成机器人之间的压迫。”
     rank: 1
-    sort: 8
+    sort: 40
     item_access: "7,5,6,3"
     detail_introduction: 可在工厂-编制扩大中替代相同人形进行编制扩大。
   }
@@ -143,7 +143,7 @@
     item_name: 改名卡
     introduction: 申请更改指挥官名字的登记卡，“一个让大家（包括您自己）重新看待您的机会。”
     rank: 1
-    sort: -39
+    sort: -195
     item_access: "2"
     detail_introduction: item-30000013
   }
@@ -155,7 +155,7 @@
     item_name: 原始数据样本
     introduction: 粗略的数据样本，质量参差不齐。“这次会是相同的结果吗？也许只是临时缺少一些灵感。”
     rank: 1
-    sort: 19
+    sort: 95
     item_access: "8,5"
     detail_introduction: 可在情报中心进行情报解析，获取重装部队中枢数据或芯片。
   }
@@ -167,7 +167,7 @@
     item_name: 纯净数据样本
     introduction: 仔细筛选过的样本，分析出有价值的数据的可能性高一些。只是一些。“至少这一份看起来更清澈。”
     rank: 1
-    sort: 20
+    sort: 100
     item_access: "8,5"
     detail_introduction: 可在情报中心进行情报解析，相比原始数据更容易获取重装部队中枢数据和高星级芯片。
   }
@@ -179,7 +179,7 @@
     item_name: 快速解析契约
     introduction: 不逼数据分析师一把，你永远不知道给自己打工的人能有多优秀。“出于对方的爱好，这份契约需要您额外支付一张真实猫咪的照片。”
     rank: 1
-    sort: 21
+    sort: 105
     item_access: "1,5,2"
     detail_introduction: 可立即完成情报中心正在进行的情报解析。
   }
@@ -191,7 +191,7 @@
     item_name: 数据补丁
     introduction: 能够晋升重装部队的数据补丁，其中有一部分是拆解满级的重装部队后获得。“‘三人行必有我师焉’，所以……‘再见了，老师’。”
     rank: 1
-    sort: 22
+    sort: 110
     item_access: "9,10"
     detail_introduction: 可用于满星满级重装部队的迭代强化。
   }
@@ -203,7 +203,7 @@
     item_name: 初级训练资料
     introduction: 为人形们编写的初级技能训练指南，有进步就好！“好耶！虽然没做什么，但我真是辛苦了！”
     rank: 1
-    sort: 9
+    sort: 45
     upper_limit: 9999
     item_access: "12"
     detail_introduction: 可在研发-技能训练中为格里芬单位提供技能初级训练。
@@ -216,7 +216,7 @@
     item_name: 中级训练资料
     introduction: 为人形们编写的中级技能训练指南，不必求甚解。“变强就有命吃更多的冰淇淋，没有更多的钱去吃就是另一个问题了……”
     rank: 1
-    sort: 10
+    sort: 50
     upper_limit: 9999
     item_access: "12"
     detail_introduction: 可在研发-技能训练中为格里芬单位提供技能中级训练。
@@ -229,7 +229,7 @@
     item_name: 高级训练资料
     introduction: 为人形们编写的高级技能训练指南，十分精深。“扫地僧是什么，为什么我要做扫地僧？”人形问。
     rank: 1
-    sort: 11
+    sort: 55
     upper_limit: 9999
     item_access: "12"
     detail_introduction: 可在研发-技能训练中为格里芬单位提供技能高级训练。
@@ -242,7 +242,7 @@
     item_name: 采购币
     introduction: 白色发亮的特殊货币，在这个时代很少见。“这些神秘硬币曾被怀疑是为设计师人形们提供灵感动力的电池。”
     rank: 1
-    sort: 12
+    sort: 60
     upper_limit: 300000
     item_access: "1,4,5,2"
     detail_introduction: 可在宿舍中进行家具和人形装扮的采购。
@@ -255,7 +255,7 @@
     item_name: 兑换券
     introduction: 订购商品赠送的无门槛代金券。买得越多送的越多，IOP不愧业界良心企业。
     rank: 1
-    sort: 13
+    sort: 65
     item_access: "11"
     detail_introduction: 可在宿舍-采购-限时兑换中兑换当期限时采购的家具和人形装扮，限时采购结束后一比一会转化为采购币。
   }
@@ -267,7 +267,7 @@
     item_name: 黑卡
     introduction: 曾经精英才能申请的高端卡片，你也拥有了。
     rank: 1
-    sort: 14
+    sort: 70
     item_access: "11"
     detail_introduction: 可在宿舍-采购-黑卡兑换中兑换人形装扮。
   }
@@ -279,7 +279,7 @@
     item_name: 校准点券
     introduction: 装备校准需要使用的代币，看起来并不值钱。据说存在的意义只是防止强迫症重复调试。
     rank: 1
-    sort: 15
+    sort: 75
     item_access: "13,5"
     detail_introduction: 可在研发中用于装备或妖精校准。
   }
@@ -291,7 +291,7 @@
     item_name: 记忆碎片
     introduction: 人形心智梳理时产生的数据，经过筛选可用于升级人形的心智空间。“你们说要让我自由，但我只想要冰淇淋。”
     rank: 1
-    sort: 18
+    sort: 90
     upper_limit: 9999
     item_access: "14,15"
     detail_introduction: 可在研发-心智升级中用于人形心智升级。
@@ -304,7 +304,7 @@
     item_name: 特种作战报告书
     introduction: 重装部队的特殊作战报告，类似的报告书正在不断增加。“希望大家从中发掘真正的宝藏，要知道失败的经验总大于成功。”
     rank: 1
-    sort: 23
+    sort: 115
     item_access: "24,16,6"
     detail_introduction: 可在格纳库中用于重装部队的经验训练。
   }
@@ -346,7 +346,7 @@
     item_name: 通用配件
     introduction: 人形们外出执行任务时顺便回收的旧配件，稍加清洗和加工就能用来强化装备。格琳娜和指挥官对此非常满意，并表扬了提议进行这种行动的人形，但好像并没有给她加薪。
     rank: 1
-    sort: 26
+    sort: 130
     item_access: "6,5"
     detail_introduction: 可在研发-装备强化中提供装备开发值。
   }
@@ -358,7 +358,7 @@
     item_name: 新型火控元件
     introduction: 针对拥有足够拓展空间的高级人形，IOP特别研制了此款强化元件。还在调试期，数量非常有限。
     rank: 5
-    sort: 26
+    sort: 130
     upper_limit: 9999
     item_access: "6"
     detail_introduction: 可用于高星级人形的心智升级。
@@ -382,6 +382,28 @@
     introduction: 飞行棋商店抽奖道具
     rank: 1
     detail_introduction: item-30000053
+  }
+  {
+    id: 54
+    type: 1
+    arg: "1"
+    code: PieceBlackCard
+    item_name: 黑卡晶片
+    introduction: 特殊材料构成的半导体，是制造黑卡的核心组件。
+    rank: 1
+    sort: -70
+    detail_introduction: 多个黑卡晶片可在仓库中合成一张黑卡，或在兑换人形装扮时抵扣一张黑卡。
+  }
+  {
+    id: 55
+    type: 1
+    arg: "1"
+    code: Fairy_Biscuit
+    item_name: 膨化妖精饼干
+    introduction: 对于妖精而言极其美味的食物，食用之后可以获得丰富的突破经验，但包装上似乎刻意隐瞒了制造食材……
+    rank: 1
+    sort: -71
+    detail_introduction: 可在改造&突破中提升妖精突破经验。
   }
   {
     id: 100
@@ -645,7 +667,7 @@
     item_name: 电池
     introduction: “作为电池其实有点大，但是电权保护组织称，电池也有权拥有梦想。”
     rank: 1
-    sort: 17
+    sort: 85
     upper_limit: 9999
     item_access: "17,6,5"
     detail_introduction: 可用于宿舍-附属房间中设施的升级和日常使用。
@@ -668,7 +690,7 @@
     item_name: 友情点数
     introduction: 与朋友们互动积累下来的成就点数。不涉及实际利益的友情纯粹也脆弱。“哦？你也是来自世纪末的Friends吗？”
     rank: 1
-    sort: 16
+    sort: 80
     item_access: "17,18,5"
     detail_introduction: 可在友情商店内兑换名片、头像、基地背景等奖励。
   }
@@ -711,7 +733,7 @@
     item_name: 超星内核
     introduction: 从初始2、3星融合势力单位身上落下的闪亮星辰，物以稀为贵。
     rank: 1
-    sort: 32
+    sort: 160
     item_access: "7"
     detail_introduction: 可在收归行动-内核商店中兑换高级道具。
   }
@@ -723,7 +745,7 @@
     item_name: 暗星内核
     introduction: 从初始1星融合势力单位身上落下的黯淡星辰，平凡的物品也有作用。
     rank: 1
-    sort: 33
+    sort: 165
     item_access: "7"
     detail_introduction: 可在收归行动-内核商店中兑换道具。
   }
@@ -735,7 +757,7 @@
     item_name: 开发培养皿
     introduction: 以太开发的必要物品，培育事物必须的温床。
     rank: 1
-    sort: 27
+    sort: 135
     item_access: "20,19,22"
     detail_introduction: 可在工厂-强化&开发中对融合势力单位进行以太开发。
   }
@@ -747,7 +769,7 @@
     item_name: 初级训练密钥
     introduction: 为融合势力单位编写的初级技能训练指南，初步练习是必要的。“这就是让我们打格里芬便宜靶子的理由？”
     rank: 1
-    sort: 28
+    sort: 140
     item_access: "20,19,22"
     detail_introduction: 可在研发-技能训练中为融合势力单位提供技能初级训练。
   }
@@ -759,7 +781,7 @@
     item_name: 高级训练密钥
     introduction: 为融合势力单位编写的高级技能训练指南，相信的心就是学会的魔法。“就算你这么说，这个程序也太难了！”
     rank: 1
-    sort: 29
+    sort: 145
     item_access: "20,19,22"
     detail_introduction: 可在研发-技能训练中为融合势力单位提供技能高级训练。
   }
@@ -771,7 +793,7 @@
     item_name: 指定装备契约
     introduction: 委托制造指定类型装备的契约，每一份契约可用于制造一个指定类型的装备。
     rank: 1
-    sort: -40
+    sort: -200
     item_access: "2"
     detail_introduction: 可在工厂-装备制造中执行I.O.P特殊订单。
   }
@@ -793,7 +815,7 @@
     item_name: 重装通用数据
     introduction: 一些重装部队通用的零件，似乎是从战场回收的。节约是格里芬的传统美德。
     rank: 1
-    sort: -30
+    sort: -150
     item_access: "9"
     detail_introduction: 可在重装解锁、晋升时替代指定数据的通用数据。
   }
@@ -805,7 +827,7 @@
     item_name: 破片手雷
     introduction: 破片拥有很好的范围杀伤效果，尤其针对那些躲在掩体后面的家伙。（暗金潮活动限定）
     rank: 1
-    sort: -35
+    sort: -175
     item_access: "2"
     detail_introduction: item-30000520
   }
@@ -817,7 +839,7 @@
     item_name: 闪光弹
     introduction: 闪光手雷会对目标造成致盲及致聋效果，但别忘了闭上自己的眼睛。（暗金潮活动限定）
     rank: 1
-    sort: -36
+    sort: -180
     item_access: "2"
     detail_introduction: item-30000521
   }
@@ -829,7 +851,7 @@
     item_name: 机枪塔
     introduction: 能够部署在战场上的自动武器，可攻击邻近敌人直到被摧毁或电池耗尽为止。（暗金潮活动限定）
     rank: 1
-    sort: -37
+    sort: -185
     item_access: "2"
     detail_introduction: item-30000522
   }
@@ -851,7 +873,7 @@
     item_name: 投掷式歌利亚
     introduction: 便携式爆炸机器人，比起原型伤害力降低、灵活性增加。被投掷后会在定点爆炸，打乱敌方原定的部署。（镜像论活动安洁视角战役限定）
     rank: 1
-    sort: -38
+    sort: -190
     item_access: "2"
     detail_introduction: item-30000524
   }
@@ -863,9 +885,20 @@
     item_name: 快速自律契约
     introduction: 激发人形的最大潜能，使战斗能够迅速结束。格里芬战术，唯快不破！
     rank: 1
-    sort: 7
+    sort: 35
     item_access: "23,5,2"
     detail_introduction: 可立即完成自律作战。
+  }
+  {
+    id: 526
+    type: 1
+    arg: "1"
+    code: Special_Equip_Ticket_2
+    item_name: 指定重建契约test
+    introduction: 委托重型制造指定类型装备的契约，每一份契约可用于制造一个指定类型的装备。test
+    rank: 1
+    sort: -40
+    detail_introduction: 可在工厂-装备制造中执行重型建造I.O.P特殊订单。Testtest
   }
   {
     id: 601
@@ -875,7 +908,7 @@
     item_name: 无限惊喜染色剂
     introduction: 没有人能知道自己想像中的款式是不是真的合适，让随机性带来惊喜吧。
     rank: 1
-    sort: 24
+    sort: 120
     item_access: "1,2"
     detail_introduction: 可对指挥官服装进行一次随机染色。
   }
@@ -887,7 +920,7 @@
     item_name: 色彩指定染色剂
     introduction: 别再为十连也抽不出自己想要的款式沮丧了，自己想要的花纹就该掌握在自己手里！
     rank: 1
-    sort: 25
+    sort: 125
     item_access: "2"
     detail_introduction: 可对指挥官服装进行一次指定染色。
   }
@@ -921,7 +954,7 @@
     item_name: 协力委托书
     introduction: 虽然我们的经验也有可取之处，但毕竟火神重工才是专业的收归人员。
     rank: 1
-    sort: 31
+    sort: 155
     item_access: "1,5,3,2"
     detail_introduction: 可在收归行动中委托火神重工在分区所有剩余单位中进行一次收归。
   }
@@ -933,7 +966,7 @@
     item_name: 转移触媒
     introduction: 能够将经验与拓展空间全部转移给另一个单位的触媒。“一夜醒来，我又再次一无所有”。
     rank: 1
-    sort: 34
+    sort: 170
     item_access: "19"
     detail_introduction: 可在协议控制中心-对称灌输驱动器中交换两个相同融合势力单位的培养度。
   }
@@ -12141,6 +12174,76 @@
     detail_introduction: item-30002135
   }
   {
+    id: 2136
+    type: 5
+    arg: "1"
+    code: profilePic_ChessBonus_OBR
+    item_name: OBR-卡斯蒂利亚女王
+    introduction: OBR-卡斯蒂利亚女王
+    rank: 1
+    detail_introduction: item-30002136
+  }
+  {
+    id: 2137
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season7_1
+    item_name: 暗色炽影 · 代号伍：湍动
+    introduction: 暗色炽影 · 代号伍：湍动
+    rank: 1
+    detail_introduction: item-30002137
+  }
+  {
+    id: 2138
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season7_2
+    item_name: 寐魇浸染 · 代号伍：湍动
+    introduction: 寐魇浸染 · 代号伍：湍动
+    rank: 1
+    detail_introduction: item-30002138
+  }
+  {
+    id: 2139
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season7_3
+    item_name: 无咎殊途 · 代号伍：湍动
+    introduction: 无咎殊途 · 代号伍：湍动
+    rank: 1
+    detail_introduction: item-30002139
+  }
+  {
+    id: 2140
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_AR15
+    item_name: ST AR-15-午夏憩风
+    introduction: ST AR-15-午夏憩风
+    rank: 1
+    detail_introduction: item-30002140
+  }
+  {
+    id: 2141
+    type: 5
+    arg: "1"
+    code: card_BattlePass_AR15
+    item_name: 名片：直到公路尽头
+    introduction: 名片：直到公路尽头
+    rank: 1
+    detail_introduction: item-30002141
+  }
+  {
+    id: 2142
+    type: 5
+    arg: "1"
+    code: cg_2022cosmos
+    item_name: 背景：天渊之上
+    introduction: 背景：天渊之上
+    rank: 1
+    detail_introduction: item-30002142
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -12894,10 +12997,40 @@
     item_name: 超导脉冲
     introduction: 虽然火神重工才是专业的收归人员，但我们的经验也不是没有可取之处。
     rank: 1
-    sort: 30
+    sort: 150
     consume_type: 1
     item_access: "5,3,2"
     detail_introduction: 可在收归行动中对地图上的融合势力单位进行一次收归。
+  }
+  {
+    id: 10605
+    type: 1
+    arg: "10605"
+    code: weekly_accumulation
+    item_name: 活跃度
+    introduction: 通过完成【格里芬每日事务】获取，用于显示指挥官的活跃程度。
+    rank: 1
+    detail_introduction: item-30010605
+  }
+  {
+    id: 10606
+    type: 16
+    arg: "10606"
+    code: pass_accumulation
+    item_name: 前线协议进阶卡
+    introduction: “不是说使用之后会获得更多更棒的物资吗？在哪里？！”“都在您的脚下了，尊敬的指挥官。”
+    rank: 1
+    detail_introduction: item-30010606
+  }
+  {
+    id: 10607
+    type: 16
+    arg: "10607"
+    code: pass_accumulation
+    item_name: 前线协议进阶卡
+    introduction: “不是说使用之后会获得更多更棒的物资吗？在哪里？！”“都在您的脚下了，尊敬的指挥官。”
+    rank: 1
+    detail_introduction: item-30010607
   }
   {
     id: 100001
@@ -15005,6 +15138,16 @@
     detail_introduction: item-30120006
   }
   {
+    id: 121001
+    type: 1
+    arg: "1"
+    code: FlightChessMap3_small
+    item_name: 地狱公路
+    introduction: 环形公路棋盘背景-地狱公路
+    rank: 1
+    detail_introduction: item-30121001
+  }
+  {
     id: 130001
     type: 12
     arg: "130001"
@@ -15179,6 +15322,166 @@
     detail_introduction: item-30130017
   }
   {
+    id: 140001
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: 榴弹捕手
+    introduction: 直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    rank: 1
+    detail_introduction: item-30140001
+  }
+  {
+    id: 140002
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: 榴弹捕手
+    introduction: 直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    rank: 1
+    detail_introduction: item-30140002
+  }
+  {
+    id: 140003
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: 榴弹捕手
+    introduction: 直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    rank: 1
+    detail_introduction: item-30140003
+  }
+  {
+    id: 140004
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: 榴弹捕手
+    introduction: 直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    rank: 1
+    detail_introduction: item-30140004
+  }
+  {
+    id: 160001
+    type: 1
+    arg: "1"
+    code: PT
+    item_name: 功能物品占位
+    introduction: 功能物品占位
+    rank: 1
+    detail_introduction: 功能物品占位
+  }
+  {
+    id: 200001
+    type: 5
+    arg: "1"
+    code: profileFrame_sr_gun
+    item_name: 头像框·异想链接
+    introduction: 头像框·异想链接
+    rank: 1
+    detail_introduction: item-30200001
+  }
+  {
+    id: 200002
+    type: 5
+    arg: "1"
+    code: profileFrame_ssr_gun
+    item_name: 头像框·心智浪潮
+    introduction: 头像框·心智浪潮
+    rank: 1
+    detail_introduction: item-30200002
+  }
+  {
+    id: 200003
+    type: 5
+    arg: "1"
+    code: profileFrame_mod_gun
+    item_name: 头像框·极限巅峰
+    introduction: 头像框·极限巅峰
+    rank: 1
+    detail_introduction: item-30200003
+  }
+  {
+    id: 200004
+    type: 5
+    arg: "1"
+    code: profileFrame_sp_gun
+    item_name: 头像框·联合攻势
+    introduction: 头像框·联合攻势
+    rank: 1
+    detail_introduction: item-30200004
+  }
+  {
+    id: 200005
+    type: 5
+    arg: "1"
+    code: profileFrame_skin_gun
+    item_name: 头像框·霓光丽影
+    introduction: 头像框·霓光丽影
+    rank: 1
+    detail_introduction: item-30200005
+  }
+  {
+    id: 200006
+    type: 5
+    arg: "1"
+    code: profileFrame_flightchess_ssr
+    item_name: 头像框·将星闪耀
+    introduction: 头像框·将星闪耀
+    rank: 1
+    detail_introduction: item-30200006
+  }
+  {
+    id: 200007
+    type: 5
+    arg: "1"
+    code: profileFrame_flightchess_sr
+    item_name: 头像框·运筹帷幄
+    introduction: 头像框·运筹帷幄
+    rank: 1
+    detail_introduction: item-30200007
+  }
+  {
+    id: 200008
+    type: 5
+    arg: "1"
+    code: profileFrame_flightchess_r
+    item_name: 头像框·决胜火线
+    introduction: 头像框·决胜火线
+    rank: 1
+    detail_introduction: item-30200008
+  }
+  {
+    id: 200009
+    type: 5
+    arg: "1"
+    code: profileFrame_comic
+    item_name: 头像框·跃然笔尖
+    introduction: 头像框·跃然笔尖
+    rank: 1
+    detail_introduction: item-30200009
+  }
+  {
+    id: 200012
+    type: 5
+    arg: "1"
+    code: profileFrame_rare_gun
+    item_name: 头像框·锻火膛线
+    introduction: 头像框·锻火膛线
+    rank: 1
+    detail_introduction: item-30200012
+  }
+  {
+    id: 200013
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_AR15
+    item_name: 头像框·肉球维修大师
+    introduction: 头像框·肉球维修大师
+    rank: 1
+    detail_introduction: item-30200013
+  }
+  {
     id: 900030
     type: 4
     arg: "100030"
@@ -15285,5 +15588,71 @@
       '''
     rank: 1
     detail_introduction: item-31100008
+  }
+  {
+    id: 1500009
+    type: 15
+    arg: "1500009"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500009
+  }
+  {
+    id: 1500010
+    type: 15
+    arg: "1500010"
+    code: package_choose
+    item_name: 配件装备自选序标
+    introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500010
+  }
+  {
+    id: 1500011
+    type: 15
+    arg: "1500011"
+    code: package_choose
+    item_name: 弹匣装备自选序标
+    introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500011
+  }
+  {
+    id: 1500012
+    type: 15
+    arg: "1500012"
+    code: package_choose
+    item_name: 人形装备自选序标
+    introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500012
+  }
+  {
+    id: 1500013
+    type: 15
+    arg: "1500013"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 打开时，可必定获得序标内未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500013
+  }
+  {
+    id: 1500014
+    type: 15
+    arg: "1500014"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 打开时，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500014
   }
 ]
