@@ -7,15 +7,37 @@ local get_Instance = function()
 	canvas.sortingOrder = 35;
 	return  instance;
 end
+local check = false;
 --修正下一步提前触发导致的问题
-local TriggerStep = function()
-	CS.GuideDeploymentController.TriggerStepData();
-end
-local RequestMissionGuideStepHandle = function(self,request)
-	CS.DeploymentController.AddAction(TriggerStep,0.2);
+local AfterBattlePlay = function(handle)
+	CS.GuideDeploymentController.AfterBattlePlay(handle);
+	check = true;
 end
 
+local PlayCurrentDelay = function()
+	CS.GuideDeploymentController.PlayCurrentDelay();
+	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
+end
+
+local CheckStep = function()
+	CS.DeploymentController.Instance:AddAndPlayPerformance(PlayCurrentDelay);
+end
+
+local PlayCurrentStep = function()
+	CS.GuideDeploymentController.findObj = nil;
+	CS.GuideDeploymentController.canClickOther = false;
+	CS.GuideDeploymentController.Instance.above.gameObject:SetActive(true);
+	CS.DeploymentController.AddAction(CheckStep,0.5);
+	if check then
+		check = false;
+		CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
+	end
+end
+
+
 util.hotfix_ex(CS.GuideDeploymentController,'get_Instance',get_Instance)
-util.hotfix_ex(CS.GuideDeploymentController,'RequestMissionGuideStepHandle',RequestMissionGuideStepHandle)
+util.hotfix_ex(CS.GuideDeploymentController,'AfterBattlePlay',AfterBattlePlay)
+util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentStep',PlayCurrentStep)
+util.hotfix_ex(CS.GuideDeploymentController,'PlayCurrentDelay',PlayCurrentDelay)
 
 
