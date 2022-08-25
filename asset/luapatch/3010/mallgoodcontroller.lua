@@ -15,7 +15,11 @@ local _Start = function(self)
 			if self.good.restNumber == 0 then
 	 			self:SetSoldOut();
 			end
+			self.imgPriceIcon.gameObject:SetActive(false);
 		else 
+			if self.good.type == CS.GoodType.payToMonthly or self.good.type == CS.GoodType.payToGem then
+				self.imgPriceIcon.gameObject:SetActive(false);
+			end
 			if self.good.restNumber > -1 then
 				self.imageRemainLabel.gameObject:SetActive(true);
 				if self.good.restNumber == 0 then

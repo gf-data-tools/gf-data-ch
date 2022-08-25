@@ -185,6 +185,7 @@ patch3010={
 "3010/GameData",
 "3010/FriendCosmeticIconController",
 "3010/FriendFriendMallController",
+"3010/FriendChangeAppearanceController",	
 "3010/DeploymentMapDragController",
 "3010/FlightChessMiniGameBagUIController",	
 "3010/MallGoodController",
