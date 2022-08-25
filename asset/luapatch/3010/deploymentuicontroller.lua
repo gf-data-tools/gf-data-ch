@@ -15,7 +15,7 @@ local Awake = function(self)
 	canvas.sortingOrder = 29;
 end
 util.hotfix_ex(CS.DeploymentUIController,'Awake',Awake)
-util.hotfix_ex(CS.DeploymentUIController,'OnClickEndTurn',OnClickEndTurn)
+--util.hotfix_ex(CS.DeploymentUIController,'OnClickEndTurn',OnClickEndTurn)
 
 
 

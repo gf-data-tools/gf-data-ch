@@ -19,6 +19,7 @@ local _Start = function(self)
 		else 
 			if self.good.type == CS.GoodType.payToMonthly or self.good.type == CS.GoodType.payToGem then
 				self.imgPriceIcon.gameObject:SetActive(false);
+				self:UpdateMonthlyCardRestTime();--月卡剩余时间
 			end
 			if self.good.restNumber > -1 then
 				self.imageRemainLabel.gameObject:SetActive(true);

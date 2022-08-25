@@ -179,7 +179,7 @@ patch3010={
 "3010/DeploymentController",
 "3010/DeploymentUIController",
 "3010/DeploymentBuildSkillItem",
-"3010/DeploymentMovingOptionController",			
+"3010/DeploymentSpotController",				
 "3010/MissionSkillData",
 "3010/GuideDeploymentController",		
 "3010/GameData",
