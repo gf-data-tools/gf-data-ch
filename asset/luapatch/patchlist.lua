@@ -197,6 +197,8 @@ patch3010={
 "3010/CommonClothItemController",		
 "3010/IllusBookEquipSuitCtrl",
 "3010/LoginController",
+"3010/SangvisChipDevelopUIController",	
+"3010/CareersLabelController",
 }
 -- va11
 print("load Va11");
