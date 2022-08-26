@@ -196,9 +196,19 @@ patch3010={
 "3010/CommonController",
 "3010/CommonClothItemController",		
 "3010/IllusBookEquipSuitCtrl",
+--"3010/QuestsController",
+--"3010/Badge",
+"3010/EquipDetailCtrl",
+"3010/CommonCharacterRecord",
 "3010/LoginController",
 "3010/SangvisChipDevelopUIController",	
 "3010/CareersLabelController",
+"3010/Request",
+"3010/ResearchFairyStrengthenController",
+"3010/CommonSquadListLabelController",
+"3010/SquadGetPerformance",
+"3010/SquadProgressBarController",
+"3010/FormationController",
 }
 -- va11
 print("load Va11");
