@@ -17,8 +17,16 @@ local RefreshText = function(self)
 	end
 end
 
+local ShowLeftBuildSkillUI = function(self)
+	self:ShowLeftBuildSkillUI();
+	if self.leftSkills.Count>0 then
+	local CurveMove = self.buildSkillUI:GetComponent(typeof(CS.CommonListCurveMove));
+		CurveMove.baseorder = 25;
+	end
+end
 util.hotfix_ex(CS.DeploymentUIController,'Awake',Awake)
 util.hotfix_ex(CS.DeploymentUIController,'RefreshText',RefreshText)
+util.hotfix_ex(CS.DeploymentUIController,'ShowLeftBuildSkillUI',ShowLeftBuildSkillUI)
 
 
 

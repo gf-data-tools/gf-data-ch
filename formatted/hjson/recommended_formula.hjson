@@ -1028,7 +1028,7 @@
     type: "1"
     name: 增益类
     en_name: recommended_formula-20000052
-    content: *战斗类妖精，可以在战斗中给我方提供防御生存上增益效果
+    content: *不会对战斗造成直接影响，但可以给玩家及梯队提供其他便利及效果，例如经验加成，掉落加成，视野等
     background: fairy_bg
     mp: 750
     ammo: 500
@@ -1043,7 +1043,7 @@
     type: "2"
     name: 属性类
     en_name: recommended_formula-20000053
-    content: *战斗类妖精，可以敌人造成直接伤害
+    content: *战斗类妖精，可以在战斗中给我方提供输出上增益效果
     background: fairy_bg
     mp: 750
     ammo: 1000
@@ -1058,7 +1058,7 @@
     type: "3"
     name: 防御类
     en_name: recommended_formula-20000054
-    content: *战斗外可以给我们提供掩护及行动便利等
+    content: *战斗类妖精，可以在战斗中给我方提供防御生存上增益效果
     background: fairy_bg
     mp: 1000
     ammo: 750
@@ -1073,7 +1073,7 @@
     type: "4"
     name: 狂暴类
     en_name: recommended_formula-20000055
-    content: *战斗外技能效果，可在战役地图上使用，并在当前或之后回合发挥其技能效果，大部分为对目标点或自身之后回合起作用
+    content: *战斗类妖精，可以敌人造成直接伤害
     background: fairy_bg
     mp: 500
     ammo: 1000
@@ -1088,7 +1088,7 @@
     type: "5"
     name: 增援类
     en_name: recommended_formula-20000056
-    content: *不会对战斗造成直接影响，但可以给玩家及梯队提供其他便利及效果，例如经验加成，掉落加成，视野等
+    content: *战斗外可以给我们提供掩护及行动便利等
     background: fairy_bg
     mp: 3000
     ammo: 500
@@ -1103,7 +1103,7 @@
     type: "6"
     name: 战役类
     en_name: recommended_formula-20000057
-    content: *战斗类妖精，可以在战斗中给我方提供输出上增益效果
+    content: *战斗外技能效果，可在战役地图上使用，并在当前或之后回合发挥其技能效果，大部分为对目标点或自身之后回合起作用
     background: fairy_bg
     mp: 500
     ammo: 2000

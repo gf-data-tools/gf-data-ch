@@ -225,6 +225,14 @@ patch3010={
 "3010/PresentItemController",
 "3010/BattleInteractionController",
 "3010/MallController",
+"3010/SpecialActivityController",
+"3010/SpecialOPSController",
+"3010/UserInfoData",	
+"3010/PresentInfo",
+"3010/RankingListUIController",	
+"3010/BattleCharacterData",
+"3010/Package",
+"3010/SquadChipStrengthenController",
 }
 -- va11
 print("load Va11");

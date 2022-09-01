@@ -7,7 +7,26 @@ local CheckSize = function(self)
 	self.cloudMaterial:SetFloat("_AddDistance",size*2);
 end
 
+local CreateMap = function(self)
+	CheckChildEnable(self.transfromSpots);
+	CheckChildEnable(self.buildParent);	
+	CheckChildEnable(self.lines);	
+	CheckChildEnable(self.teamParent);
+	CheckChildEnable(self.background);
+	self:CreateMap();	
+end
+
+function CheckChildEnable(trans)
+	if trans == nil then
+		return;
+	end
+	for i=0,trans.childCount -1 do
+		trans:GetChild(i).gameObject:SetActive(false);
+	end
+end
+
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckSize',CheckSize)
+util.hotfix_ex(CS.DeploymentBackgroundController,'CreateMap',CreateMap)
 
 
 
