@@ -123,6 +123,24 @@ local CheckMoudleUiTween = function(self)
 	self:CheckMoudleUiTween();
 	self.toggleTitle = title;
 end
+
+local RefreshMoudleBuildUI = function(self)
+	local trans = self.panalMissionTrans:GetEnumerator();
+	while trans:MoveNext() do
+		local key = trans.Current.Key;
+		local value = trans.Current.Value;		
+		if key.currentMission ~= nil then
+			self.missionBaseFinal = value;
+		end
+	end
+	
+	self:RefreshMoudleBuildUI();	
+end
+
+local CancelMission = function(self)
+	self:CancelMission();
+	self:RefreshMoudleBuildUI();
+end
 util.hotfix_ex(CS.OPSPanelController,'SelectModuleSpine',SelectModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'ShowOPSSpineMissionUI',ShowOPSSpineMissionUI)
 util.hotfix_ex(CS.OPSPanelController,'HideOPSSpineMissionUI',HideOPSSpineMissionUI)
@@ -131,3 +149,5 @@ util.hotfix_ex(CS.OPSPanelController,'LoadReturn',myLoadReturn)
 util.hotfix_ex(CS.OPSPanelController,'CheckEndlessPoint',CheckEndlessPoint)
 util.hotfix_ex(CS.OPSPanelController,'CancelSelectMoudleSpine',CancelSelectMoudleSpine)
 util.hotfix_ex(CS.OPSPanelController,'CheckMoudleUiTween',CheckMoudleUiTween)
+util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleBuildUI',RefreshMoudleBuildUI)
+util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)

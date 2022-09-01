@@ -25,9 +25,15 @@ function CheckChildEnable(trans)
 	end
 end
 
+local CreateSpots = function(self)
+	self:CreateSpots();
+	for i=0,self.listSpotPath.Count-1 do
+		self.listSpotPath[i]:Rest();
+	end
+end
 util.hotfix_ex(CS.DeploymentBackgroundController,'CheckSize',CheckSize)
 util.hotfix_ex(CS.DeploymentBackgroundController,'CreateMap',CreateMap)
-
+util.hotfix_ex(CS.DeploymentBackgroundController,'CreateSpots',CreateSpots)
 
 
 
