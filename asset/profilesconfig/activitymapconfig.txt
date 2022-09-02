@@ -44,7 +44,9 @@ MissionSelectionTex|missionSelect_Bikini_2021|1|-47
 //混沌落幕+配置（秃洞复刻）：
 //MissionSelectionTex|missionselect_PolarizedLight_RE|2|-53 
 //2022烟花祭配置：
-MissionSelectionTex|missionselect_Bikini_2022|1|-52
+//MissionSelectionTex|missionselect_Bikini_2022|1|-52
+//2022夏活配置：
+MissionSelectionTex|missionselect_Bikini_2022|1|-54
 
 
 //场景跳转-campaion-(0SpecialOPS 1ActivityOPS 2PanelOPS)
@@ -157,7 +159,8 @@ OPSLeftBGNormalActivity|-54|2022SummerLogo
 //OPSNoticeNormalActivity|-51|FixedPoint_Notice
 //OPSNoticeNormalActivity|-50|WhiteDay_2022_Notice
 //OPSNoticeNormalActivity|-53|Isomer_Notice
-OPSNoticeNormalActivity|-52|Bikini_2022_Notice
+//OPSNoticeNormalActivity|-52|Bikini_2022_Notice
+OPSNoticeNormalActivity|-54|2022Summer_Notice
 //时间公告-预制物(公用)
 OPSTime|SingTime
 //OPSTimeNormalActivity|-31|Isomer_Time
@@ -177,6 +180,7 @@ OPSTimeNormalActivity|-51|Reversible_Time
 OPSTimeNormalActivity|-50|Reversible_Time
 OPSTimeNormalActivity|-53|Reversible_Time
 OPSTimeNormalActivity|-52|Bikini_2022_Time
+OPSTimeNormalActivity|-54|2022Summer_Time
 //OPS场景总修饰贴图-预制物(公用)
 //OPSMainDeco|MainDeco1
 //OPSMainDeco|MainDeco2
@@ -206,7 +210,8 @@ OPSTimeNormalActivity|-52|Bikini_2022_Time
 //OPSGoto|WhiteDay_2022_GotoMall|0
 //混沌落幕复刻配置_积分界面跳转
 //OPSGoto|Continuum_PointExchange|2
-OPSGoto|Bikini_2022_GotoMall|0|-52
+//OPSGoto|Bikini_2022_GotoMall|0|-52
+OPSGoto|2022Summer_GotoMall|0|-54
 //关卡面板动态位置
 OPSInfoPos|1100,650|1100,-500|-500,300|-500,-500
 
@@ -291,6 +296,7 @@ OPSMain|-48|Day|Bikini_2021_Background
 OPSMain|-51|Day|Arctic_Map5
 OPSMain|-50|Day|Arctic_Map5
 OPSMain|-52|Day|Arctic_Map5
+OPSMain|-54|Day|Arctic_Map5
 
 
 //OPS场景章节修饰贴图设置-大章节-章节标题上还是下(Up/Down)-预制物
@@ -375,6 +381,7 @@ OPSCampaignTitleButton|-48|true|MirrorStage_Diffculty2Btn
 OPSCampaignTitleButton|-51|true|FixedPoint_Diffculty2Btn
 OPSCampaignTitleButton|-52|true|Bikini_2022_Difficulty2Btn
 //OPSCampaignTitleButton|-50|true|PolarizedLight_Diffculty2Btn
+OPSCampaignTitleButton|-54|true|2022SummerDiffculty2Btn
 
 //剧情章节用
 //OPSAVGCampion|-24|true|ContinuumTurbulence_Title4nor
@@ -412,7 +419,8 @@ OPSCampaignTitleButton|-52|true|Bikini_2022_Difficulty2Btn
 //OPSCampaignTitleButtonTip|-48|100101|60|2021Summer_Tip|1
 //OPSCampaignTitleButtonTip|-51|100126|60|2022Winter_Tip|1
 //OPSCampaignTitleButtonTip|-50|100136|60|WhiteDay_2022_Tip|1
-OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
+//OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
+OPSCampaignTitleButtonTip|-54|100148|60|Bikini_2022_Tip|1
 
 //消耗道具用
 //OPSShowItem|-43|520,521,522|TheDivision_MissionItems|TheDivision_DeploymentItems
@@ -420,7 +428,7 @@ OPSCampaignTitleButtonTip|-52|100148|60|Bikini_2022_Tip|1
 //OPSShowItem|-51|100120|FixedPoint_MissionItems|MirrorStage_DeploymentItems
 //OPSShowItemDeployment|100120|FixedPoint_DeploymentItems|11003,11004
 //OPSShowItemDeployment|100122|FixedPoint_DeploymentItems|11005,11006,11007,11008,11009,11010
-OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
+//OPSShowItemDeployment|100151|MirrorStage_DeploymentItems|11108,11109,11110,11111
 
 //具体章节里的头像贴图设置-位置坐标-贴图
 OPSCampaignDetail|-1_1|-600,1220|LightBossB07

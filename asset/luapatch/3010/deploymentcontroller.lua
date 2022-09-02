@@ -51,9 +51,20 @@ local InitUIElements = function(self)
 	self.spotInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 1;	
 	self.OptionInfo:GetComponent(typeof(CS.UnityEngine.Canvas)).sortingOrder = 3;	
 end
+
+local SelectTeam = function(self,team)
+	if team ~= nil then
+		if team.currentSpot.currentTeam ~= team then
+			self:SelectTeam(nil);
+			return;
+		end
+	end
+	self:SelectTeam(team);
+end
 util.hotfix_ex(CS.DeploymentController,'InitUIElements',InitUIElements)
 util.hotfix_ex(CS.DeploymentController,'RequestStartTurnHandle',RequestStartTurnHandle)
 util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
 util.hotfix_ex(CS.DeploymentController,'PlayShowAllTeamForce',PlayShowAllTeamForce)
+util.hotfix_ex(CS.DeploymentController,'SelectTeam',SelectTeam)
 
 
