@@ -376,6 +376,17 @@ local OpenRuler = function(self)
 		self.highScoreRule.gameObject:SetActive(true);
 	end
 end
+local RequestSetCampaigns = function(self,data)
+	self:RefreshUI();
+end
+local LoadTitle = function(self)
+	self:LoadTitle();
+	self:CheckConfigTip();
+end
+local RequestSetDrawEvent = function(self,data)
+	self:RequestSetDrawEvent(data);
+	self:CheckMoudleUi();
+end
 function Split(szFullString, szSeparator)
 	local nFindStartIndex = 1
 	local nSplitIndex = 1
@@ -412,3 +423,6 @@ util.hotfix_ex(CS.OPSPanelController,'Load',Load)
 util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleUI',RefreshMoudleUI)
 util.hotfix_ex(CS.OPSPanelController,'SelectOPSMission',SelectOPSMission)
 util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)
+util.hotfix_ex(CS.OPSPanelController,'LoadTitle',LoadTitle)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetCampaigns',RequestSetCampaigns)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)

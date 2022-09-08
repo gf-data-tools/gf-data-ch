@@ -2,7 +2,9 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.PassBuyPassBoxController)
 xlua.private_accessible(CS.PassOrderUserData)
 xlua.private_accessible(CS.HotUpdateController)
+xlua.private_accessible(CS.GameData)
 local myRefreshPriceLabel = function(self)
+	print("===")
     self:RefreshPriceLabel()
 	local normal1 = self.normalPassBuyPrice_Obj.transform:GetChild(0);
 	if normal1 ~= nil then
@@ -65,10 +67,20 @@ local myRefreshPriceLabel = function(self)
 end
 local myOnIAPValidateComplete = function(self)
 	self:OnIAPValidateComplete();
-	myRefreshPriceLabel();
+	myRefreshPriceLabel(self);
+end
+local myStart = function(self)
+	for i=CS.GameData.listMallGood.Count - 1, 0, -1 do
+		if CS.GameData.listMallGood[i].type == CS.GoodType.payToPassOrder then
+			print("one");
+			CS.GameData.listMallGood:RemoveAt(i);
+		end
+	end
+	self:Start();
 end
 
 if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 	util.hotfix_ex(CS.PassBuyPassBoxController,'RefreshPriceLabel',myRefreshPriceLabel)
 	util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',myOnIAPValidateComplete)
+	util.hotfix_ex(CS.PassBuyPassBoxController,'Start',myStart)
 end
