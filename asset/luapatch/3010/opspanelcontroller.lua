@@ -238,6 +238,7 @@ local RefreshCurrentDiffcluty = function(self)
 	end
 end
 
+local playtrain = false;
 local PlayMoudleBackgroundMove = function(self,addspeed)
 	local datetime = CS.GameData.UnixToDateTime(CS.GameData.GetCurrentTimeStamp());
 	local day = datetime.Day;
@@ -253,7 +254,15 @@ local PlayMoudleBackgroundMove = function(self,addspeed)
 			CS.OPSPanelController.backgroundOrder = 0;
 			self.currentPanelConfig.moudleMoveBackgroundConfig.configs:RemoveAt(0);
 		end
-		CS.CommonAudioController.PlayUI("UI_Train_Onrail");
+		if CS.AVGController.inst == nil or CS.AVGController.inst:isNull() then
+			CS.CommonAudioController.PlayUI("UI_Train_Onrail");
+			playtrain = true;
+		else
+			if playtrain then
+				playtrain = false;
+				CS.CommonAudioController.PlayUI("Stop_UI_loop");
+			end
+		end
 		self:PlayMoudleBackgroundMove(addspeed);
 	end
 end
@@ -384,8 +393,11 @@ local LoadTitle = function(self)
 	self:CheckConfigTip();
 end
 local RequestSetDrawEvent = function(self,data)
-	self:RequestSetDrawEvent(data);
-	self:CheckMoudleUi();
+	self:RefreshUI(true);
+	self:CheckAnim();
+	self:CheckModuleSpine();
+	self:RefreshMoudleBuildUI();
+	self:CheckMoudleUi();	
 end
 function Split(szFullString, szSeparator)
 	local nFindStartIndex = 1

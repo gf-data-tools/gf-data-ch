@@ -1984,6 +1984,7 @@
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
+    cannot_move: "1"
     special_spot_config_id: 541311
     conditions_type: "51"
     conditions_time: 0-1
@@ -1999,6 +2000,7 @@
     exp_buff: "1"
     manual_ui_code: CarryBoomerIcon#EC4702
     conflict_type: 541314
+    priority: -1
     carry_mission_skill: "541313"
   }
   {
@@ -3750,7 +3752,7 @@
     name: 【标记】秃洞照明抵抗夜战60%
     description: mission_buff_config-26540246
     type: 1
-    duration_type: "2"
+    duration_type: "4"
     duration_time: "1"
     exp_buff: "1"
     battle_skill_config_id: 755255
@@ -3778,6 +3780,18 @@
     exp_buff: "1"
     cannot_move: "1"
     conflict_type: 6540248
+  }
+  {
+    id: 6540249
+    name: mission_buff_config-16540249
+    description: mission_buff_config-26540249
+    code: powBuff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    vision_buff: "2"
+    conflict_type: 6540249
   }
   {
     id: 9100001

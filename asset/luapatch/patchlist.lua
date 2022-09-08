@@ -249,6 +249,7 @@ patch3010={
 "3010/PassBuyPassBoxController",
 "3010/FactoryController",	
 "3010/OPSConfig",	
+"3010/language/FactoryDevelopLogController",	
 }
 -- va11
 print("load Va11");

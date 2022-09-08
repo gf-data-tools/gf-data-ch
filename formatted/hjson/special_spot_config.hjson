@@ -9628,6 +9628,24 @@
     death_effect_target_type: "-1"
   }
   {
+    id: 541351
+    name: "[avg]-54-A-13Point1"
+    description: special_spot_config-20541351
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 541351
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 541402
     name: 【标记】电梯
     description: special_spot_config-20541402
@@ -10488,7 +10506,7 @@
   }
   {
     id: 544221
-    name: avg
+    name: "[avg]-54-C-15Point2"
     description: special_spot_config-20544221
     priority: 1
     duration_type: "1"
@@ -29439,7 +29457,7 @@
     skill_config_id_on_birth: "0,0,0"
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
-    spot_buff_config_id: 5
+    is_still_alive: 1
   }
   {
     id: 6540123
@@ -30072,7 +30090,7 @@
   }
   {
     id: 6540155
-    name: "[avg]-54-ColtWalker_2_1"
+    name: "[avg]-54-B-6Point1"
     description: special_spot_config-26540155
     code: "6540155"
     priority: 6540155
@@ -30091,7 +30109,7 @@
   }
   {
     id: 6540156
-    name: "[avg]-54-ColtWalker_2_2"
+    name: "[avg]-54-B-6Point2"
     description: special_spot_config-26540156
     code: "6540156"
     priority: 6540156
@@ -30110,7 +30128,7 @@
   }
   {
     id: 6540157
-    name: "[avg]-54-ColtWalker_2_3"
+    name: "[avg]-54-B-6Point3"
     description: special_spot_config-26540157
     code: "6540157"
     priority: 6540157
@@ -30786,7 +30804,7 @@
     duration_type: "1"
     duration_time: "1"
     mission_buff_config_id: 6540246
-    detect_target_type: "1,301,8"
+    detect_target_type: "-1"
     effect_target_type: "1,301,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -30797,6 +30815,7 @@
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
     effect_duration: 900001
+    is_still_alive: 1
   }
   {
     id: 6540192

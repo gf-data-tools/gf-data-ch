@@ -17642,7 +17642,7 @@
   {
     id: 541311
     name: 空袭引导
-    description: 引导空袭，下回合开始时对自身范围1以内的所有单位及设施造成毁灭性的打击，引导开始后即使死亡也无法打断
+    description: 引导空袭，下回合开始时对自身范围1以内的所有单位及设施造成毁灭性的打击，引导开始后无法移动，但即使死亡也不会被打断
     lvup_description: mission_skill_config-30541311
     skill_group_id: 541311
     level: 1
@@ -17652,7 +17652,7 @@
     cd_time_type: 1
     trigger_id: "54131100"
     target_id: "1"
-    special_spot_add: 541311:1
+    special_spot_add: 541311:1,541351:1
     mission_buff_add: 541311:1
     is_manual: 541311
   }
@@ -43424,6 +43424,7 @@
     cd_time_type: 1
     target_id: "1"
     mission_buff_add: 6540218:1,6540212:1
+    subsidiary_mission_skill: "6540184"
   }
   {
     id: 6540055
@@ -43485,8 +43486,8 @@
     spot_echelon: "-1"
     cd_time_type: 1
     start_range: 2
-    special_spot_add: 6540122:1
-    subsidiary_mission_skill: "6540062,6540181"
+    special_spot_add: 6540122:1,6540194:1
+    subsidiary_mission_skill: "6540062"
     is_manual: 6540015
   }
   {
@@ -45504,6 +45505,24 @@
     cd_time_type: 1
     target_id: "1"
     special_spot_minus: 6540113:1
+  }
+  {
+    id: 6540184
+    name: 【标记】融合势力技能2领取 判断芯片
+    code: "1"
+    description: 视野扩大。（仅能领取一次，请慎重分配给梯队）
+    lvup_description: mission_skill_config-36540184
+    skill_group_id: 6540184
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "5000341"
+    target_id: 5000341&&654021841
+    mission_buff_add: 6540249:1
+    mission_buff_minus: 6540218:1
   }
   {
     id: 8120101
