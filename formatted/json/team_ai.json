@@ -205,5 +205,14 @@
         "description": "沿着特定路线移动，不会对周围的非己方单位产生响应。",
         "pic": "ai_patrol",
         "color": "ffffff"
+    },
+    {
+        "id": 24,
+        "force_id": 2,
+        "ai_type": 106,
+        "name": "锁定",
+        "description": "沿“可行的”、“最短”的路径向指定NPC移动",
+        "pic": "ai_guard",
+        "color": "ffffff"
     }
 ]

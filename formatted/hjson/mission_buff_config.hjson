@@ -598,6 +598,42 @@
     priority: 1
   }
   {
+    id: 20401
+    name: 再动C
+    description: 连续行动
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 20401
+    ext_move: 1
+  }
+  {
+    id: 20402
+    name: 再动B
+    description: 连续行动+
+    code: ExtraMove2
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 20402
+    ext_move: 2
+  }
+  {
+    id: 20403
+    name: 再动A
+    description: 连续行动++
+    code: ExtraMove3
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 20403
+    ext_move: 3
+  }
+  {
     id: 50000
     name: 额外弹药口粮测试
     description: 额外携带弹药口粮
@@ -1900,6 +1936,192 @@
     priority: -1
   }
   {
+    id: 541201
+    name: 扒衣服
+    description: mission_buff_config-20541201
+    code: Chloe
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 541205
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 541201
+  }
+  {
+    id: 541212
+    name: 伪装
+    description: 伪装成功
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 541200
+    conditions_type: "51"
+    conditions_time: 0-1
+    manual_ui_code: 2022WV25#1E90FF
+    conflict_type: 541212
+  }
+  {
+    id: 541301
+    name: AR18
+    description: mission_buff_config-20541301
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    vision_buff: "3"
+    battle_skill_config_id: 759008
+    conflict_type: 541301
+    carry_mission_skill: "541311"
+  }
+  {
+    id: 541311
+    name: 空袭引导
+    description: mission_buff_config-20541311
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 541311
+    conditions_type: "51"
+    conditions_time: 0-1
+    conflict_type: 541311
+  }
+  {
+    id: 541314
+    name: 携带歌利亚
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 541314
+    carry_mission_skill: "541313"
+  }
+  {
+    id: 541401
+    name: 沃克
+    description: mission_buff_config-20541401
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 541401
+    carry_mission_skill: "541411"
+  }
+  {
+    id: 542401
+    name: 沃克
+    description: mission_buff_config-20542401
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 542401
+    carry_mission_skill: "542411"
+  }
+  {
+    id: 543114
+    name: 携带心智震撼弹
+    description: 携带心智震撼弹
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 543114
+    priority: -1
+    carry_mission_skill: "543124,543134"
+  }
+  {
+    id: 544101
+    name: 沃克
+    description: mission_buff_config-20544101
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 544101
+    carry_mission_skill: "544111,544121,544112"
+  }
+  {
+    id: 544112
+    name: 削弱BOSS
+    description: mission_buff_config-20544112
+    code: shield
+    type: 2
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 755252
+    conflict_type: 544112
+  }
+  {
+    id: 544114
+    name: 携带心智震撼弹
+    description: 携带心智震撼弹
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 544114
+    priority: -1
+    carry_mission_skill: "544124"
+  }
+  {
+    id: 544124
+    name: 减速
+    description: mission_buff_config-20544124
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 544124
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 544124
+  }
+  {
+    id: 544201
+    name: 手表标记
+    description: mission_buff_config-20544201
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 544211
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 544201
+  }
+  {
+    id: 544211
+    name: 拾取标记
+    description: mission_buff_config-20544211
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 544211
+    carry_mission_skill: "544211"
+  }
+  {
+    id: 544212
+    name: 携带燃油
+    description: mission_buff_config-20544212
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 544212
+    carry_mission_skill: "544213"
+  }
+  {
     id: 910630
     name: 【标记】护盾发生器buff
     description: mission_buff_config-20910630
@@ -2616,6 +2838,946 @@
     exp_buff: "1"
     conflict_type: 6520003
     carry_mission_skill: "6520022"
+  }
+  {
+    id: 6540000
+    name: 【标记】格里芬经验0
+    description: 晋升少尉所需破敌数：3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759035
+    special_spot_config_id: 6540001
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_warrant_officer#A5881F
+    conflict_type: 6540000
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540001
+    name: 【标记】格里芬经验1
+    description: 晋升少尉所需破敌数：2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759035
+    special_spot_config_id: 6540002
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_warrant_officer#A5881F
+    conflict_type: 6540000
+    priority: 1
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540002
+    name: 【标记】格里芬经验2
+    description: 晋升少尉所需破敌数：1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759035
+    special_spot_config_id: 6540003
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_warrant_officer#A5881F
+    conflict_type: 6540000
+    priority: 2
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540003
+    name: 【标记】格里芬经验3
+    description: 晋升中尉所需破敌数：3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759036
+    special_spot_config_id: 6540004
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 3
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540004
+    name: 【标记】格里芬经验4
+    description: 晋升中尉所需破敌数：2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759036
+    special_spot_config_id: 6540005
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 4
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540005
+    name: 【标记】格里芬经验5
+    description: 晋升中尉所需破敌数：1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759036
+    special_spot_config_id: 6540006
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 5
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540006
+    name: 【标记】格里芬经验6
+    description: 晋升上尉所需破敌数：4
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540007
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_first_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 6
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540007
+    name: 【标记】格里芬经验7
+    description: 晋升上尉所需破敌数：3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540008
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_first_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 7
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540008
+    name: 【标记】格里芬经验8
+    description: 晋升上尉所需破敌数：2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540009
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_first_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 8
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540009
+    name: 【标记】格里芬经验9
+    description: 晋升上尉所需破敌数：1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540010
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: griffin_first_lieutenant#A5881F
+    conflict_type: 6540000
+    priority: 9
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540010
+    name: 【标记】格里芬经验10
+    description: 已晋升上尉
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759038
+    manual_ui_code: griffin_captain#A5881F
+    conflict_type: 6540000
+    priority: 10
+    carry_mission_skill: "6540038,6540039,6540040,6540041"
+  }
+  {
+    id: 6540100
+    name: 【标记】融合势力经验0
+    description: 晋升中士所需破敌数：3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759035
+    special_spot_config_id: 6540016
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_corporal#D20000
+    conflict_type: 6540100
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540101
+    name: 【标记】融合势力经验1
+    description: 晋升中士所需破敌数：2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759035
+    special_spot_config_id: 6540017
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_corporal#D20000
+    conflict_type: 6540100
+    priority: 1
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540102
+    name: 【标记】融合势力经验2
+    description: 晋升中士所需破敌数：1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759035
+    special_spot_config_id: 6540018
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_corporal#D20000
+    conflict_type: 6540100
+    priority: 2
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540103
+    name: 【标记】融合势力经验3
+    description: 晋升上士所需破敌数：3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759036
+    special_spot_config_id: 6540019
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_sergeant#D20000
+    conflict_type: 6540100
+    priority: 3
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540104
+    name: 【标记】融合势力经验4
+    description: 晋升上士所需破敌数：2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759036
+    special_spot_config_id: 6540020
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_sergeant#D20000
+    conflict_type: 6540100
+    priority: 4
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540105
+    name: 【标记】融合势力经验5
+    description: 晋升上士所需破敌数：1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759036
+    special_spot_config_id: 6540021
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_sergeant#D20000
+    conflict_type: 6540100
+    priority: 5
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540106
+    name: 【标记】融合势力经验6
+    description: 晋升军士长所需破敌数：4
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540022
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_ staff_sergeant#D20000
+    conflict_type: 6540100
+    priority: 6
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540107
+    name: 【标记】融合势力经验7
+    description: 晋升军士长所需破敌数：3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540023
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_ staff_sergeant#D20000
+    conflict_type: 6540100
+    priority: 7
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540108
+    name: 【标记】融合势力经验8
+    description: 晋升军士长所需破敌数：2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540024
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_ staff_sergeant#D20000
+    conflict_type: 6540100
+    priority: 8
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540109
+    name: 【标记】融合势力经验9
+    description: 晋升军士长所需破敌数：1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759037
+    special_spot_config_id: 6540025
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: sangvis_ staff_sergeant#D20000
+    conflict_type: 6540100
+    priority: 9
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540110
+    name: 【标记】融合势力经验10
+    description: 已晋升军士长
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759038
+    manual_ui_code: sangvis_chief_ergeant#D20000
+    conflict_type: 6540100
+    priority: 10
+    carry_mission_skill: "6540042,6540043,6540044,6540045"
+  }
+  {
+    id: 6540200
+    name: 【标记】任务可接
+    description: 可以接受任务buff
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540200
+    carry_mission_skill: "6540012,6540013,6540014,6540015"
+  }
+  {
+    id: 6540201
+    name: 【标记】任务1
+    description: mission_buff_config-26540201
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540201
+  }
+  {
+    id: 6540202
+    name: 【标记】任务2
+    description: mission_buff_config-26540202
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 6540202
+  }
+  {
+    id: 6540203
+    name: 【标记】任务3
+    description: mission_buff_config-26540203
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540203
+  }
+  {
+    id: 6540204
+    name: 【标记】任务4
+    description: mission_buff_config-26540204
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540204
+  }
+  {
+    id: 6540205
+    name: 【标记】任务3护送资料
+    description: 携带作战方案
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryDataIcon#EC4702
+    conflict_type: 6540205
+    carry_mission_skill: "6540018"
+  }
+  {
+    id: 6540206
+    name: 【标记】任务唯一
+    description: 可以接受任务buff
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540206
+  }
+  {
+    id: 6540207
+    name: 【标记】任务3目标
+    description: mission_buff_config-26540207
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540207
+  }
+  {
+    id: 6540208
+    name: 【标记】技能1
+    description: mission_buff_config-26540208
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540208
+  }
+  {
+    id: 6540209
+    name: 【标记】技能2
+    description: mission_buff_config-26540209
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540209
+  }
+  {
+    id: 6540210
+    name: 【标记】技能3
+    description: mission_buff_config-26540210
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540210
+  }
+  {
+    id: 6540211
+    name: 【标记】技能4
+    description: mission_buff_config-26540211
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540211
+  }
+  {
+    id: 6540212
+    name: 【标记】技能唯一
+    description: mission_buff_config-26540212
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540212
+  }
+  {
+    id: 6540213
+    name: 格里芬技能1 轰炸
+    description: mission_buff_config-26540213
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540213
+    carry_mission_skill: "6540057"
+  }
+  {
+    id: 6540214
+    name: 格里芬技能2 照明
+    description: mission_buff_config-26540214
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540214
+    carry_mission_skill: "6540058"
+  }
+  {
+    id: 6540215
+    name: 格里芬技能3 榴弹炮支援
+    description: mission_buff_config-26540215
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759053
+    conflict_type: 6540215
+  }
+  {
+    id: 6540216
+    name: 格里芬技能4 emp
+    description: 携带EMP
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540216
+    carry_mission_skill: "6540059"
+  }
+  {
+    id: 6540217
+    name: 融合势力技能1  孙红雷
+    description: 携带投掷式歌莉娅
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540217
+    carry_mission_skill: "6540060"
+  }
+  {
+    id: 6540218
+    name: 融合势力技能2  视野+1
+    description: mission_buff_config-26540218
+    code: powBuff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    vision_buff: "1"
+    conflict_type: 6540218
+  }
+  {
+    id: 6540220
+    name: 融合势力技能4  属性20
+    description: mission_buff_config-26540220
+    code: powBuff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 759039
+    conflict_type: 6540220
+  }
+  {
+    id: 6540221
+    name: 【标记】格里芬技能1CD
+    description: mission_buff_config-26540221
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 6540125
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540221
+  }
+  {
+    id: 6540222
+    name: 【标记】格里芬技能2CD
+    description: mission_buff_config-26540222
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 6540126
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540222
+  }
+  {
+    id: 6540223
+    name: 【标记】格里芬技能4CD
+    description: mission_buff_config-26540223
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 6540127
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540223
+  }
+  {
+    id: 6540224
+    name: 【标记】融合势力技能1CD
+    description: mission_buff_config-26540224
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 6540128
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540224
+  }
+  {
+    id: 6540225
+    name: npc统一爆破三回合内
+    description: 携带塑胶炸弹
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540225
+    carry_mission_skill: "6540065"
+  }
+  {
+    id: 6540226
+    name: 【标记】额外移动_1回，移动1次消失
+    description: mission_buff_config-26540226
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6540226
+    ext_move: 1
+  }
+  {
+    id: 6540227
+    name: 携带歌利亚
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540227
+    carry_mission_skill: "6540109"
+  }
+  {
+    id: 6540228
+    name: 携带塑胶炸弹
+    description: 携带塑胶炸弹
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540228
+    carry_mission_skill: "6540120"
+  }
+  {
+    id: 6540229
+    name: 携带歌利亚
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540229
+    carry_mission_skill: "6540122"
+  }
+  {
+    id: 6540230
+    name: 【标记】沃克携带技能
+    description: mission_buff_config-26540230
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    vision_buff: "1"
+    conflict_type: 6540230
+    carry_mission_skill: "6540124"
+  }
+  {
+    id: 6540231
+    name: 【标记】高达初召唤怪简单
+    description: mission_buff_config-26540231
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    special_spot_config_id: 6540176
+    conditions_type: "51,1"
+    conditions_time: 0-1,0-1
+    conflict_type: 6540231
+    carry_mission_skill: "6540126"
+  }
+  {
+    id: 6540232
+    name: 【标记】高达初召唤怪困难
+    description: mission_buff_config-26540232
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    special_spot_config_id: 6540177
+    conditions_type: "51,1"
+    conditions_time: 0-1,0-1
+    conflict_type: 6540232
+    carry_mission_skill: "6540126"
+  }
+  {
+    id: 6540233
+    name: 【标记】高达初召唤怪噩梦
+    description: mission_buff_config-26540233
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    special_spot_config_id: 6540178
+    conditions_type: "51,1"
+    conditions_time: 0-1,0-1
+    conflict_type: 6540233
+    carry_mission_skill: "6540126"
+  }
+  {
+    id: 6540234
+    name: 【标记】ERMA丢傀儡1
+    description: mission_buff_config-26540234
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540234
+    carry_mission_skill: "6540136,6540153,6540165"
+  }
+  {
+    id: 6540235
+    name: 【标记】ERMA丢傀儡2
+    description: mission_buff_config-26540235
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540235
+    carry_mission_skill: "6540138,6540154,6540166"
+  }
+  {
+    id: 6540236
+    name: 【标记】ERMA丢傀儡3
+    description: mission_buff_config-26540236
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540236
+    carry_mission_skill: "6540140,6540155,6540167"
+  }
+  {
+    id: 6540237
+    name: 【标记】ERMA丢傀儡4
+    description: mission_buff_config-26540237
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540237
+    carry_mission_skill: "6540142,6540156,6540168"
+  }
+  {
+    id: 6540238
+    name: 【标记】额外移动_1回，移动99次消失
+    description: mission_buff_config-26540238
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6540238
+    ext_move: 1
+  }
+  {
+    id: 6540239
+    name: 携带歌利亚
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6540239
+    carry_mission_skill: "6540163"
+  }
+  {
+    id: 6540240
+    name: 【标记】高达持续1
+    description: mission_buff_config-26540240
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 759048
+    special_spot_config_id: 6540186
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540240
+    priority: 1
+  }
+  {
+    id: 6540241
+    name: 【标记】高达持续2
+    description: mission_buff_config-26540241
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 759049
+    special_spot_config_id: 6540187
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540240
+    priority: 2
+  }
+  {
+    id: 6540242
+    name: 【标记】高达持续3
+    description: mission_buff_config-26540242
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 759050
+    special_spot_config_id: 6540188
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540240
+    priority: 3
+  }
+  {
+    id: 6540243
+    name: 【标记】高达持续4
+    description: mission_buff_config-26540243
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    special_spot_config_id: 6540189
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540240
+    priority: 4
+  }
+  {
+    id: 6540244
+    name: 【标记】高达持续5
+    description: mission_buff_config-26540244
+    code: debuff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 759051
+    special_spot_config_id: 6540190
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6540240
+    priority: 5
+  }
+  {
+    id: 6540245
+    name: 【标记】高达持续6
+    description: mission_buff_config-26540245
+    code: debuff
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 759052
+    conflict_type: 6540240
+    priority: 6
+  }
+  {
+    id: 6540246
+    name: 【标记】秃洞照明抵抗夜战60%
+    description: mission_buff_config-26540246
+    type: 1
+    duration_type: "2"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 755255
+    conflict_type: 6540246
+    priority: 6
+  }
+  {
+    id: 6540247
+    name: 【标记】npc统一夜视
+    description: mission_buff_config-26540247
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    vision_buff: "1"
+    conflict_type: 6540247
+  }
+  {
+    id: 6540248
+    name: 【标记】定身
+    description: mission_buff_config-26540248
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 6540248
   }
   {
     id: 9100001

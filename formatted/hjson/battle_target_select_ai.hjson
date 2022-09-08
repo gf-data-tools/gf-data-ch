@@ -3556,6 +3556,96 @@
     list_ranking: 1
   }
   {
+    id: 682
+    description: 对敌方全体释放
+    target_type: 1
+    target_number: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8275
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 683
+    description: aa02普攻2个随机最近
+    target_type: 1
+    target_number: 2
+    select_order: "9"
+    list_ranking: 1
+  }
+  {
+    id: 684
+    description: 对敌方当前生命最低者释放
+    target_type: 1
+    target_number: 1
+    select_order: "1"
+    list_ranking: 1
+  }
+  {
+    id: 685
+    description: 防护车索敌
+    target_type: 1
+    list_ranking: 1
+    target_buff_id: 8418
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 686
+    description: 对范围内敌方全体释放
+    target_type: 1
+  }
+  {
+    id: 687
+    description: 高威胁单位
+    target_type: 1
+    is_ingore_range: 1
+    target_buff_id: 4683
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 688
+    description: 我方最高输出单位
+    target_type: 2
+    target_number: 1
+    select_order: "12"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+  }
+  {
+    id: 689
+    description: 威胁度最高的
+    target_type: 1
+    target_number: 1
+    select_order: "1000001977,1000002051"
+    is_ascend_order: "1,1"
+    list_ranking: 1
+  }
+  {
+    id: 690
+    description: ar18低编制优先
+    target_type: 1
+    target_number: 1
+    select_order: "1000004763"
+    is_ascend_order: "1"
+    list_ranking: 1
+  }
+  {
+    id: 691
+    description: 98k
+    target_type: 1
+    target_number: 1
+    select_order: "9"
+    is_ascend_order: "1"
+    list_ranking: 1
+    target_buff_id: 8526
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
     id: 1006
     description: 敌方_最近_嘲讽
     target_type: 1

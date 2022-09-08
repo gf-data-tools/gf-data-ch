@@ -27006,7 +27006,7 @@
     code: 2022WinterActivity_Medal
     texture_type: "1"
     offset: "0,0,0"
-    rotate: "2"
+    rotate: "3"
   }
   {
     id: 20047
@@ -27265,6 +27265,199 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "2"
+  }
+  {
+    id: 20063
+    name: “未来号”纪念车厢
+    classes: 19
+    type: 301
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 连接亚欧大陆永不停歇的传奇列车，斑驳的弹孔是它荣誉的伤疤。
+    code: 2022SummerActivity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20064
+    name: 红丝绒的谎言
+    classes: 19
+    type: 101
+    space: "3,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 线索往往藏匿于纤毫之间……悬疑故事最喜爱的古典舞台已经搭好，演员都就位了吗？
+    code: 2022SummerActivity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20065
+    name: 和洽的温柔乡
+    classes: 19
+    type: 201
+    space: "10,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 没有什么比一顿精致的餐食更能告慰舟车劳顿的身心……如果有的话，大概是共进晚餐的她。
+    code: 2022SummerActivity_TableA,2022SummerActivity_ChairA,2022SummerActivity_ChairB
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,-0.052,-0.010|-1.251,-0.052,-0.010|1.312,-0.052,-0.010"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *3.383,1.480,-0.285|*-3.179,1.650,-0.285
+  }
+  {
+    id: 20066
+    name: 纷争的缓冲带
+    classes: 19
+    type: 201
+    space: "10,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 落座的二位无论敌友，要动手请放这些脆弱的餐具一马，否则苏珊娜本月的工资又得扣光了。
+    code: 2022SummerActivity_TableB,2022SummerActivity_ChairA,2022SummerActivity_ChairB
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,-0.052,-0.010|-1.251,-0.052,-0.010|1.312,-0.052,-0.010"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *3.383,1.480,-0.285|*-3.179,1.650,-0.285
+  }
+  {
+    id: 20067
+    name: 亚欧佳酿集锦
+    classes: 19
+    type: 201
+    space: "11,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 洲际列车的名产——西伯利亚沿线各地的风味佳酿应有尽有……选择了龙舌兰的客人请务必当心。
+    code: 2022SummerActivity_WineCabinet01,2022SummerActivity_WineCabinet02,2022SummerActivity_WineCabinet03,2022SummerActivity_WineCabinet04,2022SummerActivity_WineCabinet05
+    texture_type: "1,1,1,1,1"
+    sorting: "0,10,20,20,20"
+    offset: "-0.031,0.010,0.000|-0.031,0.010,0.000|1.053,-0.188,-0.042|-0.031,-0.188,-0.042|-1.355,-0.188,-0.042"
+    rotate: "2,2,2,2,2"
+    interact_point: "17,18,19"
+    interact_point_offset: *-0.146,1.423,0.142|*2.683,2.020,-1.366|*-3.150,1.650,-0.768
+  }
+  {
+    id: 20068
+    name: 摇晃的秘密
+    classes: 19
+    type: 302
+    space: "15,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 旅途的颠簸无异于对它的严刑拷问，小心晃落了您的宝贝，尤其是娇弱的玫瑰。
+    code: 2022SummerActivity_Luggage01,2022SummerActivity_Luggage02,2022SummerActivity_Luggage03,2022SummerActivity_Luggage04
+    texture_type: "1,1,1,1"
+    sorting: "0,0,0,0"
+    offset: "-1.679,0.803,0.000|0.594,0.803,0.000|1.428,0.803,0.000|3.711,0.803,0.000"
+    rotate: "3,3,3,3"
+  }
+  {
+    id: 20069
+    name: 激荡的缩影
+    classes: 19
+    type: 302
+    space: "3,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 这趟列车冲击着整个世界的命运——一如它震动这幅洲际地图。
+    code: 2022SummerActivity_RoadMap
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20070
+    name: 卡尔制服收藏
+    classes: 19
+    type: 201
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 据说Kar98k一共购置了三套相同的制服，这一套是观赏用……不准打它的主意哦，MP41！
+    code: 2022SummerActivity_SoldierCloth
+    texture_type: "1"
+    offset: "0.000,-0.052,-0.010"
+    rotate: "2"
+  }
+  {
+    id: 20071
+    name: 西部世界之门
+    classes: 19
+    type: 201
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 有小道消息称，使用这两台点唱机的人形都有过片刻失神，恍若去往了某个播放着西部音乐的神秘车厢。
+    code: 2022SummerActivity_JukeBox
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20072
+    name: 风暴酝酿地
+    classes: 19
+    type: 201
+    space: "4,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 不慎跌落的酒瓶，可能招来乘客喋喋不休的抱怨，又或许是匪徒发动袭击的讯号。
+    code: 2022SummerActivity_TableC
+    texture_type: "1"
+    offset: "0.156,-0.250,-0.063"
+    rotate: "2"
+  }
+  {
+    id: 20073
+    name: 月引同心
+    classes: 81
+    type: 201
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 月引同心
+    code: 2022HK416_deco_A
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20074
+    name: 静享芳醇
+    classes: 81
+    type: 201
+    space: "4,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 静享芳醇
+    code: 2022M1903_deco_A,2022M1903_deco_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.000,0.000,0.000|0.000,1.126,0.261"
+    rotate: "2,2"
+  }
+  {
+    id: 20075
+    name: 赤铁风暴
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“纵向应变”活动中的卓越战绩，“铁道前方的障碍已经被您扫清，列车即将驶向黎明的彼方。”
+    code: 2022SummerActivity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
   }
   {
     id: 30001

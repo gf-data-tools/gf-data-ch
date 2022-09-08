@@ -14,6 +14,7 @@
     is_form_play: 1
     scale: "0.35,0.35,1"
     sound_order: BT_pistol
+    is_orb_effect: 1
   }
   {
     id: 2
@@ -31,6 +32,7 @@
     scale: "0.35,0.35,1"
     sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
     sound_delay: "0,2,4,6"
+    is_orb_effect: 1
   }
   {
     id: 3
@@ -46,6 +48,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 4
@@ -62,6 +65,7 @@
     is_form_play: 1
     scale: "0.7,0.7"
     sound_order: BT_rifle
+    is_orb_effect: 1
   }
   {
     id: 5
@@ -78,6 +82,7 @@
     is_form_play: 1
     scale: "0.35,0.35,1"
     sound_order: BT_machine
+    is_orb_effect: 1
   }
   {
     id: 6
@@ -97,6 +102,7 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_Shot_1
+    is_orb_effect: 1
   }
   {
     id: 7
@@ -851,6 +857,7 @@
     scale: "0.35,0.35,1"
     sound_order: BT_machine
     sound_delay: "0,1,2,3,4"
+    is_orb_effect: 1
   }
   {
     id: 54
@@ -868,6 +875,7 @@
     scale: "0.7,0.7"
     sound_order: BT_machine
     sound_delay: "0,1,2,3,4"
+    is_orb_effect: 1
   }
   {
     id: 55
@@ -3429,6 +3437,7 @@
     scale: "0.35,0.35,1"
     trigger_creation_id: "2019"
     trigger_creation_delay: "-1"
+    is_orb_effect: 1
   }
   {
     id: 261
@@ -3491,6 +3500,7 @@
     is_form_play: 1
     scale: "0.7,0.7"
     sound_order: BT_rifle
+    is_orb_effect: 1
   }
   {
     id: 265
@@ -3872,6 +3882,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 299
@@ -3930,6 +3941,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 303
@@ -3945,6 +3957,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 304
@@ -16152,6 +16165,7 @@
     trigger_creation_id: "93"
     trigger_creation_delay: "-1"
     sound_order: BT_rifle_skill
+    is_orb_effect: 1
   }
   {
     id: 1201
@@ -26442,6 +26456,7 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_Shot_1
+    is_orb_effect: 1
   }
   {
     id: 2040
@@ -69284,6 +69299,7 @@
     hurt_id: "2205"
     is_form_play: 1
     scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 8603
@@ -69300,6 +69316,7 @@
     is_form_play: 1
     scale: "0.35,0.35,1"
     sound_order: BT_machine
+    is_orb_effect: 1
   }
   {
     id: 8604
@@ -71017,6 +71034,7 @@
     hurt_id: "2227"
     is_form_play: 1
     scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 8717
@@ -72363,6 +72381,1236 @@
     is_die_delete: 1
   }
   {
+    id: 8839
+    name: 狙击子弹尾迹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2243"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 8840
+    name: 清显示buff2
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    effect_area: 1
+    hurt_id: "2244"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8841
+    name: 新爆破榴弹面片
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "8842,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 8842
+    name: 榴弹结算范围内
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2240"
+    is_form_play: 1
+    scale: "1,1,0"
+    trigger_creation_id: "8843,8844,8845,8846"
+    trigger_creation_delay: "2,2,2,2"
+    sound_order: BT_firebomb_explode
+  }
+  {
+    id: 8843
+    name: 榴弹结算范围中上
+    start_type: "7"
+    start_offset: "0,0,1.6"
+    destination_type: "7"
+    destination_offset: "0,0,1.6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2241"
+    is_form_play: 1
+    scale: "1.6,1,1.6"
+    trigger_creation_id: "8847,8851"
+    trigger_creation_delay: "2,2"
+  }
+  {
+    id: 8844
+    name: 榴弹结算范围中下
+    start_type: "7"
+    start_offset: "0,0,-1.6"
+    destination_type: "7"
+    destination_offset: "0,0,-1.6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2241"
+    is_form_play: 1
+    scale: "1.6,1,1.6"
+    trigger_creation_id: "8848,8854"
+    trigger_creation_delay: "2,2"
+  }
+  {
+    id: 8845
+    name: 榴弹结算范围中左
+    start_type: "7"
+    start_offset: "-1.6,0,0"
+    destination_type: "7"
+    destination_offset: "-1.6,0,0"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2241"
+    is_form_play: 1
+    scale: "1.6,1,1.6"
+    trigger_creation_id: "8849,8852"
+    trigger_creation_delay: "2,2"
+  }
+  {
+    id: 8846
+    name: 榴弹结算范围中右
+    start_type: "7"
+    start_offset: "1.6,0,0"
+    destination_type: "7"
+    destination_offset: "1.6,0,0"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2241"
+    is_form_play: 1
+    scale: "1.6,1,1.6"
+    trigger_creation_id: "8850,8853"
+    trigger_creation_delay: "2,2"
+  }
+  {
+    id: 8847
+    name: 榴弹结算范围外上
+    start_type: "7"
+    start_offset: "0,0,1.6"
+    destination_type: "7"
+    destination_offset: "0,0,1.6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8848
+    name: 榴弹结算范围外下
+    start_type: "7"
+    start_offset: "0,0,-1.6"
+    destination_type: "7"
+    destination_offset: "0,0,-1.6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8849
+    name: 榴弹结算范围外左
+    start_type: "7"
+    start_offset: "-1.6,0,0"
+    destination_type: "7"
+    destination_offset: "-1.6,0,0"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8850
+    name: 榴弹结算范围外右
+    start_type: "7"
+    start_offset: "1.6,0,0"
+    destination_type: "7"
+    destination_offset: "1.6,0,0"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8851
+    name: 榴弹结算范围外左上
+    start_type: "7"
+    start_offset: "-1.6,0,0"
+    destination_type: "7"
+    destination_offset: "-1.6,0,0"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8852
+    name: 榴弹结算范围外左下
+    start_type: "7"
+    start_offset: "0,0,-1.6"
+    destination_type: "7"
+    destination_offset: "0,0,-1.6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8853
+    name: 榴弹结算范围外右上
+    start_type: "7"
+    start_offset: "0,0,1.6"
+    destination_type: "7"
+    destination_offset: "0,0,1.6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8854
+    name: 榴弹结算范围外右下
+    start_type: "7"
+    start_offset: "1.6,0,0"
+    destination_type: "7"
+    destination_offset: "1.6,0,0"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    hurt_id: "2242"
+    is_form_play: 1
+    scale: "1.6,0.1,1.6"
+  }
+  {
+    id: 8855
+    name: 561自伤
+    start_type: "2"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2245"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8856
+    name: 老李一技能影响格
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "8,18,14"
+    buff_id: 8380:1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8857
+    name: 老李开局影响格盟友
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "8,18,14"
+    buff_id: 8383:1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8858
+    name: 老李增益影响格盟友数量
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "8,18,14"
+    buff_id: 8383:1,8409:1
+    buff_cd: "0,0"
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8859
+    name: 老李增益影响格盟友触发
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 8407:1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8860
+    name: 老李增益清除盟友
+    start_type: "5"
+    destination_type: "5"
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2246"
+    is_single_hurt: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8861
+    name: aa02空白子弹子弹1
+    code: SniperSkillBullet
+    start_type: "2"
+    start_offset: "0,0.1,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 4
+    speed: 2000
+    rotate: "0,90,0"
+    exist_duration: "30"
+    hurt_id: "2247"
+    is_form_play: 1
+    scale: "0.5,0.5"
+    trigger_creation_id: "8870"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 8862
+    name: 坦克移动
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_tank
+  }
+  {
+    id: 8863
+    name: aa02敌方枪口火光r
+    code: yegar_fire
+    start_type: Rhand
+    start_offset: "-1.1,-0.38,0"
+    destination_type: Rhand
+    destination_offset: "-1.1,-0.38,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "3"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.6,1.6,1.6"
+  }
+  {
+    id: 8864
+    name: aa02敌方枪口火光l
+    code: yegar_fire
+    start_type: Lhand
+    start_offset: "-0.7,-0.38,0"
+    destination_type: Lhand
+    destination_offset: "-0.7,-0.38,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "3"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.6,1.6,1.6"
+  }
+  {
+    id: 8865
+    name: aa02一技能范围锁定
+    start_type: "6"
+    start_offset: "-0.5,0,0.1"
+    destination_type: "6"
+    destination_offset: "-0.5,0,0.1"
+    rotate: "90"
+    exist_duration: "240"
+    scale: "1.25,2.15"
+    trigger_creation_id: "8867,8868,8867,8868,8867,8868,8867,8868,8867,8868,8867,8868,8867,8868,8867,8868"
+    trigger_creation_delay: "65,75,85,95,105,115,125,135,145,155,165,175,185,195,205,215"
+  }
+  {
+    id: 8866
+    name: aa02一技能预警
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.5,0,0.1"
+    destination_type: "6"
+    destination_offset: "-0.5,0,0.1"
+    rotate: "90"
+    exist_duration: "60"
+    scale: "1.25,2.15"
+  }
+  {
+    id: 8867
+    name: aa02一技能子弹右
+    code: 2022summer/aa02_zidan
+    start_type: Rhand
+    start_offset: "-1.8,-0.38,0"
+    destination_type: "7"
+    route_type: 1
+    speed: 3800
+    rotate: "0,0,20"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+    trigger_creation_id: "8869"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 8868
+    name: aa02一技能子弹左
+    code: 2022summer/aa02_zidan
+    start_type: Lhand
+    start_offset: "-1.4,-0.38,0"
+    destination_type: "7"
+    route_type: 1
+    speed: 3800
+    rotate: "0,0,20"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+    trigger_creation_id: "8869"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 8869
+    name: aa02一技能子弹伤害
+    code: 19winter_BOSS_yegar
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2248"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8870
+    name: aa02普攻子弹受击
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8871
+    name: aa02子弹2
+    code: SniperSkillBullet
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8872
+    name: 独眼巨人mg子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "-0.05,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2249"
+    is_form_play: 1
+    scale: "0.3,0.3"
+    sound_order: BT_machine
+  }
+  {
+    id: 8873
+    name: 防护装备护盾子弹
+    start_type: "1"
+    destination_type: "5"
+    is_clone: 1
+    route_type: 1
+    speed: 9000
+    effect_area: 1
+    hurt_id: "2250"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8874
+    name: 防护装备检测身前单位
+    code: 2022summer/FHC_saomiao
+    start_type: "3"
+    start_offset: "-3,0,0"
+    destination_type: "3"
+    destination_offset: "-3,0,0"
+    exist_duration: "100"
+    effect_type: 2
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8875
+    name: 防护装备导弹技能触发
+    start_type: "5"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2270"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8876
+    name: 防护导弹
+    code: 2022summer/FHDD_weiyan
+    start_type: "1"
+    destination_type: "1"
+    destination_offset: "-18,6,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 600
+    rotate: "0,0,0"
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "-0.4,0.4,0.4"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 8877
+    name: 老太太普攻子弹
+    start_type: gun1
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2252"
+    is_form_play: 1
+    scale: "0.5,0.5"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 8878
+    name: 老太太狂暴无影子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2253"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 8879
+    name: 老太太轮椅
+    code: 2022summer/QJ_Taitai_zidan
+    start_type: "3"
+    start_offset: "-0.5,0.6,0"
+    destination_type: "3"
+    destination_offset: "-30,0.6,0"
+    route_type: 1
+    speed: 500
+    rotate: "0,0,0"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2271"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "-0.55,-0.55,-0.55"
+  }
+  {
+    id: 8880
+    name: 机甲涅托普攻子弹
+    code: SubBulletB
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2254"
+    is_form_play: 1
+    scale: "4,3,3"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 8881
+    name: 机甲涅托一技能预警
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.5,0,0.1"
+    destination_type: "6"
+    destination_offset: "-0.5,0,0.1"
+    rotate: "90"
+    exist_duration: "90"
+    scale: "1.25,2.15"
+  }
+  {
+    id: 8882
+    name: 机甲涅托必中导弹
+    code: XDZY/XDZY_TY5_1
+    start_type: Rarmor2
+    start_offset: "-2,-0.3,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3000
+    effect_area: 1
+    hurt_id: "2255"
+    is_form_play: 1
+    scale: "0.1,0.1,0.1"
+  }
+  {
+    id: 8883
+    name: 机甲涅托一技能范围锁定
+    start_type: "6"
+    start_offset: "-0.5,0,0.1"
+    destination_type: "6"
+    destination_offset: "-0.5,0,0.1"
+    rotate: "90"
+    exist_duration: "240"
+    scale: "1.25,2.15"
+    trigger_creation_id: "8884"
+    trigger_creation_delay: "93"
+  }
+  {
+    id: 8884
+    name: 机甲涅托范围火箭弹
+    start_type: Rarmor4
+    start_offset: "-1.7"
+    destination_type: "7"
+    route_type: 1
+    speed: 1000
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    trigger_creation_id: "8885"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 8885
+    name: 机甲涅托范围火箭弹伤害
+    code: 2019summer/Y_19_summer_1_2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2256"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: skill_nyto_ul_explo
+  }
+  {
+    id: 8886
+    name: 机甲涅托致盲激光
+    start_type: "3"
+    destination_type: "5"
+    route_type: 6
+    speed: 8000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2257"
+    hurt_cd: "1"
+    buff_id: 8426:1,8427:1
+    buff_cd: "1,1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8887
+    name: 机甲涅托致盲激光特效
+    code: 88type/88typeRazer
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: "5"
+    is_form_offset_start: 1
+    exist_duration: "50"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "0.8,0.8"
+    sound_order: skill_eliza_ulrelease
+  }
+  {
+    id: 8888
+    name: 圣光型
+    code: 2022summer/YJ_shengguang
+    start_type: "8"
+    start_offset: "0,5,0"
+    destination_type: "8"
+    destination_offset: "0,5,0"
+    is_tracing: 1
+    exist_duration: "999"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.3,1.3,1.3"
+  }
+  {
+    id: 8889
+    name: 布局型
+    code: 2022summer/Chess_zt
+    start_type: "8"
+    start_offset: "0,3,3"
+    destination_type: "8"
+    destination_offset: "0,3,3"
+    is_tracing: 1
+    exist_duration: "999"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+  }
+  {
+    id: 8890
+    name: 92指定标记
+    code: 2022summer/92_shi_qizi
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8891
+    name: 李恩盟友标记
+    code: 2022summer/Lenf_lmx
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1.2,1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 8892
+    name: 98k勋章1
+    code: 2022summer/98k_xunzhang01
+    start_type: "3"
+    start_offset: "-0.6,0.9,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0.9,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8893
+    name: 98k勋章2
+    code: 2022summer/98k_xunzhang02
+    start_type: "3"
+    start_offset: "-0.6,0.9,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0.9,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8894
+    name: 98k勋章3
+    code: 2022summer/98k_xunzhang03
+    start_type: "3"
+    start_offset: "-0.6,0.9,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0.9,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8895
+    name: 98k勋章4
+    code: 2022summer/98k_xunzhang04
+    start_type: "3"
+    start_offset: "-0.6,0.9,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0.9,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8896
+    name: p290检测
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    is_clone: 1
+    exist_duration: "5"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 8441:1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8897
+    name: cmr30目标身后单位
+    start_type: "5"
+    start_offset: "15,0,0"
+    destination_type: "5"
+    destination_offset: "15,0,0"
+    is_tracing: 1
+    rotate: "90"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "30"
+    effect_param_2: "40"
+    buff_id: 8445:1
+    creation_type: 2
+    scale: "30,40"
+    is_die_delete: 1
+  }
+  {
+    id: 8898
+    name: cmr30网球伤害和buff
+    code: 2022summer/CMR30_qiu
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 6
+    speed: 7500
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2258"
+    buff_id: 8446:1000004749
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "0.4,0.4,0.4"
+    is_die_delete: 1
+  }
+  {
+    id: 8899
+    name: cmr30网球结束伤害
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "50"
+    hurt_id: "2259"
+    is_single_hurt: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8900
+    name: cmr30清标记
+    start_type: "5"
+    destination_type: "5"
+    is_tracing: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2260"
+    scale: "1"
+  }
+  {
+    id: 8901
+    name: M240L检测我方
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    is_clone: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 8451:1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8902
+    name: M240L检测敌方
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    is_clone: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 8452:1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8903
+    name: M240L机枪主动子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2261"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 8904
+    name: M240L主动额外穿甲子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2262"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 8905
+    name: M240L一技能负面统计
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13,18,23,19,15,20,25"
+    buff_id: 8468:1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_die_delete: 1
+  }
+  {
+    id: 8906
+    name: M240L骑士精神转化
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 8467:1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_die_delete: 1
+  }
+  {
+    id: 8907
+    name: M240L清除负面效果
+    code: 燃烧坑
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13,18,23,19,15,20,25"
+    buff_type: 201:1000004759,202:1000004759,203:1000004759,204:1000004759,205:1000004759,206:1000004759,208:1000004759
+    buff_cd: "0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_die_delete: 1
+  }
+  {
+    id: 8908
+    name: S308技能一
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "12,14,18,8"
+    buff_id: 8462:1,8463:1
+    buff_cd: "0,0"
+    scale: "1"
+    trigger_creation_id: "8953"
+    is_die_delete: 1
+  }
+  {
+    id: 8909
+    name: ar18子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2263"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 8910
+    name: ar18影响格buff
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "18,23,19"
+    buff_id: 8464:1,8465:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    trigger_creation_id: "8948,8949,8950"
+    trigger_creation_delay: "0,0,0"
+    is_die_delete: 1
+  }
+  {
+    id: 8911
+    name: M327特种普攻子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2264"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 8912
+    name: m327队长子弹
+    start_type: "1"
+    destination_type: "5"
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2265"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8913
+    name: m327影响格
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "18,23,19,14"
+    buff_id: 8475:1
+    buff_cd: "4"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8914
+    name: 支援弹
+    code: M2
+    start_type: "8"
+    start_offset: "-20,5,0"
+    destination_type: "6"
+    route_type: 1
+    speed: 4000
+    exist_duration: "10"
+    effect_type: 1
+    is_single_hurt: 1
+    scale: "0.25,0.25"
+    trigger_creation_id: "8915,25"
+    trigger_creation_delay: "-1,-1"
+    is_die_delete: 1
+  }
+  {
+    id: 8915
+    name: 支援弹伤害结算
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2266"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+    is_die_delete: 1
+  }
+  {
+    id: 8916
+    name: S308技能一清除效果
+    start_type: "2"
+    destination_type: "2"
+    route_type: 1
+    speed: 5000
+    exist_duration: "10"
+    hurt_id: "2267"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_die_delete: 1
+  }
+  {
     id: 8917
     name: AUG装备子弹
     start_type: "1"
@@ -72375,6 +73623,760 @@
     hurt_id: "2268"
     is_form_play: 1
     scale: "0.35,0.35,1"
+  }
+  {
+    id: 8918
+    name: 圣盾冲击伤害
+    code: 2022summer/sdgaswap
+    start_type: "3"
+    start_offset: "-2,0,0"
+    destination_type: "3"
+    destination_offset: "-2,0,0"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2269"
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8919
+    name: 牝鹿swap计数
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: 8504:1
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8920
+    name: aa02指灵召唤
+    start_type: "8"
+    start_offset: "8,0,-2.4"
+    destination_type: "8"
+    destination_offset: "8,0,-2.4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    random_number: "2"
+    random_offset: "0,0,-3.7;0,0,0.5;0,0,4.8"
+    exist_duration: "30"
+    effect_type: 1
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4239"
+    is_die_delete: 1
+  }
+  {
+    id: 8921
+    name: 独眼巨人mg子弹无伤害
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "-0.05,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5"
+    sound_order: BT_machine
+  }
+  {
+    id: 8922
+    name: 防护装置锁定目标
+    code: 2022summer/FHC_sd_sj
+    start_type: "3"
+    start_offset: "-0.6,0,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0,0"
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.5,1.5,1.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8923
+    name: 老太太抢劫
+    code: 2022summer/QJ_dimianhuan
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8924
+    name: 老太太狂暴
+    code: 2022summer/QJ_buff_zt
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8925
+    name: 敌方枪口火光右
+    code: Fire
+    start_type: Rhand
+    start_offset: "-1.8,-0.38,0"
+    destination_type: Rhand
+    destination_offset: "-1.8,-0.38,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "0,0,180"
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1.5,1.5,1.5"
+  }
+  {
+    id: 8926
+    name: 敌方枪口火光左
+    code: Fire
+    start_type: Lhand
+    start_offset: "-1.4,-0.38,0"
+    destination_type: Lhand
+    destination_offset: "-1.4,-0.38,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "0,0,180"
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1.5,1.5,1.5"
+  }
+  {
+    id: 8927
+    name: 老太太霰弹枪枪口火光右
+    code: ShotGun/Fire 1
+    start_type: gun1
+    start_offset: "-1.5,0,0"
+    destination_type: gun1
+    destination_offset: "-1.5,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "0,0,180"
+    exist_duration: "40"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "-1"
+  }
+  {
+    id: 8928
+    name: 老太太霰弹枪枪口火光左
+    code: ShotGun/Fire 1
+    start_type: gun2
+    start_offset: "-1.5,0,0"
+    destination_type: gun2
+    destination_offset: "-1.5,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "0,0,180"
+    exist_duration: "40"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "-1"
+  }
+  {
+    id: 8929
+    name: 老太太普攻子弹2
+    start_type: gun2
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2252"
+    is_form_play: 1
+    scale: "0.5,0.5"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 8930
+    name: 防护装置护盾释放特效
+    code: 2022summer/FHZZ_wave
+    start_type: "3"
+    start_offset: "0,2,0"
+    destination_type: "3"
+    destination_offset: "0,2,0"
+    is_tracing: 1
+    exist_duration: "100"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8931
+    name: 防护导弹爆炸烟
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "1"
+    start_offset: "-3.6,1.2,0"
+    destination_type: "1"
+    destination_offset: "-3.6,1.2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8932
+    name: 防护导弹分体
+    code: 2022summer/FHZZ_dd_tuowei
+    start_type: "1"
+    start_offset: "-3.6,1.2,0"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,-0.2,0;0,0.2,0"
+    route_type: 2
+    speed: 700
+    exist_duration: "30"
+    hurt_id: "2251"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8933
+    name: 防护导弹后烟
+    code: 2022summer/FHZZ_dd_yan
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.4,0.4"
+  }
+  {
+    id: 8934
+    name: 防护导弹分体
+    code: 2022summer/FHZZ_dd_tuowei
+    start_type: "1"
+    start_offset: "-4.2,1.4,0"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,-0.2,0;0,0.2,0"
+    route_type: 2
+    route_hight: 100
+    speed: 700
+    exist_duration: "30"
+    hurt_id: "2251"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8935
+    name: 防护导弹分体
+    code: 2022summer/FHZZ_dd_tuowei
+    start_type: "1"
+    start_offset: "-4.8,1.6,0"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,-0.2,0;0,0.2,0"
+    route_type: 2
+    route_hight: 200
+    speed: 800
+    exist_duration: "30"
+    hurt_id: "2251"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8936
+    name: 防护导弹分体
+    code: 2022summer/FHZZ_dd_tuowei
+    start_type: "1"
+    start_offset: "-5.4,1.8,0"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,-0.2,0;0,0.2,0"
+    route_type: 2
+    route_hight: 300
+    speed: 600
+    exist_duration: "30"
+    hurt_id: "2251"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8937
+    name: 防护导弹分体
+    code: 2022summer/FHZZ_dd_tuowei
+    start_type: "1"
+    start_offset: "-6,2,0"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,-0.2,0;0,0.2,0"
+    route_type: 2
+    route_hight: 200
+    speed: 500
+    exist_duration: "30"
+    hurt_id: "2251"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8938
+    name: 防护导弹地面爆炸
+    code: wsgs_baozha
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "100"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5,1.5"
+    trigger_creation_id: "25"
+    trigger_creation_delay: "5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 8939
+    name: 防护导弹地面爆炸2
+    code: wsgs_baozha
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    random_number: "1"
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,0,0.2;0,0,-0.2"
+    exist_duration: "100"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5,1.5"
+    sound_order: BT_firebomb_explode
+  }
+  {
+    id: 8940
+    name: 防护导弹爆炸烟
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "1"
+    start_offset: "-4.8,1.6,0"
+    destination_type: "1"
+    destination_offset: "-4.8,1.6,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8941
+    name: 防护导弹爆炸烟
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "1"
+    start_offset: "-6,2,0"
+    destination_type: "1"
+    destination_offset: "-6,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8942
+    name: 防护导弹地面爆炸
+    code: 爆炸烟雾
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "12"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8943
+    name: 防护导弹地面爆炸2
+    code: 爆炸烟雾
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    random_number: "1"
+    random_offset: "0,0,0;-0.2,0,0;0.2,0,0;0,0,0.2;0,0,-0.2"
+    exist_duration: "12"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8944
+    name: 机甲涅托普攻无伤害子弹
+    code: SubBulletB
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2254"
+    is_form_play: 1
+    scale: "4,3,3"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 8945
+    name: 防护装备检测身前单位
+    start_type: "3"
+    start_offset: "-3,0,0"
+    destination_type: "3"
+    destination_offset: "-3,0,0"
+    exist_duration: "3"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "4"
+    effect_param_2: "15"
+    buff_id: 8418:1
+    buff_cd: "1"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8946
+    name: M327特种弹期间
+    code: 2022summer/M327_fashi_bj
+    start_type: "3"
+    start_offset: "0.2,1.7,0"
+    destination_type: "3"
+    destination_offset: "0.2,1.7,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8947
+    name: P290夜视提升
+    code: 2022summer/P290_eye_tu
+    start_type: "3"
+    start_offset: "-0.6,0,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8948
+    name: ar18影响格1
+    code: 2022summer/AR18_ks_gz
+    start_type: "3"
+    start_offset: "-0.65,0.72,4.2"
+    destination_type: "3"
+    destination_offset: "-0.65,0.72,4.2"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8949
+    name: ar18影响格2
+    code: 2022summer/AR18_ks_gz
+    start_type: "3"
+    start_offset: "-0.65,0.72,8.4"
+    destination_type: "3"
+    destination_offset: "-0.65,0.72,8.4"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8950
+    name: ar18影响格3
+    code: 2022summer/AR18_ks_gz
+    start_type: "3"
+    start_offset: "1.75,0.72,4.2"
+    destination_type: "3"
+    destination_offset: "1.75,0.72,4.2"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8951
+    name: CMR30标记
+    code: 2022summer/CMR30_ren_di
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    scale: "0.4,0.4,0.4"
+    is_die_delete: 1
+  }
+  {
+    id: 8952
+    name: CMR30伤害触发
+    code: 2022summer/CMR30_chong
+    start_type: "3"
+    start_offset: "-0.6,2,0"
+    destination_type: "3"
+    destination_offset: "-0.6,2,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8953
+    name: S308技能一特效
+    code: 2022summer/SAIGA308_sz_di
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: *101
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8954
+    name: 92式存活
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8394:1
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8955
+    name: ar18子弹嘲讽
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2272"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 8956
+    name: M240L穿甲斩击
+    code: 2022summer/M240L_dg_hh
+    start_type: "5"
+    destination_type: "5"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8957
+    name: M240L队长清buff特效
+    code: 2022summer/M240L_kuosan
+    start_type: "3"
+    start_offset: "-0.6,0.1,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0.1,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8958
+    name: M240L清洁闪亮特效
+    code: 2022summer/M240L_kuosan02
+    start_type: "3"
+    start_offset: "-0.6"
+    destination_type: "3"
+    destination_offset: "-0.6"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8959
+    name: M240L满层特效
+    code: 2022summer/M240L_di_zhuan
+    start_type: "2"
+    start_offset: "-0.6,-0.8,0"
+    destination_type: "2"
+    destination_offset: "-0.6,-0.8,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8960
+    name: M240L开局特效
+    code: 2022summer/M240L_huizhang
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8961
+    name: M240L满层队长特效
+    code: 2022summer/M240L_hz_chuxian
+    start_type: "3"
+    start_offset: "0,1.9,0"
+    destination_type: "3"
+    destination_offset: "0,1.9,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8962
+    name: 机甲普攻火花
+    code: uhlan
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: Larmor2
+    destination_offset: "-1.3,-0.5,0"
+    is_tracing: 1
+    exist_duration: "12"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8963
+    name: 机甲范围弹枪口
+    code: 2019summer/Y_19_summer_2_1_2
+    start_type: Rarmor4
+    start_offset: "-1.7"
+    destination_type: Rarmor4
+    destination_offset: "-1.7"
+    is_tracing: 1
+    rotate: "0,0,-20"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8964
+    name: 机甲减伤护盾
+    code: 2019summer/Y_19_summer_2_1_1
+    start_type: "3"
+    start_offset: "-2,1.5,-1"
+    destination_type: "3"
+    destination_offset: "-2,1.5,-1"
+    is_tracing: 1
+    rotate: "0,-30,0"
+    exist_duration: "150"
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8965
+    name: 机甲导弹火花
+    code: 2019summer/M4_1_1
+    start_type: Rarmor2
+    start_offset: "-1.7,-0.2,0"
+    destination_type: Rarmor2
+    destination_offset: "-1.7,-0.2,0"
+    is_tracing: 1
+    exist_duration: "12"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8966
+    name: 机甲导弹受击
+    code: 2019summer/Y_19summer_boss_train 3_1
+    start_type: "5"
+    destination_type: "5"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_MissileExplo
+    is_die_delete: 1
   }
   {
     id: 9740
@@ -77077,6 +79079,39 @@
     exist_duration: "999999999"
     scale: "0.55,0.55,1"
     summoner_order: "1636"
+  }
+  {
+    id: 10295
+    name: GSH子弹2
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+  }
+  {
+    id: 26001
+    name: 人偶扳机2
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "48"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    trigger_creation_id: "2019"
+    trigger_creation_delay: "-1"
   }
   {
     id: 36501

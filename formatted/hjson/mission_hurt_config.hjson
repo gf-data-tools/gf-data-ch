@@ -139,6 +139,63 @@
     effect_birth: 1000083
   }
   {
+    id: 541213
+    name: 【标记】喝一杯
+    target_type: 2
+    type: 2
+    is_number: 1
+    life_type: 2
+    value: "200"
+  }
+  {
+    id: 541321
+    name: 【标记】净化一切
+    target_type: 2
+    type: 2
+    life_type: 2
+    value: "200"
+    defender_value: "99999"
+  }
+  {
+    id: 541331
+    name: 【标记】即死伤害(对我方)
+    target_type: 2
+    type: 1
+    is_number: 1
+    life_type: 1
+    value: "99999"
+    hostage_value: 5
+  }
+  {
+    id: 543900
+    name: 【标记】防御塔
+    target_type: 2
+    type: 2
+    is_number: 1
+    life_type: 2
+    value: "70"
+    effect_birth: 1000083
+  }
+  {
+    id: 543901
+    name: 【标记】1点伤害
+    target_type: 2
+    type: 1
+    is_number: 1
+    life_type: 1
+    value: "1"
+    hostage_value: 1
+  }
+  {
+    id: 544223
+    name: 【标记】燃烧
+    target_type: 2
+    type: 2
+    is_number: 1
+    life_type: 1
+    value: "50"
+  }
+  {
     id: 900003
     name: 【标记】污染源伤害
     target_type: 2
@@ -446,6 +503,16 @@
     life_type: 2
     value: "30"
     defender_value: "99999"
+  }
+  {
+    id: 6540001
+    name: 【标记】黑雷100%伤害
+    target_type: 2
+    type: 2
+    is_number: 1
+    life_type: 2
+    value: "100"
+    defender_value: "9999"
   }
   {
     id: 8120701

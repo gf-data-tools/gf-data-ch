@@ -44,6 +44,7 @@ local ShowOPSSpineMissionUI = function(self,code)
 		self.moudleSpineUIObj.gameObject:SetActive(true);
 	end
 	self:CheckEndlessPoint();
+	CS.CommonAudioController.PlayUI("UI_Train_Click");
 end
 local HideOPSSpineMissionUI = function(self)
 	self:HideOPSSpineMissionUI();
@@ -76,7 +77,7 @@ end
 local noticeElse;
 local CheckEndlessPoint = function(self)
 	if self.campaionId == -54 then
-		if self.moudleSpineUIObj ~= nil and self.moudleSpineUIObj.activeInHierarchy and checkcode == "R_RPK16"then
+		if self.moudleSpineUIObj ~= nil and self.moudleSpineUIObj.activeInHierarchy and checkcode == "NPC-TD_Porter"then
 			self:CheckEndlessPoint();
 			if self.highScoreObj ~= nil then
 				self.highScoreObj:SetActive(true);
@@ -141,6 +142,215 @@ local CancelMission = function(self)
 	self:CancelMission();
 	self:RefreshMoudleBuildUI();
 end
+local order = -1;
+local CheckMoudleUi = function(self)
+	if self.toggleTitle ~= nil then
+		for i=0,self.currentPanelConfig.moudleMoveData.num do
+			local child = self.toggleTitle:GetChild(i);
+			local extoogle = child:GetComponent(typeof(CS.ExToggle));
+			local check = i == CS.OPSPanelController.currentSelectOrder;
+			extoogle:Switch(check);
+			local active = self:CheckMoudleMissionTip(i);
+			child:Find("Img_New").gameObject:SetActive(active);
+		end
+	end
+	self:CheckMoudleUiTween();
+	if order ~= CS.OPSPanelController.currentSelectOrder then
+		order = CS.OPSPanelController.currentSelectOrder;
+		CS.CommonAudioController.PlayUI("UI_Train_Switch");
+	end
+end
+
+local CheckMoudleMissionTip = function(self,order)
+	for i=0,self.currentPanelConfig.opsBuildMissions.Count -1 do
+		local buildMission = self.currentPanelConfig.opsBuildMissions[i];
+		if buildMission.moudleIndex == order then
+			--print(order.."missionid"..buildMission.opsMission.missionIds[0]);
+			if buildMission.opsMission:HasUnBattleMission() then
+				print("active"..order);
+				return true;
+			end
+		end
+	end
+	return self:CheckMoudleMissionTip(order);
+end
+
+local PlayMoudleBackgroundRailMove = function(self,trans)
+	self:PlayMoudleBackgroundRailMove(trans);
+	if self.leftrail ~= nil then
+		self.leftrail:GetChild(0).gameObject:SetActive(false);
+	end
+end
+
+function LoadStart()
+	local bg = CS.UnityEngine.GameObject.Instantiate(CS.ResManager.GetObjectByPath("Pics/ActivityMap/2022SummerStart"));
+	CS.OPSPanelController.Instance:SetCanvasLayerName(bg);
+	bg.transform:SetParent(CS.OPSPanelController.Instance.module.transform, false);
+end
+
+local RefreshCurrentDiffcluty = function(self)
+	for i=0,CS.OPSPanelController.diffcluteNum -1 do
+		if self.btnTitleTrans ~= nil then
+			local child = self.btnTitleTrans.transform:Find(tostring(i));
+			if child ~= nil then
+				child.gameObject:SetActive(i == CS.OPSPanelController.difficulty);
+			end
+		end
+		if self.background ~= nil then
+			local child = self.background.transform:Find("Change"..tostring(i));
+			if child ~= nil then
+				child.gameObject:SetActive(i == CS.OPSPanelController.difficulty);
+			end
+		end
+	end
+	self:HideAllLabel();
+	self:CloseEchoInfo();
+	self:RefreshUI();
+	self:SetLightColor();
+	self:CheckModelPos(true);
+	self:ShowAllLabel();
+	if self.MissionInfoController.gameObject.activeInHierarchy then
+		if self.MissionInfoController.opsMission ~= nil then
+			self.MissionInfoController:InitOPSMission(self.MissionInfoController.opsMission);
+		else
+			self:CancelMission();
+		end
+	end
+end
+
+local PlayMoudleBackgroundMove = function(self,addspeed)
+	local datetime = CS.GameData.UnixToDateTime(CS.GameData.GetCurrentTimeStamp());
+	local day = datetime.Day;
+	local check = CS.UnityEngine.PlayerPrefs.GetInt("moudleday",0);
+	if check ~= day then
+		CS.CommonAudioController.PlayUI("UI_Train_Leaving");
+		CS.CommonController.Invoke(LoadStart,0.3,CS.OPSPanelController.Instance);
+		self:PlayMoudleBackgroundMove(addspeed);
+		CS.UnityEngine.PlayerPrefs.SetInt("moudleday",day);
+		CS.UnityEngine.PlayerPrefs.Save();
+	else
+		if self.currentPanelConfig.moudleMoveBackgroundConfig.configs.Count == 2 then
+			CS.OPSPanelController.backgroundOrder = 0;
+			self.currentPanelConfig.moudleMoveBackgroundConfig.configs:RemoveAt(0);
+		end
+		CS.CommonAudioController.PlayUI("UI_Train_Onrail");
+		self:PlayMoudleBackgroundMove(addspeed);
+	end
+end
+
+local CheckModuleSpine = function(self)
+	if self.currentPanelConfig.moudleMoveData == nil then
+		return;
+	end
+	local trans = self.currentPanelConfig.opsSpineMissions:GetEnumerator();
+	while trans:MoveNext() do
+		local code = trans.Current.Key;
+		local opsspinemission = trans.Current.Value;		
+		local currentIndex = opsspinemission:CheckMissionShowOrder();
+		opsspinemission.currentOrder = currentIndex;
+		local moduleControl = nil;
+		for i=0,self.moduleControls.Count -1 do
+			if self.moduleControls[i].gameObject.name == opsspinemission.moudleName then
+				moduleControl = self.moduleControls[i];
+				opsspinemission.moudleIndex = i;
+			end
+		end
+		if spineMInfo[code] == nil then
+			print(code.."MoudleSpineAIMission未配置");
+		else
+			local index = GetMissionIndex(spineMInfo[code]);
+			index = CS.Mathf.Clamp(index,0,opsspinemission.opsSpineAI.Count - 1);
+			print(code.."行为逻辑"..index);
+			moduleControl:InitMoveSpine(code, opsspinemission.opsSpineAI[index]);
+		end
+	end
+end
+spineMInfo = {};
+local Load = function(self,campaion)
+	self:Load(campaion);
+	if campaion == -54 then
+		local textAsset = CS.ResManager.GetObjectByPath("ProfilesConfig/OPSPanel/Campion"..tostring(campaion), ".txt");
+		if textAsset == nil then
+			return;
+		end
+		local lineTxt = Split(textAsset.text,"\n");
+		for i = 1, #lineTxt do
+			local index = string.find(lineTxt[i],"/");
+			if index == nil then
+				local temp = Split(lineTxt[i],"|");
+				if temp[1] == "ModuleSpineAIMission" then
+					local code = temp[2];
+					local missiontxt = Split(temp[4],",");
+					local opsmissions = CS.System.Collections.Generic.List(CS.OPSMission)();
+					for j=1,#missiontxt do
+						local mtxt = missiontxt[j];
+						local missionid1 = tonumber(Split(mtxt,"-")[1]);
+						local missionid2 = tonumber(Split(mtxt,"-")[2]);
+						local missionid3 = tonumber(Split(mtxt,"-")[3]);
+						local opsmission = CS.OPSMission();
+						opsmission.missionIds:Add(missionid1);
+						opsmission.missionIds:Add(missionid2);
+						opsmission.missionIds:Add(missionid3);
+						opsmissions:Add(opsmission);
+					end
+					print(code.."添加ModuleSpineAIMission")
+					spineMInfo[code] = opsmissions;
+				end	
+			end
+		end
+	end
+end
+
+function GetMissionIndex(opsmissions)
+	local index = 0;
+	local checkmissionid = 0;
+	for i=0,opsmissions.Count-1 do
+		local opsmission = opsmissions[i];
+		for j=0,opsmission.missionIds.Count -1 do
+			local missionid = opsmission.missionIds[j];
+			local mission = CS.GameData.listMission:GetDataById(missionid);
+			if mission ~= nil and mission.UseWinCounter>0 then
+				index = i+1;
+				checkmissionid = missionid;
+			end
+		end
+	end
+	print("最新关卡进度"..checkmissionid);
+	return index;
+end
+
+local RefreshMoudleUI = function(self,spineMission)
+	local txtName = self.moudleSpineUIObj.transform:Find("NamePlate/Tex_Name"):GetComponent(typeof(CS.ExText));
+	txtName.text = CS.Data.GetLang(spineMission.codeName);
+	local txtTip = self.moudleSpineUIObj.transform:Find("NamePlate/Tex_Name/Tex_Dialogue"):GetComponent(typeof(CS.ExText));
+	local code = spineMission.spineCode;
+	if spineMInfo[code] == nil then
+		print(code.."MoudleSpineAIMission未配置");
+		txtTip.text = "";
+	else
+		local index = GetMissionIndex(spineMInfo[code]);
+		print(code.."当前index"..index);
+		index = CS.Mathf.Clamp(index,0,spineMission.tips.Count - 1);
+		print(code.."对应语言包"..spineMission.tips[index]);
+		txtTip.text = CS.Data.GetLang(spineMission.tips[index]);
+	end
+end
+function Split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
 util.hotfix_ex(CS.OPSPanelController,'SelectModuleSpine',SelectModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'ShowOPSSpineMissionUI',ShowOPSSpineMissionUI)
 util.hotfix_ex(CS.OPSPanelController,'HideOPSSpineMissionUI',HideOPSSpineMissionUI)
@@ -151,3 +361,11 @@ util.hotfix_ex(CS.OPSPanelController,'CancelSelectMoudleSpine',CancelSelectMoudl
 util.hotfix_ex(CS.OPSPanelController,'CheckMoudleUiTween',CheckMoudleUiTween)
 util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleBuildUI',RefreshMoudleBuildUI)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
+util.hotfix_ex(CS.OPSPanelController,'CheckMoudleUi',CheckMoudleUi)
+util.hotfix_ex(CS.OPSPanelController,'CheckMoudleMissionTip',CheckMoudleMissionTip)
+util.hotfix_ex(CS.OPSPanelController,'PlayMoudleBackgroundRailMove',PlayMoudleBackgroundRailMove)
+util.hotfix_ex(CS.OPSPanelController,'RefreshCurrentDiffcluty',RefreshCurrentDiffcluty)
+util.hotfix_ex(CS.OPSPanelController,'PlayMoudleBackgroundMove',PlayMoudleBackgroundMove)
+util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
+util.hotfix_ex(CS.OPSPanelController,'Load',Load)
+util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleUI',RefreshMoudleUI)

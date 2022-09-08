@@ -1,1 +1,58 @@
-[]
+[
+  {
+    id: 1001
+    description: 老李增益buff监视1
+    record_chara1: 1000004731
+    watch_trigger_type: 1
+    activation_watch_trigger: 1001
+    activation_skills: "740058"
+    new_record_chara1: 1000004731
+  }
+  {
+    id: 1002
+    description: 老李增益buff监视2
+    record_chara1: 1000004732
+    watch_trigger_type: 1
+    activation_watch_trigger: 1002
+    activation_skills: "740058"
+    new_record_chara1: 1000004732
+  }
+  {
+    id: 1003
+    description: M327友方监视1
+    record_chara1: 1000004765
+    watch_trigger_type: 1
+    watch_sp_trigger: "750558"
+    activation_watch_trigger: 1005
+    activation_skills: "750558"
+    new_record_chara1: 1000004765
+  }
+  {
+    id: 1004
+    description: M327自身监视1
+    record_chara1: 1000004765
+    watch_trigger_type: 1
+    activation_watch_trigger: 1005
+    activation_skills: "750559"
+    new_record_chara1: 1000004765
+  }
+  {
+    id: 1005
+    description: M327友方监视2
+    record_chara1: 1000004766
+    watch_trigger_type: 1
+    watch_sp_trigger: "750558"
+    activation_watch_trigger: 1006
+    activation_skills: "750558"
+    new_record_chara1: 1000004766
+  }
+  {
+    id: 1006
+    description: M327自身监视2
+    record_chara1: 1000004766
+    watch_trigger_type: 1
+    activation_watch_trigger: 1006
+    activation_skills: "750559"
+    new_record_chara1: 1000004766
+  }
+]
