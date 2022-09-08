@@ -9,6 +9,7 @@ xlua.private_accessible(CS.ResManager)
 xlua.private_accessible(CS.OPSPanelConfig)
 xlua.private_accessible(CS.OPSSpineMission)
 local SelectModuleSpine = function(self,spinecontrol)
+	print("选中小人"..spinecontrol.spinecode);
 	self:CancelSelectMoudleSpine();
 	self:SelectModuleSpine(spinecontrol);
 end
@@ -34,7 +35,7 @@ local ShowOPSSpineMissionUI = function(self,code)
 			local key = trans.Current.Key;
 			local value = trans.Current.Value;
 			self:CheckOPSMissionItem(key,value);
-			if value.gameObject.activeSelf then
+			if key.currentMission ~= nil then
 				self.useOPSmissions:Add(key);
 			end
 		end
@@ -126,15 +127,17 @@ local CheckMoudleUiTween = function(self)
 end
 
 local RefreshMoudleBuildUI = function(self)
+	local missionnum = 0;
 	local trans = self.panalMissionTrans:GetEnumerator();
 	while trans:MoveNext() do
 		local key = trans.Current.Key;
 		local value = trans.Current.Value;		
 		if key.currentMission ~= nil then
 			self.missionBaseFinal = value;
+			missionnum = missionnum+1;
 		end
 	end
-	
+	self.num = missionnum;
 	self:RefreshMoudleBuildUI();	
 end
 
@@ -162,17 +165,32 @@ local CheckMoudleUi = function(self)
 end
 
 local CheckMoudleMissionTip = function(self,order)
+	print(order.."检查对应车厢进度");
 	for i=0,self.currentPanelConfig.opsBuildMissions.Count -1 do
 		local buildMission = self.currentPanelConfig.opsBuildMissions[i];
 		if buildMission.moudleIndex == order then
 			--print(order.."missionid"..buildMission.opsMission.missionIds[0]);
 			if buildMission.opsMission:HasUnBattleMission() then
-				print("active"..order);
+				print("buildactive进度"..buildMission.opsMission.missionIds[0]);
 				return true;
 			end
 		end
 	end
-	return self:CheckMoudleMissionTip(order);
+	local trans = self.currentPanelConfig.opsSpineMissions:GetEnumerator();
+	while trans:MoveNext() do
+		local code = trans.Current.Key;
+		local opsspineMission = trans.Current.Value;		
+		if opsspineMission.moudleIndex == order then
+			for i=0,opsspineMission.opsMissions.Count-1 do
+				local opsMission = opsspineMission.opsMissions[i];
+				if opsMission:HasUnBattleMission() then
+					print("code"..code.."进度"..i);
+					return true;
+				end
+			end
+		end
+	end
+	return false;
 end
 
 local PlayMoudleBackgroundRailMove = function(self,trans)
@@ -209,6 +227,8 @@ local RefreshCurrentDiffcluty = function(self)
 	self:SetLightColor();
 	self:CheckModelPos(true);
 	self:ShowAllLabel();
+	self:CheckMoudleUi();
+	self:RefreshMoudleBuildUI();
 	if self.MissionInfoController.gameObject.activeInHierarchy then
 		if self.MissionInfoController.opsMission ~= nil then
 			self.MissionInfoController:InitOPSMission(self.MissionInfoController.opsMission);
@@ -258,6 +278,7 @@ local CheckModuleSpine = function(self)
 		if spineMInfo[code] == nil then
 			print(code.."MoudleSpineAIMission未配置");
 		else
+			print(code.."检查spineAI进度");
 			local index = GetMissionIndex(spineMInfo[code]);
 			index = CS.Mathf.Clamp(index,0,opsspinemission.opsSpineAI.Count - 1);
 			print(code.."行为逻辑"..index);
@@ -315,7 +336,7 @@ function GetMissionIndex(opsmissions)
 			end
 		end
 	end
-	print("最新关卡进度"..checkmissionid);
+	print("最新AI关卡进度"..checkmissionid);
 	return index;
 end
 
@@ -333,6 +354,26 @@ local RefreshMoudleUI = function(self,spineMission)
 		index = CS.Mathf.Clamp(index,0,spineMission.tips.Count - 1);
 		print(code.."对应语言包"..spineMission.tips[index]);
 		txtTip.text = CS.Data.GetLang(spineMission.tips[index]);
+	end
+end
+
+local SelectOPSMission = function(self,opsmission,item)
+	self.checkPosMin = self.checkPosMax - self.num * self.distance;
+	if not self.useOPSmissions:Contains(opsmission) then
+		self.useOPSmissions:Add(opsmission);
+	end
+	self:SelectOPSMission(opsmission,item);
+end
+
+local OpenRuler = function(self)
+	if self.highScoreObj == nil then
+		return;
+	end
+	local txt = self.highScoreObj.transform:Find("Main/Btn_Rule/URL"):GetComponent(typeof(CS.ExText));
+	if not CS.System.String.IsNullOrEmpty(txt.text) then
+		self:OpenAnnouncement(txt.text);
+	else
+		self.highScoreRule.gameObject:SetActive(true);
 	end
 end
 function Split(szFullString, szSeparator)
@@ -369,3 +410,5 @@ util.hotfix_ex(CS.OPSPanelController,'PlayMoudleBackgroundMove',PlayMoudleBackgr
 util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
 util.hotfix_ex(CS.OPSPanelController,'Load',Load)
 util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleUI',RefreshMoudleUI)
+util.hotfix_ex(CS.OPSPanelController,'SelectOPSMission',SelectOPSMission)
+util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)

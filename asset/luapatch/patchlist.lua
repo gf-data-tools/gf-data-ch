@@ -246,7 +246,8 @@ patch3010={
 "3010/CommonIconController",
 "3010/FairyData",					
 "3010/BattleFriendlyCharacterController",
-	"3010/PassBuyPassBoxController",
+"3010/PassBuyPassBoxController",
+"3010/OPSConfig",	
 }
 -- va11
 print("load Va11");

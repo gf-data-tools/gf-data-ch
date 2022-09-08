@@ -12,7 +12,7 @@ local EndInter = function(self,point)
 	self:CheckSpineOrder(pos);
 end
 local Start = function(self)
-	self.uiOffset = CS.UnityEngine.Vector3(0,1.63,0);
+	self.uiOffset = CS.UnityEngine.Vector3(0,1.8,0);
 end
 util.hotfix_ex(CS.OPSSpineControl,'BeginInter',BeginInter)
 util.hotfix_ex(CS.OPSSpineControl,'Start',Start)
