@@ -63,7 +63,12 @@ local myRefreshPriceLabel = function(self)
 			end
 	end											
 end
+local myOnIAPValidateComplete = function(self)
+	self:OnIAPValidateComplete();
+	myRefreshPriceLabel();
+end
 
 if CS.HotUpdateController.instance.mUsePlatform ~= CS.HotUpdateController.EUsePlatform.ePlatform_Normal then
 	util.hotfix_ex(CS.PassBuyPassBoxController,'RefreshPriceLabel',myRefreshPriceLabel)
+	util.hotfix_ex(CS.PassBuyPassBoxController,'OnIAPValidateComplete',myOnIAPValidateComplete)
 end
