@@ -19,6 +19,6 @@ local OrganizationDetailInitUIElements = function(self)
 	self.objMaxExp:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(130057)
 end
 
-util.hotfix_ex(CS.FactoryDevelopLogController,'InitUIElements',FactoryDevelopInitUIElements)
-util.hotfix_ex(CS.OrganizationSkillsRewardController,'InitUIElements',OrganizationSkillInitUIElements)
-util.hotfix_ex(CS.OrganizationDepDetail,'InitUIElements',OrganizationDetailInitUIElements)
+--util.hotfix_ex(CS.FactoryDevelopLogController,'InitUIElements',FactoryDevelopInitUIElements)
+--util.hotfix_ex(CS.OrganizationSkillsRewardController,'InitUIElements',OrganizationSkillInitUIElements)
+--util.hotfix_ex(CS.OrganizationDepDetail,'InitUIElements',OrganizationDetailInitUIElements)
