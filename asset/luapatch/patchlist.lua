@@ -166,7 +166,8 @@ patch2090={
 "2090/DormFurniturePieceController",	
 "2090/FriendCosmeticIconController",
 "2090/TheaterBattleTeamSelectionUIController",
-"2090/LoginController",		
+"2090/LoginController",
+"2090/SangvisFilterTypeChooseItemController",
 }
 patch3010={
 "3010/DeploymentTeamController",
@@ -248,7 +249,9 @@ patch3010={
 "3010/BattleFriendlyCharacterController",
 "3010/PassBuyPassBoxController",
 "3010/FactoryController",	
-"3010/OPSConfig",	
+"3010/OPSConfig",
+"2090/SangvisFilterTypeChooseItemController",
+"3010/BattleSkillData",
 --"3010/language/FactoryDevelopLogController",	
 }
 -- va11
