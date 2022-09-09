@@ -252,6 +252,8 @@ patch3010={
 "3010/OPSConfig",
 "2090/SangvisFilterTypeChooseItemController",
 "3010/BattleSkillData",
+"3010/OPSEventPrizeUIController",
+"3010/FormationEquipLabelController",
 --"3010/language/FactoryDevelopLogController",	
 }
 -- va11
