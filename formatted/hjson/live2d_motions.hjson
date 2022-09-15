@@ -28056,6 +28056,7 @@
     text: GUN|Sterling|BUILDOVER
     name: 上线响应
     camera: 1
+    delay: 10930
   }
   {
     id: 730313
@@ -28635,5 +28636,234 @@
     camera: 1
     is_hurt: 1
     voice_code: HELLO
+  }
+  {
+    id: 750101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: live2d_motions-10750101
+  }
+  {
+    id: 750102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: live2d_motions-10750102
+    camera: 1
+  }
+  {
+    id: 750103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: live2d_motions-10750103
+    camera: 1
+  }
+  {
+    id: 750104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|PA15|DIALOGUE2
+    text: GUN|PA15|DIALOGUE2
+    name: live2d_motions-10750104
+    camera: 1
+    delay: 500
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 750105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|PA15|DIALOGUE1
+    text: GUN|PA15|DIALOGUE1
+    name: live2d_motions-10750105
+    camera: 1
+    delay: 2000
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 750106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|PA15|BUILDOVER
+    text: GUN|PA15|BUILDOVER
+    name: live2d_motions-10750106
+    camera: 1
+    delay: 500
+    voice_code: BUILDOVER
+  }
+  {
+    id: 750107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|PA15|FEED
+    text: GUN|PA15|FEED
+    name: live2d_motions-10750107
+    camera: 1
+    voice_code: FEED
+  }
+  {
+    id: 750108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|PA15|LOADING
+    text: GUN|PA15|LOADING
+    name: live2d_motions-10750108
+    camera: 1
+    delay: 500
+    voice_code: LOADING
+  }
+  {
+    id: 750109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|PA15|DIALOGUEWEDDING
+    text: GUN|PA15|DIALOGUEWEDDING
+    name: live2d_motions-10750109
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 750110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|PA15|SOULCONTRACT
+    text: GUN|PA15|SOULCONTRACT
+    name: live2d_motions-10750110
+    camera: 1
+    delay: 500
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 750111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: live2d_motions-10750111
+    camera: 1
+  }
+  {
+    id: 750112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|PA15|HELLO
+    text: GUN|PA15|HELLO
+    name: live2d_motions-10750112
+    camera: 1
+    delay: 3500
+    voice_code: HELLO
+  }
+  {
+    id: 750113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: live2d_motions-10750113
+    is_hurt: 1
+  }
+  {
+    id: 750114
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|PA15|DIALOGUE1
+    text: GUN|PA15|DIALOGUE1
+    name: live2d_motions-10750114
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 750115
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|PA15|COMBINE
+    text: GUN|PA15|COMBINE
+    name: live2d_motions-10750115
+    camera: 1
+    is_hurt: 1
+    voice_code: COMBINE
+  }
+  {
+    id: 750116
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|PA15|DIALOGUE2
+    text: GUN|PA15|DIALOGUE2
+    name: live2d_motions-10750116
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 750117
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|PA15|FIX
+    text: GUN|PA15|FIX
+    name: live2d_motions-10750117
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 750118
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|PA15|TIP
+    text: GUN|PA15|TIP
+    name: live2d_motions-10750118
+    camera: 1
+    is_hurt: 1
+    voice_code: TIP
+  }
+  {
+    id: 750119
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|PA15|BREAK
+    text: GUN|PA15|BREAK
+    name: live2d_motions-10750119
+    camera: 1
+    is_hurt: 1
+    delay: 9300
+    voice_code: BREAK
+  }
+  {
+    id: 750120
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    voice: GUN|PA15|MOOD2
+    name: live2d_motions-10750120
+    camera: 1
+    is_hurt: 1
   }
 ]
