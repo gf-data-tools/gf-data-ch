@@ -12,8 +12,12 @@ local OpenBrightArea = function(self,size,time)
 	end
 end
 
+local Awake = function(self)
+	self:Awake();
+	self.materialUse.renderQueue = 3000;
+end
 util.hotfix_ex(CS.SpotNightQuad,'OpenBrightArea',OpenBrightArea)
-
+util.hotfix_ex(CS.SpotNightQuad,'Awake',Awake)
 
 
 
