@@ -86,5 +86,5 @@ local LoadSkillData = function(self,jsonData,readObject,viewSum,readHurt,playRig
 	self:LoadSkillData(jsonData,readObject,false,readHurt,playRightNow);
 end
 util.hotfix_ex(CS.MissionAction,'LoadMoveStepData',LoadMoveStepData)
-util.hotfix_ex(CS.MissionAction,'LoadFairySkillReturn',LoadFairySkillReturn)
-util.hotfix_ex(CS.MissionAction,'LoadSkillData',LoadSkillData)
+--util.hotfix_ex(CS.MissionAction,'LoadFairySkillReturn',LoadFairySkillReturn)
+--util.hotfix_ex(CS.MissionAction,'LoadSkillData',LoadSkillData)
