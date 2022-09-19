@@ -61,7 +61,7 @@ effectdelaytime = 0;
 showteam = nil;
 showbuild = nil;
 local CheckDelay = function()
-	CS.DeploymentController.Instance:AddAndPlayPerformance(effectdelaytime);
+	CS.DeploymentController.Instance:DelayPlayPerformance(effectdelaytime,nil,true);
 	if effectdelaytime>0 then
 		local pos = CS.DeploymentBackgroundController.currentLayerData.offset;
 		if showteam ~= nil then
@@ -78,13 +78,13 @@ end
 local LoadFairySkillReturn = function(self,jsonData,readObject,readHurt,playRightNow)
 	self:LoadFairySkillReturn(jsonData,readObject,readHurt,playRightNow);
 	print("hurt最大延时"..effectdelaytime);
-	if CS.DeploymentController.Instance ~= nil then
-		CS.DeploymentController.Instance:InsertSomePlayPerformances(CheckDelay);
+	if CS.DeploymentController.Instance ~= nil  then
+		CS.DeploymentController.Instance:AddInsertPlayPerfomance(CheckDelay);
 	end
 end
 local LoadSkillData = function(self,jsonData,readObject,viewSum,readHurt,playRightNow)	
 	self:LoadSkillData(jsonData,readObject,false,readHurt,playRightNow);
 end
 util.hotfix_ex(CS.MissionAction,'LoadMoveStepData',LoadMoveStepData)
---util.hotfix_ex(CS.MissionAction,'LoadFairySkillReturn',LoadFairySkillReturn)
---util.hotfix_ex(CS.MissionAction,'LoadSkillData',LoadSkillData)
+util.hotfix_ex(CS.MissionAction,'LoadFairySkillReturn',LoadFairySkillReturn)
+util.hotfix_ex(CS.MissionAction,'LoadSkillData',LoadSkillData)
