@@ -1277,6 +1277,108 @@
     order: 84
   }
   {
+    id: 576
+    name: SL8-幽灵菲士
+    fit_gun: 296
+    voice: 4
+    dialog: 嘿，指挥官，看见那几个家伙了吗？她们正在那里的商店橱窗门口发呆，我们要是现在冲过去把她们拽走，会不会有什么意想不到的变化？
+    note: skin-30000576
+    gift_position: "-166.9,-104.2"
+    illustrator_cv: skin-40000576
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 577
+    name: VHS-悬浮威士忌
+    fit_gun: 318
+    voice: 4
+    dialog: 走在人群中，不会有自己不属于这里的悬浮感吗？就好像素体行走在城市的街道上，但灵魂已经漂浮到了上空……
+    note: skin-30000577
+    gift_position: "-190.5,-75.2"
+    illustrator_cv: skin-40000577
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 578
+    name: 刘氏步枪-浮世风潮
+    fit_gun: 316
+    voice: 4
+    dialog: 咦？长官的脸色看起来有些忧愁呢……请不用担心！就算再逛一百条街我也不会觉得辛苦哦！
+    note: skin-30000578
+    illustrator_cv: skin-40000578
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 579
+    name: AUG SMG-皮斯科酸
+    fit_gun: 315
+    voice: 4
+    dialog: 前辈，稍微在这边休息一下吧，我好像又带错路了……放轻松，毕竟我们都不是人形，没办法做到那么精确地辨识地图的。
+    note: skin-30000579
+    gift_position: "-172,2.1"
+    illustrator_cv: skin-40000579
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 581
+    name: HK416-白色尼格罗尼
+    fit_gun: 65
+    voice: 4
+    dialog: 终于要开始假期了，心情一定很甜蜜吧，指挥官？正好，喝掉这杯咖啡，这样就能达到甜与苦涩俱全，一切都刚刚好的完美状态了。
+    note: skin-30000581
+    illustrator_cv: umo,野中藍,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 582
+    name: G11-脑海中的橡皮擦
+    fit_gun: 122
+    voice: 4
+    dialog: 我走路摇摇晃晃像是宿醉断片了一样？没有啦……只是通宵刷副本了而已……不过你要是再让我逛下去，我真的要倒下去了……
+    note: skin-30000582
+    illustrator_cv: umo,福原綾香,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 583
+    name: UMP9-蜜蜂的膝盖
+    fit_gun: 101
+    voice: 4
+    dialog: 现在就是我生活中最最最好的时刻了！难得的假日、美好的天气、密集的购物点……当然，还有努力跟上脚步的指挥官！
+    note: skin-30000583
+    illustrator_cv: umo,能登麻美子,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 584
+    name: UMP45-科罗娜日落
+    fit_gun: 103
+    voice: 4
+    dialog: 大家买好的东西都堆在那里等待指挥官帮忙搬上车了，看你的表情可不太妙啊……那，要不要跟我来一场落日逃跑计划？
+    note: skin-30000584
+    illustrator_cv: umo,嶺内ともみ,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 585
+    name: UMP40-水中望月
+    fit_gun: 102
+    voice: 4
+    dialog: 谢谢您，指挥官，特意用指挥平板带我出来逛街……作为回报，我用字符打出了我最喜欢的那束花，放在了您的桌面上……
+    note: skin-30000585
+    illustrator_cv: umo,上間江望,
+    order: 93
+    class_id: 80
+  }
+  {
     id: 586
     name: OBR-卡斯蒂利亚女王
     fit_gun: 230
@@ -4155,7 +4257,7 @@
     voice: 16
     dialog: 挑了很久的捧花，最后还是觉得普通的红玫瑰最适合表达我说不出口的话。
     note: 维持信任需要更多的付出，双方都是。不要让我失望。
-    illustrator_cv: Yukuso,,
+    illustrator_cv: Yukuso,中恵光城,
     order: 50
     class_id: 43
   }
@@ -7222,6 +7324,7 @@
     id: 7301
     name: M6 ASW-狂海求生
     fit_gun: 324
+    voice: 4
     dialog: 好累……这些孩子是第一次看见大海吗？前仆后继地对大海发起自杀式袭击，我只能挨个挨个地拉回来，已经这样折腾一下午了。
     note: skin-30007301
     illustrator_cv: skin-40007301
@@ -7232,6 +7335,7 @@
     id: 7302
     name: 沙维奇99型-沙维奇想整点薯条
     fit_gun: 334
+    voice: 4
     dialog: 听说带着薯条来到自动售货机边，能召唤出这片海域最为凶悍的野兽，可我在这边游荡了半天，只看见几只觊觎我薯条的海鸥……
     note: skin-30007302
     illustrator_cv: skin-40007302
@@ -7242,6 +7346,7 @@
     id: 7303
     name: 斯特林-在热夏融化
     fit_gun: 359
+    voice: 4
     dialog: 指挥官，请小心，黑暗军团这次企图靠热浪掀翻我们的营地，虽然玛蒂尔达卿已经倒下，但我绝不会……就算奉上冰块铸成的领域，我也不会低头的！
     note: skin-30007303
     illustrator_cv: skin-40007303
@@ -7252,6 +7357,7 @@
     id: 7304
     name: HS.50-游向蜜色海心
     fit_gun: 348
+    voice: 4
     dialog: 长官，我的冲浪准备工作已经完成。冲浪板在哪里？我的手里不就是吗……
     note: skin-30007304
     gift_position: "-113,-10.3"
@@ -7263,6 +7369,7 @@
     id: 7305
     name: AK74M-戟与鱼脍师
     fit_gun: 349
+    voice: 4
     dialog: 报告指挥官，我正在寻找近海鱼类来做食材，大家现在都正玩得开心，要是待会玩累了饿肚子就不好了。
     note: skin-30007305
     illustrator_cv: skin-40007305
@@ -7273,6 +7380,7 @@
     id: 7306
     name: CF05-漂浮的黑白音律
     fit_gun: 295
+    voice: 4
     dialog: 指挥官，指挥官！快看我，漂在海面上，像不像三鲜锅里的熊猫豆腐？
     note: skin-30007306
     gift_position: "-92.8,-0.2"
@@ -7284,6 +7392,7 @@
     id: 7307
     name: EVO 3-杏红之夏
     fit_gun: 131
+    voice: 4
     dialog: 要来和我一起吃点水果吗，指挥官？哎呀，我好像听见了VZ61的喊杀声……是幻听吗？
     note: skin-30007307
     illustrator_cv: skin-40007307
@@ -7294,6 +7403,7 @@
     id: 7308
     name: IWS 2000-沙堡终结者
     fit_gun: 148
+    voice: 4
     dialog: 嗷——这片的沙堡都是我的！指、指挥官，我只是在完成大家交给我的“赶走碍事的熊孩子”的任务而已，并没有真的变成大怪兽……
     note: skin-30007308
     gift_position: "-130.9,155.3"
@@ -7305,6 +7415,7 @@
     id: 7401
     name: ACR-星海寻因
     fit_gun: 274
+    voice: 4
     dialog: 呼~出舱作业顺利完成，接下来就可以回去……咦，我把舱门钥匙放在哪儿了！？
     note: skin-30007401
     illustrator_cv: skin-40007401
@@ -7315,6 +7426,7 @@
     id: 7402
     name: SCR-诗农畅想曲
     fit_gun: 365
+    voice: 4
     dialog: 这里有足够多的种子和幼苗，如果找到了适宜的星球，我想把那里也打造成一片满溢着果香的世界！
     note: skin-30007402
     illustrator_cv: skin-40007402
@@ -7325,6 +7437,7 @@
     id: 7403
     name: QBU-88-食铁兽的奇妙航旅
     fit_gun: 261
+    voice: 4
     dialog: 听说开辟空天航路之后，跨行星观光会成为热门项目！就由我亲自开辟一条熊猫旅游专线，让整个宇宙都来领略滚滚的可爱吧~！
     note: skin-30007403
     illustrator_cv: skin-40007403
@@ -7335,6 +7448,7 @@
     id: 7404
     name: SIG MCX-超时空警备队
     fit_gun: 338
+    voice: 4
     dialog: 发现外星入侵者，立刻拉响警报——呜哇~我只是随口说说，没想到大家立刻就进入战斗状态了呢，哈哈哈哈！
     note: skin-30007404
     illustrator_cv: skin-40007404
@@ -7345,6 +7459,7 @@
     id: 7406
     name: G41-寰宇特急
     fit_gun: 62
+    voice: 4
     dialog: 银河系-猎户支臂-太阳系第三行星-地球-格里芬——地址已确认，主人，G41开始派送咯~！
     note: skin-30007406
     illustrator_cv: 小枪,釘宮理恵,
@@ -7355,6 +7470,7 @@
     id: 7407
     name: 汉阳造88式-超新星之魂
     fit_gun: 95
+    voice: 4
     dialog: 就用这台机体在宇宙中绽放最耀眼的光芒吧，超新星决战兵器驾驶员，小爱——出击！
     note: skin-30007407
     illustrator_cv: skin-40007407
@@ -7365,6 +7481,7 @@
     id: 7408
     name: TS12-献给星河的花束
     fit_gun: 321
+    voice: 4
     dialog: 真的有人遥望夜空只是为了找寻属于自己的那朵花吗？毕竟花这么娇弱的玩意儿，没人保护啥也不是！我？我才不会为这种东西的枯萎而难过呢……
     note: skin-30007408
     illustrator_cv: skin-40007408

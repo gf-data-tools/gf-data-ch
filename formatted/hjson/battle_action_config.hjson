@@ -24167,6 +24167,15 @@
     creation_afterdeath: "1"
   }
   {
+    id: 777017
+    name: tt
+    action_order: bossskillactive,bossskill
+    action_delay: "0,40"
+    action_playspeed: "100,100"
+    creation_order: "777020,777021,777022"
+    creation_delay: "40,70,120"
+  }
+  {
     id: 900002
     name: 设施着火
     creation_order: "900002"

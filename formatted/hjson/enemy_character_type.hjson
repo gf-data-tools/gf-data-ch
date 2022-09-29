@@ -2420,7 +2420,7 @@
     rate: 40
     def: 99999
     level: 30100
-    character: enemy_character_type-10010097
+    character: 普通
     normal_attack: 755242
     passive_skill: "755243,200304"
     effect_ratio: 1.0
@@ -2548,7 +2548,7 @@
     rate: 30
     def: 99999
     level: 100
-    character: enemy_character_type-10010102
+    character: 高威胁,散射,范围杀伤
     normal_attack: 755226
     passive_skill: "755218,200304,119019"
     effect_ratio: 1.0
@@ -2576,7 +2576,7 @@
     rate: 20
     def: 99999
     level: 100
-    character: enemy_character_type-10010103
+    character: 精英,高威胁
     normal_attack: 755229
     passive_skill: "755219,755220,755227,755228,755230,119020"
     effect_ratio: 1.0
@@ -2604,7 +2604,7 @@
     rate: 50
     def: 99999
     level: 100
-    character: enemy_character_type-10010104
+    character: 精英,连发,穿甲
     normal_attack: 755221
     passive_skill: "755222,755223,755224,755225"
     effect_ratio: 1.0
@@ -2630,7 +2630,7 @@
     rate: 30
     def: 99999
     level: 100
-    character: enemy_character_type-10010105
+    character: 高威胁,装甲
     normal_attack: 755245
     passive_skill: "200303,200304,119019,755246,755247"
     effect_ratio: 0.87
@@ -2655,7 +2655,7 @@
     rate: 40
     def: 99999
     level: 100
-    character: enemy_character_type-10010106
+    character: 近战,装甲,护盾
     normal_attack: 310202
     passive_skill: "200304,310201,755244"
     effect_ratio: 1.17
@@ -4125,7 +4125,7 @@
     rate: 40
     def: 99999
     level: 30100
-    character: enemy_character_type-10012097
+    character: 普通
     normal_attack: 755242
     passive_skill: "755243,200304"
     effect_ratio: 1.0
@@ -4253,7 +4253,7 @@
     rate: 30
     def: 99999
     level: 100
-    character: enemy_character_type-10012102
+    character: 高威胁,散射,范围杀伤
     normal_attack: 755226
     passive_skill: "755218,200304,119019"
     effect_ratio: 1.0
@@ -4281,7 +4281,7 @@
     rate: 20
     def: 99999
     level: 100
-    character: enemy_character_type-10012103
+    character: 精英,高威胁
     normal_attack: 755229
     passive_skill: "755219,755220,755227,755228,755230,119020"
     effect_ratio: 1.0
@@ -4309,7 +4309,7 @@
     rate: 50
     def: 99999
     level: 100
-    character: enemy_character_type-10012104
+    character: 精英,连发,穿甲
     normal_attack: 755221
     passive_skill: "755222,755223,755224,755225"
     effect_ratio: 1.0
@@ -4335,7 +4335,7 @@
     rate: 30
     def: 99999
     level: 100
-    character: enemy_character_type-10012105
+    character: 高威胁,装甲
     normal_attack: 755245
     passive_skill: "200303,200304,119019,755246,755247"
     effect_ratio: 0.87
@@ -4360,7 +4360,7 @@
     rate: 40
     def: 99999
     level: 100
-    character: enemy_character_type-10012106
+    character: 近战,装甲,护盾
     normal_attack: 310202
     passive_skill: "200304,310201,755244"
     effect_ratio: 1.17
@@ -17164,7 +17164,7 @@
     boss_hp: 990000
     def: 99999
     level: 100
-    character: enemy_character_type-10900357
+    character: 精英,装甲,支援,弱化
     normal_attack: 406304
     passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248,755249"
     effect_ratio: 0.66
@@ -17193,7 +17193,7 @@
     boss_hp: 8200
     def: 300
     level: 100
-    character: enemy_character_type-10900358
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755250,119029"
     effect_ratio: 1.0
@@ -17221,7 +17221,7 @@
     boss_hp: 160000
     def: 5000
     level: 100
-    character: enemy_character_type-10900359
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755250,119029"
     effect_ratio: 1.0
@@ -17249,7 +17249,7 @@
     boss_hp: 520000
     def: 7000
     level: 100
-    character: enemy_character_type-10900360
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755250,119029"
     effect_ratio: 1.0
@@ -17277,7 +17277,7 @@
     boss_hp: 220000
     def: 6000
     level: 100
-    character: enemy_character_type-10900361
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,119029"
     effect_ratio: 1.0
@@ -17306,7 +17306,7 @@
     boss_hp: 420000
     def: 99999
     level: 100
-    character: enemy_character_type-10900362
+    character: 精英,装甲,支援,弱化
     normal_attack: 406304
     passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248"
     effect_ratio: 0.66
@@ -17335,7 +17335,7 @@
     boss_hp: 12000
     def: 500
     level: 100
-    character: enemy_character_type-10900363
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755249,755250,119029"
     effect_ratio: 1.0
@@ -17363,7 +17363,7 @@
     boss_hp: 185000
     def: 5000
     level: 100
-    character: enemy_character_type-10900364
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755249,755250,119029"
     effect_ratio: 1.0
@@ -17391,7 +17391,7 @@
     boss_hp: 520000
     def: 7000
     level: 100
-    character: enemy_character_type-10900365
+    character: 精英,贯穿
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755249,755250,119029"
     effect_ratio: 1.0
@@ -17418,7 +17418,7 @@
     boss_hp: 1200000
     def: 99999
     level: 100
-    character: enemy_character_type-10900366
+    character: 精英,必杀
     normal_attack: 755231
     passive_skill: "755232,755233,755234,755235,755236,119029"
     effect_ratio: 0.4

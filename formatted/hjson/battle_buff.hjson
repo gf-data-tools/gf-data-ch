@@ -2933,7 +2933,7 @@
   }
   {
     id: 367
-    name: 过热额外命中下降
+    name: 过热额外伤害下降
     description: 火力下降
     conflict_type: 367
     max_tier: 1
@@ -2946,7 +2946,7 @@
   }
   {
     id: 368
-    name: 过热额外伤害下降
+    name: 过热额外命中下降
     description: 闪避下降
     conflict_type: 368
     max_tier: 1
@@ -2974,7 +2974,7 @@
     name: 效果:K2狂热命中减益
     conflict_type: 370
     max_tier: 5
-    type: 103
+    type: 203
     duration_type: 1
     duration: "9999"
     hit_number: *201
@@ -31448,7 +31448,7 @@
     name: 战区步枪暴击
     conflict_type: 2036
     max_tier: 1
-    type: 806
+    type: 106
     duration_type: 1
     duration: "99999"
     boss_available: 1
@@ -40779,6 +40779,59 @@
     type: 400
     duration_type: 1
     duration: "60"
+    boss_available: 1
+  }
+  {
+    id: 8548
+    name: K2装备
+    description: "1"
+    conflict_type: 2180
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8549
+    name: 效果:K2标记火力
+    conflict_type: 362
+    max_tier: 15
+    type: 101
+    duration_type: 1
+    duration: "9999"
+    pow_number: *201
+  }
+  {
+    id: 8550
+    name: 效果:K2标记命中
+    conflict_type: 369
+    max_tier: 15
+    type: 103
+    duration_type: 1
+    duration: "9999"
+    hit_number: *201
+    is_form_play: 1
+    buff_description: PowBuffText
+  }
+  {
+    id: 8551
+    name: 效果显示通用K2
+    conflict_type: 105
+    max_tier: 15
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8552
+    name: 效果显示通用K2温度
+    conflict_type: 105
+    max_tier: 20
+    type: 401
+    duration_type: 1
+    duration: "99999"
     boss_available: 1
   }
   {

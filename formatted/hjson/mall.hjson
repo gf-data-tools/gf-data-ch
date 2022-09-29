@@ -13158,7 +13158,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 镜面宇宙
+    giftbag_name: 律动飞驰
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94911
@@ -13171,7 +13171,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 天外星系
+    giftbag_name: 奕然梦境
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94912
@@ -13184,7 +13184,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 天文馆纪念品
+    giftbag_name: 挥汗如雨时
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94920
@@ -13197,7 +13197,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 触月摘星
+    giftbag_name: 爆裂热魂
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94931
@@ -13210,7 +13210,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 星间航行
+    giftbag_name: 轻舞昂扬
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94932
@@ -13223,7 +13223,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 生命保障系统
+    giftbag_name: 体魄炼造器
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94940
@@ -13236,7 +13236,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 游弋空间
+    giftbag_name: 极速跃动
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94951
@@ -13249,7 +13249,7 @@
     gemprice: 400
     original_price: 500
     quota: 2001
-    giftbag_name: 折跃光年
+    giftbag_name: 灵动翩旋
     event_code: dailyGiftbag
     discount: 1.0
     prize_id: 94952
@@ -27489,7 +27489,7 @@
   {
     id: 11103
     type: 8
-    sort: 121
+    sort: 10
     quota: 2001
     giftbag_name: 战术人形：SPAS-15
     event_code: dailyGiftbag
@@ -27502,7 +27502,7 @@
   {
     id: 11104
     type: 8
-    sort: 64
+    sort: 11
     quota: 2001
     giftbag_name: 战术人形：MK3A1
     event_code: dailyGiftbag
@@ -27757,6 +27757,271 @@
     giftbag_name: SR-2-本垒英豪
     event_code: dailyGiftbag
     icon: Bumdle_newskin03
+    discount: 1.0
+    classification_id: 3003
+  }
+  {
+    id: 11124
+    type: 8
+    quota: 2001
+    giftbag_name: 战术人形:UMP40
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 846
+    pay_type: 1
+    itemprice: 100157-400
+    classification_id: 1002
+  }
+  {
+    id: 11125
+    type: 8
+    sort: 1
+    quota: 2001
+    giftbag_name: 战术人形:APC556
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 1587
+    pay_type: 1
+    itemprice: 100157-400
+    classification_id: 1002
+  }
+  {
+    id: 11126
+    type: 8
+    sort: 2
+    quota: 2001
+    giftbag_name: 战术人形:刘氏步枪
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 40293
+    pay_type: 1
+    itemprice: 100158-500
+    classification_id: 1002
+  }
+  {
+    id: 11127
+    type: 8
+    sort: 3
+    quota: 2001
+    giftbag_name: 战术人形:SL8
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 40205
+    pay_type: 1
+    itemprice: 100158-500
+    classification_id: 1002
+  }
+  {
+    id: 11128
+    type: 8
+    sort: 4
+    quota: 2001
+    giftbag_name: 战术人形:AUG SMG
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 40288
+    pay_type: 1
+    itemprice: 100158-500
+    classification_id: 1002
+  }
+  {
+    id: 11129
+    type: 8
+    sort: 5
+    quota: 2001
+    giftbag_name: 战术人形:VHS
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 1290
+    pay_type: 1
+    itemprice: 100158-500
+    classification_id: 1002
+  }
+  {
+    id: 11130
+    type: 8
+    sort: 6
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: 蛋奶草莓芝士
+    event_code: dailyGiftbag
+    discount: 1.0
+    pay_type: 1
+    itemprice: 100157-5
+    classification_id: 1002
+  }
+  {
+    id: 11131
+    type: 8
+    sort: 6
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: 蛋奶草莓芝士
+    event_code: dailyGiftbag
+    discount: 1.0
+    pay_type: 1
+    itemprice: 100158-5
+    classification_id: 1002
+  }
+  {
+    id: 11132
+    type: 8
+    item_ids: 41-100,506-1000,8-1
+    gift: 100003-10
+    gemprice: 580
+    quota: 2002
+    giftbag_name: 10月特惠礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11133
+    type: 8
+    item_ids: 605-1,506-100,516-200
+    gemprice: 158
+    quota: 2001
+    giftbag_name: 每日特惠礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_navy
+    daily_quota: 1
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11134
+    type: 8
+    mp: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: 人力半价礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11135
+    type: 8
+    ammo: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: 弹药半价礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11136
+    type: 8
+    mre: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: 口粮半价礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11137
+    type: 8
+    part: 3000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: 零件半价礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11138
+    type: 8
+    item_ids: 1-10,3-10
+    gemprice: 430
+    original_price: 860
+    quota: 2001
+    giftbag_name: 契约半价礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11139
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: 融合势力定向补给
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11140
+    type: 8
+    item_ids: 15-200,46-60,506-200,9-20
+    gemprice: 198
+    quota: 2020
+    giftbag_name: 重装补给礼包
+    event_code: dailyGiftbag
+    icon: Bumdle_jyuusou
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11141
+    type: 8
+    item_ids: 7-1,41-100
+    gift: 579-1
+    gemprice: 2588
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: AUG SMG-皮斯科酸
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: 1.0
+    classification_id: 3003
+  }
+  {
+    id: 11142
+    type: 8
+    item_ids: 7-1,41-100
+    gift: 576-1
+    gemprice: 2588
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: SL8-幽灵菲士
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: 1.0
+    classification_id: 3003
+  }
+  {
+    id: 11143
+    type: 8
+    item_ids: 41-100
+    gift: 577-1
+    gemprice: 1998
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: VHS-悬浮威士忌
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
     discount: 1.0
     classification_id: 3003
   }

@@ -342,7 +342,7 @@ COMMON,1322,Search,,0
 COMMON,1323,Delete all,,0
 COMMON,1324,My ID:,,0
 COMMON,1325,Search by UID,,0
-COMMON,1326,Friend Points,,0
+COMMON,1326,友情点数(todo),,0
 COMMON,1327,Buy more,,0
 COMMON,1328,Appearance,,0
 COMMON,1329,Background,,0
@@ -762,6 +762,7 @@ COMMON,1763,指挥官服装：{0}(todo),,0
 COMMON,1764,执行方针：{0}(todo),,0
 COMMON,1765,加成总览(todo),,0
 COMMON,1766,全部领取(todo),,0
+COMMON,1767,重复获得的物品{0}已被自动转换为{1}*{2}(todo),,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,0
 BATTLE,10002,WITHDRAW,,0
@@ -955,6 +956,7 @@ BATTLE,10196,人形梯队部署数量已达上限。(todo),,0
 BATTLE,10197,融合势力梯队部署数量已达上限。(todo),,0
 BATTLE,10198,重装部队部署数量已达上限。(todo),,0
 BATTLE,10199,非重装梯队部署数量已达上限。(todo),,0
+BATTLE,10200,敌方战力太强，请避免交战(todo),,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -3269,6 +3271,9 @@ MISSIONSELECTION,40417,全体出征成功(todo),,0
 MISSIONSELECTION,40418,梯队出征成功(todo),,0
 MISSIONSELECTION,40419,未获得奖励(todo),,0
 MISSIONSELECTION,40420,作战提示(todo),,0
+MISSIONSELECTION,40421,剧情关卡(todo),,0
+MISSIONSELECTION,40422,无推荐梯队(todo),,0
+MISSIONSELECTION,40423,推荐梯队：(todo),,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -4387,6 +4392,7 @@ MALL,71144,Limited to {0} purchases(s) per week,,0
 MALL,71145,Live2D,,0
 MALL,71147,持有(todo),,0
 MALL,71159,内容预览(todo),,0
+MALL,71160,复刻商店(todo),,0
 DOWNLOAD,80000,Resuming download of incomplete data files.,,0
 DOWNLOAD,80001,Please ensure that your device has at least ,,0
 DOWNLOAD,80002, memory! Continue?,,0
@@ -4685,13 +4691,13 @@ OTHER,100198,Upon terminating Auto Battles//c resources for incomplete battles w
 OTHER,100199,Customer Service Email Address: gfcs@micateam.cn,,0
 ACTIVITY,110000,Operation: Cube,,0
 ACTIVITY,110001,Blindfold Theorem,,0
-FRIEND,110002,Friend Points,,0
+FRIEND,110002,友情点数(todo),,0
 FRIEND,110003,Icon,,0
 FRIEND,110004,Item,,0
 FRIEND,110005,ID Card,,0
 FRIEND,110006,The user does not exist!,,0
 FRIEND,110007,Four resources,,0
-FRIEND,110008,Insufficient Friend Points,,0
+FRIEND,110008,友情点数不足，可通过战斗支援系统、点赞他人宿舍、日常任务、拉弗伯雷兵棋扭蛋机获取。(todo),,0
 FRIEND,110009, Insufficient,,0
 FRIEND,110010,Number of friends has reached the maximum limit!,,0
 FRIEND,110011,Background,,0
@@ -4724,7 +4730,7 @@ FRIEND,110037,Welcome to the <color=#FFBB00FF>Friend System</color>. You can bui
 FRIEND,110038,In the <color=#FFBB00FF>Friends List</color>//c you can check your friends as well as send <color=#FFBB00FF>messages</color>.,,0
 FRIEND,110039,You can add friends from the <color=#FFBB00FF>Add Friends</color> page//c as well as search for other players to send friend requests.,,0
 FRIEND,110040,You can view and edit your <color=#FFBB00FF>ID Card</color> from the <color=#FFBB00FF>ID Card</color> page. Your card can be seen by other players. You can also perform other actions related to the ID card here.,,0
-FRIEND,110041,In the <color=#FFBB00FF>Friendship Store</color>//c you can purchase icons and backgrounds for your ID Card. You can also use Friend Points to buy other various items.,,0
+FRIEND,110041,在<color=#FFBB00FF>友情商店</color>中，你可以购买到头像及名片背景等装饰道具。并且可以使用友情点数购买功能性道具。(todo),,0
 FRIEND,110042,Latest message,,0
 FRIEND,110043,Most recent login,,0
 FRIEND,110044,Commander level,,0
@@ -4743,6 +4749,9 @@ FRIEND,110058,预览中(todo),,0
 FRIEND,110059,头像框更换成功(todo),,0
 FRIEND,110060,头像框·合金外壳(todo),,0
 FRIEND,110061,默认头像(todo),,0
+FRIEND,110062,当前没有可以使用的自建梯队(todo),,0
+FRIEND,110063,友情点数，/n点赞{0}/{1}/n支援系统{2}/{3}(todo),,0
+FRIEND,110064,友情点数：{0}/{1}次(todo),,0
 BINGO,120001,Random draw,,0
 BINGO,120002,Cancel draw,,0
 BINGO,120003,Choose number,,0
@@ -4919,7 +4928,7 @@ GUIDE,140080,Press the Swap button to finish.,,0
 GUIDE,140081,By using Spare Dormitories//c you can switch to different furniture arrangements on the fly and store more furniture. Enjoy!,,0
 GUIDE,140082,A third party will be joining the battlefield. Please look out for the side that these units belong to.,,0
 GUIDE,140083,Units in <color=#96C9F8FF>blue</color> are friendly forces. They operate by themselves but can accept your battle strategies.,,0
-GUIDE,140084,Griffin will also provide support for you now. You can use the <color=#FFBB00FF>Griffin Support Echelon</color> in missions without incurring a timer limit after use//c but using it<color=#ff0000>will not</color> award any Friend Points.,,0
+GUIDE,140084,现在格里芬也将为您提供部分支援，在某些关卡内可以使用<color=#FFBB00FF>格里芬支援梯队</color>，梯队没有使用时间的限制，但是将<color=#ff0000>不会</color>为您提供友情点数。(todo),,0
 GUIDE,140085,Cafe is the place to be for T-Dolls to relax and chat. You can learn about their past histories and stories here. There is a <color=#FFB400FF>special bubble</color> on top of the T-Dolls who have a story to share.,,0
 GUIDE,140086,Press the <color=#FFB400FF>Gramophone</color> to select and view your T-Dolls' stories under a specific subject of your choice.,,0
 GUIDE,140087,You can view handwritten notes from T-Dolls in the notebook to the left side of counter.,,0
@@ -5593,6 +5602,7 @@ SQUAD,190271,选择消耗芯片星级(todo),,0
 SQUAD,190272,回收人质(todo),,0
 SQUAD,190273,点击后进行经验训练(todo),,0
 SQUAD,190274,点击后进行技能训练(todo),,0
+SQUAD,190275,可迭代(todo),,0
 TOAST,200000,Formation has been preset,,0
 TOAST,200001,No available Fairies,,0
 TOAST,200002,Clear {0} different stages to unlock <color=#ffb400>Fairies</color>. Current clears {1}/{2},,0
@@ -6793,6 +6803,7 @@ FORMATION,270058,使用已编队人形(todo),,0
 FORMATION,270059,缺少以下类型单位，无法编成完整的梯队，是否继续编队(todo),,0
 FORMATION,270060,查看列表(todo),,0
 FORMATION,270061,继续编队(todo),,0
+FORMATION,270062,使用已编队铁血(todo),,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
 MINIGAME,280003,Queued,,0
