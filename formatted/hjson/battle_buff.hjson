@@ -40835,6 +40835,324 @@
     boss_available: 1
   }
   {
+    id: 8553
+    name: 万圣行裁者大招后技能1
+    conflict_type: 2184
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    forced_skill: "750585"
+  }
+  {
+    id: 8554
+    name: 万圣行裁者大招后技能2
+    conflict_type: 2184
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    forced_skill: "750586"
+  }
+  {
+    id: 8555
+    name: 万圣行裁者大招后技能3
+    conflict_type: 2185
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    forced_skill: "750587"
+  }
+  {
+    id: 8556
+    name: 万圣行裁者大招后技能4
+    conflict_type: 2185
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    forced_skill: "750588"
+  }
+  {
+    id: 8557
+    name: 万圣行裁者大招后技能5
+    conflict_type: 2186
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    forced_skill: "750589"
+  }
+  {
+    id: 8558
+    name: 万圣行裁者大招后技能6
+    conflict_type: 2186
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    forced_skill: "750590"
+  }
+  {
+    id: 8559
+    name: 万行大招伤害减免
+    conflict_type: 2184
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    damage_reduce_number: *201
+  }
+  {
+    id: 8560
+    name: 万行大招护盾
+    conflict_type: 2184
+    max_tier: 999
+    type: 109
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    shield_number: *101
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8561
+    name: 万行护盾倍率
+    conflict_type: 2187
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8562
+    name: 万行护盾倍率解析
+    conflict_type: 2187
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8563
+    name: 万行三-伤害和攻速倍率
+    conflict_type: 2188
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8564
+    name: 万行三-近战伤害倍率
+    conflict_type: 2188
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8565
+    name: 万行三-回避护盾倍率
+    conflict_type: 2189
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8566
+    name: 万行四-首伤倍率
+    conflict_type: 2189
+    max_tier: 200
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8567
+    name: 万行普攻扳机
+    conflict_type: 2190
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8568
+    name: 万行二-弹伤易伤倍率
+    conflict_type: 2190
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8569
+    name: 万行二-割伤伤害倍率
+    conflict_type: 2191
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8570
+    name: 万行二-流血伤害值
+    conflict_type: 2191
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8571
+    name: 万行二-双流血倍率提升
+    conflict_type: 2192
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8572
+    name: 万行二技能中
+    conflict_type: 2192
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "9000"
+  }
+  {
+    id: 8573
+    name: 万行坚守额外攻距
+    conflict_type: 526
+    max_tier: 1
+    type: 830
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    range_number: "50"
+  }
+  {
+    id: 8574
+    name: 万行攻速提升
+    conflict_type: 2192
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    rate_number: *202
+  }
+  {
+    id: 8575
+    name: 万行伤害提升
+    conflict_type: 2192
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 8576
+    name: 万行友方护盾
+    conflict_type: 2192
+    max_tier: 3
+    type: 109
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    shield_number: *101
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8577
+    name: 万行弹伤易伤
+    conflict_type: 2192
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *202
+    trigger_creation_id: "8998"
+    is_form_play: 1
+  }
+  {
+    id: 8578
+    name: 万行割伤伤害下降
+    conflict_type: 2192
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "8997"
+    is_form_play: 1
+  }
+  {
+    id: 8579
+    name: 万行愈合技能
+    conflict_type: 2193
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750600"
+  }
+  {
+    id: 8580
+    name: 万行首击3秒
+    conflict_type: 2193
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "8999"
+  }
+  {
+    id: 8581
+    name: 刽子手攻击距离缩短
+    conflict_type: 2193
+    max_tier: 1
+    type: 830
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    range_number: "-20"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

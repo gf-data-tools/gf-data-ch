@@ -6184,6 +6184,124 @@
     hit_type: 1
   }
   {
+    id: 2279
+    description: 万圣刽子手一技能前排伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000004790
+  }
+  {
+    id: 2280
+    description: 万圣行裁者一技能后排伤害
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2281
+    description: 万圣刽子手大招后效果
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_self: 8553:1,8554:1,8555:1,8556:1,8557:1,8558:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2282
+    description: 万圣刽子手割伤范围
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004791
+  }
+  {
+    id: 2283
+    description: 万圣刽子手枪伤范围
+    extra_damage: *102
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004792
+  }
+  {
+    id: 2284
+    description: 万圣刽子手双伤范围
+    extra_damage: *103
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004793
+  }
+  {
+    id: 2285
+    description: 万行非二近战子弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 8578:1,8579:1,8580:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2286
+    description: 万行非二近战后非编制伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2287
+    description: 万行非二远程子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 8577:1,8579:1,8580:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2288
+    description: 万行二技近战后编制伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2289
+    description: 万行二技远程子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 8577:1,8579:1,8580:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
     id: 2330
     description: 起源弹新
     damage_ratio: *202

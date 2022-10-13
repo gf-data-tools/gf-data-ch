@@ -74379,6 +74379,363 @@
     is_die_delete: 1
   }
   {
+    id: 8979
+    name: 万圣行裁者大招动作特效
+    start_type: "3"
+    start_offset: "0,0,0"
+    destination_type: "3"
+    destination_offset: "0,0,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "-1"
+    is_die_delete: 1
+  }
+  {
+    id: 8980
+    name: 万圣刽子手大招前排
+    code: ExcutionerHalloween/WSXCZ_mubei
+    start_type: "6"
+    start_offset: "0,0,0"
+    destination_type: "6"
+    destination_offset: "0,0,0"
+    exist_duration: "80"
+    effect_area: 1
+    creation_type: 2
+    scale: "1.4,1.4,1.4"
+  }
+  {
+    id: 8981
+    name: 万圣刽子手大招后排
+    code: ExcutionerHalloween/WSXCZ_sdggai
+    start_type: "6"
+    start_offset: "0,0,0"
+    destination_type: "6"
+    destination_offset: "0,0,0"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8982
+    name: 万圣刽子手大招前排伤害
+    start_type: "6"
+    destination_type: "6"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2279"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8983
+    name: 万圣刽子手大招后排伤害
+    start_type: "6"
+    start_offset: "4"
+    destination_type: "6"
+    destination_offset: "4"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "2280"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8984
+    name: 万圣刽子手大招后效果
+    start_type: "2"
+    start_offset: "1"
+    destination_type: "2"
+    is_tracing: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2281"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8985
+    name: 万圣刽子手割伤范围
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "40"
+    hurt_id: "2282"
+    hurt_cd: "30"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 8986
+    name: 万圣刽子手枪伤范围
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "40"
+    hurt_id: "2283"
+    hurt_cd: "30"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 8987
+    name: 万圣刽子手双伤范围
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "40"
+    hurt_id: "2284"
+    hurt_cd: "30"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 8988
+    name: 万行非二近战子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2285"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8989
+    name: 万行非二近战后非编制伤害
+    start_type: "6"
+    start_offset: "4"
+    destination_type: "6"
+    destination_offset: "4"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "8"
+    effect_param_2: "2"
+    hurt_id: "2286"
+    buff_id: 8578:1,8579:1,8580:1
+    buff_cd: "0,0,0"
+    creation_type: 2
+    scale: "8,0.1,2"
+    is_die_delete: 1
+  }
+  {
+    id: 8990
+    name: 万行非二近战友方护盾
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 8576:1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8991
+    name: 万行非二远程子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 2500
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2287"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8992
+    name: 万行二技近战后编制伤害
+    start_type: "6"
+    start_offset: "4"
+    destination_type: "6"
+    destination_offset: "4"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "8"
+    effect_param_2: "2"
+    hurt_id: "2288"
+    buff_id: 8578:1,8579:1,8580:1
+    buff_cd: "0,0,0"
+    creation_type: 2
+    scale: "8,0.1,2"
+    is_die_delete: 1
+  }
+  {
+    id: 8993
+    name: 万行二技远程子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 2500
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2289"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8994
+    name: 万行枪口
+    code: ExcutionerHalloween/WSXCZ_fire
+    start_type: gun
+    start_offset: "-0.3,-0.2,0"
+    destination_type: gun
+    destination_offset: "-0.3,-0.2,0"
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8995
+    name: 万行枪受击
+    code: ExcutionerHalloween/WSXCZ_fire_sj
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8996
+    name: 万行刀受击
+    code: ExcutionerHalloween/WSXCZ_huahen
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8997
+    name: 万行割伤伤痕
+    code: ExcutionerHalloween/WSXCZ_zhua_zuo
+    start_type: "2"
+    start_offset: "0,-0.3,0"
+    destination_type: "2"
+    destination_offset: "0,-0.3,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+    is_die_delete: 1
+  }
+  {
+    id: 8998
+    name: 万行枪伤伤痕
+    code: ExcutionerHalloween/WSXCZ_zhua_you
+    start_type: "2"
+    start_offset: "0,-0.3,0"
+    destination_type: "2"
+    destination_offset: "0,-0.3,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+    is_die_delete: 1
+  }
+  {
+    id: 8999
+    name: 万行地面流血
+    code: ExcutionerHalloween/WSXCZ_di
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1.5,1.5,1.5"
+    is_die_delete: 1
+  }
+  {
+    id: 9000
+    name: 万行旗帜
+    code: ExcutionerHalloween/WSXCZ_qizi
+    start_type: "2"
+    start_offset: "-1,1,0"
+    destination_type: "2"
+    destination_offset: "-1,1,0"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9001
+    name: 万行地刀光
+    code: WSXCZ_daoguang
+    start_type: "6"
+    start_offset: "-0.3,0.4,0"
+    destination_type: "6"
+    destination_offset: "-0.3,0.4,0"
+    rotate: "0,90,0"
+    exist_duration: "90"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -88695,6 +89052,136 @@
     effect_area: 1
     scale: "1"
     summoner_order: "148601"
+  }
+  {
+    id: 570121
+    name: 刘皮肤578增援lv1
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "148701"
+  }
+  {
+    id: 570122
+    name: 刘皮肤578增援lv2
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "148801"
+  }
+  {
+    id: 570123
+    name: 刘皮肤578增援lv3
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "148901"
+  }
+  {
+    id: 570124
+    name: 刘皮肤578增援lv4
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149001"
+  }
+  {
+    id: 570125
+    name: 刘皮肤578增援lv5
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149101"
+  }
+  {
+    id: 570126
+    name: 刘皮肤578增援lv6
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149201"
+  }
+  {
+    id: 570127
+    name: 刘皮肤578增援lv7
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149301"
+  }
+  {
+    id: 570128
+    name: 刘皮肤578增援lv8
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149401"
+  }
+  {
+    id: 570129
+    name: 刘皮肤578增援lv9
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149501"
+  }
+  {
+    id: 570130
+    name: 刘皮肤578增援lv10
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149601"
   }
   {
     id: 570501
