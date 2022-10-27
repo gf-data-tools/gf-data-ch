@@ -376,7 +376,7 @@
     code: 配件_红外夜视仪_N
     develop_duration: 540
     company: IOP
-    equip_introduction: IOP公司人形列装的早期ATPIAL红外指示器，现在人形们晚上也能打中东西了！只有冲锋枪，手枪，突击步枪可以装备。
+    equip_introduction: IOP公司人形列装的早期ATPIAL红外指示器，现在人形们晚上也能打中东西了！除步枪和机枪外均可装配。
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
@@ -400,7 +400,7 @@
     code: 配件_红外夜视仪_N
     develop_duration: 1440
     company: IOP
-    equip_introduction: IOP公司人形列装的标准ATPIAL红外指示器，改进了早期型号所有的大量缺陷，但是电池还是用的很快。只有冲锋枪，手枪，突击步枪可以装备。
+    equip_introduction: IOP公司人形列装的标准ATPIAL红外指示器，改进了早期型号所有的大量缺陷，但是电池还是用的很快。除步枪和机枪外均可装配。
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
@@ -425,7 +425,7 @@
     code: 配件_红外夜视仪_N
     develop_duration: 2340
     company: IOP
-    equip_introduction: IOP公司人形列装的改进型ATPIAL红外指示器，有效提升了人形在夜战中的战斗力，只有冲锋枪，手枪，突击步枪可以装备。
+    equip_introduction: IOP公司人形列装的改进型ATPIAL红外指示器，有效提升了人形在夜战中的战斗力，除步枪和机枪外均可装配。
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
@@ -450,7 +450,7 @@
     code: 配件_红外夜视仪_N
     develop_duration: 2940
     company: IOP
-    equip_introduction: IOP公司人形列装的定制型ATPIAL红外指示器，满足了人形们的夜间作战的作战需求。只有冲锋枪，手枪，突击步枪可以装备。
+    equip_introduction: IOP公司人形列装的定制型ATPIAL红外指示器，满足了人形们的夜间作战的作战需求。除步枪和机枪外均可装配。
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
@@ -9586,5 +9586,371 @@
     is_show: 1
     obtain_ids: "3073"
     sp_description: equip-40000304
+  }
+  {
+    id: 305
+    name: SF武器灯改
+    description:
+      '''
+      回避+<dodge>
+      梯队夜视能力+5%$RF,MG不可用
+      '''
+    rank: 5
+    category: 1
+    type: 4
+    dodge: "2,5"
+    skill_effect: 150
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: 配件_武器灯_N
+    develop_duration: 3060
+    company: IOP
+    equip_introduction: 在过去由SF公司开发的通用武器灯，经过了IOP的改良能够通过战术人形的处理器直接进行控制，能有效提升夜间作战能力，除步枪和机枪外均可装配。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 1.0
+    bonus_type: dodge:600
+    passive_skill: "759061"
+    max_level: 10
+    auto_select_id: 4002
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: 梯队夜视能力+5%
+  }
+  {
+    id: 306
+    name: Mk3喉缩管
+    description:
+      '''
+      弹量+<bullet_number_up>
+      命中+<hit>$SG专用
+      '''
+    rank: 3
+    category: 1
+    type: 22
+    hit: "1,3"
+    bullet_number_up: "1,1"
+    retire_ammo: 4
+    code: 配件_喉缩管_N
+    develop_duration: 1800
+    company: IOP
+    equip_introduction: 一款通用的霰弹用喉缩管，能够控制弹丸的散布提升对小范围的破坏力，霰弹枪可装备。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 1.0
+    bonus_type: bullet_number_up:1000,hit:700
+    max_level: 10
+    auto_select_id: 22001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000306
+  }
+  {
+    id: 307
+    name: Mk4喉缩管
+    description:
+      '''
+      弹量+<bullet_number_up>
+      命中+<hit>$SG专用
+      '''
+    rank: 4
+    category: 1
+    type: 22
+    hit: "2,4"
+    bullet_number_up: "1,2"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    code: 配件_喉缩管_N
+    develop_duration: 2640
+    company: IOP
+    equip_introduction: 一款通用的霰弹用喉缩管，由Mk3改良制成，使用了全新的材料大幅提升了可靠性，霰弹枪可装备。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 1.0
+    bonus_type: bullet_number_up:500,hit:1000
+    max_level: 10
+    auto_select_id: 22001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000307
+  }
+  {
+    id: 308
+    name: Mk0多用途喉缩管
+    description:
+      '''
+      弹量+<bullet_number_up>
+      命中+<hit>$SG专用
+      '''
+    rank: 5
+    category: 1
+    type: 22
+    hit: "3,5"
+    bullet_number_up: "2,3"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    retire_part: 1
+    code: 配件_喉缩管_N
+    develop_duration: 3360
+    company: IOP
+    equip_introduction: 一款最新式的通用霰弹喉缩管，使用了过去从未使用过的特种材料，甚至能够对喉缩口径进行一定的调整，同时兼顾了可靠性，霰弹枪可装备。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 1.0
+    bonus_type: bullet_number_up:700,hit:1000
+    max_level: 10
+    auto_select_id: 22001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000308
+  }
+  {
+    id: 309
+    name: 专注芯片
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>$SMG,AR专用
+      '''
+    rank: 5
+    category: 3
+    type: 9
+    pow: "4,6"
+    rate: "-15,-10"
+    critical_harm_rate: "15,20"
+    retire_mp: 2
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 1
+    code: 人形装备_专注芯片_N
+    develop_duration: 3120
+    company: IOP
+    equip_introduction: 一款能够有效提升人形射击时的专注力的新型通用芯片，冲锋枪和突击步枪均可装备。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 1.0
+    bonus_type: pow:700,critical_harm_rate:500
+    max_level: 10
+    auto_select_id: 9002
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000309
+  }
+  {
+    id: 310
+    name: M1050 LRF
+    description:
+      '''
+      伤害+<pow>
+      前置冷却-30%$RF专用
+      '''
+    rank: 4
+    category: 3
+    type: 23
+    pow: "1,3"
+    skill_effect: 100
+    retire_mp: 2
+    retire_ammo: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 人形装备_测距仪_N
+    develop_duration: 2580
+    company: STN
+    equip_introduction: 一款可以单兵携带的激光测距仪兼望远镜，让人形在进行长距离侦查或打击时能获得更多信息，部分步枪可装备。
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 1.0
+    bonus_type: pow:700
+    passive_skill: "759060"
+    max_level: 10
+    auto_select_id: 23001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: 前置冷却-30%
+  }
+  {
+    id: 311
+    name: M200X LRF
+    description:
+      '''
+      伤害+<pow>
+      前置冷却-80%$RF专用
+      '''
+    rank: 5
+    category: 3
+    type: 23
+    pow: "3,5"
+    skill_effect: 150
+    retire_mp: 2
+    retire_ammo: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 人形装备_测距仪_N
+    develop_duration: 3600
+    company: IOP
+    equip_introduction: 由IOP在M1050之上开发而来的适用于战术人形的激光测距仪兼望远镜，安装了数据链模块有效提升了部队的连携能力，部分步枪可装备。
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 1.0
+    bonus_type: pow:1000
+    passive_skill: "759059"
+    max_level: 10
+    auto_select_id: 23001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: 前置冷却-80%
+  }
+  {
+    id: 312
+    name: HD50脚架
+    description:
+      '''
+      命中+<hit> 移速<speed>
+      换弹时间-0.5秒$MG专用
+      '''
+    rank: 3
+    category: 3
+    type: 21
+    hit: "1,3"
+    speed: "-3,-2"
+    skill_effect: 50
+    retire_mp: 2
+    retire_part: 1
+    code: 人形装备_固定脚架_N
+    develop_duration: 1920
+    company: IOP
+    equip_introduction: 过去由AT公司开发的一款通用脚架，经过IOP改造能够更加有效地提升人形的战斗效率，机枪可装备。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 1.0
+    bonus_type: hit:700
+    passive_skill: "759064"
+    max_level: 10
+    auto_select_id: 21001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: 换弹时间-0.5秒
+  }
+  {
+    id: 313
+    name: HD50脚架Mk2
+    description:
+      '''
+      命中+<hit> 移速<speed>
+      换弹时间-1秒$MG专用
+      '''
+    rank: 4
+    category: 3
+    type: 21
+    hit: "2,4"
+    speed: "-3,-2"
+    skill_effect: 100
+    retire_mp: 3
+    retire_part: 2
+    code: 人形装备_固定脚架_N
+    develop_duration: 2940
+    company: IOP
+    equip_introduction: 由普通的HD50脚架改造而成，加强了内部的人形专用电子控制芯片，能够更加有效地提升人形的战斗效率，机枪可装备。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 1.0
+    bonus_type: hit:1000
+    passive_skill: "759063"
+    max_level: 10
+    auto_select_id: 21001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: 换弹时间-1秒
+  }
+  {
+    id: 314
+    name: HD100脚架
+    description:
+      '''
+      命中+<hit> 移速<speed>
+      换弹时间-2秒$MG专用
+      '''
+    rank: 5
+    category: 3
+    type: 21
+    hit: "4,6"
+    speed: "-3,-2"
+    skill_effect: 150
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 3
+    code: 人形装备_固定脚架_N
+    develop_duration: 3540
+    company: IOP
+    equip_introduction: 由HD50Mk2脚架改造而成，使用了全新的材料，轻量化的同时还提升了可靠性，同时内部电路得到了进一步强化，能大大提升人形的战斗效率，机枪可装备。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 1.0
+    bonus_type: hit:700
+    passive_skill: "759062"
+    max_level: 10
+    auto_select_id: 21001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: 换弹时间-2秒
+  }
+  {
+    id: 315
+    name: FP6折叠后托
+    description:
+      '''
+      命中+<hit>
+      射速<rate>技能增强$FP-6专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "20,25"
+    rate: "-4,-1"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_FP6
+    develop_duration: 3000
+    company: IOP
+    fit_guns: "164"
+    equip_introduction: FP-6常见的专用配件之一，折叠后托后能够方便FP-6在狭窄的环境里执行任务。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3.0
+    bonus_type: hit:800
+    passive_skill: "759065"
+    max_level: 10
+    auto_select_id: 18080
+    is_show: 1
+    obtain_ids: "3074"
+    sp_description: equip-40000315
   }
 ]

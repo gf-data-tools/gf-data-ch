@@ -766,6 +766,7 @@ COMMON,1765,加成總覽,,0
 COMMON,1766,全部領取,,0
 COMMON,1767,重复获得的物品{0}已被自动转换为{1}*{2}(todo),,0
 COMMON,1768,{0}天{1}时(todo),,0
+COMMON,1769,梯队已自动修复(todo),,0
 BATTLE,10000,撤退,,0
 BATTLE,10001,全體撤退,,0
 BATTLE,10002,WITHDRAW,,0
@@ -961,6 +962,7 @@ BATTLE,10197,融合勢力梯隊部署數量已達上限。,,0
 BATTLE,10198,重裝部隊部署數量已達上限。,,0
 BATTLE,10199,非重裝梯隊部署數量已達上限。,,0
 BATTLE,10200,敌方战力太强，请避免交战(todo),,0
+BATTLE,10201,是否终止自动战斗(todo),,0
 CARNIVAL,11000,進度,,0
 CARNIVAL,11001,領取獎勵,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1106,6 +1108,13 @@ HOME,20132,購買{0}級，升至{1}級獲得以上獎勵,,0
 HOME,20133,完成該角色進化突破，可解鎖此立繪。,,0
 HOME,20134,PV重播(todo),,0
 HOME,20135,活动剩余时间(todo),,0
+HOME,20136,回归签到(todo),,0
+HOME,20137,回归任务(todo),,0
+HOME,20138,回归基金(todo),,0
+HOME,20139,回归商城(todo),,0
+HOME,20140,活动时间(todo),,0
+HOME,20141,第{0}轮奖励即将刷新(todo),,0
+HOME,20142,需要完成首通奖励后开启(todo),,0
 DEPLOYMENT,30000,部署,,0
 DEPLOYMENT,30001,移動,,0
 DEPLOYMENT,30002,換位,,0
@@ -1600,6 +1609,9 @@ DEPLOYMENT,30500,天賦II發動,,0
 DEPLOYMENT,30501,自动作战(todo),,0
 DEPLOYMENT,30502,自动战斗进行中...(todo),,0
 DEPLOYMENT,30503,敌方梯队(todo),,0
+DEPLOYMENT,30504,机动作战(todo),,0
+DEPLOYMENT,30505,当前战斗存在困难，将中断自动战斗(todo),,0
+DEPLOYMENT,30506,受到效果影响，当前梯队移动所需的行动点不足，不能进行移动(todo),,0
 DORM,31000,收納庫,,0
 DORM,31001,Warehouse,,0
 DORM,31002,採購,,0
@@ -3392,6 +3404,13 @@ MISSIONSELECTION,40425,推荐融合势力等级<Color=#FFB400FF>≥{0}级</Color
 MISSIONSELECTION,40426,推荐战术妖精等级<Color=#FFB400FF>≥{0}级</Color>;星级<Color=#FFB400FF>≥{1}</Color>(todo),,0
 MISSIONSELECTION,40427,推荐重装部队等级<Color=#FFB400FF>≥{0}级</Color>;效能<Color=#FFB400FF>≥{1}</Color>(todo),,0
 MISSIONSELECTION,40428,活动尚未解锁(todo),,0
+MISSIONSELECTION,40429,关卡奖励预览(todo),,0
+MISSIONSELECTION,40430,搜查(todo),,0
+MISSIONSELECTION,40431,难度设置(todo),,0
+MISSIONSELECTION,40432,日常玩法规则(todo),,0
+MISSIONSELECTION,40433,第{0}轮(todo),,0
+MISSIONSELECTION,40434,首通奖励(todo),,0
+MISSIONSELECTION,40435,普通奖励(todo),,0
 REINFORCEMENT,50000,選擇角色,,0
 REINFORCEMENT,50001,未解鎖,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -4502,6 +4521,7 @@ SEPCIALOPS,60626,我去過通靈鬼屋，沒有想象中可怕，反而還……
 SEPCIALOPS,60627,我承認，那個時候我確實是慌了……,,0
 SEPCIALOPS,60628,你好，瑪姬·龐茲。,,0
 SEPCIALOPS,60629,行李箱,,0
+SEPCIALOPS,60630,SCAR-L过于强大，需要确保SCAR-H收集3处XXXX后再与其对决(todo),,0
 GASHAPON,70000,當前傢俱倉庫容量不足,,0
 GASHAPON,70001,）//c請整頓後再進行採購!,,0
 GASHAPON,70002,採購幣不足//c無法完成採購,,0
@@ -4994,6 +5014,7 @@ OTHER,100196,指揮官：,,0
 OTHER,100197,終止自律作戰後，將領取已完成批次的自律獎勵，未完成的自律將返還扣除的資源，但不會獲得任何報酬。//n//n消耗<color=#ffb400>{0}</color>個<color=#ffb400>{1}</color>（剩餘<color=#ffb400>{2}</color>個），//n立即完成所有批次的自律作戰,,0
 OTHER,100198,終止自律作戰後，將返還扣除的資源，但不會獲得任何報酬。//n//n消耗<color=#ffb400>{0}</color>個<color=#ffb400>{1}</color>（剩餘<color=#ffb400>{2}</color>個），//n立即完成所有批次的自律作戰,,0
 OTHER,100199,客服信箱：,,0
+OTHER,100200,该单位正在作战中，无法进行切换(todo),,0
 ACTIVITY,110000,魔方行動,,0
 ACTIVITY,110001,盲拆法則,,0
 FRIEND,110002,友情点数(todo),,0
@@ -7153,6 +7174,13 @@ FORMATION,270059,缺少以下類型單位，無法編成完整的梯隊，是否
 FORMATION,270060,查看列表,,0
 FORMATION,270061,繼續編隊,,0
 FORMATION,270062,使用已编队铁血(todo),,0
+FORMATION,270063,该梯队正在作战中，无法进行编辑！(todo),,0
+FORMATION,270064,缺少{0}的{1}(todo),,0
+FORMATION,270065,前排单位(todo),,0
+FORMATION,270066,后排单位(todo),,0
+FORMATION,270067,队长单位(todo),,0
+FORMATION,270068,推荐用于该编队(todo),,0
+FORMATION,270069,<color=#FFB400FF>【{0}】</color>(todo),,0
 MINIGAME,280001,回合,,0
 MINIGAME,280002,正在尋找房間，請稍等......,,0
 MINIGAME,280003,已等待,,0

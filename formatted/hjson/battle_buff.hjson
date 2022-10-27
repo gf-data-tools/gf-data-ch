@@ -39149,6 +39149,82 @@
     boss_available: 1
   }
   {
+    id: 8374
+    name: 战区暴击率提升
+    conflict_type: 2142
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    critical_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+  }
+  {
+    id: 8375
+    name: 战区暴击伤害下降
+    conflict_type: 2142
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    critical_damage_number: *202
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 8376
+    name: 战区伤害下降
+    conflict_type: 2142
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 8377
+    name: 战区易伤
+    conflict_type: 2142
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    damage_reduce_number: *201
+    buff_animation: BlueFlash
+  }
+  {
+    id: 8378
+    name: 战区穿甲值增加
+    conflict_type: 2142
+    max_tier: 1
+    type: 811
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    arp_number: *101
+    trigger_creation_id: "201"
+    is_form_play: 1
+  }
+  {
+    id: 8379
+    name: 手枪技能
+    conflict_type: 2141
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    available_gun_type: "1"
+    forced_skill: "756222"
+  }
+  {
     id: 8380
     name: 老李伤害提升主动
     conflict_type: 2143
@@ -40782,6 +40858,207 @@
     boss_available: 1
   }
   {
+    id: 8531
+    name: 突击步枪伤害
+    conflict_type: 2180
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: *201
+    available_gun_type: "4"
+  }
+  {
+    id: 8532
+    name: 突击步枪命中
+    conflict_type: 2180
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: *201
+    available_gun_type: "4"
+  }
+  {
+    id: 8533
+    name: 冲锋枪命中
+    conflict_type: 2181
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: *201
+    available_gun_type: "2"
+  }
+  {
+    id: 8534
+    name: 冲锋枪回避
+    conflict_type: 2180
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    dodge_number: *201
+    available_gun_type: "2"
+  }
+  {
+    id: 8535
+    name: 手枪永久冷却
+    conflict_type: 2180
+    max_tier: 1
+    type: 128
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    available_gun_type: "1"
+    cdr_number: "80"
+  }
+  {
+    id: 8536
+    name: 手枪全队伤害
+    conflict_type: 2181
+    max_tier: 9
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 8537
+    name: 手枪全队回避
+    conflict_type: 2181
+    max_tier: 9
+    type: 102
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    dodge_number: *201
+  }
+  {
+    id: 8538
+    name: 步枪伤害
+    conflict_type: 2182
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: *201
+    available_gun_type: "3"
+  }
+  {
+    id: 8539
+    name: 步枪命中
+    conflict_type: 2182
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: *201
+    available_gun_type: "3"
+  }
+  {
+    id: 8540
+    name: 步枪暴伤
+    conflict_type: 2180
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    critical_damage_number: *201
+    available_gun_type: "3"
+  }
+  {
+    id: 8541
+    name: 机枪伤害
+    conflict_type: 2183
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: *201
+    available_gun_type: "5"
+  }
+  {
+    id: 8542
+    name: 机枪命中
+    conflict_type: 2183
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: *201
+    available_gun_type: "5"
+  }
+  {
+    id: 8543
+    name: 机枪额外固定伤害
+    conflict_type: 2180
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    available_gun_type: "5"
+    orb_effect: 75622101
+  }
+  {
+    id: 8544
+    name: 机枪换弹时间
+    conflict_type: 2180
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    available_gun_type: "5"
+  }
+  {
+    id: 8545
+    name: 霰弹枪减伤
+    conflict_type: 2180
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    available_gun_type: "6"
+    fix_damage: 1000004786
+  }
+  {
+    id: 8546
+    name: 霰弹枪护盾
+    conflict_type: 2180
+    max_tier: 99999
+    type: 109
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    shield_number: *101
+    available_gun_type: "6"
+  }
+  {
+    id: 8547
+    name: 霰弹枪护甲
+    conflict_type: 2180
+    max_tier: 1
+    type: 108
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    armor_reduce_number: *201
+    available_gun_type: "6"
+  }
+  {
     id: 8548
     name: K2装备
     description: "1"
@@ -41151,6 +41428,92 @@
     duration: "99999"
     boss_available: 1
     range_number: "-20"
+  }
+  {
+    id: 8582
+    name: 减前置冷却201
+    conflict_type: 2193
+    max_tier: 5
+    type: 129
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 8583
+    name: 减前置冷却202
+    conflict_type: 2194
+    max_tier: 5
+    type: 129
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *202
+  }
+  {
+    id: 8584
+    name: 队伍夜视+5%
+    conflict_type: 2194
+    max_tier: 9
+    type: 404
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    night_view_percent: "5"
+  }
+  {
+    id: 8585
+    name: 换弹-减15帧
+    conflict_type: 2194
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8586
+    name: FP6装备
+    conflict_type: 2194
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8587
+    name: FP6装备伤害降低10
+    conflict_type: 2194
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "90"
+    trigger_creation_id: "205"
+  }
+  {
+    id: 8588
+    name: FP6装备穿甲降低80
+    conflict_type: 2194
+    max_tier: 1
+    type: 111
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: "20"
+  }
+  {
+    id: 8589
+    name: 测距层数
+    conflict_type: 2195
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
   }
   {
     id: 10000

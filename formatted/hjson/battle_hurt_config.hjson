@@ -5847,6 +5847,26 @@
     hit_type: 1
   }
   {
+    id: 2237
+    description: 战区编制伤害
+    extra_damage: *101
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2238
+    description: 战区队长buff-5个
+    buff_id_target: 1000004710:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2239
+    description: 战区最大生命值10%
+    extra_damage: *101
+    hit_type: 1
+  }
+  {
     id: 2240
     description: 爆破榴弹内圈
     damage_ratio: *201
@@ -6184,6 +6204,12 @@
     hit_type: 1
   }
   {
+    id: 2278
+    description: 法球100伤害子弹
+    extra_damage: "100"
+    hit_type: 1
+  }
+  {
     id: 2279
     description: 万圣刽子手一技能前排伤害
     damage_ratio: *201
@@ -6246,7 +6272,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_armor: 1
-    buff_id_target: 8578:1,8579:1,8580:1
+    buff_id_target: 8578:1000004803,8579:1,8580:1
     buff_rate: "100"
     hit_type: 1
     fix_damage: 1000004794
@@ -6271,7 +6297,7 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1
-    buff_id_target: 8577:1,8579:1,8580:1
+    buff_id_target: 8577:1000004803,8579:1,8580:1
     buff_rate: "100"
     hit_type: 1
     fix_damage: 1000004794
@@ -6296,7 +6322,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_armor: 1
-    buff_id_target: 8577:1,8579:1,8580:1
+    buff_id_target: 8577:1000004803,8579:1,8580:1
     buff_rate: "100"
     hit_type: 1
     fix_damage: 1000004794

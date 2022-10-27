@@ -72381,6 +72381,170 @@
     is_die_delete: 1
   }
   {
+    id: 8827
+    name: 战区燃烧范围
+    start_type: "8"
+    start_offset: "-3.4,0,1.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,1.5"
+    exist_duration: "300"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "40"
+    hurt_id: "2237"
+    hurt_cd: "10"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "8829,8830,8831,8832,8833,8834,8835,8836,8837"
+    trigger_creation_delay: "30,30,0,30,30,0,50,50,20"
+  }
+  {
+    id: 8828
+    name: 战区队长位buff
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2238"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8829
+    name: 战区燃烧火环1
+    code: 火环
+    start_type: "8"
+    start_offset: "-3.4,0,-5.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,-5.5"
+    exist_duration: "210"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8830
+    name: 战区燃烧火环2
+    code: 火环
+    start_type: "8"
+    start_offset: "-3.4,0,1.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,1.5"
+    exist_duration: "210"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8831
+    name: 战区燃烧火环3
+    code: 火环
+    start_type: "8"
+    start_offset: "-3.4,0,-2"
+    destination_type: "8"
+    destination_offset: "-3.4,0,-2"
+    exist_duration: "240"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8832
+    name: 战区燃烧火1
+    code: 火苗
+    start_type: "8"
+    start_offset: "-3.4,0,-5.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,-5.5"
+    exist_duration: "270"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+  }
+  {
+    id: 8833
+    name: 战区燃烧火2
+    code: 火苗
+    start_type: "8"
+    start_offset: "-3.4,0,-2"
+    destination_type: "8"
+    destination_offset: "-3.4,0,-2"
+    exist_duration: "270"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.7,0.7,0.7"
+  }
+  {
+    id: 8834
+    name: 战区燃烧火3
+    code: 火苗
+    start_type: "8"
+    start_offset: "-3.4,0,1.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,1.5"
+    exist_duration: "300"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+  }
+  {
+    id: 8835
+    name: 战区燃烧坑1
+    code: 燃烧坑
+    start_type: "8"
+    start_offset: "-3.4,0,-5.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,-5.5"
+    exist_duration: "300"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.9,0,3.2"
+  }
+  {
+    id: 8836
+    name: 战区燃烧坑2
+    code: 燃烧坑
+    start_type: "8"
+    start_offset: "-3.4,0,-2"
+    destination_type: "8"
+    destination_offset: "-3.4,0,-2"
+    exist_duration: "300"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.9,0,3.2"
+  }
+  {
+    id: 8837
+    name: 战区燃烧坑3
+    code: 燃烧坑
+    start_type: "8"
+    start_offset: "-3.4,0,1.5"
+    destination_type: "8"
+    destination_offset: "-3.4,0,1.5"
+    exist_duration: "330"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.9,0,3.2"
+  }
+  {
+    id: 8838
+    name: 战区10%最大生命值的伤害
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2239"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
     id: 8839
     name: 狙击子弹尾迹
     code: SniperSkillBullet
@@ -74379,6 +74543,20 @@
     is_die_delete: 1
   }
   {
+    id: 8977
+    name: 法球效果:特种弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2278"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
     id: 8979
     name: 万圣行裁者大招动作特效
     start_type: "3"
@@ -74543,7 +74721,7 @@
     effect_param_1: "8"
     effect_param_2: "2"
     hurt_id: "2286"
-    buff_id: 8578:1,8579:1,8580:1
+    buff_id: 8578:1000004803,8579:1,8580:1
     buff_cd: "0,0,0"
     creation_type: 2
     scale: "8,0.1,2"
@@ -74595,7 +74773,7 @@
     effect_param_1: "8"
     effect_param_2: "2"
     hurt_id: "2288"
-    buff_id: 8578:1,8579:1,8580:1
+    buff_id: 8578:1000004803,8579:1,8580:1
     buff_cd: "0,0,0"
     creation_type: 2
     scale: "8,0.1,2"
@@ -74734,6 +74912,23 @@
     creation_type: 2
     scale: "1"
     is_die_delete: 1
+  }
+  {
+    id: 9002
+    name: FP6正前方
+    start_type: "6"
+    start_offset: "6.5"
+    destination_type: "6"
+    destination_offset: "6.5"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "15"
+    effect_param_2: "4"
+    buff_id: 8587:1000004805,8588:1000004805
+    buff_cd: "0,0"
+    scale: "15,0.1,4.2"
   }
   {
     id: 9740

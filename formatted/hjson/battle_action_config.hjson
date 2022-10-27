@@ -2274,7 +2274,8 @@
   {
     id: 442
     name: FP6爆炸
-    creation_order: "2043"
+    creation_order: "2043,9002"
+    creation_delay: "0,0"
   }
   {
     id: 443
@@ -16788,6 +16789,52 @@
     effect_duration: "1"
   }
   {
+    id: 5798
+    name: 我方全体暴击率提升50%，暴伤下降50%
+    summon_order: "4238"
+  }
+  {
+    id: 5799
+    name: 我方全体伤害下降50%，赋予敌人全体100%易伤
+    summon_order: "4233"
+  }
+  {
+    id: 5800
+    name: 敌方全体穿甲值加200点
+    summon_order: "4234"
+  }
+  {
+    id: 5801
+    name: 我方除队长外单位伤害下降50%
+    summon_order: "4235"
+  }
+  {
+    id: 5802
+    name: 开场我方第二排生成燃烧区域每10帧50点编制伤害，持续10秒
+    summon_order: "4236"
+  }
+  {
+    id: 5803
+    name: 每10秒对敌我双方血量最高单位造成10%最大生命值的伤害
+    summon_order: "4237"
+  }
+  {
+    id: 5804
+    name: 战区燃烧区域第二排
+    creation_order: "8827"
+    creation_delay: "30"
+  }
+  {
+    id: 5805
+    name: 战区队长位判断
+    creation_order: "8828"
+  }
+  {
+    id: 5806
+    name: 10%最大生命值的伤害
+    creation_order: "8838"
+  }
+  {
     id: 5807
     name: 锁链射击
     action_order: "1,1"
@@ -20180,6 +20227,11 @@
     sound_delay: "0,3,6"
   }
   {
+    id: 8479
+    name: 100伤害
+    creation_order: "8977"
+  }
+  {
     id: 8480
     name: 万圣刽子手大招
     action_order: bossskillactive,bossskill
@@ -20271,6 +20323,76 @@
     scene_order: SeaDeck
     scene_play_speed: "300"
     scene_transition: "2"
+  }
+  {
+    id: 8489
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4243"
+  }
+  {
+    id: 8490
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4244"
+  }
+  {
+    id: 8491
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4245"
+  }
+  {
+    id: 8492
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4246"
+  }
+  {
+    id: 8493
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4247"
+  }
+  {
+    id: 8494
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4248"
+  }
+  {
+    id: 8495
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4249"
+  }
+  {
+    id: 8496
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4250"
+  }
+  {
+    id: 8497
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4251"
+  }
+  {
+    id: 8498
+    name: KH2002召唤
+    action_order: s
+    action_playspeed: "100"
+    summon_order: "4252"
   }
   {
     id: 9001

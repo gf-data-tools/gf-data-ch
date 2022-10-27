@@ -29095,4 +29095,233 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 760101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+  }
+  {
+    id: 760102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 760103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 760104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|M327|MEET
+    text: GUN|M327|MEET
+    name: 交互1
+    camera: 1
+    delay: 1600
+    voice_code: MEET
+  }
+  {
+    id: 760105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|M327|DIALOGUE1
+    text: GUN|M327|DIALOGUE1
+    name: 交互2
+    camera: 1
+    delay: 1000
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 760106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|M327|DIALOGUE3
+    text: GUN|M327|DIALOGUE3
+    name: 交互3
+    camera: 1
+    delay: 1000
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 760107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|M327|ALLHALLOWS
+    text: GUN|M327|ALLHALLOWS
+    name: 交互4
+    camera: 1
+    delay: 1000
+    voice_code: ALLHALLOWS
+  }
+  {
+    id: 760108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|M327|GOATTACK
+    text: GUN|M327|GOATTACK
+    name: 交互5
+    camera: 1
+    delay: 1000
+    voice_code: GOATTACK
+  }
+  {
+    id: 760109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|M327|DIALOGUEWEDDING
+    text: GUN|M327|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 760110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|M327|SOULCONTRACT
+    text: GUN|M327|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    delay: 500
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 760111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 760112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|M327|HELLO
+    text: GUN|M327|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: HELLO
+  }
+  {
+    id: 760113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 760114
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|M327|DIALOGUE2
+    text: GUN|M327|DIALOGUE2
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 760115
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|M327|ALLHALLOWS
+    text: GUN|M327|ALLHALLOWS
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: ALLHALLOWS
+  }
+  {
+    id: 760116
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|M327|RETREAT
+    text: GUN|M327|RETREAT
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 760117
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|M327|TIP
+    text: GUN|M327|TIP
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: TIP
+  }
+  {
+    id: 760118
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|M327|OPERATIONOVER
+    text: GUN|M327|OPERATIONOVER
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 760119
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|M327|BREAK
+    text: GUN|M327|BREAK
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: BREAK
+  }
+  {
+    id: 760120
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
 ]
