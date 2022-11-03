@@ -74543,6 +74543,191 @@
     is_die_delete: 1
   }
   {
+    id: 8967
+    name: MK47普通攻击
+    code: XDZY/XDZY_TY5_2
+    start_type: "8"
+    start_offset: "-60,3"
+    destination_type: "6"
+    decision_offset: "-54,3"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "8968,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_howitzer
+    edge_indicator: Pics/Squads/MK47_icon:2
+  }
+  {
+    id: 8968
+    name: MK47普通攻击结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2274"
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "8970"
+    trigger_creation_delay: "3"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 8969
+    name: MK47普通攻击追加
+    code: XDZY/XDZY_TY5_2
+    start_type: "8"
+    start_offset: "-60,3"
+    destination_type: "6"
+    decision_offset: "-54,3"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "8968,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 8970
+    name: MK47普通攻击结算范围2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2275"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8971
+    name: MK47普通攻击第三发
+    code: XDZY/XDZY_TY5_2
+    start_type: "8"
+    start_offset: "-60,3"
+    destination_type: "6"
+    decision_offset: "-54,3"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "8972,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 8972
+    name: MK47普通攻击第三发结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2276"
+    buff_id: 8529:1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "8970"
+    trigger_creation_delay: "3"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 8973
+    name: MK47空爆弹
+    code: XDZY/XDZY_TY5_2
+    start_type: "8"
+    start_offset: "-60,3"
+    destination_type: "6"
+    decision_offset: "-54,3"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "8974,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_howitzer
+    edge_indicator: Pics/Squads/MK47_icon:1
+  }
+  {
+    id: 8974
+    name: MK47空爆弹结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "2277"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "8975,8975,8975,8975"
+    trigger_creation_delay: "1,2,3,4"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 8975
+    name: MK47空爆弹结算范围2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "2277"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8976
+    name: MK47枪口火花2
+    code: XDZY/XDZY_TY1_1
+    start_type: "3"
+    start_offset: "1.5,0.9"
+    destination_type: "3"
+    destination_offset: "1.5,0.9"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+  }
+  {
     id: 8977
     name: 法球效果:特种弹
     start_type: "1"
@@ -89324,7 +89509,7 @@
     random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
     effect_area: 1
     scale: "1"
-    summoner_order: "149101"
+    summoner_order: "149111"
   }
   {
     id: 570126
@@ -89337,7 +89522,7 @@
     random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
     effect_area: 1
     scale: "1"
-    summoner_order: "149201"
+    summoner_order: "149211"
   }
   {
     id: 570127
@@ -89350,7 +89535,7 @@
     random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
     effect_area: 1
     scale: "1"
-    summoner_order: "149301"
+    summoner_order: "149311"
   }
   {
     id: 570128
@@ -89363,7 +89548,7 @@
     random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
     effect_area: 1
     scale: "1"
-    summoner_order: "149401"
+    summoner_order: "149411"
   }
   {
     id: 570129

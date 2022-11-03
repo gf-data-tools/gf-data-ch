@@ -20227,6 +20227,33 @@
     sound_delay: "0,3,6"
   }
   {
+    id: 8476
+    name: MK47榴弹攻击
+    creation_order: "8967,8969,8971"
+    creation_delay: "0,13,26"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "0,13,26"
+  }
+  {
+    id: 8477
+    name: MK47空爆弹弹攻击
+    creation_order: "8973,8973,8973"
+    creation_delay: "0,13,26"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "0,13,26"
+  }
+  {
+    id: 8478
+    name: MK47cutIn
+    action_order: wait,attack
+    action_delay: "0,5"
+    action_playspeed: "100,100"
+    creation_order: "8976,8976,8976,8976,8976,8976,8976,8976"
+    creation_delay: "6,9,12,15,18,21,24,27"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "11,14,17,20,23,26,29,32"
+  }
+  {
     id: 8479
     name: 100伤害
     creation_order: "8977"
@@ -20393,6 +20420,113 @@
     action_order: s
     action_playspeed: "100"
     summon_order: "4252"
+  }
+  {
+    id: 8499
+    name: 建筑师特殊攻击115
+    action_order: "101"
+    action_playspeed: "100"
+    creation_order: "330,26"
+    creation_delay: "20,20"
+  }
+  {
+    id: 8500
+    name: 炼金术士特殊攻击5365
+    action_order: skillposs1,skill,skillposs2
+    action_delay: "1,40,98"
+    action_playspeed: "100,100,100"
+    creation_order: "3682,3682,3682"
+    creation_delay: "48,60,72"
+  }
+  {
+    id: 8501
+    name: 代理人护盾持续395
+    action_order: skill2
+    action_delay: "60"
+    action_playspeed: "100"
+    creation_order: "881,884,885,887"
+    creation_delay: "125,0,43,0"
+  }
+  {
+    id: 8502
+    name: 伊莱莎全体伤害1929
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "2927,2942,2943,2944,2945"
+    creation_delay: "47,0,0,45,45"
+  }
+  {
+    id: 8503
+    name: 缇必杀斩击5696
+    action_order: s4,s5
+    action_delay: "0,25"
+    action_playspeed: "100,100"
+    creation_order: "8115,8116,8132,8138,8139,8142,8147,4062,4063"
+    creation_delay: "90,115,25,80,115,90,85,0,21"
+    move_order: "1006"
+    move_delay: "60"
+  }
+  {
+    id: 8504
+    name: 娜近战技能动作5540
+    action_order: spj
+    action_playspeed: "100"
+    creation_order: "5826,582601"
+    creation_delay: "40,41"
+    move_order: "831,832"
+    move_delay: "25,35"
+  }
+  {
+    id: 8505
+    name: 泳装
+    summon_order: "4253"
+  }
+  {
+    id: 8506
+    name: 万圣
+    summon_order: "4254"
+  }
+  {
+    id: 8507
+    name: 圣诞
+    summon_order: "4255"
+  }
+  {
+    id: 8508
+    name: 白情
+    summon_order: "4256"
+  }
+  {
+    id: 8509
+    name: 泳装换场景
+    scene_order: beach
+    scene_play_speed: "300"
+    scene_delay: "5"
+    scene_transition: "2"
+  }
+  {
+    id: 8510
+    name: 万圣换场景
+    scene_order: Cinema
+    scene_play_speed: "300"
+    scene_delay: "5"
+    scene_transition: "2"
+  }
+  {
+    id: 8511
+    name: 圣诞换场景
+    scene_order: snowland
+    scene_play_speed: "300"
+    scene_delay: "5"
+    scene_transition: "2"
+  }
+  {
+    id: 8512
+    name: 白情换场景
+    scene_order: wv_bgls
+    scene_play_speed: "300"
+    scene_delay: "5"
+    scene_transition: "2"
   }
   {
     id: 9001

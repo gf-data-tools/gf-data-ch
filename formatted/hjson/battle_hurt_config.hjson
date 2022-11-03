@@ -6204,6 +6204,54 @@
     hit_type: 1
   }
   {
+    id: 2274
+    description: MK46榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    defbreak_rate: "33"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: 1000004782
+  }
+  {
+    id: 2275
+    description: MK46护盾杀伤
+    extra_damage: *102
+    critical_hit_rate: "100"
+    hit_type: 1
+    is_ricochet: 100
+    fix_damage: 1000004783
+  }
+  {
+    id: 2276
+    description: MK46第三发榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    defbreak_rate: "33"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: 1000004782
+  }
+  {
+    id: 2277
+    description: MK46空爆弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    is_ricochet: 100
+    fix_damage: 1000004785
+  }
+  {
     id: 2278
     description: 法球100伤害子弹
     extra_damage: "100"

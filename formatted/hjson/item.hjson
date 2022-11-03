@@ -546,6 +546,26 @@
     detail_introduction: item-30000113
   }
   {
+    id: 114
+    type: 3
+    arg: "15"
+    code: Medal_Theater9th
+    item_name: 第九战区开拓者勋章
+    introduction: 表彰该指挥官及其麾下战术人形在第九期战区通过不懈努力收获的瞩目积分，“坠落的一瞬，只有翅膀足够强壮的雏鹰才能逆风飞翔。”
+    rank: 1
+    detail_introduction: item-30000114
+  }
+  {
+    id: 115
+    type: 3
+    arg: "16"
+    code: Medal_Theater9th_rank
+    item_name: 第九战区征服者勋章
+    introduction: 表彰该指挥官及其麾下战术人形在第九期战区立下的卓越战功，“不要害怕深渊的凝视，因为那是勇者必经的考验。”
+    rank: 1
+    detail_introduction: item-30000115
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -624,6 +644,16 @@
     introduction: 重装部队PP93的数据碎片，-“提问！早早在海边登陆的我们叫海藻，那么——”-“海滨目标区域的敌人叫海豹，这冷笑话你都讲几百遍了！”
     rank: 1
     detail_introduction: item-30000308
+  }
+  {
+    id: 309
+    type: 1
+    arg: "1"
+    code: CentreDataMK47
+    item_name: 中枢数据:Mk 47
+    introduction: 重装部队Mk 47的数据碎片，-“您的火力清扫服务已就绪，这次还是老规矩——”-“且慢，目测敌军数量超出预期……老板，得再加钱才行啊。”
+    rank: 1
+    detail_introduction: item-30000309
   }
   {
     id: 501
@@ -12724,6 +12754,26 @@
     detail_introduction: item-30002185
   }
   {
+    id: 2186
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_DSR50
+    item_name: DSR-50-昏晓私语
+    introduction: DSR-50-昏晓私语
+    rank: 1
+    detail_introduction: item-30002186
+  }
+  {
+    id: 2187
+    type: 5
+    arg: "1"
+    code: card_BattlePass_DSR50
+    item_name: 名片：圆桌酒保
+    introduction: 名片：圆桌酒保
+    rank: 1
+    detail_introduction: item-30002187
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -16021,7 +16071,7 @@
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
     item_name: *榴弹捕手
-    introduction: *直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    introduction: item-20140001
     rank: 1
     detail_introduction: item-30140001
   }
@@ -16031,7 +16081,7 @@
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
     item_name: *榴弹捕手
-    introduction: *直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    introduction: item-20140002
     rank: 1
     detail_introduction: item-30140002
   }
@@ -16041,7 +16091,7 @@
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
     item_name: *榴弹捕手
-    introduction: *直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    introduction: item-20140003
     rank: 1
     detail_introduction: item-30140003
   }
@@ -16051,9 +16101,29 @@
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
     item_name: *榴弹捕手
-    introduction: *直面一切突如其来的危险，并思索出完美规避，乃至反败为胜的策略，这是作为一名指挥官的生存之道。感到庆幸吧，至少现在向你飞来的坏东西，时速还远没有达到150公里。
+    introduction: item-20140004
     rank: 1
     detail_introduction: item-30140004
+  }
+  {
+    id: 140005
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    introduction: item-20140005
+    rank: 1
+    detail_introduction: item-30140005
+  }
+  {
+    id: 140006
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    introduction: item-20140006
+    rank: 1
+    detail_introduction: item-30140006
   }
   {
     id: 160001
@@ -16184,6 +16254,16 @@
     introduction: 头像框·巷角回音
     rank: 1
     detail_introduction: item-30200014
+  }
+  {
+    id: 200015
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_DSR50
+    item_name: 头像框·当仿生犬梦见电子酒
+    introduction: 头像框·当仿生犬梦见电子酒
+    rank: 1
+    detail_introduction: item-30200015
   }
   {
     id: 900030
@@ -16384,12 +16464,45 @@
   {
     id: 1500017
     type: 15
-    arg: "1500009"
+    arg: "1500017"
     code: package_choose
     item_name: 基础装备自选序标
     introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
     detail_introduction: item-31500017
+  }
+  {
+    id: 1500018
+    type: 15
+    arg: "1500018"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500018
+  }
+  {
+    id: 1500019
+    type: 15
+    arg: "1500019"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 打开时，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500019
+  }
+  {
+    id: 1500020
+    type: 15
+    arg: "1500020"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 打开时，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500020
   }
 ]

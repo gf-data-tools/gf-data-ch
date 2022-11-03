@@ -370,7 +370,7 @@
     {
         "id": 739,
         "name": "暴怒号令",
-        "desc": "爆伤提升50%",
+        "desc": "暴击伤害提升50%",
         "if_display": 1,
         "code": "fight_skill_buff102",
         "skill_group": "756135"
@@ -406,5 +406,53 @@
         "if_display": 1,
         "code": "fight_skill_buff202",
         "skill_group": "756147"
+    },
+    {
+        "id": 901,
+        "name": "力不从心",
+        "desc": "我方全体暴击率上升50%，但暴击伤害下降80%",
+        "if_display": 1,
+        "code": "fight_skill_buff107",
+        "skill_group": "756193"
+    },
+    {
+        "id": 902,
+        "name": "击搏挽裂",
+        "desc": "我方全体伤害下降50%，同时赋予敌方全体100%易伤",
+        "if_display": 1,
+        "code": "fight_skill_buff301",
+        "skill_group": "756195"
+    },
+    {
+        "id": 903,
+        "name": "冰消瓦解",
+        "desc": "敌方全体穿甲值增加200点",
+        "if_display": 1,
+        "code": "fight_skill_buff205",
+        "skill_group": "756198"
+    },
+    {
+        "id": 904,
+        "name": "同舟之殇",
+        "desc": "我方除了队长以外的单位伤害下降20%",
+        "if_display": 1,
+        "code": "fight_skill_buff108",
+        "skill_group": "756200"
+    },
+    {
+        "id": 905,
+        "name": "燃烧打击Ⅱ",
+        "desc": "开场在我方第二排生成燃烧区域，每0.33秒造成50点编制伤害，持续10秒",
+        "if_display": 1,
+        "code": "fight_skill_hurt104",
+        "skill_group": "756202"
+    },
+    {
+        "id": 906,
+        "name": "巨人痛击",
+        "desc": "每隔10秒对敌我双方血量最高的单位造成10%最大生命值的伤害",
+        "if_display": 1,
+        "code": "fight_skill_hurt301",
+        "skill_group": "756204"
     }
 ]
