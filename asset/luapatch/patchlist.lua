@@ -274,7 +274,9 @@ patch3010={
 --"3010/SettingController",
 --"3010/language/FactoryDevelopLogController",
 "3010/AdjustAdjutantScaleController",		
-"3010/BattleController",		
+"3010/BattleController",
+"3010/CommonSangvisCharacterListController",
+"3010/CommonCharacterListLabelControlerNew",
 }
 -- va11
 print("load Va11");
