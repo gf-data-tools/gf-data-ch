@@ -228,7 +228,8 @@ patch3010={
 "3010/FetterStoryController",
 "3010/OPSPanelController",
 "3010/OPSSpineControl",	
-"3010/OPSPanelMissionHolder",		
+"3010/OPSPanelMissionHolder",
+--"3010/OPSPanelSpot",			
 "3010/SpecialMissionInfoController",	
 "3010/MissionSelectionOperationBarController",
 "3010/SkillManager",
@@ -277,6 +278,7 @@ patch3010={
 "3010/BattleController",
 "3010/CommonSangvisCharacterListController",
 "3010/CommonCharacterListLabelControlerNew",
+"3010/TheaterEchelonSelection",	
 }
 -- va11
 print("load Va11");
