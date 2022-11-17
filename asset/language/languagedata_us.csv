@@ -959,7 +959,7 @@ BATTLE,10197,融合势力梯队部署数量已达上限。(todo),,0
 BATTLE,10198,重装部队部署数量已达上限。(todo),,0
 BATTLE,10199,非重装梯队部署数量已达上限。(todo),,0
 BATTLE,10200,敌方战力太强，请避免交战(todo),,0
-BATTLE,10201,是否终止自动战斗(todo),,0
+BATTLE,10201,是否终止代理作战(todo),,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1575,10 +1575,12 @@ DEPLOYMENT,30501,代理作战(todo),,0
 DEPLOYMENT,30502,代理介入中…(todo),,0
 DEPLOYMENT,30503,敌方梯队(todo),,0
 DEPLOYMENT,30504,机动作战(todo),,0
-DEPLOYMENT,30505,当前战斗存在困难，将中断自动战斗(todo),,0
+DEPLOYMENT,30505,当前战斗存在困难，将中断代理作战(todo),,0
 DEPLOYMENT,30506,受到效果影响，当前梯队移动所需的行动点不足，不能进行移动(todo),,0
 DEPLOYMENT,30507,即将修复以下人形(todo),,0
 DEPLOYMENT,30508,资源消耗<Color=#FF5B22FF>（快速修理）</Color>(todo),,0
+DEPLOYMENT,30509,当前没有可以使用的自建梯队(todo),,0
+DEPLOYMENT,30510,是否开启代理作战(todo),,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -2102,6 +2104,9 @@ DORM,31944,获取(todo),,0
 DORM,31945,打开补偿(todo),,0
 DORM,31946,部分奖励因达到上限无法领取更多，请查看奖励柜。(todo),,0
 DORM,31947,选择回收芯片星级(todo),,0
+DORM,31948,点赞次数：<color=#ffb400>{0}/{1}</color>(todo),,0
+DORM,31949,获得友情点数:(todo),,0
+DORM,31950,今日完成点赞次数:(todo),,0
 FACTORY,32000,Start,,0
 FACTORY,32001,Production complete,,0
 FACTORY,32002,Produce T-Doll,,0
@@ -2416,6 +2421,8 @@ FACTORY,32322,1.根据投入资源比例的不同，可获取的妖精类型比�
 FACTORY,32323,当前建造公式下，高档位收益极低！(todo),,0
 FACTORY,32324,妖精重型制造(todo),,0
 FACTORY,32325,*使用推荐公式，可以极大提高对应妖精种类的出率(todo),,0
+FACTORY,32326,(新的回归锚定将重置现有回归锚定进度，请及时完成建造)(todo),,0
+FACTORY,32327,请在剩余时间内使用格里芬指挥官回归锚定构筑福利(todo),,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2868,7 +2875,7 @@ QUESTS,38090,购买{0}级，升至{1}级获得已解锁奖励(todo),,0
 QUESTS,38091,*累计勋章可解锁奖励(todo),,0
 QUESTS,38092,剩余时间（周）(todo),,0
 QUESTS,38093,等级大于45级时，每增加1级可获得(todo),,0
-QUESTS,38094,通行证等级达到<Color=#ffb300>45</Color>级后可以购买(todo),,0
+QUESTS,38094,前线协议等级达到<Color=#ffb300>{0}</Color>级后可以购买(todo),,0
 QUESTS,38095,45级(todo),,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
@@ -4793,6 +4800,9 @@ FRIEND,110061,默认头像(todo),,0
 FRIEND,110062,当前没有可以使用的自建梯队(todo),,0
 FRIEND,110063,友情点数，/n点赞{0}/{1}/n支援系统{2}/{3}(todo),,0
 FRIEND,110064,友情点数：{0}/{1}次(todo),,0
+FRIEND,110065,特价(todo),,0
+FRIEND,110066,剩余{0}天{1}时{2}分(todo),,0
+FRIEND,110067,限购{0}/{1}(todo),,0
 BINGO,120001,Random draw,,0
 BINGO,120002,Cancel draw,,0
 BINGO,120003,Choose number,,0
