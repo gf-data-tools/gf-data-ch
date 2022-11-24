@@ -26680,7 +26680,7 @@
     name: 交互1
     camera: 1
     is_hurt: 1
-    next_motions: "300"
+    delay: 300
     voice_code: BREAK
   }
   {
@@ -26720,7 +26720,7 @@
     name: 交互4
     camera: 1
     is_hurt: 1
-    next_motions: "1000"
+    delay: 1000
     voice_code: FEED
   }
   {
@@ -26747,7 +26747,7 @@
     camera: 1
     is_hurt: 1
     is_interrupt: 1
-    next_motions: "5000"
+    delay: 5000
     voice_code: HELLO
   }
   {
@@ -29317,6 +29317,230 @@
   }
   {
     id: 760120
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 770601
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+  }
+  {
+    id: 770602
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 770603
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 770604
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|56-1type|WIN
+    text: GUN|56-1type|WIN
+    name: 交互1
+    camera: 1
+    voice_code: WIN
+  }
+  {
+    id: 770605
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|56-1type|DIALOGUE1
+    text: GUN|56-1type|DIALOGUE1
+    name: 交互2
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 770606
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|56-1type|BLACKACTION
+    text: GUN|56-1type|BLACKACTION
+    name: 交互3
+    camera: 1
+    voice_code: BLACKACTION
+  }
+  {
+    id: 770607
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|56-1type|LOADING
+    text: GUN|56-1type|LOADING
+    name: 交互4
+    camera: 1
+    voice_code: LOADING
+  }
+  {
+    id: 770608
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|56-1type|DIALOGUE3
+    text: GUN|56-1type|DIALOGUE3
+    name: 交互5
+    camera: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 770609
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|56-1type|DIALOGUEWEDDING
+    text: GUN|56-1type|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 770610
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|56-1type|SOULCONTRACT
+    text: GUN|56-1type|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 770611
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    voice: GUN|56-1type|MOOD2
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 770612
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|56-1type|FORMATION
+    text: GUN|56-1type|FORMATION
+    name: 上线响应
+    camera: 1
+    voice_code: FORMATION
+  }
+  {
+    id: 770613
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 770614
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|56-1type|PHRASE
+    text: GUN|56-1type|PHRASE
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: PHRASE
+  }
+  {
+    id: 770615
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|56-1type|DIALOGUE3
+    text: GUN|56-1type|DIALOGUE3
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 770616
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|56-1type|MEET
+    text: GUN|56-1type|MEET
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: MEET
+  }
+  {
+    id: 770617
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|56-1type|FEED
+    text: GUN|56-1type|FEED
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: FEED
+  }
+  {
+    id: 770618
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: body1
+    probability: 1.0
+    voice: GUN|56-1type|BREAK
+    text: GUN|56-1type|BREAK
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 770619
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|56-1type|SKILL1
+    text: GUN|56-1type|SKILL1
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 7500
+    voice_code: SKILL1
+  }
+  {
+    id: 770620
     type: 301
     motion_name: motions/shake.mtn
     probability: 1.0

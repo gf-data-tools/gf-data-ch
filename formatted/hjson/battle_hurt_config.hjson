@@ -6383,6 +6383,27 @@
     hit_type: 1
   }
   {
+    id: 2295
+    description: 燃烧持续伤害
+    extra_damage: "60"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2296
+    description: 600无视编制伤害 500力场破防
+    extra_damage: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    extra_defbreak: "500"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: 1000004897
+  }
+  {
     id: 2330
     description: 起源弹新
     damage_ratio: *202

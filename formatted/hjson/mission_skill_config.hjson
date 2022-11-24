@@ -63273,4 +63273,288 @@
     is_manual: 6430013
     drop_item: 522:1
   }
+  {
+    id: 95401001
+    name: 发动炮击
+    description:
+      '''
+      可以对范围3内的目标敌人造成100%当前血量伤害。
+      （伤害对Boss无效）
+      '''
+    lvup_description: mission_skill_config-125401001
+    skill_group_id: 95401001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 3
+    trigger_id: 100010091&&920000190
+    target_id: "102010190"
+    special_spot_add: 6510045:1
+    subsidiary_mission_skill: "95401008"
+    is_manual: 95401001
+  }
+  {
+    id: 95401002
+    name: 【标记】废弃大楼，限定初始减伤buff|终焉复刻秃洞序号55，这里用54错了
+    description: mission_skill_config-115401002
+    lvup_description: mission_skill_config-125401002
+    skill_group_id: 95401002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9332110:1
+  }
+  {
+    id: 95401003
+    name: 引爆
+    description: 引爆废弃建筑①
+    lvup_description: mission_skill_config-125401003
+    skill_group_id: 95401003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    trigger_id: 101010091&&112010191
+    target_id: 112010091&&112010191
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    special_spot_minus: 9332110:1,1120100:1,1120101:1
+    subsidiary_mission_skill: "95401010"
+    is_manual: 95401003
+  }
+  {
+    id: 95401004
+    name: 引爆
+    description: 引爆废弃建筑②
+    lvup_description: mission_skill_config-125401004
+    skill_group_id: 95401004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    trigger_id: 101010091&&112020191
+    target_id: 112020091&&112020191
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    special_spot_minus: 9332110:1,1120200:1,1120201:1
+    subsidiary_mission_skill: "95401011"
+    is_manual: 95401004
+  }
+  {
+    id: 95401005
+    name: 引爆
+    description: 引爆废弃建筑③
+    lvup_description: mission_skill_config-125401005
+    skill_group_id: 95401005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    trigger_id: 101010091&&112030191
+    target_id: 112030091&&112030191
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    special_spot_minus: 9332110:1,1120300:1,1120301:1
+    subsidiary_mission_skill: "95401012"
+    is_manual: 95401005
+  }
+  {
+    id: 95401006
+    name: 引爆
+    description: 引爆废弃建筑④
+    lvup_description: mission_skill_config-125401006
+    skill_group_id: 95401006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    trigger_id: 101010091&&112040191
+    target_id: 112040091&&112040191
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    special_spot_minus: 9332110:1,1120400:1,1120401:1
+    subsidiary_mission_skill: "95401013"
+    is_manual: 95401006
+  }
+  {
+    id: 95401007
+    name: 引爆
+    description: 引爆废弃建筑⑤
+    lvup_description: mission_skill_config-125401007
+    skill_group_id: 95401007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    trigger_id: 101010091&&112050191
+    target_id: 112050091&&112050191
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    special_spot_minus: 9332110:1,1120500:1,1120501:1
+    subsidiary_mission_skill: "95401014"
+    is_manual: 95401007
+  }
+  {
+    id: 95401008
+    name: 【标记】炮击阵地冷却1回合
+    description: mission_skill_config-115401008
+    lvup_description: mission_skill_config-125401008
+    skill_group_id: 95401008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9200001:1
+  }
+  {
+    id: 95401009
+    name: 弱化Boss
+    description: 发动后能让Boss变弱亿点点。
+    lvup_description: mission_skill_config-125401009
+    skill_group_id: 95401009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100020091"
+    target_id: "1"
+    special_spot_minus: 1000200:1
+    is_manual: 95401009
+  }
+  {
+    id: 95401010
+    name: 【标记】废弃建筑1已被踹
+    description: mission_skill_config-115401010
+    lvup_description: mission_skill_config-125401010
+    skill_group_id: 95401010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    target_id: "101010091"
+    special_spot_minus: 1120101:1
+    is_manual: 95401007
+  }
+  {
+    id: 95401011
+    name: 【标记】废弃建筑2已被踹
+    description: mission_skill_config-115401011
+    lvup_description: mission_skill_config-125401011
+    skill_group_id: 95401011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    target_id: "101010091"
+    special_spot_minus: 1120201:1
+    is_manual: 95401007
+  }
+  {
+    id: 95401012
+    name: 【标记】废弃建筑3已被踹
+    description: mission_skill_config-115401012
+    lvup_description: mission_skill_config-125401012
+    skill_group_id: 95401012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    target_id: "101010091"
+    special_spot_minus: 1120301:1
+    is_manual: 95401007
+  }
+  {
+    id: 95401013
+    name: 【标记】废弃建筑4已被踹
+    description: mission_skill_config-115401013
+    lvup_description: mission_skill_config-125401013
+    skill_group_id: 95401013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    target_id: "101010091"
+    special_spot_minus: 1120401:1
+    is_manual: 95401007
+  }
+  {
+    id: 95401014
+    name: 【标记】废弃建筑5已被踹
+    description: mission_skill_config-115401014
+    lvup_description: mission_skill_config-125401014
+    skill_group_id: 95401014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 4
+    target_id: "101010091"
+    special_spot_minus: 1120501:1
+    is_manual: 95401007
+  }
+  {
+    id: 95401015
+    name: 【标记】污染源【回合/移动伤害】
+    description: mission_skill_config-115401015
+    lvup_description: mission_skill_config-125401015
+    skill_group_id: 95401015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 2
+    special_spot_add: 1000028:1,1000048:1
+  }
+  {
+    id: 95401016
+    name: 【标记】军方2格移动buff
+    description: mission_skill_config-115401016
+    lvup_description: mission_skill_config-125401016
+    skill_group_id: 95401016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9550101:1
+    mission_buff_add: 6540238:1
+  }
+  {
+    id: 95401017
+    name: 【标记】敌方坦克标记
+    description: mission_skill_config-115401017
+    lvup_description: mission_skill_config-125401017
+    skill_group_id: 95401017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 1020101:1
+  }
 ]

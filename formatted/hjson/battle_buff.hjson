@@ -27917,6 +27917,16 @@
     boss_available: 1
   }
   {
+    id: 4871
+    name: 移速下降屏蔽
+    conflict_type: 332
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
     id: 5021
     name: 炮狙蓄力层数特效1
     conflict_type: 503
@@ -41551,6 +41561,72 @@
     conflict_type: 2195
     max_tier: 10
     type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8616
+    name: 战区冷却缩减1
+    conflict_type: 2035
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "45"
+    boss_available: 1
+    is_form_play: 1
+    cdr_number: "70"
+  }
+  {
+    id: 8617
+    name: 战区冷却缩减2
+    conflict_type: 2034
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "45"
+    boss_available: 1
+    is_form_play: 1
+    cdr_number: "71"
+  }
+  {
+    id: 8631
+    name: 沃克持续射速下降技能
+    conflict_type: 2207
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750616"
+  }
+  {
+    id: 8633
+    name: PKP装备
+    conflict_type: 2179
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8634
+    name: PKP影响格
+    conflict_type: 2179
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "759068"
+  }
+  {
+    id: 8635
+    name: PKP影响格人数
+    conflict_type: 2179
+    max_tier: 5
+    type: 400
     duration_type: 1
     duration: "99999"
     boss_available: 1

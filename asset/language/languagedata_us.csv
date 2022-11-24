@@ -15,7 +15,7 @@ NUM,13,13,,0
 NUM,14,14,,0
 NUM,15,15,,0
 NUM,16,Skill CD ,,0
-NUM,17,Max,,0
+NUM,17,Lv.,,0
 COMMON,1000,Gifts,,0
 COMMON,1001,Costume,,0
 COMMON,1002,EXP,,0
@@ -64,7 +64,7 @@ COMMON,1044,Gems,,0
 COMMON,1045,Contract,,0
 COMMON,1046,T-Doll Contract,,0
 COMMON,1047,Quick Production,,0
-COMMON,1048,装备&妖精制造契约(todo),,0
+COMMON,1048,Equipment Contract,,0
 COMMON,1049,Quick Training,,0
 COMMON,1050,Manpower,,0
 COMMON,1051,MANPOWER,,0
@@ -202,7 +202,7 @@ COMMON,1182,Training Complete,,0
 COMMON,1183,Move to,,0
 COMMON,1184,Wave,,0
 COMMON,1185,Already received,,0
-COMMON,1186,Level,,0
+COMMON,1186,Lv,,0
 COMMON,1187,Rarity,,0
 COMMON,1188,Acquire //nSequence,,0
 COMMON,1189,ID,,0
@@ -222,7 +222,7 @@ COMMON,1202,T-Doll Production Slot,,0
 COMMON,1203,Repair Slot,,0
 COMMON,1204,T-Doll Slots,,0
 COMMON,1205,Equipment Storage,,0
-COMMON,1206,装备&妖精制造栏位(todo),,0
+COMMON,1206,Equipment Production Slot,,0
 COMMON,1207,Dorm limit,,0
 COMMON,1208,Logistic support,,0
 COMMON,1209,Operation Ended,,0
@@ -342,7 +342,7 @@ COMMON,1322,Search,,0
 COMMON,1323,Delete all,,0
 COMMON,1324,My ID:,,0
 COMMON,1325,Search by UID,,0
-COMMON,1326,友情点数(todo),,0
+COMMON,1326,Friend Points,,0
 COMMON,1327,Buy more,,0
 COMMON,1328,Appearance,,0
 COMMON,1329,Background,,0
@@ -724,15 +724,15 @@ COMMON,1722,and,,0
 COMMON,1723,<color=#ffb400ff>privacy policy of Girls' Frontline</color>.,,0
 COMMON,1724,Please read and agree to the terms and conditions and privacy policy of Girls' Frontline.,,0
 COMMON,1725,Privacy policy,,0
-COMMON,1726,Level,,0
+COMMON,1726,Lv.,,0
 COMMON,1727,Points,,0
-COMMON,1728,,,0
+COMMON,1728,Points,,0
 COMMON,1729,New,,0
 COMMON,1730,Completed,,0
 COMMON,1731,No. {0},,0
 COMMON,1732,/,,0
 COMMON,1733,MOD,,0
-COMMON,1734,Level {0},,0
+COMMON,1734,Lv. {0},,0
 COMMON,1735,Max. Level,,0
 COMMON,1736,Exploring,,0
 COMMON,1737,Animation,,0
@@ -742,29 +742,32 @@ COMMON,1740,Level,,0
 COMMON,1741,End,,0
 COMMON,1742,Available Assistants,,0
 COMMON,1743,T-Doll Assistant,,0
-COMMON,1746,四项资源(todo),,0
-COMMON,1747,包含人力、弹药、口粮、零件各<color=#FFB400FF>{0}</color>(todo),,0
-COMMON,1748,失去道具(todo),,0
-COMMON,1749,角色动态(todo),,0
-COMMON,1750,即将删除本地所有资源文件，并重新下载完整数据包！！！//n长按激活确认按钮以继续操作(todo),,0
-COMMON,1751,（长按3秒确认按钮以激活后续操作）(todo),,0
-COMMON,1752,请在 <color=red>{0}</color> 秒内完成确认//n是否删除本地所有资源文件，并重新下载完整数据包？(todo),,0
-COMMON,1754,前往(todo),,0
-COMMON,1755,购买(todo),,0
-COMMON,1756,角色台词(todo),,0
-COMMON,1757,当前场景无法跳转(todo),,0
-COMMON,1758,购买成功，增量补给已解锁！(todo),,0
-COMMON,1759,获得奖励(todo),,0
-COMMON,1760,资源损坏！(todo),,0
-COMMON,1761,将任一非原型妖精培养至5星100级解锁该功能(todo),,0
-COMMON,1762,重新登陆(todo),,0
-COMMON,1763,指挥官服装：{0}(todo),,0
-COMMON,1764,执行方针：{0}(todo),,0
-COMMON,1765,加成总览(todo),,0
-COMMON,1766,全部领取(todo),,0
-COMMON,1767,重复获得的物品{0}已被自动转换为{1}*{2}(todo),,0
-COMMON,1768,{0}天{1}时(todo),,0
-COMMON,1769,梯队已自动修复(todo),,0
+COMMON,1744,Base Management,,0
+COMMON,1745,Background Settings,,0
+COMMON,1746,Resources,,0
+COMMON,1747,Includes Manpower//c Ammo//c Rations and Parts *<color=#FFB400FF>{0}</color>,,0
+COMMON,1748,Lost Items,,0
+COMMON,1749,Character Animation,,0
+COMMON,1750,//nAll local resource files are about to be deleted! Full data pack will be re-downloaded!!!,,0
+COMMON,1751,(Long-press for 3 seconds to continue),,0
+COMMON,1752,Please confirm within <color=red>{0}</color> seconds.//nDelete all local files and re-download full data pack?,,0
+COMMON,1754,Move to,,0
+COMMON,1755,Purchase,,0
+COMMON,1756,Character Lines,,0
+COMMON,1757,This scene cannot be skipped.,,0
+COMMON,1758,Purchase complete. Additional Supplies have been unlocked!,,0
+COMMON,1759,Rewards Obtained,,0
+COMMON,1760,Resources damaged!,,0
+COMMON,1761,Raise any non-Prototype Fairy to 5-star and Level 100 to unlock this feature.,,0
+COMMON,1762,Login Again,,0
+COMMON,1763,,,0
+COMMON,1764,,,0
+COMMON,1765,,,0
+COMMON,1766,Collect all,,0
+COMMON,1767,,,0
+COMMON,1768,,,0
+COMMON,1769,,,0
+COMMON,1771,复制成功(todo),,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,0
 BATTLE,10002,WITHDRAW,,0
@@ -934,32 +937,33 @@ BATTLE,10170,New stage,,0
 BATTLE,10171,EXP,,0
 BATTLE,10172,Level-up requirements -,,0
 BATTLE,10173,Battle Rank,,0
-BATTLE,10174,Level,,0
+BATTLE,10174,Lv.,,0
 BATTLE,10175,Coalition Forces,,0
 BATTLE,10176,Gain,,0
-BATTLE,10177,<color=#E19808FF>Distinction</color>,,0
-BATTLE,10178,<color=#D65A18FF>Excellent</color>,,0
-BATTLE,10179,<color=#6E9234FF>Good</color>,,0
-BATTLE,10180,<color=#298B8BFF>Room for Improvement</color>,,0
-BATTLE,10181,<color=#81684DFF>Incomplete</color>,,0
+BATTLE,10177,<color=#E19808FF>S</color>,,0
+BATTLE,10178,<color=#D65A18FF>A</color>,,0
+BATTLE,10179,<color=#6E9234FF>B</color>,,0
+BATTLE,10180,<color=#298B8BFF>C</color>,,0
+BATTLE,10181,<color=#81684DFF>D</color>,,0
 BATTLE,10182,Continue,,0
 BATTLE,10183,On,,0
 BATTLE,10184,Off,,0
 BATTLE,10185,Auto,,0
 BATTLE,10187,EXP Gain,,0
 BATTLE,10188,Wave {0}/<color=#969696FF><size=30>{1} Waves</size></color>,,0
-BATTLE,10190,逻辑点不足，无法指挥人形移动。(todo),,0
-BATTLE,10191,逻辑点不足，无法使用技能。(todo),,0
-BATTLE,10192,人形正在换弹中，暂时无法使用该技能。(todo),,0
-BATTLE,10193,弹药量不足，无法使用技能。(todo),,0
-BATTLE,10194,技能冷却中，无法使用技能。(todo),,0
-BATTLE,10195,总梯队部署数量已达上限。(todo),,0
-BATTLE,10196,人形梯队部署数量已达上限。(todo),,0
-BATTLE,10197,融合势力梯队部署数量已达上限。(todo),,0
-BATTLE,10198,重装部队部署数量已达上限。(todo),,0
-BATTLE,10199,非重装梯队部署数量已达上限。(todo),,0
-BATTLE,10200,敌方战力太强，请避免交战(todo),,0
-BATTLE,10201,是否终止代理作战(todo),,0
+BATTLE,10189,Maximum <color=#FFB400FF>{0}</color> charges/Starts with<color=#FFB400FF>{1}</color> charges,,0
+BATTLE,10190,Insufficient brainpower//c cannot move T-Dolls,,0
+BATTLE,10191,Insufficient brainpower//c cannot perform planning,,0
+BATTLE,10192,T-Doll is reloading//c cannot use skill at the moment.,,0
+BATTLE,10193,Insufficient ammo. Unable to use skill.,,0
+BATTLE,10194,Skill on cooldown. Unable to use skill.,,0
+BATTLE,10195,You have reached the limit of total deployed echelons.,,0
+BATTLE,10196,You have reached the limit of deployed T-Doll echelons.,,0
+BATTLE,10197,You have reached the limit of deployed Coalition echelons.,,0
+BATTLE,10198,You have reached the limit of deployed HOC units.,,0
+BATTLE,10199,You have reached the limit of deployed non-HOC units.,,0
+BATTLE,10200,,,0
+BATTLE,10202,修复(todo),,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1045,7 +1049,7 @@ HOME,20072,Back,,0
 HOME,20073,Save,,0
 HOME,20074,Share,,0
 HOME,20075,Repeat again with the same Echelon,,0
-HOME,20076,<color=#e31414ff>This echelon consists of max-leveled T-Doll(s).</color>//n,,0
+HOME,20076,This echelon consists of max-leveled T-Doll(s).,,0
 HOME,20077,Handbook,,0
 HOME,20078,Wardrobe,,0
 HOME,20079,Battle Group,,0
@@ -1067,7 +1071,7 @@ HOME,20094,Important Information,,0
 HOME,20095,Go to event,,0
 HOME,20096,Level <color=#FFBE00FF>{0}</color>,,0
 HOME,20097,EXP {0}/{1},,0
-HOME,20098,Authentication Code,,0
+HOME,20098,UID: ,,0
 HOME,20099,Live2D Background,,0
 HOME,20100,Key Area,,0
 HOME,20101,Outer Area,,0
@@ -1076,28 +1080,39 @@ HOME,20103,No available rewards at the moment.,,0
 HOME,20104,Completed,,0
 HOME,20105,All rewards have been obtained.,,0
 HOME,20106,Reward collection deadline,,0
-HOME,20107,,,0
-HOME,20108,,,0
-HOME,20125,战术人形(todo),,0
-HOME,20126,战术妖精(todo),,0
-HOME,20127,重装部队(todo),,0
-HOME,20128,融合势力(todo),,0
-HOME,20129,人形装备(todo),,0
-HOME,20130,有可进行的评级测试(todo),,0
-HOME,20131,可领取(todo),,0
-HOME,20132,购买{0}级，升至{1}级获得以上奖励(todo),,0
-HOME,20133,完成该角色进化突破，可解锁此立绘。(todo),,0
-HOME,20134,PV重播(todo),,0
-HOME,20135,活动剩余时间(todo),,0
-HOME,20136,回归签到(todo),,0
-HOME,20137,回归任务(todo),,0
-HOME,20138,回归基金(todo),,0
-HOME,20139,回归商城(todo),,0
-HOME,20140,活动时间(todo),,0
-HOME,20141,第{0}轮奖励即将刷新(todo),,0
-HOME,20142,需要完成首通奖励后开启(todo),,0
-HOME,20143,MM月dd日HH时(todo),,0
-HOME,20144,日常玩法积分兑换规则(todo),,0
+HOME,20107,This reward has already been claimed,,0
+HOME,20108,Need {0} more points to claim reward,,0
+HOME,20109,Day {0} Supplies,,0
+HOME,20110,Collect,,0
+HOME,20111,Unlocks after logging in for {0} days during the event,,0
+HOME,20112,{0},,0
+HOME,20113,${0},,0
+HOME,20114,Sold out,,0
+HOME,20115,Purchase,,0
+HOME,20116,Event Ends In: {0},,0
+HOME,20117,Commander//c you have already topped up,,0
+HOME,20118,gem,,0
+HOME,20119,Total amount topped up (in gem),,0
+HOME,20120,Proceed to top up,,0
+HOME,20121,Handgun,,0
+HOME,20122,Desert Eagle,,0
+HOME,20123,On the <color=#FFB400FF>7th</color> day,,0
+HOME,20124,Obtain a <color=#FFB400FF>5-star T-Doll</color>,,0
+HOME,20125,Tactical Doll,,0
+HOME,20126,Tactical Fairy,,0
+HOME,20127,Heavy Ordnance Corps,,0
+HOME,20128,Coalition Forces,,0
+HOME,20129,T-Doll Equipment,,0
+HOME,20130,There is a grading evaluation which can be performed.,,0
+HOME,20131,Can be collected,,0
+HOME,20132,Purchase at Level {0}. Raise to Level {1} to unlock the rewards listed above.,,0
+HOME,20133,Complete this character's Progression Breakthrough to unlock this artwork.,,0
+HOME,20134,,,0
+HOME,20135,,,0
+HOME,20136,,,0
+HOME,20137,,,0
+HOME,20138,,,0
+HOME,20139,,,0
 DEPLOYMENT,30000,Deploy,,0
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,0
@@ -1185,7 +1200,7 @@ DEPLOYMENT,30083,Echelon deployment limit reached!,,0
 DEPLOYMENT,30084,Unable to move in the opposite direction!,,0
 DEPLOYMENT,30085,Unable to move in the opposite direction!,,0
 DEPLOYMENT,30086,Selected T-Doll is not damaged//c repairs are unnecessary.,,0
-DEPLOYMENT,30087,当前路径点无法进行紧急修复。（可在“战场说明-界面帮助”中查看各路径点作用）(todo),,0
+DEPLOYMENT,30087,Emergency repair can only be performed at deployment nodes.,,0
 DEPLOYMENT,30088,Proceed with strategic deployment,,0
 DEPLOYMENT,30089,Unable to retreat Echelon in Combat Simulation.,,0
 DEPLOYMENT,30090,This is the last Echelon on the battlefield//c unable to retreat.,,0
@@ -1215,10 +1230,10 @@ DEPLOYMENT,30113,The following T-Dolls will obtain a boost to their parameters w
 DEPLOYMENT,30114,turn ends,,0
 DEPLOYMENT,30115,All units//c swap to night vision mode,,0
 DEPLOYMENT,30116,Entering Night battle,,0
-DEPLOYMENT,30117,已部署梯队(todo),,0
+DEPLOYMENT,30117,Number of Echelons deployed,,0
 DEPLOYMENT,30118,Turns left,,0
 DEPLOYMENT,30119,Emergency Repair consumes twice as much resources!,,0
-DEPLOYMENT,30120,*紧急修复将无法获得金星奖章(todo),,0
+DEPLOYMENT,30120,Gold medals can't be obtained after using Emergency Repair,,0
 DEPLOYMENT,30121,Classified as:,,0
 DEPLOYMENT,30122,No Handguns(HG) in this Echelon//c the Echelon will have no vision in night battle!,,0
 DEPLOYMENT,30123,Daily Support Echelon limit exceeded!,,0
@@ -1358,15 +1373,15 @@ DEPLOYMENT,30259,Enemies will continually send reinforcements. Eliminate enemies
 DEPLOYMENT,30260,Echelon {0} changed from {1} to {2},,0
 DEPLOYMENT,30261,Echelon {0} retreated,,0
 DEPLOYMENT,30262,Echelon {0} became hostages,,0
-DEPLOYMENT,30263,Obtain victory <color=#FFBB00FF>within {0} turns</color> and have allied echelons eliminate <color=#FFA900>{1}</color> enemy targets//nWhile having <color=#FFBB00FF>no loss or Echelon withdrawal</color>,,0
-DEPLOYMENT,30264,Rescue {0} T-Doll(s) within {1} turns//nWhile having <color=#FFBB00FF>no loss or Echelon withdrawal</color>,,0
-DEPLOYMENT,30265,Obtain victory <color=#FFBB00FF>within {0} turns</color>//c establish and defend the supply line for {1} turns//nWhile having <color=#FFBB00FF>no loss or Echelon withdrawal</color>,,0
-DEPLOYMENT,30266,Arrive at the assigned location within <color=#ffb400ff>{0}</color> turns,,0
-DEPLOYMENT,30267,Capture the enemy Command Post within <color=#ffb400ff>{0}</color> turns,,0
-DEPLOYMENT,30268,Destroy all enemies within <color=#ffb400ff>{0}</color> turns,,0
-DEPLOYMENT,30269,Defeat the enemy boss within <color=#ffb400ff>{0}</color> turns,,0
-DEPLOYMENT,30270,Within <color=#ffb400ff>{0}</color> turns//c establish and defend a supply line for {1} turns,,0
-DEPLOYMENT,30271,Successfully rescue {1} T-Doll(s) within <color=#ffb400ff>{0}</color> turns,,0
+DEPLOYMENT,30263,Complete the mission <color=#CE8200FF>within {0} rounds</color>//c//n<color=#CE8200FF>without losing or withdrawing any echelons</color>//c and after destroying <color=#CE8200FF>{1}</color> enemy targets.,,0
+DEPLOYMENT,30264,Successfully rescue <color=#CE8200FF>{0}</color> T-Dolls<color=#CE8200FF>within {1} rounds</color>//n<color=#CE8200FF>without losing or withdrawing any echelons</color>.,,0
+DEPLOYMENT,30265,Complete the mission <color=#CE8200FF>within {0} rounds</color>//c//n<color=#CE8200FF>without losing or withdrawing any echelons</color>//c and after establishing a supply line for <color=#CE8200FF>{0}</color> rounds.,,0
+DEPLOYMENT,30266,Reach the indicated position within <color=#CE8200FF>{0}</color> rounds.,,1
+DEPLOYMENT,30267,Capture the enemy Command Post within <color=#CE8200FF>{0}</color> rounds.,,1
+DEPLOYMENT,30268,Eliminate all enemies within <color=#CE8200FF>{0}</color> rounds.,,1
+DEPLOYMENT,30269,Eliminate the enemy leader within <color=#CE8200FF>{0}</color> rounds.,,1
+DEPLOYMENT,30270,Establish and maintain a supply line for {1} rounds within <color=#CE8200FF>{0}</color> rounds.,,1
+DEPLOYMENT,30271,Successfully rescue {1} Dolls within <color=#CE8200FF>{0}</color> rounds.,,1
 DEPLOYMENT,30272,End the operation and calculate the score?//nCurrent score: {0}//nBest record: {1},,0
 DEPLOYMENT,30273,End the operation and calculate the score?//nCurrent score: {0} (New record),,0
 DEPLOYMENT,30274,T-Dolls rescued <color=#FFF700FF>{0}</color>/{1},,0
@@ -1417,7 +1432,7 @@ DEPLOYMENT,30318,Night battle guide,,0
 DEPLOYMENT,30319,Commander//c this enemy is detected to be extremely strong. Confirm to attack?,,0
 DEPLOYMENT,30320,Commander//c this enemy is detected to have a very strong damage reduction field. It will be difficult to achieve victory without HOC fire support. Confirm to attack?,,0
 DEPLOYMENT,30321,Reward list,,0
-DEPLOYMENT,30322,Complete the mission <color=#FFBB00FF>in {0} turns</color>//nwith <color=#FFBB00FF>no loss or Echelon withdrawal</color>,,0
+DEPLOYMENT,30322,You must complete the mission <color=#CE8200FF>within {0} rounds</color>//ncolor=#CE8200FF>with no retreats or losses</color>.,,0
 DEPLOYMENT,30323,The number of remaining enemies is unknown,,0
 DEPLOYMENT,30324,*Press on an icon to see the location of the reward as long as you have vision over the area,,0
 DEPLOYMENT,30325,Demolished,,0
@@ -1553,34 +1568,45 @@ DEPLOYMENT,30461,Repair and Supply Point Description (Temporary),,0
 DEPLOYMENT,30462,or,,0
 DEPLOYMENT,30463,Condition for failure,,0
 DEPLOYMENT,30464,Scene Change: {0},,0
-DEPLOYMENT,30479,战斗模式含不同特征，结合敌人信息、梯队信息，合理安排梯队编成配置。(todo),,0
-DEPLOYMENT,30480,战场效果包含各种针对我方或敌方的有利/不利影响，请仔细关注不同战场效果，针对局势合理安排出击梯队。(todo),,0
-DEPLOYMENT,30485,新增(todo),,0
-DEPLOYMENT,30486,删除(todo),,0
-DEPLOYMENT,30487,历史(todo),,0
-DEPLOYMENT,30488,需要在<color=#CE8200FF>无损失或无梯队撤离</color>的情况下(todo),,0
-DEPLOYMENT,30489,需要在<color=#CE8200FF>损失{0}个以内的梯队或修理{0}次以内的次数</color>的情况下(todo),,0
-DEPLOYMENT,30490,<color=#CE8200FF>在{0}回合内</color>胜利(todo),,0
-DEPLOYMENT,30491,并且我方梯队消灭<color=#CE8200FF>{0}个</color>敌对目标(todo),,0
-DEPLOYMENT,30492,并且成功救援<color=#CE8200FF>{0}个</color>人形(todo),,0
-DEPLOYMENT,30493,建立并坚守补给线<color=#CE8200FF>{0}回合</color>(todo),,0
-DEPLOYMENT,30494,已解锁(todo),,0
-DEPLOYMENT,30495,作战指令传达中……(todo),,0
-DEPLOYMENT,30496,等待敌方行动中……(todo),,0
-DEPLOYMENT,30497,等待友方行动中……(todo),,0
-DEPLOYMENT,30498,等待第三方行动中……(todo),,0
-DEPLOYMENT,30499,已部署非重装梯队(todo),,0
-DEPLOYMENT,30500,天赋II发动(todo),,0
-DEPLOYMENT,30501,代理作战(todo),,0
-DEPLOYMENT,30502,代理介入中…(todo),,0
-DEPLOYMENT,30503,敌方梯队(todo),,0
-DEPLOYMENT,30504,机动作战(todo),,0
-DEPLOYMENT,30505,当前战斗存在困难，将中断代理作战(todo),,0
-DEPLOYMENT,30506,受到效果影响，当前梯队移动所需的行动点不足，不能进行移动(todo),,0
-DEPLOYMENT,30507,即将修复以下人形(todo),,0
-DEPLOYMENT,30508,资源消耗<Color=#FF5B22FF>（快速修理）</Color>(todo),,0
-DEPLOYMENT,30509,当前没有可以使用的自建梯队(todo),,0
-DEPLOYMENT,30510,是否开启代理作战(todo),,0
+DEPLOYMENT,30465,While losing no more than {0} echelons or repairing no more than {0} echelons,,0
+DEPLOYMENT,30466,Skill>,,0
+DEPLOYMENT,30467,<Details,,0
+DEPLOYMENT,30468,Battlefield Description,,0
+DEPLOYMENT,30469,Mission Objective,,0
+DEPLOYMENT,30470,Grading Conditions,,0
+DEPLOYMENT,30471,Battle Mode,,0
+DEPLOYMENT,30472,Battlefield Effects,,0
+DEPLOYMENT,30473,(Completing the stage with a gold medal will award an Excellent combat grade and gives a chance of obtaining better rewards.,,0
+DEPLOYMENT,30474,(Completing the stage with an Excellent grade gives a chance of obtaining better rewards.),,0
+DEPLOYMENT,30475,Conditions for achieving an Excellent grade,,0
+DEPLOYMENT,30476,Combat Simulation Explanation,,0
+DEPLOYMENT,30477,Night Battle Explanation,,0
+DEPLOYMENT,30478,Night Battle Field of Vision,,0
+DEPLOYMENT,30479,Battle simulations have different features. Please take the enemy and your echelons' information into consideration before planning your echelon deployment.,,0
+DEPLOYMENT,30480,Battlefield effects include positive and negative circumstances for friendly and enemy units. Please pay close attention to the various battlefield effects when deploying your units.,,0
+DEPLOYMENT,30481,There are no special battlefield effects in play on this stage.,,0
+DEPLOYMENT,30482,or,,0
+DEPLOYMENT,30483,Battlefield effect increased by <color=#ffb400>{0}</color>,,0
+DEPLOYMENT,30484,Battlefield effect decreased by <color=#ffb400>{0}</color>,,0
+DEPLOYMENT,30485,New,,0
+DEPLOYMENT,30486,Delete,,0
+DEPLOYMENT,30487,History,,0
+DEPLOYMENT,30488,Without <color=#CE8200FF>losing or retreating any echelons</color>,,0
+DEPLOYMENT,30489,While <color=#CE8200FF>losing no more than {0} echelons or repairing no more than {0} echelons</color>,,0
+DEPLOYMENT,30490,Win within <color=#CE8200FF>{0} rounds</color>,,0
+DEPLOYMENT,30491,while destroying <color=#CE8200FF>{0}</color> enemy targets,,0
+DEPLOYMENT,30492,while rescuing <color=#CE8200FF>{0}</color> Dolls,,0
+DEPLOYMENT,30493,Establish and maintain a supply line for <color=#CE8200FF>{0} rounds</color>.,,0
+DEPLOYMENT,30494,Unlocked,,0
+DEPLOYMENT,30495,Relaying combat command...,,0
+DEPLOYMENT,30496,Awaiting enemy's move...,,0
+DEPLOYMENT,30497,Awaiting ally's move...,,0
+DEPLOYMENT,30498,Awaiting third party's move...,,0
+DEPLOYMENT,30499,Non-HOC unit already deployed,,0
+DEPLOYMENT,30500,Talent II activated,,0
+DEPLOYMENT,30501,,,0
+DEPLOYMENT,30502,,,0
+DEPLOYMENT,30503,,,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -1750,7 +1776,7 @@ DORM,31553,and will consume,,0
 DORM,31554,Insufficient Surplus EXP!,,0
 DORM,31555,1. Condenser will collect electricity from the dormitory. Collection speed increases with the total Comfort of the dormitories.,,0
 DORM,31556,2. Collected electricity will be contained in the condenser until it reaches its capacity limit.,,0
-DORM,31557,3.每日10:00-14:00和18:00-01:00，可消耗电容中的全部电能，对电池进行充能。(todo),,0
+DORM,31557,3. Every day at 10:00-14:00[UTC-8]//c 18:00-01:00[UTC-8]//c electricity from the condenser can be collected and stored in batteries.,,0
 DORM,31558,4. Charged batteries can be used to develop facilities in auxiliary rooms.,,0
 DORM,31559,(upgrading),,0
 DORM,31560,(working),,0
@@ -1782,7 +1808,7 @@ DORM,31595,Daily collection remaining:,,0
 DORM,31596,<color=#FF0000FF>Reached today's limit for collecting batteries!</color>,,0
 DORM,31597,Will enter next friend's dormitory,,0
 DORM,31598,Duplicate icon has been converted to,,0
-DORM,31600,包含额外赠送的一份(todo),,0
+DORM,31600,contains an extra gift,,0
 DORM,31601, 's dorm,,0
 DORM,31602,Set info,,0
 DORM,31603,Trade In furniture,,0
@@ -1983,7 +2009,7 @@ DORM,31801,Remaining amount:,,1
 DORM,31802,Confirm to exchange for this product?,,0
 DORM,31803,In exploration//c unable to edit,,0
 DORM,31804,Cannot select leader of Echelon 1,,0
-DORM,31805,探索归来(todo),,0
+DORM,31805,Exploration completion reward:,,0
 DORM,31806,Exploration/Carrying,,0
 DORM,31807,Exploration timer {0}%,,0
 DORM,31808,Mid-exploration reward probability {0}%,,0
@@ -2071,7 +2097,7 @@ DORM,31899,Spring Festival,,0
 DORM,31900,Lunar New Year,,0
 DORM,31901,Wedding Dress,,0
 DORM,31902,Anniversary,,0
-DORM,31903,Children’s Day,,0
+DORM,31903,Children's Day,,0
 DORM,31904,Swimsuit,,0
 DORM,31905,Halloween,,0
 DORM,31906,Christmas,,0
@@ -2094,19 +2120,25 @@ DORM,31922,Level,,0
 DORM,31924,{0} Points,,0
 DORM,31925,Costumes,,0
 DORM,31926,New,,0
-DORM,31927,Level,,0
+DORM,31927,Lv.,,0
 DORM,31928,Head,,0
 DORM,31931,No messages for now,,0
 DORM,31932,{0}  Level {1},,0
-DORM,31933,<color=#ff0000ff>{0}  Level {1}}</color>,,0
-DORM,31943,下列物品数量达到上限，无法领取更多(todo),,0
-DORM,31944,获取(todo),,0
-DORM,31945,打开补偿(todo),,0
-DORM,31946,部分奖励因达到上限无法领取更多，请查看奖励柜。(todo),,0
-DORM,31947,选择回收芯片星级(todo),,0
-DORM,31948,点赞次数：<color=#ffb400>{0}/{1}</color>(todo),,0
-DORM,31949,获得友情点数:(todo),,0
-DORM,31950,今日完成点赞次数:(todo),,0
+DORM,31933,<color=#ff0000ff>{0}  Level {1}</color>,,0
+DORM,31934,This facility is at max level,,0
+DORM,31935,Will you spend {0} {1} to instantly finish writing {2}?,,0
+DORM,31936,Finished writing {0},,0
+DORM,31937,{0} {1},,0
+DORM,31938,No upgrade information currently available,,0
+DORM,31939,Activate quick completion,,0
+DORM,31940,Will expend,,0
+DORM,31941,Number of Dorms:,,0
+DORM,31942,Number of Dorms,,0
+DORM,31943,,,0
+DORM,31944,,,0
+DORM,31945,Open Compensation,,0
+DORM,31946,You have reached the max. capacity of some rewards and cannot obtain more. Please check the rewards shelves.,,0
+DORM,31947,,,0
 FACTORY,32000,Start,,0
 FACTORY,32001,Production complete,,0
 FACTORY,32002,Produce T-Doll,,0
@@ -2114,12 +2146,12 @@ FACTORY,32003,Complete immediately,,0
 FACTORY,32004,Production complete,,0
 FACTORY,32005,Heavy Production,,0
 FACTORY,32006,T-Doll Production Slot,,0
-FACTORY,32007,装备制造栏位解锁(todo),,0
+FACTORY,32007,Equipment Production Slot,,0
 FACTORY,32008,Production Log,,0
 FACTORY,32009,Start production,,0
 FACTORY,32010,LOCKED,,0
 FACTORY,32011,Remaining T-Doll Contracts,,0
-FACTORY,32012,装备&妖精制造剩余契约数量(todo),,0
+FACTORY,32012,Remaining Equipment Contracts,,0
 FACTORY,32013,Requirement,,0
 FACTORY,32014,Cost,,0
 FACTORY,32015,Using duplicate T-Dolls to Dummy Link can reduce Dummy Core consumption.,,0
@@ -2169,7 +2201,7 @@ FACTORY,32058,T-Doll Equipment,,0
 FACTORY,32059,Favorites list of T-Doll production records is full (50).,,0
 FACTORY,32060,Favorites list of equipment production records is full (50).,,0
 FACTORY,32061,Insufficient Contracts!,,0
-FACTORY,32062,装备&妖精制造契约不足！(todo),,0
+FACTORY,32062,Insufficient Equipment Contracts!,,0
 FACTORY,32063,Insufficient Cores,,0
 FACTORY,32064,Insufficient Production Contracts! Unable to produce.,,0
 FACTORY,32065,Please select T-Dolls or use capsules,,0
@@ -2211,9 +2243,9 @@ FACTORY,32100,As another of IOP's new experimental systems//c Equipment Heavy Pr
 FACTORY,32101,Unlock T-Doll Production Slot,,0
 FACTORY,32102,Core,,0
 FACTORY,32103,T-Doll Contract,,0
-FACTORY,32104,装备&妖精制造契约(todo),,0
+FACTORY,32104,Equipment Contract,,0
 FACTORY,32105,Quick Production,,0
-FACTORY,32106,装备制造栏位解锁(todo),,0
+FACTORY,32106,Unlock Equipment Production Slot,,0
 FACTORY,32107,Heavy Production,,0
 FACTORY,32108,Warning!//nThere are <color=#FFBE00FF>high leveled</color>/<color=#FFBE00FF>high rarity</color> units selected. Continue with enhancement?,,0
 FACTORY,32109,{0} gold medals are required to unlock this function.,,0
@@ -2231,7 +2263,7 @@ FACTORY,32120,Smart Select,,0
 FACTORY,32121,*Select only 2-star T-Dolls,,0
 FACTORY,32122,*Select only 2-star equipment,,0
 FACTORY,32123,Increase max limit,,0
-FACTORY,32124,推荐//n公式(todo),,0
+FACTORY,32124,Recommended Recipes,,0
 FACTORY,32125,MG Recipe,,0
 FACTORY,32126,MACHINE GUN,,0
 FACTORY,32127,SG Recipe,,0
@@ -2374,8 +2406,8 @@ FACTORY,32264,Production Ticket,,0
 FACTORY,32265,{0}D {1}H {2}M,,0
 FACTORY,32267,Unlock upon reaching Level {0},,0
 FACTORY,32268,Anchored Construction,,0
-FACTORY,32269,*仅可使用<color=#e7a300>{0}</color>推荐公式进行制造(todo),,0
-FACTORY,32270,*仅可使用<color=#e7a300>{0}</color>的<color=#e7a300>{1}阶</color>推荐公式进行制造(todo),,0
+FACTORY,32269,*Productions can only be conducted using recommended recipes <color=#ffb400>{0}</color>.,,0
+FACTORY,32270,*Productions can only be conducted using recommended <color=#ffb400>tier {1}</color> recipes <color=#ffb400>{0}</color>.,,0
 FACTORY,32271,Total,,0
 FACTORY,32272,This T-Doll has been produced through Anchored Construction.,,0
 FACTORY,32273,You have reached the max. number of Anchored Targets that can be successfully produced.,,0
@@ -2396,33 +2428,41 @@ FACTORY,32287,No target set for Anchored Construction,,0
 FACTORY,32288,This event is over,,0
 FACTORY,32289,Anchored Construction target set,,0
 FACTORY,32290,If the Anchored Target is produced successfully during a batch construction//c the rate of producing said Doll will be reset in the remaining constructions.,,0
-FACTORY,32291,Batch produce           Heavy T-Dolls via Anchored Construction,,0
-FACTORY,32292,Batch produce   T-Dolls via Anchored Construction,,0
+FACTORY,32291,Batch produce                            Heavy T-Dolls via Anchored Construction,,0
+FACTORY,32292,Batch produce                   T-Dolls via Anchored Construction,,0
 FACTORY,32293,Level,,0
 FACTORY,32294,---,,0
 FACTORY,32295,Anchored Construction in progress,,0
 FACTORY,32296,When the Anchored Target has not been produced via Anchored Construction//c the yield rate will increase with each construction.,,0
-FACTORY,32307,格里芬新人指挥官入职福利(todo),,0
-FACTORY,32308,可设置特定人形为<color=#ffb400>锚定目标</color>(todo),,0
-FACTORY,32309,新入职指挥官锚定构筑规则：//n1、指挥官可从人形列表中选择特定人形成为“锚定目标”，在锚定构筑界面点击“开始构筑”按钮，使用给定公式进行构筑；//n2、每次进行“锚定目标”的构筑，若本次构筑“锚定目标”失败，则下一次的构筑时会临时提升成功率，提升上限为100%；成功构筑“锚定目标”时，临时成功率会清零；//n3、构筑失败所提升的临时成功率，会跟随“锚定目标”进行保留，不会应为切换“锚定目标”而清零；//n4、在新入职指挥官锚定构筑中，单个“锚定目标”只能被成功构筑1次，最多可通过“锚定目标”成功构筑2个人形，活动将在成功构筑2个人形之后结束；//n5、累计指定的锚定构筑次数后，锚定目标将必定构筑成功；//n6、“锚定目标”构筑成功初始几率与“工厂制造”无关。(todo),,0
-FACTORY,32310,当前没有空闲的制造栏位，无法进行锚定构筑。(todo),,0
-FACTORY,32311,指定装备契约：(todo),,0
-FACTORY,32312,开始建造(todo),,0
-FACTORY,32313,*默认将使用全部空闲栏位(todo),,0
-FACTORY,32314,锁定制造公式(todo),,0
-FACTORY,32315,人形制造(todo),,0
-FACTORY,32316,I.O.P指定制造(todo),,0
-FACTORY,32317,装备重型制造(todo),,0
-FACTORY,32318,批量制造栏位(todo),,0
-FACTORY,32319,*该公式订单出现妖精时，为{0}妖精的概率{1}(todo),,0
-FACTORY,32320,妖精制造契约(todo),,0
-FACTORY,32321,点击进入(todo),,0
-FACTORY,32322,1.根据投入资源比例的不同，可获取的妖精类型比例也会发生变化。//n2.增援类和战役类妖精需要投入更多的资源才能获取。//n3.提高制造档位（消耗更多契约和替代核心）可以提升获取增援类和战役类妖精的概率。(todo),,0
-FACTORY,32323,当前建造公式下，高档位收益极低！(todo),,0
-FACTORY,32324,妖精重型制造(todo),,0
-FACTORY,32325,*使用推荐公式，可以极大提高对应妖精种类的出率(todo),,0
-FACTORY,32326,(新的回归锚定将重置现有回归锚定进度，请及时完成建造)(todo),,0
-FACTORY,32327,请在剩余时间内使用格里芬指挥官回归锚定构筑福利(todo),,0
+FACTORY,32297,Event Rules: //n 1. For the duration of this event//c specific T-Dolls on the list can be set as Anchored Targets. Tap "Start Construction" on the event page to perform an Anchored Construction with preset recipes.//n 2. During the event//c when the Anchored Target has not been produced via Anchored Construction//c the yield rate will increase with each construction until it reaches 100%. If the Anchored Target is produced successfully//c its yield rate will be reset to 0.//n 3.The yield rate of each Anchored Target will remain for the duration of this event and will not be reset upon switching Anchored Targets.//n 4. During this event//c only 1 T-Doll can be successfully produced as an Anchored Target via Anchored Construction. Each Anchored Target can only be successfully produced once.//n 5. After a certain number of construction attempts//c the Anchored Construction is guaranteed to succeed.//n 6. The yield rate of an Anchored Target is not related to the base rate in regular T-Doll Productions at the Factory.,,0
+FACTORY,32298,Insufficient T-Doll slots. Unable to proceed.//n Suggested solution:,,0
+FACTORY,32299,Insufficient Equipment slots. Unable to proceed.//n Suggested solution:,,0
+FACTORY,32300,Insufficient Fairy slots. Unable to proceed.//n Suggested solution:,,0
+FACTORY,32301,Insufficient Coalition Unit slots. Unable to proceed.//n Suggested solution:,,0
+FACTORY,32302,Fairy Recycle,,0
+FACTORY,32303,Coalition Unit Recycle,,0
+FACTORY,32304,Insufficient slots,,0
+FACTORY,32305,Insufficient depot capacity,,0
+FACTORY,32306,Infrastructure Expansion,,0
+FACTORY,32307,Benefits for newly-enlisted Griffin Commanders,,0
+FACTORY,32308,You may designate specific Dolls as <color=#ffb400>Anchored Targets</color>,,0
+FACTORY,32309,Anchored Production rules for new Commanders://n 1. Commanders can select a specific T-Doll from a list of event T-Dolls to be their Anchored Target. Click the "Start Production" button on the event interface and perform Production using the provided recipes.//n 2. During the event//c should an Anchored Production fail//c it will temporarily increase the success rate of the next Anchored Production//c to a maximum of 100%. This temporary increase will reset to 0 if the Anchored Target is obtained ahead of time.//n 3. The temporarily increased chance of success obtained through failed productions will be retained throughout the event and will not reset when the Anchored Target is changed.//n 4. For newly enlisted Commanders//c each Anchored Target can only be successfully produced once//c and a maximum of 2 Anchored Targets can be successfully produced. The event ends when 2 Anchored Targets have been successfully produced.//n 5. After performing the required number of Anchored Productions//c success in producing the Anchored Target is guaranteed. //n6. The initial success rate of Anchored Production is unrelated to Factory Productions.,,0
+FACTORY,32310,There are no free Production slots at the moment//c unable to perform Anchored Production.,,0
+FACTORY,32311,Designated Equipment Contract:,,0
+FACTORY,32312,Begin Construction,,0
+FACTORY,32313,*All idle slots will be used by default,,0
+FACTORY,32314,Lock Production Recipe,,0
+FACTORY,32315,T-Doll Production,,0
+FACTORY,32316,IOP Specified Production,,0
+FACTORY,32317,Heavy Equipment Production,,0
+FACTORY,32318,Batch Production Slot,,0
+FACTORY,32319,*When this recipe yields a Fairy//c the probability of it being a {0} Fairy is {1}.,,0
+FACTORY,32320,Fairy Production Contract,,0
+FACTORY,32321,Tap to Enter,,0
+FACTORY,32322,1. The ratio of the type of Fairy you obtain changes depending on the amount of resources invested.//n2. Reinforcement-type and Combat-type Fairies require more resources to obtain.//n3. Expending more contracts and cores increases the chance of obtaining Reinforcement-type and Combat-type Fairies.,,0
+FACTORY,32323,This production recipe is very unlikely to produce a high-quality yield.,,0
+FACTORY,32324,Fairy Production,,0
+FACTORY,32325,,,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2463,7 +2503,7 @@ DEVELOP,33036,Welcome to Fast Logistic Services//c using this service costs//n<c
 DEVELOP,33037,Confirm to spend {0}{1}{2}?,,0
 DEVELOP,33038,Confirm to spend {0} Gems to purchase Skill Training Slot?,,0
 DEVELOP,33039,Confirm to spend {0} Gems to purchase T-Doll Production Slot?,,0
-DEVELOP,33040,是否花费{0}钻石购买装备&妖精制造栏位？(todo),,0
+DEVELOP,33040,Confirm to spend {0} Gems to purchase Equipment Production Slot?,,0
 DEVELOP,33041,Your current number of T-Dolls has reached the max limit//nDo you want to spend {0} Gems to increase maximum T-Doll slots?,,0
 DEVELOP,33042,Your current number of equipment has reached the max limit//nDo you want to spend {0} Gems to increase equipment storage limit?,,0
 DEVELOP,33043,Your current number of fairies has reached the max limit//nDo you want to spend {0} Gems to increase the max limit?,,0
@@ -2487,7 +2527,7 @@ DEVELOP,33060,Sorry//c but Tactical Chips cannot be changed at the moment.,,0
 DEVELOP,33061,Units in this echelon require repair//c unable to deploy.,,0
 DEVELOP,33063,Quick//nRepair Contract,,0
 DEVELOP,33064,1 Quick Repair will be used,,0
-DEVELOP,33065,尚未解锁掉落关卡(todo),,0
+DEVELOP,33065,Stage with drops still locked,,0
 ILLUSTRATEDBOOK,35000,Tactical Dolls,,0
 ILLUSTRATEDBOOK,35001,TacticalGirls,,0
 ILLUSTRATEDBOOK,35002,Furniture,,0
@@ -2619,43 +2659,65 @@ ILLUSTRATEDBOOK,35130,Level 115,,0
 ILLUSTRATEDBOOK,35131,Level 120,,0
 ILLUSTRATEDBOOK,35132,Max. Level Effects,,0
 ILLUSTRATEDBOOK,35133,Max. Dummy-Link Effects,,0
-ILLUSTRATEDBOOK,35134,,,0
-ILLUSTRATEDBOOK,35157,勋章解锁(todo),,0
-ILLUSTRATEDBOOK,35158,过往荣誉(todo),,0
-ILLUSTRATEDBOOK,35159,光环加成为当前星级最低值。(todo),,0
-ILLUSTRATEDBOOK,35160,当前已装备如下徽章，请选择替换(todo),,0
-ILLUSTRATEDBOOK,35161,描述：(todo),,0
-ILLUSTRATEDBOOK,35162,获得途径：(todo),,0
-ILLUSTRATEDBOOK,35163,的勋章墙(todo),,0
-ILLUSTRATEDBOOK,35164,在个人名片中展示(todo),,0
-ILLUSTRATEDBOOK,35165,主线故事(todo),,0
-ILLUSTRATEDBOOK,35166,心智升级(todo),,0
-ILLUSTRATEDBOOK,35167,往事回忆(todo),,0
-ILLUSTRATEDBOOK,35168,装扮故事(todo),,0
-ILLUSTRATEDBOOK,35169,关联剧情(todo),,0
-ILLUSTRATEDBOOK,35170,该角色还没有关联剧情，敬请期待！(todo),,0
-ILLUSTRATEDBOOK,35171,1.每个在编的人形/妖精/重装部队/融合势力/其他角色可提供10/10/20/20/10点部门勋绩。//n2.达到100级即为精锐单位，每个精锐人形/妖精/重装部队/融合势力可额外提供1/1/2/2点部门勋绩。//n3.部门每获得50点勋绩即可提升1级部门级别，并解锁对应的级别奖励。//n4.部门级别奖励分为道具奖励和执行方针奖励，解锁执行方针奖励即可获取对应效果。//n5.不同部门由于人数上限不同，级别上限也不相同。(todo),,0
-ILLUSTRATEDBOOK,35172,已满级(todo),,0
-ILLUSTRATEDBOOK,35173,观看(todo),,0
-ILLUSTRATEDBOOK,35174,该羁绊故事尚未解锁，是否前往解锁(todo),,0
-ILLUSTRATEDBOOK,35175,该回忆尚未解锁，是否前往(todo),,0
-ILLUSTRATEDBOOK,35176,需要解锁{0}换装(todo),,0
-ILLUSTRATEDBOOK,35177,执行方针总览(todo),,0
-ILLUSTRATEDBOOK,35178,-无执行方针-(todo),,0
-ILLUSTRATEDBOOK,35179,级别(todo),,0
-ILLUSTRATEDBOOK,35180,部门级别(todo),,0
-ILLUSTRATEDBOOK,35181,部门勋绩(todo),,0
-ILLUSTRATEDBOOK,35182,级别奖励(todo),,0
-ILLUSTRATEDBOOK,35183,在编人数(todo),,0
-ILLUSTRATEDBOOK,35184,在编精锐(todo),,0
-ILLUSTRATEDBOOK,35185,道具奖励(todo),,0
-ILLUSTRATEDBOOK,35186,精锐(todo),,0
-ILLUSTRATEDBOOK,35187,在编人数：(todo),,0
-ILLUSTRATEDBOOK,35188,切换到进化前(todo),,0
-ILLUSTRATEDBOOK,35189,切换至进化(todo),,0
-ILLUSTRATEDBOOK,35190,该妖精尚未开放改造，敬请期待(todo),,0
-ILLUSTRATEDBOOK,35191,协议回归部(todo),,0
-ILLUSTRATEDBOOK,35192,人员详情(todo),,0
+ILLUSTRATEDBOOK,35134,Lv. {0},,0
+ILLUSTRATEDBOOK,35135,Status,,0
+ILLUSTRATEDBOOK,35136,Unlocked,,0
+ILLUSTRATEDBOOK,35137,Locked,,0
+ILLUSTRATEDBOOK,35138,Lethality,,0
+ILLUSTRATEDBOOK,35139,Pierce,,0
+ILLUSTRATEDBOOK,35140,Precision,,0
+ILLUSTRATEDBOOK,35141,Reload,,0
+ILLUSTRATEDBOOK,35142,Anti-Tank Weapon,,0
+ILLUSTRATEDBOOK,35143,Automatic Grenade Launcher,,0
+ILLUSTRATEDBOOK,35144,Mortar,,0
+ILLUSTRATEDBOOK,35145,Annual,,0
+ILLUSTRATEDBOOK,35146,Rarity,,0
+ILLUSTRATEDBOOK,35147,Collection Rate,,0
+ILLUSTRATEDBOOK,35148,2-Star,,0
+ILLUSTRATEDBOOK,35149,3-Star,,0
+ILLUSTRATEDBOOK,35150,4-Star,,0
+ILLUSTRATEDBOOK,35151,5-Star,,0
+ILLUSTRATEDBOOK,35152,Not obtained yet,,0
+ILLUSTRATEDBOOK,35153,Collection incomplete,,0
+ILLUSTRATEDBOOK,35154,Collection complete,,0
+ILLUSTRATEDBOOK,35155,Type,,0
+ILLUSTRATEDBOOK,35156,Possessed,,0
+ILLUSTRATEDBOOK,35157,Medal Unlocked,,0
+ILLUSTRATEDBOOK,35158,Past Glories,,0
+ILLUSTRATEDBOOK,35159,The aura multiplier is at the lowest possible value for the current star rarity.,,0
+ILLUSTRATEDBOOK,35160,The following medals are currently equipped. Please select the medals to replace them.,,0
+ILLUSTRATEDBOOK,35161,Description:,,0
+ILLUSTRATEDBOOK,35162,How to obtain:,,0
+ILLUSTRATEDBOOK,35163,Medal Collection,,0
+ILLUSTRATEDBOOK,35164,Displayed on ID Card,,0
+ILLUSTRATEDBOOK,35165,Main Story,,0
+ILLUSTRATEDBOOK,35166,Neural Upgrade,,0
+ILLUSTRATEDBOOK,35167,Memories,,0
+ILLUSTRATEDBOOK,35168,Costume Story,,0
+ILLUSTRATEDBOOK,35169,Relevant Stories,,0
+ILLUSTRATEDBOOK,35170,This character has no relevant stories yet. Coming soon!,,0
+ILLUSTRATEDBOOK,35171,1. Each present T-Doll/Fairy/HOC unit/Coalition Unit/other character contributes 10/10/20/20/10 points to the department merits.//n2. A unit becomes an elite when it reaches level 100. Each elite T-Doll/Fairy/HOC unit/Coalition Unit contributes 1/1/2/2 points to the department merits.//n3. A department goes up 1 rank with every 50 points of merits//c and the corresponding rewards will be unlocked.//n4. Department rank rewards consist of item rewards and directive rewards. Unlocking a directive reward also unlocks the corresponding effect.//n5. Since different departments have different unit capacities//c their maximum rank is also different.,,0
+ILLUSTRATEDBOOK,35172,Maxed,,0
+ILLUSTRATEDBOOK,35173,View,,0
+ILLUSTRATEDBOOK,35174,This Special Bond Story is locked. Proceed to unlock?,,0
+ILLUSTRATEDBOOK,35175,This Memory is locked. Proceed to unlock?,,0
+ILLUSTRATEDBOOK,35176,Unlock {0} to change costumes,,0
+ILLUSTRATEDBOOK,35177,Directive Overview,,0
+ILLUSTRATEDBOOK,35178,-No Directives-,,0
+ILLUSTRATEDBOOK,35179,Rank,,0
+ILLUSTRATEDBOOK,35180,Department Rank,,0
+ILLUSTRATEDBOOK,35181,Department Merits,,0
+ILLUSTRATEDBOOK,35182,Rank Rewards,,0
+ILLUSTRATEDBOOK,35183,Present Members,,0
+ILLUSTRATEDBOOK,35184,Present Elites,,0
+ILLUSTRATEDBOOK,35185,Item Rewards,,0
+ILLUSTRATEDBOOK,35186,Elite,,0
+ILLUSTRATEDBOOK,35187,Present Members:,,0
+ILLUSTRATEDBOOK,35188,Switch to Pre-Evolution,,0
+ILLUSTRATEDBOOK,35189,Switch to Post-Evolution,,0
+ILLUSTRATEDBOOK,35190,This Fairy cannot be modified yet. Coming soon.,,0
+ILLUSTRATEDBOOK,35191,Protocol Assimilation Department,,0
+ILLUSTRATEDBOOK,35192,,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
 LOGIN,36002,User EULA,,0
@@ -2731,18 +2793,18 @@ LOGIN,36071,You are not using wifi. Continue with download?,,0
 LOGIN,36072,Sorry//c network connection lost. Please restart client.,,0
 LOGIN,36073,Confirm to use <color=#FFBB00FF>//n{0}//n</color> as your name? Commander name cannot be changed later.,,0
 LOGIN,36075,Change,,0
-LOGIN,36076,资源损坏(todo),,0
-LOGIN,36077,是否开始检测游戏资源完整性？(todo),,0
-LOGIN,36078,正在检测资源完整性…(todo),,0
-LOGIN,36079,客户端完整，无需修复(todo),,0
-LOGIN,36080,客户端资源修复完毕！(todo),,0
-LOGIN,36081,资源校验(todo),,0
-LOGIN,36082,资源解压异常，请重启客户端尝试(todo),,0
+LOGIN,36076,Resources Damaged,,0
+LOGIN,36077,Check game resource integrity?,,0
+LOGIN,36078,Checking resource integrity...,,0
+LOGIN,36079,Client server is intact and requires no repairs.,,0
+LOGIN,36080,Client server repaired!,,0
+LOGIN,36081,Resource Verification,,0
+LOGIN,36082,Resource decompression failed. Please restart client and try again.,,0
 MAIL,37000,GET,,0
 MAIL,37001,NO NEW MESSAGES,,0
 MAIL,37002,NONEWMESSAGES,,0
 MAIL,37003,MAIL,,0
-MAIL,37004,MAIL(todo),,0
+MAIL,37004,MAIL,,0
 MAIL,37005,Gems,,0
 MAIL,37006,Purchase Gems,,0
 MAIL,37007,Bundles,,0
@@ -2765,7 +2827,7 @@ MAIL,37023,Daily Special,,0
 MAIL,37024,Daily Limited,,0
 MAIL,37025,Special,,0
 MAIL,37026,Time limited,,0
-MAIL,37027,解锁成就 {0}(todo),,0
+MAIL,37027,Gained achievement,,0
 MAIL,37028,Monthly card reward,,0
 MAIL,37029,Sign in successful!,,0
 MAIL,37030,Permanent,,0
@@ -2773,24 +2835,25 @@ MAIL,37031,No mail currently~,,0
 MAIL,37032,Email expired,,0
 MAIL,37033,No items to receive!,,0
 MAIL,37034,Receive all,,0
-MAIL,37036,当前单价(todo),,0
-MAIL,37037,删除已读(todo),,0
-MAIL,37038,删除(todo),,0
-MAIL,37039,当前无已读邮件(todo),,0
-MAIL,37040,已读邮件中存在奖励未领取(todo),,0
-MAIL,37041,已删除部分已读邮件(todo),,0
-MAIL,37042,已清空已读邮件(todo),,0
-MAIL,37043,奖励已领取(todo),,0
-MAIL,37044,邮件已删除(todo),,0
-MAIL,37045,收取附件(todo),,0
-MAIL,37046,每日事务奖励补发(todo),,0
-MAIL,37047,指挥官，我在整理昨天的事务时发现你有遗漏的奖励没有拿走。现在我把它打包带给你了，注意查收哦！(todo),,0
+MAIL,37035,Do you wish to proceed to the Shop to buy the Monthly Auto-Battle Card?,,0
+MAIL,37036,Current Price,,0
+MAIL,37037,Delete read,,0
+MAIL,37038,Delete,,0
+MAIL,37039,No read mail,,0
+MAIL,37040,Read mail contains uncollected rewards,,0
+MAIL,37041,Some read mail has been deleted,,0
+MAIL,37042,All read mail has been cleared,,0
+MAIL,37043,Rewards Obtained,,0
+MAIL,37044,Mail Deleted,,0
+MAIL,37045,Collect Attached Items,,0
+MAIL,37046,Resending Daily Rewards,,0
+MAIL,37047,Dear Commander//c I noticed you hadn't collected your rewards from yesterday when I was sorting things out. I've packed them up for you//c make sure to take them!,,0
 QUESTS,38000,Progress,,0
 QUESTS,38001,Quests,,0
 QUESTS,38002,QUESTS,,0
 QUESTS,38003,Collect,,0
-QUESTS,38004,每日事务(todo),,0
-QUESTS,38005,每日事务(todo),,0
+QUESTS,38004,Dailies & Weeklies,,0
+QUESTS,38005,Weeklies,,0
 QUESTS,38006,Main Quests,,0
 QUESTS,38007,Career Quests,,0
 QUESTS,38008,HOME,,0
@@ -2799,84 +2862,83 @@ QUESTS,38010,Collect All,,0
 QUESTS,38011,Daily Missions ,,0
 QUESTS,38012,Weekly Missions ,,0
 QUESTS,38013,All missions completed,,0
-QUESTS,38015,达成{0}评级{1}后解锁(todo),,0
-QUESTS,38016,完成当前评级所有其他任务解锁(todo),,0
-QUESTS,38019,奖励预览(todo),,0
-QUESTS,38020,有可领取的奖励(todo),,0
-QUESTS,38021,下一阶(todo),,0
-QUESTS,38022,上一阶(todo),,0
-QUESTS,38023,评级(todo),,0
-QUESTS,38024,总分(todo),,0
-QUESTS,38025,已领取(todo),,0
-QUESTS,38026,前往(todo),,0
-QUESTS,38027,进行中(todo),,0
-QUESTS,38028,挑战(todo),,0
-QUESTS,38029,再次挑战(todo),,0
-QUESTS,38030,领取(todo),,0
-QUESTS,38031,得分(todo),,0
-QUESTS,38032,该系统尚未解锁，请先解锁系统。(todo),,0
-QUESTS,38033,指挥官等级达到{0}后解锁(todo),,0
-QUESTS,38034,通关关卡{0}后解锁(todo),,0
-QUESTS,38035,解锁关卡{0}后解锁(todo),,0
-QUESTS,38036,通关{0}个不同关卡后解锁 进度{1}(todo),,0
-QUESTS,38037,以S评价通关{0}个不同关卡后解锁 进度{1}(todo),,0
-QUESTS,38038,完成该系统对应教学后解锁(todo),,0
-QUESTS,38039,活跃度(todo),,0
-QUESTS,38040,前往(todo),,0
-QUESTS,38042,前往(todo),,0
-QUESTS,38043,进度(todo),,0
-QUESTS,38044,已完成(todo),,0
-QUESTS,38045,已领取(todo),,0
-QUESTS,38046,可领取(todo),,0
-QUESTS,38047,未解锁(todo),,0
-QUESTS,38048,消耗<color=#e7a300>黑卡晶片*{0}</color>(todo),,0
-QUESTS,38049,合成<color=#e7a300>黑卡*{0}</color>(todo),,0
-QUESTS,38050,该项物资已解锁(todo),,0
-QUESTS,38051,购买{0}级，升至{1}级获得以上奖励(todo),,0
-QUESTS,38052,前线协议已经提升至{0}级(todo),,0
-QUESTS,38053,当前没有可用的前线协议(todo),,0
-QUESTS,38054,当前没有可领取的(todo),,0
-QUESTS,38055,解锁增量补给并达到25级，即可获取(todo),,0
-QUESTS,38056,剩余时间：{0}(todo),,0
-QUESTS,38057,消耗<color=#e7a300>黑卡晶片*{0}</color>(todo),,0
-QUESTS,38058,合成(todo),,0
-QUESTS,38059,碎片不够合成(todo),,0
-QUESTS,38060,未到开放时间，敬请期待(todo),,0
-QUESTS,38061,<color=#ffb400ff><size=48><b>基础规则：</b></size></color>//n1.完成每日事务，升级前线协议，可以获取对应等级奖励；//n2.每期前线协议的等级独立不会继承；//n3.协议共45级，此后每升一级将获得一个<color=#F27C25FF>区间空投序标</color>；//n4.协议等级45级之前可购买等级，之后购买等级的入口将关闭；//n5.新的前线协议更新后，未领取的奖励将会通过邮件补发，该邮件有效期一周，请及时查收；//n//n<color=#ffb400ff><size=48><b>增量补给解锁：</b></size></color>//n1.协议有效期内，可随时通过<color=#F27C25FF>购买物资</color>解锁增量补给;//n2.购买陆运物资，可解锁增量补给奖励，并解锁一项额外的每周要务；//n3.购买空运物资，在获取全部陆运物资奖励的基础上，还可立即获得10级前线协议等级、专属名片及头像框等奖励。//n//n<color=#ffb400ff><size=48><b>配给序标说明：</b></size></color>//n1.协议内的配给序标领取后，需前往仓库打开获取奖励；//n2.协议内所有配给序标均会在当期前线协议结束<color=#F27C25FF>一周后过期</color>，请及时领取。(todo),,0
-QUESTS,38062,兑换该物品后将扣除<color=#e7a300>{0}黑卡晶片</color>及<color=#e7a300>{1}黑卡</color>，是否继续？(todo),,0
-QUESTS,38063,兑换该物品后将扣除<color=#e7a300>{0}黑卡晶片</color>，是否继续？(todo),,0
-QUESTS,38064,合成黑卡*{0}(todo),,0
-QUESTS,38065,协议补给(todo),,0
-QUESTS,38066,增量补给(todo),,0
-QUESTS,38067,陆运物资(todo),,0
-QUESTS,38068,空运物资(todo),,0
-QUESTS,38069,5级获得(todo),,0
-QUESTS,38070,15级获得(todo),,0
-QUESTS,38071,35级获得(todo),,0
-QUESTS,38072,45级获得(todo),,0
-QUESTS,38073,前线协议(todo),,0
-QUESTS,38074,增量补给未解锁(todo),,0
-QUESTS,38075,指挥官，当前类别没有可替换任务了哦。(todo),,0
-QUESTS,38076,每日协议(todo),,0
-QUESTS,38077,任务结算(todo),,0
-QUESTS,38078,奖励预览(todo),,0
-QUESTS,38079,{0}个奖励可领取(todo),,0
-QUESTS,38080,确认要替换该任务吗？(todo),,0
-QUESTS,38081,购买等级(todo),,0
-QUESTS,38082,当前经验进度(todo),,0
-QUESTS,38083,购买物资(todo),,0
-QUESTS,38084,特定等级可获得(todo),,0
-QUESTS,38085,购买后立即获得专属奖励(todo),,0
-QUESTS,38086,包含当期【陆运物资】的所有内容，更可直接获取超多【专属奖励】。(todo),,0
-QUESTS,38087,*含前线协议等级立增【10】级(todo),,0
-QUESTS,38088,解锁【增量补给】，除换装外还可获取超多惊喜奖励 //n解锁【额外周常任务】，协议等级领先一步！(todo),,0
-QUESTS,38089,同时获得以下道具(todo),,0
-QUESTS,38090,购买{0}级，升至{1}级获得已解锁奖励(todo),,0
-QUESTS,38091,*累计勋章可解锁奖励(todo),,0
-QUESTS,38092,剩余时间（周）(todo),,0
-QUESTS,38093,等级大于45级时，每增加1级可获得(todo),,0
-QUESTS,38094,前线协议等级达到<Color=#ffb300>{0}</Color>级后可以购买(todo),,0
-QUESTS,38095,45级(todo),,0
+QUESTS,38014,Unlocks after completing {0} missions.,,0
+QUESTS,38015,Unlocks after obtaining {1} {0} grades.,,0
+QUESTS,38016,Unlocks after completing all other missions for the current grade.,,0
+QUESTS,38019,Reward Preview,,0
+QUESTS,38020,Rewards available for collection,,0
+QUESTS,38021,Next tier,,0
+QUESTS,38022,Previous tier,,0
+QUESTS,38023,Grade,,0
+QUESTS,38024,Total,,0
+QUESTS,38025,Collected,,0
+QUESTS,38026,Move To,,0
+QUESTS,38027,In Progress,,0
+QUESTS,38028,Fight,,0
+QUESTS,38029,Fight Again,,0
+QUESTS,38030,Collect,,0
+QUESTS,38031,Score,,0
+QUESTS,38032,This system has not been unlocked yet. Please unlock this system first.,,0
+QUESTS,38033,Unlocks upon reaching Commander Level {0}.,,0
+QUESTS,38034,Unlocks upon reaching Stage {0}.,,0
+QUESTS,38035,Unlocks upon unlocking Stage {0}.,,0
+QUESTS,38036,Unlocks upon completing {0} different stages. Current progress {1}.,,0
+QUESTS,38037,Unlocks upon completing {0} different stages with an S rank. Current progress {1}.,,0
+QUESTS,38038,Unlocks upon completing the appropriate system tutorial.,,0
+QUESTS,38039,Level of Activity,,0
+QUESTS,38040,Proceed,,0
+QUESTS,38042,,,0
+QUESTS,38043,Progress,,0
+QUESTS,38044,Completed,,0
+QUESTS,38045,Obtained,,0
+QUESTS,38046,Obtainable,,0
+QUESTS,38047,Locked,,0
+QUESTS,38048,Spend <color=#e7a300>Black Card Chip*{0}</color>,,0
+QUESTS,38049,Synthesized <color=#e7a300>Black Card*{0}</color>,,0
+QUESTS,38050,This type of resources has been unlocked.,,0
+QUESTS,38051,,,0
+QUESTS,38052,Frontline Protocol has increased to Level {0}.,,0
+QUESTS,38053,No usable Frontline Protocol.,,0
+QUESTS,38054,Nothing to collect.,,0
+QUESTS,38055,Obtain by unlocking Additional Supplies and raising it to Level 25.,,0
+QUESTS,38056,Remaining Time: {0},,0
+QUESTS,38057,,,0
+QUESTS,38058,Combine,,0
+QUESTS,38059,Insufficient Fragments,,0
+QUESTS,38060,Not open yet. Coming soon.,,0
+QUESTS,38061,<color=#ffb400ff><size=48><b>Basic Rules:</b></size></color>//n1. Complete your daily tasks and upgrade your Frontline Protocol to obtain the corresponding level rewards.//n2. The level of your Frontline Protocol is not carried across seasons.//n3. There are a total of 45 Protocol Levels. From Level 45 onwards//c you will gain an <color=#F27C25FF>Interval Air-Drop Indicator</color> for each additional level.//n4. Protocol Levels can be purchased before Level 45. You will no longer be able to access the level purchase interface after reaching Level 45.//n5. When the Frontline Protocol has been updated//c any uncollected rewards will be sent via mail. The mail will be valid for a week//c please make sure you check your mailbox in time.//n//n<color=#ffb400ff><size=48><b>To unlock Additional Supplies:</b></size></color>//n1. While the Protocol is in effect//c you can unlock Additional Supplies any time via <color=#F27C25FF>Purchase Supplies</color>.//n2. Purchase Ground-Transported Supplies to unlock Additional Supplies as well as an extra Weekly Mission.//n3. Purchase Air-Transported Supplies to obtain all rewards given by Ground-Transported Supplies//c as well as gain 10 Protocol Levels//c an exclusive ID and icon frame//c and other rewards.//n//n<color=#ffb400ff><size=48><b>Allotment Indicator:</b></size></color>//n1. After obtaining the Allotment Indicator in your Frontline Protocol//c you need to go to the Warehouse to open your rewards.//n2. All Allotment Indicators will <color=#F27C25FF>expire a week after</color> the current Frontline Protocol is over. Make sure you collect your rewards in time.,,0
+QUESTS,38062,Exchanging for the item will deduct <color=#e7a300>{0}Black Card Chips</color> and <color=#e7a300>{1}Black Cards</color>. Proceed?,,0
+QUESTS,38063,Exchanging for the item will deduct <color=#e7a300>{0}Black Card Chips</color>. Proceed?,,0
+QUESTS,38064,Synthesized Black Card*{0},,0
+QUESTS,38065,Protocol Supplies,,0
+QUESTS,38066,Additional Supplies,,0
+QUESTS,38067,Ground-Transported Supplies,,0
+QUESTS,38068,Air-Transported Supplies,,0
+QUESTS,38069,Obtain at Level 5,,0
+QUESTS,38070,Obtain at Level 15,,0
+QUESTS,38071,Obtain at Level 35,,0
+QUESTS,38072,Obtain at Level 45,,0
+QUESTS,38073,Frontline Protocol,,0
+QUESTS,38074,Additional Supplies locked.,,0
+QUESTS,38075,Commander//c there are no replaceable missions in this category.,,0
+QUESTS,38076,Daily Protocol,,0
+QUESTS,38077,Mission Settlement,,0
+QUESTS,38078,Rewards Preview,,0
+QUESTS,38079,{0} rewards available,,0
+QUESTS,38080,Replace this mission//c confirm?,,0
+QUESTS,38081,Purchase Level,,0
+QUESTS,38082,Current EXP Progress,,0
+QUESTS,38083,Purchase Supplies,,0
+QUESTS,38084,Obtain at specific levels,,0
+QUESTS,38085,Purchase to obtain exclusive rewards,,0
+QUESTS,38086,Includes all rewards in 【Ground-Transported】 Supplies as well as more 【exclusive rewards】.,,0
+QUESTS,38087,*Immediately gain 【10】 Frontline Protocol Levels.,,0
+QUESTS,38088,Unlock 【Additional Supplies】 to gain costumes as well as a large amount of surprise rewards!//nUnlock 【Extra Weeklies】 to beef up your Protocol Level!,,0
+QUESTS,38089,Obtain the following items at the same time,,0
+QUESTS,38090,Purchase {0} levels. Rewards for reaching Level {1} now unlocked.,,0
+QUESTS,38091,*You have accumulated enough medals to unlock the rewards.,,0
+QUESTS,38092,Remaining Time (Week),,0
+QUESTS,38093,Can be obtained with each additional level when Protocol Level is above 45.,,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
 RANKINGLIST,39002,Move to Data Mode,,0
@@ -2910,7 +2972,7 @@ RANKINGLIST,39029,Event Ranking,,0
 RANKINGLIST,39030,Kill Score,,0
 RANKINGLIST,39031,Event score,,0
 RANKINGLIST,39032,No ranking available.,,0
-RANKINGLIST,39033,,,0
+RANKINGLIST,39033,Lv. {0},,0
 RANKINGLIST,39034,Seasonal Score,,0
 MISSIONSELECTION,40000,EXP Mode,,0
 MISSIONSELECTION,40001,ExperienceTraining,,0
@@ -2993,7 +3055,7 @@ MISSIONSELECTION,40077,Opened on Mon//c Thu//c Sun,,0
 MISSIONSELECTION,40078,Opened on Tue//c Fri//c Sun,,0
 MISSIONSELECTION,40079,Starting action......,,0
 MISSIONSELECTION,40080,Ending action......,,0
-MISSIONSELECTION,40081,模拟作战点数不足//n是否需要花费{0}钻石购买{1}点点数?//n<color=#FF0000FF>注意：无折扣时，每次购买模拟作战点数//n价格将上涨20钻，200钻封顶</color>(todo),,0
+MISSIONSELECTION,40081,Insufficient Sim Energy.//nConfirm to use {0} Gems to buy {1} Energy?//n<color=#FF0000FF>Caution: Without discount//c each purchase of Sim Energy will increase//n the price by 20 Gems//c capped at 200 Gems.</color>,,0
 MISSIONSELECTION,40082,Echelon slots have not been filled//c confirm proceeding to Defense Drill?,,0
 MISSIONSELECTION,40083,Entering Defense Drill will cost 5 Sim Energy//c confirm?,,0
 MISSIONSELECTION,40084,Night mission Combat Effectiveness requirement,,0
@@ -3026,24 +3088,24 @@ MISSIONSELECTION,40111,Occupy all nodes on the map,,0
 MISSIONSELECTION,40112,Bronze medal,,0
 MISSIONSELECTION,40113,Complete mission objectives,,0
 MISSIONSELECTION,40114,Medal acquisition requirement,,0
-MISSIONSELECTION,40115,Command Post is the base camp of the frontline. When one side's Command Post is captured//c that side is defeated. It can be used to <color=#ffb400ff>resupply</color> and <color=#ffb400ff>deploy Echelons</color>.,,0
+MISSIONSELECTION,40115,The Command Post is the frontline HQ. Once the Command Post of a side is captured//c the side in question is defeated. Troops can <color=#CE8200FF>deploy</color> and <color=#CE8200FF>perform resupplies</color> there.,,0
 MISSIONSELECTION,40116,Random event node,,0
 MISSIONSELECTION,40117,Unscouted node. It will change into a normal node after being scouted. Strange events may happen......,,0
 MISSIONSELECTION,40118,Heliport,,0
-MISSIONSELECTION,40119,Heliport allows for reinforcements and supplies to be delivered to the battlefield from the base. After being captured//c it can be used to <color=#ffb400>resupply</color> and <color=#ffb400ff>deploy Echelons</color>.,,0
+MISSIONSELECTION,40119,Heliports are the way through which reinforcements travel from the base to the battlefield. Capturing them will give <color=#CE8200FF>1 additional Action Point</color>. Troops can <color=#CE8200FF>deploy</color> and <color=#CE8200FF>perform resupplies</color> there.,,0
 MISSIONSELECTION,40120,Time-limited Heliport,,0
-MISSIONSELECTION,40121,Due to weather conditions or supply restrictions//c these Heliports are only usable periodically. Capturing Heliports will increase your Action Points and Deploy Points. When the Heliport is closed//c deployment and resupply is <color=#ff0000>impossible</color>.,,0
+MISSIONSELECTION,40121,Due to weather and resupply restrictions//c these Heliports are only usable periodically. Capturing these Heliports will provide you with <color=#CE8200FF>Action Points</color> and <color=#CE8200FF>Deploy Points</color>. However//c these Heliports <color=#CE0A0AFF>cannot</color> deploy troops or resupply echelons while they are closed.,,0
 MISSIONSELECTION,40122,Radar,,0
 MISSIONSELECTION,40123,Nodes up to 2 nodes away will be visible. Deployment and resupply are unavailable at this node.,,0
 MISSIONSELECTION,40124,Supply Point,,0
-MISSIONSELECTION,40125,Supplies may be scattered across the battlefield. Echelons can use it to <color=#ffb400>resupply once</color>//c turning it to a normal node after. (Can be used even without being captured),,0
+MISSIONSELECTION,40125,At times//c there will be supply crates paradropped onto the battlefield by the base. Your echelons can <color=#CE8200FF>resupply</color> themselves on those nodes. After that//c these resupply points will become normal nodes.,,0
 MISSIONSELECTION,40126,Node,,0
 MISSIONSELECTION,40127,A waypoint for traveling that can also be fortified for defense. Cannot resupply or deploy on this node.,,0
 MISSIONSELECTION,40128,Mission type description,,0
-MISSIONSELECTION,40129,模拟作战没有额外评价条件。在模拟作战中人形不会受到任何实际损伤。(todo),,0
-MISSIONSELECTION,40130,夜战环境将<color=#FF3536FF>降低90%的命中</color> 装备具有<color=#CE8200FF>夜视能力</color>的装备可抵消该效果(todo),,0
+MISSIONSELECTION,40129,Combat Simulations have no additional grading requirements. Dolls participating in Combat Simulations will not suffer any real damage.,,0
+MISSIONSELECTION,40130,Fighting at night <color=#FF3536FF>decreases accuracy by 90%</color>. Using equipment with <color=#CE8200FF>Night Vision</color> can offset this penalty.,,0
 MISSIONSELECTION,40131,Turn-limited operation,,0
-MISSIONSELECTION,40132,1.夜战时战场将会被迷雾覆盖，迷雾内据点只在地图上显示归属方，不显示是否存在敌方单位//n2.拥有<color=#CE8200FF>手枪</color>的梯队可获得该梯队周围的视野 ，视野范围内将没有迷雾//n3.占领<color=#CE8200FF>雷达</color>可获得与雷达点距离2点之内的视野(todo),,0
+MISSIONSELECTION,40132,1. The battlefield at night will be hidden by the fog of war. Hidden nodes will only show which side they belong to and not whether there are enemy units on them.//n 2. Echelons with <color=#CE8200FF>Handgun Dolls</color> gain a field of vision around themselves. Nodes within their field of vision will not be hidden by the fog of war.//n 3. Capturing <color=#CE8200FF>Radars</color> gives 2 nodes' worth of vision in all directions around the Radars.,,0
 MISSIONSELECTION,40133,Victory Condition,,0
 MISSIONSELECTION,40134,You can retreat and calculate the scores at any time//c and the operation will automatically end after <color=#FFB400FF>{0} turns</color>.,,0
 MISSIONSELECTION,40135,Enemies will continually send reinforcements. Eliminate them to obtain rewards and points.,,0
@@ -3092,9 +3154,9 @@ MISSIONSELECTION,40177,Ran {0} times,,0
 MISSIONSELECTION,40178,Reached T-Doll capacity limit//c,,0
 MISSIONSELECTION,40179,Reached equipment capacity limit//c,,0
 MISSIONSELECTION,40180,Heavy Heliport,,0
-MISSIONSELECTION,40181,Heavy Heliport allows for reinforcements and supplies to be delivered to the battlefield from the base. Capturing it provides <color=#ffb400ff>one Action Point</color> and <color=#ffb400ff>three Deploy Points</color>. It can deploy and resupply <color=#ffb400ff>normal Echelons</color> and <color=#ffb400ff>Heavy Ordnance Corps</color>.,,0
+MISSIONSELECTION,40181,Heavy Heliports are the way through which reinforcements travel from the base to the battlefield. Capturing them will give <color=#CE8200FF>1 additional Action Point</color> and <color=#CE8200FF>3 additional Deploy Points</color>. They can deploy <color=#CE8200FF>regular echelons</color> and <color=#CE8200FF>HOCs</color>//c as well as <color=#CE8200FF>resupplying</color> them.,,0
 MISSIONSELECTION,40182,Time-limited Heavy Heliport,,0
-MISSIONSELECTION,40183,Due to weather conditions or supply restrictions//c these Heavy Heliports are only usable periodically. Taking control of these nodes will provide you with <color=#ff0000>Action Points</color>. When the Heliport is closed//c deployment and resupply is <color=#ff0000>impossible</color>.,,0
+MISSIONSELECTION,40183,Due to weather and resupply restrictions//c these Heavy Heliports are only usable periodically. Capturing these Heavy Heliports will provide you with <color=#CE8200FF>Action Points</color> and <color=#CE8200FF>Deploy Points</color>. However//c these Heavy Heliports <color=#CE0A0AFF>cannot</color> deploy troops or resupply echelons while they are closed.,,0
 MISSIONSELECTION,40184,{0} storage limit reached and any more of this resource is <color=#ffb400>unable to be collected</color>//c continue?,,0
 MISSIONSELECTION,40185,{0} storage limit is almost full and the extra portion is <color=#ffb400>unable to be collected</color>//c continue?,,0
 MISSIONSELECTION,40186,A resource has reached the max limit and <color=#ffb400>no more of that resource can be collected</color>//c continue with Logistic Support?,,0
@@ -3203,7 +3265,7 @@ MISSIONSELECTION,40289,Defense Drills cannot be paused.//n This will cost you {0
 MISSIONSELECTION,40290,Ask to repeat battle,,0
 MISSIONSELECTION,40291,Deployable Echelons,,0
 MISSIONSELECTION,40292,Echelon Limit,,0
-MISSIONSELECTION,40293,允许部署{0}个梯队（包含格里芬、融合势力和重装部队）(todo),,0
+MISSIONSELECTION,40293,{0} Echelons allowed (applicable to T-Dolls//c Coalition Units//c and HOCs),,0
 MISSIONSELECTION,40294,No limit to the number of echelons allowed,,0
 MISSIONSELECTION,40295,Target Practice,,0
 MISSIONSELECTION,40296,Customized Target,,0
@@ -3265,60 +3327,80 @@ MISSIONSELECTION,40351,Theater Target,,0
 MISSIONSELECTION,40352,Waves Defeated,,0
 MISSIONSELECTION,40353,Regular enemies will appear in sequence in the next {0} waves.,,0
 MISSIONSELECTION,40354,{0}/{0} Groups,,0
-MISSIONSELECTION,40382,参与防御演习，向更高波次进发，同时能获得校准点券(todo),,0
-MISSIONSELECTION,40385,允许部署{0}个作战梯队（包含格里芬和融合势力梯队）(todo),,0
-MISSIONSELECTION,40386,经验特训(todo),,0
-MISSIONSELECTION,40387,强化练习(todo),,0
-MISSIONSELECTION,40388,资料采样(todo),,0
-MISSIONSELECTION,40389,云图回廊(todo),,0
-MISSIONSELECTION,40390,防御演习(todo),,0
-MISSIONSELECTION,40391,融合演习(todo),,0
-MISSIONSELECTION,40392,靶机专训(todo),,0
-MISSIONSELECTION,40393,询问重复作战(todo),,0
-MISSIONSELECTION,40394,是(todo),,0
-MISSIONSELECTION,40395,否(todo),,0
-MISSIONSELECTION,40396,//n1.在防御演习中您将指挥小队防御一定波次敌人进攻。//n2.每防御一定波数的敌人后会到达一个<color=#FFA900>检查点</color>，下次挑战时会直接从<color=#FFA900>最新解锁检查点</color>开始。//n3.部分检查点开放挑战，可以直接从目标检查点开始作战，成功到达目标检查点下一检查点后，<color=#FFA900>解锁检查点</color>并且获得挑战跳过关卡的奖励。//n4.指挥官需在开始前选择<color=#FFA900>最多4组</color>梯队参与防御演习，演习开始后<color=#FFA900>仅在检查点可以更改梯队</color>。//n5.在一场防御演习结束时，会根据<color=#FFA900>当前波次</color>获得装备校准券等奖励。//n(todo),,0
-MISSIONSELECTION,40397,解锁检查点可以获得奖励(todo),,0
-MISSIONSELECTION,40398,后续检查点尚未开放(todo),,0
-MISSIONSELECTION,40399,倍 日常产出提升(todo),,0
-MISSIONSELECTION,40400,防御演习(todo),,0
-MISSIONSELECTION,40401,迎接每一波挑战 向更高波次进发(todo),,0
-MISSIONSELECTION,40402,初级特种训练(todo),,0
-MISSIONSELECTION,40403,中级特种训练(todo),,0
-MISSIONSELECTION,40404,高级特种训练(todo),,0
-MISSIONSELECTION,40405,演习补给奖励已获取(todo),,0
-MISSIONSELECTION,40406,0点发放(todo),,0
-MISSIONSELECTION,40407,全体出击(todo),,0
-MISSIONSELECTION,40408,执行梯队(todo),,0
-MISSIONSELECTION,40409,出征(todo),,0
-MISSIONSELECTION,40410,全体出征(todo),,0
-MISSIONSELECTION,40411,是否进行全体出征(todo),,0
-MISSIONSELECTION,40412,启动自律契约(todo),,0
-MISSIONSELECTION,40413,拥有{0}个(todo),,0
-MISSIONSELECTION,40414,已出击(todo),,0
-MISSIONSELECTION,40415,已出征(todo),,0
-MISSIONSELECTION,40416,快速自律契约不足，无法进行快速自律(todo),,0
-MISSIONSELECTION,40417,全体出征成功(todo),,0
-MISSIONSELECTION,40418,梯队出征成功(todo),,0
-MISSIONSELECTION,40419,未获得奖励(todo),,0
-MISSIONSELECTION,40420,作战提示(todo),,0
-MISSIONSELECTION,40421,剧情关卡(todo),,0
-MISSIONSELECTION,40422,无推荐梯队(todo),,0
-MISSIONSELECTION,40423,推荐梯队：(todo),,0
-MISSIONSELECTION,40424,推荐战术人形等级<Color=#FFB400FF>≥{0}级</Color>;效能<Color=#FFB400FF>≥{1}</Color>(todo),,0
-MISSIONSELECTION,40425,推荐融合势力等级<Color=#FFB400FF>≥{0}级</Color>;效能<Color=#FFB400FF>≥{1}</Color>(todo),,0
-MISSIONSELECTION,40426,推荐战术妖精等级<Color=#FFB400FF>≥{0}级</Color>;星级<Color=#FFB400FF>≥{1}</Color>(todo),,0
-MISSIONSELECTION,40427,推荐重装部队等级<Color=#FFB400FF>≥{0}级</Color>;效能<Color=#FFB400FF>≥{1}</Color>(todo),,0
-MISSIONSELECTION,40428,活动尚未解锁(todo),,0
-MISSIONSELECTION,40429,关卡奖励预览(todo),,0
-MISSIONSELECTION,40430,搜查(todo),,0
-MISSIONSELECTION,40431,难度设置(todo),,0
-MISSIONSELECTION,40432,日常玩法规则(todo),,0
-MISSIONSELECTION,40433,第{0}轮(todo),,0
-MISSIONSELECTION,40434,首通奖励(todo),,0
-MISSIONSELECTION,40435,普通奖励(todo),,0
-MISSIONSELECTION,40436,首通奖励已完成(todo),,0
-MISSIONSELECTION,40437,日常玩法积分兑换规则(todo),,0
+MISSIONSELECTION,40355,Starting from checkpoint {0}. Do you wish to continue?,,0
+MISSIONSELECTION,40356,Start Point,,0
+MISSIONSELECTION,40357,Locked,,0
+MISSIONSELECTION,40358,In Progress,,0
+MISSIONSELECTION,40359,Can Fight,,0
+MISSIONSELECTION,40360,Cleared,,0
+MISSIONSELECTION,40361,Closed,,0
+MISSIONSELECTION,40362,Checkpoint,,0
+MISSIONSELECTION,40363,Recommended CE,,0
+MISSIONSELECTION,40364,Rank,,0
+MISSIONSELECTION,40365,Start,,0
+MISSIONSELECTION,40366,Highest Wave,,0
+MISSIONSELECTION,40367,Number of times attempted,,0
+MISSIONSELECTION,40368,You will not be able to edit your echelon until the next checkpoint//c //n and you cannot stop halfway.//n Do you wish to continue?,,0
+MISSIONSELECTION,40369,{0} will be restored to {1} points at 00:00 every day.,,0
+MISSIONSELECTION,40370,Base Sim Energy,,0
+MISSIONSELECTION,40371,Base Potential Energy,,0
+MISSIONSELECTION,40372,Checkpoint {0} unlocked,,0
+MISSIONSELECTION,40373,Unable to unlock new checkpoint,,0
+MISSIONSELECTION,40374,Currently at checkpoint {0},,0
+MISSIONSELECTION,40375,New record!,,0
+MISSIONSELECTION,40376,Reward,,0
+MISSIONSELECTION,40377,Currently possessed,,0
+MISSIONSELECTION,40378,Take part in Enhancement Drills to obtain Enhancement Capsules.,,0
+MISSIONSELECTION,40379,Take part in various levels of Data Sampling to obtain Training Data of various grades.,,0
+MISSIONSELECTION,40380,Take part in EXP Trainings and defeat targets to obtain a certain number of Combat Reports.,,0
+MISSIONSELECTION,40381,Explore the Neural Cloud Corridor and obtain Neural Fragments.,,0
+MISSIONSELECTION,40382,Take part in the Defense Drill and aim for higher waves//c while also obtaining Calibration Tickets.,,0
+MISSIONSELECTION,40383,Rules,,0
+MISSIONSELECTION,40384,All echelons have withdrawn.,,0
+MISSIONSELECTION,40385,You may deploy {0} echelons (including Griffin echelons//c HOCs and Coalition echelons).,,0
+MISSIONSELECTION,40386,EXP Training,,0
+MISSIONSELECTION,40387,Enhancement Drill,,0
+MISSIONSELECTION,40388,Data Sampling,,0
+MISSIONSELECTION,40389,Neural Cloud Corridor,,0
+MISSIONSELECTION,40390,Defense Drill,,0
+MISSIONSELECTION,40391,Coalition Drill,,0
+MISSIONSELECTION,40392,Target Practice,,0
+MISSIONSELECTION,40393,Ask to repeat battle,,0
+MISSIONSELECTION,40394,Yes,,0
+MISSIONSELECTION,40395,No,,0
+MISSIONSELECTION,40396,//n1. During the Defense Drill//c you will lead your squads in defending against a certain number of attacking enemy waves.//n 2. After fending off a certain number of enemy waves//c you will reach a <color=#FFA900>checkpoint</color>//c and the next time you attempt the Defense Drill you will start from <color=#FFA900>the most recently unlocked checkpoint</color>.//n 3. After several checkpoints have been unlocked//c you can directly begin battle from a target checkpoint//c and after successfully reaching the target checkpoint//c you will <color=#FFA900>unlock the checkpoint</color> and obtain the rewards from the skipped stages. //n 4. You may select <color=#FFA900>up to four echelons</color> to take part in the Defense Drill. Once the Drill begins//c <color=#FFA900>you can only change echelons at checkpoints</color>.//n 5. Once a Defense Drill is complete//c you will gain Calibration Tickets and other rewards in proportion to the <color=#FFA900>current number of waves cleared</color>.,,0
+MISSIONSELECTION,40397,Gain rewards by unlocking checkpoints,,0
+MISSIONSELECTION,40398,Subsequent checkpoints are not open yet,,0
+MISSIONSELECTION,40399,x daily production increase,,0
+MISSIONSELECTION,40400,Defense Drill,,0
+MISSIONSELECTION,40401,Conquer all the challenges that come and strive for higher waves,,0
+MISSIONSELECTION,40402,Basic Training,,0
+MISSIONSELECTION,40403,Intermediate Training,,0
+MISSIONSELECTION,40404,Advanced Training,,0
+MISSIONSELECTION,40405,Drill rewards already obtained,,0
+MISSIONSELECTION,40406,Send out at 00:00,,0
+MISSIONSELECTION,40407,Full-Scale Attack,,0
+MISSIONSELECTION,40408,Echelons,,0
+MISSIONSELECTION,40409,Depart,,0
+MISSIONSELECTION,40410,Full-Scale Expedition,,0
+MISSIONSELECTION,40411,Order Full-Scale Expedition//c confirm?,,0
+MISSIONSELECTION,40412,Activate Auto-Battle Contract,,0
+MISSIONSELECTION,40413,{0} in possession,,0
+MISSIONSELECTION,40414,Attack in progress,,0
+MISSIONSELECTION,40415,Expedition in progress,,0
+MISSIONSELECTION,40416,Insufficient Quick Auto-Battle Contracts. Unable to conduct Quick Auto-Battles.,,0
+MISSIONSELECTION,40417,Full-Scale Expedition Successful,,0
+MISSIONSELECTION,40418,Echelon Expedition Successful,,0
+MISSIONSELECTION,40419,Rewards Unobtained,,0
+MISSIONSELECTION,40420,Battle Tips,,0
+MISSIONSELECTION,40421,,,0
+MISSIONSELECTION,40422,,,0
+MISSIONSELECTION,40423,,,0
+MISSIONSELECTION,40424,,,0
+MISSIONSELECTION,40425,,,0
+MISSIONSELECTION,40426,,,0
+MISSIONSELECTION,40427,,,0
+MISSIONSELECTION,40428,,,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -3452,37 +3534,37 @@ RESEARCH,51080,Advanced Training Keycode,,0
 RESEARCH,51081,Coalition Forces,,0
 RESEARCH,51082,Please select the Doll to be enhanced or the Coalition Unit to be developed on the left.,,0
 RESEARCH,51083,Insufficient Training Keycode//c please collect them from <color=#FFB400FF>Coalition Drills</color>.,,0
-RESEARCH,51084,请先选择想要升级的妖精！(todo),,0
-RESEARCH,51085,当前选择素材，已足够升级该妖精至上限。(todo),,0
-RESEARCH,51086,已达上限(todo),,0
-RESEARCH,51087,当前妖精等级不足(todo),,0
-RESEARCH,51088,当前妖精星级不足(todo),,0
-RESEARCH,51089,该妖精未满足进化突破条件。(todo),,0
-RESEARCH,51090,请先选择用于进化的妖精或道具。(todo),,0
-RESEARCH,51091,资源不足，无法完成突破。(todo),,0
-RESEARCH,51092,进化突破(todo),,0
-RESEARCH,51093,进化{0}(todo),,0
-RESEARCH,51094,解锁天赋II(todo),,0
-RESEARCH,51095,进化经验(todo),,0
-RESEARCH,51096,查看进化指南(todo),,0
-RESEARCH,51097,进化3强化(todo),,0
-RESEARCH,51098,切换至进化(todo),,0
-RESEARCH,51099,进化模块(todo),,0
-RESEARCH,51100,点击取消即可取消选中妖精(todo),,0
-RESEARCH,51101,妖精进化突破最多提升3次(todo),,0
-RESEARCH,51102,进化突破3级后妖精会获得新外观(todo),,0
-RESEARCH,51103,1.使用妖精进化的时候，需要使用对应的材料 2.进化一共有3级 3.到达进化2的时候解锁天赋II 4.到达进化3的时候解锁全新外观(todo),,0
-RESEARCH,51104,进化规则(todo),,0
-RESEARCH,51105,已达进化突破上限(todo),,0
-RESEARCH,51106,进化经验道具(todo),,0
-RESEARCH,51107,未达到需要的进化经验，无法完成进化(todo),,0
-RESEARCH,51108,道具不足，无法完成进化(todo),,0
-RESEARCH,51109,进化(todo),,0
-RESEARCH,51110,训练(todo),,0
-RESEARCH,51111,当前进化经验已满，无需继续训练。(todo),,0
-RESEARCH,51112,记忆碎片可通过首次光看人形回忆及模拟作战获得(todo),,0
-RESEARCH,51113,加成提升(todo),,0
-RESEARCH,51114,当前提供的进化经验已远远超出进化所需，即使如此也要训练吗？(todo),,0
+RESEARCH,51084,Please select the Fairy you would like to level up!,,0
+RESEARCH,51085,The selected materials are enough to max out this Fairy.,,0
+RESEARCH,51086,Max. Limit Reached,,0
+RESEARCH,51087,Insufficient Fairy Level,,0
+RESEARCH,51088,Insufficient Fairy Star Level,,0
+RESEARCH,51089,This Fairy does not meet the requirements for an Evolution Breakthrough.,,0
+RESEARCH,51090,Please select the Fairy or item for the Evolution,,0
+RESEARCH,51091,Insufficient resources. Unable to complete Breakthrough.,,0
+RESEARCH,51092,Evolution Breakthrough,,0
+RESEARCH,51093,Evolve {0},,0
+RESEARCH,51094,Unlock Talent II,,0
+RESEARCH,51095,Evolution EXP,,0
+RESEARCH,51096,View Evolution Guide,,0
+RESEARCH,51097,Evolution III Enhancement,,0
+RESEARCH,51098,,,0
+RESEARCH,51099,Evolution Module,,0
+RESEARCH,51100,Tap "Cancel" to deselect Fairy,,0
+RESEARCH,51101,Each Fairy can undergo a maximum of three Evolution Breakthroughs.,,0
+RESEARCH,51102,A Fairy will gain a new appearance after the third Breakthrough.,,0
+RESEARCH,51103,1. Fairy Evolutions require certain materials. 2. There are 3 Evolution Levels. 3. Talent II is unlocked upon reaching Evolution 2. 4. A new appearance is unlocked upon reaching Evolution 3.,,0
+RESEARCH,51104,Evolution Rules,,0
+RESEARCH,51105,Evolution Breakthrough at maximum,,0
+RESEARCH,51106,Evolution EXP Item,,0
+RESEARCH,51107,Insufficient Evolution EXP. Unable to complete Evolution.,,0
+RESEARCH,51108,Insufficient items. Unable to complete Evolution.,,0
+RESEARCH,51109,Evolution,,0
+RESEARCH,51110,Training,,0
+RESEARCH,51111,Evolution EXP full. Further training not required.,,0
+RESEARCH,51112,Memory Fragments can be obtained by watching T-Doll Memories for the first time and completing Combat Simulations.,,0
+RESEARCH,51113,Bonus Increase,,0
+RESEARCH,51114,The projected Evolution EXP gain far exceeds the Evolution requirement. Proceed with training?,,0
 SETTING,52000,Sound,,0
 SETTING,52001,Sound,,0
 SETTING,52002,Game,,0
@@ -3534,7 +3616,7 @@ SETTING,52047,Resources soft cap limit,,0
 SETTING,52048,Main Story Completion Rate,,0
 SETTING,52049,Current T-Doll Count,,0
 SETTING,52050,Furniture Collection Rate,,0
-SETTING,52051,装备&妖精制造栏位激活数(todo),,0
+SETTING,52051,Equip Production Slots unlocked,,0
 SETTING,52052,Dormitories unlocked,,0
 SETTING,52053,T-Doll Collection Rate,,0
 SETTING,52054,Battery,,0
@@ -3568,7 +3650,7 @@ SETTING,52081,Character Live2D,,0
 SETTING,52082,Background Live2D,,0
 SETTING,52083,Battle Simplification,,0
 SETTING,52084,Some resource files need to be updated. Proceed?//n<size=33>(File size: {0} MB)</size>//nPlease make sure there is at least {1}MB of storage on your device!,,0
-SETTING,52085,是否下载完整资源包（不包含语音）//n<size=33>可随时在【选项】中下载</size>(todo),,0
+SETTING,52085,Confirm to download full resource package?//n(Does not include voice pack)//n<size=33>You can also download it in the【Setting】menu at any time</size>,,0
 SETTING,52086,<size=33>(Recommend using wifi to download)</size>,,0
 SETTING,52087,You are not using wifi.//n//nContinue with download?//n(Recommend using wifi to download),,0
 SETTING,52088,Recommend downloading full resource package for a better game experience//n(File size: {0} MB)//n//nContinue?//n(Recommend using wifi to download),,0
@@ -3625,10 +3707,18 @@ SETTING,52138,Close,,0
 SETTING,52139,Single,,0
 SETTING,52140,On,,0
 SETTING,52141,HD artwork,,0
-SETTING,52142,,,0
-SETTING,52151,当前改名卡数量：{0}(todo),,0
-SETTING,52152,选中人形效果(todo),,0
-SETTING,52153,*选中人形时放大操作时间(todo),,0
+SETTING,52142,* When this feature is switched on//c artwork is displayed by downloading the corresponding high-resolution assets.//n  Auto download must be enabled when downloading HD artwork. The process may consume a considerable amount of data.,,0
+SETTING,52143,<size=31>Auto download is enabled. Downloading HD artwork will consume data. You can disable the download manually.</size>,,0
+SETTING,52144,Downloading HD artwork may consume a considerable amount of data.,,0
+SETTING,52145,Line Subtitles,,0
+SETTING,52146,*Includes mid-battle lines//c tactical map lines//c battle-end lines//c and subtitles during Luffberry Chess games.,,0
+SETTING,52147,Freeze Time,,0
+SETTING,52148,Bullet Time,,0
+SETTING,52149,Min,,0
+SETTING,52150,Max,,0
+SETTING,52151,Current number of Rename Cards: {0},,0
+SETTING,52152,Effect of Selected T-Doll,,0
+SETTING,52153,*Slow down time when a T-Doll is selected.,,0
 STOREROOM,53000,T-Doll,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,Equipment,,0
@@ -3645,39 +3735,39 @@ STOREROOM,53012,Item Introduction,,0
 STOREROOM,53013,Obtain method,,0
 STOREROOM,53014,Level,,0
 STOREROOM,53015,ID,,0
-STOREROOM,53016,,,0
+STOREROOM,53016,MOD{0},,0
 STOREROOM,53017,Max. {0},,0
 STOREROOM,53018,EXP,,0
 STOREROOM,53019,All,,0
 STOREROOM,53020,Maximum reached,,0
-STOREROOM,53021,过期补偿(todo),,0
-STOREROOM,53022,清空(todo),,0
-STOREROOM,53023,最大(todo),,0
-STOREROOM,53024,选择{0}项以继续批量重复操作(todo),,0
-STOREROOM,53025,预览中不可操作(todo),,0
-STOREROOM,53026,当前项目不可重复获得(todo),,0
-STOREROOM,53027,存在不可重复获得道具(todo),,0
-STOREROOM,53028,礼物盒数量不足(todo),,0
-STOREROOM,53029,请选择至少一个礼物盒(todo),,0
-STOREROOM,53030,礼物盒已过期，获得过期补偿(todo),,0
-STOREROOM,53031,部分礼物盒已过期，获得过期补偿(todo),,0
-STOREROOM,53032,礼物盒【{0}】将在{1}过期，请及时打开(todo),,0
-STOREROOM,53033,开通指定坐标投递服务的序标，每个序标使用之后能从投递清单中选择一种道具作为配给(todo),,0
-STOREROOM,53034,开通区域之间空投服务的序标，每个序标使用之后能从空投清单中随机获得一种配给道具(todo),,0
-STOREROOM,53035,开通专运列车服务的序标，每个序标使用之后能获取一次班列中运载的所有配给道具(todo),,0
-STOREROOM,53036,开通集装投送服务的序标，每个序标使用之后能从清单中获取多个指定配给道具(todo),,0
-STOREROOM,53037,清空选择(todo),,0
-STOREROOM,53038,指定投递序标(todo),,0
-STOREROOM,53039,区间空投序标(todo),,0
-STOREROOM,53040,专列运输序标(todo),,0
-STOREROOM,53041,集装投送序标(todo),,0
-STOREROOM,53042,回到礼物盒(todo),,0
-STOREROOM,53043,不可重复获得(todo),,0
-STOREROOM,53045,前有效(todo),,0
-STOREROOM,53046,未选择(todo),,0
-STOREROOM,53047,碎片合成(todo),,0
-STOREROOM,53048,关闭预览(todo),,0
-STOREROOM,53049,{0}天内(todo),,0
+STOREROOM,53021,Expiry Compensation,,0
+STOREROOM,53022,Clear,,0
+STOREROOM,53023,Maximum,,0
+STOREROOM,53024,Select {0} items to proceed with repeated bulk operation,,0
+STOREROOM,53025,Operation invalid in preview,,0
+STOREROOM,53026,This cannot be obtained again.,,0
+STOREROOM,53027,There are items which cannot be obtained again.,,0
+STOREROOM,53028,Insufficient Allotment Indicators,,0
+STOREROOM,53029,Please select at least 1 Allotment Indicator.,,0
+STOREROOM,53030,Allotment Indicator expired. Expiry Compensation obtained.,,0
+STOREROOM,53031,Certain Allotment Indicators have expired. Expiry Compensation obtained.,,0
+STOREROOM,53032,Allotment Indicator 【{0}】 will expire on {1}//c please open it in time.,,0
+STOREROOM,53033,Activate an Indicator that specifies the delivery coordinates//c then select an item from the delivery list.,,0
+STOREROOM,53034,Activate an Indicator that calls for an air delivery across regions and obtain a random item from the air delivery list.,,0
+STOREROOM,53035,Activate an Indicator that calls for a special train delivery and obtain all items from the freight list.,,0
+STOREROOM,53036,Activate an Indicator that calls for a bulk delivery and obtain a specified amount of items.,,0
+STOREROOM,53037,Clear Selection,,0
+STOREROOM,53038,Specified Delivery Indicator,,0
+STOREROOM,53039,Air-Drop Delivery Indicator,,0
+STOREROOM,53040,Train Delivery Indicator,,0
+STOREROOM,53041,Bulk Delivery Indicator,,0
+STOREROOM,53042,Back to Gift Box,,0
+STOREROOM,53043,Cannot be obtained again,,0
+STOREROOM,53045,Effective before,,0
+STOREROOM,53046,Not selected,,0
+STOREROOM,53047,Combine Fragments,,0
+STOREROOM,53048,Close Preview,,0
+STOREROOM,53049,,,0
 EQUIP,54000,Please select the equipment you wish to enhance!,,0
 EQUIP,54001,Enhancement Level,,0
 EQUIP,54002,Accuracy Multiplier,,0
@@ -3696,7 +3786,7 @@ EQUIP,54014,Insufficient Parts,,0
 EQUIP,54015,Enhance Equipment,,0
 EQUIP,54016,The selected equipment has reached the maximum enhancement level,,0
 EQUIP,54017,Caution! Selected equipment include high level/high rarity equipment. Continue with enhancement?,,0
-EQUIP,54018,校准点券不足，可前往防御演习进行获取。(todo),,0
+EQUIP,54018,Insufficient Calibration Tickets//c please proceed to Defense Drill to acquire more.,,0
 EQUIP,54019,Equipment Calibration,,0
 EQUIP,54020,Rollback calibration,,0
 EQUIP,54021,Equipped to,,0
@@ -3711,8 +3801,8 @@ EQUIP,54029,Shield index,,0
 EQUIP,54030,Speed index,,0
 EQUIP,54031,Equipment has already reached the maximum stats//c further calibration is not required.,,0
 EQUIP,54032,The provided EXP is higher than the required exp for maximum level//c continue with enhancement?,,0
-EQUIP,54033,校准点券(todo),,0
-EQUIP,54034,1.校准可以为装备提供<color=#FFA900>改变属性</color>的机会。 2.校准需要消耗一定的资源与<color=#FFA900>校准点券</color>，校准点券可以在<color=#FFA900>防御演习</color>中获得。 3.装备前两次校准消耗点券<color=#FFA900>较少</color>，第三次后将恢复正常。 4.每一次校准都提供<color=#FFA900>属性还原</color>的机会，但依然会扣除资源。 (todo),,0
+EQUIP,54033,Calibration Ticket,,0
+EQUIP,54034,1.Calibration allows equipment to <color=#FFA900>change its stats</color>. //n2. Calibration requires a certain amount of resources and <color=#FFA900>Calibration Tickets</color>//c which can be obtained from <color=#FFA900>Defense Drill</color>. //n3. The first two calibrations will consume <color=#FFA900>less</color> tickets//c but will revert to normal from the third onwards. //n4. Every calibration will allow for <color=#FFA900>stats rollback</color>//c but it will still consume resources.,,0
 EQUIP,54035,Calibration Rate,,0
 EQUIP,54036,Calibration Rules,,0
 EQUIP,54037,Currently selected equipment has reached maximum enhancement.,,0
@@ -3752,44 +3842,49 @@ EQUIP,54071,Equipment,,0
 EQUIP,54072,Owned: {0},,0
 EQUIP,54073,Unlocked at Lv.{0},,0
 EQUIP,54074,Equipped on//n {0}//n (Lv. {1}),,0
-EQUIP,54079,返回(todo),,0
-EQUIP,54080,专属装备(todo),,0
-EQUIP,54081,通用装备(todo),,0
-EQUIP,54082,装备详情(todo),,0
-EQUIP,54083,装备数据(todo),,0
-EQUIP,54084,获取途径(todo),,0
-EQUIP,54085,关联专属(todo),,0
-EQUIP,54086,套装查看 (todo),,0
-EQUIP,54087,最大强化效果(todo),,0
-EQUIP,54088,*数据为校准完成后数值(todo),,0
-EQUIP,54089,多人专属(todo),,0
-EQUIP,54090,*可能存在特殊人形不受枪种限制(todo),,0
-EQUIP,54091,装备2件(todo),,0
-EQUIP,54092,装备3件(todo),,0
-EQUIP,54093,可激活(todo),,0
-EQUIP,54094,展开套装效果(todo),,0
-EQUIP,54095,收起套装效果(todo),,0
-EQUIP,54096,星级(todo),,0
-EQUIP,54097,持有数(todo),,0
-EQUIP,54098,装备收集(todo),,0
-EQUIP,54099,通用装备(todo),,0
-EQUIP,54100,专属装备(todo),,0
-EQUIP,54101,装备(todo),,0
-EQUIP,54102,特典装备(todo),,0
-EQUIP,54103,恢复(todo),,0
-EQUIP,54104,消耗资源//n{0} 人力，{1}口粮，{2} 弹药，{3} 零件//n恢复装备 <color=#ffb400ff>{4}</color>(todo),,0
-EQUIP,54105,当前材料不足，无法进行恢复(todo),,0
-EQUIP,54106,装备类型(todo),,0
-EQUIP,54107,1.使用同名装备进行强化可获得{0}%基础开发值//n2.使用已强化的装备进行强化可额外继承该装备{1}%的开发值(todo),,0
-EQUIP,54108,强化规则(todo),,0
-EQUIP,54109,强化//n等级(todo),,0
-EQUIP,54110,校准率(todo),,0
-EQUIP,54111,预览强化效果(todo),,0
-EQUIP,54112,预览校准效果(todo),,0
-EQUIP,54113,已达强化上限(todo),,0
-EQUIP,54114,已完成校准(todo),,0
-EQUIP,54115,当前装备于(todo),,0
-EQUIP,54116,闲置中(todo),,0
+EQUIP,54075,The selected materials are enough to enhance this piece of equipment to the maximum.,,0
+EQUIP,54076,Locked,,0
+EQUIP,54077,Special Equipment,,0
+EQUIP,54078,Number Possessed: {0},,0
+EQUIP,54079,Return,,0
+EQUIP,54080,Special Equipment,,0
+EQUIP,54081,Normal Equipment,,0
+EQUIP,54082,Equipment Details,,0
+EQUIP,54083,Equipment Data,,0
+EQUIP,54084,How to Obtain,,0
+EQUIP,54085,Related SPEQ,,0
+EQUIP,54086,View Set,,0
+EQUIP,54087,Effects at Maximum Enhancement,,0
+EQUIP,54088,*Stats are after full calibration,,0
+EQUIP,54089,General SPEQ,,0
+EQUIP,54090,*Certain special T-Dolls may not be limited by gun types,,0
+EQUIP,54091,2-piece Bonus,,0
+EQUIP,54092,3-piece Bonus,,0
+EQUIP,54093,Can be activated,,0
+EQUIP,54094,Show set bonus effects,,0
+EQUIP,54095,Hide set bonus effects,,0
+EQUIP,54096,Star Level,,0
+EQUIP,54097,Number possessed,,0
+EQUIP,54098,Equipment Collection,,0
+EQUIP,54099,General Equipment,,0
+EQUIP,54100,Special Equipment,,0
+EQUIP,54101,Equipment,,0
+EQUIP,54102,Limited Edition Equipment,,0
+EQUIP,54103,Recover,,0
+EQUIP,54104,Expend the following resources://n{0} Manpower//c {1} Rations//c {2}Ammo//c {3} Parts//n to recover the equipment <color=#ffb400ff>{4}</color>,,0
+EQUIP,54105,Insufficient materials//c cannot proceed with recovery.,,0
+EQUIP,54106,Equipment Type,,0
+EQUIP,54107,1. Using Equipment of the same name for Enhancement will give {0}% Basic Development Rate.//n2. Using Enhanced Equipment for Enhancement will transfer {0}% of the Equipment's Development Rate as a bonus.,,0
+EQUIP,54108,Enhancement Rules,,0
+EQUIP,54109,Enhancement//nLevel,,0
+EQUIP,54110,Calibration Rate,,0
+EQUIP,54111,Preview Enhancement Effect,,0
+EQUIP,54112,Preview Calibration Effect,,0
+EQUIP,54113,Enhancement at maximum,,0
+EQUIP,54114,Calibration Complete,,0
+EQUIP,54115,Currently Equipped On,,0
+EQUIP,54116,Idle,,0
+EQUIP,54117,装备{0}件(todo),,0
 SEPCIALOPS,60000,Operation: Cube,,0
 SEPCIALOPS,60001,Details,,0
 SEPCIALOPS,60002,In combat,,0
@@ -3841,7 +3936,7 @@ SEPCIALOPS,60047,Current difficulty,,0
 SEPCIALOPS,60048,Normal,,0
 SEPCIALOPS,60049,Hard,,0
 SEPCIALOPS,60050,Nightmare,,0
-SEPCIALOPS,60051,(Available after current difficulty),,0
+SEPCIALOPS,60051,(Available after {0} difficulty),,0
 SEPCIALOPS,60052,Rewards can be reset by backtracking//c and you are limited to {0} resets per day.,,0
 SEPCIALOPS,60053,Backtrack and select the other branch of the route to unlock this stage.,,0
 SEPCIALOPS,60054,Unlocked stages will remain after backtracking.,,0
@@ -3919,343 +4014,256 @@ SEPCIALOPS,60125,Act 3,,0
 SEPCIALOPS,60126,Epilogue,,0
 SEPCIALOPS,60127,Choose a T-Doll backup file,,0
 SEPCIALOPS,60128,Wave {0},,0
-SEPCIALOPS,60294,1.本次活动由3个关卡组成，活动最高分为3个关卡各自的最高分之和。//n2.第1关和第2关存在多个胜利目标，完成不同胜利目标会解锁不同后续关卡。//n3.如要进入其它关卡，请在前一关卡点“重置”，并完成不同胜利目标。//n4.重置关卡会关闭后续关卡，但不会影响关卡已经达到的最高分。(todo),,0
-SEPCIALOPS,60295,存在进行中的作战，无法重置关卡，要直接进入正在执行的作战么？(todo),,0
-SEPCIALOPS,60296,当前关卡尚未解锁，请先通关前置关卡。(todo),,0
-SEPCIALOPS,60297,1.首次通关或重置后首次通关第2关可以获得“速迭建材”，可用于第3关中设施的建设和升级，第2关中获得的总数决定了第3关中可用的数量上限。（每次挑战第3关时“速迭建材“会自动补充至该上限）//n2.非首次或重置后首次通关第2关无法获得“速迭建材”，如果想更改已获取的“速迭建材”数量请重置第2关后再次挑战。（重置第2关会清空已拥有的“速迭建材”）。(todo),,0
-SEPCIALOPS,60298,累计分(todo),,0
-SEPCIALOPS,60299,奖励(todo),,0
-SEPCIALOPS,60300,最高积分(todo),,0
-SEPCIALOPS,60301,合计(todo),,0
-SEPCIALOPS,60302,贝蒂数(todo),,0
-SEPCIALOPS,60303,已通关(todo),,0
-SEPCIALOPS,60304,最高分(todo),,0
-SEPCIALOPS,60305,重置(todo),,0
-SEPCIALOPS,60306,指挥官(todo),,0
-SEPCIALOPS,60307,认证码(todo),,0
-SEPCIALOPS,60308,最高连击数(todo),,0
-SEPCIALOPS,60309,分数(todo),,0
-SEPCIALOPS,60310,西瓜统计(todo),,0
-SEPCIALOPS,60311,当前未持有{0}，无法进行投票。(todo),,0
-SEPCIALOPS,60312,将给<color=#FFB400FF>{0}</color>投<color=#FFB400FF>{1}</color>//n是否确定？(todo),,0
-SEPCIALOPS,60313,当前持有{0}(todo),,0
-SEPCIALOPS,60314,比起其他神职，女巫才是好人阵营制胜的关键哦。(todo),,0
-SEPCIALOPS,60315,嗯？虽说这张比不上守善之证，但也代表了您的一片心意呢……我就姑且收下吧。(todo),,0
-SEPCIALOPS,60316,谢啦……唔，我是说，投给我绝对是个明智的选择！(todo),,0
-SEPCIALOPS,60317,喂，看清楚牌面！我可不是什么牌都收的！(todo),,0
-SEPCIALOPS,60318,谢谢您，指挥官……我、我一定会加油的！(todo),,0
-SEPCIALOPS,60319,（诶？指挥官投错了吗？）……唔，没、没什么！这张也可以啦……(todo),,0
-SEPCIALOPS,60320,恕我直言，有那几个操作变形的家伙在，好人阵营应该很难获得胜利吧？(todo),,0
-SEPCIALOPS,60321,虽然不知道您的用意是什么……但我会好好收着的。(todo),,0
-SEPCIALOPS,60322,谢谢主人的投票……最后也不要忘记摸摸头哦！(todo),,0
-SEPCIALOPS,60323,不可以这样啊，主人！我最讨厌它们的气息了！(todo),,0
-SEPCIALOPS,60324,交给我吧，指挥官。我会为您带来您所期盼的胜利。(todo),,0
-SEPCIALOPS,60325,抱歉，我一时失误帮了狼人的忙……一定令您失望了吧？(todo),,0
-SEPCIALOPS,60326,有了这张票，好人阵营就离胜利更进了一步。(todo),,0
-SEPCIALOPS,60327,嗯？这是FN-57让你带来的投降礼物吗？(todo),,0
-SEPCIALOPS,60328,要想长久地活下去，我们必须比任何时刻都要坚信：自己是个好人。(todo),,0
-SEPCIALOPS,60329,但另一方面来说，无论演得再怎么逼真，我们都绝对不能忘记自己的狼人身份哦。(todo),,0
-SEPCIALOPS,60330,她们给了您这张卡牌，而您却送给了我……这就是您表达喜爱的方式吗？(todo),,0
-SEPCIALOPS,60331,嘻嘻，谢谢您的大力支持哦！看来是时候向FAL好好证明我的实力了……(todo),,0
-SEPCIALOPS,60332,嘻嘻，指挥官这么照顾我，一定不只是为了今晚的甜点吧？！(todo),,0
-SEPCIALOPS,60333,咦？投这张牌的意思是……甜点还不够美味？(todo),,0
-SEPCIALOPS,60334,如果把这张没用的卡牌换成糖就更好了。(todo),,0
-SEPCIALOPS,60335,唔……谢谢您……FN-57，我的拉票任务应该完成了吧？我可以走了吗？(todo),,0
-SEPCIALOPS,60336,这次还没催你，你就主动送过来了……表现不错！(todo),,0
-SEPCIALOPS,60337,这我就得好好教育你了！东西可以乱吃，牌可不能乱送啊！(todo),,0
-SEPCIALOPS,60338,没想到身为初级玩家竟能得到你的青睐……看来你们地球的游戏也不是很难嘛！(todo),,0
-SEPCIALOPS,60339,你确定没投错吗？从族群上来说，我和它们可是死对头呢！(todo),,0
-SEPCIALOPS,60340,哇……宝贵的一票！主公，您是被吾辈所讲的故事感动到了吗？(todo),,0
-SEPCIALOPS,60341,主公的照拂吾辈自当心怀感激……不过这张牌好像会带来厄运哦？(todo),,0
-SEPCIALOPS,60342,嘻嘻……您居然被我精湛的演技骗过了吗？(todo),,0
-SEPCIALOPS,60343,啊呀，被看穿了呢……不过就此公开身份或许也不错哦？(todo),,0
-SEPCIALOPS,60344,哇哦！honey居然连守善之证都不放过，全部拿来献给我了呢！(todo),,0
-SEPCIALOPS,60345,honey~~在我面前就不用客套了吧？把牌全都交出来吧！(todo),,0
-SEPCIALOPS,60346,FAL的胜利就由我来守卫！(todo),,0
-SEPCIALOPS,60347,等等……你为什么会有群狼之牌？难道你偷偷背着我们联络那些家伙了吗？(todo),,0
-SEPCIALOPS,60348,里坎的阴影持续笼罩，一切静待{0}维护后呈现终章！(todo),,0
-SEPCIALOPS,60349,* 通关活动关卡获取投票道具，投票给你支持的人形吧！(todo),,0
-SEPCIALOPS,60350,指挥官想给她投哪种票呢？(todo),,0
-SEPCIALOPS,60351,守善之证(todo),,0
-SEPCIALOPS,60352,群狼之牌(todo),,0
-SEPCIALOPS,60353,总票数(todo),,0
-SEPCIALOPS,60354,当前票数(todo),,0
-SEPCIALOPS,60355,抉择之箱(todo),,0
-SEPCIALOPS,60356,里坎·狩兽序章(todo),,0
-SEPCIALOPS,60357,猎人巡地(todo),,0
-SEPCIALOPS,60358,靶向陷阱(todo),,0
-SEPCIALOPS,60359,薄暮迷宫(todo),,0
-SEPCIALOPS,60360,巫女营帐(todo),,0
-SEPCIALOPS,60361,心魔池沼(todo),,0
-SEPCIALOPS,60362,烽火连台(todo),,0
-SEPCIALOPS,60363,再航余波(todo),,0
-SEPCIALOPS,60364,混沌中继(todo),,0
-SEPCIALOPS,60365,格琳娜(todo),,0
-SEPCIALOPS,60366,狩猎公示榜(todo),,0
-SEPCIALOPS,60367,夏日终章(todo),,0
-SEPCIALOPS,60368,女巫(todo),,0
-SEPCIALOPS,60369,村民(todo),,0
-SEPCIALOPS,60370,骑士(todo),,0
-SEPCIALOPS,60371,猎人(todo),,0
-SEPCIALOPS,60372,丘比特(todo),,0
-SEPCIALOPS,60373,预言家(todo),,0
-SEPCIALOPS,60374,狼人(todo),,0
-SEPCIALOPS,60375,白痴(todo),,0
-SEPCIALOPS,60376,白狼王(todo),,0
-SEPCIALOPS,60377,守卫(todo),,0
-SEPCIALOPS,60378,指挥官今天已经进行了{0}次抉择了，请明天再来吧~(todo),,0
-SEPCIALOPS,60379,柳德米拉(todo),,0
-SEPCIALOPS,60380,Lyudmila·Pavlichenko(todo),,0
-SEPCIALOPS,60381,退役教官(todo),,0
-SEPCIALOPS,60382,瓦列里娅(todo),,0
-SEPCIALOPS,60383,Ms. Valeriya(todo),,0
-SEPCIALOPS,60384,贵妇人(todo),,0
-SEPCIALOPS,60385,鲁戈萨(todo),,0
-SEPCIALOPS,60386,Dr. Rugosa(todo),,0
-SEPCIALOPS,60387,医生(todo),,0
-SEPCIALOPS,60388,卢卡斯(todo),,0
-SEPCIALOPS,60389,Lucas·Rugosa(todo),,0
-SEPCIALOPS,60390,助手人形(todo),,0
-SEPCIALOPS,60391,玛姬(todo),,0
-SEPCIALOPS,60392,Maggie·Ponzi(todo),,0
-SEPCIALOPS,60393,社会工程师(todo),,0
-SEPCIALOPS,60394,薇拉内尔小姐(todo),,0
-SEPCIALOPS,60395,Veranell·Dukas(todo),,0
-SEPCIALOPS,60396,落魄小姐(todo),,0
-SEPCIALOPS,60397,尼古拉(todo),,0
-SEPCIALOPS,60398,Nicholas·Vasilyevich(todo),,0
-SEPCIALOPS,60399,富二代(todo),,0
-SEPCIALOPS,60400,艾尔玛(todo),,0
-SEPCIALOPS,60401,Erma·Hume(todo),,0
-SEPCIALOPS,60402,无知少女(todo),,0
-SEPCIALOPS,60403,保尔(todo),,0
-SEPCIALOPS,60404,Pavel·Mamontov(todo),,0
-SEPCIALOPS,60405,前铁道工人(todo),,0
-SEPCIALOPS,60406,凯瑟琳(todo),,0
-SEPCIALOPS,60407,Catherine·Ponzi(todo),,0
-SEPCIALOPS,60408,良心商人(todo),,0
-SEPCIALOPS,60409,（她似乎在沉思着什么）(todo),,0
-SEPCIALOPS,60410,这里的人都是来参加酒会的吗？(todo),,0
-SEPCIALOPS,60411,我已经准备好了。(todo),,0
-SEPCIALOPS,60412,不管用什么方法，都要解除这个诅咒。(todo),,0
-SEPCIALOPS,60413,你好，我是柳德米拉。(todo),,0
-SEPCIALOPS,60414,列车抢劫？只是偶然吗？(todo),,0
-SEPCIALOPS,60415,牺牲……还是挽救？(todo),,0
-SEPCIALOPS,60416,这一次，我选择挽救。(todo),,0
-SEPCIALOPS,60417,情况很不乐观。(todo),,0
-SEPCIALOPS,60418,你就是柯尔特快车的主理人。(todo),,0
-SEPCIALOPS,60419,目前只有这个方案最可行。(todo),,0
-SEPCIALOPS,60420,计划暂时成功了。(todo),,0
-SEPCIALOPS,60421,（她遭到了不小的冲击）(todo),,0
-SEPCIALOPS,60422,我的行动力大幅下降……(todo),,0
-SEPCIALOPS,60423,极具价值的一笔交易。(todo),,0
-SEPCIALOPS,60424,我会完成约定。(todo),,0
-SEPCIALOPS,60425,快走，艾尔玛。(todo),,0
-SEPCIALOPS,60426,现在的我不足以匹敌她。(todo),,0
-SEPCIALOPS,60427,做出抉择，接受代价。(todo),,0
-SEPCIALOPS,60428,我……保护你们……(todo),,0
-SEPCIALOPS,60429,暂时摆脱掉了那个女人。(todo),,0
-SEPCIALOPS,60430,一切都会解决的。(todo),,0
-SEPCIALOPS,60431,呼叫，鲁斯兰二世。(todo),,0
-SEPCIALOPS,60432,艾尔玛和玛姬，拜托了。(todo),,0
-SEPCIALOPS,60433,（她化作了照亮黑夜的星光）(todo),,0
-SEPCIALOPS,60434,（她似乎在沉思着什么）(todo),,0
-SEPCIALOPS,60435,令人厌恶的女人……(todo),,0
-SEPCIALOPS,60436,十分钟……多一分一秒都不行……(todo),,0
-SEPCIALOPS,60437,时间到了……都给我燥起来吧！(todo),,0
-SEPCIALOPS,60438,交出来！把钱都给我交出来！(todo),,0
-SEPCIALOPS,60439,谁也别想逃跑！(todo),,0
-SEPCIALOPS,60440,区区一扇门，就想拦住我？(todo),,0
-SEPCIALOPS,60441,踏破所有阻碍！(todo),,0
-SEPCIALOPS,60442,敢耍我？！(todo),,0
-SEPCIALOPS,60443,哈，原来是他们干的……(todo),,0
-SEPCIALOPS,60444,死吧！都给我去死吧！(todo),,0
-SEPCIALOPS,60445,玛姬这个混账女人……早就该杀了你！(todo),,0
-SEPCIALOPS,60446,（她脸上的泪水已经冰冷）(todo),,0
-SEPCIALOPS,60447,好戏……即将上演。(todo),,0
-SEPCIALOPS,60448,（他正在闭目养神）(todo),,0
-SEPCIALOPS,60449,你好，我是鲁戈萨医生。(todo),,0
-SEPCIALOPS,60450,（遭到律贼殴打，暂时无法动弹）(todo),,0
-SEPCIALOPS,60451,宁为玉碎，不为瓦全。(todo),,0
-SEPCIALOPS,60452,要联合所有的人形力量。(todo),,0
-SEPCIALOPS,60453,人类最后的希望。(todo),,0
-SEPCIALOPS,60454,（他遭到了不小的冲击）(todo),,0
-SEPCIALOPS,60455,我相信她们……(todo),,0
-SEPCIALOPS,60456,哪怕是战斗到最后一刻，也绝不认输。(todo),,0
-SEPCIALOPS,60457,（他回归了平静）(todo),,0
-SEPCIALOPS,60458,（他正在闭目养神）(todo),,0
-SEPCIALOPS,60459,（……）(todo),,0
-SEPCIALOPS,60460,  (todo),,0
-SEPCIALOPS,60461,瓦列里娅夫人(todo),,0
-SEPCIALOPS,60462,（他遭到了不小的冲击）(todo),,0
-SEPCIALOPS,60463,特等车厢几乎没受到多少冲击，律贼消亡以后，我们应该接纳更多的幸存者。(todo),,0
-SEPCIALOPS,60464,每个人都有自己的使命，此刻我的使命就是救下那个孩子。(todo),,0
-SEPCIALOPS,60465,外面那些人是冲着教官来的，真正的救援部队不知道什么时候才能赶到……(todo),,0
-SEPCIALOPS,60466,黎明就在眼前。(todo),,0
-SEPCIALOPS,60467,教官小姐，完成了她的使命。(todo),,0
-SEPCIALOPS,60468,您好，我是个医生，这是我的助理卢卡斯。(todo),,0
-SEPCIALOPS,60469,如果是你，你会怎么选？(todo),,0
-SEPCIALOPS,60470,是时候该离开了……(todo),,0
-SEPCIALOPS,60471,我好像已经回不去了……(todo),,0
-SEPCIALOPS,60472,原来我一开始，只是喜欢拯救生命的感觉啊……(todo),,0
-SEPCIALOPS,60473,F02车厢(todo),,0
-SEPCIALOPS,60474,F09车厢(todo),,0
-SEPCIALOPS,60475,F17车厢(todo),,0
-SEPCIALOPS,60476,这趟列车的老熟人不少呢……(todo),,0
-SEPCIALOPS,60477,唔……这鸢尾花的颜色你是怎么调出来的，好漂亮！所以这杯酒就叫玛姬庞兹吗？(todo),,0
-SEPCIALOPS,60478,今晚这杯龙舌兰，我请！(todo),,0
-SEPCIALOPS,60479,吉恩酒吧可是我的地盘。(todo),,0
-SEPCIALOPS,60480,乖乖呆在笼子里吧，律贼先生~(todo),,0
-SEPCIALOPS,60481,人形哪来退休，只有无尽的轮回。(todo),,0
-SEPCIALOPS,60482,两个人形出现在同一节车厢，柯尔特快车从未出现过这类错误。(todo),,0
-SEPCIALOPS,60483,终于找到你了，特工。(todo),,0
-SEPCIALOPS,60484,洲际列车的代理人，这头衔真唬人。也许我应该去印个名片。(todo),,0
-SEPCIALOPS,60485,得到的一切都必须付出代价，只是有些代价太过沉重。(todo),,0
-SEPCIALOPS,60486,有些东西我永远不会放弃。(todo),,0
-SEPCIALOPS,60487,蜂针，无处不在。啧啧。(todo),,0
-SEPCIALOPS,60488,凯瑟琳中枪了，我没法带她走。(todo),,0
-SEPCIALOPS,60489,没有什么是不可以交易的，而我会是最后通吃的赢家。(todo),,0
-SEPCIALOPS,60490,这两个人形，挺有意思。(todo),,0
-SEPCIALOPS,60491,（撞击发生时，凯瑟琳挡在她身前，为她承受了冲击。）(todo),,0
-SEPCIALOPS,60492,这个舞台上的角色越来越多了……(todo),,0
-SEPCIALOPS,60493,律贼大势已去，我的判断没有错。(todo),,0
-SEPCIALOPS,60494,接下来会发生什么呢……(todo),,0
-SEPCIALOPS,60495,“祸害遗千年，幸好你不是好人，我也不是。”(todo),,0
-SEPCIALOPS,60496,F01号车厢，我不能去那里。(todo),,0
-SEPCIALOPS,60497,（宕机中……）(todo),,0
-SEPCIALOPS,60498,这次生意真的是在玩命啊！(todo),,0
-SEPCIALOPS,60499,塔亚柔斯真是个恐怖的敌人。(todo),,0
-SEPCIALOPS,60500,凯瑟琳……我会带你回家的。(todo),,0
-SEPCIALOPS,60501,（再见了，柳德米拉。）(todo),,0
-SEPCIALOPS,60502,柯尔特快车，再次出发！(todo),,0
-SEPCIALOPS,60503,（她沉入了美酒的梦境）(todo),,0
-SEPCIALOPS,60504,一杯龙舌兰，忘却世间烦恼~(todo),,0
-SEPCIALOPS,60505,今天的玛姬也是分外迷人。(todo),,0
-SEPCIALOPS,60506,怎么没人想到在洲际列车上开赌场，这一定是个巨大商机！(todo),,0
-SEPCIALOPS,60507,哼，等着吧，我可不是没用的尼古拉。(todo),,0
-SEPCIALOPS,60508,开始行动，丹尼尔，还有你们几个，跟上我。(todo),,0
-SEPCIALOPS,60509,女士们，先生们，把你们的钱都交出来吧！(todo),,0
-SEPCIALOPS,60510,可恶，那个战术人形，竟敢挟持我，我一定要把她头拧下来。(todo),,0
-SEPCIALOPS,60511,（玛姬……还挺聪明。）(todo),,0
-SEPCIALOPS,60512,（他遭到了不小的冲击）(todo),,0
-SEPCIALOPS,60513,（母亲……原来是这样……）(todo),,0
-SEPCIALOPS,60514,今天的玛姬也是分外迷人。(todo),,0
-SEPCIALOPS,60515,我就是你在等的人。(todo),,0
-SEPCIALOPS,60516,玛姬小姐对艺术品缺少一副鉴赏的慧眼。(todo),,0
-SEPCIALOPS,60517,不可能！绝对不可能！我不可能受骗！嘿嘿……(todo),,0
-SEPCIALOPS,60518,天要黑下来了……(todo),,0
-SEPCIALOPS,60519,车开了。(todo),,0
-SEPCIALOPS,60520,……(todo),,0
-SEPCIALOPS,60521,好吵……(todo),,0
-SEPCIALOPS,60522,我没有钱。(todo),,0
-SEPCIALOPS,60523,（跟着玛姬跑到了F02与F03的车厢连接处）(todo),,0
-SEPCIALOPS,60524,他们……想做什么……(todo),,0
-SEPCIALOPS,60525,3，2，1……(todo),,0
-SEPCIALOPS,60526,（……）(todo),,0
-SEPCIALOPS,60527,进来的好多人类……人形只有一个乘务员。(todo),,0
-SEPCIALOPS,60528,找到你了。(todo),,0
-SEPCIALOPS,60529,（……）(todo),,0
-SEPCIALOPS,60530,（她一直盯着窗外，像是个没有灵魂的玩偶）(todo),,0
-SEPCIALOPS,60531,加里宁格勒上空击毁目标。(todo),,0
-SEPCIALOPS,60532,这个人形的心智我无法骇入。(todo),,0
-SEPCIALOPS,60533,原来是那个时候的那个人……(todo),,0
-SEPCIALOPS,60534,那个玩偶，让我想起一些事情。(todo),,0
-SEPCIALOPS,60535,欢迎搭乘未来号洲际列车，希望我的服务能为您的旅行留下美好的回忆。(todo),,0
-SEPCIALOPS,60536,晚上好！想喝什么饮料，咖啡、红茶还有未来号特调……(todo),,0
-SEPCIALOPS,60537,（嘻嘻，收到不少小费，一等车厢的客人真大方。）(todo),,0
-SEPCIALOPS,60538,嘻嘻，玛姬这一单应该能捞到不少了。(todo),,0
-SEPCIALOPS,60539,是律贼……抢劫犯里最不讲道义的那种，苏珊娜啊苏珊娜，你这回是中头奖了。(todo),,0
-SEPCIALOPS,60540,各位先生女士，有什么要求都可以提，请不要伤害其他乘客。(todo),,0
-SEPCIALOPS,60541,好你个玛姬，偷了我的卡还要改我的密码。(todo),,0
-SEPCIALOPS,60542,我找到紧急定位发射器，打开以后不到10分钟救援就抵达了，这也太有效率了。(todo),,0
-SEPCIALOPS,60543,律贼和幸存者都被杀了……这些人到底是冲什么来的？(todo),,0
-SEPCIALOPS,60544,还好有鲁戈萨医生……不然又是一场冲突，我真的已经干不动了。(todo),,0
-SEPCIALOPS,60545,真豪华啊F01号车厢，从来都不是我这样的人形能够享受的地方。(todo),,0
-SEPCIALOPS,60546,一直没有任何救援小队响应求救信号，总感觉哪里不对劲。(todo),,0
-SEPCIALOPS,60547,终于，有人来救我们了！(todo),,0
-SEPCIALOPS,60548,欢迎搭乘未来号洲际列车，希望我的服务能为您的旅行留下美好的回忆。(todo),,0
-SEPCIALOPS,60549,苏珊娜(todo),,0
-SEPCIALOPS,60550,抽水马桶(todo),,0
-SEPCIALOPS,60551,好……好多人啊……(todo),,0
-SEPCIALOPS,60552,还好有你在，保尔先生。(todo),,0
-SEPCIALOPS,60553,邀请函后面的梅花3，原来就是交易代号。(todo),,0
-SEPCIALOPS,60554,我不是Q1A-MX……我叫艾尔玛！(todo),,0
-SEPCIALOPS,60555,我不会让你们抓住我的。(todo),,0
-SEPCIALOPS,60556,我必须找到更多的钥匙，才能找回我的记忆。(todo),,0
-SEPCIALOPS,60557,看起来凯瑟琳很想要我的素体，想要就拿去好了，那个故障，反正也没办法修复了。(todo),,0
-SEPCIALOPS,60558,连我艾尔玛·休谟的信息都没有，这个名声在外的柯尔特快车也不怎么样嘛。(todo),,0
-SEPCIALOPS,60559,黑桃A！她知道休谟！(todo),,0
-SEPCIALOPS,60560,这个人好奇怪，她给我一种既熟悉又陌生的感觉……(todo),,0
-SEPCIALOPS,60561,我可以使用武器了！(todo),,0
-SEPCIALOPS,60562,“Я”教官，原来她是63-Я-180。(todo),,0
-SEPCIALOPS,60563,这辆列车的通风管道好复杂，不过难不倒我。(todo),,0
-SEPCIALOPS,60564,下面好吵……(todo),,0
-SEPCIALOPS,60565,我做到了！也没有想象中的困难嘛！(todo),,0
-SEPCIALOPS,60566,我得记下来，我在柯尔特快车上赚了2盎司萨狄斯金。(todo),,0
-SEPCIALOPS,60567,柳德米拉的计划，根本只算了她一个人的份！(todo),,0
-SEPCIALOPS,60568,锚行动大获全胜！咦，我怎么飞起来了……(todo),,0
-SEPCIALOPS,60569,柳德米拉……你没事吧！(todo),,0
-SEPCIALOPS,60570,我要找回“□■”，咦我刚才说什么来着……(todo),,0
-SEPCIALOPS,60571,说好了要拆，那就是要拆。(todo),,0
-SEPCIALOPS,60572,玛姬小姐需要帮助！(todo),,0
-SEPCIALOPS,60573,……你的真名是柳德米拉吗？(todo),,0
-SEPCIALOPS,60574,我不明白。(todo),,0
-SEPCIALOPS,60575,我从未见过这样的玛姬……(todo),,0
-SEPCIALOPS,60576,玛姬……(todo),,0
-SEPCIALOPS,60577,结束吧，结束这一切。(todo),,0
-SEPCIALOPS,60578,救援，终于到了，是格里芬的救援！(todo),,0
-SEPCIALOPS,60579,得救了……(todo),,0
-SEPCIALOPS,60580,我不会忘记这一切。(todo),,0
-SEPCIALOPS,60581,我有必须了解的事情。(todo),,0
-SEPCIALOPS,60582,（努力将自己的行李箱放到了架子的最高处）(todo),,0
-SEPCIALOPS,60583,要开始了。(todo),,0
-SEPCIALOPS,60584,无论如何，我得把它买下来。(todo),,0
-SEPCIALOPS,60585,我买到了！我买到了！(todo),,0
-SEPCIALOPS,60586,抢劫？正好，我钱都花光了。(todo),,0
-SEPCIALOPS,60587,（动不了了……通讯也中断了）(todo),,0
-SEPCIALOPS,60588,艾尔玛是怎么避开干扰，连接上其他人形的呢？(todo),,0
-SEPCIALOPS,60589,这个声音……列车受到了外力撞击……(todo),,0
-SEPCIALOPS,60590,萝希塔，她似乎开始发烧了……(todo),,0
-SEPCIALOPS,60591,萝希塔，得救了……(todo),,0
-SEPCIALOPS,60592,谢谢你，鲁戈萨医生。(todo),,0
-SEPCIALOPS,60593,只要萝希塔没事我就放心了。(todo),,0
-SEPCIALOPS,60594,教官小姐……真令人钦佩。(todo),,0
-SEPCIALOPS,60595,萝希塔，我们到了。(todo),,0
-SEPCIALOPS,60596,（他一直关注着自己的行李箱）(todo),,0
-SEPCIALOPS,60597,我是保尔。(todo),,0
-SEPCIALOPS,60598,她叫萝希塔。(todo),,0
-SEPCIALOPS,60599,我不允许任何人伤害她。(todo),,0
-SEPCIALOPS,60600,行李架上塞得满满当当，车还没开就已经摇摇欲坠。(todo),,0
-SEPCIALOPS,60601,（……）(todo),,0
-SEPCIALOPS,60602,（是眼花吗，感觉行李箱在动。）(todo),,0
-SEPCIALOPS,60603,（行李箱正乖乖躺在行李架上）(todo),,0
-SEPCIALOPS,60604,（律贼肆意翻动支架，一些行李被打开凌乱的散在地上）(todo),,0
-SEPCIALOPS,60605,（……）(todo),,0
-SEPCIALOPS,60606,（行李架翻倒在地，巨大行李箱里出现一名瘦弱少女）(todo),,0
-SEPCIALOPS,60607,保尔，列车是停下来了吗？(todo),,0
-SEPCIALOPS,60608,我不想再回到一个所有人都讨厌我的地方……(todo),,0
-SEPCIALOPS,60609,（由于高烧不退，少女昏昏沉沉地睡去）(todo),,0
-SEPCIALOPS,60610,保尔，我们得救了！(todo),,0
-SEPCIALOPS,60611,（这个行李箱……刚刚是不是动了？）(todo),,0
-SEPCIALOPS,60612,F17车E24座……就是这边靠窗。喂！我说，你怎么乱坐别人的座位？让我看看你的票。(todo),,0
-SEPCIALOPS,60613,走吧，乘坐“柯尔特快车”的客人们，我们该出发了。(todo),,0
-SEPCIALOPS,60614,再来一杯姜汁汽水，不加冰。(todo),,0
-SEPCIALOPS,60615,玛姬！我们没时间了！(todo),,0
-SEPCIALOPS,60616,（我得尽力拖延，我得随便说点什么！）柳芭老妈您的气色真不错！(todo),,0
-SEPCIALOPS,60617,玛姬，应该跑的掉吧……(todo),,0
-SEPCIALOPS,60618,她们打算干什么……那些可是凶恶的律贼！(todo),,0
-SEPCIALOPS,60619,（她受到了列车急停和玛姬体重的双重冲击）(todo),,0
-SEPCIALOPS,60620,我走不动了，玛姬你能背着我吗？我不要保尔。(todo),,0
-SEPCIALOPS,60621,玛姬心事重重的样子……看来我那八十个备份要派上用场了。(todo),,0
-SEPCIALOPS,60622,玛姬！我就知道她不会放过我们……(todo),,0
-SEPCIALOPS,60623,（凯瑟琳静静地躺在那里犹如睡着了一般。）(todo),,0
-SEPCIALOPS,60624,让我大赚一笔吧！(todo),,0
-SEPCIALOPS,60625,我有了属于自己的名字，请叫我扑克小姐。(todo),,0
-SEPCIALOPS,60626,我去过通灵鬼屋，没有想象中可怕，反而还……挺有趣。(todo),,0
-SEPCIALOPS,60627,我承认，那个时候我确实是慌了……(todo),,0
-SEPCIALOPS,60628,你好，玛姬·庞兹。(todo),,0
-SEPCIALOPS,60629,行李箱(todo),,0
-SEPCIALOPS,60630,SCAR-L过于强大，需要确保SCAR-H收集3处XXXX后再与其对决(todo),,0
+SEPCIALOPS,60129,There only needs to be a single main female character in a new TV drama.,,0
+SEPCIALOPS,60130,You don't always turn into a slime when you reincarnate.,,0
+SEPCIALOPS,60131,The free shaved ice is actually secretly marked with a price.,,0
+SEPCIALOPS,60132,The elusive gachapon figurine and the evasive girl.,,0
+SEPCIALOPS,60133,A woman's hair and tail are both precious to her.,,0
+SEPCIALOPS,60134,The tent in the park is a hub of secrets.,,0
+SEPCIALOPS,60135,The point of bringing different worlds together is to be transported back and forth.,,0
+SEPCIALOPS,60136,A strong bond is something that can't be severed even with an axe.,,0
+SEPCIALOPS,60137,A slice-of-life series always has to end with a nice meal.,,0
+SEPCIALOPS,60138,Disreputable shop! Keep clear!,,0
+SEPCIALOPS,60139,Select food for delivery,,0
+SEPCIALOPS,60140,No food for delivery,,0
+SEPCIALOPS,60141,This doesn't look right. Why not try some other food?,,0
+SEPCIALOPS,60142,Commander//c Minos is furious right now and she is guaranteed to defeat you. Proceed with battle?,,0
+SEPCIALOPS,60144,Jashin-chan is too busy! She can only process {0} ingredients at the same time.,,0
+SEPCIALOPS,60145,There are existing processed ingredients of this type. Use them up first before processing more.,,0
+SEPCIALOPS,60146,This dish is being prepared. Please be patient.,,0
+SEPCIALOPS,60147,You are missing an ordered dish. Please prepare it at the cooking station first.,,0
+SEPCIALOPS,60148,Quit,,0
+SEPCIALOPS,60149,Resume,,0
+SEPCIALOPS,60150,Pause,,0
+SEPCIALOPS,60151,This combination of ingredients cannot be cooked into any of the dishes on the menu. Try another combination.,,0
+SEPCIALOPS,60152,You can only select up to 4 ingredients for a dish.,,0
+SEPCIALOPS,60153,Your missing this kind of processed ingredient. Please process it first.,,0
+SEPCIALOPS,60154,Unlimited Lemon Shaved Ice,,0
+SEPCIALOPS,60155,Kouji is kindly offering her lemon shaved ice. Will Jashin-chan go play with her?,,0
+SEPCIALOPS,60156,Free shaved ice? Eh//c alright.,,0
+SEPCIALOPS,60157,Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.//n Event unlocked – Hell's Ice Cream,,0
+SEPCIALOPS,60158,Nah. A high-ranking devil is too busy for that.,,0
+SEPCIALOPS,60159,Event unlocked – "Yusa in -3°C",,0
+SEPCIALOPS,60160,Hell's Ice Cream,,0
+SEPCIALOPS,60161,After playing with Kouji//c her sister Yusa sent us several boxes of ice cream through Hell's priority post.,,0
+SEPCIALOPS,60162,Hurray for ice cream! Let's invite the other demons to come and have some!,,0
+SEPCIALOPS,60163,Gain a customer immediately.,,0
+SEPCIALOPS,60164,Include it in a set meal.,,0
+SEPCIALOPS,60165,Revenue +50% for the next dish.,,0
+SEPCIALOPS,60166,Yusa in -3°C,,0
+SEPCIALOPS,60167,Crap! Yusa found out that her little sister Kouji was bullied! Will the ice demon turn Jashin-chan into ice cream?!,,0
+SEPCIALOPS,60168,Let's call a truce! Keep calm and eat cake.,,0
+SEPCIALOPS,60169,Spend 50 on buying a Swiss roll//c though you only get the thinnest slice.//n Jashin-chan's speed of processing ingredients +25%//c lasting 5 seconds.,,0
+SEPCIALOPS,60170,I'm not scared of third-rate demons! Jashin-chan Dropkick!,,0
+SEPCIALOPS,60171,Ambush failed.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60172,We'll be using leftovers as tribute in the magic circle.,,0
+SEPCIALOPS,60173,To summon a demon… See what leftovers you have in the fridge that can be used as tribute? Who knows what weird demon you might end up summoning…,,0
+SEPCIALOPS,60174,You have summoned pork from the magic circle.,,0
+SEPCIALOPS,60175,Obtained a portion of pork.,,0
+SEPCIALOPS,60176,You have summoned beef from the magic circle.,,0
+SEPCIALOPS,60177,Obtained a portion of beef.,,0
+SEPCIALOPS,60178,You have summoned potatoes from the magic circle.,,0
+SEPCIALOPS,60179,Obtained a portion of potatoes.,,0
+SEPCIALOPS,60180,You have summoned rice from the magic circle.,,0
+SEPCIALOPS,60181,Obtained a portion of rice.,,0
+SEPCIALOPS,60182,You have summoned vegetables from the magic circle.,,0
+SEPCIALOPS,60183,Obtained a portion of vegetables.,,0
+SEPCIALOPS,60184,You have summoned eggs from the magic circle.,,0
+SEPCIALOPS,60185,Obtained a portion of eggs.,,0
+SEPCIALOPS,60186,Taste Bud Revolution! Mayonnaise,,0
+SEPCIALOPS,60187,Stop it//c Yurine! Why are you adding mayo to the curry rice?!! Even the curry feels insulted!,,0
+SEPCIALOPS,60188,Submit to Yurine,,0
+SEPCIALOPS,60189,Revenue +40 for the next curry bento.,,0
+SEPCIALOPS,60190,A disgrace to all dressings! Chuck the mayonnaise!,,0
+SEPCIALOPS,60191,Unlocked – "Jashin-Flavored Cooking",,0
+SEPCIALOPS,60192,Jashin-chan's Special Condiment,,0
+SEPCIALOPS,60193,Jashin-chan's Special Condiment goes perfectly with wagyu sukiyaki//c but why does everyone have a strange look on their face when eating it today?,,0
+SEPCIALOPS,60194,This demon masterchef will never admit defeat! Let's try that again!,,0
+SEPCIALOPS,60195,Revenue +180 for the next sukiyaki.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60196,Eh//c whatever. We'll just give anything that doesn't taste good to Pekola.,,0
+SEPCIALOPS,60197,Nothing happened.,,0
+SEPCIALOPS,60198,The only reason for living is to have this mouthful of pudding.,,0
+SEPCIALOPS,60199,The only pudding left in the fridge has Yurine's name written on it! But if Jashin-chan can't have it//c she'll suffer and die.,,0
+SEPCIALOPS,60200,Only high-class pudding tastes good. I'll buy it myself!,,0
+SEPCIALOPS,60201,Revenue -50.//n Jashin-chan's speed of processing ingredients +25%//c lasting 10 seconds.,,0
+SEPCIALOPS,60202,Eat first//c think later! Phew//c pudding gives me life!,,0
+SEPCIALOPS,60203,Jashin-chan's speed of processing ingredients +25%//c lasting 10 seconds.//n Unlocked – "Pudding of the Day",,0
+SEPCIALOPS,60204,Pudding of the Day,,0
+SEPCIALOPS,60205,Yurine is back before Jashin-chan has time to wipe the pudding stains off her lips! What to do?!,,0
+SEPCIALOPS,60206,Look//c a UFO! The pudding was stolen by an alien!,,0
+SEPCIALOPS,60207,Executed.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60208,Live to fight another day. Surrender your wallet to Yurine.,,0
+SEPCIALOPS,60209,Jashin-chan's honesty earns her a mild sentence.//n Revenue -50.,,0
+SEPCIALOPS,60210,Devil's Special,,0
+SEPCIALOPS,60211,Jashin-chan's reward for squashing an ant during her afternoon nap is…,,0
+SEPCIALOPS,60212,A bottle of 100% natural Satan's Tears. Drink up and get a pair of nice long legs.,,0
+SEPCIALOPS,60213,Jashin-chan grows a pair of legs//n Jashin-chan's speed of processing ingredients +25%//c lasting 10 seconds.,,0
+SEPCIALOPS,60214,Ooh//c shiny! Might be gold coins!,,0
+SEPCIALOPS,60215,Revenue +50.,,0
+SEPCIALOPS,60216,Time Machine in the Drawer,,0
+SEPCIALOPS,60217,Jashin-chan//c who has a habit of hiding food in the drawers//c suddenly realizes that the meat she stored there yesterday is about to go bad?,,0
+SEPCIALOPS,60218,Eat it quickly so that it won't go bad.,,0
+SEPCIALOPS,60219,Jashin-chan's speed of processing ingredients +50%//c lasting 5 seconds.//n This triggers a stomachache//c so Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60220,This makes a perfect gift for Yurine//c heheh~,,0
+SEPCIALOPS,60221,Event unlocked – "The Last Grill",,0
+SEPCIALOPS,60222,The Last Grill,,0
+SEPCIALOPS,60223,Yurine invited a friend to eat at the diner! As Jashin-chan watches the meat get cooked//c her remaining conscience is also slowly being grilled.,,0
+SEPCIALOPS,60224,Eh//c it's all turning to poop in the belly anyway.,,0
+SEPCIALOPS,60225,Everyone gets food poisoning and the diner has to foot the medical bill.//n Revenue -100.,,0
+SEPCIALOPS,60226,Food is sacred. Guess I'll go get some fresh meat.,,0
+SEPCIALOPS,60227,Revenue -50 for buying fresh meat.//n Revenue +220 for the next grilled meat.,,0
+SEPCIALOPS,60228,Shrieking Mandragora,,0
+SEPCIALOPS,60229,Jashin-chan accidentally squished the souvenir mandragora doll that Minos got Yurine from Hell.,,0
+SEPCIALOPS,60230,The product was faulty! We must ask Hell for a refund!,,0
+SEPCIALOPS,60231,Yurine did not buy Jashin-chan's lie and executed her.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60232,Let's try a mending charm - ￥#*,,0
+SEPCIALOPS,60233,The mandragora didn't come back to life//c but Jashin-chan has obtained a portion of vegetables.,,0
+SEPCIALOPS,60234,Crunch Halo,,0
+SEPCIALOPS,60235,God found out that Jashin-chan has eaten Poporon's halo. How can she get out out divine punishment?,,0
+SEPCIALOPS,60236,It was Medusa's idea! Feel free to punish her however you please!,,0
+SEPCIALOPS,60237,Jashin-chan dodged the bullet and nothing happened.//n Event unlocked – "The Missing Paper Bag",,0
+SEPCIALOPS,60238,Ahahaha//c it's time to get my revenge on the angel.,,0
+SEPCIALOPS,60239,Failed attempt.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60240,The Missing Paper Bag,,0
+SEPCIALOPS,60241,Medusa//c who got betrayed//c doesn't seem to be coming to visit the mortal world ever again. What will Jashin-chan do without her?,,0
+SEPCIALOPS,60242,Call her on the phone non-stop//c that damn btich!,,0
+SEPCIALOPS,60243,That triggered an episode of nervous gastritis.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60244,Win over Medusa again with my amazing cooking!,,0
+SEPCIALOPS,60245,Revenue +50 for the next two dishes.,,0
+SEPCIALOPS,60246,Black Notebook,,0
+SEPCIALOPS,60247,Write down all possible ways of killing Yurine in the black notebook//c and when Yurine is flipping through it…,,0
+SEPCIALOPS,60248,Seize the opportunity and deal the lethal blow!,,0
+SEPCIALOPS,60249,Failed attempt.//n Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60250,This must be the witch's trap. Let's wait and see.,,0
+SEPCIALOPS,60251,Jashin-chan dodged a bullet and nothing happened.,,0
+SEPCIALOPS,60252,Others' Bread Crust Tastes Better,,0
+SEPCIALOPS,60253,Jashin-chan just had a big meal when she comes across Pekola sitting on a bench in the park with a bag of bread crust. It smells really nice.,,0
+SEPCIALOPS,60254,We should always follow our dreams. Snatch away her bread crust.,,0
+SEPCIALOPS,60255,Jashin-chan's speed of processing ingredients +50%//c lasting 5 seconds.//n Event unlocked – "A Fanatical Police Officer's Collection",,0
+SEPCIALOPS,60256,Since I'm completely stuffed//c I'll let her off this time.,,0
+SEPCIALOPS,60257,Nothing happened.,,0
+SEPCIALOPS,60258,Secret-Edition Gachapon,,0
+SEPCIALOPS,60259,That annoying human boy got the secret-edition gachapon figurine on his first try! Jashin-chan wants it really badly!,,0
+SEPCIALOPS,60260,Demons take being called "nasty" as a compliment. Grab it.,,0
+SEPCIALOPS,60261,Event unlocked – "A Fanatical Police Officer's Collection",,0
+SEPCIALOPS,60262,If a human can do it//c a demon can do it too! Give it another go.,,0
+SEPCIALOPS,60263,Success!//n Revenue +100.,,0
+SEPCIALOPS,60264,Another failed attempt.//n Revenue -50.,,0
+SEPCIALOPS,60265,A Fanatical Police Officer's Collection,,0
+SEPCIALOPS,60266,Crap! A police officer has spotted Jashin-chan mugging a child! She refuses to let go of her – she's totally treating her like an interesting new addition to her personal collection!,,0
+SEPCIALOPS,60267,Here's a tip based on a traditional demonic technique – flee if you can't fight.,,0
+SEPCIALOPS,60268,Jashin-chan is incapable of processing ingredients//c lasting 5 seconds.,,0
+SEPCIALOPS,60269,This puny human doesn't hold a candle to me. OHKO!,,0
+SEPCIALOPS,60270,Success! Nothing happened.,,0
+SEPCIALOPS,60271,Chewy Strawberry Candy,,0
+SEPCIALOPS,60272,Ran-Ran//c who is under a curse that turned her into a stuffed panda toy//c has temporarily regained her human form after eating one of Jashin-chan's strawberry candy.,,0
+SEPCIALOPS,60273,Each candy costs 1 million! Cough it up!,,0
+SEPCIALOPS,60274,Extortion caught by Yurine. Buy more strawberry candy as an apology.//n Revenue -50.,,0
+SEPCIALOPS,60275,Hey//c at least give me something in return for my candy.,,0
+SEPCIALOPS,60276,Obtained a portion of vegetables.,,0
+SEPCIALOPS,60277,Idol's Food Delivery,,0
+SEPCIALOPS,60278,Food I hope we can eat even when we're on a diet.,,0
+SEPCIALOPS,60279,Jashin-Flavored Cooking,,0
+SEPCIALOPS,60280,The kitchen door is suddenly flung wide open by Yurine. Jashin-chan's hand tremble slightly as she pours the mayonnaise. Unless she dishes up something that pleases Yurine//c she will be going straight to Hell.,,0
+SEPCIALOPS,60281,Punished for not satisfying Yurine in time. Jashin-chan can only process one ingredient at a time//c lasting for 5 seconds.,,0
+SEPCIALOPS,60282,Select the above ingredients to add them to the pot.,,0
+SEPCIALOPS,60283,Killing this target will result in the failure of this battle. Proceed?,,0
+SEPCIALOPS,60284,Battle in progress,,0
+SEPCIALOPS,60285,This chapter is locked. Please complete the prerequisite stage first.,,0
+SEPCIALOPS,60286,Many thanks.,,0
+SEPCIALOPS,60289,Obtained,,0
+SEPCIALOPS,60290,Insufficient Intel Points. Please obtain more from the VA-11 Hall-A bar.,,0
+SEPCIALOPS,60291,Lite,,0
+SEPCIALOPS,60292,EX,,0
+SEPCIALOPS,60293,Resetting this stage will lock all subsequent stages//c and you may need to attempt this stage again to unlock future stages.//n The score you have obtained will not be reset.//n Do you wish to continue?,,0
+SEPCIALOPS,60294,1. This event consists of 3 stages and your score for the event will be the total of the scores for the 3 stages.//n 2. Stages 1 and 2 have multiple victory objectives and completing different victory objectives will unlock different follow-up stages.//n 3. If you wish to enter other stages//c please click "Reset" on the previous stage and complete a different victory objective.//n 4. Resetting a stage will close off subsequent stages but will not affect the score which you have obtained.,,0
+SEPCIALOPS,60295,There is a battle in progress so the stage cannot be reset. Would you like to proceed to the battle in question?,,0
+SEPCIALOPS,60296,This stage has not been unlocked yet. Please clear the previous stage.,,0
+SEPCIALOPS,60297,1. You will obtain Quick-Build Construction Materials after completing this stage for the first time or after completing the 2nd stage for the first time after resetting. The materials can be used to build and upgrade structures in Stage 3. The amount of materials obtained in Stage 2 determines the maximum amount which can be used in Stage 3 (the amount of Quick-Build Construction Materials automatically replenishes itself to its maximum whenever you attempt Stage 3).//n 2. You will not obtain Quick-Build Construction Materials after completing this stage or Stage 2 for the first time. If you wish to change the number of Quick-Build Construction Materials obtained//c please reset Stage 2 and attempt it again.,,0
+SEPCIALOPS,60298,Accumulated Score,,0
+SEPCIALOPS,60299,Rewards,,0
+SEPCIALOPS,60300,Highest Score,,0
+SEPCIALOPS,60301,Total,,0
+SEPCIALOPS,60302,Betti number,,0
+SEPCIALOPS,60303,Cleared,,0
+SEPCIALOPS,60304,Highest Score,,0
+SEPCIALOPS,60305,Reset,,0
+SEPCIALOPS,60306,Commander,,0
+SEPCIALOPS,60307,Authentication Code,,0
+SEPCIALOPS,60308,Highest Combo,,0
+SEPCIALOPS,60309,Score,,0
+SEPCIALOPS,60310,Watermelon Statistics,,0
+SEPCIALOPS,60311,You currently do not have any {0}. You cannot vote.,,0
+SEPCIALOPS,60312,You are about to give <color=#FFB400FF>{1}</color> vote to <color=#FFB400FF>{0}</color>.//nConfirm?,,0
+SEPCIALOPS,60313,You currently have {0},,0
+SEPCIALOPS,60314,Compared to other roles//c the Witch is the most critical key to victory for the villagers.,,0
+SEPCIALOPS,60315,Hm? This isn't as good as a Proof of Goodness//c but at least you're telling me how you feel... I'll take it.,,0
+SEPCIALOPS,60316,Thanks... Hm//c what I mean is... voting for me is a wise choice!,,0
+SEPCIALOPS,60317,Hey//c check your card carefully! I won't accept just about anything!,,0
+SEPCIALOPS,60318,Thank you//c Commander... I-I'll do my best!,,0
+SEPCIALOPS,60319,(Huh? Did the Commander give me the wrong vote?) ...Hm//c n-nothing! This is fine...,,0
+SEPCIALOPS,60320,Forgive me for being blunt//c but isn't it terribly difficult for the villagers to win with several shapeshifters lurking around?,,0
+SEPCIALOPS,60321,I'm not entirely sure what you mean by this... but I'll keep it.,,0
+SEPCIALOPS,60322,Thanks for your vote//c Master... Don't forget to give me a headpat before you go!,,0
+SEPCIALOPS,60323,This won't do//c Master! I hate the way they smell!,,0
+SEPCIALOPS,60324,Leave it to me//c Commander. I will bring you the victory you desire.,,0
+SEPCIALOPS,60325,Sorry//c I aided the werewolves by mistake... I've disappointed you//c haven't I?,,0
+SEPCIALOPS,60326,With this vote//c the villagers are a step closer to victory.,,0
+SEPCIALOPS,60327,Hm? Is this a peace offering that Five-seven asked you to deliver?,,0
+SEPCIALOPS,60328,If we want to survive//c we must remain steadfast in our belief—that we are the good guys.,,0
+SEPCIALOPS,60329,But on the other hand//c no matter how convincing our act is//c we must never forget that we are werewolves.,,0
+SEPCIALOPS,60330,They gave you this card//c but now you're giving it to me... Is this your way of showing affection?,,0
+SEPCIALOPS,60331,Heheh//c thanks for you support! Looks like it's time for me to prove myself to FAL...,,0
+SEPCIALOPS,60332,Heheh//c you're not being so nice to me just because of dessert tonight//c are you?!,,0
+SEPCIALOPS,60333,Hm? You're giving me this vote... because dessert wasn't good enough?,,0
+SEPCIALOPS,60334,If only I could turn this useless card into candy.,,0
+SEPCIALOPS,60335,Hm... Thank you... Five-seven//c I'm done canvassing votes//c right? Can I go now?,,0
+SEPCIALOPS,60336,You're giving this to me without being asked to... Well done!,,0
+SEPCIALOPS,60337,Take it from me—you can shove whatever food into your mouth//c but you can't give away whatever card to others!,,0
+SEPCIALOPS,60338,I didn't expect you'd notice a newbie player like me... Looks like your earthling games aren't that hard!,,0
+SEPCIALOPS,60339,Are you sure you gave me the right vote? I'm kind of archenemies with them//c you know?,,0
+SEPCIALOPS,60340,Wow... A precious vote! You must've been moved by the stories I tell!,,0
+SEPCIALOPS,60341,I am deeply grateful that you're always taking care of me... but this card may bring bad luck//c you know?,,0
+SEPCIALOPS,60342,Heheh... You were actually fooled by my superb acting?,,0
+SEPCIALOPS,60343,Oh dear//c busted... But maybe it isn't so bad to have my identity exposed?,,0
+SEPCIALOPS,60344,Wow! You're even giving me your Proof of Goodness?!,,0
+SEPCIALOPS,60345,Honey~ Don't be a stranger! Just give me all your cards!,,0
+SEPCIALOPS,60346,I shall be the one to secure FAL's victory!,,0
+SEPCIALOPS,60347,Hold on... Why do you have a Sign of the Pack? Did you contact them in secret behind our backs?!,,0
+SEPCIALOPS,60348,The Lycan's shadow lingers... The final act will play out after the {0} server maintenance!,,0
+SEPCIALOPS,60349,*Obtain voting items by clearing event stages and vote for the T-Dolls you support!,,0
+SEPCIALOPS,60350,Which vote would you like to give her?,,0
+SEPCIALOPS,60351,Proof of Goodness,,0
+SEPCIALOPS,60352,Sign of the Pack,,0
+SEPCIALOPS,60353,Total Votes,,0
+SEPCIALOPS,60354,Current Votes,,0
+SEPCIALOPS,60355,Box of Choices,,0
+SEPCIALOPS,60356,Lycan: The Hunt Prologue,,0
+SEPCIALOPS,60357,Hunter's Patrol,,0
+SEPCIALOPS,60358,Target or Trap,,0
+SEPCIALOPS,60359,Twilight Labyrinth,,0
+SEPCIALOPS,60360,Witch's Tent,,0
+SEPCIALOPS,60361,Pond of Demons,,0
+SEPCIALOPS,60362,Signal Fire,,0
+SEPCIALOPS,60363,Afterwinds,,0
+SEPCIALOPS,60364,Chaos Relay,,0
+SEPCIALOPS,60365,Kalina,,0
+SEPCIALOPS,60366,Hunt Ranking Board,,0
+SEPCIALOPS,60367,Summer Epilogue,,0
+SEPCIALOPS,60368,Witch,,0
+SEPCIALOPS,60369,Villager,,0
+SEPCIALOPS,60370,Knight,,0
+SEPCIALOPS,60371,Hunter,,0
+SEPCIALOPS,60372,Matchmaker,,0
+SEPCIALOPS,60373,Seer,,0
+SEPCIALOPS,60374,Werewolf,,0
+SEPCIALOPS,60375,Fool,,0
+SEPCIALOPS,60376,Big Bad Wolf,,0
+SEPCIALOPS,60377,Bodyguard,,0
+SEPCIALOPS,60378,You have already voted {0} times today. Come again tomorrow~,,0
+SEPCIALOPS,60379,,,0
+SEPCIALOPS,60380,,,0
+SEPCIALOPS,60381,,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -4296,7 +4304,7 @@ MALL,71000,Increase T-Doll Capacity,,0
 MALL,71001,Add T-Doll Production Slot,,0
 MALL,71002,Add Repair Slot,,0
 MALL,71003,Increase Echelon Limit,,0
-MALL,71004,增加装备&妖精制造栏位(todo),,0
+MALL,71004,Add Equipment Production Slot,,0
 MALL,71005,Increase Dorm Limit,,0
 MALL,71006,Increase Equipment Capacity,,0
 MALL,71007,A monthly card lasts for 30 days,,0
@@ -4306,7 +4314,7 @@ MALL,71010,Seven Days Discount Package,,0
 MALL,71011,$,,0
 MALL,71012,Monthly Gems card,,0
 MALL,71013,Monthly resources card,,0
-MALL,71014,包含额外赠送的(todo),,0
+MALL,71014,Includes extra gifts: ,,0
 MALL,71015,Verifying payment...,,0
 MALL,71016,Payment complete! //r//nYou've gained <color=#FFBE00FF>{0}</color>,,0
 MALL,71017,Requesting product list,,0
@@ -4357,7 +4365,7 @@ MALL,71061,Remaining:{0};,,0
 MALL,71062,Remaining:{0};//nTime left:{1}D {2}H,,0
 MALL,71063,Remaining:{0};//nTime left:{1}H {2}M,,0
 MALL,71064,{0} Gems,,0
-MALL,71065,{0}钻石（包含额外赠送的{1}钻石）(todo),,0
+MALL,71065,A total of {0} Gems (Includes {1} bonus Gems),,0
 MALL,71066,Time left {0} D,,0
 MALL,71067,Age Confirmation,,0
 MALL,71068,Players under the age of 20//nhas a maximum Gems purchase limit every month.//nPlease enter your age.//n<Color=#FF0000FF>※You will not be able to edit your age later</Color>,,0
@@ -4409,9 +4417,9 @@ MALL,71115,Daily Limited,,0
 MALL,71116,RECOMM,,0
 MALL,71117,Cost,,0
 MALL,71118,A total of <color=#ff6600ff>{0}</color>,,0
-MALL,71119,主要用于进行部分模拟作战，通过商城获得，“有限的购买加无限的消费，这就是市场~”（每份商品单价将较上一份上涨20钻石，该单价每日零点重置）(todo),,0
+MALL,71119,Caution: Without discount//c each purchase of Sim Energy will increase the price by 20 Gems//c capped at 200 Gems and reset daily.,,0
 MALL,71120,Energy gradient pricing,,0
-MALL,71121,注意：无折扣时，每次购买模拟作战超导势能后价格将上涨20钻石，200钻石封顶，价格每日重置。(todo),,0
+MALL,71121,Caution: When discounts are not in effect//c the price of Extra Combat Sim Energy goes up by 20 Gems per purchase to a maximum of 200 Gems//c resetting every day.,,0
 MALL,71122,Effect,,0
 MALL,71123,True Core,,0
 MALL,71124,Rescue,,0
@@ -4436,10 +4444,22 @@ MALL,71142,Shop,,0
 MALL,71143,Limited to {1} purchase(s) {0} day(s),,0
 MALL,71144,Limited to {0} purchases(s) per week,,0
 MALL,71145,Live2D,,0
-MALL,71147,持有(todo),,0
-MALL,71159,内容预览(todo),,0
-MALL,71160,复刻商店(todo),,0
-MALL,71161,当前前线协议达{0}级后开放购买(todo),,0
+MALL,71146,Support Package,,0
+MALL,71147,In Stock,,0
+MALL,71148,{0} is about to exceed its maximum by {1},,0
+MALL,71149,Certain items from the purchased package will exceed the maximum storage limit. The excess portion has been subtracted and the cost of the package has been proportionately adjusted to {0}.,,0
+MALL,71150,T-Doll Slots,,0
+MALL,71151,Equipment Slots,,0
+MALL,71152,Fairy Slots,,0
+MALL,71153,Coalition Unit Slots,,0
+MALL,71154,Special Provisions,,0
+MALL,71155,Sim Energy sold out for today,,0
+MALL,71156,Potential Energy sold out for today,,0
+MALL,71157,Buy Sim Energy,,0
+MALL,71158,Buy Potential Energy,,0
+MALL,71159,Content Preview,,0
+MALL,71160,,,0
+MALL,71161,,,0
 DOWNLOAD,80000,Resuming download of incomplete data files.,,0
 DOWNLOAD,80001,Please ensure that your device has at least ,,0
 DOWNLOAD,80002, memory! Continue?,,0
@@ -4540,8 +4560,8 @@ CONNECTION,90081,Calibrating Fairy...,,0
 CONNECTION,90082,Sending request,,0
 OTHER,100000,Confirm to set <color=#ffffffff>,,0
 OTHER,100001,</color> as your adjutant?,,0
-OTHER,100002,密码中不能包含空字符(todo),,0
-OTHER,100003,请输入不包含中文字符及标点的618位密码(todo),,0
+OTHER,100002,Password may not contain empty letters.,,0
+OTHER,100003,Please enter a password that does not contain 618-digit Chinese characters and punctuation marks.,,0
 OTHER,100004,Please enter a valid phone number,,0
 OTHER,100005,Registration complete,,0
 OTHER,100006,ID or password can not be empty,,0
@@ -4735,17 +4755,16 @@ OTHER,100195,Maximum number of disassembly selections has been reached//c no mor
 OTHER,100196,Commander:,,0
 OTHER,100197,Upon terminating Auto Battles//c rewards will be given for battles that have been completed//c while resources for incomplete battles will be refunded. Incomplete battles yield no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
 OTHER,100198,Upon terminating Auto Battles//c resources for incomplete battles will be refunded//c but you will gain no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
-OTHER,100199,Customer Service Email Address: gfcs@micateam.cn,,0
-OTHER,100200,该单位正在作战中，无法进行切换(todo),,0
+OTHER,100199,Customer Service Email Address: support@sunborngame.com,,0
 ACTIVITY,110000,Operation: Cube,,0
 ACTIVITY,110001,Blindfold Theorem,,0
-FRIEND,110002,友情点数(todo),,0
+FRIEND,110002,Friend Points,,0
 FRIEND,110003,Icon,,0
 FRIEND,110004,Item,,0
 FRIEND,110005,ID Card,,0
 FRIEND,110006,The user does not exist!,,0
 FRIEND,110007,Four resources,,0
-FRIEND,110008,友情点数不足，可通过战斗支援系统、点赞他人宿舍、日常任务、拉弗伯雷兵棋扭蛋机获取。(todo),,0
+FRIEND,110008,Insufficient Friend Points,,0
 FRIEND,110009, Insufficient,,0
 FRIEND,110010,Number of friends has reached the maximum limit!,,0
 FRIEND,110011,Background,,0
@@ -4767,7 +4786,7 @@ FRIEND,110026,Confirm to add this commander to the blacklist?,,0
 FRIEND,110027,The commander has been added to the blacklist,,0
 FRIEND,110028,Confirm to remove this commander from the blacklist?,,0
 FRIEND,110029,The commander has been removed from the blacklist,,0
-FRIEND,110030,使用中(todo),,0
+FRIEND,110030,Displaying,,0
 FRIEND,110031,Popular,,0
 FRIEND,110032,Rare,,0
 FRIEND,110033,Newest,,0
@@ -4778,7 +4797,7 @@ FRIEND,110037,Welcome to the <color=#FFBB00FF>Friend System</color>. You can bui
 FRIEND,110038,In the <color=#FFBB00FF>Friends List</color>//c you can check your friends as well as send <color=#FFBB00FF>messages</color>.,,0
 FRIEND,110039,You can add friends from the <color=#FFBB00FF>Add Friends</color> page//c as well as search for other players to send friend requests.,,0
 FRIEND,110040,You can view and edit your <color=#FFBB00FF>ID Card</color> from the <color=#FFBB00FF>ID Card</color> page. Your card can be seen by other players. You can also perform other actions related to the ID card here.,,0
-FRIEND,110041,在<color=#FFBB00FF>友情商店</color>中，你可以购买到头像及名片背景等装饰道具。并且可以使用友情点数购买功能性道具。(todo),,0
+FRIEND,110041,In the <color=#FFBB00FF>Friendship Store</color>//c you can purchase icons and backgrounds for your ID Card. You can also use Friend Points to buy other various items.,,0
 FRIEND,110042,Latest message,,0
 FRIEND,110043,Most recent login,,0
 FRIEND,110044,Commander level,,0
@@ -4790,19 +4809,18 @@ FRIEND,110049,Friend Name,,0
 FRIEND,110050,Last Online,,0
 FRIEND,110051,Friend ID,,0
 FRIEND,110052,Background: Default,,0
-FRIEND,110055,名片上展示勋章墙(todo),,0
-FRIEND,110056,名片图(todo),,0
-FRIEND,110057,头像框(todo),,0
-FRIEND,110058,预览中(todo),,0
-FRIEND,110059,头像框更换成功(todo),,0
-FRIEND,110060,头像框·合金外壳(todo),,0
-FRIEND,110061,默认头像(todo),,0
-FRIEND,110062,当前没有可以使用的自建梯队(todo),,0
-FRIEND,110063,友情点数，/n点赞{0}/{1}/n支援系统{2}/{3}(todo),,0
-FRIEND,110064,友情点数：{0}/{1}次(todo),,0
-FRIEND,110065,特价(todo),,0
-FRIEND,110066,剩余{0}天{1}时{2}分(todo),,0
-FRIEND,110067,限购{0}/{1}(todo),,0
+FRIEND,110053,Lv.{0},,0
+FRIEND,110054,Lv.,,0
+FRIEND,110055,Medals Displayed on ID Card,,0
+FRIEND,110056,ID Image,,0
+FRIEND,110057,Icon Frame,,0
+FRIEND,110058,Previewing,,0
+FRIEND,110059,Icon frame changed successfully,,0
+FRIEND,110060,Icon Frame - Alloy Shell,,0
+FRIEND,110061,Default icon,,0
+FRIEND,110062,,,0
+FRIEND,110063,,,0
+FRIEND,110064,,,0
 BINGO,120001,Random draw,,0
 BINGO,120002,Cancel draw,,0
 BINGO,120003,Choose number,,0
@@ -4814,7 +4832,7 @@ BINGO,120008,Amazing//c you got a new number! Congratulations//c Commander!,,0
 BINGO,120009,Press to draw,,0
 BINGO,120010,Press to confirm,,0
 BINGO,120011,Bingo line reward,,0
-BINGO,120012,1.使用<color=#FFBB00FF>{0}</color>张密码卡可执行“乱数破解”，每次破解都将获得一个随机数字。//n2.当成功破解任意一条直线上所有的数字后，可获得该直线指向的对应奖励。//n3.当“乱数破解”获得之前已经出现过的数字时，将自动转化为<color=#FFBB00FF>{1}</color>积分。//n4.使用<color=#FFBB00FF>{2}</color>积分可执行“定向破解”，可指定获得任意一个尚未破解的数字。//n5.当已破解数字构成的直线达到一定数量时，可领取额外的阶段奖励。//n6.完成密钥任务可获得密码卡，每日最多完成9个密钥任务。请注意，每日零点将重置所有的密钥任务。//n7.密码卡和积分会在当期活动结束后清空，多余的密码卡将会以1:5转换为校准点券，并以系统邮件的形式发放。 (todo),,0
+BINGO,120012,1. You can use <color=#FFBB00FF>{0}</color> key cards to carry out "Random Draw". Each draw will give a random number.//n2. After successfully drawing all the numbers on any straight line//c you can obtain the reward for that line.//n3. If "Random Draw" gives an already obtained number//c it will be converted into <color=#FFBB00FF>{1}</color> points. //n4. You can use <color=#FFBB00FF>{2}</color> points to carry out "Targeted Draw" for a number of your choice.//n5. When the number of completed lines reach a certain threshold//c you can obtain additional rewards.//n6. Key cards can be obtained from daily missions. Completing the daily event missions will unlock up to a maximum of 9 key cards. Please note that missions will be reset at 12:00 midnight daily.//n7. Key cards and points will be reset after the event ends//c and excess key cards will be converted to Calibration Tickets at a 1:5 ratio//c and will be sent through the mail.,,0
 BINGO,120013,Mission description,,0
 BINGO,120014,Mission requirement,,0
 BINGO,120015,Acquired reward,,0
@@ -4871,7 +4889,7 @@ FAIRY,130024,Acquired Fairy: ,,0
 FAIRY,130025,Fairy Command recovered,,0
 FAIRY,130026,Add Research Slot,,0
 FAIRY,130027,Increase Fairy Slots,,0
-FAIRY,130028,注意：您当前尚未解锁此功能，购买后暂时无法使用！//n(todo),,0
+FAIRY,130028,Warning : This function is currently locked//c you will temporarily not be able to use it after purchasing.//n,,0
 FAIRY,130029,Acknowledged//c but I still want to purchase!,,0
 FAIRY,130030,When using Fairies with the <color=#FFB400FF>same Talent</color> for enhancement//c the Fairy will gain <color=#FFB400FF>1.5</color> times the amount of the Development Rate.//nWhen using the <color=#FFB400FF>same type of Fairy</color> for enhancement//c the Fairy will gain <color=#FFB400FF>10</color> times the amount of the Development Rate.,,0
 FAIRY,130031,Main Fairy facility//c used to unlock other facilities,,0
@@ -4880,21 +4898,27 @@ FAIRY,130033,Combat Fairy AUTO,,0
 FAIRY,130034,Activate,,0
 FAIRY,130035,On CD,,0
 FAIRY,130036,Command Cost,,0
-FAIRY,130037,恭喜！妖精星级提升至<color=#ffb400ff>{0}</color>//n天赋效果强化//n属性加成全面提升！(todo),,0
+FAIRY,130037,Congratulations! Fairy stars have increased to <color=#ffb400ff>{0}</color>//nTalent activation rate has increased to <color=#ffb400ff>{1}</color>//nOverall stats have increased!,,0
 FAIRY,130038,Support Fairy rank up!,,0
 FAIRY,130039,Level up to <color=#F5AD00FF>{0}</color> to unlock the next star rank.,,0
 FAIRY,130040,This Fairy has reached maximum enhancement,,0
-FAIRY,130041,1.使用妖精强化时，将会获得<color=#FFB400FF>开发值</color>。//n2.当<color=#FFB400FF>开发值</color>和<color=#FFB400FF>等级</color>达到目标时，妖精星级将会提升，最高提升至<color=#FFB400FF>5星</color>。//n3.使用<color=#FFB400FF>相同天赋</color>进行强化时，会获得<color=#FFB400FF>x1.5倍</color>开发值。//n    使用<color=#FFB400FF>同名妖精</color>进行强化时，会获得<color=#FFB400FF>x10倍</color>开发值。//n4.妖精的<color=#FFB400FF>梯队属性加成</color>和<color=#FFB400FF>天赋技能效果</color>会随着星级提升而提升。(todo),,0
+FAIRY,130041,1. <color=#FFB400FF>Development Rate</color> can be increased through Fairy Enhancement. //n2. When <color=#FFB400FF>Development Rate</color> and Fairy <color=#FFB400FF>level</color> reaches a certain threshold//c the Fairy's star level will increase//c up to a max of <color=#FFB400FF>5-stars</color>. //n3. Enhancing with the <color=#FFB400FF>same Talent</color> will reward your Fairy with <color=#FFB400FF>1.5x</color> the Development Rate. //n4. Enhancing with the <color=#FFB400FF>same Fairy</color> will reward your Fairy with <color=#FFB400FF>10x</color> the Development Rate. //n5. A Fairy's <color=#FFB400FF>stats buff</color> and <color=#FFB400FF>Talent activation rate</color> will increase as it's star level increases.,,0
 FAIRY,130042,Fairy Support Command storage limit: <Color=#FFB400FF>{0}</Color>,,0
 FAIRY,130043,Increases the recovery of Fairy Support Command by <Color=#FFB400FF>{0}/{1} hours</Color>,,0
 FAIRY,130044,Enhance,,0
 FAIRY,130045,Train,,0
 FAIRY,130046,Calibration,,0
-FAIRY,130053,进化1强化(todo),,0
-FAIRY,130054,进化2强化(todo),,0
-FAIRY,130055,进化3强化(todo),,0
-FAIRY,130056,进化1强化(todo),,0
-FAIRY,130057,已满(todo),,0
+FAIRY,130047,Fairy Buff Aura,,0
+FAIRY,130048,Type I Talents,,0
+FAIRY,130049,Type II Talents,,0
+FAIRY,130050,Special Talents,,0
+FAIRY,130051,Talent Level,,0
+FAIRY,130052,Talent Type,,0
+FAIRY,130053,Evolution 1 Enhancement,,0
+FAIRY,130054,Evolution 2 Enhancement,,0
+FAIRY,130055,,,0
+FAIRY,130056,,,0
+FAIRY,130057,Full,,0
 GUIDE,140000,Every calibration provides a chance to <color=#FFB400FF>rollback to your previous calibration</color>. So feel free to calibrate without worry.,,0
 GUIDE,140001,//nThere are several <color=#FFB400FF>Radar nodes</color> on the battlefield.//nOccupying a <color=#FFB400FF>Radar</color> will grant vision within 2 nodes of that Radar.,,0
 GUIDE,140002,//nCommander//c welcome to the <color=#FFB400FF>T-Dolls' Dormitory</color>!//nYou can <color=#FFB400FF>arrange furniture</color> and <color=#FFB400FF>interact</color> with your T-Dolls here.//n,,0
@@ -4935,7 +4959,7 @@ GUIDE,140036,Avoid death by using <color=#FFB400FF>withdrawing</color> a single 
 GUIDE,140037,Put the equipment you wish to enhance here.//n,,0
 GUIDE,140038,On the battlefield//c Echelons <color=#FFB400FF>with Handguns</color> will gain one node range of vision around it.//nThere will be no fog within this vision range.,,0
 GUIDE,140039,Press <color=#FFB400FF>Check Stats</color> to view a T-Doll's Affection level.,,0
-GUIDE,140040,这里是校准所需的消耗，其中校准点券可以在<color=#FFB400FF>防御演习</color>玩法中获得。(todo),,0
+GUIDE,140040,This is the cost for calibration. Calibration Tickets can be obtained from <color=#FFB400FF>Defense Drill</color>.,,0
 GUIDE,140041,Okay//c I got it,,0
 GUIDE,140042,Commander//c have you bought new furniture? Try placing them within the dormitory~//nPress <color=#FFB400FF>Edit</color> to enter the Edit Mode.,,0
 GUIDE,140043,You must deploy <color=#FFB400FF>at least 1 Echelon</color> in Defense Drill//c and up to 4 Echelons can participate.//nAfter initiating Defense Drill//c you cannot edit the Echelons until it <color=#FFB400FF>ends</color>.,,0
@@ -4979,7 +5003,7 @@ GUIDE,140080,Press the Swap button to finish.,,0
 GUIDE,140081,By using Spare Dormitories//c you can switch to different furniture arrangements on the fly and store more furniture. Enjoy!,,0
 GUIDE,140082,A third party will be joining the battlefield. Please look out for the side that these units belong to.,,0
 GUIDE,140083,Units in <color=#96C9F8FF>blue</color> are friendly forces. They operate by themselves but can accept your battle strategies.,,0
-GUIDE,140084,现在格里芬也将为您提供部分支援，在某些关卡内可以使用<color=#FFBB00FF>格里芬支援梯队</color>，梯队没有使用时间的限制，但是将<color=#ff0000>不会</color>为您提供友情点数。(todo),,0
+GUIDE,140084,Griffin will also provide support for you now. You can use the <color=#FFBB00FF>Griffin Support Echelon</color> in missions without incurring a timer limit after use//c but using it<color=#ff0000>will not</color> award any Friend Points.,,0
 GUIDE,140085,Cafe is the place to be for T-Dolls to relax and chat. You can learn about their past histories and stories here. There is a <color=#FFB400FF>special bubble</color> on top of the T-Dolls who have a story to share.,,0
 GUIDE,140086,Press the <color=#FFB400FF>Gramophone</color> to select and view your T-Dolls' stories under a specific subject of your choice.,,0
 GUIDE,140087,You can view handwritten notes from T-Dolls in the notebook to the left side of counter.,,0
@@ -5228,14 +5252,30 @@ GUIDE,140330,<color=#e57706ff>Swap</color> main character and secondary characte
 GUIDE,140331,Exchange furniture and costumes from the current pool with <color=#f27f19>tickets</color>.,,0
 GUIDE,140332,Spend <color=#f27f19>tokens</color> to conduct a random procurement.,,0
 GUIDE,140333,Click to switch between <color=#f27f19ff>Costume Shop</color> and <color=#f27f19ff>Costume Inventory</color>.,,0
-GUIDE,140339,指挥官，就让我来介绍一下【格里芬每日事务】吧，指挥官每日和每周要处理的常规事务都会汇总在这里，我也会陪着您一起处理哦。(todo),,0
-GUIDE,140340,我会根据【每日事务】中不同的任务类型为指挥官<color=#f27f19>随机</color>整理一个清单，包括【每日要务】和【每周要务】。(todo),,0
-GUIDE,140341,指挥官可以<color=#f27f19>点击</color>重置按钮对对应的任务条目进行1次重置，如果我这里还有其他同类任务的话就会帮您更换掉。(todo),,0
-GUIDE,140342,完成【每日要务】可以获取【每日协议】的<color=#f27f19>认证徽记</color>，同时完成【每日要务】和【每周要务】都可以获取不同数量的<color=#f27f19>活跃度积分</color>。(todo),,0
-GUIDE,140343,当指挥官用<color=#f27f19>认证徽记</color>填满【每日协议】的面板时，就可以换取奖励。(todo),,0
-GUIDE,140344,【每日要务】会在<color=#f27f19>每日0时</color>进行重置，【每周要务】则是<color=#f27f19>每周一0时</color>重置，指挥官要注意剩余时间。(todo),,0
-GUIDE,140345,以上就是【格里芬每日事务】的介绍，指挥官请记得坚持完成哦！(todo),,0
-GUIDE,140346,<color=#f27f19>活跃度积分</color>可以累计【格里芬周报】的进度，进度到达指定节点指挥官也可以换取丰厚奖励哦。(todo),,0
+GUIDE,140334,Chip auto-arrange will only select HOC Chips of <color=#E57006FF>the same color</color> as the HOC in question.,,0
+GUIDE,140335,Select the <color=#E57006FF>chip size</color> for chip auto-arrange.,,0
+GUIDE,140336,After selecting "rotate chip"//c chips will be <color=#E57006FF>automatically rotated</color> when auto-arrange is used.,,0
+GUIDE,140337,Select the <color=#E57006FF>star level</color> of chips for auto-arrange.,,0
+GUIDE,140338,Set the corresponding background for this adjutant.,,0
+GUIDE,140339,Commander//c let me introduce 【Griffin Daily Tasks】. Your daily and weekly daily tasks to be completed are all listed here//c and I will help you with them.,,0
+GUIDE,140340,I will compile a <color=#f27f19>random</color> list of 【Daily Key Tasks】 and 【Weekly Key Tasks】 depending on the different types of missions in the 【Daily Tasks】.,,0
+GUIDE,140341,You can <color=#f27f19>tap </color> the reset button to reset a mission item once. If I have other tasks of the same type//c I'll switch it out for you.,,0
+GUIDE,140342,Complete your 【Daily Key Tasks】 to obtain 【Daily Protocol】 <color=#f27f19>Verified Signets</color>. You will also obtain different amounts of <color=#f27f19>Activity Points</color> by completing 【Daily Key Tasks】 and 【Weekly Key Tasks】.,,0
+GUIDE,140343,Rewards can be redeemed when you fill up the 【Daily Protocol】 panel with <color=#f27f19>Verified Signets</color>.,,0
+GUIDE,140344,【Daily Key Tasks】 are refreshed at <color=#f27f19>00:00 every day</color>. 【Weekly Key Tasks】 are refreshed <color=#f27f19>at 00:00 every Monday</color>. Take not of how much time you have left for completing your tasks.,,0
+GUIDE,140345,That's everything covered regarding 【Griffin Daily Tasks】. Remember to complete them//c Commander!,,0
+GUIDE,140346,<color=#f27f19>Activity Points</color> contributes to the progress of 【Griffin Weekly】. You can redeem generous rewards upon reaching certain thresholds.,,0
+GUIDE,140347,日常玩法强制引导占位1-1(todo),,0
+GUIDE,140348,日常玩法强制引导占位1-2A(todo),,0
+GUIDE,140349,日常玩法强制引导占位1-3(todo),,0
+GUIDE,140350,日常玩法强制引导占位2-1(todo),,0
+GUIDE,140351,日常玩法强制引导占位2-2(todo),,0
+GUIDE,140352,日常玩法强制引导占位3-1(todo),,0
+GUIDE,140353,日常玩法强制引导占位3-2(todo),,0
+GUIDE,140354,日常玩法强制引导占位3-3(todo),,0
+GUIDE,140355,日常玩法强制引导占位3-4(todo),,0
+GUIDE,140356,日常玩法强制引导占位3-5(todo),,0
+GUIDE,140357,日常玩法强制引导占位3-6(todo),,0
 BEGINNERGUIDE,150000,Please head to the [COMBAT] screen.,,0
 BEGINNERGUIDE,150001,After obtaining the three medals for a mission//c you can use the [Auto-Battle] command.,,0
 BEGINNERGUIDE,150002,Different Auto-Battle missions require different numbers of Echelons to engage.,,0
@@ -5280,8 +5320,8 @@ BEGINNERGUIDE,150040,Equipment Calibration can increase the numerical amount of 
 BEGINNERGUIDE,150041,Equipment Enhancement can improve equipment stats by certain percentages. Press here to enhance.,,0
 BEGINNERGUIDE,150042,Commander//c our Fairies can use [Fairy Calibration] too! Please start by choosing a Fairy.,,0
 BEGINNERGUIDE,150043,Commander//c setting up an Echelon is our first priority. Please press <color=#ffb400>[FORMATION]</color> to proceed.,,0
-BEGINNERGUIDE,150044,点击<color=#ffb400ff>【妖精制造】</color>按钮。(todo),,0
-BEGINNERGUIDE,150045,再点击工厂的栏位就可以进行<color=#ffb400ff>【妖精制造】</color>了哦！(todo),,0
+BEGINNERGUIDE,150044,Just like before//c please proceed with [Fairy Production].,,0
+BEGINNERGUIDE,150045,Now//c we can access [Fairy Production]!,,0
 BEGINNERGUIDE,150046,Commander//c Fairies have their own place to rest as well. Let's take a look.,,0
 BEGINNERGUIDE,150047,Press here to enter [Fairy Chamber].,,0
 BEGINNERGUIDE,150048,Commander//c please press <color=#ffb400>[Select Fairy]</color>.,,0
@@ -5328,7 +5368,7 @@ BEGINNERGUIDE,150088,Commander//c <color=#ffb400>[Defense Drill]</color> has bee
 BEGINNERGUIDE,150089,Commander//c you can calibrate your equipment now.,,0
 BEGINNERGUIDE,150090,Commander//c you can calibrate your equipment now.,,0
 BEGINNERGUIDE,150091,Commander//c Griffin has granted us the authority to use <color=#ffb400>Equipment</color>. Let's take a look.,,0
-BEGINNERGUIDE,150092,指挥官，我们现在获得了格里芬最新的<color=#ffb400ff>【妖精制造】</color>权限，让我们亲手试试看吧！(todo),,0
+BEGINNERGUIDE,150092,Commander//c we have received the authority to access the new [Equipment Heavy Production]. Let's give it a try.,,0
 BEGINNERGUIDE,150093,Now//c it is time to utilize your Fairies. Let's go to [Fairy formation] to organize them for battle.,,0
 BEGINNERGUIDE,150094,Commander//c please press <color=#ffb400>[FORMATION]</color> to see how to equip equipment for your T-Dolls.,,0
 BEGINNERGUIDE,150095,IOP's newest [Heavy Production] system is online. Let's give it a try!,,0
@@ -5358,16 +5398,16 @@ BEGINNERGUIDE,150118,Here//c you can choose a T-Doll for training.,,0
 BEGINNERGUIDE,150119,Now//c let us [Begin training]!,,0
 BEGINNERGUIDE,150120,Finally//c you can press[Complete immediately]to finish the training now.,,0
 BEGINNERGUIDE,150121,Commander//c please press <color=#ffb400>[Combat Simulation]</color>.,,0
-BEGINNERGUIDE,150122,每周7日都会开放不同的模拟作战，您将获得经验、训练资料、增幅胶囊和校准点券等奖励。参加模拟作战将消耗作战点数，点数每两小时会恢复1点，也可以从商城购买哦。(todo),,0
+BEGINNERGUIDE,150122,There will be different Combat Simulation modes available every day of the week. You can obtain EXP//c Training Data//c Enhancement Capsules//c or Calibration Tickets by consuming Sim Energy//c which recovers by one point every two hours//c or can be purchased in the Shop.,,0
 BEGINNERGUIDE,150123,Press <color=#ffb400>[Heavy Production]</color> to begin production.,,0
 BEGINNERGUIDE,150124,Pinch or spread the screen to zoom in or out.,,0
 BEGINNERGUIDE,150125,Commander//c Griffin has now put the research and development of the Heavy Ordnance Corps on the agenda. Please enter the dormitory for details.,,0
 BEGINNERGUIDE,150126,The research and development of the Heavy Ordnance Corps is based primarily upon combat intel//c so we are working in cooperation with Wave Tech//c an organization that deals with intelligence and analysis. Please press Auxiliary Room.,,0
 BEGINNERGUIDE,150127,Press here to enter Wave Tech's 【Intelligence Center】.,,0
 BEGINNERGUIDE,150128,The recommended recipes provide optimal production rates for all sorts of weapon types. Feel free to refer to it.,,0
-BEGINNERGUIDE,150129,指挥官，妖精现在可以进一步进化啦，进入<color=#ffb400ff>【研发】</color>区查看一下吧！(todo),,0
-BEGINNERGUIDE,150130,请点击<color=#ffb400ff>【改造&突破】</color>。(todo),,0
-BEGINNERGUIDE,150131,再点击<color=#ffb400ff>【妖精突破进化】</color>就能进行妖精突破进化啦！(todo),,0
+BEGINNERGUIDE,150129,Commander//c Fairies can now undergo Evolutions! Go to <color=#ffb400ff>【Develop】</color> and have a look!,,0
+BEGINNERGUIDE,150130,Tap <color=#ffb400ff>【Upgrade & Breakthrough】</color>.,,0
+BEGINNERGUIDE,150131,Then tap <color=#ffb400ff>【Fairy Evolution Breakthrough】</color> to make your Fairies even stronger!,,0
 SPECIALFORGLOBAL,160000,Rounds,,0
 SPECIALFORGLOBAL,160001,Target,,0
 SPECIALFORGLOBAL,160002,Night,,0
@@ -5469,13 +5509,13 @@ SQUAD,190071,<color=#FFB400FF>Decrease</color> Fragmented Data by <color=#FFB400
 SQUAD,190072,Data samples are full//c unable to collect!,,0
 SQUAD,190073,Data samples are nearly full and any extras will be discarded. Proceed?,,0
 SQUAD,190074,Chip placed incorrectly//c cannot save!,,0
-SQUAD,190075,校准点券不足，无法保存！(todo),,0
+SQUAD,190075,Insufficient Calibration Tickets//c cannot save!,,0
 SQUAD,190076,Changes to the chips circuit haven't been saved yet. Cancel changes?,,0
 SQUAD,190077,Changes to the chips circuit haven't been saved yet. Cannot enhance or dismantle!,,0
 SQUAD,190078,Enhancement materials include high rarity chips. Proceed?,,0
 SQUAD,190079,The chips you're dismantling include high rarity chips. Proceed?,,0
 SQUAD,190080,Insufficient resources//c unable to enhance!,,0
-SQUAD,190081,旋转芯片需要消耗校准点券x{0}，//n是否继续？(todo),,0
+SQUAD,190081,Rotating chip requires {0} Calibration Tickets.//nProceed?,,0
 SQUAD,190082,Confirm to unequip all chips?,,0
 SQUAD,190083,Support Enhancement,,0
 SQUAD,190084,Enhancement Capsule,,0
@@ -5578,7 +5618,7 @@ SQUAD,190181,Every HOC unit comes with three skills. Press "Train" to open the i
 SQUAD,190182,Press "Edit" to install chips on the <color=#ffb400>chips circuit</color> to increase your HOC unit's combat capabilities.,,0
 SQUAD,190183,Drag chips from the left side to install into your chips circuit on the right; do the opposite to remove.,,0
 SQUAD,190184,Cannot install chips on locked blocks. Increase the star rank of your HOC unit to unlock more of the circuit.,,0
-SQUAD,190185,点击回路上的芯片可以选中，再次点击可以将其顺时针旋转。保存时，若芯片的形状相对于旋转前发生改变，则需要消耗校准点券。(todo),,0
+SQUAD,190185,Press a chip on the circuit to select it. Press again to rotate it clockwise. When saving//c Calibration Tickets are required to lock in the rotation.,,0
 SQUAD,190186,Stats provided by chips is capped by the stats limit. Increase your HOC unit's star rank to increase the limit. Installing chips of the same designated color will provide bonus stats.,,0
 SQUAD,190187,An unlocked HOC unit can use its corresponding <color=#ffb400>Central Data</color> to increase its star rank. Higher stars unlock more of the chips circuit.,,0
 SQUAD,190188,A HOC unit at max level and max stars can undergo Iteration! Select <color=#ffb400>Iteration</color> in the stats page to use <color=#ffb400>Data Patches</color>to increase Iteration levels. Every level increases your HOC unit's stats even further.,,0
@@ -5642,18 +5682,33 @@ SQUAD,190245,Max.,,0
 SQUAD,190246,Level,,0
 SQUAD,190247,EXP,,0
 SQUAD,190248,,,0
-SQUAD,190264,自动配装(todo),,0
-SQUAD,190265,预览满级芯片属性(todo),,0
-SQUAD,190266,满级预览中(todo),,0
-SQUAD,190267,快速训练需要消耗<color=#ffb400ff>{0}</color>个<color=#ffb400ff>{1}</color><color=#ffb400ff>（剩余{2}个）</color>，是否确认支付？(todo),,0
-SQUAD,190268,1.强化等级每提升一级，芯片的属性也会相应提升。//n2.2星芯片不可强化。//n3.芯片星级越高强化时所需要经验越多。//n4.星级越高的芯片，作为素材时能够提供的经验越多。//n5.相同颜色的芯片，作为素材时经验提升20%。//n6.芯片若已经获得了一部分强化经验，则其作为素材时能提供额外的强化经验。额外经验相当于其已有的强化经验的80%。(todo),,0
-SQUAD,190269,跳转(todo),,0
-SQUAD,190270,选择芯片回收星级(todo),,0
-SQUAD,190271,选择消耗芯片星级(todo),,0
-SQUAD,190272,回收人质(todo),,0
-SQUAD,190273,点击后进行经验训练(todo),,0
-SQUAD,190274,点击后进行技能训练(todo),,0
-SQUAD,190275,可迭代(todo),,0
+SQUAD,190249,Select all 2-star chips,,0
+SQUAD,190250,Select all 3-star chips,,0
+SQUAD,190251,Select all 4-star chips,,0
+SQUAD,190252,Can Be Enhanced,,0
+SQUAD,190253,Can Be Enhanced,,0
+SQUAD,190254,Please select chip type for auto-arrange.,,0
+SQUAD,190255,*Please prioritize selecting higher-star chips of greater size to reduce calculation time. Excessive calculation time might affect the final accuracy of the results.,,0
+SQUAD,190256,Chip Star Level,,0
+SQUAD,190257,Chip Size,,0
+SQUAD,190258,Rotate chip?,,0
+SQUAD,190259,Calculating chip arrangement,,0
+SQUAD,190260,There are no usable chips among the selected chips. Please choose again.,,0
+SQUAD,190261,Many chips have been selected and calculation may take a long time. Do you wish to continue?,,0
+SQUAD,190262,Please select chip type to be installed.,,0
+SQUAD,190263,Chip auto-arrange has failed for an unknown reason. Consider changing the filter criteria or trying again after collecting more chips.,,0
+SQUAD,190264,Auto-Arrange,,0
+SQUAD,190265,Preview max-level chip stats,,0
+SQUAD,190266,Max Level Preview,,0
+SQUAD,190267,Quick Training will consume <color=#ffb400ff>{0}</color> <color=#ffb400ff>{1}</color><color=#ffb400ff> ({2} remaining)</color>. Confirm and proceed?,,0
+SQUAD,190268,1. Chip stats improve with each Enhancement Level.//n2.2-star Chips cannot be enhanced.//n3. The higher a Chip's star level//c the more EXP is required to enhance it.//n4. The higher a Chip's star level//c the more EXP it provides as Enhancement fodder.//n5.Chips of the same color gives 20% more EXP as Enhancement fodder.//n6. Chips with Enhancement EXP provides extra Enhancement EXP when used as Enhancement fodder. The extra EXP it gives is 80% of its own Enhancement EXP.,,0
+SQUAD,190269,Jump,,0
+SQUAD,190270,Select Chip star level to recycle,,0
+SQUAD,190271,Select Chip star level to consume,,0
+SQUAD,190272,Rescue Hostage,,0
+SQUAD,190273,Tap to conduct EXP Training,,0
+SQUAD,190274,Tap to conduct Skill Training,,0
+SQUAD,190275,,,0
 TOAST,200000,Formation has been preset,,0
 TOAST,200001,No available Fairies,,0
 TOAST,200002,Clear {0} different stages to unlock <color=#ffb400>Fairies</color>. Current clears {1}/{2},,0
@@ -5677,7 +5732,7 @@ TOAST,200019,No equipment available for disassembly,,0
 TOAST,200020,No Fairies available for disassembly,,0
 TOAST,200021,Clear {0} to unlock <color=#ffb400>Equipment Production</color>,,0
 TOAST,200022,Clear {0} different stages to unlock <color=#ffb400>Equipment Heavy Production</color>. Current clears {1}/{2},,0
-TOAST,200023,装备&妖精制造栏位解锁成功！(todo),,0
+TOAST,200023,Equipment and Fairy Production Slot Unlocked!,,0
 TOAST,200024,Clear {0} different stages to unlock <color=#ffb400>Fairy Chamber</color>. Current clears {1}/{2},,0
 TOAST,200025,Clear {0} to unlock <color=#ffb400>{1}</color>,,0
 TOAST,200026,<color=#ffb400>{0}</color> is being upgraded,,0
@@ -5999,7 +6054,7 @@ THEATER,210209,*Points scored from this battle equals {0} x number of fulfilled 
 THEATER,210210,Battle Mode,,0
 THEATER,210211,Echelon Details,,0
 THEATER,210212,Battlefield Effects,,0
-THEATER,210213,,,0
+THEATER,210213,Support Units available,,0
 THEATER,210214,Current Selection,,0
 THEATER,210215,Score obtained,,0
 THEATER,210216,Points for each fulfilled condition,,0
@@ -6011,8 +6066,8 @@ THEATER,210221,Backup Unit +{0},,0
 THEATER,210222,Coalition Unit cost+{0},,0
 THEATER,210223,Duplicate T-Dolls cannot be assigned to an Expedition Team. Do you wish to switch the Doll to this slot?,,0
 THEATER,210224,These are the <color=#ffb400>Battle Modes</color>of this outpost stage.//n Different Battle Modes have different <color=#ffb400>conditions</color> to fulfill. Pay attention to the distinct features of each Battle Mode and consider information regarding the enemy//c your own echelon//c and the battlefield while organizing your expedition team.,,0
-THEATER,210225,以下为本据点关卡的<color=#ffb400>战场效果</color>。//n战场效果可能包含各种<color=#ffb400>针对我方或敌方的有利/不利影响</color>，请仔细关注不同战场效果，针对局势合理安排出击梯队。//n随着攻略进度的推进，战场效果内容可能会发生变化。(todo),,0
-THEATER,210226,优势人形在与<color=#ffb400ff>常规敌人</color>作战时可获得以下<color=#ffb400ff>属性加成</color>：//n手枪：20%技能冷却速度；冲锋枪、霰弹枪：15%护甲加成、50%回避加成；突击步枪、步枪、机枪：20%伤害加成、20%命中加成//n同时在<color=#ffb400ff>要塞关卡</color>中，优势人形在与<color=#ffb400ff>精英敌人</color>作战时<color=#ffb400ff>自身</color>可获得<color=#ffb400ff>20%对精英敌人效能加成</color>。(todo),,0
+THEATER,210225,These are the <color=#ffb400>Battlefield Effects</color>of this outpost stage.//n Battlefield Effects can have <color=#ffb400>either beneficial or debilitating effects on allies or enemies</color>. Pay attention to different Battlefield Effects and dispatch your forces accordingly.//n Battlefield Effects may change depending on Theater progression.,,0
+THEATER,210226,These are the <color=#ffb400>Echelon Requirements</color>of this outpost stage.//n When assaulting different Theater Outposts//c the battle may list different <color=#ffb400>advantaged echelons</color> and <color=#ffb400>Griffin support for dispatched units</color>. Consider them on top of the Battlefield Effects and Battle Modes and send out your forces accordingly.,,0
 THEATER,210227,Regular enemies will appear in sequence in the next <Color=#FF5001FF>{0}</Color> waves.,,0
 THEATER,210228,Wave {0},,0
 THEATER,210229,Support,,0
@@ -6042,49 +6097,57 @@ THEATER,210252,Battles are affected by <color=#ffb400>Battlefield Effects</color
 THEATER,210253,Resume battle,,0
 THEATER,210254,Rules,,0
 THEATER,210255,Support Echelon,,0
-THEATER,210256,,,0
-THEATER,210257,,,0
-THEATER,210258,,,0
-THEATER,210259,,,0
-THEATER,210260,,,0
-THEATER,210261,,,0
-THEATER,210272,等级(todo),,0
-THEATER,210273,未配置(todo),,0
-THEATER,210274,支援编队(todo),,0
-THEATER,210275,切换信息(todo),,0
-THEATER,210276,费用(todo),,0
-THEATER,210277,妖精指令(todo),,0
-THEATER,210278,妖精(todo),,0
-THEATER,210279,人形(todo),,0
-THEATER,210280,融合势力(todo),,0
-THEATER,210281,显示装备(todo),,0
-THEATER,210282,等级(todo),,0
-THEATER,210283,队长(todo),,0
-THEATER,210284,梯队编成(todo),,0
-THEATER,210285,点击选中参与的支援编队(todo),,0
-THEATER,210286,卸下(todo),,0
-THEATER,210287,已达到后备上限，无法添加(todo),,0
-THEATER,210288,指令(todo),,0
-THEATER,210289,只作用于普通战斗(todo),,0
-THEATER,210290,未部署梯队，无法进行战斗(todo),,0
-THEATER,210291,已有队长，无法上阵(todo),,0
-THEATER,210292,策略妖精无法在战区内使用(todo),,0
-THEATER,210293,妖精指令不足(todo),,0
-THEATER,210294,战区结算中，无法进行战斗(todo),,0
-THEATER,210295,关卡条件、战斗模式、战场效果只作用于常规关卡(todo),,0
-THEATER,210296,共{0}波敌人，从下列组合中顺序出(todo),,0
-THEATER,210297,释放(todo),,0
-THEATER,210298,该据点支援编队未开放(todo),,0
-THEATER,210299,远征队中不能编入重复妖精(todo),,0
-THEATER,210300,编辑队长(todo),,0
-THEATER,210301,已选中(todo),,0
-THEATER,210302,没有任何出战优势人形，是否确认出战？(todo),,0
-THEATER,210303,交换失败，Boss需要作为队长(todo),,0
-THEATER,210304,请确认完成队长编辑(todo),,0
-THEATER,210305,同时在<color=#ffb400ff>要塞关卡</color>中，优势人形在与<color=#ffb400ff>精英敌人</color>作战时<color=#ffb400ff>自身</color>可获得<color=#ffb400ff>20%对精英敌人效能加成</color>(todo),,0
-THEATER,210306,优势人形在与<color=#ffb400ff>常规敌人</color>作战时可获得以下<color=#ffb400ff>属性加成</color>：(todo),,0
-THEATER,210307,小队中不能编入重复人形(todo),,0
-THEATER,210308,小队中不能编入重复妖精(todo),,0
+THEATER,210256,Advantaged T-Dolls,,0
+THEATER,210257,Total Score,,0
+THEATER,210258,Cost: {0},,0
+THEATER,210259,Points,,0
+THEATER,210260,Good,,0
+THEATER,210261,Excellent,,0
+THEATER,210262,No.,,0
+THEATER,210263,Wave,,0
+THEATER,210264,Score bonus of each type of unit,,0
+THEATER,210265,No Doll echelon deployed,,0
+THEATER,210266,No Coalition echelon deployed,,0
+THEATER,210267,Different Theater regions have different <color=#ffb400>advantaged T-Dolls</color>.//n Advantaged T-Dolls have additional <color=#ffb400>elite enemy score multipliers</color> for themselve,,0
+THEATER,210268,Materials,,0
+THEATER,210269,Combat Settlement — Victory,,0
+THEATER,210270,Combat Settlement — Defeat,,0
+THEATER,210271,Number of Backup Fairies +{0},,0
+THEATER,210272,Level,,0
+THEATER,210273,Not Deployed,,0
+THEATER,210274,Support Unit Formation,,0
+THEATER,210275,Change Information,,0
+THEATER,210276,Cost,,0
+THEATER,210277,Fairy Commands,,0
+THEATER,210278,Fairies,,0
+THEATER,210279,T-Dolls,,0
+THEATER,210280,Coalition Units,,0
+THEATER,210281,Show Equipment,,0
+THEATER,210282,Level,,0
+THEATER,210283,Leader,,0
+THEATER,210284,Echelon Formation,,0
+THEATER,210285,Click to select Support Unit Formation,,0
+THEATER,210286,Remove,,0
+THEATER,210287,Maximum number of backup units reached//c unable to add.,,0
+THEATER,210288,Commands,,0
+THEATER,210289,Only used in regular battles,,0
+THEATER,210290,Echelon not deployed//c unable to enter combat.,,0
+THEATER,210291,Team leader already exists//c cannot deploy.,,0
+THEATER,210292,Strategy Fairies cannot be used in Theaters.,,0
+THEATER,210293,Insufficient Fairy Commands,,0
+THEATER,210294,Theater score settlement in progress//c unable to enter combat.,,0
+THEATER,210295,Stage conditions//c battle modes and battlefield effects only apply to regular stages.,,0
+THEATER,210296,There are a total of {0} enemy waves//c to be deployed in the order shown below.,,0
+THEATER,210297,Activate,,0
+THEATER,210298,The Support Unit from this base has not been released yet.,,0
+THEATER,210299,Expedition units cannot be given duplicate Fairies.,,0
+THEATER,210300,,,0
+THEATER,210301,,,0
+THEATER,210302,,,0
+THEATER,210303,,,0
+THEATER,210304,,,0
+THEATER,210305,,,0
+THEATER,210306,,,0
 MISSIONTARGET,220000,Command Post,,0
 MISSIONTARGET,220001,Normal Node,,0
 MISSIONTARGET,220002,Heliport,,0
@@ -6203,6 +6266,7 @@ MISSIONTARGET,220116,Pin to top,,0
 MISSIONTARGET,220117,Unable to save target.,,0
 MISSIONTARGET,220118,No saved targets yet.,,0
 MISSIONTARGET,220119,Introduction,,0
+MISSIONTARGET,220120,Theater Target,,0
 VA11HALLA,230000,By Name,,0
 VA11HALLA,230001,By Flavor,,0
 VA11HALLA,230002,By Type,,0
@@ -6352,10 +6416,10 @@ UNITED_FORCE,240006,Your Commander level is required to be,,0
 UNITED_FORCE,240007,Establish company,,0
 UNITED_FORCE,240008,Please enter the company name,,0
 UNITED_FORCE,240009,Company name cannot be empty,,0
-UNITED_FORCE,240010,连队名称不能包含特殊字符(todo),,0
+UNITED_FORCE,240010,Company name cannot contain special characters,,0
 UNITED_FORCE,240011,Company name cannot be longer than 10 characters,,0
 UNITED_FORCE,240012,This company name is already taken,,0
-UNITED_FORCE,240013,连队名称包含非法字符(todo),,0
+UNITED_FORCE,240013,This company name contains illegal characters,,0
 UNITED_FORCE,240014,Required items insufficient//c unable to create company,,0
 UNITED_FORCE,240015,Company <color=#fFBB00FF>{0}</color> created,,0
 UNITED_FORCE,240016,Apply,,0
@@ -6441,7 +6505,7 @@ UNITED_FORCE,240095,Elect company captain,,0
 UNITED_FORCE,240096,The impeachment process in company <color=#fFBB00FF>{0}</color> has been successfully passed//c <color=#fFBB00FF>{1}</color> has lost their position as the company captain//c the new company captain is <color=#fFBB00FF>{2}</color>,,0
 UNITED_FORCE,240097,Company notice changed!,,0
 UNITED_FORCE,240098,Company notice is limited to 40 characters,,0
-UNITED_FORCE,240099,公会公告中不能包含敏感信息！(todo),,0
+UNITED_FORCE,240099,Company notice cannot contain any sensitive words!,,0
 UNITED_FORCE,240100,Message is limited to 20 characters,,0
 UNITED_FORCE,240101,Please respect other people and don't send messages that include personal information.//nMessage text field (max 20 letters),,0
 UNITED_FORCE,240102,Company flag changed,,0
@@ -6453,7 +6517,7 @@ UNITED_FORCE,240107,Vice-captain slots +{0},,0
 UNITED_FORCE,240108,Stronghold room count +{0},,0
 UNITED_FORCE,240109,New facilities: {0},,0
 UNITED_FORCE,240110,Company name: {0},,0
-UNITED_FORCE,240111,请不要发送包含有敏感词汇的信息(todo),,0
+UNITED_FORCE,240111,Please do not send messages that contain sensitive words,,0
 UNITED_FORCE,240112,Welcome Commander <color=#fFBB00FF>{0}</color> to <color=#fFBB00FF>{1}</color>,,0
 UNITED_FORCE,240113,Commander <color=#fFBB00FF>{0}</color> has been appointed as a vice-captain,,0
 UNITED_FORCE,240114,Commander <color=#fFBB00FF>{0}</color> has been expelled from the company,,0
@@ -6783,17 +6847,23 @@ SANGVIS,260141,Golden,,0
 SANGVIS,260142,All unused special bombardment support from yesterday have expired. Please return to the home page and re-enter the Capture Operation interface.,,0
 SANGVIS,260143,Cost,,0
 SANGVIS,260144,Opening Time {0},,0
-SANGVIS,260151,荷量(todo),,0
-SANGVIS,260152,芯片研发荷量兑换(todo),,0
-SANGVIS,260153,研发荷量不足，请增加道具投入(todo),,0
-SANGVIS,260154,道具库存不足，无法提供足够研发荷量(todo),,0
-SANGVIS,260155,研发耗时(todo),,0
-SANGVIS,260156,研发消耗(todo),,0
-SANGVIS,260157,*超出的研发荷量将会被损耗(todo),,0
-SANGVIS,260158,提供荷量(todo),,0
-SANGVIS,260159,研发(todo),,0
-SANGVIS,260160,道具数量(todo),,0
-SANGVIS,260161,库存(todo),,0
+SANGVIS,260145,Initial 1-Star,,0
+SANGVIS,260146,Initial 2-Star,,0
+SANGVIS,260147,Initial 3-Star,,0
+SANGVIS,260148,Quick Top Up,,0
+SANGVIS,260149,Confirm,,0
+SANGVIS,260150,No enemy units detected//c unable to perform captures. (There are no events in progress at the moment//c please keep an eye open for official event announcements.),,0
+SANGVIS,260151,Load,,0
+SANGVIS,260152,Chip Development Load Exchange,,0
+SANGVIS,260153,Insufficient Development Load. Please put in more items.,,0
+SANGVIS,260154,Insufficient item in storage. Unable to provide sufficient Development Load,,0
+SANGVIS,260155,Development Duration,,0
+SANGVIS,260156,Development Cost,,0
+SANGVIS,260157,*Excess Development Load will be lost.,,0
+SANGVIS,260158,Provide Load,,0
+SANGVIS,260159,Research,,0
+SANGVIS,260160,Item Quantity,,0
+SANGVIS,260161,In possession,,0
 FORMATION,270002,Echelon//nPreset,,0
 FORMATION,270003,Select Formation,,0
 FORMATION,270004,Formation Strengths,,0
@@ -6844,30 +6914,23 @@ FORMATION,270048,Formation,,0
 FORMATION,270049,Insufficient idle Equipment. Equipment preset cannot be applied on certain Equipment slots.,,0
 FORMATION,270050,Locked,,0
 FORMATION,270051,Echelon,,0
-FORMATION,270052,是否包含<color=#ffb400>专属装备</color>(todo),,0
-FORMATION,270053,前往编成(todo),,0
-FORMATION,270054,自动编成(todo),,0
-FORMATION,270055,已为{0}自动分配队长(todo),,0
-FORMATION,270056,{0}没有分配队长，请先配置。(todo),,0
-FORMATION,270057,第{0}梯队(todo),,0
-FORMATION,270058,使用已编队单位(todo),,0
-FORMATION,270059,缺少以下类型单位，无法编成完整的梯队，是否继续编队(todo),,0
-FORMATION,270060,查看列表(todo),,0
-FORMATION,270061,继续编队(todo),,0
-FORMATION,270062,使用已编队单位(todo),,0
-FORMATION,270063,该梯队正在作战中，无法进行编辑！(todo),,0
-FORMATION,270064,缺少{0}的{1}(todo),,0
-FORMATION,270065,前排单位(todo),,0
-FORMATION,270066,后排单位(todo),,0
-FORMATION,270067,队长单位(todo),,0
-FORMATION,270068,推荐用于该编队(todo),,0
-FORMATION,270069,<color=#FFB400FF>【{0}】</color>(todo),,0
+FORMATION,270052,Contains <color=#ffb400>Exclusive Equipment</color>,,0
+FORMATION,270053,Proceed to Formation,,0
+FORMATION,270054,Auto-Formation,,0
+FORMATION,270055,Automatically appointed as leader of Echelon {0},,0
+FORMATION,270056,{0} has no assigned leader. Please assign a leader.,,0
+FORMATION,270057,Echelon {0},,0
+FORMATION,270058,,,0
+FORMATION,270059,,,0
+FORMATION,270060,,,0
+FORMATION,270061,,,0
+FORMATION,270062,,,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
-MINIGAME,280003,Queued,,0
+MINIGAME,280003,Waiting,,0
 MINIGAME,280004,Create room,,0
 MINIGAME,280005,Matching with other players//c please wait...,,0
-MINIGAME,280006,,,0
+MINIGAME,280006,Queued,,0
 MINIGAME,280007,Match found. Would all Commanders please get ready.,,0
 MINIGAME,280008,{0}/{1} ready,,0
 MINIGAME,280009,Preparation Countdown,,0
@@ -6888,13 +6951,13 @@ MINIGAME,280023,Event Button,,0
 MINIGAME,280024,Formation,,0
 MINIGAME,280025,Casual Mode,,0
 MINIGAME,280026,Quick Add,,0
-MINIGAME,280027,,,0
+MINIGAME,280027,Create Room,,0
 MINIGAME,280028,Scoring Game,,0
 MINIGAME,280029,Map,,0
 MINIGAME,280030,Quick Chat,,0
 MINIGAME,280031,Ready,,0
 MINIGAME,280032,{0}/{1},,0
-MINIGAME,280033,,,0
+MINIGAME,280033,Map,,0
 MINIGAME,280034,Waiting to join,,0
 MINIGAME,280035,Start Game,,0
 MINIGAME,280036,Prepare,,0
@@ -6903,14 +6966,14 @@ MINIGAME,280038,Idle...,,0
 MINIGAME,280039,Cancel,,0
 MINIGAME,280040,Use,,0
 MINIGAME,280041,This item will be used by the currently selected piece.,,0
-MINIGAME,280042,,,0
+MINIGAME,280042,Use,,0
 MINIGAME,280043,Select a target on which to activate this card ({0}/{1}).,,0
 MINIGAME,280044,*Progress +n per round. Progress +n when draw is forfeited.,,0
 MINIGAME,280045,Temporary Hire,,0
 MINIGAME,280046,Show Stats,,0
 MINIGAME,280047,Piece Appearance,,0
 MINIGAME,280048,*The base stats of Luffberry Chess pieces are determined by gun types alone. Select your preferred piece appearance from a specific gun type.,,0
-MINIGAME,280049,*拉弗伯雷兵棋的基础属性和战术只与枪种有关，与具体的人形单位无关。//n*编队必须部署8个人形才能在游戏中使用。(todo),,0
+MINIGAME,280049,*The base stats of the Flying Piece are determined by the gun type alone.//n *8 Dolls must be deployed for this feature to be available in a game.,,0
 MINIGAME,280050,Default Echelon,,0
 MINIGAME,280051,Echelon Preset,,0
 MINIGAME,280052,Select piece,,0
@@ -6924,7 +6987,7 @@ MINIGAME,280059,Select a target to attack {0}/{1},,0
 MINIGAME,280060,Select the piece you wish to move.,,0
 MINIGAME,280061,Change direction,,0
 MINIGAME,280062,Confirm the piece's direction to complete the deployment.,,0
-MINIGAME,280063,,,0
+MINIGAME,280063,Change Direction,,0
 MINIGAME,280064,Confirm the piece's direction to complete the deployment.,,0
 MINIGAME,280065,Clockwise,,0
 MINIGAME,280066,Anti-clockwise,,0
@@ -7014,7 +7077,7 @@ MINIGAME,280149,Handgun,,0
 MINIGAME,280150,Submachine Gun,,0
 MINIGAME,280151,Rifle,,0
 MINIGAME,280152,Assault Rifle,,0
-MINIGAME,280153,,,0
+MINIGAME,280153,General,,0
 MINIGAME,280154,Filter By,,0
 MINIGAME,280155,Attack,,0
 MINIGAME,280156,HP,,0
@@ -7034,7 +7097,7 @@ MINIGAME,280169,Top Chessmasters,,0
 MINIGAME,280170,*Honor determines the status of a Commander in Luffberry Chess. Accumulating points in Tournament Matches will increase a Commander's Honor. The higher your Honor Level//c the harder it will be to obtain more points.,,0
 MINIGAME,280171,*Here are the Top 100 Chessmasters on the Honor Score Ranking Board. Ranking is refreshed at 4am every day.,,0
 MINIGAME,280172,Enter Room ID to join,,0
-MINIGAME,280173,,,0
+MINIGAME,280173,Scoring Game,,0
 MINIGAME,280174,Waiting for other Commanders...,,0
 MINIGAME,280175,Effect Card obtained,,0
 MINIGAME,280176,Item Card obtained,,0
@@ -7059,13 +7122,13 @@ MINIGAME,280194,If you roll a lucky "6"//c you get to move again.,,0
 MINIGAME,280195,HGs are the fastest pieces!,,0
 MINIGAME,280196,ARs have endless potential!,,0
 MINIGAME,280197,End turn,,0
-MINIGAME,280198,,,0
+MINIGAME,280198,Faction Tech,,0
 MINIGAME,280199,Skill CD,,0
 MINIGAME,280200,<i>Final Ranking</i>,,0
 MINIGAME,280201,Duration,,0
 MINIGAME,280202,Dummy Link,,0
 MINIGAME,280203,Mode,,0
-MINIGAME,280204,活跃对局(todo),,0
+MINIGAME,280204,Game Duration,,0
 MINIGAME,280205,Number of Players,,0
 MINIGAME,280206,Game Mode,,0
 MINIGAME,280207,Game Logs,,0
@@ -7212,8 +7275,8 @@ MINIGAME,280349,{0}' {1} has gained {3} point(s) of {2},,0
 MINIGAME,280350,{0}' {1} has lost {3} point(s) of {2},,0
 MINIGAME,280351,{0} has regenerated {1} HP,,0
 MINIGAME,280352,{0} has taken {1} point(s) of damage,,0
-MINIGAME,280353,,,0
-MINIGAME,280354,,,0
+MINIGAME,280353,{0} has gained {2} point(s) of {1},,0
+MINIGAME,280354,{0} has lost {2} point(s) of {1},,0
 MINIGAME,280355,Armor,,0
 MINIGAME,280356,Armor Penetration,,0
 MINIGAME,280357,Number of Attacks,,0
@@ -7245,8 +7308,8 @@ MINIGAME,280382,You cannot trade Cards after your purchase is "Completed". Pleas
 MINIGAME,280383,No movable pieces,,0
 MINIGAME,280384,Calculating...,,0
 MINIGAME,280385,{0}'s {1},,0
-MINIGAME,280386,,,0
-MINIGAME,280387,,,0
+MINIGAME,280386,{0} has regenerated {1} HP,,0
+MINIGAME,280387,{0} has taken {1} point(s) of damage,,0
 MINIGAME,280388,{0} has gained Luffberry Token x{1},,0
 MINIGAME,280389,{0} has lost Luffberry Token x{1},,0
 MINIGAME,280390,{0}'s {1} has turned into {2} points,,0
@@ -7256,7 +7319,7 @@ MINIGAME,280393,Match,,0
 MINIGAME,280394,Logs,,0
 MINIGAME,280395,Add,,0
 MINIGAME,280396,Simulation,,0
-MINIGAME,280397,,,0
+MINIGAME,280397,Tournament,,0
 MINIGAME,280398,Points,,0
 MINIGAME,280399,End of Season,,0
 MINIGAME,280400,Prepare,,0
@@ -7310,7 +7373,7 @@ MINIGAME,280447,Phase error,,0
 MINIGAME,280448,You cannot quit the game now,,0
 MINIGAME,280449,Pending,,0
 MINIGAME,280450,Confirmed,,0
-MINIGAME,280451,,,0
+MINIGAME,280451,End Purchase,,0
 MINIGAME,280453,Pieces already on the board cannot be deployed again. Please select another piece.,,0
 MINIGAME,280454,Luffberry Chess View Mode,,0
 MINIGAME,280455,Best Frame Rate,,0
@@ -7327,35 +7390,36 @@ MINIGAME,280465,Server Ranking,,0
 MINIGAME,280466,Local Ranking,,0
 MINIGAME,280467,The number of players cannot be changed in the room.,,0
 MINIGAME,280468,Random Map,,0
-MINIGAME,280469,AI弈手已就位(todo),,0
-MINIGAME,280470,扭蛋机(todo),,0
-MINIGAME,280471,{0}张扭蛋券内必得大奖(<color=#ffb400ff>{1}</color>/{2})(todo),,0
-MINIGAME,280472,*今日还可以通过活跃对局获取<color=#ffb400ff>{0}</color>张扭蛋券(todo),,0
-MINIGAME,280473,*今日活跃对局扭蛋券已全部获取(todo),,0
-MINIGAME,280474,活跃对局获得(todo),,0
-MINIGAME,280477,1.在此界面可通过消耗<color=#F27C25FF>扭蛋券</color>抽取奖励//n2.房间模式和匹配模式每进行<color=#F27C25FF>1分钟</color>游戏，可获得<color=#F27C25FF>5</color>张扭蛋券（每日可获取<color=#F27C25FF>100</color>张，当日未获取的部分将累积到下一日，最高可累计到<color=#F27C25FF>700</color>，每局活跃对局最多可获得<color=#F27C25FF>100</color>张扭蛋券）//n3.匹配模式的排名会提供额外的扭蛋券(todo),,0
-MINIGAME,280478,黄金巨龙奖(todo),,0
-MINIGAME,280479,所以你看，我就说奖池里面都是媲美巨龙宝藏的好东西吧？（全部奖励解锁后将出现替代奖励）(todo),,0
-MINIGAME,280480,翡翠天马奖(todo),,0
-MINIGAME,280481,同样让人惊喜的二等奖，其丰厚程度一如克鲁格老板的广阔胸襟。(todo),,0
-MINIGAME,280482,白银奔狼奖(todo),,0
-MINIGAME,280483,让人惊喜的三等奖，据说都是由格琳娜小姐亲自挑选的奖品哦！(todo),,0
-MINIGAME,280484,扭蛋券不足(todo),,0
-MINIGAME,280485,托管时间过长，本局不能获得扭蛋券(todo),,0
-MINIGAME,280486,{0}分钟内将不会匹配到该玩家({1}/{2})(todo),,0
-MINIGAME,280487,屏蔽玩家人数已达上限(todo),,0
-MINIGAME,280488,扭蛋(todo),,0
-MINIGAME,280489,扭蛋券持有数量已达上限，不能获取更多！(todo),,0
-MINIGAME,280490,往期兑换(todo),,0
-MINIGAME,280491,往期奖励兑换(todo),,0
-MINIGAME,280492,外观(todo),,0
-MINIGAME,280493,正在匹配玩家(todo),,0
-MINIGAME,280494,请稍等.......(todo),,0
-MINIGAME,280495,已拥有物品，不可再次兑换！(todo),,0
-MINIGAME,280496,请先退出匹配队列(todo),,0
-MINIGAME,280497,匹配超时，请重新匹配！(todo),,0
-MINIGAME,280498,当前使用(todo),,0
-MINIGAME,280499,未获得(todo),,0
-MINIGAME,280500,使用中(todo),,0
-MINIGAME,280501,未获取的棋盘背景，不能使用(todo),,0
-MINIGAME,280502,是否确认在该难度下进行游戏(todo),,0
+MINIGAME,280469,AI opponent is ready,,0
+MINIGAME,280470,Gachapon,,0
+MINIGAME,280471,Grand prize guaranteed after spending {0} gachapon tickets (<color=#ffb400ff>{1}</color>/{2}),,0
+MINIGAME,280472,*You can still obtain <color=#ffb400ff>{0}</color> more gachapon tickets through Active Matches today,,0
+MINIGAME,280473,*All gachapon tickets from Active Matches today have already been claimed,,0
+MINIGAME,280474,Obtained through Active Matches,,0
+MINIGAME,280475,Obtained through ranking,,0
+MINIGAME,280476,No free rooms at the moment. Would you like to create a new room?,,0
+MINIGAME,280477,1. You can obtain prizes on this screen by spending <color=#F27C25FF>gachapon tickets</color>.//n2. For every <color=#F27C25FF>1 minute</color> of game time in Room Mode and Match Mode//c you will gain <color=#F27C25FF>5</color> gachapon tickets (you can obtain up to <color=#F27C25FF>100</color> tickets per day; any tickets which have not been claimed will carry over to the next day//c to a maximum of <color=#F27C25FF>700</color>//c with a maximum of <color=#F27C25FF>100</color> gachapon tickets available through each match).//n 3. Your ranking in Match Mode will provide additional gachapon tickets.,,0
+MINIGAME,280478,Great Golden Dragon Prize,,0
+MINIGAME,280479,See? Didn't I tell you all the prizes in the pool would be right at home in a dragon's hoard? (Once all prizes have been unlocked//c substitute prizes will be awarded instead.),,0
+MINIGAME,280480,Jade Pegasus Prize,,0
+MINIGAME,280481,A similarly jaw-dropping second-place prize//c as generous as Boss Kryuger's heart.,,0
+MINIGAME,280482,Silver Sprinting Wolf Prize,,0
+MINIGAME,280483,A stunning third-place prize//c supposedly hand-picked by Miss Kalina herself!,,0
+MINIGAME,280484,Not enough gachapon tickets,,0
+MINIGAME,280485,Too much time has elapsed//c you cannot claim gachapon tickets for this game.,,0
+MINIGAME,280486,You will not be matched with this player for the next {0} minutes ({1}/{2}).,,0
+MINIGAME,280487,Maximum number of blocked players reached,,0
+MINIGAME,280488,Gacha,,0
+MINIGAME,280489,Maximum number of gachapon tickets reached//c you cannot obtain any more!,,0
+MINIGAME,280490,Past Exchange,,0
+MINIGAME,280491,Past Reward Exchange,,0
+MINIGAME,280492,Appearance,,0
+MINIGAME,280493,Matching players,,0
+MINIGAME,280494,Please wait...,,0
+MINIGAME,280495,Item already in possession. Cannot be exchanged again!,,0
+MINIGAME,280496,Please exit matching queue first.,,0
+MINIGAME,280497,Match timed out//c please try again!,,0
+MINIGAME,280498,Currently in use,,0
+MINIGAME,280499,Not obtained,,0
+MINIGAME,280500,,,0
+MINIGAME,280501,Chessboard background locked and cannot be used.,,0

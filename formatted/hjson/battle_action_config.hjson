@@ -5657,7 +5657,7 @@
     name: PM9技能
     action_order: "1"
     action_playspeed: "100"
-    creation_order: "2,21,138,8,2,8"
+    creation_order: "2,21,138,8,10300,8"
     creation_delay: "0,0,0,10,4,7 "
   }
   {
@@ -7819,7 +7819,7 @@
     name: DP12技能普攻
     action_order: attack
     action_playspeed: "100"
-    creation_order: "2813,2813,30,30"
+    creation_order: "2813,10301,30,30"
     creation_delay: "0,4,0,4"
   }
   {
@@ -8845,7 +8845,7 @@
     name: gsh-18改技能普攻
     action_order: attack2
     action_playspeed: "100"
-    creation_order: "1,21,138,1,21,138,2971,2971"
+    creation_order: "1,21,138,10295,21,138,2971,2971"
     creation_delay: "0,0,0,4,4,4,0,4"
     sound_order: BT_pistol,BT_pistol
     sound_delay: "0,4"
@@ -9224,7 +9224,7 @@
     action_order: "1,1"
     action_delay: "0,5"
     action_playspeed: "100,100"
-    creation_order: "3063,21,139,3063,21,139"
+    creation_order: "3063,21,139,10302,21,139"
     creation_delay: "0,0,0,5,5,5"
   }
   {
@@ -17113,6 +17113,21 @@
     effect_duration: "30"
   }
   {
+    id: 5843
+    name: 关卡召唤物
+    summon_order: "4259"
+  }
+  {
+    id: 5844
+    name: 600无视编制伤害 500力场破防
+    creation_order: "9010"
+  }
+  {
+    id: 5845
+    name: pkp装备
+    creation_order: "9011"
+  }
+  {
     id: 6000
     name: 扳机触发普攻-通用
   }
@@ -19106,7 +19121,7 @@
     name: AN94激活
     action_order: "1"
     action_playspeed: "200"
-    creation_order: "8554,8554,2018,140,140,2018"
+    creation_order: "8554,10303,2018,140,140,2018"
     creation_delay: "0,3,0,0,3,3"
     sound_order: BT_AK,BT_AK
     sound_delay: "0,3"
@@ -20527,6 +20542,21 @@
     scene_play_speed: "300"
     scene_delay: "5"
     scene_transition: "2"
+  }
+  {
+    id: 8517
+    name: 燃烧伤害
+    creation_order: "9008"
+  }
+  {
+    id: 8518
+    name: 前排召唤物
+    summon_order: "4257"
+  }
+  {
+    id: 8519
+    name: 每隔6秒时间向敌人血量最高单位投掷燃烧物
+    summon_order: "4258"
   }
   {
     id: 9001
@@ -22670,6 +22700,56 @@
     id: 541830
     name: 刘皮肤578增援lv10
     creation_order: "570130"
+  }
+  {
+    id: 541831
+    name: 刘皮肤7701增援lv1
+    creation_order: "570131"
+  }
+  {
+    id: 541832
+    name: 刘皮肤7701增援lv2
+    creation_order: "570132"
+  }
+  {
+    id: 541833
+    name: 刘皮肤7701增援lv3
+    creation_order: "570133"
+  }
+  {
+    id: 541834
+    name: 刘皮肤7701增援lv4
+    creation_order: "570134"
+  }
+  {
+    id: 541835
+    name: 刘皮肤7701增援lv5
+    creation_order: "570135"
+  }
+  {
+    id: 541836
+    name: 刘皮肤7701增援lv6
+    creation_order: "570136"
+  }
+  {
+    id: 541837
+    name: 刘皮肤7701增援lv7
+    creation_order: "570137"
+  }
+  {
+    id: 541838
+    name: 刘皮肤7701增援lv8
+    creation_order: "570138"
+  }
+  {
+    id: 541839
+    name: 刘皮肤7701增援lv9
+    creation_order: "570139"
+  }
+  {
+    id: 541840
+    name: 刘皮肤7701增援lv10
+    creation_order: "570140"
   }
   {
     id: 542701
