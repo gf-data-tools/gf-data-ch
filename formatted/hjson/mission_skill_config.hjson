@@ -63290,7 +63290,7 @@
     cd_time_type: 1
     start_range: 3
     trigger_id: 100010091&&920000190
-    target_id: "102010190"
+    target_id: 102010190&&955010180&&955010280
     special_spot_add: 6510045:1
     subsidiary_mission_skill: "95401008"
     is_manual: 95401001
@@ -63556,5 +63556,19 @@
     cd_time_type: 1
     target_id: "1"
     special_spot_add: 1020101:1
+  }
+  {
+    id: 95401018
+    name: 【标记】敌方Boss标记
+    description: mission_skill_config-115401018
+    lvup_description: mission_skill_config-125401018
+    skill_group_id: 95401018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 9550101:1
   }
 ]
