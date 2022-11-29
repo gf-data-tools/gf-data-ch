@@ -15,8 +15,10 @@ local SelectSkillSpot = function(self,spot)
 	if CS.UnityEngine.Input.touchCount >1 then
 		return;
 	end
-	self:CloseAllSelectTarget();	
 	self:SelectSkillSpot(spot);
+	self:CloseAllSelectTarget();
+	CS.DeploymentController.TriggerSelectTeam(nil);
+	CS.DeploymentUIController.Instance:OnSelectTeamSkillUI(nil);
 end
 
 local ControlBuild = function(self)
