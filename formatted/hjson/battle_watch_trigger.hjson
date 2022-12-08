@@ -29,4 +29,26 @@
     description: M327监视2
     buff_judge: 1000004768
   }
+  {
+    id: 1007
+    description: 沃克队友技能监视
+    buff_judge: 1000004896
+  }
+  {
+    id: 1008
+    description: 斩杀目标血量10
+    hurt_type: "0,1,2"
+    hurt_judge: 1000004911
+  }
+  {
+    id: 1009
+    description: 斩杀目标血量25
+    hurt_type: "0,1,2"
+    hurt_judge: 1000004912
+  }
+  {
+    id: 5001
+    description: 曦和监视
+    buff_judge: 1000002119
+  }
 ]

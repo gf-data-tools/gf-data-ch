@@ -8587,6 +8587,26 @@
     boss_available: 1
   }
   {
+    id: 1023
+    name: 效果显示通用
+    conflict_type: 378
+    max_tier: 100
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 1024
+    name: 效果显示通用
+    conflict_type: 384
+    max_tier: 100
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 1100
     name: hs2000标记
     description: 若存在则未被判断
@@ -27917,6 +27937,222 @@
     boss_available: 1
   }
   {
+    id: 4851
+    name: 双子日月占比
+    conflict_type: 359
+    max_tier: 1000
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4852
+    name: 太阳的力量
+    description: scar
+    conflict_type: 360
+    max_tier: 5
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 4853
+    name: 月亮的力量
+    description: scar
+    conflict_type: 361
+    max_tier: 5
+    type: 804
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *102
+  }
+  {
+    id: 4854
+    name: 曦和庇护
+    conflict_type: 362
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    fix_damage: 1000002116
+  }
+  {
+    id: 4855
+    name: 望舒庇护
+    conflict_type: 362
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    fix_damage: 1000002117
+  }
+  {
+    id: 4856
+    name: 曦和之力
+    conflict_type: 363
+    max_tier: 100
+    type: 501
+    duration_type: 1
+    duration: "9999"
+    boss_available: 1
+  }
+  {
+    id: 4857
+    name: 望舒之力
+    conflict_type: 364
+    max_tier: 100
+    type: 501
+    duration_type: 1
+    duration: "9999"
+    boss_available: 1
+    trigger_creation_id: "10316"
+  }
+  {
+    id: 4858
+    name: 监视变化用buff
+    conflict_type: 365
+    max_tier: 999
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4859
+    name: 监视·曦和
+    conflict_type: 366
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "9999"
+    boss_available: 1
+    watch_id: 5001
+  }
+  {
+    id: 4860
+    name: 曦和法球
+    conflict_type: 367
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    orb_effect: 11960501
+  }
+  {
+    id: 4861
+    name: 望舒等级
+    conflict_type: 368
+    max_tier: 30
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4862
+    name: 望舒法球
+    conflict_type: 369
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    orb_effect: 11970401
+  }
+  {
+    id: 4863
+    name: 望舒forceskill
+    conflict_type: 370
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "4"
+    boss_available: 1
+    forced_skill: "119705"
+  }
+  {
+    id: 4864
+    name: 望舒等级2
+    conflict_type: 371
+    max_tier: 50
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4865
+    name: 曦和区域内
+    conflict_type: 372
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 4866
+    name: 望舒区域内
+    conflict_type: 373
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 4867
+    name: 曦和伤害
+    conflict_type: 374
+    max_tier: 999
+    type: 136
+    duration_type: 1
+    duration: "2"
+    boss_available: 1
+    trigger_creation_id: "10315"
+    hurt_id: 623
+    hurt_cd: 3
+  }
+  {
+    id: 4868
+    name: 望舒伤害
+    conflict_type: 375
+    max_tier: 999
+    type: 136
+    duration_type: 1
+    duration: "2"
+    boss_available: 1
+    hurt_id: 624
+    hurt_cd: 3
+  }
+  {
+    id: 4869
+    name: 双子对战timing
+    conflict_type: 376
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+  }
+  {
+    id: 4870
+    name: 双子·标识
+    conflict_type: 377
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 4871
     name: 移速下降屏蔽
     conflict_type: 332
@@ -27925,6 +28161,83 @@
     duration_type: 1
     duration: "99999"
     boss_available: 1
+  }
+  {
+    id: 4872
+    name: ScarH特效
+    conflict_type: 379
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "10319"
+  }
+  {
+    id: 4873
+    name: ScarL特效
+    conflict_type: 380
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "10320"
+  }
+  {
+    id: 4874
+    name: ScarH特效2
+    conflict_type: 379
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "10321"
+  }
+  {
+    id: 4875
+    name: ScarL特效2
+    conflict_type: 380
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "10322"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 4876
+    name: ScarL发力
+    conflict_type: 381
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4877
+    name: ScarL遇怪
+    conflict_type: 382
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "119818"
+  }
+  {
+    id: 4878
+    name: ScarH特效2
+    conflict_type: 383
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    buff_animation: BlueFlash
   }
   {
     id: 5021
@@ -41590,6 +41903,162 @@
     cdr_number: "71"
   }
   {
+    id: 8618
+    name: Erma
+    conflict_type: 2204
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8619
+    name: 冲锋枪队友
+    conflict_type: 2205
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    available_gun_type: "2"
+    forced_skill: "750604"
+  }
+  {
+    id: 8620
+    name: 冲锋枪队友统计
+    conflict_type: 2204
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8621
+    name: 艾玛触发
+    conflict_type: 2205
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8622
+    name: 艾玛冷却缩减70%
+    conflict_type: 2204
+    max_tier: 999
+    type: 129
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 8623
+    name: 艾玛冷却缩减sp
+    conflict_type: 2005
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *202
+  }
+  {
+    id: 8624
+    name: 艾玛伤害提升
+    conflict_type: 2205
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8625
+    name: 艾玛回避提升
+    conflict_type: 2205
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 8626
+    name: 沃克护盾
+    conflict_type: 2204
+    max_tier: 10
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8627
+    name: 沃克火力提升
+    conflict_type: 2204
+    max_tier: 10
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8628
+    name: 沃克射速下降30
+    conflict_type: 2204
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    rate_number: "70"
+  }
+  {
+    id: 8629
+    name: 沃克友方监视射速
+    conflict_type: 2206
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1009
+  }
+  {
+    id: 8630
+    name: 沃克敌方监视伤害
+    conflict_type: 2206
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1010
+  }
+  {
     id: 8631
     name: 沃克持续射速下降技能
     conflict_type: 2207
@@ -41598,7 +42067,19 @@
     duration_type: 1
     duration: "99999"
     boss_available: 1
+    trigger_creation_id: "205"
     forced_skill: "750616"
+  }
+  {
+    id: 8632
+    name: 沃克友方监视技能
+    conflict_type: 2206
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1011
   }
   {
     id: 8633
@@ -41632,6 +42113,645 @@
     boss_available: 1
   }
   {
+    id: 8636
+    name: 塔妹一技能护盾触发
+    conflict_type: 2195
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8637
+    name: 塔妹护盾嘲讽
+    conflict_type: 2195
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9074"
+  }
+  {
+    id: 8638
+    name: 塔妹一技能护盾监视
+    conflict_type: 2195
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "160"
+    boss_available: 1
+    watch_id: 1012
+  }
+  {
+    id: 8639
+    name: 塔妹高能状态中
+    conflict_type: 2196
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8640
+    name: 塔妹三技能等级
+    conflict_type: 2196
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8641
+    name: 塔妹炮狙限制
+    conflict_type: 2197
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8642
+    name: 塔妹蓄力限制
+    conflict_type: 2197
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8643
+    name: 塔妹监视血量10%
+    conflict_type: 2198
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    watch_id: 1013
+  }
+  {
+    id: 8644
+    name: 塔妹监视血量25%
+    conflict_type: 2198
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    watch_id: 1014
+  }
+  {
+    id: 8645
+    name: 塔妹10血斩杀触发
+    conflict_type: 2199
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8646
+    name: 塔妹25血斩杀触发
+    conflict_type: 2199
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8647
+    name: 塔妹监视血量10%死亡
+    conflict_type: 2199
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    watch_id: 1015
+  }
+  {
+    id: 8648
+    name: 塔妹监视血量25%死亡
+    conflict_type: 2199
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    watch_id: 1016
+  }
+  {
+    id: 8649
+    name: 塔妹干扰病毒1
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9069"
+    is_form_play: 1
+    forced_skill: "750643"
+  }
+  {
+    id: 8650
+    name: 塔妹干扰病毒2
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9069"
+    is_form_play: 1
+    forced_skill: "750644"
+  }
+  {
+    id: 8651
+    name: 塔妹干扰病毒3
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9069"
+    is_form_play: 1
+    forced_skill: "750645"
+  }
+  {
+    id: 8652
+    name: 塔妹干扰病毒4
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9069"
+    is_form_play: 1
+    forced_skill: "750646"
+  }
+  {
+    id: 8653
+    name: 塔妹干扰病毒5
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9069"
+    is_form_play: 1
+    forced_skill: "750647"
+  }
+  {
+    id: 8654
+    name: 塔妹干扰易伤
+    conflict_type: 2200
+    max_tier: 4
+    type: 110
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 8655
+    name: 塔妹干扰命中降低
+    conflict_type: 2200
+    max_tier: 4
+    type: 203
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    hit_number: *201
+  }
+  {
+    id: 8656
+    name: 塔妹护盾自身
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9077"
+  }
+  {
+    id: 8657
+    name: 塔妹干扰死亡机制1
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750648"
+  }
+  {
+    id: 8658
+    name: 塔妹干扰死亡机制2
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750649"
+  }
+  {
+    id: 8659
+    name: 塔妹干扰死亡机制3
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750650"
+  }
+  {
+    id: 8660
+    name: 塔妹干扰死亡机制4
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750651"
+  }
+  {
+    id: 8661
+    name: 塔妹干扰死亡机制5
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750652"
+  }
+  {
+    id: 8662
+    name: 塔妹侵蚀病毒1
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750665"
+  }
+  {
+    id: 8663
+    name: 塔妹侵蚀病毒2
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750666"
+  }
+  {
+    id: 8664
+    name: 塔妹侵蚀病毒3
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750667"
+  }
+  {
+    id: 8665
+    name: 塔妹侵蚀病毒4
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750668"
+  }
+  {
+    id: 8666
+    name: 塔妹侵蚀病毒5
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750669"
+  }
+  {
+    id: 8667
+    name: 塔妹侵蚀病毒6
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750670"
+  }
+  {
+    id: 8668
+    name: 塔妹侵蚀病毒7
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750671"
+  }
+  {
+    id: 8669
+    name: 塔妹侵蚀病毒8
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750672"
+  }
+  {
+    id: 8670
+    name: 塔妹侵蚀病毒9
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750673"
+  }
+  {
+    id: 8671
+    name: 塔妹侵蚀病毒10
+    conflict_type: 2210
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "9068"
+    is_form_play: 1
+    forced_skill: "750674"
+  }
+  {
+    id: 8672
+    name: 塔妹侵蚀死亡机制1
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750675"
+  }
+  {
+    id: 8673
+    name: 塔妹侵蚀死亡机制2
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750676"
+  }
+  {
+    id: 8674
+    name: 塔妹侵蚀死亡机制3
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750677"
+  }
+  {
+    id: 8675
+    name: 塔妹侵蚀死亡机制4
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750678"
+  }
+  {
+    id: 8676
+    name: 塔妹侵蚀死亡机制5
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750679"
+  }
+  {
+    id: 8677
+    name: 塔妹侵蚀死亡机制6
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750680"
+  }
+  {
+    id: 8678
+    name: 塔妹侵蚀死亡机制7
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750681"
+  }
+  {
+    id: 8679
+    name: 塔妹侵蚀死亡机制8
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750682"
+  }
+  {
+    id: 8680
+    name: 塔妹侵蚀死亡机制9
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750683"
+  }
+  {
+    id: 8681
+    name: 塔妹侵蚀死亡机制10
+    conflict_type: 2210
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "750684"
+  }
+  {
+    id: 8682
+    name: 塔妹伤害降低
+    conflict_type: 2210
+    max_tier: 10
+    type: 201
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 8683
+    name: 塔妹眩晕
+    conflict_type: 2210
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9070"
+    is_form_play: 1
+  }
+  {
+    id: 8684
+    name: 塔妹射速降低
+    conflict_type: 2210
+    max_tier: 10
+    type: 204
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    rate_number: *202
+  }
+  {
+    id: 8685
+    name: 柯尔特
+    conflict_type: 2209
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8686
+    name: AR18
+    conflict_type: 2209
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8687
+    name: Erma
+    conflict_type: 2208
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8688
+    name: 塔妹禁足
+    conflict_type: 2210
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8689
+    name: 塔妹非首次眩晕
+    conflict_type: 2211
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8690
+    name: 侵蚀病毒母体
+    conflict_type: 2211
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8691
+    name: 干扰非首次
+    conflict_type: 2212
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8692
+    name: 前排单位
+    conflict_type: 2212
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -41640,6 +42760,26 @@
     duration_type: 1
     duration: "-1"
     is_form_play: 1
+  }
+  {
+    id: 10001
+    name: 主动技能队友接口
+    conflict_type: 2207
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 10002
+    name: 主动换模式队友
+    conflict_type: 2208
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
   }
   {
     id: 12801

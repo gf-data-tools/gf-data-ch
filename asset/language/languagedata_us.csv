@@ -768,6 +768,10 @@ COMMON,1767,,,0
 COMMON,1768,,,0
 COMMON,1769,撤离的非重创单位已自动修复(todo),,0
 COMMON,1771,复制成功(todo),,0
+COMMON,1772,已发放(todo),,0
+COMMON,1773,是否确认您的推荐人为指挥官{0}（ 认证码{1}）(todo),,0
+COMMON,1774,该玩家邀请次数已达上限！(todo),,0
+COMMON,1775,礼物盒规则测试(todo),,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,0
 BATTLE,10002,WITHDRAW,,0
@@ -1109,10 +1113,15 @@ HOME,20132,Purchase at Level {0}. Raise to Level {1} to unlock the rewards liste
 HOME,20133,Complete this character's Progression Breakthrough to unlock this artwork.,,0
 HOME,20134,,,0
 HOME,20135,,,0
-HOME,20136,,,0
-HOME,20137,,,0
-HOME,20138,,,0
-HOME,20139,,,0
+HOME,20136,回归签到(todo),,0
+HOME,20137,回归任务(todo),,0
+HOME,20138,回归基金(todo),,0
+HOME,20139,回归商城(todo),,0
+HOME,20145,回归邀请(todo),,0
+HOME,20148,请激活回归基金后，领取奖励(todo),,0
+HOME,20150,*邀请玩家可获得回归奖励，奖励将自动发放至邮箱领取(todo),,0
+HOME,20152,未达到(todo),,0
+HOME,20153,<color=#ffb400ff><size=48><b>回归助力：</b></size></color>//n回归期间，模拟作战产出提升，模拟作战<color=#F27C25FF>【资料采样】【经验特训】【强化练习】和【云图回廊】</color>//n所有关卡产出提升为原本的2倍，<color=#F27C25FF>【融合演习】</color>所有关卡产出不限时3倍产出！//n//n<color=#ffb400ff><size=48><b>回归签到：</b></size></color>//n1.回归活动期间，指挥官只需要登录游戏即可领取丰厚的签到奖励//n2.可领取的回归签到奖励天数依据累计登录天数计算//n3.签到会累积<color=#F27C25FF>回归活跃度</color>，用于解锁丰厚的活跃度大礼//n//n<color=#ffb400ff><size=48><b>回归任务：</b></size></color>//n1.回归活动期间，完成指定的回归任务即可领取对应的丰厚奖励//n2.指挥官可以提前预览并完成所有的回归任务，回归任务奖励需要等待回归活动开始后经历对应的自然日解锁，//n未解锁奖励领取期间，可以正常累计任务完成进度//n3.完成回归任务会累积回归活跃度，回归活跃度达到阶段要求后，可以领取相应阶段的回归活跃度奖励//n4.领取最终的回归活跃度奖励将获得回归指挥官专属的限时锚定构筑一次//n//n<color=#ffb400ff><size=48><b>回归基金：</b></size></color>//n1.格里芬为回归指挥官准备了专属的回归基金，购买后可以获得大量资源助力指挥官再度起航//n2.通过回归签到和回归任务累积回归活跃度，回归基金奖励将使用回归活跃度进行解锁，//n回归活跃度达到阶段要求后，可以领取相应阶段的回归基金奖励//n//n<color=#ffb400ff><size=48><b>回归商城：</b></size></color>//n1.回归商城是提供给回归指挥官的专属商城，指挥官可以自由选购超值的成长助力补给(todo),,0
 DEPLOYMENT,30000,Deploy,,0
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,0
@@ -1607,8 +1616,10 @@ DEPLOYMENT,30500,Talent II activated,,0
 DEPLOYMENT,30501,,,0
 DEPLOYMENT,30502,,,0
 DEPLOYMENT,30503,,,0
+DEPLOYMENT,30507,即将修复以下单位(todo),,0
 DEPLOYMENT,30511,当前操作会影响已部署梯队，是否继续进行操作(todo),,0
 DEPLOYMENT,30512,剩余修理次数(todo),,0
+DEPLOYMENT,30513,再次作战(todo),,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -2038,7 +2049,7 @@ DORM,31837,Upgrade to unlock more slots,,0
 DORM,31838,Loot Rack is full//c please collect your rewards first,,0
 DORM,31839,Please select at least one T-Doll,,0
 DORM,31840,Cancelling this exploration will forfeit all resources and items//c and no completion rewards will be received. Continue?,,0
-DORM,31841,Exploration team has returned,,0
+DORM,31841,探索小队已回归(todo),,0
 DORM,31842,Exploration team has set off,,0
 DORM,31843,Exploration team has found a treasure,,0
 DORM,31844,Event,,0
@@ -2465,6 +2476,9 @@ FACTORY,32322,1. The ratio of the type of Fairy you obtain changes depending on 
 FACTORY,32323,This production recipe is very unlikely to produce a high-quality yield.,,0
 FACTORY,32324,Fairy Production,,0
 FACTORY,32325,,,0
+FACTORY,32326,(新的回归锚定将重置现有回归锚定进度，请及时完成建造)(todo),,0
+FACTORY,32327,请在剩余时间内使用格里芬指挥官回归锚定构筑福利(todo),,0
+FACTORY,32328,回归指挥官锚定构筑规则：//n1、指挥官可从人形列表中选择特定人形成为“锚定目标”，在锚定构筑界面点击“开始构筑”按钮，使用给定公式进行构筑；//n2、每次进行“锚定目标”的构筑，若本次构筑“锚定目标”失败，则下一次的构筑时会临时提升成功率，提升上限为100%；成功构筑“锚定目标时”，临时成功率会清零；//n3、构筑失败所提升的临时成功率，会跟随“锚定目标”进行保留，不会因为切换“锚定目标”而清零；//n、在单次回归指挥官锚定构筑中，单个“锚定目标”只能被成功构筑一次，最多可通过“锚定目标”成功构筑1个人形，多次回归指挥官锚定构筑可以选择同一个“锚定目标”，活动将在成功构筑1个人形或持续时间结束后结束；//n5、累计指定的锚定构筑次数后，锚定目标将必定构筑成功；//n6、“锚定目标”构筑成功初始几率与“工厂制造”无关(todo),,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2718,7 +2732,7 @@ ILLUSTRATEDBOOK,35187,Present Members:,,0
 ILLUSTRATEDBOOK,35188,Switch to Pre-Evolution,,0
 ILLUSTRATEDBOOK,35189,Switch to Post-Evolution,,0
 ILLUSTRATEDBOOK,35190,This Fairy cannot be modified yet. Coming soon.,,0
-ILLUSTRATEDBOOK,35191,Protocol Assimilation Department,,0
+ILLUSTRATEDBOOK,35191,协议回归部(todo),,0
 ILLUSTRATEDBOOK,35192,,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
@@ -4270,6 +4284,7 @@ SEPCIALOPS,60378,You have already voted {0} times today. Come again tomorrow~,,0
 SEPCIALOPS,60379,,,0
 SEPCIALOPS,60380,,,0
 SEPCIALOPS,60381,,,0
+SEPCIALOPS,60630,艾莉安娜过于强大，需要确保收集3处月印后再与其对决(todo),,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0

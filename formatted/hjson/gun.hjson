@@ -2648,7 +2648,7 @@
     explore_tag: "31,47,48,68"
     org_id: 10704
     related_story_id: 100029
-    show_damage_skin: ",0,7605,"
+    show_damage_skin: ",0,"
   }
   {
     id: 31
@@ -4027,7 +4027,7 @@
     gun_detail_bg: nation_German
     org_id: 10201
     related_story_id: 100046
-    show_damage_skin: ",0,4301,"
+    show_damage_skin: ",0,"
   }
   {
     id: 47
@@ -4473,7 +4473,6 @@
     gun_detail_bg: nation_Belgium
     org_id: 10202
     related_story_id: 100051
-    show_damage_skin: ",6809,"
   }
   {
     id: 52
@@ -4651,7 +4650,7 @@
     explore_tag: "60"
     org_id: 104
     related_story_id: 100053
-    show_damage_skin: ",2301,4801,307,0,"
+    show_damage_skin: ",2301,4801,307,"
   }
   {
     id: 54
@@ -5931,7 +5930,7 @@
     gun_detail_bg: nation_China
     org_id: 10705
     related_story_id: 100066
-    show_damage_skin: ",1905,7706,0,"
+    show_damage_skin: ",1905,7706,"
   }
   {
     id: 68
@@ -6596,7 +6595,7 @@
     ratio_range: 100
     skill1: 109701
     normal_attack: 300103
-    passive_skill: "109702,756162,759056"
+    passive_skill: "109702,756162,759056,750617,750618"
     effect_grid_center: 13
     effect_grid_pos: "12,18,19,14,17"
     effect_grid_effect: "1,12;3,20"
@@ -7650,7 +7649,7 @@
     explore_tag: "39,43,55,57"
     gun_detail_bg: nation_German
     org_id: 10702
-    show_damage_skin: ",0,7606,"
+    show_damage_skin: ",0,"
   }
   {
     id: 87
@@ -9263,7 +9262,7 @@
     gun_detail_bg: nation_German
     org_id: 10703
     related_story_id: 100104
-    show_damage_skin: ",0,1202,"
+    show_damage_skin: ",0,"
   }
   {
     id: 105
@@ -12676,7 +12675,7 @@
     gun_detail_bg: nation_Belgium
     org_id: 10202
     related_story_id: 100142
-    show_damage_skin: ",0,2203,2805,"
+    show_damage_skin: ",0,2203,"
   }
   {
     id: 143
@@ -14125,7 +14124,7 @@
     gun_detail_bg: nation_China
     org_id: 10302
     related_story_id: 100161
-    show_damage_skin: ",0,5805,"
+    show_damage_skin: ",0,"
   }
   {
     id: 162
@@ -18354,7 +18353,7 @@
     gun_detail_bg: nation_US
     org_id: 10802
     related_story_id: 100215
-    show_damage_skin: ",2603,3305,0,"
+    show_damage_skin: ",2603,3305,"
   }
   {
     id: 216
@@ -19425,7 +19424,7 @@
     gun_detail_bg: nation_US
     org_id: 10704
     related_story_id: 100230
-    show_damage_skin: ",0,5407,"
+    show_damage_skin: ",0,"
   }
   {
     id: 231
@@ -19947,7 +19946,7 @@
     ratio_range: 100
     skill1: 110052
     normal_attack: 300103
-    passive_skill: "110053"
+    passive_skill: "110053,750685"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18,19"
@@ -21111,6 +21110,7 @@
     gun_detail_bg: nation_US
     org_id: 10801
     related_story_id: 100253
+    show_damage_skin: ",30003,"
   }
   {
     id: 254
@@ -21687,7 +21687,7 @@
     gun_detail_bg: nation_China
     org_id: 10203
     related_story_id: 100261
-    show_damage_skin: ",0,566,3801,7403,5502,"
+    show_damage_skin: ",0,566,3801,7403,"
   }
   {
     id: 262
@@ -23505,7 +23505,7 @@
     ratio_range: 100
     skill1: 113501
     normal_attack: 113502
-    passive_skill: "113503,113504"
+    passive_skill: "113503,113504,750619"
     dynamic_passive_skill: "113505"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -26212,7 +26212,7 @@
     rank_display: 5
     gun_detail_bg: nation_Italy
     org_id: 10201
-    show_damage_skin: ",0,7703,6604,"
+    show_damage_skin: ",0,7703,"
   }
   {
     id: 334
@@ -26693,7 +26693,7 @@
     obtain_ids: "247"
     rank_display: 5
     org_id: 10202
-    show_damage_skin: ",0,6303,"
+    show_damage_skin: ",0,"
   }
   {
     id: 342
@@ -28367,7 +28367,7 @@
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10703
-    show_damage_skin: ",0,7601,"
+    show_damage_skin: ",0,"
   }
   {
     id: 370
@@ -28671,6 +28671,274 @@
     rank_display: 5
     gun_detail_bg: nation_Belgium
     org_id: 10402
+    show_damage_skin: ",0,"
+  }
+  {
+    id: 375
+    name: 柯尔特沃克
+    en_name: ColtWalker
+    code: ColtWalker
+    extra: 一块二毛一斤,,
+    en_introduce:
+      '''
+      Type                       Revolver
+      Mass                       4.5 lb (2.0 kg)
+      Length                     15.5 in (390 mm)
+      Caliber                    .44 ball
+      Action                     Single-action
+      Muzzle velocity            300–410 m/s
+      Effective firing range     91 m
+      Feed system                Six-round cylinder
+      Sights                     Blade front sight,
+                                 hammer notch rear sight
+      '''
+    character: gun-60000375
+    type: 1
+    rank: 5
+    develop_duration: 4800
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 90
+    ratio_pow: 128
+    ratio_rate: 105
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 150
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 120
+    ratio_range: 100
+    skill1: 750610
+    normal_attack: 300101
+    passive_skill: "750612,750613,750614,750615,750621"
+    dynamic_passive_skill: "750611"
+    effect_grid_center: 18
+    effect_grid_pos: "12,17,22,18,23,14,19,24"
+    effect_grid_effect: "1,30;3,40"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10
+    ai: 4
+    launch_time: 2022-11-08 00:00:00
+    obtain_ids: "1"
+    rank_display: 5
+    gun_detail_bg: nation_US
+    org_id: 10701
+    show_damage_skin: ",0,"
+  }
+  {
+    id: 376
+    name: Erma
+    en_name: Erma
+    code: Erma
+    extra: 脆皮炸虾球,,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+      Mass                       4 kg (8 lb 13 oz)
+      Length                     95 centimetres (3 ft 1 in)
+      Barrel length              32 centimetres (13 in)
+      Cartridge                  9×19mm Parabellum
+                                 7.63×25mm Mauser
+                                  9×23mm Largo
+                                 7.65×21mm Parabellum
+      Caliber                    9 mm
+      Action                     Blowback
+      Rate of fire               550 rpm
+      Muzzle velocity            380 m/s
+      Effective firing range     150 m
+      Maximum firing range       250 m
+      Feed system                32-round magazine
+      Sights                     Iron
+      '''
+    character: gun-60000376
+    type: 2
+    rank: 5
+    develop_duration: 9600
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 150
+    ratio_pow: 100
+    ratio_rate: 108
+    ratio_speed: 100
+    ratio_hit: 105
+    ratio_dodge: 105
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 105
+    ratio_range: 100
+    skill1: 750602
+    normal_attack: 300102
+    passive_skill: "750603,750605,750606,750607,750608"
+    dynamic_passive_skill: "750609"
+    effect_grid_center: 14
+    effect_grid_pos: "8,9,14,10,15"
+    effect_grid_effect: "1,10;3,10;4,10"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 150
+    launch_time: 2022-11-08 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_German
+    org_id: 10703
+    show_damage_skin: ",0,"
+  }
+  {
+    id: 377
+    name: SCAR-H
+    en_name: SCAR-H
+    code: SCARH
+    extra: LIN+,,
+    en_introduce:
+      '''
+      Type                        Rifle
+      Mass                       3.49 kg (7.7 lb) (SCAR-H CQC)
+                                 3.58 kg (7.9 lb) (SCAR-H STD)
+                                 3.72 kg (8.2 lb) (SCAR-H LB)
+      Length                     635 mm (25 in) stock folded (SCAR-H CQC)
+                                 889 mm (35 in) stock extended(SCAR-H CQC)
+                                 711 mm (28 in) stock folded (SCAR-H STD)
+                                 965 mm (38 in) stock extended(SCAR-H STD)
+                                 813 mm (32 in) stock folded (SCAR-H LB)
+                                 1,067 mm (42.0 in) stock extended(SCAR-H LB)
+      Barrel length              330 mm (13 in) (SCAR-H CQC)
+                                 400 mm (16 in) (SCAR-H STD)
+                                 500 mm (20 in) (SCAR-H LB)
+      Cartridge                  7.62×51mm NATO
+      Action                      Gas-operated short-stroke piston
+                                  rotating bolt
+      Rate of fire               550–650 rounds/min
+      Muzzle velocity            2,342 ft/s (714 m/s) (M80)
+      Effective firing range     400 m (440 yd) (CQC)
+                                 600 m (660 yd) (STD)
+                                 800 m (870 yd) (LB)
+      Feed system                20-round box magazine
+      Sights                     Iron sights
+                                 Picatinny rail for various optical sights
+      '''
+    character: gun-60000377
+    type: 3
+    rank: 5
+    develop_duration: 16200
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 96
+    ratio_pow: 100
+    ratio_rate: 120
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 80
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 130
+    ratio_range: 100
+    skill1: 119701
+    normal_attack: 300104
+    passive_skill: "119702"
+    dynamic_passive_skill: "119703"
+    effect_grid_center: 13
+    effect_guntype: "3,4"
+    effect_grid_pos: "12,17,18,14,19"
+    effect_grid_effect: "1,15;3,20"
+    type_equip1: 2;5,19
+    type_equip2: 1;1,2,3,13
+    type_equip3: 3;15
+    ai: 241
+    launch_time: 2022-11-08 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_Belgium
+    org_id: 10402
+    show_damage_skin: ",0,"
+  }
+  {
+    id: 378
+    name: SCAR-L
+    en_name: SCAR-L
+    code: SCARL
+    extra: LIN+,,
+    en_introduce:
+      '''
+      Type                        Assault rifle
+      Mass                       3.04 kg (6.7 lb) (SCAR-L CQC)
+                                 3.29 kg (7.3 lb) (SCAR-L STD)
+                                 3.49 kg (7.7 lb) (SCAR-L LB)
+      Length                     533 mm (21 in) stock folded(SCAR-L CQC)
+                                 787 mm (31 in) stock extended (SCAR-L CQC)
+                                 635 mm (25 in) stock folded (SCAR-L STD)
+                                 889 mm (35 in) stock extended(SCAR-L STD)
+                                 736 mm (29 in) stock folded (SCAR-L LB)
+                                 990 mm (39 in) stock extended(SCAR-L LB)
+      Barrel length              254 mm (10 in) (SCAR-L CQC)
+                                 355 mm (14 in) (SCAR-L STD)
+                                 457 mm (18 in) (SCAR-L LB)
+      Cartridge                  5.56×45mm NATO
+      Action                      Gas-operated short-stroke piston
+                                  rotating bolt
+      Rate of fire               550–650 rounds/min
+      Muzzle velocity            2,870 ft/s (870 m/s) (M855)
+                                 2,630 ft/s (800 m/s) (Mk 262)
+      Effective firing range     300 m (330 yd) (CQC)
+                                 500 m (550 yd) (STD)
+                                 700 m (770 yd) (LB)
+      Feed system                STANAG box magazine
+      Sights                     Iron sights
+                                 Picatinny rail for various optical sights
+      '''
+    character: gun-60000378
+    type: 4
+    rank: 5
+    develop_duration: 16200
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 100
+    ratio_pow: 108
+    ratio_rate: 108
+    ratio_speed: 100
+    ratio_hit: 98
+    ratio_dodge: 105
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 145
+    ratio_range: 100
+    skill1: 119601
+    normal_attack: 300103
+    passive_skill: "119602,119604,119607"
+    effect_grid_center: 13
+    effect_guntype: "3,4"
+    effect_grid_pos: "12,17,18,14,19"
+    effect_grid_effect: "1,15;3,20"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8,19
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2022-11-08 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_Belgium
+    org_id: 10201
     show_damage_skin: ",0,"
   }
   {
@@ -36586,7 +36854,7 @@
     rank_display: 4
     prize_id: 3029
     explore_tag: "31,47,48,68"
-    show_damage_skin: ",0,5016,7605,"
+    show_damage_skin: ",0,5016,"
   }
   {
     id: 20031
@@ -37149,7 +37417,7 @@
     prize_id: 3046
     explore_tag: "27,35,41,55,66"
     gun_detail_bg: nation_German
-    show_damage_skin: ",0,4301,"
+    show_damage_skin: ",0,"
   }
   {
     id: 20049
@@ -37414,7 +37682,7 @@
     prize_id: 3051
     explore_tag: "3,49,64"
     gun_detail_bg: nation_Belgium
-    show_damage_skin: ",0,6809,"
+    show_damage_skin: ",0,"
   }
   {
     id: 20053
@@ -37513,7 +37781,7 @@
     rank_display: 6
     prize_id: 3053
     explore_tag: "60"
-    show_damage_skin: ",0,2301,4801,307,5030,"
+    show_damage_skin: ",0,2301,4801,307,"
   }
   {
     id: 20055
@@ -38406,7 +38674,7 @@
     prize_id: 3066
     explore_tag: "5,53"
     gun_detail_bg: nation_China
-    show_damage_skin: ",1905,0,7706,5065,"
+    show_damage_skin: ",1905,0,7706,"
   }
   {
     id: 20071
@@ -39633,7 +39901,7 @@
     prize_id: 3104
     explore_tag: "44"
     gun_detail_bg: nation_German
-    show_damage_skin: ",0,5050,1202,"
+    show_damage_skin: ",0,5050,"
   }
   {
     id: 20114
@@ -40575,7 +40843,7 @@
     prize_id: 3161
     explore_tag: "53"
     gun_detail_bg: nation_China
-    show_damage_skin: ",5038,5805,"
+    show_damage_skin: ",5038,"
   }
   {
     id: 20171
@@ -41355,7 +41623,7 @@
     prize_id: 3230
     explore_tag: "31,38"
     gun_detail_bg: nation_US
-    show_damage_skin: ",0,5061,5407,"
+    show_damage_skin: ",0,5061,"
   }
   {
     id: 20252

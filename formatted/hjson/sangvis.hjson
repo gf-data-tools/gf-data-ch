@@ -1210,6 +1210,65 @@
     org_id: 10604
   }
   {
+    id: 1022
+    name: 塔亚柔斯
+    en_name: Nyto_tareus
+    code: Nyto_tareus
+    introduce: 塔亚柔斯，机甲驾驶特化涅托，和机甲“伊芙小姐”具有极高的适配性和同步率，也擅长入侵人形的心智空间，并对目标展开毁灭性的火力打击。因为经过多次的记忆洗刷和改造，心智脆弱，性情变得冷漠易怒，即使偶尔回想起属于人类的情感也会很快被内置的程序抹杀。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 3
+    type: 1
+    character: "1,4,6"
+    formation: 1
+    resolution: 122
+    shape_scale: "80,120"
+    ap_cost: 10
+    rank: 5
+    skill1: 750622
+    skill2_type: 3
+    skill2: 1018
+    skill3: 750625
+    skill_advance: 750626
+    skill_resolution: "750623"
+    passive_skill2: "750627,750632,750633,750634,750635,750636,750637,750638,750639,750640,750641"
+    dynamic_passive_skill: "750630,750642"
+    normal_attack: 750631
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 200
+    ratio_pow: 65
+    ratio_rate: 65
+    ratio_hit: 150
+    ratio_dodge: 40
+    ratio_armor: 120
+    armor_piercing: 180
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 10
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 8
+    effect_grid_effect: 4:1,20;3,50;5,30
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 176
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930023
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10603
+  }
+  {
     id: 2001
     name: 残兽
     en_name: Brute

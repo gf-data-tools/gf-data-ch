@@ -3538,6 +3538,23 @@
     ui_control: 1
   }
   {
+    id: 623
+    description: 曦和法球
+    extra_damage: *101
+    critical_hit_rate: "100"
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 624
+    description: 望舒法球
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    is_armor: 1
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -6402,6 +6419,167 @@
     hit_type: 2
     is_ricochet: 100
     fix_damage: 1000004897
+  }
+  {
+    id: 2297
+    description: 塔妹3段伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 2298
+    description: 塔妹溅射伤害
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2299
+    description: 塔妹普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2300
+    description: 塔妹贯穿普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2301
+    description: 塔妹斩杀狙击
+    damage_ratio: "999999"
+    extra_damage: "999999"
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: 1000004231
+  }
+  {
+    id: 2302
+    description: 塔妹蓄能炮击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2303
+    description: 塔妹侵蚀伤害1
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004916
+  }
+  {
+    id: 2304
+    description: 塔妹侵蚀伤害2
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004917
+  }
+  {
+    id: 2305
+    description: 塔妹侵蚀伤害3
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004918
+  }
+  {
+    id: 2306
+    description: 塔妹侵蚀伤害4
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004919
+  }
+  {
+    id: 2307
+    description: 塔妹侵蚀伤害5
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004920
+  }
+  {
+    id: 2308
+    description: 塔妹侵蚀伤害6
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004921
+  }
+  {
+    id: 2309
+    description: 塔妹侵蚀伤害7
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004922
+  }
+  {
+    id: 2310
+    description: 塔妹侵蚀伤害8
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004923
+  }
+  {
+    id: 2311
+    description: 塔妹侵蚀伤害9
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004924
+  }
+  {
+    id: 2312
+    description: 塔妹侵蚀伤害10
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: 1000004925
   }
   {
     id: 2330

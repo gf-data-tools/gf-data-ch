@@ -515,6 +515,34 @@
     defender_value: "9999"
   }
   {
+    id: 6560001
+    name: 【标记】机枪10%伤害
+    target_type: 2
+    type: 2
+    life_type: 1
+    value: "10"
+    effect_birth: 1000113
+  }
+  {
+    id: 6560002
+    name: 【标记】歌利亚秒杀伤害包括建筑
+    target_type: 2
+    type: 2
+    is_number: 1
+    life_type: 2
+    value: "101"
+    effect_process_end: 1000069
+    defender_value: "99999"
+  }
+  {
+    id: 6560003
+    name: 【标记】压制敌人伤害
+    target_type: 2
+    type: 2
+    life_type: 2
+    value: "95"
+  }
+  {
     id: 8120701
     name: 【标记】大楼倒塌伤害(对大楼)
     type: 1

@@ -112,4 +112,24 @@
     type: 1
     dynamic_passive_skill: "119203,119204,119205,119206,119207,119208,119209"
   }
+  {
+    id: 11
+    name: 同辉禁线
+    code: SCAR_CON
+    description: SCAR-L和SCAR-H同时在场时,自身开场获得40点月海能量,每秒增加4点月海能量。
+    gun_group: "377,378"
+    gun: 377
+    type: 1
+    passive_skill: "119702,119706,119707"
+  }
+  {
+    id: 12
+    name: 同辉禁线
+    code: SCAR_CON
+    description: SCAR-L和SCAR-H同时在场时,自身开场获得40点圣晖能量,每秒增加4点圣晖能量。
+    gun_group: "377,378"
+    gun: 378
+    type: 1
+    passive_skill: "119602,119604,119606,119607,119608"
+  }
 ]

@@ -523,6 +523,7 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_Shot_1
+    is_orb_effect: 1
   }
   {
     id: 34
@@ -26199,6 +26200,7 @@
     scale: "0.45,0.45"
     trigger_creation_id: "2017,25"
     trigger_creation_delay: "-1,-1"
+    is_orb_effect: 1
   }
   {
     id: 2017
@@ -37939,6 +37941,7 @@
     creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
+    is_orb_effect: 1
   }
   {
     id: 2850
@@ -37975,6 +37978,7 @@
     creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
+    is_orb_effect: 1
   }
   {
     id: 2852
@@ -40552,7 +40556,6 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_Shot_1
-    is_orb_effect: 1
   }
   {
     id: 3009
@@ -64575,6 +64578,7 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_Shot_1
+    is_orb_effect: 1
   }
   {
     id: 8276
@@ -75345,6 +75349,1064 @@
     scale: "1"
   }
   {
+    id: 9012
+    name: erma时钟
+    code: Erma_zhong
+    start_type: "3"
+    start_offset: "-0.2,2.3,0"
+    destination_type: "3"
+    destination_offset: "-0.2,2.3,0"
+    is_tracing: 1
+    exist_duration: "70"
+    effect_area: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+  }
+  {
+    id: 9013
+    name: 沃克开场
+    code: Ketwk_dl02
+    start_type: "8"
+    start_offset: "-15,0,-2"
+    destination_type: "8"
+    destination_offset: "25,0,-2"
+    is_tracing: 1
+    route_type: 1
+    speed: 2500
+    exist_duration: "30"
+    effect_area: 1
+    scale: "3,3,1"
+  }
+  {
+    id: 9014
+    name: 沃克触发
+    code: Ketwk_dl01
+    start_type: "3"
+    start_offset: "-0.8,0,0.3"
+    destination_type: "3"
+    destination_offset: "-0.8,0,0.3"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_area: 1
+    scale: "1.5,1.5,1.5"
+  }
+  {
+    id: 9015
+    name: 塔妹一技能单体3段
+    start_type: "5"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    exist_duration: "60"
+    effect_area: 1
+    hurt_id: "2297"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9016
+    name: 塔妹一技能溅射
+    code: 2019summer/Y_19summer_ismor
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "2298"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9017
+    name: 塔妹护盾
+    start_type: "6"
+    start_offset: "1.5,0,0"
+    destination_type: "6"
+    destination_offset: "1.5,0,0"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4260"
+  }
+  {
+    id: 9018
+    name: 塔妹护盾死亡监视
+    start_type: "6"
+    start_offset: "1,0,0"
+    destination_type: "6"
+    destination_offset: "1,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "3"
+    buff_id: "8638"
+    scale: "1"
+  }
+  {
+    id: 9019
+    name: 机甲涅托普攻子弹
+    code: SubBulletB
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2299"
+    is_form_play: 1
+    scale: "4,3,3"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9020
+    name: 机甲涅托致盲激光
+    start_type: "3"
+    destination_type: "5"
+    route_type: 6
+    speed: 8000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2300"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9021
+    name: 机甲涅托致盲激光特效
+    code: 88type/88typeRazer
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: "5"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "0.8,0.8"
+    sound_order: skill_eliza_ulrelease
+  }
+  {
+    id: 9022
+    name: 机甲涅托普攻无伤害子弹
+    code: SubBulletB
+    start_type: Larmor2
+    start_offset: "-1.3,-0.5,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    scale: "4,3,3"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9023
+    name: 塔妹斩杀子弹
+    code: Nytotareus/SkillBullet_tareus
+    start_type: "2"
+    start_offset: "1,0.5,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 2000
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2301"
+    is_form_play: 1
+    scale: "1"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9024
+    name: 塔妹蓄能炮范围伤害
+    code: 2019summer/Y_19_summer_1_2_sp
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2302"
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+    sound_order: skill_nyto_ul_explo
+  }
+  {
+    id: 9025
+    name: 干扰病毒传播1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004929:1,8654:1,8655:1,8657:1,8691:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9026
+    name: 干扰病毒传播2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004930:1,8654:1,8655:1,8658:1,8691:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9027
+    name: 干扰病毒传播3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004931:1,8654:1,8655:1,8659:1,8691:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9028
+    name: 干扰病毒传播4
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004932:1,8654:1,8655:1,8660:1,8691:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9029
+    name: 干扰病毒传播5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004933:1,8654:1,8655:1,8661:1,8691:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9030
+    name: 干扰病毒死亡传播1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004929:1000004914,8654:1000004914,8655:1000004914,8657:1000004914,8691:1000004914
+    buff_cd: "9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9031
+    name: 干扰病毒死亡传播2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004930:1000004914,8654:1000004914,8655:1000004914,8658:1000004914,8691:1000004914
+    buff_cd: "9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9032
+    name: 干扰病毒死亡传播3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004931:1000004914,8654:1000004914,8655:1000004914,8659:1000004914,8691:1000004914
+    buff_cd: "9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9033
+    name: 干扰病毒死亡传播4
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004932:1000004914,8654:1000004914,8655:1000004914,8660:1000004914,8691:1000004914
+    buff_cd: "9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9034
+    name: 干扰病毒死亡传播5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004933:1000004914,8654:1000004914,8655:1000004914,8661:1000004914,8691:1000004914
+    buff_cd: "9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9035
+    name: 干扰病毒死亡控制
+    code: Nytotareus/JJNT_bd_zi
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: *103
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9036
+    name: 侵蚀病毒全图伤害1
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2303"
+    hurt_cd: "10"
+    buff_id: 8662:1000004928,8672:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9037
+    name: 侵蚀病毒全图伤害2
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2304"
+    hurt_cd: "10"
+    buff_id: 8663:1000004928,8673:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9038
+    name: 侵蚀病毒全图伤害3
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2305"
+    hurt_cd: "10"
+    buff_id: 8664:1000004928,8674:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9039
+    name: 侵蚀病毒全图伤害4
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2306"
+    hurt_cd: "10"
+    buff_id: 8665:1000004928,8675:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9040
+    name: 侵蚀病毒全图伤害5
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2307"
+    hurt_cd: "10"
+    buff_id: 8666:1000004928,8676:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9041
+    name: 侵蚀病毒全图伤害6
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2308"
+    hurt_cd: "10"
+    buff_id: 8667:1000004928,8677:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9042
+    name: 侵蚀病毒全图伤害7
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2309"
+    hurt_cd: "10"
+    buff_id: 8668:1000004928,8678:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9043
+    name: 侵蚀病毒全图伤害8
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2310"
+    hurt_cd: "10"
+    buff_id: 8669:1000004928,8679:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9044
+    name: 侵蚀病毒全图伤害9
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2311"
+    hurt_cd: "10"
+    buff_id: 8670:1000004928,8680:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9045
+    name: 侵蚀病毒全图伤害10
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "2312"
+    hurt_cd: "10"
+    buff_id: 8671:1000004928,8681:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_cd: "0,0,0,0,0,0"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9046
+    name: 侵蚀病毒传播1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004934:1,8672:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9047
+    name: 侵蚀病毒传播2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004935:1,8673:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9048
+    name: 侵蚀病毒传播3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004936:1,8674:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9049
+    name: 侵蚀病毒传播4
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004937:1,8675:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9050
+    name: 侵蚀病毒传播5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004938:1,8676:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9051
+    name: 侵蚀病毒传播6
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004939:1,8677:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9052
+    name: 侵蚀病毒传播7
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004940:1,8678:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9053
+    name: 侵蚀病毒传播8
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004941:1,8679:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9054
+    name: 侵蚀病毒传播9
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004942:1,8680:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9055
+    name: 侵蚀病毒传播10
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "85"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004943:1,8681:1,1000004926:1,1000004927:1,8689:1
+    buff_cd: "0,0,0,0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9056
+    name: 侵蚀病毒死亡传播1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004934:1000004914,8672:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9057
+    name: 侵蚀病毒死亡传播2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004935:1000004914,8673:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9058
+    name: 侵蚀病毒死亡传播3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004936:1000004914,8674:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9059
+    name: 侵蚀病毒死亡传播4
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004937:1000004914,8675:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9060
+    name: 侵蚀病毒死亡传播5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004938:1000004914,8676:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9061
+    name: 侵蚀病毒死亡传播6
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004939:1000004914,8677:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9062
+    name: 侵蚀病毒死亡传播7
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004940:1000004914,8678:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9063
+    name: 侵蚀病毒死亡传播8
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004941:1000004914,8679:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9064
+    name: 侵蚀病毒死亡传播9
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004942:1000004914,8680:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9065
+    name: 侵蚀病毒死亡传播10
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "12"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000004943:1000004914,8681:1000004914,1000004926:1000004914,1000004927:1000004914,8682:1000004914,8689:1000004914
+    buff_cd: "9,9,9,9,9,9"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9066
+    name: 侵蚀病毒死亡控制
+    code: Nytotareus/JJNT_bd_hong
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: *103
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9067
+    name: 侵蚀病毒母体
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    buff_id: "8690"
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9068
+    name: 侵蚀病毒
+    code: Nytotareus/JJNT_bd_hsd
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9069
+    name: 干扰病毒
+    code: Nytotareus/JJNT_bd_zsd
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9070
+    name: 干扰病毒
+    code: Nytotareus/JJNT_bd_nub
+    start_type: "3"
+    start_offset: "0,2,0"
+    destination_type: "3"
+    destination_offset: "0,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9071
+    name: 机甲范围弹枪口
+    code: 2019summer/Y_19_summer_2_1_2
+    start_type: Rarmor4
+    start_offset: "1.7"
+    destination_type: Rarmor4
+    destination_offset: "1.7"
+    is_tracing: 1
+    rotate: "0,0,15"
+    effect_area: 1
+    creation_type: 2
+    scale: "-1,1,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9072
+    name: 机甲电磁火花
+    code: Nytotareus/JJNT_dz_dl
+    start_type: Larmor2
+    start_offset: "-2.6,-0.5,0"
+    destination_type: Larmor2
+    destination_offset: "-2.6,-0.5,0"
+    exist_duration: "20"
+    effect_area: 1
+    creation_type: 2
+    scale: "0.8,0.8,0.8"
+    is_die_delete: 1
+  }
+  {
+    id: 9073
+    name: 机甲蓄能炮弹枪口
+    code: 2019summer/Y_19_summer_2_1_2_sp
+    start_type: Rarmor4
+    start_offset: "1.7"
+    destination_type: Rarmor4
+    destination_offset: "1.7"
+    is_tracing: 1
+    rotate: "0,0,15"
+    effect_area: 1
+    creation_type: 2
+    scale: "-1,1,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9074
+    name: 机甲护盾buff
+    code: Nytotareus/JJNT_dz_nl01
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    creation_type: 2
+    scale: "1.5,1.5,1.5"
+    is_die_delete: 1
+  }
+  {
+    id: 9075
+    name: 机甲高能buff
+    code: Nytotareus/JJNT_dz_nl02
+    start_type: "3"
+    start_offset: "-1,0,0"
+    destination_type: "3"
+    destination_offset: "-1,0,0"
+    is_tracing: 1
+    exist_duration: *102
+    creation_type: 2
+    scale: "1.5,1.5,1.5"
+    is_die_delete: 1
+  }
+  {
+    id: 9076
+    name: 机甲闪光地板护盾用
+    code: Nytotareus/JJNT_dz_cn
+    start_type: "6"
+    start_offset: "1.5,0,0"
+    destination_type: "6"
+    destination_offset: "1.5,0,0"
+    is_tracing: 1
+    exist_duration: "90"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9077
+    name: 塔妹的护盾
+    code: 2019summer/Y_19_summer_2_1_1
+    start_type: "3"
+    start_offset: "0.7,1.5,0"
+    destination_type: "3"
+    destination_offset: "0.7,1.5,0"
+    is_tracing: 1
+    rotate: "0,5,0"
+    creation_type: 2
+    scale: "-1.2,1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 9078
+    name: 机甲闪光地板高能用
+    code: Nytotareus/JJNT_dz_cn
+    start_type: "3"
+    start_offset: "-1,0,0"
+    destination_type: "3"
+    destination_offset: "-1,0,0"
+    is_tracing: 1
+    exist_duration: *101
+    creation_type: 2
+    scale: "1.3,1.3,1.3"
+    trigger_creation_id: "9075"
+    trigger_creation_delay: "50"
+    is_die_delete: 1
+  }
+  {
+    id: 9079
+    name: 塔妹前排
+    start_type: "3"
+    start_offset: "10,0,0"
+    destination_type: "3"
+    destination_offset: "10,0,0"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: "8692"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9080
+    name: 机甲备用
+    start_type: Rarmor4
+    start_offset: "0.5,0.32,0"
+    destination_type: Rarmor4
+    destination_offset: "0.5,0.32,0"
+    is_tracing: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9081
+    name: 塔妹斩杀效果
+    code: 2019summer/Y_19summer_boss_nietuo 1_1
+    start_type: "2"
+    start_offset: "7,0.5,0"
+    destination_type: "2"
+    destination_offset: "7,0.5,0"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "0.8,0.4"
+  }
+  {
+    id: 9082
+    name: 塔妹一技能单体3段特效
+    code: 2019summer/Y_nt_boss 2_1
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -80164,6 +81226,316 @@
     trigger_creation_delay: "-1"
   }
   {
+    id: 10304
+    name: 太阳领域2
+    code: Riy_sun_kuang
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4858:1,4854:1,4865:1
+    buff_cd: "29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10305
+    name: 太阳领域4
+    code: Riy_sun_kuang
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4858:1,4854:1,4865:1
+    buff_cd: "29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10306
+    name: 太阳领域6
+    code: Riy_sun_kuang
+    start_type: "8"
+    start_offset: "-1.5,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4858:1,4854:1,4865:1
+    buff_cd: "29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10307
+    name: 太阳领域8
+    code: Riy_sun_kuang
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4858:1,4854:1,4865:1
+    buff_cd: "29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10308
+    name: 月亮领域1
+    code: Riy_moon_kuang
+    start_type: "8"
+    start_offset: "-6.3,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4857:1,4855:1,4866:1,1024:1000002137
+    buff_cd: "29,29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10309
+    name: 月亮领域3
+    code: Riy_moon_kuang
+    start_type: "8"
+    start_offset: "-1.5,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4857:1,4855:1,4866:1,1024:1000002137
+    buff_cd: "29,29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10310
+    name: 月亮领域5
+    code: Riy_moon_kuang
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4857:1,4855:1,4866:1,1024:1000002137
+    buff_cd: "29,29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10311
+    name: 月亮领域7
+    code: Riy_moon_kuang
+    start_type: "8"
+    start_offset: "-6.3,0,2.5"
+    destination_type: "8"
+    destination_offset: "-6.3,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4857:1,4855:1,4866:1,1024:1000002137
+    buff_cd: "29,29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10312
+    name: 月亮领域9
+    code: Riy_moon_kuang
+    start_type: "8"
+    start_offset: "-1.5,0,2.5"
+    destination_type: "8"
+    destination_offset: "-1.5,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4857:1,4855:1,4866:1,1024:1000002137
+    buff_cd: "29,29,29,29"
+    creation_type: 1
+    scale: "0.85,1.5,1"
+  }
+  {
+    id: 10313
+    name: 曦和法球
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    hurt_id: "623"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 10314
+    name: 望舒法球
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    hurt_id: "624"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 10315
+    name: 曦和法球特效
+    code: Riy_sun_shouji
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    scale: "1"
+  }
+  {
+    id: 10316
+    name: 望舒特效
+    code: Riy_moon_buff
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    scale: "0.6,0.6,1"
+  }
+  {
+    id: 10317
+    name: 曦和开技能
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    scale: "1"
+  }
+  {
+    id: 10318
+    name: 望舒开技能
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    scale: "1"
+  }
+  {
+    id: 10319
+    name: 剧情关月亮特效
+    code: Riy_duichong
+    start_type: "3"
+    start_offset: "-2.08,0.8"
+    destination_type: "3"
+    destination_offset: "-2.08,0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    scale: "1"
+  }
+  {
+    id: 10320
+    name: 剧情关太阳特效
+    code: Riy_duichong_red
+    start_type: "3"
+    start_offset: "-4.29,0.8"
+    destination_type: "3"
+    destination_offset: "-4.29,0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    scale: "1"
+  }
+  {
+    id: 10321
+    name: 剧情关月亮特效
+    code: Riy_duichong_blue02
+    start_type: "3"
+    start_offset: "-3.15,1"
+    destination_type: "3"
+    destination_offset: "-3.15,1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    scale: "1"
+  }
+  {
+    id: 10322
+    name: 剧情关太阳特效
+    code: Riy_duichong_red02
+    start_type: "3"
+    start_offset: "-3.05,1"
+    destination_type: "3"
+    destination_offset: "-3.05,1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    scale: "1"
+  }
+  {
+    id: 10323
+    name: SCARH
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1637"
+  }
+  {
     id: 26001
     name: 人偶扳机2
     code: bullet/bullet2
@@ -82244,7 +83616,6 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_Shot_1
-    is_orb_effect: 1
   }
   {
     id: 304401

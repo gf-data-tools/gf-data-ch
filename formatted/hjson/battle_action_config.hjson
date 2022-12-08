@@ -12537,6 +12537,121 @@
     action_playspeed: "100,100,100"
   }
   {
+    id: 3482
+    name: 双子界面
+    effect_duration: "999999"
+  }
+  {
+    id: 3483
+    name: 太阳领域
+    creation_order: "10304,10305,10306,10307"
+    creation_delay: "0,0,0,0"
+  }
+  {
+    id: 3484
+    name: 曦和法球
+    creation_order: "10313"
+  }
+  {
+    id: 3485
+    name: 月亮领域
+    creation_order: "10308,10309,10310,10311,10312"
+    creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 3486
+    name: 望舒法球
+    creation_order: "10314"
+  }
+  {
+    id: 3487
+    name: scarh
+    action_order: s
+    action_playspeed: "100"
+    effect_order: 2(0.05;20)
+    effect_duration: "300"
+  }
+  {
+    id: 3488
+    name: scarl
+    action_order: s
+    action_playspeed: "100"
+  }
+  {
+    id: 3489
+    name: scarl火球
+  }
+  {
+    id: 3490
+    name: scarlCUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10317"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 3491
+    name: scarhCUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10318"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 3492
+    name: scarh
+    avg_order: -56-15-begin
+    bgm_order: GF_Electronic_Battle
+  }
+  {
+    id: 3493
+    name: scarl
+    creation_order: "10323"
+    scene_play_speed: "300"
+    scene_transition: "2"
+  }
+  {
+    id: 3494
+    name: scarh
+    action_order: s
+    action_playspeed: "100"
+    effect_order: 2(0.1;20)
+    effect_duration: "300"
+  }
+  {
+    id: 3495
+    name: scarl发力
+    action_order: s2
+    action_playspeed: "100"
+    sound_order: Scar_Sun Shock
+    sound_delay: "20"
+  }
+  {
+    id: 3496
+    name: scarh发力
+    action_order: s2
+    action_playspeed: "100"
+    sound_order: Scar_Moon Shock
+    sound_delay: "16"
+  }
+  {
+    id: 3497
+    action_order: hit
+    action_playspeed: "100"
+  }
+  {
+    id: 3498
+    name: scarl真友方击退
+    move_order: "881"
+  }
+  {
+    id: 3505
+    name: scar结束
+    avg_order: -56-15-finish
+  }
+  {
     id: 4001
     name: 白色boss普攻
     action_order: attack
@@ -17032,7 +17147,7 @@
     creation_order: "8886,8887"
     creation_delay: "51,51"
     sound_order: BT_BossCutin
-    effect_order: 3(Nyto_mecha;致盲射线;Blinding Laser;Veranell·Dukas)
+    effect_order: 3(Nyto_mecha;致盲射线;Blinding Laser;Tareus)
     effect_duration: "1"
     stop_time_duration: "45"
   }
@@ -20557,6 +20672,435 @@
     id: 8519
     name: 每隔6秒时间向敌人血量最高单位投掷燃烧物
     summon_order: "4258"
+  }
+  {
+    id: 8520
+    name: erma
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "9012"
+    creation_delay: "1"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8521
+    name: 沃克开场
+    creation_order: "9013"
+  }
+  {
+    id: 8522
+    name: 沃克触发
+    creation_order: "9014"
+  }
+  {
+    id: 8523
+    name: 塔妹一技能
+    action_order: s3,sp
+    action_delay: "0,42"
+    action_playspeed: "100,100"
+    creation_order: "9079,9071,9071,9071,9015,9015,9015,9016,9082,9082,9082"
+    creation_delay: "0,53,64,85,58,69,90,93,58,69,90"
+    sound_order: skill_hugerobot_enemy_white_explo,skill_hugerobot_enemy_white_explo,skill_hugerobot_enemy_white_explo,skill_isomer_disturbation
+    sound_delay: "53,64,85,90"
+    effect_order: 3(Nyto_tareus;充能力场;Energy Absorber;Tareus),10(Nyto_tareus;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8524
+    name: 塔妹一技能解析
+    action_order: s3,sp
+    action_delay: "0,42"
+    action_playspeed: "100,100"
+    creation_order: "9079,9071,9071,9071,9015,9015,9015,9016,9082,9082,9082"
+    creation_delay: "0,53,64,85,58,69,90,93,58,69,90"
+    sound_order: skill_hugerobot_enemy_white_explo,skill_hugerobot_enemy_white_explo,skill_hugerobot_enemy_white_explo,skill_isomer_disturbation
+    sound_delay: "53,64,85,90"
+    effect_order: 3(Nyto_tareus_1;充能力场;Energy Absorber;Tareus),10(Nyto_tareus;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8525
+    name: 塔妹护盾
+    creation_order: "9017,9018,9076"
+    creation_delay: "15,18,10"
+    sound_order: skill_fairy_doubleshield
+    sound_delay: "15"
+  }
+  {
+    id: 8526
+    name: 塔妹电磁枪普攻-常规
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9019,9022,9022,9072"
+    creation_delay: "3,6,9,0"
+  }
+  {
+    id: 8527
+    name: 塔妹电磁枪普攻-高能
+    action_order: a1
+    action_playspeed: "100"
+    creation_order: "9020,9021"
+    creation_delay: "7,7"
+  }
+  {
+    id: 8528
+    name: 塔妹狙击枪斩杀-常规
+    action_order: a3
+    action_playspeed: "100"
+    creation_order: "9023,9081"
+    creation_delay: "35,35"
+    sound_order: skill_electrosold_explo
+    sound_delay: "35"
+  }
+  {
+    id: 8529
+    name: 塔妹狙击枪斩杀-高能
+    action_order: a3
+    action_playspeed: "100"
+    creation_order: "9023,9081"
+    creation_delay: "35,35"
+    sound_order: skill_electrosold_explo
+    sound_delay: "35"
+  }
+  {
+    id: 8530
+    name: 塔妹蓄能炮射击-常规
+    action_order: a2
+    action_playspeed: "60"
+    creation_order: "9024,9073"
+    creation_delay: "30,26"
+    sound_order: skill_eliza_flowup
+    sound_delay: "26"
+  }
+  {
+    id: 8531
+    name: 塔妹蓄能炮射击-高能
+    action_order: a2
+    action_playspeed: "60"
+    creation_order: "9024,9073"
+    creation_delay: "30,26"
+    sound_order: skill_eliza_flowup
+    sound_delay: "26"
+  }
+  {
+    id: 8532
+    name: 干扰病毒传播1
+    creation_order: "9025"
+  }
+  {
+    id: 8533
+    name: 干扰病毒传播2
+    creation_order: "9026"
+  }
+  {
+    id: 8534
+    name: 干扰病毒传播3
+    creation_order: "9027"
+  }
+  {
+    id: 8535
+    name: 干扰病毒传播4
+    creation_order: "9028"
+  }
+  {
+    id: 8536
+    name: 干扰病毒传播5
+    creation_order: "9029"
+  }
+  {
+    id: 8537
+    name: 干扰死亡机制1
+    creation_order: "9030,9035"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8538
+    name: 干扰死亡机制2
+    creation_order: "9031,9035"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8539
+    name: 干扰死亡机制3
+    creation_order: "9032,9035"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8540
+    name: 干扰死亡机制4
+    creation_order: "9033,9035"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8541
+    name: 干扰死亡机制5
+    creation_order: "9034,9035"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8542
+    name: 换场景工具人
+    summon_order: "4261"
+  }
+  {
+    id: 8543
+    name: 心智场景
+    stop_time_duration: "60"
+    scene_order: network
+    scene_play_speed: "300"
+    scene_transition: "2"
+  }
+  {
+    id: 8544
+    name: 塔妹支援1
+    summon_order: "4262"
+  }
+  {
+    id: 8545
+    name: 塔妹支援2
+    summon_order: "4263"
+  }
+  {
+    id: 8546
+    name: 塔妹支援3
+    summon_order: "4264"
+  }
+  {
+    id: 8547
+    name: 塔妹支援4
+    summon_order: "4265"
+  }
+  {
+    id: 8548
+    name: 塔妹支援5
+    summon_order: "4266"
+  }
+  {
+    id: 8549
+    name: 塔妹支援6
+    summon_order: "4267"
+  }
+  {
+    id: 8550
+    name: 塔妹支援7
+    summon_order: "4268"
+  }
+  {
+    id: 8551
+    name: 塔妹支援8
+    summon_order: "4269"
+  }
+  {
+    id: 8552
+    name: 塔妹支援9
+    summon_order: "4270"
+  }
+  {
+    id: 8553
+    name: 塔妹支援10
+    summon_order: "4271"
+  }
+  {
+    id: 8554
+    name: 塔妹支援开局1
+    creation_order: "9036,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8555
+    name: 塔妹支援开局2
+    creation_order: "9037,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8556
+    name: 塔妹支援开局3
+    creation_order: "9038,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8557
+    name: 塔妹支援开局4
+    creation_order: "9039,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8558
+    name: 塔妹支援开局5
+    creation_order: "9040,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8559
+    name: 塔妹支援开局6
+    creation_order: "9041,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8560
+    name: 塔妹支援开局7
+    creation_order: "9042,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8561
+    name: 塔妹支援开局8
+    creation_order: "9067,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8562
+    name: 塔妹支援开局9
+    creation_order: "9044,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8563
+    name: 塔妹支援开局10
+    creation_order: "9045,9067"
+    creation_delay: "1,0"
+  }
+  {
+    id: 8564
+    name: 塔妹侵蚀病毒传播1
+    creation_order: "9046"
+  }
+  {
+    id: 8565
+    name: 塔妹侵蚀病毒传播2
+    creation_order: "9047"
+  }
+  {
+    id: 8566
+    name: 塔妹侵蚀病毒传播3
+    creation_order: "9048"
+  }
+  {
+    id: 8567
+    name: 塔妹侵蚀病毒传播4
+    creation_order: "9049"
+  }
+  {
+    id: 8568
+    name: 塔妹侵蚀病毒传播5
+    creation_order: "9050"
+  }
+  {
+    id: 8569
+    name: 塔妹侵蚀病毒传播6
+    creation_order: "9051"
+  }
+  {
+    id: 8570
+    name: 塔妹侵蚀病毒传播7
+    creation_order: "9052"
+  }
+  {
+    id: 8571
+    name: 塔妹侵蚀病毒传播8
+    creation_order: "9053"
+  }
+  {
+    id: 8572
+    name: 塔妹侵蚀病毒传播9
+    creation_order: "9054"
+  }
+  {
+    id: 8573
+    name: 塔妹侵蚀病毒传播10
+    creation_order: "9055"
+  }
+  {
+    id: 8574
+    name: 塔妹侵蚀病毒死亡传播1
+    creation_order: "9056,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8575
+    name: 塔妹侵蚀病毒死亡传播2
+    creation_order: "9057,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8576
+    name: 塔妹侵蚀病毒死亡传播3
+    creation_order: "9058,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8577
+    name: 塔妹侵蚀病毒死亡传播4
+    creation_order: "9059,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8578
+    name: 塔妹侵蚀病毒死亡传播5
+    creation_order: "9060,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8579
+    name: 塔妹侵蚀病毒死亡传播6
+    creation_order: "9061,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8580
+    name: 塔妹侵蚀病毒死亡传播7
+    creation_order: "9062,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8581
+    name: 塔妹侵蚀病毒死亡传播8
+    creation_order: "9063,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8582
+    name: 塔妹侵蚀病毒死亡传播9
+    creation_order: "9064,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8583
+    name: 塔妹侵蚀病毒死亡传播10
+    creation_order: "9065,9066"
+    creation_delay: "0,10"
+    creation_afterdeath: "1,1"
+  }
+  {
+    id: 8584
+    name: 塔妹进高能
+    creation_order: "9078"
+  }
+  {
+    id: 8585
+    name: 塔妹cutin
+    action_order: c1,c1loop
+    action_delay: "0,41"
+    action_playspeed: "100,100"
   }
   {
     id: 9001

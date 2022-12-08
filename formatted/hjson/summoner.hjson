@@ -15846,6 +15846,28 @@
     is_stay: 1
   }
   {
+    id: 1637
+    name: SCARH
+    code: spSCARH
+    hp: 1000
+    pow: 50
+    hit: 50
+    dodge: 50
+    range: 100
+    def: 99999
+    number: 1
+    angle: 180
+    armor_piercing: 15
+    rate: 30
+    level: 100
+    normal_attack: 900107
+    passive_skill: "119802,119803,119809,119812,119813,119815,119816,119806"
+    scale: "1,1,1"
+    start_offset: "-6.2,0,0"
+    camp: 2
+    is_stay: 1
+  }
+  {
     id: 1841
     name: 异构体80
     code: Isomer
@@ -21329,6 +21351,307 @@
     camp: 1
     is_stay: 1
     is_damage_source: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4260
+    name: 塔妹护盾
+    code: empty
+    hp: 1000
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750628,750629"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    phase_duration: 5
+  }
+  {
+    id: 4261
+    name: 心智地图工具人
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750653"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4262
+    name: 塔妹支援1
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750655"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4263
+    name: 塔妹支援2
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750656"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4264
+    name: 塔妹支援3
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750657"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4265
+    name: 塔妹支援4
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750658"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4266
+    name: 塔妹支援5
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750659"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4267
+    name: 塔妹支援6
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750660"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4268
+    name: 塔妹支援7
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750661"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4269
+    name: 塔妹支援8
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750662"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4270
+    name: 塔妹支援9
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750663"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4271
+    name: 塔妹支援10
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    angle: 180
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,750664"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 1
+    is_stay: 1
     phase_duration: 99999
   }
   {

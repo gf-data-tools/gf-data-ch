@@ -3794,6 +3794,63 @@
     conflict_type: 6540249
   }
   {
+    id: 6560001
+    name: 携带EMP手雷
+    description: 携带EMP手雷
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6560001
+    carry_mission_skill: "6560043"
+  }
+  {
+    id: 6560002
+    name: 携带歌利亚
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6560002
+    carry_mission_skill: "6560042"
+  }
+  {
+    id: 6560003
+    name: 可以压制敌人
+    description: mission_buff_config-26560003
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: -1
+    carry_mission_skill: "6560046"
+  }
+  {
+    id: 6560004
+    name: 定身
+    description: mission_buff_config-26560004
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 6560004
+  }
+  {
+    id: 6560005
+    name: 可以与SCAR-L交战
+    description: mission_buff_config-26560005
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 119801
+    conflict_type: 6560005
+  }
+  {
     id: 9100001
     name: 【标记】标记buff
     description: mission_buff_config-29100001
