@@ -19,12 +19,12 @@ NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:为什么有这种疑�
 NPC-SCR(4)<Speaker>SCR</Speaker>;NPC-SCAR-L(0)||:……因为，我，我怎么看都不是合适的队员备选吧。+我以为最多就是格里芬里比较安全的后勤啊或者下层安保之类的工作会交给我。+没想过还能外出执行特殊任务……
 NPC-SCR(4);NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||:停止无聊的思考，做好我交给你的任务。+只有完美完成任务的士兵才会获得上级的信赖，这就是军人唯一的生存之道。
 NPC-SCR(2)<Speaker>SCR</Speaker>||:……好，好的！
-()||<BGM>BGM_Empty</BGM><SE1>Explode</SE1><震屏3>:——呯！+就在SCR走向货车的时候，随着一声爆响，货车车厢加厚合金外壳骤然炸裂开来。
+()||<BGM>BGM_Empty</BGM><SE1>Explode</SE1><震屏3><火花>:——呯！+就在SCR走向货车的时候，随着一声爆响，货车车厢加厚合金外壳骤然炸裂开来。
 NPC-SCAR-L(0)<Speaker>艾莉安娜</Speaker>||<BGM>GF_21winter_battle_1</BGM>:卧倒！
 NPC-SCR(2)<Speaker>SCR</Speaker>||:呃！？
 ()||<SE1>AVG_XXS_kick</SE1>:几乎在同时，艾莉安娜将SCR扑倒在地。
 ()<Speaker>警察</Speaker>||:——袭击！寻找掩体！
-()||<SE1>AVG_Creep</SE1>:唰唰唰——
+()||<关闭火花><SE1>AVG_Creep</SE1>:唰唰唰——
 ()||<SE1>Stop_AVG_loop</SE1>:艾莉安娜伏在地上，警惕地警戒着窗外。+而在她身下，SCR愣愣地看着她被子弹擦伤的脸颊。
 NPC-SCR(5)<Speaker>SCR</Speaker>||:<color=#A9A9A9>……她第一时间想保护的对象……是我？</color>
 ()||<SE1>ClothingUp</SE1>:确认没有追击之后，两人从地上站了起来，各自拿起了武器。
