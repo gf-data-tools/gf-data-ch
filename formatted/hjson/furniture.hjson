@@ -28013,6 +28013,37 @@
     rotate: "3"
   }
   {
+    id: 20083
+    name: 十三月的咏叹调
+    classes: 81
+    type: 201
+    space: "5,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 古典音乐动人的节奏，不论凛冬或是盛夏，都会令人感到身心净化——对AK12而言，她的琴弓便是令音符舞动的指挥棒，而悠扬的旋律便是给予观众最好的献礼。
+    code: 2022ConcertAK12_deco
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20084
+    name: AN94的奉献
+    classes: 81
+    type: 201
+    space: "6,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 黑与白的琴键上，跃动的指尖错落有致，仿佛魔术师的表演。每一次演奏，都来自她细腻又动人的心，音乐追随真诚的奏者，如此，便是AN94为听众奉献的听觉盛宴。
+    code: 2022ConcertAN94_decoA,2022ConcertAN94_decoB,2022ConcertSp_music
+    texture_type: "1,1,2"
+    sorting: "0,10,20"
+    offset: "0.10427,-0.052135,-0.010427|0.10427,-0.052135,-0.010426989573|0.10427,-0.052135,-0.010426989573"
+    rotate: "2,2,2"
+    interact_point: "68"
+    interact_point_offset: *0.000,1.593,-0.285
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -36902,6 +36933,96 @@
     decompose_gift: 100003
     description: 56-1式的海报
     code: poster_KungFu2022_56-1type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37801
+    name: 德利尔-编织星光
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 德利尔的海报。
+    code: poster_Christmas2022_Delisle
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37802
+    name: 卢萨-冬鹿拿铁
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 卢萨的海报。
+    code: poster_Christmas2022_Lusa
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37804
+    name: MPL-跃红踏霜
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MPL的海报。
+    code: poster_Christmas2022_MPL
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37806
+    name: MPK-冰崖飞焰
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MPK的海报。
+    code: poster_Christmas2022_MPK
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37807
+    name: KSVK-覆雪之下
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: KSVK的海报。
+    code: poster_Christmas2022_KSVK
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37809
+    name: 布伦·坦-绒绒草莓挞
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 布伦·坦的海报。
+    code: poster_Christmas2022_BrenTen
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

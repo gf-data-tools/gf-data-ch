@@ -17541,8 +17541,8 @@
     sub: 1
     if_emergency: -1
     name: 铁血怨
-    difficulty: 1000
-    exp_parameter: 20
+    difficulty: 2000
+    exp_parameter: 25
     type: "3"
     enemy_ai_type: 1
     expect_enemy_die_num: 3
@@ -17550,20 +17550,19 @@
     boss_team_id: "5081011"
     turn_duration: 360000000
     turn_limit: 1
-    limit_gun_pool: "254"
     map_res_name: OPS30_Y
     map_information: "5760,5040|2560,1688|0,0"
     fog_length: "0,400"
     fog_color: "#000000FF"
-    draw_event_s_id: "506"
+    support_available: 1
     mission_describe: mission-20010385
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "350100,350101"
-    difficulty_recommend: 1000;15
+    difficulty_recommend: 2000;25
     difficulty_recommend_addendum: mission-30010385
     limit_sangvis: 4
-    mission_tip: mission-40010385
+    mission_tip: 推荐编队类型：能力均衡编队
   }
   {
     id: 10386
@@ -17571,8 +17570,8 @@
     sub: 2
     if_emergency: -1
     name: 蚁中谍
-    difficulty: 2500
-    exp_parameter: 25
+    difficulty: 4500
+    exp_parameter: 30
     type: "6"
     enemy_ai_type: 3
     win_spot_id: "83767"
@@ -17581,22 +17580,21 @@
     boss_team_id: "5081021"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "208"
     map_res_name: OPS30_Y
     map_information: "5760,5040|2560,1688|-1100,-300"
     fog_length: "0,400"
     fog_color: "#000000FF"
-    draw_event_s_id: "507"
+    support_available: 1
     expect_defend_line_turn: 2
     random_line_spot: "83727"
     mission_describe: mission-20010386
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "350200"
-    difficulty_recommend: 2500;25
+    difficulty_recommend: 4500;45
     difficulty_recommend_addendum: mission-30010386
     limit_sangvis: 4
-    mission_tip: mission-40010386
+    mission_tip: 推荐编队类型：能力均衡编队
   }
   {
     id: 10387
@@ -17605,8 +17603,8 @@
     if_emergency: -1
     special_type: 1
     name: X战蚁
-    difficulty: 8000
-    exp_parameter: 28
+    difficulty: 6000
+    exp_parameter: 35
     type: "3"
     enemy_ai_type: 3
     expect_enemy_die_num: 3
@@ -17614,20 +17612,19 @@
     boss_team_id: "5081035"
     turn_duration: 360000000
     turn_limit: 3
-    limit_gun_pool: "250"
     map_res_name: OPS30_Y
     map_information: "5760,5040|2560,1688|-300,-1600"
     fog_length: "0,400"
     fog_color: "#000000E5"
-    draw_event_s_id: "508"
+    support_available: 1
     mission_describe: mission-20010387
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "350300,350301"
-    difficulty_recommend: 8000;35
+    difficulty_recommend: 6000;60
     difficulty_recommend_addendum: mission-30010387
     limit_sangvis: 4
-    mission_tip: mission-40010387
+    mission_tip: 推荐编队类型：能力均衡编队
   }
   {
     id: 10388
@@ -17636,8 +17633,8 @@
     if_emergency: -1
     special_type: 1
     name: 礼物颂
-    difficulty: 16000
-    exp_parameter: 30
+    difficulty: 10000
+    exp_parameter: 40
     type: "2"
     enemy_ai_type: 3
     expect_enemy_die_num: 4
@@ -17645,20 +17642,19 @@
     boss_team_id: "5081048"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "253"
     map_res_name: OPS31_Y
     map_information: "5760,5040|4096,2702|0,1000"
     fog_length: "0,400"
     fog_color: "#000000FF"
-    draw_event_s_id: "508"
+    support_available: 1
     mission_describe: mission-20010388
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "1"
-    difficulty_recommend: 16000;45
+    difficulty_recommend: 10000;75
     difficulty_recommend_addendum: mission-30010388
     limit_sangvis: 4
-    mission_tip: mission-40010388
+    mission_tip: 推荐编队类型：能力均衡编队
   }
   {
     id: 10389
@@ -35199,10 +35195,10 @@
     map_information: "12000,12000|5000,4400|-600,-1850"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "513"
+    draw_event_s_id: "663"
     mission_describe: mission-20010990
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100123,80,Xmas_2021_TIP
+    draw_code: 0;100166,80,Xmas_2021_TIP
     difficulty_recommend: 25000;100
     difficulty_recommend_addendum: mission-30010990
     mission_tip: mission-40010990
@@ -35251,10 +35247,10 @@
     map_information: "8000,8000|5300,4200|-2000,1600"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "513"
+    draw_event_s_id: "663"
     mission_describe: mission-20010992
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100123,80,Xmas_2021_TIP
+    draw_code: 0;100166,80,Xmas_2021_TIP
     difficulty_recommend: 25000;100
     difficulty_recommend_addendum: mission-30010992
     mission_tip: mission-40010992
@@ -35303,10 +35299,10 @@
     map_information: "8000,8000|5000,4200|-1700,1200"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "515"
+    draw_event_s_id: "665"
     mission_describe: mission-20010994
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100123,80,Xmas_2021_TIP
+    draw_code: 0;100166,80,Xmas_2021_TIP
     difficulty_recommend: 25000;100
     difficulty_recommend_addendum: mission-30010994
     mission_tip: mission-40010994
@@ -35355,10 +35351,10 @@
     map_information: "12000,12000|6000,5500|-500,-1500"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "515"
+    draw_event_s_id: "665"
     mission_describe: mission-20010996
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100123,80,Xmas_2021_TIP
+    draw_code: 0;100166,80,Xmas_2021_TIP
     difficulty_recommend: 25000;100
     difficulty_recommend_addendum: mission-30010996
     mission_tip: mission-40010996

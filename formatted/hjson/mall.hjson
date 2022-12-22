@@ -92,10 +92,21 @@
   {
     id: 10
     type: 1
-    sort: 4
+    sort: 3
     item_ids: 1-1
-    gemprice: 48
+    gemprice: 60
     giftbag_name: mall-10000010
+    discount: 1.0
+    classification_id: 5002
+  }
+  {
+    id: 11
+    type: 1
+    sort: 4
+    item_ids: 1-10
+    gemprice: 480
+    if_cheap: 1
+    giftbag_name: mall-10000011
     discount: 1.0
     classification_id: 5002
   }
@@ -176,10 +187,21 @@
   {
     id: 19
     type: 1
-    sort: 5
+    sort: 11
     item_ids: 2-1
-    gemprice: 24
+    gemprice: 30
     giftbag_name: mall-10000019
+    discount: 1.0
+    classification_id: 5002
+  }
+  {
+    id: 20
+    type: 1
+    sort: 12
+    item_ids: 2-10
+    gemprice: 240
+    if_cheap: 1
+    giftbag_name: mall-10000020
     discount: 1.0
     classification_id: 5002
   }
@@ -233,10 +255,21 @@
     type: 1
     sort: 13
     item_ids: 16-1
-    gemprice: 38
+    gemprice: 50
     giftbag_name: mall-10000026
     discount: 1.0
-    classification_id: 5002
+    classification_id: 5004
+  }
+  {
+    id: 27
+    type: 1
+    sort: 14
+    item_ids: 16-10
+    gemprice: 380
+    if_cheap: 1
+    giftbag_name: mall-10000027
+    discount: 1.0
+    classification_id: 5004
   }
   {
     id: 28
@@ -22623,8 +22656,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-150
-    classification_id: 1004
+    itemprice: 100166-150
+    classification_id: 1007
   }
   {
     id: 10716
@@ -22635,8 +22668,8 @@
     discount: 1.0
     prize_id: 1367
     pay_type: 1
-    itemprice: 100123-100
-    classification_id: 1004
+    itemprice: 100166-100
+    classification_id: 1007
   }
   {
     id: 10717
@@ -22647,8 +22680,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-50
-    classification_id: 1004
+    itemprice: 100166-50
+    classification_id: 1007
   }
   {
     id: 10718
@@ -22659,8 +22692,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-30
-    classification_id: 1004
+    itemprice: 100166-30
+    classification_id: 1007
   }
   {
     id: 10719
@@ -22671,8 +22704,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-30
-    classification_id: 1004
+    itemprice: 100166-30
+    classification_id: 1007
   }
   {
     id: 10721
@@ -22683,8 +22716,8 @@
     discount: 1.0
     prize_id: 1366
     pay_type: 1
-    itemprice: 100123-80
-    classification_id: 1004
+    itemprice: 100166-80
+    classification_id: 1007
   }
   {
     id: 10722
@@ -22695,32 +22728,32 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-3
-    classification_id: 1004
+    itemprice: 100166-3
+    classification_id: 1007
   }
   {
     id: 10723
     type: 8
     gift: 200001-1
-    quota: 2060
+    quota: 2080
     giftbag_name: 作战报告书
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-2
-    classification_id: 1004
+    itemprice: 100166-2
+    classification_id: 1007
   }
   {
     id: 10724
     type: 8
     item_ids: 46-1
-    quota: 2060
+    quota: 2080
     giftbag_name: 特种作战报告书
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-2
-    classification_id: 1004
+    itemprice: 100166-2
+    classification_id: 1007
   }
   {
     id: 10725
@@ -22731,8 +22764,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-2
-    classification_id: 1004
+    itemprice: 100166-2
+    classification_id: 1007
   }
   {
     id: 10726
@@ -22743,8 +22776,8 @@
     discount: 1.0
     prize_id: 272
     pay_type: 1
-    itemprice: 100125-500
-    classification_id: 1002
+    itemprice: 100168-500
+    classification_id: 1003
   }
   {
     id: 10727
@@ -22755,8 +22788,8 @@
     discount: 1.0
     prize_id: 1143
     pay_type: 1
-    itemprice: 100125-500
-    classification_id: 1002
+    itemprice: 100168-500
+    classification_id: 1003
   }
   {
     id: 10728
@@ -22767,8 +22800,8 @@
     discount: 1.0
     prize_id: 574
     pay_type: 1
-    itemprice: 100124-400
-    classification_id: 1002
+    itemprice: 100167-400
+    classification_id: 1003
   }
   {
     id: 10729
@@ -22779,8 +22812,8 @@
     discount: 1.0
     prize_id: 1364
     pay_type: 1
-    itemprice: 100124-400
-    classification_id: 1002
+    itemprice: 100167-400
+    classification_id: 1003
   }
   {
     id: 10732
@@ -22791,8 +22824,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100124-5
-    classification_id: 1002
+    itemprice: 100167-5
+    classification_id: 1003
   }
   {
     id: 10733
@@ -22803,8 +22836,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100125-5
-    classification_id: 1002
+    itemprice: 100168-5
+    classification_id: 1003
   }
   {
     id: 10734
@@ -22894,7 +22927,6 @@
     item_ids: 7-1,41-100
     gift: 6604-1
     gemprice: 2588
-    if_cheap: 1
     quota: 2001
     giftbag_name: VP1915-与帕罗莎同座
     event_code: dailyGiftbag
@@ -28480,6 +28512,18 @@
   }
   {
     id: 11172
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: 融合势力定向补给
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 11173
     type: 8
     item_ids: 605-10,515-1000
     gemprice: 1120
