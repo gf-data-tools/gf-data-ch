@@ -29548,4 +29548,248 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 780101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+  }
+  {
+    id: 780102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 780103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 780104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Delisle|DIALOGUE1
+    text: GUN|Delisle|DIALOGUE1
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 780105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|Delisle|SKILL3
+    text: GUN|Delisle|SKILL3
+    name: 交互2
+    camera: 1
+    voice_code: SKILL3
+  }
+  {
+    id: 780106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Delisle|MEET
+    text: GUN|Delisle|MEET
+    name: 交互3
+    camera: 1
+    voice_code: MEET
+  }
+  {
+    id: 780107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Delisle|HELLO
+    text: GUN|Delisle|HELLO
+    name: 交互4
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 780108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|Delisle|GOATTACK
+    text: GUN|Delisle|GOATTACK
+    name: 交互5
+    camera: 1
+    voice_code: GOATTACK
+  }
+  {
+    id: 780109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|Delisle|DIALOGUEWEDDING
+    text: GUN|Delisle|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 780110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|Delisle|SOULCONTRACT
+    text: GUN|Delisle|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 780111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 780112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|Delisle|CHRISTMAS
+    text: GUN|Delisle|CHRISTMAS
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: CHRISTMAS
+  }
+  {
+    id: 780113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 780114
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Delisle|DIALOGUE2
+    text: GUN|Delisle|DIALOGUE2
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 780115
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Delisle|DIALOGUE3
+    text: GUN|Delisle|DIALOGUE3
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 780116
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Delisle|WIN
+    text: GUN|Delisle|WIN
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: WIN
+  }
+  {
+    id: 780117
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Delisle|RETREAT
+    text: GUN|Delisle|RETREAT
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 780118
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|Delisle|FEED
+    text: GUN|Delisle|FEED
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: FEED
+  }
+  {
+    id: 780119
+    type: 402
+    motion_name: motions/flip.mtn
+    touch_area: flip
+    probability: 1.0
+    name: 翻转
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 780120
+    type: 402
+    motion_name: motions/reset.mtn
+    touch_area: reset
+    probability: 1.0
+    name: 重置
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 780121
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|Delisle|BREAK
+    text: GUN|Delisle|BREAK
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 3180
+    voice_code: BREAK
+  }
+  {
+    id: 780122
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    voice: GUN|Delisle|MOOD2
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
 ]

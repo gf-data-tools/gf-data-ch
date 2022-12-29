@@ -41879,6 +41879,44 @@
     boss_available: 1
   }
   {
+    id: 8613
+    name: ADS火力下降
+    description: 火力下降
+    conflict_type: 2212
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "94"
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 8614
+    name: ADS命中下降
+    description: 命中下降
+    conflict_type: 2212
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: "94"
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
+    id: 8615
+    name: ADS装备
+    conflict_type: 2212
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
     id: 8616
     name: 战区冷却缩减1
     conflict_type: 2035
