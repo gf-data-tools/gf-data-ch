@@ -37049,7 +37049,7 @@
     hurt_id: "483"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2808,25"
+    trigger_creation_id: "2808,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37075,7 +37075,7 @@
     hurt_id: "484"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37101,7 +37101,7 @@
     hurt_id: "485"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37127,7 +37127,7 @@
     hurt_id: "486"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37153,7 +37153,7 @@
     hurt_id: "487"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37179,7 +37179,7 @@
     hurt_id: "488"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37205,7 +37205,7 @@
     hurt_id: "489"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37231,7 +37231,7 @@
     hurt_id: "490"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37257,7 +37257,7 @@
     hurt_id: "491"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37283,7 +37283,7 @@
     hurt_id: "492"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -37309,7 +37309,7 @@
     hurt_id: "493"
     is_form_play: 1
     scale: "0.45,0.45"
-    trigger_creation_id: "2809,25"
+    trigger_creation_id: "2809,279725"
     trigger_creation_delay: "-1,-1"
     sound_order: BT_squad_howitzer
     edge_indicator: Pics/Squads/QLZ04_icon:2
@@ -83107,6 +83107,21 @@
     is_form_play: 1
     creation_type: 2
     scale: "1.5"
+  }
+  {
+    id: 279725
+    name: 手榴弹坑
+    code: 手雷坑
+    start_type: "7"
+    start_offset: "0,-1,0"
+    destination_type: "7"
+    destination_offset: "0,-1,0"
+    rotate: "-15,0,0"
+    exist_duration: "80"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1.5,1"
   }
   {
     id: 292601

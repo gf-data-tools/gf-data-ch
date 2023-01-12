@@ -21154,7 +21154,7 @@
     id: 8007
     name: 瑞叶苑-汉白玉椅
     classes: 80
-    type: 203
+    type: 202
     position: "31,11"
     space: "1,1,0,0,0,0"
     deco_rate: 950
@@ -41360,6 +41360,21 @@
     decompose_gift: 100003
     description: 刘易斯的海报。
     code: poster_BattlePass_Lewis
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330004
+    name: 柯尔特沃克-危情七日
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 柯尔特沃克的海报。
+    code: poster_BattlePass_ColtWalker
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

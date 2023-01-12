@@ -969,6 +969,7 @@ BATTLE,10196,인형제대 배치 수가 상한에 도달했습니다.,,0
 BATTLE,10197,혼합세력제대 배치 수가 상한에 도달했습니다.,,0
 BATTLE,10198,중장비부대 배치 수가 상한에 도달했습니다.,,0
 BATTLE,10199,전투제대 배치 수가 상한에 도달했습니다.,,0
+BATTLE,10203,当前战斗失败，已中断代理作战。(todo),,0
 CARNIVAL,11000,진행도,,0
 CARNIVAL,11001,보상수령,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1605,8 +1606,9 @@ DEPLOYMENT,30499,배치된 전투제대,,0
 DEPLOYMENT,30500,특성II 발동,,0
 DEPLOYMENT,30517,推荐等级(todo),,0
 DEPLOYMENT,30518,推荐效能(todo),,0
-DEPLOYMENT,30519,点击查看推荐信息(todo),,0
+DEPLOYMENT,30519,梯队推荐信息(todo),,0
 DEPLOYMENT,30520,当前编队类型(todo),,0
+DEPLOYMENT,30521,推荐星级(todo),,0
 DORM,31000,수납고,,0
 DORM,31001,Warehouse,,0
 DORM,31002,구매,,0
@@ -1913,8 +1915,8 @@ DORM,31701,격납고,,0
 DORM,31703,전지 X {0},,0
 DORM,31704,최대 레벨이 아닌 인형이 작전에서 획득한 경험치의 <color=#ffb400>{0}%</color>만큼 <color=#ffb400>자유경험치</color>를 획득,,0
 DORM,31705,최대 레벨에 도달한 인형이 작전에서 넘친 경험치의 <color=#ffb400>{0}%</color>만큼 <color=#ffb400>자유경험치</color>를 획득,,0
-DORM,31706,【<color=#ffb400ff>{0}</color>】 코스튬 선물을 카리나에게 맡기겠습니까?//n//n<size=40><color=#e31414ff>인형의 호감도를 얻을 수는 없지만//c 해당 인형을 획득하면 자동으로 코스튬이 개방됩니다.</color></size>,,0
-DORM,31707,【<color=#ffb400ff>{0}</color>】 코스튬이 개방되었습니다. 인형 획득 후//c<color=#ffb400ff>인형정보화면</color>에서 바꿀 수 있습니다,,0
+DORM,31706,是否将装扮礼物 【<color=#ffb400ff>{0}</color>】//n交给格琳娜收藏？(todo),,0
+DORM,31707,获得人形后//c可以在<color=#ffb400ff>人物属性界面</color>切换。(todo),,0
 DORM,31708,포스터,,0
 DORM,31709,<color=#FFB400FF>【전지】*{0}</color> 획득//c 전지보유수가 상한에 도달해 여분을 콘덴서에 남겨둡니다,,0
 DORM,31710,전지보유수가 상한에 도달해 <color=#ffb400>받을 수 없습니다</color>,,0
@@ -2147,6 +2149,8 @@ DORM,31955,获得【<color=#ffb400ff>黑卡</color>】x1(todo),,0
 DORM,31956,头像【<color=#ffb400ff>{0}</color>】已可以在<color=#ffb400ff>商店</color>购入(todo),,0
 DORM,31957,人形好感度(todo),,0
 DORM,31959,皮肤预览(todo),,0
+DORM,31960,*该皮肤已获得。(todo),,0
+DORM,31961,收藏换装不会获得好感度，获得人形后该装扮会自动解锁。(todo),,0
 FACTORY,32000,개시,,0
 FACTORY,32001,제조완료,,0
 FACTORY,32002,인형제조,,0
@@ -2728,6 +2732,8 @@ ILLUSTRATEDBOOK,35191,통합회수팀,,0
 ILLUSTRATEDBOOK,35192,인원 정보,,0
 ILLUSTRATEDBOOK,35193,已解锁(todo),,0
 ILLUSTRATEDBOOK,35195,使用途径(todo),,0
+ILLUSTRATEDBOOK,35196,韧性(todo),,0
+ILLUSTRATEDBOOK,35197,长按可查看详细信息(todo),,0
 LOGIN,36000,암호분실,,0
 LOGIN,36001,고객센터,,0
 LOGIN,36002,이용약관,,0
@@ -3408,6 +3414,13 @@ MISSIONSELECTION,40444,当前有资源即将到达存储上限，超过上限的
 MISSIONSELECTION,40445,当前有资源即将到达存储上限，超过上限的部分将<color=#ffb400>无法获取</color>，是否使用相同配置再次出征？//n<size=40><color=grey>建议将取消后将后勤重复次数修改为{0}次</color></size>(todo),,0
 MISSIONSELECTION,40446,需通关60个不同关卡，解锁关卡8-6解锁该模块(todo),,0
 MISSIONSELECTION,40447,可部署重装小队(todo),,0
+MISSIONSELECTION,40448,当前关卡发生变化，请退出(todo),,0
+MISSIONSELECTION,40449,战斗记录(todo),,0
+MISSIONSELECTION,40450,累计攻略数(todo),,0
+MISSIONSELECTION,40451,精锐遭遇数(todo),,0
+MISSIONSELECTION,40452,完全攻略数(todo),,0
+MISSIONSELECTION,40453,进入昼战(todo),,0
+MISSIONSELECTION,40454,该作战梯队不允许撤离！(todo),,0
 REINFORCEMENT,50000,인형선택,,0
 REINFORCEMENT,50001,잠겨있음,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -4523,6 +4536,9 @@ SEPCIALOPS,60630,엘리아나는 너무나도 강력합니다. 달의 표식을 
 SEPCIALOPS,60638,耗时(todo),,0
 SEPCIALOPS,60639,请选择一个战场效果(todo),,0
 SEPCIALOPS,60640,选择(todo),,0
+SEPCIALOPS,60641,指挥官可通过【重置进度】再次挑战尝试解锁该结局，或等至{0}结局自动解锁。(todo),,0
+SEPCIALOPS,60642,【重置进度】会重置所有关卡进度和五种能力值，指挥官可以再次进行完整流程挑战并解锁对应结局，是否继续？(todo),,0
+SEPCIALOPS,60643,<color=#FF0000FF>注意！</color>【重置进度】会重置所有关卡进度和五种能力值，所有关卡需要重新挑战，确定需要重置进度吗？(todo),,0
 GASHAPON,70000,현재 가구 창고 공간이 부족합니다,,0
 GASHAPON,70001,)//c 정리 후 구매를 진행해주세요!,,0
 GASHAPON,70002,구매토큰이 부족하여//c 구매할 수 없습니다.,,0
@@ -5019,6 +5035,9 @@ OTHER,100203,{0}场战斗(todo),,0
 OTHER,100204,持续(todo),,0
 OTHER,100205,可获得积分(todo),,0
 OTHER,100206,当前环境(todo),,0
+OTHER,100207,总PT：{0}(todo),,0
+OTHER,100208,通关PT：{0}(todo),,0
+OTHER,100209,全图清理PT：{0}(todo),,0
 ACTIVITY,110000,큐브작전,,0
 ACTIVITY,110001,파해법칙,,0
 FRIEND,110002,우정점수,,0
@@ -5676,6 +5695,7 @@ SPECIALFORGLOBAL,160015,스킬,,0
 SPECIALFORGLOBAL,160016,공속,,0
 SPECIALFORGLOBAL,160017,Cost 상한,,0
 SPECIALFORGLOBAL,160018,체력,,0
+SPECIALFORGLOBAL,160019,修复(todo),,0
 PURCHASE_POOL,170000,출현 확률,,0
 PURCHASE_POOL,170001,출현 확률 ,,0
 PURCHASE_POOL,170002,//n각 레어도 출현확률//n <Color=#EE798BFF>코스튬</Color>:2%//n <Color=#FFC600FF>5성 가구</Color>:8%//n <Color=#8FC31F>4성 가구</Color>:34.2%//n <Color=#8FC31F>4성 선물</Color>:1.8%//n <Color=#97C9C3>3성 가구</Color>:54%//n,,0

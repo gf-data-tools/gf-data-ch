@@ -13094,6 +13094,36 @@
     detail_introduction: item-30002216
   }
   {
+    id: 2224
+    type: 5
+    arg: "1"
+    code: card_FixedPoint_us
+    item_name: 名片：静风点
+    introduction: 名片：静风点
+    rank: 1
+    detail_introduction: item-30002224
+  }
+  {
+    id: 2225
+    type: 5
+    arg: "1"
+    code: card_BattlePass_ColtWalker
+    item_name: 名片：欲望之都
+    introduction: 名片：欲望之都
+    rank: 1
+    detail_introduction: item-30002225
+  }
+  {
+    id: 2226
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_ColtWalker
+    item_name: 柯尔特沃克-危情七日
+    introduction: 柯尔特沃克-危情七日
+    rank: 1
+    detail_introduction: item-30002226
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -16568,6 +16598,26 @@
     detail_introduction: item-30140008
   }
   {
+    id: 140009
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    introduction: item-20140009
+    rank: 1
+    detail_introduction: item-30140009
+  }
+  {
+    id: 140010
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    introduction: item-20140010
+    rank: 1
+    detail_introduction: item-30140010
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -16716,6 +16766,16 @@
     introduction: 头像框·跃马咴鸣
     rank: 1
     detail_introduction: item-30200016
+  }
+  {
+    id: 200018
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_ColtWalker
+    item_name: 头像框·浮嚣罗网
+    introduction: 头像框·浮嚣罗网
+    rank: 1
+    detail_introduction: item-30200018
   }
   {
     id: 900030
@@ -17222,5 +17282,49 @@
     rank: 1
     sort: -1
     detail_introduction: item-31500040
+  }
+  {
+    id: 1500041
+    type: 15
+    arg: "1500041"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500041
+  }
+  {
+    id: 1500042
+    type: 15
+    arg: "1500042"
+    code: package_choose
+    item_name: 配件装备自选序标
+    introduction: 可从该指定投递配给序标内选择获取一件配件类装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500042
+  }
+  {
+    id: 1500043
+    type: 15
+    arg: "1500043"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500043
+  }
+  {
+    id: 1500044
+    type: 15
+    arg: "1500044"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500044
   }
 ]
