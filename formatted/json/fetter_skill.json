@@ -1,182 +1,54 @@
 [
-    {
-        "id": 1,
-        "name": "极速狂花",
-        "code": "PzB39andGrizzly",
-        "description": "火力号令对自身和PzB39效果额外增加10%。",
-        "gun_group": "96,180",
-        "gun": 96,
-        "type": 1,
-        "skill1": 190101,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "",
-        "dynamic_passive_skill": "",
-        "active_trigger": "0"
-    },
-    {
-        "id": 2,
-        "name": "极速狂花",
-        "code": "PzB39andGrizzly",
-        "description": "与灰熊MkⅤ在同一梯队时,瞄准时间减少至1秒,每秒蓄力层数增加至2层。",
-        "gun_group": "96,180",
-        "gun": 180,
-        "type": 1,
-        "skill1": 190102,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "190103",
-        "dynamic_passive_skill": "",
-        "active_trigger": "0"
-    },
-    {
-        "id": 3,
-        "name": "星河成约",
-        "code": "AkalfaandM82",
-        "description": "与M82在同一梯队时,M82普攻对自身正前方单位也能造成10%额外伤害。",
-        "gun_group": "306,297",
-        "gun": 306,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "",
-        "dynamic_passive_skill": "",
-        "active_trigger": "0"
-    },
-    {
-        "id": 4,
-        "name": "星河成约",
-        "code": "AkalfaandM82",
-        "description": "将自身正前方视作AK-阿尔法的正前方。",
-        "gun_group": "306,297",
-        "gun": 297,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 190201,
-        "passive_skill": "190202",
-        "dynamic_passive_skill": "",
-        "active_trigger": "0"
-    },
-    {
-        "id": 5,
-        "name": "我开动了！",
-        "code": "g36andm1903",
-        "description": "「“持之以恒是比任何事都要更重要的才能”」当G36和春田处于同一梯队时,G36为随行的队友呈上甜点,振奋士气的同时,火力专注的效果也变得可以作用于友方单位(效果下降至15%)——要小心变胖哦。",
-        "gun_group": "64,36",
-        "gun": 64,
-        "type": 1,
-        "skill1": 190302,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "190301",
-        "dynamic_passive_skill": "",
-        "active_trigger": "0"
-    },
-    {
-        "id": 6,
-        "name": "我开动了！",
-        "code": "g36andm1903",
-        "description": "「“我对混合咖啡还是蛮有自信的”」当G36和春田处于同一梯队时,春田为随行的队友端上咖啡,振奋士气的同时,每叠加1层蓄力,提升我方全体射速5%(持续5秒,最多叠加5层)——要小心变胖哦。",
-        "gun_group": "64,36",
-        "gun": 36,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "190401",
-        "dynamic_passive_skill": "",
-        "active_trigger": "0"
-    },
-    {
-        "id": 7,
-        "name": "我开动了！",
-        "code": "g36andm1903",
-        "description": "「“持之以恒是比任何事都要更重要的才能”」当G36和春田处于同一梯队时,G36为随行的队友呈上甜点,振奋士气的同时,火力专注的效果也变得可以作用于友方单位(效果下降至15%)——要小心变胖哦。",
-        "gun_group": "20064,36",
-        "gun": 20064,
-        "type": 1,
-        "skill1": 190303,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "190301",
-        "dynamic_passive_skill": "",
-        "active_trigger": "5"
-    },
-    {
-        "id": 8,
-        "name": "我开动了！",
-        "code": "g36andm1903",
-        "description": "fetter_skill-20000008",
-        "gun_group": "20064,36",
-        "gun": 36,
-        "type": 5,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "190401",
-        "dynamic_passive_skill": "",
-        "active_trigger": "6"
-    },
-    {
-        "id": 9,
-        "name": "冕晕聚变",
-        "code": "MPKandMPL",
-        "description": "MPK与MPL相临一格时,不再对友方造成负面效果。\nMPK与MPL左右相邻时,开启技能后,效果范围扩大至2格。",
-        "gun_group": "363,364",
-        "gun": 363,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "",
-        "dynamic_passive_skill": "119302,119303,119304,119305,119308,119309",
-        "active_trigger": ""
-    },
-    {
-        "id": 10,
-        "name": "冕晕聚变",
-        "code": "MPKandMPL",
-        "description": "MPK与MPL相临一格时,不再对友方造成负面效果。\nMPK与MPL左右相邻时,开启技能后,效果范围扩大至2格。",
-        "gun_group": "363,364",
-        "gun": 364,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "",
-        "dynamic_passive_skill": "119203,119204,119205,119206,119207,119208,119209",
-        "active_trigger": ""
-    },
-    {
-        "id": 11,
-        "name": "同辉禁线",
-        "code": "SCAR_CON",
-        "description": "SCAR-L和SCAR-H同时在场时,自身开场获得40点月海能量,每秒增加4点月海能量。",
-        "gun_group": "377,378",
-        "gun": 377,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "119702,119706,119707",
-        "dynamic_passive_skill": "",
-        "active_trigger": ""
-    },
-    {
-        "id": 12,
-        "name": "同辉禁线",
-        "code": "SCAR_CON",
-        "description": "SCAR-L和SCAR-H同时在场时,自身开场获得40点圣晖能量,每秒增加4点圣晖能量。",
-        "gun_group": "377,378",
-        "gun": 378,
-        "type": 1,
-        "skill1": 0,
-        "skill2": 0,
-        "normal_attack": 0,
-        "passive_skill": "119602,119604,119606,119607,119608",
-        "dynamic_passive_skill": "",
-        "active_trigger": ""
-    }
+  {
+    "id": 1, "name": "极速狂花", "code": "PzB39andGrizzly", "description": "火力号令对自身和PzB39效果额外增加10%。", "gun_group": "96,180", 
+    "gun": 96, "type": 1, "skill1": 190101, "skill2": 0, "normal_attack": 0, "passive_skill": "", 
+    "dynamic_passive_skill": "", "active_trigger": "0"
+  }, {
+    "id": 2, "name": "极速狂花", "code": "PzB39andGrizzly", "description": "与灰熊MkⅤ在同一梯队时,瞄准时间减少至1秒,每秒蓄力层数增加至2层。", 
+    "gun_group": "96,180", "gun": 180, "type": 1, "skill1": 190102, "skill2": 0, "normal_attack": 0, 
+    "passive_skill": "190103", "dynamic_passive_skill": "", "active_trigger": "0"
+  }, {
+    "id": 3, "name": "星河成约", "code": "AkalfaandM82", "description": "与M82在同一梯队时,M82普攻对自身正前方单位也能造成10%额外伤害。", 
+    "gun_group": "306,297", "gun": 306, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 0, "passive_skill": "", 
+    "dynamic_passive_skill": "", "active_trigger": "0"
+  }, {
+    "id": 4, "name": "星河成约", "code": "AkalfaandM82", "description": "将自身正前方视作AK-阿尔法的正前方。", "gun_group": "306,297", 
+    "gun": 297, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 190201, "passive_skill": "190202", 
+    "dynamic_passive_skill": "", "active_trigger": "0"
+  }, {
+    "id": 5, "name": "我开动了！", "code": "g36andm1903", 
+    "description": "「“持之以恒是比任何事都要更重要的才能”」当G36和春田处于同一梯队时,G36为随行的队友呈上甜点,振奋士气的同时,火力专注的效果也变得可以作用于友方单位(效果下降至15%)——要小心变胖哦。", 
+    "gun_group": "64,36", "gun": 64, "type": 1, "skill1": 190302, "skill2": 0, "normal_attack": 0, "passive_skill": "190301", 
+    "dynamic_passive_skill": "", "active_trigger": "0"
+  }, {
+    "id": 6, "name": "我开动了！", "code": "g36andm1903", 
+    "description": "「“我对混合咖啡还是蛮有自信的”」当G36和春田处于同一梯队时,春田为随行的队友端上咖啡,振奋士气的同时,每叠加1层蓄力,提升我方全体射速5%(持续5秒,最多叠加5层)——要小心变胖哦。", 
+    "gun_group": "64,36", "gun": 36, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 0, "passive_skill": "190401", 
+    "dynamic_passive_skill": "", "active_trigger": "0"
+  }, {
+    "id": 7, "name": "我开动了！", "code": "g36andm1903", 
+    "description": "「“持之以恒是比任何事都要更重要的才能”」当G36和春田处于同一梯队时,G36为随行的队友呈上甜点,振奋士气的同时,火力专注的效果也变得可以作用于友方单位(效果下降至15%)——要小心变胖哦。", 
+    "gun_group": "20064,36", "gun": 20064, "type": 1, "skill1": 190303, "skill2": 0, "normal_attack": 0, 
+    "passive_skill": "190301", "dynamic_passive_skill": "", "active_trigger": "5"
+  }, {
+    "id": 8, "name": "我开动了！", "code": "g36andm1903", "description": "fetter_skill-20000008", "gun_group": "20064,36", 
+    "gun": 36, "type": 5, "skill1": 0, "skill2": 0, "normal_attack": 0, "passive_skill": "190401", 
+    "dynamic_passive_skill": "", "active_trigger": "6"
+  }, {
+    "id": 9, "name": "冕晕聚变", "code": "MPKandMPL", "description": "MPK与MPL相临一格时,不再对友方造成负面效果。\nMPK与MPL左右相邻时,开启技能后,效果范围扩大至2格。", 
+    "gun_group": "363,364", "gun": 363, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 0, "passive_skill": "", 
+    "dynamic_passive_skill": "119302,119303,119304,119305,119308,119309", "active_trigger": ""
+  }, {
+    "id": 10, "name": "冕晕聚变", "code": "MPKandMPL", "description": "MPK与MPL相临一格时,不再对友方造成负面效果。\nMPK与MPL左右相邻时,开启技能后,效果范围扩大至2格。", 
+    "gun_group": "363,364", "gun": 364, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 0, "passive_skill": "", 
+    "dynamic_passive_skill": "119203,119204,119205,119206,119207,119208,119209", "active_trigger": ""
+  }, {
+    "id": 11, "name": "同辉禁线", "code": "SCAR_CON", "description": "SCAR-L和SCAR-H同时在场时,自身开场获得40点月海能量,每秒增加4点月海能量。", 
+    "gun_group": "377,378", "gun": 377, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 0, 
+    "passive_skill": "119702,119706,119707", "dynamic_passive_skill": "", "active_trigger": ""
+  }, {
+    "id": 12, "name": "同辉禁线", "code": "SCAR_CON", "description": "SCAR-L和SCAR-H同时在场时,自身开场获得40点圣晖能量,每秒增加4点圣晖能量。", 
+    "gun_group": "377,378", "gun": 378, "type": 1, "skill1": 0, "skill2": 0, "normal_attack": 0, 
+    "passive_skill": "119602,119604,119606,119607,119608", "dynamic_passive_skill": "", "active_trigger": ""
+  }
 ]

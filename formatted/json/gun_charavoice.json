@@ -1,290 +1,38 @@
 [
-    {
-        "id": 1,
-        "name": "获得",
-        "code": "_GAIN_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 2,
-        "name": "问候",
-        "code": "_HELLO_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 3,
-        "name": "部队编入",
-        "code": "_FORMATION_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 4,
-        "name": "强化完成",
-        "code": "_FEED_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 5,
-        "name": "交流1",
-        "code": "_DIALOGUE1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 6,
-        "name": "交流2",
-        "code": "_DIALOGUE2_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 7,
-        "name": "交流3",
-        "code": "_DIALOGUE3_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 9,
-        "name": "出击",
-        "code": "_GOATTACK_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 10,
-        "name": "遇敌",
-        "code": "_MEET_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 13,
-        "name": "重创",
-        "code": "_BREAK_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 14,
-        "name": "胜利",
-        "code": "_WIN_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 15,
-        "name": "撤退",
-        "code": "_RETREAT_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 16,
-        "name": "新年",
-        "code": "_NEWYEAR_JP",
-        "is_hidden": 0,
-        "is_skin": 1,
-        "is_fetter": 0
-    },
-    {
-        "id": 17,
-        "name": "情人节",
-        "code": "_VALENTINE_JP",
-        "is_hidden": 0,
-        "is_skin": 1,
-        "is_fetter": 0
-    },
-    {
-        "id": 18,
-        "name": "七夕",
-        "code": "_TANABATA_JP",
-        "is_hidden": 0,
-        "is_skin": 1,
-        "is_fetter": 0
-    },
-    {
-        "id": 19,
-        "name": "万圣节",
-        "code": "_ALLHALLOWS_JP",
-        "is_hidden": 0,
-        "is_skin": 1,
-        "is_fetter": 0
-    },
-    {
-        "id": 20,
-        "name": "圣诞节",
-        "code": "_CHRISTMAS_JP",
-        "is_hidden": 0,
-        "is_skin": 1,
-        "is_fetter": 0
-    },
-    {
-        "id": 21,
-        "name": "技能1",
-        "code": "_SKILL1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 22,
-        "name": "技能2",
-        "code": "_SKILL2_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 23,
-        "name": "技能3",
-        "code": "_SKILL3_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 24,
-        "name": "后勤出发",
-        "code": "_OPERATIONBEGIN_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 25,
-        "name": "后勤归来",
-        "code": "_OPERATIONOVER_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 26,
-        "name": "修复",
-        "code": "_FIX_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 27,
-        "name": "编制扩大",
-        "code": "_COMBINE_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 28,
-        "name": "自律作战",
-        "code": "_BLACKACTION_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 29,
-        "name": "誓约",
-        "code": "_SOULCONTRACT_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 30,
-        "name": "游戏标题",
-        "code": "_TITLECALL_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 31,
-        "name": "交流4",
-        "code": "_DIALOGUEWEDDING_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 41,
-        "name": "载入",
-        "code": "_LOADING_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    },
-    {
-        "id": 42,
-        "name": "友人谈-沙漠之鹰",
-        "code": "_FETTER1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 1
-    },
-    {
-        "id": 43,
-        "name": "友人谈-HK45",
-        "code": "_FETTER1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 2
-    },
-    {
-        "id": 44,
-        "name": "友人谈-幽灵M4",
-        "code": "_FETTER1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 3
-    },
-    {
-        "id": 45,
-        "name": "友人谈-HK45",
-        "code": "_FETTER1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 4
-    },
-    {
-        "id": 46,
-        "name": "友人谈-沙漠之鹰",
-        "code": "_FETTER1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 5
-    },
-    {
-        "id": 47,
-        "name": "友人谈-沙漠之鹰",
-        "code": "_FETTER1_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 6
-    },
-    {
-        "id": 48,
-        "name": "口头禅",
-        "code": "_PHRASE_JP",
-        "is_hidden": 0,
-        "is_skin": 0,
-        "is_fetter": 0
-    }
+  { "id":  1, "name": "获得"           , "code": "_GAIN_JP"           , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  2, "name": "问候"           , "code": "_HELLO_JP"          , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  3, "name": "部队编入"       , "code": "_FORMATION_JP"      , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  4, "name": "强化完成"       , "code": "_FEED_JP"           , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  5, "name": "交流1"          , "code": "_DIALOGUE1_JP"      , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  6, "name": "交流2"          , "code": "_DIALOGUE2_JP"      , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  7, "name": "交流3"          , "code": "_DIALOGUE3_JP"      , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id":  9, "name": "出击"           , "code": "_GOATTACK_JP"       , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 10, "name": "遇敌"           , "code": "_MEET_JP"           , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 13, "name": "重创"           , "code": "_BREAK_JP"          , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 14, "name": "胜利"           , "code": "_WIN_JP"            , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 15, "name": "撤退"           , "code": "_RETREAT_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 16, "name": "新年"           , "code": "_NEWYEAR_JP"        , "is_hidden": 0, "is_skin": 1, "is_fetter": 0 }, 
+  { "id": 17, "name": "情人节"         , "code": "_VALENTINE_JP"      , "is_hidden": 0, "is_skin": 1, "is_fetter": 0 }, 
+  { "id": 18, "name": "七夕"           , "code": "_TANABATA_JP"       , "is_hidden": 0, "is_skin": 1, "is_fetter": 0 }, 
+  { "id": 19, "name": "万圣节"         , "code": "_ALLHALLOWS_JP"     , "is_hidden": 0, "is_skin": 1, "is_fetter": 0 }, 
+  { "id": 20, "name": "圣诞节"         , "code": "_CHRISTMAS_JP"      , "is_hidden": 0, "is_skin": 1, "is_fetter": 0 }, 
+  { "id": 21, "name": "技能1"          , "code": "_SKILL1_JP"         , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 22, "name": "技能2"          , "code": "_SKILL2_JP"         , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 23, "name": "技能3"          , "code": "_SKILL3_JP"         , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 24, "name": "后勤出发"       , "code": "_OPERATIONBEGIN_JP" , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 25, "name": "后勤归来"       , "code": "_OPERATIONOVER_JP"  , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 26, "name": "修复"           , "code": "_FIX_JP"            , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 27, "name": "编制扩大"       , "code": "_COMBINE_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 28, "name": "自律作战"       , "code": "_BLACKACTION_JP"    , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 29, "name": "誓约"           , "code": "_SOULCONTRACT_JP"   , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 30, "name": "游戏标题"       , "code": "_TITLECALL_JP"      , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 31, "name": "交流4"          , "code": "_DIALOGUEWEDDING_JP", "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 41, "name": "载入"           , "code": "_LOADING_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }, 
+  { "id": 42, "name": "友人谈-沙漠之鹰", "code": "_FETTER1_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 1 }, 
+  { "id": 43, "name": "友人谈-HK45"    , "code": "_FETTER1_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 2 }, 
+  { "id": 44, "name": "友人谈-幽灵M4"  , "code": "_FETTER1_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 3 }, 
+  { "id": 45, "name": "友人谈-HK45"    , "code": "_FETTER1_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 4 }, 
+  { "id": 46, "name": "友人谈-沙漠之鹰", "code": "_FETTER1_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 5 }, 
+  { "id": 47, "name": "友人谈-沙漠之鹰", "code": "_FETTER1_JP"        , "is_hidden": 0, "is_skin": 0, "is_fetter": 6 }, 
+  { "id": 48, "name": "口头禅"         , "code": "_PHRASE_JP"         , "is_hidden": 0, "is_skin": 0, "is_fetter": 0 }
 ]

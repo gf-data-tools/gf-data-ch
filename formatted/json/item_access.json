@@ -1,152 +1,27 @@
 [
-    {
-        "id": 1,
-        "name": "商城",
-        "carnival_goto_page_id": -1,
-        "function_control_id": 0
-    },
-    {
-        "id": 2,
-        "name": "活动",
-        "carnival_goto_page_id": 0,
-        "function_control_id": 0
-    },
-    {
-        "id": 3,
-        "name": "每日签到",
-        "carnival_goto_page_id": 0,
-        "function_control_id": 0
-    },
-    {
-        "id": 4,
-        "name": "后勤支援",
-        "carnival_goto_page_id": 41,
-        "function_control_id": 0
-    },
-    {
-        "id": 5,
-        "name": "任务",
-        "carnival_goto_page_id": 254,
-        "function_control_id": 0
-    },
-    {
-        "id": 6,
-        "name": "机密商店",
-        "carnival_goto_page_id": 217,
-        "function_control_id": 17
-    },
-    {
-        "id": 7,
-        "name": "回收",
-        "carnival_goto_page_id": 63,
-        "function_control_id": 0
-    },
-    {
-        "id": 8,
-        "name": "情报中心",
-        "carnival_goto_page_id": 202,
-        "function_control_id": 15
-    },
-    {
-        "id": 9,
-        "name": "情报解析",
-        "carnival_goto_page_id": 202,
-        "function_control_id": 15
-    },
-    {
-        "id": 10,
-        "name": "数据重构",
-        "carnival_goto_page_id": 203,
-        "function_control_id": 15
-    },
-    {
-        "id": 11,
-        "name": "采购",
-        "carnival_goto_page_id": 251,
-        "function_control_id": 0
-    },
-    {
-        "id": 12,
-        "name": "资料采样",
-        "carnival_goto_page_id": 358,
-        "function_control_id": 0
-    },
-    {
-        "id": 13,
-        "name": "防御演习",
-        "carnival_goto_page_id": 359,
-        "function_control_id": 6
-    },
-    {
-        "id": 14,
-        "name": "云图回廊",
-        "carnival_goto_page_id": 360,
-        "function_control_id": 12
-    },
-    {
-        "id": 15,
-        "name": "咖啡机",
-        "carnival_goto_page_id": 207,
-        "function_control_id": 11
-    },
-    {
-        "id": 16,
-        "name": "资料室",
-        "carnival_goto_page_id": 205,
-        "function_control_id": 0
-    },
-    {
-        "id": 17,
-        "name": "宿舍",
-        "carnival_goto_page_id": 66,
-        "function_control_id": 0
-    },
-    {
-        "id": 18,
-        "name": "支援梯队",
-        "carnival_goto_page_id": 0,
-        "function_control_id": 0
-    },
-    {
-        "id": 19,
-        "name": "内核商店",
-        "carnival_goto_page_id": 230,
-        "function_control_id": 21
-    },
-    {
-        "id": 20,
-        "name": "融合演习",
-        "carnival_goto_page_id": 232,
-        "function_control_id": 21
-    },
-    {
-        "id": 21,
-        "name": "回收家具",
-        "carnival_goto_page_id": 12,
-        "function_control_id": 0
-    },
-    {
-        "id": 22,
-        "name": "收归行动",
-        "carnival_goto_page_id": 224,
-        "function_control_id": 21
-    },
-    {
-        "id": 23,
-        "name": "月卡",
-        "carnival_goto_page_id": 0,
-        "function_control_id": 0
-    },
-    {
-        "id": 24,
-        "name": "经验特训",
-        "carnival_goto_page_id": 356,
-        "function_control_id": 0
-    },
-    {
-        "id": 25,
-        "name": "强化练习",
-        "carnival_goto_page_id": 357,
-        "function_control_id": 0
-    }
+  { "id":  1, "name": "商城"    , "carnival_goto_page_id":  -1, "function_control_id":  0 }, 
+  { "id":  2, "name": "活动"    , "carnival_goto_page_id":   0, "function_control_id":  0 }, 
+  { "id":  3, "name": "每日签到", "carnival_goto_page_id":   0, "function_control_id":  0 }, 
+  { "id":  4, "name": "后勤支援", "carnival_goto_page_id":  41, "function_control_id":  0 }, 
+  { "id":  5, "name": "任务"    , "carnival_goto_page_id": 254, "function_control_id":  0 }, 
+  { "id":  6, "name": "机密商店", "carnival_goto_page_id": 217, "function_control_id": 17 }, 
+  { "id":  7, "name": "回收"    , "carnival_goto_page_id":  63, "function_control_id":  0 }, 
+  { "id":  8, "name": "情报中心", "carnival_goto_page_id": 202, "function_control_id": 15 }, 
+  { "id":  9, "name": "情报解析", "carnival_goto_page_id": 202, "function_control_id": 15 }, 
+  { "id": 10, "name": "数据重构", "carnival_goto_page_id": 203, "function_control_id": 15 }, 
+  { "id": 11, "name": "采购"    , "carnival_goto_page_id": 251, "function_control_id":  0 }, 
+  { "id": 12, "name": "资料采样", "carnival_goto_page_id": 358, "function_control_id":  0 }, 
+  { "id": 13, "name": "防御演习", "carnival_goto_page_id": 359, "function_control_id":  6 }, 
+  { "id": 14, "name": "云图回廊", "carnival_goto_page_id": 360, "function_control_id": 12 }, 
+  { "id": 15, "name": "咖啡机"  , "carnival_goto_page_id": 207, "function_control_id": 11 }, 
+  { "id": 16, "name": "资料室"  , "carnival_goto_page_id": 205, "function_control_id":  0 }, 
+  { "id": 17, "name": "宿舍"    , "carnival_goto_page_id":  66, "function_control_id":  0 }, 
+  { "id": 18, "name": "支援梯队", "carnival_goto_page_id":   0, "function_control_id":  0 }, 
+  { "id": 19, "name": "内核商店", "carnival_goto_page_id": 230, "function_control_id": 21 }, 
+  { "id": 20, "name": "融合演习", "carnival_goto_page_id": 232, "function_control_id": 21 }, 
+  { "id": 21, "name": "回收家具", "carnival_goto_page_id":  12, "function_control_id":  0 }, 
+  { "id": 22, "name": "收归行动", "carnival_goto_page_id": 224, "function_control_id": 21 }, 
+  { "id": 23, "name": "月卡"    , "carnival_goto_page_id":   0, "function_control_id":  0 }, 
+  { "id": 24, "name": "经验特训", "carnival_goto_page_id": 356, "function_control_id":  0 }, 
+  { "id": 25, "name": "强化练习", "carnival_goto_page_id": 357, "function_control_id":  0 }
 ]

@@ -1,458 +1,170 @@
 [
-    {
-        "id": 1,
-        "name": "能量护盾",
-        "desc": "战斗中为本梯队内的所有冲锋枪张开护盾,每个护盾最多吸收40点伤害。",
-        "if_display": 1,
-        "code": "shield",
-        "skill_group": "900101"
-    },
-    {
-        "id": 2,
-        "name": "狙击指令",
-        "desc": "战斗中瞄准敌方血量最高的角色,造成2500点伤害。",
-        "if_display": 1,
-        "code": "sniper",
-        "skill_group": "900102"
-    },
-    {
-        "id": 3,
-        "name": "防暴强化",
-        "desc": "战斗中为本梯队内的所有霰弹枪加强防暴能力,护甲提升15%,持续20秒。",
-        "if_display": 1,
-        "code": "armor",
-        "skill_group": "900103"
-    },
-    {
-        "id": 4,
-        "name": "嘲讽靶机",
-        "desc": "战斗开场时投放一个能够吸引敌方伤害的靶机,靶机具有400生命值。",
-        "if_display": 1,
-        "code": "target",
-        "skill_group": "900104"
-    },
-    {
-        "id": 5,
-        "name": "炮击指令",
-        "desc": "战斗中发射一枚迫击炮弹,对2.5范围内的敌人造成200的伤害。",
-        "if_display": 1,
-        "code": "bombard",
-        "skill_group": "900108"
-    },
-    {
-        "id": 6,
-        "name": "致命空袭",
-        "desc": "战斗开场时呼叫空中打击,对全体敌人造成80的伤害。",
-        "if_display": 1,
-        "code": "air_attack",
-        "skill_group": "900109"
-    },
-    {
-        "id": 7,
-        "name": "战斗效率",
-        "desc": "战斗中提升本梯队全体伤害5%和射速5%,持续20秒（不可叠加）。",
-        "if_display": 1,
-        "code": "fighting",
-        "skill_group": "900110"
-    },
-    {
-        "id": 8,
-        "name": "怒无限强",
-        "desc": "战斗中提升本梯队全体命中10%和暴击率10%,持续20秒（不可叠加）。",
-        "if_display": 1,
-        "code": "crit",
-        "skill_group": "900111"
-    },
-    {
-        "id": 701,
-        "name": "夜间怒气",
-        "desc": "夜间作战时，我方暴击率和暴击伤害增加30%",
-        "if_display": 1,
-        "code": "fight_skill_buff106",
-        "skill_group": "756071"
-    },
-    {
-        "id": 702,
-        "name": "近身打击",
-        "desc": "我方对范围3以内的敌方单位伤害提升20%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756072"
-    },
-    {
-        "id": 703,
-        "name": "突击惯性",
-        "desc": "该场战斗中提升我方全体伤害和回避每4秒提升3%，最多叠加10层",
-        "if_display": 1,
-        "code": "fight_skill_buff102",
-        "skill_group": "756082"
-    },
-    {
-        "id": 704,
-        "name": "迅速整备",
-        "desc": "我方前置冷却时间缩减30%",
-        "if_display": 1,
-        "code": "fight_skill_buff105",
-        "skill_group": "756076"
-    },
-    {
-        "id": 705,
-        "name": "偏转力场",
-        "desc": "我方血量最高单位开场获得9999点偏转力场，持续8秒",
-        "if_display": 1,
-        "code": "fight_skill_buff104",
-        "skill_group": "756077"
-    },
-    {
-        "id": 706,
-        "name": "装甲缺失",
-        "desc": "本场战斗我方护甲降低90%",
-        "if_display": 1,
-        "code": "fight_skill_buff203",
-        "skill_group": "756078"
-    },
-    {
-        "id": 707,
-        "name": "火力抑制",
-        "desc": "每10秒眩晕我方输出最高的单位5秒",
-        "if_display": 1,
-        "code": "fight_skill_buff201",
-        "skill_group": "756079"
-    },
-    {
-        "id": 708,
-        "name": "燃烧打击",
-        "desc": "开场在我方第一排生成燃烧区域，每10帧50点编制伤害，持续10秒",
-        "if_display": 1,
-        "code": "fight_skill_hurt102",
-        "skill_group": "756084"
-    },
-    {
-        "id": 709,
-        "name": "中枢迟缓",
-        "desc": "我方前置冷却时间延长30%",
-        "if_display": 1,
-        "code": "fight_skill_buff204",
-        "skill_group": "756081"
-    },
-    {
-        "id": 710,
-        "name": "队长之殇",
-        "desc": "我方队长伤害、命中、回避、护甲和暴击率降低90%",
-        "if_display": 1,
-        "code": "fight_skill_buff204",
-        "skill_group": "756086"
-    },
-    {
-        "id": 711,
-        "name": "步履维艰",
-        "desc": "我方全体移速下降50%",
-        "if_display": 1,
-        "code": "fight_skill_hurt202",
-        "skill_group": "756085"
-    },
-    {
-        "id": 712,
-        "name": "动弹不得",
-        "desc": "本场战斗我方回避降低90%",
-        "if_display": 1,
-        "code": "fight_skill_hurt202",
-        "skill_group": "990003"
-    },
-    {
-        "id": 713,
-        "name": "鬼影迷踪",
-        "desc": "大幅提升敌方回避500%",
-        "if_display": 1,
-        "code": "fight_skill_buff202",
-        "skill_group": "990004"
-    },
-    {
-        "id": 714,
-        "name": "摸鱼禁止",
-        "desc": "每隔15秒对我方输出最低的单位造成999点伤害",
-        "if_display": 1,
-        "code": "fight_skill_hurt201",
-        "skill_group": "990006"
-    },
-    {
-        "id": 715,
-        "name": "铁甲肉盾",
-        "desc": "我方血量最高的单位额外获得50%减伤",
-        "if_display": 1,
-        "code": "fight_skill_buff104",
-        "skill_group": "990007"
-    },
-    {
-        "id": 716,
-        "name": "天谴之人",
-        "desc": "每隔15秒随机弱化一个人形单位，大幅降低该人形属性（伤害，射速，命中，回避，护甲）50%持续5秒",
-        "if_display": 1,
-        "code": "fight_skill_buff204",
-        "skill_group": "990009"
-    },
-    {
-        "id": 717,
-        "name": "焦土战略",
-        "desc": "每隔6秒时间向敌人血量最高单位投掷燃烧物，每0.33秒造成100点伤害，持续15秒，范围3*3",
-        "if_display": 1,
-        "code": "fight_skill_hurt102",
-        "skill_group": "990011"
-    },
-    {
-        "id": 718,
-        "name": "坚守阵地",
-        "desc": "每隔3秒提升我方前排人形回避和护甲10%，最多10层",
-        "if_display": 1,
-        "code": "fight_skill_buff103",
-        "skill_group": "990013"
-    },
-    {
-        "id": 719,
-        "name": "负隅顽抗",
-        "desc": "每隔15秒时间恢复敌方已损失血量10%的护盾持续6秒",
-        "if_display": 1,
-        "code": "fight_skill_buff203",
-        "skill_group": "990014"
-    },
-    {
-        "id": 720,
-        "name": "钢铁靶机",
-        "desc": "每隔10秒召唤1组5编，每编1000血的靶机",
-        "if_display": 1,
-        "code": "fight_skill_hurt103",
-        "skill_group": "990017"
-    },
-    {
-        "id": 721,
-        "name": "腹背受敌",
-        "desc": "每隔6秒在我方梯队前方位置生成1组敌人",
-        "if_display": 1,
-        "code": "fight_skill_hurt203",
-        "skill_group": "990019"
-    },
-    {
-        "id": 722,
-        "name": "越战越勇",
-        "desc": "我方每次使用技能后下次技能冷却减少20%",
-        "if_display": 1,
-        "code": "fight_skill_buff105",
-        "skill_group": "756087"
-    },
-    {
-        "id": 723,
-        "name": "火力全开",
-        "desc": "我方全体射速提升100%",
-        "if_display": 1,
-        "code": "fight_skill_buff102",
-        "skill_group": "756088"
-    },
-    {
-        "id": 724,
-        "name": "应急护盾",
-        "desc": "每隔10秒时间恢复我方已损失血量30%的护盾持续6秒",
-        "if_display": 1,
-        "code": "fight_skill_buff104",
-        "skill_group": "756089"
-    },
-    {
-        "id": 725,
-        "name": "随机打击",
-        "desc": "每隔10秒随机弱化一个敌方单位，大幅降低该单位属性（伤害，射速，命中，闪避，护甲）降低50%",
-        "if_display": 1,
-        "code": "fight_skill_hurt101",
-        "skill_group": "756093"
-    },
-    {
-        "id": 726,
-        "name": "枪械故障",
-        "desc": "我方射速降低50%",
-        "if_display": 1,
-        "code": "fight_skill_hurt202",
-        "skill_group": "756091"
-    },
-    {
-        "id": 727,
-        "name": "领袖之风",
-        "desc": "我方队长伤害、命中、回避、护甲和暴击率提升50%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756114"
-    },
-    {
-        "id": 728,
-        "name": "凝神射击",
-        "desc": "降低我方射速20%但提升我方伤害20%和命中20%",
-        "if_display": 1,
-        "code": "fight_skill_buff103",
-        "skill_group": "756115"
-    },
-    {
-        "id": 729,
-        "name": "应急护盾",
-        "desc": "每隔10秒时间恢复我方已损失血量30%的护盾持续6秒",
-        "if_display": 1,
-        "code": "fight_skill_buff104",
-        "skill_group": "756089"
-    },
-    {
-        "id": 730,
-        "name": "手枪专精",
-        "desc": "提升我方手枪人形技能冷却20%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756126"
-    },
-    {
-        "id": 731,
-        "name": "冲锋专精",
-        "desc": "提升我方冲锋枪命中和闪避100%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756127"
-    },
-    {
-        "id": 732,
-        "name": "步枪专精",
-        "desc": "提升我方步枪人形射速和暴击率20%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756128"
-    },
-    {
-        "id": 733,
-        "name": "突击专精",
-        "desc": "提升我方突击步枪人形20%伤害和100%命中",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756129"
-    },
-    {
-        "id": 734,
-        "name": "霰弹专精",
-        "desc": "提升我方霰弹人形20%护甲和20%伤害减免",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756130"
-    },
-    {
-        "id": 735,
-        "name": "机枪专精",
-        "desc": "增加我方机枪人形15弹链",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756131"
-    },
-    {
-        "id": 736,
-        "name": "天佑之人",
-        "desc": "我方人形开场获得自身最大生命值20%护盾持续10秒",
-        "if_display": 1,
-        "code": "fight_skill_buff102",
-        "skill_group": "756124"
-    },
-    {
-        "id": 737,
-        "name": "突击号令",
-        "desc": "我方全体射速提升50%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756133"
-    },
-    {
-        "id": 738,
-        "name": "急速攻击",
-        "desc": "我方前置冷却时间缩减50%",
-        "if_display": 1,
-        "code": "fight_skill_buff101",
-        "skill_group": "756134"
-    },
-    {
-        "id": 739,
-        "name": "暴怒号令",
-        "desc": "暴击伤害提升50%",
-        "if_display": 1,
-        "code": "fight_skill_buff102",
-        "skill_group": "756135"
-    },
-    {
-        "id": 740,
-        "name": "全面出击",
-        "desc": "每有1种枪种全体提升30%伤害、射速、命中、闪避",
-        "if_display": 1,
-        "code": "fight_skill_buff103",
-        "skill_group": "756136"
-    },
-    {
-        "id": 741,
-        "name": "清除指令",
-        "desc": "每隔8秒清除我方有益状态",
-        "if_display": 1,
-        "code": "fight_skill_hurt201",
-        "skill_group": "756144"
-    },
-    {
-        "id": 742,
-        "name": "暴击压制",
-        "desc": "暴击率降低100%",
-        "if_display": 1,
-        "code": "fight_skill_buff201",
-        "skill_group": "756146"
-    },
-    {
-        "id": 743,
-        "name": "信道中断",
-        "desc": "每次使用技能后技能冷却增加100%",
-        "if_display": 1,
-        "code": "fight_skill_buff202",
-        "skill_group": "756147"
-    },
-    {
-        "id": 901,
-        "name": "力不从心",
-        "desc": "我方全体暴击率上升50%，但暴击伤害下降80%",
-        "if_display": 1,
-        "code": "fight_skill_buff107",
-        "skill_group": "756193"
-    },
-    {
-        "id": 902,
-        "name": "击搏挽裂",
-        "desc": "我方全体伤害下降50%，同时赋予敌方全体100%易伤",
-        "if_display": 1,
-        "code": "fight_skill_buff301",
-        "skill_group": "756195"
-    },
-    {
-        "id": 903,
-        "name": "冰消瓦解",
-        "desc": "敌方全体穿甲值增加200点",
-        "if_display": 1,
-        "code": "fight_skill_buff205",
-        "skill_group": "756198"
-    },
-    {
-        "id": 904,
-        "name": "同舟之殇",
-        "desc": "我方除了队长以外的单位伤害下降20%",
-        "if_display": 1,
-        "code": "fight_skill_buff108",
-        "skill_group": "756200"
-    },
-    {
-        "id": 905,
-        "name": "燃烧打击Ⅱ",
-        "desc": "开场在我方第二排生成燃烧区域，每0.33秒造成50点编制伤害，持续10秒",
-        "if_display": 1,
-        "code": "fight_skill_hurt104",
-        "skill_group": "756202"
-    },
-    {
-        "id": 906,
-        "name": "巨人痛击",
-        "desc": "每隔10秒对敌我双方血量最高的单位造成10%最大生命值的伤害",
-        "if_display": 1,
-        "code": "fight_skill_hurt301",
-        "skill_group": "756204"
-    }
+  {
+    "id": 1, "name": "能量护盾", "desc": "战斗中为本梯队内的所有冲锋枪张开护盾,每个护盾最多吸收40点伤害。", "if_display": 1, "code": "shield", 
+    "skill_group": "900101"
+  }, {
+    "id": 2, "name": "狙击指令", "desc": "战斗中瞄准敌方血量最高的角色,造成2500点伤害。", "if_display": 1, "code": "sniper", "skill_group": "900102"
+  }, {
+    "id": 3, "name": "防暴强化", "desc": "战斗中为本梯队内的所有霰弹枪加强防暴能力,护甲提升15%,持续20秒。", "if_display": 1, "code": "armor", 
+    "skill_group": "900103"
+  }, {
+    "id": 4, "name": "嘲讽靶机", "desc": "战斗开场时投放一个能够吸引敌方伤害的靶机,靶机具有400生命值。", "if_display": 1, "code": "target", 
+    "skill_group": "900104"
+  }, {
+    "id": 5, "name": "炮击指令", "desc": "战斗中发射一枚迫击炮弹,对2.5范围内的敌人造成200的伤害。", "if_display": 1, "code": "bombard", 
+    "skill_group": "900108"
+  }, {
+    "id": 6, "name": "致命空袭", "desc": "战斗开场时呼叫空中打击,对全体敌人造成80的伤害。", "if_display": 1, "code": "air_attack", 
+    "skill_group": "900109"
+  }, {
+    "id": 7, "name": "战斗效率", "desc": "战斗中提升本梯队全体伤害5%和射速5%,持续20秒（不可叠加）。", "if_display": 1, "code": "fighting", 
+    "skill_group": "900110"
+  }, {
+    "id": 8, "name": "怒无限强", "desc": "战斗中提升本梯队全体命中10%和暴击率10%,持续20秒（不可叠加）。", "if_display": 1, "code": "crit", 
+    "skill_group": "900111"
+  }, {
+    "id": 701, "name": "夜间怒气", "desc": "夜间作战时，我方暴击率和暴击伤害增加30%", "if_display": 1, "code": "fight_skill_buff106", 
+    "skill_group": "756071"
+  }, {
+    "id": 702, "name": "近身打击", "desc": "我方对范围3以内的敌方单位伤害提升20%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756072"
+  }, {
+    "id": 703, "name": "突击惯性", "desc": "该场战斗中提升我方全体伤害和回避每4秒提升3%，最多叠加10层", "if_display": 1, "code": "fight_skill_buff102", 
+    "skill_group": "756082"
+  }, {
+    "id": 704, "name": "迅速整备", "desc": "我方前置冷却时间缩减30%", "if_display": 1, "code": "fight_skill_buff105", 
+    "skill_group": "756076"
+  }, {
+    "id": 705, "name": "偏转力场", "desc": "我方血量最高单位开场获得9999点偏转力场，持续8秒", "if_display": 1, "code": "fight_skill_buff104", 
+    "skill_group": "756077"
+  }, {
+    "id": 706, "name": "装甲缺失", "desc": "本场战斗我方护甲降低90%", "if_display": 1, "code": "fight_skill_buff203", 
+    "skill_group": "756078"
+  }, {
+    "id": 707, "name": "火力抑制", "desc": "每10秒眩晕我方输出最高的单位5秒", "if_display": 1, "code": "fight_skill_buff201", 
+    "skill_group": "756079"
+  }, {
+    "id": 708, "name": "燃烧打击", "desc": "开场在我方第一排生成燃烧区域，每10帧50点编制伤害，持续10秒", "if_display": 1, "code": "fight_skill_hurt102", 
+    "skill_group": "756084"
+  }, {
+    "id": 709, "name": "中枢迟缓", "desc": "我方前置冷却时间延长30%", "if_display": 1, "code": "fight_skill_buff204", 
+    "skill_group": "756081"
+  }, {
+    "id": 710, "name": "队长之殇", "desc": "我方队长伤害、命中、回避、护甲和暴击率降低90%", "if_display": 1, "code": "fight_skill_buff204", 
+    "skill_group": "756086"
+  }, {
+    "id": 711, "name": "步履维艰", "desc": "我方全体移速下降50%", "if_display": 1, "code": "fight_skill_hurt202", 
+    "skill_group": "756085"
+  }, {
+    "id": 712, "name": "动弹不得", "desc": "本场战斗我方回避降低90%", "if_display": 1, "code": "fight_skill_hurt202", 
+    "skill_group": "990003"
+  }, {
+    "id": 713, "name": "鬼影迷踪", "desc": "大幅提升敌方回避500%", "if_display": 1, "code": "fight_skill_buff202", 
+    "skill_group": "990004"
+  }, {
+    "id": 714, "name": "摸鱼禁止", "desc": "每隔15秒对我方输出最低的单位造成999点伤害", "if_display": 1, "code": "fight_skill_hurt201", 
+    "skill_group": "990006"
+  }, {
+    "id": 715, "name": "铁甲肉盾", "desc": "我方血量最高的单位额外获得50%减伤", "if_display": 1, "code": "fight_skill_buff104", 
+    "skill_group": "990007"
+  }, {
+    "id": 716, "name": "天谴之人", "desc": "每隔15秒随机弱化一个人形单位，大幅降低该人形属性（伤害，射速，命中，回避，护甲）50%持续5秒", "if_display": 1, 
+    "code": "fight_skill_buff204", "skill_group": "990009"
+  }, {
+    "id": 717, "name": "焦土战略", "desc": "每隔6秒时间向敌人血量最高单位投掷燃烧物，每0.33秒造成100点伤害，持续15秒，范围3*3", "if_display": 1, 
+    "code": "fight_skill_hurt102", "skill_group": "990011"
+  }, {
+    "id": 718, "name": "坚守阵地", "desc": "每隔3秒提升我方前排人形回避和护甲10%，最多10层", "if_display": 1, "code": "fight_skill_buff103", 
+    "skill_group": "990013"
+  }, {
+    "id": 719, "name": "负隅顽抗", "desc": "每隔15秒时间恢复敌方已损失血量10%的护盾持续6秒", "if_display": 1, "code": "fight_skill_buff203", 
+    "skill_group": "990014"
+  }, {
+    "id": 720, "name": "钢铁靶机", "desc": "每隔10秒召唤1组5编，每编1000血的靶机", "if_display": 1, "code": "fight_skill_hurt103", 
+    "skill_group": "990017"
+  }, {
+    "id": 721, "name": "腹背受敌", "desc": "每隔6秒在我方梯队前方位置生成1组敌人", "if_display": 1, "code": "fight_skill_hurt203", 
+    "skill_group": "990019"
+  }, {
+    "id": 722, "name": "越战越勇", "desc": "我方每次使用技能后下次技能冷却减少20%", "if_display": 1, "code": "fight_skill_buff105", 
+    "skill_group": "756087"
+  }, {
+    "id": 723, "name": "火力全开", "desc": "我方全体射速提升100%", "if_display": 1, "code": "fight_skill_buff102", 
+    "skill_group": "756088"
+  }, {
+    "id": 724, "name": "应急护盾", "desc": "每隔10秒时间恢复我方已损失血量30%的护盾持续6秒", "if_display": 1, "code": "fight_skill_buff104", 
+    "skill_group": "756089"
+  }, {
+    "id": 725, "name": "随机打击", "desc": "每隔10秒随机弱化一个敌方单位，大幅降低该单位属性（伤害，射速，命中，闪避，护甲）降低50%", "if_display": 1, 
+    "code": "fight_skill_hurt101", "skill_group": "756093"
+  }, {
+    "id": 726, "name": "枪械故障", "desc": "我方射速降低50%", "if_display": 1, "code": "fight_skill_hurt202", "skill_group": "756091"
+  }, {
+    "id": 727, "name": "领袖之风", "desc": "我方队长伤害、命中、回避、护甲和暴击率提升50%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756114"
+  }, {
+    "id": 728, "name": "凝神射击", "desc": "降低我方射速20%但提升我方伤害20%和命中20%", "if_display": 1, "code": "fight_skill_buff103", 
+    "skill_group": "756115"
+  }, {
+    "id": 729, "name": "应急护盾", "desc": "每隔10秒时间恢复我方已损失血量30%的护盾持续6秒", "if_display": 1, "code": "fight_skill_buff104", 
+    "skill_group": "756089"
+  }, {
+    "id": 730, "name": "手枪专精", "desc": "提升我方手枪人形技能冷却20%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756126"
+  }, {
+    "id": 731, "name": "冲锋专精", "desc": "提升我方冲锋枪命中和闪避100%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756127"
+  }, {
+    "id": 732, "name": "步枪专精", "desc": "提升我方步枪人形射速和暴击率20%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756128"
+  }, {
+    "id": 733, "name": "突击专精", "desc": "提升我方突击步枪人形20%伤害和100%命中", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756129"
+  }, {
+    "id": 734, "name": "霰弹专精", "desc": "提升我方霰弹人形20%护甲和20%伤害减免", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756130"
+  }, {
+    "id": 735, "name": "机枪专精", "desc": "增加我方机枪人形15弹链", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756131"
+  }, {
+    "id": 736, "name": "天佑之人", "desc": "我方人形开场获得自身最大生命值20%护盾持续10秒", "if_display": 1, "code": "fight_skill_buff102", 
+    "skill_group": "756124"
+  }, {
+    "id": 737, "name": "突击号令", "desc": "我方全体射速提升50%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756133"
+  }, {
+    "id": 738, "name": "急速攻击", "desc": "我方前置冷却时间缩减50%", "if_display": 1, "code": "fight_skill_buff101", 
+    "skill_group": "756134"
+  }, {
+    "id": 739, "name": "暴怒号令", "desc": "暴击伤害提升50%", "if_display": 1, "code": "fight_skill_buff102", "skill_group": "756135"
+  }, {
+    "id": 740, "name": "全面出击", "desc": "每有1种枪种全体提升30%伤害、射速、命中、闪避", "if_display": 1, "code": "fight_skill_buff103", 
+    "skill_group": "756136"
+  }, {
+    "id": 741, "name": "清除指令", "desc": "每隔8秒清除我方有益状态", "if_display": 1, "code": "fight_skill_hurt201", 
+    "skill_group": "756144"
+  }, {
+    "id": 742, "name": "暴击压制", "desc": "暴击率降低100%", "if_display": 1, "code": "fight_skill_buff201", "skill_group": "756146"
+  }, {
+    "id": 743, "name": "信道中断", "desc": "每次使用技能后技能冷却增加100%", "if_display": 1, "code": "fight_skill_buff202", 
+    "skill_group": "756147"
+  }, {
+    "id": 901, "name": "力不从心", "desc": "我方全体暴击率上升50%，但暴击伤害下降80%", "if_display": 1, "code": "fight_skill_buff107", 
+    "skill_group": "756193"
+  }, {
+    "id": 902, "name": "击搏挽裂", "desc": "我方全体伤害下降50%，同时赋予敌方全体100%易伤", "if_display": 1, "code": "fight_skill_buff301", 
+    "skill_group": "756195"
+  }, {
+    "id": 903, "name": "冰消瓦解", "desc": "敌方全体穿甲值增加200点", "if_display": 1, "code": "fight_skill_buff205", 
+    "skill_group": "756198"
+  }, {
+    "id": 904, "name": "同舟之殇", "desc": "我方除了队长以外的单位伤害下降20%", "if_display": 1, "code": "fight_skill_buff108", 
+    "skill_group": "756200"
+  }, {
+    "id": 905, "name": "燃烧打击Ⅱ", "desc": "开场在我方第二排生成燃烧区域，每0.33秒造成50点编制伤害，持续10秒", "if_display": 1, 
+    "code": "fight_skill_hurt104", "skill_group": "756202"
+  }, {
+    "id": 906, "name": "巨人痛击", "desc": "每隔10秒对敌我双方血量最高的单位造成10%最大生命值的伤害", "if_display": 1, "code": "fight_skill_hurt301", 
+    "skill_group": "756204"
+  }
 ]
