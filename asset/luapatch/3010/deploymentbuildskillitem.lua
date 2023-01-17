@@ -28,6 +28,9 @@ local ControlBuild = function(self)
 	self:ControlBuild();
 end
 
+local CheckItemCost = function(self)
+	
+end
 local checkTeamTrans = function()
 	CS.DeploymentController.Instance:CheckTeamTrans();
 end
@@ -46,7 +49,41 @@ local RequestControlBuild = function(self,data)
 		CS.DeploymentController.Instance:AddAndPlayPerformance(checkBuildOnDeath);
 	end
 end
+
+local RequestBuffControlBuild = function(self,data)
+	self:CheckCost();
+	self:RequestBuffControlBuild(data);
+end
+
+local CheckCost = function(self)
+	self:CheckCost();
+	if self.skill.itemCose.Keys.Count>0 then
+		local items = CS.System.Collections.Generic.List(CS.System.Int32)(self.skill.itemCose.Keys);
+		for i=0,items.Count-1 do
+			local itemid = items[i];
+			local costnum = self.skill.itemCose[itemid];
+			local totalnum = CS.GameData.GetItem(itemid);
+			local resnum = totalnum - costnum;
+			print("消耗"..itemid.."数目"..costnum);
+			CS.GameData.SetItem(itemid, resnum);
+		end
+	end
+	if self.skill.itemDrop.Keys.Count>0 then
+		local items = CS.System.Collections.Generic.List(CS.System.Int32)(self.skill.itemDrop.Keys);
+		for i=0,items.Count-1 do
+			local itemid = items[i];
+			local getnum = self.skill.itemDrop[itemid];
+			local totalnum = CS.GameData.GetItem(itemid);
+			local resnum = totalnum + getnum;
+			print("获取"..itemid.."数目"..getnum);
+			CS.GameData.SetItem(itemid, resnum);
+		end
+	end
+end
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'RefreshLeftUI',RefreshLeftUI)
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'SelectSkillSpot',SelectSkillSpot)
 util.hotfix_ex(CS.DeploymentBuildSkillItem,'ControlBuild',ControlBuild)
+util.hotfix_ex(CS.DeploymentBuildSkillItem,'CheckItemCost',CheckItemCost)
 util.hotfix_ex(CS.BuildSkillDetail,'RequestControlBuild',RequestControlBuild)
+util.hotfix_ex(CS.BuildSkillDetail,'RequestBuffControlBuild',RequestBuffControlBuild)
+util.hotfix_ex(CS.BuildSkillDetail,'CheckCost',CheckCost)
