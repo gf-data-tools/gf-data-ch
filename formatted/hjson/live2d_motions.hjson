@@ -29792,4 +29792,225 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 800301
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+  }
+  {
+    id: 800302
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 800303
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 800304
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Erma|DIALOGUE1
+    text: GUN|Erma|DIALOGUE1
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 800305
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Erma|DIALOGUE2
+    text: GUN|Erma|DIALOGUE2
+    name: 交互2
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 800306
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Erma|GOATTACK
+    text: GUN|Erma|GOATTACK
+    name: 交互3
+    camera: 1
+    voice_code: GOATTACK
+  }
+  {
+    id: 800307
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Erma|FEED
+    text: GUN|Erma|FEED
+    name: 交互4
+    camera: 1
+    voice_code: FEED
+  }
+  {
+    id: 800308
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|Erma|WIN
+    text: GUN|Erma|WIN
+    name: 交互5
+    camera: 1
+    voice_code: WIN
+  }
+  {
+    id: 800309
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Erma|DIALOGUEWEDDING
+    text: GUN|Erma|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 800310
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|Erma|SOULCONTRACT
+    text: GUN|Erma|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 800311
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 800312
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|Erma|HELLO
+    text: GUN|Erma|HELLO
+    name: 上线响应
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 800313
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 800314
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Erma|PHRASE
+    text: GUN|Erma|PHRASE
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: PHRASE
+  }
+  {
+    id: 800315
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|Erma|FIX
+    text: GUN|Erma|FIX
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 800316
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Erma|MEET
+    text: GUN|Erma|MEET
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: MEET
+  }
+  {
+    id: 800317
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|Erma|FORMATION
+    text: GUN|Erma|FORMATION
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: FORMATION
+  }
+  {
+    id: 800318
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|Erma|OPERATIONBEGIN
+    text: GUN|Erma|OPERATIONBEGIN
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 800319
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|Erma|HELLO
+    text: GUN|Erma|HELLO
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: HELLO
+  }
+  {
+    id: 800320
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
 ]

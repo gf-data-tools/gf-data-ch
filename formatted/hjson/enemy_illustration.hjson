@@ -3687,6 +3687,307 @@
     extra: enemy_illustration-40000180
   }
   {
+    id: 181
+    name: 稻草人-魇渊夕来
+    type: 1
+    code: Scarecrow_SpringFes
+    introduce: 稻草人-魇渊夕来，火力改造强化后的新型号。迭代升级后的浮游枪能为稻草人提供更强大的输出，而安装在稻草人指尖的指挥端口也得到了信号加强，和浮游枪之间的链接也更为紧密。据说服装设计灵感来源于神话传说中会在年底来到人类村庄大肆破坏的猛兽，它双眼的凶光能划破夜晚的黑暗，锋利的爪子能撕碎一切阻碍……恰如此刻的稻草人。
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: 情报不明,谨慎应对!
+    character: "1001"
+    enemy_skill: "179,116,180,181,182,183"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000181
+    spine_scale: "70,70,1"
+    org_id: 10604
+  }
+  {
+    id: 182
+    name: 聚类仆从
+    type: 1
+    code: Scarecrow
+    introduce: 擅长收集和分析情报，并不擅长正面作战，在铁血人形中地位较低。理性派，无口毒舌，忠于职守，鄙夷感性，面对感情丰富却只懂得服从的格里芬人形充满优越感。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,201"
+    enemy_skill: "59"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000182
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 183
+    name: 加权骑士
+    type: 1
+    code: BossGager
+    introduce: 主要担当指挥行动和人员调度，可以直接指挥作战人形，也具备不小的作战能力，地位较高，直接对代理人负责。认真严谨，一丝不苟，言行中透露出一股凛然利落的气质，即使对于敌人也很讲求原则和礼节。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,207"
+    enemy_skill: "66,67,96"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000183
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 184
+    name: 极值玩偶
+    type: 1
+    code: BossArchitect
+    introduce: 擅长远程破坏和火力支援，作战能力很强，通常独来独往。活泼开朗的没头脑元气少女，什么时候都兴高采烈，对格里芬也没有敌对意识，对于铁血只能最低限度地服从命令，但是对轰炸和破坏十分热心，所以作为敌人仍然十分危险。
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: 该单位将向预警位置制造较强伤害，且附带范围溅射，请注意指挥人形及时移动规避。
+    character: "1001,208,309"
+    enemy_skill: "68,69"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000184
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 185
+    name: 正态指挥
+    type: 1
+    code: Agent
+    introduce: 负责伊莱莎与下属铁血的沟通联络工作和后勤管理，作战人形都直接听从她的命令，地位极高，无论战斗还是指挥都很擅长，可以指挥所有作战人形。冷淡平静，有条不紊的言行做派，对敌我都会用尊敬的语气，但实际上除了对主人十分尊重之外，称呼他人的词汇都很低劣，尤其对于格里芬更是充满蔑视。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: 在该角色生成护盾时，请注意集中火力将护盾击破以中断蓄力，避免蓄力的高伤害攻击。
+    character: "1001,212"
+    enemy_skill: "77,78"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000185
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 186
+    name: 离散测绘员
+    type: 1
+    code: Excutioner
+    introduce: 相当于精英斥候，比稻草人地位稍高，两人经常搭档。莽撞冲动，大大咧咧的女汉子，热衷于堂堂正正的战斗，并不喜欢欺负弱者。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 2
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,202,309"
+    enemy_skill: "60"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000186
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 187
+    name: 方差牧童
+    type: 1
+    code: Destroyer
+    introduce: 擅长爆破任务，解除炸弹也是专家级的，作战能力也不错，和炼金术士有时会搭档。平时高傲，毒舌，实际上是个傲娇，有点小孩子脾气，逼急了会哭鼻子，十分在意自己的身高。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: 该单位具有极高的单发伤害，但是攻速较慢，命中一般，回避型人形会有更好的防御效果。
+    character: "1001,206"
+    enemy_skill: "64,99"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000187
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 188
+    name: 似然近卫
+    type: 1
+    code: Weaver
+    introduce: 擅长短距离的突破或者防御作战，智能和作战能力很高，是蝴蝶事件之后才制造的人形，但因为是制造时期的试验品，AI极不稳定且很难被控制。表面沉稳内心高傲，拥有强劲的武力和智力优势，但是实战经验较少，而且行事风格捉摸不定，令敌我双方都难以预判，因此具有极高的危险度。
+    forces: 1
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: 该单位将向预警位置制造较强伤害，请注意指挥人形及时移动规避。
+    character: "1001,210,309"
+    enemy_skill: "71,98"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000188
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 189
+    name: 混沌歌者
+    type: 1
+    code: Dreamer
+    introduce: 偏向作战能力，拥有超远距离定点打击的能力，由伊莱莎直接下令指挥，是蝴蝶事件之后才制造的人形，因为自身能力不需要正面出击，所以平时只呆在铁血总部，以捉弄法官为乐。优雅的笑容中透着傲慢和难以捉摸，精神状态极不稳定，总是以自我为中心作战中会露出疯狂而不受控制的一面，加上可怕的破坏力，连同伴的安全都不会考虑所幸的是通常不会出现在正面战场上。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位射程较远，请注意梯队整体移动速度，避免移动时间过长导致战损加重。
+    character: "1001,209"
+    enemy_skill: "70,97"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000189
+    spine_scale: "75,75,1"
+  }
+  {
+    id: 190
+    name: 后验纺工
+    type: 1
+    code: Hunter
+    introduce: 机动和智能都比较高，擅长骚扰和追击作战，需要稻草人与行裁者的配合才能发挥最强的实力。沉着冷静，喜欢用各种手段将敌人逼到走投无路再活捉，面对格里芬十分高傲，但不屑于使用过于卑劣的手段。
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 4
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,203,309"
+    enemy_skill: "62"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000190
+    spine_scale: "75,75,1"
+  }
+  {
+    id: 191
+    name: 游移祭司
+    type: 1
+    code: Alchemist
+    introduce: 擅长应对各种战术需求，也精通审讯逼供，是铁血作战的精英，和破坏者有时会搭档。狂妄自大，嚣张而残忍，为达目的不择手段，有施虐倾向，将格里芬视为满足欲望的玩物，不过心理成熟，可以为铁血的同伴挺身而出。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,205"
+    enemy_skill: "63"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000191
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 192
+    name: 扰动修士
+    type: 1
+    code: Intruder
+    introduce: 负责提供作战策略，也擅长破解和干扰工作，可以直接指挥作战人形，是稍高级的人形，直接对计量官负责。优雅温和的言行背后，令人感到的是巨大的空洞，喜欢人类的戏剧，可能是希望从中找到自己的个性。
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,204"
+    enemy_skill: "84"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000192
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 193
+    name: 收敛愚者
+    type: 1
+    code: Justice
+    introduce: 偏向指挥能力，负责铁血总部的防御和安全系统，相当于伊莱莎的侍卫，只会听从伊莱莎个人的命令，是蝴蝶事件之后才制造的人形，整天面对梦想家很头疼。严肃古板，充满军人的威严和风范，对伊莱莎绝对忠诚，但个子比较矮小，让人觉得缺乏气势，提出这一点的人无论敌我都会倒大霉。
+    forces: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: 该单位攻速较高、伤害一般，且会同时攻击多个单位，推荐使用霰弹枪人形搭配足够的护甲进行抵御，同时请注意及时躲避地面的紫色区域，避免受到持续的伤害以及弱化效果。
+    character: "1001,211,309"
+    enemy_skill: "73,74,75"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000193
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 194
+    name: 魇渊夕来
+    type: 1
+    code: Scarecrow_SpringFes
+    introduce: 稻草人-魇渊夕来，火力改造强化后的新型号。迭代升级后的浮游枪能为稻草人提供更强大的输出，而安装在稻草人指尖的指挥端口也得到了信号加强，和浮游枪之间的链接也更为紧密。据说服装设计灵感来源于神话传说中会在年底来到人类村庄大肆破坏的猛兽，它双眼的凶光能划破夜晚的黑暗，锋利的爪子能撕碎一切阻碍……恰如此刻的稻草人。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: 情报不明,谨慎应对!
+    character: "1001"
+    enemy_skill: "179,116,180,181,182,183"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000194
+    spine_scale: "70,70,1"
+  }
+  {
     id: 100001
     name: 鹗视虎
     type: 1

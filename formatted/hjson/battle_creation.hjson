@@ -76414,6 +76414,357 @@
     scale: "1"
   }
   {
+    id: 9099
+    name: zb换弹
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "99"
+    buff_id: "8726"
+    scale: "1"
+  }
+  {
+    id: 9100
+    name: 稻草人的子弹1-1
+    code: 19tiexue_boss_P_Scarecrow all 7
+    start_type: muzzle1
+    start_offset: "1,-0.2,0"
+    destination_type: "5"
+    destination_offset: "0.4,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2316"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9101
+    name: 稻草人的子弹1-2
+    code: 19tiexue_boss_P_Scarecrow all 7
+    start_type: muzzle2
+    start_offset: "1,-0.2,0"
+    destination_type: "5"
+    destination_offset: "0.8,0,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2316"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9102
+    name: 稻草人的子弹1-3
+    code: 19tiexue_boss_P_Scarecrow all 7
+    start_type: muzzle3
+    start_offset: "0.2,0,0"
+    destination_type: "5"
+    destination_offset: "0.4,0,1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2316"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9103
+    name: 稻草人的子弹2-1
+    code: 19tiexue_boss_P_Scarecrow 6
+    start_type: muzzle1
+    start_offset: "1,-0.2,0"
+    destination_type: "5"
+    destination_offset: "0.4,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.2"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9104
+    name: 稻草人的子弹2-2
+    code: 19tiexue_boss_P_Scarecrow 6
+    start_type: muzzle2
+    start_offset: "1,-0.2,0"
+    destination_type: "5"
+    destination_offset: "0.8,0,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.2"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9105
+    name: 稻草人的子弹2-3
+    code: 19tiexue_boss_P_Scarecrow 6
+    start_type: muzzle3
+    start_offset: "0.2,0,0"
+    destination_type: "5"
+    destination_offset: "0.4,0,1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.2"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9106
+    name: 稻草人的子弹2-hurt
+    start_type: muzzle1
+    start_offset: "1,-0.2,0"
+    destination_type: "5"
+    destination_offset: "0.4,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2317"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9107
+    name: 我方获得护盾
+    start_type: "3"
+    start_offset: "10"
+    destination_type: "3"
+    destination_offset: "10"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "3"
+    buff_id: "8737"
+    scale: "20,0.2,3"
+  }
+  {
+    id: 9108
+    name: 敌方伤害和麻痹
+    start_type: "3"
+    start_offset: "10"
+    destination_type: "3"
+    destination_offset: "10"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "3"
+    hurt_id: "2318"
+    buff_id: "8739"
+    scale: "10,0.2,3"
+  }
+  {
+    id: 9109
+    name: 新春稻草人激光表现
+    code: XNDCR_skill
+    start_type: "3"
+    start_offset: "0,1.1,0"
+    destination_type: "3"
+    destination_offset: "0,1.1,0"
+    exist_duration: "150"
+    scale: "1"
+  }
+  {
+    id: 9110
+    name: 护盾草叶buff
+    code: XNDCR_buff_hc
+    start_type: "3"
+    start_offset: "-0.3,0,0"
+    destination_type: "3"
+    destination_offset: "-0.3,0,0"
+    exist_duration: "90"
+    scale: "0.9,0.9,1"
+  }
+  {
+    id: 9111
+    name: 麻痹藤曼buff
+    code: XNDCR_tw
+    start_type: "3"
+    start_offset: "0,0.43,0"
+    destination_type: "3"
+    destination_offset: "0,0.43,0"
+    exist_duration: "90"
+    scale: "0.8,0.8,1"
+  }
+  {
+    id: 9112
+    name: 光圈
+    code: XNDCR_gq
+    start_type: "3"
+    start_offset: "-1,1.1,0"
+    destination_type: "3"
+    destination_offset: "-1,1.1,0"
+    rotate: "20,-50,0"
+    exist_duration: "60"
+    scale: "4.5,4.5,4.5"
+  }
+  {
+    id: 9113
+    name: 星光
+    code: XNDCR_xing
+    start_type: muzzle1
+    start_offset: "0,-0.2,0"
+    destination_type: muzzle1
+    destination_offset: "0,-0.2,0"
+    exist_duration: "60"
+    scale: "1"
+  }
+  {
+    id: 9114
+    name: 星光
+    code: XNDCR_xing
+    start_type: muzzle2
+    start_offset: "-0.5,-0.2,0"
+    destination_type: muzzle2
+    destination_offset: "-0.5,-0.2,0"
+    exist_duration: "60"
+    scale: "1"
+  }
+  {
+    id: 9115
+    name: 星光
+    code: XNDCR_xing
+    start_type: muzzle3
+    start_offset: "-0.7,0,0"
+    destination_type: muzzle3
+    destination_offset: "-0.7,0,0"
+    exist_duration: "60"
+    scale: "1"
+  }
+  {
+    id: 9116
+    name: 枪口火花普通
+    code: 19tiexue_boss_P_Scarecrow 5
+    start_type: muzzle1
+    start_offset: "0,-0.2,0"
+    destination_type: muzzle1
+    destination_offset: "0,-0.2,0"
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9117
+    name: 枪口火花普通
+    code: 19tiexue_boss_P_Scarecrow 5
+    start_type: muzzle2
+    start_offset: "-0.5,-0.2,0"
+    destination_type: muzzle2
+    destination_offset: "-0.5,-0.2,0"
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9118
+    name: 枪口火花普通
+    code: 19tiexue_boss_P_Scarecrow 5
+    start_type: muzzle3
+    start_offset: "-0.7,0,0"
+    destination_type: muzzle3
+    destination_offset: "-0.7,0,0"
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9119
+    name: 枪口火花技能
+    code: 19tiexue_boss_P_Scarecrow 2
+    start_type: muzzle1
+    start_offset: "0,-0.2,0"
+    destination_type: muzzle1
+    destination_offset: "0,-0.2,0"
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9120
+    name: 枪口火花技能
+    code: 19tiexue_boss_P_Scarecrow 2
+    start_type: muzzle2
+    start_offset: "-0.5,-0.2,0"
+    destination_type: muzzle2
+    destination_offset: "-0.5,-0.2,0"
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9121
+    name: 枪口火花技能
+    code: 19tiexue_boss_P_Scarecrow 2
+    start_type: muzzle3
+    start_offset: "-0.7,0,0"
+    destination_type: muzzle3
+    destination_offset: "-0.7,0,0"
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9122
+    name: 受击
+    code: 19tiexue_boss_P_Scarecrow 4
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9123
+    name: 禁足buff
+    code: 19tiexue_boss_P_Scarecrow_1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -81543,6 +81894,268 @@
     summoner_order: "1637"
   }
   {
+    id: 10343
+    name: 稻草人子弹1
+    code: zidan4_Enemy
+    start_type: muzzle1
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "626"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 10344
+    name: 稻草人子弹2
+    code: zidan4_Enemy
+    start_type: muzzle2
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "627"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 10345
+    name: 稻草人子弹3
+    code: zidan4_Enemy
+    start_type: muzzle3
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "630"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 10346
+    name: 年兽召唤1
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "9,0,-0.3;9,0,-2.3;9,0,-4.3"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1651"
+  }
+  {
+    id: 10347
+    name: 年兽召唤2
+    start_type: "8"
+    destination_type: "8"
+    random_number: "1"
+    random_offset: "9,0,0;9,0,-2.8"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1651"
+  }
+  {
+    id: 10348
+    name: 敌人透明子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "631"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_pistol
+  }
+  {
+    id: 10349
+    name: 稻草人随机一排1
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    rotate: "90,0,0"
+    exist_duration: "78"
+    effect_area: 1
+    buff_id: 760004:-5,760005:-5,760006:-5,760007:-5,760008:-5,760029:-5,760030:-5,760031:-5,760032:-5,760033:-5,5033:1,761010:-5,761012:-5,761013:-5
+    buff_cd: "0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10357"
+    trigger_creation_delay: "75"
+  }
+  {
+    id: 10350
+    name: 稻草人随机一排2
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "0,0,-4.2"
+    destination_type: "7"
+    destination_offset: "0,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "78"
+    effect_area: 1
+    buff_id: 760004:-5,760005:-5,760006:-5,760007:-5,760008:-5,760029:-5,760030:-5,760031:-5,760032:-5,760033:-5,5033:1,761010:-5,761012:-5,761013:-5
+    buff_cd: "0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10357"
+    trigger_creation_delay: "75"
+  }
+  {
+    id: 10351
+    name: 稻草人随机一排3
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "0,0,-8.4"
+    destination_type: "7"
+    destination_offset: "0,0,-8.4"
+    rotate: "90,0,0"
+    exist_duration: "78"
+    effect_area: 1
+    buff_id: 760004:-5,760005:-5,760006:-5,760007:-5,760008:-5,760029:-5,760030:-5,760031:-5,760032:-5,760033:-5,5033:1,761010:-5,761012:-5,761013:-5
+    buff_cd: "0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10357,10390"
+    trigger_creation_delay: "75,45"
+  }
+  {
+    id: 10352
+    name: 稻草人随机一列1
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    rotate: "90,0,0"
+    exist_duration: "78"
+    effect_area: 1
+    buff_id: 760004:-5,760005:-5,760006:-5,760007:-5,760008:-5,760029:-5,760030:-5,760031:-5,760032:-5,760033:-5,5033:1,761010:-5,761012:-5,761013:-5
+    buff_cd: "0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10357,10389"
+    trigger_creation_delay: "75,45"
+  }
+  {
+    id: 10353
+    name: 稻草人随机一列2
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "-2.4,0,0"
+    destination_type: "7"
+    destination_offset: "-2.4,0,0"
+    rotate: "90,0,0"
+    exist_duration: "78"
+    effect_area: 1
+    buff_id: 760004:-5,760005:-5,760006:-5,760007:-5,760008:-5,760029:-5,760030:-5,760031:-5,760032:-5,760033:-5,5033:1,761010:-5,761012:-5,761013:-5
+    buff_cd: "0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10357"
+    trigger_creation_delay: "75"
+  }
+  {
+    id: 10354
+    name: 稻草人随机一列3
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "-4.8,0,0"
+    destination_type: "7"
+    destination_offset: "-4.8,0,0"
+    rotate: "90,0,0"
+    exist_duration: "78"
+    effect_area: 1
+    buff_id: 760004:-5,760005:-5,760006:-5,760007:-5,760008:-5,760029:-5,760030:-5,760031:-5,760032:-5,760033:-5,5033:1,761010:-5,761012:-5,761013:-5
+    buff_cd: "0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10357"
+    trigger_creation_delay: "75"
+  }
+  {
+    id: 10355
+    name: 稻草人随机一排
+    start_type: "8"
+    start_offset: "-1.5,0,2.5"
+    destination_type: "8"
+    destination_offset: "-1.5,0,2.5"
+    random_number: "1"
+    random_offset: "0,0,0;-2.4,0,0;-4.8,0,0"
+    rotate: "90,0,0"
+    exist_duration: "10"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "10349,10350,10351"
+    trigger_creation_delay: "0,0,0"
+  }
+  {
+    id: 10356
+    name: 稻草人随机一列
+    start_type: "8"
+    start_offset: "-1.5,0,2.5"
+    destination_type: "8"
+    destination_offset: "-1.5,0,2.5"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,-4.2;0,0,-8.4"
+    rotate: "90,0,0"
+    exist_duration: "10"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "10352,10353,10354"
+    trigger_creation_delay: "0,0,0"
+  }
+  {
+    id: 10357
+    name: 位置伤害
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    hurt_id: "629"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10389
+    name: 新春稻草人特效竖
+    code: FYP_jg_01
+    start_type: "7"
+    start_offset: "2.45,3.1"
+    destination_type: "7"
+    destination_offset: "2.45,3.1"
+    exist_duration: "90"
+    scale: "1"
+  }
+  {
+    id: 10390
+    name: 新春稻草人特效横
+    code: FYP_jg_02
+    start_type: "7"
+    start_offset: "2.45,3.1"
+    destination_type: "7"
+    destination_offset: "2.45,3.1"
+    exist_duration: "90"
+    scale: "1"
+  }
+  {
     id: 26001
     name: 人偶扳机2
     code: bullet/bullet2
@@ -82437,6 +83050,748 @@
     creation_type: 2
     scale: "1"
     sound_order: skill_hugerobot_enemy_white_explo
+  }
+  {
+    id: 70001
+    name: 迫击妖精
+    code: 迫击炮
+    start_type: "8"
+    start_offset: "-15,20,0"
+    destination_type: "5"
+    decision_offset: "19"
+    is_tracing: 1
+    is_clone: 1
+    route_type: 2
+    route_hight: 2500
+    speed: 1500
+    rotate: "0,0,110"
+    is_form_play: 1
+    scale: "1,1"
+    trigger_creation_id: "70002"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 70002
+    name: 迫击妖精榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "70002"
+    buff_id: 760021:1000070011
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 70003
+    name: 空袭妖精榴弹结算范围
+    code: b29/KXyaojing_2
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "45"
+    is_form_play: 1
+    scale: "0.2,0.2"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 70004
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "0.5"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70005
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70006
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "1.5"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70007
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "3"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70008
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "4.5"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70009
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "6"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70010
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "7.5"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70011
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "9"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70012
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "10.5"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70013
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "12"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70014
+    name: 空袭妖精炸弹
+    code: b29/KXyaojing_3
+    start_type: "8"
+    start_offset: "0,15"
+    destination_type: "8"
+    destination_offset: "13.5"
+    decision_offset: "-8"
+    random_number: "1"
+    random_offset: "0,0,8;0,0,4;0,0,0;0,0,-4;0,0,-8"
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    trigger_creation_id: "70003"
+    trigger_creation_delay: "2"
+  }
+  {
+    id: 70015
+    name: 空袭妖精飞机
+    code: b29/KXyaojing_1
+    start_type: "8"
+    start_offset: "-15"
+    destination_type: "8"
+    destination_offset: "30"
+    decision_offset: "30"
+    route_type: 1
+    speed: 4000
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 70016
+    name: 空袭妖精炸弹伤害判定
+    start_type: "8"
+    start_offset: "-5"
+    destination_type: "8"
+    destination_offset: "-5"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "30"
+    effect_param_2: "20"
+    hurt_id: "70003"
+    buff_id: 760022:1000070012
+    is_form_play: 1
+    scale: "30,0.5,20"
+  }
+  {
+    id: 70017
+    name: 炮击妖精瞄准
+    code: mortars/paojitishi 2
+    start_type: "6"
+    start_offset: "0,2.5"
+    destination_type: "6"
+    destination_offset: "0,2.5"
+    is_tracing: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 70018
+    name: 狙击子弹尾迹10
+    code: SniperSkillBullet
+    start_type: "8"
+    start_offset: "-8"
+    destination_type: "5"
+    route_type: 4
+    speed: 6000
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "70004"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "70020"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 70019
+    name: 狙击妖精瞄准10
+    code: sniperfairy/juji_yaojing 1 2
+    start_type: "6"
+    start_offset: "0,0.8"
+    destination_type: "6"
+    destination_offset: "0,0.8"
+    is_tracing: 1
+    exist_duration: "90"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 70020
+    name: 狙击妖精枪口火花
+    code: sniperfairy/juji2_yaojing 1 1 1
+    start_type: "7"
+    start_offset: "1,0.6"
+    destination_type: "7"
+    destination_offset: "1,0.6"
+    is_tracing: 1
+    exist_duration: "15"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 70021
+    name: (狙击)造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-10"
+    destination_type: "8"
+    destination_offset: "-30,0,-10"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760035"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70022
+    name: (狙击)对精英单位造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-10"
+    destination_type: "8"
+    destination_offset: "-30,0,-10"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760036"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70023
+    name: (狙击)间隔时间改为3秒
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-10"
+    destination_type: "8"
+    destination_offset: "-30,0,-10"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760037"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70024
+    name: (狙击)时为所有人形赋予[精密]
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-10"
+    destination_type: "8"
+    destination_offset: "-30,0,-10"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760038"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70025
+    name: (狙击)时为目标赋予[破甲]
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-10"
+    destination_type: "8"
+    destination_offset: "-30,0,-10"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760039"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70026
+    name: (狙击)对被(破甲)的目标造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-10"
+    destination_type: "8"
+    destination_offset: "-30,0,-10"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760040"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70027
+    name: (炮击)造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-15"
+    destination_type: "8"
+    destination_offset: "-30,0,-15"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760041"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70028
+    name: (炮击)对单编制敌人造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-15"
+    destination_type: "8"
+    destination_offset: "-30,0,-15"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760042"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70029
+    name: (炮击)间隔时间改为3秒
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-15"
+    destination_type: "8"
+    destination_offset: "-30,0,-15"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760043"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70030
+    name: (炮击)时为所有人形赋予[专注]
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-15"
+    destination_type: "8"
+    destination_offset: "-30,0,-15"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760044"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70031
+    name: (炮击)时为目标赋予[震荡]
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-15"
+    destination_type: "8"
+    destination_offset: "-30,0,-15"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760045"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70032
+    name: (炮击)对被(震荡)的目标造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-15"
+    destination_type: "8"
+    destination_offset: "-30,0,-15"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760046"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70033
+    name: (空袭)造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-20"
+    destination_type: "8"
+    destination_offset: "-30,0,-20"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760047"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70034
+    name: (空袭)对非精英敌人造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-20"
+    destination_type: "8"
+    destination_offset: "-30,0,-20"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760048"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70035
+    name: (空袭)间隔时间改为3秒
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-20"
+    destination_type: "8"
+    destination_offset: "-30,0,-20"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760049"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70036
+    name: (空袭)时为所有人形赋予[会心]
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-20"
+    destination_type: "8"
+    destination_offset: "-30,0,-20"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760050"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70037
+    name: (空袭)时为目标赋予[点燃]
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-20"
+    destination_type: "8"
+    destination_offset: "-30,0,-20"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760051"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
+  }
+  {
+    id: 70038
+    name: (空袭)对被(点燃)的目标造成的伤害提高100%
+    code: testcube
+    start_type: "8"
+    start_offset: "-30,0,-20"
+    destination_type: "8"
+    destination_offset: "-30,0,-20"
+    is_tracing: 1
+    exist_duration: "999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "6"
+    effect_param_2: "6"
+    buff_id: "760052"
+    buff_cd: "15"
+    is_form_play: 1
+    creation_type: 2
+    scale: "6,0.2,6"
+    is_die_delete: 1
   }
   {
     id: 79301
@@ -97412,6 +98767,19 @@
     is_form_play: 1
     creation_type: 2
     scale: "1"
+  }
+  {
+    id: 912301
+    name: 禁足buff
+    code: 19tiexue_boss_P_Scarecrow_1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
   }
   {
     id: 975001

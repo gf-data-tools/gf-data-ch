@@ -455,4 +455,684 @@
     code: fight_skill_hurt301
     skill_group: "756204"
   }
+  {
+    id: 1133001
+    name: 狙击支援
+    desc: 开场后每6秒触发一次[狙击]，对威胁最高的敌人造成18000无视护甲的伤害
+    if_display: 1
+    code: Rouge_590001
+    skill_group: "778099"
+  }
+  {
+    id: 1133002
+    name: 狙击强化
+    desc: (狙击)造成的伤害提高50%
+    if_display: 1
+    code: Rouge_590002
+    skill_group: "778104"
+  }
+  {
+    id: 1133003
+    name: 定点清除
+    desc: (狙击)对精英单位造成的伤害提高100%
+    if_display: 1
+    code: Rouge_590003
+    skill_group: "778105"
+  }
+  {
+    id: 1133004
+    name: 连携炮击
+    desc: (狙击)时额外触发一次[炮击]，对小范围内的敌人造成6000无视护甲的编制伤害，内置CD3秒
+    if_display: 1
+    code: Rouge_590004
+    skill_group: "900107"
+  }
+  {
+    id: 1133005
+    name: 心眼
+    desc: (狙击)时为所有人形赋予[精密]
+    if_display: 1
+    code: Rouge_590005
+    skill_group: "778107"
+  }
+  {
+    id: 1133006
+    name: 穿甲弹头
+    desc: (狙击)时为目标赋予[破甲]
+    if_display: 1
+    code: Rouge_590006
+    skill_group: "778108"
+  }
+  {
+    id: 1133007
+    name: 炮击支援
+    desc: 开场后每6秒触发一次[炮击]，对小范围内的敌人造成6000无视护甲的编制伤害
+    if_display: 1
+    code: Rouge_590101
+    skill_group: "778097"
+  }
+  {
+    id: 1133008
+    name: 炮击强化
+    desc: (炮击)造成的伤害提高50%
+    if_display: 1
+    code: Rouge_590102
+    skill_group: "778110"
+  }
+  {
+    id: 1133009
+    name: 集束炮击
+    desc: (炮击)对单编制敌人造成的伤害提高100%
+    if_display: 1
+    code: Rouge_590103
+    skill_group: "778111"
+  }
+  {
+    id: 1133010
+    name: 连携空袭
+    desc: (炮击)时额外触发一次[空袭]，对全部敌人造成2000无视护甲的编制伤害，内置CD3秒
+    if_display: 1
+    code: Rouge_590104
+    skill_group: "900107"
+  }
+  {
+    id: 1133011
+    name: 英勇
+    desc: (炮击)时为所有人形赋予[专注]
+    if_display: 1
+    code: Rouge_590105
+    skill_group: "778113"
+  }
+  {
+    id: 1133012
+    name: 冲击弹药
+    desc: (炮击)时为目标赋予[震荡]
+    if_display: 1
+    code: Rouge_590106
+    skill_group: "778114"
+  }
+  {
+    id: 1133013
+    name: 空袭支援
+    desc: 开场后每6秒触发一次[空袭]，对全部敌人造成2000无视护甲的编制伤害
+    if_display: 1
+    code: Rouge_590201
+    skill_group: "778095"
+  }
+  {
+    id: 1133014
+    name: 空袭强化
+    desc: (空袭)造成的伤害提高50%
+    if_display: 1
+    code: Rouge_590202
+    skill_group: "778116"
+  }
+  {
+    id: 1133015
+    name: 地毯轰炸
+    desc: (空袭)对非精英敌人造成的伤害提高100%
+    if_display: 1
+    code: Rouge_590203
+    skill_group: "778117"
+  }
+  {
+    id: 1133016
+    name: 连携狙击
+    desc: (空袭)时额外触发一次[狙击]，对威胁最高的敌人造成18000无视护甲的伤害，内置CD3秒
+    if_display: 1
+    code: Rouge_590204
+    skill_group: "900107"
+  }
+  {
+    id: 1133017
+    name: 嗜血
+    desc: (空袭)时为所有人形赋予[会心]
+    if_display: 1
+    code: Rouge_590205
+    skill_group: "778119"
+  }
+  {
+    id: 1133018
+    name: 天降火海
+    desc: (空袭)时为目标赋予[点燃]
+    if_display: 1
+    code: Rouge_590206
+    skill_group: "778120"
+  }
+  {
+    id: 1133019
+    name: 破甲
+    desc: 战斗开始时为所有敌人赋予1层[破甲]，随后每6秒为生命最高和护甲最高的敌人赋予1层[破甲]
+    if_display: 1
+    code: Rouge_590301
+    skill_group: "778164"
+  }
+  {
+    id: 1133020
+    name: 易碎
+    desc: (破甲)最多可叠加3层
+    if_display: 1
+    code: Rouge_590302
+    skill_group: "778175"
+  }
+  {
+    id: 1133021
+    name: 破甲强化
+    desc: (破甲)的持续时间提高至12秒
+    if_display: 1
+    code: Rouge_590303
+    skill_group: "778168"
+  }
+  {
+    id: 1133022
+    name: 震荡
+    desc: 战斗开始时为所有敌人赋予1层[震荡]，随后每6秒为伤害最高和最远的敌人赋予1层[震荡]
+    if_display: 1
+    code: Rouge_590401
+    skill_group: "778160"
+  }
+  {
+    id: 1133023
+    name: 易爆
+    desc: (震荡)最多可叠加3层
+    if_display: 1
+    code: Rouge_590402
+    skill_group: "778176"
+  }
+  {
+    id: 1133024
+    name: 震荡强化
+    desc: (震荡)的持续时间提高至12秒
+    if_display: 1
+    code: Rouge_590403
+    skill_group: "778169"
+  }
+  {
+    id: 1133025
+    name: 点燃
+    desc: 战斗开始时为所有敌人赋予1层[点燃]，随后每6秒为生命最高和最低的敌人赋予1层[点燃]
+    if_display: 1
+    code: Rouge_590501
+    skill_group: "778156"
+  }
+  {
+    id: 1133026
+    name: 易燃
+    desc: (点燃)最多可叠加3层
+    if_display: 1
+    code: Rouge_590502
+    skill_group: "778177"
+  }
+  {
+    id: 1133027
+    name: 点燃强化
+    desc: (点燃)的持续时间提高至12秒
+    if_display: 1
+    code: Rouge_590503
+    skill_group: "778170"
+  }
+  {
+    id: 1133028
+    name: 专注
+    desc: 战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[专注]
+    if_display: 1
+    code: Rouge_590601
+    skill_group: "778153"
+  }
+  {
+    id: 1133029
+    name: 专注强化
+    desc: (专注)的效果提高至100%
+    if_display: 1
+    code: Rouge_590602
+    skill_group: "778171"
+  }
+  {
+    id: 1133030
+    name: 明镜止水
+    desc: (专注)可叠加3层
+    if_display: 1
+    code: Rouge_590603
+    skill_group: "778178"
+  }
+  {
+    id: 1133031
+    name: 速射
+    desc: 战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[速射]
+    if_display: 1
+    code: Rouge_590604
+    skill_group: "778150"
+  }
+  {
+    id: 1133032
+    name: 速射强化
+    desc: (速射)的效果提高至100%
+    if_display: 1
+    code: Rouge_590605
+    skill_group: "778172"
+  }
+  {
+    id: 1133033
+    name: 限制解除
+    desc: 赋予(速射)后若目标拥有2层(速射)，则额外赋予1层[专注]
+    if_display: 1
+    code: Rouge_590606
+    skill_group: "778179"
+  }
+  {
+    id: 1133034
+    name: 精密
+    desc: 战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[精密]
+    if_display: 1
+    code: Rouge_590701
+    skill_group: "778147"
+  }
+  {
+    id: 1133035
+    name: 精密强化
+    desc: (精密)的效果提高至100%命中及50%暴击
+    if_display: 1
+    code: Rouge_590702
+    skill_group: "778173"
+  }
+  {
+    id: 1133036
+    name: 直死魔眼
+    desc: 赋予(精密)后若目标拥有2层(精密)，则额外赋予1层[会心]
+    if_display: 1
+    code: Rouge_590703
+    skill_group: "778180"
+  }
+  {
+    id: 1133037
+    name: 会心
+    desc: 战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[会心]
+    if_display: 1
+    code: Rouge_590704
+    skill_group: "778144"
+  }
+  {
+    id: 1133038
+    name: 会心强化
+    desc: (会心)的效果提高至50%
+    if_display: 1
+    code: Rouge_590705
+    skill_group: "778174"
+  }
+  {
+    id: 1133039
+    name: 自动校准
+    desc: 赋予(会心)后若目标不拥有(精密)，则额外赋予1层[精密]
+    if_display: 1
+    code: Rouge_590706
+    skill_group: "778181"
+  }
+  {
+    id: 1133040
+    name: 强化
+    desc: 战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[强化]
+    if_display: 1
+    code: Rouge_590801
+    skill_group: "778137"
+  }
+  {
+    id: 1133041
+    name: 强化增幅
+    desc: (强化)的效果提高至40%
+    if_display: 1
+    code: Rouge_590802
+    skill_group: "778141"
+  }
+  {
+    id: 1133042
+    name: 耐性
+    desc: 战斗开始后每6秒为生命最高和护甲的人形赋予1层[耐性]
+    if_display: 1
+    code: Rouge_590901
+    skill_group: "778139"
+  }
+  {
+    id: 1133043
+    name: 耐性增幅
+    desc: (耐性)的效果提高至50%
+    if_display: 1
+    code: Rouge_590902
+    skill_group: "778001"
+  }
+  {
+    id: 1133044
+    name: 突击专注
+    desc: 若场上AR人形数量>=2，第3秒起每6秒为所有AR人形赋予1层[专注]
+    if_display: 1
+    code: Rouge_591001
+    skill_group: "778014"
+  }
+  {
+    id: 1133045
+    name: 突击精密
+    desc: 若场上AR人形数量>=2，第3秒起每6秒为所有AR人形赋予1层[精密]
+    if_display: 1
+    code: Rouge_591002
+    skill_group: "778015"
+  }
+  {
+    id: 1133046
+    name: 突击强化
+    desc: 若场上AR人形数量>=2，第3秒起每6秒为所有AR人形赋予1层[强化]
+    if_display: 1
+    code: Rouge_591003
+    skill_group: "778016"
+  }
+  {
+    id: 1133047
+    name: 炮击小队
+    desc: 若场上AR人形数量>=2，第3秒起每6秒触发一次[炮击]，对小范围内的敌人造成6000无视护甲的编制伤害
+    if_display: 1
+    code: Rouge_591004
+    skill_group: "778017"
+  }
+  {
+    id: 1133048
+    name: 冲锋会心
+    desc: 若场上SMG人形数量>=2，第3秒起每6秒为所有人形赋予1层[会心]
+    if_display: 1
+    code: Rouge_591101
+    skill_group: "778018"
+  }
+  {
+    id: 1133049
+    name: 冲锋强化
+    desc: 若场上SMG人形数量>=2，第3秒起每6秒为所有人形赋予1层[强化]
+    if_display: 1
+    code: Rouge_591102
+    skill_group: "778019"
+  }
+  {
+    id: 1133050
+    name: 冲锋耐性
+    desc: 若场上SMG人形数量>=2，第3秒起每6秒为所有人形赋予1层[耐性]
+    if_display: 1
+    code: Rouge_591103
+    skill_group: "778020"
+  }
+  {
+    id: 1133051
+    name: 燃烧手雷
+    desc: 若场上SMG人形数量>=1，第3秒起每6秒为3个随机敌人赋予1层[点燃]
+    if_display: 1
+    code: Rouge_591104
+    skill_group: "778021"
+  }
+  {
+    id: 1133052
+    name: 步枪速射
+    desc: 若场上RF人形数量>=2，第3秒起每6秒为所有RF人形赋予1层[速射]
+    if_display: 1
+    code: Rouge_591201
+    skill_group: "778022"
+  }
+  {
+    id: 1133053
+    name: 步枪会心
+    desc: 若场上RF人形数量>=2，第3秒起每6秒为所有RF人形赋予1层[会心]
+    if_display: 1
+    code: Rouge_591202
+    skill_group: "778023"
+  }
+  {
+    id: 1133054
+    name: 步枪强化
+    desc: 若场上RF人形数量>=2，第3秒起每6秒为所有RF人形赋予1层[强化]
+    if_display: 1
+    code: Rouge_591203
+    skill_group: "778024"
+  }
+  {
+    id: 1133055
+    name: 狙击小队
+    desc: 若场上RF人形数量>=2，第3秒起每6秒触发一次[狙击]，对威胁最高的敌人造成18000无视护甲的伤害
+    if_display: 1
+    code: Rouge_591204
+    skill_group: "778025"
+  }
+  {
+    id: 1133056
+    name: 手枪专注
+    desc: 若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[专注]
+    if_display: 1
+    code: Rouge_591301
+    skill_group: "778026"
+  }
+  {
+    id: 1133057
+    name: 手枪速射
+    desc: 若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[速射]
+    if_display: 1
+    code: Rouge_591302
+    skill_group: "778027"
+  }
+  {
+    id: 1133058
+    name: 手枪精密
+    desc: 若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[精密]
+    if_display: 1
+    code: Rouge_591303
+    skill_group: "778028"
+  }
+  {
+    id: 1133059
+    name: 手枪会心
+    desc: 若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[会心]
+    if_display: 1
+    code: Rouge_591304
+    skill_group: "778029"
+  }
+  {
+    id: 1133060
+    name: 机枪精密
+    desc: 若场上MG人形数量>=2，第3秒起每6秒为所有MG人形赋予1层[精密]
+    if_display: 1
+    code: Rouge_591401
+    skill_group: "778030"
+  }
+  {
+    id: 1133061
+    name: 机枪会心
+    desc: 若场上MG人形数量>=2，第3秒起每6秒为所有MG人形赋予1层[会心]
+    if_display: 1
+    code: Rouge_591402
+    skill_group: "778031"
+  }
+  {
+    id: 1133062
+    name: 机枪强化
+    desc: 若场上MG人形数量>=2，第3秒起每6秒为所有MG人形赋予1层[强化]
+    if_display: 1
+    code: Rouge_591403
+    skill_group: "778032"
+  }
+  {
+    id: 1133063
+    name: 空袭小队
+    desc: 若场上MG人形数量>=2，第3秒起每6秒触发一次[空袭]，对全部敌人造成2000无视护甲的编制伤害
+    if_display: 1
+    code: Rouge_591404
+    skill_group: "778033"
+  }
+  {
+    id: 1133064
+    name: 霰弹专注
+    desc: 若场上SG人形数量>=2，第3秒起每6秒为所有人形赋予1层[专注]
+    if_display: 1
+    code: Rouge_591501
+    skill_group: "778034"
+  }
+  {
+    id: 1133065
+    name: 霰弹耐性
+    desc: 若场上SG人形数量>=2，第3秒起每6秒为所有人形赋予1层[耐性]
+    if_display: 1
+    code: Rouge_591502
+    skill_group: "778035"
+  }
+  {
+    id: 1133066
+    name: 破甲打击
+    desc: 若场上SG人形数量>=1，第3秒起每6秒为3个随机敌人赋予1层[破甲]
+    if_display: 1
+    code: Rouge_591503
+    skill_group: "778036"
+  }
+  {
+    id: 1133067
+    name: 震荡打击
+    desc: 若场上SG人形数量>=1，第3秒起每6秒为3个随机敌人赋予1层[震荡]
+    if_display: 1
+    code: Rouge_591504
+    skill_group: "778037"
+  }
+  {
+    id: 1133068
+    name: 枪弹狂热
+    desc: 战斗效率技能效果及持续时间大幅提高
+    if_display: 1
+    code: Rouge_592001
+    skill_group: "778182"
+  }
+  {
+    id: 1133069
+    name: 英雄作成
+    desc: 战斗效率持续期间每6秒赋予全队人形1层[专注]
+    if_display: 1
+    code: Rouge_592002
+    skill_group: "778184"
+  }
+  {
+    id: 1133070
+    name: 无羁狂怒
+    desc: 怒无限强技能效果及持续时间大幅提高
+    if_display: 1
+    code: Rouge_592003
+    skill_group: "778186"
+  }
+  {
+    id: 1133071
+    name: 嗜血狂怒
+    desc: 怒无限强持续期间每6秒赋予全队人形1层[会心]
+    if_display: 1
+    code: Rouge_592004
+    skill_group: "778188"
+  }
+  {
+    id: 1133072
+    name: 机械壁垒
+    desc: 防暴强化技能效果及持续时间大幅提高
+    if_display: 1
+    code: Rouge_592101
+    skill_group: "778190"
+  }
+  {
+    id: 1133073
+    name: 多面防御
+    desc: 防暴强化持续期间每6秒赋予SG人形1层[耐性]
+    if_display: 1
+    code: Rouge_592102
+    skill_group: "778192"
+  }
+  {
+    id: 1133074
+    name: 偏折护盾
+    desc: 能量护盾效果提高，护盾期间额外获得10%伤害减免
+    if_display: 1
+    code: Rouge_592103
+    skill_group: "778194"
+  }
+  {
+    id: 1133075
+    name: 涌能护盾
+    desc: 能量护盾持续期间每5秒提高身上有护盾的人形20%回避，持续至护盾消失，给身上没有护盾的人形提供5%最大生命的护盾
+    if_display: 1
+    code: Rouge_592104
+    skill_group: "778196"
+  }
+  {
+    id: 1133076
+    name: 静滞力场
+    desc: 临时装甲同时赋予前排人形10%伤害减免，持续60秒
+    if_display: 1
+    code: Rouge_592105
+    skill_group: "778198"
+  }
+  {
+    id: 1133077
+    name: 保护之壳
+    desc: 临时装甲同时赋予前排人形20%最大生命的护盾
+    if_display: 1
+    code: Rouge_592106
+    skill_group: "778200"
+  }
+  {
+    id: 1133078
+    name: 协同嘲讽
+    desc: 嘲讽靶机可额外召唤一个靶机，靶机获得30%免伤
+    if_display: 1
+    code: fight_skill_buff101
+    skill_group: "900107"
+  }
+  {
+    id: 1133079
+    name: 意外惊喜
+    desc: 靶机死亡时爆炸触发[炮击]，对小范围内的敌人造成6000无视护甲的编制伤害
+    if_display: 1
+    code: fight_skill_buff101
+    skill_group: "900107"
+  }
+  {
+    id: 1133080
+    name: 狙击引导
+    desc: (狙击)的发动频率提高
+    if_display: 1
+    code: Rouge_592201
+    skill_group: "778106"
+  }
+  {
+    id: 1133081
+    name: 雪上加霜
+    desc: (狙击)对被(破甲)的目标造成的伤害提高50%
+    if_display: 1
+    code: Rouge_592202
+    skill_group: "778109"
+  }
+  {
+    id: 1133082
+    name: 炮击引导
+    desc: (炮击)的发动频率提高
+    if_display: 1
+    code: Rouge_592203
+    skill_group: "778112"
+  }
+  {
+    id: 1133083
+    name: 落井下石
+    desc: (炮击)对被(震荡)的目标造成的伤害提高50%
+    if_display: 1
+    code: Rouge_592204
+    skill_group: "778115"
+  }
+  {
+    id: 1133084
+    name: 空袭引导
+    desc: (空袭)的发动频率提高
+    if_display: 1
+    code: Rouge_592205
+    skill_group: "778118"
+  }
+  {
+    id: 1133085
+    name: 趁火打劫
+    desc: (空袭)对被(点燃)的目标造成的伤害提高50%
+    if_display: 1
+    code: Rouge_592206
+    skill_group: "778121"
+  }
 ]

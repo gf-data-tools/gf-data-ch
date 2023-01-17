@@ -3555,6 +3555,71 @@
     hit_type: 1
   }
   {
+    id: 626
+    description: 新春稻草人1
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5034:1,5035:1
+    buff_rate: *203
+    hit_type: 1
+  }
+  {
+    id: 627
+    description: 新春稻草人2
+    damage_ratio: *202
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5036:1
+    buff_rate: *203
+    hit_type: 1
+  }
+  {
+    id: 628
+    description: 燃烧dot
+    extra_damage: *101
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 629
+    description: 位置伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 630
+    description: 新春稻草人3
+    damage_ratio: *202
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5037:1,5038:1
+    buff_rate: *203
+    hit_type: 1
+  }
+  {
+    id: 631
+    description: 年兽普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 760004:-1,760005:-1,760006:-1,760007:-1,760008:-1,760029:-1,760030:-1,76003-1:-1,760032:-1,760033:-1,761010:-1,761012:-1,761013:-1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -6263,6 +6328,7 @@
     damage_ratio: *201
     critical_hit_rate: "100"
     float_wide: 15
+    is_form_hurt: 1
     is_armor: 1
     hit_type: 1
     is_ricochet: 100
@@ -6580,6 +6646,40 @@
     hit_type: 1
     is_shield: 100
     fix_damage: 1000004925
+  }
+  {
+    id: 2316
+    description: 新春稻草人子弹-常规
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2317
+    description: 新春稻草人子弹-二技能
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 8732:1,8733:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2318
+    description: 新春稻草人激光
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
   }
   {
     id: 2330
@@ -8483,6 +8583,43 @@
     buff_rate: "100"
     hit_type: 1
     fix_damage: 1000006004
+  }
+  {
+    id: 70001
+    description: "[点燃2]每秒减1%当前生命"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000070001
+  }
+  {
+    id: 70002
+    description: 炮击妖精
+    extra_damage: *102
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000070008
+  }
+  {
+    id: 70003
+    description: 空袭妖精
+    extra_damage: *101
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000070007
+  }
+  {
+    id: 70004
+    description: 狙击妖精-改10
+    extra_damage: *101
+    critical_hit_rate: "100"
+    buff_id_target: 760020:1000070010
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000070009
   }
   {
     id: 217601

@@ -7352,6 +7352,19 @@
     "interact_point": "48,64", "interact_point_offset": "*-2.3333,0.4375,0|*2.91667,0.4375,0", "furniture_bgm": "0", 
     "touch_area": "5,5,3", "bonus_id": 0, "ai": 0
   }, {
+    "id": 7238, "name": "必胜达摩", "classes": 72, "type": 201, "position": "0", "space": "4,4,1,1,1,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, 
+    "description": "无论如何都不会倒下的它，正是您百折不挠的信念的化身！等等……P7，别以为没人注意到，你又想对它做什么恶作剧？", 
+    "code": "qjyd_20230102_deco_01", "texture_type": "2", "sorting": "0", "offset": "0.000,0.136,0.031", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "4,4,4", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 7239, "name": "招福三花喵", "classes": 72, "type": 201, "position": "0", "space": "5,5,1,1,1,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, 
+    "description": "一份许多猫咪梦寐以求的工作，只要坐着摇摇手就能被供养起来……但听说也有累断胳膊的先例，所以请善待家中的招财猫猫哦！", 
+    "code": "qjyd_20230101_deco_01", "texture_type": "2", "sorting": "0", "offset": "0.000,0.334,0.073", "rotate": "2", 
+    "interact_point": "43", "interact_point_offset": "*0.379,0.911,0.199", "furniture_bgm": "0", "touch_area": "5,5,5", 
+    "bonus_id": 0, "ai": 0
+  }, {
     "id": 7301, "name": "水族馆-地板", "classes": 73, "type": 101, "position": "0,0", "space": "1,1,1,1,1,0", 
     "deco_rate": 900, "decompose_gift": 100003, 
     "description": "有着高清白沙印花的亚克力地板，也许你能在地板表面泛起的虚假波光中找到一丝在海岛度假的感觉。", 
@@ -10294,6 +10307,85 @@
     "deco_rate": 950, "decompose_gift": 100003, 
     "description": "弯弓搭箭，回身射月，若要练就这般百步穿杨的本领，就必须持之以恒，而不能依靠烙印之便。", 
     "code": "KungFu2022_deco_16", "texture_type": "1", "sorting": "0", "offset": "0.000,-0.219,-0.052", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10901, "name": "玉兔踏歌会-应雪之地", "classes": 109, "type": 101, "position": "0,0", "space": "1,1,1,1,1,0", 
+    "deco_rate": 1000, "decompose_gift": 100003, 
+    "description": "天空啊，请让晶莹的白雪掩盖旧岁的尘埃，因为我们将于这片纯洁清澈的新土地上书写未来。", 
+    "code": "SpringFes2023_floor", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "1", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10902, "name": "玉兔踏歌会-暖场花海", "classes": 109, "type": 301, "position": "0,0", "space": "1,1,1,1,1,0", 
+    "deco_rate": 1000, "decompose_gift": 100003, 
+    "description": "在众人形因争抢晚会“首发登台”机会而大打出手时，爱凑热闹的建筑师早已端着改良烟花版木星炮，悄悄潜入后台……", 
+    "code": "SpringFes2023_wall", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "3", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10903, "name": "玉兔踏歌会-鸿运门庭", "classes": 109, "type": 201, "position": "1,3", "space": "7,4,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, 
+    "description": "通往后台的“Stage Door”（演职人员入口）贴上火红的对联后，更能令今晚登台的人形们感受到回家的温暖。", 
+    "code": "SpringFes2023_deco_01", "texture_type": "1", "sorting": "0", "offset": "0.000,-0.323,-0.073", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10904, "name": "玉兔踏歌会-动感鲤池", "classes": 109, "type": 201, "position": "1,10", "space": "5,3,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, 
+    "description": "当音乐响起，聪明的池中锦鲤随节奏翩翩游动……这是实景，抑或是精巧的巨型八音盒？", 
+    "code": "SpringFes2023_deco_15,SpringFes2023_deco_16,SpringFes2023_pool", "texture_type": "1,1,2", "sorting": "0,20,10", 
+    "offset": "0.000,0.000,0.000|0,0.3555607,0.0813306|0.198,0.480,0.104", "rotate": "2,2,2", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10905, "name": "玉兔踏歌会-纯白首席", "classes": 109, "type": 201, "position": "10,9", "space": "9,3,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, 
+    "description": "文火慢炖，精汤入味。“只有最淳朴的烹饪方式才能还原食物鲜美的味道！”不喜吃辣的人形如是说道。", 
+    "code": "SpringFes2023_deco_02,SpringFes2023_deco_13,SpringFes2023_deco_14", "texture_type": "1,1,1", 
+    "sorting": "20,0,0", "offset": "0.000,0.000,0.000|-1.220,0.000,0.000|1.189,0.000,0.000", "rotate": "2,2,2", 
+    "interact_point": "14,15", "interact_point_offset": "*3.150,1.423,-0.285|*-3.222,1.252,0.398", "furniture_bgm": "0", 
+    "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10906, "name": "玉兔踏歌会-炽红主桌", "classes": 109, "type": 201, "position": "19,11", "space": "9,3,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, 
+    "description": "红油沸腾，麻辣鲜香。“辣不仅是冬日的需求，更是至高无上的精神信仰！”无辣不欢的人形如是宣称。", 
+    "code": "SpringFes2023_deco_03,SpringFes2023_deco_13,SpringFes2023_deco_14", "texture_type": "1,1,1", 
+    "sorting": "20,0,0", "offset": "0.000,0.000,0.000|-1.220,0.000,0.000|1.189,0.000,0.000", "rotate": "2,2,2", 
+    "interact_point": "14,15", "interact_point_offset": "*3.150,1.423,-0.285|*-3.222,1.252,0.398", "furniture_bgm": "0", 
+    "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10907, "name": "玉兔踏歌会-欲燃的心意", "classes": 109, "type": 201, "position": "7,10", "space": "3,4,1,1,1,0", 
+    "deco_rate": 1150, "decompose_gift": 100003, 
+    "description": "“只要用星火点燃引线，就能收获年度最惊艳的祝福！”——格里芬试胆大会敬赠。", "code": "SpringFes2023_deco_04", 
+    "texture_type": "1", "sorting": "0", "offset": "0.000,-0.104,-0.021", "rotate": "2", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10908, "name": "玉兔踏歌会-报幕精灵", "classes": 109, "type": 201, "position": "26,3", "space": "2,2,1,1,1,0", 
+    "deco_rate": 1150, "decompose_gift": 100003, 
+    "description": "完美融入雪景的智能报幕机器人，据说原型是一只被迫加班的战术妖精。", "code": "SpringFes2023_deco_05", 
+    "texture_type": "1", "sorting": "0", "offset": "0.000,-0.094,-0.021", "rotate": "2", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10909, "name": "玉兔踏歌会-望兔主剧场", "classes": 109, "type": 201, "position": "9,0", "space": "16,4,1,1,1,0", 
+    "deco_rate": 1350, "decompose_gift": 100003, 
+    "description": "为新春特意准备的豪华舞台。此刻聚光灯已经就位，静静等候身怀绝技的艺人们登场……醉酒人形？想都别想！", 
+    "code": "SpringFes2023_deco_06,SpringFes2023_deco_07,SpringFes2023_deco_11,SpringFes2023_deco_12,SpringFes2023_RabbitLantern", 
+    "texture_type": "1,1,1,1,2", "sorting": "0,0,0,0,20", 
+    "offset": "-1.182,-0.235,-0.054|3.405,-0.235,-0.054|3.405,4.238,0.978|-1.182,4.238,0.978|0.011,1.246,-0.044", 
+    "rotate": "2,2,2,2,2", "interact_point": "28,36", "interact_point_offset": "*3.208,0.825,-0.285|*-2.800,0.683,-0.285", 
+    "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10910, "name": "玉兔踏歌会-贩糖小铺", "classes": 109, "type": 201, "position": "30,6", "space": "4,4,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, "description": "贩卖甜蜜的自助糖品小铺，新春不限量供应，但是要小心蛀牙哦。", 
+    "code": "SpringFes2023_deco_08", "texture_type": "1", "sorting": "0", "offset": "0.000,-0.250,-0.063", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10911, "name": "玉兔踏歌会-新愿阑珊", "classes": 109, "type": 201, "position": "28,0", "space": "5,5,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, 
+    "description": "灯火阑珊处，贴满人形新年愿望的祈福墙格外温馨。翻开第一张——“希望指挥官今年能给我放365天带薪长假！”", 
+    "code": "SpringFes2023_deco_09", "texture_type": "1", "sorting": "0", "offset": "0.000,-0.240,0.448", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10912, "name": "玉兔踏歌会-不眠夜卫", "classes": 109, "type": 201, "position": "30,11", "space": "3,2,1,1,1,1", 
+    "deco_rate": 1150, "decompose_gift": 100003, 
+    "description": "为了防止醉酒人形在新年伊始跌倒破相，总有一盏小灯默默守候，点亮回家的夜路。", 
+    "code": "SpringFes2023_deco_10", "texture_type": "1", "sorting": "0", "offset": "0.000,-0.271,-0.063", "rotate": "2", 
     "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }, {
     "id": 20000, "name": "名汤·拉王", "classes": 81, "type": 201, "position": "0,0", "space": "3,3,1,1,1,0", 
@@ -13833,6 +13925,46 @@
   }, {
     "id": 37809, "name": "布伦·坦-绒绒草莓挞", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
     "deco_rate": 750, "decompose_gift": 100003, "description": "布伦·坦的海报。", "code": "poster_Christmas2022_BrenTen", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38001, "name": "MK3A1-红露醉", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "MK3A1的海报", "code": "poster_SpringFes2023_MK3A1", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38002, "name": "Px4 风暴-金风娆", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "Px4 风暴的海报", "code": "poster_SpringFes2023_Px4Storm", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38003, "name": "Erma-暗香盈", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "Erma的海报", "code": "poster_SpringFes2023_Erma", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38004, "name": "沙维奇99型-玉丛幽", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "沙维奇99型的海报", "code": "poster_SpringFes2023_Savage99", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38005, "name": "Rex-0-1-满庭芳", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "Rex-0-1的海报", "code": "poster_SpringFes2023_RexZero1", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38006, "name": "塔布克-福双至", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "塔布克的海报", "code": "poster_SpringFes2023_Tabuk", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38007, "name": "APC556-木兰谣", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "APC556的海报", "code": "poster_SpringFes2023_APC556", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 38008, "name": "DP28-朝颜蔓", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "DP28的海报", "code": "poster_SpringFes2023_DP28", 
     "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
     "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }, {

@@ -19023,6 +19023,4684 @@
     mission_buff_minus: 544212:1
   }
   {
+    id: 590001
+    name: 狙击支援
+    description:
+      '''
+      开场后每6秒触发一次[狙击]
+      [狙击]:对威胁最高的敌人造成18000无视护甲的伤害
+      '''
+    lvup_description: mission_skill_config-30590001
+    skill_group_id: 590001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59000100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590011"
+    is_manual: 590001
+  }
+  {
+    id: 590002
+    name: 狙击强化
+    description: (狙击)造成的伤害提高50%
+    lvup_description: mission_skill_config-30590002
+    skill_group_id: 590002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59000200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590012"
+    is_manual: 590002
+  }
+  {
+    id: 590003
+    name: 定点清除
+    description: (狙击)对精英单位造成的伤害提高100%
+    lvup_description: mission_skill_config-30590003
+    skill_group_id: 590003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59000300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590013"
+    is_manual: 590003
+  }
+  {
+    id: 590004
+    name: 连携炮击
+    description: mission_skill_config-20590004
+    lvup_description: mission_skill_config-30590004
+    skill_group_id: 590004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59000400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590014"
+    is_manual: 590004
+  }
+  {
+    id: 590005
+    name: 心眼
+    description:
+      '''
+      (狙击)时为所有人形赋予[精密]
+      [精密]:令目标技能当前冷却降低30%,命中提高30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590005
+    skill_group_id: 590005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59000500"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590015"
+    is_manual: 590005
+  }
+  {
+    id: 590006
+    name: 穿甲弹头
+    description:
+      '''
+      (狙击)时为目标赋予[破甲]
+      [破甲]:令目标护甲降低30%，受到伤害增加20%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590006
+    skill_group_id: 590006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59000600"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590016"
+    is_manual: 590006
+  }
+  {
+    id: 590011
+    name: 狙击支援CD
+    description: mission_skill_config-20590011
+    lvup_description: mission_skill_config-30590011
+    skill_group_id: 590011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590001:1
+  }
+  {
+    id: 590012
+    name: 狙击强化CD
+    description: mission_skill_config-20590012
+    lvup_description: mission_skill_config-30590012
+    skill_group_id: 590012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590002:1
+  }
+  {
+    id: 590013
+    name: 定点清除CD
+    description: mission_skill_config-20590013
+    lvup_description: mission_skill_config-30590013
+    skill_group_id: 590013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590003:1
+  }
+  {
+    id: 590014
+    name: 连携炮击CD
+    description: mission_skill_config-20590014
+    lvup_description: mission_skill_config-30590014
+    skill_group_id: 590014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590004:1
+  }
+  {
+    id: 590015
+    name: 心眼CD
+    description: mission_skill_config-20590015
+    lvup_description: mission_skill_config-30590015
+    skill_group_id: 590015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590005:1
+  }
+  {
+    id: 590016
+    name: 穿甲弹头CD
+    description: mission_skill_config-20590016
+    lvup_description: mission_skill_config-30590016
+    skill_group_id: 590016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590006:1
+  }
+  {
+    id: 590101
+    name: 炮击支援
+    description:
+      '''
+      开场后每6秒触发一次[炮击]
+      [炮击]:对小范围内的敌人造成6000无视护甲的编制伤害
+      '''
+    lvup_description: mission_skill_config-30590101
+    skill_group_id: 590101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59010100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590111"
+    is_manual: 590101
+  }
+  {
+    id: 590102
+    name: 炮击强化
+    description: (炮击)造成的伤害提高50%
+    lvup_description: mission_skill_config-30590102
+    skill_group_id: 590102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59010200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590112"
+    is_manual: 590102
+  }
+  {
+    id: 590103
+    name: 集束炮击
+    description: (炮击)对单编制敌人造成的伤害提高100%
+    lvup_description: mission_skill_config-30590103
+    skill_group_id: 590103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59010300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590113"
+    is_manual: 590103
+  }
+  {
+    id: 590104
+    name: 连携空袭
+    description: mission_skill_config-20590104
+    lvup_description: mission_skill_config-30590104
+    skill_group_id: 590104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59010400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590114"
+    is_manual: 590104
+  }
+  {
+    id: 590105
+    name: 英勇
+    description:
+      '''
+      (炮击)时为所有人形赋予[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590105
+    skill_group_id: 590105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59010500"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590115"
+    is_manual: 590105
+  }
+  {
+    id: 590106
+    name: 冲击弹药
+    description:
+      '''
+      (炮击)时为目标赋予[震荡]
+      [震荡]:令目标伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590106
+    skill_group_id: 590106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59010600"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590116"
+    is_manual: 590106
+  }
+  {
+    id: 590111
+    name: 炮击支援CD
+    description: mission_skill_config-20590111
+    lvup_description: mission_skill_config-30590111
+    skill_group_id: 590111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590101:1
+  }
+  {
+    id: 590112
+    name: 炮击强化CD
+    description: mission_skill_config-20590112
+    lvup_description: mission_skill_config-30590112
+    skill_group_id: 590112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590102:1
+  }
+  {
+    id: 590113
+    name: 集束炮击CD
+    description: mission_skill_config-20590113
+    lvup_description: mission_skill_config-30590113
+    skill_group_id: 590113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590103:1
+  }
+  {
+    id: 590114
+    name: 连携空袭CD
+    description: mission_skill_config-20590114
+    lvup_description: mission_skill_config-30590114
+    skill_group_id: 590114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590104:1
+  }
+  {
+    id: 590115
+    name: 英勇CD
+    description: mission_skill_config-20590115
+    lvup_description: mission_skill_config-30590115
+    skill_group_id: 590115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590105:1
+  }
+  {
+    id: 590116
+    name: 冲击弹药CD
+    description: mission_skill_config-20590116
+    lvup_description: mission_skill_config-30590116
+    skill_group_id: 590116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590106:1
+  }
+  {
+    id: 590201
+    name: 空袭支援
+    description:
+      '''
+      开场后每6秒触发一次[空袭]
+      [空袭]:对全部敌人造成2000无视护甲的编制伤害
+      '''
+    lvup_description: mission_skill_config-30590201
+    skill_group_id: 590201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59020100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590211"
+    is_manual: 590201
+  }
+  {
+    id: 590202
+    name: 空袭强化
+    description: (空袭)造成的伤害提高50%
+    lvup_description: mission_skill_config-30590202
+    skill_group_id: 590202
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59020200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590212"
+    is_manual: 590202
+  }
+  {
+    id: 590203
+    name: 地毯轰炸
+    description: (空袭)对非精英敌人造成的伤害提高100%
+    lvup_description: mission_skill_config-30590203
+    skill_group_id: 590203
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59020300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590213"
+    is_manual: 590203
+  }
+  {
+    id: 590204
+    name: 连携狙击
+    description: mission_skill_config-20590204
+    lvup_description: mission_skill_config-30590204
+    skill_group_id: 590204
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59020400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590214"
+    is_manual: 590204
+  }
+  {
+    id: 590205
+    name: 嗜血
+    description:
+      '''
+      (空袭)时为所有人形赋予[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590205
+    skill_group_id: 590205
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59020500"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590215"
+    is_manual: 590205
+  }
+  {
+    id: 590206
+    name: 天降火海
+    description:
+      '''
+      (空袭)时为目标赋予[点燃]
+      [点燃]:令目标移动速度降低40%并且持续损失生命，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590206
+    skill_group_id: 590206
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59020600"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590216"
+    is_manual: 590206
+  }
+  {
+    id: 590211
+    name: 空袭支援CD
+    description: mission_skill_config-20590211
+    lvup_description: mission_skill_config-30590211
+    skill_group_id: 590211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590201:1
+  }
+  {
+    id: 590212
+    name: 空袭强化CD
+    description: mission_skill_config-20590212
+    lvup_description: mission_skill_config-30590212
+    skill_group_id: 590212
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590202:1
+  }
+  {
+    id: 590213
+    name: 地毯轰炸CD
+    description: mission_skill_config-20590213
+    lvup_description: mission_skill_config-30590213
+    skill_group_id: 590213
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590203:1
+  }
+  {
+    id: 590214
+    name: 连携狙击CD
+    description: mission_skill_config-20590214
+    lvup_description: mission_skill_config-30590214
+    skill_group_id: 590214
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590204:1
+  }
+  {
+    id: 590215
+    name: 嗜血CD
+    description: mission_skill_config-20590215
+    lvup_description: mission_skill_config-30590215
+    skill_group_id: 590215
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590205:1
+  }
+  {
+    id: 590216
+    name: 天降火海CD
+    description: mission_skill_config-20590216
+    lvup_description: mission_skill_config-30590216
+    skill_group_id: 590216
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590206:1
+  }
+  {
+    id: 590301
+    name: 破甲
+    description:
+      '''
+      战斗开始时为所有敌人赋予1层[破甲]，随后每6秒为生命最高和护甲最高的敌人赋予1层[破甲]
+      [破甲]:令目标护甲降低30%，受到伤害增加20%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590301
+    skill_group_id: 590301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59030100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590311"
+    is_manual: 590301
+  }
+  {
+    id: 590302
+    name: 易碎
+    description: (破甲)最多可叠加3层
+    lvup_description: mission_skill_config-30590302
+    skill_group_id: 590302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59030200"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590312"
+    is_manual: 590302
+  }
+  {
+    id: 590303
+    name: 破甲强化
+    description: (破甲)的持续时间提高至12秒
+    lvup_description: mission_skill_config-30590303
+    skill_group_id: 590303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59030300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590313"
+    is_manual: 590303
+  }
+  {
+    id: 590311
+    name: 破甲CD
+    description: mission_skill_config-20590311
+    lvup_description: mission_skill_config-30590311
+    skill_group_id: 590311
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590301:1
+  }
+  {
+    id: 590312
+    name: 易碎CD
+    description: mission_skill_config-20590312
+    lvup_description: mission_skill_config-30590312
+    skill_group_id: 590312
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590302:1
+  }
+  {
+    id: 590313
+    name: 破甲强化CD
+    description: mission_skill_config-20590313
+    lvup_description: mission_skill_config-30590313
+    skill_group_id: 590313
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590303:1
+  }
+  {
+    id: 590401
+    name: 震荡
+    description:
+      '''
+      战斗开始时为所有敌人赋予1层[震荡]，随后每6秒为伤害最高和最远的敌人赋予1层[震荡]
+      [震荡]:令目标伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590401
+    skill_group_id: 590401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59040100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590411"
+    is_manual: 590401
+  }
+  {
+    id: 590402
+    name: 易爆
+    description: (震荡)最多可叠加3层
+    lvup_description: mission_skill_config-30590402
+    skill_group_id: 590402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59040200"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590412"
+    is_manual: 590402
+  }
+  {
+    id: 590403
+    name: 震荡强化
+    description: (震荡)的持续时间提高至12秒
+    lvup_description: mission_skill_config-30590403
+    skill_group_id: 590403
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59040300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590413"
+    is_manual: 590403
+  }
+  {
+    id: 590411
+    name: 震荡CD
+    description: mission_skill_config-20590411
+    lvup_description: mission_skill_config-30590411
+    skill_group_id: 590411
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590401:1
+  }
+  {
+    id: 590412
+    name: 易爆CD
+    description: mission_skill_config-20590412
+    lvup_description: mission_skill_config-30590412
+    skill_group_id: 590412
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590402:1
+  }
+  {
+    id: 590413
+    name: 震荡强化CD
+    description: mission_skill_config-20590413
+    lvup_description: mission_skill_config-30590413
+    skill_group_id: 590413
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590403:1
+  }
+  {
+    id: 590501
+    name: 点燃
+    description:
+      '''
+      战斗开始时为所有敌人赋予1层[点燃]，随后每6秒为生命最高和最低的敌人赋予1层[点燃]
+      [点燃]:令目标移动速度降低40%并且持续损失生命，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590501
+    skill_group_id: 590501
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59050100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590511"
+    is_manual: 590501
+  }
+  {
+    id: 590502
+    name: 易燃
+    description: (点燃)最多可叠加3层
+    lvup_description: mission_skill_config-30590502
+    skill_group_id: 590502
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59050200"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590512"
+    is_manual: 590502
+  }
+  {
+    id: 590503
+    name: 点燃强化
+    description: (点燃)的持续时间提高至12秒
+    lvup_description: mission_skill_config-30590503
+    skill_group_id: 590503
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59050300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590513"
+    is_manual: 590503
+  }
+  {
+    id: 590511
+    name: 点燃CD
+    description: mission_skill_config-20590511
+    lvup_description: mission_skill_config-30590511
+    skill_group_id: 590511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590501:1
+  }
+  {
+    id: 590512
+    name: 易燃CD
+    description: mission_skill_config-20590512
+    lvup_description: mission_skill_config-30590512
+    skill_group_id: 590512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590502:1
+  }
+  {
+    id: 590513
+    name: 点燃强化CD
+    description: mission_skill_config-20590513
+    lvup_description: mission_skill_config-30590513
+    skill_group_id: 590513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590503:1
+  }
+  {
+    id: 590601
+    name: 专注
+    description:
+      '''
+      战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590601
+    skill_group_id: 590601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590611"
+    is_manual: 590601
+  }
+  {
+    id: 590602
+    name: 专注强化
+    description: (专注)的效果提高至100%
+    lvup_description: mission_skill_config-30590602
+    skill_group_id: 590602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590612"
+    is_manual: 590602
+  }
+  {
+    id: 590603
+    name: 明镜止水
+    description: (专注)可叠加3层
+    lvup_description: mission_skill_config-30590603
+    skill_group_id: 590603
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590613"
+    is_manual: 590603
+  }
+  {
+    id: 590604
+    name: 速射
+    description:
+      '''
+      战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[速射]
+      [速射]:令目标射速与命中提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590604
+    skill_group_id: 590604
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590614"
+    is_manual: 590604
+  }
+  {
+    id: 590605
+    name: 速射强化
+    description: (速射)的效果提高至100%
+    lvup_description: mission_skill_config-30590605
+    skill_group_id: 590605
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060500"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590615"
+    is_manual: 590605
+  }
+  {
+    id: 590606
+    name: 限制解除
+    description:
+      '''
+      赋予(速射)后若目标拥有2层(速射)，则额外赋予1层[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590606
+    skill_group_id: 590606
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060600"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590616"
+    is_manual: 590606
+  }
+  {
+    id: 590611
+    name: 专注CD
+    description: mission_skill_config-20590611
+    lvup_description: mission_skill_config-30590611
+    skill_group_id: 590611
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590601:1
+  }
+  {
+    id: 590612
+    name: 专注强化CD
+    description: mission_skill_config-20590612
+    lvup_description: mission_skill_config-30590612
+    skill_group_id: 590612
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590602:1
+  }
+  {
+    id: 590613
+    name: 明镜止水CD
+    description: mission_skill_config-20590613
+    lvup_description: mission_skill_config-30590613
+    skill_group_id: 590613
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590603:1
+  }
+  {
+    id: 590614
+    name: 速射CD
+    description: mission_skill_config-20590614
+    lvup_description: mission_skill_config-30590614
+    skill_group_id: 590614
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590604:1
+  }
+  {
+    id: 590615
+    name: 速射强化CD
+    description: mission_skill_config-20590615
+    lvup_description: mission_skill_config-30590615
+    skill_group_id: 590615
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590605:1
+  }
+  {
+    id: 590616
+    name: 限制解除CD
+    description: mission_skill_config-20590616
+    lvup_description: mission_skill_config-30590616
+    skill_group_id: 590616
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590606:1
+  }
+  {
+    id: 590701
+    name: 精密
+    description:
+      '''
+      战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[精密]
+      [精密]:令目标技能当前冷却降低30%,命中提高30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590701
+    skill_group_id: 590701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59070100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590711"
+    is_manual: 590701
+  }
+  {
+    id: 590702
+    name: 精密强化
+    description: (精密)的效果提高至100%命中及50%暴击
+    lvup_description: mission_skill_config-30590702
+    skill_group_id: 590702
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59070200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590712"
+    is_manual: 590702
+  }
+  {
+    id: 590703
+    name: 直死魔眼
+    description:
+      '''
+      赋予(精密)后若目标拥有2层(精密)，则额外赋予1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590703
+    skill_group_id: 590703
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59070300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590713"
+    is_manual: 590703
+  }
+  {
+    id: 590704
+    name: 会心
+    description:
+      '''
+      战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590704
+    skill_group_id: 590704
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59070400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590714"
+    is_manual: 590704
+  }
+  {
+    id: 590705
+    name: 会心强化
+    description: (会心)的效果提高至50%
+    lvup_description: mission_skill_config-30590705
+    skill_group_id: 590705
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59070500"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590715"
+    is_manual: 590705
+  }
+  {
+    id: 590706
+    name: 自动校准
+    description:
+      '''
+      赋予(会心)后若目标不拥有(精密)，则额外赋予1层[精密]
+      [精密]:令目标技能当前冷却降低30%,命中提高30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590706
+    skill_group_id: 590706
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59070600"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590716"
+    is_manual: 590706
+  }
+  {
+    id: 590711
+    name: 精密CD
+    description: mission_skill_config-20590711
+    lvup_description: mission_skill_config-30590711
+    skill_group_id: 590711
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590701:1
+  }
+  {
+    id: 590712
+    name: 精密强化CD
+    description: mission_skill_config-20590712
+    lvup_description: mission_skill_config-30590712
+    skill_group_id: 590712
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590702:1
+  }
+  {
+    id: 590713
+    name: 直死魔眼CD
+    description: mission_skill_config-20590713
+    lvup_description: mission_skill_config-30590713
+    skill_group_id: 590713
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590703:1
+  }
+  {
+    id: 590714
+    name: 会心CD
+    description: mission_skill_config-20590714
+    lvup_description: mission_skill_config-30590714
+    skill_group_id: 590714
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590704:1
+  }
+  {
+    id: 590715
+    name: 会心强化CD
+    description: mission_skill_config-20590715
+    lvup_description: mission_skill_config-30590715
+    skill_group_id: 590715
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590705:1
+  }
+  {
+    id: 590716
+    name: 自动校准CD
+    description: mission_skill_config-20590716
+    lvup_description: mission_skill_config-30590716
+    skill_group_id: 590716
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590706:1
+  }
+  {
+    id: 590801
+    name: 强化
+    description:
+      '''
+      战斗开始后每6秒为场上输出最高和生命最低的人形赋予1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30590801
+    skill_group_id: 590801
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59080100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590811"
+    is_manual: 590801
+  }
+  {
+    id: 590802
+    name: 强化增幅
+    description: (强化)的效果提高至40%
+    lvup_description: mission_skill_config-30590802
+    skill_group_id: 590802
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59080200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590812"
+    is_manual: 590802
+  }
+  {
+    id: 590811
+    name: 强化CD
+    description: mission_skill_config-20590811
+    lvup_description: mission_skill_config-30590811
+    skill_group_id: 590811
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590801:1
+  }
+  {
+    id: 590812
+    name: 强化增幅CD
+    description: mission_skill_config-20590812
+    lvup_description: mission_skill_config-30590812
+    skill_group_id: 590812
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590802:1
+  }
+  {
+    id: 590901
+    name: 耐性
+    description:
+      '''
+      战斗开始后每6秒为生命最高和护甲的人形赋予1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30590901
+    skill_group_id: 590901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59090100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "590911"
+    is_manual: 590901
+  }
+  {
+    id: 590902
+    name: 耐性增幅
+    description: (耐性)的效果提高至50%
+    lvup_description: mission_skill_config-30590902
+    skill_group_id: 590902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59090200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "590912"
+    is_manual: 590902
+  }
+  {
+    id: 590911
+    name: 耐性CD
+    description: mission_skill_config-20590911
+    lvup_description: mission_skill_config-30590911
+    skill_group_id: 590911
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590901:1
+  }
+  {
+    id: 590912
+    name: 耐性增幅CD
+    description: mission_skill_config-20590912
+    lvup_description: mission_skill_config-30590912
+    skill_group_id: 590912
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 590902:1
+  }
+  {
+    id: 591001
+    name: 突击专注
+    description:
+      '''
+      若场上AR人形数量>=2，第3秒起每6秒为所有AR人形赋予1层[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591001
+    skill_group_id: 591001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59100100&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591011"
+    is_manual: 591001
+  }
+  {
+    id: 591002
+    name: 突击精密
+    description:
+      '''
+      若场上AR人形数量>=2，第3秒起每6秒为所有AR人形赋予1层[精密]
+      [精密]:令目标技能当前冷却降低30%,命中提高30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591002
+    skill_group_id: 591002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59100200&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591012"
+    is_manual: 591002
+  }
+  {
+    id: 591003
+    name: 突击强化
+    description:
+      '''
+      若场上AR人形数量>=2，第3秒起每6秒为所有AR人形赋予1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30591003
+    skill_group_id: 591003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59100300&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591013"
+    is_manual: 591003
+  }
+  {
+    id: 591004
+    name: 炮击小队
+    description:
+      '''
+      若场上AR人形数量>=2，第3秒起每6秒触发一次[炮击]
+      [炮击]:对小范围内的敌人造成6000无视护甲的编制伤害
+      '''
+    lvup_description: mission_skill_config-30591004
+    skill_group_id: 591004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59100400&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "591014"
+    is_manual: 591004
+  }
+  {
+    id: 591011
+    name: 突击专注CD
+    description: mission_skill_config-20591011
+    lvup_description: mission_skill_config-30591011
+    skill_group_id: 591011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591001:1
+  }
+  {
+    id: 591012
+    name: 突击精密CD
+    description: mission_skill_config-20591012
+    lvup_description: mission_skill_config-30591012
+    skill_group_id: 591012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591002:1
+  }
+  {
+    id: 591013
+    name: 突击强化CD
+    description: mission_skill_config-20591013
+    lvup_description: mission_skill_config-30591013
+    skill_group_id: 591013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591003:1
+  }
+  {
+    id: 591014
+    name: 炮击小队CD
+    description: mission_skill_config-20591014
+    lvup_description: mission_skill_config-30591014
+    skill_group_id: 591014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591004:1
+  }
+  {
+    id: 591101
+    name: 冲锋会心
+    description:
+      '''
+      若场上SMG人形数量>=2，第3秒起每6秒为所有人形赋予1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591101
+    skill_group_id: 591101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59110100&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591111"
+    is_manual: 591101
+  }
+  {
+    id: 591102
+    name: 冲锋强化
+    description:
+      '''
+      若场上SMG人形数量>=2，第3秒起每6秒为所有人形赋予1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30591102
+    skill_group_id: 591102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59110200&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591112"
+    is_manual: 591102
+  }
+  {
+    id: 591103
+    name: 冲锋耐性
+    description:
+      '''
+      若场上SMG人形数量>=2，第3秒起每6秒为所有人形赋予1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591103
+    skill_group_id: 591103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59110300&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591113"
+    is_manual: 591103
+  }
+  {
+    id: 591104
+    name: 燃烧手雷
+    description:
+      '''
+      若场上SMG人形数量>=1，第3秒起每6秒为3个随机敌人赋予1层[点燃]
+      [点燃]:令目标移动速度降低40%并且持续损失生命，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591104
+    skill_group_id: 591104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59110400&&59600210&&59600310
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "591114"
+    is_manual: 591104
+  }
+  {
+    id: 591111
+    name: 冲锋会心CD
+    description: mission_skill_config-20591111
+    lvup_description: mission_skill_config-30591111
+    skill_group_id: 591111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591101:1
+  }
+  {
+    id: 591112
+    name: 冲锋强化CD
+    description: mission_skill_config-20591112
+    lvup_description: mission_skill_config-30591112
+    skill_group_id: 591112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591102:1
+  }
+  {
+    id: 591113
+    name: 冲锋耐性CD
+    description: mission_skill_config-20591113
+    lvup_description: mission_skill_config-30591113
+    skill_group_id: 591113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591103:1
+  }
+  {
+    id: 591114
+    name: 燃烧手雷CD
+    description: mission_skill_config-20591114
+    lvup_description: mission_skill_config-30591114
+    skill_group_id: 591114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591104:1
+  }
+  {
+    id: 591201
+    name: 步枪速射
+    description:
+      '''
+      若场上RF人形数量>=2，第3秒起每6秒为所有RF人形赋予1层[速射]
+      [速射]:令目标射速与命中提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591201
+    skill_group_id: 591201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59120100&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591211"
+    is_manual: 591201
+  }
+  {
+    id: 591202
+    name: 步枪会心
+    description:
+      '''
+      若场上RF人形数量>=2，第3秒起每6秒为所有RF人形赋予1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591202
+    skill_group_id: 591202
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59120200&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591212"
+    is_manual: 591202
+  }
+  {
+    id: 591203
+    name: 步枪强化
+    description:
+      '''
+      若场上RF人形数量>=2，第3秒起每6秒为所有RF人形赋予1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30591203
+    skill_group_id: 591203
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59120300&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591213"
+    is_manual: 591203
+  }
+  {
+    id: 591204
+    name: 狙击小队
+    description:
+      '''
+      若场上RF人形数量>=2，第3秒起每6秒触发一次[狙击]
+      [狙击]:对威胁最高的敌人造成18000无视护甲的伤害
+      '''
+    lvup_description: mission_skill_config-30591204
+    skill_group_id: 591204
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59120400&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "591214"
+    is_manual: 591204
+  }
+  {
+    id: 591211
+    name: 步枪速射CD
+    description: mission_skill_config-20591211
+    lvup_description: mission_skill_config-30591211
+    skill_group_id: 591211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591201:1
+  }
+  {
+    id: 591212
+    name: 步枪会心CD
+    description: mission_skill_config-20591212
+    lvup_description: mission_skill_config-30591212
+    skill_group_id: 591212
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591202:1
+  }
+  {
+    id: 591213
+    name: 步枪强化CD
+    description: mission_skill_config-20591213
+    lvup_description: mission_skill_config-30591213
+    skill_group_id: 591213
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591203:1
+  }
+  {
+    id: 591214
+    name: 狙击小队CD
+    description: mission_skill_config-20591214
+    lvup_description: mission_skill_config-30591214
+    skill_group_id: 591214
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591204:1
+  }
+  {
+    id: 591301
+    name: 手枪专注
+    description:
+      '''
+      若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591301
+    skill_group_id: 591301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59130100&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591311"
+    is_manual: 591301
+  }
+  {
+    id: 591302
+    name: 手枪速射
+    description:
+      '''
+      若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[速射]
+      [速射]:令目标射速与命中提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591302
+    skill_group_id: 591302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59130200&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591312"
+    is_manual: 591302
+  }
+  {
+    id: 591303
+    name: 手枪精密
+    description:
+      '''
+      若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[精密]
+      [精密]:令目标技能当前冷却降低30%,命中提高30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591303
+    skill_group_id: 591303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59130300&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591313"
+    is_manual: 591303
+  }
+  {
+    id: 591304
+    name: 手枪会心
+    description:
+      '''
+      若场上HG人形数量>=2，第3秒起每6秒为所有HG人形赋予1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591304
+    skill_group_id: 591304
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59130400&&59600110&&59600310
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591314"
+    is_manual: 591304
+  }
+  {
+    id: 591311
+    name: 手枪专注CD
+    description: mission_skill_config-20591311
+    lvup_description: mission_skill_config-30591311
+    skill_group_id: 591311
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591301:1
+  }
+  {
+    id: 591312
+    name: 手枪速射CD
+    description: mission_skill_config-20591312
+    lvup_description: mission_skill_config-30591312
+    skill_group_id: 591312
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591302:1
+  }
+  {
+    id: 591313
+    name: 手枪精密CD
+    description: mission_skill_config-20591313
+    lvup_description: mission_skill_config-30591313
+    skill_group_id: 591313
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591303:1
+  }
+  {
+    id: 591314
+    name: 手枪会心CD
+    description: mission_skill_config-20591314
+    lvup_description: mission_skill_config-30591314
+    skill_group_id: 591314
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591304:1
+  }
+  {
+    id: 591401
+    name: 机枪精密
+    description:
+      '''
+      若场上MG人形数量>=2，第3秒起每6秒为所有MG人形赋予1层[精密]
+      [精密]:令目标技能当前冷却降低30%,命中提高30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591401
+    skill_group_id: 591401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59140100&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591411"
+    is_manual: 591401
+  }
+  {
+    id: 591402
+    name: 机枪会心
+    description:
+      '''
+      若场上MG人形数量>=2，第3秒起每6秒为所有MG人形赋予1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591402
+    skill_group_id: 591402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59140200&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591412"
+    is_manual: 591402
+  }
+  {
+    id: 591403
+    name: 机枪强化
+    description:
+      '''
+      若场上MG人形数量>=2，第3秒起每6秒为所有MG人形赋予1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30591403
+    skill_group_id: 591403
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59140300&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591413"
+    is_manual: 591403
+  }
+  {
+    id: 591404
+    name: 空袭小队
+    description:
+      '''
+      若场上MG人形数量>=2，第3秒起每6秒触发一次[空袭]
+      [空袭]:对全部敌人造成2000无视护甲的编制伤害
+      '''
+    lvup_description: mission_skill_config-30591404
+    skill_group_id: 591404
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59140400&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "591414"
+    is_manual: 591404
+  }
+  {
+    id: 591411
+    name: 机枪精密CD
+    description: mission_skill_config-20591411
+    lvup_description: mission_skill_config-30591411
+    skill_group_id: 591411
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591401:1
+  }
+  {
+    id: 591412
+    name: 机枪会心CD
+    description: mission_skill_config-20591412
+    lvup_description: mission_skill_config-30591412
+    skill_group_id: 591412
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591402:1
+  }
+  {
+    id: 591413
+    name: 机枪强化CD
+    description: mission_skill_config-20591413
+    lvup_description: mission_skill_config-30591413
+    skill_group_id: 591413
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591403:1
+  }
+  {
+    id: 591414
+    name: 空袭小队CD
+    description: mission_skill_config-20591414
+    lvup_description: mission_skill_config-30591414
+    skill_group_id: 591414
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591404:1
+  }
+  {
+    id: 591501
+    name: 霰弹专注
+    description:
+      '''
+      若场上SG人形数量>=2，第3秒起每6秒为所有人形赋予1层[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591501
+    skill_group_id: 591501
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59150100&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591511"
+    is_manual: 591501
+  }
+  {
+    id: 591502
+    name: 霰弹耐性
+    description:
+      '''
+      若场上SG人形数量>=2，第3秒起每6秒为所有人形赋予1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591502
+    skill_group_id: 591502
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59150200&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "591512"
+    is_manual: 591502
+  }
+  {
+    id: 591503
+    name: 破甲打击
+    description:
+      '''
+      若场上SG人形数量>=1，第3秒起每6秒为3个随机敌人赋予1层[破甲]
+      [破甲]:令目标护甲降低30%，受到伤害增加20%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591503
+    skill_group_id: 591503
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59150300&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "591513"
+    is_manual: 591503
+  }
+  {
+    id: 591504
+    name: 震荡打击
+    description:
+      '''
+      若场上SG人形数量>=1，第3秒起每6秒为3个随机敌人赋予1层[震荡]
+      [震荡]:令目标伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30591504
+    skill_group_id: 591504
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59150400&&59600110&&59600210
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "591514"
+    is_manual: 591504
+  }
+  {
+    id: 591511
+    name: 霰弹专注CD
+    description: mission_skill_config-20591511
+    lvup_description: mission_skill_config-30591511
+    skill_group_id: 591511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591501:1
+  }
+  {
+    id: 591512
+    name: 霰弹耐性CD
+    description: mission_skill_config-20591512
+    lvup_description: mission_skill_config-30591512
+    skill_group_id: 591512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591502:1
+  }
+  {
+    id: 591513
+    name: 破甲打击CD
+    description: mission_skill_config-20591513
+    lvup_description: mission_skill_config-30591513
+    skill_group_id: 591513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591503:1
+  }
+  {
+    id: 591514
+    name: 震荡打击CD
+    description: mission_skill_config-20591514
+    lvup_description: mission_skill_config-30591514
+    skill_group_id: 591514
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 591504:1
+  }
+  {
+    id: 592001
+    name: 枪弹狂热
+    description: 战斗效率技能效果及持续时间大幅提高
+    lvup_description: mission_skill_config-30592001
+    skill_group_id: 592001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59200100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592011"
+    is_manual: 592001
+  }
+  {
+    id: 592002
+    name: 英雄作成
+    description:
+      '''
+      战斗效率持续期间每6秒赋予全队人形1层[专注]
+      [专注]:令目标伤害提高50%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30592002
+    skill_group_id: 592002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59200200"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592012"
+    is_manual: 592002
+  }
+  {
+    id: 592003
+    name: 无羁狂怒
+    description: 怒无限强技能效果及持续时间大幅提高
+    lvup_description: mission_skill_config-30592003
+    skill_group_id: 592003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59200300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592013"
+    is_manual: 592003
+  }
+  {
+    id: 592004
+    name: 嗜血狂怒
+    description:
+      '''
+      怒无限强持续期间每6秒赋予全队人形1层[会心]
+      [会心]:令目标暴击伤害增加30%，暴击率增加30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30592004
+    skill_group_id: 592004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59200400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592014"
+    is_manual: 592004
+  }
+  {
+    id: 592011
+    name: 枪弹狂热CD
+    description: mission_skill_config-20592011
+    lvup_description: mission_skill_config-30592011
+    skill_group_id: 592011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592001:1
+  }
+  {
+    id: 592012
+    name: 英雄作成CD
+    description: mission_skill_config-20592012
+    lvup_description: mission_skill_config-30592012
+    skill_group_id: 592012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592002:1
+  }
+  {
+    id: 592013
+    name: 无羁狂怒CD
+    description: mission_skill_config-20592013
+    lvup_description: mission_skill_config-30592013
+    skill_group_id: 592013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592003:1
+  }
+  {
+    id: 592014
+    name: 嗜血狂怒CD
+    description: mission_skill_config-20592014
+    lvup_description: mission_skill_config-30592014
+    skill_group_id: 592014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592004:1
+  }
+  {
+    id: 592101
+    name: 机械壁垒
+    description: 防暴强化技能效果及持续时间大幅提高
+    lvup_description: mission_skill_config-30592101
+    skill_group_id: 592101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592111"
+    is_manual: 592101
+  }
+  {
+    id: 592102
+    name: 多面防御
+    description:
+      '''
+      防暴强化持续期间每6秒赋予SG人形1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30592102
+    skill_group_id: 592102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210200"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592112"
+    is_manual: 592102
+  }
+  {
+    id: 592103
+    name: 偏折护盾
+    description: 能量护盾效果提高，护盾期间额外获得10%伤害减免
+    lvup_description: mission_skill_config-30592103
+    skill_group_id: 592103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592113"
+    is_manual: 592103
+  }
+  {
+    id: 592104
+    name: 涌能护盾
+    description: 能量护盾持续期间每5秒提高身上有护盾的人形20%回避，持续至护盾消失，给身上没有护盾的人形提供5%最大生命的护盾
+    lvup_description: mission_skill_config-30592104
+    skill_group_id: 592104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210400"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592114"
+    is_manual: 592104
+  }
+  {
+    id: 592105
+    name: 静滞力场
+    description: 临时装甲同时赋予前排人形10%伤害减免，持续60秒
+    lvup_description: mission_skill_config-30592105
+    skill_group_id: 592105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210500"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592115"
+    is_manual: 592105
+  }
+  {
+    id: 592106
+    name: 保护之壳
+    description: 临时装甲同时赋予前排人形20%最大生命的护盾
+    lvup_description: mission_skill_config-30592106
+    skill_group_id: 592106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210600"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592116"
+    is_manual: 592106
+  }
+  {
+    id: 592107
+    name: 协同嘲讽
+    description: 嘲讽靶机可额外召唤一个靶机，靶机获得30%免伤
+    lvup_description: mission_skill_config-30592107
+    skill_group_id: 592107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210700"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592117"
+    is_manual: 592107
+  }
+  {
+    id: 592108
+    name: 意外惊喜
+    description: 靶机死亡时爆炸触发[炮击]，对小范围内的敌人造成6000无视护甲的编制伤害
+    lvup_description: mission_skill_config-30592108
+    skill_group_id: 592108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59210800"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592118"
+    is_manual: 592108
+  }
+  {
+    id: 592111
+    name: 机械壁垒CD
+    description: mission_skill_config-20592111
+    lvup_description: mission_skill_config-30592111
+    skill_group_id: 592111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592101:1
+  }
+  {
+    id: 592112
+    name: 多面防御CD
+    description: mission_skill_config-20592112
+    lvup_description: mission_skill_config-30592112
+    skill_group_id: 592112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592102:1
+  }
+  {
+    id: 592113
+    name: 偏折护盾CD
+    description: mission_skill_config-20592113
+    lvup_description: mission_skill_config-30592113
+    skill_group_id: 592113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592103:1
+  }
+  {
+    id: 592114
+    name: 涌能护盾CD
+    description: mission_skill_config-20592114
+    lvup_description: mission_skill_config-30592114
+    skill_group_id: 592114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592104:1
+  }
+  {
+    id: 592115
+    name: 静滞力场CD
+    description: mission_skill_config-20592115
+    lvup_description: mission_skill_config-30592115
+    skill_group_id: 592115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592105:1
+  }
+  {
+    id: 592116
+    name: 保护之壳CD
+    description: mission_skill_config-20592116
+    lvup_description: mission_skill_config-30592116
+    skill_group_id: 592116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592106:1
+  }
+  {
+    id: 592117
+    name: 协同嘲讽CD
+    description: mission_skill_config-20592117
+    lvup_description: mission_skill_config-30592117
+    skill_group_id: 592117
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592107:1
+  }
+  {
+    id: 592118
+    name: 意外惊喜CD
+    description: mission_skill_config-20592118
+    lvup_description: mission_skill_config-30592118
+    skill_group_id: 592118
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592108:1
+  }
+  {
+    id: 592201
+    name: 狙击引导
+    description: (狙击)的发动频率提高
+    lvup_description: mission_skill_config-30592201
+    skill_group_id: 592201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59220100"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592211"
+    is_manual: 592201
+  }
+  {
+    id: 592202
+    name: 雪上加霜
+    description: (狙击)对被(破甲)的目标造成的伤害提高50%
+    lvup_description: mission_skill_config-30592202
+    skill_group_id: 592202
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59220200"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "592212"
+    is_manual: 592202
+  }
+  {
+    id: 592203
+    name: 炮击引导
+    description: (炮击)的发动频率提高
+    lvup_description: mission_skill_config-30592203
+    skill_group_id: 592203
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59220300"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592213"
+    is_manual: 592203
+  }
+  {
+    id: 592204
+    name: 落井下石
+    description: (炮击)对被(震荡)的目标造成的伤害提高50%
+    lvup_description: mission_skill_config-30592204
+    skill_group_id: 592204
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59220400"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "592214"
+    is_manual: 592204
+  }
+  {
+    id: 592205
+    name: 空袭引导
+    description: (空袭)的发动频率提高
+    lvup_description: mission_skill_config-30592205
+    skill_group_id: 592205
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59220500"
+    target_id: "1"
+    special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    subsidiary_mission_skill: "592215"
+    is_manual: 592205
+  }
+  {
+    id: 592206
+    name: 趁火打劫
+    description: (空袭)对被(点燃)的目标造成的伤害提高50%
+    lvup_description: mission_skill_config-30592206
+    skill_group_id: 592206
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59220600"
+    target_id: "1"
+    special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    subsidiary_mission_skill: "592216"
+    is_manual: 592206
+  }
+  {
+    id: 592211
+    name: 狙击引导CD
+    description: mission_skill_config-20592211
+    lvup_description: mission_skill_config-30592211
+    skill_group_id: 592211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592201:1
+  }
+  {
+    id: 592212
+    name: 雪上加霜CD
+    description: mission_skill_config-20592212
+    lvup_description: mission_skill_config-30592212
+    skill_group_id: 592212
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592202:1
+  }
+  {
+    id: 592213
+    name: 炮击引导CD
+    description: mission_skill_config-20592213
+    lvup_description: mission_skill_config-30592213
+    skill_group_id: 592213
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592203:1
+  }
+  {
+    id: 592214
+    name: 落井下石CD
+    description: mission_skill_config-20592214
+    lvup_description: mission_skill_config-30592214
+    skill_group_id: 592214
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592204:1
+  }
+  {
+    id: 592215
+    name: 空袭引导CD
+    description: mission_skill_config-20592215
+    lvup_description: mission_skill_config-30592215
+    skill_group_id: 592215
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592205:1
+  }
+  {
+    id: 592216
+    name: 趁火打劫CD
+    description: mission_skill_config-20592216
+    lvup_description: mission_skill_config-30592216
+    skill_group_id: 592216
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 592206:1
+  }
+  {
+    id: 593001
+    name: 勇士无人机
+    description:
+      '''
+      获得一架勇士无人机，使用后下一场战斗开启战斗效率，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593001
+    skill_group_id: 593001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59300100"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593001:1
+    mission_buff_minus: 598001:1
+    is_manual: 593001
+  }
+  {
+    id: 593002
+    name: 暴怒无人机
+    description:
+      '''
+      获得一架暴怒无人机，使用后下一场战斗开启怒无限强，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593002
+    skill_group_id: 593002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59300200"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593002:1
+    mission_buff_minus: 598001:1
+    is_manual: 593002
+  }
+  {
+    id: 593011
+    name: 战斗效率·改
+    description:
+      '''
+      下一场战斗开启战斗效率，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593011
+    skill_group_id: 593011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59301100"
+    target_id: "1"
+    mission_buff_add: 593011:1,593021:1
+    mission_buff_minus: 593001:1
+    is_manual: 593011
+  }
+  {
+    id: 593012
+    name: 怒无限强·改
+    description:
+      '''
+      下一场战斗开启怒无限强，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593012
+    skill_group_id: 593012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59301200"
+    target_id: "1"
+    mission_buff_add: 593012:1,593022:1
+    mission_buff_minus: 593002:1
+    is_manual: 593012
+  }
+  {
+    id: 593103
+    name: 盾甲无人机
+    description:
+      '''
+      获得一架盾甲无人机，使用后下一场战斗开启防暴强化，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593103
+    skill_group_id: 593103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59310300"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593103:1
+    mission_buff_minus: 598001:1
+    is_manual: 593103
+  }
+  {
+    id: 593104
+    name: 护盾无人机
+    description:
+      '''
+      获得一架护盾无人机，使用后下一场战斗开启能量护盾，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593104
+    skill_group_id: 593104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59310400"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593104:1
+    mission_buff_minus: 598001:1
+    is_manual: 593104
+  }
+  {
+    id: 593105
+    name: 防御无人机
+    description:
+      '''
+      获得一架防御无人机，使用后下一场战斗开启临时装甲，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593105
+    skill_group_id: 593105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59310500"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593105:1
+    mission_buff_minus: 598001:1
+    is_manual: 593105
+  }
+  {
+    id: 593106
+    name: 嘲讽无人机
+    description:
+      '''
+      获得一架嘲讽无人机，使用后下一场战斗开启嘲讽靶机，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593106
+    skill_group_id: 593106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59310600"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593106:1
+    mission_buff_minus: 598001:1
+    is_manual: 593106
+  }
+  {
+    id: 593113
+    name: 防暴强化·改
+    description:
+      '''
+      下一场战斗开启防暴强化，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593113
+    skill_group_id: 593113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59311300"
+    target_id: "1"
+    mission_buff_add: 593113:1,593123:1
+    mission_buff_minus: 593103:1
+    is_manual: 593113
+  }
+  {
+    id: 593114
+    name: 能量护盾·改
+    description:
+      '''
+      下一场战斗开启能量护盾，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593114
+    skill_group_id: 593114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59311400"
+    target_id: "1"
+    mission_buff_add: 593114:1,593124:1
+    mission_buff_minus: 593104:1
+    is_manual: 593114
+  }
+  {
+    id: 593115
+    name: 临时装甲·改
+    description:
+      '''
+      下一场战斗开启临时装甲，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593115
+    skill_group_id: 593115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59311500"
+    target_id: "1"
+    mission_buff_add: 593115:1,593125:1
+    mission_buff_minus: 593105:1
+    is_manual: 593115
+  }
+  {
+    id: 593116
+    name: 嘲讽靶机·改
+    description:
+      '''
+      下一场战斗开启嘲讽靶机，并每6秒赋予全队1层[强化]
+      [强化]:令目标伤害增加20%，持续30秒，最多叠加5层
+      '''
+    lvup_description: mission_skill_config-30593116
+    skill_group_id: 593116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59311600"
+    target_id: "1"
+    mission_buff_add: 593116:1,593126:1
+    mission_buff_minus: 593106:1
+    is_manual: 593116
+  }
+  {
+    id: 593201
+    name: 狙击无人机
+    description:
+      '''
+      获得一架狙击无人机，使用后下一场战斗开启狙击指令，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593201
+    skill_group_id: 593201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59320100"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593201:1
+    mission_buff_minus: 598001:1
+    is_manual: 593201
+  }
+  {
+    id: 593202
+    name: 炮击无人机
+    description:
+      '''
+      获得一架炮击无人机，使用后下一场战斗开启炮击指令，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593202
+    skill_group_id: 593202
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59320200"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593202:1
+    mission_buff_minus: 598001:1
+    is_manual: 593202
+  }
+  {
+    id: 593203
+    name: 空袭无人机
+    description:
+      '''
+      获得一架空袭无人机，使用后下一场战斗开启致命空袭，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593203
+    skill_group_id: 593203
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59320300"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593203:1
+    mission_buff_minus: 598001:1
+    is_manual: 593203
+  }
+  {
+    id: 593211
+    name: 狙击指令·改
+    description:
+      '''
+      下一场战斗开启狙击指令，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593211
+    skill_group_id: 593211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59321100"
+    target_id: "1"
+    mission_buff_add: 593211:1,593221:1
+    mission_buff_minus: 593201:1
+    is_manual: 593211
+  }
+  {
+    id: 593212
+    name: 炮击指令·改
+    description:
+      '''
+      下一场战斗开启炮击指令，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593212
+    skill_group_id: 593212
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59321200"
+    target_id: "1"
+    mission_buff_add: 593212:1,593222:1
+    mission_buff_minus: 593202:1
+    is_manual: 593212
+  }
+  {
+    id: 593213
+    name: 致命空袭·改
+    description:
+      '''
+      下一场战斗开启致命空袭，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
+    lvup_description: mission_skill_config-30593213
+    skill_group_id: 593213
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59321300"
+    target_id: "1"
+    mission_buff_add: 593213:1,593223:1
+    mission_buff_minus: 593203:1
+    is_manual: 593213
+  }
+  {
+    id: 593301
+    name: 热血无人机
+    description: 获得一架热血无人机，使用后下一场战斗每6秒赋予场上输出最高的人形1层[专注][速射]
+    lvup_description: mission_skill_config-30593301
+    skill_group_id: 593301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59330100"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593301:1
+    mission_buff_minus: 598001:1
+    is_manual: 593301
+  }
+  {
+    id: 593302
+    name: 集中无人机
+    description: 获得一架集中无人机，使用后下一场战斗每6秒赋予场上输出最高的人形1层[精密][会心]
+    lvup_description: mission_skill_config-30593302
+    skill_group_id: 593302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59330200"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593302:1
+    mission_buff_minus: 598001:1
+    is_manual: 593302
+  }
+  {
+    id: 593303
+    name: 干扰无人机
+    description: 获得一架干扰无人机，使用后下一场战斗每6秒赋予威胁最高的敌人1层[破甲][震荡][点燃]
+    lvup_description: mission_skill_config-30593303
+    skill_group_id: 593303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59330300"
+    target_id: "1"
+    special_spot_minus: 598001:1
+    mission_buff_add: 593303:1
+    mission_buff_minus: 598001:1
+    is_manual: 593303
+  }
+  {
+    id: 593311
+    name: 热血
+    description: 下一场战斗每6秒赋予场上输出最高的人形1层[专注][速射]
+    lvup_description: mission_skill_config-30593311
+    skill_group_id: 593311
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59331100"
+    target_id: "1"
+    mission_buff_add: 593311:1,593321:1
+    mission_buff_minus: 593301:1
+    is_manual: 593311
+  }
+  {
+    id: 593312
+    name: 集中
+    description: 下一场战斗每6秒赋予场上输出最高的人形1层[精密][会心]
+    lvup_description: mission_skill_config-30593312
+    skill_group_id: 593312
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59331200"
+    target_id: "1"
+    mission_buff_add: 593312:1,593322:1
+    mission_buff_minus: 593302:1
+    is_manual: 593312
+  }
+  {
+    id: 593313
+    name: 干扰
+    description: 下一场战斗每6秒赋予威胁最高的敌人1层[破甲][震荡][点燃]
+    lvup_description: mission_skill_config-30593313
+    skill_group_id: 593313
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "59331300"
+    target_id: "1"
+    mission_buff_add: 593313:1,593323:1,593333:1
+    mission_buff_minus: 593303:1
+    is_manual: 593313
+  }
+  {
+    id: 595000
+    name: 单线1终点初始化
+    description: mission_skill_config-20595000
+    lvup_description: mission_skill_config-30595000
+    skill_group_id: 595000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595000:1
+  }
+  {
+    id: 595001
+    name: 单线1ALLY初始化
+    description: mission_skill_config-20595001
+    lvup_description: mission_skill_config-30595001
+    skill_group_id: 595001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595001:1
+    mission_buff_add: 595001:1,597021:1,597022:1,597023:1
+  }
+  {
+    id: 595002
+    name: 单线1TEAM初始化
+    description: mission_skill_config-20595002
+    lvup_description: mission_skill_config-30595002
+    skill_group_id: 595002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595002:1
+    mission_buff_add: 595002:1
+  }
+  {
+    id: 595010
+    name: 单线2终点初始化
+    description: mission_skill_config-20595010
+    lvup_description: mission_skill_config-30595010
+    skill_group_id: 595010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595010:1
+  }
+  {
+    id: 595011
+    name: 单线2ALLY初始化
+    description: mission_skill_config-20595011
+    lvup_description: mission_skill_config-30595011
+    skill_group_id: 595011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595011:1
+  }
+  {
+    id: 595012
+    name: 单线2TEAM初始化
+    description: mission_skill_config-20595012
+    lvup_description: mission_skill_config-30595012
+    skill_group_id: 595012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595012:1
+  }
+  {
+    id: 595020
+    name: 单线3终点初始化
+    description: mission_skill_config-20595020
+    lvup_description: mission_skill_config-30595020
+    skill_group_id: 595020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595020:1
+  }
+  {
+    id: 595021
+    name: 单线3ALLY初始化
+    description: mission_skill_config-20595021
+    lvup_description: mission_skill_config-30595021
+    skill_group_id: 595021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595021:1
+  }
+  {
+    id: 595022
+    name: 单线3TEAM初始化
+    description: mission_skill_config-20595022
+    lvup_description: mission_skill_config-30595022
+    skill_group_id: 595022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 595022:1
+  }
+  {
+    id: 595100
+    name: 单线1-2连携
+    description: mission_skill_config-20595100
+    lvup_description: mission_skill_config-30595100
+    skill_group_id: 595100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: 59500101||59500201||59999901
+    special_spot_add: 590000:1
+  }
+  {
+    id: 595101
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30595101
+    skill_group_id: 595101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59500001&&1
+    target_id: "59501101"
+    subsidiary_mission_skill: "595100,595103"
+    is_manual: 595101
+  }
+  {
+    id: 595102
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30595102
+    skill_group_id: 595102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59500001&&1
+    target_id: "59501201"
+    subsidiary_mission_skill: "595100,595104"
+    is_manual: 595101
+  }
+  {
+    id: 595103
+    name: 单线1-2ALLY解定身
+    description: mission_skill_config-20595103
+    lvup_description: mission_skill_config-30595103
+    skill_group_id: 595103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59501101"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 595104
+    name: 单线1-2TEAM解定身
+    description: mission_skill_config-20595104
+    lvup_description: mission_skill_config-30595104
+    skill_group_id: 595104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59501201"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 595110
+    name: 单线2-3连携
+    description: mission_skill_config-20595110
+    lvup_description: mission_skill_config-30595110
+    skill_group_id: 595110
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: 59501101||59501201||59999901
+    special_spot_add: 590000:1
+  }
+  {
+    id: 595111
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30595111
+    skill_group_id: 595111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59501001&&1
+    target_id: "59502101"
+    subsidiary_mission_skill: "595110,595113"
+    is_manual: 595101
+  }
+  {
+    id: 595112
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30595112
+    skill_group_id: 595112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59501001&&1
+    target_id: "59502201"
+    subsidiary_mission_skill: "595110,595114"
+    is_manual: 595101
+  }
+  {
+    id: 595113
+    name: 单线2-3ALLY解定身
+    description: mission_skill_config-20595113
+    lvup_description: mission_skill_config-30595113
+    skill_group_id: 595113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59502101"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 595114
+    name: 单线2-3TEAM解定身
+    description: mission_skill_config-20595114
+    lvup_description: mission_skill_config-30595114
+    skill_group_id: 595114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59502201"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596000
+    name: 综合1终点初始化
+    description: mission_skill_config-20596000
+    lvup_description: mission_skill_config-30596000
+    skill_group_id: 596000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596000:1
+  }
+  {
+    id: 596001
+    name: 综合1AR初始化
+    description: mission_skill_config-20596001
+    lvup_description: mission_skill_config-30596001
+    skill_group_id: 596001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596001:1
+    mission_buff_add: 596001:1,597021:1,597022:1,597023:1
+  }
+  {
+    id: 596002
+    name: 综合1RF初始化
+    description: mission_skill_config-20596002
+    lvup_description: mission_skill_config-30596002
+    skill_group_id: 596002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596002:1
+    mission_buff_add: 596002:1
+  }
+  {
+    id: 596003
+    name: 综合1MG初始化
+    description: mission_skill_config-20596003
+    lvup_description: mission_skill_config-30596003
+    skill_group_id: 596003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596003:1
+    mission_buff_add: 596003:1
+  }
+  {
+    id: 596004
+    name: 综合1TEAM初始化
+    description: mission_skill_config-20596004
+    lvup_description: mission_skill_config-30596004
+    skill_group_id: 596004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596004:1
+    mission_buff_add: 596004:1
+  }
+  {
+    id: 596010
+    name: 综合2终点初始化
+    description: mission_skill_config-20596010
+    lvup_description: mission_skill_config-30596010
+    skill_group_id: 596010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596010:1
+  }
+  {
+    id: 596011
+    name: 综合2AR初始化
+    description: mission_skill_config-20596011
+    lvup_description: mission_skill_config-30596011
+    skill_group_id: 596011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596011:1
+  }
+  {
+    id: 596012
+    name: 综合2RF初始化
+    description: mission_skill_config-20596012
+    lvup_description: mission_skill_config-30596012
+    skill_group_id: 596012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596012:1
+  }
+  {
+    id: 596013
+    name: 综合2MG初始化
+    description: mission_skill_config-20596013
+    lvup_description: mission_skill_config-30596013
+    skill_group_id: 596013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596013:1
+  }
+  {
+    id: 596014
+    name: 综合2TEAM初始化
+    description: mission_skill_config-20596014
+    lvup_description: mission_skill_config-30596014
+    skill_group_id: 596014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596014:1
+  }
+  {
+    id: 596020
+    name: 综合3终点初始化
+    description: mission_skill_config-20596020
+    lvup_description: mission_skill_config-30596020
+    skill_group_id: 596020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596020:1
+  }
+  {
+    id: 596021
+    name: 综合3AR初始化
+    description: mission_skill_config-20596021
+    lvup_description: mission_skill_config-30596021
+    skill_group_id: 596021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596021:1
+  }
+  {
+    id: 596022
+    name: 综合3RF初始化
+    description: mission_skill_config-20596022
+    lvup_description: mission_skill_config-30596022
+    skill_group_id: 596022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596022:1
+  }
+  {
+    id: 596023
+    name: 综合3MG初始化
+    description: mission_skill_config-20596023
+    lvup_description: mission_skill_config-30596023
+    skill_group_id: 596023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596023:1
+  }
+  {
+    id: 596024
+    name: 综合3TEAM初始化
+    description: mission_skill_config-20596024
+    lvup_description: mission_skill_config-30596024
+    skill_group_id: 596024
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 596024:1
+  }
+  {
+    id: 596100
+    name: 综合1-2连携
+    description: mission_skill_config-20596100
+    lvup_description: mission_skill_config-30596100
+    skill_group_id: 596100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: 59600101||59600201||59600301||59600401||59999901
+    special_spot_add: 590000:1
+  }
+  {
+    id: 596101
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596101
+    skill_group_id: 596101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59600001&&1
+    target_id: "59601101"
+    subsidiary_mission_skill: "596100,596105"
+    is_manual: 595101
+  }
+  {
+    id: 596102
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596102
+    skill_group_id: 596102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59600001&&1
+    target_id: "59601201"
+    subsidiary_mission_skill: "596100,596106"
+    is_manual: 595101
+  }
+  {
+    id: 596103
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596103
+    skill_group_id: 596103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59600001&&1
+    target_id: "59601301"
+    subsidiary_mission_skill: "596100,596107"
+    is_manual: 595101
+  }
+  {
+    id: 596104
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596104
+    skill_group_id: 596104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59600001&&1
+    target_id: "59601401"
+    subsidiary_mission_skill: "596100,596108"
+    is_manual: 595101
+  }
+  {
+    id: 596105
+    name: 综合1-2AR解定身
+    description: mission_skill_config-20596105
+    lvup_description: mission_skill_config-30596105
+    skill_group_id: 596105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59601101"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596106
+    name: 综合1-2RF解定身
+    description: mission_skill_config-20596106
+    lvup_description: mission_skill_config-30596106
+    skill_group_id: 596106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59601201"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596107
+    name: 综合1-2MG解定身
+    description: mission_skill_config-20596107
+    lvup_description: mission_skill_config-30596107
+    skill_group_id: 596107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59601301"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596108
+    name: 综合1-2TEAM解定身
+    description: mission_skill_config-20596108
+    lvup_description: mission_skill_config-30596108
+    skill_group_id: 596108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59601401"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596110
+    name: 综合2-3连携
+    description: mission_skill_config-20596110
+    lvup_description: mission_skill_config-30596110
+    skill_group_id: 596110
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: 59601101||59601201||59601301||59601401||59999901
+    special_spot_add: 590000:1
+  }
+  {
+    id: 596111
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596111
+    skill_group_id: 596111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59601001&&1
+    target_id: "59602101"
+    subsidiary_mission_skill: "596110,596115"
+    is_manual: 595101
+  }
+  {
+    id: 596112
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596112
+    skill_group_id: 596112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59601001&&1
+    target_id: "59602201"
+    subsidiary_mission_skill: "596110,596116"
+    is_manual: 595101
+  }
+  {
+    id: 596113
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596113
+    skill_group_id: 596113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59601001&&1
+    target_id: "59602301"
+    subsidiary_mission_skill: "596110,596117"
+    is_manual: 595101
+  }
+  {
+    id: 596114
+    name: 继续前进
+    description: 传送至下一层(该点为修理站，继续前进前请不要忘记补给和修理)
+    lvup_description: mission_skill_config-30596114
+    skill_group_id: 596114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    trigger_id: 59601001&&1
+    target_id: "59602401"
+    subsidiary_mission_skill: "596110,596118"
+    is_manual: 595101
+  }
+  {
+    id: 596115
+    name: 综合2-3AR解定身
+    description: mission_skill_config-20596115
+    lvup_description: mission_skill_config-30596115
+    skill_group_id: 596115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59602101"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596116
+    name: 综合2-3RF解定身
+    description: mission_skill_config-20596116
+    lvup_description: mission_skill_config-30596116
+    skill_group_id: 596116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59602201"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596117
+    name: 综合2-3MG解定身
+    description: mission_skill_config-20596117
+    lvup_description: mission_skill_config-30596117
+    skill_group_id: 596117
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59602301"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 596118
+    name: 综合2-3TEAM解定身
+    description: mission_skill_config-20596118
+    lvup_description: mission_skill_config-30596118
+    skill_group_id: 596118
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "59602401"
+    mission_buff_add: 599002:1
+  }
+  {
+    id: 597001
+    name: AR普通检测初始化
+    description: mission_skill_config-20597001
+    lvup_description: mission_skill_config-30597001
+    skill_group_id: 597001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597001:1
+  }
+  {
+    id: 597002
+    name: RF普通检测初始化
+    description: mission_skill_config-20597002
+    lvup_description: mission_skill_config-30597002
+    skill_group_id: 597002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597002:1
+  }
+  {
+    id: 597003
+    name: MG普通检测初始化
+    description: mission_skill_config-20597003
+    lvup_description: mission_skill_config-30597003
+    skill_group_id: 597003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597003:1
+  }
+  {
+    id: 597004
+    name: 通用普通检测初始化
+    description: mission_skill_config-20597004
+    lvup_description: mission_skill_config-30597004
+    skill_group_id: 597004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597004:1
+  }
+  {
+    id: 597005
+    name: AR精英检测初始化
+    description: mission_skill_config-20597005
+    lvup_description: mission_skill_config-30597005
+    skill_group_id: 597005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597005:1
+  }
+  {
+    id: 597006
+    name: RF精英检测初始化
+    description: mission_skill_config-20597006
+    lvup_description: mission_skill_config-30597006
+    skill_group_id: 597006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597006:1
+  }
+  {
+    id: 597007
+    name: MG精英检测初始化
+    description: mission_skill_config-20597007
+    lvup_description: mission_skill_config-30597007
+    skill_group_id: 597007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597007:1
+  }
+  {
+    id: 597008
+    name: 通用精英检测初始化
+    description: mission_skill_config-20597008
+    lvup_description: mission_skill_config-30597008
+    skill_group_id: 597008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 597008:1
+  }
+  {
+    id: 597021
+    name: 联合突袭
+    description: 同时获得战场效果：狙击支援、炮击支援、空袭支援
+    lvup_description: mission_skill_config-30597021
+    skill_group_id: 597021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: 59000100&&59010100&&59020100
+    target_id: "1"
+    mission_buff_minus: 597021:1
+    subsidiary_mission_skill: "590011,590111,590211"
+    is_manual: 597021
+    consumption_item: 9027:1
+    drop_item: 9027:1
+  }
+  {
+    id: 597022
+    name: 专注
+    description: 获得战场效果：专注
+    lvup_description: mission_skill_config-30597022
+    skill_group_id: 597022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59060100"
+    target_id: "1"
+    mission_buff_minus: 597022:1
+    subsidiary_mission_skill: "590611"
+    is_manual: 597022
+    consumption_item: 9028:1
+    drop_item: 9028:1
+  }
+  {
+    id: 597023
+    name: 强化
+    description: 获得战场效果：强化
+    lvup_description: mission_skill_config-30597023
+    skill_group_id: 597023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    trigger_id: "59080100"
+    target_id: "1"
+    mission_buff_minus: 597023:1
+    subsidiary_mission_skill: "590811"
+    is_manual: 597023
+    consumption_item: 9029:1
+    drop_item: 9029:1
+  }
+  {
+    id: 598001
+    name: 无人机站初始化
+    description: mission_skill_config-20598001
+    lvup_description: mission_skill_config-30598001
+    skill_group_id: 598001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 598001:1
+  }
+  {
+    id: 599001
+    name: 召回点初始化
+    description: mission_skill_config-20599001
+    lvup_description: mission_skill_config-30599001
+    skill_group_id: 599001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599001:1,599002:1
+  }
+  {
+    id: 599010
+    name: 移形换位
+    description: 和后备梯队交换位置，更换进行攻略的梯队(注:携带的无人机不会继承)
+    lvup_description: mission_skill_config-30599010
+    skill_group_id: 599010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,301"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "59900101"
+    target_id: "59900100"
+    special_spot_add: 599010:1
+    mission_buff_minus: 590000:1
+    subsidiary_mission_skill: "599011"
+    is_manual: 599010
+  }
+  {
+    id: 599011
+    name: 召回连携
+    description: mission_skill_config-20599011
+    lvup_description: mission_skill_config-30599011
+    skill_group_id: 599011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: 59500101||59500201||59501101||59501201||59502101||59502201||59600101||59600201||59600301||59600401||59601101||59601201||59601301||59601401||59602101||59602201||59602301||59602401
+    subsidiary_mission_skill: "599012"
+  }
+  {
+    id: 599012
+    name: 召回连携2
+    description: mission_skill_config-20599012
+    lvup_description: mission_skill_config-30599012
+    skill_group_id: 599012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "59900101"
+    special_spot_minus: 599001:1
+  }
+  {
+    id: 599101
+    name: 传送点alpha初始化
+    description: mission_skill_config-20599101
+    lvup_description: mission_skill_config-30599101
+    skill_group_id: 599101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599101:1
+  }
+  {
+    id: 599102
+    name: 传送点beta初始化
+    description: mission_skill_config-20599102
+    lvup_description: mission_skill_config-30599102
+    skill_group_id: 599102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599102:1
+  }
+  {
+    id: 599111
+    name: 传送
+    description: 将当前梯队传送至同名传送点
+    lvup_description: mission_skill_config-30599111
+    skill_group_id: 599111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: "59910101"
+    subsidiary_mission_skill: "599121"
+    is_manual: 599111
+  }
+  {
+    id: 599112
+    name: 传送
+    description: 将当前梯队传送至同名传送点
+    lvup_description: mission_skill_config-30599112
+    skill_group_id: 599112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: "59910201"
+    subsidiary_mission_skill: "599122"
+    is_manual: 599111
+  }
+  {
+    id: 599121
+    name: 传送alpha连携
+    description: mission_skill_config-20599121
+    lvup_description: mission_skill_config-30599121
+    skill_group_id: 599121
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "59910101"
+    special_spot_minus: 599101:1
+  }
+  {
+    id: 599122
+    name: 传送beta连携
+    description: mission_skill_config-20599122
+    lvup_description: mission_skill_config-30599122
+    skill_group_id: 599122
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "59910201"
+    special_spot_minus: 599102:1
+  }
+  {
+    id: 599901
+    name: -59-a-1-point1
+    description: mission_skill_config-20599901
+    lvup_description: mission_skill_config-30599901
+    skill_group_id: 599901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599901:1
+  }
+  {
+    id: 599902
+    name: -59-a-2-point1
+    description: mission_skill_config-20599902
+    lvup_description: mission_skill_config-30599902
+    skill_group_id: 599902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599902:1
+  }
+  {
+    id: 599903
+    name: -59-a-3-point1
+    description: mission_skill_config-20599903
+    lvup_description: mission_skill_config-30599903
+    skill_group_id: 599903
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599903:1
+  }
+  {
+    id: 599904
+    name: -59-b-1-point2
+    description: mission_skill_config-20599904
+    lvup_description: mission_skill_config-30599904
+    skill_group_id: 599904
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599904:1
+  }
+  {
+    id: 599905
+    name: -59-b-2-point1
+    description: mission_skill_config-20599905
+    lvup_description: mission_skill_config-30599905
+    skill_group_id: 599905
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599905:1
+  }
+  {
+    id: 599906
+    name: -59-b-3-point2
+    description: mission_skill_config-20599906
+    lvup_description: mission_skill_config-30599906
+    skill_group_id: 599906
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599906:1
+  }
+  {
+    id: 599907
+    name: -59-c-1-point1
+    description: mission_skill_config-20599907
+    lvup_description: mission_skill_config-30599907
+    skill_group_id: 599907
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599907:1
+  }
+  {
+    id: 599908
+    name: -59-c-2-point1
+    description: mission_skill_config-20599908
+    lvup_description: mission_skill_config-30599908
+    skill_group_id: 599908
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599908:1
+  }
+  {
+    id: 599909
+    name: -59-m-point2
+    description: mission_skill_config-20599909
+    lvup_description: mission_skill_config-30599909
+    skill_group_id: 599909
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599909:1
+  }
+  {
+    id: 599910
+    name: -59-a-1-point3
+    description: mission_skill_config-20599910
+    lvup_description: mission_skill_config-30599910
+    skill_group_id: 599910
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 599920:1
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"
@@ -39470,6 +44148,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651002901"
@@ -39488,6 +44167,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651003001"
@@ -39506,6 +44186,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651003101"
@@ -39524,6 +44205,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651003201"
@@ -39542,6 +44224,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651003301"
@@ -39560,6 +44243,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651003401"
@@ -39578,6 +44262,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
+    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 5
     target_id: "651003501"
