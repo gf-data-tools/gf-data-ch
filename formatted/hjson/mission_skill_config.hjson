@@ -19040,6 +19040,7 @@
     trigger_id: "59000100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590011"
     is_manual: 590001
@@ -19058,6 +19059,7 @@
     trigger_id: "59000200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590012"
     is_manual: 590002
@@ -19076,6 +19078,7 @@
     trigger_id: "59000300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590013"
     is_manual: 590003
@@ -19094,6 +19097,7 @@
     trigger_id: "59000400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590014"
     is_manual: 590004
@@ -19116,6 +19120,7 @@
     trigger_id: "59000500"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590015"
     is_manual: 590005
@@ -19138,13 +19143,14 @@
     trigger_id: "59000600"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590016"
     is_manual: 590006
   }
   {
     id: 590011
-    name: 狙击支援CD
+    name: 【标记】狙击支援CD
     description: mission_skill_config-20590011
     lvup_description: mission_skill_config-30590011
     skill_group_id: 590011
@@ -19158,7 +19164,7 @@
   }
   {
     id: 590012
-    name: 狙击强化CD
+    name: 【标记】狙击强化CD
     description: mission_skill_config-20590012
     lvup_description: mission_skill_config-30590012
     skill_group_id: 590012
@@ -19172,7 +19178,7 @@
   }
   {
     id: 590013
-    name: 定点清除CD
+    name: 【标记】定点清除CD
     description: mission_skill_config-20590013
     lvup_description: mission_skill_config-30590013
     skill_group_id: 590013
@@ -19186,7 +19192,7 @@
   }
   {
     id: 590014
-    name: 连携炮击CD
+    name: 【标记】连携炮击CD
     description: mission_skill_config-20590014
     lvup_description: mission_skill_config-30590014
     skill_group_id: 590014
@@ -19200,7 +19206,7 @@
   }
   {
     id: 590015
-    name: 心眼CD
+    name: 【标记】心眼CD
     description: mission_skill_config-20590015
     lvup_description: mission_skill_config-30590015
     skill_group_id: 590015
@@ -19214,7 +19220,7 @@
   }
   {
     id: 590016
-    name: 穿甲弹头CD
+    name: 【标记】穿甲弹头CD
     description: mission_skill_config-20590016
     lvup_description: mission_skill_config-30590016
     skill_group_id: 590016
@@ -19244,6 +19250,7 @@
     trigger_id: "59010100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590111"
     is_manual: 590101
@@ -19262,6 +19269,7 @@
     trigger_id: "59010200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590112"
     is_manual: 590102
@@ -19280,6 +19288,7 @@
     trigger_id: "59010300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590113"
     is_manual: 590103
@@ -19298,6 +19307,7 @@
     trigger_id: "59010400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590114"
     is_manual: 590104
@@ -19320,6 +19330,7 @@
     trigger_id: "59010500"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590115"
     is_manual: 590105
@@ -19342,13 +19353,14 @@
     trigger_id: "59010600"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590116"
     is_manual: 590106
   }
   {
     id: 590111
-    name: 炮击支援CD
+    name: 【标记】炮击支援CD
     description: mission_skill_config-20590111
     lvup_description: mission_skill_config-30590111
     skill_group_id: 590111
@@ -19362,7 +19374,7 @@
   }
   {
     id: 590112
-    name: 炮击强化CD
+    name: 【标记】炮击强化CD
     description: mission_skill_config-20590112
     lvup_description: mission_skill_config-30590112
     skill_group_id: 590112
@@ -19376,7 +19388,7 @@
   }
   {
     id: 590113
-    name: 集束炮击CD
+    name: 【标记】集束炮击CD
     description: mission_skill_config-20590113
     lvup_description: mission_skill_config-30590113
     skill_group_id: 590113
@@ -19390,7 +19402,7 @@
   }
   {
     id: 590114
-    name: 连携空袭CD
+    name: 【标记】连携空袭CD
     description: mission_skill_config-20590114
     lvup_description: mission_skill_config-30590114
     skill_group_id: 590114
@@ -19404,7 +19416,7 @@
   }
   {
     id: 590115
-    name: 英勇CD
+    name: 【标记】英勇CD
     description: mission_skill_config-20590115
     lvup_description: mission_skill_config-30590115
     skill_group_id: 590115
@@ -19418,7 +19430,7 @@
   }
   {
     id: 590116
-    name: 冲击弹药CD
+    name: 【标记】冲击弹药CD
     description: mission_skill_config-20590116
     lvup_description: mission_skill_config-30590116
     skill_group_id: 590116
@@ -19448,6 +19460,7 @@
     trigger_id: "59020100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590211"
     is_manual: 590201
@@ -19466,6 +19479,7 @@
     trigger_id: "59020200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590212"
     is_manual: 590202
@@ -19484,6 +19498,7 @@
     trigger_id: "59020300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590213"
     is_manual: 590203
@@ -19502,6 +19517,7 @@
     trigger_id: "59020400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590214"
     is_manual: 590204
@@ -19524,6 +19540,7 @@
     trigger_id: "59020500"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590215"
     is_manual: 590205
@@ -19546,13 +19563,14 @@
     trigger_id: "59020600"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590216"
     is_manual: 590206
   }
   {
     id: 590211
-    name: 空袭支援CD
+    name: 【标记】空袭支援CD
     description: mission_skill_config-20590211
     lvup_description: mission_skill_config-30590211
     skill_group_id: 590211
@@ -19566,7 +19584,7 @@
   }
   {
     id: 590212
-    name: 空袭强化CD
+    name: 【标记】空袭强化CD
     description: mission_skill_config-20590212
     lvup_description: mission_skill_config-30590212
     skill_group_id: 590212
@@ -19580,7 +19598,7 @@
   }
   {
     id: 590213
-    name: 地毯轰炸CD
+    name: 【标记】地毯轰炸CD
     description: mission_skill_config-20590213
     lvup_description: mission_skill_config-30590213
     skill_group_id: 590213
@@ -19594,7 +19612,7 @@
   }
   {
     id: 590214
-    name: 连携狙击CD
+    name: 【标记】连携狙击CD
     description: mission_skill_config-20590214
     lvup_description: mission_skill_config-30590214
     skill_group_id: 590214
@@ -19608,7 +19626,7 @@
   }
   {
     id: 590215
-    name: 嗜血CD
+    name: 【标记】嗜血CD
     description: mission_skill_config-20590215
     lvup_description: mission_skill_config-30590215
     skill_group_id: 590215
@@ -19622,7 +19640,7 @@
   }
   {
     id: 590216
-    name: 天降火海CD
+    name: 【标记】天降火海CD
     description: mission_skill_config-20590216
     lvup_description: mission_skill_config-30590216
     skill_group_id: 590216
@@ -19652,6 +19670,7 @@
     trigger_id: "59030100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590311"
     is_manual: 590301
@@ -19670,6 +19689,7 @@
     trigger_id: "59030200"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590312"
     is_manual: 590302
@@ -19688,13 +19708,14 @@
     trigger_id: "59030300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590313"
     is_manual: 590303
   }
   {
     id: 590311
-    name: 破甲CD
+    name: 【标记】破甲CD
     description: mission_skill_config-20590311
     lvup_description: mission_skill_config-30590311
     skill_group_id: 590311
@@ -19708,7 +19729,7 @@
   }
   {
     id: 590312
-    name: 易碎CD
+    name: 【标记】易碎CD
     description: mission_skill_config-20590312
     lvup_description: mission_skill_config-30590312
     skill_group_id: 590312
@@ -19722,7 +19743,7 @@
   }
   {
     id: 590313
-    name: 破甲强化CD
+    name: 【标记】破甲强化CD
     description: mission_skill_config-20590313
     lvup_description: mission_skill_config-30590313
     skill_group_id: 590313
@@ -19752,6 +19773,7 @@
     trigger_id: "59040100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590411"
     is_manual: 590401
@@ -19770,6 +19792,7 @@
     trigger_id: "59040200"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590412"
     is_manual: 590402
@@ -19788,13 +19811,14 @@
     trigger_id: "59040300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590413"
     is_manual: 590403
   }
   {
     id: 590411
-    name: 震荡CD
+    name: 【标记】震荡CD
     description: mission_skill_config-20590411
     lvup_description: mission_skill_config-30590411
     skill_group_id: 590411
@@ -19808,7 +19832,7 @@
   }
   {
     id: 590412
-    name: 易爆CD
+    name: 【标记】易爆CD
     description: mission_skill_config-20590412
     lvup_description: mission_skill_config-30590412
     skill_group_id: 590412
@@ -19822,7 +19846,7 @@
   }
   {
     id: 590413
-    name: 震荡强化CD
+    name: 【标记】震荡强化CD
     description: mission_skill_config-20590413
     lvup_description: mission_skill_config-30590413
     skill_group_id: 590413
@@ -19852,6 +19876,7 @@
     trigger_id: "59050100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590511"
     is_manual: 590501
@@ -19870,6 +19895,7 @@
     trigger_id: "59050200"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590512"
     is_manual: 590502
@@ -19888,13 +19914,14 @@
     trigger_id: "59050300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590513"
     is_manual: 590503
   }
   {
     id: 590511
-    name: 点燃CD
+    name: 【标记】点燃CD
     description: mission_skill_config-20590511
     lvup_description: mission_skill_config-30590511
     skill_group_id: 590511
@@ -19908,7 +19935,7 @@
   }
   {
     id: 590512
-    name: 易燃CD
+    name: 【标记】易燃CD
     description: mission_skill_config-20590512
     lvup_description: mission_skill_config-30590512
     skill_group_id: 590512
@@ -19922,7 +19949,7 @@
   }
   {
     id: 590513
-    name: 点燃强化CD
+    name: 【标记】点燃强化CD
     description: mission_skill_config-20590513
     lvup_description: mission_skill_config-30590513
     skill_group_id: 590513
@@ -19952,6 +19979,7 @@
     trigger_id: "59060100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590611"
     is_manual: 590601
@@ -19970,6 +19998,7 @@
     trigger_id: "59060200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590612"
     is_manual: 590602
@@ -19988,6 +20017,7 @@
     trigger_id: "59060300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590613"
     is_manual: 590603
@@ -20010,6 +20040,7 @@
     trigger_id: "59060400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590614"
     is_manual: 590604
@@ -20028,6 +20059,7 @@
     trigger_id: "59060500"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590615"
     is_manual: 590605
@@ -20050,13 +20082,14 @@
     trigger_id: "59060600"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590616"
     is_manual: 590606
   }
   {
     id: 590611
-    name: 专注CD
+    name: 【标记】专注CD
     description: mission_skill_config-20590611
     lvup_description: mission_skill_config-30590611
     skill_group_id: 590611
@@ -20070,7 +20103,7 @@
   }
   {
     id: 590612
-    name: 专注强化CD
+    name: 【标记】专注强化CD
     description: mission_skill_config-20590612
     lvup_description: mission_skill_config-30590612
     skill_group_id: 590612
@@ -20084,7 +20117,7 @@
   }
   {
     id: 590613
-    name: 明镜止水CD
+    name: 【标记】明镜止水CD
     description: mission_skill_config-20590613
     lvup_description: mission_skill_config-30590613
     skill_group_id: 590613
@@ -20098,7 +20131,7 @@
   }
   {
     id: 590614
-    name: 速射CD
+    name: 【标记】速射CD
     description: mission_skill_config-20590614
     lvup_description: mission_skill_config-30590614
     skill_group_id: 590614
@@ -20112,7 +20145,7 @@
   }
   {
     id: 590615
-    name: 速射强化CD
+    name: 【标记】速射强化CD
     description: mission_skill_config-20590615
     lvup_description: mission_skill_config-30590615
     skill_group_id: 590615
@@ -20126,7 +20159,7 @@
   }
   {
     id: 590616
-    name: 限制解除CD
+    name: 【标记】限制解除CD
     description: mission_skill_config-20590616
     lvup_description: mission_skill_config-30590616
     skill_group_id: 590616
@@ -20156,6 +20189,7 @@
     trigger_id: "59070100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590711"
     is_manual: 590701
@@ -20163,7 +20197,7 @@
   {
     id: 590702
     name: 精密强化
-    description: (精密)的效果提高至100%命中及50%暴击
+    description: (精密)的效果提高至50%
     lvup_description: mission_skill_config-30590702
     skill_group_id: 590702
     level: 1
@@ -20174,6 +20208,7 @@
     trigger_id: "59070200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590712"
     is_manual: 590702
@@ -20196,6 +20231,7 @@
     trigger_id: "59070300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590713"
     is_manual: 590703
@@ -20218,6 +20254,7 @@
     trigger_id: "59070400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590714"
     is_manual: 590704
@@ -20236,6 +20273,7 @@
     trigger_id: "59070500"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590715"
     is_manual: 590705
@@ -20258,13 +20296,14 @@
     trigger_id: "59070600"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590716"
     is_manual: 590706
   }
   {
     id: 590711
-    name: 精密CD
+    name: 【标记】精密CD
     description: mission_skill_config-20590711
     lvup_description: mission_skill_config-30590711
     skill_group_id: 590711
@@ -20278,7 +20317,7 @@
   }
   {
     id: 590712
-    name: 精密强化CD
+    name: 【标记】精密强化CD
     description: mission_skill_config-20590712
     lvup_description: mission_skill_config-30590712
     skill_group_id: 590712
@@ -20292,7 +20331,7 @@
   }
   {
     id: 590713
-    name: 直死魔眼CD
+    name: 【标记】直死魔眼CD
     description: mission_skill_config-20590713
     lvup_description: mission_skill_config-30590713
     skill_group_id: 590713
@@ -20306,7 +20345,7 @@
   }
   {
     id: 590714
-    name: 会心CD
+    name: 【标记】会心CD
     description: mission_skill_config-20590714
     lvup_description: mission_skill_config-30590714
     skill_group_id: 590714
@@ -20320,7 +20359,7 @@
   }
   {
     id: 590715
-    name: 会心强化CD
+    name: 【标记】会心强化CD
     description: mission_skill_config-20590715
     lvup_description: mission_skill_config-30590715
     skill_group_id: 590715
@@ -20334,7 +20373,7 @@
   }
   {
     id: 590716
-    name: 自动校准CD
+    name: 【标记】自动校准CD
     description: mission_skill_config-20590716
     lvup_description: mission_skill_config-30590716
     skill_group_id: 590716
@@ -20364,6 +20403,7 @@
     trigger_id: "59080100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590811"
     is_manual: 590801
@@ -20382,13 +20422,14 @@
     trigger_id: "59080200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590812"
     is_manual: 590802
   }
   {
     id: 590811
-    name: 强化CD
+    name: 【标记】强化CD
     description: mission_skill_config-20590811
     lvup_description: mission_skill_config-30590811
     skill_group_id: 590811
@@ -20402,7 +20443,7 @@
   }
   {
     id: 590812
-    name: 强化增幅CD
+    name: 【标记】强化增幅CD
     description: mission_skill_config-20590812
     lvup_description: mission_skill_config-30590812
     skill_group_id: 590812
@@ -20432,6 +20473,7 @@
     trigger_id: "59090100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "590911"
     is_manual: 590901
@@ -20450,13 +20492,14 @@
     trigger_id: "59090200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "590912"
     is_manual: 590902
   }
   {
     id: 590911
-    name: 耐性CD
+    name: 【标记】耐性CD
     description: mission_skill_config-20590911
     lvup_description: mission_skill_config-30590911
     skill_group_id: 590911
@@ -20470,7 +20513,7 @@
   }
   {
     id: 590912
-    name: 耐性增幅CD
+    name: 【标记】耐性增幅CD
     description: mission_skill_config-20590912
     lvup_description: mission_skill_config-30590912
     skill_group_id: 590912
@@ -20500,6 +20543,7 @@
     trigger_id: 59100100&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591011"
     is_manual: 591001
@@ -20522,6 +20566,7 @@
     trigger_id: 59100200&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591012"
     is_manual: 591002
@@ -20544,6 +20589,7 @@
     trigger_id: 59100300&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591013"
     is_manual: 591003
@@ -20566,13 +20612,14 @@
     trigger_id: 59100400&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "591014"
     is_manual: 591004
   }
   {
     id: 591011
-    name: 突击专注CD
+    name: 【标记】突击专注CD
     description: mission_skill_config-20591011
     lvup_description: mission_skill_config-30591011
     skill_group_id: 591011
@@ -20586,7 +20633,7 @@
   }
   {
     id: 591012
-    name: 突击精密CD
+    name: 【标记】突击精密CD
     description: mission_skill_config-20591012
     lvup_description: mission_skill_config-30591012
     skill_group_id: 591012
@@ -20600,7 +20647,7 @@
   }
   {
     id: 591013
-    name: 突击强化CD
+    name: 【标记】突击强化CD
     description: mission_skill_config-20591013
     lvup_description: mission_skill_config-30591013
     skill_group_id: 591013
@@ -20614,7 +20661,7 @@
   }
   {
     id: 591014
-    name: 炮击小队CD
+    name: 【标记】炮击小队CD
     description: mission_skill_config-20591014
     lvup_description: mission_skill_config-30591014
     skill_group_id: 591014
@@ -20644,6 +20691,7 @@
     trigger_id: 59110100&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591111"
     is_manual: 591101
@@ -20666,6 +20714,7 @@
     trigger_id: 59110200&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591112"
     is_manual: 591102
@@ -20688,6 +20737,7 @@
     trigger_id: 59110300&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591113"
     is_manual: 591103
@@ -20710,13 +20760,14 @@
     trigger_id: 59110400&&59600210&&59600310
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "591114"
     is_manual: 591104
   }
   {
     id: 591111
-    name: 冲锋会心CD
+    name: 【标记】冲锋会心CD
     description: mission_skill_config-20591111
     lvup_description: mission_skill_config-30591111
     skill_group_id: 591111
@@ -20730,7 +20781,7 @@
   }
   {
     id: 591112
-    name: 冲锋强化CD
+    name: 【标记】冲锋强化CD
     description: mission_skill_config-20591112
     lvup_description: mission_skill_config-30591112
     skill_group_id: 591112
@@ -20744,7 +20795,7 @@
   }
   {
     id: 591113
-    name: 冲锋耐性CD
+    name: 【标记】冲锋耐性CD
     description: mission_skill_config-20591113
     lvup_description: mission_skill_config-30591113
     skill_group_id: 591113
@@ -20758,7 +20809,7 @@
   }
   {
     id: 591114
-    name: 燃烧手雷CD
+    name: 【标记】燃烧手雷CD
     description: mission_skill_config-20591114
     lvup_description: mission_skill_config-30591114
     skill_group_id: 591114
@@ -20788,6 +20839,7 @@
     trigger_id: 59120100&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591211"
     is_manual: 591201
@@ -20810,6 +20862,7 @@
     trigger_id: 59120200&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591212"
     is_manual: 591202
@@ -20832,6 +20885,7 @@
     trigger_id: 59120300&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591213"
     is_manual: 591203
@@ -20854,13 +20908,14 @@
     trigger_id: 59120400&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "591214"
     is_manual: 591204
   }
   {
     id: 591211
-    name: 步枪速射CD
+    name: 【标记】步枪速射CD
     description: mission_skill_config-20591211
     lvup_description: mission_skill_config-30591211
     skill_group_id: 591211
@@ -20874,7 +20929,7 @@
   }
   {
     id: 591212
-    name: 步枪会心CD
+    name: 【标记】步枪会心CD
     description: mission_skill_config-20591212
     lvup_description: mission_skill_config-30591212
     skill_group_id: 591212
@@ -20888,7 +20943,7 @@
   }
   {
     id: 591213
-    name: 步枪强化CD
+    name: 【标记】步枪强化CD
     description: mission_skill_config-20591213
     lvup_description: mission_skill_config-30591213
     skill_group_id: 591213
@@ -20902,7 +20957,7 @@
   }
   {
     id: 591214
-    name: 狙击小队CD
+    name: 【标记】狙击小队CD
     description: mission_skill_config-20591214
     lvup_description: mission_skill_config-30591214
     skill_group_id: 591214
@@ -20932,6 +20987,7 @@
     trigger_id: 59130100&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591311"
     is_manual: 591301
@@ -20954,6 +21010,7 @@
     trigger_id: 59130200&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591312"
     is_manual: 591302
@@ -20976,6 +21033,7 @@
     trigger_id: 59130300&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591313"
     is_manual: 591303
@@ -20998,13 +21056,14 @@
     trigger_id: 59130400&&59600110&&59600310
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591314"
     is_manual: 591304
   }
   {
     id: 591311
-    name: 手枪专注CD
+    name: 【标记】手枪专注CD
     description: mission_skill_config-20591311
     lvup_description: mission_skill_config-30591311
     skill_group_id: 591311
@@ -21018,7 +21077,7 @@
   }
   {
     id: 591312
-    name: 手枪速射CD
+    name: 【标记】手枪速射CD
     description: mission_skill_config-20591312
     lvup_description: mission_skill_config-30591312
     skill_group_id: 591312
@@ -21032,7 +21091,7 @@
   }
   {
     id: 591313
-    name: 手枪精密CD
+    name: 【标记】手枪精密CD
     description: mission_skill_config-20591313
     lvup_description: mission_skill_config-30591313
     skill_group_id: 591313
@@ -21046,7 +21105,7 @@
   }
   {
     id: 591314
-    name: 手枪会心CD
+    name: 【标记】手枪会心CD
     description: mission_skill_config-20591314
     lvup_description: mission_skill_config-30591314
     skill_group_id: 591314
@@ -21076,6 +21135,7 @@
     trigger_id: 59140100&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591411"
     is_manual: 591401
@@ -21098,6 +21158,7 @@
     trigger_id: 59140200&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591412"
     is_manual: 591402
@@ -21120,6 +21181,7 @@
     trigger_id: 59140300&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591413"
     is_manual: 591403
@@ -21142,13 +21204,14 @@
     trigger_id: 59140400&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "591414"
     is_manual: 591404
   }
   {
     id: 591411
-    name: 机枪精密CD
+    name: 【标记】机枪精密CD
     description: mission_skill_config-20591411
     lvup_description: mission_skill_config-30591411
     skill_group_id: 591411
@@ -21162,7 +21225,7 @@
   }
   {
     id: 591412
-    name: 机枪会心CD
+    name: 【标记】机枪会心CD
     description: mission_skill_config-20591412
     lvup_description: mission_skill_config-30591412
     skill_group_id: 591412
@@ -21176,7 +21239,7 @@
   }
   {
     id: 591413
-    name: 机枪强化CD
+    name: 【标记】机枪强化CD
     description: mission_skill_config-20591413
     lvup_description: mission_skill_config-30591413
     skill_group_id: 591413
@@ -21190,7 +21253,7 @@
   }
   {
     id: 591414
-    name: 空袭小队CD
+    name: 【标记】空袭小队CD
     description: mission_skill_config-20591414
     lvup_description: mission_skill_config-30591414
     skill_group_id: 591414
@@ -21220,6 +21283,7 @@
     trigger_id: 59150100&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591511"
     is_manual: 591501
@@ -21242,6 +21306,7 @@
     trigger_id: 59150200&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "591512"
     is_manual: 591502
@@ -21264,6 +21329,7 @@
     trigger_id: 59150300&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "591513"
     is_manual: 591503
@@ -21286,13 +21352,14 @@
     trigger_id: 59150400&&59600110&&59600210
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "591514"
     is_manual: 591504
   }
   {
     id: 591511
-    name: 霰弹专注CD
+    name: 【标记】霰弹专注CD
     description: mission_skill_config-20591511
     lvup_description: mission_skill_config-30591511
     skill_group_id: 591511
@@ -21306,7 +21373,7 @@
   }
   {
     id: 591512
-    name: 霰弹耐性CD
+    name: 【标记】霰弹耐性CD
     description: mission_skill_config-20591512
     lvup_description: mission_skill_config-30591512
     skill_group_id: 591512
@@ -21320,7 +21387,7 @@
   }
   {
     id: 591513
-    name: 破甲打击CD
+    name: 【标记】破甲打击CD
     description: mission_skill_config-20591513
     lvup_description: mission_skill_config-30591513
     skill_group_id: 591513
@@ -21334,7 +21401,7 @@
   }
   {
     id: 591514
-    name: 震荡打击CD
+    name: 【标记】震荡打击CD
     description: mission_skill_config-20591514
     lvup_description: mission_skill_config-30591514
     skill_group_id: 591514
@@ -21360,6 +21427,7 @@
     trigger_id: "59200100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592011"
     is_manual: 592001
@@ -21382,6 +21450,7 @@
     trigger_id: "59200200"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592012"
     is_manual: 592002
@@ -21400,6 +21469,7 @@
     trigger_id: "59200300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592013"
     is_manual: 592003
@@ -21422,13 +21492,14 @@
     trigger_id: "59200400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592014"
     is_manual: 592004
   }
   {
     id: 592011
-    name: 枪弹狂热CD
+    name: 【标记】枪弹狂热CD
     description: mission_skill_config-20592011
     lvup_description: mission_skill_config-30592011
     skill_group_id: 592011
@@ -21442,7 +21513,7 @@
   }
   {
     id: 592012
-    name: 英雄作成CD
+    name: 【标记】英雄作成CD
     description: mission_skill_config-20592012
     lvup_description: mission_skill_config-30592012
     skill_group_id: 592012
@@ -21456,7 +21527,7 @@
   }
   {
     id: 592013
-    name: 无羁狂怒CD
+    name: 【标记】无羁狂怒CD
     description: mission_skill_config-20592013
     lvup_description: mission_skill_config-30592013
     skill_group_id: 592013
@@ -21470,7 +21541,7 @@
   }
   {
     id: 592014
-    name: 嗜血狂怒CD
+    name: 【标记】嗜血狂怒CD
     description: mission_skill_config-20592014
     lvup_description: mission_skill_config-30592014
     skill_group_id: 592014
@@ -21496,6 +21567,7 @@
     trigger_id: "59210100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592111"
     is_manual: 592101
@@ -21518,6 +21590,7 @@
     trigger_id: "59210200"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592112"
     is_manual: 592102
@@ -21536,6 +21609,7 @@
     trigger_id: "59210300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592113"
     is_manual: 592103
@@ -21554,6 +21628,7 @@
     trigger_id: "59210400"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592114"
     is_manual: 592104
@@ -21572,6 +21647,7 @@
     trigger_id: "59210500"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592115"
     is_manual: 592105
@@ -21590,6 +21666,7 @@
     trigger_id: "59210600"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592116"
     is_manual: 592106
@@ -21608,6 +21685,7 @@
     trigger_id: "59210700"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592117"
     is_manual: 592107
@@ -21626,13 +21704,14 @@
     trigger_id: "59210800"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592118"
     is_manual: 592108
   }
   {
     id: 592111
-    name: 机械壁垒CD
+    name: 【标记】机械壁垒CD
     description: mission_skill_config-20592111
     lvup_description: mission_skill_config-30592111
     skill_group_id: 592111
@@ -21646,7 +21725,7 @@
   }
   {
     id: 592112
-    name: 多面防御CD
+    name: 【标记】多面防御CD
     description: mission_skill_config-20592112
     lvup_description: mission_skill_config-30592112
     skill_group_id: 592112
@@ -21660,7 +21739,7 @@
   }
   {
     id: 592113
-    name: 偏折护盾CD
+    name: 【标记】偏折护盾CD
     description: mission_skill_config-20592113
     lvup_description: mission_skill_config-30592113
     skill_group_id: 592113
@@ -21674,7 +21753,7 @@
   }
   {
     id: 592114
-    name: 涌能护盾CD
+    name: 【标记】涌能护盾CD
     description: mission_skill_config-20592114
     lvup_description: mission_skill_config-30592114
     skill_group_id: 592114
@@ -21688,7 +21767,7 @@
   }
   {
     id: 592115
-    name: 静滞力场CD
+    name: 【标记】静滞力场CD
     description: mission_skill_config-20592115
     lvup_description: mission_skill_config-30592115
     skill_group_id: 592115
@@ -21702,7 +21781,7 @@
   }
   {
     id: 592116
-    name: 保护之壳CD
+    name: 【标记】保护之壳CD
     description: mission_skill_config-20592116
     lvup_description: mission_skill_config-30592116
     skill_group_id: 592116
@@ -21716,7 +21795,7 @@
   }
   {
     id: 592117
-    name: 协同嘲讽CD
+    name: 【标记】协同嘲讽CD
     description: mission_skill_config-20592117
     lvup_description: mission_skill_config-30592117
     skill_group_id: 592117
@@ -21730,7 +21809,7 @@
   }
   {
     id: 592118
-    name: 意外惊喜CD
+    name: 【标记】意外惊喜CD
     description: mission_skill_config-20592118
     lvup_description: mission_skill_config-30592118
     skill_group_id: 592118
@@ -21756,6 +21835,7 @@
     trigger_id: "59220100"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592211"
     is_manual: 592201
@@ -21774,6 +21854,7 @@
     trigger_id: "59220200"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "592212"
     is_manual: 592202
@@ -21792,6 +21873,7 @@
     trigger_id: "59220300"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592213"
     is_manual: 592203
@@ -21810,6 +21892,7 @@
     trigger_id: "59220400"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "592214"
     is_manual: 592204
@@ -21828,6 +21911,7 @@
     trigger_id: "59220500"
     target_id: "1"
     special_spot_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597001:1,597002:1,597003:1,597004:1,597011:1,597012:1,597013:1,597014:1
     subsidiary_mission_skill: "592215"
     is_manual: 592205
@@ -21846,13 +21930,14 @@
     trigger_id: "59220600"
     target_id: "1"
     special_spot_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
+    mission_buff_add: 599910:1
     mission_buff_minus: 597005:1,597006:1,597007:1,597008:1,597015:1,597016:1,597017:1,597018:1
     subsidiary_mission_skill: "592216"
     is_manual: 592206
   }
   {
     id: 592211
-    name: 狙击引导CD
+    name: 【标记】狙击引导CD
     description: mission_skill_config-20592211
     lvup_description: mission_skill_config-30592211
     skill_group_id: 592211
@@ -21866,7 +21951,7 @@
   }
   {
     id: 592212
-    name: 雪上加霜CD
+    name: 【标记】雪上加霜CD
     description: mission_skill_config-20592212
     lvup_description: mission_skill_config-30592212
     skill_group_id: 592212
@@ -21880,7 +21965,7 @@
   }
   {
     id: 592213
-    name: 炮击引导CD
+    name: 【标记】炮击引导CD
     description: mission_skill_config-20592213
     lvup_description: mission_skill_config-30592213
     skill_group_id: 592213
@@ -21894,7 +21979,7 @@
   }
   {
     id: 592214
-    name: 落井下石CD
+    name: 【标记】落井下石CD
     description: mission_skill_config-20592214
     lvup_description: mission_skill_config-30592214
     skill_group_id: 592214
@@ -21908,7 +21993,7 @@
   }
   {
     id: 592215
-    name: 空袭引导CD
+    name: 【标记】空袭引导CD
     description: mission_skill_config-20592215
     lvup_description: mission_skill_config-30592215
     skill_group_id: 592215
@@ -21922,7 +22007,7 @@
   }
   {
     id: 592216
-    name: 趁火打劫CD
+    name: 【标记】趁火打劫CD
     description: mission_skill_config-20592216
     lvup_description: mission_skill_config-30592216
     skill_group_id: 592216
@@ -22428,7 +22513,7 @@
   }
   {
     id: 595000
-    name: 单线1终点初始化
+    name: 【标记】单线1终点初始化
     description: mission_skill_config-20595000
     lvup_description: mission_skill_config-30595000
     skill_group_id: 595000
@@ -22442,7 +22527,7 @@
   }
   {
     id: 595001
-    name: 单线1ALLY初始化
+    name: 【标记】单线1ALLY初始化
     description: mission_skill_config-20595001
     lvup_description: mission_skill_config-30595001
     skill_group_id: 595001
@@ -22453,11 +22538,11 @@
     cd_time_type: 1
     target_id: "1"
     special_spot_add: 595001:1
-    mission_buff_add: 595001:1,597021:1,597022:1,597023:1
+    mission_buff_add: 595001:1
   }
   {
     id: 595002
-    name: 单线1TEAM初始化
+    name: 【标记】单线1TEAM初始化
     description: mission_skill_config-20595002
     lvup_description: mission_skill_config-30595002
     skill_group_id: 595002
@@ -22472,7 +22557,7 @@
   }
   {
     id: 595010
-    name: 单线2终点初始化
+    name: 【标记】单线2终点初始化
     description: mission_skill_config-20595010
     lvup_description: mission_skill_config-30595010
     skill_group_id: 595010
@@ -22486,7 +22571,7 @@
   }
   {
     id: 595011
-    name: 单线2ALLY初始化
+    name: 【标记】单线2ALLY初始化
     description: mission_skill_config-20595011
     lvup_description: mission_skill_config-30595011
     skill_group_id: 595011
@@ -22500,7 +22585,7 @@
   }
   {
     id: 595012
-    name: 单线2TEAM初始化
+    name: 【标记】单线2TEAM初始化
     description: mission_skill_config-20595012
     lvup_description: mission_skill_config-30595012
     skill_group_id: 595012
@@ -22514,7 +22599,7 @@
   }
   {
     id: 595020
-    name: 单线3终点初始化
+    name: 【标记】单线3终点初始化
     description: mission_skill_config-20595020
     lvup_description: mission_skill_config-30595020
     skill_group_id: 595020
@@ -22528,7 +22613,7 @@
   }
   {
     id: 595021
-    name: 单线3ALLY初始化
+    name: 【标记】单线3ALLY初始化
     description: mission_skill_config-20595021
     lvup_description: mission_skill_config-30595021
     skill_group_id: 595021
@@ -22542,7 +22627,7 @@
   }
   {
     id: 595022
-    name: 单线3TEAM初始化
+    name: 【标记】单线3TEAM初始化
     description: mission_skill_config-20595022
     lvup_description: mission_skill_config-30595022
     skill_group_id: 595022
@@ -22556,7 +22641,7 @@
   }
   {
     id: 595100
-    name: 单线1-2连携
+    name: 【标记】单线1-2连携
     description: mission_skill_config-20595100
     lvup_description: mission_skill_config-30595100
     skill_group_id: 595100
@@ -22607,7 +22692,7 @@
   }
   {
     id: 595103
-    name: 单线1-2ALLY解定身
+    name: 【标记】单线1-2ALLY解定身
     description: mission_skill_config-20595103
     lvup_description: mission_skill_config-30595103
     skill_group_id: 595103
@@ -22622,7 +22707,7 @@
   }
   {
     id: 595104
-    name: 单线1-2TEAM解定身
+    name: 【标记】单线1-2TEAM解定身
     description: mission_skill_config-20595104
     lvup_description: mission_skill_config-30595104
     skill_group_id: 595104
@@ -22637,7 +22722,7 @@
   }
   {
     id: 595110
-    name: 单线2-3连携
+    name: 【标记】单线2-3连携
     description: mission_skill_config-20595110
     lvup_description: mission_skill_config-30595110
     skill_group_id: 595110
@@ -22688,7 +22773,7 @@
   }
   {
     id: 595113
-    name: 单线2-3ALLY解定身
+    name: 【标记】单线2-3ALLY解定身
     description: mission_skill_config-20595113
     lvup_description: mission_skill_config-30595113
     skill_group_id: 595113
@@ -22703,7 +22788,7 @@
   }
   {
     id: 595114
-    name: 单线2-3TEAM解定身
+    name: 【标记】单线2-3TEAM解定身
     description: mission_skill_config-20595114
     lvup_description: mission_skill_config-30595114
     skill_group_id: 595114
@@ -22718,7 +22803,7 @@
   }
   {
     id: 596000
-    name: 综合1终点初始化
+    name: 【标记】综合1终点初始化
     description: mission_skill_config-20596000
     lvup_description: mission_skill_config-30596000
     skill_group_id: 596000
@@ -22732,7 +22817,7 @@
   }
   {
     id: 596001
-    name: 综合1AR初始化
+    name: 【标记】综合1AR初始化
     description: mission_skill_config-20596001
     lvup_description: mission_skill_config-30596001
     skill_group_id: 596001
@@ -22743,11 +22828,11 @@
     cd_time_type: 1
     target_id: "1"
     special_spot_add: 596001:1
-    mission_buff_add: 596001:1,597021:1,597022:1,597023:1
+    mission_buff_add: 596001:1
   }
   {
     id: 596002
-    name: 综合1RF初始化
+    name: 【标记】综合1RF初始化
     description: mission_skill_config-20596002
     lvup_description: mission_skill_config-30596002
     skill_group_id: 596002
@@ -22762,7 +22847,7 @@
   }
   {
     id: 596003
-    name: 综合1MG初始化
+    name: 【标记】综合1MG初始化
     description: mission_skill_config-20596003
     lvup_description: mission_skill_config-30596003
     skill_group_id: 596003
@@ -22777,7 +22862,7 @@
   }
   {
     id: 596004
-    name: 综合1TEAM初始化
+    name: 【标记】综合1TEAM初始化
     description: mission_skill_config-20596004
     lvup_description: mission_skill_config-30596004
     skill_group_id: 596004
@@ -22792,7 +22877,7 @@
   }
   {
     id: 596010
-    name: 综合2终点初始化
+    name: 【标记】综合2终点初始化
     description: mission_skill_config-20596010
     lvup_description: mission_skill_config-30596010
     skill_group_id: 596010
@@ -22806,7 +22891,7 @@
   }
   {
     id: 596011
-    name: 综合2AR初始化
+    name: 【标记】综合2AR初始化
     description: mission_skill_config-20596011
     lvup_description: mission_skill_config-30596011
     skill_group_id: 596011
@@ -22820,7 +22905,7 @@
   }
   {
     id: 596012
-    name: 综合2RF初始化
+    name: 【标记】综合2RF初始化
     description: mission_skill_config-20596012
     lvup_description: mission_skill_config-30596012
     skill_group_id: 596012
@@ -22834,7 +22919,7 @@
   }
   {
     id: 596013
-    name: 综合2MG初始化
+    name: 【标记】综合2MG初始化
     description: mission_skill_config-20596013
     lvup_description: mission_skill_config-30596013
     skill_group_id: 596013
@@ -22848,7 +22933,7 @@
   }
   {
     id: 596014
-    name: 综合2TEAM初始化
+    name: 【标记】综合2TEAM初始化
     description: mission_skill_config-20596014
     lvup_description: mission_skill_config-30596014
     skill_group_id: 596014
@@ -22862,7 +22947,7 @@
   }
   {
     id: 596020
-    name: 综合3终点初始化
+    name: 【标记】综合3终点初始化
     description: mission_skill_config-20596020
     lvup_description: mission_skill_config-30596020
     skill_group_id: 596020
@@ -22876,7 +22961,7 @@
   }
   {
     id: 596021
-    name: 综合3AR初始化
+    name: 【标记】综合3AR初始化
     description: mission_skill_config-20596021
     lvup_description: mission_skill_config-30596021
     skill_group_id: 596021
@@ -22890,7 +22975,7 @@
   }
   {
     id: 596022
-    name: 综合3RF初始化
+    name: 【标记】综合3RF初始化
     description: mission_skill_config-20596022
     lvup_description: mission_skill_config-30596022
     skill_group_id: 596022
@@ -22904,7 +22989,7 @@
   }
   {
     id: 596023
-    name: 综合3MG初始化
+    name: 【标记】综合3MG初始化
     description: mission_skill_config-20596023
     lvup_description: mission_skill_config-30596023
     skill_group_id: 596023
@@ -22918,7 +23003,7 @@
   }
   {
     id: 596024
-    name: 综合3TEAM初始化
+    name: 【标记】综合3TEAM初始化
     description: mission_skill_config-20596024
     lvup_description: mission_skill_config-30596024
     skill_group_id: 596024
@@ -22932,7 +23017,7 @@
   }
   {
     id: 596100
-    name: 综合1-2连携
+    name: 【标记】综合1-2连携
     description: mission_skill_config-20596100
     lvup_description: mission_skill_config-30596100
     skill_group_id: 596100
@@ -23019,7 +23104,7 @@
   }
   {
     id: 596105
-    name: 综合1-2AR解定身
+    name: 【标记】综合1-2AR解定身
     description: mission_skill_config-20596105
     lvup_description: mission_skill_config-30596105
     skill_group_id: 596105
@@ -23034,7 +23119,7 @@
   }
   {
     id: 596106
-    name: 综合1-2RF解定身
+    name: 【标记】综合1-2RF解定身
     description: mission_skill_config-20596106
     lvup_description: mission_skill_config-30596106
     skill_group_id: 596106
@@ -23049,7 +23134,7 @@
   }
   {
     id: 596107
-    name: 综合1-2MG解定身
+    name: 【标记】综合1-2MG解定身
     description: mission_skill_config-20596107
     lvup_description: mission_skill_config-30596107
     skill_group_id: 596107
@@ -23064,7 +23149,7 @@
   }
   {
     id: 596108
-    name: 综合1-2TEAM解定身
+    name: 【标记】综合1-2TEAM解定身
     description: mission_skill_config-20596108
     lvup_description: mission_skill_config-30596108
     skill_group_id: 596108
@@ -23079,7 +23164,7 @@
   }
   {
     id: 596110
-    name: 综合2-3连携
+    name: 【标记】综合2-3连携
     description: mission_skill_config-20596110
     lvup_description: mission_skill_config-30596110
     skill_group_id: 596110
@@ -23166,7 +23251,7 @@
   }
   {
     id: 596115
-    name: 综合2-3AR解定身
+    name: 【标记】综合2-3AR解定身
     description: mission_skill_config-20596115
     lvup_description: mission_skill_config-30596115
     skill_group_id: 596115
@@ -23181,7 +23266,7 @@
   }
   {
     id: 596116
-    name: 综合2-3RF解定身
+    name: 【标记】综合2-3RF解定身
     description: mission_skill_config-20596116
     lvup_description: mission_skill_config-30596116
     skill_group_id: 596116
@@ -23196,7 +23281,7 @@
   }
   {
     id: 596117
-    name: 综合2-3MG解定身
+    name: 【标记】综合2-3MG解定身
     description: mission_skill_config-20596117
     lvup_description: mission_skill_config-30596117
     skill_group_id: 596117
@@ -23211,7 +23296,7 @@
   }
   {
     id: 596118
-    name: 综合2-3TEAM解定身
+    name: 【标记】综合2-3TEAM解定身
     description: mission_skill_config-20596118
     lvup_description: mission_skill_config-30596118
     skill_group_id: 596118
@@ -23226,7 +23311,7 @@
   }
   {
     id: 597001
-    name: AR普通检测初始化
+    name: 【标记】AR普通检测初始化
     description: mission_skill_config-20597001
     lvup_description: mission_skill_config-30597001
     skill_group_id: 597001
@@ -23240,7 +23325,7 @@
   }
   {
     id: 597002
-    name: RF普通检测初始化
+    name: 【标记】RF普通检测初始化
     description: mission_skill_config-20597002
     lvup_description: mission_skill_config-30597002
     skill_group_id: 597002
@@ -23254,7 +23339,7 @@
   }
   {
     id: 597003
-    name: MG普通检测初始化
+    name: 【标记】MG普通检测初始化
     description: mission_skill_config-20597003
     lvup_description: mission_skill_config-30597003
     skill_group_id: 597003
@@ -23268,7 +23353,7 @@
   }
   {
     id: 597004
-    name: 通用普通检测初始化
+    name: 【标记】通用普通检测初始化
     description: mission_skill_config-20597004
     lvup_description: mission_skill_config-30597004
     skill_group_id: 597004
@@ -23282,7 +23367,7 @@
   }
   {
     id: 597005
-    name: AR精英检测初始化
+    name: 【标记】AR精英检测初始化
     description: mission_skill_config-20597005
     lvup_description: mission_skill_config-30597005
     skill_group_id: 597005
@@ -23296,7 +23381,7 @@
   }
   {
     id: 597006
-    name: RF精英检测初始化
+    name: 【标记】RF精英检测初始化
     description: mission_skill_config-20597006
     lvup_description: mission_skill_config-30597006
     skill_group_id: 597006
@@ -23310,7 +23395,7 @@
   }
   {
     id: 597007
-    name: MG精英检测初始化
+    name: 【标记】MG精英检测初始化
     description: mission_skill_config-20597007
     lvup_description: mission_skill_config-30597007
     skill_group_id: 597007
@@ -23324,7 +23409,7 @@
   }
   {
     id: 597008
-    name: 通用精英检测初始化
+    name: 【标记】通用精英检测初始化
     description: mission_skill_config-20597008
     lvup_description: mission_skill_config-30597008
     skill_group_id: 597008
@@ -23347,9 +23432,8 @@
     spot_belong: "-1"
     spot_echelon: "1,301"
     cd_time_type: 1
-    trigger_id: 59000100&&59010100&&59020100
+    trigger_id: 59000100||59010100||59020100
     target_id: "1"
-    mission_buff_minus: 597021:1
     subsidiary_mission_skill: "590011,590111,590211"
     is_manual: 597021
     consumption_item: 9027:1
@@ -23368,7 +23452,6 @@
     cd_time_type: 1
     trigger_id: "59060100"
     target_id: "1"
-    mission_buff_minus: 597022:1
     subsidiary_mission_skill: "590611"
     is_manual: 597022
     consumption_item: 9028:1
@@ -23387,7 +23470,6 @@
     cd_time_type: 1
     trigger_id: "59080100"
     target_id: "1"
-    mission_buff_minus: 597023:1
     subsidiary_mission_skill: "590811"
     is_manual: 597023
     consumption_item: 9029:1
@@ -23395,7 +23477,7 @@
   }
   {
     id: 598001
-    name: 无人机站初始化
+    name: 【标记】无人机站初始化
     description: mission_skill_config-20598001
     lvup_description: mission_skill_config-30598001
     skill_group_id: 598001
@@ -23409,7 +23491,7 @@
   }
   {
     id: 599001
-    name: 召回点初始化
+    name: 【标记】召回点初始化
     description: mission_skill_config-20599001
     lvup_description: mission_skill_config-30599001
     skill_group_id: 599001
@@ -23434,7 +23516,7 @@
     cd_time_type: 1
     start_range: 99
     trigger_id: "59900101"
-    target_id: "59900100"
+    target_id: 59900100&&59999900
     special_spot_add: 599010:1
     mission_buff_minus: 590000:1
     subsidiary_mission_skill: "599011"
@@ -23442,7 +23524,7 @@
   }
   {
     id: 599011
-    name: 召回连携
+    name: 【标记】召回连携
     description: mission_skill_config-20599011
     lvup_description: mission_skill_config-30599011
     skill_group_id: 599011
@@ -23457,7 +23539,7 @@
   }
   {
     id: 599012
-    name: 召回连携2
+    name: 【标记】召回连携2
     description: mission_skill_config-20599012
     lvup_description: mission_skill_config-30599012
     skill_group_id: 599012
@@ -23472,7 +23554,7 @@
   }
   {
     id: 599101
-    name: 传送点alpha初始化
+    name: 【标记】传送点alpha初始化
     description: mission_skill_config-20599101
     lvup_description: mission_skill_config-30599101
     skill_group_id: 599101
@@ -23486,7 +23568,7 @@
   }
   {
     id: 599102
-    name: 传送点beta初始化
+    name: 【标记】传送点beta初始化
     description: mission_skill_config-20599102
     lvup_description: mission_skill_config-30599102
     skill_group_id: 599102
@@ -23532,7 +23614,7 @@
   }
   {
     id: 599121
-    name: 传送alpha连携
+    name: 【标记】传送alpha连携
     description: mission_skill_config-20599121
     lvup_description: mission_skill_config-30599121
     skill_group_id: 599121
@@ -23547,7 +23629,7 @@
   }
   {
     id: 599122
-    name: 传送beta连携
+    name: 【标记】传送beta连携
     description: mission_skill_config-20599122
     lvup_description: mission_skill_config-30599122
     skill_group_id: 599122
@@ -23562,7 +23644,7 @@
   }
   {
     id: 599901
-    name: -59-a-1-point1
+    name: 【标记】-59-a-1-point1
     description: mission_skill_config-20599901
     lvup_description: mission_skill_config-30599901
     skill_group_id: 599901
@@ -23576,7 +23658,7 @@
   }
   {
     id: 599902
-    name: -59-a-2-point1
+    name: 【标记】-59-a-2-point1
     description: mission_skill_config-20599902
     lvup_description: mission_skill_config-30599902
     skill_group_id: 599902
@@ -23590,7 +23672,7 @@
   }
   {
     id: 599903
-    name: -59-a-3-point1
+    name: 【标记】-59-a-3-point1
     description: mission_skill_config-20599903
     lvup_description: mission_skill_config-30599903
     skill_group_id: 599903
@@ -23604,7 +23686,7 @@
   }
   {
     id: 599904
-    name: -59-b-1-point2
+    name: 【标记】-59-b-1-point2
     description: mission_skill_config-20599904
     lvup_description: mission_skill_config-30599904
     skill_group_id: 599904
@@ -23618,7 +23700,7 @@
   }
   {
     id: 599905
-    name: -59-b-2-point1
+    name: 【标记】-59-b-2-point1
     description: mission_skill_config-20599905
     lvup_description: mission_skill_config-30599905
     skill_group_id: 599905
@@ -23632,7 +23714,7 @@
   }
   {
     id: 599906
-    name: -59-b-3-point2
+    name: 【标记】-59-b-3-point2
     description: mission_skill_config-20599906
     lvup_description: mission_skill_config-30599906
     skill_group_id: 599906
@@ -23646,7 +23728,7 @@
   }
   {
     id: 599907
-    name: -59-c-1-point1
+    name: 【标记】-59-c-1-point1
     description: mission_skill_config-20599907
     lvup_description: mission_skill_config-30599907
     skill_group_id: 599907
@@ -23660,7 +23742,7 @@
   }
   {
     id: 599908
-    name: -59-c-2-point1
+    name: 【标记】-59-c-2-point1
     description: mission_skill_config-20599908
     lvup_description: mission_skill_config-30599908
     skill_group_id: 599908
@@ -23674,7 +23756,7 @@
   }
   {
     id: 599909
-    name: -59-m-point2
+    name: 【标记】-59-m-point2
     description: mission_skill_config-20599909
     lvup_description: mission_skill_config-30599909
     skill_group_id: 599909
@@ -23688,7 +23770,7 @@
   }
   {
     id: 599910
-    name: -59-a-1-point3
+    name: 【标记】-59-a-1-point3
     description: mission_skill_config-20599910
     lvup_description: mission_skill_config-30599910
     skill_group_id: 599910
