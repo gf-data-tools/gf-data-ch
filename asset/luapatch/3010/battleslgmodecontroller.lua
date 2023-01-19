@@ -120,7 +120,7 @@ end
 local LoadSLGSkillData = function(self)
 	for i=1,#SLGSkills do
 		local skillconfig = SLGSkills[i]
-		self.battleSLGMinigameSkillCfgs:Add(CS.BattleSLGMinigameSkillCfg(skillconfig.skillid,skillconfig.skillrange,skillconfig.skilltype,skillconfig.skillcost,skillconfig.spcost))
+		self.battleSLGMinigameSkillCfgs:Add(CS.BattleSLGMinigameSkillCfg(skillconfig.skillid,skillconfig.skilltype,skillconfig.skillrange,skillconfig.skillcost,skillconfig.spcost))
 	end
 	
 end
@@ -137,7 +137,7 @@ local LoadSLGEnemyData= function(self)
 				else
 					enemyConfig:AddPoint(localConfig.movePoints[j].x-1,localConfig.movePoints[j].y-1,localConfig.waitFrames[j])
 				end
-
+				
 			end
 		end
 		self.battleSLGMinigameEnemyCfgs:Add(enemyConfig)
@@ -199,7 +199,7 @@ local RemoveCharacter = function(self,chara)
 end
 
 local GetFrontlineWidth = function(self)
-
+	
 	if self.curStageNum == 3 or self.curStageNum == 4 then
 		return 26.2
 	end
