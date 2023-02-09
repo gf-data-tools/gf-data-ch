@@ -2121,6 +2121,7 @@
   {"id": 70040, "formula": "@maxlife*0.05"}, {"id": 70041, "formula": "@maxlife*0.2"}, 
   {"id": 70042, "formula": "sbuffidtier(760094)=1?50:30"}, {"id": 70043, "formula": "#armor"}, 
   {"id": 70044, "formula": "sbuffidtier(760093)=1?150:130"}, {"id": 70045, "formula": "sbuffidtier(760092)=1?200:150"}, 
+  {"id": 70046, "formula": "tbuffidtier(8732)=0?1:0"}, {"id": 70047, "formula": "tbuffidtier(8733)=0?1:0"}, 
   {"id": 103901, "formula": "(4+200/@Rate)*30-2+120*sbuffidtier(844401)"}, 
   {"id": 331901, "formula": "(sbuffidtier(3604)*15)"}, {"id": 332001, "formula": "97.5-(sbuffidtier(4850)*2.5)"}, 
   {"id": 332101, "formula": "87.5-(sbuffidtier(4850)*2.5)"}, {"id": 334901, "formula": "100+5*sbuffidtier(3716)"}, 

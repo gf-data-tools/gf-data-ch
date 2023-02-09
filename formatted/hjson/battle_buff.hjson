@@ -30218,7 +30218,6 @@
     type: 221
     duration_type: 1
     duration: *101
-    boss_available: 1
     trigger_creation_id: "209"
     is_form_play: 1
   }
@@ -38446,15 +38445,14 @@
     type: 221
     duration_type: 1
     duration: "60"
-    boss_available: 1
     trigger_creation_id: "209"
   }
   {
     id: 8264
     name: 魔犬一技能眩晕禁足
-    conflict_type: 2121
+    conflict_type: 3001
     max_tier: 1
-    type: 205
+    type: 500
     duration_type: 1
     duration: "60"
     boss_available: 1
@@ -39147,9 +39145,9 @@
   {
     id: 8329
     name: 水白斩杀禁足
-    conflict_type: 2123
+    conflict_type: 3002
     max_tier: 1
-    type: 205
+    type: 500
     duration_type: 1
     duration: *101
   }
@@ -39237,9 +39235,9 @@
   {
     id: 8337
     name: 黄排禁足
-    conflict_type: 2125
+    conflict_type: 3003
     max_tier: 1
-    type: 205
+    type: 500
     duration_type: 1
     duration: *101
   }
@@ -40388,7 +40386,6 @@
     type: 221
     duration_type: 1
     duration: "99999"
-    boss_available: 1
     trigger_creation_id: "209"
     is_form_play: 1
   }
@@ -42860,7 +42857,6 @@
     type: 221
     duration_type: 1
     duration: "30"
-    boss_available: 1
     trigger_creation_id: "9070"
     is_form_play: 1
   }
@@ -42908,9 +42904,9 @@
   {
     id: 8688
     name: 塔妹禁足
-    conflict_type: 2210
+    conflict_type: 3004
     max_tier: 1
-    type: 215
+    type: 500
     duration_type: 1
     duration: "30"
     boss_available: 1
@@ -42923,7 +42919,6 @@
     type: 500
     duration_type: 1
     duration: "99999"
-    boss_available: 1
   }
   {
     id: 8690
@@ -43051,10 +43046,9 @@
     name: 二普攻禁足
     conflict_type: 2221
     max_tier: 1
-    type: 205
+    type: 215
     duration_type: 1
     duration: *101
-    boss_available: 1
     trigger_creation_id: "9123"
   }
   {
@@ -53518,7 +53512,6 @@
     type: 221
     duration_type: 1
     duration: "90"
-    boss_available: 1
     trigger_creation_id: "209"
   }
   {
@@ -53574,6 +53567,16 @@
     duration: "99999"
     boss_available: 1
     move_number: "110"
+  }
+  {
+    id: 835401
+    name: SPAS-15触发后禁止
+    conflict_type: 2222
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 844401
