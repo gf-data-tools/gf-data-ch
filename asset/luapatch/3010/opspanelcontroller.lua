@@ -499,13 +499,11 @@ local SuccessJsonHandleData = function(self,jsonData)
 		end
 	end
 end
-local RequestSetCampaigns = function(self,data)
-	self:RefreshUI();
-end
-local LoadTitle = function(self)
-	self:LoadTitle();
-	self:CheckConfigTip();
-end
+
+--local LoadTitle = function(self)
+--	self:LoadTitle();
+--	self:CheckConfigTip();
+--end
 
 local findSpot = true;
 local RequestSetDrawEvent = function(self,data)
@@ -2215,8 +2213,8 @@ util.hotfix_ex(CS.OPSPanelController,'Load',Load)
 util.hotfix_ex(CS.OPSPanelController,'RefreshMoudleUI',RefreshMoudleUI)
 util.hotfix_ex(CS.OPSPanelController,'SelectOPSMission',SelectOPSMission)
 util.hotfix_ex(CS.OPSPanelController,'OpenRuler',OpenRuler)
-util.hotfix_ex(CS.OPSPanelController,'LoadTitle',LoadTitle)
-util.hotfix_ex(CS.OPSPanelController,'RequestSetCampaigns',RequestSetCampaigns)
+--util.hotfix_ex(CS.OPSPanelController,'LoadTitle',LoadTitle)
+--util.hotfix_ex(CS.OPSPanelController,'RequestSetCampaigns',RequestSetCampaigns)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelController,'GetAllGroupTotalHighScore',GetAllGroupTotalHighScore)
 util.hotfix_ex(CS.OPSPanelController,'InitCameraBackground',InitCameraBackground)
