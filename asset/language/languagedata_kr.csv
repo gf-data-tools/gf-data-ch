@@ -785,7 +785,7 @@ COMMON,1789,拥有{0}位人形(todo),,0
 COMMON,1790,缔结过{0}次誓约(todo),,0
 COMMON,1791,捕获过{0}名铁血(todo),,0
 COMMON,1792,欢迎回到格里芬(todo),,0
-COMMON,1793,推荐梯队(todo),,0
+COMMON,1793,추천제대,,0
 BATTLE,10000,퇴각,,0
 BATTLE,10001,전체퇴각,,0
 BATTLE,10002,WITHDRAW,,0
@@ -1563,7 +1563,7 @@ DEPLOYMENT,30443,전장,,0
 DEPLOYMENT,30444,전투,,0
 DEPLOYMENT,30445,전장 설정,,0
 DEPLOYMENT,30446,전투 설정,,0
-DEPLOYMENT,30447,指挥官，确定要结束当前回合吗？//n<size=32><color=#969696FF>*我方回合开始时，非重创单位会根据【修复】属性回复生命</color></size>//n<size=32><color=#969696FF>*可在设置中关闭该提示</color></size>(todo),,0
+DEPLOYMENT,30447,지휘관님//c 이번 턴을 종료합니까?//n<size=32><color=#969696FF>*설정에서 알림을 끌 수 있습니다.</color></size>,,0
 DEPLOYMENT,30448,지금 이 제대를 수복할 수 없습니다.,,0
 DEPLOYMENT,30449,주둔,,0
 DEPLOYMENT,30450,배치된 제대,,0
@@ -1623,6 +1623,15 @@ DEPLOYMENT,30520,当前编队类型(todo),,0
 DEPLOYMENT,30521,推荐星级(todo),,0
 DEPLOYMENT,30522,*以下配置满足任意即可出击(todo),,0
 DEPLOYMENT,30523,*以下为敌方信息(todo),,0
+DEPLOYMENT,30524,各部切换至昼战模式(todo),,0
+DEPLOYMENT,30525,队伍等级：(todo),,0
+DEPLOYMENT,30526,*推荐战术妖精等级<Color=#FFB400FF>≥{0}级</Color>(todo),,0
+DEPLOYMENT,30527,*推荐战术妖精星级<Color=#FFB400FF>≥{0}</Color>(todo),,0
+DEPLOYMENT,30528,*该难度下关卡可能要求使用的妖精：(todo),,0
+DEPLOYMENT,30529,*推荐重装梯队等级<Color=#FFB400FF>≥{0}级</Color>(todo),,0
+DEPLOYMENT,30530,*推荐重装梯队星级<Color=#FFB400FF>≥{0}</Color>(todo),,0
+DEPLOYMENT,30531,*该难度下关卡可能要求使用的重装梯队：(todo),,0
+DEPLOYMENT,30532,目标小攻略(todo),,0
 DORM,31000,수납고,,0
 DORM,31001,Warehouse,,0
 DORM,31002,구매,,0
@@ -2748,6 +2757,8 @@ ILLUSTRATEDBOOK,35193,已解锁(todo),,0
 ILLUSTRATEDBOOK,35195,使用途径(todo),,0
 ILLUSTRATEDBOOK,35196,韧性(todo),,0
 ILLUSTRATEDBOOK,35197,长按可查看详细信息(todo),,0
+ILLUSTRATEDBOOK,35198,心智升级尚未解锁，请先解锁系统。(todo),,0
+ILLUSTRATEDBOOK,35199,往事回忆尚未解锁，请先解锁系统。(todo),,0
 LOGIN,36000,암호분실,,0
 LOGIN,36001,고객센터,,0
 LOGIN,36002,이용약관,,0
@@ -3422,6 +3433,8 @@ MISSIONSELECTION,40418,제대출정 성공,,0
 MISSIONSELECTION,40419,보상 미획득,,0
 MISSIONSELECTION,40420,작전 알림,,0
 MISSIONSELECTION,40421,스토리 전역,,0
+MISSIONSELECTION,40432,1.灰域探查为一个常驻永久开放的事件//n2.通过难度选择每次进入灰域都会是一个全新的探查//n3.玩家通过消耗门票、资源进行灰域探查救援人形、获得积分//n4.完成整个灰域的探查可以获得丰厚的奖励//n5.每隔一段时间灰域内的救援人形会进行替换//n6.更多神秘的内容等待大家的探索//n(todo),,0
+MISSIONSELECTION,40437,1.积分兑换为灰域探查发放奖励//n2.积分兑换会随灰域探查永久开放//n3.积分兑换内容将不定期进行更新替换//n4.积分兑换分为【首通奖励】（首通奖励丰厚于普通）及【普通奖励】//n5.通过在灰域探查中获得PT值（完成事件，完成全图清理获得）可解锁奖励（奖励自动发放）//n6.当期完成【首通奖励】后，将关闭【首通】开启【普通奖励】//n7.当期活动中【普通奖励】将为循环模式，完成最后一档后将自动重置至第一档//n8.每次更新积分兑换奖励后将从【首通奖励】重新计算//n9.每次更新积分兑换将清空当前的PT//n(todo),,0
 MISSIONSELECTION,40442,可部署妖精(todo),,0
 MISSIONSELECTION,40443,已替换(todo),,0
 MISSIONSELECTION,40444,当前有资源即将到达存储上限，超过上限的部分将<color=#ffb400>无法获取</color>，是否继续后勤支援？//n<size=40><color=grey>建议将取消后将后勤重复次数修改为{0}次</color></size>(todo),,0
@@ -3430,13 +3443,17 @@ MISSIONSELECTION,40446,需通关60个不同关卡，解锁关卡8-6解锁该模�
 MISSIONSELECTION,40447,可部署重装小队(todo),,0
 MISSIONSELECTION,40448,当前关卡发生变化，请退出(todo),,0
 MISSIONSELECTION,40449,战斗记录(todo),,0
-MISSIONSELECTION,40450,累计攻略数(todo),,0
-MISSIONSELECTION,40451,精锐遭遇数(todo),,0
-MISSIONSELECTION,40452,完全攻略数(todo),,0
+MISSIONSELECTION,40450,累计攻略(todo),,0
+MISSIONSELECTION,40451,精锐遭遇(todo),,0
+MISSIONSELECTION,40452,完全攻略(todo),,0
 MISSIONSELECTION,40453,进入昼战(todo),,0
 MISSIONSELECTION,40454,该作战梯队不允许撤离！(todo),,0
 MISSIONSELECTION,40455,队伍未配置妖精，是否确认出击？(todo),,0
 MISSIONSELECTION,40456,未配置自身重装梯队，是否出击?(todo),,0
+MISSIONSELECTION,40457,**灰域探查生涯计数(todo),,0
+MISSIONSELECTION,40458,未获取灰域信息(todo),,0
+MISSIONSELECTION,40459,完成后开启普通奖励(todo),,0
+MISSIONSELECTION,40460,完成后重置(todo),,0
 REINFORCEMENT,50000,인형선택,,0
 REINFORCEMENT,50001,잠겨있음,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -4552,61 +4569,62 @@ SEPCIALOPS,60630,엘리아나는 너무나도 강력합니다. 달의 표식을 
 SEPCIALOPS,60638,소요 시간,,0
 SEPCIALOPS,60639,전장효과를 하나 선택하세요,,0
 SEPCIALOPS,60640,선택,,0
-SEPCIALOPS,60641,指挥官可通过【重置进度】再次挑战尝试解锁该结局，{0}后会公布更多提示。(todo),,0
+SEPCIALOPS,60641,【진도 리셋】 후 재도전을 통해 이 엔딩을 해금하실 수 있습니다. {0} 이후 더 많은 힌트가 제공됩니다.,,0
 SEPCIALOPS,60642,【진도 초기화】 시 모든 전역 진도 및 5종 능력치를 초기화합니다. 처음부터 도전하게 되며 다른 엔딩을 해금할 수 있습니다. 계속하시겠습니까?,,0
-SEPCIALOPS,60643,<color=#FF0000FF>注意！</color>【重置进度】会重置所有关卡进度和五种能力值，所有关卡需要重新挑战（已通关的结局故事和个人故事会保留解锁状态），确定需要重置进度吗？(todo),,0
-SEPCIALOPS,60644,结局解锁提示测试1(todo),,0
-SEPCIALOPS,60645,结局解锁提示测试2(todo),,0
-SEPCIALOPS,60646,结局解锁提示测试3(todo),,0
-SEPCIALOPS,60647,结局解锁提示测试4(todo),,0
-SEPCIALOPS,60648,结局解锁提示测试5(todo),,0
-SEPCIALOPS,60649,结局解锁提示测试6(todo),,0
-SEPCIALOPS,60650,结局解锁提示测试7(todo),,0
-SEPCIALOPS,60651,结局解锁提示测试8(todo),,0
-SEPCIALOPS,60652,结局解锁提示测试9(todo),,0
-SEPCIALOPS,60653,结局解锁提示测试10(todo),,0
-SEPCIALOPS,60654,音准(todo),,0
-SEPCIALOPS,60655,律动(todo),,0
-SEPCIALOPS,60656,存款(todo),,0
-SEPCIALOPS,60657,活力(todo),,0
-SEPCIALOPS,60658,灵感(todo),,0
-SEPCIALOPS,60659,邂逅(todo),,0
-SEPCIALOPS,60660,缘(todo),,0
-SEPCIALOPS,60661,第//n//n日(todo),,0
-SEPCIALOPS,60662,一(todo),,0
-SEPCIALOPS,60663,二(todo),,0
-SEPCIALOPS,60664,三(todo),,0
-SEPCIALOPS,60665,四(todo),,0
-SEPCIALOPS,60666,五(todo),,0
-SEPCIALOPS,60667,六(todo),,0
-SEPCIALOPS,60668,七(todo),,0
-SEPCIALOPS,60669,演出(todo),,0
-SEPCIALOPS,60670,早(todo),,0
-SEPCIALOPS,60671,晚(todo),,0
-SEPCIALOPS,60672,进度重置(todo),,0
-SEPCIALOPS,60673,兑换商店(todo),,0
-SEPCIALOPS,60674,活动说明(todo),,0
-SEPCIALOPS,60675,应援榜(todo),,0
-SEPCIALOPS,60676,个人应援奖(todo),,0
-SEPCIALOPS,60677,练歌房(todo),,0
-SEPCIALOPS,60678,练舞厅(todo),,0
-SEPCIALOPS,60679,便利店(todo),,0
-SEPCIALOPS,60680,快餐店(todo),,0
-SEPCIALOPS,60681,浴场(todo),,0
-SEPCIALOPS,60682,洋房(todo),,0
-SEPCIALOPS,60683,森林公园(todo),,0
-SEPCIALOPS,60684,Livehouse(todo),,0
-SEPCIALOPS,60685,JR站(todo),,0
-SEPCIALOPS,60686,电视台(todo),,0
-SEPCIALOPS,60687,指挥官(todo),,0
-SEPCIALOPS,60688,认证码(todo),,0
-SEPCIALOPS,60689,最高连击数(todo),,0
-SEPCIALOPS,60690,Fever最高连击数(todo),,0
-SEPCIALOPS,60691,最终得分(todo),,0
-SEPCIALOPS,60692,搬砖总数(todo),,0
-SEPCIALOPS,60693,被撞总数(todo),,0
-SEPCIALOPS,60694,分数(todo),,0
-SEPCIALOPS,60695,随着故事推进，法兰秀秀成员的个人故事会在特定能力值达标时解锁(todo),,0
+SEPCIALOPS,60643,<color=#FF0000FF>주의!</color>【진도 리셋】은 모든 전역의 진도와 다섯 가지 스테이터스를 초기화합니다. 리셋 후 모든 전역을 재차 클리어 해야 합니다. 정말로 진도를 리셋하겠습니까?(이미 클리어한 엔딩과 개인 스토리는 해금된 상태를 유지합니다.),,0
+SEPCIALOPS,60644,클리어 시 보컬 및 댄스가 50 이상이면서 둘 중 하나가 100 미만이고//c 자금//c 활력 및 영감이 50 미만일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60645,클리어 시 보컬 및 댄스가 100 이상이고//c 영감이 100 미만일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60646,클리어 시 보컬//c 댄스 및 영감이 100 이상일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60647,클리어 시 보컬과 댄스가 50 미만일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60648,클리어 시 보컬 또는 댄스가 50 이상이면서 둘 중 하나가 100 미만//c 활력이 50 이상 //c 자금과 영감이 50 미만일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60649,클리어 시 보컬 또는 댄스가 50 이상이면서 둘 중 하나가 100 미만//c 영감이 50 이상일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60650,클리어 시 보컬 또는 댄스가 50 이상이면서 둘 중 하나가 100 미만//c 자금이 50 이상//c 영감이 50 미만일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60651,클리어 시 자금이 100 이상이고 나머지 스테이터스가 전부 0일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60652,클리어 시 활력이 100 이상이고 나머지 스테이터스가 전부 0일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60653,클리어 시 영감이 100 이상이고 나머지 스테이터스가 전부 0일 경우 이 엔딩이 해금됩니다.,,0
+SEPCIALOPS,60654,보컬,,0
+SEPCIALOPS,60655,댄스,,0
+SEPCIALOPS,60656,자금,,0
+SEPCIALOPS,60657,활력,,0
+SEPCIALOPS,60658,영감,,0
+SEPCIALOPS,60659,만남,,0
+SEPCIALOPS,60660,인연,,0
+SEPCIALOPS,60661,Day,,0
+SEPCIALOPS,60662,1,,0
+SEPCIALOPS,60663,2,,0
+SEPCIALOPS,60664,3,,0
+SEPCIALOPS,60665,4,,0
+SEPCIALOPS,60666,5,,0
+SEPCIALOPS,60667,6,,0
+SEPCIALOPS,60668,7,,0
+SEPCIALOPS,60669,공연,,0
+SEPCIALOPS,60670,낮,,0
+SEPCIALOPS,60671,밤,,0
+SEPCIALOPS,60672,진도 리셋,,0
+SEPCIALOPS,60673,교환 상점,,0
+SEPCIALOPS,60674,이벤트 설명,,0
+SEPCIALOPS,60675,응원보드,,0
+SEPCIALOPS,60676,개인 응원상,,0
+SEPCIALOPS,60677,노래 연습장,,0
+SEPCIALOPS,60678,안무 연습장,,0
+SEPCIALOPS,60679,편의점,,0
+SEPCIALOPS,60680,치킨집,,0
+SEPCIALOPS,60681,목욕탕,,0
+SEPCIALOPS,60682,저택,,0
+SEPCIALOPS,60683,수목원,,0
+SEPCIALOPS,60684,Livehouse,,0
+SEPCIALOPS,60685,JR역,,0
+SEPCIALOPS,60686,방송국,,0
+SEPCIALOPS,60687,지휘관,,0
+SEPCIALOPS,60688,UID,,0
+SEPCIALOPS,60689,최다 콤보,,0
+SEPCIALOPS,60690,Fever 최다 콤보,,0
+SEPCIALOPS,60691,최종 득점,,0
+SEPCIALOPS,60692,벽돌 운반,,0
+SEPCIALOPS,60693,충돌 횟수,,0
+SEPCIALOPS,60694,득점,,0
+SEPCIALOPS,60695,스토리 진행 중 특정 스테이터스가 특정치에 도달하면 프랑슈슈 멤버의 개인 스토리가 해금됩니다.,,0
+SEPCIALOPS,60696,트레이닝 또는 아르바이트를 통해 스테이터스를 높여 공연을 성사시키세요.(클리어 후 진도를 리셋하여 더 많은 엔딩을 해금할 수 있습니다.),,0
 GASHAPON,70000,현재 가구 창고 공간이 부족합니다,,0
 GASHAPON,70001,)//c 정리 후 구매를 진행해주세요!,,0
 GASHAPON,70002,구매토큰이 부족하여//c 구매할 수 없습니다.,,0
@@ -4801,7 +4819,7 @@ MALL,71156,금일 추가혼합점수가 매진됐습니다,,0
 MALL,71157,모의점수 구매,,0
 MALL,71158,혼합점수 구매,,0
 MALL,71159,내용 보기,,0
-MALL,71160,复刻商店(todo),,0
+MALL,71160,복각 상점,,0
 DOWNLOAD,80000,미 완료된 다운로드 파일을 이어서 받습니다.,,0
 DOWNLOAD,80001,최소,,0
 DOWNLOAD,80002,정도의 여유 저장공간이 필요합니다! 진행하시겠습니까?,,0
@@ -7762,8 +7780,30 @@ MINIGAME,280498,현재 사용,,0
 MINIGAME,280499,미획득,,0
 MINIGAME,280500,사용중,,0
 MINIGAME,280501,획득하지 않은 체스판 배경을 사용할 수 없습니다,,0
-MINIGAME,280506,昼夜交替剩余回合(todo),,0
-MINIGAME,280507,资源不足无法进行探索(todo),,0
-MINIGAME,280508,不可探索的区域(todo),,0
-MINIGAME,280509,妖精未满足要求，无法进行探索(todo),,0
-MINIGAME,280510,重装未满足要求，无法进行探索(todo),,0
+MINIGAME,280503,황사 지대,,0
+MINIGAME,280504,폭풍 지대,,0
+MINIGAME,280505,규소 지대,,0
+MINIGAME,280506,주야 교체까지 {0}턴,,0
+MINIGAME,280507,자원이 부족하여 탐색을 진행할 수 없습니다.,,0
+MINIGAME,280508,탐색할 수 없는 구역입니다.,,0
+MINIGAME,280509,요정이 조건을 만족하지 않아 탐색을 진행할 수 없습니다.,,0
+MINIGAME,280510,중장비가 조건을 만족하지 않아 탐색을 진행할 수 없습니다.,,0
+MINIGAME,280511,포인트 공략 보상,,0
+MINIGAME,280512,确认后地图将重置(todo),,0
+MINIGAME,280513,*简单攻略(todo),,0
+MINIGAME,280514,*颇具难度(todo),,0
+MINIGAME,280515,*具有挑战(todo),,0
+MINIGAME,280516,倍积分(todo),,0
+MINIGAME,280517,*简单攻略(todo),,0
+MINIGAME,280518,*颇具难度(todo),,0
+MINIGAME,280519,*具有挑战(todo),,0
+MINIGAME,280520,全图掉落PT+全图清理PT(todo),,0
+MINIGAME,280521,指挥官，接下来要做什么？(todo),,0
+MINIGAME,280522,*推荐战术妖精等级<Color=#FFB400FF>--</Color>(todo),,0
+MINIGAME,280523,*推荐战术妖精星级<Color=#FFB400FF>--</Color>(todo),,0
+MINIGAME,280524,*推荐重装梯队等级<Color=#FFB400FF>--</Color>(todo),,0
+MINIGAME,280525,*推荐重装梯队星级<Color=#FFB400FF>--</Color>(todo),,0
+MINIGAME,280526,已扣除灰域探索消耗(todo),,0
+MINIGAME,280527,未获灰域取信息(todo),,0
+MINIGAME,280528,可任意选择对应难度，每个难度需要足够的战力应对探查中遇到的困难，每次选择将重新开始灰域探查。//n完成灰域内的探查可以获得PT点数，PT点数用于兑换道具，灰域内的PT由每个探查点上PT掉落（全图掉落PT）和全部探查完的全图清理PT组成(todo),,0
+MINIGAME,280529,当前地图已全部清空(todo),,0

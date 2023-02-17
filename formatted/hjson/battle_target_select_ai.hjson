@@ -3785,6 +3785,43 @@
     list_ranking: 1
   }
   {
+    id: 703
+    description: 水野爱七个敌人
+    target_type: 1
+    target_number: 7
+    select_order: "1000004959"
+    is_ascend_order: "1"
+    list_ranking: 1
+  }
+  {
+    id: 704
+    description: 水野爱八个敌人
+    target_type: 1
+    target_number: 8
+    select_order: "1000004959"
+    is_ascend_order: "1"
+    list_ranking: 1
+  }
+  {
+    id: 705
+    description: 对范围内敌方全体释放
+    target_type: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 706
+    description: 找小队人索敌
+    target_type: 2
+    target_number: 1
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8768
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
     id: 1006
     description: 敌方_最近_嘲讽
     target_type: 1

@@ -29793,6 +29793,227 @@
     is_hurt: 1
   }
   {
+    id: 790201
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+  }
+  {
+    id: 790202
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 790203
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 790204
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|A545|DIALOGUE3
+    text: GUN|A545|DIALOGUE3
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 790205
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|A545|NEWYEAR
+    text: GUN|A545|NEWYEAR
+    name: 交互2
+    camera: 1
+    voice_code: NEWYEAR
+  }
+  {
+    id: 790206
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|A545|FEED
+    text: GUN|A545|FEED
+    name: 交互3
+    camera: 1
+    voice_code: FEED
+  }
+  {
+    id: 790207
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|A545|LOADING
+    text: GUN|A545|LOADING
+    name: 交互4
+    camera: 1
+    voice_code: LOADING
+  }
+  {
+    id: 790208
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|A545|BUILDOVER
+    text: GUN|A545|BUILDOVER
+    name: 交互5
+    camera: 1
+    voice_code: BUILDOVER
+  }
+  {
+    id: 790209
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|A545|DIALOGUEWEDDING
+    text: GUN|A545|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 790210
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|A545|SOULCONTRACT
+    text: GUN|A545|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 790211
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 790212
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|A545|HELLO
+    text: GUN|A545|HELLO
+    name: 上线响应
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 790213
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 790214
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|A545|BREAK
+    text: GUN|A545|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 790215
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|A545|RETREAT
+    text: GUN|A545|RETREAT
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 790216
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|A545|DIALOGUE2
+    text: GUN|A545|DIALOGUE2
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 790217
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|A545|FIX
+    text: GUN|A545|FIX
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 790218
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|A545|OPERATIONOVER
+    text: GUN|A545|OPERATIONOVER
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 790219
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|A545|HELLO
+    text: GUN|A545|HELLO
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: HELLO
+  }
+  {
+    id: 790220
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
     id: 800301
     type: 101
     motion_name: motions/daiji_idle_01.mtn

@@ -10309,6 +10309,80 @@
     "code": "KungFu2022_deco_16", "texture_type": "1", "sorting": "0", "offset": "0.000,-0.219,-0.052", "rotate": "2", 
     "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }, {
+    "id": 10801, "name": "雪夜温泉馆-微凉足迹", "classes": 108, "type": 101, "position": "0,0", "space": "1,1,1,1,1,0", 
+    "deco_rate": 1000, "decompose_gift": 100003, 
+    "description": "雪花落在地砖上，融化消失了，没有人知道它们来过。就像有一天战争结束了，没有人知道她们来过。", 
+    "code": "HotSpring2023_floor", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "1", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10802, "name": "雪夜温泉馆-静谧雪夜", "classes": 108, "type": 301, "position": "0,0", "space": "1,1,1,1,1,0", 
+    "deco_rate": 1000, "decompose_gift": 100003, "description": "雪夜听簌簌，无风无月，唯一壶清酒、二三好友。", 
+    "code": "HotSpring2023_wall", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "3", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10803, "name": "雪夜温泉馆-一帘暖意", "classes": 108, "type": 201, "position": "29,8", "space": "2,2,1,1,1,0", 
+    "deco_rate": 1100, "decompose_gift": 100003, 
+    "description": "我见雪落下，便知冬已至，遥见红刀旗，便知你的笑颜在温泉中盛开。", "code": "HotSpring2023_deco_01", 
+    "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10804, "name": "雪夜温泉馆-贴心告示", "classes": 108, "type": 201, "position": "24,5", "space": "4,3,1,1,1,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, "description": "想提醒你按时吃饭，又怕打扰你，便写在显眼的告示牌上吧。", 
+    "code": "HotSpring2023_deco_02", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10805, "name": "雪夜温泉馆-烟火气息", "classes": 108, "type": 201, "position": "25,0", "space": "7,4,1,1,1,0", 
+    "deco_rate": 1300, "decompose_gift": 100003, 
+    "description": "我准备了许多食材，许多美酒，还有几锅有滋有味的故事。如果你来了，我会对你说，“欢迎光临！”", 
+    "code": "HotSpring2023_deco_03,HotSpring2023_deco_04", "texture_type": "1,1", "sorting": "20,0", "offset": "0,0,0|0,0,0", 
+    "rotate": "2,2", "interact_point": "17", "interact_point_offset": "*-0.963,4.263,-0.285", "furniture_bgm": "0", 
+    "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10806, "name": "雪夜温泉馆-精致木刻", "classes": 108, "type": 201, "position": "32,3", "space": "2,2,1,1,1,0", 
+    "deco_rate": 1100, "decompose_gift": 100003, "description": "如果食物和快乐都定格在木版画上，这一刻，能否称得上永恒呢？", 
+    "code": "HotSpring2023_deco_05", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10807, "name": "雪夜温泉馆-池边絮语", "classes": 108, "type": 201, "position": "0,5", "space": "3,2,1,1,1,0", 
+    "deco_rate": 1100, "decompose_gift": 100003, 
+    "description": "想说点什么，又不好意思开口的话，就写在这里吧。你的一字一句，都会被看见。", 
+    "code": "HotSpring2023_deco_06", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10808, "name": "雪夜温泉馆-枫桥白雪", "classes": 108, "type": 201, "position": "0,12", "space": "35,2,1,1,1,0", 
+    "deco_rate": 1300, "decompose_gift": 100003, 
+    "description": "来时，你在桥边掸掸衣角，抖落一身风霜与硝烟。去时，你微笑摆手告别，然后披坚执锐、踏破冰雪。", 
+    "code": "HotSpring2023_deco_07,HotSpring2023_deco_08,HotSpring2023_deco_09,2023Newyearbridge", "texture_type": "1,1,1,2", 
+    "sorting": "0,0,0,20", "offset": "-3.545,0.365,-1.314|1.064,0.365,-1.314|5.641,0.365,-1.314|-0.261,0.261,-1.084", 
+    "rotate": "2,2,2,2", "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", 
+    "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10809, "name": "雪夜温泉馆-格里芬温泉馆", "classes": 108, "type": 201, "position": "9,0", "space": "15,4,1,1,1,0", 
+    "deco_rate": 1300, "decompose_gift": 100003, 
+    "description": "据小道消息称，温泉馆建成后，指挥官只来过一次，还没泡进池子，就在人形们热情包围下落荒而逃。", 
+    "code": "HotSpring2023_deco_10,HotSpring2023_deco_11,HotSpring2023_deco_12", "texture_type": "1,1,1", "sorting": "0,0,0", 
+    "offset": "-0.261,-0.229,-0.052|4.337,-0.229,-0.052|-0.261,4.275,0.991", "rotate": "2,2,2", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10810, "name": "雪夜温泉馆-好物收纳", "classes": 108, "type": 201, "position": "20,5", "space": "2,2,1,1,0,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, "description": "即便是平凡普通的雨伞，也会有适合它的收纳位置吧。", 
+    "code": "HotSpring2023_deco_13", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10811, "name": "雪夜温泉馆-冬日暖饮", "classes": 108, "type": 201, "position": "4,8", "space": "2,2,1,1,0,0", 
+    "deco_rate": 1200, "decompose_gift": 100003, 
+    "description": "从前有人让你请她喝一杯，你大笑不肯。后来你站在贩售机前，看到第二瓶半价，回忆像雪花崩落。然后你拧开两个瓶子，自己与自己干杯。", 
+    "code": "HotSpring2023_deco_14", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 10812, "name": "雪夜温泉馆-驱寒足汤", "classes": 108, "type": 201, "position": "1,0", "space": "7,4,1,1,1,1", 
+    "deco_rate": 1200, "decompose_gift": 100003, "description": "这个冬天格外冷，愿这一池温热能暂驱寒意。", 
+    "code": "HotSpring2023_deco_15,HotSpring2023_deco_16,HotSpring2023_deco_17,HotSpring2023_deco_18", 
+    "texture_type": "1,1,1,1", "sorting": "0,20,10,10", 
+    "offset": "0.000,0.000,0.000|0.000,0.000,0.000|0.000,1.227,0.284|2.297,1.227,0.284", "rotate": "2,2,2,2", 
+    "interact_point": "14", "interact_point_offset": "*1.254,1.545,-0.285", "furniture_bgm": "0", "touch_area": "0", 
+    "bonus_id": 0, "ai": 0
+  }, {
     "id": 10901, "name": "玉兔踏歌会-应雪之地", "classes": 109, "type": 101, "position": "0,0", "space": "1,1,1,1,1,0", 
     "deco_rate": 1000, "decompose_gift": 100003, 
     "description": "天空啊，请让晶莹的白雪掩盖旧岁的尘埃，因为我们将于这片纯洁清澈的新土地上书写未来。", 
@@ -10939,6 +11013,45 @@
     "code": "Saga_deco_blackboard", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
     "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }, {
+    "id": 20086, "name": "老友宴席", "classes": 81, "type": 201, "position": "0", "space": "14,4,1,1,1,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, 
+    "description": "经过法兰秀秀精心布置的餐桌，就算生活再艰难，也要和朋友一起好好吃顿饭。不好吃？挑食的叉下去和罗梅罗一桌！", 
+    "code": "Saga_deco_table1,Saga_deco_table2,Saga_deco_table3", "texture_type": "1,1,1", "sorting": "20,0,0", 
+    "offset": "0.000,0.000,0.000|-2.035,0.000,0.000|2.096,0.000,0.000", "rotate": "2,2,2", "interact_point": "18,19", 
+    "interact_point_offset": "*5.425,1.480,-0.285|*-5.104,1.480,-0.285", "furniture_bgm": "0", "touch_area": "0", 
+    "bonus_id": 0, "ai": 0
+  }, {
+    "id": 20087, "name": "古董吊灯", "classes": 81, "type": 201, "position": "0", "space": "1,1,1,1,1,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, 
+    "description": "难以判定具体使用年限的吊灯，似乎自从那座洋房建成，它就悬在了天花板上，看着人们熙来攘往，又看着屋中一片沉寂。唯一不变的，是黑夜照样来临，而它也照样为屋中的人们奉上光明。", 
+    "code": "Saga_deco_light", "texture_type": "1", "sorting": "0", "offset": "0.000,3.535,0.824", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 20088, "name": "爆裂爵士", "classes": 81, "type": 201, "position": "0", "space": "9,4,1,1,1,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, 
+    "description": "一台颇有故事的爵士鼓，鼓面上留下了鼓手狂暴敲击的痕迹，连镲片也有疑似被啃咬的牙印。根据体验过的人形介绍，一旦坐上去就会进入忘却一切、只想打爆地球的心流状态……", 
+    "code": "Saga_DrumKit_deco", "texture_type": "2", "sorting": "20", "offset": "0.000,0.219,0.052", "rotate": "2", 
+    "interact_point": "820088", "interact_point_offset": "*0.000,2.106,0.000", "furniture_bgm": "0", "touch_area": "9,4,0", 
+    "bonus_id": 0, "ai": 0
+  }, {
+    "id": 20089, "name": "记忆回声", "classes": 81, "type": 201, "position": "0", "space": "3,2,1,1,1,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, 
+    "description": "型号古老的录音机，功能简单，只能使用磁带进行声音的录制和播放，且杂声很大。但这并不影响人形们围绕在旁，聆听来自过去时代的天使之音。", 
+    "code": "Saga_deco_recorder", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 20090, "name": "金话筒音乐勋章", "classes": 19, "type": 302, "position": "0", "space": "2,5,1,1,1,0", 
+    "deco_rate": 1000, "decompose_gift": 100003, 
+    "description": "表彰该指挥官及其麾下的乐队在“雪浪映花颜”活动中的精彩演出，“哪怕前路坎坷，也要将那破灭后一直积蓄在心底的愿望喊出来！”", 
+    "code": "2023SagaActivity_Medal", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "3", 
+    "interact_point": "0", "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 20091, "name": "罗梅罗", "classes": 299, "type": 299, "position": "0", "space": "3,2,0,0,0,0", "deco_rate": 1000, 
+    "decompose_gift": 100003, "description": "娇小可爱的僵尸犬，可以自由变换体型。最喜欢鱿鱼丝，最讨厌抢鱿鱼丝的人。", 
+    "code": "2023SagaActivity_Romero", "texture_type": "1", "sorting": "0", "offset": "0,0,0", "rotate": "2", 
+    "interact_point": "4", "interact_point_offset": "*0.061,0.848,-0.285", "furniture_bgm": "0", "touch_area": "3,3,3", 
+    "bonus_id": 3104, "ai": 0
+  }, {
     "id": 30001, "name": "马卡洛夫-南瓜熊熊", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
     "deco_rate": 750, "decompose_gift": 100003, "description": "马卡洛夫的万圣节海报。", "code": "poster_pm_halloween", 
     "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "2", "interact_point": "0", 
@@ -11501,6 +11614,41 @@
   }, {
     "id": 30586, "name": "OBR-卡斯蒂利亚女王", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
     "deco_rate": 750, "decompose_gift": 100003, "description": "OBR的海报。", "code": "poster_ChessBonus_OBR", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30587, "name": "源樱-闪耀光芒", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "源樱的海报", "code": "poster_Saga2023_Sakura", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30588, "name": "二阶堂咲-暴走族黎明", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "二阶堂咲的海报", "code": "poster_Saga2023_Saki", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30589, "name": "水野爱-觉醒的梦想家", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "水野爱的海报", "code": "poster_Saga2023_Ai", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30590, "name": "绀野纯子-不能遗忘的时光", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "绀野纯子的海报", "code": "poster_Saga2023_Junko", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30591, "name": "夕雾-佐贺事变", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "夕雾的海报", "code": "poster_Saga2023_Yuugiri", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30592, "name": "星川莉莉-致最亲爱的人", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "星川莉莉的海报", "code": "poster_Saga2023_Lily", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 30593, "name": "山田多惠-竞技馆击碎者", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "山田多惠的海报", "code": "poster_Saga2023_Tae", 
     "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
     "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }, {
@@ -13934,6 +14082,36 @@
     "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
     "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }, {
+    "id": 37902, "name": "A-545-银树的致意", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "A-545的海报。", "code": "poster_NewYear2023_A545", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 37903, "name": "SL8-青雪归君", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "SL8的海报。", "code": "poster_NewYear2023_SL8", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 37904, "name": "FX-05-星野环游记", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "FX-05的海报。", "code": "poster_NewYear2023_FX05", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 37905, "name": "PPD-40-悠然见黛山", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "PPD-40的海报。", "code": "poster_NewYear2023_PPD40", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 37906, "name": "OTs-39-幻画杏桃", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "OTs-39的海报。", "code": "poster_NewYear2023_OTs39", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 37907, "name": "微型乌兹-新橙剪影", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "微型乌兹的海报。", "code": "poster_NewYear2023_MicroUZI", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
     "id": 38001, "name": "MK3A1-红露醉", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
     "deco_rate": 750, "decompose_gift": 100003, "description": "MK3A1的海报", "code": "poster_SpringFes2023_MK3A1", 
     "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
@@ -15680,6 +15858,11 @@
   }, {
     "id": 330004, "name": "柯尔特沃克-危情七日", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
     "deco_rate": 750, "decompose_gift": 100003, "description": "柯尔特沃克的海报。", "code": "poster_BattlePass_ColtWalker", 
+    "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
+    "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
+  }, {
+    "id": 330005, "name": "Scar-L-与爱犬的安逸午后", "classes": 300, "type": 303, "position": "0", "space": "3,6,1,1,1,0", 
+    "deco_rate": 750, "decompose_gift": 100003, "description": "Scar-L的海报。", "code": "poster_BattlePass_scarL", 
     "texture_type": "1", "sorting": "5", "offset": "0,0,0", "rotate": "3", "interact_point": "0", 
     "interact_point_offset": "0", "furniture_bgm": "0", "touch_area": "0", "bonus_id": 0, "ai": 0
   }

@@ -5768,6 +5768,38 @@
     no_battle_damage: -1
   }
   {
+    id: 105601
+    name: 围观群众
+    guns: "1,2,3,4,5"
+    enemy_team_id: 570505
+    initial_type: 2
+    ai: 0;0;103
+    ai_content: 0;0;0
+    transform_condition: "4"
+    transform_number: "570501"
+    transform_result: 1:9106-1
+    betray_result_enemy: "570505"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 105602
+    name: 围观群众
+    guns: "1,2,3,4,5"
+    enemy_team_id: 570504
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    transform_condition: "4"
+    transform_number: "570502,570501"
+    transform_result: 1:9106-1,1:9106-1
+    betray_result_enemy: "570504"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 316001
     name: 铁血势力
     guns: "100791"
@@ -13534,6 +13566,207 @@
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570001
+    name: 水野爱
+    guns: "570001"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570002
+    name: 绀野纯子
+    guns: "570002"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570003
+    name: 星川莉莉
+    guns: "570003"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570004
+    name: 二阶堂咲
+    guns: "570004"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570005
+    name: 夕雾
+    guns: "570005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570006
+    name: 源樱
+    guns: "570006"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570007
+    name: 山田多惠
+    guns: "570007"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570008
+    name: 指挥官
+    guns: "570011"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570009
+    name: 灰色歌者
+    guns: "570011"
+    enemy_team_id: 570001
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570010
+    name: 绿色歌者
+    guns: "570011"
+    enemy_team_id: 570002
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570011
+    name: 红色歌者
+    guns: "570011"
+    enemy_team_id: 570003
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570012
+    name: 不羁主唱
+    guns: "570011"
+    enemy_team_id: 570004
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570013
+    name: 烈焰吉他手
+    guns: "570011"
+    enemy_team_id: 570005
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570014
+    name: 追影鼓手
+    guns: "570011"
+    enemy_team_id: 570006
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570015
+    name: 墨镜贝斯手
+    guns: "570011"
+    enemy_team_id: 570007
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570016
+    name: 神秘键盘手
+    guns: "570011"
+    enemy_team_id: 570008
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 575001
+    name: 源樱
+    guns: "570010"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 575002
+    name: 山田多惠
+    guns: "570009"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 575003
+    name: 二阶堂咲
+    guns: "570008"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
     ai_content: 0;0;0
     enemy_panel_type: 1
     no_battle_damage: -1

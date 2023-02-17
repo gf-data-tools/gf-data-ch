@@ -12537,6 +12537,23 @@
     action_playspeed: "100,100,100"
   }
   {
+    id: 3479
+    name: 跳舞界面
+    creation_order: "10296"
+    creation_delay: "3"
+    avg_order: -57-dance
+    avg_delay: "3"
+    bgm_order: BGM_Saga_AVG_Live_Good
+  }
+  {
+    id: 3480
+    name: 音乐界面
+    creation_order: "10297"
+    creation_delay: "3"
+    avg_order: -57-sing
+    avg_delay: "3"
+  }
+  {
     id: 3482
     name: 双子界面
     effect_duration: "999999"
@@ -12647,9 +12664,115 @@
     move_order: "881"
   }
   {
+    id: 3499
+    name: 生成1块砖
+    creation_order: "10330"
+  }
+  {
+    id: 3500
+    name: 生成2块砖
+    creation_order: "10331"
+  }
+  {
+    id: 3501
+    name: 生成3块砖
+    creation_order: "10332"
+  }
+  {
+    id: 3502
+    name: 生成4块砖
+    creation_order: "10333"
+  }
+  {
+    id: 3503
+    name: 生成5块砖
+    creation_order: "10334"
+  }
+  {
+    id: 3504
+    name: 跳舞随机
+    creation_order: "10324,10324,10324,10324,10324,10324,10324"
+    creation_delay: "0,0,0,0,0,0,0,0"
+  }
+  {
     id: 3505
     name: scar结束
     avg_order: -56-15-finish
+  }
+  {
+    id: 3506
+    name: 打工界面
+    creation_order: "10298,10340"
+    creation_delay: "3,3"
+    summon_order: "1638,1639,1640,1647,1648,1649,1650"
+    summon_delay: "0,0,0,0,0,0,0"
+    avg_order: -57-work
+    avg_delay: "3"
+  }
+  {
+    id: 3507
+    name: 砖块生成
+    creation_order: "10324"
+  }
+  {
+    id: 3508
+    name: 卡车左侧过来
+    action_order: move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move
+    action_delay: "0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145"
+    action_playspeed: "100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100"
+    creation_order: "10341,10450"
+    creation_delay: "0,0"
+    move_order: "882"
+  }
+  {
+    id: 3509
+    name: 僵尸狗左侧过来
+    action_order: move,move,move,move,move,move,move,move,move,move
+    action_delay: "0,18,36,54,72,90,108,126,144,162,180"
+    action_playspeed: "100,100,100,100,100,100,100,100,100,100"
+    creation_order: "10341,10450"
+    creation_delay: "0,0"
+    move_order: "884"
+  }
+  {
+    id: 3510
+    name: 卡车右侧过来
+    action_order: move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move
+    action_delay: "0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145"
+    action_playspeed: "100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100"
+    creation_order: "10342,10451"
+    creation_delay: "0,0"
+    move_order: "883"
+  }
+  {
+    id: 3511
+    name: 僵尸狗右侧过来
+    action_order: move,move,move,move,move,move,move,move,move,move
+    action_delay: "0,18,36,54,72,90,108,126,144,162,180"
+    action_playspeed: "100,100,100,100,100,100,100,100,100,100"
+    creation_order: "10342,10451"
+    creation_delay: "0,0"
+    move_order: "885"
+  }
+  {
+    id: 3512
+    name: 出车·左
+    creation_order: "10336"
+  }
+  {
+    id: 3513
+    name: 出车·右
+    creation_order: "10337"
+  }
+  {
+    id: 3514
+    name: 出狗·左
+    creation_order: "10338"
+  }
+  {
+    id: 3515
+    name: 除垢·右
+    creation_order: "10339"
   }
   {
     id: 3516
@@ -12687,6 +12810,224 @@
     action_delay: "0,30"
     action_playspeed: "133,100"
     creation_order: "10356"
+  }
+  {
+    id: 3521
+    name: 源樱1
+    creation_order: "10358"
+  }
+  {
+    id: 3522
+    name: 源樱2
+    creation_order: "10359"
+  }
+  {
+    id: 3523
+    name: 源樱3
+    creation_order: "10360"
+  }
+  {
+    id: 3524
+    name: 源樱4
+    creation_order: "10361"
+  }
+  {
+    id: 3525
+    name: 源樱5
+    creation_order: "10362"
+  }
+  {
+    id: 3526
+    name: 源樱6
+    creation_order: "10363"
+  }
+  {
+    id: 3527
+    name: 源樱7
+    creation_order: "10364"
+  }
+  {
+    id: 3528
+    name: 源樱8
+    creation_order: "10365"
+  }
+  {
+    id: 3529
+    name: 源樱9
+    creation_order: "10366"
+  }
+  {
+    id: 3530
+    name: 源樱10
+    creation_order: "10367"
+  }
+  {
+    id: 3531
+    name: 卡车伤害1
+    creation_order: "10368,10378"
+  }
+  {
+    id: 3532
+    name: 卡车伤害2
+    creation_order: "10369,10379"
+  }
+  {
+    id: 3533
+    name: 卡车伤害3
+    creation_order: "10370,10380"
+  }
+  {
+    id: 3534
+    name: 卡车伤害4
+    creation_order: "10371,10381"
+  }
+  {
+    id: 3535
+    name: 卡车伤害5
+    creation_order: "10372,10382"
+  }
+  {
+    id: 3536
+    name: 卡车伤害6
+    creation_order: "10373,10383"
+  }
+  {
+    id: 3537
+    name: 卡车伤害7
+    creation_order: "10374,10384"
+  }
+  {
+    id: 3538
+    name: 卡车伤害8
+    creation_order: "10375,10385"
+  }
+  {
+    id: 3539
+    name: 卡车伤害9
+    creation_order: "10376,10386"
+  }
+  {
+    id: 3540
+    name: 卡车伤害10
+    creation_order: "10377,10387"
+  }
+  {
+    id: 3541
+    name: 眩晕
+    action_order: dizzy
+    action_playspeed: "66"
+  }
+  {
+    id: 3542
+    name: 僵尸狗召唤1
+    summon_order: "1662"
+  }
+  {
+    id: 3543
+    name: 僵尸狗普攻
+    action_order: move,attack
+    action_delay: "0,3"
+    action_playspeed: "200,150"
+    creation_order: "8061"
+    creation_delay: "12"
+    move_order: "1005"
+  }
+  {
+    id: 3544
+    name: 僵尸狗入场
+    action_order: move,move,move,move,move
+    action_delay: "0,18,36,54,72"
+    action_playspeed: "100,100,100,100,100"
+    move_order: "1003"
+  }
+  {
+    id: 3545
+    name: 僵尸狗退场
+    action_order: move2,move2,move2,move2,move2
+    action_delay: "0,18,36,54,72"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "238"
+    creation_delay: "91"
+    move_order: "1004"
+  }
+  {
+    id: 3546
+    name: 山田在场证明
+    creation_order: "10388"
+  }
+  {
+    id: 3547
+    name: 丢头
+    action_order: skill
+    action_playspeed: "100"
+    creation_order: "10455"
+    creation_delay: "39"
+  }
+  {
+    id: 3548
+    name: 僵尸狗召唤2
+    summon_order: "1663"
+  }
+  {
+    id: 3549
+    name: 僵尸狗召唤3
+    summon_order: "1664"
+  }
+  {
+    id: 3550
+    name: 僵尸狗召唤4
+    summon_order: "1665"
+  }
+  {
+    id: 3551
+    name: 僵尸狗召唤5
+    summon_order: "1666"
+  }
+  {
+    id: 3552
+    name: 僵尸狗召唤6
+    summon_order: "1667"
+  }
+  {
+    id: 3553
+    name: 僵尸狗召唤7
+    summon_order: "1668"
+  }
+  {
+    id: 3554
+    name: 僵尸狗召唤8
+    summon_order: "1669"
+  }
+  {
+    id: 3555
+    name: 僵尸狗召唤9
+    summon_order: "1670"
+  }
+  {
+    id: 3556
+    name: 僵尸狗召唤10
+    summon_order: "1671"
+  }
+  {
+    id: 3567
+    name: 鱿鱼丝
+    creation_order: "10449"
+  }
+  {
+    id: 3568
+    name: 源樱普攻
+    action_order: sing
+    action_playspeed: "100"
+    creation_order: "10452,10453"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3569
+    name: 丢头皮肤
+    action_order: skill
+    action_playspeed: "100"
+    creation_order: "10457"
+    creation_delay: "39"
   }
   {
     id: 4001
@@ -21140,6 +21481,127 @@
     action_playspeed: "100,100"
   }
   {
+    id: 8588
+    name: 二阶堂咲
+    action_order: S
+    action_playspeed: "100"
+    creation_order: "9094,9096,9174,9175"
+    creation_delay: "0,0,0,0"
+  }
+  {
+    id: 8589
+    name: 夕雾
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "9093,9095,9097"
+    creation_delay: "30,0,30"
+  }
+  {
+    id: 8590
+    name: 夕雾表演
+    action_order: s,attack,s2
+    action_delay: "0,20,50"
+    action_playspeed: "100,100,100"
+    creation_order: "9167"
+    creation_delay: "30"
+    move_order: "1032"
+    move_delay: "85"
+  }
+  {
+    id: 8591
+    name: 佐贺妖精1
+    summon_order: "4274"
+  }
+  {
+    id: 8592
+    name: 佐贺妖精2
+    summon_order: "4275"
+  }
+  {
+    id: 8593
+    name: 佐贺妖精3
+    summon_order: "4276"
+  }
+  {
+    id: 8594
+    name: 佐贺妖精4
+    summon_order: "4277"
+  }
+  {
+    id: 8595
+    name: 佐贺妖精5
+    summon_order: "4278"
+  }
+  {
+    id: 8596
+    name: 佐贺妖精6
+    summon_order: "4279"
+  }
+  {
+    id: 8597
+    name: 佐贺妖精7
+    summon_order: "4280"
+  }
+  {
+    id: 8598
+    name: 佐贺妖精8
+    summon_order: "4281"
+  }
+  {
+    id: 8599
+    name: 佐贺妖精9
+    summon_order: "4282"
+  }
+  {
+    id: 8600
+    name: 佐贺妖精10
+    summon_order: "4283"
+  }
+  {
+    id: 8601
+    name: 热力判断
+    creation_order: "9088,9089"
+    creation_delay: "0,3"
+  }
+  {
+    id: 8602
+    name: 二阶堂咲换弹
+    action_order: "3"
+    action_playspeed: "75"
+  }
+  {
+    id: 8603
+    name: 夕雾换弹
+    action_order: "3"
+    action_playspeed: "60"
+    creation_order: "9092"
+  }
+  {
+    id: 8604
+    name: 机枪普攻-夕雾
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9090,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8605
+    name: 霰弹枪普攻-二阶堂
+    action_order: attack
+    action_playspeed: "60"
+    creation_order: "9091,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8606
+    name: 二阶堂表演
+    action_order: SP,SP
+    action_delay: "0,30"
+    action_playspeed: "100,100"
+    creation_order: "9168"
+    move_order: "1028"
+  }
+  {
     id: 8607
     name: zb26换弹
     action_order: "3"
@@ -21197,6 +21659,379 @@
     name: 新春稻草人普攻-二技能额外
     creation_order: "9106"
     creation_delay: "4"
+  }
+  {
+    id: 8613
+    name: 卡车冲锋
+    action_order: move
+    action_playspeed: "100"
+    creation_order: "9124,9179"
+    creation_delay: "0,0"
+    sound_order: UI_TruckHit,UI_TruckPassby
+    sound_delay: "0,15"
+    move_order: "1029"
+  }
+  {
+    id: 8614
+    name: 泡泡机
+    action_order: wait,wait,attack
+    action_delay: "0,6,12"
+    action_playspeed: "100"
+    creation_order: "9129"
+    creation_delay: "36"
+  }
+  {
+    id: 8615
+    name: 泡泡行为自毁
+    creation_order: "9125,238"
+    creation_delay: "0,1"
+    creation_afterdeath: "1,0"
+  }
+  {
+    id: 8616
+    name: 轮胎冲击
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9126"
+    move_order: "1030,1031"
+    move_delay: "0,5"
+  }
+  {
+    id: 8617
+    name: 轮胎普攻
+    action_order: attack,wait,wait
+    action_delay: "0,18,33"
+    action_playspeed: "100,100,100"
+    creation_order: "9127,9178"
+    creation_delay: "0,4"
+    sound_order: Minos_Atk_Hit
+    sound_delay: "4"
+    move_order: "1030,1031"
+    move_delay: "0,5"
+  }
+  {
+    id: 8618
+    name: 罗梅罗普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9128"
+    sound_order: BT_zombi_hit
+    sound_delay: "3"
+  }
+  {
+    id: 8619
+    name: 罗梅罗技能
+  }
+  {
+    id: 8620
+    name: 水野爱
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8621
+    name: 绀野纯子
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9137,9138"
+    creation_delay: "0,0"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8622
+    name: 星川莉莉1
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8623
+    name: 白色平A
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "5806,580601"
+    creation_delay: "20,24"
+  }
+  {
+    id: 8624
+    name: BX
+    action_order: s
+    action_playspeed: "100"
+  }
+  {
+    id: 8625
+    name: 卡车预警
+    creation_order: "9130,9177"
+    creation_delay: "0,0"
+    sound_order: UI_TruckPassby
+  }
+  {
+    id: 8626
+    name: 闪电自己
+    creation_order: "9133,9132"
+    creation_delay: "25,25"
+  }
+  {
+    id: 8627
+    name: 闪电敌人
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "9133,9131"
+    creation_delay: "15,15"
+  }
+  {
+    id: 8628
+    name: 闪电7敌人
+    action_order: s,s2,s3
+    action_delay: "0,20,40"
+    action_playspeed: "100,100,100"
+    creation_order: "9133,9131"
+    creation_delay: "25,25"
+  }
+  {
+    id: 8629
+    name: 星川莉莉2
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8630
+    name: 星川莉莉3
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8631
+    name: 星川莉莉4
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8632
+    name: 星川莉莉5
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8633
+    name: 星川莉莉6
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8634
+    name: 星川莉莉7
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8635
+    name: 星川莉莉8
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8636
+    name: 星川莉莉9
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8637
+    name: 星川莉莉10
+    action_order: s,s2,s,s2,s3
+    action_delay: "0,30,60,90,120"
+    action_playspeed: "100,100,100,100,100"
+    creation_order: "9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9135,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136,9136"
+    creation_delay: "0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8638
+    name: 冲锋枪普攻-莉莉
+    action_order: sing
+    action_playspeed: "80"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8639
+    name: 突击步枪普攻-爱
+    action_order: sing
+    action_playspeed: "80"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8640
+    name: 召唤
+    creation_order: "9142,9143,9144,9145,9146,9147,9148,9149,9150,9151,9152,9153,9154,9155"
+    creation_delay: "0,5,10,15,25,30,35,40,45,50,55,60,65,70"
+  }
+  {
+    id: 8641
+    name: 自身生命，回避，护甲buff层数
+    creation_order: "9163"
+  }
+  {
+    id: 8642
+    name: 护盾工具人
+    creation_order: "9164"
+  }
+  {
+    id: 8643
+    name: 护盾
+    creation_order: "9165"
+  }
+  {
+    id: 8644
+    name: 亡语效果
+    creation_order: "9166"
+    creation_delay: "2"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 8645
+    name: 纯子突击步枪普攻
+    action_order: S
+    action_playspeed: "80"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8646
+    name: 夕雾召唤物专普攻
+    action_order: attack,attack,attack,attack,attack,attack,attack,attack,attack,attack,attack,attack
+    action_delay: "0,10,20,30,40,50,60,70,80,90,100,110"
+    action_playspeed: "100,100,100,100,100,100,100,100,100,100,100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8647
+    name: 二阶堂召唤物专普攻
+    action_order: attack,attack
+    action_delay: "0,60"
+    action_playspeed: "100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8648
+    name: 召唤物专普攻-莉莉
+    action_order: sing,sing
+    action_delay: "0,55"
+    action_playspeed: "100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8649
+    name: 召唤物专普攻-爱
+    action_order: sing,sing
+    action_delay: "0,55"
+    action_playspeed: "100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8650
+    name: 纯子召唤物专普攻
+    action_order: S,S,S,S
+    action_delay: "0,30,60,90"
+    action_playspeed: "100,100,100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8651
+    name: 源樱召唤物专普攻
+    action_order: sing,sing
+    action_delay: "0,56"
+    action_playspeed: "100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8652
+    name: 山田召唤物专普攻
+    action_order: sing,sing
+    action_delay: "0,56"
+    action_playspeed: "100,100"
+    creation_order: "9139,9141,9140"
+    creation_delay: "0,0,5"
+  }
+  {
+    id: 8653
+    name: 护盾特效
+    creation_order: "9169,9170,9171,9172,9173"
+    creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 8654
+    name: 二阶堂撞击s
+    move_order: "1033"
+  }
+  {
+    id: 8655
+    name: 二阶堂撞击x
+    move_order: "1034"
+  }
+  {
+    id: 8656
+    name: 寄
+    action_order: die
+    action_playspeed: "100"
+    creation_order: "9176"
+    creation_delay: "9"
+    move_order: "1035"
+    move_delay: "40"
   }
   {
     id: 9001

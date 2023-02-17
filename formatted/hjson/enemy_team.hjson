@@ -40738,6 +40738,301 @@
     targettrain_cancollect: 1
   }
   {
+    id: 570001
+    enemy_leader: 13245
+    if_stay: 1
+    use_building: 572010|574010
+    use_building_skill: "571011,571012,571013,571111,571112,571113,571001|571011,571012,571013,571111,571112,571113,571001"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出时若陷入紧张，则无视减益并被视作情绪高昂
+  }
+  {
+    id: 570002
+    enemy_leader: 13246
+    if_stay: 1
+    use_building: 572020|574020
+    use_building_skill: "571021,571022,571023,571121,571122,571123,571002|571021,571022,571023,571121,571122,571123,571002"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出时使范围3内情绪高昂的对手陷入紧张
+  }
+  {
+    id: 570003
+    enemy_leader: 13247
+    if_stay: 1
+    use_building: 572030|574030
+    use_building_skill: "571031,571032,571033,571131,571132,571133,571003|571031,571032,571033,571131,571132,571133,571003"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出后使自身进入情绪高昂状态
+  }
+  {
+    id: 570004
+    enemy_leader: 13248
+    if_stay: 1
+    use_building: 573010|574040
+    use_building_skill: "571041,571042,571043,571141,571142,571143,571003|571041,571042,571043,571141,571142,571143,571004"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出时情绪高昂的效果提高至100%
+  }
+  {
+    id: 570005
+    enemy_leader: 13249
+    if_stay: 1
+    use_building: 573020|574050
+    use_building_skill: "571051,571052,571053,571151,571152,571153,571001|571051,571052,571053,571151,571152,571153,571005"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出时使范围2内的对手陷入紧张
+  }
+  {
+    id: 570006
+    enemy_leader: 13250
+    if_stay: 1
+    use_building: 573030|574060
+    use_building_skill: "571061,571062,571063,571161,571162,571163,571002|571061,571062,571063,571161,571162,571163,571006"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出时使范围2内不紧张的队友获得情绪高昂
+  }
+  {
+    id: 570007
+    enemy_leader: 13251
+    if_stay: 1
+    use_building: 573040|574070
+    use_building_skill: "571071,571072,571073,571171,571172,571173,571004|571071,571072,571073,571171,571172,571173,571007"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 演出时若处于Fever状态下则额外获得50%得分
+  }
+  {
+    id: 570008
+    enemy_leader: 13252
+    if_stay: 1
+    use_building: "574080"
+    use_building_skill: "571081,571082,571083,571181,571182,571183"
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 每个回合都可以进行一次演出，且不会受到情绪影响
+  }
+  {
+    id: 570501
+    enemy_leader: 13243
+    ai: 103
+    team_confrontfun_des: enemy_team-10570501
+  }
+  {
+    id: 570502
+    enemy_leader: 13243
+    if_stay: 1
+    team_confrontfun_des: enemy_team-10570502
+  }
+  {
+    id: 570503
+    enemy_leader: 13242
+    ai: 103
+    team_confrontfun_des: enemy_team-10570503
+  }
+  {
+    id: 570504
+    enemy_leader: 13238
+    if_stay: 1
+    team_confrontfun_des: enemy_team-10570504
+  }
+  {
+    id: 570505
+    enemy_leader: 13238
+    ai: 102
+    ai_content: "3"
+    team_confrontfun_des: enemy_team-10570505
+  }
+  {
+    id: 570506
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1038,0"
+    draw_event_s_id: 734
+    enemy_leader: 13243
+    if_stay: 1
+    limit_guns: "1038"
+    team_confrontfun_pic: spe_tip
+    team_confrontfun_des: 额外掉落应援券
+  }
+  {
+    id: 570507
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1038,0"
+    draw_event_s_id: 734
+    enemy_leader: 13243
+    if_stay: 1
+    limit_guns: "1038"
+    team_confrontfun_pic: spe_tip
+    team_confrontfun_des: 额外掉落应援券
+  }
+  {
+    id: 570508
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1038,101,78"
+    draw_event_s_id: 734
+    enemy_leader: 13242
+    if_stay: 1
+    limit_guns: "1038"
+    team_confrontfun_pic: spe_tip
+    team_confrontfun_des: 额外掉落应援券
+  }
+  {
+    id: 570601
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500123,3500120,3500122,3500124,3500123"
+    team_confrontfun_des: enemy_team-10570601
+  }
+  {
+    id: 570602
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500185,3500180,3500182,3500178,3500185"
+    team_confrontfun_des: enemy_team-10570602
+  }
+  {
+    id: 570603
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500182,3500178,3500185,3500180,3500181,3500183,3500179,3500177,3500182"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570603
+  }
+  {
+    id: 570604
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500201,3500202,3500200,3500197,3500194,3500195,3500199,3500204,3500201"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570604
+  }
+  {
+    id: 570605
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500194,3500197,3500200,3500195,3500194"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570605
+  }
+  {
+    id: 570606
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500155,3500158,3500161,3500159,3500160,3500157,3500155"
+    team_confrontfun_des: enemy_team-10570606
+  }
+  {
+    id: 570607
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500202,3500200,3500198,3500206,3500202"
+    team_confrontfun_des: enemy_team-10570607
+  }
+  {
+    id: 570608
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500137,3500134,3500135,3500138,3500137"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570608
+  }
+  {
+    id: 570609
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500134,3500131,3500132,3500133,3500134"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570609
+  }
+  {
+    id: 570610
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500162,3500172,3500173,3500163,3500167,3500168,3500162"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570610
+  }
+  {
+    id: 570611
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500184,3500186,3500190,3500189,3500184"
+    team_confrontfun_des: enemy_team-10570611
+  }
+  {
+    id: 570612
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500124,3500123,3500120,3500121,3500124"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570612
+  }
+  {
+    id: 570613
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500159,3500157,3500158,3500159"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570613
+  }
+  {
+    id: 570614
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500167,3500170,3500169,3500168,3500162,3500163,3500167"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570614
+  }
+  {
+    id: 570615
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500113,3500110,3500115,3500114,3500113"
+    team_confrontfun_des: enemy_team-10570615
+  }
+  {
+    id: 570616
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500163,3500164,3500165,3500167,3500168,3500162,3500163"
+    team_confrontfun_des: enemy_team-10570616
+  }
+  {
+    id: 570617
+    enemy_leader: 13241
+    ai: 101
+    ai_content: "3500131,3500127,3500129,3500130,3500131"
+    enemy_type_display: "1"
+    team_confrontfun_des: enemy_team-10570617
+  }
+  {
+    id: 570618
+    enemy_leader: 13240
+    ai: 101
+    ai_content: "3500150,3500151,3500146,3500145,3500150"
+    team_confrontfun_des: enemy_team-10570618
+  }
+  {
+    id: 570619
+    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,1039,0"
+    draw_event_s_id: 734
+    enemy_leader: 13240
+    if_stay: 1
+    limit_guns: "1039"
+    team_confrontfun_pic: spe_tip
+    team_confrontfun_des: 额外掉落应援券
+  }
+  {
+    id: 570620
+    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,1039,60,100,75"
+    draw_event_s_id: 734
+    enemy_leader: 13240
+    if_stay: 1
+    limit_guns: "1039"
+    team_confrontfun_pic: spe_tip
+    team_confrontfun_des: 额外掉落应援券
+  }
+  {
+    id: 575001
+    enemy_leader: 13244
+    if_stay: 1
+    team_confrontfun_des: enemy_team-10575001
+  }
+  {
     id: 590000
     enemy_leader: 900521
     if_stay: 1
@@ -41382,7 +41677,7 @@
   {
     id: 591102
     reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,207,99,118,39"
-    draw_event_s_id: 679
+    draw_event_s_id: 680
     enemy_leader: 10004
     if_stay: 1
     limit_guns: "207"
@@ -41402,7 +41697,6 @@
   {
     id: 591104
     reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,207,99,118,39"
-    draw_event_s_id: 680
     enemy_leader: 10012
     if_stay: 1
     limit_guns: "207"
@@ -41422,7 +41716,7 @@
   {
     id: 591202
     reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,73,101,60,23"
-    draw_event_s_id: 681
+    draw_event_s_id: 682
     enemy_leader: 10004
     if_stay: 1
     limit_guns: "73"
@@ -41441,11 +41735,8 @@
   }
   {
     id: 591204
-    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,73,101,60,23"
-    draw_event_s_id: 682
     enemy_leader: 10008
     if_stay: 1
-    limit_guns: "73"
     team_confrontfun_des: enemy_team-10591204
     targettrain_cancollect: 1
   }
@@ -45390,6 +45681,27 @@
     enemy_leader: 15010
     if_stay: 1
     team_confrontfun_des: enemy_team-16002901
+    targettrain_cancollect: 1
+  }
+  {
+    id: 6003001
+    enemy_leader: 15009
+    if_stay: 1
+    team_confrontfun_des: enemy_team-16003001
+    targettrain_cancollect: 1
+  }
+  {
+    id: 6003002
+    enemy_leader: 15008
+    if_stay: 1
+    team_confrontfun_pic: tip_pic
+    team_confrontfun_des: 击败该敌人可以获得战场效果领袖之风
+    targettrain_cancollect: 1
+  }
+  {
+    id: 6003101
+    enemy_leader: 15008
+    team_confrontfun_des: enemy_team-16003101
     targettrain_cancollect: 1
   }
   {

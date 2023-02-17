@@ -538,6 +538,114 @@
     "duration": "1.00", "delay": "0.00", "size": "0.02", "offset": "0,0", "sound": "0", "spine": "0", "if_starting": "0", 
     "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
   }, {
+    "id": "1000114", "name": "普通演出", "code": "zhgq_by_01", "description": "普通演出", "priority": "5", 
+    "duration": "1.50", "delay": "0.50", "size": "2.50", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "1", "use_ease": "0"
+  }, {
+    "id": "1000115", "name": "演出大成功", "code": "zhgq_by_02", "description": "演出大成功", "priority": "5", 
+    "duration": "1.50", "delay": "0.50", "size": "3.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "1", "use_ease": "0"
+  }, {
+    "id": "1000116", "name": "演出大失败", "code": "zhgq_by_03", "description": "演出大失败", "priority": "5", 
+    "duration": "1.50", "delay": "0.50", "size": "2.50", "offset": "0,80", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "1", "use_ease": "0"
+  }, {
+    "id": "1000117", "name": "紧张感", "code": "zhgq_by_bq01", "description": "紧张感", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000118", "name": "情绪高昂", "code": "zhgq_by_bq02", "description": "情绪高昂", "priority": "5", 
+    "duration": "1.50", "delay": "1.50", "size": "1.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000119", "name": "感叹号", "code": "zhgq_by_th", "description": "感叹号", "priority": "0", "duration": "0.00", 
+    "delay": "0.00", "size": "1.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000120", "name": "普通演出", "code": "zhgq_by_01", "description": "普通演出", "priority": "5", 
+    "duration": "1.50", "delay": "1.50", "size": "2.50", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "1", "use_ease": "0"
+  }, {
+    "id": "1000121", "name": "演出大成功", "code": "zhgq_by_02", "description": "演出大成功", "priority": "5", 
+    "duration": "1.50", "delay": "1.50", "size": "3.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "1", "use_ease": "0"
+  }, {
+    "id": "1000122", "name": "演出大失败", "code": "zhgq_by_03", "description": "演出大失败", "priority": "5", 
+    "duration": "1.50", "delay": "1.50", "size": "2.50", "offset": "0,80", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "1", "use_ease": "0"
+  }, {
+    "id": "1000123", "name": "Fever", "code": "zhgq_by_02", "description": "Fever", "priority": "5", "duration": "1.50", 
+    "delay": "3.50", "size": "3.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000124", "name": "[Emoji]鱿鱼丝", "code": "qipao_yys", "description": "Fever", "priority": "5", 
+    "duration": "0.00", "delay": "0.00", "size": "1.00", "offset": "-200,250;0,0", "sound": "", "spine": "0", 
+    "if_starting": "0", "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000125", "name": "1000分", "code": "tnub_1000", "description": "1000分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000126", "name": "1500分", "code": "tnub_1500", "description": "1500分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000127", "name": "500分", "code": "tnub_500", "description": "500分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000128", "name": "2000分", "code": "tnub_2000", "description": "2000分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000129", "name": "3000分", "code": "tnub_3000", "description": "3000分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000130", "name": "4500分", "code": "tnub_4500", "description": "4500分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000131", "name": "4000分", "code": "tnub_4000", "description": "4000分", "priority": "5", "duration": "1.50", 
+    "delay": "0.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000132", "name": "1000分", "code": "tnub_1000", "description": "1000分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000133", "name": "1500分", "code": "tnub_1500", "description": "1500分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000134", "name": "500分", "code": "tnub_500", "description": "500分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000135", "name": "2000分", "code": "tnub_2000", "description": "2000分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000136", "name": "3000分", "code": "tnub_3000", "description": "3000分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000137", "name": "4500分", "code": "tnub_4500", "description": "4500分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000138", "name": "4000分", "code": "tnub_4000", "description": "4000分", "priority": "5", "duration": "1.50", 
+    "delay": "1.50", "size": "1.50", "offset": "0,50", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000139", "name": "延迟", "code": "Empty", "description": "延迟", "priority": "0", "duration": "2.50", 
+    "delay": "0.00", "size": "1.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
+    "id": "1000140", "name": "延迟", "code": "Empty", "description": "延迟", "priority": "0", "duration": "1.50", 
+    "delay": "0.00", "size": "1.00", "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", 
+    "relative_position": "0", "rotation_offset": "", "is_focus": "0", "use_ease": "0"
+  }, {
     "id": "9490401", "name": "【标记】提示特效，亮星星", "code": "ddl_xingxing", 
     "description": "mission_effect_config-29490401", "priority": "0", "duration": "1.00", "delay": "0.00", "size": "0.02", 
     "offset": "0,0", "sound": "", "spine": "0", "if_starting": "0", "relative_position": "0", "rotation_offset": "", 

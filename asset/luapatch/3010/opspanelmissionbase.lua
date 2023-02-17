@@ -41,8 +41,21 @@ local InitData = function(self,data)
 			end);
 	end
 end
+
+local currentMissionInfo = function(self)
+	if CS.GameData.listMissionInfo:ContainsKey(self.CurrentMissionId) then
+		local info = CS.GameData.listMissionInfo:GetDataById(self.CurrentMissionId);
+		if info == nil then
+			print("缺少missioninfo"..self.CurrentMissionId);
+		end
+		return info;		
+	end
+	print("缺少missioninfo"..self.CurrentMissionId);
+	return nil;
+end
 util.hotfix_ex(CS.OPSPanelMissionBase,'RefreshUI',RefreshUI)
 util.hotfix_ex(CS.OPSPanelMissionBase,'InitData',InitData)
+--util.hotfix_ex(CS.OPSPanelMissionBase,'get_currentMissionInfo',currentMissionInfo)
 
 
 

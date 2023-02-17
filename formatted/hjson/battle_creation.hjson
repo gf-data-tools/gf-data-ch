@@ -76414,6 +76414,146 @@
     scale: "1"
   }
   {
+    id: 9088
+    name: 人数判断
+    start_type: "3"
+    destination_type: "3"
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: "8714"
+    scale: "1"
+  }
+  {
+    id: 9089
+    name: 触发热力
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: "8713"
+    scale: "1"
+  }
+  {
+    id: 9090
+    name: 机枪子弹-二阶堂
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9091
+    name: 霰弹枪子弹-夕雾
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "7"
+    is_form_play: 1
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9092
+    name: 夕雾换弹
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8721:1,8722:1
+    buff_cd: "0,0"
+    scale: "1"
+  }
+  {
+    id: 9093
+    name: 夕雾斩杀范围竖
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "8"
+    effect_param_2: "2"
+    hurt_id: "2314"
+    scale: "8,0.2,2"
+  }
+  {
+    id: 9094
+    name: 二阶堂撞击
+    start_type: "8"
+    start_offset: "-20,0,-2.4"
+    destination_type: "8"
+    destination_offset: "20,0,-2.4"
+    route_type: 1
+    speed: 1000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "2315"
+    hurt_cd: "1"
+    buff_id: 8723:1,8724:1
+    buff_cd: "1,1"
+    is_single_hurt: 1
+    scale: "1"
+  }
+  {
+    id: 9095
+    name: 夕雾表演召唤物
+    start_type: "6"
+    start_offset: "-2,0,0"
+    destination_type: "6"
+    destination_offset: "-2,0,0"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "4285"
+  }
+  {
+    id: 9096
+    name: 二阶堂表演召唤物
+    start_type: "8"
+    start_offset: "-20,0,-2.4"
+    destination_type: "8"
+    destination_offset: "-20,0,-2.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "4284"
+  }
+  {
+    id: 9097
+    name: 夕雾斩杀范围横
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "8"
+    hurt_id: "2314"
+    scale: "2,0.2,8"
+  }
+  {
     id: 9099
     name: zb换弹
     start_type: "8"
@@ -76763,6 +76903,878 @@
     creation_type: 2
     scale: "1"
     is_die_delete: 1
+  }
+  {
+    id: 9124
+    name: 卡车伤害
+    start_type: "3"
+    start_offset: "-1,0,0"
+    destination_type: "3"
+    destination_offset: "-20"
+    route_type: 1
+    speed: 700
+    rotate: "20"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "2"
+    hurt_id: "2319"
+    hurt_cd: "1"
+    creation_type: 2
+    scale: "2,0.2,2"
+  }
+  {
+    id: 9125
+    name: 泡泡伤害
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2320"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: e_nimogen_atk
+    still_exist: 1
+  }
+  {
+    id: 9126
+    name: 轮胎冲击子弹
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 2000
+    exist_duration: "30"
+    hurt_id: "2321"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "2,0.2,2"
+  }
+  {
+    id: 9127
+    name: 轮胎普攻子弹
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 2000
+    exist_duration: "30"
+    hurt_id: "2322"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "2,0.2,2"
+  }
+  {
+    id: 9128
+    name: 罗梅罗普攻子弹
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 2000
+    exist_duration: "30"
+    hurt_id: "2323"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "2,0.2,2"
+  }
+  {
+    id: 9129
+    name: 泡泡出现
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9180"
+    sound_order: e_nimogen_token_appear
+    summoner_order: "70059"
+    still_exist: 1
+  }
+  {
+    id: 9130
+    name: 卡车预警
+    code: 爆炸范围
+    start_type: "3"
+    start_offset: "-1.5,0,0"
+    destination_type: "3"
+    destination_offset: "-1.5,0,0"
+    is_tracing: 1
+    random_number: "8"
+    random_offset: "2.4,0,0;0,0,0;-2.4,0,0;-4.8,0,0;-7.2,0,0;-9.6,0,0;-12,0,0;-14.4,0,0"
+    rotate: "90,0,0"
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1.25,2.15"
+  }
+  {
+    id: 9131
+    name: 爱的闪电
+    code: zhld/ZH_yy_lightning
+    start_type: "6"
+    start_offset: "0,3.1,0"
+    destination_type: "6"
+    destination_offset: "0,3.1,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "100"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9132
+    name: 爱自己的闪电
+    code: zhld/ZH_yy_lightning
+    start_type: "6"
+    start_offset: "0,3.1,0"
+    destination_type: "6"
+    destination_offset: "0,3.1,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "100"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9133
+    name: 爱的闪电伤害
+    start_type: "2"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    route_type: 1
+    speed: 7000
+    exist_duration: "30"
+    hurt_id: "2324"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9134
+    name: 麻痹闪电
+    code: zhld/ZH_yy_flash
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "100"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9135
+    name: 豪哥星星
+    code: zhld/ZH_li_star
+    start_type: "3"
+    start_offset: "3.7,6.5,0"
+    destination_type: "3"
+    destination_offset: "3.7,6.5,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "15"
+    creation_type: 2
+    scale: "2.5,2.5,2"
+  }
+  {
+    id: 9136
+    name: 豪哥星星伤害
+    start_type: "8"
+    destination_type: "5"
+    is_tracing: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2325"
+    creation_type: 2
+    scale: "20,0.3,20"
+  }
+  {
+    id: 9137
+    name: 纯子
+    start_type: "8"
+    start_offset: "-5"
+    destination_type: "8"
+    destination_offset: "-5"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: 1000004960:1,1000004961:1
+    buff_cd: "0,0"
+    creation_type: 2
+    scale: "20,0.1,20"
+  }
+  {
+    id: 9138
+    name: 纯子唱歌
+    code: zhld/ZH_ai_buff
+    start_type: "3"
+    start_offset: "0.8,1.8,0"
+    destination_type: "3"
+    destination_offset: "0.8,1.8,0"
+    is_tracing: 1
+    exist_duration: "60"
+    creation_type: 2
+    scale: "0.8,0.8,0.8"
+  }
+  {
+    id: 9139
+    name: 音乐透明受击子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9140
+    name: 音乐受击
+    code: zhld/ZH_ty_meichu
+    start_type: "5"
+    destination_type: "5"
+    is_tracing: 1
+    is_clone: 1
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9141
+    name: 音乐表现
+    code: zhld/ZH_ty_onfuku
+    start_type: "2"
+    start_offset: "0,-0.5,0"
+    destination_type: "2"
+    destination_offset: "0,-0.5,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9142
+    name: 源樱
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *101
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9156"
+    trigger_creation_delay: "3"
+    summoner_order: "4286"
+    summoner_delay: "3"
+  }
+  {
+    id: 9143
+    name: 二阶堂
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *102
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9157"
+    trigger_creation_delay: "3"
+    summoner_order: "4287"
+    summoner_delay: "3"
+  }
+  {
+    id: 9144
+    name: 爱
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *103
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9158"
+    trigger_creation_delay: "3"
+    summoner_order: "4288"
+    summoner_delay: "3"
+  }
+  {
+    id: 9145
+    name: 纯子
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *104
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9159"
+    trigger_creation_delay: "3"
+    summoner_order: "4289"
+    summoner_delay: "3"
+  }
+  {
+    id: 9146
+    name: 夕雾
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *105
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9160"
+    trigger_creation_delay: "3"
+    summoner_order: "4290"
+    summoner_delay: "3"
+  }
+  {
+    id: 9147
+    name: 莉莉
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *106
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9161"
+    trigger_creation_delay: "3"
+    summoner_order: "4291"
+    summoner_delay: "3"
+  }
+  {
+    id: 9148
+    name: 山田
+    start_type: "8"
+    start_offset: "-9,0,0"
+    destination_type: "8"
+    destination_offset: "-9,0,0"
+    is_tracing: 1
+    exist_duration: *107
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "9162"
+    trigger_creation_delay: "3"
+    summoner_order: "4292"
+    summoner_delay: "3"
+  }
+  {
+    id: 9149
+    name: 源樱
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *108
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4286"
+    summoner_delay: "3"
+  }
+  {
+    id: 9150
+    name: 二阶堂
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *109
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4287"
+    summoner_delay: "3"
+  }
+  {
+    id: 9151
+    name: 爱
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *110
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4288"
+    summoner_delay: "3"
+  }
+  {
+    id: 9152
+    name: 纯子
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *111
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4289"
+    summoner_delay: "3"
+  }
+  {
+    id: 9153
+    name: 夕雾
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *112
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4290"
+    summoner_delay: "3"
+  }
+  {
+    id: 9154
+    name: 莉莉
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *113
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4291"
+    summoner_delay: "3"
+  }
+  {
+    id: 9155
+    name: 山田
+    start_type: "8"
+    start_offset: "-9,0,-4"
+    destination_type: "8"
+    destination_offset: "-9,0,-4"
+    is_tracing: 1
+    exist_duration: *114
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4292"
+    summoner_delay: "3"
+  }
+  {
+    id: 9156
+    name: 源樱
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8755:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9157
+    name: 二阶堂
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8756:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9158
+    name: 爱
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8757:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9159
+    name: 纯子
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8758:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9160
+    name: 夕雾
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8759:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9161
+    name: 莉莉
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8760:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9162
+    name: 山田
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: 8761:1,8762:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9163
+    name: 自身生命，回避，护甲buff层数
+    start_type: "8"
+    start_offset: "-20,0,0"
+    destination_type: "8"
+    destination_offset: "-20,0,0"
+    is_tracing: 1
+    exist_duration: "100"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "3"
+    buff_id: 8763:1000004985,8764:1000004986,8765:1000004987,8766:1
+    buff_cd: "0,0,0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9164
+    name: 护盾工具人
+    start_type: "8"
+    start_offset: "-20,0,0"
+    destination_type: "8"
+    destination_offset: "-20,0,0"
+    is_tracing: 1
+    exist_duration: "10"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4293"
+  }
+  {
+    id: 9165
+    name: 护盾
+    start_type: "8"
+    start_offset: "0,0,0"
+    destination_type: "8"
+    destination_offset: "0,0,0"
+    is_tracing: 1
+    exist_duration: "10"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4294"
+  }
+  {
+    id: 9166
+    name: 护盾亡语伤害
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    hurt_id: "2326"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "20,0.1,20"
+    still_exist: 1
+  }
+  {
+    id: 9167
+    name: 雾夕刀
+    code: zhld/ZH_xw_dg
+    start_type: "2"
+    start_offset: "1,0,0"
+    destination_type: "2"
+    destination_offset: "1,0,0"
+    is_tracing: 1
+    exist_duration: "30"
+    creation_type: 2
+    scale: "2,2,2"
+  }
+  {
+    id: 9168
+    name: 二阶堂尾气
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    start_offset: "1.5,0,0"
+    destination_type: "3"
+    destination_offset: "1.5,0,0"
+    is_tracing: 1
+    exist_duration: "200"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9169
+    name: 前护盾
+    code: zhld/ZH_hd_loop
+    start_type: "8"
+    start_offset: "0,-0.24,-1.7"
+    destination_type: "8"
+    destination_offset: "0,-0.24,-1.7"
+    is_tracing: 1
+    rotate: "0,90,0"
+    exist_duration: "99999"
+    creation_type: 2
+    scale: "1,1.26,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9170
+    name: 上护盾1
+    code: zhld/ZH_hd_loop
+    start_type: "8"
+    start_offset: "-5,0,4.6"
+    destination_type: "8"
+    destination_offset: "-5,0,4.6"
+    is_tracing: 1
+    exist_duration: "99999"
+    creation_type: 2
+    scale: "1,1,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9171
+    name: 下护盾1
+    code: zhld/ZH_hd_loop
+    start_type: "8"
+    start_offset: "-5,0,-8"
+    destination_type: "8"
+    destination_offset: "-5,0,-8"
+    is_tracing: 1
+    exist_duration: "99999"
+    creation_type: 2
+    scale: "1,1,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9172
+    name: 上护盾2
+    code: zhld/ZH_hd_loop
+    start_type: "8"
+    start_offset: "-15,0,4.6"
+    destination_type: "8"
+    destination_offset: "-15,0,4.6"
+    is_tracing: 1
+    exist_duration: "99999"
+    creation_type: 2
+    scale: "1,1,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9173
+    name: 下护盾2
+    code: zhld/ZH_hd_loop
+    start_type: "8"
+    start_offset: "-15,0,-8"
+    destination_type: "8"
+    destination_offset: "-15,0,-8"
+    is_tracing: 1
+    exist_duration: "99999"
+    creation_type: 2
+    scale: "1,1,1"
+    is_die_delete: 1
+  }
+  {
+    id: 9174
+    name: 二阶堂撞击位移上
+    start_type: "8"
+    start_offset: "-20,0,-1.2"
+    destination_type: "8"
+    destination_offset: "20,0,-1.2"
+    route_type: 1
+    speed: 1000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2327"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    scale: "1"
+  }
+  {
+    id: 9175
+    name: 二阶堂撞击位移下
+    start_type: "8"
+    start_offset: "-20,0,-3.6"
+    destination_type: "8"
+    destination_offset: "20,0,-3.6"
+    route_type: 1
+    speed: 1000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2328"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    scale: "1"
+  }
+  {
+    id: 9176
+    name: 召唤物消失
+    code: 19tiexue_boss_buhuo 3
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "120"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1,1,1"
+  }
+  {
+    id: 9177
+    name: 汽车尾气
+    code: Y_BOSS_weiyan 1
+    start_type: "3"
+    start_offset: "-0.6,0.3,0"
+    destination_type: "3"
+    destination_offset: "-0.6,0.3,0"
+    is_tracing: 1
+    random_number: "2"
+    random_offset: "0,0,0;2,0,0"
+    exist_duration: "200"
+    creation_type: 2
+    scale: "-1"
+  }
+  {
+    id: 9178
+    name: 轮胎撞击
+    code: minosu_cj_sj
+    start_type: "2"
+    start_offset: "-1.1,-0.7,0"
+    destination_type: "2"
+    destination_offset: "-1.1,-0.7,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9179
+    name: 汽车撞击
+    code: minosu_cj_sj
+    start_type: "2"
+    start_offset: "-2.8,-0.4,0"
+    destination_type: "2"
+    destination_offset: "-2.8,-0.4,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 2
+    scale: "-1.3,1.3,1.3"
+  }
+  {
+    id: 9180
+    name: 泡泡出现
+    code: Dinergate
+    start_type: "2"
+    start_offset: "-1,0,0"
+    destination_type: "2"
+    destination_offset: "-1,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    creation_type: 2
+    scale: "-1.3,1.3,1.3"
   }
   {
     id: 9740
@@ -81505,6 +82517,16 @@
     scale: "1"
   }
   {
+    id: 10298
+    name: 打工界面
+    code: ZLSR_MiniGame_Work
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "99999"
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 10299
     name: 双子生成
     code: 2022ScarBattle
@@ -81894,6 +82916,322 @@
     summoner_order: "1637"
   }
   {
+    id: 10324
+    name: 随机
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "0,0,-4.2;0,0,-8.4;0,0,-12.6"
+    exist_duration: "30"
+    scale: "1"
+    trigger_creation_id: "10325,10326,10327,10328,10329"
+    trigger_creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 10325
+    name: 随机1
+    start_type: "7"
+    start_offset: "0,0,4.2"
+    destination_type: "7"
+    destination_offset: "0,0,4.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4879"
+    scale: "1"
+  }
+  {
+    id: 10326
+    name: 随机2
+    start_type: "7"
+    start_offset: "0,0,8.4"
+    destination_type: "7"
+    destination_offset: "0,0,8.4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4880"
+    scale: "1"
+  }
+  {
+    id: 10327
+    name: 随机3
+    start_type: "7"
+    start_offset: "0,0,12.6"
+    destination_type: "7"
+    destination_offset: "0,0,12.6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4881"
+    scale: "1"
+  }
+  {
+    id: 10328
+    name: 随机4
+    start_type: "7"
+    start_offset: "0,0,16.8"
+    destination_type: "7"
+    destination_offset: "0,0,16.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4882"
+    scale: "1"
+  }
+  {
+    id: 10329
+    name: 随机5
+    start_type: "7"
+    start_offset: "0,0,21"
+    destination_type: "7"
+    destination_offset: "0,0,21"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4883"
+    scale: "1"
+  }
+  {
+    id: 10330
+    name: 砖块1
+    code: Dance_zhuan
+    start_type: "3"
+    start_offset: "0,0,30"
+    destination_type: "3"
+    destination_offset: "0,0,30"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 4884:1
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10331
+    name: 砖块2
+    code: Dance_zhuan2
+    start_type: "3"
+    start_offset: "0,0,30"
+    destination_type: "3"
+    destination_offset: "0,0,30"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 4884:2
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10332
+    name: 砖块3
+    code: Dance_zhuan3
+    start_type: "3"
+    start_offset: "0,0,30"
+    destination_type: "3"
+    destination_offset: "0,0,30"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 4884:3
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10333
+    name: 砖块4
+    code: Dance_zhuan4
+    start_type: "3"
+    start_offset: "0,0,30"
+    destination_type: "3"
+    destination_offset: "0,0,30"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 4884:4
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10334
+    name: 砖块5
+    code: Dance_zhuan5
+    start_type: "3"
+    start_offset: "0,0,30"
+    destination_type: "3"
+    destination_offset: "0,0,30"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 4884:5
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10335
+    name: 自身范围
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: "4886"
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10336
+    name: 出车·左
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "1643"
+  }
+  {
+    id: 10337
+    name: 出车·右
+    start_type: "3"
+    start_offset: "40"
+    destination_type: "3"
+    destination_offset: "40"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "1645"
+  }
+  {
+    id: 10338
+    name: 出狗·左
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "1644"
+  }
+  {
+    id: 10339
+    name: 除垢·右
+    start_type: "3"
+    start_offset: "40"
+    destination_type: "3"
+    destination_offset: "40"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "1646"
+  }
+  {
+    id: 10340
+    name: 终点
+    start_type: "3"
+    start_offset: "2,0,7"
+    destination_type: "3"
+    destination_offset: "2,0,7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "4"
+    effect_param_2: "4"
+    buff_id: 4884:-5
+    buff_cd: "3"
+    scale: "4,0.1,4"
+    trigger_creation_id: "10460"
+  }
+  {
+    id: 10341
+    name: 左侧判定
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: "4885"
+    buff_cd: "3"
+    scale: "1"
+  }
+  {
+    id: 10342
+    name: 右侧判定
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: "4886"
+    buff_cd: "3"
+    scale: "1"
+  }
+  {
     id: 10343
     name: 稻草人子弹1
     code: zidan4_Enemy
@@ -82134,6 +83472,494 @@
     scale: "2,0.1,3"
   }
   {
+    id: 10358
+    name: 源樱卡车1
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1652"
+  }
+  {
+    id: 10359
+    name: 源樱卡车2
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1653"
+  }
+  {
+    id: 10360
+    name: 源樱卡车3
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1654"
+  }
+  {
+    id: 10361
+    name: 源樱卡车4
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1655"
+  }
+  {
+    id: 10362
+    name: 源樱卡车5
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1656"
+  }
+  {
+    id: 10363
+    name: 源樱卡车6
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1657"
+  }
+  {
+    id: 10364
+    name: 源樱卡车7
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1658"
+  }
+  {
+    id: 10365
+    name: 源樱卡车8
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1659"
+  }
+  {
+    id: 10366
+    name: 源樱卡车9
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1660"
+  }
+  {
+    id: 10367
+    name: 源樱卡车10
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1661"
+  }
+  {
+    id: 10368
+    name: 卡车伤害1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "632"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10369
+    name: 卡车伤害2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "633"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10370
+    name: 卡车伤害3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "634"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10371
+    name: 卡车伤害4
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "635"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10372
+    name: 卡车伤害5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "636"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10373
+    name: 卡车伤害6
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "637"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10374
+    name: 卡车伤害7
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "638"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10375
+    name: 卡车伤害8
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "639"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10376
+    name: 卡车伤害9
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "640"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10377
+    name: 卡车伤害10
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "641"
+    hurt_cd: "3"
+    buff_id: "4894"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10378
+    name: 卡车伤害1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "647"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10379
+    name: 卡车伤害2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "648"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10380
+    name: 卡车伤害3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "649"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10381
+    name: 卡车伤害4
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "650"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10382
+    name: 卡车伤害5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "651"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10383
+    name: 卡车伤害6
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "652"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10384
+    name: 卡车伤害7
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "653"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10385
+    name: 卡车伤害8
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "654"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10386
+    name: 卡车伤害9
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "655"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10387
+    name: 卡车伤害10
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "656"
+    hurt_cd: "3"
+    buff_id: 4894:1,4895:1
+    buff_cd: "3,3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10388
+    name: 山田在场证明
+    start_type: "3"
+    start_offset: "10,0,0"
+    destination_type: "3"
+    destination_offset: "10,0,0"
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "60"
+    effect_param_2: "60"
+    buff_id: 4900:1
+    buff_cd: "29"
+    is_form_play: 1
+    scale: "5,5,5"
+    is_die_delete: 1
+  }
+  {
     id: 10389
     name: 新春稻草人特效竖
     code: FYP_jg_01
@@ -82154,6 +83980,204 @@
     destination_offset: "2.45,3.1"
     exist_duration: "90"
     scale: "1"
+  }
+  {
+    id: 10449
+    name: 鱿鱼丝
+    code: Dance_yysd
+    start_type: "3"
+    start_offset: "0,0.55,30"
+    destination_type: "3"
+    destination_offset: "0,0.55,30"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "0,0,8.4;0,0,6.4;0,0,4.4;0,0,2.4;2,0,8.4;2,0,6.4;2,0,4.4;2,0,2.4;-2,0,8.4;-2,0,6.4;-2,0,4.4;-2,0,2.4;-4,0,8.4;-4,0,6.4;-4,0,4.4;-4,0,2.4;-6,0,8.4;-6,0,6.4;-6,0,4.4;-6,0,2.4;"
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 5052:1
+    buff_cd: "3"
+    creation_type: 2
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10450
+    name: 轮胎尾烟
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    start_offset: "0.3,0.2"
+    destination_type: "3"
+    destination_offset: "0.3,0.2"
+    is_tracing: 1
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10451
+    name: 轮胎尾烟you
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    rotate: "0,180,0"
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10452
+    name: 唱歌透明子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    trigger_creation_id: "10454"
+    trigger_creation_delay: "-1"
+    is_orb_effect: 1
+  }
+  {
+    id: 10453
+    name: 唱歌音符
+    code: zhld/ZH_ty_onfuku
+    start_type: "2"
+    start_offset: "0,-0.5,0"
+    destination_type: "2"
+    destination_offset: "0,-0.5,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 10454
+    name: 唱歌受击
+    code: zhld/ZH_ty_meichu
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10455
+    name: 山田头
+    code: ZH_st_head01
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 350
+    speed: 1000
+    spin_velocity: 9000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.6,0.6,0.6"
+    trigger_creation_id: "10456,10458"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10456
+    name: 山田爆炸
+    code: ZH_st_wave
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "45"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *102
+    hurt_id: "2"
+    buff_id: 5054:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10457
+    name: 山田头皮肤
+    code: ZH_st_head02
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 350
+    speed: 1000
+    spin_velocity: 9000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.6,0.6,0.6"
+    trigger_creation_id: "10456,10459"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10458
+    name: 山田
+    code: ZH_st_head01_02
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 10459
+    name: 山田
+    code: ZH_st_head02_02
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 10460
+    name: 箭头
+    code: Zhilu_jiantou
+    start_type: "7"
+    start_offset: "0.5,2,0"
+    destination_type: "7"
+    destination_offset: "0.5,2,0"
+    rotate: "0,0,-90"
+    exist_duration: "999999"
+    scale: "1"
+  }
+  {
+    id: 10461
+    name: 鱿鱼丝获得
+    code: Buff_ss_zt
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
   }
   {
     id: 26001

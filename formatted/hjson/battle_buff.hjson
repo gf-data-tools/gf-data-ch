@@ -28240,6 +28240,289 @@
     buff_animation: BlueFlash
   }
   {
+    id: 4879
+    name: 砖1
+    conflict_type: 385
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4880
+    name: 砖2
+    conflict_type: 386
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4881
+    name: 砖3
+    conflict_type: 387
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4882
+    name: 砖4
+    conflict_type: 388
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4883
+    name: 砖5
+    conflict_type: 389
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4884
+    name: 砖块buff
+    conflict_type: 390
+    max_tier: 5
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4885
+    name: 被车撞了左边来的
+    conflict_type: 391
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4886
+    name: 被车撞了右边来的
+    conflict_type: 392
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4887
+    name: 减速
+    conflict_type: 393
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+    move_number: *201
+  }
+  {
+    id: 4888
+    name: 出车
+    conflict_type: 394
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4889
+    name: 出狗
+    conflict_type: 395
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4890
+    name: 左侧出
+    conflict_type: 396
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4891
+    name: 右侧出
+    conflict_type: 397
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4892
+    name: 左侧正在出
+    conflict_type: 398
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4893
+    name: 右侧正在出
+    conflict_type: 399
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4894
+    name: 卡车眩晕
+    conflict_type: 421
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "60"
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 4895
+    name: 卡车源樱标记
+    conflict_type: 422
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 4896
+    name: 火力上升
+    description: 源樱
+    conflict_type: 423
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 4897
+    name: 命中上升
+    description: 源樱
+    conflict_type: 424
+    max_tier: 5
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 4898
+    name: 射速上升
+    description: 源樱
+    conflict_type: 425
+    max_tier: 5
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 4899
+    name: 暴击概率上升
+    description: 源樱
+    conflict_type: 426
+    max_tier: 5
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *201
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 4900
+    name: 山田在场
+    conflict_type: 427
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "30"
+  }
+  {
+    id: 4901
+    name: 属性统计
+    conflict_type: 428
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "120508"
+  }
+  {
+    id: 4902
+    name: 伤害反馈
+    conflict_type: 429
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4903
+    name: 射速反馈
+    conflict_type: 430
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 4904
+    name: 命中反馈
+    conflict_type: 431
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 5021
     name: 炮狙蓄力层数特效1
     conflict_type: 503
@@ -28470,6 +28753,44 @@
     duration: "-1"
     boss_available: 1
     damage_reduce_number: "40"
+  }
+  {
+    id: 5052
+    name: 鱿鱼丝buff
+    conflict_type: 432
+    max_tier: 99
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5053
+    name: Fever加速
+    conflict_type: 433
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: "8"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5054
+    name: 回避下降
+    description: 山田
+    conflict_type: 434
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *202
+    trigger_creation_id: "206"
+    is_form_play: 1
   }
   {
     id: 5700
@@ -37310,12 +37631,12 @@
   }
   {
     id: 8159
-    name: 备用
+    name: 分区猎豹改造MOD1
     conflict_type: 2105
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "99999"
+    duration: "-1"
     boss_available: 1
   }
   {
@@ -42951,6 +43272,158 @@
     boss_available: 1
   }
   {
+    id: 8713
+    name: 佐贺妖精触发
+    conflict_type: 2217
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8714
+    name: 在场人数统计
+    conflict_type: 2217
+    max_tier: 9
+    type: 400
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+  }
+  {
+    id: 8715
+    name: 沃克护盾
+    conflict_type: 2217
+    max_tier: 999
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8716
+    name: 伤害上升
+    description: 射速上升
+    conflict_type: 2217
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8717
+    name: 射速上升
+    description: 射速上升
+    conflict_type: 2217
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8718
+    name: 回避上升
+    description: 射速上升
+    conflict_type: 2217
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8719
+    name: 护甲上升
+    description: 射速上升
+    conflict_type: 2217
+    max_tier: 1
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8720
+    name: 热力值
+    conflict_type: 2218
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8721
+    name: 夕雾伤害提升
+    conflict_type: 2218
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    pow_number: *203
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8722
+    name: 夕雾暴击率提升
+    conflict_type: 2218
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    critical_number: *203
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8723
+    name: 二阶堂伤害下降
+    conflict_type: 2218
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
+    id: 8724
+    name: 二阶堂命中下降
+    conflict_type: 2218
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *203
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
     id: 8725
     name: zb26装备
     conflict_type: 2219
@@ -43113,6 +43586,326 @@
     duration_type: 1
     duration: *101
     trigger_creation_id: "9111"
+  }
+  {
+    id: 8740
+    name: 卡车相位
+    conflict_type: 135
+    max_tier: 1
+    type: 303
+    duration_type: 1
+    duration: "99999"
+  }
+  {
+    id: 8741
+    name: 罗梅罗攻速提升
+    conflict_type: 2225
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+  }
+  {
+    id: 8742
+    name: 水野爱砸自己
+    conflict_type: 2226
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8743
+    name: 水野爱砸过了
+    conflict_type: 2226
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8744
+    name: 水野爱闪电
+    conflict_type: 2226
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8745
+    name: 水野爱7闪电
+    conflict_type: 2227
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8746
+    name: 被雷击过
+    conflict_type: 2227
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8747
+    name: 雷击麻痹
+    conflict_type: 2227
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    trigger_creation_id: "9134"
+    is_form_play: 1
+  }
+  {
+    id: 8748
+    name: 星川移速降低
+    conflict_type: 2227
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *201
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
+    id: 8749
+    name: 纯子回避提升
+    conflict_type: 2227
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8750
+    name: 纯子护盾提升
+    conflict_type: 2227
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8751
+    name: 纯子伤害提升
+    conflict_type: 2227
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8752
+    name: 纯子命中提升
+    conflict_type: 2227
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *203
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 8753
+    name: 佐贺人数
+    conflict_type: 2228
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8754
+    name: 技能阀门
+    conflict_type: 2228
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8755
+    name: 源樱
+    conflict_type: 2229
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8756
+    name: 二阶堂
+    conflict_type: 2229
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8757
+    name: 爱
+    conflict_type: 2230
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8758
+    name: 纯子
+    conflict_type: 2230
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8759
+    name: 夕雾
+    conflict_type: 2231
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8760
+    name: 莉莉
+    conflict_type: 2231
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8761
+    name: 山田
+    conflict_type: 2232
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8762
+    name: 二号位
+    conflict_type: 2232
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8763
+    name: 生命
+    conflict_type: 2233
+    max_tier: 9999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8764
+    name: 回避
+    conflict_type: 2233
+    max_tier: 9999
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8765
+    name: 护甲
+    conflict_type: 2234
+    max_tier: 9999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8766
+    name: 数量
+    conflict_type: 2234
+    max_tier: 7
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8767
+    name: 减伤效果
+    conflict_type: 2234
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: *201
+  }
+  {
+    id: 8768
+    name: 小队人
+    conflict_type: 2235
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8769
+    name: 没人辣
+    conflict_type: 2235
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "750744"
   }
   {
     id: 10000

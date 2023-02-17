@@ -3555,6 +3555,13 @@
     hit_type: 1
   }
   {
+    id: 625
+    description: dot伤害
+    extra_damage: *101
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 626
     description: 新春稻草人1
     damage_ratio: *201
@@ -3618,6 +3625,146 @@
     buff_id_target: 760004:-1,760005:-1,760006:-1,760007:-1,760008:-1,760029:-1,760030:-1,76003-1:-1,760032:-1,760033:-1,761010:-1,761012:-1,761013:-1
     buff_rate: "100"
     hit_type: 1
+  }
+  {
+    id: 632
+    description: 卡车伤害1
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002192
+  }
+  {
+    id: 633
+    description: 卡车伤害2
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002153
+  }
+  {
+    id: 634
+    description: 卡车伤害3
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002154
+  }
+  {
+    id: 635
+    description: 卡车伤害4
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002155
+  }
+  {
+    id: 636
+    description: 卡车伤害5
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002156
+  }
+  {
+    id: 637
+    description: 卡车伤害6
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002157
+  }
+  {
+    id: 638
+    description: 卡车伤害7
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002158
+  }
+  {
+    id: 639
+    description: 卡车伤害8
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002159
+  }
+  {
+    id: 640
+    description: 卡车伤害9
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002160
+  }
+  {
+    id: 641
+    description: 卡车伤害10
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002161
+  }
+  {
+    id: 647
+    description: 卡车伤害1
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002193
+  }
+  {
+    id: 648
+    description: 卡车伤害2
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002194
+  }
+  {
+    id: 649
+    description: 卡车伤害3
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002195
+  }
+  {
+    id: 650
+    description: 卡车伤害4
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002196
+  }
+  {
+    id: 651
+    description: 卡车伤害5
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002197
+  }
+  {
+    id: 652
+    description: 卡车伤害6
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002198
+  }
+  {
+    id: 653
+    description: 卡车伤害7
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002199
+  }
+  {
+    id: 654
+    description: 卡车伤害8
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002200
+  }
+  {
+    id: 655
+    description: 卡车伤害9
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002201
+  }
+  {
+    id: 656
+    description: 卡车伤害10
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 1000002202
   }
   {
     id: 900
@@ -4466,7 +4613,6 @@
     is_miss: 1
     is_armor: 1
     beat_back_percent: "5"
-    buff_id_target: 7766:1
     buff_rate: "100"
     target_move_percent: "100"
     target_skill: 500101
@@ -4483,7 +4629,6 @@
     is_miss: 1
     is_armor: 1
     beat_back_percent: "5"
-    buff_id_target: 7766:1
     buff_rate: "100"
     target_move_percent: "100"
     target_skill: 500101
@@ -6648,6 +6793,22 @@
     fix_damage: 1000004925
   }
   {
+    id: 2314
+    description: 夕雾斩击
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 2315
+    description: 二阶堂撞击
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
     id: 2316
     description: 新春稻草人子弹-常规
     damage_ratio: *201
@@ -6679,6 +6840,105 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2319
+    description: 卡车伤害
+    damage_ratio: *201
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_ricochet: 1
+    is_shield: 1
+  }
+  {
+    id: 2320
+    description: 泡泡伤害
+    damage_ratio: "200"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2321
+    description: 轮胎冲击子弹
+    damage_ratio: "1000"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2322
+    description: 轮胎普攻子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2323
+    description: 罗梅罗普攻子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: 1000004955
+  }
+  {
+    id: 2324
+    description: 闪电伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 8747:1,8746:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2325
+    description: 星星伤害
+    extra_damage: *102
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 2326
+    description: 亡语伤害
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 2327
+    description: 二阶堂撞击s
+    critical_hit_rate: "100"
+    float_wide: 15
+    beat_back_percent: "100"
+    target_move_percent: "100"
+    target_skill: 750740
+    hit_type: 1
+  }
+  {
+    id: 2328
+    description: 二阶堂撞击x
+    critical_hit_rate: "100"
+    float_wide: 15
+    beat_back_percent: "100"
+    target_move_percent: "100"
+    target_skill: 750741
     hit_type: 1
   }
   {

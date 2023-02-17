@@ -2124,6 +2124,200 @@
     carry_mission_skill: "544213"
   }
   {
+    id: 570000
+    name: Fever
+    description: mission_buff_config-20570000
+    code: wota
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    birth_effect: 1000123
+  }
+  {
+    id: 570001
+    name: +
+    description: mission_buff_config-20570001
+    code: ZLSR_happy
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    birth_effect: 1000118
+    conflict_type: 570001
+    priority: 1
+  }
+  {
+    id: 570002
+    name: -
+    description: mission_buff_config-20570002
+    code: ZLSR_sad
+    type: 2
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    birth_effect: 1000117
+    conflict_type: 570001
+    priority: 1
+  }
+  {
+    id: 570003
+    name: 冷却
+    description: mission_buff_config-20570003
+    code: Angelica
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570003
+  }
+  {
+    id: 570004
+    name: 冷却计数
+    description: mission_buff_config-20570004
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570004
+    priority: -1
+  }
+  {
+    id: 570010
+    name: 水野爱
+    description: mission_buff_config-20570010
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570010
+    carry_mission_skill: "570011,570012,570013,570111,570112,570113"
+  }
+  {
+    id: 570020
+    name: 绀野纯子
+    description: mission_buff_config-20570020
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570020
+    carry_mission_skill: "570021,570022,570023,570121,570122,570123"
+  }
+  {
+    id: 570030
+    name: 星川莉莉
+    description: mission_buff_config-20570030
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570030
+    carry_mission_skill: "570031,570032,570033,570131,570132,570133"
+  }
+  {
+    id: 570040
+    name: 二阶堂咲
+    description: mission_buff_config-20570040
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570040
+    carry_mission_skill: "570041,570042,570043,570141,570142,570143"
+  }
+  {
+    id: 570050
+    name: 夕雾
+    description: mission_buff_config-20570050
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570050
+    carry_mission_skill: "570051,570052,570053,570151,570152,570153"
+  }
+  {
+    id: 570060
+    name: 源樱
+    description: mission_buff_config-20570060
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570060
+    carry_mission_skill: "570061,570062,570063,570161,570162,570163"
+  }
+  {
+    id: 570070
+    name: 山田
+    description: mission_buff_config-20570070
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 570070
+    carry_mission_skill: "570071,570072,570073,570171,570172,570173"
+  }
+  {
+    id: 570501
+    name: 敌人加速buff
+    description: mission_buff_config-20570501
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 570501
+  }
+  {
+    id: 570601
+    name: 携带鱿鱼丝
+    description: 一大包鱿鱼丝
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: 2022WV11#EC4702
+    conflict_type: -1
+    carry_mission_skill: "570605"
+  }
+  {
+    id: 570602
+    name: 携带外卖
+    description: 好几份外卖
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: 2022WV21#1E90FF
+    conflict_type: -1
+    carry_mission_skill: "570606"
+  }
+  {
+    id: 571000
+    name: 对手行动
+    description: mission_buff_config-20571000
+    code: SpeedUp
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 571000
+  }
+  {
+    id: 571001
+    name: 沉睡
+    description: mission_buff_config-20571001
+    code: QBZ191
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 571000
+    priority: 1
+  }
+  {
     id: 590000
     name: 待机
     description: mission_buff_config-20590000

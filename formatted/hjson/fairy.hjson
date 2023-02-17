@@ -1353,6 +1353,40 @@
     obtain_ids: "242,244"
   }
   {
+    id: 1009
+    name: DR鸡
+    code: DRBird
+    description: “咯咯？咯~咯~咯~咯~（较量舞步？那就来吧！）”
+    introduce: 拥有提供护盾和提升战斗力的能力，平日可用于舞蹈培训和形象美化。
+    type: 2
+    pow: 90
+    dodge: 90
+    armor: 130
+    critical_harm_rate: 90
+    grow: 120
+    proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
+    skill_id: "757097"
+    quality_exp: 100
+    quality_need_number: 1:0,2:100,3:200,4:350,5:550
+    category: 1
+    develop_duration: 18600
+    retiremp: 1
+    retireammo: 1
+    retiremre: 1
+    retirepart: 1
+    powerup_mp: 14
+    powerup_ammo: 10
+    powerup_mre: 3
+    powerup_part: 3
+    ai: 3000
+    is_additional: 1
+    avatar_offset: "0,-10,0"
+    avatar_scale: "0.45,0.45,0.45"
+    picture_offset: "0,-70,0"
+    picture_scale: "0.864,0.864,0.864"
+    obtain_ids: "256,254"
+  }
+  {
     id: 90001
     name: 敌人妖精
     code: "90001"

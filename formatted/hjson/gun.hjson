@@ -2847,6 +2847,7 @@
     explore_tag: "52"
     org_id: 10202
     related_story_id: 100032
+    show_damage_skin: ",7907,"
   }
   {
     id: 33
@@ -17217,7 +17218,8 @@
     ratio_range: 100
     skill1: 102708
     normal_attack: 300104
-    passive_skill: "501033,999999"
+    passive_skill: "501028,999999"
+    dynamic_passive_skill: "740011"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "17,18"
@@ -17884,6 +17886,7 @@
     rank_display: 3
     gun_detail_bg: nation_Russia
     org_id: 10704
+    show_damage_skin: ",7906,"
   }
   {
     id: 210
@@ -24062,7 +24065,7 @@
     gun_detail_bg: nation_German
     org_id: 10401
     related_story_id: 100296
-    show_damage_skin: ",564,4704,5202,6302,576,"
+    show_damage_skin: ",564,4704,5202,6302,576,7903,"
   }
   {
     id: 297
@@ -26060,7 +26063,7 @@
     obtain_ids: "1,2"
     rank_display: 4
     org_id: 10403
-    show_damage_skin: ",0,7002,"
+    show_damage_skin: ",0,7002,7904,"
   }
   {
     id: 331
@@ -26416,6 +26419,7 @@
     rank_display: 4
     gun_detail_bg: nation_Russia
     org_id: 10301
+    show_damage_skin: ",7905,"
   }
   {
     id: 337
@@ -27614,7 +27618,7 @@
     rank_display: 5
     gun_detail_bg: nation_Russia
     org_id: 10202
-    show_damage_skin: ",0,"
+    show_damage_skin: ",0,7902,"
   }
   {
     id: 357
@@ -28960,7 +28964,7 @@
     rank_display: 5
     gun_detail_bg: nation_Belgium
     org_id: 10201
-    show_damage_skin: ",0,"
+    show_damage_skin: ",0,30005,"
   }
   {
     id: 1001
@@ -30368,6 +30372,335 @@
     rank_display: 7
     gun_detail_bg: collab
     show_damage_skin: ",0,"
+  }
+  {
+    id: 1035
+    name: 山田多惠
+    en_name: Tae
+    code: Tae
+    extra: 薯子Imoko,,
+    en_introduce: gun-50001035
+    character: gun-60001035
+    type: 1
+    rank: 5
+    develop_duration: 3600
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 140
+    ratio_pow: 95
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 90
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 20
+    special: 1
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 120506
+    normal_attack: 120509
+    passive_skill: "120505,120507,750725,750726,750727"
+    dynamic_passive_skill: "120501"
+    effect_grid_center: 13
+    effect_grid_pos: "8,12,14,7,9,18"
+    effect_grid_effect: "1,15;5,10"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6,19
+    type_equip3: 3;10
+    ai: 1035
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "254"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,593,"
+  }
+  {
+    id: 1036
+    name: 星川莉莉
+    en_name: Lily
+    code: Lily
+    extra: 脆皮炸虾球,,
+    en_introduce: gun-50001036
+    character: gun-60001036
+    type: 2
+    rank: 5
+    develop_duration: 8880
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 100
+    ratio_pow: 102
+    ratio_rate: 125
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 130
+    armor_piercing: 15
+    crit: 5
+    special: 1
+    eat_ratio: 105
+    ratio_range: 100
+    skill1: 750712
+    normal_attack: 750713
+    passive_skill: "750724,750726,750727,750742"
+    effect_grid_center: 12
+    effect_grid_pos: "7,11,12,6,8,17"
+    effect_grid_effect: "1,10;3,25"
+    type_equip1: 3;9,10
+    type_equip2: 2;6,19
+    type_equip3: 1;1,2,3,4,13
+    ai: 1036
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "254"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,592,"
+  }
+  {
+    id: 1037
+    name: 源樱
+    en_name: Sakura
+    code: Sakura
+    extra: --,,
+    en_introduce: gun-50001037
+    character: gun-60001037
+    type: 3
+    rank: 5
+    develop_duration: 17400
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 98
+    ratio_pow: 112
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 105
+    ratio_dodge: 85
+    armor_piercing: 15
+    crit: 40
+    special: 1
+    eat_ratio: 135
+    ratio_range: 100
+    skill1: 120401
+    normal_attack: 120413
+    passive_skill: "750719,750726,750727,750728"
+    dynamic_passive_skill: "120412"
+    effect_grid_center: 18
+    effect_grid_pos: "12,17,18,14,19,23"
+    effect_grid_effect: "1,10;4,18"
+    type_equip1: 2;5
+    type_equip2: 1;1,2,3,13,18
+    type_equip3: 3;15
+    ai: 1037
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "256"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,587,"
+  }
+  {
+    id: 1038
+    name: 水野爱
+    en_name: Ai
+    code: Ai
+    extra: K箱,,
+    en_introduce: gun-50001038
+    character: gun-60001038
+    type: 4
+    rank: 5
+    develop_duration: 14100
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 105
+    ratio_pow: 125
+    ratio_rate: 98
+    ratio_speed: 100
+    ratio_hit: 133
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 20
+    special: 1
+    eat_ratio: 125
+    ratio_range: 100
+    skill1: 750710
+    normal_attack: 750714
+    passive_skill: "750721,750726,750727,750742"
+    dynamic_passive_skill: "750716,750717,750718"
+    effect_grid_center: 19
+    effect_grid_pos: "14,18,19,15,20,24"
+    effect_grid_effect: "1,10;3,20"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10,20
+    ai: 1038
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "255"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,589,"
+  }
+  {
+    id: 1039
+    name: 绀野纯子
+    en_name: Junko
+    code: Junko
+    extra: S.Joop ,,
+    en_introduce: gun-50001039
+    character: gun-60001039
+    type: 4
+    rank: 5
+    develop_duration: 14100
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 100
+    ratio_pow: 128
+    ratio_rate: 95
+    ratio_speed: 100
+    ratio_hit: 125
+    ratio_dodge: 108
+    armor_piercing: 15
+    crit: 20
+    special: 1
+    eat_ratio: 125
+    ratio_range: 100
+    skill1: 750711
+    normal_attack: 750715
+    passive_skill: "750722,750726,750727,750742"
+    effect_grid_center: 17
+    effect_grid_pos: "12,16,17,11,18,22"
+    effect_grid_effect: "1,10;3,20"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10,20
+    ai: 1039
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "255"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,590,"
+  }
+  {
+    id: 1040
+    name: 夕雾
+    en_name: Yugiri
+    code: Yuugiri
+    extra: 八号地球,,
+    en_introduce: gun-50001040
+    character: gun-60001040
+    type: 5
+    rank: 5
+    develop_duration: 23760
+    baseammo: 40
+    basemre: 30
+    ammo_add_withnumber: 25
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    retirepart: 5
+    ratio_life: 96
+    ratio_pow: 128
+    ratio_rate: 118
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 120
+    armor_piercing: 15
+    crit: 5
+    special: 9
+    eat_ratio: 114
+    ratio_range: 100
+    skill1: 750693
+    normal_attack: 750695
+    passive_skill: "750723,750726,750727,300202"
+    dynamic_passive_skill: "750694"
+    effect_grid_center: 14
+    effect_grid_pos: "9,19,15,8,10,14"
+    effect_grid_effect: "8,20"
+    type_equip1: 2;5,17
+    type_equip2: 1;1,2,3,16,18
+    type_equip3: 3;14,21
+    ai: 1040
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "254"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,591,"
+  }
+  {
+    id: 1041
+    name: 二阶堂咲
+    en_name: Saki
+    code: Saki
+    extra: 二花,,
+    en_introduce: gun-50001041
+    character: gun-60001041
+    type: 6
+    rank: 5
+    develop_duration: 28800
+    baseammo: 30
+    basemre: 40
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 25
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    retirepart: 5
+    ratio_life: 110
+    ratio_pow: 135
+    ratio_rate: 105
+    ratio_speed: 100
+    ratio_hit: 85
+    ratio_dodge: 90
+    ratio_armor: 125
+    armor_piercing: 15
+    crit: 40
+    special: 5
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 750690
+    normal_attack: 750691
+    passive_skill: "750692,750720,750726,750727,300202"
+    effect_grid_center: 8
+    effect_grid_pos: "3,7,9,2,4,8"
+    effect_grid_effect: "1,10;3,15"
+    type_equip1: 3;11,20
+    type_equip2: 2;7
+    type_equip3: 1;1,2,3,4,22
+    ai: 1041
+    is_additional: 1
+    launch_time: 2023-02-10 00:00:00
+    obtain_ids: "256"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,588,"
   }
   {
     id: 9001
@@ -35859,6 +36192,216 @@
     rank_display: 5
   }
   {
+    id: 9105
+    name: 二阶堂
+    en_name: Saki
+    code: Saki
+    extra: gun-40009105
+    en_introduce: gun-50009105
+    character: gun-60009105
+    type: 1
+    rank: 3
+    develop_duration: 2700
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 650
+    ratio_pow: 120
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 105
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 105
+    ratio_range: 120
+    skill1: 100503
+    normal_attack: 900107
+    passive_skill: "119503,119511"
+    effect_grid_center: 13
+    effect_grid_pos: "12,14,17,19"
+    effect_grid_effect: "2,10;3,25"
+    type_equip1: 1;4,13
+    type_equip2: 2;6
+    type_equip3: 3;9,10
+    ai: 6
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 3
+  }
+  {
+    id: 9106
+    name: 浴场客人
+    en_name: Bathhouse_guest_2
+    code: Bathhouse_guest_2
+    extra: gun-40009106
+    en_introduce: gun-50009106
+    character: gun-60009106
+    type: 2
+    rank: 4
+    develop_duration: 9300
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 500
+    ratio_pow: 120
+    ratio_rate: 112
+    ratio_speed: 60
+    ratio_hit: 120
+    ratio_dodge: 150
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 100
+    ratio_range: 100
+    skill1: 100107
+    normal_attack: 300103
+    effect_grid_center: 13
+    effect_guntype: "4"
+    effect_grid_pos: "8"
+    effect_grid_effect: "2,25"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 20
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 5
+  }
+  {
+    id: 9107
+    name: 山田多惠
+    en_name: Tae
+    code: Tae
+    extra: 薯子Imoko,三石琴乃,
+    en_introduce: gun-50009107
+    character: gun-60009107
+    type: 1
+    rank: 5
+    develop_duration: 3600
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 140
+    ratio_pow: 95
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 90
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 20
+    special: 1
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 100503
+    normal_attack: 900107
+    passive_skill: "119501"
+    effect_grid_center: 17
+    effect_grid_pos: "11,16,21,12,17,22"
+    effect_grid_effect: "1,15;5,10"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10
+    ai: 1006
+    is_additional: 1
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 7
+    gun_detail_bg: collab
+  }
+  {
+    id: 9108
+    name: 源樱
+    en_name: Sakura
+    code: Sakura
+    extra: --,,
+    en_introduce: gun-50009108
+    character: gun-60009108
+    type: 3
+    rank: 5
+    develop_duration: 17400
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 98
+    ratio_pow: 112
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 105
+    ratio_dodge: 85
+    armor_piercing: 15
+    crit: 40
+    special: 1
+    eat_ratio: 135
+    ratio_range: 100
+    skill1: 100503
+    normal_attack: 900107
+    passive_skill: "119502"
+    effect_grid_center: 19
+    effect_grid_pos: "24,18,23,14,19,15"
+    effect_grid_effect: "1,10;4,18"
+    type_equip1: 2;5
+    type_equip2: 1;1,2,3,13
+    type_equip3: 3;15
+    ai: 150
+    is_additional: 1
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 7
+    gun_detail_bg: collab
+  }
+  {
+    id: 9109
+    name: 指挥官
+    en_name: CommanderSelf
+    code: CommanderSelf
+    extra: gun-40009109
+    en_introduce: gun-50009109
+    character: gun-60009109
+    type: 1
+    rank: 3
+    develop_duration: 2700
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 650
+    ratio_pow: 120
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 105
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 105
+    ratio_range: 120
+    skill1: 100602
+    normal_attack: 300101
+    effect_grid_center: 13
+    effect_grid_pos: "12,14,17,19"
+    effect_grid_effect: "2,10;3,25"
+    type_equip1: 1;4,13
+    type_equip2: 2;6
+    type_equip3: 3;9,10
+    ai: 6
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 5
+  }
+  {
     id: 20001
     name: 柯尔特左轮
     en_name: M1873
@@ -35935,6 +36478,7 @@
     prize_id: 3001
     explore_tag: "52"
     gun_detail_bg: nation_US
+    related_story_id: 100001
     show_damage_skin: ",0,2105,"
   }
   {
@@ -36020,6 +36564,7 @@
     prize_id: 3002
     explore_tag: "68"
     gun_detail_bg: nation_US
+    related_story_id: 100002
     show_damage_skin: ",5000,"
   }
   {
@@ -36107,6 +36652,7 @@
     prize_id: 3005
     explore_tag: "6,25,54,58,70,73"
     gun_detail_bg: nation_Russia
+    related_story_id: 100005
     show_damage_skin: ",0,2706,5309,7107,5006,"
   }
   {
@@ -36195,6 +36741,7 @@
     prize_id: 3007
     explore_tag: "38"
     gun_detail_bg: nation_Russia
+    related_story_id: 100007
     show_damage_skin: ",0,6808,4306,5027,"
   }
   {
@@ -36285,6 +36832,7 @@
     prize_id: 3008
     explore_tag: "14,37,48"
     gun_detail_bg: nation_Russia
+    related_story_id: 100008
     show_damage_skin: ",0,1,5046,"
   }
   {
@@ -36390,6 +36938,7 @@
     prize_id: 3010
     explore_tag: "30,71"
     gun_detail_bg: nation_German
+    related_story_id: 100010
     show_damage_skin: ",3905,"
   }
   {
@@ -36492,6 +37041,7 @@
     prize_id: 3012
     explore_tag: "55,57,67"
     gun_detail_bg: nation_German
+    related_story_id: 100012
     show_damage_skin: ",5028,"
   }
   {
@@ -36593,6 +37143,7 @@
     prize_id: 3013
     explore_tag: "37,38,48,53"
     gun_detail_bg: nation_China
+    related_story_id: 100013
     show_damage_skin: ",5507,0,"
   }
   {
@@ -36683,6 +37234,7 @@
     prize_id: 3021
     explore_tag: "7,50,54,69"
     gun_detail_bg: nation_Russia
+    related_story_id: 100021
     show_damage_skin: ",602,5808,0,5054,"
   }
   {
@@ -36788,6 +37340,7 @@
     prize_id: 3026
     explore_tag: "6,18,58,70"
     gun_detail_bg: nation_German
+    related_story_id: 100026
     show_damage_skin: ",0,1903,5023,"
   }
   {
@@ -36875,6 +37428,7 @@
     rank_display: 4
     prize_id: 3029
     explore_tag: "31,47,48,68"
+    related_story_id: 100029
     show_damage_skin: ",0,5016,7605,"
   }
   {
@@ -36969,6 +37523,7 @@
     rank_display: 4
     prize_id: 3031
     gun_detail_bg: nation_Italy
+    related_story_id: 100031
     show_damage_skin: ",5029,"
   }
   {
@@ -37070,6 +37625,8 @@
     rank_display: 4
     prize_id: 3032
     explore_tag: "52"
+    related_story_id: 100032
+    show_damage_skin: ",7907,"
   }
   {
     id: 20037
@@ -37160,6 +37717,7 @@
     prize_id: 3037
     explore_tag: "31,45,67"
     gun_detail_bg: nation_US
+    related_story_id: 100037
     show_damage_skin: ",0,303,"
   }
   {
@@ -37250,6 +37808,7 @@
     prize_id: 3039
     explore_tag: "8,50,54,68"
     gun_detail_bg: nation_Russia
+    related_story_id: 100039
     show_damage_skin: ",0,803,4803,5007,"
   }
   {
@@ -37352,6 +37911,7 @@
     prize_id: 3044
     explore_tag: "37"
     gun_detail_bg: nation_Russia
+    related_story_id: 100044
     show_damage_skin: ",0,1906,"
   }
   {
@@ -37438,6 +37998,7 @@
     prize_id: 3046
     explore_tag: "27,35,41,55,66"
     gun_detail_bg: nation_German
+    related_story_id: 100046
     show_damage_skin: ",0,4301,"
   }
   {
@@ -37518,6 +38079,7 @@
     prize_id: 3049
     explore_tag: "53,75"
     gun_detail_bg: nation_China
+    related_story_id: 100049
     show_damage_skin: ",0,5508,7206,5042,"
   }
   {
@@ -37611,6 +38173,7 @@
     rank_display: 6
     prize_id: 3050
     explore_tag: "14,17,35,79"
+    related_story_id: 100050
     show_damage_skin: ",901,10,0,"
   }
   {
@@ -37703,6 +38266,7 @@
     prize_id: 3051
     explore_tag: "3,49,64"
     gun_detail_bg: nation_Belgium
+    related_story_id: 100051
     show_damage_skin: ",0,6809,"
   }
   {
@@ -37802,6 +38366,7 @@
     rank_display: 6
     prize_id: 3053
     explore_tag: "60"
+    related_story_id: 100053
     show_damage_skin: ",0,2301,4801,307,5030,"
   }
   {
@@ -37901,6 +38466,7 @@
     prize_id: 3055
     explore_tag: "69,84"
     gun_detail_bg: team_ar
+    related_story_id: 100055
     show_damage_skin: ",0,550,4505,530,5005,"
   }
   {
@@ -38000,6 +38566,7 @@
     prize_id: 3056
     explore_tag: "84"
     gun_detail_bg: team_ar
+    related_story_id: 100056
     show_damage_skin: ",0,574,531,551,5014,"
   }
   {
@@ -38102,6 +38669,7 @@
     prize_id: 3057
     explore_tag: "20,84"
     gun_detail_bg: team_ar
+    related_story_id: 100057
     show_damage_skin: ",0,552,4508,30001,"
   }
   {
@@ -38201,6 +38769,7 @@
     prize_id: 3060
     explore_tag: "9,50,69"
     gun_detail_bg: nation_Russia
+    related_story_id: 100060
     show_damage_skin: ",2907,"
   }
   {
@@ -38290,6 +38859,7 @@
     prize_id: 3061
     explore_tag: "27,55"
     gun_detail_bg: nation_German
+    related_story_id: 100061
     show_damage_skin: ",0,5022,"
   }
   {
@@ -38397,6 +38967,7 @@
     prize_id: 3063
     explore_tag: "26,69"
     gun_detail_bg: nation_German
+    related_story_id: 100063
   }
   {
     id: 20064
@@ -38485,6 +39056,7 @@
     prize_id: 3064
     explore_tag: "3,27,34,44,73"
     gun_detail_bg: nation_German
+    related_story_id: 100064
     show_damage_skin: ",0,565,1507,1904,2806,3603,6807,905,5018,"
   }
   {
@@ -38601,6 +39173,7 @@
     prize_id: 3065
     explore_tag: "9,10,83,86"
     gun_detail_bg: team_404
+    related_story_id: 100065
     show_damage_skin: ",0,548,557,3401,6505,537,5024,581,"
   }
   {
@@ -38695,6 +39268,7 @@
     prize_id: 3066
     explore_tag: "5,53"
     gun_detail_bg: nation_China
+    related_story_id: 100066
     show_damage_skin: ",1905,0,7706,5065,"
   }
   {
@@ -38836,6 +39410,7 @@
     rank_display: 4
     prize_id: 3071
     explore_tag: "5,7,31,39,67"
+    related_story_id: 100071
     show_damage_skin: ",5039,"
   }
   {
@@ -38935,6 +39510,7 @@
     prize_id: 3075
     explore_tag: "28,62"
     gun_detail_bg: nation_US
+    related_story_id: 100075
     show_damage_skin: ",5008,"
   }
   {
@@ -39026,6 +39602,7 @@
     prize_id: 3081
     explore_tag: "10,38,78"
     gun_detail_bg: nation_US
+    related_story_id: 100081
     show_damage_skin: ",0,6909,4007,1808,5019,"
   }
   {
@@ -39131,6 +39708,7 @@
     prize_id: 3088
     explore_tag: "11,43,67"
     gun_detail_bg: nation_German
+    related_story_id: 100088
     show_damage_skin: ",0,7205,"
   }
   {
@@ -39231,6 +39809,7 @@
     rank_display: 4
     prize_id: 3089
     explore_tag: "17,20,25,27,47"
+    related_story_id: 100089
     show_damage_skin: ",0,5013,"
   }
   {
@@ -39309,6 +39888,7 @@
     prize_id: 3091
     explore_tag: "8,11"
     gun_detail_bg: nation_Russia
+    related_story_id: 100091
     show_damage_skin: ",103,5009,"
   }
   {
@@ -39392,6 +39972,7 @@
     rank_display: 4
     prize_id: 3093
     explore_tag: "8,11,47"
+    related_story_id: 100093
     show_damage_skin: ",2108,4908,"
   }
   {
@@ -39483,6 +40064,7 @@
     prize_id: 3094
     explore_tag: "53"
     gun_detail_bg: nation_China
+    related_story_id: 100094
     show_damage_skin: ",0,7108,"
   }
   {
@@ -39571,6 +40153,7 @@
     prize_id: 3095
     explore_tag: "53"
     gun_detail_bg: nation_China
+    related_story_id: 100095
   }
   {
     id: 20097
@@ -39655,6 +40238,7 @@
     prize_id: 3097
     explore_tag: "65,77"
     gun_detail_bg: nation_US
+    related_story_id: 100097
     show_damage_skin: ",702,808,2303,5031,"
   }
   {
@@ -39744,6 +40328,7 @@
     prize_id: 3101
     explore_tag: "83"
     gun_detail_bg: team_404
+    related_story_id: 100101
     show_damage_skin: ",0,409,556,2106,3404,536,5026,583,"
   }
   {
@@ -39832,6 +40417,7 @@
     prize_id: 3103
     explore_tag: "35,37,83"
     gun_detail_bg: team_404
+    related_story_id: 100103
     show_damage_skin: ",0,410,521,555,2107,3403,5405,535,5015,584,"
   }
   {
@@ -39922,6 +40508,7 @@
     prize_id: 3104
     explore_tag: "44"
     gun_detail_bg: nation_German
+    related_story_id: 100104
     show_damage_skin: ",0,5050,1202,"
   }
   {
@@ -40004,6 +40591,7 @@
     rank_display: 6
     prize_id: 3114
     explore_tag: "9,17,27,40,47,82"
+    related_story_id: 100114
     show_damage_skin: ",0,411,1401,2103,"
   }
   {
@@ -40099,6 +40687,7 @@
     rank_display: 6
     prize_id: 3115
     explore_tag: "31,40,65"
+    related_story_id: 100115
     show_damage_skin: ",310,3101,5060,"
   }
   {
@@ -40194,6 +40783,7 @@
     prize_id: 3122
     explore_tag: "10,18,62,83,86"
     gun_detail_bg: team_404
+    related_story_id: 100122
     show_damage_skin: ",0,9,558,572,1602,2502,538,5035,582,"
   }
   {
@@ -40279,6 +40869,7 @@
     prize_id: 3124
     explore_tag: "32"
     gun_detail_bg: nation_US
+    related_story_id: 100124
     show_damage_skin: ",0,1407,5036,"
   }
   {
@@ -40369,6 +40960,7 @@
     rank_display: 6
     prize_id: 3125
     gun_detail_bg: nation_German
+    related_story_id: 100125
     show_damage_skin: ",0,"
   }
   {
@@ -40477,6 +41069,7 @@
     prize_id: 3136
     explore_tag: "8"
     gun_detail_bg: nation_Russia
+    related_story_id: 100136
     show_damage_skin: ",0,2204,"
   }
   {
@@ -40554,6 +41147,7 @@
     prize_id: 3143
     explore_tag: "40,48,82,84"
     gun_detail_bg: team_ar
+    related_story_id: 100143
     show_damage_skin: ",0,4504,534,554,5037,"
   }
   {
@@ -40630,6 +41224,7 @@
     rank_display: 4
     prize_id: 3152
     gun_detail_bg: nation_US
+    related_story_id: 100152
     show_damage_skin: ",0,2505,"
   }
   {
@@ -40711,6 +41306,7 @@
     rank_display: 4
     prize_id: 3154
     gun_detail_bg: nation_US
+    related_story_id: 100154
     show_damage_skin: ",0,3707,"
   }
   {
@@ -40791,6 +41387,7 @@
     rank_display: 4
     prize_id: 3159
     gun_detail_bg: nation_Russia
+    related_story_id: 100159
     show_damage_skin: ",0,4309,"
   }
   {
@@ -40864,6 +41461,7 @@
     prize_id: 3161
     explore_tag: "53"
     gun_detail_bg: nation_China
+    related_story_id: 100161
     show_damage_skin: ",5038,5805,"
   }
   {
@@ -40938,6 +41536,7 @@
     rank_display: 5
     prize_id: 3171
     explore_tag: "56"
+    related_story_id: 100171
     show_damage_skin: ",0,"
   }
   {
@@ -41012,6 +41611,7 @@
     rank_display: 4
     prize_id: 3178
     explore_tag: "14,52"
+    related_story_id: 100178
     show_damage_skin: ",0,2606,6507,"
   }
   {
@@ -41094,6 +41694,7 @@
     prize_id: 3199
     explore_tag: "28,53"
     gun_detail_bg: nation_China
+    related_story_id: 100199
     show_damage_skin: ",0,2504,5045,"
   }
   {
@@ -41170,6 +41771,7 @@
     rank_display: 5
     prize_id: 3200
     gun_detail_bg: nation_US
+    related_story_id: 100200
     show_damage_skin: ",0,"
   }
   {
@@ -41252,6 +41854,7 @@
     rank_display: 4
     prize_id: 3201
     explore_tag: "27"
+    related_story_id: 100201
     show_damage_skin: ",2305,0,3107,5052,"
   }
   {
@@ -41333,6 +41936,7 @@
     prize_id: 3205
     explore_tag: "27"
     gun_detail_bg: team_defy
+    related_story_id: 100205
     show_damage_skin: ",0,2404,3303,5055,"
   }
   {
@@ -41410,6 +42014,7 @@
     prize_id: 3216
     explore_tag: "30"
     gun_detail_bg: nation_German
+    related_story_id: 100216
     show_damage_skin: ",0,5606,5056,"
   }
   {
@@ -41487,6 +42092,7 @@
     prize_id: 3220
     explore_tag: "10"
     gun_detail_bg: nation_Russia
+    related_story_id: 100220
     show_damage_skin: ",0,7105,6405,"
   }
   {
@@ -41569,6 +42175,7 @@
     prize_id: 3221
     explore_tag: "13,29"
     gun_detail_bg: nation_Russia
+    related_story_id: 100221
     show_damage_skin: ",523,0,5033,"
   }
   {
@@ -41644,6 +42251,7 @@
     prize_id: 3230
     explore_tag: "31,38"
     gun_detail_bg: nation_US
+    related_story_id: 100230
     show_damage_skin: ",0,5061,5407,"
   }
   {
@@ -41719,6 +42327,7 @@
     rank_display: 5
     prize_id: 3252
     gun_detail_bg: nation_Russia
+    related_story_id: 100252
     show_damage_skin: ",0,3405,5504,5034,7807,"
   }
   {
@@ -41781,6 +42390,7 @@
     rank_display: 6
     prize_id: 3293
     gun_detail_bg: team_defy
+    related_story_id: 100293
     show_damage_skin: ",0,5057,"
   }
   {

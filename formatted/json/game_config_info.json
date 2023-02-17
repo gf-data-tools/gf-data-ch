@@ -105,6 +105,9 @@
   {
     "parameter_name": "chs_reset_first_pay_time", "parameter_type": "int", "parameter_value": "1531368000", 
     "client_require": "1"
+  }, {
+    "parameter_name": "clearMissionCampaign_-57", "parameter_type": "string", 
+    "parameter_value": "1128302:1126200,1126700,1126800,1126900,1128301;9021,9022,9023,9024,9025", "client_require": "1"
   }, 
   {"parameter_name": "clickCount", "parameter_type": "int", "parameter_value": "300", "client_require": "1"}, 
   {"parameter_name": "clickLimit", "parameter_type": "int", "parameter_value": "5", "client_require": "1"}, 
@@ -983,5 +986,10 @@
     "parameter_value": "50:8310;100:8311;150:8312;200:8313;250:8314", "client_require": "1"
   }, 
   {"parameter_name": "wish_gun_special_rank_type", "parameter_type": "int", "parameter_value": "1", "client_require": "1"}, 
-  {"parameter_name": "wish_gun_unique", "parameter_type": "int", "parameter_value": "1", "client_require": "1"}
+  {"parameter_name": "wish_gun_unique", "parameter_type": "int", "parameter_value": "1", "client_require": "1"}, 
+  {"parameter_name": "zls_support_max", "parameter_type": "int", "parameter_value": "300000000", "client_require": "1"}, 
+  {
+    "parameter_name": "zls_support_progress", "parameter_type": "string", "parameter_value": "33:7479;66:7480;100:7481", 
+    "client_require": "1"
+  }
 ]
