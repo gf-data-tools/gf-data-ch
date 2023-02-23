@@ -43908,6 +43908,53 @@
     forced_skill: "750744"
   }
   {
+    id: 8770
+    name: 57装备
+    conflict_type: 2236
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8771
+    name: 57装备伤害
+    description: 火力上升
+    conflict_type: 2236
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    pow_number: *203
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8772
+    name: 57夜间火力接口
+    conflict_type: 2236
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    forced_skill: "759074"
+  }
+  {
+    id: 8773
+    name: 卡车禁足
+    conflict_type: 2236
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

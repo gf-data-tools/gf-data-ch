@@ -2124,7 +2124,8 @@
   {"id": 4984, "formula": "@rate*0.3"}, {"id": 4985, "formula": "@maxLife*0.15"}, {"id": 4986, "formula": "@dodge*0.5"}, 
   {"id": 4987, "formula": "@armor*0.3"}, {"id": 4988, "formula": "sbuffidtier(8763)"}, 
   {"id": 4989, "formula": "sbuffidtier(8764)"}, {"id": 4990, "formula": "sbuffidtier(8765)"}, 
-  {"id": 4991, "formula": "@formation"}, 
+  {"id": 4991, "formula": "@formation"}, {"id": 4992, "formula": "sbuffidtier(8770)=1?8771:0"}, 
+  {"id": 4993, "formula": "sbuffidtier(8770)=1?8772:0"}, 
   {
     "id": 6000, 
     "formula": "(tbufftypetier(201)+tbufftypetier(202)+tbufftypetier(203)+tbufftypetier(204)+tbufftypetier(205)+tbufftypetier(221)+tbufftypetier(403)>0&sbuffidtier(6004)>0?1.1*$1:$1"
