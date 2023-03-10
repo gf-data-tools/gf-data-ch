@@ -30234,4 +30234,231 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 810101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+  }
+  {
+    id: 810102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 810103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 810104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|DP12|HELLO
+    text: GUN|DP12|HELLO
+    name: 交互1
+    camera: 1
+    delay: 1000
+    voice_code: HELLO
+  }
+  {
+    id: 810105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1.0
+    voice: GUN|DP12|DIALOGUE2
+    text: GUN|DP12|DIALOGUE2
+    name: 交互2
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 810106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|DP12|BREAK
+    text: GUN|DP12|BREAK
+    name: 交互3
+    camera: 1
+    voice_code: BREAK
+  }
+  {
+    id: 810107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|DP12|MEET
+    text: GUN|DP12|MEET
+    name: 交互4
+    camera: 1
+    delay: 1000
+    voice_code: MEET
+  }
+  {
+    id: 810108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|DP12|GAIN
+    text: GUN|DP12|GAIN
+    name: 交互5
+    camera: 1
+    voice_code: GAIN
+  }
+  {
+    id: 810109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1.0
+    voice: GUN|DP12|DIALOGUEWEDDING
+    text: GUN|DP12|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 810110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1.0
+    voice: GUN|DP12|SOULCONTRACT
+    text: GUN|DP12|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 810111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 810112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|DP12|VALENTINE
+    text: GUN|DP12|VALENTINE
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: VALENTINE
+  }
+  {
+    id: 810113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1.0
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 810114
+    type: 10000
+    motion_name: motions/touch_2A.mtn
+    touch_area: bodyA
+    probability: 1.0
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 810115
+    type: 10000
+    motion_name: motions/touch_2B.mtn
+    touch_area: bodyB
+    probability: 1.0
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 810116
+    type: 402
+    motion_name: motions/touch_3A.mtn
+    touch_area: armA
+    probability: 1.0
+    voice: GUN|DP12|LOWMOOD
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 810117
+    type: 402
+    motion_name: motions/touch_3B.mtn
+    touch_area: armB
+    probability: 1.0
+    voice: GUN|DP12|LOWMOOD
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 810118
+    type: 402
+    motion_name: motions/touch_4.mtn
+    touch_area: leg
+    probability: 1.0
+    voice: GUN|DP12|SKILL1
+    text: GUN|DP12|SKILL1
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: SKILL1
+  }
+  {
+    id: 810119
+    type: 10000
+    motion_name: motions/touch_5.mtn
+    touch_area: foot
+    probability: 1.0
+    name: 交互6
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 810120
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1.0
+    voice: GUN|DP12|MEET
+    text: GUN|DP12|MEET
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: MEET
+  }
+  {
+    id: 810121
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1.0
+    voice: GUN|DP12|MOOD2
+    text: GUN|DP12|MOOD2
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+    voice_code: MOOD2
+  }
 ]

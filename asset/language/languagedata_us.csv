@@ -778,7 +778,7 @@ COMMON,1779,双倍(todo),,0
 COMMON,1780,已达成(todo),,0
 COMMON,1781,未达成(todo),,0
 COMMON,1782,解谜(todo),,0
-COMMON,1786,上次登录时间{0}年{1}月{2}日(todo),,0
+COMMON,1786,第一次登录时间{0}年{1}月{2}日(todo),,0
 COMMON,1787,参与过{0}场战斗(todo),,0
 COMMON,1788,击败过{0}名敌人(todo),,0
 COMMON,1789,拥有{0}位人形(todo),,0
@@ -786,6 +786,11 @@ COMMON,1790,缔结过{0}次誓约(todo),,0
 COMMON,1791,捕获过{0}名铁血(todo),,0
 COMMON,1792,欢迎回到格里芬(todo),,0
 COMMON,1793,推荐梯队(todo),,0
+COMMON,1794,誓约if线(todo),,0
+COMMON,1795,铁血捕获if线(todo),,0
+COMMON,1796,*用时缩减(todo),,0
+COMMON,1797,训练次数(todo),,0
+COMMON,1798,暂不可用(todo),,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,0
 BATTLE,10002,WITHDRAW,,0
@@ -983,6 +988,8 @@ BATTLE,10199,You have reached the limit of deployed non-HOC units.,,0
 BATTLE,10200,,,0
 BATTLE,10202,修复(todo),,0
 BATTLE,10203,当前战斗失败，已中断代理作战。(todo),,0
+BATTLE,10204,射速上限(todo),,0
+BATTLE,10205,攻速上限(todo),,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1139,6 +1146,12 @@ HOME,20152,未达到(todo),,0
 HOME,20153,<color=#ffb400ff><size=48><b>回归助力：</b></size></color>//n回归期间，模拟作战产出提升，模拟作战<color=#F27C25FF>【资料采样】【经验特训】【强化练习】和【云图回廊】</color>//n所有关卡产出提升为原本的2倍，<color=#F27C25FF>【融合演习】</color>所有关卡产出不限时3倍产出！//n//n<color=#ffb400ff><size=48><b>回归签到：</b></size></color>//n1.回归活动期间，指挥官只需要登录游戏即可领取丰厚的签到奖励//n2.可领取的回归签到奖励天数依据累计登录天数计算//n3.签到会累积<color=#F27C25FF>回归活跃度</color>，用于解锁丰厚的活跃度大礼//n//n<color=#ffb400ff><size=48><b>回归任务：</b></size></color>//n1.回归活动期间，完成指定的回归任务即可领取对应的丰厚奖励//n2.指挥官可以提前预览并完成所有的回归任务，回归任务奖励需要等待回归活动开始后经历对应的自然日解锁，//n未解锁奖励领取期间，可以正常累计任务完成进度//n3.完成回归任务会累积回归活跃度，回归活跃度达到阶段要求后，可以领取相应阶段的回归活跃度奖励//n4.领取最终的回归活跃度奖励将获得回归指挥官专属的限时锚定构筑一次//n//n<color=#ffb400ff><size=48><b>回归基金：</b></size></color>//n1.格里芬为回归指挥官准备了专属的回归基金，购买后可以获得大量资源助力指挥官再度起航//n2.通过回归签到和回归任务累积回归活跃度，回归基金奖励将使用回归活跃度进行解锁，//n回归活跃度达到阶段要求后，可以领取相应阶段的回归基金奖励//n//n<color=#ffb400ff><size=48><b>回归商城：</b></size></color>//n1.回归商城是提供给回归指挥官的专属商城，指挥官可以自由选购超值的成长助力补给(todo),,0
 HOME,20154,<color=#ffb400ff><size=48><b>邀请规则：</b></size></color>//n1.活动期间，回归玩家在回归邀请页签内填写您的邀请码则视为邀请成功；//n2.每位指挥官可以邀请三位回归玩家，每名回归玩家仅可接受一位指挥官的邀请；//n3.邀请活动仅限同服务器玩家。//n//n<color=#ffb400ff><size=48><b>奖励规则：</b></size></color>//n1.邀请成功后，第一份奖励将直接发送到您的邮箱内；//n2.后续奖励需要被邀请玩家的回归活跃度解锁。(todo),,0
 HOME,20155,灰域探查(todo),,0
+HOME,20156,重返基地(todo),,0
+HOME,20157,前往自选(todo),,0
+HOME,20158,穿戴(todo),,0
+HOME,20159,已穿戴(todo),,0
+HOME,20160,无法获取(todo),,0
+HOME,20161,前往采购(todo),,0
 DEPLOYMENT,30000,Deploy,,0
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,0
@@ -1657,6 +1670,8 @@ DEPLOYMENT,30530,*推荐重装梯队星级<Color=#FFB400FF>≥{0}</Color>(todo),
 DEPLOYMENT,30531,*该难度下关卡可能要求使用的重装梯队：(todo),,0
 DEPLOYMENT,30532,目标小攻略(todo),,0
 DEPLOYMENT,30533,获得技能(todo),,0
+DEPLOYMENT,30534,当前作战资源不足，已终止代理作战(todo),,0
+DEPLOYMENT,30535,资源不足，无法部署小队！(todo),,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -4463,6 +4478,7 @@ GASHAPON,70032,Time-Limited Exchange,,0
 GASHAPON,70033,40% OFF,,0
 GASHAPON,70034,1,,0
 GASHAPON,70035,11,,0
+GASHAPON,70036,兑换该物品后将扣除<color=#FFB400FF>{0}黑卡</color>黑卡，//r是否继续？//n（你尚未收集该人形！）(todo),,0
 MALL,71000,Increase T-Doll Capacity,,0
 MALL,71001,Add T-Doll Production Slot,,0
 MALL,71002,Add Repair Slot,,0
@@ -4623,6 +4639,11 @@ MALL,71158,Buy Potential Energy,,0
 MALL,71159,Content Preview,,0
 MALL,71160,,,0
 MALL,71161,,,0
+MALL,71162,前往自选(todo),,0
+MALL,71163,扭一扭(todo),,0
+MALL,71164,盲盒信息(todo),,0
+MALL,71165,你尚未收集该人形！(todo),,0
+MALL,71166,当前价格:(todo),,0
 DOWNLOAD,80000,Resuming download of incomplete data files.,,0
 DOWNLOAD,80001,Please ensure that your device has at least ,,0
 DOWNLOAD,80002, memory! Continue?,,0
@@ -4919,7 +4940,7 @@ OTHER,100196,Commander:,,0
 OTHER,100197,Upon terminating Auto Battles//c rewards will be given for battles that have been completed//c while resources for incomplete battles will be refunded. Incomplete battles yield no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
 OTHER,100198,Upon terminating Auto Battles//c resources for incomplete battles will be refunded//c but you will gain no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
 OTHER,100199,Customer Service Email Address: support@sunborngame.com,,0
-OTHER,100201,{0}回合变化(todo),,0
+OTHER,100201,{0}回合后变化(todo),,0
 OTHER,100202,{0}回合(todo),,0
 OTHER,100203,{0}场战斗(todo),,0
 OTHER,100204,持续(todo),,0
@@ -5438,17 +5459,17 @@ GUIDE,140343,Rewards can be redeemed when you fill up the 【Daily Protocol】 p
 GUIDE,140344,【Daily Key Tasks】 are refreshed at <color=#f27f19>00:00 every day</color>. 【Weekly Key Tasks】 are refreshed <color=#f27f19>at 00:00 every Monday</color>. Take not of how much time you have left for completing your tasks.,,0
 GUIDE,140345,That's everything covered regarding 【Griffin Daily Tasks】. Remember to complete them//c Commander!,,0
 GUIDE,140346,<color=#f27f19>Activity Points</color> contributes to the progress of 【Griffin Weekly】. You can redeem generous rewards upon reaching certain thresholds.,,0
-GUIDE,140347,日常玩法强制引导占位1-1(todo),,0
-GUIDE,140348,日常玩法强制引导占位1-2A(todo),,0
-GUIDE,140349,日常玩法强制引导占位1-3(todo),,0
+GUIDE,140347,指挥官，前方红区发生异动，请立即确认信息！(todo),,0
+GUIDE,140348,指挥官，前方红区发生异动，请立即确认信息！(todo),,0
+GUIDE,140349,指挥官，请立即前往！(todo),,0
 GUIDE,140350,日常玩法强制引导占位2-1(todo),,0
-GUIDE,140351,日常玩法强制引导占位2-2(todo),,0
+GUIDE,140351,前方区域危险！应根据实际战备情况来选择探索难度。现在，请选择【沙尘带】难度前往视察情况吧。(todo),,0
 GUIDE,140352,日常玩法强制引导占位3-1(todo),,0
-GUIDE,140353,日常玩法强制引导占位3-2(todo),,0
-GUIDE,140354,日常玩法强制引导占位3-3(todo),,0
-GUIDE,140355,日常玩法强制引导占位3-4(todo),,0
-GUIDE,140356,日常玩法强制引导占位3-5(todo),,0
-GUIDE,140357,日常玩法强制引导占位3-6(todo),,0
+GUIDE,140353,我们到了，指挥官。+面前每一个可行动的地块都会触发不同的状况，有的需要作战，甚至遇到强敌，有的则将遇到随机事件，请沉着应对。(todo),,0
+GUIDE,140354,针对地块的详细介绍，也已收录至<color=#ffb400ff>格里芬手册</color>，可随时查阅。(todo),,0
+GUIDE,140355,每次完成地块战役，都将获得<color=#ffb400ff>积分</color>，难度越高的战役积分越多，Boss所在地块会有更多积分；完成所有区域内可交互的地块，还能获得额外<color=#ffb400ff>积分</color>。+积分到达一定数量就能获取<color=#ffb400ff>战利品</color>哦，所以，请尽量探索吧，指挥官！(todo),,0
+GUIDE,140356,指挥官注意该地区的昼夜情况会随着探索步伐切换的哦(todo),,0
+GUIDE,140357,指挥官也可以随时使用重置功能，重新<color=#ffb400ff>更换探索区域</color>。+就先说这么多啦，更多情报只能靠您自己发现了。那么，祝您好运！(todo),,0
 BEGINNERGUIDE,150000,Please head to the [COMBAT] screen.,,0
 BEGINNERGUIDE,150001,After obtaining the three medals for a mission//c you can use the [Auto-Battle] command.,,0
 BEGINNERGUIDE,150002,Different Auto-Battle missions require different numbers of Echelons to engage.,,0
@@ -7099,6 +7120,7 @@ FORMATION,270059,,,0
 FORMATION,270060,,,0
 FORMATION,270061,,,0
 FORMATION,270062,,,0
+FORMATION,270070,队长(todo),,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
 MINIGAME,280003,Waiting,,0
@@ -7597,6 +7619,7 @@ MINIGAME,280498,Currently in use,,0
 MINIGAME,280499,Not obtained,,0
 MINIGAME,280500,,,0
 MINIGAME,280501,Chessboard background locked and cannot be used.,,0
+MINIGAME,280502,是否确认在该难度下进行游戏//n<size=50>点击<color=#FFBB00FF>确定，重置地图进度</color></size>(todo),,0
 MINIGAME,280503,沙尘带(todo),,0
 MINIGAME,280504,风暴带(todo),,0
 MINIGAME,280505,硅状带(todo),,0

@@ -20268,13 +20268,12 @@
     expect_turn: 3
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "102"
     limit_team: "3"
     map_res_name: OPS41_Y
     map_information: "6000,6000|3000,3500|-1500,-200"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "544"
+    support_available: 1
     drop_mission_key: "0,0,1047500:1"
     mission_group_id: 11
     open_mission_keys: 1048100:1
@@ -20303,12 +20302,11 @@
     expect_turn: 7
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "177"
     map_res_name: OPS41_Y
     map_information: "6000,6000|6000,5000|0,500"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "544"
+    support_available: 1
     drop_mission_key: "0,0,1047600:1"
     mission_group_id: 11
     open_mission_keys: 1047500:1
@@ -20336,13 +20334,12 @@
     expect_turn: 6
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "136"
     limit_team: "3"
     map_res_name: OPS5_Y
     map_information: "5760,5040|4000,3000|0,-500"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "544"
+    support_available: 1
     expect_hostage_num: "3,3"
     drop_mission_key: "0,0,1047700:1"
     mission_group_id: 11
@@ -20372,13 +20369,12 @@
     expect_turn: 5
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "204"
     limit_team: "3"
     map_res_name: OPS41_Y
     map_information: "6000,6000|5000,3000|-350,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "545"
+    support_available: 1
     drop_mission_key: "0,0,1047800:1"
     mission_group_id: 11
     open_mission_keys: 1047700:1
@@ -20407,13 +20403,12 @@
     expect_turn: 6
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "211"
     limit_team: "1"
     map_res_name: OPS41_Y
     map_information: "16000,16000|2000,2000|2800,-4000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "545"
+    support_available: 1
     drop_mission_key: "0,0,1047900:1"
     mission_group_id: 11
     open_mission_keys: 1047800:1
@@ -20442,13 +20437,12 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "73"
     limit_team: "1"
     map_res_name: OPS41_Y
     map_information: "6000,6000|5000,4000|-300,-750"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "545"
+    support_available: 1
     drop_mission_key: "0,0,1048000:1"
     mission_group_id: 11
     open_mission_keys: 1047900:1
@@ -28699,12 +28693,11 @@
     expect_turn: 1
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "204,211,73,102,177,136"
     map_res_name: OPS5_Y
     map_information: "7000,7000|7000,7000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "545"
+    support_available: 1
     drop_mission_key: "0,0,1076500:1"
     mission_group_id: 11
     open_mission_keys: 1048000:1
@@ -37925,12 +37918,12 @@
     map_information: "12000,12000|12000,12000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "550"
+    draw_event_s_id: "735"
     drop_mission_key: "0,0,1108300:1"
     mission_group_id: 22
     mission_describe: mission-20011083
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100136,60,WhiteDay_2022_Tip
+    draw_code: 0;100179,60,WhiteDay_2022_Tip
     win_type: "1108301"
     difficulty_recommend: 3500;35
     difficulty_recommend_addendum: mission-30011083
@@ -37955,13 +37948,13 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "553"
+    draw_event_s_id: "738"
     drop_mission_key: "0,0,1108400:1"
     mission_group_id: 22
     open_mission_keys: 1108300:1
     mission_describe: mission-20011084
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100136,60,WhiteDay_2022_Tip
+    draw_code: 0;100179,60,WhiteDay_2022_Tip
     difficulty_recommend: 1000;5
     difficulty_recommend_addendum: mission-30011084
     limit_sangvis: -1
@@ -37986,13 +37979,13 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "551"
+    draw_event_s_id: "736"
     drop_mission_key: "0,1108501:1,1108500:1"
     mission_group_id: 22
     open_mission_keys: 1108400:1
     mission_describe: mission-20011085
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100136,60,WhiteDay_2022_Tip
+    draw_code: 0;100179,60,WhiteDay_2022_Tip
     medal_type_silver: "1108505"
     difficulty_recommend: 7000;65
     difficulty_recommend_addendum: mission-30011085
@@ -38017,13 +38010,13 @@
     map_information: "9000,9000|9000,9000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "554"
+    draw_event_s_id: "739"
     drop_mission_key: "0,0,1108601:1;0,0,1108602:1;0,0,1108603:1;0,0,1108604:1;0,0,1108605:1;0,0,1108606:1;0,0,1108607:1;0,0,1108608:1;0,0,1108609:1;0,0,1108610:1;0,0,1108600:1;"
     mission_group_id: 22
     open_mission_keys: 1108500:1
     mission_describe: mission-20011086
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100136,60,WhiteDay_2022_Tip
+    draw_code: 0;100179,60,WhiteDay_2022_Tip
     win_type: 1108601|1108602|1108603|1108604|1108605|1108606|1108607|1108608|1108609|1108610|1108611
     difficulty_recommend: 1000;5
     difficulty_recommend_addendum: mission-30011086
@@ -38049,13 +38042,13 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "552"
+    draw_event_s_id: "737"
     drop_mission_key: "0,0,1108700:1"
     mission_group_id: 22
     open_mission_keys: 1108500:1
     mission_describe: mission-20011087
     round_config: 1:1,2:2,3:3
-    draw_code: 0;100136,60,WhiteDay_2022_Tip
+    draw_code: 0;100179,60,WhiteDay_2022_Tip
     win_type: "1108701"
     difficulty_recommend: 14000;85
     difficulty_recommend_addendum: mission-30011087
