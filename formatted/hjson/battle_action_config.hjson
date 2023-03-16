@@ -13030,6 +13030,22 @@
     creation_delay: "39"
   }
   {
+    id: 3570
+    name: M110双发
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10462,21,139,10462,21,139"
+    creation_delay: "0,0,0,3,3,3"
+  }
+  {
+    id: 3571
+    name: M110三发
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10462,21,139,10462,21,139,10462,21,139"
+    creation_delay: "0,0,0,3,3,3,6,6,6"
+  }
+  {
     id: 4001
     name: 白色boss普攻
     action_order: attack
@@ -22032,6 +22048,20 @@
     creation_delay: "9"
     move_order: "1035"
     move_delay: "40"
+  }
+  {
+    id: 8657
+    name: p10c
+    creation_order: "9181,9187"
+    creation_delay: "0,0"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8658
+    name: apc9k影响格
+    creation_order: "9183,9184"
+    creation_delay: "0,0"
   }
   {
     id: 9001

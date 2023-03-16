@@ -77777,6 +77777,82 @@
     scale: "-1.3,1.3,1.3"
   }
   {
+    id: 9181
+    name: 十字免疫
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "60"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "3,8,11,12,13,14,15,18,23"
+    buff_id: 8774:1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9182
+    name: 十字免疫特效
+    code: APC9K_yz
+    start_type: "3"
+    start_offset: "-0.5"
+    destination_type: "3"
+    destination_offset: "-0.5"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9183
+    name: 9K影响格
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "7,12,17"
+    buff_id: 8785:1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9184
+    name: 9K特效
+    code: CZP10C_cjb
+    start_type: "3"
+    start_offset: "-0.85"
+    destination_type: "3"
+    destination_offset: "-0.85"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "3"
+    random_offset: "-2.4,0,0;-2.4,0,4.3;-2.4,0,-4"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "0.3,0.5,0.5"
+  }
+  {
+    id: 9187
+    name: 十字免疫加长
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    random_number: "6"
+    random_offset: "-7.2,0,0;-9.6,0,0;7.2,0,0;9.6,0,0;12,0,0;-12,0,0"
+    exist_duration: "60"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *102
+    effect_param_2: "4"
+    buff_id: 8774:1
+    creation_type: 2
+    scale: "2.4,0.1,4"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -84174,6 +84250,105 @@
     is_form_offset_start: 1
     is_tracing: 1
     exist_duration: "45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 10462
+    name: 步枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "657"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 10463
+    name: 火力下降
+    code: Debuff_zi04
+    start_type: hip
+    start_offset: "0,0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 10464
+    name: 闪避下降
+    code: Debuff_zi01
+    start_type: hip
+    start_offset: "0,0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 10465
+    name: 命中下降
+    code: Debuff_zi02
+    start_type: hip
+    start_offset: "0,0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 10466
+    name: 射速下降
+    code: Debuff_zi03
+    start_type: hip
+    start_offset: "0,0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 10467
+    name: 射速下降
+    code: powerDown
+    start_type: hip
+    start_offset: "0,0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    exist_duration: *101
     effect_area: 1
     is_form_play: 1
     scale: "1.2,1.2"

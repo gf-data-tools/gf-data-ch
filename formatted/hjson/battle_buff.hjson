@@ -28793,6 +28793,295 @@
     is_form_play: 1
   }
   {
+    id: 5055
+    name: 伤害加深1
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002206
+  }
+  {
+    id: 5056
+    name: 伤害加深2
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002207
+  }
+  {
+    id: 5057
+    name: 伤害加深3
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002208
+  }
+  {
+    id: 5058
+    name: 伤害加深4
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002209
+  }
+  {
+    id: 5059
+    name: 伤害加深5
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002210
+  }
+  {
+    id: 5060
+    name: 伤害加深6
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002211
+  }
+  {
+    id: 5061
+    name: 伤害加深7
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002212
+  }
+  {
+    id: 5062
+    name: 伤害加深8
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002213
+  }
+  {
+    id: 5063
+    name: 伤害加深9
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002214
+  }
+  {
+    id: 5064
+    name: 伤害加深10
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002215
+  }
+  {
+    id: 5065
+    name: 伤害监视
+    conflict_type: 461
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5002
+  }
+  {
+    id: 5066
+    name: 射速监视
+    conflict_type: 462
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5003
+  }
+  {
+    id: 5067
+    name: 回避监视
+    conflict_type: 463
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5004
+  }
+  {
+    id: 5068
+    name: 命中监视
+    conflict_type: 464
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5005
+  }
+  {
+    id: 5069
+    name: 伤害debuff触发[*]
+    conflict_type: 465
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5070
+    name: 射速debuff触发[*]
+    conflict_type: 466
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5071
+    name: 回避debuff触发[*]
+    conflict_type: 467
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5072
+    name: 命中debuff触发[*]
+    conflict_type: 468
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5073
+    name: 火力下降
+    description: MSBS
+    conflict_type: 469
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "10463"
+  }
+  {
+    id: 5074
+    name: 射速下降
+    description: MSBS
+    conflict_type: 470
+    max_tier: 5
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "10466"
+  }
+  {
+    id: 5075
+    name: 闪避下降
+    description: MSBS
+    conflict_type: 471
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "10464"
+  }
+  {
+    id: 5076
+    name: 命中下降
+    description: MSBS
+    conflict_type: 472
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "10465"
+  }
+  {
+    id: 5077
+    name: 攻击计数
+    conflict_type: 473
+    max_tier: 12
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5078
+    name: debuff特效
+    description: MSBS
+    conflict_type: 474
+    max_tier: 5
+    type: 501
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "208"
+    is_form_play: 1
+  }
+  {
     id: 5700
     name: ***
     conflict_type: 100
@@ -43953,6 +44242,208 @@
     duration_type: 1
     duration: "60"
     boss_available: 1
+  }
+  {
+    id: 8774
+    name: p10c免疫
+    conflict_type: 2236
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "9182"
+    buff_animation: BlueFlash
+    fix_damage: 1000004994
+  }
+  {
+    id: 8775
+    name: apc9k闪避上升
+    description: 闪避上升
+    conflict_type: 2236
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 8776
+    name: apc9k监视miss
+    conflict_type: 2237
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1017
+  }
+  {
+    id: 8777
+    name: apc9k队长伤害增加
+    conflict_type: 2236
+    max_tier: 40
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *102
+    trigger_creation_id: "201"
+  }
+  {
+    id: 8778
+    name: apc9k效果显示通用
+    conflict_type: 101
+    max_tier: 40
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8779
+    name: apc9k监视队长造成伤害
+    conflict_type: 2237
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1018
+  }
+  {
+    id: 8780
+    name: apc9k队长射速提升
+    conflict_type: 2237
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8781
+    name: apc9k自身回避提升
+    conflict_type: 2237
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *202
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 8782
+    name: apc9k释放技能期间
+    conflict_type: 2237
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8783
+    name: apc9k自身回避增加
+    conflict_type: 2237
+    max_tier: 50
+    type: 802
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: "4"
+  }
+  {
+    id: 8784
+    name: apc9k效果显示通用
+    conflict_type: 101
+    max_tier: 200
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8785
+    name: apc9k影响格伤害提升
+    conflict_type: 2237
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8786
+    name: 监视队长在场-死亡
+    conflict_type: 2238
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1019
+  }
+  {
+    id: 8787
+    name: 监视自限
+    conflict_type: 2238
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8788
+    name: 队长不在了
+    conflict_type: 2239
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8789
+    name: 监视队长在场-撤退
+    conflict_type: 2239
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1020
+  }
+  {
+    id: 8790
+    name: 监视队长在场-没队长
+    conflict_type: 2240
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1021
   }
   {
     id: 10000

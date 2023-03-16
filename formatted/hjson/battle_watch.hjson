@@ -118,6 +118,41 @@
     activation_skills: "750641"
   }
   {
+    id: 1017
+    description: apc9k监视miss
+    watch_trigger_type: 2
+    activation_watch_trigger: 1010
+    activation_skills: "750748"
+  }
+  {
+    id: 1018
+    description: apc9k监视队长造成伤害
+    watch_trigger_type: 3
+    activation_watch_trigger: 1011
+    activation_skills: "750750"
+  }
+  {
+    id: 1019
+    description: 监视队长在场-死亡
+    watch_trigger_type: 7
+    activation_skills: "750753"
+  }
+  {
+    id: 1020
+    description: 监视队长在场-撤退
+    watch_trigger_type: 6
+    activation_skills: "750753"
+  }
+  {
+    id: 1021
+    description: 监视队长在场-没有队长
+    watch_trigger_type: 1
+    watch_sp_trigger: "750753,750749"
+    activation_watch_trigger: 1012
+    activation_skills: "750753"
+    sp_skill_target: "1"
+  }
+  {
     id: 5001
     description: 曦和监视
     record_chara1: 1000002118
@@ -126,6 +161,42 @@
     activation_skills: "119603"
     record_watch_trigger: 5001
     new_record_chara1: 1000002120
+  }
+  {
+    id: 5002
+    description: 伤害监视
+    record_chara1: 1000002216
+    watch_trigger_type: 1
+    activation_watch_trigger: 5002
+    activation_skills: "120803"
+    new_record_chara1: 1000002216
+  }
+  {
+    id: 5003
+    description: 射速监视
+    record_chara1: 1000002217
+    watch_trigger_type: 1
+    activation_watch_trigger: 5003
+    activation_skills: "120804"
+    new_record_chara1: 1000002217
+  }
+  {
+    id: 5004
+    description: 回避监视
+    record_chara1: 1000002218
+    watch_trigger_type: 1
+    activation_watch_trigger: 5004
+    activation_skills: "120805"
+    new_record_chara1: 1000002218
+  }
+  {
+    id: 5005
+    description: 命中监视
+    record_chara1: 1000002219
+    watch_trigger_type: 1
+    activation_watch_trigger: 5005
+    activation_skills: "120806"
+    new_record_chara1: 1000002219
   }
   {
     id: 70001

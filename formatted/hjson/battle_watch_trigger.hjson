@@ -47,9 +47,44 @@
     hurt_judge: 1000004912
   }
   {
+    id: 1010
+    description: apc9k监视miss
+    hurt_type: "3"
+  }
+  {
+    id: 1011
+    description: apc9k监视队长造成伤害
+    hurt_type: "0,1,2"
+  }
+  {
+    id: 1012
+    description: apc9k监视没有队长
+    buff_judge: 1000004999
+  }
+  {
     id: 5001
     description: 曦和监视
     buff_judge: 1000002119
+  }
+  {
+    id: 5002
+    description: 伤害监视
+    buff_judge: 1000002220
+  }
+  {
+    id: 5003
+    description: 射速监视
+    buff_judge: 1000002221
+  }
+  {
+    id: 5004
+    description: 回避监视
+    buff_judge: 1000002222
+  }
+  {
+    id: 5005
+    description: 命中监视
+    buff_judge: 1000002223
   }
   {
     id: 70001
