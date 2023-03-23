@@ -13664,6 +13664,26 @@
     detail_introduction: item-30002272
   }
   {
+    id: 2277
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_C93
+    item_name: C-93-斑斓色的邂逅
+    introduction: C-93-斑斓色的邂逅
+    rank: 1
+    detail_introduction: item-30002277
+  }
+  {
+    id: 2278
+    type: 5
+    arg: "1"
+    code: card_BattlePass_C93
+    item_name: 名片：甜暖时光
+    introduction: 名片：甜暖时光
+    rank: 1
+    detail_introduction: item-30002278
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -17508,6 +17528,26 @@
     detail_introduction: item-30140012
   }
   {
+    id: 140013
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    introduction: item-20140013
+    rank: 1
+    detail_introduction: item-30140013
+  }
+  {
+    id: 140014
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    introduction: item-20140014
+    rank: 1
+    detail_introduction: item-30140014
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -17686,6 +17726,16 @@
     introduction: 头像框·嗷嗷快乐的一天
     rank: 1
     detail_introduction: item-30200019
+  }
+  {
+    id: 200020
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_C93
+    item_name: 头像框·蝶翼翩然
+    introduction: 头像框·蝶翼翩然
+    rank: 1
+    detail_introduction: item-30200020
   }
   {
     id: 900030
@@ -18313,5 +18363,49 @@
     rank: 1
     sort: -1
     detail_introduction: item-31500051
+  }
+  {
+    id: 1500052
+    type: 15
+    arg: "1500052"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-假日情调，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500052
+  }
+  {
+    id: 1500053
+    type: 15
+    arg: "1500053"
+    code: package_choose
+    item_name: 人形装备自选序标
+    introduction: 来自于前线协议-假日情调，可从该指定投递配给序标内选择获取一件人形类装备
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500053
+  }
+  {
+    id: 1500054
+    type: 15
+    arg: "1500054"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-假日情调，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500054
+  }
+  {
+    id: 1500055
+    type: 15
+    arg: "1500055"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-假日情调，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500055
   }
 ]

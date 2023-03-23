@@ -694,7 +694,7 @@ COMMON,1691,裝備中,,0
 COMMON,1692,裝備,,0
 COMMON,1693,未擁有,,0
 COMMON,1694,該人形無法適配,,0
-COMMON,1695,装备 {0}/{1}件(todo),,0
+COMMON,1695,裝備 {0}/{1},,0
 COMMON,1696,套裝效果,,0
 COMMON,1697,當前裝備 {0},,0
 COMMON,1698,可啟動,,0
@@ -791,6 +791,7 @@ COMMON,1795,铁血捕获if线(todo),,0
 COMMON,1796,*用时缩减(todo),,0
 COMMON,1797,训练次数(todo),,0
 COMMON,1798,暂不可用(todo),,0
+COMMON,1799,解锁中(todo),,0
 BATTLE,10000,撤退,,0
 BATTLE,10001,全體撤退,,0
 BATTLE,10002,WITHDRAW,,0
@@ -1649,6 +1650,9 @@ DEPLOYMENT,30533,獲得技能,,0
 DEPLOYMENT,30534,当前作战资源不足，已终止代理作战(todo),,0
 DEPLOYMENT,30535,资源不足，无法部署小队！(todo),,0
 DEPLOYMENT,30536,是否打开记录上次完成关卡时镜头缩放(todo),,0
+DEPLOYMENT,30537,已解锁效率等级(todo),,0
+DEPLOYMENT,30538,条件已达成(todo),,0
+DEPLOYMENT,30539,效率等级(todo),,0
 DORM,31000,收納庫,,0
 DORM,31001,Warehouse,,0
 DORM,31002,採購,,0
@@ -2906,6 +2910,7 @@ MAIL,37044,郵件已刪除,,0
 MAIL,37045,收取附件,,0
 MAIL,37046,每日事務獎勵補發,,0
 MAIL,37047,指揮官，我在整理昨天的事務時發現你有遺漏的獎勵沒有拿走。現在我把它打包帶給你了，注意查收哦！,,0
+MAIL,37048,只显示锁定(todo),,0
 QUESTS,38000,進度,,0
 QUESTS,38001,任務,,0
 QUESTS,38002,QUESTS,,0
@@ -3309,7 +3314,7 @@ MISSIONSELECTION,40277,每週二、五、日3倍產出,,0
 MISSIONSELECTION,40278,防衛構思集訓,,0
 MISSIONSELECTION,40279,開發調節操練,,0
 MISSIONSELECTION,40280,解密算法練習,,0
-MISSIONSELECTION,40281,獲得材料 (機率掉落),,0
+MISSIONSELECTION,40281,奖励选择(todo),,0
 MISSIONSELECTION,40282,融合勢力梯隊,,0
 MISSIONSELECTION,40283,人形梯隊,,0
 MISSIONSELECTION,40284,重裝部隊,,0
@@ -3450,8 +3455,9 @@ MISSIONSELECTION,40418,梯隊出征成功,,0
 MISSIONSELECTION,40419,未獲得獎勵,,0
 MISSIONSELECTION,40420,作戰提示,,0
 MISSIONSELECTION,40421,劇情關卡,,0
+MISSIONSELECTION,40430,探查(todo),,0
 MISSIONSELECTION,40432,1.灰域探查為一個常駐永久開放的事件//n2.通過難度選擇每次進入灰域都會是一個全新的探查//n3.玩家通過消耗門票、資源進行灰域探查救援人形、獲得積分//n4.完成整個灰域的探查可以獲得豐厚的獎勵//n5.每隔一段時間灰域內的救援人形會進行替換//n6.更多神秘的內容等待大家的探索//n,,0
-MISSIONSELECTION,40437,1.積分兌換為灰域探查發放獎勵//n2.積分兌換會隨灰域探查永久開放//n3.積分兌換內容將不定期進行更新替換//n4.積分兌換分為【首通獎勵】（首通獎勵豐厚於普通）及【普通獎勵】//n5.通過在灰域探查中獲得PT值（完成事件，完成全圖清理獲得）可解鎖獎勵（獎勵自動發放）//n6.當期完成【首通獎勵】後，將關閉【首通】開啟【普通獎勵】//n7.當期活動中【普通獎勵】將為循環模式，完成最後一檔後將自動重置至第一檔//n8.每次更新積分兌換獎勵後將從【首通獎勵】重新計算//n9.每次更新積分兌換將清空當前的PT//n,,0
+MISSIONSELECTION,40437,1.积分奖励为灰域探查发放奖励//n2.积分奖励会随灰域探查永久开放//n3.积分奖励内容将不定期进行更新替换//n4.积分奖励分为【首通奖励】（首通奖励丰厚于普通）及【普通奖励】//n5.通过在灰域探查中获得积分（完成事件，完成全图清理获得）可解锁奖励（奖励自动发放）//n6.当期完成【首通奖励】后，将关闭【首通】开启【普通奖励】//n7.当期活动中【普通奖励】将为循环模式，完成最后一档后将自动重置至第一档//n8.每次更新积分奖励后将从【首通奖励】重新计算//n9.每次更新积分奖励将清空当前的积分(todo),,0
 MISSIONSELECTION,40442,可部署妖精,,0
 MISSIONSELECTION,40443,已替換,,0
 MISSIONSELECTION,40444,當前有資源即將到達儲存上限，超過上限的部分將<color=#ffb400>無法獲取</color>，是否繼續後勤支援？//n<size=40><color=grey>建議將取消後將後勤重複次數修改為{0}次</color></size>,,0
@@ -3471,6 +3477,7 @@ MISSIONSELECTION,40457,**灰域探查生涯计数(todo),,0
 MISSIONSELECTION,40458,未获取灰域信息(todo),,0
 MISSIONSELECTION,40459,完成后开启普通奖励(todo),,0
 MISSIONSELECTION,40460,完成后重置(todo),,0
+MISSIONSELECTION,40461,在一次常规探查中，边境调查团第六支队意外发现了一片从未踏足的神秘区域。她们冒险进入，结果失踪数日……等到再度归来时，竟带回了令人意想不到的收获。为了探明神秘区域，指挥官决定对这一片区域进行部署，现在，是时候开始行动了。(todo),,0
 REINFORCEMENT,50000,選擇角色,,0
 REINFORCEMENT,50001,未解鎖,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -4660,6 +4667,7 @@ SEPCIALOPS,60711,请填写11位中国大陆手机号(todo),,0
 SEPCIALOPS,60712,请输入收件地址（精确到门牌号）(todo),,0
 SEPCIALOPS,60713,投递成功！(todo),,0
 SEPCIALOPS,60714,请完善收件信息！(todo),,0
+SEPCIALOPS,60715,请阅读并同意隐私条款(todo),,0
 GASHAPON,70000,當前傢俱倉庫容量不足,,0
 GASHAPON,70001,）//c請整頓後再進行採購!,,0
 GASHAPON,70002,採購幣不足//c無法完成採購,,0
@@ -4862,6 +4870,8 @@ MALL,71164,盲盒信息(todo),,0
 MALL,71165,你尚未收集该人形！(todo),,0
 MALL,71166,当前价格:(todo),,0
 MALL,71167,装扮盲盒(todo),,0
+MALL,71168,装扮盒子测试语言包(todo),,0
+MALL,71169,是否以￥{0}的价格购买一份充满惊喜的装扮盲盒？(todo),,0
 DOWNLOAD,80000,繼續上次未完成資源檔下載,,0
 DOWNLOAD,80001,請確保本地至少有,,0
 DOWNLOAD,80002,的儲存空間！是否繼續？,,0
@@ -7854,7 +7864,7 @@ MINIGAME,280516,倍积分(todo),,0
 MINIGAME,280517,*简单攻略(todo),,0
 MINIGAME,280518,*颇具难度(todo),,0
 MINIGAME,280519,*具有挑战(todo),,0
-MINIGAME,280520,全图掉落PT+全图清理PT(todo),,0
+MINIGAME,280520,全图掉落积分+全图清理积分(todo),,0
 MINIGAME,280521,指挥官，接下来要做什么？(todo),,0
 MINIGAME,280522,*推荐战术妖精等级<Color=#FFB400FF>--</Color>(todo),,0
 MINIGAME,280523,*推荐战术妖精星级<Color=#FFB400FF>--</Color>(todo),,0
@@ -7862,8 +7872,12 @@ MINIGAME,280524,*推荐重装梯队等级<Color=#FFB400FF>--</Color>(todo),,0
 MINIGAME,280525,*推荐重装梯队星级<Color=#FFB400FF>--</Color>(todo),,0
 MINIGAME,280526,已扣除灰域探索消耗(todo),,0
 MINIGAME,280527,未获灰域取信息(todo),,0
-MINIGAME,280528,可任意选择对应难度，每个难度需要足够的战力应对探查中遇到的困难，每次选择将重新开始灰域探查。//n完成灰域内的探查可以获得PT点数，PT点数用于兑换道具，灰域内的PT由每个探查点上PT掉落（全图掉落PT）和全部探查完的全图清理PT组成(todo),,0
+MINIGAME,280528,可任意选择对应难度，每个难度需要足够的战力应对探查中遇到的困难，每次选择将重新开始灰域探查。//n完成灰域内的探查可以获得积分，达到积分要求后可获得各类奖励，积分获取由灰域内每个探查点上掉落及完成全图探查获得奖励积分组成(todo),,0
 MINIGAME,280529,当前地图已全部清空(todo),,0
 MINIGAME,280530,*探索券不足(todo),,0
 MINIGAME,280531,需要妖精(todo),,0
 MINIGAME,280532,需要火力小队(todo),,0
+MINIGAME,280533,战斗点位(todo),,0
+MINIGAME,280534,妖精点位(todo),,0
+MINIGAME,280535,火力小队点位(todo),,0
+MINIGAME,280536,首领点位(todo),,0
