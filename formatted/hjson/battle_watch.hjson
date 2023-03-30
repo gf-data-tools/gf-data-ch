@@ -56,6 +56,19 @@
     new_record_chara1: 1000004766
   }
   {
+    id: 1007
+    description: DP12换弹监视
+    watch_trigger_type: 4
+    activation_watch_trigger: 1013
+    activation_skills: "740065"
+  }
+  {
+    id: 1008
+    description: 樱花受击监视
+    watch_trigger_type: 2
+    activation_skills: "740073"
+  }
+  {
     id: 1009
     description: 沃克监视友方射速
     watch_trigger_type: 1
@@ -251,5 +264,12 @@
     watch_trigger_type: 1
     activation_watch_trigger: 70006
     activation_skills: "778130"
+  }
+  {
+    id: 70007
+    description: DP12换弹监视
+    watch_trigger_type: 4
+    activation_watch_trigger: 1014
+    activation_skills: "740065"
   }
 ]

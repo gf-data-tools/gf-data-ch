@@ -6622,6 +6622,65 @@
     hit_type: 1
   }
   {
+    id: 2291
+    description: DP12击退
+    damage_ratio: *204
+    extra_damage: *106
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    beat_back_percent: "100"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 2292
+    description: 霰弹枪普通攻击
+    damage_ratio: *201
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    buff_id_target: 8591:1000004876
+    buff_rate: "100"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 2293
+    description: 霰弹枪普通攻击
+    damage_ratio: "100"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    buff_id_target: 8591:1000004876
+    buff_rate: "100"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 2294
+    description: 樱花普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
     id: 2295
     description: 燃烧持续伤害
     extra_damage: "60"
@@ -6804,6 +6863,24 @@
     fix_damage: 1000004925
   }
   {
+    id: 2313
+    description: M1919A4攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "100"
+    buff_id_target: 8707:1
+    hurt_buff_trigger_type: 1
+    buff_rate: *201
+    target_move_percent: "100"
+    target_skill: 740085
+    hit_type: 1
+    fix_damage: 1000004946
+  }
+  {
     id: 2314
     description: 夕雾斩击
     damage_ratio: *201
@@ -6962,6 +7039,17 @@
     buff_id_target: 2432:1
     buff_rate: "100"
     hit_type: 1
+  }
+  {
+    id: 2332
+    description: 支援榴弹
+    damage_ratio: *201
+    extra_damage: *102
+    critical_hit_rate: "100"
+    float_wide: 15
+    extra_defbreak: *104
+    hit_type: 2
+    is_ricochet: 100
   }
   {
     id: 2479

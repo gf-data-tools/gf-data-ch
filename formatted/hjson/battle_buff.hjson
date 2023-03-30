@@ -42652,6 +42652,250 @@
     boss_available: 1
   }
   {
+    id: 8590
+    name: DP12减速
+    conflict_type: 2195
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *104
+    boss_available: 1
+    move_number: *203
+    trigger_creation_id: "207"
+  }
+  {
+    id: 8591
+    name: DP12死亡监视
+    conflict_type: 2195
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8592
+    name: DP12减当前CD1
+    conflict_type: 2195
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 8593
+    name: DP12MOD2&3
+    conflict_type: 2196
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8594
+    name: DP12减当前CD2
+    conflict_type: 2196
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+    cdr_number: *202
+  }
+  {
+    id: 8595
+    name: 樱花闪避提升
+    conflict_type: 2196
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    dodge_number: *202
+  }
+  {
+    id: 8596
+    name: 樱花敌方易伤
+    conflict_type: 2196
+    max_tier: 10
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000004888
+  }
+  {
+    id: 8597
+    name: 樱花易伤点数#
+    conflict_type: 2196
+    max_tier: 10
+    type: 400
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+  }
+  {
+    id: 8598
+    name: 樱花专注状态
+    conflict_type: 2197
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    trigger_creation_id: "9185"
+    is_form_play: 1
+  }
+  {
+    id: 8599
+    name: 樱花备用
+    conflict_type: 2197
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8600
+    name: 樱花灵动命中提升
+    conflict_type: 2197
+    max_tier: 6
+    type: 103
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    hit_number: *201
+  }
+  {
+    id: 8601
+    name: 樱花灵动锁编
+    conflict_type: 2197
+    max_tier: 1
+    type: 307
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    trigger_creation_id: "9185"
+    is_form_play: 1
+  }
+  {
+    id: 8602
+    name: 樱花专注锁定
+    conflict_type: 2198
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8603
+    name: 樱花专注效果时长#
+    conflict_type: 2198
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+  }
+  {
+    id: 8604
+    name: 樱花专注锁定者-排外
+    conflict_type: 2199
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "740074"
+  }
+  {
+    id: 8605
+    name: 樱花专注锁定者-予己
+    conflict_type: 2199
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "740075"
+  }
+  {
+    id: 8606
+    name: 樱花易伤6点
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8607
+    name: 樱花易伤8点
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8608
+    name: 樱花易伤10点
+    conflict_type: 2201
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8609
+    name: 樱花易伤12点
+    conflict_type: 2201
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8610
+    name: 樱花专注闪避降低点数
+    conflict_type: 2201
+    max_tier: 10
+    type: 802
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    dodge_number: *103
+  }
+  {
+    id: 8611
+    name: 樱花二时间
+    conflict_type: 2202
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8612
+    name: 樱花二闪避下降值
+    conflict_type: 2202
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
     id: 8613
     name: ADS火力下降
     description: 火力下降
@@ -43561,6 +43805,212 @@
     boss_available: 1
   }
   {
+    id: 8694
+    name: k5弹量
+    conflict_type: 2213
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8695
+    name: K5二技能触发
+    conflict_type: 2213
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8696
+    name: k5精英技能
+    conflict_type: 2213
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "740080"
+  }
+  {
+    id: 8697
+    name: k5高威胁技能
+    conflict_type: 2213
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "740079"
+  }
+  {
+    id: 8698
+    name: k5有精英
+    conflict_type: 2214
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8699
+    name: k5有高威胁
+    conflict_type: 2214
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8700
+    name: k5备用
+    conflict_type: 2215
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8701
+    name: 射速上升
+    description: 射速上升
+    conflict_type: 2213
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8702
+    name: 移速上升
+    description: 移速上升
+    conflict_type: 2213
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+  }
+  {
+    id: 8703
+    name: M1919A4暴击伤害上升
+    conflict_type: 2213
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *203
+    is_form_play: 1
+  }
+  {
+    id: 8704
+    name: M1919A4巨人杀手伤害
+    conflict_type: 2215
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8705
+    name: M1919A4击退概率
+    conflict_type: 2215
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8706
+    name: 巨人标记
+    conflict_type: 2215
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8707
+    name: 被暴击了
+    conflict_type: 2216
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+  }
+  {
+    id: 8708
+    name: 被推过了
+    conflict_type: 2216
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8709
+    name: M1919A4眩晕
+    conflict_type: 2216
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 8710
+    name: dp12护甲x点
+    conflict_type: 2216
+    max_tier: 99999
+    type: 808
+    duration_type: 1
+    duration: "2970"
+    boss_available: 1
+    armor_reduce_number: *103
+  }
+  {
+    id: 8711
+    name: 樱花额外护盾
+    conflict_type: 2216
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    shield_number: *103
+  }
+  {
+    id: 8712
+    name: 动能弹
+    conflict_type: 520
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    fix_damage: 1000005003
+  }
+  {
     id: 8713
     name: 佐贺妖精触发
     conflict_type: 2217
@@ -44444,6 +44894,148 @@
     duration: "-1"
     boss_available: 1
     watch_id: 1021
+  }
+  {
+    id: 8820
+    name: DP监视
+    conflict_type: 2215
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1007
+  }
+  {
+    id: 8821
+    name: DP监视
+    conflict_type: 2215
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 70007
+  }
+  {
+    id: 8822
+    name: DP护盾
+    conflict_type: 2216
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+  }
+  {
+    id: 8823
+    name: DP换弹触发
+    conflict_type: 2217
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8824
+    name: DP射速提升
+    conflict_type: 2217
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8825
+    name: SL8射速提升
+    conflict_type: 2217
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8826
+    name: SI8-AR
+    conflict_type: 846
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "4"
+    forced_skill: "759102"
+  }
+  {
+    id: 8827
+    name: SI8-SMG
+    conflict_type: 847
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "2"
+    forced_skill: "759103"
+  }
+  {
+    id: 8828
+    name: SI8-HG
+    conflict_type: 848
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "1"
+    forced_skill: "759104"
+  }
+  {
+    id: 8829
+    name: SI8-RF
+    conflict_type: 849
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "3"
+    forced_skill: "759105"
+  }
+  {
+    id: 8830
+    name: SI8-SG
+    conflict_type: 850
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "6"
+    forced_skill: "759106"
+  }
+  {
+    id: 8831
+    name: SI8-MG
+    conflict_type: 851
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "5"
+    forced_skill: "759107"
   }
   {
     id: 10000

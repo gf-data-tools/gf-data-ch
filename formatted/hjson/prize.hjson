@@ -13938,6 +13938,47 @@
     icon: Bumdle_black
   }
   {
+    id: 1895
+    name: 每日特惠礼包
+    core: 10
+    coins: 2-300,3-200
+    content: prize-20001895
+  }
+  {
+    id: 1896
+    name: 2023年4月签到
+    gem: 90
+    equip_ids: "339"
+    content: prize-20001896
+  }
+  {
+    id: 1897
+    name: 采购币每周补给
+    item_ids: 41-200,7-1
+    gift: 100003-5
+    content: prize-20001897
+    icon: Bumdle_Division
+  }
+  {
+    id: 1898
+    name: 协力委托书每周补给
+    item_ids: 605-10,516-500
+    gift: 100003-5
+    content: prize-20001898
+    icon: Bumdle_black
+  }
+  {
+    id: 1899
+    name: 养成每周补给
+    mp: 20000
+    ammo: 20000
+    mre: 20000
+    part: 20000
+    item_ids: 1-20,3-20
+    content: prize-20001899
+    icon: Bumdle_may
+  }
+  {
     id: 2001
     name: WA2000-古堡历险
     gift: 6-1
@@ -14530,6 +14571,14 @@
     content: 心智升级赠送
   }
   {
+    id: 3080
+    name: M1919A4
+    item_ids: 2273-1
+    equip_ids: "333"
+    skin: 5066
+    content: 心智升级赠送
+  }
+  {
     id: 3081
     name: LWMMG
     item_ids: 1369-1
@@ -14754,6 +14803,14 @@
     content: 心智升级赠送
   }
   {
+    id: 3212
+    name: K5
+    item_ids: 2274-1
+    equip_ids: "334"
+    skin: 5067
+    content: 心智升级赠送
+  }
+  {
     id: 3216
     name: XM8
     item_ids: 2022-1
@@ -14778,6 +14835,14 @@
     content: 心智升级赠送
   }
   {
+    id: 3228
+    name: 樱花
+    item_ids: 2275-1
+    equip_ids: "335"
+    skin: 5068
+    content: 心智升级赠送
+  }
+  {
     id: 3230
     name: OBR
     item_ids: 2078-1
@@ -14791,6 +14856,14 @@
     item_ids: 1619-1
     equip_ids: "178"
     skin: 5034
+    content: 心智升级赠送
+  }
+  {
+    id: 3282
+    name: DP-12
+    item_ids: 2276-1
+    equip_ids: "336"
+    skin: 5069
     content: 心智升级赠送
   }
   {
@@ -25333,97 +25406,97 @@
     id: 10086
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110059-10
+    item_ids: 110060-10
     content: prize-20010086
   }
   {
     id: 10087
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110059-30
+    item_ids: 110060-30
     content: prize-20010087
   }
   {
     id: 10088
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110059-20
+    item_ids: 110060-20
     content: prize-20010088
   }
   {
     id: 10089
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110059-30
+    item_ids: 110060-30
     content: prize-20010089
   }
   {
     id: 10090
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110059-20
+    item_ids: 110060-20
     content: prize-20010090
   }
   {
     id: 10091
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110059-30
+    item_ids: 110060-30
     content: prize-20010091
   }
   {
     id: 10092
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110059-50
+    item_ids: 110060-50
     content: prize-20010092
   }
   {
     id: 10093
     name: 嘉年华奖励
     part: 100
-    item_ids: 110059-30
+    item_ids: 110060-30
     content: prize-20010093
   }
   {
     id: 10094
     name: 嘉年华奖励
     part: 100
-    item_ids: 110059-50
+    item_ids: 110060-50
     content: prize-20010094
   }
   {
     id: 10095
     name: 嘉年华奖励
     part: 100
-    item_ids: 110059-100
+    item_ids: 110060-100
     content: prize-20010095
   }
   {
     id: 10096
     name: 嘉年华奖励
     part: 200
-    item_ids: 110059-50
+    item_ids: 110060-50
     content: prize-20010096
   }
   {
     id: 10097
     name: 嘉年华奖励
     part: 200
-    item_ids: 110059-100
+    item_ids: 110060-100
     content: prize-20010097
   }
   {
     id: 10098
     name: 嘉年华奖励
     part: 300
-    item_ids: 110059-150
+    item_ids: 110060-150
     content: prize-20010098
   }
   {
     id: 10099
     name: 嘉年华奖励
-    item_ids: 110059-200,45-200
+    item_ids: 110060-200,45-200
     content: prize-20010099
   }
   {
@@ -25467,7 +25540,7 @@
   {
     id: 10105
     name: 活跃奖励
-    gift: 100003-10,8107-1
+    gift: 100003-10,595-1
     content: prize-20010105
     icon: Bumdle_bline
   }

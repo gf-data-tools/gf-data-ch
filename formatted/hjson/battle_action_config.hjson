@@ -21053,6 +21053,39 @@
     scene_transition: "2"
   }
   {
+    id: 8513
+    name: DP12换弹减伤M1
+    action_order: "3"
+    action_playspeed: "100"
+    creation_order: "2811,2812,2814,2815,9004"
+    creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 8514
+    name: DP12技能普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9005,9005,30,30"
+    creation_delay: "0,4,0,4"
+  }
+  {
+    id: 8515
+    name: DP12霰弹枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9006,30"
+    creation_delay: "0,0"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 8516
+    name: 樱花冲锋枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9007,21,138,8,8,8"
+    creation_delay: "0,0,0,10,4,7 "
+  }
+  {
     id: 8517
     name: 燃烧伤害
     creation_order: "9008"
@@ -21495,6 +21528,21 @@
     action_order: c1,c1loop
     action_delay: "0,41"
     action_playspeed: "100,100"
+  }
+  {
+    id: 8586
+    name: K5MOD
+    creation_order: "9086,9186"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8587
+    name: 机枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9087,21,139,139,9,9,9,9,21,21,21,21,21"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8"
   }
   {
     id: 8588
@@ -22062,6 +22110,37 @@
     name: apc9k影响格
     creation_order: "9183,9184"
     creation_delay: "0,0"
+  }
+  {
+    id: 8659
+    name: M1919A4位移3
+    move_order: "1036"
+  }
+  {
+    id: 8661
+    name: 导弹设施攻击
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9190"
+    creation_delay: "31"
+    sound_order: BT_squad_bazooka
+    sound_delay: "31"
+  }
+  {
+    id: 8662
+    name: 导弹设施cutIn
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9191"
+    creation_delay: "26"
+    sound_order: BT_squad_bazooka
+    sound_delay: "26"
+  }
+  {
+    id: 8663
+    name: SL8装备
+    creation_order: "9193,9194,9195,9196"
+    creation_delay: "0,0,0,0"
   }
   {
     id: 9001
