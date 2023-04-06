@@ -778,16 +778,16 @@ COMMON,1779,双倍(todo),,0
 COMMON,1780,已达成(todo),,0
 COMMON,1781,未达成(todo),,0
 COMMON,1782,解谜(todo),,0
-COMMON,1786,第一次登录时间{0}年{1}月{2}日(todo),,0
-COMMON,1787,参与过{0}场战斗(todo),,0
-COMMON,1788,击败过{0}名敌人(todo),,0
-COMMON,1789,拥有{0}位人形(todo),,0
-COMMON,1790,缔结过{0}次誓约(todo),,0
-COMMON,1791,捕获过{0}名铁血(todo),,0
-COMMON,1792,欢迎回到格里芬(todo),,0
+COMMON,1786,{0}年{1}月{2}日，你加入了格里芬(todo),,0
+COMMON,1787,在这里，你经历过{0}场战斗(todo),,0
+COMMON,1788,在这些战斗里，你击溃了{0}名敌人(todo),,0
+COMMON,1789,目前有{0}位人形和你并肩作战(todo),,0
+COMMON,1790,你选择了与{0}名角色缔结誓约(todo),,0
+COMMON,1791,你捕获过{0}名融合势力角色(todo),,0
+COMMON,1792,指挥官，很高兴再次相遇(todo),,0
 COMMON,1793,推荐梯队(todo),,0
-COMMON,1794,誓约if线(todo),,0
-COMMON,1795,铁血捕获if线(todo),,0
+COMMON,1794,她们在等待着你，等待你与她们缔结誓约(todo),,0
+COMMON,1795,你还未体验过捕获融合势力角色(todo),,0
 COMMON,1796,*用时缩减(todo),,0
 COMMON,1797,训练次数(todo),,0
 COMMON,1798,暂不可用(todo),,0
@@ -1431,7 +1431,7 @@ DEPLOYMENT,30277,During Combat Simulation//c pausing and other actions are disab
 DEPLOYMENT,30278,After capturing//c nodes up to <color=#ffb400ff>{0}</color> nodes away will be visible.//nDeployment and resupply are unavailable at this node.,,0
 DEPLOYMENT,30279,Echelon {0},,0
 DEPLOYMENT,30280,A change has occurred to the target. The plan is interrupted!,,0
-DEPLOYMENT,30281,Restart //nBattle,,0
+DEPLOYMENT,30281,重新作战(todo),,0
 DEPLOYMENT,30282,Restarting battle will//n<color=#c13939>forfeit current progress//nand any carried ammo and rations.</color>//nThe battle will restart from <color=#c13939>the beginning</color>.,,0
 DEPLOYMENT,30283,Confirm to restart battle?,,0
 DEPLOYMENT,30284,Capture ,,0
@@ -1677,6 +1677,7 @@ DEPLOYMENT,30536,是否打开记录上次完成关卡时镜头缩放(todo),,0
 DEPLOYMENT,30537,已解锁效率等级(todo),,0
 DEPLOYMENT,30538,条件已达成(todo),,0
 DEPLOYMENT,30539,效率等级(todo),,0
+DEPLOYMENT,30540,RPK16较为强力请确定所有忤逆成员都在队伍当中再与其交战(todo),,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -2291,7 +2292,7 @@ FACTORY,32067,Not enough T-Dolls are selected to provide enhancement. Continue a
 FACTORY,32068,This Echelon contains non-idle T-Dolls//c unable to edit Echelon!,,0
 FACTORY,32069,T-Dolls' stats will increase when they reach 90 and above Affection.,,0
 FACTORY,32070,T-Doll's stats will increase further when they reach 140 and above Affection.,,0
-FACTORY,32071,You can perform Oath when the T-Doll's Affection reaches 100. The upper limit of Affection will increase and repair times will decrease by 30%.,,0
+FACTORY,32071,好感度达到100，可以与该人形缔结誓约；缔结誓约之后，好感度上限将会提高，同时修理时间将减少30%(todo),,0
 FACTORY,32072,Confirm to recall the memory of the Oath?,,0
 FACTORY,32073,Cannot perform Oath in current status!,,0
 FACTORY,32074,Oath is enabled when Affection reaches 100.,,0
@@ -2551,7 +2552,7 @@ DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
 DEVELOP,33003,Your Contracts are insufficient.//c,,0
-DEVELOP,33004,Welcome to Fast Logistic Services//c using this service costs,,0
+DEVELOP,33004,欢迎使用极速物流服务，该服务需支付(todo),,0
 DEVELOP,33005,Confirm to make an order?,,0
 DEVELOP,33006,Insufficient resources! ,,0
 DEVELOP,33007,Reached equipment capacity limit//c please make more space!,,0
@@ -2583,7 +2584,7 @@ DEVELOP,33032,Forcibly replace to this Echelon?,,0
 DEVELOP,33033,Forcibly replace,,0
 DEVELOP,33034,The current preset contains <color=#B0D923FF>members from other Echelons</color> or the preset contains <color=#B0D923FF>blank slots</color>. Forcibly replace to this Echelon?,,0
 DEVELOP,33035,Using this service costs//n<color=#76DFCEFF>Quick Production</color> X {0}//nYour Contracts are insufficient. ,,0
-DEVELOP,33036,Welcome to Fast Logistic Services//c using this service costs//n<color=#76DFCEFF>Quick Production</color>X{0}//nMake the order?,,0
+DEVELOP,33036,欢迎使用极速物流服务，该服务需支付//n<color=#76DFCEFF>快速制造契约</color>X{0}//n//n确定要下达订单么？(todo),,0
 DEVELOP,33037,Confirm to spend {0}{1}{2}?,,0
 DEVELOP,33038,Confirm to spend {0} Gems to purchase Skill Training Slot?,,0
 DEVELOP,33039,Confirm to spend {0} Gems to purchase T-Doll Production Slot?,,0
@@ -2602,7 +2603,7 @@ DEVELOP,33051,Your current number of Action Points does not meet the deployment 
 DEVELOP,33052,Insufficient Action Points//c your Echelon cannot be moved,,0
 DEVELOP,33053,Attacking the enemy head on with this Fire Support Unit will result in defeat. Proceed with the attack?,,0
 DEVELOP,33054,Retreating outside of an allied Heavy Heliport will forfeit the unit's rations and ammo! Confirm retreat?,,0
-DEVELOP,33055,Welcome to the Rapid Analysis Service//c please insert//n<color=#70D3C3FF>Quick Analysis Contract</color> x1,,0
+DEVELOP,33055,欢迎使用急速分析服务，该服务需支付//n <color=#70D3C3FF>快速分析契约</color>×1(todo),,0
 DEVELOP,33056,Your current number of Coalition Units has reached the maximum.//nWould you like to spend {0} Gems to purchase more Coalition Unit slots?,,0
 DEVELOP,33057,You have reached the maximum number of Coalition Unit slots//c please clear them in a timely manner!,,0
 DEVELOP,33058,Increase Coalition Unit slots,,0
@@ -2879,7 +2880,7 @@ LOGIN,36067,Fetching server list,,0
 LOGIN,36068,Girls' Frontline,,0
 LOGIN,36069,Fetching server list failed//c please check your internet connection.,,0
 LOGIN,36070,Commander//c confirm to leave the game?,,0
-LOGIN,36071,You are not using wifi. Continue with download?,,0
+LOGIN,36071,当前为非wifi环境，是否继续下载？(todo),,0
 LOGIN,36072,Sorry//c network connection lost. Please restart client.,,0
 LOGIN,36073,Confirm to use <color=#FFBB00FF>//n{0}//n</color> as your name? Commander name cannot be changed later.,,0
 LOGIN,36075,Change,,0
@@ -3543,7 +3544,7 @@ REINFORCEMENT,50015,will consume {0} Quick Repair Contracts,,0
 REINFORCEMENT,50016,Repair complete!,,0
 REINFORCEMENT,50017,No T-Doll requires repair!,,0
 REINFORCEMENT,50018,Using this service will require //n<color=#76DFCEFF>Quick Repair Contracts</color>X1//nYour contracts are insufficient//c,,0
-REINFORCEMENT,50019,Welcome to Instant Repairs Service//c this service will cost <color=#76DFCEFF>Quick Repair Contracts</color>  X 1//n//nConfirm repair?,,0
+REINFORCEMENT,50019,欢迎使用极速修复服务，服务需要支付<color=#76DFCEFF>快速修复契约</color>  X 1//n//n确定要下达订单么？(todo),,0
 REINFORCEMENT,50020,Confirm to use {0} Gems to unlock a new Repair Slot?,,0
 REINFORCEMENT,50021,Level,,0
 REINFORCEMENT,50022,Rarity,,0
@@ -3774,14 +3775,14 @@ SETTING,52082,Background Live2D,,0
 SETTING,52083,Battle Simplification,,0
 SETTING,52084,Some resource files need to be updated. Proceed?//n<size=33>(File size: {0} MB)</size>//nPlease make sure there is at least {1}MB of storage on your device!,,0
 SETTING,52085,Confirm to download full resource package?//n(Does not include voice pack)//n<size=33>You can also download it in the【Setting】menu at any time</size>,,0
-SETTING,52086,<size=33>(Recommend using wifi to download)</size>,,0
-SETTING,52087,You are not using wifi.//n//nContinue with download?//n(Recommend using wifi to download),,0
-SETTING,52088,Recommend downloading full resource package for a better game experience//n(File size: {0} MB)//n//nContinue?//n(Recommend using wifi to download),,0
+SETTING,52086,<size=33>（建议在wifi环境下下载）</size>(todo),,0
+SETTING,52087,检测到当前在非wifi环境//n//n是否继续？//n（建议在wifi环境下下载）(todo),,0
+SETTING,52088,建议玩家进行全资源包下载，可获得更好的游戏体验//n（资源包大小：{0} MB）//n//n是否继续？//n（建议在wifi环境下下载）(todo),,0
 SETTING,52089,Do not remind me anymore today//n<size=33> </size>,,0
 SETTING,52090,Download full resource package,,0
-SETTING,52091,You are not using wifi. Continue with download?,,0
+SETTING,52091,当前为非wifi环境，是否继续下载(todo),,0
 SETTING,52092,Full resource package download complete,,0
-SETTING,52093,Continue?//n(Recommend using wifi to download),,0
+SETTING,52093,是否继续？//n（建议在wifi环境下下载）(todo),,0
 SETTING,52094,(Can be downloaded in the Setting menu),,0
 SETTING,52095,Download full resource package?//n(Can also be downloaded in the Setting menu in-game),,0
 SETTING,52096,Check to not remind me anymore today,,0
@@ -4388,6 +4389,8 @@ SEPCIALOPS,60378,You have already voted {0} times today. Come again tomorrow~,,0
 SEPCIALOPS,60379,,,0
 SEPCIALOPS,60380,,,0
 SEPCIALOPS,60381,,,0
+SEPCIALOPS,60535,欢迎搭乘未来号洲际列车，希望我的服务能为您的旅行留下美好的回忆。(todo),,0
+SEPCIALOPS,60548,欢迎搭乘未来号洲际列车，希望我的服务能为您的旅行留下美好的回忆。(todo),,0
 SEPCIALOPS,60630,艾莉安娜过于强大，需要确保收集3处月印后再与其对决(todo),,0
 SEPCIALOPS,60631,源樱(todo),,0
 SEPCIALOPS,60632,二阶堂咲(todo),,0
@@ -4475,8 +4478,8 @@ SEPCIALOPS,60713,投递成功！(todo),,0
 SEPCIALOPS,60714,请完善收件信息！(todo),,0
 SEPCIALOPS,60715,请阅读并同意隐私条款(todo),,0
 SEPCIALOPS,60716,请输入2-81字符的地址信息！(todo),,0
-SEPCIALOPS,60717,抽奖券Item说明(todo),,0
 SEPCIALOPS,60718,请输入11位中国大陆电话号码(todo),,0
+SEPCIALOPS,60719,快乐抽奖箱(todo),,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -4686,7 +4689,7 @@ MALL,71170,选择想要的心愿装扮后不能再变更，是否确认？(todo)
 DOWNLOAD,80000,Resuming download of incomplete data files.,,0
 DOWNLOAD,80001,Please ensure that your device has at least ,,0
 DOWNLOAD,80002, memory! Continue?,,0
-DOWNLOAD,80003,(Recommend using wifi to download),,0
+DOWNLOAD,80003,<size=33>(建议在wifi环境下下载)</size>(todo),,0
 DOWNLOAD,80004,File Size,,0
 DOWNLOAD,80005,Do you want to download the voice pack?,,0
 DOWNLOAD,80006,Base data files will need to be updated for the initial update,,0
@@ -4846,7 +4849,7 @@ OTHER,100061,Unable to move in opposite direction,,0
 OTHER,100062,The page will be unlocked after ,,0
 OTHER,100063,The selected T-Doll has reached the maximum enhancement.,,0
 OTHER,100064,Confirm to use ,,0
-OTHER,100065,Confirm to use 1 Oath Certificate to carry out Oath?,,0
+OTHER,100065,确认使用1个誓约之证缔结誓约吗？(todo),,0
 OTHER,100066,Confirm to purchase?,,0
 OTHER,100067, Currently not in dormitory. Commander//c costumes need to be given personally~,,0
 OTHER,100068,-star T-Doll//c the weapon used is ,,0
@@ -5026,7 +5029,7 @@ FRIEND,110033,Newest,,0
 FRIEND,110034,Yesterday,,0
 FRIEND,110035,Already sent request!,,0
 FRIEND,110036,Reached the character limit,,0
-FRIEND,110037,Welcome to the <color=#FFBB00FF>Friend System</color>. You can build friendships with commanders from all around the world here.,,0
+FRIEND,110037,欢迎使用<color=#FFBB00FF>好友系统</color>，在这里你可以与全世界其他指挥官建立联系。(todo),,0
 FRIEND,110038,In the <color=#FFBB00FF>Friends List</color>//c you can check your friends as well as send <color=#FFBB00FF>messages</color>.,,0
 FRIEND,110039,You can add friends from the <color=#FFBB00FF>Add Friends</color> page//c as well as search for other players to send friend requests.,,0
 FRIEND,110040,You can view and edit your <color=#FFBB00FF>ID Card</color> from the <color=#FFBB00FF>ID Card</color> page. Your card can be seen by other players. You can also perform other actions related to the ID card here.,,0
@@ -5154,7 +5157,7 @@ FAIRY,130056,,,0
 FAIRY,130057,Full,,0
 GUIDE,140000,Every calibration provides a chance to <color=#FFB400FF>rollback to your previous calibration</color>. So feel free to calibrate without worry.,,0
 GUIDE,140001,//nThere are several <color=#FFB400FF>Radar nodes</color> on the battlefield.//nOccupying a <color=#FFB400FF>Radar</color> will grant vision within 2 nodes of that Radar.,,0
-GUIDE,140002,//nCommander//c welcome to the <color=#FFB400FF>T-Dolls' Dormitory</color>!//nYou can <color=#FFB400FF>arrange furniture</color> and <color=#FFB400FF>interact</color> with your T-Dolls here.//n,,0
+GUIDE,140002,指挥官，欢迎来到<color=#FFB400FF>战术少女宿舍</color>！//n在宿舍中可以自由<color=#FFB400FF>布置家具</color>，并与人形进行<color=#FFB400FF>互动</color>。(todo),,0
 GUIDE,140003,<color=#FFB400FF>Unavailable</color> status,,0
 GUIDE,140004,<color=#FFB400FF>Available</color> status,,0
 GUIDE,140005,Resupply nodes can provide a resupply once. Ot will turn into a normal node after use.//n,,0
@@ -5241,7 +5244,7 @@ GUIDE,140085,Cafe is the place to be for T-Dolls to relax and chat. You can lear
 GUIDE,140086,Press the <color=#FFB400FF>Gramophone</color> to select and view your T-Dolls' stories under a specific subject of your choice.,,0
 GUIDE,140087,You can view handwritten notes from T-Dolls in the notebook to the left side of counter.,,0
 GUIDE,140088,Press the file folder on the bottom right corner of the notebook to view your collection rewards. You can receive rewards through unlocking costume stories.,,0
-GUIDE,140089,Units in <color=#FF0000FF>red</color> are enemy forces like the Sangvis Ferri. //n Units in <color=#FFC33EFF>yellow</color> are neutral forces. They attack both us and the S.F. forces.,,0
+GUIDE,140089,呈现<color=#FF0000FF>红色</color>的为敌对势力。请注意，现在的他们和铁血没有什么区别。//n呈现<color=#FFC33EFF>黄色</color>的为中立势力。此时我方和铁血均为他们的攻击目标。(todo),,0
 GUIDE,140090,Echelon members have not equipped Night Battle Equipment or AP Ammo,,0
 GUIDE,140091,Commander//c the entrance to the T-Dolls' Memoirs is here.,,0
 GUIDE,140092,The progress in viewing the T-Doll's story can be viewed here.,,0
@@ -6259,7 +6262,7 @@ THEATER,210178,Assault reward,,0
 THEATER,210179,Clear reward,,0
 THEATER,210180,Already sent,,0
 THEATER,210181,Uncompleted,,0
-THEATER,210182,When a Theater has been cleared//c all Commanders <color=#FFB400FF>that have participated in an Assault</color> will receive a reward through the mail,,1
+THEATER,210182,当某个战区被完全攻略时，向<color=#FFB400FF>所有攻略中</color>的玩家发放奖励(参与过任意一次攻略即可领取)奖励通过邮件统一发放(todo),,1
 THEATER,210183,<color=#ffb400ff>{0}</color> <color=#ffb400ff>safe withdrawals</color> left (refunds your raid count),,0
 THEATER,210184,Investigation Report,,0
 THEATER,210185,Investigation Statistics,,0
@@ -6509,7 +6512,7 @@ VA11HALLA,230004,Age,,0
 VA11HALLA,230005,Mix,,0
 VA11HALLA,230006,*If you stop before the shaker begins shaking vigorously//c it'll count as mixing. Stopping after it shakes vigorously will count as blending.,,0
 VA11HALLA,230007,Recipe Book,,0
-VA11HALLA,230008,Welcome back//c Jill,,0
+VA11HALLA,230008,欢迎回来，Jill(todo),,0
 VA11HALLA,230009,Use the navigation bar//nto start browsing.,,0
 VA11HALLA,230010,Serve,,0
 VA11HALLA,230011,Current Intel Points are insufficient//c would you like to proceed to VA-11 Hall-A to obtain more?,,0
@@ -6752,7 +6755,7 @@ UNITED_FORCE,240108,Stronghold room count +{0},,0
 UNITED_FORCE,240109,New facilities: {0},,0
 UNITED_FORCE,240110,Company name: {0},,0
 UNITED_FORCE,240111,Please do not send messages that contain sensitive words,,0
-UNITED_FORCE,240112,Welcome Commander <color=#fFBB00FF>{0}</color> to <color=#fFBB00FF>{1}</color>,,0
+UNITED_FORCE,240112,欢迎指挥官<color=#fFBB00FF>{0}</color>加入<color=#fFBB00FF>{1}</color>(todo),,0
 UNITED_FORCE,240113,Commander <color=#fFBB00FF>{0}</color> has been appointed as a vice-captain,,0
 UNITED_FORCE,240114,Commander <color=#fFBB00FF>{0}</color> has been expelled from the company,,0
 UNITED_FORCE,240115,Company captain <color=#fFBB00FF>{0}</color> has been impeached due to a long period of inactivity//c <color=#fFBB00FF>{1}</color> is now the new company captain,,0

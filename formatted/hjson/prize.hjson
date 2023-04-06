@@ -46289,6 +46289,62 @@
     commander_uniform: "5052"
   }
   {
+    id: 95111
+    name: 巴巴罗萨
+    content: prize-20095111
+    send_limit: 1
+    commander_uniform: "5111"
+  }
+  {
+    id: 95112
+    name: 卡塔琳娜
+    content: prize-20095112
+    send_limit: 1
+    commander_uniform: "5112"
+  }
+  {
+    id: 95120
+    name: 悬赏尊位
+    content: prize-20095120
+    send_limit: 1
+    commander_uniform: "5120"
+  }
+  {
+    id: 95131
+    name: 劈波斩浪
+    content: prize-20095131
+    send_limit: 1
+    commander_uniform: "5131"
+  }
+  {
+    id: 95132
+    name: 呼啸海风
+    content: prize-20095132
+    send_limit: 1
+    commander_uniform: "5132"
+  }
+  {
+    id: 95140
+    name: 大洋混迹指南
+    content: prize-20095140
+    send_limit: 1
+    commander_uniform: "5140"
+  }
+  {
+    id: 95151
+    name: 朽木桅杆
+    content: prize-20095151
+    send_limit: 1
+    commander_uniform: "5151"
+  }
+  {
+    id: 95152
+    name: 破碎甲板
+    content: prize-20095152
+    send_limit: 1
+    commander_uniform: "5152"
+  }
+  {
     id: 99999
     name: 新人首充奖励
     mp: 1000
@@ -46346,6 +46402,470 @@
     item_ids: 44-160
     content: prize-20100004
     icon: Bumdle_indigo
+  }
+  {
+    id: 104001
+    name: 战区3000积分奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    content: prize-20104001
+    icon: Bumdle_red
+  }
+  {
+    id: 104002
+    name: 战区30000积分奖励
+    item_ids: 309-1,506-100,9-50
+    content: prize-20104002
+    icon: CentreDataMK47
+  }
+  {
+    id: 104003
+    name: 战区60000积分奖励
+    item_ids: 309-2,46-100
+    content: prize-20104003
+    icon: CentreDataMK47
+  }
+  {
+    id: 104004
+    name: 战区90000积分奖励
+    item_ids: 309-3,46-100,506-100
+    coins: 1-500
+    content: prize-20104004
+    icon: CentreDataMK47
+  }
+  {
+    id: 104005
+    name: 战区120000积分奖励
+    item_ids: 8-1,41-20,9-50
+    content: prize-20104005
+    icon: Bumdle_red
+  }
+  {
+    id: 104006
+    name: 战区155000积分奖励
+    item_ids: 309-4,46-200,506-100
+    content: prize-20104006
+    icon: CentreDataMK47
+  }
+  {
+    id: 104007
+    name: 战区190000积分奖励
+    item_ids: 46-200
+    coins: 2-500
+    content: prize-20104007
+    icon: Bumdle_red
+  }
+  {
+    id: 104008
+    name: 战区225000积分奖励
+    item_ids: 309-5,506-100,44-200,9-50
+    content: prize-20104008
+    icon: CentreDataMK47
+  }
+  {
+    id: 104009
+    name: 战区260000积分奖励
+    item_ids: 8-1
+    coins: 3-500
+    content: prize-20104009
+    icon: Bumdle_red
+  }
+  {
+    id: 104010
+    name: 战区300000积分奖励
+    item_ids: 309-5,46-200,506-100
+    content: prize-20104010
+    icon: CentreDataMK47
+  }
+  {
+    id: 104011
+    name: 战区340000积分奖励
+    item_ids: 119-1,41-50
+    content: prize-20104011
+    icon: Bumdle_red
+  }
+  {
+    id: 104012
+    name: 战区380000积分奖励
+    item_ids: 9-100,46-300,10604-5
+    content: prize-20104012
+    icon: Bumdle_red
+  }
+  {
+    id: 104013
+    name: 战区430000积分奖励
+    item_ids: 46-300,506-200,10604-5
+    content: prize-20104013
+    icon: Bumdle_red
+  }
+  {
+    id: 104014
+    name: 战区480000积分奖励
+    item_ids: 8-1,44-300,10604-5
+    content: prize-20104014
+    icon: Bumdle_red
+  }
+  {
+    id: 104101
+    name: 战区积分排行冠军奖励
+    item_ids: 309-40,9-100,46-500,506-500
+    coins: 1-500,2-500,3-500
+    content: prize-20104101
+    icon: Bumdle_red
+  }
+  {
+    id: 104102
+    name: 战区积分排行亚军奖励
+    item_ids: 309-39,9-95,46-475,506-475
+    coins: 1-475,2-475,3-475
+    content: prize-20104102
+    icon: Bumdle_red
+  }
+  {
+    id: 104103
+    name: 战区积分排行季军奖励
+    item_ids: 309-38,9-90,46-450,506-450
+    coins: 1-450,2-450,3-450
+    content: prize-20104103
+    icon: Bumdle_red
+  }
+  {
+    id: 104104
+    name: 战区积分排行第4名奖励
+    item_ids: 309-37,9-85,46-425,506-425
+    coins: 1-425,2-425,3-425
+    content: prize-20104104
+    icon: Bumdle_red
+  }
+  {
+    id: 104105
+    name: 战区积分排行第5名奖励
+    item_ids: 309-36,9-80,46-400,506-400
+    coins: 1-400,2-400,3-400
+    content: prize-20104105
+    icon: Bumdle_red
+  }
+  {
+    id: 104106
+    name: 战区积分排行第6名奖励
+    item_ids: 309-35,9-75,46-375,506-375
+    coins: 1-375,2-375,3-375
+    content: prize-20104106
+    icon: Bumdle_red
+  }
+  {
+    id: 104107
+    name: 战区积分排行第7名奖励
+    item_ids: 309-35,9-70,46-350,506-350
+    coins: 1-350,2-350,3-350
+    content: prize-20104107
+    icon: Bumdle_red
+  }
+  {
+    id: 104108
+    name: 战区积分排行第8名奖励
+    item_ids: 309-35,9-65,46-325,506-325
+    coins: 1-325,2-325,3-325
+    content: prize-20104108
+    icon: Bumdle_red
+  }
+  {
+    id: 104109
+    name: 战区积分排行第9名奖励
+    item_ids: 309-35,9-60,46-300,506-300
+    coins: 1-300,2-300,3-300
+    content: prize-20104109
+    icon: Bumdle_red
+  }
+  {
+    id: 104110
+    name: 战区积分排行第10名奖励
+    item_ids: 309-35,9-55,46-275,506-275
+    coins: 1-275,2-275,3-275
+    content: prize-20104110
+    icon: Bumdle_red
+  }
+  {
+    id: 104111
+    name: 战区积分排行第11~100名奖励
+    item_ids: 309-32,9-50,46-250,506-250
+    coins: 1-250,2-250,3-250
+    content: prize-20104111
+    icon: Bumdle_red
+  }
+  {
+    id: 104112
+    name: 战区积分排行1%~5%奖励
+    item_ids: 309-30,9-45,46-225,506-225
+    coins: 1-225,2-225,3-225
+    content: prize-20104112
+    icon: Bumdle_red
+  }
+  {
+    id: 104113
+    name: 战区积分排行6%~10%奖励
+    item_ids: 309-25,9-40,46-200,506-200
+    coins: 1-200,2-200,3-200
+    content: prize-20104113
+    icon: Bumdle_red
+  }
+  {
+    id: 104114
+    name: 战区积分排行11%~15%奖励
+    item_ids: 309-20,9-35,46-175,506-175
+    coins: 1-175,2-175,3-175
+    content: prize-20104114
+    icon: Bumdle_red
+  }
+  {
+    id: 104115
+    name: 战区积分排行16%~20%奖励
+    item_ids: 309-15,9-30,46-150,506-150
+    coins: 1-150,2-150,3-150
+    content: prize-20104115
+    icon: Bumdle_red
+  }
+  {
+    id: 104116
+    name: 战区积分排行21%~30%奖励
+    item_ids: 309-10,9-25,46-125,506-125
+    coins: 1-125,2-125,3-125
+    content: prize-20104116
+    icon: Bumdle_red
+  }
+  {
+    id: 104117
+    name: 战区积分排行31%~40%奖励
+    item_ids: 309-5,9-20,46-100,506-100
+    coins: 1-100,2-100,3-100
+    content: prize-20104117
+    icon: Bumdle_red
+  }
+  {
+    id: 104118
+    name: 战区积分排行41%~50%奖励
+    item_ids: 309-2,9-15,46-75,506-75
+    coins: 1-75,2-75,3-75
+    content: prize-20104118
+    icon: Bumdle_red
+  }
+  {
+    id: 104119
+    name: 战区积分排行51%~100%奖励
+    item_ids: 9-10,46-50,506-50
+    coins: 1-50,2-50,3-50
+    content: prize-20104119
+    icon: Bumdle_red
+  }
+  {
+    id: 104201
+    name: 战区最终关排行冠军奖励
+    mp: 10000
+    ammo: 10000
+    mre: 10000
+    part: 10000
+    item_ids: 120-12
+    content: prize-20104201
+    icon: Bumdle_red
+  }
+  {
+    id: 104202
+    name: 战区最终关排行亚军奖励
+    mp: 9500
+    ammo: 9500
+    mre: 9500
+    part: 9500
+    item_ids: 120-11
+    content: prize-20104202
+    icon: Bumdle_red
+  }
+  {
+    id: 104203
+    name: 战区最终关排行季军奖励
+    mp: 9000
+    ammo: 9000
+    mre: 9000
+    part: 9000
+    item_ids: 120-10
+    content: prize-20104203
+    icon: Bumdle_red
+  }
+  {
+    id: 104204
+    name: 战区最终关排行第4名奖励
+    mp: 8500
+    ammo: 8500
+    mre: 8500
+    part: 8500
+    item_ids: 120-9
+    content: prize-20104204
+    icon: Bumdle_red
+  }
+  {
+    id: 104205
+    name: 战区最终关排行第5名奖励
+    mp: 8000
+    ammo: 8000
+    mre: 8000
+    part: 8000
+    item_ids: 120-8
+    content: prize-20104205
+    icon: Bumdle_red
+  }
+  {
+    id: 104206
+    name: 战区最终关排行第6名奖励
+    mp: 7500
+    ammo: 7500
+    mre: 7500
+    part: 7500
+    item_ids: 120-7
+    content: prize-20104206
+    icon: Bumdle_red
+  }
+  {
+    id: 104207
+    name: 战区最终关排行第7名奖励
+    mp: 7000
+    ammo: 7000
+    mre: 7000
+    part: 7000
+    item_ids: 120-6
+    content: prize-20104207
+    icon: Bumdle_red
+  }
+  {
+    id: 104208
+    name: 战区最终关排行第8名奖励
+    mp: 6500
+    ammo: 6500
+    mre: 6500
+    part: 6500
+    item_ids: 120-5
+    content: prize-20104208
+    icon: Bumdle_red
+  }
+  {
+    id: 104209
+    name: 战区最终关排行第9名奖励
+    mp: 6000
+    ammo: 6000
+    mre: 6000
+    part: 6000
+    item_ids: 120-4
+    content: prize-20104209
+    icon: Bumdle_red
+  }
+  {
+    id: 104210
+    name: 战区最终关排行第10名奖励
+    mp: 5500
+    ammo: 5500
+    mre: 5500
+    part: 5500
+    item_ids: 120-3
+    content: prize-20104210
+    icon: Bumdle_red
+  }
+  {
+    id: 104211
+    name: 战区最终关排行第11~100名奖励
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 120-2
+    content: prize-20104211
+    icon: Bumdle_red
+  }
+  {
+    id: 104212
+    name: 战区最终关排行1%~5%奖励
+    mp: 4500
+    ammo: 4500
+    mre: 4500
+    part: 4500
+    item_ids: 120-1
+    content: prize-20104212
+    icon: Bumdle_red
+  }
+  {
+    id: 104213
+    name: 战区最终关排行6%~10%奖励
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    item_ids: 120-1
+    content: prize-20104213
+    icon: Bumdle_red
+  }
+  {
+    id: 104214
+    name: 战区最终关排行11%~15%奖励
+    mp: 3500
+    ammo: 3500
+    mre: 3500
+    part: 3500
+    item_ids: 120-1
+    content: prize-20104214
+    icon: Bumdle_red
+  }
+  {
+    id: 104215
+    name: 战区最终关排行16%~20%奖励
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 120-1
+    content: prize-20104215
+    icon: Bumdle_red
+  }
+  {
+    id: 104216
+    name: 战区最终关排行21%~30%奖励
+    mp: 2500
+    ammo: 2500
+    mre: 2500
+    part: 2500
+    item_ids: 120-1
+    content: prize-20104216
+    icon: Bumdle_red
+  }
+  {
+    id: 104217
+    name: 战区最终关排行31%~40%奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    item_ids: 120-1
+    content: prize-20104217
+    icon: Bumdle_red
+  }
+  {
+    id: 104218
+    name: 战区最终关排行41%~50%奖励
+    mp: 1500
+    ammo: 1500
+    mre: 1500
+    part: 1500
+    item_ids: 120-1
+    content: prize-20104218
+    icon: Bumdle_red
+  }
+  {
+    id: 104219
+    name: 战区最终关排行51%~100%奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    content: prize-20104219
+    icon: Bumdle_red
   }
   {
     id: 110001
