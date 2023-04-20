@@ -147,6 +147,7 @@ patch3020=
 "3020/HomeController",
 "3020/FairyStateSkillController",
 "3020/SangvisGunStateBaseInfoController",
+"3020/ExchangeShopItemController",
 "3020/BattleEvent",
 "3020/SpecialMissionInfoController",
 "3020/DeploymentBuildSkillItem",

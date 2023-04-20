@@ -425,8 +425,10 @@
   }, {
     "parameter_name": "fix_time_squad_noHP", "parameter_type": "string", "parameter_value": "20;1440;3600", 
     "client_require": "1"
+  }, {
+    "parameter_name": "force_open_mission", "parameter_type": "string", "parameter_value": "10160,10921,10933", 
+    "client_require": "1"
   }, 
-  {"parameter_name": "force_open_mission", "parameter_type": "string", "parameter_value": "10160", "client_require": "1"}, 
   {"parameter_name": "foreign_switch", "parameter_type": "string", "parameter_value": "0,0,0", "client_require": "1"}, 
   {
     "parameter_name": "friends_coefficients", "parameter_type": "string", "parameter_value": "10,10", "client_require": "1"
