@@ -3387,6 +3387,572 @@
     no_battle_damage: -1
   }
   {
+    id: 7001
+    name: 突击A组
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7002
+    name: 火力组
+    guns: "70006,70007,70008,70009,70010"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7003
+    name: 突击B组
+    guns: "70011,70012,70013,70014,70015"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7004
+    name: 侦查A组
+    guns: "70016,70017,70018,70019,70020"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7005
+    name: 侦查B组
+    guns: "70021,70022,70023,70024,70025"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7006
+    name: 16小队
+    guns: "70026,70027,70028,70029,70030"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7007
+    name: 爆破组
+    guns: "70031,70032,70033,70034,70035"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7008
+    name: 外派小队
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7009
+    name: 外派小队
+    guns: "70006,70007,70008,70009,70010"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7010
+    name: 外派小队
+    guns: "70011,70012,70013,70014,70015"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7011
+    name: 外派小队
+    guns: "70016,70017,70018,70019,70020"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7012
+    name: 外派小队
+    guns: "70021,70022,70023,70024,70025"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7013
+    name: 外派小队
+    guns: "70026,70027,70028,70029,70030"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7014
+    name: 外派小队
+    guns: "70031,70032,70033,70034,70035"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7015
+    name: 火炮观察员
+    guns: "70031,70032,70033,70034,70035"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7101
+    name: 突击A组
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "1,2,23"
+    is_beyond_start: 1
+  }
+  {
+    id: 7102
+    name: 突击A组
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "10"
+    is_beyond_start: 1
+  }
+  {
+    id: 7103
+    name: 侦查组
+    guns: "70021,70022,70023,70024,70025"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "12"
+    is_beyond_start: 1
+  }
+  {
+    id: 7104
+    name: 突击A组
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "14"
+    is_beyond_start: 1
+  }
+  {
+    id: 7105
+    name: 侦查A组
+    guns: "70021,70022,70023,70024,70025"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "11"
+    is_beyond_start: 1
+  }
+  {
+    id: 7106
+    name: 火力组
+    guns: "70006,70007,70008,70009,70010"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "3,24"
+    is_beyond_start: 1
+  }
+  {
+    id: 7107
+    name: 突击A组
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "4"
+    is_beyond_start: 1
+  }
+  {
+    id: 7108
+    name: 16小队
+    guns: "70026,70027,70028,70029,70030"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "5"
+    is_beyond_start: 1
+  }
+  {
+    id: 7109
+    name: 突击B组
+    guns: "70011,70012,70013,70014,70015"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "6,25"
+    is_beyond_start: 1
+  }
+  {
+    id: 7110
+    name: 侦查B组
+    guns: "70016,70017,70018,70019,70020"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "8"
+    is_beyond_start: 1
+  }
+  {
+    id: 7111
+    name: 侦查A组
+    guns: "70021,70022,70023,70024,70025"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "9"
+    is_beyond_start: 1
+  }
+  {
+    id: 7112
+    name: 突击A组
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "7"
+    is_beyond_start: 1
+  }
+  {
+    id: 7113
+    name: 火力组
+    guns: "70006,70007,70008,70009,70010"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "13"
+    is_beyond_start: 1
+  }
+  {
+    id: 7201
+    name: 重装关对少重装
+    guns: "70021,70022,70023,70024,70025"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_squad: "1,5,7"
+    is_beyond_start: 1
+  }
+  {
+    id: 7202
+    name: 重装关对多重装
+    guns: "70001,70002,70003,70004,70005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_squad: "2,3,4,6"
+    is_beyond_start: 1
+  }
+  {
+    id: 7207
+    name: 爆破组
+    guns: "70066,70067,70068,70069,70070"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7208
+    name: 外派小队
+    guns: "70036,70037,70038,70039,70040"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7209
+    name: 外派小队
+    guns: "70041,70042,70043,70044,70045"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7210
+    name: 外派小队
+    guns: "70046,70047,70048,70049,70050"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7211
+    name: 外派小队
+    guns: "70051,70052,70053,70054,70055"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7212
+    name: 外派小队
+    guns: "70056,70057,70058,70059,70060"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7213
+    name: 外派小队
+    guns: "70061,70062,70063,70064,70065"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7214
+    name: 外派小队
+    guns: "70066,70067,70068,70069,70070"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 7301
+    name: 突击A组
+    guns: "70036,70037,70038,70039,70040"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "1,2,23"
+    is_beyond_start: 1
+  }
+  {
+    id: 7302
+    name: 突击A组
+    guns: "70036,70037,70038,70039,70040"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "10"
+    is_beyond_start: 1
+  }
+  {
+    id: 7303
+    name: 侦查A组
+    guns: "70056,70057,70058,70059,70060"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "12"
+    is_beyond_start: 1
+  }
+  {
+    id: 7304
+    name: 突击A组
+    guns: "70036,70037,70038,70039,70040"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "14"
+    is_beyond_start: 1
+  }
+  {
+    id: 7305
+    name: 侦查A组
+    guns: "70056,70057,70058,70059,70060"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "11"
+    is_beyond_start: 1
+  }
+  {
+    id: 7306
+    name: 火力组
+    guns: "70041,70042,70043,70044,70045"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "3,24"
+    is_beyond_start: 1
+  }
+  {
+    id: 7307
+    name: 突击A组
+    guns: "70036,70037,70038,70039,70040"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "4"
+    is_beyond_start: 1
+  }
+  {
+    id: 7308
+    name: 16小队
+    guns: "70061,70062,70063,70064,70065"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "5"
+    is_beyond_start: 1
+  }
+  {
+    id: 7309
+    name: 突击B组
+    guns: "70046,70047,70048,70049,70050"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "6,25"
+    is_beyond_start: 1
+  }
+  {
+    id: 7310
+    name: 侦查B组
+    guns: "70051,70052,70053,70054,70055"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "8"
+    is_beyond_start: 1
+  }
+  {
+    id: 7311
+    name: 侦查A组
+    guns: "70056,70057,70058,70059,70060"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "9"
+    is_beyond_start: 1
+  }
+  {
+    id: 7312
+    name: 突击A组
+    guns: "70036,70037,70038,70039,70040"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "7"
+    is_beyond_start: 1
+  }
+  {
+    id: 7313
+    name: 火力组
+    guns: "70041,70042,70043,70044,70045"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    mapping_fairy: "13"
+    is_beyond_start: 1
+  }
+  {
     id: 10001
     name: 正规军
     guns: "100011,100012,100013,100014,100015"
@@ -4705,6 +5271,16 @@
     no_battle_damage: -1
   }
   {
+    id: 78001
+    name: 格里芬
+    guns: "1084,1085,1086,1087,1088"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
     id: 90001
     code: profilePic_AI
     ui_image_icon: ally0
@@ -5798,6 +6374,7 @@
     betray_result_enemy: "570504"
     enemy_panel_type: 1
     no_battle_damage: -1
+    mapping_guns: 引导用
   }
   {
     id: 316001
@@ -15055,6 +15632,46 @@
     ai_content: 0;0;0
     no_battle_damage: -1
     sangvis: 6000002-13,6000005-18,6000003-9,6000004-7
+  }
+  {
+    id: 6000027
+    name: 炼金术士
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:4,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    sangvis: 6000007-18,6000006-13,6000008-9,6000009-7
+  }
+  {
+    id: 6000028
+    name: AR队
+    guns: "10005,10006,10007,10008,10009"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:2,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6000029
+    name: RF队
+    guns: "10010,10011,10012,10013,10014"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:2,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6000030
+    name: MG队
+    guns: "10015,10016,10017,10018,10019"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:2,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
   }
   {
     id: 6380101

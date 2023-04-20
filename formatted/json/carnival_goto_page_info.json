@@ -27,7 +27,7 @@
   { "id": "30" , "type": "fix_gun"                   , "goto_page": "Reinforcement-0"      }, 
   { "id": "31" , "type": "gasha_count"               , "goto_page": "Dorm-0"               }, 
   { "id": "32" , "type": "gift giving"               , "goto_page": "Dorm-0"               }, 
-  { "id": "33" , "type": "gun_level_up_count"        , "goto_page": "MissionSelection-0"   }, 
+  { "id": "33" , "type": "gun_level_up_count"        , "goto_page": "StoreRoom-0"          }, 
   { "id": "34" , "type": "mission_common_win"        , "goto_page": "MissionSelection-0"   }, 
   { "id": "35" , "type": "mission_duplicate_type1"   , "goto_page": "MissionSelection-2"   }, 
   { "id": "36" , "type": "mission_duplicate_type2"   , "goto_page": "MissionSelection-2"   }, 
@@ -344,5 +344,7 @@
   { "id": "380", "type": "develop_fairy"             , "goto_page": "Factory-5"            }, 
   { "id": "381", "type": "heart_collect"             , "goto_page": "Dorm-0"               }, 
   { "id": "382", "type": "gift"                      , "goto_page": "Dorm-0"               }, 
-  { "id": "383", "type": "like"                      , "goto_page": "Dorm-0"               }
+  { "id": "383", "type": "like"                      , "goto_page": "Dorm-0"               }, 
+  { "id": "384", "type": "daily_game_ready"          , "goto_page": "MissionSelection-4"   }, 
+  { "id": "385", "type": "daily_game"                , "goto_page": "dailyGame-0"          }
 ]

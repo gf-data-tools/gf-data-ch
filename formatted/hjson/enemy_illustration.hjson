@@ -1033,7 +1033,7 @@
     speed_rank: 1
     range_rank: 3
     counter: 拥有较高的护甲和力场值，具有较高的减伤能力，会使用多枚榴弹进行轰炸。请注意使用具有穿甲能力的人形在接战前尽可能进行打击，或使用护盾技能抵御榴弹的轰炸。重装部队的支援将使战斗更加有利。
-    character: "302,1003,309,312,319"
+    character: "1003,302,309,312,319"
     enemy_skill: "28,29"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000048
@@ -1054,7 +1054,7 @@
     speed_rank: 3
     range_rank: 4
     counter: 拥有高额的力场值和较高的护甲，具有优异的减伤能力，会使用突进碾压的手段冲击我方阵型。请注意及时指挥人形躲避。重装部队的支援将使战斗更加有利。
-    character: "302,1001,309,312"
+    character: "1001,302,309,312"
     enemy_skill: "31,32"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000049
@@ -1160,7 +1160,7 @@
     speed_rank: 3
     range_rank: 5
     counter: 该单位能力均衡，同时会持续给我方造成小额伤害，不适合长时间交战，请注意提高梯队的整体作战能力应对。
-    character: "1001,301,302"
+    character: "1001,302,301"
     enemy_skill: "57,58"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000054
@@ -1356,7 +1356,7 @@
     speed_rank: 2
     range_rank: 2
     counter: 拥有一定的力场值和护甲，起初的减伤能力一般，但是后续会不断恢复和增加力场值，在破防能力不足的情况下不适合长时间与之交战。建议在有重装部队支援的前提下进行战斗。
-    character: "302,309,312,316"
+    character: "309,302,312,316"
     enemy_skill: "34,35,140"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000063
@@ -1680,7 +1680,7 @@
     speed_rank: 5
     range_rank: 3
     counter: 具有一般程度的护甲，请注意梯队的穿甲能力、提升前排人形的防御能力,以及面对该单位强力的炮击时注意移动被锁定的单位,不让其后排的单位受到波及。
-    character: "1001,302,1003,309,317,316"
+    character: "1001,1003,302,309,317,316"
     enemy_skill: "52,53"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000079
@@ -3535,7 +3535,7 @@
     speed_rank: 5
     range_rank: 5
     counter: 该单位火力十足的同时还拥有强大的防护能力，注意合适的集火时机。
-    character: "1001,302,320"
+    character: "1001,320,302"
     enemy_skill: "174,175,176"
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000173
@@ -3985,6 +3985,112 @@
     enemy_skill: "179,116,180,181,182,183"
     launch_time: 2035-5-20 00:00:00
     extra: enemy_illustration-40000194
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 195
+    name: 稻草人
+    type: 1
+    code: Scarecrow
+    introduce: 擅长收集和分析情报，并不擅长正面作战，在铁血人形中地位较低。理性派，无口毒舌，忠于职守，鄙夷感性，面对感情丰富却只懂得服从的格里芬人形充满优越感。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: 游荡在灰域的敌人，请谨慎应对!
+    character: "1001,306,307"
+    enemy_skill: "184,185,186"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000195
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 196
+    name: 建筑师
+    type: 1
+    code: BossArchitect
+    introduce: 擅长远程破坏和火力支援，作战能力很强，通常独来独往。活泼开朗的没头脑元气少女，什么时候都兴高采烈，对格里芬也没有敌对意识，对于铁血只能最低限度地服从命令，但是对轰炸和破坏十分热心，所以作为敌人仍然十分危险。
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: 游荡在灰域的敌人，请谨慎应对!
+    character: "1001,319"
+    enemy_skill: "187,188,189"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000196
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 197
+    name: 干扰者
+    type: 1
+    code: Intruder
+    introduce: 负责提供作战策略，也擅长破解和干扰工作，可以直接指挥作战人形，是稍高级的人形，直接对计量官负责。优雅温和的言行背后，令人感到的是巨大的空洞，喜欢人类的戏剧，可能是希望从中找到自己的个性。
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: 游荡在灰域的敌人，请谨慎应对!
+    character: "1001,306"
+    enemy_skill: "190,191,192"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000197
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 198
+    name: 破坏者
+    type: 1
+    code: Destroyer
+    introduce: 擅长爆破任务，解除炸弹也是专家级的，作战能力也不错，和炼金术士有时会搭档。平时高傲，毒舌，实际上是个傲娇，有点小孩子脾气，逼急了会哭鼻子，十分在意自己的身高。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: 游荡在灰域的敌人，请谨慎应对!
+    character: "1001,319"
+    enemy_skill: "193,194,195"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000198
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 199
+    name: 法官
+    type: 1
+    code: Justice
+    introduce: 偏向指挥能力，负责铁血总部的防御和安全系统，相当于伊莱莎的侍卫，只会听从伊莱莎个人的命令，是蝴蝶事件之后才制造的人形，整天面对梦想家很头疼。严肃古板，充满军人的威严和风范，对伊莱莎绝对忠诚，但个子比较矮小，让人觉得缺乏气势，提出这一点的人无论敌我都会倒大霉。
+    forces: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: 游荡在灰域的敌人，请谨慎应对!
+    character: "1001,309,307"
+    enemy_skill: "196,197,198"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000199
     spine_scale: "70,70,1"
   }
   {

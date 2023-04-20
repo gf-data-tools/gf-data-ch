@@ -519,7 +519,7 @@
     "id": 96, "mission_id": "10002,10019", 
     "description": "HK416和G11逃脱了铁血头目衔尾蛇布置的陷阱，与UMP45和9会合后，开始寻找知晓干扰器下落的人员。", 
     "scripts": "-1-2-1,-1-2-2First,-1-2-2End", "campaign": -1, "bgm": "BGM_Frontline", "title": "角先破解", "is_util": 1, 
-    "start": "-1-2-1", "round": "", "point": "", "first": "-1-2-2First", "mid": "", "end": "-1-2-2First", "fail": "", 
+    "start": "-1-2-1", "round": "", "point": "", "first": "-1-2-2First", "mid": "", "end": "-1-2-2End", "fail": "", 
     "step_start_story": "", "step_end_story": ""
   }, {
     "id": 97, "mission_id": "10003,10020", 
@@ -1014,7 +1014,7 @@
   }, {
     "id": 201, "mission_id": "10046", "description": "story_util-10000201", "scripts": "", "campaign": -14, 
     "bgm": "BGM_Frontline", "title": "禁止入内", "is_util": 0, "start": "-14-4-1", "round": "", "point": "", 
-    "first": "-14-4-2End", "mid": "", "end": "-14-4-2End", "fail": "", "step_start_story": "", "step_end_story": ""
+    "first": "-14-4-2First", "mid": "", "end": "-14-4-2End", "fail": "", "step_start_story": "", "step_end_story": ""
   }, {
     "id": 202, "mission_id": "10047", "description": "story_util-10000202", "scripts": "", "campaign": -15, 
     "bgm": "BGM_Frontline", "title": "不祥的雷电", "is_util": 0, "start": "-15-1-1", "round": "", "point": "", 
@@ -4973,5 +4973,13 @@
     "id": 1159, "mission_id": "11313", "description": "story_util-10001159", "scripts": "", "campaign": -57, "bgm": "", 
     "title": "直至太阳下山", "is_util": 0, "start": "-57-W7-2", "round": "", "point": "", "first": "", "mid": "", "end": "", 
     "fail": "", "step_start_story": "", "step_end_story": ""
+  }, {
+    "id": 1160, "mission_id": "580005", "description": "story_util-10001160", "scripts": "", "campaign": -404, "bgm": "", 
+    "title": "guide1", "is_util": 0, "start": "1:dailybonusguide-01", "round": "", "point": "", "first": "", "mid": "", 
+    "end": "", "fail": "", "step_start_story": "", "step_end_story": ""
+  }, {
+    "id": 1161, "mission_id": "580006", "description": "story_util-10001161", "scripts": "", "campaign": -404, "bgm": "", 
+    "title": "guide1", "is_util": 0, "start": "1:dailybonusguide-02", "round": "", "point": "", "first": "", "mid": "", 
+    "end": "", "fail": "", "step_start_story": "", "step_end_story": ""
   }
 ]

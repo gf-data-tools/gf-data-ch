@@ -1318,7 +1318,7 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "3"
@@ -1337,7 +1337,7 @@
     skill_up_time: 7200
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "3.5"
@@ -1356,7 +1356,7 @@
     skill_up_time: 21600
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "4"
@@ -1375,7 +1375,7 @@
     skill_up_time: 36000
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "4.5"
@@ -1394,7 +1394,7 @@
     skill_up_time: 50400
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "5"
@@ -1413,7 +1413,7 @@
     skill_up_time: 72000
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "6"
@@ -1432,7 +1432,7 @@
     skill_up_time: 93600
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "7"
@@ -1451,7 +1451,7 @@
     skill_up_time: 115200
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "8"
@@ -1470,7 +1470,7 @@
     skill_up_time: 144000
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "9"
@@ -1489,7 +1489,7 @@
     skill_up_time: 172800
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "1"
+    spot_echelon: "1,301"
     cd_time: 1
     consumption: 2
     data_pool: "10"
@@ -3920,9 +3920,9 @@
   {
     id: 2201
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的5%。
+    lvup_description: 生命值回复:5%
     skill_group_id: 22
     level: 1
     spot_type: "-1"
@@ -3938,9 +3938,9 @@
   {
     id: 2202
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的7%。
+    lvup_description: 生命值回复:7%
     skill_group_id: 22
     level: 2
     train_coin_type: 1
@@ -3959,9 +3959,9 @@
   {
     id: 2203
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的8%。
+    lvup_description: 生命值回复:8%
     skill_group_id: 22
     level: 3
     train_coin_type: 1
@@ -3980,9 +3980,9 @@
   {
     id: 2204
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的10%。
+    lvup_description: 生命值回复:10%
     skill_group_id: 22
     level: 4
     train_coin_type: 1
@@ -4001,9 +4001,9 @@
   {
     id: 2205
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的12%。
+    lvup_description: 生命值回复:12%
     skill_group_id: 22
     level: 5
     train_coin_type: 2
@@ -4022,9 +4022,9 @@
   {
     id: 2206
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的13%。
+    lvup_description: 生命值回复:13%
     skill_group_id: 22
     level: 6
     train_coin_type: 2
@@ -4043,9 +4043,9 @@
   {
     id: 2207
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的15%。
+    lvup_description: 生命值回复:15%
     skill_group_id: 22
     level: 7
     train_coin_type: 2
@@ -4064,9 +4064,9 @@
   {
     id: 2208
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的17%。
+    lvup_description: 生命值回复:17%
     skill_group_id: 22
     level: 8
     train_coin_type: 2
@@ -4085,9 +4085,9 @@
   {
     id: 2209
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的18%。
+    lvup_description: 生命值回复:18%
     skill_group_id: 22
     level: 9
     train_coin_type: 3
@@ -4106,9 +4106,9 @@
   {
     id: 2210
     name: 修理妖精
-    code: Landmines
-    description: 描述待更新
-    lvup_description: 描述待更新
+    code: Doctor
+    description: 回复范围1以内友方梯队中各个单位最大生命值的20%。
+    lvup_description: 生命值回复:20%
     skill_group_id: 22
     level: 10
     train_coin_type: 3
@@ -4445,6 +4445,248 @@
     spot_echelon: "-1"
     cd_time_type: 1
     mission_buff_add: 20301:1,20302:1
+  }
+  {
+    id: 70001
+    name: 设施阻挡buff
+    description: mission_skill_config-20070001
+    lvup_description: mission_skill_config-30070001
+    skill_group_id: 70001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    special_spot_add: 70001:1
+    subsidiary_mission_skill: "72001"
+  }
+  {
+    id: 70011
+    name: AI识别
+    description: mission_skill_config-20070011
+    lvup_description: mission_skill_config-30070011
+    skill_group_id: 70011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    mission_buff_add: 7000001:1
+    subsidiary_mission_skill: "700111"
+  }
+  {
+    id: 70012
+    name: 日常-扣残血
+    description: mission_skill_config-20070012
+    lvup_description: mission_skill_config-30070012
+    skill_group_id: 70012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    data_pool: "20"
+    special_spot_add: 70012:1
+    subsidiary_mission_skill: "700121"
+  }
+  {
+    id: 70014
+    name: 日常-掉编
+    description: mission_skill_config-20070014
+    lvup_description: mission_skill_config-30070014
+    skill_group_id: 70014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    data_pool: "40"
+    special_spot_add: 70014:1
+    subsidiary_mission_skill: "700141"
+  }
+  {
+    id: 70015
+    name: 添加加速buff
+    description: mission_skill_config-20070015
+    lvup_description: mission_skill_config-30070015
+    skill_group_id: 70015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4"
+    cd_time_type: 1
+    mission_buff_add: 70015:1
+  }
+  {
+    id: 70016
+    name: 通用加速buff
+    description: mission_skill_config-20070016
+    lvup_description: mission_skill_config-30070016
+    skill_group_id: 70016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    mission_buff_add: 70016:1
+  }
+  {
+    id: 70021
+    name: 【标记】求救信号
+    description: mission_skill_config-20070021
+    lvup_description: mission_skill_config-30070021
+    skill_group_id: 70021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    mission_buff_add: 70021:1
+  }
+  {
+    id: 70022
+    name: 【标记】火炮侦察中
+    description: mission_skill_config-20070022
+    lvup_description: mission_skill_config-30070022
+    skill_group_id: 70022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    mission_buff_add: 70022:1
+  }
+  {
+    id: 72001
+    name: mission_skill_config-10072001
+    description: mission_skill_config-20072001
+    lvup_description: mission_skill_config-30072001
+    skill_group_id: 72001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 1
+    cd_time_type: 1
+    special_spot_add: 72002:1
+  }
+  {
+    id: 78001
+    name: 不亮初始化
+    description: mission_skill_config-20078001
+    lvup_description: mission_skill_config-30078001
+    skill_group_id: 78001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 78001:1
+  }
+  {
+    id: 78002
+    name: 点亮初始化
+    description: mission_skill_config-20078002
+    lvup_description: mission_skill_config-30078002
+    skill_group_id: 78002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 78002:1
+  }
+  {
+    id: 78003
+    name: 3AP起点初始化
+    description: mission_skill_config-20078003
+    lvup_description: mission_skill_config-30078003
+    skill_group_id: 78003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 78024:1
+    mission_buff_add: 78001:1
+  }
+  {
+    id: 78004
+    name: 15AP起点初始化
+    description: mission_skill_config-20078004
+    lvup_description: mission_skill_config-30078004
+    skill_group_id: 78004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 78025:1
+    mission_buff_add: 78002:1
+  }
+  {
+    id: 78005
+    name: 16AP起点初始化
+    description: mission_skill_config-20078005
+    lvup_description: mission_skill_config-30078005
+    skill_group_id: 78005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 78026:1
+    mission_buff_add: 78003:1
+  }
+  {
+    id: 78006
+    name: AP+3
+    description: mission_skill_config-20078006
+    lvup_description: mission_skill_config-30078006
+    skill_group_id: 78006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,3,7,8,301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 78001:1
+  }
+  {
+    id: 78007
+    name: 结算
+    description: mission_skill_config-20078007
+    lvup_description: mission_skill_config-30078007
+    skill_group_id: 78007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "7800201"
+    special_spot_add: 78003:1
+    subsidiary_mission_skill: "78008"
+  }
+  {
+    id: 78008
+    name: 结算
+    description: mission_skill_config-20078008
+    lvup_description: mission_skill_config-30078008
+    skill_group_id: 78008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "1"
+    special_spot_add: 78027:1
   }
   {
     id: 100201
@@ -27468,6 +27710,44 @@
     special_spot_add: 599920:1
   }
   {
+    id: 700111
+    name: AI识别-连携检测空
+    description: mission_skill_config-20700111
+    lvup_description: mission_skill_config-30700111
+    skill_group_id: 700111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    special_spot_add: 7000001:1
+  }
+  {
+    id: 700121
+    name: 日常-扣残血-连携检测空
+    description: mission_skill_config-20700121
+    lvup_description: mission_skill_config-30700121
+    skill_group_id: 700121
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    data_pool: "20"
+    special_spot_add: 700121:1
+  }
+  {
+    id: 700141
+    name: 日常-掉编-连携检测空
+    description: mission_skill_config-20700141
+    lvup_description: mission_skill_config-30700141
+    skill_group_id: 700141
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    data_pool: "40"
+    special_spot_add: 700141:1
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"
@@ -29701,7 +29981,7 @@
     spot_echelon: "-1"
     start_range: 99
     target_id: 101010091||101020091||101030091||101040091||101050091||101060091||101070091||101080091
-    special_spot_add: 1010301:1
+    special_spot_add: 1010303:1
   }
   {
     id: 1010304
@@ -29733,7 +30013,7 @@
     spot_echelon: "-1"
     trigger_id: 101030091&&101030190
     target_id: "1"
-    special_spot_add: 1010301:1
+    special_spot_add: 1010305:1
     subsidiary_mission_skill: "1010303,1000054"
     is_manual: 1010305
   }
@@ -29750,7 +30030,7 @@
     spot_echelon: "-1"
     trigger_id: 101030091&&101030191
     target_id: "1"
-    special_spot_minus: 1010301:1
+    special_spot_minus: 1010303:1
     subsidiary_mission_skill: "1010302,1000053"
     is_manual: 1010306
   }
@@ -29767,7 +30047,7 @@
     spot_echelon: "-1"
     trigger_id: 101030091&&101030190
     target_id: "1"
-    special_spot_add: 1010301:1
+    special_spot_add: 1010307:1
     subsidiary_mission_skill: "1010303,1000054"
     is_manual: 1010307
   }
@@ -29784,7 +30064,7 @@
     spot_echelon: "-1"
     trigger_id: 101030091&&101030191
     target_id: "1"
-    special_spot_minus: 1010301:1
+    special_spot_minus: 1010305:1
     subsidiary_mission_skill: "1010302,1000053"
     is_manual: 1010308
   }
@@ -29801,7 +30081,7 @@
     spot_echelon: "-1"
     trigger_id: 101030091&&101030190
     target_id: "1"
-    special_spot_add: 1010301:1
+    special_spot_add: 1010309:1
     subsidiary_mission_skill: "1010303,1000054"
     is_manual: 1010309
   }
@@ -29859,7 +30139,7 @@
     spot_echelon: "-1"
     start_range: 99
     target_id: 101010091||101020091||101030091||101040091||101050091||101060091||101070091||101080091
-    special_spot_add: 1010401:1
+    special_spot_add: 1010403:1
   }
   {
     id: 1010404
@@ -29891,7 +30171,7 @@
     spot_echelon: "-1"
     trigger_id: 101040091&&101040190
     target_id: "1"
-    special_spot_add: 1010401:1
+    special_spot_add: 1010405:1
     subsidiary_mission_skill: "1010403,1000054"
     is_manual: 1010405
   }
@@ -30273,7 +30553,7 @@
     spot_echelon: "-1"
     start_range: 99
     target_id: 101010091||101020091||101030091||101040091||101050091||101060091||101070091||101080091
-    special_spot_add: 1010601:1
+    special_spot_add: 1010603:1
   }
   {
     id: 1010604
@@ -30305,7 +30585,7 @@
     spot_echelon: "-1"
     trigger_id: 101060091&&101060190
     target_id: "1"
-    special_spot_add: 1010601:1
+    special_spot_add: 1010605:1
     subsidiary_mission_skill: "1010603,1000054"
     is_manual: 1010605
   }
@@ -30356,7 +30636,7 @@
     spot_echelon: "-1"
     trigger_id: 101060091&&101060191
     target_id: "1"
-    special_spot_minus: 1010601:1
+    special_spot_minus: 1010605:1
     subsidiary_mission_skill: "1010602,1000053"
     is_manual: 1010608
   }
@@ -30373,7 +30653,7 @@
     spot_echelon: "-1"
     trigger_id: 101060091&&101060190
     target_id: "1"
-    special_spot_add: 1010601:1
+    special_spot_add: 1010609:1
     subsidiary_mission_skill: "1010603,1000054"
     is_manual: 1010609
   }
@@ -30431,7 +30711,7 @@
     spot_echelon: "-1"
     start_range: 99
     target_id: 101010091||101020091||101030091||101040091||101050091||101060091||101070091||101080091
-    special_spot_add: 1010701:1
+    special_spot_add: 1010703:1
   }
   {
     id: 1010704
@@ -30463,7 +30743,7 @@
     spot_echelon: "-1"
     trigger_id: 101070091&&101070190
     target_id: "1"
-    special_spot_add: 1010701:1
+    special_spot_add: 1010705:1
     subsidiary_mission_skill: "1010703,1000054"
     is_manual: 1010705
   }
@@ -30480,7 +30760,7 @@
     spot_echelon: "-1"
     trigger_id: 101070091&&101070191
     target_id: "1"
-    special_spot_minus: 1010701:1
+    special_spot_minus: 1010703:1
     subsidiary_mission_skill: "1010702,1000053"
     is_manual: 1010706
   }
@@ -30497,7 +30777,7 @@
     spot_echelon: "-1"
     trigger_id: 101070091&&101070190
     target_id: "1"
-    special_spot_add: 1010701:1
+    special_spot_add: 1010707:1
     subsidiary_mission_skill: "1010703,1000054"
     is_manual: 1010707
   }
@@ -30555,7 +30835,7 @@
     spot_echelon: "-1"
     start_range: 99
     target_id: 101010091||101020091||101030091||101040091||101050091||101060091||101070091||101080091
-    special_spot_add: 1010801:1
+    special_spot_add: 1010803:1
   }
   {
     id: 1010804
@@ -30587,7 +30867,7 @@
     spot_echelon: "-1"
     trigger_id: 101080091&&101080190
     target_id: "1"
-    special_spot_add: 1010801:1
+    special_spot_add: 1010805:1
     subsidiary_mission_skill: "1010703,1000054"
     is_manual: 1010805
   }
@@ -30604,7 +30884,7 @@
     spot_echelon: "-1"
     trigger_id: 101080091&&101080191
     target_id: "1"
-    special_spot_minus: 1010801:1
+    special_spot_minus: 1010803:1
     subsidiary_mission_skill: "1010702,1000053"
     is_manual: 1010806
   }
@@ -30621,7 +30901,7 @@
     spot_echelon: "-1"
     trigger_id: 101080091&&101080190
     target_id: "1"
-    special_spot_add: 1010801:1
+    special_spot_add: 1010807:1
     subsidiary_mission_skill: "1010703,1000054"
     is_manual: 1010807
   }

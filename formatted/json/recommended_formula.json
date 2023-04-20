@@ -102,7 +102,7 @@
     "id": 17, "develop_type": 3, "type": "13", "name": "消音器", "en_name": "recommended_formula-20000017", 
     "content": "*除机枪/霰弹枪人形外均可装备\n可以提升人形的<color=#FFB400FF>暴击概率</color>和<color=#FFB400FF>回避</color>", 
     "background": "equip_bg", "mp": 150, "ammo": 50, "mre": 50, "part": 50, 
-    "type_rarity": "13:A,9:B,16:B,11:C,10:C,1:C,2:C,3:C,4:C,15:C", 
+    "type_rarity": "13:A,9:C,16:C,11:C,10:C,1:C,2:C,3:C,4:C,15:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224", 
     "is_produce": 1, "produce_mp": 150, "produce_ammo": 50, "produce_mre": 50, "produce_part": 50, 
     "produce_preview": "63:4,64:4,65:3,66:2"
@@ -110,7 +110,7 @@
     "id": 18, "develop_type": 3, "type": "5", "name": "穿甲弹", "en_name": "recommended_formula-20000018", 
     "content": "*步枪/机枪人形可以装备\n可以提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害", 
     "background": "equip_bg", "mp": 10, "ammo": 150, "mre": 90, "part": 100, 
-    "type_rarity": "5:A,7:B,6:C,8:C,17:C,4:C,1:C,2:C,3:C,9:C,10:C,11:C,13:C,15:C,16:C", 
+    "type_rarity": "5:A,7:C,6:C,8:C,17:C,4:C,1:C,2:C,3:C,9:C,10:C,11:C,13:C,15:C,16:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224|17:228,229", 
     "is_produce": 1, "produce_mp": 10, "produce_ammo": 150, "produce_mre": 90, "produce_part": 100, 
     "produce_preview": "17:4,18:4,19:3,226:3,20:2,227:2"
@@ -118,14 +118,15 @@
     "id": 19, "develop_type": 3, "type": "6", "name": "状态弹", "en_name": "recommended_formula-20000019", 
     "content": "*手枪/冲锋枪人形可以装备\n可以提升人形的<color=#FFB400FF>伤害</color>，但会减少<color=#FFB400FF>穿甲</color>\n*同样可以产出信号弹\n可以提升梯队的<color=#FFB400FF>命中</color>，但会减少自身<color=#FFB400FF>射速</color>", 
     "background": "equip_bg", "mp": 180, "ammo": 180, "mre": 10, "part": 50, 
-    "type_rarity": "6:A,9:B,5:C,7:C,8:C,17:C,4:C,10:C,11:C,13:C,15:C,16:C", 
+    "type_rarity": "6:A,1:C,2:C,3:C,4:C,5:C,7:C,8:C,17:C,9:C,10:C,11:C,13:C,15:C,16:C", 
     "preview": "4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224|17:228,229", 
     "is_produce": 1, "produce_mp": 180, "produce_ammo": 180, "produce_mre": 10, "produce_part": 50, 
     "produce_preview": "69:4,70:4,71:3,72:2,225:2"
   }, {
     "id": 20, "develop_type": 3, "type": "8", "name": "高速弹", "en_name": "recommended_formula-20000020", 
     "content": "*突击步枪人形可以装备\n可以提升人形的<color=#FFB400FF>伤害</color>", "background": "equip_bg", "mp": 10, 
-    "ammo": 230, "mre": 120, "part": 80, "type_rarity": "8:A,5:B,23:C,6:C,9:C,7:C,17:C,4:C,10:C,11:C,13:C,15:C,16:C", 
+    "ammo": 230, "mre": 120, "part": 80, 
+    "type_rarity": "8:A,1:C,2:C,3:C,4:C,6:C,5:C,7:C,17:C,9:C,10:C,11:C,13:C,15:C,16:C,23:C", 
     "preview": "4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224|17:228,229|23:310,311", 
     "is_produce": 1, "produce_mp": 10, "produce_ammo": 230, "produce_mre": 120, "produce_part": 80, 
     "produce_preview": "29:4,30:4,31:3,32:2"
@@ -148,7 +149,7 @@
     "id": 23, "develop_type": 3, "type": "11", "name": "防弹插板", "en_name": "recommended_formula-20000023", 
     "content": "*霰弹枪人形可以装备\n可以提升人形的<color=#FFB400FF>护甲</color>，但会减少<color=#FFB400FF>回避</color>", 
     "background": "equip_bg", "mp": 50, "ammo": 50, "mre": 100, "part": 100, 
-    "type_rarity": "11:A,10:C,9:C,1:C,2:C,3:C,4:C,13:C,15:C,16:C", 
+    "type_rarity": "11:A,10:B,9:C,1:C,2:C,3:C,4:C,13:C,15:C,16:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224", 
     "is_produce": 1, "produce_mp": 50, "produce_ammo": 50, "produce_mre": 100, "produce_part": 100, 
     "produce_preview": "42:5,43:3,44:2"
@@ -156,7 +157,7 @@
     "id": 24, "develop_type": 3, "type": "14", "name": "弹链箱", "en_name": "recommended_formula-20000024", 
     "content": "*机枪人形可以装备\n可以提升人形的<color=#FFB400FF>弹量</color>，但会减少<color=#FFB400FF>回避</color>", 
     "background": "equip_bg", "mp": 30, "ammo": 30, "mre": 30, "part": 200, 
-    "type_rarity": "14:A,13:B,9:B,16:B,11:C,10:C,4:C,15:C", 
+    "type_rarity": "14:A,13:C,9:C,16:C,11:C,10:B,15:C,1:C,2:C,3:C,4:C", 
     "preview": "4:13,14,15,16,305|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|14:67,68|15:87,88,89,90|16:222,223,224", 
     "is_produce": 1, "produce_mp": 30, "produce_ammo": 30, "produce_mre": 30, "produce_part": 200, 
     "produce_preview": "67:5,68:3"
@@ -164,7 +165,7 @@
     "id": 25, "develop_type": 3, "type": "15", "name": "伪装披风", "en_name": "recommended_formula-20000025", 
     "content": "*步枪人形可以装备\n可以提升人形的<color=#FFB400FF>暴击伤害</color>，但会减少<color=#FFB400FF>移速</color>", 
     "background": "equip_bg", "mp": 180, "ammo": 20, "mre": 200, "part": 20, 
-    "type_rarity": "15:A,1:B,2:B,3:B,13:C,9:C,16:C,11:C,10:C,4:C", 
+    "type_rarity": "15:A,1:C,2:C,3:C,13:C,9:C,16:C,11:C,10:C,4:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224", 
     "is_produce": 1, "produce_mp": 180, "produce_ammo": 20, "produce_mre": 200, "produce_part": 20, 
     "produce_preview": "87:4,88:4,89:3,90:2"
@@ -172,7 +173,7 @@
     "id": 26, "develop_type": 3, "type": "102", "name": "装备混合", "en_name": "recommended_formula-20000026", 
     "content": "*产出所有装备，但每件装备出率\n显著低于使用该装备所属种类公式的出率", "background": "equip_bg", "mp": 150, 
     "ammo": 150, "mre": 150, "part": 150, 
-    "type_rarity": "1:C,2:C,3:C,21:C,23:C,8:C,7:C,14:C,22:C,17:C,6:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
+    "type_rarity": "1:C,2:C,3:C,21:C,23:C,8:C,7:B,14:C,22:C,17:C,6:C,5:B,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|14:67,68|15:87,88,89,90|16:222,223,224|17:228,229|21:312,313,314|22:306,307,308|23:310,311", 
     "is_produce": 0, "produce_mp": 0, "produce_ammo": 0, "produce_mre": 0, "produce_part": 0, "produce_preview": ""
   }, {
@@ -265,7 +266,7 @@
     "id": 40, "develop_type": 4, "type": "14", "name": "弹链箱", "en_name": "recommended_formula-20000040", 
     "content": "*机枪人形可以装备\n可以提升人形的<color=#FFB400FF>弹量</color>，但会减少<color=#FFB400FF>回避</color>", 
     "background": "equip_bg", "mp": 500, "ammo": 500, "mre": 500, "part": 3000, 
-    "type_rarity": "14:A,10:C,11:C,15:C,9:D,4:C,13:C,16:D", 
+    "type_rarity": "14:A,11:C,15:C,9:D,4:C,13:C,16:D,10:C", 
     "preview": "4:14,15,16|9:232,233,234|10:38,39,40,56,57,58|11:42,43,44|13:64,65,66|14:67,68|15:88,89,90|16:222,223,224|101:15,16,17,1,2,3,4,6,24,25,7,8,9", 
     "is_produce": 0, "produce_mp": 0, "produce_ammo": 0, "produce_mre": 0, "produce_part": 0, "produce_preview": ""
   }, {
@@ -292,7 +293,7 @@
     "id": 44, "develop_type": 3, "type": "16", "name": "备用瞄具", "en_name": "recommended_formula-20000044", 
     "content": "*手枪/机枪人形可以装备\n可以提升人形的<color=#FFB400FF>命中</color>和<color=#FFB400FF>暴击概率</color>", 
     "background": "equip_bg", "mp": 180, "ammo": 65, "mre": 65, "part": 65, 
-    "type_rarity": "16:A,13:B,9:B,15:C,1:C,2:C,3:C,11:C,10:C,4:C", 
+    "type_rarity": "16:A,13:B,9:C,15:C,1:C,2:C,3:C,11:C,10:C,4:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224", 
     "is_produce": 1, "produce_mp": 180, "produce_ammo": 65, "produce_mre": 65, "produce_part": 65, 
     "produce_preview": "222:5,223:3,224:2"
@@ -300,7 +301,7 @@
     "id": 45, "develop_type": 3, "type": "9", "name": "芯片", "en_name": "recommended_formula-20000045", 
     "content": "*突击步枪/冲锋枪人形可以装备，分为以下几类加成：\n1. 可以提升人形的<color=#FFB400FF>伤害</color>和<color=#FFB400FF>射速</color>，但会减少<color=#FFB400FF>暴击伤害</color>\n2. 可以提升人形的<color=#FFB400FF>伤害</color>和<color=#FFB400FF>暴击伤害</color>，但会减少<color=#FFB400FF>射速</color>", 
     "background": "equip_bg", "mp": 170, "ammo": 120, "mre": 50, "part": 50, 
-    "type_rarity": "9:A,6:B,1:C,2:C,3:C,8:C,5:C,7:C,17:C,4:C,10:C,11:C,13:C,15:C,16:C", 
+    "type_rarity": "9:A,13:B,6:B,1:C,2:C,3:C,8:C,5:C,7:C,17:C,4:C,10:C,11:C,15:C,16:C", 
     "preview": "1:1,2,3,4|2:5,6,7,8|3:9,10,11,12|4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224|17:228,229", 
     "is_produce": 1, "produce_mp": 170, "produce_ammo": 120, "produce_mre": 50, "produce_part": 50, 
     "produce_preview": "232:5,233:3,234:1,309:1"
@@ -329,7 +330,7 @@
     "id": 49, "develop_type": 3, "type": "17", "name": "特殊穿甲弹", "en_name": "recommended_formula-20000049", 
     "content": "*机枪人形可以装备\n可以大幅提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害", 
     "background": "equip_bg", "mp": 10, "ammo": 300, "mre": 10, "part": 10, 
-    "type_rarity": "17:A,7:C,6:C,8:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
+    "type_rarity": "17:A,1:C,2:C,3:C,8:B,7:B,6:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
     "preview": "4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224|17:228,229", 
     "is_produce": 1, "produce_mp": 10, "produce_ammo": 300, "produce_mre": 10, "produce_part": 10, 
     "produce_preview": "228:5,229:2"
@@ -380,7 +381,7 @@
     "id": 58, "develop_type": 3, "type": "21", "name": "固定脚架", "en_name": "recommended_formula-20000058", 
     "content": "*机枪人形可以装备\n可以提升人形的<color=#FFB400FF>命中</color>和<color=#FFB400FF>换弹速度</color>，但会减少<color=#FFB400FF>移速</color>", 
     "background": "equip_bg", "mp": 300, "ammo": 10, "mre": 10, "part": 200, 
-    "type_rarity": "21:A,14:C,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
+    "type_rarity": "21:A,1:C,2:C,3:C,4:C,14:C,16:C,13:C,9:C,15:C,11:C,10:C", 
     "preview": "4:13,14,15,16,305|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|14:67,68|15:87,88,89,90|16:222,223,224|21:312,313,314", 
     "is_produce": 1, "produce_mp": 300, "produce_ammo": 10, "produce_mre": 10, "produce_part": 200, 
     "produce_preview": "312:5,313:4,314:2"
@@ -388,7 +389,7 @@
     "id": 59, "develop_type": 3, "type": "22", "name": "喉缩管", "en_name": "recommended_formula-20000059", 
     "content": "*霰弹枪人形可以装备\n可以提升人形的<color=#FFB400FF>弹量</color>和<color=#FFB400FF>命中</color>", 
     "background": "equip_bg", "mp": 80, "ammo": 220, "mre": 80, "part": 80, 
-    "type_rarity": "22:A,8:B,17:C,7:C,6:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
+    "type_rarity": "22:A,1:C,2:C,3:C,4:C,8:B,17:C,7:C,6:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C", 
     "preview": "4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|15:87,88,89,90|16:222,223,224|17:228,229|22:306,307,308", 
     "is_produce": 1, "produce_mp": 80, "produce_ammo": 220, "produce_mre": 80, "produce_part": 80, 
     "produce_preview": "306:5,307:3,308:2"
@@ -396,7 +397,7 @@
     "id": 60, "develop_type": 3, "type": "23", "name": "测距仪", "en_name": "recommended_formula-20000060", 
     "content": "*部分步枪人形可以装备\n可以提升人形的<color=#FFB400FF>伤害</color>和缩减技能<color=#FFB400FF>前置冷却</color>", 
     "background": "equip_bg", "mp": 100, "ammo": 250, "mre": 150, "part": 170, 
-    "type_rarity": "23:A,8:B,7:B,14:C,22:C,17:C,6:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C,4:C", 
+    "type_rarity": "23:A,1:C,2:C,3:C,4:C,8:C,7:B,14:C,22:C,17:C,6:C,5:C,16:C,13:C,9:C,15:C,11:C,10:C", 
     "preview": "4:13,14,15,16,305|5:17,18,19,20,226,227|6:69,70,71,72,225|7:73,74,75,76,77,78,79,80,230,231,235|8:29,30,31,32|9:232,233,234,309|10:37,38,39,40,55,56,57,58|11:42,43,44|13:63,64,65,66|14:67,68|15:87,88,89,90|16:222,223,224|17:228,229|22:306,307,308|23:310,311", 
     "is_produce": 1, "produce_mp": 100, "produce_ammo": 250, "produce_mre": 150, "produce_part": 170, 
     "produce_preview": "310:5,311:2"

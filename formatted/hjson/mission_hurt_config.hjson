@@ -54,6 +54,22 @@
     effect_birth: 1003
   }
   {
+    id: 70012
+    name: 【标记】开局20%当前伤害
+    target_type: 2
+    type: 2
+    life_type: 1
+    value: "20"
+  }
+  {
+    id: 70014
+    name: 【标记】开局给血最少枪扣40%血
+    target_type: 1
+    type: 2
+    life_type: 2
+    value: "40"
+  }
+  {
     id: 482401
     name: 【标记】通用伤害(对敌人)
     target_type: 2

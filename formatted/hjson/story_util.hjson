@@ -1241,7 +1241,7 @@
     is_util: 1
     start: -1-2-1
     first: -1-2-2First
-    end: -1-2-2First
+    end: -1-2-2End
   }
   {
     id: 97
@@ -2442,7 +2442,7 @@
     bgm: BGM_Frontline
     title: 禁止入内
     start: -14-4-1
-    first: -14-4-2End
+    first: -14-4-2First
     end: -14-4-2End
   }
   {
@@ -11831,5 +11831,21 @@
     campaign: -57
     title: 直至太阳下山
     start: -57-W7-2
+  }
+  {
+    id: 1160
+    mission_id: "580005"
+    description: story_util-10001160
+    campaign: -404
+    title: guide1
+    start: 1:dailybonusguide-01
+  }
+  {
+    id: 1161
+    mission_id: "580006"
+    description: story_util-10001161
+    campaign: -404
+    title: guide1
+    start: 1:dailybonusguide-02
   }
 ]

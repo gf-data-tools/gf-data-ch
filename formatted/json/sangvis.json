@@ -13,7 +13,7 @@
     "effect_grid_effect": "4:2,15;4,20", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 5, "ai": 11001, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930001, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10604
+    "org_id": 10604, "gun_tag_ids": "137,127,154", "ratio_rec": 95, "recommended_team_ids": "1,4"
   }, {
     "id": 1002, "name": "行裁者", "en_name": "Excutioner", "code": "Excutioner", 
     "introduce": "相当于精英斥候，比稻草人地位稍高，两人经常搭档。莽撞冲动，大大咧咧的女汉子，热衷于堂堂正正的战斗，并不喜欢欺负弱者。", 
@@ -28,7 +28,7 @@
     "effect_grid_effect": "0:1,10;5,10|5:3,18;4,18", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 8, "ai": 11002, "is_additional": 2, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930002, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10602
+    "org_id": 10602, "gun_tag_ids": "117,121,111,127,113,124,125", "ratio_rec": 150, "recommended_team_ids": "10"
   }, {
     "id": 1003, "name": "猎手", "en_name": "Hunter", "code": "Hunter", 
     "introduce": "机动和智能都比较高，擅长骚扰和追击作战，需要稻草人与行裁者的配合才能发挥最强的实力。沉着冷静，喜欢用各种手段将敌人逼到走投无路再活捉，面对格里芬十分高傲，但不屑于使用过于卑劣的手段。", 
@@ -43,7 +43,7 @@
     "effect_grid_effect": "0:2,6;3,6|5:3,12;4,12|6:1,10;3,12", "type_chip1": "1,2,3", "type_chip2": "1,2,3", 
     "type_chip3": "1,2,3", "illustration_id": 11, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", 
     "obtain_ids": "0", "display_enemy_team": 930003, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", 
-    "dorm_scale": 100, "org_id": 10602
+    "dorm_scale": 100, "org_id": 10602, "gun_tag_ids": "139,107", "ratio_rec": 110, "recommended_team_ids": "8"
   }, {
     "id": 1004, "name": "干扰者", "en_name": "Intruder", "code": "Intruder", 
     "introduce": "负责提供作战策略，也擅长破解和干扰工作，可以直接指挥作战人形，是稍高级的人形，直接对计量官负责。优雅温和的言行背后，令人感到的是巨大的空洞，喜欢人类的戏剧，可能是希望从中找到自己的个性。", 
@@ -57,7 +57,7 @@
     "search_range": 7, "effect_grid_effect": "0:1,10;3,10;4,10;5,10", "type_chip1": "1,2,3", "type_chip2": "1,2,3", 
     "type_chip3": "1,2,3", "illustration_id": 17, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", 
     "obtain_ids": "0", "display_enemy_team": 930004, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", 
-    "dorm_scale": 100, "org_id": 10602
+    "dorm_scale": 100, "org_id": 10602, "gun_tag_ids": "126,103,113", "ratio_rec": 120, "recommended_team_ids": "9"
   }, {
     "id": 1005, "name": "破坏者", "en_name": "Destroyer", "code": "Destroyer", 
     "introduce": "擅长爆破任务，解除炸弹也是专家级的，作战能力也不错，和炼金术士有时会搭档。平时高傲，毒舌，实际上是个傲娇，有点小孩子脾气，逼急了会哭鼻子，十分在意自己的身高。", 
@@ -72,7 +72,7 @@
     "effect_grid_effect": "1:1,10;8,10|3:1,10;3,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 18, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930005, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10603
+    "org_id": 10603, "gun_tag_ids": "121,160", "ratio_rec": 110, "recommended_team_ids": "6"
   }, {
     "id": 1006, "name": "建筑师", "en_name": "Architect", "code": "BossArchitect", 
     "introduce": "擅长远程破坏和火力支援，作战能力很强，通常独来独往。活泼开朗的没头脑元气少女，什么时候都兴高采烈，对格里芬也没有敌对意识，对于铁血只能最低限度地服从命令，但是对轰炸和破坏十分热心，所以作为敌人仍然十分危险。", 
@@ -86,7 +86,8 @@
     "ratio_range": 500, "search_range": 7, "effect_grid_effect": "0:3,12;4,12|3:1,12;3,12", "type_chip1": "1,2,3", 
     "type_chip2": "1,2,3", "type_chip3": "1,2,3", "illustration_id": 27, "ai": 11002, "is_additional": 1, 
     "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 930006, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10603
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10603, 
+    "gun_tag_ids": "121,10101", "ratio_rec": 110, "recommended_team_ids": "6"
   }, {
     "id": 1007, "name": "衔尾蛇", "en_name": "Weaver", "code": "Weaver", 
     "introduce": "擅长短距离的突破或者防御作战，智能和作战能力很高，是蝴蝶事件之后才制造的人形，但因为是制造时期的试验品，AI极不稳定且很难被控制。表面沉稳内心高傲，拥有强劲的武力和智力优势，但是实战经验较少，而且行事风格捉摸不定，令敌我双方都难以预判，因此具有极高的危险度。", 
@@ -101,7 +102,7 @@
     "effect_grid_effect": "0:4,15;5,15|2:1,12;3,12", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 21, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930007, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 88, 
-    "org_id": 10603
+    "org_id": 10603, "gun_tag_ids": "137,10101,109", "ratio_rec": 105, "recommended_team_ids": "1,6"
   }, {
     "id": 1008, "name": "炼金术士", "en_name": "Alchemist", "code": "Alchemist", 
     "introduce": "擅长应对各种战术需求，也精通审讯逼供，是铁血作战的精英，和破坏者有时会搭档。狂妄自大，嚣张而残忍，为达目的不择手段，有施虐倾向，将格里芬视为满足欲望的玩物，不过心理成熟，可以为铁血的同伴挺身而出。", 
@@ -116,7 +117,7 @@
     "search_range": 3, "effect_grid_effect": "0:1,10;5,10|5:3,18;4,18", "type_chip1": "1,2,3", "type_chip2": "1,2,3", 
     "type_chip3": "1,2,3", "illustration_id": 23, "ai": 11002, "is_additional": 2, "launch_time": "2016-05-20 00:00:00", 
     "obtain_ids": "0", "display_enemy_team": 930008, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", 
-    "dorm_scale": 100, "org_id": 10602
+    "dorm_scale": 100, "org_id": 10602, "gun_tag_ids": "116,111,113,109", "ratio_rec": 75, "recommended_team_ids": "1,9"
   }, {
     "id": 1009, "name": "梦想家", "en_name": "Dreamer", "code": "Dreamer", 
     "introduce": "偏向作战能力，拥有超远距离定点打击的能力，由伊莱莎直接下令指挥，是蝴蝶事件之后才制造的人形，因为自身能力不需要正面出击，所以平时只呆在铁血总部，以捉弄法官为乐。优雅的笑容中透着傲慢和难以捉摸，精神状态极不稳定，总是以自我为中心作战中会露出疯狂而不受控制的一面，加上可怕的破坏力，连同伴的安全都不会考虑所幸的是通常不会出现在正面战场上。", 
@@ -131,7 +132,7 @@
     "effect_grid_effect": "0:3,15;4,15|6:1,10;5,10", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 24, "ai": 11002, "is_additional": 1, "launch_time": "2020-10-01 10:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930009, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10604
+    "org_id": 10604, "gun_tag_ids": "144,154,10101", "ratio_rec": 95, "recommended_team_ids": "1,4"
   }, {
     "id": 1010, "name": "计量官", "en_name": "Gager", "code": "BossGager", 
     "introduce": "主要担当指挥行动和人员调度，可以直接指挥作战人形，也具备不小的作战能力，地位较高，直接对代理人负责。认真严谨，一丝不苟，言行中透露出一股凛然利落的气质，即使对于敌人也很讲求原则和礼节。", 
@@ -146,7 +147,7 @@
     "effect_grid_effect": "0:1,15|4:3,10;5,10|5:4,10;8,10", "type_chip1": "1,2,3", "type_chip2": "1,2,3", 
     "type_chip3": "1,2,3", "illustration_id": 26, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", 
     "obtain_ids": "0", "display_enemy_team": 930010, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", 
-    "dorm_scale": 100, "org_id": 10602
+    "dorm_scale": 100, "org_id": 10602, "gun_tag_ids": "109,124,103", "ratio_rec": 105, "recommended_team_ids": "1,5"
   }, {
     "id": 1011, "name": "法官", "en_name": "Justice", "code": "Justice", 
     "introduce": "偏向指挥能力，负责铁血总部的防御和安全系统，相当于伊莱莎的侍卫，只会听从伊莱莎个人的命令，是蝴蝶事件之后才制造的人形，整天面对梦想家很头疼。严肃古板，充满军人的威严和风范，对伊莱莎绝对忠诚，但个子比较矮小，让人觉得缺乏气势，提出这一点的人无论敌我都会倒大霉。", 
@@ -160,7 +161,8 @@
     "ratio_range": 500, "search_range": 7, "effect_grid_effect": "0:1,10;2,10;5,10;8,10", "type_chip1": "1,2,3", 
     "type_chip2": "1,2,3", "type_chip3": "1,2,3", "illustration_id": 35, "ai": 11002, "is_additional": 1, 
     "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 930011, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10604
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10604, 
+    "gun_tag_ids": "117,121,103,113", "ratio_rec": 140, "recommended_team_ids": "9"
   }, {
     "id": 1012, "name": "代理人", "en_name": "Agent", "code": "Agent", 
     "introduce": "负责伊莱莎与下属铁血的沟通联络工作和后勤管理，作战人形都直接听从她的命令，地位极高，无论战斗还是指挥都很擅长，可以指挥所有作战人形。冷淡平静，有条不紊的言行做派，对敌我都会用尊敬的语气，但实际上除了对主人十分尊重之外，称呼他人的词汇都很低劣，尤其对于格里芬更是充满蔑视。", 
@@ -175,7 +177,7 @@
     "effect_grid_effect": "0:1,15;3,15;4,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 45, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930012, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10604
+    "org_id": 10604, "gun_tag_ids": "126,103,110", "ratio_rec": 115, "recommended_team_ids": "1,9"
   }, {
     "id": 1013, "name": "艾德琳", "en_name": "Nyto_black", "code": "Nyto_black", 
     "introduce": "帕拉蒂斯“涅托”里的一员，使用高杀伤力的步枪型武器作战，在爆炸中起舞，用怒涛般的攻势重创敌阵。作为量产机习惯压抑自己的情绪，阴冷难明的外壳下是否有属于人类的情感，也不得而知。", 
@@ -190,7 +192,7 @@
     "effect_grid_effect": "0:2,20|4:1,10;3,10", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 50, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930013, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10603
+    "org_id": 10603, "gun_tag_ids": "117,10101", "ratio_rec": 105, "recommended_team_ids": "8"
   }, {
     "id": 1014, "name": "埃莉诺", "en_name": "Nyto_white", "code": "Nyto_white", 
     "introduce": "帕拉蒂斯“涅托”里的一员，使用镰刀型的近战武器，如同纯白的死神般降临战场，斩断钢铁、收割生命。作为初期的高级涅托拥有自己的骄傲，只对认可的人露出温柔可爱的一面。", 
@@ -205,7 +207,7 @@
     "effect_grid_effect": "4:1,12;3,12|5:4,12;5,12", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 51, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930014, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10603
+    "org_id": 10603, "gun_tag_ids": "121,10101,120", "ratio_rec": 105, "recommended_team_ids": "10"
   }, {
     "id": 1015, "name": "建筑师-NVW型", "en_name": "Architect_Summer", "code": "BossArchitect_Summer", 
     "introduce": "建筑师-临海战斗特化型，简称NVW型。IOP将铁血废弃的旧案细化并改进后制作出的海战型素体，如果不在海边，建筑师将会利用存储的素材将周围改造为临海环境并开始作战。建筑合适的阵地也是建筑师的职责。", 
@@ -220,7 +222,7 @@
     "effect_grid_effect": "3:1,15;3,15;4,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 126, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930016, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10603
+    "org_id": 10603, "gun_tag_ids": "121,110,125,161", "ratio_rec": 120, "recommended_team_ids": "6"
   }, {
     "id": 1016, "name": "干扰者-终幕魔女", "en_name": "Intruder_Halloween", "code": "Intruder_Halloween", 
     "introduce": "干扰者-终幕魔女，IOP对干扰者进行大量的数据分析与作战实验后，根据模拟数据制作出的交遇战特化型素体。同时，在情感模块上应用了新技术的终幕魔女型号不但拥有更为强大的指挥与支援能力，更能够凭借其异常的精神最大程度地在小型战场上对敌军散播恐惧心理，打击敌方士气。", 
@@ -235,7 +237,7 @@
     "effect_grid_effect": "0:4,10;8,10|3:1,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 140, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930017, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10602
+    "org_id": 10602, "gun_tag_ids": "126,103,104,113", "ratio_rec": 125, "recommended_team_ids": "9"
   }, {
     "id": 1017, "name": "破坏者-浮掠麋影", "en_name": "Destroyer_Christmas", "code": "Destroyer_Christmas", 
     "introduce": "破坏者-浮掠麋影，针对雪原作战而研发出的特异化型号，能够确保破坏者在寒冷的环境中也能保持高速移动和精确打击，对武器的升级也带来了火力和爆破强度的提升。应破坏者本人强烈要求，在外形设计上参考了麋鹿，并使用了圣诞树挂球等装饰作为弹药外包装，以达到为敌人送上甜蜜死亡的目的。", 
@@ -250,7 +252,8 @@
     "ratio_range": 500, "search_range": 7, "effect_grid_effect": "2:1,10;8,10;|3:2,10;3,15", "type_chip1": "1,2,3", 
     "type_chip2": "1,2,3", "type_chip3": "1,2,3", "illustration_id": 147, "ai": 11002, "is_additional": 1, 
     "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 930018, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10603
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10603, 
+    "gun_tag_ids": "109,121,110", "ratio_rec": 120, "recommended_team_ids": "6"
   }, {
     "id": 1018, "name": "猎手-裳夜落蛾", "en_name": "Hunter_WhiteDay", "code": "Hunter_WhiteDay", 
     "introduce": "猎手-裳夜落蛾，潜行暗杀的特异化型号，服装模拟了鳞翅目昆虫的鳞片形状结构，能够调整反射的颜色，以便融于环境之中。根据猎手的个人偏好，日常情况下服装显现为矢车菊般的蓝色，似乎具有一定的迷幻效果。而这一效果在作战中的主要表现，为漫天的蓝色花瓣或场景的突然变换。这也意味着，当你看见以上景象时，你已经踏入了猎手的陷阱。", 
@@ -265,7 +268,7 @@
     "search_range": 7, "effect_grid_effect": "5:2,10;4,15|6:1,10;3,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", 
     "type_chip3": "1,2,3", "illustration_id": 157, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", 
     "obtain_ids": "0", "display_enemy_team": 930019, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", 
-    "dorm_scale": 100, "org_id": 10602
+    "dorm_scale": 100, "org_id": 10602, "gun_tag_ids": "139,148,103", "ratio_rec": 80, "recommended_team_ids": "8"
   }, {
     "id": 1019, "name": "末日魔犬", "en_name": "Cerberus", "code": "BossCerberus", 
     "introduce": "铁血“兵蚁”的超级升级版，无论体型，装甲还是火力都获得大幅提升，甚至可以容纳人形心智（不完全），不过性价比不高，难以被量产，战术定位也不准确，连研发记录都是个谜团，极少有出场的机会。", 
@@ -279,7 +282,8 @@
     "ratio_range": 500, "search_range": 6, "effect_grid_effect": "3:1,15;4,15;5,15", "type_chip1": "1,2,3", 
     "type_chip2": "1,2,3", "type_chip3": "1,2,3", "illustration_id": 33, "ai": 11002, "is_additional": 1, 
     "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 930020, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10603
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 10603, 
+    "gun_tag_ids": "121,149,113,110,129", "ratio_rec": 165, "recommended_team_ids": "9"
   }, {
     "id": 1020, "name": "埃莉诺-沧龙掠骑者", "en_name": "Nyto_White_Summer", "code": "Nyto_White_Summer", 
     "introduce": "埃莉诺-沧龙掠骑者，临海战斗特化型号。用更为轻盈、动力启动更为迅猛的新型四肢取代了在水中过于沉重笨拙的金属肢体，服装的设计和选材也以适应海洋战斗为着重点。武器的优化采用了埃莉诺本人的建议，以白垩纪时期的古老海兽为灵感原型，打造出了更为锐利灵敏的镰刀。纯白的死神即将潜入深海，手中的巨镰如海兽般嘶吼着，斩断灵魂与肉体的链接，收割被海水浸透的生命。", 
@@ -294,7 +298,7 @@
     "effect_grid_effect": "1:5,10;8,10|4:1,15;4,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 166, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930021, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10603
+    "org_id": 10603, "gun_tag_ids": "118,164,129,140,110,107", "ratio_rec": 140, "recommended_team_ids": "10"
   }, {
     "id": 1021, "name": "行裁者-血魇猎狂", "en_name": "Excutioner_Halloween", "code": "Excutioner_Halloween", 
     "introduce": "针对追猎战而研发出的特化型素体，依照行裁者本人要求配备的巨大化义手和可变式热切割镰刀，能够在战斗中不费吹灰之力地收割敌人，展现出极强的破坏力。同时，黑色的衣装也可以更好地隐匿身形，于敌人身后亮起寒光。你可曾见那往返梦境之人？她显现于夜幕，又隐遁于死亡。所为的，是猎杀一切堕入梦魇的癫狂。", 
@@ -309,7 +313,7 @@
     "effect_grid_effect": "0:5,50|5:1,15;4,15", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 175, "ai": 11002, "is_additional": 2, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930022, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10604
+    "org_id": 10604, "gun_tag_ids": "117,121,129", "ratio_rec": 200, "recommended_team_ids": "10"
   }, {
     "id": 1022, "name": "塔亚柔斯", "en_name": "Nyto_tareus", "code": "Nyto_tareus", 
     "introduce": "塔亚柔斯，机甲驾驶特化涅托，和机甲“伊芙小姐”具有极高的适配性和同步率，也擅长入侵人形的心智空间，并对目标展开毁灭性的火力打击。因为经过多次的记忆洗刷和改造，心智脆弱，性情变得冷漠易怒，即使偶尔回想起属于人类的情感也会很快被内置的程序抹杀。", 
@@ -325,7 +329,7 @@
     "search_range": 8, "effect_grid_effect": "4:1,20;3,50;5,30", "type_chip1": "1,2,3", "type_chip2": "1,2,3", 
     "type_chip3": "1,2,3", "illustration_id": 176, "ai": 11002, "is_additional": 1, "launch_time": "2016-05-20 00:00:00", 
     "obtain_ids": "0", "display_enemy_team": 930023, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", 
-    "dorm_scale": 100, "org_id": 10603
+    "dorm_scale": 100, "org_id": 10603, "gun_tag_ids": "10127,113,109", "ratio_rec": 200, "recommended_team_ids": "1"
   }, {
     "id": 1023, "name": "稻草人-魇渊夕来", "en_name": "Scarecrow_SpringFes", "code": "Scarecrow_SpringFes", 
     "introduce": "稻草人-魇渊夕来，火力改造强化后的新型号。迭代升级后的浮游枪能为稻草人提供更强大的输出，而安装在稻草人指尖的指挥端口也得到了信号加强，和浮游枪之间的链接也更为紧密。据说服装设计灵感来源于神话传说中会在年底来到人类村庄大肆破坏的猛兽，它双眼的凶光能划破夜晚的黑暗，锋利的爪子能撕碎一切阻碍……恰如此刻的稻草人。", 
@@ -340,7 +344,7 @@
     "effect_grid_effect": "0:2,10;5,20|4:1,20", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 181, "ai": 11002, "is_additional": 1, "launch_time": "2023-01-22 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930024, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 10604
+    "org_id": 10604, "gun_tag_ids": "137,113,145", "ratio_rec": 135, "recommended_team_ids": "9"
   }, {
     "id": 2001, "name": "残兽", "en_name": "Brute", "code": "Brute", 
     "introduce": "铁血的新型近距离作战单位，会快速接近敌人造成可怕的杀伤，同时装甲薄弱所以容易被破坏。", 
@@ -353,7 +357,8 @@
     "eat_ratio": 95, "ratio_speed": 20, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 3, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 28, 
     "ai": 3045, "is_additional": 7, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910017, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 75, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 75, "org_id": 0, 
+    "gun_tag_ids": "101,10138,166", "ratio_rec": 135, "recommended_team_ids": "10"
   }, {
     "id": 2002, "name": "龙骑兵", "en_name": "Dragoon", "code": "Dragoon", 
     "introduce": "铁血的高级作战傀儡，装配有小型代步机甲和突击武器，无论火力，射程，机动性都不容小觑，经常扮演铁血战场上的攻坚角色。", 
@@ -366,7 +371,8 @@
     "eat_ratio": 95, "ratio_speed": 16, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 4, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 12, 
     "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910008, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0, 
+    "gun_tag_ids": "101,113,166", "ratio_rec": 150, "recommended_team_ids": "1,4,5,6,8,9,10"
   }, {
     "id": 2003, "name": "圣盾", "en_name": "Aegis", "code": "Aegis", 
     "introduce": "军方的常规作战人形，在出厂前遭到铁血入侵而成为敌人，搭载常规的电击武器和军用护盾，近战实力强大且拥有厚重的装甲。", 
@@ -379,7 +385,8 @@
     "ratio_speed": 8, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, "search_range": 3, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 15, "ai": 3045, 
     "is_additional": 9, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910015, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0, 
+    "gun_tag_ids": "101,152,113", "ratio_rec": 150, "recommended_team_ids": "1,4,5,6,8,9"
   }, {
     "id": 2004, "name": "钢狮", "en_name": "Nemeum", "code": "Nemeum", 
     "introduce": "军方订购的常规军用机甲，在出厂前遭到铁血入侵而成为敌人，搭载当代的军用火力系统，可以通过蓄力提高杀伤，但射速和防御都较差。", 
@@ -392,7 +399,8 @@
     "ratio_speed": 8, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, "search_range": 3, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 14, "ai": 3045, 
     "is_additional": 9, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910016, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0, 
+    "gun_tag_ids": "102,117,152", "ratio_rec": 98, "recommended_team_ids": "8"
   }, {
     "id": 2005, "name": "狼蛛", "en_name": "Tarantula", "code": "Tarantula", 
     "introduce": "铁血“兵蚁”的装甲升级版，生存性大大提高，可以成群结队快速扑向敌人造成大片损伤。", 
@@ -406,7 +414,8 @@
     "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, "search_range": 3, "effect_grid_effect": "", 
     "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 30, "ai": 3045, "is_additional": 9, 
     "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910018, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0, 
+    "gun_tag_ids": "101,152,126,166", "ratio_rec": 60, "recommended_team_ids": "1,4,5,6,8,9,10"
   }, {
     "id": 2006, "name": "蝎甲兽", "en_name": "Manticore", "code": "Manticore", 
     "introduce": "军方订购的常规军用机甲，在出厂前遭到铁血入侵而成为敌人，搭载当代的军用突击武器和装甲，拥有惊人的远程伤害和出众的防御能力。", 
@@ -420,7 +429,7 @@
     "ratio_range": 500, "search_range": 5, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", 
     "illustration_id": 16, "ai": 3045, "is_additional": 9, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 910010, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 0
+    "org_id": 0, "gun_tag_ids": "101,102,161,152,118,121", "ratio_rec": 165, "recommended_team_ids": "1,4,5,6,8,9"
   }, {
     "id": 2008, "name": "护卫者SWAP", "en_name": "Guard_SWAP", "code": "Guard_SWAP", 
     "introduce": "护卫者的升级版，装配的护盾和短程火力武器均得到了加强，在原本的高防御基础上变得更加坚固。", 
@@ -433,7 +442,8 @@
     "ratio_speed": 16, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 3, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 57, 
     "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911007, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0, 
+    "gun_tag_ids": "101,10102", "ratio_rec": 150, "recommended_team_ids": "1"
   }, {
     "id": 2009, "name": "切割者SWAP", "en_name": "Ripper_SWAP", "code": "Ripper_SWAP", 
     "introduce": "铁血的强化作战傀儡，装配有短程冲锋武器，机动性较高，战场中常充当先锋或侦查角色。", 
@@ -447,7 +457,8 @@
     "ratio_speed": 15, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 7, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 86, 
     "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911104, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0, 
+    "gun_tag_ids": "102,108,120", "ratio_rec": 125, "recommended_team_ids": "1"
   }, {
     "id": 2010, "name": "胡蜂SWAP", "en_name": "Vespid_SWAP", "code": "Vespid_SWAP", 
     "introduce": "性能大幅增强后的胡蜂，会对我方造成一定的削弱。装备了全新的头盔和装甲,并为此雀跃不已。", 
@@ -460,7 +471,8 @@
     "ratio_speed": 15, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 7, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 94, 
     "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911105, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0, 
+    "gun_tag_ids": "102,103", "ratio_rec": 95, "recommended_team_ids": "1,4,9"
   }, {
     "id": 2011, "name": "巡游者SWAP", "en_name": "Prowler_SWAP", "code": "Prowler_SWAP", 
     "introduce": "巡游者的升级版，较弱的火力和机动性都得到了补足，现在可以作为正面战场的强大火力进行驱动。", 
@@ -473,7 +485,8 @@
     "eat_ratio": 95, "ratio_speed": 12, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 4, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 55, 
     "ai": 3045, "is_additional": 21, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911001, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0, 
+    "gun_tag_ids": "101,103,113,166", "ratio_rec": 125, "recommended_team_ids": "1,4,9,10"
   }, {
     "id": 2012, "name": "龙骑兵SWAP", "en_name": "Dragoon_SWAP", "code": "Dragoon_SWAP", 
     "introduce": "龙骑兵的升级版，装配的代步机甲和突击武器都得到了加强，是综合素质方面进化最彻底的铁血单位，要谨慎与其交手。", 
@@ -486,7 +499,8 @@
     "eat_ratio": 95, "ratio_speed": 16, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 4, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 58, 
     "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911008, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, "org_id": 0, 
+    "gun_tag_ids": "101,113,108,166", "ratio_rec": 135, "recommended_team_ids": "1,10"
   }, {
     "id": 2013, "name": "痛击者SWAP", "en_name": "Striker_SWAP", "code": "Striker_SWAP", 
     "introduce": "痛击者的升级版，装配的远程机枪武器火力得到增强的同时，也加配了更多装甲，火力输出和压制力得以进一步提高。", 
@@ -499,7 +513,8 @@
     "ratio_speed": 5, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, "search_range": 9, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 59, "ai": 3045, 
     "is_additional": 18, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911012, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0, 
+    "gun_tag_ids": "102,146,10118", "ratio_rec": 100, "recommended_team_ids": "4,5"
   }, {
     "id": 2014, "name": "圣盾SWAP", "en_name": "Aegis_SWAP", "code": "Aegis_SWAP", 
     "introduce": "被铁血入侵的\"圣盾\"型军用作战机甲的升级版，搭载的当代高级军用装甲及护盾被进一步加厚，同时近战实力也毁灭性地得到加强。", 
@@ -512,7 +527,8 @@
     "ratio_speed": 8, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, "search_range": 3, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 60, "ai": 3045, 
     "is_additional": 9, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911011, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0, 
+    "gun_tag_ids": "101,152,113,129", "ratio_rec": 200, "recommended_team_ids": "1,4,5,6,8,9"
   }, {
     "id": 2015, "name": "猎鸥SWAP", "en_name": "Jaeger_SWAP", "code": "Jaeger_SWAP", 
     "introduce": "猎鸥的升级版，装配的远程狙击武器得到了火力和精准度上的加强，同时脆弱的本体也变得稍微具备生存性，是更加可怕的对手。", 
@@ -525,7 +541,8 @@
     "ratio_speed": 6, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, "search_range": 9, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 56, "ai": 3045, 
     "is_additional": 17, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 911006, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0, 
+    "gun_tag_ids": "102,154,117,10118", "ratio_rec": 80, "recommended_team_ids": "8,5"
   }, {
     "id": 2016, "name": "姜饼护卫者", "en_name": "Guard_chm", "code": "Guard_chm", 
     "introduce": "铁血的高级节日傀儡，装配有姜饼和糖果杖。如外形所见的高甜度角色，一般用于防御重要的厨房，或者拦截用破坏者做幌子溜进门偷糖的梦想家时出场。", 
@@ -539,7 +556,7 @@
     "search_range": 3, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", 
     "illustration_id": 108, "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 913124, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, 
-    "org_id": 0
+    "org_id": 0, "gun_tag_ids": "101,10102", "ratio_rec": 220, "recommended_team_ids": "1"
   }, {
     "id": 2017, "name": "僵尸新娘", "en_name": "Vespid_bride", "code": "Vespid_bride", 
     "introduce": "寂静的洋馆之中，华丽的纱衣挥之不去的怨念仍在徘徊；千万不要被美丽的外表迷惑，如果她向你掷来手中的花束，一定要记得躲闪。", 
@@ -553,7 +570,7 @@
     "search_range": 7, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", 
     "illustration_id": 121, "ai": 3045, "is_additional": 8, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 913101, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 90, 
-    "org_id": 0
+    "org_id": 0, "gun_tag_ids": "102,103", "ratio_rec": 110, "recommended_team_ids": "1,4,9"
   }, {
     "id": 2018, "name": "大白鲨乐园", "en_name": "RecceCentreSwim", "code": "RecceCentreSwim_buhuo", 
     "introduce": "为了便于走私而伪装成鲨鱼乐园的非法军火，量产鲨排是其主要功能，在伪装运输过程中，由于可爱的造型而得到孩子们的青睐。", 
@@ -567,7 +584,7 @@
     "search_range": 5, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", 
     "illustration_id": 123, "ai": 3045, "is_additional": 21, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 913217, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 0
+    "org_id": 0, "gun_tag_ids": "102,126,152,113,121", "ratio_rec": 100, "recommended_team_ids": "1,4,5,6,8,9"
   }, {
     "id": 3001, "name": "切割者", "en_name": "Ripper", "code": "Ripper", 
     "introduce": "铁血的常规作战傀儡，装配有短程冲锋武器，机动性较高，战场中常充当先锋或侦查角色。", 
@@ -580,7 +597,8 @@
     "eat_ratio": 95, "ratio_speed": 15, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 7, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 4, 
     "ai": 3045, "is_additional": 14, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910004, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0, 
+    "gun_tag_ids": "102,108", "ratio_rec": 120, "recommended_team_ids": "1"
   }, {
     "id": 3002, "name": "胡蜂", "en_name": "Vespid", "code": "Vespid", 
     "introduce": "铁血的常规作战傀儡，装配有远程突击武器，火力与低级军用人形相当，小规模战斗的主要战斗力。", 
@@ -593,7 +611,8 @@
     "ratio_speed": 12, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 7, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 7, 
     "ai": 3045, "is_additional": 15, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910005, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0, 
+    "gun_tag_ids": "102,103", "ratio_rec": 92, "recommended_team_ids": "1,4,9"
   }, {
     "id": 3003, "name": "护卫者", "en_name": "Guard", "code": "Guard", 
     "introduce": "铁血的高级作战傀儡，装配有护盾和短程火力武器，如外形所见的高防御护卫型角色，一般会用于防御重要单位，或者作为高级先锋在部队推进时出场。", 
@@ -606,7 +625,8 @@
     "eat_ratio": 95, "ratio_speed": 12, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 3, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 10, 
     "ai": 3045, "is_additional": 16, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910007, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 92, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 92, "org_id": 0, 
+    "gun_tag_ids": "101,10102", "ratio_rec": 150, "recommended_team_ids": "1"
   }, {
     "id": 3004, "name": "猎鸥", "en_name": "Jaeger", "code": "Jaeger", 
     "introduce": "铁血的常规作战傀儡，装配有远程狙击武器，火力和精准较高但本体脆弱，常规战场中必须小心的敌手。", 
@@ -619,7 +639,8 @@
     "ratio_speed": 6, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, "search_range": 9, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 9, "ai": 3045, 
     "is_additional": 17, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910006, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0, 
+    "gun_tag_ids": "102,154,117,10118", "ratio_rec": 65, "recommended_team_ids": "8,5"
   }, {
     "id": 3005, "name": "痛击者", "en_name": "Striker", "code": "Striker", 
     "introduce": "铁血的常规作战单位，装配有远程机枪武器，火力和射速较高，主要用于战场的火力输出和压制。", 
@@ -632,7 +653,8 @@
     "ratio_speed": 5, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, "search_range": 9, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 29, "ai": 3045, 
     "is_additional": 18, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910012, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0, 
+    "gun_tag_ids": "102,10118", "ratio_rec": 80, "recommended_team_ids": "5"
   }, {
     "id": 3006, "name": "兵蚁", "en_name": "Dinergate", "code": "Dinergate", 
     "introduce": "铁血的低级作战机甲，战斗能力较弱但适合量产，通常用于警卫和搜寻任务，采用粗暴的冲撞攻击，成群之后战斗力不容小觑。", 
@@ -646,7 +668,8 @@
     "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, "search_range": 3, "effect_grid_effect": "", 
     "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 6, "ai": 3045, "is_additional": 18, 
     "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910003, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 95, "org_id": 0, 
+    "gun_tag_ids": "101,126,166", "ratio_rec": 60, "recommended_team_ids": "1,9,10"
   }, {
     "id": 3007, "name": "侦察者", "en_name": "Scouts", "code": "Scouts", 
     "introduce": "铁血的低级作战机甲，作战能力较弱，但机动性高且易于隐蔽，常用于前线侦察和情报采集。", 
@@ -659,7 +682,8 @@
     "ratio_speed": 12, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 5, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 3, 
     "ai": 3045, "is_additional": 20, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910002, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0, 
+    "gun_tag_ids": "101,103", "ratio_rec": 105, "recommended_team_ids": "1"
   }, {
     "id": 3008, "name": "巡游者", "en_name": "Prowler", "code": "Prowler", 
     "introduce": "铁血的低级作战单位，火力和机动性都较弱，主要用于己方阵线的巡逻和侦查任务。", 
@@ -672,7 +696,8 @@
     "eat_ratio": 95, "ratio_speed": 12, "special": 0, "attack_range_type": 1, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 4, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 2, 
     "ai": 3045, "is_additional": 21, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910001, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0, 
+    "gun_tag_ids": "101,103,166", "ratio_rec": 120, "recommended_team_ids": "1,4,9,10"
   }, {
     "id": 3009, "name": "劫豹", "en_name": "Jaguar", "code": "Jaguar", 
     "introduce": "铁血的常规作战机甲，可移动的高伤害迫击武器，机动性较差，但火力可以与当代的常规军用武器媲美。", 
@@ -685,7 +710,8 @@
     "ratio_speed": 12, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, 
     "search_range": 9, "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 13, 
     "ai": 3045, "is_additional": 21, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910009, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 80, "org_id": 0, 
+    "gun_tag_ids": "102,121", "ratio_rec": 55, "recommended_team_ids": "6"
   }, {
     "id": 3010, "name": "歌利亚工厂", "en_name": "Golyat_Factory", "code": "Golyat_Factory", 
     "introduce": "生产炸弹型作战单位的移动型铁血兵工厂，能够不断生产出拥有自爆能力的歌利亚。停留在战场的时间越久，对敌方的威胁性越大。", 
@@ -698,7 +724,8 @@
     "ratio_speed": 3, "special": 0, "attack_range_type": 2, "assist_attack_range": 15, "ratio_range": 500, "search_range": 5, 
     "effect_grid_effect": "", "type_chip1": "", "type_chip2": "", "type_chip3": "", "illustration_id": 99, "ai": 3045, 
     "is_additional": 21, "launch_time": "2016-05-20 00:00:00", "obtain_ids": "0", "display_enemy_team": 910021, 
-    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0
+    "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, "org_id": 0, 
+    "gun_tag_ids": "102,126,152,121", "ratio_rec": 160, "recommended_team_ids": "1,4,5,6,8,9"
   }, {
     "id": 9001, "name": "衔尾蛇", "en_name": "Weaver", "code": "Weaver", 
     "introduce": "擅长短距离的突破或者防御作战，智能和作战能力很高，是蝴蝶事件之后才制造的人形，但因为是制造时期的试验品，AI极不稳定且很难被控制。表面沉稳内心高傲，拥有强劲的武力和智力优势，但是实战经验较少，而且行事风格捉摸不定，令敌我双方都难以预判，因此具有极高的危险度。", 
@@ -713,7 +740,7 @@
     "effect_grid_effect": "0:4,15;5,15|2:1,12;3,12", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 21, "ai": 11002, "is_additional": 1, "launch_time": "2035-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930007, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 0
+    "org_id": 0, "gun_tag_ids": "", "ratio_rec": 100, "recommended_team_ids": ""
   }, {
     "id": 90001, "name": "PPSh-41", "en_name": "PPSh-41", "code": "ISC", "introduce": "战斗资源缺失的替代资源", 
     "dialogue": "待定，单独提出语言包最好", "extra": ",,", "en_introduce": "待定", "forces": 1, "type": 1, 
@@ -727,6 +754,6 @@
     "effect_grid_effect": "0:4,15;5,15|2:1,12;3,12", "type_chip1": "1,2,3", "type_chip2": "1,2,3", "type_chip3": "1,2,3", 
     "illustration_id": 21, "ai": 11002, "is_additional": 1, "launch_time": "2035-05-20 00:00:00", "obtain_ids": "0", 
     "display_enemy_team": 930007, "picture_offset": "-100.001,-65.021", "picture_scale": "0.864,0.864", "dorm_scale": 100, 
-    "org_id": 0
+    "org_id": 0, "gun_tag_ids": "", "ratio_rec": 100, "recommended_team_ids": ""
   }
 ]

@@ -867,7 +867,7 @@
     rate: 35
     def: 500
     level: 100
-    character: 巨型,高威胁,装甲,力场,范围杀伤
+    character: 高威胁,巨型,装甲,力场,范围杀伤
     normal_attack: 404001
     passive_skill: "200303,404024,200304,119019,740089"
     effect_ratio: 1.21
@@ -944,7 +944,7 @@
     rate: 30
     def: 600
     level: 100
-    character: 巨型,精英,装甲,力场
+    character: 精英,巨型,装甲,力场
     normal_attack: 404003
     passive_skill: "200303,404004,404007,755000,740089"
     effect_ratio: 1.16
@@ -1000,7 +1000,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: 巨型,高威胁,装甲,力场,范围杀伤
+    character: 高威胁,巨型,装甲,力场,范围杀伤
     normal_attack: 404001
     passive_skill: "200303,404024,200304,119019,740089"
     effect_ratio: 1.38
@@ -1028,7 +1028,7 @@
     rate: 30
     def: 3750
     level: 100
-    character: 巨型,精英,装甲,力场
+    character: 精英,巨型,装甲,力场
     normal_attack: 404003
     passive_skill: "200303,404004,404007,755000,740089"
     effect_ratio: 1.38
@@ -1106,7 +1106,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: 巨型,高威胁,装甲,力场,范围杀伤
+    character: 高威胁,巨型,装甲,力场,范围杀伤
     normal_attack: 711101
     passive_skill: "200303,711102,200304,711103,711003,711004,711005,711006,711002,119019,740089"
     effect_ratio: 1.38
@@ -1184,7 +1184,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: 巨型,高威胁,装甲,力场,范围杀伤
+    character: 高威胁,巨型,装甲,力场,范围杀伤
     normal_attack: 404001
     passive_skill: "200303,404024,200304,119019,740089"
     effect_ratio: 1.38
@@ -1212,7 +1212,7 @@
     rate: 30
     def: 3750
     level: 100
-    character: 巨型,精英,装甲,力场
+    character: 精英,巨型,装甲,力场
     normal_attack: 404003
     passive_skill: "200303,404004,404007,755000,740089"
     effect_ratio: 1.38
@@ -1372,7 +1372,7 @@
     rate: 24
     def: 6000
     level: 30100
-    character: 巨型,装甲,力场,弱化
+    character: 装甲,巨型,力场,弱化
     normal_attack: 403701
     passive_skill: "200303,200304,403702,403703,403704,740089"
     effect_ratio: 1.12
@@ -1788,7 +1788,7 @@
     rate: 35
     def: 99999
     level: 100
-    character: 精英,巨型,高威胁,装甲,压制,弱化
+    character: 精英,高威胁,巨型,装甲,压制,弱化
     normal_attack: 900107
     passive_skill: "900478,900479,900480,119019,755000,740089"
     effect_ratio: 1.11
@@ -3498,7 +3498,7 @@
     rate: 24
     def: 6000
     level: 30100
-    character: 巨型,装甲,力场,弱化
+    character: 装甲,巨型,力场,弱化
     normal_attack: 403701
     passive_skill: "200303,200304,403702,403703,403704,740089"
     effect_ratio: 1.12
@@ -6375,6 +6375,710 @@
     enemy_illustration_id: 100051
   }
   {
+    id: 13253
+    type: 3
+    name: enemy_character_type-20013253
+    enemy_info: 梦魇-灰域探查
+    code: unknownbonus
+    maxlife: 924
+    pow: 21
+    hit: 23
+    dodge: 15
+    range: 2
+    speed: 20
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: enemy_character_type-10013253
+    normal_attack: 300316
+    passive_skill: "200304"
+    effect_ratio: 0.6
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30013253
+    enemy_illustration_id: 36
+  }
+  {
+    id: 14001
+    type: 3
+    name: enemy_character_type-20014001
+    enemy_info: 铁血突击白情-灰域探查
+    code: Vespid_bride
+    maxlife: 960
+    pow: 22
+    hit: 70
+    dodge: 32
+    range: 7
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 24
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014001
+    normal_attack: 300313
+    passive_skill: "200304,755257"
+    effect_ratio: 1.0
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014001
+    enemy_illustration_id: 121
+  }
+  {
+    id: 14002
+    type: 3
+    name: enemy_character_type-20014002
+    enemy_info: 铁血双刀白情-灰域探查
+    code: Brute_Ghost
+    maxlife: 1150
+    pow: 58
+    hit: 70
+    dodge: 18
+    range: 3
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 40
+    rate: 36
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014002
+    normal_attack: 300316
+    passive_skill: "200304,755257"
+    effect_ratio: 1.2
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014002
+    enemy_illustration_id: 122
+  }
+  {
+    id: 14003
+    type: 4
+    name: enemy_character_type-20014003
+    enemy_info: 沙滩九头蛇-灰域探查
+    code: Hydra_beach
+    maxlife: 9000
+    pow: 280
+    hit: 55
+    range: 4
+    speed: 20
+    number: 1
+    angle: 180
+    armor: 199
+    rate: 42
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014003
+    normal_attack: 402601
+    passive_skill: "200303,200304,402602,755256"
+    effect_ratio: 1.17
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014003
+    enemy_illustration_id: 82
+  }
+  {
+    id: 14004
+    type: 4
+    name: enemy_character_type-20014004
+    enemy_info: 沙滩蜘蛛雷-灰域探查
+    code: landmine_beach
+    maxlife: 800
+    pow: 100
+    hit: 100
+    range: 20
+    speed: 40
+    number: 1
+    angle: 180
+    armor: 20
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014004
+    normal_attack: 900107
+    passive_skill: "200303,403107,755256"
+    effect_ratio: 0.25
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014004
+    enemy_illustration_id: 83
+  }
+  {
+    id: 14005
+    type: 2
+    name: enemy_character_type-20014005
+    enemy_info: 沙滩兵工厂-灰域探查
+    code: RecceCentre_beach
+    maxlife: 35000
+    pow: 10
+    hit: 15
+    dodge: 10
+    range: 15
+    number: 1
+    angle: 180
+    armor: 150
+    rate: 25
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014005
+    normal_attack: 900107
+    passive_skill: "200304,404504,404503,755000,755256"
+    effect_ratio: 1.41
+    unable_buff_type: "221"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014005
+    enemy_illustration_id: 84
+  }
+  {
+    id: 14006
+    type: 2
+    name: enemy_character_type-20014006
+    enemy_info: 沙滩西瓜-灰域探查
+    code: Pathfinder_beach
+    maxlife: 180
+    pow: 10
+    hit: 150
+    dodge: 150
+    range: 3
+    speed: 18
+    number: 1
+    angle: 180
+    armor: 45
+    rate: 50
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014006
+    normal_attack: 300317
+    passive_skill: "200304,755256"
+    effect_ratio: 0.84
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014006
+    enemy_illustration_id: 85
+  }
+  {
+    id: 14070
+    type: 2
+    name: enemy_character_type-20014070
+    enemy_info: 圣诞兵蚁-灰域探查
+    code: Dinergate_chm1
+    maxlife: 65
+    pow: 84
+    hit: 140
+    range: 3
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014070
+    normal_attack: 300316
+    passive_skill: "200304,755258"
+    effect_ratio: 0.07
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014070
+    enemy_illustration_id: 106
+  }
+  {
+    id: 14111
+    type: 5
+    name: enemy_character_type-20014111
+    enemy_info: 万圣圣盾2020
+    code: Aegis_Halloween
+    maxlife: 1550
+    pow: 11
+    hit: 18
+    range: 3
+    speed: 35
+    number: 1
+    angle: 180
+    armor: 90
+    rate: 40
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014111
+    normal_attack: 300316
+    passive_skill: "200303,200304,755257"
+    effect_ratio: 1.14
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014111
+    enemy_illustration_id: 104
+  }
+  {
+    id: 14112
+    type: 4
+    name: enemy_character_type-20014112
+    enemy_info: 万圣钢狮2020
+    code: Nemeum_Halloween
+    maxlife: 567
+    pow: 84
+    hit: 60
+    range: 7
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 90
+    rate: 15
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014112
+    normal_attack: 901053
+    passive_skill: "200303,200304,755257"
+    effect_ratio: 1.28
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014112
+    enemy_illustration_id: 105
+  }
+  {
+    id: 14117
+    type: 3
+    name: enemy_character_type-20014117
+    enemy_info: 万圣切割者普通
+    code: Ripper_Halloween
+    maxlife: 794
+    pow: 21
+    hit: 23
+    dodge: 15
+    range: 5
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 36
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014117
+    normal_attack: 300317
+    passive_skill: "200304,755257"
+    effect_ratio: 1.0
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014117
+    enemy_illustration_id: 101
+  }
+  {
+    id: 14118
+    type: 3
+    name: enemy_character_type-20014118
+    enemy_info: 万圣猎鸥普通
+    code: Jaeger_Halloween
+    maxlife: 397
+    pow: 42
+    hit: 140
+    dodge: 15
+    range: 7
+    speed: 35
+    number: 1
+    angle: 180
+    armor_piercing: 35
+    rate: 18
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014118
+    normal_attack: 300301
+    passive_skill: "200304,755257"
+    effect_ratio: 1.0
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014118
+    enemy_illustration_id: 102
+  }
+  {
+    id: 14119
+    type: 3
+    name: enemy_character_type-20014119
+    enemy_info: 万圣龙骑兵普通
+    code: Dragon_Halloween
+    maxlife: 1588
+    pow: 42
+    hit: 140
+    dodge: 15
+    range: 4
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 28
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014119
+    normal_attack: 300318
+    passive_skill: "200304,755257"
+    effect_ratio: 1.0
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014119
+    enemy_illustration_id: 103
+  }
+  {
+    id: 14123
+    type: 2
+    name: enemy_character_type-20014123
+    enemy_info: 驯顺兵鹿
+    code: Dinergate_chm2
+    maxlife: 65
+    pow: 84
+    hit: 140
+    range: 3
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014123
+    normal_attack: 300316
+    passive_skill: "200304,755258"
+    effect_ratio: 0.07
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014123
+    enemy_illustration_id: 107
+  }
+  {
+    id: 14124
+    type: 3
+    name: enemy_character_type-20014124
+    enemy_info: 姜饼护卫者
+    code: Guard_chm
+    maxlife: 2269
+    pow: 11
+    hit: 23
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014124
+    normal_attack: 300316
+    passive_skill: "200304,755258"
+    effect_ratio: 0.6
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014124
+    enemy_illustration_id: 108
+  }
+  {
+    id: 14217
+    type: 2
+    name: enemy_character_type-20014217
+    enemy_info: 兵工厂-泳装2021
+    code: RecceCentreSwim
+    maxlife: 25000
+    pow: 10
+    hit: 6
+    dodge: 4
+    range: 15
+    number: 1
+    angle: 180
+    armor: 150
+    rate: 20
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014217
+    normal_attack: 900107
+    passive_skill: "200303,200304,404503,404506,755000,755256"
+    effect_ratio: 1.4
+    unable_buff_type: "221"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014217
+    enemy_illustration_id: 123
+  }
+  {
+    id: 14218
+    type: 2
+    name: enemy_character_type-20014218
+    enemy_info: 球-泳装2021
+    code: PathfinderSwim
+    maxlife: 130
+    pow: 10
+    hit: 150
+    dodge: 60
+    range: 3
+    speed: 18
+    number: 1
+    angle: 180
+    armor: 45
+    rate: 40
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014218
+    normal_attack: 300312
+    passive_skill: "200304,755256"
+    effect_ratio: 0.82
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014218
+    enemy_illustration_id: 124
+  }
+  {
+    id: 14219
+    type: 3
+    name: enemy_character_type-20014219
+    enemy_info: 独眼巨人(步枪型）
+    code: CyclopsSwim
+    maxlife: 1320
+    pow: 22
+    hit: 46
+    dodge: 32
+    range: 5
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 28
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014219
+    normal_attack: 300301
+    passive_skill: "700101,402605,755256"
+    effect_ratio: 1.0
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014219
+    enemy_illustration_id: 125
+  }
+  {
+    id: 14225
+    type: 2
+    name: enemy_character_type-20014225
+    enemy_info: 侦察犬-白情
+    code: Dinergate_WhiteDay
+    maxlife: 65
+    pow: 84
+    hit: 140
+    range: 3
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 24
+    def: 99999
+    level: 30100
+    character: enemy_character_type-10014225
+    normal_attack: 300316
+    passive_skill: "200304,755259"
+    effect_ratio: 0.07
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014225
+    enemy_illustration_id: 158
+  }
+  {
+    id: 14226
+    type: 2
+    name: enemy_character_type-20014226
+    enemy_info: 歌莉娅-白情1
+    code: Dinergate_WhiteDay1
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014226
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014226
+    enemy_illustration_id: 159
+  }
+  {
+    id: 14227
+    type: 2
+    name: enemy_character_type-20014227
+    enemy_info: 歌莉娅-白情2
+    code: Dinergate_WhiteDay2
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014227
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014227
+    enemy_illustration_id: 160
+  }
+  {
+    id: 14228
+    type: 2
+    name: enemy_character_type-20014228
+    enemy_info: 歌莉娅-白情3
+    code: Dinergate_WhiteDay3
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014228
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014228
+    enemy_illustration_id: 161
+  }
+  {
+    id: 14229
+    type: 2
+    name: enemy_character_type-20014229
+    enemy_info: 歌莉娅-白情1大号
+    code: Dinergate_WhiteDay1B
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014229
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014229
+    enemy_illustration_id: 159
+  }
+  {
+    id: 14230
+    type: 2
+    name: enemy_character_type-20014230
+    enemy_info: 歌莉娅-白情2大号
+    code: Dinergate_WhiteDay2B
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014230
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014230
+    enemy_illustration_id: 160
+  }
+  {
+    id: 14231
+    type: 2
+    name: enemy_character_type-20014231
+    enemy_info: 歌莉娅-白情3大号
+    code: Dinergate_WhiteDay3B
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: enemy_character_type-10014231
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014231
+    enemy_illustration_id: 161
+  }
+  {
+    id: 14232
+    type: 3
+    name: enemy_character_type-20014232
+    enemy_info: 泳装角斗士
+    code: Roarer_swimsuit
+    maxlife: 42000
+    pow: 46
+    hit: 46
+    dodge: 10
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 90
+    rate: 24
+    def: 6000
+    level: 30100
+    character: 巨型,装甲,力场,弱化
+    normal_attack: 403701
+    passive_skill: "200303,200304,403702,755214,403704,755256"
+    effect_ratio: 1.21
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014232
+    enemy_illustration_id: 163
+  }
+  {
+    id: 14233
+    type: 3
+    name: enemy_character_type-20014233
+    enemy_info: 泳装剑盾士
+    code: Rodelero_swimsuit
+    maxlife: 3500
+    pow: 27
+    hit: 40
+    dodge: 15
+    range: 7
+    speed: 35
+    number: 1
+    angle: 180
+    armor: 40
+    rate: 15
+    def: 600
+    level: 100
+    character: enemy_character_type-10014233
+    normal_attack: 755215
+    passive_skill: "200303,200304,755256"
+    effect_ratio: 1.04
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014233
+    enemy_illustration_id: 164
+  }
+  {
+    id: 14234
+    type: 3
+    name: enemy_character_type-20014234
+    enemy_info: 泳装重炮士
+    code: StreletPlus_swimsuit
+    maxlife: 1950
+    pow: 46
+    hit: 72
+    dodge: 50
+    range: 7
+    speed: 25
+    number: 1
+    angle: 180
+    rate: 40
+    def: 1500
+    level: 30100
+    character: enemy_character_type-10014234
+    normal_attack: 755217
+    passive_skill: "200304,755216,119019,755256"
+    effect_ratio: 0.8
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30014234
+    enemy_illustration_id: 165
+  }
+  {
     id: 15001
     type: 5
     name: 圣盾
@@ -6721,7 +7425,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: 巨型,高威胁,装甲,力场,范围杀伤
+    character: 高威胁,巨型,装甲,力场,范围杀伤
     normal_attack: 404001
     passive_skill: "200303,404024,200304"
     effect_ratio: 0.792
@@ -6749,7 +7453,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: 巨型,高威胁,装甲,力场,范围杀伤
+    character: 高威胁,巨型,装甲,力场,范围杀伤
     normal_attack: 404001
     passive_skill: "200303,404024,200304"
     effect_ratio: 0.792
@@ -7505,6 +8209,7 @@
     deployment_scale: 1.0
     recommend_description: enemy_character_type-30090001
     enemy_illustration_id: 1
+    tenacity: 100
   }
   {
     id: 90002
@@ -8314,7 +9019,7 @@
     rate: 40
     def: 6000
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,119029,740089"
     effect_ratio: 1.0
@@ -11221,7 +11926,7 @@
     boss_hp: 225000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -12572,7 +13277,7 @@
     boss_hp: 11500
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404025,404026,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -12601,7 +13306,7 @@
     boss_hp: 245000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -12942,7 +13647,7 @@
     boss_hp: 195000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -13371,7 +14076,7 @@
     boss_hp: 245000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -14266,7 +14971,7 @@
     boss_hp: 85000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -15638,7 +16343,7 @@
     boss_hp: 245000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 404014
     passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1.0
@@ -17728,7 +18433,7 @@
     boss_hp: 205000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 755203
     passive_skill: "755197,755199,755200,755201,755202,755204,755205,755206,755207,755208,755209,755210,755211,755212,755213,119029,740089"
     effect_ratio: 1.0
@@ -17758,7 +18463,7 @@
     boss_hp: 465000
     def: 99999
     level: 100
-    character: 精英,危险,巨型
+    character: 精英,巨型,危险
     normal_attack: 755203
     passive_skill: "755197,755199,755200,755201,755202,755204,755205,755206,755207,755208,755209,755210,755211,755212,755213,119029,740089"
     effect_ratio: 1.0
@@ -17874,7 +18579,7 @@
     boss_hp: 8200
     def: 300
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755250,119029,740089"
     effect_ratio: 1.0
@@ -17902,7 +18607,7 @@
     boss_hp: 160000
     def: 5000
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755250,119029,740089"
     effect_ratio: 1.0
@@ -17930,7 +18635,7 @@
     boss_hp: 520000
     def: 7000
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755250,119029,740089"
     effect_ratio: 1.0
@@ -17958,7 +18663,7 @@
     boss_hp: 220000
     def: 6000
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,119029,740089"
     effect_ratio: 1.0
@@ -18016,7 +18721,7 @@
     boss_hp: 12000
     def: 500
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755249,755250,119029,740089"
     effect_ratio: 1.0
@@ -18044,7 +18749,7 @@
     boss_hp: 185000
     def: 5000
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755249,755250,119029,740089"
     effect_ratio: 1.0
@@ -18072,7 +18777,7 @@
     boss_hp: 520000
     def: 7000
     level: 100
-    character: 精英,巨型,贯穿
+    character: 精英,贯穿,巨型
     normal_attack: 755238
     passive_skill: "755239,755240,755241,755249,755250,119029,740089"
     effect_ratio: 1.0
@@ -18194,6 +18899,855 @@
     deployment_scale: 1.0
     recommend_description: enemy_character_type-30900369
     enemy_illustration_id: 68
+  }
+  {
+    id: 900370
+    type: 1
+    name: enemy_character_type-20900370
+    enemy_info: 巨大铁血狗-灰域探查
+    code: Cerberus_WhiteDay
+    maxlife: 5000
+    pow: 12
+    hit: 25
+    dodge: 5
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 10
+    rate: 150
+    boss_hp: 5000
+    def: 99999
+    level: 100
+    character: enemy_character_type-10900370
+    normal_attack: 300326
+    passive_skill: "402001,402101,402002,200303,402103,119029,755259"
+    effect_ratio: 1.03
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900370
+    enemy_illustration_id: 162
+  }
+  {
+    id: 900371
+    type: 1
+    name: enemy_character_type-20900371
+    enemy_info: 灰域Boss-昼55
+    code: Scarecrow
+    maxlife: 10500
+    pow: 30
+    hit: 50
+    dodge: 20
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 10500
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧,精准
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1.0
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900371
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900372
+    type: 1
+    name: enemy_character_type-20900372
+    enemy_info: 灰域Boss-昼90
+    code: Scarecrow
+    maxlife: 85000
+    pow: 50
+    hit: 80
+    dodge: 50
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 85000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧,精准
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1.0
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900372
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900373
+    type: 1
+    name: enemy_character_type-20900373
+    enemy_info: 灰域Boss-昼125
+    code: Scarecrow
+    maxlife: 200000
+    pow: 160
+    hit: 180
+    dodge: 80
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 200000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧,精准
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1.0
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900373
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900374
+    type: 1
+    name: enemy_character_type-20900374
+    enemy_info: 灰域Boss-夜40
+    code: Scarecrow
+    maxlife: 10000
+    pow: 25
+    hit: 40
+    dodge: 10
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 10000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧,精准
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1.0
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900374
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900375
+    type: 1
+    name: enemy_character_type-20900375
+    enemy_info: 灰域Boss-夜85
+    code: Scarecrow
+    maxlife: 70000
+    pow: 40
+    hit: 60
+    dodge: 20
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 70000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧,精准
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1.0
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900375
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900376
+    type: 1
+    name: enemy_character_type-20900376
+    enemy_info: 灰域Boss-夜115
+    code: Scarecrow
+    maxlife: 180000
+    pow: 145
+    hit: 150
+    dodge: 50
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 180000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧,精准
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1.0
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900376
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900377
+    type: 1
+    name: enemy_character_type-20900377
+    enemy_info: 灰域Boss-昼55
+    code: BossArchitect
+    maxlife: 12500
+    pow: 20
+    hit: 40
+    dodge: 10
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 12500
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900377
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900378
+    type: 1
+    name: enemy_character_type-20900378
+    enemy_info: 灰域Boss-昼90
+    code: BossArchitect
+    maxlife: 95000
+    pow: 35
+    hit: 40
+    dodge: 20
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 95000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900378
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900379
+    type: 1
+    name: enemy_character_type-20900379
+    enemy_info: 灰域Boss-昼125
+    code: BossArchitect
+    maxlife: 220000
+    pow: 95
+    hit: 40
+    dodge: 30
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 220000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900379
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900380
+    type: 1
+    name: enemy_character_type-20900380
+    enemy_info: 灰域Boss-夜40
+    code: BossArchitect
+    maxlife: 10500
+    pow: 20
+    hit: 40
+    dodge: 5
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 10500
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900380
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900381
+    type: 1
+    name: enemy_character_type-20900381
+    enemy_info: 灰域Boss-夜85
+    code: BossArchitect
+    maxlife: 80000
+    pow: 30
+    hit: 40
+    dodge: 10
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 80000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900381
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900382
+    type: 1
+    name: enemy_character_type-20900382
+    enemy_info: 灰域Boss-夜115
+    code: BossArchitect
+    maxlife: 200000
+    pow: 95
+    hit: 40
+    dodge: 20
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 200000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900382
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900383
+    type: 1
+    name: enemy_character_type-20900383
+    enemy_info: 灰域Boss-昼55
+    code: Intruder
+    maxlife: 11000
+    pow: 20
+    hit: 30
+    dodge: 25
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 11000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900383
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900384
+    type: 1
+    name: enemy_character_type-20900384
+    enemy_info: 灰域Boss-昼90
+    code: Intruder
+    maxlife: 90000
+    pow: 60
+    hit: 60
+    dodge: 40
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 90000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900384
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900385
+    type: 1
+    name: enemy_character_type-20900385
+    enemy_info: 灰域Boss-昼125
+    code: Intruder
+    maxlife: 190000
+    pow: 210
+    hit: 90
+    dodge: 60
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 190000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900385
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900386
+    type: 1
+    name: enemy_character_type-20900386
+    enemy_info: 灰域Boss-夜40
+    code: Intruder
+    maxlife: 10000
+    pow: 15
+    hit: 20
+    dodge: 10
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 10000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900386
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900387
+    type: 1
+    name: enemy_character_type-20900387
+    enemy_info: 灰域Boss-夜85
+    code: Intruder
+    maxlife: 75000
+    pow: 50
+    hit: 50
+    dodge: 30
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 75000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900387
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900388
+    type: 1
+    name: enemy_character_type-20900388
+    enemy_info: 灰域Boss-夜115
+    code: Intruder
+    maxlife: 160000
+    pow: 180
+    hit: 70
+    dodge: 45
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 160000
+    def: 99999
+    level: 100
+    character: 精英,远程,机巧
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900388
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900389
+    type: 1
+    name: enemy_character_type-20900389
+    enemy_info: 灰域Boss-昼55
+    code: Destroyer
+    maxlife: 14000
+    pow: 30
+    hit: 30
+    dodge: 20
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 14000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900389
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900390
+    type: 1
+    name: enemy_character_type-20900390
+    enemy_info: 灰域Boss-昼90
+    code: Destroyer
+    maxlife: 100000
+    pow: 50
+    hit: 50
+    dodge: 30
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 100000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900390
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900391
+    type: 1
+    name: enemy_character_type-20900391
+    enemy_info: 灰域Boss-昼125
+    code: Destroyer
+    maxlife: 240000
+    pow: 180
+    hit: 75
+    dodge: 50
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 240000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900391
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900392
+    type: 1
+    name: enemy_character_type-20900392
+    enemy_info: 灰域Boss-夜40
+    code: Destroyer
+    maxlife: 12000
+    pow: 20
+    hit: 20
+    dodge: 10
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 12000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900392
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900393
+    type: 1
+    name: enemy_character_type-20900393
+    enemy_info: 灰域Boss-夜85
+    code: Destroyer
+    maxlife: 90000
+    pow: 40
+    hit: 40
+    dodge: 20
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 90000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900393
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900394
+    type: 1
+    name: enemy_character_type-20900394
+    enemy_info: 灰域Boss-夜115
+    code: Destroyer
+    maxlife: 200000
+    pow: 160
+    hit: 60
+    dodge: 35
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 200000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900394
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900395
+    type: 1
+    name: enemy_character_type-20900395
+    enemy_info: 灰域Boss-昼55
+    code: Justice
+    maxlife: 15000
+    pow: 20
+    hit: 60
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 50
+    rate: 150
+    boss_hp: 15000
+    def: 99999
+    level: 100
+    character: 精英,远程,装甲,精准
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900395
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900396
+    type: 1
+    name: enemy_character_type-20900396
+    enemy_info: 灰域Boss-昼90
+    code: Justice
+    maxlife: 120000
+    pow: 40
+    hit: 100
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 80
+    rate: 150
+    boss_hp: 120000
+    def: 99999
+    level: 100
+    character: 精英,远程,装甲,精准
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900396
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900397
+    type: 1
+    name: enemy_character_type-20900397
+    enemy_info: 灰域Boss-昼125
+    code: Justice
+    maxlife: 260000
+    pow: 60
+    hit: 150
+    dodge: 20
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 100
+    rate: 150
+    boss_hp: 260000
+    def: 99999
+    level: 100
+    character: 精英,远程,装甲,精准
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900397
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900398
+    type: 1
+    name: enemy_character_type-20900398
+    enemy_info: 灰域Boss-夜40
+    code: Justice
+    maxlife: 12000
+    pow: 20
+    hit: 40
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 50
+    rate: 150
+    boss_hp: 12000
+    def: 99999
+    level: 100
+    character: 精英,远程,装甲,精准
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900398
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900399
+    type: 1
+    name: enemy_character_type-20900399
+    enemy_info: 灰域Boss-夜85
+    code: Justice
+    maxlife: 100000
+    pow: 40
+    hit: 80
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 80
+    rate: 150
+    boss_hp: 100000
+    def: 99999
+    level: 100
+    character: 精英,远程,装甲,精准
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900399
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900400
+    type: 1
+    name: enemy_character_type-20900400
+    enemy_info: 灰域Boss-夜115
+    code: Justice
+    maxlife: 220000
+    pow: 60
+    hit: 120
+    dodge: 20
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 100
+    rate: 150
+    boss_hp: 220000
+    def: 99999
+    level: 100
+    character: 精英,远程,装甲,精准
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1.0
+    recommend_description: enemy_character_type-30900400
+    enemy_illustration_id: 199
   }
   {
     id: 900501
@@ -19498,7 +21052,7 @@
     rate: 30
     def: 600
     level: 100
-    character: 巨型,精英,装甲,力场
+    character: 精英,巨型,装甲,力场
     normal_attack: 404003
     passive_skill: "200303,404004,404007"
     effect_ratio: 0.986

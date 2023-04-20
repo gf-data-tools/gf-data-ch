@@ -1,11 +1,10 @@
 [
   {
     id: 1
-    name: 能量护盾
-    desc: 战斗中为本梯队内的所有冲锋枪张开护盾,每个护盾最多吸收40点伤害。
+    name: 禁止修复
+    desc: 战场中我方单位无法使用修复能力恢复自身血量
     if_display: 1
-    code: shield
-    skill_group: "900101"
+    code: no_rec
   }
   {
     id: 2
@@ -454,6 +453,78 @@
     if_display: 1
     code: fight_skill_hurt301
     skill_group: "756204"
+  }
+  {
+    id: 1101
+    name: 坚守阵地
+    desc: 每隔3秒提升我方前排人形回避和护甲6%，最多10层
+    if_display: 1
+    code: fight_skill_buff103
+    skill_group: "756224"
+  }
+  {
+    id: 1102
+    name: 迅速整备
+    desc: 我方前置冷却时间缩减50%
+    if_display: 1
+    code: fight_skill_buff105
+    skill_group: "756225"
+  }
+  {
+    id: 1103
+    name: 焦土战略
+    desc: 每隔6秒时间向敌人血量最高单位投掷燃烧物，每0.33秒造成60点伤害，持续15秒，范围3*3
+    if_display: 1
+    code: fight_skill_hurt102
+    skill_group: "756227"
+  }
+  {
+    id: 1104
+    name: 应急护盾
+    desc: 每隔10秒时间恢复我方已损失血量30%的护盾持续6秒
+    if_display: 1
+    code: fight_skill_buff104
+    skill_group: "756089"
+  }
+  {
+    id: 1105
+    name: 随机打击
+    desc: 每隔10秒随机弱化一个敌方单位，大幅降低该单位属性（伤害，射速，命中，闪避，护甲）降低50%
+    if_display: 1
+    code: fight_skill_hurt101
+    skill_group: "756093"
+  }
+  {
+    id: 1106
+    name: 偏转力场
+    desc: 我方血量最高单位开场获得9999点偏转力场，持续5秒
+    if_display: 1
+    code: fight_skill_buff104
+    skill_group: "756228"
+  }
+  {
+    id: 1107
+    name: 越战越勇
+    desc: 我方每次使用技能后下次技能冷却减少30%
+    if_display: 1
+    code: fight_skill_buff105
+    skill_group: "759124"
+  }
+  {
+    id: 1108
+    name: 铁甲肉盾
+    desc: 我方血量最高的单位额外获得30%减伤
+    if_display: 1
+    code: fight_skill_buff104
+    skill_group: "756230"
+  }
+  {
+    id: 1109
+    name: 突击号令
+    desc: 我方全体射速提升30%
+    if_display: 1
+    code: fight_skill_buff101
+    skill_group: "756231"
   }
   {
     id: 1133001
@@ -1134,5 +1205,285 @@
     if_display: 1
     code: Rouge_592206
     skill_group: "778121"
+  }
+  {
+    id: 12020101
+    name: 火力强化
+    desc: 提升全队伤害15%。
+    if_display: 1
+    code: daily_game_01
+    skill_group: "120201"
+  }
+  {
+    id: 12020201
+    name: 火力强化+
+    desc: 提升全队伤害30%。
+    if_display: 1
+    code: daily_game_02
+    skill_group: "120202"
+  }
+  {
+    id: 12020301
+    name: 射速强化
+    desc: 提升全队射速15%。
+    if_display: 1
+    code: daily_game_03
+    skill_group: "120203"
+  }
+  {
+    id: 12020401
+    name: 射速强化+
+    desc: 提升全队射速30%。
+    if_display: 1
+    code: daily_game_04
+    skill_group: "120204"
+  }
+  {
+    id: 12020501
+    name: 穿甲强化
+    desc: 增加全队穿甲100点。
+    if_display: 1
+    code: daily_game_05
+    skill_group: "120205"
+  }
+  {
+    id: 12020601
+    name: 穿甲强化+
+    desc: 增加全队穿甲200点。
+    if_display: 1
+    code: daily_game_06
+    skill_group: "120206"
+  }
+  {
+    id: 12020701
+    name: 护盾强化
+    desc: 增加全队护盾100点。
+    if_display: 1
+    code: daily_game_07
+    skill_group: "120207"
+  }
+  {
+    id: 12020801
+    name: 护盾强化+
+    desc: 增加全队护盾200点。
+    if_display: 1
+    code: daily_game_08
+    skill_group: "120208"
+  }
+  {
+    id: 12020901
+    name: 暴伤强化
+    desc: 提升全队暴击伤害25%。
+    if_display: 1
+    code: daily_game_09
+    skill_group: "120209"
+  }
+  {
+    id: 12021001
+    name: 暴伤强化+
+    desc: 提升全队暴击伤害50%。
+    if_display: 1
+    code: daily_game_10
+    skill_group: "120210"
+  }
+  {
+    id: 12021101
+    name: 回避强化
+    desc: 提升全队回避25%。
+    if_display: 1
+    code: daily_game_11
+    skill_group: "120211"
+  }
+  {
+    id: 12021201
+    name: 回避强化+
+    desc: 提升全队回避50%。
+    if_display: 1
+    code: daily_game_12
+    skill_group: "120212"
+  }
+  {
+    id: 12021301
+    name: 夜视强化
+    desc: 提升全队夜视性能25%。
+    if_display: 1
+    code: daily_game_13
+    skill_group: "120213"
+  }
+  {
+    id: 12021401
+    name: 夜视强化+
+    desc: 提升全队夜视性能50%。
+    if_display: 1
+    code: daily_game_14
+    skill_group: "120214"
+  }
+  {
+    id: 12021501
+    name: 命中强化
+    desc: 提升全队命中100%。
+    if_display: 1
+    code: daily_game_15
+    skill_group: "120215"
+  }
+  {
+    id: 12021601
+    name: 命中强化+
+    desc: 提升全队命中200%。
+    if_display: 1
+    code: daily_game_16
+    skill_group: "120216"
+  }
+  {
+    id: 12021701
+    name: 移速强化
+    desc: 提升全队移速100%。
+    if_display: 1
+    code: daily_game_17
+    skill_group: "120217"
+  }
+  {
+    id: 12021801
+    name: 移速强化+
+    desc: 提升全队移速200%。
+    if_display: 1
+    code: daily_game_18
+    skill_group: "120218"
+  }
+  {
+    id: 12021901
+    name: 火力降低
+    desc: 降低敌方全体伤害15%。
+    if_display: 1
+    code: daily_game_19
+    skill_group: "120219"
+  }
+  {
+    id: 12022001
+    name: 火力降低+
+    desc: 降低敌方全体伤害30%。
+    if_display: 1
+    code: daily_game_20
+    skill_group: "120220"
+  }
+  {
+    id: 12022101
+    name: 回避降低
+    desc: 降低敌方全体回避50%。
+    if_display: 1
+    code: daily_game_21
+    skill_group: "120221"
+  }
+  {
+    id: 12022201
+    name: 回避降低+
+    desc: 降低敌方全体回避70%。
+    if_display: 1
+    code: daily_game_22
+    skill_group: "120222"
+  }
+  {
+    id: 12022301
+    name: 命中降低
+    desc: 降低敌方全体命中15%。
+    if_display: 1
+    code: daily_game_23
+    skill_group: "120223"
+  }
+  {
+    id: 12022401
+    name: 命中降低+
+    desc: 降低敌方全体命中30%。
+    if_display: 1
+    code: daily_game_24
+    skill_group: "120224"
+  }
+  {
+    id: 12022501
+    name: 失力眩晕
+    desc: 战斗中每隔10秒眩晕敌人2秒。
+    if_display: 1
+    code: P290
+    skill_group: "120225"
+  }
+  {
+    id: 12022601
+    name: 火力点射
+    desc: 战斗中每隔8秒对敌方血量最低单位造成10000点伤害。
+    if_display: 1
+    code: daily_game_26
+    skill_group: "120226"
+  }
+  {
+    id: 12022701
+    name: 护盾破解
+    desc: 战斗中每隔10秒清空一次敌人身上护盾。
+    if_display: 1
+    code: Rouge_590301
+    skill_group: "120227"
+  }
+  {
+    id: 12022801
+    name: 协同挑衅
+    desc: 战斗开始时召唤1组5编，每编1000血的靶机。
+    if_display: 1
+    code: daily_game_28
+    skill_group: "120228"
+  }
+  {
+    id: 12022901
+    name: 麻痹之花
+    desc: 战斗开始时麻痹敌人4秒。
+    if_display: 1
+    code: Rouge_590401
+    skill_group: "120229"
+  }
+  {
+    id: 12023001
+    name: 穿甲之力
+    desc: 我方攻击穿透护甲额外造成一次200点伤害。
+    if_display: 1
+    code: mg3mod
+    skill_group: "120230"
+  }
+  {
+    id: 12023101
+    name: 穿甲法球[*]
+    desc: 穿甲法球[*]
+    if_display: 1
+    code: daily_game_31
+    skill_group: "120231"
+  }
+  {
+    id: 12023201
+    name: 急速技能
+    desc: 我方每次使用技能后下次技能冷却减少20%。
+    if_display: 1
+    code: AK74M
+    skill_group: "120232"
+  }
+  {
+    id: 12023301
+    name: 护盾暴击
+    desc: 我方拥有护盾的单位暴击增加100%。
+    if_display: 1
+    code: daily_game_33
+    skill_group: "120233"
+  }
+  {
+    id: 12023401
+    name: 护盾暴击-1
+    desc: 我方拥有护盾的单位暴击增加100%-1。
+    if_display: 1
+    code: daily_game_33
+    skill_group: "120234"
+  }
+  {
+    id: 12023501
+    name: 护盾暴击-2
+    desc: 我方拥有护盾的单位暴击增加100%-2。
+    if_display: 1
+    code: daily_game_33
+    skill_group: "120235"
   }
 ]

@@ -258,7 +258,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "2,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 103
@@ -968,7 +968,7 @@
     action_delay: "10,40,70"
     action_playspeed: "100,100,100"
     creation_order: "30,30,30,43,44,45"
-    creation_delay: "10,40,70,10,40,70"
+    creation_delay: "10,40,70,9,40,70"
     effect_order: "1"
     effect_delay: "1"
     effect_duration: "1"
@@ -1218,7 +1218,7 @@
     action_order: attack
     action_playspeed: "100"
     creation_order: "2,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 236
@@ -2394,7 +2394,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "2059,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 455
@@ -4066,7 +4066,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "1309,21,1336,1310,1310,1310"
-    creation_delay: "0,0,0,10,4,7"
+    creation_delay: "0,0,0,9,4,7"
   }
   {
     id: 1316
@@ -4113,7 +4113,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "2,21,1336,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 1324
@@ -4127,7 +4127,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "1339,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 1326
@@ -5658,7 +5658,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "2,21,138,8,10300,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 1617
@@ -9395,7 +9395,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "2,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 3050
@@ -9588,7 +9588,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "3263,3265,3262,3264,3264,3264"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 3075
@@ -9608,7 +9608,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "2,35,3268,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 3077
@@ -11079,7 +11079,7 @@
     action_order: attack
     action_playspeed: "100"
     creation_order: "3568,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
     sound_order: BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,4,7"
   }
@@ -11089,7 +11089,7 @@
     action_order: attack
     action_playspeed: "100"
     creation_order: "3568,35,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
     sound_order: BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,4,7"
   }
@@ -11099,7 +11099,7 @@
     action_order: attack1
     action_playspeed: "100"
     creation_order: "3568,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
     sound_order: BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,4,7"
   }
@@ -11109,7 +11109,7 @@
     action_order: attack1
     action_playspeed: "100"
     creation_order: "3568,35,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
     sound_order: BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,4,7"
   }
@@ -11842,7 +11842,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "10062,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7"
+    creation_delay: "0,0,0,9,4,7"
   }
   {
     id: 3392
@@ -13009,6 +13009,106 @@
     summon_order: "1671"
   }
   {
+    id: 3557
+    name: 稻草人大招
+    action_order: s,s2
+    action_delay: "0,40"
+    action_playspeed: "100,100"
+    creation_order: "10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393"
+    creation_delay: "39,39,39,43,43,43,47,47,47,51,51,51,55,55,55,59,59,59,63,63,63,67,67,67,71,71,71,75,75,75,79,79,79.83.83.83"
+  }
+  {
+    id: 3558
+    name: 建筑师特殊攻击
+    action_order: s2
+    action_delay: "30"
+    action_playspeed: "100"
+    creation_order: "10394,10396,10410"
+    creation_delay: "50,50,0"
+  }
+  {
+    id: 3559
+    name: 狂欢终结
+    action_order: "103,102"
+    action_delay: "0,73"
+    action_playspeed: "100,100"
+    creation_order: "10402,10403,10404,10405,10406,10407,10408,10409,435,10411,10412,10413,10414"
+    creation_delay: "72,20,203,40,40,40,40,40,63,40,40,40,40"
+    sound_order: BT_BOSS_skill,BT_Rotate
+    sound_delay: "63,90"
+    effect_order: 3(Architect;狂欢终结;MISSILE LAUNCH;ARCHITECT),2(shakesrc),7(redshine)
+    effect_delay: "61,218,41"
+    effect_duration: "30,43,10"
+    stop_time_speed: "0,0"
+    stop_time_delay: "55,213"
+    stop_time_duration: "50,51"
+  }
+  {
+    id: 3560
+    name: 干扰者召唤
+    creation_order: "10398,10398"
+    creation_delay: "0,15"
+  }
+  {
+    id: 3561
+    name: 破坏者普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10399,10400"
+    creation_delay: "0,10"
+  }
+  {
+    id: 3562
+    name: 干扰者大招
+    action_order: "101"
+    action_playspeed: "100"
+  }
+  {
+    id: 3563
+    name: 干扰者子弹逻辑
+    creation_order: "10426,10427"
+    creation_delay: "0,2"
+  }
+  {
+    id: 3564
+    name: 破坏者一技能
+    action_order: wait,attack
+    action_delay: "0,60"
+    action_playspeed: "100,100"
+  }
+  {
+    id: 3565
+    name: 精英破坏者轰炸
+    action_order: "102,103"
+    action_delay: "80,164"
+    action_playspeed: "200,100"
+    creation_order: "565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,10433,10434,10435,10436,10437,10438,10439,10440,10441,10442,10443,10444,10445,564,605,604,606,607"
+    creation_delay: "0,7,7,7,7,14,14,14,14,14,14,14,14,195,199,203,207,211,215,219,223,227,231,235,239,243,267,268,269,270,257,258,259,260,261,262,263,264,265,285,122,79,290,375"
+    sound_order: BT_BOSS_skill,BT_Sabotager_Jump,BT_Sabotager_Fire
+    sound_delay: "85,164,182"
+    effect_order: 7(redshine),7(redshine),2(shakesrc),3(DestroyerPlus;盖娅终结;ROCKET LAUNCH;GAIA)
+    effect_delay: "115,87,280,110"
+    effect_duration: "10,10,100,1"
+    stop_time_delay: "112"
+    stop_time_duration: "270"
+    move_order: "204,205,206"
+    move_delay: "164,174,274"
+  }
+  {
+    id: 3566
+    name: 法官瘟疫立场
+    action_order: "101"
+    action_playspeed: "100"
+    creation_order: "10446"
+    creation_delay: "36"
+    effect_order: 2(shakesrc),2(shakesrc)
+    effect_delay: "32,40"
+    effect_duration: "8,8"
+    stop_time_duration: "36"
+    move_order: "207,208,209"
+    move_delay: "29,36,37"
+  }
+  {
     id: 3567
     name: 鱿鱼丝
     creation_order: "10449"
@@ -13028,6 +13128,21 @@
     action_playspeed: "100"
     creation_order: "10457"
     creation_delay: "39"
+  }
+  {
+    id: 3570
+    name: 战斗中每隔10秒眩晕敌人2秒。
+    summon_order: "1673"
+  }
+  {
+    id: 3571
+    name: 战斗中每隔8秒对敌方血量最低单位造成10000点伤害。
+    summon_order: "1674"
+  }
+  {
+    id: 3572
+    name: 战斗中每隔10秒清空一次敌人身上护盾。
+    summon_order: "1675"
   }
   {
     id: 3573
@@ -18412,7 +18527,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "8250,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 8148
@@ -19198,7 +19313,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "8417,35,8,8,8"
-    creation_delay: "0,0,10,4,7 "
+    creation_delay: "0,0,9,4,7 "
   }
   {
     id: 8266
@@ -21083,7 +21198,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "9007,21,138,8,8,8"
-    creation_delay: "0,0,0,10,4,7 "
+    creation_delay: "0,0,0,9,4,7 "
   }
   {
     id: 8517
@@ -22115,6 +22230,21 @@
     id: 8659
     name: M1919A4位移3
     move_order: "1036"
+  }
+  {
+    id: 8660
+    name: 快速狙击-莫辛纳甘
+    action_order: "1"
+    action_delay: "30"
+    action_playspeed: "100"
+    creation_order: "9189,5016"
+    creation_delay: "30"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "10"
+    effect_order: "1"
+    effect_duration: "1"
+    summon_order: "1012"
+    summon_delay: "30"
   }
   {
     id: 8661
@@ -26032,7 +26162,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581401"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552702
@@ -26040,7 +26170,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581402"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552703
@@ -26048,7 +26178,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581403"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552704
@@ -26056,7 +26186,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581404"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552705
@@ -26064,7 +26194,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581405"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552706
@@ -26072,7 +26202,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581406"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552707
@@ -26080,7 +26210,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581407"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552708
@@ -26088,7 +26218,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581408"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552709
@@ -26096,7 +26226,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581409"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552710
@@ -26104,7 +26234,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "5814,21,138,8,8,8,581410"
-    creation_delay: "0,0,0,10,4,7,1"
+    creation_delay: "0,0,0,9,4,7,1"
   }
   {
     id: 552801
@@ -26112,7 +26242,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581501,581501"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552802
@@ -26120,7 +26250,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581502,581502"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552803
@@ -26128,7 +26258,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581503,581503"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552804
@@ -26136,7 +26266,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581504,581504"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552805
@@ -26144,7 +26274,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581505,581505"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552806
@@ -26152,7 +26282,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581506,581506"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552807
@@ -26160,7 +26290,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581507,581507"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552808
@@ -26168,7 +26298,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581508,581508"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552809
@@ -26176,7 +26306,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581509,581509"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 552810
@@ -26184,7 +26314,7 @@
     action_order: "1"
     action_playspeed: "100"
     creation_order: "58151,21,138,8,8,5815,581510,581510"
-    creation_delay: "0,0,0,10,4,7,1,8"
+    creation_delay: "0,0,0,9,4,7,1,8"
   }
   {
     id: 553701
@@ -26684,6 +26814,11 @@
     action_playspeed: "100,100"
     creation_order: "777020,777021,777022"
     creation_delay: "40,70,120"
+  }
+  {
+    id: 841201
+    name: 水白
+    creation_order: "874001"
   }
   {
     id: 900002

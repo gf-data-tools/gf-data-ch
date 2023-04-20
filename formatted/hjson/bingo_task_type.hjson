@@ -55,9 +55,9 @@
   }
   {
     id: 10
-    task_type: consume_quick_reinforce
-    title: 消耗快速修复契约
-    content: 累计消耗快速修复契约*{0}
+    task_type: map_capture
+    title: 日常探查
+    content: 在灰域探查中累计占领{0}个点位
   }
   {
     id: 11
@@ -169,9 +169,9 @@
   }
   {
     id: 29
-    task_type: operation_quick_reinforce
-    title: 行动回报-快速修复契约
-    content: 通过后勤支援获得快速修复契约*{0}
+    task_type: daily_game_buff
+    title: 探查奇遇
+    content: 在灰域探查中获得{0}次战场效果
   }
   {
     id: 30

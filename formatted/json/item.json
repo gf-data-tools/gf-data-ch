@@ -151,7 +151,7 @@
     "sort": 130, "initial_num": "", "daily_limit": "", "upper_limit": 9999, "consume_type": 0, "item_access": "6", 
     "detail_introduction": "可用于高星级人形的心智升级。", "is_hide_info": 0
   }, {
-    "id": 52, "type": 5, "arg": "1", "code": "签到枪容错", "item_name": "专属装备:神秘装备", 
+    "id": 52, "type": 1, "arg": "1", "code": "签到枪容错", "item_name": "专属装备:神秘装备", 
     "introduction": "专属装备:神秘装备", "rank": 5, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30000052", "is_hide_info": 0
   }, {
@@ -5584,6 +5584,10 @@
     "introduction": "MP41-最后的私掠者", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30002285", "is_hide_info": 0
   }, {
+    "id": 2286, "type": 5, "arg": "1", "code": "card_Dating2021_us", "item_name": "名片：美服约会池名片", 
+    "introduction": "名片：美服约会池名片", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002286", "is_hide_info": 0
+  }, {
     "id": 4001, "type": 1, "arg": "4001", "code": "explore_loot_city", "item_name": "城市的馈赠", 
     "introduction": "很久前生产的一种积木玩具，因为其极高的生产精度现在已经很难仿制，在很多战乱地区被用作货币，可以换到很多有用的东西。", 
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 99999, "consume_type": 0, "item_access": "", 
@@ -6036,6 +6040,36 @@
     "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30009032", "is_hide_info": 1
   }, {
+    "id": 9033, "type": 1, "arg": "9033", "code": "props_Component1", "item_name": "尘封的设计图", 
+    "introduction": "破旧纸片，可能是前遗迹开发时代的纸质工业蓝图，似乎描绘着大型装甲单位，内容已无法辨识。", "rank": 1, 
+    "sort": -999, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30009033", "is_hide_info": 0
+  }, {
+    "id": 9034, "type": 1, "arg": "9034", "code": "props_Component2", "item_name": "锥形零件", 
+    "introduction": "使用未知金属材质制造，特性与用途尚不明确，请勿直接接触。", "rank": 1, "sort": -999, "initial_num": "", 
+    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-30009034", 
+    "is_hide_info": 0
+  }, {
+    "id": 9035, "type": 1, "arg": "9035", "code": "props_core", "item_name": "环形零件", 
+    "introduction": "造型特异的零件，有强烈信号发出，当前无法完整解析信号参数。", "rank": 1, "sort": -999, "initial_num": "", 
+    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-30009035", 
+    "is_hide_info": 0
+  }, {
+    "id": 9036, "type": 1, "arg": "9036", "code": "props_chipset", "item_name": "精密机械核心", 
+    "introduction": "以当前技术无法拆分其结构，唯一能确定的是内部蓄有极大能量，危险系数高。", "rank": 1, "sort": -999, 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30009036", "is_hide_info": 0
+  }, {
+    "id": 9037, "type": 1, "arg": "9037", "code": "props_dataimage", "item_name": "复合芯片组", 
+    "introduction": "从应用的光电技术来看，难以想象是多年前的产物。遗憾的是，无法从破损的芯片中读取完整数据。", "rank": 1, 
+    "sort": -999, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30009037", "is_hide_info": 0
+  }, {
+    "id": 9038, "type": 1, "arg": "9038", "code": "props_paper", "item_name": "残存数据影像", 
+    "introduction": "通过小型全息设备输出的未知地形影像，位置数据缺失，目前仍在更进一步解析中。", "rank": 1, "sort": -999, 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30009038", "is_hide_info": 0
+  }, {
     "id": 10603, "type": 1, "arg": "1", "code": "sangvis_material1_coin2", "item_name": "模拟作战超导势能", 
     "introduction": "主要用于进行融合演习。通过商城获得，“有限的购买加无限的消费，这就是市场~”（每份商品单价将较上一份上涨20钻石，该单价每日零点重置）", 
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 1, "item_access": "1", 
@@ -6060,6 +6094,19 @@
     "introduction": "“不是说使用之后会获得更多更棒的物资吗？在哪里？！”“都在您的脚下了，尊敬的指挥官。”", "rank": 1, 
     "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30010607", "is_hide_info": 0
+  }, {
+    "id": 10701, "type": 18, "arg": "10701", "code": "daily_points", "item_name": "灰域探查积分", 
+    "introduction": "灰域探查积分", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30010701", "is_hide_info": 0
+  }, {
+    "id": 10702, "type": 17, "arg": "10702", "code": "daily_ticket", "item_name": "探查许可证", 
+    "introduction": "允许进入灰域完成一次探查的许可证明，出示这张证明将不再需要消耗额外的资源", "rank": 1, "sort": -1, 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30010702", "is_hide_info": 0
+  }, {
+    "id": 10703, "type": 18, "arg": "10703", "code": "daily_points", "item_name": "灰域探查积分", 
+    "introduction": "灰域探查积分", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30010703", "is_hide_info": 0
   }, {
     "id": 100001, "type": 4, "arg": "100001", "code": "Activity_RedPacket", "item_name": "红包", 
     "introduction": "开红包得奖励", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
@@ -7293,50 +7340,50 @@
   }, {
     "id": 1100001, "type": 11, "arg": "1", "code": "fetter_skill", "item_name": "极速狂花", 
     "introduction": "火力号令对自身和PzB39效果额外增加10%。", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
-    "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31100001", "is_hide_info": 0
+    "upper_limit": 0, "consume_type": 0, "item_access": "26", "detail_introduction": "item-31100001", "is_hide_info": 0
   }, {
     "id": 1100002, "type": 11, "arg": "2", "code": "fetter_skill", "item_name": "极速狂花", 
     "introduction": "与灰熊MkⅤ在同一梯队时,瞄准时间减少至1秒,每秒蓄力层数增加至2层。", "rank": 1, "sort": 0, 
-    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "26", 
     "detail_introduction": "item-31100002", "is_hide_info": 0
   }, {
     "id": 1100003, "type": 11, "arg": "3", "code": "fetter_skill", "item_name": "星河成约", 
     "introduction": "与M82在同一梯队时,M82普攻对自身正前方单位也能造成10%额外伤害。", "rank": 1, "sort": 0, 
-    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "26", 
     "detail_introduction": "item-31100003", "is_hide_info": 0
   }, {
     "id": 1100004, "type": 11, "arg": "4", "code": "fetter_skill", "item_name": "星河成约", 
     "introduction": "将自身正前方视作AK-阿尔法的正前方。", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
-    "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31100004", "is_hide_info": 0
+    "upper_limit": 0, "consume_type": 0, "item_access": "26", "detail_introduction": "item-31100004", "is_hide_info": 0
   }, {
     "id": 1100005, "type": 11, "arg": "5", "code": "fetter_skill", "item_name": "我开动了！", 
     "introduction": "「“持之以恒是比任何事都要更重要的才能”」当春田和G36处于同一梯队时，G36会为随行的队友呈上甜点，振奋士气的同时，火力专注的效果也变得可以作用于友方单位（效果下降至15%）——小心会变胖哦。", 
-    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "27", 
     "detail_introduction": "item-31100005", "is_hide_info": 0
   }, {
     "id": 1100006, "type": 11, "arg": "6", "code": "fetter_skill", "item_name": "我开动了！", 
     "introduction": "「“我对混合咖啡还是蛮有自信的”」当G36和春田处于同一梯队时，春田会为随行的队友端上咖啡，振奋士气的同时，每叠加1层蓄力，提升我方全体射速5%（持续5秒，最多叠加5层）——要小心变胖哦。", 
-    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "27", 
     "detail_introduction": "item-31100006", "is_hide_info": 0
   }, {
     "id": 1100007, "type": 11, "arg": "9", "code": "fetter_skill", "item_name": "冕晕聚变", 
     "introduction": "MPK与MPL相连一格时,不再对友方造成负面效果。\nMPK与MPL左右相邻时,开启技能后,效果范围扩大至2格。", 
-    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "28", 
     "detail_introduction": "item-31100007", "is_hide_info": 0
   }, {
     "id": 1100008, "type": 11, "arg": "10", "code": "fetter_skill", "item_name": "冕晕聚变", 
     "introduction": "MPK与MPL相连一格时,不再对友方造成负面效果。\nMPK与MPL左右相邻时,开启技能后,效果范围扩大至2格。", 
-    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "29", 
     "detail_introduction": "item-31100008", "is_hide_info": 0
   }, {
     "id": 1100009, "type": 11, "arg": "10", "code": "fetter_skill", "item_name": "同辉禁线", 
     "introduction": "SCAR-L和SCAR-H同时在场时，自身每秒增加5点太阳能量。", "rank": 1, "sort": 0, "initial_num": "", 
-    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31100009", 
+    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "30", "detail_introduction": "item-31100009", 
     "is_hide_info": 0
   }, {
     "id": 1100010, "type": 11, "arg": "10", "code": "fetter_skill", "item_name": "同辉禁线", 
     "introduction": "SCAR-L和SCAR-H同时在场时，自身每秒增加5点月亮能量。", "rank": 1, "sort": 0, "initial_num": "", 
-    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31100010", 
+    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "31", "detail_introduction": "item-31100010", 
     "is_hide_info": 0
   }, {
     "id": 1500009, "type": 15, "arg": "1500009", "code": "package_choose", "item_name": "基础装备自选序标", 
@@ -7399,7 +7446,17 @@
     "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31500020", 
     "is_hide_info": 0
   }, {
-    "id": 1500023, "type": 15, "arg": "1500023", "code": "Bumdle_double12_2022_5", "item_name": "四星人形调用函", 
+    "id": 1500021, "type": 15, "arg": "1500021", "code": "Bumdle_sennku", "item_name": "四星人形调用函", 
+    "introduction": "来自于重返基地，在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。", "rank": 1, 
+    "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500021", "is_hide_info": 0
+  }, {
+    "id": 1500022, "type": 15, "arg": "1500022", "code": "package_choose", "item_name": "五星装备自选序标", 
+    "introduction": "来自于重返基地，打开时，可自选获得指定范围内的一个五星装备", "rank": 1, "sort": -1, "initial_num": "", 
+    "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31500022", 
+    "is_hide_info": 0
+  }, {
+    "id": 1500023, "type": 15, "arg": "1500023", "code": "Bumdle_sennku", "item_name": "四星人形调用函", 
     "introduction": "在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。", "rank": 1, "sort": -1, 
     "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-31500023", "is_hide_info": 0
@@ -7434,7 +7491,7 @@
     "rank": 1, "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-31500029", "is_hide_info": 0
   }, {
-    "id": 1500030, "type": 15, "arg": "1500030", "code": "Bumdle_double12_2022_1", "item_name": "五星人形调用函", 
+    "id": 1500030, "type": 15, "arg": "1500030", "code": "Bumdle_sennku", "item_name": "五星人形调用函", 
     "introduction": "在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。", "rank": 1, "sort": -1, 
     "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-31500030", "is_hide_info": 0
@@ -7559,5 +7616,37 @@
     "introduction": "来自于前线协议-假日情调，可从该区间空投序标内随机获取一项道具", "rank": 1, "sort": -1, 
     "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-31500055", "is_hide_info": 0
+  }, {
+    "id": 1500059, "type": 15, "arg": "1500059", "code": "package_choose", "item_name": "高阶专属装备自选序标", 
+    "introduction": "来自于重返基地，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备", "rank": 1, "sort": -1, 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500059", "is_hide_info": 0
+  }, {
+    "id": 1500060, "type": 15, "arg": "1500060", "code": "package_choose", "item_name": "基础装备自选序标", 
+    "introduction": "来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件装备", "rank": 1, "sort": -1, 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500060", "is_hide_info": 0
+  }, {
+    "id": 1500061, "type": 15, "arg": "1500061", "code": "package_choose", "item_name": "基础专属装备自选序标", 
+    "introduction": "来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备", "rank": 1, 
+    "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500061", "is_hide_info": 0
+  }, {
+    "id": 1500062, "type": 15, "arg": "1500062", "code": "package_choose", "item_name": "高阶专属装备自选序标", 
+    "introduction": "来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备", "rank": 1, 
+    "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500062", "is_hide_info": 0
+  }, {
+    "id": 1600001, "type": 1, "arg": "1600001", "code": "anchor_contract", "item_name": "回归心愿锚定", 
+    "introduction": "获取后，可以解锁一次回归玩家专属的心愿锚定", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
+    "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31600001", "is_hide_info": 0
+  }, {
+    "id": 1600002, "type": 1, "arg": "1600002", "code": "ReturnPlayer_activity", "item_name": "回归活跃度", 
+    "introduction": "参与回归活动的证据，持有越多越活跃", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
+    "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-31600002", "is_hide_info": 0
+  }, {
+    "id": 1600050, "type": 1, "arg": "1600050", "code": "package_choose", "item_name": "抽奖券", 
+    "introduction": "嘉年华抽奖券测试数据", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-31600050", "is_hide_info": 0
   }
 ]

@@ -33,9 +33,8 @@
     "title": "消耗快速制造契约", "content": "累计消耗快速制造契约*4", "is_mutex": "0", "function_control_id": "0", 
     "task_type_id": "9"
   }, {
-    "task_id": "10", "type": "general", "task_name": "consume_quick_reinforce", "size": "4", "ticket_num": "1", 
-    "title": "消耗快速修复契约", "content": "累计消耗快速修复契约*4", "is_mutex": "0", "function_control_id": "0", 
-    "task_type_id": "10"
+    "task_id": "10", "type": "general", "task_name": "map_capture", "size": "6", "ticket_num": "1", "title": "日常探查", 
+    "content": "在灰域探查中累计占领6个点位", "is_mutex": "1", "function_control_id": "0", "task_type_id": "10"
   }, {
     "task_id": "11", "type": "general", "task_name": "consume_mp", "size": "1500", "ticket_num": "1", "title": "消耗人力", 
     "content": "累计消耗人力*1500（自律除外）", "is_mutex": "0", "function_control_id": "0", "task_type_id": "11"
@@ -97,9 +96,9 @@
     "title": "行动回报-快速制造契约", "content": "通过后勤支援获得快速制造契约*1", "is_mutex": "7", 
     "function_control_id": "0", "task_type_id": "28"
   }, {
-    "task_id": "29", "type": "difficulty", "task_name": "operation_quick_reinforce", "size": "1", "ticket_num": "1", 
-    "title": "行动回报-快速修复契约", "content": "通过后勤支援获得快速修复契约*1", "is_mutex": "7", 
-    "function_control_id": "0", "task_type_id": "29"
+    "task_id": "29", "type": "difficulty", "task_name": "daily_game_buff", "size": "1", "ticket_num": "1", 
+    "title": "探查奇遇", "content": "在灰域探查中获得1次战场效果", "is_mutex": "7", "function_control_id": "0", 
+    "task_type_id": "29"
   }, {
     "task_id": "30", "type": "difficulty", "task_name": "operation_equip_contract", "size": "1", "ticket_num": "1", 
     "title": "行动回报-装备制造契约", "content": "通过后勤支援获得装备制造契约*1", "is_mutex": "7", 

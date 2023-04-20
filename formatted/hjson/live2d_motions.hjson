@@ -30466,7 +30466,7 @@
     type: 101
     motion_name: motions/daiji_idle_01.mtn
     probability: 1.0
-    name: live2d_motions-10820301
+    name: 待机
   }
   {
     id: 820302
@@ -30474,7 +30474,7 @@
     motion_name: motions/wait_1.mtn
     hold_time: "15,17"
     probability: 0.5
-    name: live2d_motions-10820302
+    name: 特殊待机1
     camera: 1
   }
   {
@@ -30483,7 +30483,7 @@
     motion_name: motions/wait_2.mtn
     hold_time: "30,35"
     probability: 0.5
-    name: live2d_motions-10820303
+    name: 特殊待机2
     camera: 1
   }
   {
@@ -30494,7 +30494,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|SKILL3
     text: GUN|SIGMCX|SKILL3
-    name: live2d_motions-10820304
+    name: 交互1
     camera: 1
     voice_code: SKILL3
   }
@@ -30506,7 +30506,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|SKILL2
     text: GUN|SIGMCX|SKILL2
-    name: live2d_motions-10820305
+    name: 交互2
     camera: 1
     voice_code: SKILL2
   }
@@ -30518,7 +30518,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|OPERATIONOVER
     text: GUN|SIGMCX|OPERATIONOVER
-    name: live2d_motions-10820306
+    name: 交互3
     camera: 1
     voice_code: OPERATIONOVER
   }
@@ -30530,7 +30530,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|ATTACK
     text: GUN|SIGMCX|ATTACK
-    name: live2d_motions-10820307
+    name: 交互4
     camera: 1
     voice_code: ATTACK
   }
@@ -30542,7 +30542,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|LOADING
     text: GUN|SIGMCX|LOADING
-    name: live2d_motions-10820308
+    name: 交互5
     camera: 1
     voice_code: LOADING
   }
@@ -30554,7 +30554,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|DIALOGUEWEDDING
     text: GUN|SIGMCX|DIALOGUEWEDDING
-    name: live2d_motions-10820309
+    name: 结契后交互
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -30565,7 +30565,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|SOULCONTRACT
     text: GUN|SIGMCX|SOULCONTRACT
-    name: live2d_motions-10820310
+    name: 结契动作
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -30575,7 +30575,7 @@
     motion_name: motions/shake.mtn
     probability: 1.0
     voice: GUN|SIGMCX|MOOD2
-    name: live2d_motions-10820311
+    name: 晃动响应
     camera: 1
     delay: 1033
   }
@@ -30586,7 +30586,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|FORMATION
     text: GUN|SIGMCX|FORMATION
-    name: live2d_motions-10820312
+    name: 上线响应
     camera: 1
     delay: 4530
     voice_code: FORMATION
@@ -30596,7 +30596,7 @@
     type: 401
     motion_name: motions/daiji_idle_01.mtn
     probability: 1.0
-    name: live2d_motions-10820313
+    name: 待机
     is_hurt: 1
   }
   {
@@ -30607,7 +30607,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|HELLO
     text: GUN|SIGMCX|HELLO
-    name: live2d_motions-10820314
+    name: 交互1
     camera: 1
     is_hurt: 1
     voice_code: HELLO
@@ -30620,7 +30620,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|BREAK
     text: GUN|SIGMCX|BREAK
-    name: live2d_motions-10820315
+    name: 交互2
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -30634,7 +30634,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|ATTACK
     text: GUN|SIGMCX|ATTACK
-    name: live2d_motions-10820316
+    name: 交互3
     camera: 1
     is_hurt: 1
     voice_code: ATTACK
@@ -30647,7 +30647,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|WIN
     text: GUN|SIGMCX|WIN
-    name: live2d_motions-10820317
+    name: 交互4
     camera: 1
     is_hurt: 1
     voice_code: WIN
@@ -30660,7 +30660,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|SKILL3
     text: GUN|SIGMCX|SKILL3
-    name: live2d_motions-10820318
+    name: 交互5
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -30673,7 +30673,7 @@
     probability: 1.0
     voice: GUN|SIGMCX|LOADING
     text: GUN|SIGMCX|LOADING
-    name: live2d_motions-10820319
+    name: 上线响应
     camera: 1
     is_hurt: 1
     delay: 2000
@@ -30684,7 +30684,7 @@
     type: 301
     motion_name: motions/shake.mtn
     probability: 1.0
-    name: live2d_motions-10820320
+    name: 晃动响应
     camera: 1
     is_hurt: 1
   }

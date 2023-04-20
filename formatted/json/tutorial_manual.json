@@ -61,7 +61,7 @@
     "goto_page": 7
   }, {
     "id": 205, "type": 2, "child_ids": "", "title": "人形修复", "sub_title": "请及时修复受创人形。", "code": "", 
-    "content": "d109f27063d49c18_draw_200720002.jpg,a457ca51fb9b566b_draw_200720001.jpg,95c4246a54fd97df_draw_200720004.jpg,54529c4ac6016c7e_draw_200720003.jpg", 
+    "content": "faf4039d4fd58edb_draw_230328017.jpg,e3e157e127d3fc02_draw_230328016.jpg,56cc66f9ac5ab042_draw_230328015.jpg,95c4246a54fd97df_draw_200720004.jpg,9f9fdcddf8ea9ec7_draw_230328014.jpg", 
     "function_control_id": 0, "goto_page": 0
   }, {
     "id": 206, "type": 2, "child_ids": "", "title": "编制扩大", "sub_title": "人形扩编可提升战力及经验获取量。", "code": "", 
@@ -673,7 +673,7 @@
     "function_control_id": 26, "goto_page": 0
   }, {
     "id": 2000, "type": 1, "child_ids": "2001,2002,2003,2004,2005,2006,2007,2008,2009,2010", "title": "战区攻略", 
-    "sub_title": "全面考验指挥官作战能力的大规模演习。", "code": "manual_chess", "content": "", "function_control_id": 16, 
+    "sub_title": "全面考验指挥官作战能力的大规模演习。", "code": "manual_theater", "content": "", "function_control_id": 16, 
     "goto_page": 0
   }, {
     "id": 2001, "type": 2, "child_ids": "", "title": "战区介绍", "sub_title": "战区是I.O.P提供支持的大规模演习作战。", 
@@ -717,5 +717,40 @@
   }, {
     "id": 2010, "type": 2, "child_ids": "", "title": "狙击战", "sub_title": "击杀指定目标即可通关。", "code": "", 
     "content": "e5c9e560002a41be_draw_210817003.jpg", "function_control_id": 16, "goto_page": 0
+  }, {
+    "id": 2100, "type": 1, "child_ids": "2101,2102,2103,2104,2105,2106,2107,2108", "title": "灰域探查", 
+    "sub_title": "在一次常规探查中，边境调查团第六支队意外发现了一片从未踏足的神秘区域。", "code": "manual_daily", 
+    "content": "", "function_control_id": 29, "goto_page": 0
+  }, {
+    "id": 2101, "type": 2, "child_ids": "", "title": "探查出击", "sub_title": "学会如何进行一次探查。", "code": "", 
+    "content": "07f22194e522a630_draw_230330006.jpg,837d5611124817a1_draw_230330002.jpg", "function_control_id": 29, 
+    "goto_page": 0
+  }, {
+    "id": 2102, "type": 2, "child_ids": "", "title": "地图规则", "sub_title": "灰域地形变幻莫测，掌握规则尤为重要。", 
+    "code": "", 
+    "content": "d528b8d0ed61acf6_draw_230330003.jpg,8dbf3710dc4a8390_draw_230330004.jpg,ed6eaf180b6fec31_draw_230330005.jpg", 
+    "function_control_id": 29, "goto_page": 0
+  }, {
+    "id": 2103, "type": 2, "child_ids": "", "title": "妖精点位", "sub_title": "妖精点位的规则和注意事项。", "code": "", 
+    "content": "4cfb2a7e8697a06f_draw_230330008.jpg,40e760edcfb534a2_draw_230328010.jpg", "function_control_id": 29, 
+    "goto_page": 0
+  }, {
+    "id": 2104, "type": 2, "child_ids": "", "title": "火力小队点位", "sub_title": "火力小队点位的规则和注意事项。", 
+    "code": "", 
+    "content": "a272afcefd4ce8af_draw_230330001.jpg,cba1e58b14ab2d62_draw_230328013.jpg,a55167b89b949894_draw_230410001.jpg", 
+    "function_control_id": 29, "goto_page": 0
+  }, {
+    "id": 2105, "type": 2, "child_ids": "", "title": "事件点位", "sub_title": "事件点位的规则和注意事项。", "code": "", 
+    "content": "d075dd6ac04e85a1_draw_230328007.jpg,a9aeb584caedd582_draw_230328008.jpg", "function_control_id": 29, 
+    "goto_page": 0
+  }, {
+    "id": 2106, "type": 2, "child_ids": "", "title": "积分奖励", "sub_title": "通过探查积累积分获取丰富奖励。", "code": "", 
+    "content": "37e7839484daf72f_draw_230330007.jpg", "function_control_id": 29, "goto_page": 0
+  }, {
+    "id": 2107, "type": 2, "child_ids": "", "title": "重置探查", "sub_title": "探查进度可以随时重置。", "code": "", 
+    "content": "e1c94d4240ae9bc9_draw_230330009.jpg", "function_control_id": 29, "goto_page": 0
+  }, {
+    "id": 2108, "type": 2, "child_ids": "", "title": "代理作战", "sub_title": "格里芬AI代理作战系统试运行中。", "code": "", 
+    "content": "e3f76b439e9ad47a_draw_230328018.jpg", "function_control_id": 29, "goto_page": 0
   }
 ]

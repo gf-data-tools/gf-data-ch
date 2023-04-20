@@ -747,6 +747,91 @@
     priority: 1
   }
   {
+    id: 70015
+    name: 【标记】加速
+    description: 行动力提升
+    code: ExtraAp
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    free_ap_move: 5
+    conflict_type: 70015
+  }
+  {
+    id: 70016
+    name: 【标记】自动作战加速
+    description: 行动力提升
+    code: ExtraAp
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    free_ap_move: 5
+    conflict_type: 70016
+  }
+  {
+    id: 70021
+    name: 【标记】求救信号
+    description: mission_buff_config-20070021
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 70021
+    effect_duration: 70021
+  }
+  {
+    id: 70022
+    name: 【标记】火炮侦察中
+    description: mission_buff_config-20070022
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 70022
+    effect_duration: 70022
+  }
+  {
+    id: 78001
+    name: 单独行动A
+    description: mission_buff_config-20078001
+    code: SpeedUp
+    type: 1
+    duration_type: "5"
+    duration_time: "3"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 78001
+    priority: 1
+  }
+  {
+    id: 78002
+    name: 单独行动EX
+    description: mission_buff_config-20078002
+    code: SpeedUp
+    type: 1
+    duration_type: "5"
+    duration_time: "15"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 78002
+    priority: 1
+  }
+  {
+    id: 78003
+    name: 单独行动EX
+    description: mission_buff_config-20078003
+    code: SpeedUp
+    type: 1
+    duration_type: "5"
+    duration_time: "16"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 78003
+    priority: 1
+  }
+  {
     id: 363001
     name: 携带炸药
     description: 携带炸药
@@ -5478,6 +5563,7 @@
     manual_ui_code: CarryBoomerIcon#EC4702
     conflict_type: 6540228
     carry_mission_skill: "6540120"
+    is_still_alive: 1
   }
   {
     id: 6540229
@@ -5806,6 +5892,16 @@
     exp_buff: "1"
     battle_skill_config_id: 119801
     conflict_type: 6560005
+  }
+  {
+    id: 7000001
+    name: 【标记】自动作战标识
+    description: mission_buff_config-27000001
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 7000001
   }
   {
     id: 9100001

@@ -12,7 +12,7 @@
   }, {
     "id": 2, "name": "战斗妖精", "description": "战斗妖精生成的特殊点", "code": "2", "priority": 10, "duration_type": "1", 
     "duration_time": "0", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
-    "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", "effect_spotbelong_type": "0,1,2,3", 
+    "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", "effect_spotbelong_type": "0,1,2,3", 
     "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 2, "conditions_type": "0;0", 
     "conditions_time": "1-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "2,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -22,7 +22,7 @@
   }, {
     "id": 3, "name": "暴击妖精", "description": "暴击妖精生辰的初始特殊点", "code": "3", "priority": 11, 
     "duration_type": "1", "duration_time": "0", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", 
+    "mission_buff_config_id": 0, "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 3, 
     "conditions_type": "0;0", "conditions_time": "1-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "3,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -32,7 +32,7 @@
   }, {
     "id": 6, "name": "防御妖精", "description": "防御妖精生成时的特殊点", "code": "6", "priority": 14, "duration_type": "1", 
     "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
-    "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", "effect_spotbelong_type": "0,1,2,3", 
+    "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", "effect_spotbelong_type": "0,1,2,3", 
     "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 4, "conditions_type": "0;0", 
     "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "5,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -42,7 +42,7 @@
   }, {
     "id": 8, "name": "增援妖精", "description": "增援妖精生成特殊点", "code": "8", "priority": 16, "duration_type": "1", 
     "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
-    "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", "effect_spotbelong_type": "0,1,2,3", 
+    "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", "effect_spotbelong_type": "0,1,2,3", 
     "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 8, "conditions_type": "0;0", 
     "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "8,8,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -62,7 +62,7 @@
   }, {
     "id": 12, "name": "工事妖精", "description": "工事妖精生成特殊点", "code": "12", "priority": 20, "duration_type": "1", 
     "duration_time": "3", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 6, 
-    "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "1,8", "effect_spotbelong_type": "0,1,2,3", 
+    "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "1,8,301", "effect_spotbelong_type": "0,1,2,3", 
     "effect_range_type": 1, "effect_range": 0, "side_type": 2, "conflict_type": 12, "conditions_type": "2;0", 
     "conditions_time": "0-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -102,7 +102,7 @@
   }, {
     "id": 98, "name": "工事buff点", "description": "工事妖精触发战斗生成buff点", "code": "98", "priority": 98, 
     "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", 
+    "mission_buff_config_id": 0, "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 2, "conflict_type": 98, 
     "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "6,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -522,7 +522,7 @@
   }, {
     "id": 1701, "name": "连击1", "description": "连击1", "code": "1701", "priority": 1701, "duration_type": "1", 
     "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
-    "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", "effect_spotbelong_type": "0,1,2,3", 
+    "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", "effect_spotbelong_type": "0,1,2,3", 
     "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 1701, "conditions_type": "0;0", 
     "conditions_time": "0-0;0-0", "conditions_count": 1, "skill_config_id_on_birth": "1701,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -532,7 +532,7 @@
   }, {
     "id": 1702, "name": "连击2", "description": "连击2", "code": "1702", "priority": 1702, "duration_type": "1", 
     "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
-    "detect_target_type": "1", "detect_range": 0, "effect_target_type": "1", "effect_spotbelong_type": "0,1,2,3", 
+    "detect_target_type": "1,301", "detect_range": 0, "effect_target_type": "1,301", "effect_spotbelong_type": "0,1,2,3", 
     "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 1702, "conditions_type": "0;0", 
     "conditions_time": "0-0;0-0", "conditions_count": 1, "skill_config_id_on_birth": "1702,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
@@ -646,7 +646,7 @@
   }, {
     "id": 2301, "name": "发射1", "description": "special_spot_config-20002301", "code": "", "priority": 1, 
     "duration_type": "2", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 2300, "detect_target_type": "-1", "detect_range": 2, "effect_target_type": "1,8", 
+    "mission_buff_config_id": 2300, "detect_target_type": "-1", "detect_range": 2, "effect_target_type": "1,8,301", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 2, "effect_range": 0, "side_type": 0, "conflict_type": 2301, 
     "conditions_type": "2;0", "conditions_time": "0-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,2302", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
@@ -655,7 +655,7 @@
   }, {
     "id": 2302, "name": "发射2", "description": "special_spot_config-20002302", "code": "", "priority": 2, 
     "duration_type": "2", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 2300, "detect_target_type": "-1", "detect_range": 2, "effect_target_type": "1,8", 
+    "mission_buff_config_id": 2300, "detect_target_type": "-1", "detect_range": 2, "effect_target_type": "1,8,301", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 2, "effect_range": 0, "side_type": 0, "conflict_type": 2301, 
     "conditions_type": "2;0", "conditions_time": "0-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,2303", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
@@ -664,7 +664,7 @@
   }, {
     "id": 2303, "name": "发射3", "description": "special_spot_config-20002303", "code": "", "priority": 3, 
     "duration_type": "2", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 2300, "detect_target_type": "-1", "detect_range": 2, "effect_target_type": "1,8", 
+    "mission_buff_config_id": 2300, "detect_target_type": "-1", "detect_range": 2, "effect_target_type": "1,8,301", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 2, "effect_range": 0, "side_type": 0, "conflict_type": 2301, 
     "conditions_type": "2;0", "conditions_time": "0-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
@@ -712,6 +712,118 @@
     "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 20302, 
     "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "20302,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 70001, "name": "阻挡buff", "description": "special_spot_config-20070001", "code": "70001", "priority": 70001, 
+    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 70001, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 1, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 900002, "effect_process_star": 0, "effect_process_end": 0, 
+    "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 3, 
+    "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 70012, "name": "扣残血-出生发动", "description": "special_spot_config-20070012", "code": "70012", 
+    "priority": 70012, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "1,3,5,7,8,201,301", "detect_range": 0, 
+    "effect_target_type": "1,3,5,7,8,201,301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, 
+    "effect_range": 0, "side_type": 0, "conflict_type": 70012, "conditions_type": "0;0", "conditions_time": "0-0;0-0", 
+    "conditions_count": 1, "skill_config_id_on_birth": "0,70012,0", "skill_config_id_on_death": "0,70012,0", 
+    "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 3, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 70014, "name": "扣掉编-出生发动", "description": "special_spot_config-20070014", "code": "70014", 
+    "priority": 70014, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "1,3,5,7,8,201,301", "detect_range": 0, 
+    "effect_target_type": "1,3,5,7,8,201,301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, 
+    "effect_range": 0, "side_type": 0, "conflict_type": 70014, "conditions_type": "0;0", "conditions_time": "0-0;0-0", 
+    "conditions_count": 1, "skill_config_id_on_birth": "0,70014,0", "skill_config_id_on_death": "0,70014,0", 
+    "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 3, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 72001, "name": "炸建筑得分", "description": "炸建筑得分", "code": "", "priority": -1, "duration_type": "1", 
+    "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
+    "detect_target_type": "1,3,5,7,8,201,301", "detect_range": 0, "effect_target_type": "1,3,5,7,8,201,301", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 72001, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,72002", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 72002, "name": "奖励关计分", "description": "奖励关计分", "code": "", "priority": -1, "duration_type": "1", 
+    "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, "mission_buff_config_id": 0, 
+    "detect_target_type": "1,3,5,7,8,201,301", "detect_range": 0, "effect_target_type": "1,3,5,7,8,201,301", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 72002, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78001, "name": "不亮", "description": "special_spot_config-20078001", "code": "", "priority": 1, 
+    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78001, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,78002", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78002, "name": "亮", "description": "special_spot_config-20078002", "code": "", "priority": 1, 
+    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78002, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,78001", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 1000141, "effect_process_star": 0, "effect_process_end": 0, 
+    "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, 
+    "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78003, "name": "结算", "description": "special_spot_config-20078003", "code": "M4A1_Boss", "priority": 1, 
+    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78003, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78024, "name": "[avg]daily_bonus_tips1", "description": "special_spot_config-20078024", "code": "", "priority": 1, 
+    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78024, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78025, "name": "[avg]daily_bonus_tips2", "description": "special_spot_config-20078025", "code": "", "priority": 1, 
+    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78025, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78026, "name": "[avg]daily_bonus_tips3", "description": "special_spot_config-20078026", "code": "", "priority": 1, 
+    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78026, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 78027, "name": "60", "description": "special_spot_config-20078027", "code": "", "priority": 1, 
+    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
+    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 78027, 
+    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
     "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
     "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
@@ -6709,6 +6821,26 @@
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
     "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
     "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 700121, "name": "扣残血ss", "description": "special_spot_config-20700121", "code": "700121", "priority": 700121, 
+    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 70012, 
+    "mission_buff_config_id": 0, "detect_target_type": "1,3,5,7,8,201,301", "detect_range": 0, 
+    "effect_target_type": "1,3,5,7,8,201,301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, 
+    "effect_range": 0, "side_type": 0, "conflict_type": 700121, "conditions_type": "3;0", "conditions_time": "0-1;0-0", 
+    "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", 
+    "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 700141, "name": "扣掉编", "description": "special_spot_config-20700141", "code": "700141", "priority": 700141, 
+    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 70014, 
+    "mission_buff_config_id": 0, "detect_target_type": "1,3,5,7,8,201,301", "detect_range": 0, 
+    "effect_target_type": "1,3,5,7,8,201,301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, 
+    "effect_range": 0, "side_type": 0, "conflict_type": 700141, "conditions_type": "3;0", "conditions_time": "0-1;0-0", 
+    "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", 
+    "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 900001, "name": "机场出兵", "description": "出兵池更换", "code": "900001", "priority": 900001, 
     "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
@@ -17761,6 +17893,16 @@
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 7000001, "name": "AI目标识别-非空检测", "description": "special_spot_config-27000001", "code": "7000001", 
+    "priority": 7000001, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 7000001, "detect_target_type": "1,3,5,7,8,201,301", 
+    "detect_range": 0, "effect_target_type": "1,3,5,7,8,201,301", "effect_spotbelong_type": "0,1,2,3", 
+    "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 7000001, "conditions_type": "3;0", 
+    "conditions_time": "0-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
+    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
+    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
+    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 8120709, "name": "【启动】EMP启动", "description": "special_spot_config-28120709", "code": "8120709", 
     "priority": 8120709, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 

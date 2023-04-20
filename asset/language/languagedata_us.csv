@@ -778,16 +778,16 @@ COMMON,1779,双倍(todo),,0
 COMMON,1780,已达成(todo),,0
 COMMON,1781,未达成(todo),,0
 COMMON,1782,解谜(todo),,0
-COMMON,1786,{0}<color=#C9C9C9>年</color>{1}<color=#C9C9C9>月</color>{2}<color=#C9C9C9>日，你加入了格里芬</color>(todo),,0
-COMMON,1787,<color=#C9C9C9>在这里，你经历过</color>{0}<color=#C9C9C9>场战斗</color>(todo),,0
-COMMON,1788,<color=#C9C9C9>在这些战斗里，你击溃了</color>{0}<color=#C9C9C9>名敌人</color>(todo),,0
-COMMON,1789,<color=#C9C9C9>目前有</color>{0}<color=#C9C9C9>位人形和你并肩作战</color>(todo),,0
-COMMON,1790,<color=#C9C9C9>你选择了与</color>{0}<color=#C9C9C9>名角色缔结誓约</color>(todo),,0
-COMMON,1791,<color=#C9C9C9>你捕获过</color>{0}<color=#C9C9C9>名融合势力角色</color>(todo),,0
+COMMON,1786,{0}年{1}月{2}日，你加入了格里芬(todo),,0
+COMMON,1787,在这里，你经历过{0}场战斗(todo),,0
+COMMON,1788,在这些战斗里，你击溃了{0}名敌人(todo),,0
+COMMON,1789,目前有{0}位人形和你并肩作战(todo),,0
+COMMON,1790,你选择了与{0}名角色缔结誓约(todo),,0
+COMMON,1791,你捕获过{0}名融合势力角色(todo),,0
 COMMON,1792,指挥官，很高兴再次相遇(todo),,0
 COMMON,1793,推荐梯队(todo),,0
-COMMON,1794,<color=#C9C9C9>她们在等待着你，等待你与她们缔结誓约</color>(todo),,0
-COMMON,1795,<color=#C9C9C9>你还未体验过捕获融合势力角色</color>(todo),,0
+COMMON,1794,她们在等待着你，等待你与她们缔结誓约(todo),,0
+COMMON,1795,你还未体验过捕获融合势力角色(todo),,0
 COMMON,1796,*用时缩减(todo),,0
 COMMON,1797,训练次数(todo),,0
 COMMON,1798,暂不可用(todo),,0
@@ -2613,6 +2613,7 @@ DEVELOP,33061,Units in this echelon require repair//c unable to deploy.,,0
 DEVELOP,33063,Quick//nRepair Contract,,0
 DEVELOP,33064,1 Quick Repair will be used,,0
 DEVELOP,33065,Stage with drops still locked,,0
+DEVELOP,33066,当前技能已升至满级！(todo),,0
 ILLUSTRATEDBOOK,35000,Tactical Dolls,,0
 ILLUSTRATEDBOOK,35001,TacticalGirls,,0
 ILLUSTRATEDBOOK,35002,Furniture,,0
@@ -3525,6 +3526,7 @@ MISSIONSELECTION,40458,未获取灰域信息(todo),,0
 MISSIONSELECTION,40459,完成后开启普通奖励(todo),,0
 MISSIONSELECTION,40460,完成后重置(todo),,0
 MISSIONSELECTION,40461,在一次常规探查中，边境调查团第六支队意外发现了一片从未踏足的神秘区域。她们冒险进入，结果失踪数日……等到再度归来时，竟带回了令人意想不到的收获。为了探明神秘区域，指挥官决定对这一片区域进行部署，现在，是时候开始行动了。(todo),,0
+MISSIONSELECTION,40462,敌方等级(todo),,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -3597,7 +3599,7 @@ RESEARCH,51018,RESEARCH,,0
 RESEARCH,51019,Instant Training,,0
 RESEARCH,51020,Insufficient Training data. Please obtain more from <color=#FFB400FF>Combat Simulation</color>,,0
 RESEARCH,51021,Skill is at max level,,0
-RESEARCH,51022,Quick Training will consume <color=#ffb400ff>1</color> <color=#ffb400ff>Quick Training Contract                (Remaining:,,0
+RESEARCH,51022,快速训练需要消耗<color=#ffb400ff>{0}</color>个<color=#ffb400ff>快速训练契约//n（剩余{1}个)</color>，是否确认支付？(todo),,0
 RESEARCH,51023,)</color>//c confirm usage?,,0
 RESEARCH,51024,You do not have enough <color=#ffb400ff>Quick Training Contracts</color>//c,,0
 RESEARCH,51025,Insufficient Training data. Please obtain more from <color=#FFB400FF>Combat Simulation</color>,,0
@@ -3644,7 +3646,7 @@ RESEARCH,51066,Exclusive Equipment,,0
 RESEARCH,51067,Unlock Skill,,0
 RESEARCH,51068,T-Doll Rarity,,0
 RESEARCH,51069,Reached the Neural Upgrade limit,,0
-RESEARCH,51070,Quick Training will consume <color=#ffb400ff>1 Quick Training Contract//n({0} remaining)</color>//c confirm?,,0
+RESEARCH,51070,快速训练需要消耗<color=#ffb400ff>1</color>个<color=#ffb400ff>快速训练契约//n（剩余{0}个)</color>，是否确认支付？(todo),,0
 RESEARCH,51071,Insufficient level. Level <color=#ffb400ff>{0}</color> is required for Neural Upgrade.,,0
 RESEARCH,51072,Remaining,,0
 RESEARCH,51073,Training...,,0
@@ -4483,6 +4485,7 @@ SEPCIALOPS,60715,请阅读并同意隐私条款(todo),,0
 SEPCIALOPS,60716,请输入2-81字符的地址信息！(todo),,0
 SEPCIALOPS,60718,请输入11位中国大陆电话号码(todo),,0
 SEPCIALOPS,60719,快乐抽奖箱(todo),,0
+SEPCIALOPS,60720,机制说明(todo),,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -5504,17 +5507,17 @@ GUIDE,140343,Rewards can be redeemed when you fill up the 【Daily Protocol】 p
 GUIDE,140344,【Daily Key Tasks】 are refreshed at <color=#f27f19>00:00 every day</color>. 【Weekly Key Tasks】 are refreshed <color=#f27f19>at 00:00 every Monday</color>. Take not of how much time you have left for completing your tasks.,,0
 GUIDE,140345,以上就是【格里芬每日事务】的介绍，指挥官请记得坚持完成哦！(todo),,0
 GUIDE,140346,<color=#f27f19>活跃度积分</color>可以累计【格里芬周报】的进度，进度到达指定节点指挥官也可以换取丰厚奖励哦。(todo),,0
-GUIDE,140347,指挥官，前方红区发生异动，请立即确认信息！(todo),,0
-GUIDE,140348,指挥官，前方红区发生异动，请立即确认信息！(todo),,0
-GUIDE,140349,指挥官，请立即前往！(todo),,0
+GUIDE,140347,指挥官，收到边境调查团信息发现神秘区域，请立即确认信息！(todo),,0
+GUIDE,140348,指挥官，收到边境调查团信息发现神秘区域，请立即确认信息！(todo),,0
+GUIDE,140349,指挥官，根据边境调查团第六支队回报的数据，神秘区域就在前面，请立即前往。(todo),,0
 GUIDE,140350,日常玩法强制引导占位2-1(todo),,0
-GUIDE,140351,前方区域危险！应根据实际战备情况来选择探索难度。现在，请选择【沙尘带】难度前往视察情况吧。(todo),,0
+GUIDE,140351,前方区域危险！应根据实际战备情况来选择探查难度。现在，请选择【沙尘带】难度前往视察情况吧。(todo),,0
 GUIDE,140352,日常玩法强制引导占位3-1(todo),,0
-GUIDE,140353,我们到了，指挥官。+面前每一个可行动的地块都会触发不同的状况，有的需要作战，甚至遇到强敌，有的则将遇到随机事件，请沉着应对。(todo),,0
-GUIDE,140354,针对地块的详细介绍，也已收录至<color=#ffb400ff>格里芬手册</color>，可随时查阅。(todo),,0
-GUIDE,140355,每次完成地块战役，都将获得<color=#ffb400ff>积分</color>，难度越高的战役积分越多，Boss所在地块会有更多积分；完成所有区域内可交互的地块，还能获得额外<color=#ffb400ff>积分</color>。+积分到达一定数量就能获取<color=#ffb400ff>战利品</color>哦，所以，请尽量探索吧，指挥官！(todo),,0
-GUIDE,140356,指挥官注意该地区的昼夜情况会随着探索步伐切换的哦(todo),,0
-GUIDE,140357,指挥官也可以随时使用重置功能，重新<color=#ffb400ff>更换探索区域</color>。+就先说这么多啦，更多情报只能靠您自己发现了。那么，祝您好运！(todo),,0
+GUIDE,140353,我们到了，指挥官。面前每一个可行动的点位都会触发不同的状况，有的需要作战，甚至遇到强敌，有的则将遇到随机事件，请沉着应对。(todo),,0
+GUIDE,140354,针对点位的详细介绍，也已收录至<color=#ffb400ff>格里芬手册</color>，可随时查阅。(todo),,0
+GUIDE,140355,每次成功攻略点位，都将获得<color=#ffb400ff>积分</color>，难度越高的点位积分越多，首领所在点位会有更多积分；完成所有区域内可交互的点位，还能获得额外<color=#ffb400ff>积分</color>。积分到达一定数量就能获取<color=#ffb400ff>战利品</color>哦，所以，请尽量探索吧，指挥官！(todo),,0
+GUIDE,140356,噢，对了，指挥官，每次完成点位战役，时间会发生推移，<color=#ffb400ff>战役昼夜</color>会发生变化，还请关注。(todo),,0
+GUIDE,140357,指挥官也可以随时使用重置功能，重置<color=#ffb400ff>探查区域难度</color>。就先说这么多啦，更多情报只能靠您自己发现了。那么，祝您好运！(todo),,0
 GUIDE,140358,伤害：影响人形单次攻击能力//n命中：影响人形攻击击中敌人的概率//n回避：影响人形避免被敌人击中的概率//n射速：影响人形攻击速度(机枪人形只影响换弹速度)//n射速上限：影响人形攻击速度的上限值//n生命：影响人形最终生存能力，数值为0时会失去战斗能力//n修复：影响人形未重创状态下每回合结束时回复的生命数值//n护甲：影响人形防御敌方攻击的能力//n成长：影响人形属性随等级成长的能力(todo),,0
 GUIDE,140360,伤害：影响角色单次攻击能力//n命中：影响角色攻击击中敌方的概率//n回避：影响角色避免被敌人击中的概率//n暴击：影响角色攻击额外造成暴击伤害的概率//n穿甲：影响角色攻击穿透敌人护甲的能力//n攻速：影响角色攻击速度//n生命：影响角色最终生存能力，数值为0时会失去战斗能力//n暴伤：影响角色攻击额外造成暴击伤害的倍率//n移速：影响角色移动速度//n修复：影响角色未重创状态下每回合结束时回复的生命数值//n韧性：影响敌方角色防御我方暴击伤害的能力(todo),,0
 GUIDE,140361,伤害：影响妖精对梯队人形伤害属性的加成效果//n命中：影响妖精对梯队人形命中属性的加成效果//n回避：影响妖精对梯队人形回避属性的加成效果//n护甲：影响妖精对梯队人形护甲属性的加成效果//n成长：影响妖精加成效果随等级成长的能力(todo),,0
@@ -5959,6 +5962,23 @@ SQUAD,190272,Rescue Hostage,,0
 SQUAD,190273,Tap to conduct EXP Training,,0
 SQUAD,190274,Tap to conduct Skill Training,,0
 SQUAD,190275,,,0
+SQUAD,190276,当前拥有{0}个快速解析契约，本次快速晋升需要消耗{1}个，是否需要进行快速晋升(todo),,0
+SQUAD,190277,正在晋升中，是否要终止晋升(todo),,0
+SQUAD,190278,无法快速晋升，当前拥有快速解析契约{0}，需要{1}(todo),,0
+SQUAD,190279,批量解锁(todo),,0
+SQUAD,190280,资源不足，无法进行迭代(todo),,0
+SQUAD,190281,等级未达到，无法进行迭代(todo),,0
+SQUAD,190282,点击芯片进行解锁(todo),,0
+SQUAD,190283,点击芯片进行强化(todo),,0
+SQUAD,190284,将使用纯净数据样本×{0}替代原始数据样本×{1}，是否继续？(todo),,0
+SQUAD,190285,当前芯片点不足，请晋升重装获取芯片点(todo),,0
+SQUAD,190286,当前数据样本不足，是否前往【情报中心】获取数据样本(todo),,0
+SQUAD,190287,解锁时，如原始样本数据不足，可使用纯净数据样本替代(todo),,0
+SQUAD,190288,已解锁芯片(todo),,0
+SQUAD,190289,芯片点(todo),,0
+SQUAD,190290,解锁(todo),,0
+SQUAD,190291,当前资源不足，请重新选择(todo),,0
+SQUAD,190292,将取消所有芯片选择，是否继续？(todo),,0
 TOAST,200000,Formation has been preset,,0
 TOAST,200001,No available Fairies,,0
 TOAST,200002,Clear {0} different stages to unlock <color=#ffb400>Fairies</color>. Current clears {1}/{2},,0

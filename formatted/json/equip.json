@@ -667,7 +667,7 @@
     "company": "16Lab", "skill_level_up": 0, "fit_guns": "57,20057", 
     "equip_introduction": "16Lab特制的.300 Blackout高速弹，更适合配合消音器使用，ST AR-15专用。", "powerup_mp": 0.15, 
     "powerup_ammo": 0.6, "powerup_mre": 0.38, "powerup_part": 0.23, "exclusive_rate": 3.0, "bonus_type": "pow:400", 
-    "skill": 0, "passive_skill": "0", "max_level": 10, "auto_select_id": 19002, "equip_group_id": 0, "is_addition": 0, 
+    "skill": 0, "passive_skill": "759090", "max_level": 10, "auto_select_id": 19002, "equip_group_id": 4, "is_addition": 0, 
     "is_show": 1, "obtain_ids": "3", "sp_description": "equip-40000060"
   }, {
     "id": 61, "name": "Titan火控芯片", "description": "弹量+<bullet_number_up> 伤害<pow>\n射速<rate>$M1918专用", "rank": 5, 
@@ -992,8 +992,8 @@
     "company": "16Lab", "skill_level_up": 0, "fit_guns": "39,20039", 
     "equip_introduction": "能让白色死神再次降临于战场之上的记忆芯片，莫辛纳甘专用。", "powerup_mp": 0.6, 
     "powerup_ammo": 0.16, "powerup_mre": 0.6, "powerup_part": 0.16, "exclusive_rate": 3.0, 
-    "bonus_type": "pow:200,dodge:300,critical_harm_rate:500", "skill": 0, "passive_skill": "0", "max_level": 10, 
-    "auto_select_id": 20003, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3", 
+    "bonus_type": "pow:200,dodge:300,critical_harm_rate:500", "skill": 0, "passive_skill": "759098", "max_level": 10, 
+    "auto_select_id": 20003, "equip_group_id": 3, "is_addition": 0, "is_show": 1, "obtain_ids": "3", 
     "sp_description": "equip-40000086"
   }, {
     "id": 87, "name": "破旧披风", "description": "暴击伤害+<critical_harm_rate><%>\n移速<speed>$RF专用", "rank": 2, 
@@ -1163,8 +1163,8 @@
     "company": "16Lab", "skill_level_up": 0, "fit_guns": "20057,57", 
     "equip_introduction": "追求轻量化和快速射击稳定性的配置，包含keymod导轨，前握把，枪口补偿器及浮置式枪管，提升暴击伤害和命中，AR15专用。", 
     "powerup_mp": 0.5, "powerup_ammo": 0.25, "powerup_mre": 0.55, "powerup_part": 0.15, "exclusive_rate": 3.0, 
-    "bonus_type": "pow:500,hit:700,critical_harm_rate:1000", "skill": 0, "passive_skill": "0", "max_level": 10, 
-    "auto_select_id": 18005, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3016", 
+    "bonus_type": "pow:500,hit:700,critical_harm_rate:1000", "skill": 0, "passive_skill": "759089", "max_level": 10, 
+    "auto_select_id": 18005, "equip_group_id": 4, "is_addition": 0, "is_show": 1, "obtain_ids": "3016", 
     "sp_description": "equip-40000100"
   }, {
     "id": 101, "name": "XM261短弹", "description": "伤害+<pow> 穿甲<armor_piercing>\n$M1911专用", "rank": 5, "category": 2, 
@@ -1302,8 +1302,8 @@
     "develop_duration": 3600, "company": "KSH", "skill_level_up": 0, "fit_guns": "20039,39", 
     "equip_introduction": "通过导轨加装的现代光学瞄具，最大限度发挥出了莫辛纳甘天生的精准素质，提升命中和暴击概率，莫辛纳甘专用。", 
     "powerup_mp": 0.45, "powerup_ammo": 0.15, "powerup_mre": 0.3, "powerup_part": 0.15, "exclusive_rate": 3.0, 
-    "bonus_type": "critical_percent:1000,hit:1000", "skill": 0, "passive_skill": "0", "max_level": 10, 
-    "auto_select_id": 18010, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3016", 
+    "bonus_type": "critical_percent:1000,hit:1000", "skill": 0, "passive_skill": "759096", "max_level": 10, 
+    "auto_select_id": 18010, "equip_group_id": 3, "is_addition": 0, "is_show": 1, "obtain_ids": "3016", 
     "sp_description": "equip-40000111"
   }, {
     "id": 112, "name": "CT 4X20", "description": "命中+<hit> 射速<rate>\n暴击概率+<critical_percent><%>$M1918专用", 
@@ -2534,7 +2534,7 @@
     "equip_introduction": "7.7毫米口径的有坂子弹，弹头上用不同颜色的环来代表不同的弹种，其中黑色是为了应对装甲目标设计的穿甲弹。", 
     "powerup_mp": 0.08, "powerup_ammo": 0.5, "powerup_mre": 0.3, "powerup_part": 0.3, "exclusive_rate": 3.0, 
     "bonus_type": "armor_piercing:500,pow:1000", "skill": 0, "passive_skill": "902239", "max_level": 10, 
-    "auto_select_id": 19024, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3004", 
+    "auto_select_id": 19024, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3004,3096", 
     "sp_description": "equip-40000211"
   }, {
     "id": 212, "name": "特制曳光弹", "description": "伤害+<pow> 穿甲+<armor_piercing>\n$56式半专用", "rank": 5, 
@@ -2839,7 +2839,7 @@
     "equip_introduction": "配备弹鼓的汤姆森轻机枪有多沉？大概是2把M4捆在一起的重量，不管从哪个角度都不是很“轻机枪”，专用的外骨骼可以有效提升其在战场上的灵活性。", 
     "powerup_mp": 0.3, "powerup_ammo": 0.25, "powerup_mre": 0.12, "powerup_part": 0.38, "exclusive_rate": 3.0, 
     "bonus_type": "dodge:600", "skill": 116202, "passive_skill": "116201", "max_level": 10, "auto_select_id": 20036, 
-    "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3007", "sp_description": "equip-40000236"
+    "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3007,3096", "sp_description": "equip-40000236"
   }, {
     "id": 237, "name": "MkV运动骨骼", "description": "回避+<dodge>\n移速+<speed>技能增强$灰熊MkⅤ专用", "rank": 5, 
     "category": 3, "type": 20, "pow": "", "hit": "", "dodge": "10,20", "speed": "3,3", "rate": "", "critical_harm_rate": "", 
@@ -2976,7 +2976,7 @@
     "equip_introduction": "专为A1-R2型设计的液压后座缓冲系统，能有效减少.50BMG的后坐力，TAC-50的爱用品之一。", 
     "powerup_mp": 0.45, "powerup_ammo": 0.15, "powerup_mre": 0.3, "powerup_part": 0.15, "exclusive_rate": 3.0, 
     "bonus_type": "critical_harm_rate:500,critical_percent:1000", "skill": 0, "passive_skill": "0", "max_level": 10, 
-    "auto_select_id": 18074, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3061", 
+    "auto_select_id": 18074, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3061,3096", 
     "sp_description": "equip-40000247"
   }, {
     "id": 248, "name": "9A高性能芯片", "description": "伤害+<pow>\n射速+<rate>技能增加$9A-91专用", "rank": 5, "category": 3, 
@@ -3359,7 +3359,7 @@
     "equip_introduction": "为P22专门设计的小尺寸激光瞄准器，经过IOP的优化使得瞄准数据能够实时反应在P22的运算系统当中。", 
     "powerup_mp": 0.55, "powerup_ammo": 0.23, "powerup_mre": 0.23, "powerup_part": 0.23, "exclusive_rate": 3.0, 
     "bonus_type": "dodge:1000,critical_percent:700", "skill": 0, "passive_skill": "0", "max_level": 10, 
-    "auto_select_id": 18089, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3077", 
+    "auto_select_id": 18089, "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3077,3096", 
     "sp_description": "equip-40000278"
   }, {
     "id": 279, "name": "M5刺刀", "description": "暴击概率+<critical_percent><%>\n射速+<rate>$M1加兰德专用", "rank": 5, 
@@ -4081,6 +4081,32 @@
     "powerup_mp": 0.23, "powerup_ammo": 0.23, "powerup_mre": 0.33, "powerup_part": 0.38, "exclusive_rate": 3.0, 
     "bonus_type": "armor:500", "skill": 0, "passive_skill": "740091", "max_level": 10, "auto_select_id": 20057, 
     "equip_group_id": 0, "is_addition": 0, "is_show": 1, "obtain_ids": "3016", "sp_description": "受到的伤害-1"
+  }, {
+    "id": 337, "name": "7BT1", "description": "穿甲+<armor_piercing>\n射速+<rate>$莫辛-纳甘改型专用", "rank": 5, 
+    "category": 2, "type": 19, "pow": "", "hit": "", "dodge": "", "speed": "", "rate": "1,3", "critical_harm_rate": "", 
+    "critical_percent": "", "armor_piercing": "155,160", "armor": "", "shield": "", "damage_amplify": "", 
+    "damage_reduction": "", "night_view_percent": "", "bullet_number_up": "", "skill_effect_per": 0, "skill_effect": 0, 
+    "slow_down_percent": 0, "slow_down_rate": 0, "slow_down_time": 0, "dot_percent": 0, "dot_damage": 0, "dot_time": 0, 
+    "retire_mp": 0, "retire_ammo": 4, "retire_mre": 2, "retire_part": 3, "code": "弹匣_特殊_莫辛纳甘Mod", 
+    "develop_duration": 3300, "company": "IOP", "skill_level_up": 0, "fit_guns": "20039", 
+    "equip_introduction": "带有IOP改良设计后的BT穿甲曳光弹头的特制狙击弹，即使对于有装甲防护能力的目标也能造成可观的杀伤能力。", 
+    "powerup_mp": 0.08, "powerup_ammo": 0.5, "powerup_mre": 0.3, "powerup_part": 0.3, "exclusive_rate": 3.0, 
+    "bonus_type": "armor_piercing:500,rate:700", "skill": 0, "passive_skill": "759097", "max_level": 10, 
+    "auto_select_id": 19053, "equip_group_id": 3, "is_addition": 0, "is_show": 1, "obtain_ids": "3096", 
+    "sp_description": "equip-40000337"
+  }, {
+    "id": 338, "name": "SBR专用护木", "description": "射速+<rate>\n暴击概率+<critical_percent><%>$ST AR-15改型专用", 
+    "rank": 5, "category": 1, "type": 16, "pow": "", "hit": "", "dodge": "", "speed": "", "rate": "1,3", 
+    "critical_harm_rate": "", "critical_percent": "25,30", "armor_piercing": "", "armor": "", "shield": "", 
+    "damage_amplify": "", "damage_reduction": "", "night_view_percent": "", "bullet_number_up": "", "skill_effect_per": 0, 
+    "skill_effect": 0, "slow_down_percent": 0, "slow_down_rate": 0, "slow_down_time": 0, "dot_percent": 0, "dot_damage": 0, 
+    "dot_time": 0, "retire_mp": 4, "retire_ammo": 1, "retire_mre": 4, "retire_part": 1, "code": "配件_特殊_AR15Mod", 
+    "develop_duration": 3600, "company": "16Lab", "skill_level_up": 0, "fit_guns": "20057", 
+    "equip_introduction": "16Lab特制的SBR轻量护木，能够提升ST AR-15副武器的挂载能力", "powerup_mp": 0.5, 
+    "powerup_ammo": 0.25, "powerup_mre": 0.55, "powerup_part": 0.15, "exclusive_rate": 3.0, 
+    "bonus_type": "rate:700,critical_percent:850", "skill": 0, "passive_skill": "759091", "max_level": 10, 
+    "auto_select_id": 18114, "equip_group_id": 4, "is_addition": 0, "is_show": 1, "obtain_ids": "3096", 
+    "sp_description": "equip-40000338"
   }, {
     "id": 339, "name": ".223竞赛弹", "description": "穿甲+<armor_piercing>\n伤害+<pow>技能增加$SL8专用", "rank": 5, 
     "category": 2, "type": 19, "pow": "3,5", "hit": "", "dodge": "", "speed": "", "rate": "", "critical_harm_rate": "", 
