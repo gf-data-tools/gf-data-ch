@@ -148,6 +148,7 @@ patch3020=
 "3020/FairyStateSkillController",
 "3020/SangvisGunStateBaseInfoController",
 "3020/ExchangeShopItemController",
+"3020/ShareButtonController",
 "3020/BattleEvent",
 "3020/SpecialMissionInfoController",
 "3020/DeploymentBuildSkillItem",
@@ -162,6 +163,8 @@ patch3020=
 "3020/FormationController",
 "3020/OPSPanelController",	
 "3020/TheaterTeamData",
+"3020/MissionData",
+"3020/RankingListUIController",		
 }
 -- va11
 print("load Va11");
