@@ -1,0 +1,72 @@
+[
+  {
+    id: 1
+    situation: jump
+    is_show: 1
+    code: PHRASE
+  }
+  {
+    id: 2
+    situation: fly
+    is_show: 1
+    code: OPERATIONBEGIN
+  }
+  {
+    id: 3
+    situation: missPVP
+    is_show: 2
+    code: MOOD1
+  }
+  {
+    id: 4
+    situation: hurtLess
+    is_show: 2
+    code: MOOD2
+  }
+  {
+    id: 5
+    situation: hurtMore
+    is_show: 3
+    code: BREAK
+  }
+  {
+    id: 6
+    situation: enemyDiePVP
+    is_show: 3
+    code: WIN
+  }
+  {
+    id: 7
+    situation: enemySurvivePVP
+    is_show: 2
+    code: LOWMOOD
+  }
+  {
+    id: 8
+    situation: onboard
+    is_show: 1
+    code: GAIN,HELLO
+  }
+  {
+    id: 9
+    situation: die
+    code: RETREAT
+  }
+  {
+    id: 10
+    situation: recoverHP
+    is_show: 1
+    code: FIX
+  }
+  {
+    id: 11
+    situation: shieldIncrease
+    code: APPRECIATE
+  }
+  {
+    id: 12
+    situation: enemyMissPVP
+    is_show: 1
+    code: DEFENSE
+  }
+]

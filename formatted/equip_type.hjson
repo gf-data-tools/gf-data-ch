@@ -1,0 +1,186 @@
+[
+  {
+    name: 没有
+    des: 无
+  }
+  {
+    type: 1
+    name: 光学瞄具
+    category: 1
+    code: Optical_Sight
+    fit_gun_type: "2,3,4,5,6"
+    des: 可以提升人形的<color=#FFB400FF>暴击概率</color>
+  }
+  {
+    type: 2
+    name: 全息瞄具
+    category: 1
+    code: Holographic_Sight
+    fit_gun_type: "2,3,4,5,6"
+    des: 可以提升人形的<color=#FFB400FF>命中</color>和<color=#FFB400FF>伤害</color>，但会减少<color=#FFB400FF>射速</color>
+  }
+  {
+    type: 3
+    name: 红点瞄具
+    category: 1
+    code: RedDot_Sight
+    fit_gun_type: "2,3,4,5,6"
+    des: 可以提升人形的<color=#FFB400FF>命中</color>，但会减少<color=#FFB400FF>射速</color>
+  }
+  {
+    type: 4
+    name: 夜战装备
+    category: 1
+    code: NightBattle_Equipment
+    fit_gun_type: "1,2,4,6"
+    des: 可以抵消人形的<color=#FFB400FF>夜战命中惩罚</color>
+  }
+  {
+    type: 5
+    name: 穿甲弹
+    category: 2
+    code: AP_Ammo
+    fit_gun_type: "3,5"
+    des: 可以提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害
+  }
+  {
+    type: 6
+    name: 状态弹
+    category: 2
+    code: HP_Ammo
+    fit_gun_type: "1,2"
+    des: 可以提升人形的<color=#FFB400FF>伤害</color>，但会减少<color=#FFB400FF>穿甲</color>
+  }
+  {
+    type: 7
+    name: 霰弹
+    category: 2
+    code: Shotgun_Shells
+    fit_gun_type: "6"
+    des: 可以提升人形的<color=#FFB400FF>伤害能力</color>，分为独头弹，猎鹿弹和鸟弹用于不同场合
+  }
+  {
+    type: 8
+    name: 高速弹
+    category: 2
+    code: HV_Ammo
+    fit_gun_type: "4"
+    des: 可以提升人形的<color=#FFB400FF>伤害</color>
+  }
+  {
+    type: 9
+    name: 芯片
+    category: 3
+    code: Chip
+    fit_gun_type: "2,4"
+    des: 可以提升人形的<color=#FFB400FF>伤害</color>和<color=#FFB400FF>射速</color>，但会减少<color=#FFB400FF>暴击伤害</color>
+  }
+  {
+    type: 10
+    name: 外骨骼
+    category: 3
+    code: Exoskeleton
+    fit_gun_type: "1,2,4"
+    des: 可以提升人形的<color=#FFB400FF>回避</color>
+  }
+  {
+    type: 11
+    name: 防弹插板
+    category: 3
+    code: ArmorPlate
+    fit_gun_type: "6"
+    des: 可以提升人形的<color=#FFB400FF>护甲</color>，但会减少<color=#FFB400FF>回避</color>
+  }
+  {
+    type: 12
+    name: 勋章
+    category: 3
+    code: Medal
+    des: 特殊的人形装备，不同类型对人形属性影响不同
+  }
+  {
+    type: 13
+    name: 消音器
+    category: 1
+    code: Suppressor
+    fit_gun_type: "1,2,3,4"
+    des: 可以提升人形的<color=#FFB400FF>暴击概率</color>和<color=#FFB400FF>回避</color>
+  }
+  {
+    type: 14
+    name: 弹链箱
+    category: 3
+    code: Ammunition_Box
+    fit_gun_type: "5"
+    des: 可以提升人形的<color=#FFB400FF>弹量</color>，但会减少<color=#FFB400FF>回避</color>
+  }
+  {
+    type: 15
+    name: 伪装披风
+    category: 3
+    code: Camouflage_Cloak
+    fit_gun_type: "3"
+    des: 可以提升人形的<color=#FFB400FF>暴击伤害</color>，但会减少<color=#FFB400FF>移速</color>
+  }
+  {
+    type: 16
+    name: 备用瞄具
+    category: 1
+    code: Spare_Sight
+    fit_gun_type: "1,5"
+    des: 可以提升人形的<color=#FFB400FF>命中</color>和<color=#FFB400FF>暴击概率</color>
+  }
+  {
+    type: 17
+    name: 特殊穿甲弹
+    category: 2
+    code: Special_AP_Ammo
+    fit_gun_type: "5"
+    des: 可以大幅提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害
+  }
+  {
+    type: 18
+    name: 特殊配件
+    category: 1
+    code: Special_Accessories
+    des: 特殊的配件装备，不同类型对人形属性影响不同，无法制造
+  }
+  {
+    type: 19
+    name: 特殊弹匣
+    category: 2
+    code: Special_Magazine
+    des: 特殊的弹匣装备，不同类型对人形属性影响不同，无法制造
+  }
+  {
+    type: 20
+    name: 特殊人形
+    category: 3
+    code: Special_TDoll
+    des: 特殊的人形装备，不同类型对人形属性影响不同，无法制造
+  }
+  {
+    type: 21
+    name: 固定脚架
+    category: 3
+    code: GroundMount
+    fit_gun_type: "5"
+    des: 可以提升人形的<color=#FFB400FF>命中</color>和<color=#FFB400FF>换弹速度</color>，但会减少<color=#FFB400FF>移速</color>
+  }
+  {
+    type: 22
+    name: 喉缩管
+    category: 1
+    code: Cylinder
+    fit_gun_type: "6"
+    des: 可以提升人形的<color=#FFB400FF>弹量</color>和<color=#FFB400FF>命中</color>
+  }
+  {
+    type: 23
+    name: 测距仪
+    category: 3
+    code: RangeFinder
+    fit_gun_type: "3"
+    des: 可以提升人形的<color=#FFB400FF>伤害</color>和缩减技能<color=#FFB400FF>前置冷却</color>
+  }
+]

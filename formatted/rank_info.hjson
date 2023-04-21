@@ -1,0 +1,1149 @@
+[
+  {
+    id: "1"
+    name: 狩猎排行
+    type: "1"
+    refresh: month:1:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "2"
+    name: 资料采样低级排行
+    type: "2"
+    sub_type: "1"
+    refresh: week:7:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "3"
+    name: 资料采样中级排行
+    type: "2"
+    sub_type: "2"
+    refresh: week:7:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "4"
+    name: 资料采样高级排行
+    type: "2"
+    sub_type: "3"
+    refresh: week:7:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "5"
+    name: 防御演习排行
+    type: "3"
+    refresh: week:7:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "6"
+    name: 人型收集排行
+    type: "4"
+    refresh: month:1:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "7"
+    name: 家具收集排行
+    type: "5"
+    refresh: month:1:0
+    title: 每日4点刷新
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "8"
+    name: 活动积分排行
+    type: "6"
+    sub_type: "11320"
+    refresh: end:2022-12-29 10:00:00
+    title: <终焉花海+>积分榜（12月22日发放奖励）
+    top_rewards: 1:40514,2:40515,3:40516,4:40517,5:40518,6:40519,7:40520,8:40521,9:40522,10:40523,100:40524
+    visable_rank: "100"
+    visable_count: "100"
+    score_rewards: 350000:40525,600000:40526,800000:40527,900000:40528,1100000:40529
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    rank_list_num: "1"
+    begin_refresh_time: 2022-11-18
+    end_refresh_time: 2022-12-29
+    begin_show_time: 2022-11-18 00:00:00
+    end_show_time: 2022-12-29 10:00:00
+    event_rank_id: "8"
+    prize_preview: http://gfcn-transit.gw.sunborngame.com/listAward.html
+  }
+  {
+    id: "101"
+    name: 战区活动积分每日
+    type: "101"
+    refresh: test
+    title: test
+    top_rewards: 1:104101,2:104102,3:104103,4:104104,5:104105,6:104106,7:104107,8:104108,9:104109,10:104110,100:104111
+    percentage_rewards: 5:104112,10:104113,15:104114,20:104115,30:104116,40:104117,50:104118,100:104119
+    visable_rank: "100"
+    visable_count: "300"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "102"
+    name: 要塞每日
+    type: "102"
+    refresh: test
+    title: test
+    visable_rank: "100"
+    visable_count: "300"
+    ranking_onlist_number: "120"
+    every_table_num: "120"
+  }
+  {
+    id: "112"
+    name: 指定要塞积分
+    type: "112"
+    refresh: test
+    title: test
+    top_rewards: 1:104201,2:104202,3:104203,4:104204,5:104205,6:104206,7:104207,8:104208,9:104209,10:104210,100:104211
+    percentage_rewards: 5:104212,10:104213,15:104214,20:104215,30:104216,40:104217,50:104218,100:104219
+    visable_rank: "100"
+    visable_count: "300"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "122"
+    name: 末日魔犬
+    type: "113"
+    sub_type: "1703"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "123"
+    name: 叶戈尔
+    type: "113"
+    sub_type: "1704"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "124"
+    name: 失格异构体
+    type: "113"
+    sub_type: "1705"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "125"
+    name: M16A1!
+    type: "113"
+    sub_type: "1706"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "126"
+    name: 断后中队
+    type: "113"
+    sub_type: "1707"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "127"
+    name: 末日魔犬
+    type: "114"
+    sub_type: "1703"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "128"
+    name: 叶戈尔
+    type: "114"
+    sub_type: "1704"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "129"
+    name: 失格异构体
+    type: "114"
+    sub_type: "1705"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "130"
+    name: M16A1!
+    type: "114"
+    sub_type: "1706"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "131"
+    name: 断后中队
+    type: "114"
+    sub_type: "1707"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "132"
+    name: 模拟:双联乱数01
+    type: "113"
+    sub_type: "1708"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "133"
+    name: 模拟:双联乱数02
+    type: "113"
+    sub_type: "1709"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "134"
+    name: 模拟:双联乱数03
+    type: "113"
+    sub_type: "1710"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "135"
+    name: 模拟:双联乱数01
+    type: "114"
+    sub_type: "1708"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "136"
+    name: 模拟:双联乱数02
+    type: "114"
+    sub_type: "1709"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "137"
+    name: 模拟:双联乱数03
+    type: "114"
+    sub_type: "1710"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "138"
+    name: 模拟:双联乱数04
+    type: "113"
+    sub_type: "1711"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "139"
+    name: 模拟:双联乱数05
+    type: "113"
+    sub_type: "1712"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "140"
+    name: 模拟:双联乱数06
+    type: "113"
+    sub_type: "1713"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "141"
+    name: 模拟:双联乱数04
+    type: "114"
+    sub_type: "1711"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "142"
+    name: 模拟:双联乱数05
+    type: "114"
+    sub_type: "1712"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "143"
+    name: 模拟:双联乱数06
+    type: "114"
+    sub_type: "1713"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "144"
+    name: 必中谎言
+    type: "113"
+    sub_type: "1715"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "145"
+    name: 必中谎言
+    type: "114"
+    sub_type: "1715"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "146"
+    name: 01：燃烧狂兽
+    type: "113"
+    sub_type: "1716"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "147"
+    name: 02：不倒铁律
+    type: "113"
+    sub_type: "1717"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "148"
+    name: 03：蜂鸟旋涡
+    type: "113"
+    sub_type: "1718"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "149"
+    name: 01：燃烧狂兽
+    type: "114"
+    sub_type: "1716"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "150"
+    name: 02：不倒铁律
+    type: "114"
+    sub_type: "1717"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "151"
+    name: 03：蜂鸟旋涡
+    type: "114"
+    sub_type: "1718"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "152"
+    name: 04：奎乌
+    type: "113"
+    sub_type: "1719"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "153"
+    name: 04：奎乌
+    type: "114"
+    sub_type: "1719"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "154"
+    name: 异构体01
+    type: "113"
+    sub_type: "1720"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "155"
+    name: 异构体02
+    type: "113"
+    sub_type: "1721"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "156"
+    name: 异构体03
+    type: "113"
+    sub_type: "1722"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "157"
+    name: 异构体01
+    type: "114"
+    sub_type: "1720"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "158"
+    name: 异构体02
+    type: "114"
+    sub_type: "1721"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "159"
+    name: 异构体03
+    type: "114"
+    sub_type: "1722"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "160"
+    name: 黑白涅托
+    type: "113"
+    sub_type: "1723"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "161"
+    name: 黑白涅托
+    type: "114"
+    sub_type: "1723"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "162"
+    name: 顶级棋士
+    type: "8"
+    refresh: test
+    title: 顶级棋士排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "20000"
+    every_table_num: "20000"
+  }
+  {
+    id: "163"
+    name: 01：格雷夫人
+    type: "113"
+    sub_type: "1724"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "164"
+    name: 02：娜希斯
+    type: "113"
+    sub_type: "1725"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "165"
+    name: 03：默莉朵
+    type: "113"
+    sub_type: "1726"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "166"
+    name: 01：格雷夫人
+    type: "114"
+    sub_type: "1724"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "167"
+    name: 02：娜希斯
+    type: "114"
+    sub_type: "1725"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "168"
+    name: 03：默莉朵
+    type: "114"
+    sub_type: "1726"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "169"
+    name: 01：裂变
+    type: "113"
+    sub_type: "1727"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "170"
+    name: 02：裂变
+    type: "113"
+    sub_type: "1728"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "171"
+    name: 03：裂变
+    type: "113"
+    sub_type: "1729"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "172"
+    name: 01：裂变
+    type: "114"
+    sub_type: "1727"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "173"
+    name: 02：裂变
+    type: "114"
+    sub_type: "1728"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "174"
+    name: 03：裂变
+    type: "114"
+    sub_type: "1729"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "175"
+    name: 爆裂·魔女
+    type: "113"
+    sub_type: "1730"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "176"
+    name: 爆裂·魔女
+    type: "114"
+    sub_type: "1730"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "177"
+    name: 顶级棋士
+    type: "9"
+    refresh: test
+    title: 顶级棋士排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "178"
+    name: 大地·赴罪之人
+    type: "113"
+    sub_type: "1731"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "179"
+    name: 铁血·厄勒克特拉
+    type: "113"
+    sub_type: "1732"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "180"
+    name: 铁血·无归者
+    type: "113"
+    sub_type: "1733"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "181"
+    name: 大地·赴罪之人
+    type: "114"
+    sub_type: "1731"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "182"
+    name: 铁血·厄勒克特拉
+    type: "114"
+    sub_type: "1732"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "183"
+    name: 铁血·无归者
+    type: "114"
+    sub_type: "1733"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "184"
+    name: 01焓变·刺霜
+    type: "113"
+    sub_type: "1734"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "185"
+    name: 02焓变·夜霭
+    type: "113"
+    sub_type: "1735"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "186"
+    name: 03焓变·冥雾
+    type: "113"
+    sub_type: "1736"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "187"
+    name: 01焓变·刺霜
+    type: "114"
+    sub_type: "1734"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "188"
+    name: 02焓变·夜霭
+    type: "114"
+    sub_type: "1735"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "189"
+    name: 03焓变·冥雾
+    type: "114"
+    sub_type: "1736"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "190"
+    name: I 飓风：蜕骨
+    type: "113"
+    sub_type: "1737"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "191"
+    name: II 飓风：枯蛱
+    type: "113"
+    sub_type: "1738"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "192"
+    name: I 飓风：蜕骨
+    type: "114"
+    sub_type: "1737"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "193"
+    name: II 飓风：枯蛱
+    type: "114"
+    sub_type: "1738"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "194"
+    name: 01：应变-逆罪者
+    type: "113"
+    sub_type: "1739"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "195"
+    name: 02：应变-血誓者
+    type: "113"
+    sub_type: "1740"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "196"
+    name: 03：应变-暗哮
+    type: "113"
+    sub_type: "1741"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "197"
+    name: 04：应变-逆辉
+    type: "113"
+    sub_type: "1742"
+    refresh: test
+    title: 挑战时长
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "198"
+    name: 01：应变-逆罪者
+    type: "114"
+    sub_type: "1739"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "199"
+    name: 02：应变-血誓者
+    type: "114"
+    sub_type: "1740"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "200"
+    name: 03：应变-暗哮
+    type: "114"
+    sub_type: "1741"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "201"
+    name: 04：应变-逆辉
+    type: "114"
+    sub_type: "1742"
+    refresh: test
+    title: 承伤排行
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "1001"
+    name: 佐贺应援榜
+    type: "1001"
+    refresh: test
+    title: 每日4点刷新
+    visable_rank: "10"
+    visable_count: "300"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+    begin_refresh_time: 2023-02-14
+    end_refresh_time: 2023-03-10
+    begin_show_time: 2023-02-14 00:00:00
+    end_show_time: 2023-03-10 10:00:00
+  }
+  {
+    id: "2001"
+    name: 点位探查数
+    type: "2000"
+    sub_type: "1"
+    refresh: test
+    title: 点位探查数
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "2002"
+    name: 首领击杀数
+    type: "2000"
+    sub_type: "2"
+    refresh: test
+    title: 首领击杀数
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "2003"
+    name: 点位攻略数
+    type: "2000"
+    sub_type: "3"
+    refresh: test
+    title: 点位攻略数
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+]

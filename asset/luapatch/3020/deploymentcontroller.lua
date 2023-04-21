@@ -36,9 +36,24 @@ local TriggerSwitchAbovePanelEvent = function(show)
 	end
 	CS.DeploymentController.TriggerSwitchAbovePanelEvent(show);
 end
+
+local myCheckAction = function(self)
+	local eventSystem = CS.UnityEngine.GameObject.Find("EventSystem"):GetComponent(typeof(CS.UnityEngine.EventSystems.EventSystem));
+	print(eventSystem:ToString());
+	self:CheckAction();
+end
+
+local InitTeamSpots = function(self)
+	if CS.UnityEngine.GameObject.Find("/Reporter") ~= nil then
+		CS.NDebug.PrintLog = true;
+		CS.UnityEngine.Debug.unityLogger.logEnabled = true;
+	end
+	self:InitTeamSpots();
+end
 util.hotfix_ex(CS.DeploymentController,'InitStartTurnAllLayerPlays',InitStartTurnAllLayerPlays)
 util.hotfix_ex(CS.DeploymentController,'BuildCastSkillOnDeathHandler',BuildCastSkillOnDeathHandler)
 --util.hotfix_ex(CS.DeploymentController,'AddAllCanPlayPerformanceLayer',AddAllCanPlayPerformanceLayer)
 util.hotfix_ex(CS.DeploymentController,'RequestStartMissionHandle',RequestStartMissionHandle)
 util.hotfix_ex(CS.DeploymentController,'TriggerSwitchAbovePanelEvent',TriggerSwitchAbovePanelEvent)
-
+util.hotfix_ex(CS.DeploymentController,'InitTeamSpots',InitTeamSpots)
+--util.hotfix_ex(CS.DeploymentController,'CheckAction',myCheckAction)

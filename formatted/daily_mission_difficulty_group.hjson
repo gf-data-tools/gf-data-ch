@@ -1,0 +1,37 @@
+[
+  {
+    id: 1
+    name: 沙尘带
+    recommend_gun_level: 65
+    recommend_fairy_level: "45,1"
+    recommend_fairy_tip: 少量
+    recommend_fairies: "1,2,3,4,6,7,8,9,23,24,25"
+    recommend_squad_tip: 无
+    default_bg: "#FFFFFFFF"
+  }
+  {
+    id: 2
+    name: 风暴带
+    recommend_gun_level: 90
+    recommend_fairy_level: "80,2"
+    recommend_fairy_tip: 完整
+    recommend_fairies: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,23,24,25"
+    recommend_squad_level: "80,2"
+    recommend_squad_tip: 少量
+    recommend_squads: "1,2,3,4,5,6,7"
+    default_bg: "#B5522CFF"
+  }
+  {
+    id: 3
+    name: 硅状带
+    recommend_gun_level: 110
+    recommend_fairy_level: "90,4"
+    recommend_fairy_tip: 完整
+    recommend_fairies: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,23,24,25"
+    recommend_squad_level: "90,4"
+    recommend_squad_tip: 完整
+    recommend_squads: " 1,2,3,4,5,6,7"
+    default_effects: DailyUIEffect
+    default_bg: "#9F342BFF"
+  }
+]
