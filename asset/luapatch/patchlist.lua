@@ -175,6 +175,15 @@ patch3020=
 "3020/DailyExploreRewardSliderController",
 "3020/ImageBufferBlurRefraction",	
 "3020/BattleFieldTeamHolderNew",	
+"3020/BattleInteractionController",
+"3020/MissionSelectionController",
+"3020/DailyGamePointPrizeCtrl",		
+"3020/CommonGuideController",	
+"3020/BattleMemberManager",
+"3020/CommonCombatSettlementController",		
+"3020/SkillInstance",
+"3020/FormationSettingController",
+"3020/DailyExploreBattleWindow",		
 }
 -- va11
 print("load Va11");
