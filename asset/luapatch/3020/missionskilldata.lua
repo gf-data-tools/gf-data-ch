@@ -52,13 +52,24 @@ local CheckTeamMoveClear = function(self)
 	self:CheckTeamMoveClear();
 end
 
+local CheckNext = function()
+	print("PlayNext");
+	CS.DeploymentController.Instance:PlayNext();
+end
+local delay = 0;
+local DelayPerformance = function()
+	print("插入延时");
+	CS.DeploymentController.AddAction(CheckNext,delay);
+end
+
+local AddDelayPerformance = function()
+	CS.DeploymentController.Instance:AddAndPlayPerformance(DelayPerformance);
+end		
 local ShowEffect = function(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound)
 	if effectInfo.cameraFollowEffect then
-		local delay = lastdelayTime+effectInfo.forceDelay+effectInfo.forceLastTime;
+		delay = lastdelayTime+effectInfo.forceDelay+effectInfo.forceLastTime;
 		print("插入队列延时"..tostring(delay));
-		CS.DeploymentController.Instance:InsertSomePlayPerformances(function()
-			CS.DeploymentController.Instance:DelayAddAndPlayPerformance(delay);
-		end)
+		CS.DeploymentController.Instance:InsertSomePlayPerformances(AddDelayPerformance);
 	end
 	effectObj = CS.SpecialSpotAction.ShowEffect(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound);
 	return effectObj;

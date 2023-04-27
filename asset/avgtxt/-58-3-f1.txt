@@ -7,9 +7,9 @@ AR18(5)<Speaker>AR18</Speaker><Position>0,120</Position>||:……+要下雨了�
 AR18(2)<Speaker>AR18</Speaker><Position>0,120</Position>||:备用素体和傀儡储备已全部就位。+运载车辆已就位，夜视仪、弹药补给、素体紧急维修材料……全部就位。+现在只剩下……
 ()<Speaker></Speaker>||:AR18凝视着准备项目的最后一行。
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:她伸手拨通了负责最后一项准备工作联络空管指挥。
-QBZ191(4)<Speaker>QBU191</Speaker><通讯框>||:<color=#00CCFF>晚上好，AR18小姐，QBU191向指挥官问好，航空管制与空中支援梯队已经就位。</color>
+QBU-191(0)<Speaker>QBU-191</Speaker><通讯框>||:<color=#00CCFF>晚上好，AR18小姐，QBU191向指挥官问好，航空管制与空中支援梯队已经就位。</color>
 AR18(3)<Speaker>AR18</Speaker><Position>0,120</Position>||:艾莫号已准备就绪，正在前往目标地点。
-QBZ191(4)<Speaker>QBU191</Speaker><通讯框>||:<color=#00CCFF>收到，已经进入激活进程。</color>+<color=#00CCFF>我方已完成部署，抵达指定地点待命，只等搜索行动成功信号即可启动。</color>
+QBU-191(0)<Speaker>QBU-191</Speaker><通讯框>||:<color=#00CCFF>收到，已经进入激活进程。</color>+<color=#00CCFF>我方已完成部署，抵达指定地点待命，只等搜索行动成功信号即可启动。</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:AR18放下通讯，完成了整个准备项目的筹备。
 ()<Speaker></Speaker>||<SE1>AVG_Knock</SE1>:叩叩——她敲响了休息室的门。
 ()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:指挥官睡眼朦胧地打开门，走到指挥室。

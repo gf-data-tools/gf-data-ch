@@ -5,10 +5,10 @@ NPC-Ange(30)<Speaker>安娜</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1>:<
 NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||:屏气，控制呼吸。
 ()<Speaker></Speaker>||<SE1>AVG_Slime_Movement</SE1>:黑暗的下水道， 安娜交替着手臂向前爬行。+拉姆赞的义肢磕在管道上，发出轻微的撞击声，在管道内悠长回响。+周遭充斥着血腥气，安娜甚至摸得到某些黏糊糊的块状物。+就像……别斯兰中学的体育馆。
 ()||<黑屏1>:
-NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||<common_effect>%%code=AVG_xiaxue%%</common_effect><边框>2</边框><回忆><黑屏2><BIN>652</BIN>:行动初期，你们必须在敌方毫无察觉的情况下尝试潜入，任何暴露己身的行为都可能导致后续行动失败……
+NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||<边框>2</边框><回忆><黑屏2><BIN>652</BIN>:行动初期，你们必须在敌方毫无察觉的情况下尝试潜入，任何暴露己身的行为都可能导致后续行动失败……
 NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||<边框>2</边框>:在敌人没有掌握你的意图前，发起战斗，可以收到更大的效果。+这并不是说你的敌人是傻瓜，等你来揍，而是尽量让他们晚一些发觉，晚一些做出有效反应……
 NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||<边框>2</边框>:有时你必须全程静默，有时可以制造某种骚乱，分散敌人注意力。总之，你们需要学会灵活应对不同的战况……
-()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_Creep</SE1>:纷纷扬扬的冬雪中，学员们匍匐着，爬过低矮的铁丝网。+安娜大口喘息，呼出团团白雾。
+()<Speaker></Speaker>||<边框>2</边框><SE1>AVG_Creep</SE1>:纷纷扬扬的沙尘中，学员们匍匐着，爬过低矮的铁丝网。+安娜大口喘息，被扬尘呛的连连咳嗽。
 NPC-Pamzan(4)<Speaker>拉姆赞</Speaker>||<边框>2</边框>:敌人会给你们时间休息吗？控制呼吸，继续爬！
 NPC-Ange(24)<Speaker>安娜</Speaker>||<边框>2</边框>:……
 ()||<黑屏1><边框>2</边框>:
@@ -183,7 +183,7 @@ NPC-Ange(29)<Speaker>安娜</Speaker>||:<size=50>拉姆赞！！！</size>
 ()<Speaker></Speaker>||<SE1>Select</SE1><SE1>ClothingUp</SE1>:正准备查看拉姆赞伤势的安娜立刻转身，把枪口对准了发出声音的身影，待看清对方的模样后，安娜瞪大了眼睛——
 NPC-Ange(30)<Speaker>安娜</Speaker>||:玛莎……老师？！
 ()||<黑点1>:
-()<Speaker></Speaker>||<BIN>643</BIN><黑点2><BGM>BGM_23S_Winter_Night_Bayan_Version</BGM>:窗边有光洒落，那人站在阳光下，双眸一片清冷。+阳光照亮她半侧脸颊。
+()<Speaker></Speaker>||<BIN>643</BIN><黑点2><BGM>BGM_23S_War_Sacrifice</BGM>:窗边有光洒落，那人站在阳光下，双眸一片清冷。+阳光照亮她半侧脸颊。
 ()<Speaker>玛莎</Speaker>||:没想到，我们再次相遇，会是这种情形。+安娜。
 ()<Speaker>安娜</Speaker>||:……你就是“死罪”？
 ()<Speaker>玛莎</Speaker>||:……是。

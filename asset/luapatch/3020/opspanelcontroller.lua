@@ -54,7 +54,9 @@ local CheckModuleSpine = function(self)
 			if moduleControl ~= nil then
 				if currentIndex<0 then
 					if moduleControl.spineControls:ContainsKey(code) then
-						moduleControl.spineControls[code].gameObject:SetActive(false);
+						if moduleControl.spineControls[code] ~= nil then
+							moduleControl.spineControls[code].gameObject:SetActive(false);
+						end
 					end
 				else
 					opsspinemission.moudleIndex = self.moduleControls:IndexOf(moduleControl);
