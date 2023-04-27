@@ -190,7 +190,7 @@ patch3020=
 "3020/FormationSettingController",
 "3020/DailyExploreBattleWindow",
 "3020/SangvisLabelController",
-"3020/PlayerReturnEventCtrl",		
+--"3020/PlayerReturnEventCtrl",		
 }
 -- va11
 print("load Va11");
