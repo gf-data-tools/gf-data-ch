@@ -22213,8 +22213,8 @@
     confront_des:
       '''
       本次战役中可采取的应对手段：
-      安洁处于偏低心率时，炮塔会停止攻击，
-      同时心率偏低时安洁可以关闭炮塔。
+      安娜处于偏低心率时，炮塔会停止攻击，
+      同时心率偏低时安娜可以关闭炮塔。
       '''
     missionskill_on_death: "1,580901,580912,0;1,580902,580912,0;1,584701,580912,0;1,584702,580912,0;1,584703,580912,0;1,581101,580912,0;1,581102,580912,0;1,581103,580912,0;1,581104,580912,0;1,584801,580912,0;1,584802,580912,0;1,584803,580912,0;1,584804,580912,0"
   }
@@ -22247,8 +22247,8 @@
     confront_des:
       '''
       本次战役中可采取的应对手段：
-      安洁处于偏低心率时，炮塔会停止攻击，
-      同时心率偏低时安洁可以关闭炮塔。
+      安娜处于偏低心率时，炮塔会停止攻击，
+      同时心率偏低时安娜可以关闭炮塔。
       '''
   }
   {
@@ -22396,7 +22396,7 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581799
+    name: 安洁
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22406,9 +22406,8 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581799
-    des: building-20581799
-    confront_des: building-30581799
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
     missionskill_on_death: "1,581501,580052,0;1,581502,580052,0;1,581503,580052,0;1,581504,580052,0;1,581505,580052,0;1,581701,580052,0;1,581702,580052,0;1,581703,580052,0;1,581704,580052,0;1,584901,580052,0;1,584902,580052,0;1,584903,580052,0;1,584904,580052,0;1,584905,580052,0;1,585001,580052,0;1,585002,580052,0;1,585003,580052,0;1,585004,580052,0;1,585005,580052,0;2,581501,581500,0;2,584901,581500,0"
   }
   {
@@ -33573,7 +33572,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
     is_destroy: "1,2"
-    name: 弹药库
+    name: 火力补给处
     code: Ammobox
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46049,7 +46048,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19583813
+    name: 【标记】NPC挂技能用兔子
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46059,9 +46058,8 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583813
-    des: building-29583813
-    confront_des: building-39583813
+    des: 【标记】略
+    confront_des: 【标记】略
   }
   {
     id: 9584001
@@ -46220,7 +46218,7 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: 【标记】兔子_过回合扣信号
+    name: 【标记】通用兔子_过回合自然恢复5点信号
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46353,7 +46351,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584013
+    name: 【标记】禁足兔子
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -46363,9 +46361,8 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584013
-    des: building-29584013
-    confront_des: building-39584013
+    des: 【标记】略
+    confront_des: 【标记】略
     missionskill_on_death: "2,9584006,95840020,0;1,9584008,95840030,0"
   }
   {
@@ -46952,8 +46949,12 @@
     inherent_mission_skill: "95842013"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    des: "23"
-    confront_des: "23"
+    des: 【标记】略
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      踩点破坏、重装打击
+      '''
   }
   {
     id: 9587404
