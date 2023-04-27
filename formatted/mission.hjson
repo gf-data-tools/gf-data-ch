@@ -44616,7 +44616,7 @@
     map_res_name: OPS91_Y;OPS5_Y
     map_information: "8000,8000|7000,4230|-500,-2100;8000,8000|5500,3430|0,-300"
     fog_length: "0,500;0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "750"
     drop_mission_key: "0,0,1137000:1;0,0,1137000:1"
     mission_group_id: 27
@@ -44626,6 +44626,7 @@
     win_type: 9583802|9583803
     difficulty_recommend: "10000,75;10000,75;0,0;0,10000"
     lose_type: "9583801"
+    recommended_team_ids: "1"
   }
   {
     id: 11371
@@ -44671,7 +44672,7 @@
     map_res_name: OPS91_Y;OPS92_Y
     map_information: "8000,8000|5200,4800|-1400,2000;8000,8000|5000,4000|2100,250"
     fog_length: "0,500;0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "750"
     drop_mission_key: "0,0,1137200:1"
     mission_group_id: 27
@@ -44680,6 +44681,7 @@
     mapped_mission_id: 58014
     difficulty_recommend: "12000,81;12000,81;0,0;0,12000"
     win_step: "9584001"
+    recommended_team_ids: "1"
   }
   {
     id: 11373
@@ -44725,7 +44727,7 @@
     map_res_name: OPS101_Y
     map_information: "9000,9000|6000,6200|2500,500"
     fog_length: "0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "750"
     drop_mission_key: "0,0,1137400:1"
     mission_group_id: 27
@@ -44735,6 +44737,7 @@
     win_type: "9584202,9584203"
     difficulty_recommend: "14000,87;14000,87;0,0;0,14000"
     lose_type: "9584201"
+    recommended_team_ids: "1,4"
   }
   {
     id: 11375
@@ -45192,7 +45195,7 @@
     map_res_name: OPS91_Y;OPS5_Y
     map_information: "8000,8000|7000,4230|-500,-2000;8000,8000|6000,3830|0,-650"
     fog_length: "0,500;0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "754"
     drop_mission_key: "0,0,1137000:1|1137001:1;0,0,1137000:1|1137001:1"
     mission_group_id: 27
@@ -45202,6 +45205,7 @@
     win_type: 9585702|9585703
     difficulty_recommend: "16000,93;16000,93;0,0;0,16000"
     lose_type: "9585701"
+    recommended_team_ids: "1"
   }
   {
     id: 11390
@@ -45222,7 +45226,7 @@
     map_res_name: OPS91_Y;OPS92_Y
     map_information: "8000,8000|5200,4800|-1400,2000;8000,8000|5000,4000|2100,250"
     fog_length: "0,500;0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "754"
     drop_mission_key: "0,0,1137200:1|1137201:1"
     mission_group_id: 27
@@ -45232,6 +45236,7 @@
     win_type: "1139001"
     difficulty_recommend: "20000,99;20000,99;0,0;0,20000"
     win_step: "9585801"
+    recommended_team_ids: "1"
   }
   {
     id: 11391
@@ -45252,7 +45257,7 @@
     map_res_name: OPS101_Y
     map_information: "9000,9000|6000,6200|2500,500"
     fog_length: "0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "754"
     drop_mission_key: "0,0,1137400:1|1137401:1"
     mission_group_id: 27
@@ -45262,6 +45267,7 @@
     win_type: "9585902,9585903"
     difficulty_recommend: "22000,99;22000,99;10,0;10,22000"
     lose_type: "9585901"
+    recommended_team_ids: "1,4"
   }
   {
     id: 11392
@@ -45376,7 +45382,7 @@
     map_res_name: OPS91_Y;OPS5_Y
     map_information: "8000,8000|7000,4230|-500,-2000;8000,8000|6000,3830|0,-650"
     fog_length: "0,500;0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "756"
     drop_mission_key: "0,0,1137000:1|1137001:1|1137002:1;0,0,1137000:1|1137001:1|1137002:1"
     mission_group_id: 27
@@ -45406,7 +45412,7 @@
     map_res_name: OPS91_Y;OPS92_Y
     map_information: "8000,8000|5200,4230|-1400,2000;8000,8000|5700,3500|1750,150"
     fog_length: "0,500;0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "756"
     drop_mission_key: "0,0,1137200:1|1137201:1|1137202:1"
     mission_group_id: 27
@@ -45436,7 +45442,7 @@
     map_res_name: OPS101_Y
     map_information: "9000,9000|9000,8000|200,0"
     fog_length: "0,500"
-    fog_color: "#00000000"
+    fog_color: "#000000FF"
     draw_event_s_id: "756"
     drop_mission_key: "0,0,1137400:1|1137401:1|1137402:1"
     mission_group_id: 27

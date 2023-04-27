@@ -1241,6 +1241,7 @@
     relative_position: "0,0;0,0;0,0;1,1"
     offset: "-5500,-5500;6500,6500"
     rotation_offset: "0,0,45;0,0,45"
+    is_focus: 2|0.5,1
   }
   {
     id: 1000110
@@ -1642,14 +1643,14 @@
     code: Fly_tu160
     description: TY-160
     priority: 1
-    duration: 3.0
+    duration: 4.0
     size: 2.0
     sound: Blackjack_flying
     if_starting: 4
     relative_position: "0,0;0,0;0,0;1,1"
     offset: "-5500,-5500;6500,6500"
     rotation_offset: "0,0,45;0,0,45"
-    is_focus: 0.5|2
+    is_focus: 2|0.5,1
   }
   {
     id: 1000149
@@ -1658,7 +1659,7 @@
     description: 轰炸效果1
     priority: 1
     duration: 2.0
-    delay: -1.0
+    delay: -0.5
     size: 4.0
     offset: "0,0"
   }
@@ -1669,7 +1670,7 @@
     description: 轰炸效果2
     priority: 1
     duration: 2.0
-    delay: -2.0
+    delay: -1.5
     size: 2.0
     sound: Blackjack_attack1
     offset: "0,0"

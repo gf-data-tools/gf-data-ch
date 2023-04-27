@@ -16,10 +16,10 @@ NPC-MrsGray(1)<Speaker>格雷</Speaker>||:……听到你的答案，我很开�
 NPC-Ange(0)<Speaker>安洁</Speaker>||:……
 ()<Speaker>格雷</Speaker>||:……就算我只是一瞬间的格雷•布莱克薇尔。+请让我，与她一样……+请让我，像一位人类那样尊严死去……
 NPC-Ange(0)<Speaker>安洁</Speaker>||:……
-()||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>AVG_2023Slow_Came_to_surface</SE1>:安洁渐渐浮上水面……
-()||:那些信件如同湖水中数不清的泡沫。+一点一滴在安洁意识中回想——
+()||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake><SE1>AVG_2023Slow_Came_to_surface</SE1><白屏1>:安洁渐渐浮上水面……
+()||<白屏2>:那些信件如同湖水中数不清的泡沫。+一点一滴在安洁意识中回想——
 ()||<黑屏1>:
-()<Speaker></Speaker>||<回忆><边框>2</边框><黑屏2>:2047年，迈特纳9日夜晚写于别斯兰。
+()<Speaker></Speaker>||<回忆><边框>2</边框><黑屏2><BIN>655</BIN>:2047年，迈特纳9日夜晚写于别斯兰。
 ()<Speaker></Speaker>||<边框>2</边框>:2051年，布莱克薇尔9日凌晨写于柏林。
 ()<Speaker></Speaker>||<边框>2</边框>:2051年，迈特纳3日中午写于莫斯科。
 ()<Speaker></Speaker>||<边框>2</边框>:2051年，布莱克薇尔3日夜晚写于柏林。 
@@ -87,7 +87,7 @@ NPC-Sinia(0)<Speaker>安洁</Speaker><同时置暗>||<边框>2</边框>:在别�
 NPC-Sinia(0)<Speaker>RPK16</Speaker>||<边框>2</边框>:你在看斯特鲁伽茨基？
 ()||<边框>2</边框>:RPK16撑起了下巴，扬起天真无邪的笑容。
 ()||<边框>2</边框><黑屏1>:
-()<Speaker>安洁</Speaker>||<边框>2</边框><黑屏2><BIN>652</BIN>:在训练营中，你是亚历山大。
+()<Speaker>安洁</Speaker>||<边框>2</边框><黑屏2><BIN>480</BIN>:在战场上，你是亚历山大。
 NPC-Alexander(0)<Speaker>RPK16</Speaker>||<边框>2</边框>:……你全都听到了？
 ()||<边框>2</边框><黑屏1>:
 ()<Speaker>安洁</Speaker>||<边框>2</边框><黑屏2><BIN>8</BIN>:在格里芬基地，你是LAMG。

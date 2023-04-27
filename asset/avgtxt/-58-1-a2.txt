@@ -1,8 +1,8 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<黑屏2><BIN>650</BIN><common_effect>%%code=AVG_xiaxue%%</common_effect>:……+别斯兰第一中学
-()<Speaker></Speaker>||:又下雪了。+呼出的气息化成一阵阵白色烟雾。
+()<Speaker></Speaker>||<BGM>BGM_23S_Winter_Night</BGM>:又下雪了。+呼出的气息化成一阵阵白色烟雾。
 ()||<黑点1><关闭蒙版>:
-()<Speaker></Speaker>||<BGM>BGM_Room</BGM><SE1>RunStep</SE1><黑点2><BIN>654</BIN><SE1>AVG_20Winter_Door_Open</SE1>:西尼娅一阵小跑推开了教室的门。她一贯选择早到十分钟，这是身为班长的自觉。+然而，今天的教室空荡荡的，西尼娅只能听见自己的呼吸声。
+()<Speaker></Speaker>||<SE1>RunStep</SE1><黑点2><BIN>654</BIN><SE1>AVG_20Winter_Door_Open</SE1>:西尼娅一阵小跑推开了教室的门。她一贯选择早到十分钟，这是身为班长的自觉。+然而，今天的教室空荡荡的，西尼娅只能听见自己的呼吸声。
 NPC-Sinia(0)<Speaker>西尼亚</Speaker><Position>0,-58</Position>||:……+看来大家都决定好了。
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:她拿出了通讯。
 NPC-Sinia(0)<Speaker>西尼亚</Speaker><Position>0,-58</Position>||:<color=#00CCFF>我已就位，目标尚未出现。</color>
@@ -67,7 +67,7 @@ NPC-Laplace(0)<Speaker>玛莎</Speaker>||<SE1>AVG_20Winter_Book</SE1>:物质与�
 ()<Speaker></Speaker>||:……
 NPC-Sinia(0)<Speaker>西尼亚</Speaker><Position>0,-58</Position>||:到底什么时候……
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><SE1>Explode</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=10</controll_shake>:轰——！！！+从走廊的方向传来了一声巨响。
-()<Speaker></Speaker>||<BGM>10254</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:呯！+教室的大门被人一脚踹开。
+()<Speaker></Speaker>||<BGM>Campaion-58-3</BGM><震屏3><SE1>AVG_Door_Hit</SE1>:呯！+教室的大门被人一脚踹开。
 NPC-Laplace(0)<Speaker>玛莎</Speaker>||:……
 ()<Speaker></Speaker>||<SE1>AVG_Rifle</SE1><震屏3>:呯——
 ()<Speaker></Speaker>||<SE1>AVG_Bullte_Ricochet</SE1>:一发子弹打在讲台上，止住了玛莎准备伸入抽屉的手。+闯入教室的，是一名全副武装，不过十三四岁的模样的少年。
@@ -170,7 +170,7 @@ NPC-Ange(37)<Speaker>安娜</Speaker><Position>0,-50</Position>||:这是他们�
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=4</controll_shake><SE1>RunStep</SE1>:眼角发红，她擦了擦渗出的眼泪，追着玛莎的脚步跟了出去。
 ()<Speaker></Speaker>||:……
 ()||<黑点1>:
-()<Speaker></Speaker>||<BGM>GF_EV9_Intermission</BGM><黑点2><BIN>547</BIN><common_effect>%%code=AVG_xiaxue%%</common_effect>:教学楼前，一队全副武装的警卫团成员守在门口，神色严肃，大有连蚊子也不打算放过的气势。
+()<Speaker></Speaker>||<BGM>11335</BGM><黑点2><BIN>650</BIN><common_effect>%%code=AVG_xiaxue%%</common_effect>:教学楼前，一队全副武装的警卫团成员守在门口，神色严肃，大有连蚊子也不打算放过的气势。
 ()<Speaker></Speaker>||<SE1>AVG_Broken_Glass</SE1>:啪——
 ()<Speaker></Speaker>||<SE1>AVG_Team_Running</SE1>:忽然间，一声从头顶传来的玻璃破碎的声音吸引了他们的注意，全神贯注的他们立刻摆好姿态，做出警戒姿势，并迅速拉开了阵型。
 ()<Speaker></Speaker>||<SE1>AVG_Pause</SE1><controll_shake>%%type_id=2%%duration=3%%delay=0.1%%range=8</controll_shake>:咚！+一具中年男子的尸体从高空坠落，重重地砸落在地上。+双目圆瞪的模样，依稀可以辨认出是学校的研究员，来自美国的梅特森•拜伦教授。+他遍体鳞伤，可以看出死前经历了残酷的折磨。+确认并非敌袭之后，负责守卫的警卫团成员们才放下警惕，对着楼上一顿喝骂。

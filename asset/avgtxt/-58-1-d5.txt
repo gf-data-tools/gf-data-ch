@@ -7,7 +7,7 @@ AK12(3)<Position>0,50</Position><Speaker>AK12</Speaker>||:安洁……
 NPC-Ange(19)<Speaker>安洁</Speaker>||:……按原计划行动，先离开这。+默莉朵和格雷，她们的账我们一起来算。
 ()||:安洁终于睁开眼，缓缓地开口。
 NPC-Ange(19)<Speaker>安洁</Speaker>||:这时候乱了阵脚，才是白费了指挥官的牺牲。
-AK12(0)<Position>0,50</Position><Speaker>AK12</Speaker>||:……明白了。
+AK12(3)<Position>0,50</Position><Speaker>AK12</Speaker>||:……明白了。
 ()<Speaker></Speaker>||<SE1>AVG_footsteps_woodfloor</SE1>:安洁活动了一下筋骨，带上忤逆走至洋房门口。
 NPC-Ange(19)<Speaker>安洁</Speaker>||<SE1>Stop_AVG_loop</SE1>:联络Q和16、94。+我们进行下一步计划。
 ()<Speaker></Speaker>||:安洁的手正触摸到大门把手。
@@ -28,7 +28,7 @@ NPC-Light(1)<Speaker>？？？</Speaker>||:B队？
 ()<Speaker>斯塔西特工</Speaker>||:<color=#00CCFF>监视中，未发现目标脱逃迹象。</color>
 ()||<SE1>AVG_footsteps_cave</SE1>:少年点了点头，抬起手中的榴弹发射器，在下属的掩护下踏着碎玻璃和木屑，进入了建筑。
 ()||<黑屏1><SE1>Stop_AVG_loop</SE1>:
-NPC-Light(0)<Speaker>？？？</Speaker>||<黑屏2><BIN>240</BIN>:……
+NPC-Light(0)<Speaker>？？？</Speaker>||<黑屏2><BIN>240</BIN><Night>:……
 ()||:几乎所有的掩体都已经被打碎，眼前的大厅没有一处完整，足够留给人藏身的位置更是少之又少……+少年举着武器，眯着眼，对准了横倒在楼梯旁的书架。+其他人也心领神会，从各个方向开始包抄，逐渐缩小了包围圈。
 NPC-Light(0)<Speaker>？？？</Speaker>||:……
 ()||:在接近到一个极限距离之后，少年挥手，制止了队友进一步行动。+他依然举着武器，但松开一只手，从腰间取下一枚手雷，用牙齿咬开安全栓之后，抬手丢到了书架背后。
@@ -55,14 +55,15 @@ NPC-Light(1)<Speaker>？？？</Speaker>||:——继续压制！让她空出手�
 AK12(3)<Position>0,50</Position><Speaker>AK12</Speaker>||:安洁！
 ()||:另一侧，被集中火力压制的AK12发觉安洁的危机，咬牙一拳砸入地面，抬手掀起一块木板，掷向了其中一人。
 AK12(3)<Position>0,50</Position><Speaker>AK12</Speaker>||<SE1>AVG_Door_Hit</SE1>:这粗鲁的作战方式，真是跟某个人一模一样——+15，你该上场了！
-()||<SE1>AVG_lifttable</SE1>:嘭！+浑身漆黑的AK15撞破了墙，直接从身后一脚将挡路的特工踢飞出去。
+()||:……
+AK15(1)<Speaker></Speaker>||<黑屏2><SE1>AVG_lifttable</SE1><震屏3>:嘭！+浑身漆黑的AK15撞破了墙，直接从身后一脚将挡路的特工踢飞出去。
 ()||<SE1>AVG_Broken_Glass</SE1>:注意力还放在AK12身上的特工浑然不觉，整个人就直接飞出了窗外。
 ()||:这两件事一下中断了特工们火力压制的节奏，脱离战斗的AK12拖着伤痕累累的身体，径直冲向人群，毫不迟疑地扭断了他的脖子。
 ()||:刚才还占据优势的斯塔西，仅仅用了5、6秒，就被清扫一空。+但就是这5、6秒……
 AK12(3)<Position>0,50</Position><Shake>0.1</Shake><Speaker>AK12</Speaker>||:……！
 NPC-Ange(22)<Speaker>安洁</Speaker>||:咳……
 NPC-Light(1)<Speaker>？？？</Speaker>||:呼……呼……
-()||:受伤的安洁被击倒在地，而获胜的一方站立着，正用一把手枪指着她的脑袋。
+()||<SE1>Select</SE1>:受伤的安洁被击倒在地，而获胜的一方站立着，正用一把手枪指着她的脑袋。
 NPC-Ange(22)<Speaker>安洁</Speaker>||:……K就是这么安排你来负责我在柏林的需求？+特工U。
 NPC-Light(1)<Speaker>特工U</Speaker>||:失礼了……我的确还没有自我介绍。+如您所见，我是一位斯塔西特工。
 NPC-Ange(22)<Speaker>安洁</Speaker>||:……你可以等我死了以后再介绍自己。
@@ -101,7 +102,7 @@ RPK16(0)<Speaker>？？？</Speaker>||:对吧？我也一直这么觉得呢。
 ()<Speaker>Q</Speaker>||:——！？
 ()||<SE1>AVG_pistol_finalshot_n</SE1><BGM>BGM_Empty</BGM>:呯！
 ()||<黑屏1>:……
-()||<黑屏2><BIN>240</BIN>:……
+()||<黑屏2><BIN>240</BIN><Night>:……
 ()||<BGM>GF_21summer_avg_Demon</BGM>:在解决完剩余的斯塔西特工后，安洁突然意识到一个被她忽略了很久的问题。
 NPC-Ange(19)<Speaker>安洁</Speaker>||:……RPK16跟AN94呢？+过了这么久，她们一个联络都没有。
 AK12(3)<Position>0,50</Position><Speaker>AK12</Speaker>||:……！
