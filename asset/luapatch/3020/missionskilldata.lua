@@ -52,6 +52,18 @@ local CheckTeamMoveClear = function(self)
 	self:CheckTeamMoveClear();
 end
 
+local ShowEffect = function(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound)
+	if effectInfo.cameraFollowEffect then
+		local delay = lastdelayTime+effectInfo.forceDelay+effectInfo.forceLastTime;
+		print("插入队列延时"..tostring(delay));
+		CS.DeploymentController.Instance:InsertSomePlayPerformances(function()
+			CS.DeploymentController.Instance:DelayAddAndPlayPerformance(delay);
+		end)
+	end
+	effectObj = CS.SpecialSpotAction.ShowEffect(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound);
+	return effectObj;
+end
 util.hotfix_ex(CS.SpecialSpotAction,'PlayEffect',PlayEffect)
 util.hotfix_ex(CS.SpecialSpotAction,'RefreshUI',RefreshUI)
+util.hotfix_ex(CS.SpecialSpotAction,'ShowEffect',ShowEffect)
 util.hotfix_ex(CS.BuffAction,'CheckTeamMoveClear',CheckTeamMoveClear)
