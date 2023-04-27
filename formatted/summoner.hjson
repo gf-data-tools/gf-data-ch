@@ -13596,7 +13596,7 @@
     level: 1
     normal_attack: 900107
     passive_skill: "100505,803908,803910"
-    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255,8799,8800"
     scale: "1,1,1"
     start_offset: "0,0,0"
     camp: 2
@@ -16758,6 +16758,81 @@
     camp: 1
     is_stay: 1
     phase_duration: 99999
+  }
+  {
+    id: 1676
+    name: 机械幼蛛
+    code: MechanicalSpiderS
+    hp: 1000002225
+    pow: 1000002226
+    hit: 1000002227
+    dodge: 1000002229
+    range: 2
+    def: 9999
+    speed: 1000002230
+    number: 5
+    angle: 180
+    rate: 1000002228
+    level: 1
+    normal_attack: 120905
+    passive_skill: "121105,900673"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-1,0,1.5"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
+  }
+  {
+    id: 1677
+    name: 无人机
+    code: EngineerUAV
+    hp: 1000002235
+    pow: 1000002226
+    hit: 1000002236
+    dodge: 1000002229
+    range: 5
+    def: 9999
+    speed: 1000002230
+    number: 5
+    angle: 180
+    rate: 1000002237
+    level: 1
+    normal_attack: 121105
+    passive_skill: "121105,900673"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "2,2,2"
+    start_offset: "0,0,0"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
+  }
+  {
+    id: 1678
+    name: 机械幼蛛
+    code: MechanicalSpiderS
+    hp: 1000002225
+    pow: 1000002226
+    hit: 1000002227
+    dodge: 1000002229
+    range: 2
+    def: 9999
+    speed: 1000002230
+    number: 5
+    angle: 180
+    rate: 1000002228
+    level: 1
+    normal_attack: 120905
+    passive_skill: "121105,900673"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,-1.5"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
   }
   {
     id: 1841
@@ -20083,7 +20158,7 @@
     rate: 30
     level: 1
     normal_attack: 900107
-    passive_skill: "750420,750415,750469,750470"
+    passive_skill: "750420,750415,750469,750470,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
     start_offset: "-3,0,0"
@@ -20105,7 +20180,7 @@
     rate: 30
     level: 1
     normal_attack: 900107
-    passive_skill: "750420,750416,750469,750470"
+    passive_skill: "750420,750416,750469,750470,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
     start_offset: "-3,0,0"
@@ -20127,7 +20202,7 @@
     rate: 30
     level: 1
     normal_attack: 900107
-    passive_skill: "750420,750417,750469,750470"
+    passive_skill: "750420,750417,750469,750470,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
     start_offset: "-3,0,0"
@@ -20149,7 +20224,7 @@
     rate: 30
     level: 1
     normal_attack: 900107
-    passive_skill: "750420,750418,750469,750470"
+    passive_skill: "750420,750418,750469,750470,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
     start_offset: "-3,0,0"
@@ -20171,7 +20246,7 @@
     rate: 30
     level: 1
     normal_attack: 900107
-    passive_skill: "750420,750419,750469,750470"
+    passive_skill: "750420,750419,750469,750470,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
     start_offset: "-3,0,0"
@@ -20720,7 +20795,7 @@
     rate: 1000004665
     level: 100
     normal_attack: 900107
-    passive_skill: "750487,750514,750515"
+    passive_skill: "750487,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20750,7 +20825,7 @@
     rate: 1000004666
     level: 100
     normal_attack: 900107
-    passive_skill: "750488,750514,750515"
+    passive_skill: "750488,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20780,7 +20855,7 @@
     rate: 1000004667
     level: 100
     normal_attack: 900107
-    passive_skill: "750489,750514,750515"
+    passive_skill: "750489,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20810,7 +20885,7 @@
     rate: 1000004668
     level: 100
     normal_attack: 900107
-    passive_skill: "750490,750514,750515"
+    passive_skill: "750490,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20840,7 +20915,7 @@
     rate: 1000004669
     level: 100
     normal_attack: 900107
-    passive_skill: "750491,750514,750515"
+    passive_skill: "750491,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20870,7 +20945,7 @@
     rate: 1000004670
     level: 100
     normal_attack: 900107
-    passive_skill: "750492,750514,750515"
+    passive_skill: "750492,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20900,7 +20975,7 @@
     rate: 1000004671
     level: 100
     normal_attack: 900107
-    passive_skill: "750493,750514,750515"
+    passive_skill: "750493,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20930,7 +21005,7 @@
     rate: 1000004672
     level: 100
     normal_attack: 900107
-    passive_skill: "750494,750514,750515"
+    passive_skill: "750494,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20960,7 +21035,7 @@
     rate: 1000004673
     level: 100
     normal_attack: 900107
-    passive_skill: "750495,750514,750515"
+    passive_skill: "750495,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -20990,7 +21065,7 @@
     rate: 1000004674
     level: 100
     normal_attack: 900107
-    passive_skill: "750496,750514,750515"
+    passive_skill: "750496,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21020,7 +21095,7 @@
     rate: 1000004665
     level: 100
     normal_attack: 750497
-    passive_skill: "750487,750514,750515"
+    passive_skill: "750487,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21050,7 +21125,7 @@
     rate: 1000004666
     level: 100
     normal_attack: 750498
-    passive_skill: "750488,750514,750515"
+    passive_skill: "750488,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21080,7 +21155,7 @@
     rate: 1000004667
     level: 100
     normal_attack: 750499
-    passive_skill: "750489,750514,750515"
+    passive_skill: "750489,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21110,7 +21185,7 @@
     rate: 1000004668
     level: 100
     normal_attack: 750500
-    passive_skill: "750490,750514,750515"
+    passive_skill: "750490,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21140,7 +21215,7 @@
     rate: 1000004669
     level: 100
     normal_attack: 750501
-    passive_skill: "750491,750514,750515"
+    passive_skill: "750491,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21170,7 +21245,7 @@
     rate: 1000004670
     level: 100
     normal_attack: 750502
-    passive_skill: "750492,750514,750515"
+    passive_skill: "750492,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21200,7 +21275,7 @@
     rate: 1000004671
     level: 100
     normal_attack: 750503
-    passive_skill: "750493,750514,750515"
+    passive_skill: "750493,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21230,7 +21305,7 @@
     rate: 1000004672
     level: 100
     normal_attack: 750504
-    passive_skill: "750494,750514,750515"
+    passive_skill: "750494,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21260,7 +21335,7 @@
     rate: 1000004673
     level: 100
     normal_attack: 750505
-    passive_skill: "750495,750514,750515"
+    passive_skill: "750495,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -21290,7 +21365,7 @@
     rate: 1000004674
     level: 100
     normal_attack: 750506
-    passive_skill: "750496,750514,750515"
+    passive_skill: "750496,750514,750515,900673"
     unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102,714,7163"
     unable_buff_type: "101,102,103,104,105,106,108,111,112"
     scale: "1,1,1"
@@ -23128,6 +23203,162 @@
     is_stay: 1
     is_hp_showed: 1
     is_damage_showed: 1
+  }
+  {
+    id: 4295
+    name: 支援黑涅托工具人
+    code: empty
+    hp: 99999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "759116,759117,759118,759119"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-33,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4296
+    name: 涅托 巡卫
+    code: Nyto_Black_SMG
+    hp: 2200
+    pow: 18
+    hit: 26
+    dodge: 90
+    range: 4
+    def: 1500
+    speed: 35
+    number: 5
+    angle: 180
+    rate: 60
+    level: 30100
+    normal_attack: 407003
+    passive_skill: "407001,407002,407004,407005,407302"
+    unable_buff_id: "133,135,136,137,3918,8034"
+    unable_buff_type: "221"
+    scale: "1,1,1"
+    start_offset: "25,0,0"
+    camp: 2
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
+  }
+  {
+    id: 4297
+    name: 涅托 怒锤
+    code: Nyto_Black_Hammer
+    hp: 2600
+    pow: 22
+    hit: 18
+    dodge: 5
+    range: 3
+    def: 1500
+    speed: 35
+    number: 5
+    angle: 180
+    armor: 30
+    rate: 24
+    level: 30100
+    normal_attack: 407101
+    passive_skill: "407102,407302"
+    unable_buff_id: "133,135,136,137,3918,8034"
+    unable_buff_type: "221"
+    scale: "1,1,1"
+    start_offset: "25,0,0"
+    camp: 2
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
+  }
+  {
+    id: 4298
+    name: 涅托 鹰眼
+    code: Nyto_Black_RF
+    hp: 720
+    pow: 52
+    hit: 90
+    dodge: 18
+    range: 9
+    def: 1500
+    speed: 25
+    number: 5
+    angle: 180
+    armor_piercing: 35
+    rate: 26
+    level: 30100
+    normal_attack: 407201
+    passive_skill: "407202,407203,407204,407205,119020,407302"
+    unable_buff_id: "133,135,136,137,3918,8034"
+    unable_buff_type: "221"
+    scale: "1,1,1"
+    start_offset: "25,0,0"
+    camp: 2
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
+  }
+  {
+    id: 4299
+    name: 支援射击士工具人
+    code: empty
+    hp: 99999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "759126"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-33,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4300
+    name: 射击士
+    code: Strelet
+    hp: 950
+    pow: 8
+    hit: 15
+    dodge: 35
+    range: 5
+    def: 500
+    speed: 30
+    number: 5
+    angle: 180
+    rate: 40
+    level: 100
+    normal_attack: 300313
+    passive_skill: "200304"
+    scale: "1,1,1"
+    start_offset: "25,0,0"
+    camp: 2
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    is_damage_source: 1
   }
   {
     id: 4841

@@ -28563,6 +28563,154 @@
     bonus_id: 3104
   }
   {
+    id: 20092
+    name: 冬夜造访
+    classes: 19
+    type: 201
+    space: "7,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 愚蠢的人类啊，这里是通向未来的通道，此中诞生之物，将会彻底改变你们那个糟糕透顶的世界。在启动之前，先把放在第三层上的烟灰缸给我拿走。
+    code: 2023WinterActivity_Library_deco
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20093
+    name: 百万玫瑰
+    classes: 19
+    type: 201
+    space: "5,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 一首优美的曲子，会成为生命的装饰，而非生存的条件，它寄托了人们对于美好的向往，而那些不凡的品格正是诞生于这些向往之中……越是经久不衰，越是历久弥香。
+    code: 2023WinterActivity_cdplayer_deco
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20094
+    name: 灰烬穹顶
+    classes: 19
+    type: 101
+    space: "10,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 来来往往的人群从不会留神他们走过的地面，但地面却记得那些自己曾承载的种种回忆。一片土地的价值，不在于它拥有什么，而在于它曾见证了什么……悲伤，离别，还有超多的灰尘。
+    code: 2023WinterActivity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20095
+    name: 自由枷锁
+    classes: 19
+    type: 201
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 过去它们象征束缚与控制，当它失去原本的功能，变成纯粹的模型后，便不再有人惧怕它们，因此反倒成为了自由的象征——而且，它的设计确实很好看。
+    code: 2023WinterActivity_Gospelaxis_deco
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "3,3,3"
+  }
+  {
+    id: 20096
+    name: 圣杯号
+    classes: 19
+    type: 302
+    space: "5,8,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “圣杯号”遗迹署工作服，这是我们投射到科研的服装，一次次挑战极限之余，工作服的设计，和在它影响下的设计潮流，也在一定程度上反映着我们对遗迹生活与时装的无限想象。
+    code: 2023WinterActivity_uniform_deco
+    texture_type: "1"
+    offset: "0.000,0.365,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20097
+    name: 往昔之影
+    classes: 19
+    type: 302
+    space: "4,9,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 人们之所以发明相机，就是为了将某一刻珍贵的记忆定格在最美好的瞬间，而被定格的记忆最为珍贵的理由，就是往昔不可追忆。
+    code: 2023WinterActivity_Laplace,2023WinterActivity_Laplace_deco_A,2023WinterActivity_Laplace_deco_B
+    texture_type: "1,2,2"
+    sorting: "0,10,20"
+    offset: "0.000,0.198,0.000|0.052,-0.038,0.000|0.000,-1.092,0.000"
+    rotate: "3,3,3"
+    interact_point: "106"
+    interact_point_offset: *-0.399,4.265,-0.523
+  }
+  {
+    id: 20098
+    name: 群狼环伺
+    classes: 19
+    type: 201
+    space: "9,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 狼的天性与人相似，作为群居生物，它们往往懂得各司其职，并彼此爱护，任何一匹狼都无法脱离它的友伴独自生存……除非它们意识到自己成为了狼群的拖累。
+    code: 2023WinterActivity_Defy,2023WinterActivity_Defy_deco
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0.000,0.000,0.000|0.177,0.031,0.010"
+    rotate: "2,2"
+  }
+  {
+    id: 20099
+    name: 天际晨晖
+    classes: 19
+    type: 301
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 希望是个危险的东西，它能让人发疯，在这破败的土地上，它没有任何用处，一次次地怀抱希望，只会换来更多的伤痕……即便如此，希望也不会就此消失，就像不论世界有多糟糕，太阳都照常升起。
+    code: 2023WinterActivity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20100
+    name: 无名之辈
+    classes: 19
+    type: 201
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 她不需要英雄的伪名，亦不渴求他人为她树立丰碑。在这张无人问津的面孔之下，燃烧的是一位无名之辈炽热的灵魂……如果让本人看见，或许会被砸成碎片。
+    code: 2023WinterActivity_Ange_deco
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "64"
+    interact_point_offset: *2.771,0.000,0.000
+    touch_area: "3,3,3"
+  }
+  {
+    id: 20101
+    name: 深湖领航员
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“慢休克”活动中的卓越战绩，“比起征服人迹罕至的冰山，探索内心的神秘湖底更需要卓绝的勇气。”
+    code: 2023WinterActivity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -42388,6 +42536,21 @@
     decompose_gift: 100003
     description: C-93的海报。
     code: poster_BattlePass_C93
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330007
+    name: furniture-10330007
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20330007
+    code: poster_BattlePass_MK3A1
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

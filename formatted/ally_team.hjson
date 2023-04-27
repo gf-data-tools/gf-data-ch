@@ -14349,6 +14349,989 @@
     no_battle_damage: -1
   }
   {
+    id: 580301
+    name: 安娜
+    guns: "580301"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 580302
+    name: 安娜
+    guns: "580302"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 580303
+    name: 玛莎
+    guns: "580303"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "3"
+    transform_number: 3601435-1
+    transform_result: 1:9117-1
+    no_battle_damage: 100
+  }
+  {
+    id: 580305
+    name: 艾莉安娜
+    guns: "580305"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 580306
+    name: 艾莉安娜
+    guns: "580306"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 580307
+    name: 艾莉安娜
+    guns: "580307"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 580901
+    name: 安娜
+    guns: "580901"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 580902
+    name: 苏联主力部队
+    guns: "58090201,58090202,58090203,58090204,58090205"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 581101
+    name: 安娜
+    guns: "581101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 581103
+    name: 拉姆赞
+    guns: "581103"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 581501
+    name: 安洁莉娅
+    guns: "581501,581502,581503"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 581505
+    name: AR小队
+    guns: "1"
+    enemy_team_id: 581505
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583401
+    name: BGM-71
+    guns: "1109"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:10,10;0
+    ai_content: 0;0;0
+    squad: 1015
+    no_battle_damage: 100
+  }
+  {
+    id: 583402
+    name: 破坏者
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:10,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    sangvis: 583401-8,583403-18,583404-19,583405-17,583402-13,583406-14,583407-12
+  }
+  {
+    id: 583600
+    name: 丹德莱
+    guns: "583600"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583601
+    name: 默莉朵
+    guns: "1"
+    enemy_team_id: 583601
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583602
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583602
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583602"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583603
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583603
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583603"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583604
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583604
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583604"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583605
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583605
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583605"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583606
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583606
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583606"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583607
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583607
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583607"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583608
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583608
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583608"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583609
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583609
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583609"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583610
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583610
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583610"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583611
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583611
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583611"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583612
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583612
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583612"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583613
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583613
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583613"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583614
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583614
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583614"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583615
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583615
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583615"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 583616
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 583616
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "583616"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 584701
+    name: 安娜
+    guns: "584701"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 584702
+    name: 苏联主力部队
+    guns: "58470201,58470202,58470203,58470204,58470205"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 584801
+    name: 安娜
+    guns: "584801"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 584802
+    name: 拉姆赞
+    guns: "584802"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 584803
+    name: 苏联主力部队
+    guns: "58480301,58480302,58480303,58480304,58480305"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 584901
+    name: 安洁莉娅
+    guns: "584901"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "584901,584902,584903,584904"
+    betray_result: "1,1,1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 584901|584902,584901|584902|584904,584901|584903,584901|584902|584904
+  }
+  {
+    id: 584902
+    name: AK-12
+    guns: "584905"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "584901,584902"
+    transform_result: "2,2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 584903
+    name: AN-94
+    guns: "584906"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "584903,584904"
+    transform_result: "2,2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 584905
+    name: AR小队
+    guns: "1"
+    enemy_team_id: 584905
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585501
+    name: BGM-71
+    guns: "1109"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:10,10;0
+    ai_content: 0;0;0
+    squad: 1015
+    no_battle_damage: 100
+  }
+  {
+    id: 585502
+    name: 破坏者
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:10,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    sangvis: 585501-8,585503-18,585504-19,585505-17,585502-12,585506-13,585507-14
+  }
+  {
+    id: 585601
+    name: 默莉朵
+    guns: "1"
+    enemy_team_id: 585601
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585602
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585602
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585602"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585603
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585603
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585603"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585604
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585604
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585604"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585605
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585605
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585605"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585606
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585606
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585606"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585607
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585607
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585607"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585608
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585608
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585608"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585609
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585609
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585609"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585610
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585610
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585610"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585611
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585611
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585611"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585612
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585612
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585612"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585613
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585613
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585613"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585614
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585614
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585614"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585615
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585615
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585615"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 585616
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 585616
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "585616"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587001
+    name: BGM-71
+    guns: "1109"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:10,10;0
+    ai_content: 0;0;0
+    squad: 1015
+    no_battle_damage: 100
+  }
+  {
+    id: 587002
+    name: 破坏者
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:10,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    sangvis: 587001-8,587002-13,587003-18,587004-19,587005-17,587006-12,587007-14
+  }
+  {
+    id: 587101
+    name: 默莉朵
+    guns: "1"
+    enemy_team_id: 587101
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587102
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587102
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587102"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587103
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587103
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587103"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587104
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587104
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587104"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587105
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587105
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587105"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587106
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587106
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587106"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587107
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587107
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587107"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587108
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587108
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587108"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587109
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587109
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587109"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587110
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587110
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587110"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587111
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587111
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587111"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587112
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587112
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587112"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587113
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587113
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587113"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587114
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587114
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587114"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587115
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587115
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587115"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587116
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587116
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587116"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587117
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587117
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587117"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587118
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587118
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587118"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587119
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587119
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587119"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587120
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587120
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587120"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 587121
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 587121
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "9"
+    transform_number: "587121"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 590001
     name: 格里芬
     guns: "590001,590002,590003,590004,590005"
@@ -18247,6 +19230,1017 @@
     no_battle_damage: -1
   }
   {
+    id: 6580001
+    name: 后勤小队
+    guns: "6540101,6540102,6540103,6540104,6540105"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: 99
+  }
+  {
+    id: 6580002
+    name: 后勤小队
+    guns: "6540201,6540202,6540203,6540204,6540205"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    no_battle_damage: 99
+  }
+  {
+    id: 6580003
+    name: 后勤小队
+    guns: "6540301,6540302,6540303,6540304,6540305"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: 99
+  }
+  {
+    id: 6580101
+    name: 安洁莉娅
+    guns: "6580101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "6580106,6580107,6580108,6580109,6580110"
+    betray_result: "1,1,1,1,1"
+    no_battle_damage: -1
+    betray_result_guns: 6580105|6580106,6580107|6580108|6580109,6580113|6580114|6580115|6580116,6580110|6580111|6580112,6580113|6580114|6580115|6580116
+  }
+  {
+    id: 6580102
+    name: AN94
+    guns: "6580102"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580106,6580116"
+    transform_result: "2,2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580103
+    name: AK12
+    guns: "6580104"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580109,6580110"
+    transform_result: "2,2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580104
+    name: AK15
+    guns: "6580103"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580107,6580108"
+    transform_result: "2,2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580105
+    name: 安洁莉娅
+    guns: "6580105,6580106"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580107,6580109,6580114"
+    transform_result: "2,2,2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580106
+    name: 安洁莉娅
+    guns: "6580107,6580108,6580109"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580110"
+    transform_result: "2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580107
+    name: 安洁莉娅
+    guns: "6580110,6580111,6580112"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580108"
+    transform_result: "2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580108
+    name: 安洁莉娅
+    guns: "6580113,6580114,6580115,6580116"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6580109
+    name: RPK-16
+    guns: "1"
+    enemy_team_id: 6580101
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "68232,68231,68230;0;68232,68231,68230"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580110
+    name: RPK-16
+    guns: "1"
+    enemy_team_id: 6581101
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "68220,68206,68197,68196,68195;0;68220,68206,68197,68196,68195"
+    betray_condition: "6"
+    betray_number: "6580179"
+    betray_result: "2"
+    betray_result_enemy: "6581101"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580111
+    name: RPK-16
+    guns: "1"
+    enemy_team_id: 6581101
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "68220,68205,68207,68209,68210;0;68220,68205,68207,68209,68210"
+    betray_condition: "6"
+    betray_number: "6580179"
+    betray_result: "2"
+    betray_result_enemy: "6581101"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580112
+    name: 忤逆小队
+    guns: "6580117,6580118"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580114"
+    transform_result: "2"
+    no_battle_damage: -1
+  }
+  {
+    id: 6580113
+    name: 特工
+    guns: "6580119"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "6580125"
+    transform_result: 1:9077-3
+    no_battle_damage: -1
+  }
+  {
+    id: 6580114
+    name: 安洁莉娅
+    guns: "6580105,6580106"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6580115
+    name: 忤逆小队
+    guns: "6580117,6580118"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6580116
+    name: 格雷女士
+    guns: "1"
+    enemy_team_id: 6580201
+    initial_type: 2
+    ai: 102;2010;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6580117
+    name: 格雷女士
+    guns: "1"
+    enemy_team_id: 6581201
+    initial_type: 2
+    ai: 102;2010;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6580118
+    name: 安洁莉娅
+    guns: "6580120"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6580119
+    name: RO635
+    guns: "6580121"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6580120
+    name: 涅托
+    guns: "1"
+    enemy_team_id: 6580301
+    initial_type: 2
+    ai: 106;2010;106
+    ai_content: 6580118:15;0;6580118:15
+    betray_condition: "6"
+    betray_number: "6580187"
+    betray_result: "2"
+    betray_result_enemy: "6580302"
+    is_special_ai: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6580121
+    name: 涅托
+    guns: "1"
+    enemy_team_id: 6581301
+    initial_type: 2
+    ai: 106;2010;106
+    ai_content: 6580118:15;0;6580118:15
+    betray_condition: "6"
+    betray_number: "6580187"
+    betray_result: "2"
+    betray_result_enemy: "6581302"
+    is_special_ai: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6580122
+    name: 安洁莉娅
+    guns: "6580101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "6580116,6580114"
+    betray_result: "1,1"
+    no_battle_damage: -1
+    betray_result_guns: 6580105|6580106,6580113|6580114|6580115|6580116
+  }
+  {
+    id: 6589101
+    guns: "1"
+    enemy_team_id: 6589101
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589105
+    guns: "1"
+    enemy_team_id: 6589105
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589108
+    guns: "1"
+    enemy_team_id: 6589108
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589110
+    guns: "1"
+    enemy_team_id: 6589110
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589121
+    guns: "1"
+    enemy_team_id: 6589121
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589122
+    guns: "1"
+    enemy_team_id: 6589122
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589123
+    guns: "1"
+    enemy_team_id: 6589123
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589124
+    guns: "1"
+    enemy_team_id: 6589124
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589125
+    guns: "1"
+    enemy_team_id: 6589125
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589126
+    guns: "1"
+    enemy_team_id: 6589126
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589127
+    guns: "1"
+    enemy_team_id: 6589127
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589128
+    guns: "1"
+    enemy_team_id: 6589128
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589129
+    guns: "1"
+    enemy_team_id: 6589129
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589130
+    guns: "1"
+    enemy_team_id: 6589130
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589131
+    guns: "1"
+    enemy_team_id: 6589131
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589132
+    guns: "1"
+    enemy_team_id: 6589132
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589133
+    guns: "1"
+    enemy_team_id: 6589133
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589134
+    guns: "1"
+    enemy_team_id: 6589134
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589135
+    guns: "1"
+    enemy_team_id: 6589135
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589136
+    guns: "1"
+    enemy_team_id: 6589136
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589137
+    guns: "1"
+    enemy_team_id: 6589137
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589138
+    guns: "1"
+    enemy_team_id: 6589138
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589139
+    guns: "1"
+    enemy_team_id: 6589139
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589140
+    guns: "1"
+    enemy_team_id: 6589140
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589141
+    guns: "1"
+    enemy_team_id: 6589141
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589142
+    guns: "1"
+    enemy_team_id: 6589142
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589143
+    guns: "1"
+    enemy_team_id: 6589143
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589144
+    guns: "1"
+    enemy_team_id: 6589144
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589145
+    guns: "1"
+    enemy_team_id: 6589145
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589146
+    guns: "1"
+    enemy_team_id: 6589146
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589147
+    guns: "1"
+    enemy_team_id: 6589147
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589148
+    guns: "1"
+    enemy_team_id: 6589148
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589149
+    guns: "1"
+    enemy_team_id: 6589149
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589150
+    guns: "1"
+    enemy_team_id: 6589150
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589151
+    guns: "1"
+    enemy_team_id: 6589151
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589205
+    guns: "1"
+    enemy_team_id: 6589205
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589208
+    guns: "1"
+    enemy_team_id: 6589208
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589209
+    guns: "1"
+    enemy_team_id: 6589209
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589210
+    guns: "1"
+    enemy_team_id: 6589210
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589221
+    guns: "1"
+    enemy_team_id: 6589221
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589222
+    guns: "1"
+    enemy_team_id: 6589222
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589223
+    guns: "1"
+    enemy_team_id: 6589223
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589224
+    guns: "1"
+    enemy_team_id: 6589224
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589225
+    guns: "1"
+    enemy_team_id: 6589225
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589226
+    guns: "1"
+    enemy_team_id: 6589226
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589227
+    guns: "1"
+    enemy_team_id: 6589227
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589228
+    guns: "1"
+    enemy_team_id: 6589228
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589229
+    guns: "1"
+    enemy_team_id: 6589229
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589230
+    guns: "1"
+    enemy_team_id: 6589230
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589231
+    guns: "1"
+    enemy_team_id: 6589231
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589232
+    guns: "1"
+    enemy_team_id: 6589232
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589233
+    guns: "1"
+    enemy_team_id: 6589233
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589234
+    guns: "1"
+    enemy_team_id: 6589234
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589235
+    guns: "1"
+    enemy_team_id: 6589235
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589236
+    guns: "1"
+    enemy_team_id: 6589236
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589237
+    guns: "1"
+    enemy_team_id: 6589237
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589238
+    guns: "1"
+    enemy_team_id: 6589238
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589239
+    guns: "1"
+    enemy_team_id: 6589239
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589240
+    guns: "1"
+    enemy_team_id: 6589240
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589241
+    guns: "1"
+    enemy_team_id: 6589241
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589242
+    guns: "1"
+    enemy_team_id: 6589242
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589243
+    guns: "1"
+    enemy_team_id: 6589243
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589244
+    guns: "1"
+    enemy_team_id: 6589244
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589245
+    guns: "1"
+    enemy_team_id: 6589245
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589246
+    guns: "1"
+    enemy_team_id: 6589246
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589247
+    guns: "1"
+    enemy_team_id: 6589247
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589248
+    guns: "1"
+    enemy_team_id: 6589248
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589249
+    guns: "1"
+    enemy_team_id: 6589249
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589250
+    guns: "1"
+    enemy_team_id: 6589250
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 6589251
+    guns: "1"
+    enemy_team_id: 6589251
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 99;0;99
+    building: 10109
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 9120101
     name: 离线心智
     guns: "716"
@@ -19762,6 +21756,484 @@
     no_battle_damage: -1
   }
   {
+    id: 9583801
+    name: 忤逆
+    guns: "583801,583802"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9584001
+    name: 蒲公英
+    guns: "584001,584002,584003,584004"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "2"
+    betray_number: "95494"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+    betray_result_guns: 584001|584002|584003|584004
+  }
+  {
+    id: 9584002
+    name: 曙光
+    guns: "584005,584006,584007"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9584003
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9584002
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9584004
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9584003
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9584005
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9584004
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9584006
+    guns: "6580117,6580118"
+    enemy_team_id: 9584001
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    betray_condition: "2"
+    betray_number: "95494"
+    betray_result: "2"
+    betray_result_enemy: "9584001"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9584091
+    name: 纱那
+    guns: "6580117,6580118"
+    enemy_team_id: 9584008
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9584092
+    name: 尼梅兰
+    guns: "6580117,6580118"
+    enemy_team_id: 9584009
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9584201
+    name: 蒲公英
+    guns: "584201,584202,584203,584204"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9584202
+    name: 曙光
+    guns: "584205,584206,584207"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9584203
+    name: Fe56小队
+    guns: "6580117,6580118"
+    enemy_team_id: 1
+    ai: 103;0;103
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "1"
+    no_battle_damage: -1
+    betray_result_sangvis: 584201-8|584202-7|584203-9|584204-12|584205-14|584206-17|584207-19|584208-18|584209-13
+  }
+  {
+    id: 9584204
+    name: 默莉朵
+    guns: "6580117,6580118"
+    enemy_team_id: 9584201
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "95561,95568;0;95561,95568"
+    transform_condition: "3"
+    transform_number: 95568-2
+    no_battle_damage: -1
+  }
+  {
+    id: 9584205
+    name: 尼梅兰
+    guns: "6580117,6580118"
+    enemy_team_id: 9584202
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "95562,95567;0;95562,95567"
+    transform_condition: "3"
+    transform_number: 95567-2
+    no_battle_damage: -1
+  }
+  {
+    id: 9585701
+    name: 忤逆
+    guns: "585701,585702"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9585801
+    name: 蒲公英
+    guns: "585801,585802,585803,585804"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "2"
+    betray_number: "95735"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+    betray_result_guns: 585801|585802|585803|585804
+  }
+  {
+    id: 9585802
+    name: 曙光
+    guns: "585805,585806,585807"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9585803
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9585802
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9585804
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9585803
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9585805
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9585804
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9585806
+    guns: "6580117,6580118"
+    enemy_team_id: 9585801
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    betray_condition: "2"
+    betray_number: "95735"
+    betray_result: "2"
+    betray_result_enemy: "9585801"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9585901
+    name: 蒲公英
+    guns: "585901,585902,585903,585904"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9585902
+    name: 曙光
+    guns: "585905,585906,585907"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9585903
+    name: Fe56
+    guns: "6580117,6580118"
+    enemy_team_id: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "1"
+    no_battle_damage: -1
+    betray_result_sangvis: 587401-8|587302-7|587303-9|587304-12|587305-14|587306-17|587307-19|587308-18|587309-13
+  }
+  {
+    id: 9585904
+    name: 默莉朵
+    guns: "6580117,6580118"
+    enemy_team_id: 9585901
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "95789,95796;0;95789,95796"
+    transform_condition: "3"
+    transform_number: 95796-2
+    no_battle_damage: -1
+  }
+  {
+    id: 9585905
+    name: 尼梅兰
+    guns: "6580117,6580118"
+    enemy_team_id: 9585902
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "95790,95795;0;95790,95795"
+    transform_condition: "3"
+    transform_number: 95795-2
+    no_battle_damage: -1
+  }
+  {
+    id: 9587201
+    name: 忤逆
+    guns: "587201,587202"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9587208
+    name: ally_team-19587208
+    guns: "6580117,6580118"
+    enemy_team_id: 9587208
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9587301
+    name: 蒲公英
+    guns: "587301,587302,587303,587304"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "2"
+    betray_number: "95522"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+    betray_result_guns: 587301|587302|587303|587304
+  }
+  {
+    id: 9587302
+    name: 曙光
+    guns: "587305,587306,587307"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9587303
+    name: Fe56
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "2"
+    betray_number: "95522"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+    sangvis: 587301-8,587302-7,587303-9,587304-12,587305-14,587307-19
+    betray_result_sangvis: 587301-8|587302-7|587303-9|587304-12|587305-14|587306-17|587307-19|587308-18|587309-13
+  }
+  {
+    id: 9587304
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9587302
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 4;0;4
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9587305
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9587303
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9587306
+    name: 帕拉蒂斯
+    guns: "6580117,6580118"
+    enemy_team_id: 9587304
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 9587307
+    guns: "6580117,6580118"
+    enemy_team_id: 9587301
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    betray_condition: "2"
+    betray_number: "95522"
+    betray_result: "2"
+    betray_result_enemy: "9587301"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9587401
+    name: 蒲公英
+    guns: "587401,587402,587403,587404"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9587402
+    name: 曙光
+    guns: "587405,587406,587407"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2001:5,10;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 9587403
+    name: Fe56
+    guns: "6580117,6580118"
+    enemy_team_id: 1
+    ai: 103;0;103
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "1"
+    no_battle_damage: -1
+    betray_result_sangvis: 587401-8|587302-7|587303-9|587304-12|587305-14|587306-17|587307-19|587308-18|587309-13
+  }
+  {
+    id: 9587404
+    name: Fe56
+    guns: "6580117,6580118"
+    enemy_team_id: 1
+    ai: 103;0;103
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "1"
+    no_battle_damage: -1
+    betray_result_sangvis: 587301-8|587302-7|587303-9|587304-12|587305-14|587306-17|587307-19|587308-18|587309-13
+  }
+  {
+    id: 9587405
+    name: 默莉朵
+    guns: "6580117,6580118"
+    enemy_team_id: 9587401
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "95598,95596;0;95598,95596"
+    transform_condition: "3"
+    transform_number: 95596-2
+    no_battle_damage: -1
+  }
+  {
+    id: 9587406
+    name: 尼梅兰
+    guns: "6580117,6580118"
+    enemy_team_id: 9587402
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "95599,95595;0;95599,95595"
+    transform_condition: "3"
+    transform_number: 95595-2
+    no_battle_damage: -1
+  }
+  {
     id: 41030104
     name: 铁血势力
     guns: "1"
@@ -20696,6 +23168,39 @@
     transform_condition: "6"
     transform_number: "45010001"
     betray_result_enemy: "45010091"
+    no_battle_damage: -1
+  }
+  {
+    id: 58550301
+    name: 堡垒机器人
+    guns: "1"
+    enemy_team_id: 585503
+    initial_type: 2
+    ai: 103;0;103
+    ai_content: 0;0;0
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 58700201
+    name: 堡垒机器人
+    guns: "1"
+    enemy_team_id: 587002
+    initial_type: 2
+    ai: 103;0;103
+    ai_content: 0;0;0
+    building: 10109
+    no_battle_damage: -1
+  }
+  {
+    id: 58700401
+    name: 堡垒机器人
+    guns: "1"
+    enemy_team_id: 587004
+    initial_type: 2
+    ai: 103;0;103
+    ai_content: 0;0;0
+    building: 10109
     no_battle_damage: -1
   }
   {

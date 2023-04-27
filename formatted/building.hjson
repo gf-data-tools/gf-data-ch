@@ -955,6 +955,28 @@
     confront_des: 本次战役中无法破坏该设施
   }
   {
+    id: 10109
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;121005;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】特洛伊支援
+    code: Fortress
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "1,2"
+    performance_skill: 0;0;121006;0
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
     id: 70001
     defender: 350
     defender_upper: 350
@@ -21592,6 +21614,1145 @@
     missionskill_on_death: "1,575001,575002,0"
   }
   {
+    id: 580120
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "580121"
+    inherent_mission_skill: "580120"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 580301
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580301"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,1133501,580052,0"
+  }
+  {
+    id: 580302
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 加速buff
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580302"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】加速1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 580303
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 加速buff2
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580303"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】加速2
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 580311
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置3
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580311"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580312
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置4
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580312"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580313
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051,580908;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置5
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580313,580908"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580911,0;1,580902,580911,0;1,584701,580911,0;1,584702,580911,0;1,584703,580911,0;1,581101,580911,0;1,581102,580911,0;1,581103,580911,0;1,581104,580911,0;1,584801,580911,0;1,584802,580911,0;1,584803,580911,0;1,1133501,580911,0;1,584804,580911,0;1,1133502,580911,0;1,1133503,580911,0;1,1137701,580911,0;1,1137702,580911,0;1,1137703,580911,0;1,1137704,580911,0;1,1133701,580911,0;1,1133702,580911,0;1,1137801,580911,0;1,1137802,580911,0"
+  }
+  {
+    id: 580314
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051,580908;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置6
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580314,580908"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580911,0;1,580902,580911,0;1,584701,580911,0;1,584702,580911,0;1,584703,580911,0;1,581101,580911,0;1,581102,580911,0;1,581103,580911,0;1,581104,580911,0;1,584801,580911,0;1,584802,580911,0;1,584803,580911,0;1,1133501,580911,0;1,584804,580911,0;1,1133502,580911,0;1,1133503,580911,0;1,1137701,580911,0;1,1137702,580911,0;1,1137703,580911,0;1,1137704,580911,0;1,1133701,580911,0;1,1133702,580911,0;1,1137801,580911,0;1,1137802,580911,0"
+  }
+  {
+    id: 580315
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置7
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580315"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580316
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置8
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580316"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580317
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置9
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580317"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580318
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置10
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580318"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580319
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置11
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580319"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580320
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置12
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580320"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580321
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置13
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580321"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580322
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置14
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580322"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580323
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置15
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580323"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580324
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置16
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580324"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580325
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 心跳检测装置17
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580054,580310,580325"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】心跳检测装置
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
+  }
+  {
+    id: 580401
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: F3初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "58041101,580401"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,1136401,580111,0;1,1136402,580111,0;1,1136403,580111,0;1,1136404,580111,0;1,1136405,580111,0;1,1136406,580111,0;1,1136407,580111,0;1,1136408,580111,0;1,1136409,580111,0;1,1136410,580111,0;1,1136411,580111,0;1,1136412,580111,0;1,1138602,580111,0;1,1138601,580111,0;1,1138603,580111,0;1,1138604,580111,0;1,1138605,580111,0;1,1138606,580111,0;1,1138607,580111,0;1,1138608,580111,0;1,1138609,580111,0;1,1138610,580111,0;1,1138611,580111,0;1,1138612,580111,0;1,1139201,580111,0;1,1139202,580111,0;1,1139203,580111,0;1,1139204,580111,0;1,1139205,580111,0;1,1139206,580111,0;1,1139207,580111,0;1,1139208,580111,0;1,1139209,580111,0;1,1139210,580111,0;1,1139211,580111,0;1,1139212,580111,0"
+  }
+  {
+    id: 580402
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: F3初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "58041101,580402"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,1136401,580111,0;1,1136402,580111,0;1,1136403,580111,0;1,1136404,580111,0;1,1136405,580111,0;1,1136406,580111,0;1,1136407,580111,0;1,1136408,580111,0;1,1136409,580111,0;1,1136410,580111,0;1,1136411,580111,0;1,1136412,580111,0;1,1138602,580111,0;1,1138601,580111,0;1,1138603,580111,0;1,1138604,580111,0;1,1138605,580111,0;1,1138606,580111,0;1,1138607,580111,0;1,1138608,580111,0;1,1138609,580111,0;1,1138610,580111,0;1,1138611,580111,0;1,1138612,580111,0;1,1139201,580111,0;1,1139202,580111,0;1,1139203,580111,0;1,1139204,580111,0;1,1139205,580111,0;1,1139206,580111,0;1,1139207,580111,0;1,1139208,580111,0;1,1139209,580111,0;1,1139210,580111,0;1,1139211,580111,0;1,1139212,580111,0"
+  }
+  {
+    id: 580411
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: F5简单初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "58041101,580411"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,583401,580111,0;1,583402,580111,0;1,583403,580111,0;1,583404,580111,0;1,583405,580111,0;1,585501,580111,0;1,585502,580111,0;1,585503,580111,0;1,585504,580111,0;1,585505,580111,0;1,587001,580111,0;1,587002,580111,0;1,587004,580111,0;1,587003,580111,0;1,587005,580111,0;1,587006,580111,0;1,587007,580111,0"
+  }
+  {
+    id: 580501
+    defender: 50
+    defender_upper: 50
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 绊脚杂物堆
+    code: Sundries
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "9490101"
+    active_mission_skill: "9490103"
+    inherent_mission_skill: "1000100,9490101"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】可以被捡起来一次的杂物堆，经过的单位会被禁足两回合。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 580902
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:4,1:4;0:1,1:5
+    name: 自动机炮|后门
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580907"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】自动炮塔后门
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 580903
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;580909;0
+    battle_skill: 0;0;0;0
+    condition: 0:4,1:4;0:1,1:5
+    name: 自动机炮
+    code: Pyxis_green
+    shifting_spot: "0,35"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "580903"
+    active_mission_skill: "580905"
+    inherent_mission_skill: "580903,580908"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des:
+      '''
+      【标记】故障的炮塔
+      会对踏入攻击范围的任何单位造成50%最大生命值伤害
+      '''
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      安洁处于偏低心率时，炮塔会停止攻击，
+      同时心率偏低时安洁可以关闭炮塔。
+      '''
+    missionskill_on_death: "1,580901,580912,0;1,580902,580912,0;1,584701,580912,0;1,584702,580912,0;1,584703,580912,0;1,581101,580912,0;1,581102,580912,0;1,581103,580912,0;1,581104,580912,0;1,584801,580912,0;1,584802,580912,0;1,584803,580912,0;1,584804,580912,0"
+  }
+  {
+    id: 580904
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;580909;0
+    battle_skill: 0;0;0;0
+    condition: 0:4,1:4;0:1,1:5
+    name: 自动机炮-无沉默检测
+    code: Pyxis_green
+    shifting_spot: "0,35"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "580903"
+    active_mission_skill: "580905"
+    inherent_mission_skill: "580903"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des:
+      '''
+      【标记】故障的炮塔
+      会对踏入攻击范围的任何单位造成50%最大生命值伤害
+      '''
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      安洁处于偏低心率时，炮塔会停止攻击，
+      同时心率偏低时安洁可以关闭炮塔。
+      '''
+  }
+  {
+    id: 581101
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 摇人
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】摇人
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 581501
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 安洁
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "581501"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,581501,580052,0;1,581502,580052,0;1,581503,580052,0;1,581504,580052,0;1,581505,580052,0;1,581701,580052,0;1,581702,580052,0;1,581703,580052,0;1,581704,580052,0;1,584901,580052,0;1,584902,580052,0;1,584903,580052,0;1,584904,580052,0;1,584905,580052,0;1,585001,580052,0;1,585002,580052,0;1,585003,580052,0;1,585004,580052,0;1,585005,580052,0;2,581501,581500,0;2,584901,581500,0"
+  }
+  {
+    id: 581502
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 增援点
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "581502"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,581501,581503,0;1,581502,581503,0;1,581503,581503,0;1,581504,581503,0"
+  }
+  {
+    id: 581700
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 忤逆
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "581700"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 581701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 废弃大楼
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "581701"
+    inherent_mission_skill: "581701"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: RuinedBuilding;废弃建筑;0,0;2000015
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 581702
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 废墟
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "581703"
+    type: 6
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 581799
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: building-10581799
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "581799"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: building-40581799
+    des: building-20581799
+    confront_des: building-30581799
+    missionskill_on_death: "1,581501,580052,0;1,581502,580052,0;1,581503,580052,0;1,581504,580052,0;1,581505,580052,0;1,581701,580052,0;1,581702,580052,0;1,581703,580052,0;1,581704,580052,0;1,584901,580052,0;1,584902,580052,0;1,584903,580052,0;1,584904,580052,0;1,584905,580052,0;1,585001,580052,0;1,585002,580052,0;1,585003,580052,0;1,585004,580052,0;1,585005,580052,0;2,581501,581500,0;2,584901,581500,0"
+  }
+  {
+    id: 583600
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 丹德莱
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "583600"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,583602,580111,0;2,583603,580111,0;2,583604,580111,0;2,583605,580111,0;2,583606,580111,0;2,583607,580111,0;2,583608,580111,0;2,583609,580111,0;2,583610,580111,0;2,583611,580111,0;2,583612,580111,0;2,583613,580111,0;2,583614,580111,0;2,583615,580111,0;2,585602,580111,0;2,585603,580111,0;2,585604,580111,0;2,585605,580111,0;2,585606,580111,0;2,585607,580111,0;2,585608,580111,0;2,585609,580111,0;2,585610,580111,0;2,585611,580111,0;2,585612,580111,0;2,585613,580111,0;2,585614,580111,0;2,585615,580111,0;2,587102,580111,0;2,587103,580111,0;2,587104,580111,0;2,587105,580111,0;2,587106,580111,0;2,587107,580111,0;2,587108,580111,0;2,587109,580111,0;2,587110,580111,0;2,587111,580111,0;2,587112,580111,0;2,587113,580111,0;2,587114,580111,0;2,587115,580111,0;2,587116,580111,0;2,587117,580111,0;2,587118,580111,0;2,587119,580111,0;2,587120,580111,0;2,587121,580111,0"
+  }
+  {
+    id: 583601
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 默莉朵
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "583602"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 584501
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 信号初始化
+    code: Hiding
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 7
+    inherent_mission_skill: "580117"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】信号值
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 584502
+    defender: 150
+    defender_upper: 150
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    is_destroy: "1"
+    name: 墙壁-III
+    code: Rock_daily
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 1
+    inherent_mission_skill: "584505"
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 【标记】一处较为脆弱的墙壁，破坏后可以通行
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      重装打击 
+      部分铁血单位打击
+      '''
+  }
+  {
+    id: 584503
+    defender: 100
+    defender_upper: 100
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    is_destroy: "1"
+    name: 墙壁-II
+    code: Rock_daily
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 1
+    inherent_mission_skill: "584505"
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 【标记】一处较为脆弱的墙壁，破坏后可以通行
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      重装打击 
+      部分铁血单位打击
+      '''
+  }
+  {
+    id: 584504
+    defender: 50
+    defender_upper: 50
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    is_destroy: "1"
+    name: 墙壁-I
+    code: Rock_daily
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    trigger_distance: 1
+    inherent_mission_skill: "584505"
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 【标记】一处较为脆弱的墙壁，破坏后可以通行
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      重装打击 
+      部分铁血单位打击
+      '''
+  }
+  {
+    id: 584511
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 电梯-I
+    code: LiftBlue
+    shifting_spot: "5,20"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    active_mission_skill: "584511"
+    inherent_mission_skill: "58451101"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】可以前往对应【电梯-I】设施
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 584512
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 电梯-II
+    code: LiftBlue
+    shifting_spot: "5,20"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    active_mission_skill: "584512"
+    inherent_mission_skill: "58451201"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】可以前往对应【电梯-II】设施
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 584513
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 电梯-III
+    code: LiftBlue
+    shifting_spot: "5,20"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    active_mission_skill: "584513"
+    inherent_mission_skill: "58451301"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】可以前往对应【电梯-III】设施
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 584514
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 电梯-IV
+    code: LiftBlue
+    shifting_spot: "5,20"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    active_mission_skill: "584514"
+    inherent_mission_skill: "58451401"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】可以前往对应【电梯-IV】设施
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 584900
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 增援点
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "584900"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,584901,584906,0;1,584902,584906,0;1,584903,584906,0;1,584904,584906,0"
+  }
+  {
+    id: 585600
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: 丹德莱
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "585600"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,583602,580111,0;2,583603,580111,0;2,583604,580111,0;2,583605,580111,0;2,583606,580111,0;2,583607,580111,0;2,583608,580111,0;2,583609,580111,0;2,583610,580111,0;2,583611,580111,0;2,583612,580111,0;2,583613,580111,0;2,583614,580111,0;2,583615,580111,0;2,585602,580111,0;2,585603,580111,0;2,585604,580111,0;2,585605,580111,0;2,585606,580111,0;2,585607,580111,0;2,585608,580111,0;2,585609,580111,0;2,585610,580111,0;2,585611,580111,0;2,585612,580111,0;2,585613,580111,0;2,585614,580111,0;2,585615,580111,0;2,587102,580111,0;2,587103,580111,0;2,587104,580111,0;2,587105,580111,0;2,587106,580111,0;2,587107,580111,0;2,587108,580111,0;2,587109,580111,0;2,587110,580111,0;2,587111,580111,0;2,587112,580111,0;2,587113,580111,0;2,587114,580111,0;2,587115,580111,0;2,587116,580111,0;2,587117,580111,0;2,587118,580111,0;2,587119,580111,0;2,587120,580111,0;2,587121,580111,0"
+  }
+  {
+    id: 586901
+    defender: 200
+    defender_upper: 200
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;405004;0
+    condition: 0:0,1:0;0:1,1:1
+    is_destroy: "1,2"
+    name: 炮击阵地
+    code: MissileLauncher
+    shifting_spot: "4,97"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    performance_skill: "800101,102304,405002;0;800101,102304,405002;0"
+    show_info: 1
+    inherent_mission_skill: "541302"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      踩点破坏、重装打击
+      '''
+  }
+  {
+    id: 587001
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    name: F5噩梦+困难初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "58041101,587001"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,583401,580111,0;1,583402,580111,0;1,583403,580111,0;1,583404,580111,0;1,583405,580111,0;1,585501,580111,0;1,585502,580111,0;1,585503,580111,0;1,585504,580111,0;1,585505,580111,0;1,587001,580111,0;1,587002,580111,0;1,587004,580111,0;1,587003,580111,0;1,587005,580111,0;1,587006,580111,0;1,587007,580111,0"
+  }
+  {
     id: 590001
     defender: 99999
     defender_upper: 99999
@@ -32348,6 +33509,1107 @@
     show_info: 1
     inherent_mission_skill: "6560059"
     type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】npc弹药秃洞
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580001"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580002
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:0;0:1,1:1;0:1,1:1;0:1,1:1;0:1,1:1;0:1,1:1;0:1,1:1
+    name: 炮台
+    code: MissileLauncher
+    shifting_spot: "-50,97"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,4"
+    show_info: 1
+    working_special_spot: 6580023|6580024|6580025|6580026|6580027|6580028
+    active_mission_skill: "6580035,6580036"
+    inherent_mission_skill: "6580002"
+    type: 1
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1,1,1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    squadinfoid: 1019
+  }
+  {
+    id: 6580003
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    is_destroy: "1,2"
+    name: 弹药库
+    code: Ammobox
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "6580034"
+    inherent_mission_skill: "6580003"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      踩点破坏、重装打击
+      '''
+  }
+  {
+    id: 6580004
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】战场效果
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "6580024,6580025,6580026,6580027,6580028,6580029,6580030,6580031,6580032"
+    inherent_mission_skill: "6580004"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580005
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】疲劳计数
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580005"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580006
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580007
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;6580069;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】疲劳每回合重置
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580008
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点1
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589001"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580009
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点2
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589002"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580010
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点3
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589003"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580011
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点4
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589004"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580012
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点5
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589005"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580013
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点1
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589006"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580014
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点2
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589007"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580015
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点3
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589008"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580016
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点4
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589009"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580017
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;2000023
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 传送节点5
+    code: Portal1
+    shifting_spot: "120,-30"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589010"
+    type: 23
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580018
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 【标记】集结部队
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589011,6589012,6589013,6589014,6589015,6580075"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580019
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 【标记】集结部队
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6589041,6589042,6589043,6589044,6589045,6580075"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580020
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎
+    code: Gospelaxis
+    shifting_spot: "-100,50"
+    shifting_team: "30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    inherent_mission_skill: "580120"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】初始值100
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "6580103,6580104"
+    inherent_mission_skill: "6580101"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580102
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】安杰初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580105"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580103
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】简单安杰初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580115"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580104
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】判负兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,6580104,6580118,0;2,6580103,6580119,0;2,6580101,6580120,0;2,6580105,6580120,0;2,6580106,6580120,0;2,6580107,6580120,0,;2,6580108,6580120,0"
+  }
+  {
+    id: 6580105
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;6580194
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 弃置歌利亚
+    code: Boomer
+    shifting_spot: "45,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    inherent_mission_skill: "6580122"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580106
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】开战D4初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580124"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580107
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】陷阱标记
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580127"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580108
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅰ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580129"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580109
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅱ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580130"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580110
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅲ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580131"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580111
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅳ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580132"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580112
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅴ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580133"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580113
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅵ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580134"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580114
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅶ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580135"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580115
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅷ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580136"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580116
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅸ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580137"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580117
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 密码台Ⅹ
+    code: Console_P
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580138"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580118
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】敌人多动标记
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580159"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580119
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】移除标记
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580159"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580120
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】安杰标记
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580161"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580121
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】传送技能
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580162"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580122
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】简单D2心率初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580163"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,6580102,6580177,0;1,6580103,6580177,0;2,6580122,6580190,0"
+  }
+  {
+    id: 6580123
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】困难D2心率初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580164"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,6581102,6580177,0;1,6581103,6580177,0;2,6580101,6580190,0"
+  }
+  {
+    id: 6580124
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】简单D4心率初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580165"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,6580202,6580177,0;1,6580203,6580177,0;1,6580204,6580177,0;2,6580113,6580181,0;2,6580114,6580120,0"
+  }
+  {
+    id: 6580125
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】困难D4心率初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580166"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,6581203,6580177,0;1,6581204,6580177,0;1,6581205,6580177,0;1,6581206,6580177,0;1,6581202,6580178,0;2,6580113,6580181,0;2,6580114,6580120,0"
+  }
+  {
+    id: 6580126
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】简单door心率初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580167"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,6580301,6580177,0;1,6580302,6580177,0;1,6580303,6580177,0;1,6580304,6580177,0;1,6580305,6580177,0;1,6580306,6580177,0;2,6580118,6580120,0;2,6580120,6580177,0"
+  }
+  {
+    id: 6580127
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580051;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】困难door心率初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580168"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,6581301,6580177,0;1,6581302,6580177,0;1,6581303,6580177,0;1,6581304,6580177,0;1,6581305,6580177,0;1,6581306,6580177,0;2,6580120,6580177,0;2,6580121,6580177,0;2,6580118,6580120,0;2,6580121,6580177,0"
+  }
+  {
+    id: 6580128
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】心率教学
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6580168"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6580129
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;6580188
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 控制中枢台
+    code: Control_Center
+    shifting_spot: "40,50"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "6580140"
+    active_mission_skill: "6580187"
+    inherent_mission_skill: "6580186"
+    type: 7
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
@@ -43485,6 +45747,1239 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+  }
+  {
+    id: 9583801
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1000100"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9583802
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎①
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "580121"
+    inherent_mission_skill: "580120"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9583803
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎②
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "580121"
+    inherent_mission_skill: "580120"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9583804
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "95838004"
+    inherent_mission_skill: "1010100,1020101"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9583805
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9583801,580111,0;1,9583802,580111,0;1,9583803,580111,0;1,9583804,580111,0;1,9583805,580111,0;1,9583806,580111,0"
+  }
+  {
+    id: 9583806
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台①
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010201"
+    active_mission_skill: "95838006,95838017"
+    inherent_mission_skill: "1010200,1010201"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9583807
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台②
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010301"
+    active_mission_skill: "95838007,95838012"
+    inherent_mission_skill: "1010300,1010301"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9583808
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台③
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010401"
+    active_mission_skill: "95838005"
+    inherent_mission_skill: "1010400,1010401,1020101"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9583809
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子Boss标记
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95838019"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9583810
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台II
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010201"
+    active_mission_skill: "95838021,95838022"
+    inherent_mission_skill: "1010200,1020201,95838028"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9583811
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门II
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020201"
+    inherent_mission_skill: "1020200,1020201,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9583812
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】Boss到达标记兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95838027"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9583813
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: building-19583813
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95838001"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: building-49583813
+    des: building-29583813
+    confront_des: building-39583813
+  }
+  {
+    id: 9584001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "95840001,95840003"
+    inherent_mission_skill: "1010100,1010101,1020101"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9584002
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9584001,580111,0;1,9584002,580111,0;1,9584003,580111,0;1,9584004,580111,0;1,9584005,580111,0;1,9584006,580111,0;1,9584007,580111,0;1,9584008,580111,0;2,9584006,580111,0"
+  }
+  {
+    id: 9584003
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎①
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95840010"
+    inherent_mission_skill: "580120,1000100,95840008"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584004
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎②
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95840011"
+    inherent_mission_skill: "580120,1000200"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584005
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010201"
+    active_mission_skill: "95840002,95840004"
+    inherent_mission_skill: "1010200,1010201,1020101"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9584006
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子Boss标记
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840008"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584007
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580112;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子_过回合扣信号
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95838014"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584008
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子_NPC挂buff调信号
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840014"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584009
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】Boss强化状态提示
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840017"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584010
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子Boss标记
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840008"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+    missionskill_on_death: "2,9584006,95840020,0;1,9584008,95840030,0"
+  }
+  {
+    id: 9584011
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 95840036;95840036;95840036;95840036
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 【标记】演出创生1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1200100"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584012
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】演出创生2
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1200200"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584013
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: building-19584013
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840037"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: building-49584013
+    des: building-29584013
+    confront_des: building-39584013
+    missionskill_on_death: "2,9584006,95840020,0;1,9584008,95840030,0"
+  }
+  {
+    id: 9584201
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎①
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95840010"
+    inherent_mission_skill: "580120,1000100,95842018"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584202
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎②
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95840011"
+    inherent_mission_skill: "580120,1000200,95840008"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584203
+    defender: 50
+    defender_upper: 50
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;405004;0
+    condition: 0:0,1:0;0:0,1:1
+    is_destroy: "1,2"
+    name: 炮击阵地
+    code: MissileLauncher
+    shifting_spot: "4,97"
+    shifting_team: "-30,0"
+    battle_assist_range: "1,3"
+    performance_skill: "800101,102304,405002;0;800101,102304,405002;0"
+    show_info: 1
+    type: 1
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 对支援范围内的同归属单位提供战斗支援，战斗中持续对敌方进行炮击打击。
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      踩点破坏、重装打击
+      '''
+  }
+  {
+    id: 9584204
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "95842014,95842015"
+    inherent_mission_skill: "1010100"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9584201,580111,0;1,9584202,580111,0;1,9584203,580111,0;1,9584204,580111,0;1,9584205,580111,0;1,9584206,580111,0;1,9584207,580111,0;1,9584208,580111,0;1,9584209,580111,0;1,9584210,580111,0;1,9584211,580111,0;1,9584212,580111,0"
+  }
+  {
+    id: 9584205
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9584206
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台II
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010201"
+    active_mission_skill: "95842016,95842017"
+    inherent_mission_skill: "1010200"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9584207
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门II
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020201"
+    inherent_mission_skill: "1020200"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 9584208
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】多动兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95842012"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584209
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】挂引信BUFF
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95842011,95840014"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584210
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】多动兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95842012,95842011"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9584211
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;95842020;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】轰炸兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95842019,1010600"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9585701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9585701,580111,0;1,9585702,580111,0;1,9585703,580111,0;1,9585704,580111,0;1,9585705,580111,0;1,9585706,580111,0"
+  }
+  {
+    id: 9585802
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9585801,580111,0;1,9585802,580111,0;1,9585803,580111,0;1,9585804,580111,0;1,9585805,580111,0;1,9585806,580111,0;1,9585807,580111,0;1,9585808,580111,0;1,9585809,580111,0;1,9585810,580111,0;2,9585806,580111,0"
+  }
+  {
+    id: 9585803
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子Boss标记
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840008"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+    missionskill_on_death: "2,9585806,95840021,0;1,9585810,95840031,0"
+  }
+  {
+    id: 9585904
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "95842014,95842015"
+    inherent_mission_skill: "1010100"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9585901,580111,0;1,9585902,580111,0;1,9585903,580111,0;1,9585904,580111,0;1,9585905,580111,0;1,9585906,580111,0;1,9585907,580111,0;1,9585908,580111,0;1,9585909,580111,0;1,9585910,580111,0;1,9585911,580111,0;1,9585912,580111,0"
+  }
+  {
+    id: 9587201
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9587201,580111,0;1,9587202,580111,0;1,9587203,580111,0;1,9587204,580111,0;1,9587205,580111,0;1,9587206,580111,0;1,9587207,580111,0;1,9587208,580111,0"
+  }
+  {
+    id: 9587202
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1000100"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9587302
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001"
+    type: 6
+    is_focus: "1"
+    transition: "1,3"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9587301,580111,0;1,9587302,580111,0;1,9587303,580111,0;1,9587304,580111,0;1,9587305,580111,0;1,9587306,580111,0;1,9587307,580111,0;1,95873208,580111,0;1,9587309,580111,0;1,9587310,580111,0;1,9587311,580111,0;1,9587312,580111,0;2,9587307,580111,0"
+  }
+  {
+    id: 9587303
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎①
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95842001"
+    inherent_mission_skill: "580120,1000100"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9587304
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎②
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95842002"
+    inherent_mission_skill: "580120,1000200"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9587305
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎③
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95842003"
+    inherent_mission_skill: "580120,1000300"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9587306
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;580123;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:3;0:1,1:2
+    name: 福音枢椎④
+    code: Gospelaxis
+    shifting_spot: "90,0"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "580120"
+    active_mission_skill: "95842004"
+    inherent_mission_skill: "580120,1000400"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 9587307
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子Boss标记
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "95840008"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+    missionskill_on_death: "2,9587307,95840022,0;1,9587312,95840032,0"
+  }
+  {
+    id: 9587403
+    defender: 50
+    defender_upper: 50
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;405001;0
+    condition: 0:0,1:0;0:0,1:1
+    is_destroy: "1,2"
+    name: 炮击阵地
+    code: MissileLauncher
+    shifting_spot: "4,97"
+    shifting_team: "-30,0"
+    battle_assist_range: "1,3"
+    performance_skill: "800101,102304,405002;0;800101,102304,405002;0"
+    show_info: 1
+    inherent_mission_skill: "95842013"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: "23"
+    confront_des: "23"
+  }
+  {
+    id: 9587404
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "95842014,95842015"
+    inherent_mission_skill: "1010100"
+    type: 7
+    is_focus: "1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    des: 可以对关联的设施发送操作指令。
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "1,9587401,580111,0;1,9587402,580111,0;1,9587403,580111,0;1,9587404,580111,0;1,9587405,580111,0;1,9587406,580111,0;1,9587407,580111,0;1,9587408,580111,0;1,9587409,580111,0;1,9587410,580111,0;1,9587411,580111,0;1,9587412,580111,0;1,9587413,580111,0;1,9587414,580111,0;1,9587415,580111,0"
   }
   {
     id: 43130001

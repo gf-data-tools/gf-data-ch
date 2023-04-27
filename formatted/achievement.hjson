@@ -15832,4 +15832,55 @@
     sort: 305
     icon_code: 日常_彩蛋
   }
+  {
+    identity: 1071
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 无处落脚
+    content: 慢休克-SUM 生活是一场斗争-UX：炸毁4个废弃建筑后通关
+    type_sort: 100
+    sort: 306
+    icon_code: 无处落脚
+    condition: 11382:1138202
+  }
+  {
+    identity: 1072
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 与死神击掌
+    content: 慢休克-AUT 死岛：普通难度救走2名特工人质或噩梦难度救走3名特工人质
+    type_sort: 100
+    sort: 307
+    icon_code: 与死神击掌
+    condition: 11355:1135502,11384:1138402
+  }
+  {
+    identity: 1073
+    type: c_no_skip_activity
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 谷底回声
+    content: 完整浏览慢休克制作人员名单
+    type_sort: 100
+    sort: 308
+    icon_code: 谷底回声
+    condition: "11418"
+  }
 ]

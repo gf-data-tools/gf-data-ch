@@ -583,6 +583,24 @@
     rank: 1
   }
   {
+    id: 121
+    type: 3
+    arg: "22"
+    code: Medal_SlowShock
+    item_name: 深湖领航员
+    introduction: 表彰该指挥官及其麾下的战术人形在“慢休克”活动中的卓越战绩，“比起征服人迹罕至的冰山，探索内心的神秘湖底更需要卓绝的勇气。”
+    rank: 1
+  }
+  {
+    id: 122
+    type: 3
+    arg: "23"
+    code: Medal_SlowShock_rank
+    item_name: 雪线入海勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“慢休克”积分模式中的耀眼表现，“当炽热的火光点亮黑夜，我也将于纯白中迎来旭日般的新生。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -942,6 +960,46 @@
     rank: 1
     sort: -40
     detail_introduction: 可在工厂-装备制造中执行重型建造I.O.P特殊订单。Testtest
+  }
+  {
+    id: 527
+    type: 1
+    arg: "527"
+    code: Grenade
+    item_name: 心率道具
+    introduction: “你的心脏要炸了，用铁条箍一下吧”（外用）
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 528
+    type: 1
+    arg: "528"
+    code: Grenade
+    item_name: 心率道具
+    introduction: “你的心脏要炸了，用铁条箍一下吧”
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 529
+    type: 1
+    arg: "529"
+    code: Flashbang
+    item_name: 信号道具
+    introduction: “信号相差十六分四十二秒”（外用）
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 530
+    type: 1
+    arg: "530"
+    code: Flashbang
+    item_name: 信号道具
+    introduction: “信号相差十六分四十二秒”
+    rank: 1
+    is_hide_info: 1
   }
   {
     id: 601
@@ -12490,6 +12548,150 @@
     rank: 1
   }
   {
+    id: 2287
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_01
+    item_name: 头像：镜中人
+    introduction: 头像：镜中人
+    rank: 1
+  }
+  {
+    id: 2288
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_02
+    item_name: 头像：归来的巴德尔
+    introduction: 头像：归来的巴德尔
+    rank: 1
+  }
+  {
+    id: 2289
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_03
+    item_name: 头像：走向黑暗的人
+    introduction: 头像：走向黑暗的人
+    rank: 1
+  }
+  {
+    id: 2290
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_04
+    item_name: 头像：开普勒78b的陨落
+    introduction: 头像：开普勒78b的陨落
+    rank: 1
+  }
+  {
+    id: 2291
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_05
+    item_name: 头像：偷故事的人
+    introduction: 头像：偷故事的人
+    rank: 1
+  }
+  {
+    id: 2292
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_06
+    item_name: 头像：故事中的人
+    introduction: 头像：故事中的人
+    rank: 1
+  }
+  {
+    id: 2293
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_07
+    item_name: 头像：归来的霍德尔
+    introduction: 头像：归来的霍德尔
+    rank: 1
+  }
+  {
+    id: 2294
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_08
+    item_name: 头像：逆光而行的人
+    introduction: 头像：逆光而行的人
+    rank: 1
+  }
+  {
+    id: 2295
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_01
+    item_name: 名片：荣耀宣誓地
+    introduction: 名片：荣耀宣誓地
+    rank: 1
+  }
+  {
+    id: 2296
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_02
+    item_name: 名片：歌声不息
+    introduction: 名片：歌声不息
+    rank: 1
+  }
+  {
+    id: 2297
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_03
+    item_name: 名片：灵魂静寂港
+    introduction: 名片：灵魂静寂港
+    rank: 1
+  }
+  {
+    id: 2298
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_04
+    item_name: 名片：黎明将至
+    introduction: 名片：黎明将至
+    rank: 1
+  }
+  {
+    id: 2299
+    type: 5
+    arg: "1"
+    code: cg_SlowShockActivity2023_01
+    item_name: 背景：留声博物馆
+    introduction: 背景：留声博物馆
+    rank: 1
+  }
+  {
+    id: 2300
+    type: 5
+    arg: "1"
+    code: profilePic_Winter2023_coremask
+    item_name: 真核面具纪念头像·慢休克
+    introduction: 真核面具纪念头像·慢休克
+    rank: 1
+  }
+  {
+    id: 2301
+    type: 5
+    arg: "1"
+    code: card_BattlePass_MK3A1
+    item_name: 名片：甜甜圈复原计划
+    introduction: 名片：甜甜圈复原计划
+    rank: 1
+  }
+  {
+    id: 2302
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_MK3A1
+    item_name: MK3A1-MK3A1的维修艺术
+    introduction: MK3A1-MK3A1的维修艺术
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -15161,6 +15363,61 @@
     daily_limit: "60"
   }
   {
+    id: 100180
+    type: 9
+    arg: "100180"
+    code: Bumdle_2023SlowShock
+    item_name: 物资箱·慢休克
+    introduction: 物资箱·慢休克
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100181
+    type: 4
+    arg: "100181"
+    code: Nova_medal
+    item_name: 新星勋章·慢休克
+    introduction: 新星勋章·慢休克
+    rank: 1
+  }
+  {
+    id: 100182
+    type: 4
+    arg: "100182"
+    code: Platinum_medal
+    item_name: 白金勋章·慢休克
+    introduction: 白金勋章·慢休克
+    rank: 1
+  }
+  {
+    id: 100183
+    type: 4
+    arg: "100183"
+    code: coremask_2023SlowShock
+    item_name: 真核面具·慢休克
+    introduction: 真核面具·慢休克
+    rank: 1
+  }
+  {
+    id: 100184
+    type: 4
+    arg: "100184"
+    code: coremask2_2023SlowShock
+    item_name: 蚀心面具·慢休克
+    introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
+    rank: 1
+  }
+  {
+    id: 100185
+    type: 4
+    arg: "100185"
+    code: Platinum_medal_black
+    item_name: 白金勋章
+    introduction: 白金勋章
+    rank: 1
+  }
+  {
     id: 110001
     type: 4
     arg: "110001"
@@ -15701,6 +15958,24 @@
     rank: 1
   }
   {
+    id: 110061
+    type: 4
+    arg: "110061"
+    code: EventPT6
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
+    id: 110062
+    type: 4
+    arg: "110062"
+    code: PT
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
     id: 120001
     type: 10
     arg: "1"
@@ -16069,6 +16344,22 @@
     rank: 1
   }
   {
+    id: 140015
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    rank: 1
+  }
+  {
+    id: 140016
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *榴弹捕手
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -16238,6 +16529,15 @@
     code: profileFrame_BattlePass_C93
     item_name: 头像框·蝶翼翩然
     introduction: 头像框·蝶翼翩然
+    rank: 1
+  }
+  {
+    id: 200021
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_MK3A1
+    item_name: 头像框·拆解狂潮
+    introduction: 头像框·拆解狂潮
     rank: 1
   }
   {
@@ -16885,6 +17185,36 @@
     sort: -1
   }
   {
+    id: 1500056
+    type: 15
+    arg: "1500056"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-夜阑灯下，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500057
+    type: 15
+    arg: "1500057"
+    code: package_choose
+    item_name: 人形装备自选序标
+    introduction: 来自于前线协议-夜阑灯下，可从该指定投递配给序标内选择获取一件人形类装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500058
+    type: 15
+    arg: "1500058"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-夜阑灯下，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1500059
     type: 15
     arg: "1500059"
@@ -16921,6 +17251,26 @@
     code: package_choose
     item_name: 高阶专属装备自选序标
     introduction: 来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500063
+    type: 15
+    arg: "1500063"
+    code: package_choose
+    item_name: 特殊活动人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位战术人形。
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500064
+    type: 15
+    arg: "1500059"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-夜阑灯下，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
   }

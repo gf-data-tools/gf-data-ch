@@ -178,6 +178,36 @@
     activation_skills: "759082"
   }
   {
+    id: 1024
+    description: 友方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "750779"
+  }
+  {
+    id: 1025
+    description: 敌方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "750780"
+  }
+  {
+    id: 1026
+    description: 友方掉编
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "750779"
+    new_record_chara1: 1000005160
+  }
+  {
+    id: 1027
+    description: 敌方掉编
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "750780"
+    new_record_chara1: 1000005160
+  }
+  {
     id: 5001
     description: 曦和监视
     record_chara1: 1000002118

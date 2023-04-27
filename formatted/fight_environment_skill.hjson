@@ -457,7 +457,11 @@
   {
     id: 1101
     name: 坚守阵地
-    desc: 每隔3秒提升我方前排人形回避和护甲6%，最多10层
+    desc:
+      '''
+      每隔3秒提升我方前排人形回避和护甲6%，最多10层
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_buff103
     skill_group: "756224"
@@ -465,7 +469,11 @@
   {
     id: 1102
     name: 迅速整备
-    desc: 我方前置冷却时间缩减50%
+    desc:
+      '''
+      我方前置冷却时间缩减50%
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_buff105
     skill_group: "756225"
@@ -473,7 +481,11 @@
   {
     id: 1103
     name: 焦土战略
-    desc: 每隔6秒时间向敌人血量最高单位投掷燃烧物，每0.33秒造成60点伤害，持续15秒，范围3*3
+    desc:
+      '''
+      每隔6秒时间向敌人血量最高单位投掷燃烧物，每0.33秒造成60点伤害，持续15秒，范围3*3
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_hurt102
     skill_group: "756227"
@@ -481,7 +493,11 @@
   {
     id: 1104
     name: 应急护盾
-    desc: 每隔10秒时间恢复我方已损失血量30%的护盾持续6秒
+    desc:
+      '''
+      每隔10秒时间恢复我方已损失血量30%的护盾持续6秒
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_buff104
     skill_group: "756089"
@@ -489,7 +505,11 @@
   {
     id: 1105
     name: 随机打击
-    desc: 每隔10秒随机弱化一个敌方单位，大幅降低该单位属性（伤害，射速，命中，闪避，护甲）降低50%
+    desc:
+      '''
+      每隔10秒随机弱化一个敌方单位，大幅降低该单位属性（伤害，射速，命中，闪避，护甲）降低50%
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_hurt101
     skill_group: "756093"
@@ -497,23 +517,35 @@
   {
     id: 1106
     name: 偏转力场
-    desc: 我方血量最高单位开场获得9999点偏转力场，持续5秒
+    desc:
+      '''
+      我方血量最高单位开场获得9999点偏转力场，持续5秒
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_buff104
     skill_group: "756228"
   }
   {
     id: 1107
-    name: 越战越勇
-    desc: 我方每次使用技能后下次技能冷却减少30%
+    name: 突击惯性
+    desc:
+      '''
+      该场战斗中提升我方全体伤害和回避每4秒提升3%，最多叠加10层
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
-    code: fight_skill_buff105
-    skill_group: "759124"
+    code: fight_skill_buff102
+    skill_group: "756082"
   }
   {
     id: 1108
     name: 铁甲肉盾
-    desc: 我方血量最高的单位额外获得30%减伤
+    desc:
+      '''
+      我方血量最高的单位额外获得30%减伤
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_buff104
     skill_group: "756230"
@@ -521,7 +553,11 @@
   {
     id: 1109
     name: 突击号令
-    desc: 我方全体射速提升30%
+    desc:
+      '''
+      我方全体射速提升30%
+      <color=#CF8000>效果持续1回合</color>
+      '''
     if_display: 1
     code: fight_skill_buff101
     skill_group: "756231"

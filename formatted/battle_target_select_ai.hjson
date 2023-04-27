@@ -1897,6 +1897,18 @@
     buff_trigger_type: 18
   }
   {
+    id: 358
+    description: 机械友方
+    target_type: 2
+    target_number: 1
+    select_order: "1000002232"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
     id: 501
     description: 蝴蝶飞队友
     target_type: 2
@@ -3830,6 +3842,66 @@
     list_ranking: 1
     target_parameter: 1000001888
     buff_trigger_type: 18
+  }
+  {
+    id: 708
+    description: 最近的未暴露单位
+    target_type: 1
+    target_number: 1
+    select_order: "9"
+    list_ranking: 1
+    target_buff_id: 8844
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
+    id: 709
+    description: 未暴露单位和暴露单位
+    target_type: 1
+    is_ingore_range: 1
+    target_parameter: 1000005120
+    buff_trigger_type: 18
+  }
+  {
+    id: 710
+    description: 对X轴距离最远两者释放
+    target_type: 1
+    target_number: 2
+    select_order: "4"
+    is_ascend_order: "1"
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 711
+    description: 选取在场的一个枪种
+    target_type: 1
+    is_ingore_range: 1
+    target_parameter: 1000005124
+    buff_trigger_type: 18
+  }
+  {
+    id: 712
+    description: 标记数最高随机
+    target_type: 1
+    target_number: 1
+    select_order: "1000005126"
+    is_ingore_range: 1
+  }
+  {
+    id: 713
+    description: 固定打击目标
+    target_type: 1
+    target_number: 1
+    is_ingore_range: 1
+    target_buff_id: 8881
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 714
+    description: VP9找范围内敌方单位
+    target_type: 1
   }
   {
     id: 1006

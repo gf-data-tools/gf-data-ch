@@ -5,7 +5,7 @@ local Start = function(self)
 	if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Tw or CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Korea then
 		local txtTrans1 = self.transform:Find("DailyGame/Top/Btn_Rank/Tex_Rank");
 		if txtTrans1~= nil then
-			txtTrans1:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(40461);
+			txtTrans1:GetComponent(typeof(CS.ExText)).text = CS.Data.GetLang(40061);
 		end
 		local txtTrans2 = self.transform:Find("DailyGame/Bottom/Img_TitleBg/Tex_Title");
 		if txtTrans2~= nil then

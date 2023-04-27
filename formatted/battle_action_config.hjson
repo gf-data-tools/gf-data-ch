@@ -13161,6 +13161,182 @@
     creation_delay: "0,0,0,3,3,3,6,6,6"
   }
   {
+    id: 3575
+    name: 机械蜘蛛普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10468,10469"
+    creation_delay: "0,2"
+  }
+  {
+    id: 3576
+    name: 小蜘蛛召唤
+    action_order: s1
+    action_playspeed: "100"
+    creation_order: "10472"
+    creation_delay: "30"
+  }
+  {
+    id: 3577
+    name: 机械蜘蛛普攻2
+    action_order: move,s2
+    action_delay: "0,20"
+    action_playspeed: "100,100"
+    creation_order: "10470,10471"
+    creation_delay: "32,32"
+    move_order: "886"
+  }
+  {
+    id: 3578
+    name: 扫地机器人扫射
+    action_order: s,s
+    action_delay: "3,21"
+    action_playspeed: "100,100"
+    creation_order: "10473"
+  }
+  {
+    id: 3579
+    name: 扫地机器人轰炸
+    action_order: wait,s2,s2
+    action_delay: "0,45,60"
+    action_playspeed: "100,100,100"
+    creation_order: "10475"
+  }
+  {
+    id: 3580
+    name: 扫地机器人范围buff
+    action_order: wait
+    action_playspeed: "100"
+    creation_order: "10478"
+  }
+  {
+    id: 3581
+    name: 扫地机器人支援轰炸
+    creation_order: "10509"
+  }
+  {
+    id: 3582
+    name: 扫地机器人cutIn
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "10508"
+    creation_delay: "2"
+    sound_order: BT_squad_morta
+    sound_delay: "29"
+  }
+  {
+    id: 3583
+    name: 工程师蓄力
+    action_order: attack
+    action_playspeed: "100"
+  }
+  {
+    id: 3584
+    name: 工程师召唤
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "10507"
+  }
+  {
+    id: 3585
+    name: 幼蛛普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10479"
+  }
+  {
+    id: 3586
+    name: 工程师修复动作
+    action_order: s
+    action_delay: "20"
+    action_playspeed: "100"
+    creation_order: "10504,10506"
+    creation_delay: "3,0"
+  }
+  {
+    id: 3587
+    name: 机甲涅托普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10480"
+    creation_delay: "7"
+  }
+  {
+    id: 3588
+    name: 机甲涅托技能1
+    action_order: s1
+    action_delay: "67"
+    action_playspeed: "100"
+    creation_order: "10481"
+  }
+  {
+    id: 3589
+    name: 机甲涅托举盾
+    action_order: s2,s3,s3,s3,s3,s3,s3,s3,s3,s3,s3
+    action_delay: "0,20,35,50,65,80,95,110,125,140,155"
+    action_playspeed: "100,100,100,100,100,100,100,100,100,100,100"
+    creation_order: "10505"
+  }
+  {
+    id: 3590
+    name: 炮兵普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10492"
+  }
+  {
+    id: 3591
+    name: 扫地机器人普攻
+    action_order: attack
+    action_playspeed: "100"
+  }
+  {
+    id: 3592
+    name: 炮兵技能1
+    action_order: s1
+    action_delay: "30"
+    action_playspeed: "100"
+    creation_order: "10495,10494,10503"
+    creation_delay: "0,30,30"
+  }
+  {
+    id: 3593
+    name: 炮兵技能2
+    action_order: s2
+    action_delay: "60"
+    action_playspeed: "100"
+    creation_order: "10496,10497"
+    creation_delay: "60,0"
+  }
+  {
+    id: 3594
+    name: 无人机普攻
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "301,336,336,35,35,35"
+    creation_delay: "1,5,9,1,6,10"
+    sound_order: BT_pistol
+    effect_duration: "1"
+  }
+  {
+    id: 3595
+    name: 无动作技能CUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10512"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 3596
+    name: VRB射击
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "1863"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "3"
+  }
+  {
     id: 4001
     name: 白色boss普攻
     action_order: attack
@@ -22271,6 +22447,262 @@
     name: SL8装备
     creation_order: "9193,9194,9195,9196"
     creation_delay: "0,0,0,0"
+  }
+  {
+    id: 8664
+    name: 敌方召唤一组100级的面具涅托
+    summon_order: "4295"
+  }
+  {
+    id: 8665
+    name: 涅托 巡卫
+    summon_order: "4296"
+  }
+  {
+    id: 8666
+    name: 涅托 怒锤
+    summon_order: "4297"
+  }
+  {
+    id: 8667
+    name: 涅托 鹰眼
+    summon_order: "4298"
+  }
+  {
+    id: 8668
+    name: 机娘普攻
+    action_order: A1
+    action_playspeed: "100"
+    creation_order: "9197,9198,9199,9200"
+    creation_delay: "2,6,1,5"
+  }
+  {
+    id: 8669
+    name: 机娘特殊普攻
+    action_order: A1
+    action_playspeed: "100"
+    creation_order: "9256,9257,9258,9259,9201"
+    creation_delay: "6,6,4,4,6"
+  }
+  {
+    id: 8670
+    name: 机娘开局范围
+    creation_order: "9202"
+  }
+  {
+    id: 8671
+    name: 机娘大招
+    action_order: SP
+    action_playspeed: "100"
+    creation_order: "9211,9213,9269,9270,9271,9272,9273,9274,9275,9276,9277,9278,9279,9280,9287,9288,9289,9290,9291,9292,9293,9294,9295,9296,9297,9298"
+    creation_delay: "100,120,104,106,108,110,112,114,92,94,96,98,100,102,92,94,96,98,100,102,104,106,108,110,112,114"
+    sound_order: BT_BossCutin
+    sound_delay: "45"
+    effect_order: 3(Nyto_mecha2;全弹发射;Full Fire;Sana)
+    effect_delay: "45"
+    effect_duration: "1"
+    stop_time_delay: "45"
+    stop_time_duration: "45"
+  }
+  {
+    id: 8672
+    name: 机娘一技能导弹组
+    action_order: A3
+    action_playspeed: "100"
+    creation_order: "9203,9204,9220,9260,9261,9262,9263,9264"
+    creation_delay: "36,0,0,32,34,36,38,40"
+  }
+  {
+    id: 8673
+    name: 机娘二技能烟雾弹
+    action_order: A2
+    action_playspeed: "100"
+    creation_order: "9207"
+    creation_delay: "10"
+  }
+  {
+    id: 8674
+    name: 机娘三技能大激光
+    action_order: S1
+    action_playspeed: "100"
+    creation_order: "9209,9251"
+    creation_delay: "60,0"
+  }
+  {
+    id: 8675
+    name: 机娘激光传递
+    creation_order: "9210,9253"
+    creation_delay: "0,0"
+  }
+  {
+    id: 8676
+    name: 拉姆赞普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9219,7,3,35,9241,9241"
+    creation_delay: "4,2,0,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 8677
+    name: 拉姆赞扔手雷
+    action_order: skill,skill,skill
+    action_delay: "0,90,180"
+    action_playspeed: "90,90,90"
+    creation_order: "9215,9215,9215"
+    creation_delay: "0,90,180"
+    sound_order: BT_grenade_woosh,BT_grenade_woosh,BT_grenade_woosh
+    sound_delay: "50,140,230"
+  }
+  {
+    id: 8678
+    name: 拉姆赞近身
+    action_order: move1,skill2,move2
+    action_delay: "0,10,60"
+    action_playspeed: "100,100,100"
+    creation_order: "9218"
+    creation_delay: "20"
+    sound_order: Pekola_Sword_whoosh
+    sound_delay: "20"
+    move_order: "1037,1038,1039"
+    move_delay: "0,10,60"
+  }
+  {
+    id: 8679
+    name: 拉姆赞近身额外
+    creation_order: "9218"
+    creation_delay: "40"
+    sound_order: Pekola_LargeSword_Atk
+    sound_delay: "40"
+  }
+  {
+    id: 8680
+    name: 拉姆赞狂暴
+    action_order: skill3
+    action_playspeed: "100"
+    creation_order: "9238,9239,9243"
+    creation_delay: "0,150,70"
+    sound_order: 21Summer_EN_Appear,BT_BossCutin
+    sound_delay: "65,20"
+    effect_order: 3(pamzanboss;失控;Losing Control;Ganglati)
+    effect_duration: "1"
+  }
+  {
+    id: 8681
+    name: 丹德莱
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9223"
+    creation_delay: "20"
+  }
+  {
+    id: 8682
+    name: 我方全队命中、回避、暴击+15%，敌方召唤一组60级的射击士
+    summon_order: "4299"
+  }
+  {
+    id: 8683
+    name: 60级的射击士
+    summon_order: "4300"
+  }
+  {
+    id: 8684
+    name: JA休眠
+    action_order: s1
+    action_playspeed: "100"
+    creation_order: "9244"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8685
+    name: VP募捐
+    creation_order: "9224"
+  }
+  {
+    id: 8686
+    name: 开局影响格
+    creation_order: "9225"
+  }
+  {
+    id: 8687
+    name: 同排单位减伤1
+    creation_order: "9226"
+  }
+  {
+    id: 8688
+    name: 同排单位减伤2
+    creation_order: "9227"
+  }
+  {
+    id: 8689
+    name: 同排单位减伤3
+    creation_order: "9228"
+  }
+  {
+    id: 8690
+    name: 同排单位减伤4
+    creation_order: "9229"
+  }
+  {
+    id: 8691
+    name: 同排单位减伤5
+    creation_order: "9230"
+  }
+  {
+    id: 8692
+    name: 同排单位减伤6
+    creation_order: "9231"
+  }
+  {
+    id: 8693
+    name: 同排单位减伤7
+    creation_order: "9232"
+  }
+  {
+    id: 8694
+    name: 同排单位减伤8
+    creation_order: "9233"
+  }
+  {
+    id: 8695
+    name: 同排单位减伤9
+    creation_order: "9234"
+  }
+  {
+    id: 8696
+    name: 同排单位减伤10
+    creation_order: "9235"
+  }
+  {
+    id: 8697
+    name: tps眩晕
+    creation_order: "9236"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8698
+    name: ja起床
+    action_order: s3
+    action_playspeed: "100"
+  }
+  {
+    id: 8699
+    name: 医疗型
+    creation_order: "9237"
+    creation_delay: "30"
+  }
+  {
+    id: 8700
+    name: TPS升天
+    creation_order: "9246"
+  }
+  {
+    id: 8701
+    name: TPS火箭
+    creation_order: "9247"
   }
   {
     id: 9001
