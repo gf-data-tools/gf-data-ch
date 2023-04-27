@@ -156,6 +156,7 @@ patch3020=
 "3020/DeploymentEnemyInfoNew",
 "3020/DeploymentTeamController",
 "3020/DeploymentAllyTeamFloatingInfo",
+"3020/DeploymentAllyTeamController",	
 "3020/DeploymentTeamInfoController",					
 "3020/ReinforcementFixAllConfirmBoxController",
 "3020/SquadListController",	

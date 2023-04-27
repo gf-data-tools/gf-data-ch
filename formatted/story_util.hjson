@@ -10871,7 +10871,6 @@
     id: 1074
     mission_id: "11320"
     description: 【标记】秃洞点提示说明
-    scripts: 95391:-55-EXT
     campaign: -55
     bgm: BGM_Frontline
     point: 95391:-55-EXT
@@ -11487,226 +11486,606 @@
   }
   {
     id: 1160
-    mission_id: "580005"
-    campaign: -404
+    mission_id: "11333"
+    scripts: -58-start
+    campaign: -58
     title: guide1
-    start: 1:dailybonusguide-01
+    start: -57-1-1
   }
   {
     id: 1161
-    mission_id: "580006"
-    campaign: -404
+    mission_id: "11334"
+    scripts: -58-1-A1
+    campaign: -58
     title: guide1
-    start: 1:dailybonusguide-02
+    start: -57-1-1
   }
   {
     id: 1162
-    mission_id: "11333"
+    mission_id: "11336"
+    scripts: -58-1-A2
     campaign: -58
     title: 序章
     start: -57-1-1
   }
   {
     id: 1163
-    mission_id: "11334"
+    mission_id: "11335,11377"
     campaign: -58
     title: A1
-    start: -57-1-1
   }
   {
     id: 1164
-    mission_id: "11336"
+    mission_id: "11338"
+    scripts: -58-1-A4
     campaign: -58
     title: A3
     start: -57-1-1
   }
   {
     id: 1165
-    mission_id: "11338"
+    mission_id: "11337,11378"
     campaign: -58
     title: A5
-    start: -57-1-1
   }
   {
     id: 1166
     mission_id: "11339"
+    scripts: -58-1-A6
     campaign: -58
     title: A End
     start: -57-1-1
   }
   {
     id: 1167
-    mission_id: "11340"
+    mission_id: "11406"
+    scripts: -58-1-A7
     campaign: -58
     title: B1
     start: -57-1-1
   }
   {
     id: 1168
-    mission_id: "11342"
+    mission_id: "11340"
+    scripts: -58-1-B1
     campaign: -58
     title: B3
     start: -57-1-1
   }
   {
     id: 1169
-    mission_id: "11344"
+    mission_id: "11341,11379"
     campaign: -58
     title: B5
-    start: -57-1-1
   }
   {
     id: 1170
-    mission_id: "11345"
+    mission_id: "11342"
+    scripts: -58-1-B3
     campaign: -58
     title: B End
     start: -57-1-1
   }
   {
     id: 1171
-    mission_id: "11346"
+    mission_id: "11343,11380"
     campaign: -58
     title: C1
-    start: -57-1-1
   }
   {
     id: 1172
-    mission_id: "11348"
+    mission_id: "11344"
+    scripts: -58-1-B5
     campaign: -58
     title: C3
     start: -57-1-1
   }
   {
     id: 1173
-    mission_id: "11350"
+    mission_id: "11345"
+    scripts: -58-1-B6
     campaign: -58
     title: C5
     start: -57-1-1
   }
   {
     id: 1174
-    mission_id: "11351"
+    mission_id: "11346"
+    scripts: -58-1-C1
     campaign: -58
     title: C End
     start: -57-1-1
   }
   {
     id: 1175
-    mission_id: "11352"
+    mission_id: "11348"
+    scripts: -58-1-C2
     campaign: -58
     title: D1
     start: -57-1-1
   }
   {
     id: 1176
-    mission_id: "11354"
+    mission_id: "11350"
+    scripts: -58-1-C3
     campaign: -58
     title: D3
     start: -57-1-1
   }
   {
     id: 1177
-    mission_id: "11356"
+    mission_id: "11351"
+    scripts: -58-1-C4
     campaign: -58
     title: D5
     start: -57-1-1
   }
   {
     id: 1178
-    mission_id: "11357"
+    mission_id: "11347,11381"
     campaign: -58
     title: D End
-    start: -57-1-1
   }
   {
     id: 1179
-    mission_id: "11358"
+    mission_id: "11407"
+    scripts: -58-1-C6
     campaign: -58
     title: Door 1
     start: -57-1-1
   }
   {
     id: 1180
-    mission_id: "11360"
+    mission_id: "11349,11382"
     campaign: -58
     title: Door 3
-    start: -57-1-1
   }
   {
     id: 1181
-    mission_id: "11361"
+    mission_id: "11408"
+    scripts: -58-1-C8
     campaign: -58
     title: Door 4
     start: -57-1-1
   }
   {
     id: 1182
-    mission_id: "11362"
+    mission_id: "11352"
+    scripts: -58-1-D1
     campaign: -58
     title: Fight 1
     start: -57-1-1
   }
   {
     id: 1183
-    mission_id: "11363"
+    mission_id: "11354"
+    scripts: -58-1-D2
     campaign: -58
     title: Fight 2
     start: -57-1-1
   }
   {
     id: 1184
-    mission_id: "11365"
+    mission_id: "11355,11384"
+    scripts: -58-1-D3-point1
     campaign: -58
     title: Fight 4
-    start: -57-1-1
   }
   {
     id: 1185
-    mission_id: "11367"
+    mission_id: "11356"
+    scripts: -58-1-D4
     campaign: -58
     title: Fight 6
     start: -57-1-1
   }
   {
     id: 1186
-    mission_id: "11369"
+    mission_id: "11357"
+    scripts: -58-1-D5
     campaign: -58
     title: Fight 8
     start: -57-1-1
   }
   {
     id: 1187
-    mission_id: "11371"
+    mission_id: "11353,11383"
+    scripts: -58-1-D6-point1,-58-1-D6-point2,-58-1-D6-point3,-58-1-D6-point4
     campaign: -58
     title: Fight 10
-    start: -57-1-1
   }
   {
     id: 1188
-    mission_id: "11373"
+    mission_id: "11434"
+    scripts: -58-1-D7
     campaign: -58
     title: Fight 12
     start: -57-1-1
   }
   {
     id: 1189
-    mission_id: "11375"
+    mission_id: "11358"
+    scripts: -58-2-R1
     campaign: -58
     title: Fight 14
     start: -57-1-1
   }
   {
     id: 1190
-    mission_id: "11404"
+    mission_id: "11360"
+    scripts: -58-2-T1
     campaign: -58
     title: 通关困难难度的面具
     start: -57-1-1
   }
   {
     id: 1191
-    mission_id: "11405"
+    mission_id: "11361"
+    scripts: -58-2-T2
     campaign: -58
     title: 通关噩梦难度的面具
     start: -57-1-1
+  }
+  {
+    id: 1192
+    mission_id: "11359,11385"
+    description: story_util-10001192
+    campaign: -58
+    title: story_util-20001192
+  }
+  {
+    id: 1193
+    mission_id: "11409"
+    description: story_util-10001193
+    scripts: -58-2-R3
+    campaign: -58
+    title: story_util-20001193
+    start: -57-1-1
+  }
+  {
+    id: 1194
+    mission_id: "11410"
+    description: story_util-10001194
+    scripts: -58-2-T3
+    campaign: -58
+    title: story_util-20001194
+    start: -57-1-1
+  }
+  {
+    id: 1195
+    mission_id: "11411"
+    description: story_util-10001195
+    scripts: -58-2-T4
+    campaign: -58
+    title: story_util-20001195
+    start: -57-1-1
+  }
+  {
+    id: 1196
+    mission_id: "11412"
+    description: story_util-10001196
+    scripts: -58-2-R4
+    campaign: -58
+    title: story_util-20001196
+    start: -57-1-1
+  }
+  {
+    id: 1197
+    mission_id: "11362"
+    description: story_util-10001197
+    scripts: -58-3-F1
+    campaign: -58
+    title: story_util-20001197
+    start: -57-1-1
+  }
+  {
+    id: 1198
+    mission_id: "11363"
+    description: story_util-10001198
+    scripts: -58-3-F2
+    campaign: -58
+    title: story_util-20001198
+    start: -57-1-1
+  }
+  {
+    id: 1199
+    mission_id: "11364,11386,11392"
+    description: story_util-10001199
+    campaign: -58
+    title: story_util-20001199
+  }
+  {
+    id: 1200
+    mission_id: "11365"
+    description: story_util-10001200
+    scripts: -58-3-F4
+    campaign: -58
+    title: story_util-20001200
+    start: -57-1-1
+  }
+  {
+    id: 1201
+    mission_id: "11367"
+    description: story_util-10001201
+    scripts: -58-3-F5
+    campaign: -58
+    title: story_util-20001201
+    start: -57-1-1
+  }
+  {
+    id: 1202
+    mission_id: "11366,11387,11393"
+    description: story_util-10001202
+    campaign: -58
+    title: story_util-20001202
+  }
+  {
+    id: 1203
+    mission_id: "11369"
+    description: story_util-10001203
+    scripts: -58-3-F7
+    campaign: -58
+    title: story_util-20001203
+    start: -57-1-1
+  }
+  {
+    id: 1204
+    mission_id: "11371"
+    description: story_util-10001204
+    scripts: -58-3-F8
+    campaign: -58
+    title: story_util-20001204
+    start: -57-1-1
+  }
+  {
+    id: 1205
+    mission_id: "11368,11388,11394"
+    description: story_util-10001205
+    campaign: -58
+    title: story_util-20001205
+  }
+  {
+    id: 1206
+    mission_id: "11373"
+    description: story_util-10001206
+    scripts: -58-3-F10
+    campaign: -58
+    title: story_util-20001206
+    start: -57-1-1
+  }
+  {
+    id: 1207
+    mission_id: "11375"
+    description: story_util-10001207
+    scripts: -58-3-F11
+    campaign: -58
+    title: story_util-20001207
+    start: -57-1-1
+  }
+  {
+    id: 1208
+    mission_id: "11370,11389,11395"
+    description: story_util-10001208
+    campaign: -58
+    title: story_util-20001208
+  }
+  {
+    id: 1209
+    mission_id: "11413"
+    description: story_util-10001209
+    scripts: -58-3-F13
+    campaign: -58
+    title: story_util-20001209
+    start: -57-1-1
+  }
+  {
+    id: 1210
+    mission_id: "11414"
+    description: story_util-10001210
+    scripts: -58-3-F14
+    campaign: -58
+    title: story_util-20001210
+    start: -57-1-1
+  }
+  {
+    id: 1211
+    mission_id: "11372,11390,11396"
+    description: story_util-10001211
+    campaign: -58
+    title: story_util-20001211
+  }
+  {
+    id: 1212
+    mission_id: "11415"
+    description: story_util-10001212
+    scripts: -58-3-F16
+    campaign: -58
+    title: story_util-20001212
+    start: -57-1-1
+  }
+  {
+    id: 1213
+    mission_id: "11416"
+    description: story_util-10001213
+    scripts: -58-3-F17
+    campaign: -58
+    title: story_util-20001213
+    start: -57-1-1
+  }
+  {
+    id: 1214
+    mission_id: "11374,11391,11397"
+    description: story_util-10001214
+    campaign: -58
+    title: story_util-20001214
+  }
+  {
+    id: 1215
+    mission_id: "11417"
+    description: story_util-10001215
+    scripts: -58-3-F19
+    campaign: -58
+    title: story_util-20001215
+    start: -57-1-1
+  }
+  {
+    id: 1216
+    mission_id: "11418"
+    description: story_util-10001216
+    scripts: -58-3-F20
+    campaign: -58
+    title: story_util-20001216
+    start: -57-1-1
+  }
+  {
+    id: 1217
+    mission_id: "11419"
+    description: story_util-10001217
+    scripts: -58-S1-1
+    campaign: -58
+    title: story_util-20001217
+    start: -57-1-1
+  }
+  {
+    id: 1218
+    mission_id: "11420"
+    description: story_util-10001218
+    scripts: -58-S1-2
+    campaign: -58
+    title: story_util-20001218
+    start: -57-1-1
+  }
+  {
+    id: 1219
+    mission_id: "11421"
+    description: story_util-10001219
+    scripts: -58-S2-1
+    campaign: -58
+    title: story_util-20001219
+    start: -57-1-1
+  }
+  {
+    id: 1220
+    mission_id: "11422"
+    description: story_util-10001220
+    scripts: -58-S2-2
+    campaign: -58
+    title: story_util-20001220
+    start: -57-1-1
+  }
+  {
+    id: 1221
+    mission_id: "11423"
+    description: story_util-10001221
+    scripts: -58-S2-3
+    campaign: -58
+    title: story_util-20001221
+    start: -57-1-1
+  }
+  {
+    id: 1222
+    mission_id: "11424"
+    description: story_util-10001222
+    scripts: -58-S3-1
+    campaign: -58
+    title: story_util-20001222
+    start: -57-1-1
+  }
+  {
+    id: 1223
+    mission_id: "11425"
+    description: story_util-10001223
+    scripts: -58-S3-2
+    campaign: -58
+    title: story_util-20001223
+    start: -57-1-1
+  }
+  {
+    id: 1224
+    mission_id: "11426"
+    description: story_util-10001224
+    scripts: -58-S3-3
+    campaign: -58
+    title: story_util-20001224
+    start: -57-1-1
+  }
+  {
+    id: 1225
+    mission_id: "11427"
+    description: story_util-10001225
+    scripts: -58-S3-4
+    campaign: -58
+    title: story_util-20001225
+    start: -57-1-1
+  }
+  {
+    id: 1226
+    mission_id: "11428"
+    description: story_util-10001226
+    scripts: -58-S4-1
+    campaign: -58
+    title: story_util-20001226
+    start: -57-1-1
+  }
+  {
+    id: 1227
+    mission_id: "11429"
+    description: story_util-10001227
+    scripts: -58-S4-2
+    campaign: -58
+    title: story_util-20001227
+    start: -57-1-1
+  }
+  {
+    id: 1228
+    mission_id: "11430"
+    description: story_util-10001228
+    scripts: -58-S4-3
+    campaign: -58
+    title: story_util-20001228
+    start: -57-1-1
+  }
+  {
+    id: 1229
+    mission_id: "11431"
+    description: story_util-10001229
+    scripts: -58-S4-4
+    campaign: -58
+    title: story_util-20001229
+    start: -57-1-1
+  }
+  {
+    id: 1230
+    mission_id: "11432"
+    description: story_util-10001230
+    scripts: -58-S5
+    campaign: -58
+    title: story_util-20001230
+    start: -57-1-1
+  }
+  {
+    id: 1231
+    mission_id: "11433"
+    description: story_util-10001231
+    scripts: -58-S6
+    campaign: -58
+    title: story_util-20001231
+    start: -57-1-1
+  }
+  {
+    id: 1232
+    mission_id: "11404"
+    description: story_util-10001232
+    campaign: -58
+    title: story_util-20001232
+    start: -58-EX-Final
+  }
+  {
+    id: 1233
+    mission_id: "11405"
+    description: story_util-10001233
+    campaign: -58
+    title: story_util-20001233
+    start: -58-UX-Final
   }
 ]

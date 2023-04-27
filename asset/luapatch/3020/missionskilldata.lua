@@ -4,6 +4,12 @@ local PlayEffect = function(self)
 	if not CS.GameData.missionAction.listSpecialSpotAction:ContainsKey(self.instanceId) then
 		return;
 	end
+	if self.sourceType == CS.SourceType.building and self.sourceValue ~= 0 then
+		local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
+		if buildAction ~= nil then
+			self.sourceSpotAction = buildAction.currentSpotAction;
+		end
+	end
 	self:PlayEffect();
 end
 
