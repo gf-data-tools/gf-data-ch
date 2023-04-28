@@ -53,10 +53,10 @@ local CheckModuleSpine = function(self)
 			end
 			if moduleControl ~= nil then
 				if currentIndex<0 then
-					if moduleControl.spineControls:ContainsKey(code) then
-						if moduleControl.spineControls[code] ~= nil then
-							moduleControl.spineControls[code].gameObject:SetActive(false);
-						end
+					local trans = moduleControl.transform:Find(code);
+					if trans ~= nil  then
+						print("隐藏spine"..code);
+						trans.gameObject:SetActive(false);
 					end
 				else
 					opsspinemission.moudleIndex = self.moduleControls:IndexOf(moduleControl);
@@ -70,8 +70,45 @@ local CheckModuleSpine = function(self)
 		end
 	end              
 end
+
+local ShowProcess = function(self)
+	if self.processTxt == nil then
+		return;
+	end
+	if self.campaionId == -58 then
+		local ClearCount = 0;
+		local AllCount = 0;
+		for i=0,self.currentPanelConfig.opsBuildMissions.Count-1 do
+			local opsBuildMission = self.currentPanelConfig.opsBuildMissions[i];
+			ClearCount = ClearCount + opsBuildMission.opsMission:ClearCount();
+			AllCount = AllCount + opsBuildMission.opsMission:AllCount();
+		end
+		local iter = self.currentPanelConfig.opsSpineMissions:GetEnumerator();
+		while iter:MoveNext() do    
+			local opsspinemission = iter.Current.Value;
+			ClearCount = ClearCount + opsspinemission:ClearCount();
+			AllCount = AllCount + opsspinemission:AllCount();
+		end 
+		for i=0,self.currentPanelConfig.towerMissionConfig.opsTowerMissions.Count-1 do
+			local towerMission = self.currentPanelConfig.towerMissionConfig.opsTowerMissions[i];
+			if towerMission.opsmission ~= nil then
+				ClearCount = ClearCount + towerMission.opsmission:ClearCount();
+				AllCount = AllCount + towerMission.opsmission:AllCount();	
+			elseif towerMission.selectorData ~= nil then
+				for j=0,towerMission.selectorData.opsmissions.Count-1 do
+					ClearCount = ClearCount + towerMission.selectorData.opsmissions[j]:ClearCount();
+					AllCount = AllCount + towerMission.selectorData.opsmissions[j]:AllCount();
+				end
+			end
+		end
+		self.processTxt.text = CS.Data.GetLang(30251)..tostring(ClearCount).."/"..tostring(AllCount);
+	else
+		self:ShowProcess();
+	end
+end
 util.hotfix_ex(CS.OPSPanelController,'CheckMapAnimator',CheckMapAnimator)
 util.hotfix_ex(CS.OPSPanelController,'EndMapAnimator',EndMapAnimator)
 util.hotfix_ex(CS.OPSPanelController,'SelectMapAnimatorDefault',SelectMapAnimatorDefault)
 util.hotfix_ex(CS.OPSPanelController,'InitBgm',InitBgm)
 util.hotfix_ex(CS.OPSPanelController,'CheckModuleSpine',CheckModuleSpine)
+util.hotfix_ex(CS.OPSPanelController,'ShowProcess',ShowProcess)
