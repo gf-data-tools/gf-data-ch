@@ -4,7 +4,7 @@
     name: 地雷出现
     code: dilei_chuxian
     description: 地雷
-    duration: 1.0
+    duration: 1
     size: 0.8
     sound: bb_noel_nachujiguanqiang
     offset: "0,0"
@@ -22,7 +22,7 @@
     name: 地雷爆炸
     code: dilei_baoza
     description: 爆炸
-    duration: 1.0
+    duration: 1
     size: 0.8
     sound: BT_grenade_explode
     offset: "0,0"
@@ -32,8 +32,8 @@
     name: 导弹
     code: BulletMove
     description: 导弹
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_MissileExplo
     offset: "0,0"
   }
@@ -42,8 +42,8 @@
     name: 堡垒出现
     code: Gsyaojing_buzhi
     description: 堡垒
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: bb_noel_nachujiguanqiang
     offset: "0,0"
   }
@@ -53,7 +53,7 @@
     code: GSyaojing_daiji
     description: 堡垒待机
     priority: 8
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -78,8 +78,8 @@
     name: 耀夜姬特效
     code: ui_glass
     description: 镜面
-    duration: 2.0
-    delay: 1.0
+    duration: 2
+    delay: 1
     size: 1.5
     if_starting: 1
     offset: "0,0"
@@ -89,7 +89,7 @@
     name: 耀夜姬爆炸
     code: dilei_baoza
     description: 爆炸
-    duration: 1.0
+    duration: 1
     delay: 1.6
     size: 0.8
     sound: BT_grenade_explode
@@ -100,7 +100,7 @@
     name: 花瓣出现
     code: DJmax_huaban
     description: 花瓣
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -108,7 +108,7 @@
     name: 桃子特效
     code: 2019_DH_YJ_xiangrui_1
     description: 桃子特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -116,7 +116,7 @@
     name: 桃子拾取特效
     code: 2019_DH_YJ_xiangrui_3
     description: 桃子特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -124,7 +124,7 @@
     name: 莫比乌斯特效
     code: dzrq_zhengti
     description: 莫比乌斯特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -188,7 +188,7 @@
     name: 路标_左
     code: zsd_right
     description: 路牌_左
-    size: 1.0
+    size: 1
     offset: "0,150"
   }
   {
@@ -196,7 +196,7 @@
     name: 路标_右
     code: zsd_left
     description: 路牌_左
-    size: 1.0
+    size: 1
     offset: "0,150"
   }
   {
@@ -204,7 +204,7 @@
     name: 路标_上
     code: zsd_up
     description: 路标_上
-    size: 1.0
+    size: 1
     offset: "-120,0"
   }
   {
@@ -212,7 +212,7 @@
     name: 路标_下
     code: zsd_down
     description: 路标_下
-    size: 1.0
+    size: 1
     offset: "-120,0"
   }
   {
@@ -256,8 +256,8 @@
     name: 空降飞机特效
     code: Heli
     description: 妖精飞行
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_helicopter_loop
     spine: 1
     offset: "0,0"
@@ -267,7 +267,7 @@
     name: 机场出兵图标
     code: effectPowerup
     description: UP
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -276,7 +276,7 @@
     code: effectNoDrop
     description: 禁止
     priority: 3
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -285,7 +285,7 @@
     code: Mission_gas
     description: 污染
     priority: 9
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -293,8 +293,8 @@
     name: 防御门开启音效
     code: Empty
     description: 防御门开启音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_LockGate_Open
     offset: "0,0"
   }
@@ -303,8 +303,8 @@
     name: 防御门关闭音效
     code: Empty
     description: 防御门关闭音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_LockGate_Close
     offset: "0,0"
   }
@@ -313,8 +313,8 @@
     name: 控制台解锁音效
     code: Empty
     description: 控制台解锁音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_console_start
     offset: "0,0"
   }
@@ -323,8 +323,8 @@
     name: 控制台冻结音效
     code: Empty
     description: 控制台冻结音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_ControlStation_Freeze
     offset: "0,0"
   }
@@ -333,8 +333,8 @@
     name: 爆破音效
     code: dilei_baoza
     description: 爆破音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_RockExplo
     offset: "0,0"
   }
@@ -343,8 +343,8 @@
     name: EMP
     code: EMP
     description: EMP爆炸
-    duration: 3.0
-    size: 1.0
+    duration: 3
+    size: 1
     sound: map_emp_explo
     offset: "0,0"
   }
@@ -354,7 +354,7 @@
     code: build_baoza
     description: 大爆炸
     priority: 99
-    duration: 1.0
+    duration: 1
     size: 0.8
     sound: BT_grenade_explode
     offset: "0,0"
@@ -364,7 +364,7 @@
     name: 冒烟
     code: Y(Bmap)_qiaoduan
     description: 冒烟
-    size: 1.0
+    size: 1
     offset: "50,55"
   }
   {
@@ -380,8 +380,8 @@
     name: EMP手雷爆炸效果
     code: PortableEMP
     description: EMP手雷爆炸
-    duration: 3.0
-    size: 1.0
+    duration: 3
+    size: 1
     sound: map_emp_explo
     offset: "0,0"
   }
@@ -390,7 +390,7 @@
     name: 莫比乌斯红特效1
     code: dzrq_2Dzhengti01
     description: 莫比乌斯特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -398,7 +398,7 @@
     name: 莫比乌斯红特效2
     code: dzrq_2Dzhengti02
     description: 莫比乌斯特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -406,7 +406,7 @@
     name: 莫比乌斯红特效3
     code: dzrq_2Dzhengti03
     description: 莫比乌斯特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -422,9 +422,9 @@
     name: 闪光弹投掷
     code: sgd_tuowei
     description: 闪光弹投掷
-    duration: 1.0
+    duration: 1
     delay: 0.33
-    size: 1.0
+    size: 1
     sound: BT_The_Division_Flash_Bomb
     if_starting: 1
     offset: "0,0"
@@ -434,7 +434,7 @@
     name: 闪光弹bome
     code: sgd_baozha
     description: 闪光弹bome
-    size: 1.0
+    size: 1
     sound: BT_The_Division_Flash_Bomb_Explosion
     offset: "0,0"
   }
@@ -443,9 +443,9 @@
     name: 手雷投掷
     code: sld_tuowei
     description: 手雷投掷
-    duration: 1.0
+    duration: 1
     delay: 0.33
-    size: 1.0
+    size: 1
     sound: BT_The_Division_Grenade
     if_starting: 1
     offset: "0,0"
@@ -455,7 +455,7 @@
     name: 手雷bomb
     code: build_baoza
     description: 手雷bomb
-    size: 1.0
+    size: 1
     sound: BT_The_Division_Grenade_Explosion
     offset: "0,0"
   }
@@ -464,8 +464,8 @@
     name: 机枪塔（启动）
     code: Machine_Gun_Tower_Action
     description: 机枪塔（启动）
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_The_Division_Machine_Gun_Tower
     offset: "0,0"
   }
@@ -474,8 +474,8 @@
     name: 受击特效
     code: MGT_shouji
     description: 受击特效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -484,7 +484,7 @@
     code: Machine_Gun_Tower_Action
     description: 机枪塔（常驻）
     delay: 0.2
-    size: 1.0
+    size: 1
     spine: 3
     offset: "0,0"
   }
@@ -493,8 +493,8 @@
     name: 机枪塔（开火）
     code: Machine_Gun_Tower_Action
     description: 机枪塔（开火）
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_The_Division_Machine_Gun_Tower_Shooting
     spine: 4
     offset: "0,0"
@@ -505,8 +505,8 @@
     code: qx_shuzi00
     description: 数字0
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -515,8 +515,8 @@
     code: qx_shuzi01
     description: 数字1
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -525,8 +525,8 @@
     code: qx_shuzi02
     description: 数字2
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -535,8 +535,8 @@
     code: qx_shuzi03
     description: 数字3
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -545,8 +545,8 @@
     code: qx_shuzi04
     description: 数字4
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -555,8 +555,8 @@
     code: qx_shuzi05
     description: 数字5
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -565,8 +565,8 @@
     code: qx_shuzi06
     description: 数字6
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -575,8 +575,8 @@
     code: qx_shuzi07
     description: 数字7
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -585,8 +585,8 @@
     code: qx_shuzi08
     description: 数字8
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -595,8 +595,8 @@
     code: qx_shuzi09
     description: 数字9
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -604,8 +604,8 @@
     name: 开炮
     code: Battlefield_fire
     description: 开炮
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_squad_howitzer
     offset: "0,0"
   }
@@ -614,7 +614,7 @@
     name: 炮击特效
     code: build_baoza
     description: 炮击特效
-    duration: 1.0
+    duration: 1
     size: 0.8
     sound: BT_grenade_explode
     offset: "0,0"
@@ -624,7 +624,7 @@
     name: 清雾点特效
     code: dian_guangzhu
     description: 清雾点特效
-    duration: 1.0
+    duration: 1
     size: 0.01
     offset: "0,0"
   }
@@ -633,8 +633,8 @@
     name: 清雾特效
     code: ddl_saomiao
     description: 清雾特效
-    duration: 5.0
-    size: 1.0
+    duration: 5
+    size: 1
     sound: SFX_20_Winter_Radar_Scan
     offset: "0,0"
   }
@@ -643,7 +643,7 @@
     name: 记忆碎片特效
     code: sheshi_xian
     description: 记忆碎片特效
-    duration: 1.0
+    duration: 1
     size: 0.05
     offset: "0,0"
   }
@@ -652,8 +652,8 @@
     name: 炸弹下降音效
     code: Empty
     description: 炸弹下降音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: SFX_20_Winter_Boom
     offset: "0,0"
   }
@@ -662,8 +662,8 @@
     name: 丹德莱buff音效
     code: Empty
     description: 丹德莱buff音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: SFX_20_Winter_Buff
     offset: "0,0"
   }
@@ -672,8 +672,8 @@
     name: 丹德莱debuff音效
     code: Empty
     description: 丹德莱debuff音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: SFX_20_Winter_Debuff
     offset: "0,0"
   }
@@ -682,9 +682,9 @@
     name: 翻牌子音效
     code: Empty
     description: 翻牌子音效
-    duration: 1.0
+    duration: 1
     delay: 0.5
-    size: 1.0
+    size: 1
     sound: BT_rotate
     offset: "0,0"
   }
@@ -693,8 +693,8 @@
     name: 孙红雷投掷
     code: golyatlpg_d
     description: 孙红雷投掷
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     if_starting: 3
     relative_position: "-500,1000"
     offset: "0,0"
@@ -704,7 +704,7 @@
     name: 孙红雷bomb
     code: build_baoza
     description: 孙红雷bomb
-    size: 1.0
+    size: 1
     sound: BT_The_Division_Grenade_Explosion
     offset: "0,0"
   }
@@ -713,7 +713,7 @@
     name: 上
     code: skidarrow04
     description: 上
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -722,7 +722,7 @@
     name: 下
     code: skidarrow03
     description: 下
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -731,7 +731,7 @@
     name: 左
     code: skidarrow02
     description: 左
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -740,7 +740,7 @@
     name: 右
     code: skidarrow01
     description: 右
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -749,8 +749,8 @@
     name: 倒计时0
     code: bomb_shuzi00
     description: 倒计时0
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -758,8 +758,8 @@
     name: 倒计时1
     code: bomb_shuzi01
     description: 倒计时1
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -767,8 +767,8 @@
     name: 倒计时2
     code: bomb_shuzi02
     description: 倒计时2
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -776,8 +776,8 @@
     name: 倒计时3
     code: bomb_shuzi03
     description: 倒计时3
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -785,8 +785,8 @@
     name: 倒计时4
     code: bomb_shuzi04
     description: 倒计时4
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -794,8 +794,8 @@
     name: 倒计时5
     code: bomb_shuzi05
     description: 倒计时5
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -803,8 +803,8 @@
     name: 倒计时6
     code: bomb_shuzi06
     description: 倒计时6
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -812,8 +812,8 @@
     name: 倒计时7
     code: bomb_shuzi07
     description: 倒计时7
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -821,8 +821,8 @@
     name: 倒计时8
     code: bomb_shuzi08
     description: 倒计时8
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -830,8 +830,8 @@
     name: 倒计时9
     code: bomb_shuzi09
     description: 倒计时9
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -839,8 +839,8 @@
     name: 密码按键音效
     code: Empty
     description: 密码按键音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: SFX_20_Winter_Password
     offset: "0,0"
   }
@@ -850,8 +850,8 @@
     code: build_baoza_1
     description: 花粉炸弹爆炸
     priority: 10
-    duration: 2.0
-    size: 1.0
+    duration: 2
+    size: 1
     sound: BT_grenade_explode
     offset: "0,0"
   }
@@ -861,7 +861,7 @@
     code: Bushu_ice01
     description: 刨冰
     priority: 10
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -870,8 +870,8 @@
     code: Bushu_ice02
     description: 刨冰消失
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: Equip_Ice
     offset: "0,0"
   }
@@ -881,8 +881,8 @@
     code: Bushu_xz_yan
     description: 帐篷冒烟
     priority: 10
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: Equip_Smoke
     offset: "0,0"
   }
@@ -892,8 +892,8 @@
     code: jashinchan_eat
     description: 夹心吃冰
     priority: 48
-    duration: 3.0
-    size: 1.0
+    duration: 3
+    size: 1
     spine: 2
     offset: "0,200"
   }
@@ -902,7 +902,7 @@
     name: 特殊点提示
     code: ddl_xingxing
     description: 特殊点提示
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -935,7 +935,7 @@
     name: 1-2ex1
     code: skidarrow64340
     description: 1-2ex1
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -944,7 +944,7 @@
     name: 1-2ex2
     code: skidarrow64361
     description: 1-2ex2
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -953,7 +953,7 @@
     name: 1-2ex3
     code: skidarrow64367
     description: 1-2ex3
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -962,7 +962,7 @@
     name: 1-2ex4
     code: skidarrow64363
     description: 1-2ex4
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -971,8 +971,8 @@
     name: 爆炸音效
     code: Empty
     description: 爆炸音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: BT_grenade_explode
     offset: "0,0"
   }
@@ -981,8 +981,8 @@
     name: 标记
     code: SpotTarget0
     description: 标记
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -1007,21 +1007,21 @@
   {
     id: 1000085
     code: skidarrow05
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
   {
     id: 1000086
     code: skidarrow06
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
   {
     id: 1000088
     code: skidarrow08
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -1031,9 +1031,9 @@
     code: build_baoza_1
     description: 导弹攻击特效
     priority: 10
-    duration: 1.0
+    duration: 1
     delay: 0.5
-    size: 1.0
+    size: 1
     sound: UI_Missile_Attack_Delay1
     offset: "0,0"
   }
@@ -1051,7 +1051,7 @@
     code: chuansong_03
     description: 传送lv1 HG生效
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 0.05
     offset: "0,0"
   }
@@ -1061,8 +1061,8 @@
     code: 力场盾
     description: 力场盾
     priority: 200
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_Spe_Build_Buff
     offset: "0,0"
   }
@@ -1072,8 +1072,8 @@
     code: powerUp
     description: 火力up
     priority: 200
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_Spe_Build_Buff
     offset: "0,0"
   }
@@ -1083,9 +1083,9 @@
     code: build_baoza+emp
     description: emp弹攻击特效
     priority: 10
-    duration: 1.0
+    duration: 1
     delay: 0.5
-    size: 1.0
+    size: 1
     sound: UI_Missile_Attack_Delay2
     offset: "0,0"
   }
@@ -1094,8 +1094,8 @@
     name: 建造音效
     code: Empty
     description: 建造音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_Build_Construct
     offset: "0,0"
   }
@@ -1104,8 +1104,8 @@
     name: 升级音效
     code: Empty
     description: 升级音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_Build_Upgrade
     offset: "0,0"
   }
@@ -1114,8 +1114,8 @@
     name: 加buff音效
     code: Empty
     description: 加buff音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_Spe_Build_Buff
     offset: "0,0"
   }
@@ -1124,8 +1124,8 @@
     name: 秃洞传送装置音效
     code: Empty
     description: 秃洞传送装置音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: UI_Spe_Build_Portal
     offset: "0,0"
   }
@@ -1146,7 +1146,7 @@
     code: CanDestroyBuildTip
     description: 空袭引导
     priority: 1
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1154,8 +1154,8 @@
     name: 巧克力机启动
     code: Empty
     description: 巧克力机启动
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: 2022_white_valentine_Chocolate
     offset: "0,0"
   }
@@ -1164,8 +1164,8 @@
     name: 烟花
     code: GQ_yanhua
     description: 烟花
-    duration: 3.0
-    size: 1.0
+    duration: 3
+    size: 1
     sound: 2022_Bikini_Fireworks
     offset: "0,0"
   }
@@ -1175,9 +1175,9 @@
     code: XDZY_TY2
     description: 轰炸效果1
     priority: 1
-    duration: 2.0
-    delay: -1.0
-    size: 4.0
+    duration: 2
+    delay: -1
+    size: 4
     offset: "0,0"
   }
   {
@@ -1186,9 +1186,9 @@
     code: LLS_hongzha02
     description: 轰炸效果2
     priority: 1
-    duration: 2.0
-    delay: -2.0
-    size: 2.0
+    duration: 2
+    delay: -2
+    size: 2
     sound: Blackjack_attack1
     offset: "0,0"
   }
@@ -1198,7 +1198,7 @@
     code: Dian_tiepian02
     description: 瞄准
     priority: -1
-    size: 1.0
+    size: 1
     offset: "0,20"
   }
   {
@@ -1207,7 +1207,7 @@
     code: Dian_tiepian03
     description: 树
     priority: -1
-    size: 1.0
+    size: 1
     offset: "0,100"
   }
   {
@@ -1216,7 +1216,7 @@
     code: Dian_tiepian01
     description: 烤树
     priority: -1
-    size: 1.0
+    size: 1
     offset: "0,100"
   }
   {
@@ -1234,8 +1234,8 @@
     code: Fly_tu160
     description: TY-160
     priority: 1
-    duration: 3.0
-    size: 2.0
+    duration: 3
+    size: 2
     sound: Blackjack_flying
     if_starting: 4
     relative_position: "0,0;0,0;0,0;1,1"
@@ -1267,7 +1267,7 @@
     code: bushu_moon
     description: 月亮
     priority: -1
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1275,7 +1275,7 @@
     name: 受击特效给hurt用
     code: MGT_shouji
     description: 受击特效给hurt用
-    duration: 1.0
+    duration: 1
     size: 0.02
     offset: "0,0"
   }
@@ -1299,7 +1299,7 @@
     priority: 5
     duration: 1.5
     delay: 0.5
-    size: 3.0
+    size: 3
     offset: "0,0"
     is_focus: "1"
   }
@@ -1323,7 +1323,7 @@
     priority: 5
     duration: 1.5
     delay: 1.5
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1334,7 +1334,7 @@
     priority: 5
     duration: 1.5
     delay: 1.5
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1342,7 +1342,7 @@
     name: 感叹号
     code: zhgq_by_th
     description: 感叹号
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1365,7 +1365,7 @@
     priority: 5
     duration: 1.5
     delay: 1.5
-    size: 3.0
+    size: 3
     offset: "0,0"
     is_focus: "1"
   }
@@ -1389,7 +1389,7 @@
     priority: 5
     duration: 1.5
     delay: 3.5
-    size: 3.0
+    size: 3
     offset: "0,0"
   }
   {
@@ -1398,7 +1398,7 @@
     code: qipao_yys
     description: 气泡表情
     priority: 5
-    size: 1.0
+    size: 1
     offset: "-200,250;0,0"
   }
   {
@@ -1561,7 +1561,7 @@
     code: Empty
     description: 延迟
     duration: 2.5
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1570,7 +1570,7 @@
     code: Empty
     description: 延迟
     duration: 1.5
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1578,7 +1578,7 @@
     name: 星星
     code: BlueCA
     description: 星星
-    duration: 1.0
+    duration: 1
     size: 0.5
     offset: "0,0"
   }
@@ -1587,7 +1587,7 @@
     name: 辐射点
     code: sheshi_dian
     description: 瘫痪特效
-    size: 1.0
+    size: 1
     offset: "0,0"
   }
   {
@@ -1605,7 +1605,7 @@
     code: Empty
     description: 空聚焦
     duration: 0.01
-    size: 1.0
+    size: 1
     offset: "0,0"
     is_focus: "1"
   }
@@ -1633,8 +1633,8 @@
     name: 乱石堆
     code: Rock_effect
     description: 乱石堆
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     offset: "0,0"
   }
   {
@@ -1643,8 +1643,8 @@
     code: Fly_tu160
     description: TY-160
     priority: 1
-    duration: 4.0
-    size: 2.0
+    duration: 4
+    size: 2
     sound: Blackjack_flying
     if_starting: 4
     relative_position: "0,0;0,0;0,0;1,1"
@@ -1658,9 +1658,9 @@
     code: XDZY_TY2
     description: 轰炸效果1
     priority: 1
-    duration: 2.0
+    duration: 2
     delay: -0.5
-    size: 4.0
+    size: 4
     offset: "0,0"
   }
   {
@@ -1669,9 +1669,9 @@
     code: LLS_hongzha02
     description: 轰炸效果2
     priority: 1
-    duration: 2.0
+    duration: 2
     delay: -1.5
-    size: 2.0
+    size: 2
     sound: Blackjack_attack1
     offset: "0,0"
   }
@@ -1682,7 +1682,7 @@
     description: 攻击点沉默
     priority: 10
     duration: 1.5
-    size: 1.0
+    size: 1
     sound: SFX_20_Winter_Radar_Scan
     if_starting: 4
     relative_position: "0,0;0,0;0,0;1,1"
@@ -1703,7 +1703,7 @@
     name: 受击特效给hurt用,带音效
     code: MGT_shouji
     description: 受击特效给hurt用,带音效
-    duration: 1.0
+    duration: 1
     size: 0.02
     sound: BT_The_Division_Machine_Gun_Tower_Shooting
     offset: "0,0"
@@ -1715,7 +1715,7 @@
     description: 莫比乌斯特效
     priority: 99
     duration: 0.5
-    size: 1.0
+    size: 1
     sound: BT_Skill_missilelock
     offset: "0,0"
   }
@@ -1725,7 +1725,7 @@
     code: bomb_shuzi00
     description: 倒计时0
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1735,7 +1735,7 @@
     code: bomb_shuzi01
     description: 倒计时1
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1745,7 +1745,7 @@
     code: bomb_shuzi02
     description: 倒计时2
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1755,7 +1755,7 @@
     code: bomb_shuzi03
     description: 倒计时3
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1765,7 +1765,7 @@
     code: bomb_shuzi04
     description: 倒计时4
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1775,7 +1775,7 @@
     code: bomb_shuzi05
     description: 倒计时5
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1785,7 +1785,7 @@
     code: bomb_shuzi06
     description: 倒计时6
     priority: 5
-    duration: 1.0
+    duration: 1
     size: 1.6
     offset: "0,0"
   }
@@ -1793,7 +1793,7 @@
     id: 9490401
     name: 【标记】提示特效，亮星星
     code: ddl_xingxing
-    duration: 1.0
+    duration: 1
     size: 0.02
     offset: "0,0"
   }
@@ -1802,8 +1802,8 @@
     name: 【标记】通用打断循环音效
     code: Empty
     description: 【标记】通用打断循环音效
-    duration: 1.0
-    size: 1.0
+    duration: 1
+    size: 1
     sound: Stop_UI_loop
     offset: "0,0"
   }
