@@ -22318,6 +22318,17 @@
     drop_item: 530:70
   }
   {
+    id: 583604
+    name: 默莉朵检测
+    skill_group_id: 583604
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 583604:1
+  }
+  {
     id: 584505
     name: 墙壁初始化
     skill_group_id: 584505
@@ -72056,7 +72067,7 @@
     spot_belong: "-1"
     spot_echelon: "-1"
     cd_time_type: 1
-    start_range: 4
+    start_range: 100
     trigger_id: 100030091&&100040091
     target_id: "958400191"
     mission_buff_minus: 9584001:1

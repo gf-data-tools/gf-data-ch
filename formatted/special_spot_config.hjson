@@ -12595,6 +12595,24 @@
     death_effect_target_type: "-1"
   }
   {
+    id: 583604
+    name: 默莉朵检测
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 583602
+    detect_target_type: "1,301"
+    effect_target_type: "1,301"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 583604
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 584505
     name: 阻挡点
     priority: 99

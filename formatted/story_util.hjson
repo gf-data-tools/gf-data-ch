@@ -9835,6 +9835,7 @@
     id: 928
     mission_id: "11011"
     description: “蜂针系统的含义，就是无孔不入。”
+    scripts: -51-1-1
     campaign: -51
     title: 螫针
     start: -51-1-1
@@ -9868,102 +9869,39 @@
   }
   {
     id: 932
-    mission_id: "11028"
+    mission_id: "11028,11038"
     description: “她们阻拦地越是激烈，就越是证明我们方向的正确。”
     campaign: -51
     bgm: BGM_Frontline
     title: 横断
-    point: 75866:-51-EXT-3-1
-  }
-  {
-    id: 933
-    mission_id: "11038"
-    description: story_util-10000933
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000933
-    point: 76094:-51-EXT-3-1
+    point: 75866:-51-EXT-3-1,76094:-51-EXT-3-1
   }
   {
     id: 934
-    mission_id: "11018"
+    mission_id: "11018,11029,11039"
     description: “她的剑锋已不如初见那般锋利，一点一滴，我们切实地伤害着这头白色的巨兽。”
     campaign: -51
     bgm: BGM_Frontline
     title: 逆光II
-    point: 76372:-51-EXT-3-2
-  }
-  {
-    id: 935
-    mission_id: "11029"
-    description: story_util-10000935
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000935
-    point: 75916:-51-EXT-3-2
-  }
-  {
-    id: 936
-    mission_id: "11039"
-    description: story_util-10000936
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000936
-    point: 76144:-51-EXT-3-2
+    point: 76372:-51-EXT-3-2,75916:-51-EXT-3-2,76144:-51-EXT-3-2
   }
   {
     id: 937
-    mission_id: "11019"
+    mission_id: "11019,11030,11040"
     description: “这一步棋，可以将军。”
     campaign: -51
     bgm: BGM_Frontline
     title: 交错点II
-    point: 76421:-51-EXT-3-3
-  }
-  {
-    id: 938
-    mission_id: "11030"
-    description: story_util-10000938
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000938
-    point: 75965:-51-EXT-3-3
-  }
-  {
-    id: 939
-    mission_id: "11040"
-    description: story_util-10000939
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000939
-    point: 76193:-51-EXT-3-3
+    point: 76421:-51-EXT-3-3,75965:-51-EXT-3-3,76193:-51-EXT-3-3
   }
   {
     id: 940
-    mission_id: "11020"
+    mission_id: "11020,11031,11041"
     description: “在这样诡谲的世界里，她就像是一弯明月——而月亮，终会迎来坠落的时刻。”
     campaign: -51
     bgm: BGM_Frontline
     title: 血月I
-    point: 76455:-51-EXT-3-4
-  }
-  {
-    id: 941
-    mission_id: "11031"
-    description: story_util-10000941
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000941
-    point: 76009:-51-EXT-3-4
-  }
-  {
-    id: 942
-    mission_id: "11041"
-    description: story_util-10000942
-    campaign: -51
-    bgm: BGM_Frontline
-    title: story_util-20000942
-    point: 76237:-51-EXT-3-4
+    point: 76455:-51-EXT-3-4,76009:-51-EXT-3-4,76237:-51-EXT-3-4
   }
   {
     id: 943
@@ -9983,6 +9921,7 @@
     id: 945
     mission_id: "11057"
     description: “我的到来，不是为了验证你们的忠诚，而是授予你们忠诚。”
+    scripts: -51-1-2
     campaign: -51
     title: 黑箱
     start: -51-1-2
@@ -9991,6 +9930,7 @@
     id: 946
     mission_id: "11058"
     description: “要绘画山峦和高地的人，需要来到平原；反过来，为了考察平原，应当登上高山。”
+    scripts: -51-1-3
     campaign: -51
     title: 暗哨
     start: -51-1-3
@@ -9999,6 +9939,7 @@
     id: 947
     mission_id: "11059"
     description: “来自世界各地的英雄乘上他们的阿尔戈号，朝着柏林齐聚，只为了追寻罪恶的金羊毛。”
+    scripts: -51-1-4
     campaign: -51
     title: 追猎I
     start: -51-1-4
@@ -10007,6 +9948,7 @@
     id: 948
     mission_id: "11060"
     description: “在统一日之后，一切都发生着变化，跟不上的人，注定被浪潮淹没。”
+    scripts: -51-1-6
     campaign: -51
     title: 尼刻I
     start: -51-1-6
@@ -10015,6 +9957,7 @@
     id: 949
     mission_id: "11061"
     description: “那里是连飞鸟都无法穿越的死亡之地，我们称它为‘阿佛那斯’”
+    scripts: -51-1-8
     campaign: -51
     title: “死海”
     start: -51-1-8
@@ -10023,6 +9966,7 @@
     id: 950
     mission_id: "11062"
     description: “在对抗外敌之前，我们首先要清理内部的投机分子。”
+    scripts: -51-2-1
     campaign: -51
     title: 摇旌
     start: -51-2-1
@@ -10031,6 +9975,7 @@
     id: 951
     mission_id: "11063"
     description: “我们现在需要一把能迅速刺向对方心脏的尖刀……但最好是别人的刀。”
+    scripts: -51-2-3
     campaign: -51
     title: 辕辙
     start: -51-2-3
@@ -10039,6 +9984,7 @@
     id: 952
     mission_id: "11064"
     description: “我的身份完成这项任务，那么意味着格里芬基地已经得到了将军的庇护。”
+    scripts: -51-2-5
     campaign: -51
     title: 匿伏II
     start: -51-2-5
@@ -10047,6 +9993,7 @@
     id: 953
     mission_id: "11065"
     description: “如果死海是通往地狱的入口，那么我们就是坠入冥府的埃涅阿斯。”
+    scripts: -51-2-7
     campaign: -51
     title: 涡旋
     start: -51-2-7
@@ -10055,6 +10002,7 @@
     id: 954
     mission_id: "11066"
     description: “敬友谊。”
+    scripts: -51-2-8
     campaign: -51
     title: 园丁
     start: -51-2-8
@@ -10063,6 +10011,7 @@
     id: 955
     mission_id: "11067"
     description: “我们现在就是出其不意插向敌方心脏的一把匕首。”
+    scripts: -51-3-1
     campaign: -51
     title: 开首
     start: -51-3-1
@@ -10071,6 +10020,7 @@
     id: 956
     mission_id: "11068"
     description: “我不需要被理解，亦不需要被原谅。”
+    scripts: -51-3-3
     campaign: -51
     title: 逆光I
     start: -51-3-3
@@ -10079,6 +10029,7 @@
     id: 957
     mission_id: "11069"
     description: “所有的线，所有的点，都是为了这里而存在的。”
+    scripts: -51-3-5
     campaign: -51
     title: 交错点I
     start: -51-3-5
@@ -10087,6 +10038,7 @@
     id: 958
     mission_id: "11070"
     description: “我为你们送来了两个王牌，第一个是我，第二个就是它。”
+    scripts: -51-3-7
     campaign: -51
     title: 铁腕
     start: -51-3-7
@@ -10095,6 +10047,7 @@
     id: 959
     mission_id: "11071"
     description: “我不会放弃任何人，至少在我认为我可以不放弃的时候，我不会。”
+    scripts: -51-3-8
     campaign: -51
     title: 裂隙
     start: -51-3-8
@@ -10103,6 +10056,7 @@
     id: 960
     mission_id: "11072"
     description: “这世上的久别重逢，大多令人感动，但也偶有例外。”
+    scripts: -51-3-10
     campaign: -51
     title: 血月II
     start: -51-3-10
@@ -10111,6 +10065,7 @@
     id: 961
     mission_id: "11073"
     description: “月色的微光自两座塔的间隙朝外透出，逆着这光，连飞鸟的影子都不见其色。”
+    scripts: -51-3-12
     campaign: -51
     title: 倒影
     start: -51-3-12
@@ -10119,6 +10074,7 @@
     id: 962
     mission_id: "11074"
     description: “她一直在拯救这个世界，现在，到了我们拯救她的时候了。”
+    scripts: -51-4-1
     campaign: -51
     title: 开道
     start: -51-4-1
@@ -10127,6 +10083,7 @@
     id: 963
     mission_id: "11075"
     description: “朋友未必永远是朋友，敌人也未必永远是敌人。”
+    scripts: -51-4-2
     campaign: -51
     title: 升变
     start: -51-4-2
@@ -10135,6 +10092,7 @@
     id: 964
     mission_id: "11076"
     description: “由我进入愁苦之城，由我进入极乐之塔，由我进入万劫不复的人群中。”
+    scripts: -51-4-3
     campaign: -51
     title: 登塔
     start: -51-4-3
@@ -10143,6 +10101,7 @@
     id: 965
     mission_id: "11077"
     description: “在地狱的门前，飞鸟被折断了翅膀。”
+    scripts: -51-4-5
     campaign: -51
     title: 侵袭
     start: -51-4-5
@@ -10151,6 +10110,7 @@
     id: 966
     mission_id: "11078"
     description: “这一刻，她仿佛回到了那个古旧的洋房，这一次，她双臂俱全，手中的长枪装满了子弹。”
+    scripts: -51-4-7
     campaign: -51
     title: 旧雨II
     start: -51-4-7
@@ -10159,6 +10119,7 @@
     id: 967
     mission_id: "11079"
     description: “凡事都有可能，永远别说永远。”
+    scripts: -51-4-9
     campaign: -51
     title: 孤岛II
     start: -51-4-9
@@ -10167,6 +10128,7 @@
     id: 968
     mission_id: "11080"
     description: “我们都曾见过比这更残酷的地狱，而你们只是注定被跨越的障碍。”
+    scripts: -51-4-11
     campaign: -51
     title: 背叛者II
     start: -51-4-11
@@ -10175,6 +10137,7 @@
     id: 969
     mission_id: "11081"
     description: “我早就知道，到最后，我们都是真正的战友，指挥官。”
+    scripts: -51-4-13
     campaign: -51
     title: 谜底
     start: -51-4-13
@@ -10183,6 +10146,7 @@
     id: 970
     mission_id: "11082"
     description: “在我之前，已有同路人，在我之后，必有后继者。”
+    scripts: -51-4-14
     campaign: -51
     title: 终点
     start: -51-4-14
@@ -10191,6 +10155,7 @@
     id: 971
     mission_id: "11047"
     description: “是时候让精英小队以外的人形尝试独自与帕拉蒂斯战斗了。”
+    scripts: -51-slg-mission-1
     campaign: -51
     title: 推演I
     start: -51-slg-mission-1
@@ -10199,6 +10164,7 @@
     id: 972
     mission_id: "11054"
     description: “看样子还为时过早，我们还是应该给她一些援助。”
+    scripts: -51-slg-mission-2
     campaign: -51
     title: 推演II
     start: -51-slg-mission-2
@@ -10207,6 +10173,7 @@
     id: 973
     mission_id: "11055"
     description: “你们已经学会如何应付帕拉蒂斯了，现在开始歼灭他们！”
+    scripts: -51-slg-mission-3
     campaign: -51
     title: 推演III
     start: -51-slg-mission-3
@@ -10215,6 +10182,7 @@
     id: 974
     mission_id: "11056"
     description: “叫她们看看我们格里芬人形的能力吧！”
+    scripts: -51-slg-mission-4
     campaign: -51
     title: 推演Ⅳ
     start: -51-slg-mission-4

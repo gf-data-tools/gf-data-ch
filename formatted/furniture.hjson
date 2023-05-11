@@ -28688,10 +28688,11 @@
     deco_rate: 1000
     decompose_gift: 100003
     description: 她不需要英雄的伪名，亦不渴求他人为她树立丰碑。在这张无人问津的面孔之下，燃烧的是一位无名之辈炽热的灵魂……如果让本人看见，或许会被砸成碎片。
-    code: 2023WinterActivity_Ange_deco
-    texture_type: "2"
-    offset: "0,0,0"
-    rotate: "2"
+    code: 2023WinterActivity_Ange_deco,2023WinterActivity_Ange_decoA
+    texture_type: "2,1"
+    sorting: "10,0"
+    offset: "0.001,1.140,0.264|0.081,-0.035,-0.008"
+    rotate: "2,2"
     interact_point: "64"
     interact_point_offset: *2.771,0.000,0.000
     touch_area: "3,3,3"
