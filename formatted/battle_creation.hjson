@@ -12643,7 +12643,7 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "733"
+    buff_id: "1000005172"
     is_form_play: 1
     scale: "1"
     sound_order: BT_flashbomb_explode
@@ -79836,6 +79836,185 @@
     trigger_creation_id: "9286"
     trigger_creation_delay: "-1"
     sound_order: BT_projectile
+  }
+  {
+    id: 9299
+    name: 法球效果:斯捷奇金和步枪
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2343"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 9300
+    name: 64式傀儡1
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4301"
+  }
+  {
+    id: 9301
+    name: 64式傀儡2
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4302"
+  }
+  {
+    id: 9302
+    name: 64式傀儡3
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4303"
+  }
+  {
+    id: 9303
+    name: 64式傀儡4
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4304"
+  }
+  {
+    id: 9304
+    name: 64式傀儡5
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4305"
+  }
+  {
+    id: 9305
+    name: 64式傀儡6
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4306"
+  }
+  {
+    id: 9306
+    name: 64式傀儡7
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4307"
+  }
+  {
+    id: 9307
+    name: 64式傀儡8
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4308"
+  }
+  {
+    id: 9308
+    name: 64式傀儡9
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4309"
+  }
+  {
+    id: 9309
+    name: 64式傀儡10
+    start_type: "8"
+    start_offset: "0,0,-2"
+    destination_type: "8"
+    destination_offset: "0,0,-2"
+    is_tracing: 1
+    random_number: "1"
+    random_offset: "0,0,0;0.3,0,0;0.6,0,0;-0.3,0,0;0.3,0,0.3;0.6,0,0.3;-0.3,0,0.3;0,0,0.3;0.3,0,-0.3;0.6,0,-0.3;-0.3,0,-0.3;0,0,-0.3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4310"
+  }
+  {
+    id: 9310
+    name: 64式傀儡特效1出现
+    code: P90/P20_HUIBI 5
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "30"
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    is_die_delete: 1
+  }
+  {
+    id: 9311
+    name: 64式傀儡特效2持续
+    code: P90/P20_HUIBI 6
+    start_type: "3"
+    start_offset: "-0.5,0,0.25"
+    destination_type: "3"
+    destination_offset: "-0.5,0,0.25"
+    is_tracing: 1
+    exist_duration: "99999"
+    scale: "0.7,0.7,0.7"
+    is_die_delete: 1
   }
   {
     id: 9740

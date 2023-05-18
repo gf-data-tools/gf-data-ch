@@ -3904,6 +3904,26 @@
     target_type: 1
   }
   {
+    id: 715
+    description: 对我方全体释放-非召唤物
+    target_type: 2
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 3766
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
+    id: 716
+    description: 敌伤害最高
+    target_type: 1
+    target_number: 1
+    select_order: "1000005174"
+    is_ascend_order: "1"
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
     id: 1006
     description: 敌方_最近_嘲讽
     target_type: 1

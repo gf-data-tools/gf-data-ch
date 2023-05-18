@@ -30619,4 +30619,231 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 830101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 830102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 830103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 830104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|98K|DIALOGUE1
+    text: GUN|98K|DIALOGUE1
+    name: 交互1
+    camera: 1
+    delay: 760
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 830105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|98K|PHRASE
+    text: GUN|98K|PHRASE
+    name: 交互2
+    camera: 1
+    voice_code: PHRASE
+  }
+  {
+    id: 830106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|98K|MOOD1
+    text: GUN|98K|MOOD1
+    name: 交互3
+    camera: 1
+    voice_code: MOOD1
+  }
+  {
+    id: 830107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|98K|BLACKACTION
+    text: GUN|98K|BLACKACTION
+    name: 交互4
+    camera: 1
+    voice_code: BLACKACTION
+  }
+  {
+    id: 830108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|98K|LOWMOOD
+    text: GUN|98K|LOWMOOD
+    name: 交互5
+    camera: 1
+    delay: 160
+    voice_code: LOWMOOD
+  }
+  {
+    id: 830109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|98K|DIALOGUEWEDDING
+    text: GUN|98K|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 830110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|98K|SOULCONTRACT
+    text: GUN|98K|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 830111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    voice: GUN|98K|MOOD2
+    name: 晃动响应
+    camera: 1
+    delay: 360
+  }
+  {
+    id: 830112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|98K|HELLO
+    text: GUN|98K|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 5760
+    voice_code: HELLO
+  }
+  {
+    id: 830113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 830114
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|98K|DIALOGUE1
+    text: GUN|98K|DIALOGUE1
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 830115
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|98K|OPERATIONOVER
+    text: GUN|98K|OPERATIONOVER
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 830116
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|98K|RETREAT
+    text: GUN|98K|RETREAT
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 830117
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|98K|BLACKACTION
+    text: GUN|98K|BLACKACTION
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: BLACKACTION
+  }
+  {
+    id: 830118
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|98K|LOADING
+    text: GUN|98K|LOADING
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: LOADING
+  }
+  {
+    id: 830119
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|98K|GAIN
+    text: GUN|98K|GAIN
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: GAIN
+  }
+  {
+    id: 830120
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
 ]

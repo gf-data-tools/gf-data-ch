@@ -47215,6 +47215,171 @@
     forced_skill: "755299"
   }
   {
+    id: 8957
+    name: 斯捷奇金套装装备1
+    conflict_type: 2266
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8958
+    name: 斯捷奇金套装装备2
+    conflict_type: 2267
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8959
+    name: 斯捷奇金套装装备3
+    conflict_type: 2267
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8960
+    name: 64式套装装备1
+    conflict_type: 2268
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8961
+    name: 64式套装装备2
+    conflict_type: 2269
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8962
+    name: 64式套装装备3
+    conflict_type: 2269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8963
+    name: 斯捷奇金套装
+    conflict_type: 2270
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8964
+    name: 斯捷奇金触发
+    conflict_type: 2270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8965
+    name: 斯捷奇金监视
+    conflict_type: 2271
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1028
+  }
+  {
+    id: 8966
+    name: 斯捷奇金嘲讽
+    conflict_type: 2271
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8967
+    name: 斯捷奇金3层失效
+    conflict_type: 2271
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8968
+    name: 斯捷奇金步枪法球
+    conflict_type: 2271
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "3"
+    orb_effect: 75913901
+  }
+  {
+    id: 8969
+    name: 64式套装
+    conflict_type: 2272
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8970
+    name: 64式
+    conflict_type: 2272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8971
+    name: 64式傀儡减伤-1
+    conflict_type: 2271
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005173
+  }
+  {
+    id: 8972
+    name: 64式傀儡亡语易伤3%
+    conflict_type: 2271
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    damage_reduce_number: "103"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

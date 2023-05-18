@@ -27129,6 +27129,268 @@
     rotate: "2"
   }
   {
+    id: 11001
+    name: 七年如绮-木纹地板
+    classes: 110
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: 受限于紧张的经费，格里芬后勤部连夜为地板贴上了木纹贴纸，并清除了所有目击者的记忆。
+    code: Anniversary2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11002
+    name: 七年如绮-碎星夜帘
+    classes: 110
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: “你看那些星星，它们一定都是某颗巨大宝石的碎片，即便被打碎了，也依然不影响它们的美丽。”“是的，也不影响你赔偿被你打碎的那些盘子。”
+    code: Anniversary2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11003
+    name: 七年如绮-烛影燃情
+    classes: 110
+    type: 201
+    position: "2,9"
+    space: "8,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 丰富的装饰品和温暖的烛光，既能将甜点映衬得更加美味，也能在不知觉间悄然掩盖掉甜点缺失的空隙。
+    code: Anniversary2023_deco_01
+    texture_type: "1"
+    offset: "0,-0.291956,0.490069"
+    rotate: "2"
+    touch_area: "8,4,0"
+  }
+  {
+    id: 11004
+    name: 七年如绮-菱形缀
+    classes: 110
+    type: 201
+    position: "17,8"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 简单优雅的菱形结构，悬挂在半空，恰好能点缀窗外的夜色，也恰好能成为醉鬼眼中的三轮月亮。
+    code: Anniversary2023_deco_02
+    texture_type: "1"
+    offset: "0,3.1281,0"
+    rotate: "2"
+    touch_area: "3,5,0,0,10,0"
+  }
+  {
+    id: 11005
+    name: 七年如绮-第七夜乐章
+    classes: 110
+    type: 201
+    position: "24,3"
+    space: "8,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 无人演奏，琴键独自按下再弹起，低沉的乐曲在大厅内徘徊，犹如一阵深沉无奈的惆怅。
+    code: Anniversary2023_deco_03,Anniversary2023_deco_05
+    texture_type: "1,1"
+    sorting: "0,10"
+    offset: "-0.1334656,-0.1188678,0|-0.12511763953,0.531777,0"
+    rotate: "2,2"
+    interact_point: "14"
+    interact_point_offset: *-1.05,2.049,0
+    touch_area: "8,5,0"
+  }
+  {
+    id: 11006
+    name: 七年如绮-回首幕幕
+    classes: 110
+    type: 302
+    position: "6,6"
+    space: "4,9,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 人类历史上第一张可以长久保存的照片诞生于1837年，时至今日，人类依旧会用这种古老的方式记录下生活的瞬间。至于原因，我想会在你凝望照片时出现的。
+    code: Anniversary2023_walldeco_A
+    texture_type: "1"
+    offset: "0,0.250248,0"
+    rotate: "3"
+    touch_area: "4,9,0"
+  }
+  {
+    id: 11007
+    name: 七年如绮-乙醇旋涡
+    classes: 110
+    type: 201
+    position: "23,0"
+    space: "6,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 不要轻易打开酒柜，再警告一次，你打开的不是酒柜，是通向醉酒地狱的大门！
+    code: Anniversary2023_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 11008
+    name: 七年如绮-我们的七年
+    classes: 110
+    type: 201
+    position: "13,0"
+    space: "9,7,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 七是最孤独的数字，但一起走过七年的我们并不孤单。
+    code: Anniversary2023_deco_06,Anniversary2023_balloon
+    texture_type: "1,2"
+    sorting: "10,0"
+    offset: "-0.271102,-0.855014,0.750744|-0.20854,1.543196,1.324229"
+    rotate: "2,2"
+    touch_area: "9,7,0"
+  }
+  {
+    id: 11009
+    name: 七年如绮-悠扬的台阶
+    classes: 110
+    type: 201
+    position: "32,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 通向美妙音乐的道路，楼梯很难走，仿佛是想让来者知道每一个音符的演绎有多不易。
+    code: Anniversary2023_deco_07
+    texture_type: "1"
+    offset: "0.125124,-0.281529,0.20854"
+    rotate: "2"
+  }
+  {
+    id: 11010
+    name: 七年如绮-明亮的台阶
+    classes: 110
+    type: 201
+    position: "0,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 通向燃烧蜡烛的道路，楼梯很难走，仿佛是想让来者知道每一寸光明的来临有多不易。
+    code: Anniversary2023_deco_08,Anniversary2023_deco_09
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0,0,0|0.0041708,4.4888235,1.0364438"
+    rotate: "2,2"
+  }
+  {
+    id: 11011
+    name: 七年如绮-鸮形报时器
+    classes: 110
+    type: 201
+    position: "6,2"
+    space: "2,2,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: 别问了，它真的不是来送信的，更不会什么魔法。
+    code: Anniversary2023_owl_deco
+    texture_type: "2"
+    offset: "0,0.198113,0"
+    rotate: "2"
+    interact_point: "48"
+    interact_point_offset: *-1.5167,0,0
+    touch_area: "3,6,0"
+  }
+  {
+    id: 11012
+    name: 七年如绮-格琳娜的守望
+    classes: 110
+    type: 201
+    position: "0,12"
+    space: "2,2,1,1,1,1"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: 这位女士虽然无法亲临现场，但通过使用科技手段，她成功让自己也成为了这场庆典的重要组成部分——哦，快看，她上架了新的商品！
+    code: Anniversary2023_deco_10
+    texture_type: "1"
+    offset: "0,-0.31281,0"
+    rotate: "2"
+  }
+  {
+    id: 11013
+    name: 七年如绮-此分此秒
+    classes: 110
+    type: 302
+    position: "8,2"
+    space: "2,3,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: 你以为现在是四点四十五分？还真是。
+    code: Anniversary2023_walldeco_02
+    texture_type: "1"
+    offset: "0,0.20854,0"
+    rotate: "3"
+    touch_area: "2,3,0"
+  }
+  {
+    id: 11014
+    name: 七年如绮-安静的大提琴
+    classes: 110
+    type: 201
+    position: "30,7"
+    space: "4,7,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 随着唯一一位大提琴乐手被拖入酒精旋涡，它也只好陷入了沉默，毕竟大提琴是不被允许加入酒局的。
+    code: Anniversary2023_deco_11,Anniversary2023_deco_12
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0,0,0|-0.1928995,0.500496,0"
+    rotate: "2,2"
+    interact_point: "14"
+    interact_point_offset: *-0.525,2.789,0
+  }
+  {
+    id: 11015
+    name: 七年如绮-仿制鹿头标本
+    classes: 110
+    type: 302
+    position: "25,3"
+    space: "3,6,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 仿制的不仅是标本，更是过去那个鹿群遍野的时代。
+    code: Anniversary2023_walldeco_03
+    texture_type: "1"
+    offset: "0,0.604766,0"
+    rotate: "3"
+    touch_area: "3,6,0"
+  }
+  {
+    id: 11016
+    name: 七年如绮-和平之地
+    classes: 110
+    type: 201
+    position: "20,11"
+    space: "8,3,1,1,1,1"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 厌倦了守卫国王、皇后，也厌倦了被战车、主教、骑士轮番碾压的士兵们迎来了属于它们的棋局——没有战火纷争，也没有权谋捭阖，只有一群无聊的人虚度时光。
+    code: Anniversary2023_deco_13,Anniversary2023_deco_14,Anniversary2023_deco_15
+    texture_type: "1,1,1"
+    sorting: "0,20,0"
+    offset: "-0.9061063,-0.198113,0|0.021896762562,-0.198113,0|0.9290457,-0.198113,0"
+    rotate: "2,2,2"
+    interact_point: "12,14"
+    interact_point_offset: *-2.2167,1.0528,0|*2.2167,1.0528,0
+    touch_area: "8,4,0"
+  }
+  {
     id: 20000
     name: 名汤·拉王
     classes: 81
@@ -28710,6 +28972,24 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
+  }
+  {
+    id: 20102
+    name: 启幕乐池
+    classes: 81
+    type: 201
+    space: "8,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 舞池已经搭好，少女们也准备就绪，只待首席归位，七周年庆典便可拉开帷幕——等等，谁碰掉了乐谱？！趁她们生气罢演之前，快点捡起来！
+    code: 2023Anniversay_deco_A,2023Anniversay_deco_B,2023Anniversay_deco_C,2023Anniversay_deco_D,2023Anniversay_deco_E
+    texture_type: "1,1,1,1,1"
+    sorting: "0,5,25,25,10"
+    offset: "0,-0.10427,0|0,-0.10427,0|0,-0.10427,0|0,-0.10427,0|0,-0.10427,0"
+    rotate: "2,2,2,2,2"
+    interact_point: "16,16"
+    interact_point_offset: *-1.983,2.959,0.142|*0.146,2.333,0
+    touch_area: "8,4,4"
   }
   {
     id: 30001
@@ -38231,6 +38511,126 @@
     decompose_gift: 100003
     description: MP41的海报。
     code: poster_Piracy2023_MP41
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38301
+    name: Kar98K-转角狐步舞
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Kar98K的海报
+    code: poster_Anniversary2023_98K
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38302
+    name: 沙漠之鹰-玫瑰莺语
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 沙漠之鹰的海报
+    code: poster_Anniversary2023_DesertEagle
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38303
+    name: HS.50-沉醉雪晶
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HS.50的海报
+    code: poster_Anniversary2023_HS50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38304
+    name: 9A-91-追藏的秘密
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 9A-91的海报
+    code: poster_Anniversary2023_9A91
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38305
+    name: MG36-葛根姜骑士
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MG36的海报
+    code: poster_Anniversary2023_MG36
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38306
+    name: Mk48-夜宴捕手
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Mk48的海报
+    code: poster_Anniversary2023_Mk48
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38307
+    name: SR-2-浮沫终结者
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SR-2的海报
+    code: poster_Anniversary2023_SR2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38309
+    name: M1加兰德-耽溺星光
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1加兰德的海报
+    code: poster_Anniversary2023_M1
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

@@ -2759,8 +2759,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:350
+    passive_skill: "759140"
     max_level: 10
     auto_select_id: 18006
+    equip_group_id: 6
     is_show: 1
     obtain_ids: "3016"
   }
@@ -2827,7 +2829,7 @@
     max_level: 10
     auto_select_id: 18008
     is_show: 1
-    obtain_ids: "3025"
+    obtain_ids: "3025,3096"
   }
   {
     id: 106
@@ -3697,9 +3699,10 @@
     exclusive_rate: 3
     bonus_type: dodge:300,critical_percent:350,hit:1000
     skill: 300119
-    passive_skill: "300120"
+    passive_skill: "300120,759147"
     max_level: 10
     auto_select_id: 18027
+    equip_group_id: 5
     is_show: 1
     obtain_ids: "3"
   }
@@ -4903,8 +4906,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:700,critical_percent:350
+    passive_skill: "759132"
     max_level: 10
     auto_select_id: 20023
+    equip_group_id: 5
     is_show: 1
     obtain_ids: "3016"
   }
@@ -6465,9 +6470,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:500
-    passive_skill: "902391"
+    passive_skill: "902391,759141"
     max_level: 10
     auto_select_id: 20035
+    equip_group_id: 6
     is_show: 1
     obtain_ids: "3006"
   }
@@ -8974,7 +8980,7 @@
     max_level: 10
     auto_select_id: 18101
     is_show: 1
-    obtain_ids: "3072"
+    obtain_ids: "3072,3096"
   }
   {
     id: 296
@@ -10500,5 +10506,75 @@
     auto_select_id: 19056
     is_show: 1
     obtain_ids: "3085"
+  }
+  {
+    id: 342
+    name: 57式信号枪
+    description:
+      '''
+      命中+<hit>
+      梯队命中+20%$斯捷奇金改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_斯捷奇金Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20007"
+    equip_introduction: 斯捷奇金一直随身携带的信号枪，经过IOP的改造后能更好地辅助队伍作战。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "759133,759034"
+    max_level: 10
+    auto_select_id: 19057
+    equip_group_id: 5
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队命中+20%
+  }
+  {
+    id: 343
+    name: 64式信号枪
+    description:
+      '''
+      命中+<hit>
+      梯队命中+20%$64式改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_64式Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20094"
+    equip_introduction: 64式最爱使用的信号枪，经过IOP的改造后更方便战时指挥和联络。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "759142,759034"
+    max_level: 10
+    auto_select_id: 19058
+    equip_group_id: 6
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队命中+20%
   }
 ]
