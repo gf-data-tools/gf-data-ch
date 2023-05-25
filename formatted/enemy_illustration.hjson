@@ -3450,6 +3450,7 @@
     enemy_skill: "174,175,176"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "50,50,1"
+    org_id: 10603
   }
   {
     id: 177
@@ -4191,6 +4192,28 @@
     enemy_skill: "130"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "100,100,1"
+  }
+  {
+    id: 214
+    name: 纱那
+    type: 1
+    code: Nyto_mecha2
+    introduce: 纱那，机甲驾驶特化人形。经过特殊的培养和定制，驾驶机甲对她而言几乎没有负担，可以长时间操纵机甲战斗。因此，即便防御再厚，也很难长时间抵挡拥有极强的火力输出和持久的战斗力的她。不同于其他帕拉蒂斯，纱那的记忆全部来自于名为”纱那“的人类女孩，被期望成为”纱那“的她却对这份记忆感到陌生和撕裂，她或许也在期待着某天能够摘下面具，成为自己……
+    forces: 3
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 6
+    rate_rank: 4
+    speed_rank: 6
+    range_rank: 7
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,216"
+    enemy_skill: "211,212,213,214,215,216"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "70,70,1"
+    org_id: 10604
   }
   {
     id: 100001

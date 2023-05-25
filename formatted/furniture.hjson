@@ -19446,6 +19446,41 @@
     touch_area: "5,5,5"
   }
   {
+    id: 7240
+    name: 喧闹之石
+    classes: 72
+    type: 201
+    space: "4,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 荒草横生之处的墓碑，常常吸引游荡的幽灵聚集。如果用惨白的蜡烛点缀一下气氛，它们将非常乐意就地举办一场茶话会。
+    code: qjyd_20230501_deco_01
+    texture_type: "2"
+    sorting: "20"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "48"
+    interact_point_offset: *-2.3,0.05,0
+    touch_area: "4,4,0"
+  }
+  {
+    id: 7241
+    name: 秘境之门
+    classes: 72
+    type: 201
+    space: "6,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 传说可以涤荡心灵、通往神域的朱红色东方建筑。如果到访的是个不虔诚的家伙，很可能会被驻扎此地的狐仙君和祂的朋友们群殴。
+    code: qjyd_20230502_deco,qjyd_20230502_deco_01,qjyd_20230502_deco_02
+    texture_type: "1,2,2"
+    sorting: "10,20,0"
+    offset: "0,0,0|0.010427,0.062562,0|0,0.062562,0"
+    rotate: "2,2,2"
+    interact_point: "69"
+    interact_point_offset: *0,0.06,0
+  }
+  {
     id: 7301
     name: 水族馆-地板
     classes: 73

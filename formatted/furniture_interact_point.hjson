@@ -523,6 +523,15 @@
     end_action: sit
   }
   {
+    id: 69
+    gun_action: wait
+    is_cover: -1
+    sorting: 10
+    furiniture_action_interact: ",action,action"
+    direction: -1
+    end_action: wait
+  }
+  {
     id: 104
     gun_action: bird_sit
     is_cover: -1

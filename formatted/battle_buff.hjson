@@ -47072,7 +47072,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "-1"
+    duration: "10"
     boss_available: 1
     watch_id: 1026
   }
@@ -47083,7 +47083,7 @@
     max_tier: 1
     type: 400
     duration_type: 1
-    duration: "-1"
+    duration: "10"
     boss_available: 1
     watch_id: 1027
   }
@@ -47094,7 +47094,7 @@
     max_tier: 1
     type: 400
     duration_type: 1
-    duration: "-1"
+    duration: "10"
     boss_available: 1
     watch_id: 1024
   }
@@ -47105,7 +47105,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "-1"
+    duration: "10"
     boss_available: 1
     watch_id: 1025
   }
@@ -47378,6 +47378,243 @@
     duration: "600"
     boss_available: 1
     damage_reduce_number: "103"
+  }
+  {
+    id: 8973
+    name: 机娘普攻轮次
+    conflict_type: 2273
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8974
+    name: 机娘三技能触发
+    conflict_type: 2273
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8975
+    name: 纱那锁定
+    conflict_type: 2274
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9356"
+    watch_id: 1029
+  }
+  {
+    id: 8976
+    name: 机娘四技能射速数值
+    conflict_type: 2274
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8977
+    name: 机娘四技能射速
+    conflict_type: 2274
+    max_tier: 5
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+  }
+  {
+    id: 8978
+    name: 机娘三技能非boss伤害
+    conflict_type: 2274
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    pow_number: *201
+  }
+  {
+    id: 8979
+    name: 机娘三技能非boss射速
+    conflict_type: 2274
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    rate_number: *202
+  }
+  {
+    id: 8980
+    name: 机娘三技能非boss命中
+    conflict_type: 2274
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    hit_number: *203
+  }
+  {
+    id: 8981
+    name: 机娘一技能提伤数值
+    conflict_type: 2275
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8982
+    name: 机娘二技能护甲停止
+    conflict_type: 2275
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "295"
+    boss_available: 1
+  }
+  {
+    id: 8983
+    name: 机娘护甲削弱
+    conflict_type: 2275
+    max_tier: 1
+    type: 808
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *102
+  }
+  {
+    id: 8984
+    name: 机娘反馈再次二技能触发
+    conflict_type: 2276
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8985
+    name: 机娘清盾技能
+    conflict_type: 2276
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750794"
+  }
+  {
+    id: 8986
+    name: 机娘激光特效技能
+    conflict_type: 2277
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750796"
+  }
+  {
+    id: 8987
+    name: 机娘激光停止技能
+    conflict_type: 2277
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750797"
+  }
+  {
+    id: 8988
+    name: 机娘停止触发
+    conflict_type: 2278
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8989
+    name: 纱那
+    conflict_type: 2278
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8990
+    name: 纱那范围内
+    conflict_type: 2279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+  }
+  {
+    id: 8991
+    name: 1887触发
+    conflict_type: 2279
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8992
+    name: 1887装备
+    conflict_type: 2280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8993
+    name: 1887目标
+    conflict_type: 2280
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8994
+    name: 1887额外伤害触发
+    conflict_type: 2281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8995
+    name: 备用
+    conflict_type: 2281
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 10000

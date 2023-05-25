@@ -10577,4 +10577,135 @@
     obtain_ids: "3096"
     sp_description: 梯队命中+20%
   }
+  {
+    id: 344
+    name: 特制尼龙握把
+    description:
+      '''
+      回避+<dodge>
+      暴击概率+<critical_percent><%>$布伦·坦专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "8,11"
+    critical_percent: "16,20"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: 配件_特殊_BrenTen
+    develop_duration: 3540
+    company: IOP
+    fit_guns: "139"
+    equip_introduction: 专为布伦·坦设计的尼龙制握把，大大地提升了握持手感。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:1000,critical_percent:500
+    max_level: 10
+    auto_select_id: 18114
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 345
+    name: 特制骨架式枪托
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      伤害+<pow>$M1A1专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    critical_percent: "20,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_M1A1
+    develop_duration: 2700
+    company: IOP
+    fit_guns: "35"
+    equip_introduction: 专为M1A1设计的骨架式枪托，相比常见的金属折叠枪托，在折叠结构上进行了升级改良。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,pow:1000
+    max_level: 10
+    auto_select_id: 18115
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 346
+    name: 托卡列夫手枪弹
+    description:
+      '''
+      伤害+<pow>
+      穿甲<armor_piercing>$托卡列夫专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "8,10"
+    armor_piercing: "-10,-7"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_托卡列夫
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "6"
+    equip_introduction: 在旧世界战场中使用的一种子弹，是托卡列夫非常喜欢使用的规格。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    max_level: 10
+    auto_select_id: 19059
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 347
+    name: mk87改进型突击盾
+    description:
+      '''
+      移速+<speed>
+      护甲+<armor>$M1887专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "1,1"
+    armor: "3,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: 人形_特殊_M1887
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "151"
+    equip_introduction: IOP在M1887原有的盾牌上进行了模块化改造后的技术结晶，同时优化了制作工艺大大提升了防弹效能。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:700
+    passive_skill: "759155"
+    max_level: 10
+    auto_select_id: 20058
+    is_show: 1
+    obtain_ids: "3086"
+  }
 ]

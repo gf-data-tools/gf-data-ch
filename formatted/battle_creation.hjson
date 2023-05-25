@@ -65413,9 +65413,9 @@
     id: 8325
     name: NOVA一排判断
     start_type: "8"
-    start_offset: "-1.5,0,0"
+    start_offset: "-0.5,0,0"
     destination_type: "8"
-    destination_offset: "-1.5,0,0"
+    destination_offset: "-0.5,0,0"
     is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
@@ -65448,16 +65448,12 @@
   {
     id: 8327
     name: NOVA一排护盾
-    start_type: "8"
-    start_offset: "-1.5"
-    destination_type: "8"
-    destination_offset: "-1.5"
-    is_tracing: 1
+    start_type: "3"
+    destination_type: "3"
     exist_duration: "15"
     effect_type: 1
-    effect_area: 2
-    effect_param_1: "2"
-    effect_param_2: "20"
+    effect_area: 3
+    effect_param_1: "3,8,18,23"
     buff_id: 7789:1
     scale: "1"
     is_die_delete: 1
@@ -80015,6 +80011,1181 @@
     exist_duration: "99999"
     scale: "0.7,0.7,0.7"
     is_die_delete: 1
+  }
+  {
+    id: 9312
+    name: 机娘纱那普攻子弹左
+    code: valkyria/zidan3_Nvws
+    start_type: Rgun1
+    start_offset: "-0.2,-0.3,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    scale: "0.6,0.4,0.4"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9313
+    name: 机娘纱那普攻子弹右伤害
+    code: valkyria/zidan3_Nvws
+    start_type: Rgun1
+    start_offset: "1,-0.2,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2344"
+    scale: "0.6,0.4,0.4"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9314
+    name: 机娘纱那普攻枪火左
+    code: Xmasdestroyer/SD_phz_fire01
+    start_type: Rgun1
+    start_offset: "-1.2,-0.3,0"
+    destination_type: Rgun1
+    destination_offset: "-1.2,-0.3,0"
+    exist_duration: "15"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9315
+    name: 机娘纱那普攻枪火右
+    code: Xmasdestroyer/SD_phz_fire01
+    start_type: Rgun1
+    start_offset: "0,-0.2,0"
+    destination_type: Rgun1
+    destination_offset: "0,-0.2,0"
+    exist_duration: "15"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9316
+    name: 机娘三技能烟雾弹
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile12
+    start_offset: "-0.5,0,0"
+    destination_type: "6"
+    destination_offset: "-1"
+    decision_offset: "-3"
+    is_clone: 1
+    route_type: 2
+    route_hight: 800
+    speed: 1500
+    spin_velocity: -800
+    rotate: "0,0,-100"
+    scale: "0.2,0.2,0.2"
+    trigger_creation_id: "9317,9318"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_gasbomb_woosh
+  }
+  {
+    id: 9317
+    name: 机娘三技能烟雾弹地面效果
+    code: 2023ss/23ss_boss_quan
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: *103
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 8978:1,8979:1,8980:1
+    buff_cd: "3,3,3"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_gasbomb_explode
+  }
+  {
+    id: 9318
+    name: 机娘三技能烟雾弹地面效果
+    code: Smoke
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: *103
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9319
+    name: 机娘一技能导弹组对人
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    route_type: 1
+    speed: 1500
+    hurt_id: "2345"
+    scale: "-0.15,0.15,0.15"
+    trigger_creation_id: "9320"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9320
+    name: 机娘对人爆炸
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "100"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9321
+    name: 机娘二技能激光
+    code: 2023ss/23ss_boss_djg
+    start_type: "1"
+    start_offset: "-1.5,-0.1,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 1800
+    rotate: "0,0,20"
+    hurt_id: "2346"
+    creation_type: 2
+    scale: "0.7,0.4,0.4"
+    trigger_creation_id: "9322"
+    trigger_creation_delay: "-1"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9322
+    name: 机娘激光受击
+    code: Dianshu_xh_zt
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "16"
+    creation_type: 2
+    scale: "1.2,1.2,1.2"
+  }
+  {
+    id: 9323
+    name: 机娘跳弹激光
+    code: JQ_GCS_line
+    start_type: "2"
+    destination_type: "5"
+    exist_duration: *101
+    creation_type: 6
+    scale: "1"
+    trigger_creation_id: "9325"
+    trigger_creation_delay: "6"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9324
+    name: 机娘二技能激光无特效
+    start_type: "1"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    hurt_id: "2346"
+    scale: "1"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9325
+    name: 机娘受击2
+    code: Dianshu_xh_zt
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "16"
+    creation_type: 2
+    scale: "1.2,1.2,1.2"
+  }
+  {
+    id: 9326
+    name: 机娘大招导弹组非雷达2
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.1,0"
+    destination_type: "8"
+    destination_offset: "4,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 150
+    speed: 1400
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9338"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9327
+    name: 机娘大招导弹组非雷达3
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.2,0"
+    destination_type: "8"
+    destination_offset: "4,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 300
+    speed: 1000
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9339"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9328
+    name: 机娘大招导弹组非雷达4
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.1,0"
+    destination_type: "8"
+    destination_offset: "4,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -200
+    speed: 1800
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9340"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9329
+    name: 机娘大招导弹组非雷达5
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.2,0"
+    destination_type: "8"
+    destination_offset: "4,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -300
+    speed: 1200
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9341"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9330
+    name: 机娘大招导弹组非雷达6
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.2,0"
+    destination_type: "8"
+    destination_offset: "4,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 400
+    speed: 1200
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9342"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9331
+    name: 机娘大招导弹组雷达1
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0,0"
+    destination_type: "8"
+    destination_offset: "9,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 100
+    speed: 1600
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9337"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9332
+    name: 机娘大招导弹组雷达2
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0,0"
+    destination_type: "8"
+    destination_offset: "9,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -400
+    speed: 1600
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9338"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9333
+    name: 机娘大招导弹组雷达3
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.1,0"
+    destination_type: "8"
+    destination_offset: "9,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 250
+    speed: 1400
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9339"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9334
+    name: 机娘大招导弹组雷达4
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.2,0"
+    destination_type: "8"
+    destination_offset: "9,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 350
+    speed: 1000
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9340"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9335
+    name: 机娘大招导弹组雷达5
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.1,0"
+    destination_type: "8"
+    destination_offset: "9,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -200
+    speed: 1800
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9341"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9336
+    name: 机娘大招导弹组雷达6
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.2,0"
+    destination_type: "8"
+    destination_offset: "9,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -300
+    speed: 1200
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9342"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9337
+    name: 机娘一技能导弹组对地结算
+    code: XDZY/XDZY_TY2_sp
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "-4,0,0;-2,0,0;-4,0,3;-2,0,3;-4,0,-3;-2,0,-3;0,0,0;0,0,3;0,0,-3"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9338
+    name: 机娘对人爆炸
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "-4,0,0;-2,0,0;-4,0,3;-2,0,3;-4,0,-3;-2,0,-3;0,0,0;0,0,3;0,0,-3"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9339
+    name: 机娘一技能导弹组对地结算
+    code: XDZY/XDZY_TY2_sp
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "-3.5,0,0;-1.5,0,0;-3.5,0,2.5;-1.5,0,2.5;-3.5,0,-2.5;-1.5,0,-2.5;0,0,0;0,0,2.5;0,0,-2.5"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9340
+    name: 机娘一技能导弹组对地结算
+    code: XDZY/XDZY_TY2_sp
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "-3,0,0;-1,0,0;-3,0,2;-1,0,2;-3,0,-2;-1,0,-2;0,0,0;0,0,2;0,0,-2"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9341
+    name: 机娘对人爆炸
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "-3.5,0,0;-1.5,0,0;-3.5,0,2.5;-1.5,0,2.5;-3.5,0,-2.5;-1.5,0,-2.5;0,0,0;0,0,2.5;0,0,-2.5"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9342
+    name: 机娘对人爆炸
+    code: 2022summer/FHZZ_dd_bao
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "-3,0,0;-1,0,0;-3,0,2;-1,0,2;-3,0,-2;-1,0,-2;0,0,0;0,0,2;0,0,-2"
+    exist_duration: "60"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9343
+    name: 机娘大招垂发导弹雷达1
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0,0"
+    destination_type: "8"
+    destination_offset: "9,0,0"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 500
+    speed: 900
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9337"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9344
+    name: 机娘大招垂发导弹雷达2
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0,0"
+    destination_type: "8"
+    destination_offset: "8,0,-6"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 500
+    speed: 900
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9338"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9345
+    name: 机娘大招垂发导弹雷达3
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.1,0"
+    destination_type: "8"
+    destination_offset: "7,0,0"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 700
+    speed: 1000
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9339"
+    trigger_creation_delay: "-1"
+    sound_order: BT_projectile
+  }
+  {
+    id: 9346
+    name: 机娘大招垂发导弹雷达4
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.2,0"
+    destination_type: "8"
+    destination_offset: "8,0,-6"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 700
+    speed: 1000
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9340"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9347
+    name: 机娘大招垂发导弹雷达5
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.1,0"
+    destination_type: "8"
+    destination_offset: "6,0,0"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 800
+    speed: 1300
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9341"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9348
+    name: 机娘大招垂发导弹雷达6
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.2,0"
+    destination_type: "8"
+    destination_offset: "5,0,-6"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 800
+    speed: 1300
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9342"
+    trigger_creation_delay: "-1"
+    sound_order: BT_projectile
+  }
+  {
+    id: 9349
+    name: 机娘大招垂发导弹非雷达1
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0,0"
+    destination_type: "8"
+    destination_offset: "6,0,-0"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 500
+    speed: 900
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9337"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9350
+    name: 机娘大招垂发导弹非雷达2
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.1,0"
+    destination_type: "8"
+    destination_offset: "6,0,-6"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 500
+    speed: 900
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9338"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9351
+    name: 机娘大招垂发导弹非雷达3
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0.2,0"
+    destination_type: "8"
+    destination_offset: "5,0,-0"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 700
+    speed: 1000
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9339"
+    trigger_creation_delay: "-1"
+    sound_order: BT_projectile
+  }
+  {
+    id: 9352
+    name: 机娘大招垂发导弹非雷达4
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.1,0"
+    destination_type: "8"
+    destination_offset: "4,0,-6"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 700
+    speed: 1000
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9340"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9353
+    name: 机娘大招垂发导弹非雷达5
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.2,0"
+    destination_type: "8"
+    destination_offset: "3,0,-0"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 800
+    speed: 1300
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9341"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9354
+    name: 机娘大招导弹组非雷达1
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.6,0,0"
+    destination_type: "8"
+    destination_offset: "4,0,-3"
+    decision_offset: "-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -150
+    speed: 1600
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9337"
+    trigger_creation_delay: "-1"
+    sound_order: BT_MissileLaunch
+  }
+  {
+    id: 9355
+    name: 机娘大招垂发导弹非雷达6
+    code: 2023ss/23ss_boss_dd
+    start_type: guidedmissile8
+    start_offset: "0.5,0.2,0"
+    destination_type: "8"
+    destination_offset: "3,0,-6"
+    decision_offset: "-4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 800
+    speed: 1300
+    spin_velocity: -600
+    rotate: "0,0,-100"
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "9342"
+    trigger_creation_delay: "-1"
+    sound_order: BT_projectile
+  }
+  {
+    id: 9356
+    name: 暴露眼睛sana
+    code: 2023ss/23ss_boss_yj
+    start_type: "3"
+    start_offset: "-1.2,2,0"
+    destination_type: "3"
+    destination_offset: "-1.2,2,0"
+    is_tracing: 1
+    creation_type: 2
+    scale: "-0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 9357
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2347"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9358
+    name: 霰弹枪击退伤害
+    code: M26_dilie
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "2348"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9359
+    name: 霰弹枪触发
+    start_type: "8"
+    start_offset: "-4"
+    destination_type: "8"
+    destination_offset: "-4"
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "50"
+    buff_id: "8994"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9360
+    name: 机娘二技能激光无伤
+    code: 2023ss/23ss_boss_djg
+    start_type: "1"
+    start_offset: "-1.5,-0.1,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 1800
+    rotate: "0,0,20"
+    creation_type: 2
+    scale: "0.7,0.4,0.4"
+    trigger_creation_delay: "-1"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 9361
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2349"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9362
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2350"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9363
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2351"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9364
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2352"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9365
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2353"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9366
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2354"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9367
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2355"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9368
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2356"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9369
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2357"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9370
+    name: 霰弹枪终结者
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2358"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9371
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2359"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9372
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2360"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9373
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2361"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9374
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2362"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9375
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2363"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9376
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2364"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9377
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2365"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9378
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2366"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9379
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2367"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 9380
+    name: 霰弹枪终结者装备
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2368"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
   }
   {
     id: 9740
