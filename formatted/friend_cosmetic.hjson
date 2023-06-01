@@ -16468,6 +16468,7 @@
     sub_type: 1
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profilePic_friendmall_PA15
     order: 1
     rarity: 5
@@ -16479,10 +16480,66 @@
     sub_type: 2
     gem: 320
     item_ids: 508-8000
+    onsale: 1
     code: card_friendmall_PA15
     order: 1
     rarity: 5
     event_id: 2735
+  }
+  {
+    id: 1316
+    item_id: 2316
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_QBZ191
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1317
+    item_id: 2317
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_QBZ191
+    order: 1
+    rarity: 5
+    skin: 30008
+  }
+  {
+    id: 1318
+    item_id: 2318
+    sub_type: 1
+    code: profilePic_ChessFlight_season11_1
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200008
+    logo_code: logo_flightchess_major
+  }
+  {
+    id: 1319
+    item_id: 2319
+    sub_type: 1
+    code: profilePic_ChessFlight_season11_2
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200007
+    logo_code: logo_flightchess_general
+  }
+  {
+    id: 1320
+    item_id: 2320
+    sub_type: 1
+    code: profilePic_ChessFlight_season11_3
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200006
+    logo_code: logo_flightchess_chief
   }
   {
     id: 100001
@@ -16661,10 +16718,20 @@
     sub_type: 4
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profileFrame_friendmall_PA15
     order: 1
     rarity: 5
     filter_type: "5"
     event_id: 2741
+  }
+  {
+    id: 100023
+    item_id: 200023
+    sub_type: 4
+    code: profileFrame_BattlePass_QBZ191
+    order: 1
+    rarity: 5
+    filter_type: "5"
   }
 ]
