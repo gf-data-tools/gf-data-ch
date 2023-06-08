@@ -4021,6 +4021,47 @@
     buff_trigger_type: 6
   }
   {
+    id: 726
+    description: 我方输出最高的单位
+    target_type: 2
+    target_number: 1
+    select_order: "12"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+  }
+  {
+    id: 727
+    description: 全体敌方精英单位
+    target_type: 1
+    list_ranking: 1
+    target_buff_id: 459
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
+    id: 728
+    description: hk433榴弹目标
+    target_type: 1
+    target_number: 1
+    is_ascend_order: "1"
+    list_ranking: 1
+    target_buff_id: 9005
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 729
+    description: 影响格随机加
+    target_type: 2
+    target_number: 1
+    is_ascend_order: "1"
+    list_ranking: 1
+    target_buff_id: 9016
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
     id: 1006
     description: 敌方_最近_嘲讽
     target_type: 1

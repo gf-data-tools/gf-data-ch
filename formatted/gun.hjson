@@ -30690,6 +30690,193 @@
     recommended_team_ids: "5"
   }
   {
+    id: 388
+    name: QBU-191
+    en_name: QBU-191
+    code: QBU191
+    extra: 陆银,,
+    en_introduce:
+      '''
+      Type                       Rifle
+      Mass                       4 kg 
+      Length                     710mm stock collapsed
+                                 950mm stock extended
+      Barrel length              551.2 mm
+      Caliber                    5.8 x 42 mm
+      Rate of fire               700 rpm
+      Effective firing range     800 m
+      Feed system                30 rounds
+      '''
+    type: 3
+    rank: 5
+    develop_duration: 17760
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 110
+    ratio_pow: 115
+    ratio_rate: 110
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 110
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 750801
+    normal_attack: 300104
+    passive_skill: "750814,750815,750816,750817,750818,750819,750820,750821,750823,750827,750829"
+    dynamic_passive_skill: "750822"
+    effect_grid_center: 13
+    effect_grid_pos: "12,8,18,14"
+    effect_grid_effect: "1,10;2,10;3,10"
+    type_equip1: 2;5,8
+    type_equip2: 1;1,2,3,13
+    type_equip3: 3;15
+    ai: 241
+    launch_time: 2023-06-02 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_China
+    org_id: 10201
+    show_damage_skin: ",0,"
+    gun_tag_ids: "136,108,10101"
+    atk_speed_max: 125
+    ratio_rec: 110
+    recommended_team_ids: "2,4"
+  }
+  {
+    id: 389
+    name: 博斯
+    en_name: Boys
+    code: BoysAntiTank
+    extra: 鈴ノ,,
+    en_introduce:
+      '''
+      Type                       Rifle
+      Mass                       35 lb (16 kg)
+      Length                      5 ft 2 in (1.57 m)
+      Barrel length               36 in (910 mm)
+      Cartridge                   .55 Boys
+      Caliber                    0.55 in (14 mm)
+      Action                     Bolt-action rifle
+      Rate of fire               10 round/min
+      Muzzle velocity            Mk I: 747 m/s (2,450 ft/s)
+                                 Mk II: 884 m/s (2,900 ft/s)
+      Effective firing range     460 m
+      Feed system                5-round detachable box magazine
+      '''
+    type: 3
+    rank: 5
+    develop_duration: 17880
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 90
+    ratio_pow: 140
+    ratio_rate: 85
+    ratio_speed: 100
+    ratio_hit: 125
+    ratio_dodge: 80
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 132
+    ratio_range: 100
+    skill1: 750799
+    normal_attack: 750802
+    passive_skill: "750803"
+    dynamic_passive_skill: "750804"
+    effect_grid_center: 14
+    effect_guntype: "1"
+    effect_grid_pos: "18,14,19,15"
+    effect_grid_effect: "6,18"
+    type_equip1: 2;5
+    type_equip2: 1;1,2,3,13
+    type_equip3: 3;15
+    ai: 241
+    launch_time: 2023-06-02 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    org_id: 10202
+    show_damage_skin: ",0,"
+    gun_tag_ids: "124,144,103"
+    atk_speed_max: 125
+    ratio_rec: 90
+    recommended_team_ids: "4"
+  }
+  {
+    id: 390
+    name: HK433
+    en_name: HK433
+    code: HK433
+    extra: 豆包,,
+    en_introduce:
+      '''
+      Type                       Assault rifle
+      Mass                       3.25 kg (7.2 lb)
+      Length                     577–843 mm (22.7–33.2 in) 
+      Barrel length              280 mm (11 in)    
+      Cartridge                  5.56×45mm NATO
+      Action                     Short-stroke piston
+                                 rotating bolt
+      Rate of fire               850 rounds/min
+      Muzzle velocity            800 m/s (2,600 ft/s)
+      Effective firing range     500–600 m
+      Feed system                30-round detachable STANAG Magazine
+      Sights                     Iron sights and Picatinny rails for various optics
+      '''
+    type: 4
+    rank: 5
+    develop_duration: 16380
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 112
+    ratio_pow: 112
+    ratio_rate: 118
+    ratio_speed: 100
+    ratio_hit: 110
+    ratio_dodge: 110
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 118
+    ratio_range: 100
+    skill1: 750800
+    normal_attack: 750830
+    passive_skill: "750805,750806"
+    dynamic_passive_skill: "750808"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "17,18,19"
+    effect_grid_effect: "2,-10;4,35"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2023-06-02 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_German
+    org_id: 10301
+    show_damage_skin: ",0,"
+    gun_tag_ids: "108,121"
+    atk_speed_max: 135
+    ratio_rec: 112
+    recommended_team_ids: "1,6"
+  }
+  {
     id: 1001
     name: 诺爱尔
     en_name: Noel

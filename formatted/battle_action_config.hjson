@@ -23128,6 +23128,71 @@
     move_order: "1060"
   }
   {
+    id: 8756
+    name: BAT技能步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9381,9382,139,9383,9384,9387"
+    creation_delay: "0,0,0,0,0,0"
+  }
+  {
+    id: 8757
+    name: HK433榴弹
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "15"
+    creation_delay: "19"
+    sound_order: BT_fire_grenade
+    sound_delay: "35"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8758
+    name: 硬币5
+  }
+  {
+    id: 8759
+    name: 硬币10
+  }
+  {
+    id: 8760
+    name: 硬币15
+  }
+  {
+    id: 8761
+    name: 硬币20
+  }
+  {
+    id: 8762
+    name: 硬币25
+  }
+  {
+    id: 8763
+    name: 硬币30
+  }
+  {
+    id: 8764
+    name: 伤害
+    creation_order: "9385"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 8765
+    name: qbu191主动
+    creation_order: "9386"
+  }
+  {
+    id: 8766
+    name: 突击步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "3,7,7,9389,140,140,9389"
+    creation_delay: "0,2,4,3,0,2,8"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
     id: 9001
     name: 狙击妖精
     creation_order: "901,951"

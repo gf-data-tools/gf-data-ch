@@ -81188,6 +81188,245 @@
     sound_order: BT_Shot_1
   }
   {
+    id: 9381
+    name: 步枪子弹轻
+    code: BAT_zidan
+    start_type: "1"
+    destination_type: "5"
+    destination_offset: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 3500
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2369"
+    hurt_cd: "1"
+    buff_id: 8998:1000005196,8999:1000005196
+    buff_cd: "1,1"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.2,1.2,1.2"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 9382
+    name: 我方枪口火光
+    code: BAT_bluefire
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+  }
+  {
+    id: 9383
+    name: 步枪子弹中
+    start_type: "1"
+    destination_type: "5"
+    destination_offset: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 3500
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2370"
+    hurt_cd: "1"
+    buff_id: 9000:1000005197
+    buff_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9384
+    name: 步枪子弹重
+    start_type: "1"
+    destination_type: "5"
+    destination_offset: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 3500
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2371"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9385
+    name: 伤害
+    start_type: "8"
+    destination_type: "8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "99999"
+    hurt_id: "2372"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9386
+    name: qbu191
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "8,18,14,12"
+    buff_id: 1000005214:1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9387
+    name: 步枪子弹召唤物
+    start_type: "1"
+    destination_type: "5"
+    destination_offset: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 3500
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2373"
+    hurt_cd: "1"
+    buff_id: 9028:1
+    buff_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9388
+    name: HK433_mark
+    code: HK433_mark
+    start_type: "3"
+    start_offset: "-1.2,1.8,0"
+    destination_type: "3"
+    destination_offset: "-1.2,1.8,0"
+    is_tracing: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 9389
+    name: 我方枪口火光
+    code: HK433_fire
+    start_type: "1"
+    start_offset: "0.2,-0.2"
+    destination_type: "1"
+    destination_offset: "0.2,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 9390
+    name: 硬币boss
+    code: QBU_G_coin
+    start_type: "3"
+    start_offset: "-0.6,2.1,0"
+    destination_type: "3"
+    destination_offset: "-0.6,2.1,0"
+    is_tracing: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9391
+    name: 硬币精英
+    code: QBU_S_coin
+    start_type: "3"
+    start_offset: "0,2.1,0"
+    destination_type: "3"
+    destination_offset: "0,2.1,0"
+    is_tracing: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9392
+    name: 硬币普通
+    code: QBU_C_coin
+    start_type: "3"
+    start_offset: "0.6,2.1,0"
+    destination_type: "3"
+    destination_offset: "0.6,2.1,0"
+    is_tracing: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9393
+    name: 方块
+    code: QBU_buff
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    is_die_delete: 1
+  }
+  {
+    id: 9394
+    name: bat受击
+    code: Baiqing_fire01
+    start_type: "2"
+    start_offset: "-0.1"
+    destination_type: "2"
+    destination_offset: "-0.1"
+    is_tracing: 1
+    creation_type: 2
+    scale: "0.8,0.8,0.8"
+    is_die_delete: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX

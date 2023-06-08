@@ -47617,6 +47617,373 @@
     boss_available: 1
   }
   {
+    id: 8996
+    name: BAT技能普攻
+    conflict_type: 2282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8997
+    name: BAT普攻触发
+    conflict_type: 2282
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8998
+    name: BAT射速降低
+    conflict_type: 2282
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 8999
+    name: BAT伤害降低
+    conflict_type: 2282
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 9000
+    name: BAT易伤
+    conflict_type: 2282
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    damage_reduce_number: *203
+  }
+  {
+    id: 9001
+    name: HK433伤害提升
+    conflict_type: 2282
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9002
+    name: 输出最高
+    conflict_type: 2283
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "3"
+    boss_available: 1
+  }
+  {
+    id: 9003
+    name: HK433精英半血技能
+    conflict_type: 2283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "750813"
+  }
+  {
+    id: 9004
+    name: HK433触发
+    conflict_type: 2284
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9005
+    name: HK433榴弹目标
+    conflict_type: 2284
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9006
+    name: HK433已触发
+    conflict_type: 2285
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9007
+    name: QBU开局奖励
+    conflict_type: 2285
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9008
+    name: QBU硬币
+    conflict_type: 2286
+    max_tier: 30
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9009
+    name: QBU暴击伤害增加
+    conflict_type: 2286
+    max_tier: 20
+    type: 812
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *201
+  }
+  {
+    id: 9010
+    name: QBU暴击伤害数值
+    conflict_type: 2287
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9011
+    name: QBU暴击伤害时间
+    conflict_type: 2287
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9012
+    name: QBUboss死亡
+    conflict_type: 2288
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1030
+  }
+  {
+    id: 9013
+    name: QBU精英死亡
+    conflict_type: 2288
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1031
+  }
+  {
+    id: 9014
+    name: QBU小怪死亡
+    conflict_type: 2289
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1032
+  }
+  {
+    id: 9015
+    name: QBU在场单位
+    conflict_type: 2289
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9016
+    name: QBU非召唤物反馈技能
+    conflict_type: 2290
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    forced_skill: "750828"
+  }
+  {
+    id: 9017
+    name: QBU触发次数
+    conflict_type: 2290
+    max_tier: 4
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9018
+    name: QBU影响格时间
+    conflict_type: 2291
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9019
+    name: 火力上升
+    description: 火力上升
+    conflict_type: 2291
+    max_tier: 8
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9020
+    name: 命中上升
+    description: 命中上升
+    conflict_type: 2291
+    max_tier: 8
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 9021
+    name: 射速上升
+    description: 射速上升
+    conflict_type: 2291
+    max_tier: 8
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9022
+    name: QBU暴击伤害增加统计
+    conflict_type: 2291
+    max_tier: 20
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9023
+    name: "433"
+    conflict_type: 2292
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9388"
+  }
+  {
+    id: 9024
+    name: 金硬币
+    conflict_type: 2292
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9390"
+  }
+  {
+    id: 9025
+    name: 银硬币
+    conflict_type: 2293
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9391"
+  }
+  {
+    id: 9026
+    name: 铜硬币
+    conflict_type: 2293
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9392"
+  }
+  {
+    id: 9027
+    name: 方块
+    conflict_type: 2294
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9393"
+    is_form_play: 1
+  }
+  {
+    id: 9028
+    name: 受击
+    conflict_type: 2294
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    trigger_creation_id: "9394"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
