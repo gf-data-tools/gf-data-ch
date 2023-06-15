@@ -12616,6 +12616,38 @@
         "formula": "(4+200/@Rate)*30-2+120*sbuffidtier(844401)"
     },
     {
+        "id": 169301,
+        "formula": "tbuffidtier(9048)>0?0:$1"
+    },
+    {
+        "id": 169501,
+        "formula": "tbuffidtier(9049)>0?0:$1"
+    },
+    {
+        "id": 169601,
+        "formula": "tbuffidtier(9050)>0?0:$1"
+    },
+    {
+        "id": 170301,
+        "formula": "tbuffidtier(9048)<1?4367:0"
+    },
+    {
+        "id": 170401,
+        "formula": "tbuffidtier(9049)<1?4367:0"
+    },
+    {
+        "id": 170501,
+        "formula": "tbuffidtier(9048)<1?4368:0"
+    },
+    {
+        "id": 170601,
+        "formula": "tbuffidtier(9049)<1?4368:0"
+    },
+    {
+        "id": 170701,
+        "formula": "tbuffidtier(4366)<1?4368:0"
+    },
+    {
         "id": 331901,
         "formula": "(sbuffidtier(3604)*15)"
     },
