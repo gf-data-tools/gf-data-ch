@@ -25213,6 +25213,215 @@
     confront_des: 本次战役中无法破坏该设施
   }
   {
+    id: 6360001
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;2000017;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】基地选难度
+    code: Hiding
+    shifting_spot: "65,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "363002"
+    active_mission_skill: "6360001,9363070"
+    inherent_mission_skill: "1070100,363022"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#C3C3C3,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 对支援范围内的同归属单位提供战斗支援，战斗中持续对敌方进行炮击打击。
+    confront_des:
+      '''
+      本次战役中可采取的应对手段：
+      踩点破坏、重装打击
+      '''
+  }
+  {
+    id: 6360002
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】npc行动+1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6360002"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360003
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】M4奖励
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6360005"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360004
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:1,1:1
+    name: 控制台I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "6360005"
+    inherent_mission_skill: "6360006"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 0;0
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360005
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门I
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "6360011"
+    inherent_mission_skill: "6360007"
+    type: 6
+    is_focus: "1"
+    transition: Door_Left:0_1,Door_Left:1_3
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 0;0
+    des: 关闭状态下可以阻断道路，关闭时会对所在点上的单位造成一定的伤害。
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360006
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;6360003;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】干扰装置
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6360002"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360007
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;6360008;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】携带emp
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6360002"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360008
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;6360009;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】携带歌利亚
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6360002"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 6360009
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;6360010;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】增益buff
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6360002"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
     id: 6380201
     defender: 99999
     defender_upper: 99999

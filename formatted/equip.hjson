@@ -1492,8 +1492,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:300
+    passive_skill: "759184"
     max_level: 10
     auto_select_id: 20002
+    equip_group_id: 7
     is_show: 1
     obtain_ids: "3"
   }
@@ -3664,8 +3666,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,critical_percent:750
+    passive_skill: "759189"
     max_level: 10
     auto_select_id: 18026
+    equip_group_id: 8
     is_show: 1
     obtain_ids: "3027"
   }
@@ -4447,8 +4451,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:450,hit:400,dodge:500
+    passive_skill: "759185"
     max_level: 10
     auto_select_id: 18038
+    equip_group_id: 7
     is_show: 1
     obtain_ids: "3016"
   }
@@ -7070,7 +7076,7 @@
     max_level: 10
     auto_select_id: 20037
     is_show: 1
-    obtain_ids: "3008"
+    obtain_ids: "3008,3096"
   }
   {
     id: 238
@@ -7133,9 +7139,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:1000
-    passive_skill: "803906"
+    passive_skill: "803906,759190"
     max_level: 10
     auto_select_id: 19030
+    equip_group_id: 8
     is_show: 1
     obtain_ids: "3016"
   }
@@ -7435,7 +7442,7 @@
     max_level: 10
     auto_select_id: 20042
     is_show: 1
-    obtain_ids: "3011"
+    obtain_ids: "3011,3096"
   }
   {
     id: 249
@@ -10707,5 +10714,77 @@
     auto_select_id: 20058
     is_show: 1
     obtain_ids: "3086"
+  }
+  {
+    id: 348
+    name: 特制10毫米Auto弹
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      穿甲<armor_piercing>$MP5改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "5,8"
+    hit: "3,5"
+    armor_piercing: "-10,-7"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_MP5Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20026"
+    equip_introduction: 在10毫米Auto弹的基础上缩短了弹壳，极大地降低了后座冲击力。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000,hit:1000
+    passive_skill: "759186"
+    max_level: 10
+    auto_select_id: 19060
+    equip_group_id: 7
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 349
+    name: 特制通讯耳机
+    description:
+      '''
+      伤害+<pow> 移速+<speed>
+      换弹时间-2秒$MG4改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "1,3"
+    speed: "3,8"
+    skill_effect: 300
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 3
+    code: 人形_特殊_MG4Mod
+    develop_duration: 3540
+    company: IOP
+    fit_guns: "20125"
+    equip_introduction: MG4最常佩戴的头部装备，在高噪音环境中也可以确保通讯清晰，听音时泄漏小，具有良好的保密性。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: pow:700
+    passive_skill: "759062,759191"
+    max_level: 10
+    auto_select_id: 20059
+    equip_group_id: 8
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 换弹时间-2秒
   }
 ]

@@ -38068,6 +38068,257 @@
     special_spot_add: 6350001:1
   }
   {
+    id: 6360001
+    name: Easy_Mod
+    description: 该模式开启后，敌方机场不再有强力敌人增员。※注意：但是这并不影响已经存在于场上的敌人。
+    skill_group_id: 6360001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: "107010091"
+    target_id: "1"
+    subsidiary_mission_skill: "9363069"
+    is_manual: 9363069
+  }
+  {
+    id: 6360002
+    name: 【标记】npc免费1ap
+    code: "1"
+    skill_group_id: 6360002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "301"
+    cd_time_type: 1
+    start_range: 99
+    mission_buff_add: 20101:1,20102:1
+  }
+  {
+    id: 6360003
+    name: 【标记】格里芬移动标记
+    code: "1"
+    skill_group_id: 6360003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "301"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "636308161"
+    mission_buff_add: 6360002:1
+  }
+  {
+    id: 6360004
+    name: 发射干扰
+    code: "1"
+    description: 发射干扰可以使周围1格内的敌人在交战时受到少量伤害且属性下降20%。（持续1回合，效果不可叠加）
+    skill_group_id: 6360004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    subsidiary_mission_skill: "6360017,6360018"
+    is_manual: 6360001
+  }
+  {
+    id: 6360005
+    name: 【标记】M4奖励初始化
+    code: "1"
+    skill_group_id: 6360005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    special_spot_add: 6360005:1
+  }
+  {
+    id: 6360006
+    name: 【标记】404奖励初始化
+    code: "1"
+    skill_group_id: 6360006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    special_spot_add: 6360007:1,6360009:1
+  }
+  {
+    id: 6360007
+    name: 【标记】防御门初始化
+    code: "1"
+    skill_group_id: 6360007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    special_spot_add: 6360011:1
+    subsidiary_mission_skill: "6360019"
+  }
+  {
+    id: 6360008
+    name: 【标记】格里芬携带emp
+    code: "1"
+    skill_group_id: 6360008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "301"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "636308261"
+    mission_buff_add: 6360004:1
+  }
+  {
+    id: 6360009
+    name: 【标记】格里芬携带歌利亚
+    code: "1"
+    skill_group_id: 6360009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "301"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "636308561"
+    mission_buff_add: 6360005:1
+  }
+  {
+    id: 6360010
+    name: 【标记】格里芬携带增益buff
+    code: "1"
+    skill_group_id: 6360010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "301"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "636308661"
+    mission_buff_add: 6360006:1
+  }
+  {
+    id: 6360011
+    name: 投掷EMP
+    code: "1"
+    description: "1,2,3,木头人。"
+    skill_group_id: 6360011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 6560030:1,6360012:1
+    subsidiary_mission_skill: "6360014"
+    is_manual: 6360002
+  }
+  {
+    id: 6360012
+    name: 扔出歌利亚
+    code: "1"
+    description: 炸它个稀巴烂。
+    skill_group_id: 6360012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 6560029:1
+    subsidiary_mission_skill: "6360015"
+    is_manual: 6360003
+  }
+  {
+    id: 6360013
+    name: 增益梯队
+    code: "1"
+    description: 你被强化了，快上。（持续1回合）
+    skill_group_id: 6360013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,3,301,8"
+    cd_time_type: 1
+    start_range: 1
+    mission_buff_add: 6360007:1
+    subsidiary_mission_skill: "6360016"
+    is_manual: 6360004
+  }
+  {
+    id: 6360014
+    name: 【标记】投掷EMP CD
+    code: "1"
+    skill_group_id: 6360014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6360004:1
+  }
+  {
+    id: 6360015
+    name: 【标记】扔出歌利亚 CD
+    code: "1"
+    skill_group_id: 6360015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6360005:1
+  }
+  {
+    id: 6360016
+    name: 【标记】增益梯队 CD
+    code: "1"
+    skill_group_id: 6360016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6360006:1
+  }
+  {
+    id: 6360017
+    name: 【标记】干扰梯队 CD
+    code: "1"
+    skill_group_id: 6360017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6360002:1
+  }
+  {
+    id: 6360018
+    name: 【标记】发射干扰生效
+    code: "1"
+    skill_group_id: 6360018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    start_range: 1
+    mission_buff_add: 6360003:1
+  }
+  {
+    id: 6360019
+    name: 【标记】增强出兵标记
+    skill_group_id: 6360019
+    level: 1
+    spot_type: "3,7"
+    spot_belong: "2"
+    spot_echelon: "-1"
+    start_range: 99
+    special_spot_add: 900001:1
+  }
+  {
     id: 6380201
     name: 【标记】控制台X1初始化
     code: "1"
@@ -64462,7 +64713,6 @@
     target_id: "90000191"
     special_spot_minus: 900001:1
     subsidiary_mission_skill: "9363081"
-    is_manual: 9363069
   }
   {
     id: 9363070

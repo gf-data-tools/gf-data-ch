@@ -601,6 +601,15 @@
     rank: 1
   }
   {
+    id: 123
+    type: 3
+    arg: "24"
+    code: Medal_2020winter_re_rank
+    item_name: 迷境终途勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“偏振光”积分模式“谜境守卫+”中的全力以赴，“纵使绝境将要吞噬一切希望，您也依然能在其中寻见曙光。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -12872,6 +12881,60 @@
     rank: 1
   }
   {
+    id: 2323
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_G11
+    item_name: G11-绒绒翻斗车
+    introduction: G11-绒绒翻斗车
+    rank: 1
+  }
+  {
+    id: 2324
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_M240L
+    item_name: M240L-家有圣骑士
+    introduction: M240L-家有圣骑士
+    rank: 1
+  }
+  {
+    id: 2325
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_AA12
+    item_name: AA-12-糖纸总动员
+    introduction: AA-12-糖纸总动员
+    rank: 1
+  }
+  {
+    id: 2326
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_PSG1
+    item_name: PSG-1-喝啤酒的小犬星
+    introduction: PSG-1-喝啤酒的小犬星
+    rank: 1
+  }
+  {
+    id: 2327
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_C96
+    item_name: C96-偷心魔术师
+    introduction: C96-偷心魔术师
+    rank: 1
+  }
+  {
+    id: 2328
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_M1911
+    item_name: M1911-锡兵奇妙日
+    introduction: M1911-锡兵奇妙日
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -13935,6 +13998,15 @@
     id: 10704
     type: 18
     arg: "10704"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10705
+    type: 18
+    arg: "10705"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -16228,6 +16300,15 @@
     rank: 1
   }
   {
+    id: 110064
+    type: 4
+    arg: "110064"
+    code: EventPT7
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
     id: 120001
     type: 10
     arg: "1"
@@ -16833,6 +16914,15 @@
     code: profileFrame_BattlePass_QBZ191
     item_name: 头像框·与夏为邻
     introduction: 头像框·与夏为邻
+    rank: 1
+  }
+  {
+    id: 200024
+    type: 5
+    arg: "1"
+    code: profileFrame_Concert2023
+    item_name: 头像框：盛夏浪潮
+    introduction: 头像框：盛夏浪潮
     rank: 1
   }
   {
@@ -17696,6 +17786,36 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-闲云野鹤，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500078
+    type: 15
+    arg: "1500078"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500079
+    type: 15
+    arg: "1500079"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500080
+    type: 15
+    arg: "1500080"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
   }

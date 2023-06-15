@@ -4400,6 +4400,114 @@
     priority: -1
   }
   {
+    id: 6360000
+    name: 【标记】NPC标记1
+    description: 初始化
+    type: 1
+    duration_type: "5,1"
+    duration_time: "1,1"
+    exp_buff: "1"
+    special_spot_config_id: 6360001
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6360000
+  }
+  {
+    id: 6360001
+    name: 【标记】NPC标记2
+    description: 移动1
+    type: 1
+    duration_type: "5,1"
+    duration_time: "1,1"
+    exp_buff: "1"
+    special_spot_config_id: 6360002
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6360000
+    priority: 1
+  }
+  {
+    id: 6360002
+    name: 【标记】NPC标记3
+    description: 移动2
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6360000
+    priority: 2
+    carry_mission_skill: "6360004"
+  }
+  {
+    id: 6360003
+    name: 【标记】干扰buff
+    code: debuff
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 759177
+    birth_effect: 1000162
+    conflict_type: -1
+  }
+  {
+    id: 6360004
+    name: 【标记】携带EMPbuff
+    description: 携带EMP手雷
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6360004
+    carry_mission_skill: "6360011"
+  }
+  {
+    id: 6360005
+    name: 【标记】携带歌利亚buff
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6360005
+    carry_mission_skill: "6360012"
+  }
+  {
+    id: 6360006
+    name: 【标记】强化梯队
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6360006
+    carry_mission_skill: "6360013"
+  }
+  {
+    id: 6360007
+    name: 【标记】梯队被强化
+    description: 属性提升
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 759039
+    conflict_type: 6360007
+  }
+  {
+    id: 6360008
+    name: 【标记】M4定身
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 6360008
+  }
+  {
     id: 6410101
     name: 【标记】衔尾蛇自闭1
     code: Wea2

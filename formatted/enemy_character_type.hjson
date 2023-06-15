@@ -20490,6 +20490,34 @@
     enemy_illustration_id: 109
   }
   {
+    id: 900544
+    type: 4
+    name: AA-02 负罪者
+    enemy_info: 耶格尔150昼BOSS新
+    code: Ares
+    maxlife: 380000
+    pow: 52
+    hit: 60
+    dodge: 30
+    range: 20
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 20
+    armor: 120
+    rate: 40
+    def: 99999
+    level: 100
+    character: 精英,巨型,装甲,支援,弱化
+    normal_attack: 406304
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248,740089"
+    effect_ratio: 0.8
+    unable_buff_type: "221"
+    voice: "1,2"
+    deployment_scale: 1
+    enemy_illustration_id: 80
+  }
+  {
     id: 910101
     type: 1
     name: K2

@@ -47984,6 +47984,202 @@
     trigger_creation_id: "9394"
   }
   {
+    id: 9033
+    name: MP5装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9034
+    name: MP5装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9035
+    name: MP5装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9036
+    name: MP5装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9037
+    name: MP5闪避上升5层
+    description: 闪避上升
+    conflict_type: 103
+    max_tier: 5
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 9038
+    name: MP5易伤5层
+    conflict_type: 2297
+    max_tier: 5
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: "94"
+  }
+  {
+    id: 9039
+    name: MG4装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9040
+    name: MG4装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9041
+    name: MG4装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9042
+    name: MG4装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9043
+    name: MG4换弹次数累积
+    conflict_type: 2298
+    max_tier: 20
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9044
+    name: MG4队友护盾
+    conflict_type: 2298
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *101
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+    available_gun_type: "5,6"
+  }
+  {
+    id: 9045
+    name: MG4队友伤害
+    conflict_type: 2298
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *101
+    available_gun_type: "5,6"
+  }
+  {
+    id: 9046
+    name: MG4队友暴击伤害
+    conflict_type: 2298
+    max_tier: 1
+    type: 812
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: *201
+    available_gun_type: "5,6"
+  }
+  {
+    id: 9047
+    name: MG4转换次数
+    conflict_type: 2298
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9048
+    name: MG4弹射1-4358
+    conflict_type: 875
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "3"
+    trigger_creation_id: "9395"
+  }
+  {
+    id: 9049
+    name: MG4弹射2-4359
+    conflict_type: 876
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "3"
+    trigger_creation_id: "9396"
+  }
+  {
+    id: 9050
+    name: MG4弹射3-4366
+    conflict_type: 883
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "3"
+    trigger_creation_id: "9399"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

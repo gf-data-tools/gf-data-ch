@@ -2890,7 +2890,7 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1
-    buff_id_target: 4358:1,4367:1
+    buff_id_target: 1000005223:1,4367:1
     buff_rate: "100"
     hit_type: 1
   }
@@ -7601,6 +7601,81 @@
     is_armor: 1
     hit_type: 1
     fix_damage: 1000005216
+  }
+  {
+    id: 2374
+    description: mg4弹射2-540
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 1000005224:1,1000001703:1,1000001705:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000001693
+  }
+  {
+    id: 2375
+    description: mg4弹射3-541
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 1000005225:1,1000001704:1,1000001706:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000001695
+  }
+  {
+    id: 2376
+    description: mg4弹射4-545
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 4367:1,1000001707
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000001696
+  }
+  {
+    id: 2377
+    description: mg4弹射普通2-546
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000001693
+  }
+  {
+    id: 2378
+    description: mg4弹射普通3-547
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000001695
+  }
+  {
+    id: 2379
+    description: mg4弹射普通4-548
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000001696
   }
   {
     id: 2479

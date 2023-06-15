@@ -30846,4 +30846,241 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 840101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: live2d_motions-10840101
+  }
+  {
+    id: 840102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: live2d_motions-10840102
+    camera: 1
+  }
+  {
+    id: 840103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    voice: GUN|G11|LOADING
+    text: GUN|G11|LOADING
+    name: live2d_motions-10840103
+    camera: 1
+    delay: 4300
+    voice_code: LOADING
+  }
+  {
+    id: 840104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|G11|PHRASE
+    text: GUN|G11|PHRASE
+    name: live2d_motions-10840104
+    camera: 1
+    delay: 630
+    voice_code: PHRASE
+  }
+  {
+    id: 840105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|G11|DIALOGUE1
+    text: GUN|G11|DIALOGUE1
+    name: live2d_motions-10840105
+    camera: 1
+    delay: 630
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 840106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|G11|DIALOGUE3
+    text: GUN|G11|DIALOGUE3
+    name: live2d_motions-10840106
+    camera: 1
+    delay: 530
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 840107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|G11|OPERATIONBEGIN
+    text: GUN|G11|OPERATIONBEGIN
+    name: live2d_motions-10840107
+    camera: 1
+    delay: 560
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 840108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|G11|MOOD1
+    name: live2d_motions-10840108
+    camera: 1
+    delay: 2160
+  }
+  {
+    id: 840109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|G11|DIALOGUEWEDDING
+    text: GUN|G11|DIALOGUEWEDDING
+    name: live2d_motions-10840109
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 840110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|G11|SOULCONTRACT
+    text: GUN|G11|SOULCONTRACT
+    name: live2d_motions-10840110
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 840111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    voice: GUN|G11|LOWMOOD
+    name: live2d_motions-10840111
+    camera: 1
+    delay: 530
+  }
+  {
+    id: 840112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|G11|HELLO
+    text: GUN|G11|HELLO
+    name: live2d_motions-10840112
+    camera: 1
+    delay: 1000
+    voice_code: HELLO
+  }
+  {
+    id: 840113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: live2d_motions-10840113
+    is_hurt: 1
+  }
+  {
+    id: 840114
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|G11|RETREAT
+    text: GUN|G11|RETREAT
+    name: live2d_motions-10840114
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: RETREAT
+  }
+  {
+    id: 840115
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|G11|DIALOGUE3
+    text: GUN|G11|DIALOGUE3
+    name: live2d_motions-10840115
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 840116
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|G11|LOADING
+    text: GUN|G11|LOADING
+    name: live2d_motions-10840116
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: LOADING
+  }
+  {
+    id: 840117
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|G11|TIP
+    text: GUN|G11|TIP
+    name: live2d_motions-10840117
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: TIP
+  }
+  {
+    id: 840118
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|G11|DIALOGUE2
+    text: GUN|G11|DIALOGUE2
+    name: live2d_motions-10840118
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 840119
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|G11|GAIN
+    text: GUN|G11|GAIN
+    name: live2d_motions-10840119
+    camera: 1
+    is_hurt: 1
+    delay: 6000
+    voice_code: GAIN
+  }
+  {
+    id: 840120
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: live2d_motions-10840120
+    camera: 1
+    is_hurt: 1
+  }
 ]

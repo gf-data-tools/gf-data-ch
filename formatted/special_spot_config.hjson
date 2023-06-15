@@ -20149,6 +20149,227 @@
     death_effect_target_type: "-1"
   }
   {
+    id: 6360001
+    name: 【标记】格里芬移动1
+    code: "6360001"
+    priority: 6360001
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6360001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360002
+    name: 【标记】格里芬移动2
+    code: "6360002"
+    priority: 6360002
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6360002,0,6360003"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360003
+    name: 【标记】格里芬杀敌特殊点3
+    code: "6360003"
+    priority: 6360003
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "4,5,6"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    effect_range: 1
+    conflict_type: 6360003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6360003,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360004
+    name: 【标记】格里芬杀敌特殊点4
+    code: "6360004"
+    priority: 6360004
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6580004,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360005
+    name: 【标记】M4奖励初始化
+    code: "6360005"
+    priority: 6360005
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "301"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,6360006"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360006
+    name: 【标记】M4奖励的分
+    code: "6360006"
+    priority: 6360006
+    duration_type: "3"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360007
+    name: 【标记】404开门初始化
+    code: "6360007"
+    priority: 6360007
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "301"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    effect_range: 6
+    conflict_type: 6360007
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,6360008"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360008
+    name: 【标记】404开门
+    code: "6360008"
+    priority: 6360011
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360009
+    name: 【标记】404奖励初始化
+    code: "6360009"
+    priority: 6360009
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "301"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360009
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,6360010"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360010
+    name: 【标记】404奖励的分
+    code: "6360010"
+    priority: 6360010
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360010
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6360011
+    name: 【标记】防御门初始化
+    code: "6360011"
+    priority: 6360008
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6360012
+    name: 【标记】emp手雷特效
+    code: "6360012"
+    priority: 6360012
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360012
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_birth: 1000020
+  }
+  {
     id: 6380201
     name: 控制台X1标记
     code: "6380201"
@@ -34767,7 +34988,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 5
+    detect_range: 4
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -34788,7 +35009,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 5
+    detect_range: 4
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -34809,7 +35030,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 5
+    detect_range: 4
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -34830,7 +35051,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 5
+    detect_range: 4
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -34851,7 +35072,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 5
+    detect_range: 4
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -34872,7 +35093,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 5
+    detect_range: 4
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
