@@ -20370,6 +20370,24 @@
     effect_birth: 1000020
   }
   {
+    id: 6360013
+    name: special_spot_config-16360013
+    description: special_spot_config-26360013
+    code: "6360013"
+    priority: 6360013
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6360013
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6360001,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 6380201
     name: 控制台X1标记
     code: "6380201"
