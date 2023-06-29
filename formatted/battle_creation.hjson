@@ -81571,6 +81571,99 @@
     scale: "0.35,0.35,1"
   }
   {
+    id: 9404
+    name: cms地面
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "8,18,3,23"
+    buff_id: 1000005228:1,1000005229:1
+    buff_cd: "3,3"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9405
+    name: cms地面特效减
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "2,4,7,9,12,14,17,19,22,24"
+    buff_id: 9061:1
+    buff_cd: "60"
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 9406
+    name: CMS亚音速弹
+    code: CBJMS/CBJMS_Dodge
+    start_type: hip
+    start_offset: "0,2"
+    destination_type: hip
+    destination_offset: "0,2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "90"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.5,0.5"
+    sound_order: BT_CBJMS_Reload
+    is_die_delete: 1
+  }
+  {
+    id: 9407
+    name: CMS勺尖弹
+    code: CBJMS/CBJMS_Pow
+    start_type: hip
+    start_offset: "0,2"
+    destination_type: hip
+    destination_offset: "0,2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "90"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.5,0.5"
+    sound_order: BT_CBJMS_Reload
+    is_die_delete: 1
+  }
+  {
+    id: 9408
+    name: CMS标准弹
+    code: CBJMS/CBJMS_Hit
+    start_type: hip
+    start_offset: "0,2"
+    destination_type: hip
+    destination_offset: "0,2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "90"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.5,0.5"
+    sound_order: BT_CBJMS_Reload
+    is_die_delete: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX

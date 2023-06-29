@@ -48180,6 +48180,125 @@
     trigger_creation_id: "9399"
   }
   {
+    id: 9051
+    name: CMS装备
+    conflict_type: 2298
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9052
+    name: 火力切换
+    description: 火力上升
+    conflict_type: 190
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9053
+    name: 命中切换
+    description: 命中上升
+    conflict_type: 191
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 9054
+    name: 闪避切换
+    description: 闪避上升
+    conflict_type: 192
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *203
+  }
+  {
+    id: 9055
+    name: 火力
+    conflict_type: 2299
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9056
+    name: 命中
+    conflict_type: 2299
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9057
+    name: 闪避
+    conflict_type: 2299
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9058
+    name: 火力特效
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9407"
+  }
+  {
+    id: 9059
+    name: 火力特效
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9408"
+  }
+  {
+    id: 9060
+    name: 闪避特效
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9406"
+  }
+  {
+    id: 9061
+    name: 空
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

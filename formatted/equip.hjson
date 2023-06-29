@@ -10787,4 +10787,37 @@
     obtain_ids: "3096"
     sp_description: 换弹时间-2秒
   }
+  {
+    id: 350
+    name: SAAB运动外骨骼
+    description:
+      '''
+      移速+<speed>
+      回避+<dodge>技能增强$C-MS专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "14,19"
+    speed: "2,2"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_CMS
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "213"
+    equip_introduction: IOP为C-MS单独研发的专用运动骨骼,上面涂有C-MS喜欢的涂鸦,能有效提高人形战斗效能。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759214"
+    max_level: 10
+    auto_select_id: 20060
+    is_show: 1
+    obtain_ids: "3087"
+  }
 ]
