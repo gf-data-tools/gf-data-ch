@@ -21161,13 +21161,12 @@
     boss_team_id: "6400100"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "225"
     limit_team: "2"
     map_res_name: OPS28_Y
     map_information: "16000,16000|4000,5500|5000,3200"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "565"
+    support_available: 1
     drop_mission_key: "0,0,1050400:1"
     mission_group_id: 13
     round_config: 1:1,2:5,3:3
@@ -21193,13 +21192,12 @@
     boss_team_id: "6400200"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "119"
     limit_team: "2"
     map_res_name: OPS28_Y
     map_information: "12000,12000|4500,3200|2800,-1800"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "566"
+    support_available: 1
     drop_mission_key: "0,0,1050500:1"
     mission_group_id: 13
     open_mission_keys: 1050400:1
@@ -21226,13 +21224,12 @@
     boss_team_id: "6400300"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "59"
     limit_team: "1"
     map_res_name: OPS28_Y
     map_information: "32000,32000|5000,4000|500,-2600"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "567"
+    support_available: 1
     drop_mission_key: "0,0,1050600:1"
     mission_group_id: 13
     open_mission_keys: 1050500:1
@@ -21258,12 +21255,11 @@
     boss_team_id: "6400400"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "251"
     map_res_name: OPS28_Y
     map_information: "40000,40000|5000,4800|-1000,-1000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "567"
+    support_available: 1
     expect_hostage_num: "2,2"
     mission_group_id: 13
     open_mission_keys: 1050600:1
@@ -28791,17 +28787,15 @@
     boss_team_id: "6470101"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "295"
     limit_team: "0,2"
     map_res_name: OPS77_Y
     map_information: "12000,12000|5000,5000|-3500,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "572"
+    support_available: 1
     drop_mission_key: "0,0,1078000:1"
     mission_group_id: 19
     round_config: 1:1,2:5,3:3
-    draw_code: 0;100146,120,Bikini_2021_MissionPanelTip
     win_type: "1078001"
     difficulty_recommend: "3500,35;0,0;0,0;0,0"
     recommended_team_ids: "1"
@@ -28821,18 +28815,16 @@
     boss_team_id: "6470201"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "297"
     limit_team: "0,2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|5000,3000|0,1000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "572"
+    support_available: 1
     drop_mission_key: "0,0,1078100:1"
     mission_group_id: 19
     open_mission_keys: 1078000:1
     round_config: 1:1,2:5,3:3
-    draw_code: 0;100146,120,Bikini_2021_MissionPanelTip
     win_type: "1078101"
     difficulty_recommend: "5000,50;0,0;0,0;0,0"
     recommended_team_ids: "5,1"
@@ -28852,18 +28844,16 @@
     boss_team_id: "6470301"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "234"
     limit_team: "0,1"
     map_res_name: OPS77_Y
     map_information: "9000,9000|5000,5000|3700,0"
     fog_length: "0,400"
     fog_color: "#000000FF"
-    draw_event_s_id: "573"
+    support_available: 1
     drop_mission_key: "0,0,1078200:1"
     mission_group_id: 19
     open_mission_keys: 1078100:1
     round_config: 1:1,2:5,3:3
-    draw_code: 0;100146,120,Bikini_2021_MissionPanelTip
     win_type: "1078201"
     difficulty_recommend: "8000,70;0,0;0,0;0,0"
     recommended_team_ids: "5,2"
@@ -28883,18 +28873,16 @@
     boss_team_id: "6470401"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "311"
     limit_team: "0,3"
     map_res_name: OPS77_Y
     map_information: "10500,10500|5000,4000|2000,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "573"
+    support_available: 1
     mission_group_id: 19
     open_mission_keys: 1078200:1
     force_type: "1"
     round_config: 1:1,2:5,3:3
-    draw_code: 0;100146,120,Bikini_2021_MissionPanelTip
     win_type: "1078301"
     difficulty_recommend: "14000,87;0,0;0,0;0,0"
     recommended_team_ids: "2,5,6"
@@ -37558,7 +37546,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "578"
+    draw_event_s_id: "813"
     drop_mission_key: "0,0,1109900:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37590,7 +37578,7 @@
     map_information: "4000,4000|4000,4000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "579"
+    draw_event_s_id: "814"
     drop_mission_key: "0,0,1109900:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37621,7 +37609,7 @@
     map_information: "10000,10000|4000,4000|0,2000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "580"
+    draw_event_s_id: "815"
     drop_mission_key: "0,0,1110100:1;0,0,1110100:1;0,0,1110100:1;0,0,1110100:1;0,0,1110100:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37631,7 +37619,7 @@
     difficulty_recommend: "5000,50;0,0;0,0;0,0"
     limit_sangvis: 1
     event_score: 1|10,0,0,0,0,0,0,0,0,0,0,0,1:0;2:0;3:0;5:0;6:0;7:0,,10,0,0,0,6520016:10000;6520017:-5000;6520018:5000;6520019:-10000,
-    score_prize: 1|9013:0.001,9014:0.001
+    score_prize: 1|9039:0.001,9040:0.001
     environment_transform_config: 1110101;1110102
     recommended_team_ids: "2"
   }
@@ -37655,7 +37643,7 @@
     map_information: "6000,6000|4500,5500|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "581"
+    draw_event_s_id: "816"
     drop_mission_key: "0,0,1110100:1;0,0,1110100:1;0,0,1110100:1;0,0,1110100:1;0,0,1110100:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37665,7 +37653,7 @@
     difficulty_recommend: "20000,100;0,0;0,0;0,0"
     limit_sangvis: 2
     event_score: 1|10,0,0,0,0,0,0,0,0,0,0,0,1:0;2:0;3:0;5:0;6:0;7:0,,10,0,0,0,6520016:10000;6520017:-5000;6520018:5000;6520019:-10000,
-    score_prize: 1|9013:0.001,9014:0.001
+    score_prize: 1|9039:0.001,9040:0.001
     environment_transform_config: 1110201;1110202
     recommended_team_ids: "2,1"
   }
@@ -37689,7 +37677,7 @@
     map_information: "8000,8000|8000,8000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "582"
+    draw_event_s_id: "817"
     drop_mission_key: "0,0,1110300:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37720,7 +37708,7 @@
     map_information: "8000,8000|8000,8000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "583"
+    draw_event_s_id: "818"
     drop_mission_key: "0,0,1110300:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37751,7 +37739,7 @@
     map_information: "8000,8000|8000,8000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "582"
+    draw_event_s_id: "817"
     drop_mission_key: "0,0,1110500:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37783,7 +37771,7 @@
     map_information: "8000,8000|8000,8000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "583"
+    draw_event_s_id: "818"
     drop_mission_key: "0,0,1110500:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37816,7 +37804,7 @@
     map_information: "7000,7000|5500,3920|3500,3500"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "584"
+    draw_event_s_id: "819"
     drop_mission_key: "0,0,1110700:1"
     mission_group_id: 24
     open_mission_keys: 1109800:1
@@ -37849,7 +37837,7 @@
     map_information: "7000,7000|5500,3920|3500,3500;7000,7000|5500,3920|3500,3500"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "585"
+    draw_event_s_id: "820"
     drop_mission_key: "0,0,1110800:1"
     mission_group_id: 24
     open_mission_keys: 1110700:1
@@ -37882,7 +37870,7 @@
     map_information: "7000,7000|6500,4600|3750,3600;7000,7000|6500,4600|3750,3300;7000,7000|6500,4600|3750,3300"
     fog_length: "0,500;0,500;0,500"
     fog_color: "#000000FF;#000000FF;#000000FF"
-    draw_event_s_id: "586"
+    draw_event_s_id: "821"
     drop_mission_key: "0,0,1110900:1"
     mission_group_id: 24
     open_mission_keys: 1110800:1
@@ -37915,7 +37903,7 @@
     map_information: "7000,7000|5500,3920|3500,3500;7000,7000|5500,3920|3500,3500;7000,7000|5500,3920|3500,3500"
     fog_length: "0,500;0,500;0,500"
     fog_color: "#000000FF;#000000FF;#000000FF"
-    draw_event_s_id: "587"
+    draw_event_s_id: "822"
     drop_mission_key: "0,0,1111000:1"
     mission_group_id: 24
     open_mission_keys: 1110900:1
@@ -37948,7 +37936,7 @@
     map_information: "7000,7000|5500,3920|3500,3500;7000,7000|5500,3920|3500,3500;7000,7000|5500,3920|3500,3500"
     fog_length: "0,500;0,500;0,500"
     fog_color: "#000000FF;#000000FF;#000000FF"
-    draw_event_s_id: "588"
+    draw_event_s_id: "823"
     drop_mission_key: "0,0,1111100:1"
     mission_group_id: 24
     open_mission_keys: 1111000:1
@@ -38004,7 +37992,7 @@
     map_information: "5000,5000|5000,3800|0,-350"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "580"
+    draw_event_s_id: "815"
     drop_mission_key: "0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1"
     mission_group_id: 24
     open_mission_keys: 1109900:1;1110100:1;1110300:1;1110500:1;1110700:1;1111500:1
@@ -38035,7 +38023,7 @@
     map_information: "5000,5000|5000,4000|0,200"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "581"
+    draw_event_s_id: "816"
     drop_mission_key: "0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1;0,0,1111300:1"
     mission_group_id: 24
     open_mission_keys: 1109900:1;1110100:1;1110300:1;1110500:1;1110700:1;1111500:1
