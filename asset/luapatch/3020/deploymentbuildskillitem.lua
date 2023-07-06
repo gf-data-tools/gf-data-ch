@@ -249,15 +249,21 @@ function ShowRougeSummerUI(self)
 		local skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
 		txtName.text = skill.name;
 		txtdec.text = skill.description;
-		image.gameObject:SetActive(true);
+		image.gameObject:SetActive(false);
 		image.sprite = CS.CommonController.LoadPngCreateSprite("Pics/Icons/Skill/Deployment/"..skill.code);
 	end
+	local dj = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt_djdh/JBQ_jbt_dj");
+	dj.gameObject:SetActive(true);
 end
-
+local playanim = false;
 function CastSkill(self)
 	if selectItems.Count == 0 then
 		return;
 	end
+	if playanim then
+		return;
+	end
+	playanim = true;
 	local missionskillid = 0;
 	if selectItems.Count == 1 then
 		local item1 = selectItems[0];
@@ -285,15 +291,39 @@ function CastSkill(self)
 	end
 	self.buildSkill.skill = CS.GameData.listMissionSkillCfg:GetDataById(missionskillid);
 	self.buildSkill.otherskills:Clear();
-	self.buildSkill:RequestCastSkill();
-
+	PlayAnim(true);
+	CS.CommonController.Invoke(function()
+			self.buildSkill:RequestCastSkill();
+		end,5,self);
+end
+function PlayAnim(play)
+	local image = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Product"):GetComponent(typeof(CS.ExImage));
+	local dj = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt_djdh/JBQ_jbt_dj");
+	local djplay = RougeSummerObj.transform:Find("MainFrame/Mixer/JBQ_jbt_dj/JBQ_jbt");
+	local fix = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Container/JBQ_fx");
+	local guo = RougeSummerObj.transform:Find("MainFrame/Mixer/Img_Container/JBQ_guo");
+	if play then
+		image.gameObject:SetActive(true);
+		dj.gameObject:SetActive(false);
+		djplay.gameObject:SetActive(true);
+		guo.gameObject:SetActive(true);
+		fix.gameObject:SetActive(true);
+	else
+		image.gameObject:SetActive(false);
+		dj.gameObject:SetActive(true);
+		djplay.gameObject:SetActive(false);
+		guo.gameObject:SetActive(false);
+		fix.gameObject:SetActive(false);
+	end
 end
 local RequestControlBuild = function(self,data)
 	CS.DeploymentController.Instance:AddAndPlayPerformance(nil);
 	self:RequestControlBuild(data);
 	if RougeSummerObj ~= nil and not RougeSummerObj:isNull() then
 		selectItems:Clear();
+		PlayAnim(false);
 		ShowRougeSummerUI(self.skillItem);
+		playanim = false;
 	end
 end
 
