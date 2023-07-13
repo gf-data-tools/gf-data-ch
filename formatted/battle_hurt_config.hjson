@@ -2841,14 +2841,14 @@
   {
     id: 538
     description: 马卡洛夫find()
-    buff_id_target: 1000001675:1
+    buff_id_target: 1000001675:1,1000005233:1
     buff_rate: "100"
     hit_type: 1
   }
   {
     id: 539
     description: 马卡洛夫find()
-    buff_id_target: 1000001676:1
+    buff_id_target: 1000001676:1,1000005233:1
     buff_rate: "100"
     hit_type: 1
   }
@@ -5783,6 +5783,7 @@
     id: 2197
     description: ppsh榴弹
     damage_ratio: *201
+    is_critical_hit: 1000005240
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1

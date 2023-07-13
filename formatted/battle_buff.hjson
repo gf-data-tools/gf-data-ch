@@ -22125,7 +22125,7 @@
     id: 4308
     name: 马卡洛夫计时
     conflict_type: 834
-    max_tier: 180
+    max_tier: 240
     type: 500
     duration_type: 1
     duration: *101
@@ -48299,6 +48299,163 @@
     boss_available: 1
   }
   {
+    id: 9062
+    name: 马卡洛夫装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9063
+    name: 马卡洛夫装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9064
+    name: 马卡洛夫装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9065
+    name: 马卡洛夫装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9066
+    name: 火力上升15
+    description: 火力上升
+    conflict_type: 2297
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "115"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9067
+    name: 波波沙装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9068
+    name: 波波沙装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9069
+    name: 波波沙装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9070
+    name: 波波沙装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9071
+    name: ppsh勋章三特效
+    conflict_type: 2113
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "8560"
+  }
+  {
+    id: 9072
+    name: ppsh勋章四特效
+    conflict_type: 2114
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "9409"
+  }
+  {
+    id: 9073
+    name: ppsh勋章五特效
+    conflict_type: 2114
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "9410"
+  }
+  {
+    id: 9074
+    name: ppsh暴击伤害提升50%
+    conflict_type: 2104
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: "150"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    available_gun_type: "2"
+  }
+  {
+    id: 9075
+    name: ppsh穿甲增加200
+    conflict_type: 2104
+    max_tier: 1
+    type: 811
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: "200"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    available_gun_type: "2"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -58792,6 +58949,17 @@
     duration_type: 1
     duration: "60"
     trigger_creation_id: "912301"
+  }
+  {
+    id: 906101
+    name: 马卡洛夫夜视性能
+    conflict_type: 2299
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    night_view_percent: "100"
   }
   {
     id: 999007

@@ -675,7 +675,7 @@
     ratio_range: 100
     skill1: 101502
     normal_attack: 300101
-    passive_skill: "999999"
+    passive_skill: "999999,759220"
     dynamic_passive_skill: "803602"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,18"
@@ -1951,7 +1951,7 @@
     ratio_range: 135
     skill1: 102101
     normal_attack: 300102
-    passive_skill: "900156,999999"
+    passive_skill: "900156,999999,759225"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "12,14"
@@ -10992,6 +10992,7 @@
     type_equip3: 3;9,10
     ai: 119
     launch_time: 2016-08-11 00:00:00
+    obtain_ids: "202"
     rank_display: 5
     explore_tag: "41,51"
     gun_detail_bg: nation_Russia
@@ -39104,14 +39105,14 @@
     skill1: 803601
     skill2: 803604
     normal_attack: 300115
-    passive_skill: "803603"
+    passive_skill: "803603,759220"
     dynamic_passive_skill: "803602,803606"
     effect_grid_center: 13
     effect_grid_pos: "18,7,8,9"
     effect_grid_effect: "1,12;2,6"
     type_equip1: 1;4,13,16,18
     type_equip2: 2;6,19
-    type_equip3: 3;10
+    type_equip3: 3;10,20
     ai: 8
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "35"
@@ -39517,13 +39518,13 @@
     skill1: 750316
     skill2: 750318
     normal_attack: 300102
-    passive_skill: "750317,750319,750320,900156"
+    passive_skill: "750317,750319,750320,900156,759225"
     dynamic_passive_skill: "750321,750322"
     effect_grid_center: 13
     effect_guntype: "2,4"
     effect_grid_pos: "12,18,14"
     effect_grid_effect: "1,15;2,5"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13,18
     ai: 21

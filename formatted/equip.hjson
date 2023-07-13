@@ -4819,7 +4819,7 @@
     max_level: 10
     auto_select_id: 18046
     is_show: 1
-    obtain_ids: "3054"
+    obtain_ids: "3054,3096"
   }
   {
     id: 169
@@ -5211,8 +5211,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,critical_percent:350
+    passive_skill: "759216"
     max_level: 10
     auto_select_id: 18052
+    equip_group_id: 9
     is_show: 1
     obtain_ids: "3003"
   }
@@ -6511,8 +6513,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,pow:1000
+    passive_skill: "759221"
     max_level: 10
     auto_select_id: 18068
+    equip_group_id: 10
     is_show: 1
     obtain_ids: "3003"
   }
@@ -7105,9 +7109,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:1000
-    passive_skill: "300903"
+    passive_skill: "300903,759217"
     max_level: 10
     auto_select_id: 19029
+    equip_group_id: 9
     is_show: 1
     obtain_ids: "3016"
     sp_description: 梯队命中+10%
@@ -8223,8 +8228,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:1000
+    passive_skill: "759222"
     max_level: 10
     auto_select_id: 19038
+    equip_group_id: 10
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8556,7 +8563,7 @@
     max_level: 10
     auto_select_id: 18091
     is_show: 1
-    obtain_ids: "3067"
+    obtain_ids: "3067,3096"
   }
   {
     id: 283
@@ -10819,5 +10826,73 @@
     auto_select_id: 20060
     is_show: 1
     obtain_ids: "3087"
+  }
+  {
+    id: 351
+    name: PM高性能骨骼
+    description:
+      '''
+      伤害<pow>
+      回避+<dodge>$马卡洛夫改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-5,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_马卡洛夫Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20008"
+    equip_introduction: 为马卡洛夫量身定做的高性能外骨骼，附带了小型抗弹装甲，进一步提升了外骨骼的坚韧性。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759218"
+    max_level: 10
+    auto_select_id: 20061
+    equip_group_id: 9
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 352
+    name: 荣誉勋章
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      伤害+<pow>$PPSh-41改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "1,2"
+    critical_percent: "20,26"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_PPSh41Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20021"
+    equip_introduction: PPSh-41珍藏已久的两枚勋章，蕴藏着过去荣耀的回忆，才不是因为服务器瘫痪背锅的奖励呢！
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: critical_percent:1500,pow:500
+    passive_skill: "759223"
+    max_level: 10
+    auto_select_id: 20062
+    equip_group_id: 10
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]
