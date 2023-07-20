@@ -2318,7 +2318,6 @@
     exp_buff: "1"
     battle_skill_config_id: 759109
     conditions_time: 0-0
-    ammo_mre_reduce: ITS NOT EMPTEEE ANYMORE.
     conflict_type: 580004
     ext_move: 1
   }
@@ -4204,6 +4203,133 @@
     duration_time: "1"
     exp_buff: "1"
     conflict_type: 599910
+    priority: 1
+  }
+  {
+    id: 610011
+    name: 液化削弱喷雾
+    description: 液化削弱喷雾*1
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 2307RG01#57D498
+    conflict_type: 610011
+    priority: -1
+    carry_mission_skill: "610021"
+  }
+  {
+    id: 610012
+    name: 人形动力机油
+    description: 人形动力机油*1
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 2307RG02#57D498
+    conflict_type: 610012
+    priority: -1
+    carry_mission_skill: "610022"
+  }
+  {
+    id: 610013
+    name: 强效削弱喷雾
+    description: 强效削弱喷雾*1
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 2307RG03#57D498
+    conflict_type: 610013
+    priority: -1
+    carry_mission_skill: "610023"
+  }
+  {
+    id: 610014
+    name: 强效动力机油
+    description: 强效动力机油*1
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 2307RG04#57D498
+    conflict_type: 610014
+    priority: -1
+    carry_mission_skill: "610024"
+  }
+  {
+    id: 610015
+    name: 不稳定化合物
+    description: 不稳定化合物*1
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 2307RG05#57D498
+    conflict_type: 610015
+    priority: -1
+    carry_mission_skill: "610025"
+  }
+  {
+    id: 610021
+    name: 液化削弱喷雾
+    code: Theresa
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    cannot_move: "1"
+    battle_skill_config_id: 759178
+    conflict_type: 610021
+    priority: 1
+  }
+  {
+    id: 610022
+    name: 人形动力机油
+    code: shield
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 759180
+    conflict_type: 610022
+    priority: 1
+  }
+  {
+    id: 610023
+    name: 强效削弱喷雾
+    code: Theresa
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    cannot_move: "1"
+    battle_skill_config_id: 759179
+    conflict_type: 610023
+    priority: 1
+  }
+  {
+    id: 610024
+    name: 强效动力机油
+    code: shield
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 759181
+    conflict_type: 610024
+    priority: 1
+  }
+  {
+    id: 610025
+    name: 不稳定化合物
+    code: stella
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 759227
+    conflict_type: 610025
     priority: 1
   }
   {

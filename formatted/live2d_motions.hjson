@@ -31083,4 +31083,236 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 850201
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 850202
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 850203
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 850204
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|DIALOGUE1
+    text: GUN|HK433|DIALOGUE1
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 850205
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|DIALOGUE2
+    text: GUN|HK433|DIALOGUE2
+    name: 交互2
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 850206
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|HK433|SKILL3
+    text: GUN|HK433|SKILL3
+    name: 交互3
+    camera: 1
+    delay: 6000
+    voice_code: SKILL3
+  }
+  {
+    id: 850207
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|HK433|WIN
+    text: GUN|HK433|WIN
+    name: 交互4
+    camera: 1
+    voice_code: WIN
+  }
+  {
+    id: 850208
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|HK433|LOADING
+    text: GUN|HK433|LOADING
+    name: 交互5
+    camera: 1
+    delay: 5000
+    voice_code: LOADING
+  }
+  {
+    id: 850209
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|HK433|DIALOGUEWEDDING
+    text: GUN|HK433|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 850210
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|HK433|SOULCONTRACT
+    text: GUN|HK433|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 850211
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    delay: 6000
+  }
+  {
+    id: 850212
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|HK433|GAIN
+    text: GUN|HK433|GAIN
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: GAIN
+  }
+  {
+    id: 850213
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 850214
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|HK433|BREAK
+    text: GUN|HK433|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 850215
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|SKILL2
+    text: GUN|HK433|SKILL2
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 850216
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|HK433|FEED
+    text: GUN|HK433|FEED
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: FEED
+  }
+  {
+    id: 850217
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|SKILL3
+    text: GUN|HK433|SKILL3
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: SKILL3
+  }
+  {
+    id: 850218
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|HK433|RETREAT
+    text: GUN|HK433|RETREAT
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 850219
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|HK433|PHRASE
+    text: GUN|HK433|PHRASE
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: PHRASE
+  }
+  {
+    id: 850220
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 850221
+    type: 104
+    motion_name: motions/BG.mtn
+    probability: 1
+    name: 场景动作
+  }
 ]

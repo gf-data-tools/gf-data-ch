@@ -23911,6 +23911,437 @@
     confront_des: 本次战役中无法破坏该设施
   }
   {
+    id: 610001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;610091
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:1,1:1
+    name: 调和系统
+    code: 2023RougeSummer_Mixer
+    shifting_spot: "60,30"
+    shifting_team: "-60,-30"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "610009"
+    active_mission_skill: "610001,610011,610012,610013,610014,610015"
+    inherent_mission_skill: "610000"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610002
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:0
+    name: 液化干扰喷雾
+    code: Hiding
+    shifting_spot: "60,30"
+    shifting_team: "-60,-30"
+    battle_assist_range: "0,0"
+    working_special_spot: "1000072"
+    active_mission_skill: "610002"
+    inherent_mission_skill: "1000072"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: 2023RougeSummer_BuildMixer;液化干扰喷雾;0,0;610092
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610003
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:1,1:1
+    name: 人形润滑机油
+    code: Hiding
+    shifting_spot: "60,30"
+    shifting_team: "-60,-30"
+    battle_assist_range: "0,0"
+    working_special_spot: "1000072"
+    active_mission_skill: "610003"
+    inherent_mission_skill: "1000072"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: 2023RougeSummer_BuildMixer;人形润滑机油;0,0;610093
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 强敌刷新点
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "610101"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610201
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 教学关初始化
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "610201"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610301
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: A1初始化-干扰+3
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "610301"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610401
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: A2初始化-干扰+8
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "610401"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610601
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: B1初始化-跳跃+4
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "610601"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 610701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: B2初始化-跳跃+6
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "610701"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 611001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;610091
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:1,1:1
+    name: 调和系统
+    code: 2023RougeSummer_Mixer
+    shifting_spot: "60,30"
+    shifting_team: "-60,-30"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "610009"
+    active_mission_skill: "610001,610011,610012,610013,610014,610015,611009"
+    inherent_mission_skill: "611001,610000"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+    des: 【标记】略
+    confront_des: 【标记】略
+    missionskill_on_death: "2,611010,611007,0;2,611011,611008,0;2,612310,611007,0;2,612311,611008,0"
+  }
+  {
+    id: 611002
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 强敌刷新点
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "611002"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 611701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: A2噩梦初始化-干扰+6
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "611701"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 611901
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: B1噩梦初始化-跳跃+1
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "611901"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 1144001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: A3初始化-干扰+3,跳跃+2
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1144001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 1144301
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;405004;0
+    condition: 0:0,1:0;0:1,1:1
+    is_destroy: "2"
+    name: 炮击阵地
+    code: MissileLauncher
+    shifting_spot: "4,97"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    performance_skill: "800101,102304,405002;0;800101,102304,405002;0"
+    show_info: 1
+    inherent_mission_skill: "541302,1144303"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+  }
+  {
+    id: 1144302
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: B3初始化-跳跃+2,干扰+1
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1144302"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 1144401
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;1144400;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1144406"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,1144401,1144411,0;2,1144402,1144412,0;2,1144403,1144413,0"
+  }
+  {
+    id: 1144402
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: C1初始化-跳跃+2,干扰+2
+    code: Hiding
+    shifting_spot: "0,2"
+    shifting_team: "0,1"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1144414"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 【标记】略
+  }
+  {
+    id: 1145701
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;1145700;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】兔子-hard
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1145706"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,1145701,1145711,0;2,1145702,1145712,0;2,1145703,1145713,0"
+  }
+  {
     id: 3179001
     defender: 99999
     defender_upper: 99999
@@ -25234,12 +25665,8 @@
     is_focus: "-1"
     belong_color: "#C3C3C3,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: 对支援范围内的同归属单位提供战斗支援，战斗中持续对敌方进行炮击打击。
-    confront_des:
-      '''
-      本次战役中可采取的应对手段：
-      踩点破坏、重装打击
-      '''
+    des: "42"
+    confront_des: 本次战役中无法破坏该设施
   }
   {
     id: 6360002

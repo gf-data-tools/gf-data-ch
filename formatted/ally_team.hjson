@@ -15379,6 +15379,90 @@
     no_battle_damage: -1
   }
   {
+    id: 610101
+    name: 正规军
+    guns: "1"
+    enemy_team_id: 612312
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 7;0;7
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 611010
+    name: 铁血势力
+    guns: "1"
+    enemy_team_id: 611010
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 611011
+    name: 铁血势力
+    guns: "1"
+    enemy_team_id: 611011
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 611012
+    name: 铁血势力
+    guns: "1"
+    enemy_team_id: 611012
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 612310
+    name: 正规军
+    guns: "1"
+    enemy_team_id: 612310
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 612311
+    name: 正规军
+    guns: "1"
+    enemy_team_id: 612311
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 612312
+    name: 正规军
+    guns: "1"
+    enemy_team_id: 612312
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0
@@ -15480,6 +15564,130 @@
     ai: 103;1;103
     ai_content: 0;0;0
     enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 1144001
+    name: 军方单位
+    enemy_team_id: 1144001
+    ai: 103;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1144002
+    name: 军方单位
+    enemy_team_id: 1144002
+    ai: 103;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1144003
+    name: 军方单位
+    enemy_team_id: 1144003
+    ai: 103;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1144004
+    name: 军方单位
+    enemy_team_id: 1144002
+    ai: 102;0;0
+    ai_content: 1;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1144401
+    name: 代理人
+    guns: "1"
+    enemy_team_id: 1144401
+    initial_type: 2
+    ai: 103;0;102
+    ai_content: 0;0;3
+    no_battle_damage: -1
+  }
+  {
+    id: 1144402
+    name: 代理人
+    guns: "1"
+    enemy_team_id: 1144402
+    initial_type: 2
+    ai: 103;0;102
+    ai_content: 0;0;2
+    no_battle_damage: -1
+  }
+  {
+    id: 1144403
+    name: 代理人
+    guns: "1"
+    enemy_team_id: 1144403
+    initial_type: 2
+    ai: 103;0;102
+    ai_content: 0;0;2
+    no_battle_damage: -1
+  }
+  {
+    id: 1145301
+    name: 军方单位
+    enemy_team_id: 1145301
+    ai: 103;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1145302
+    name: 军方单位
+    enemy_team_id: 1145302
+    ai: 103;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1145303
+    name: 军方单位
+    enemy_team_id: 1145303
+    ai: 103;0;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1145304
+    name: 军方单位
+    enemy_team_id: 1145302
+    ai: 102;0;0
+    ai_content: 1;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 1145701
+    name: 代理人
+    guns: "1"
+    enemy_team_id: 1145701
+    initial_type: 2
+    ai: 103;0;102
+    ai_content: 0;0;3
+    no_battle_damage: -1
+  }
+  {
+    id: 1145702
+    name: 代理人
+    guns: "1"
+    enemy_team_id: 1145702
+    initial_type: 2
+    ai: 103;0;102
+    ai_content: 0;0;2
+    no_battle_damage: -1
+  }
+  {
+    id: 1145703
+    name: 代理人
+    guns: "1"
+    enemy_team_id: 1145703
+    initial_type: 2
+    ai: 103;0;102
+    ai_content: 0;0;2
     no_battle_damage: -1
   }
   {

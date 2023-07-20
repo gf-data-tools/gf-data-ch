@@ -6366,7 +6366,7 @@
   {
     id: 546
     mission_id: "10504"
-    description: 孤岛假日
+    description: “少女们秘密启程，去寻找转变命运的宝藏！”
     scripts: -40-1-1First,-40-1-2End
     campaign: -40
     bgm: BGM_Frontline
@@ -6378,7 +6378,7 @@
   {
     id: 547
     mission_id: "10505"
-    description: 时来运转
+    description: “神秘生物现身海滩，难道好运即将来临！？”
     scripts: -40-2-1First,-40-2-2End
     campaign: -40
     bgm: BGM_Frontline
@@ -6390,7 +6390,7 @@
   {
     id: 548
     mission_id: "10506"
-    description: 秘域险境
+    description: “命运成功转向——可惜不是好的那头。”
     scripts: -40-3-1First,-40-3-2End
     campaign: -40
     bgm: BGM_Frontline
@@ -6402,7 +6402,7 @@
   {
     id: 549
     mission_id: "10507"
-    description: 夏日余光
+    description: “海滩上的乐趣就是你追我赶，只是这次有点危险。”
     scripts: -40-4-1First,-40-4-2End
     campaign: -40
     bgm: BGM_Frontline
@@ -8711,10 +8711,11 @@
   {
     id: 798
     mission_id: "10780"
-    description: 2021泳装1
+    description: “与偶像同船的美妙旅行，从圣地打卡开始！”
     scripts: -47-1-1,-47-1-2
     campaign: -47
     bgm: BGM_Frontline
+    title: 潮涌
     start: -47-1-1
     first: -47-1-2
     end: -47-1-2
@@ -8722,10 +8723,11 @@
   {
     id: 799
     mission_id: "10781"
-    description: 2021泳装2
-    scripts: -47-2-WS-1,-47-2-1,-47-2-2
+    description: “这里水很深，足够容得下一头超乎想象的怪物在其中。”
+    scripts: -47-2-1,-47-2-2
     campaign: -47
     bgm: BGM_Frontline
+    title: 暗流
     start: -47-2-1
     round: 1:-47-2-WS-1
     first: -47-2-2
@@ -8734,10 +8736,11 @@
   {
     id: 800
     mission_id: "10782"
-    description: 2021泳装3
+    description: “认识她，爱上她，成为她。”
     scripts: -47-3-1,-47-3-2
     campaign: -47
     bgm: BGM_Frontline
+    title: 追猎
     start: -47-3-1
     first: -47-3-2
     end: -47-3-2
@@ -8745,10 +8748,11 @@
   {
     id: 801
     mission_id: "10783"
-    description: 2021泳装4
+    description: “寻找被绑架的同伴，在事情变得更糟之前。”
     scripts: -47-4-1,-47-4-2
     campaign: -47
     bgm: BGM_Frontline
+    title: 零和
     start: -47-4-1
     first: -47-4-2
     end: -47-4-2
@@ -12325,5 +12329,46 @@
     campaign: -60
     title: 谜境守卫+
     start: -60-tips
+  }
+  {
+    id: 1235
+    mission_id: "11436"
+    scripts: -61-1-1
+    campaign: -61
+    start: -61-1-1
+  }
+  {
+    id: 1236
+    mission_id: "11437"
+    scripts: -61-2-1
+    campaign: -61
+    start: -61-2-1
+  }
+  {
+    id: 1237
+    mission_id: "11445,11458"
+    campaign: -61
+    start: -61-EXT-1
+  }
+  {
+    id: 1238
+    mission_id: "11448"
+    scripts: -61-3-1
+    campaign: -61
+    start: -61-3-1
+  }
+  {
+    id: 1239
+    mission_id: "11449"
+    scripts: -61-3-2
+    campaign: -61
+    start: -61-3-2
+  }
+  {
+    id: 1240
+    mission_id: "11450"
+    scripts: -61-3-3
+    campaign: -61
+    start: -61-3-3
   }
 ]

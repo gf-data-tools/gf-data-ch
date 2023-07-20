@@ -10895,4 +10895,36 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 353
+    name: C96运动骨骼
+    description:
+      '''
+      移速+<speed>
+      回避+<dodge>$C96专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "13,18"
+    speed: "1,2"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_C96
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "12,20012"
+    equip_introduction: 为C96量身订做的新型运动骨骼，对于长时间行进的作战要求有很大的帮助，是C96最喜欢的装备。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    max_level: 10
+    auto_select_id: 20063
+    is_show: 1
+    obtain_ids: "3098"
+  }
 ]

@@ -1147,6 +1147,40 @@
     mod_exp: 10
   }
   {
+    id: 34
+    name: 玩具妖精
+    code: toy
+    description: “欢乐时光就要开始了！！”
+    introduce: 拥有使梯队获得随机BUFF的能力，会在人形完成任务的同时还原手中的魔方，并射出红色激光庆祝。
+    type: 2
+    pow: 120
+    hit: 120
+    dodge: 120
+    grow: 120
+    proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
+    skill_id: "757120"
+    quality_exp: 100
+    quality_need_number: 1:0,2:100,3:200,4:350,5:550
+    category: 1
+    develop_duration: 18600
+    retiremp: 4
+    retireammo: 1
+    retiremre: 5
+    retirepart: 1
+    powerup_mp: 10
+    powerup_ammo: 3
+    powerup_mre: 14
+    powerup_part: 3
+    ai: 3000
+    avatar_offset: "0,-14,0"
+    avatar_scale: "0.6,0.6,0.6"
+    picture_offset: "-100,-100,0"
+    picture_scale: "0.864,0.864,0.864"
+    org_id: 10502
+    obtain_ids: "516"
+    mod_exp: 10
+  }
+  {
     id: 1001
     name: 八重樱
     code: Sakura
