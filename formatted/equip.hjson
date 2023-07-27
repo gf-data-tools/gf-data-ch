@@ -10927,4 +10927,36 @@
     is_show: 1
     obtain_ids: "3098"
   }
+  {
+    id: 354
+    name: 正义警服
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      命中+<hit>技能增强$VSK-94专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "3,5"
+    critical_harm_rate: "16,20"
+    retire_mp: 4
+    retire_mre: 5
+    code: 人形_特殊_VSK94
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "312"
+    equip_introduction: VSK-94在警局服役时就穿戴的外套，即使历经多年战斗也依旧正气凛然。
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:1000,hit:1000
+    passive_skill: "759232"
+    max_level: 10
+    auto_select_id: 20064
+    is_show: 1
+    obtain_ids: "3088"
+  }
 ]
