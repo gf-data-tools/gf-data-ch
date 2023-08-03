@@ -30882,6 +30882,261 @@
     recommended_team_ids: "1,6"
   }
   {
+    id: 391
+    name: 82式
+    en_name: Type82S
+    code: Type82S
+    extra: 熊猫印象,,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+      Mass                       1.6 kg
+      Length                     583 mm stock extended
+                                 333 mm stock folded
+      Barrel length              150 mm
+      Cartridge                  9×18mm Makarov
+      Caliber                    9 mm
+      Rate of fire               650 round/min
+      Muzzle velocity            320 m/s
+      Effective firing range     150 m
+      Feed system                15,25,40-round detachable box magazine
+      '''
+    type: 2
+    rank: 5
+    develop_duration: 8760
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 122
+    ratio_pow: 92
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 90
+    ratio_dodge: 130
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 116
+    ratio_range: 100
+    skill1: 750837
+    normal_attack: 300102
+    passive_skill: "750838,750840,750841,750842"
+    dynamic_passive_skill: "750843"
+    effect_grid_center: 7
+    effect_guntype: "2,4"
+    effect_grid_pos: "1,2,3,7,8"
+    effect_grid_effect: "3,40;4,40"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 150
+    launch_time: 2023-07-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_China
+    org_id: 10802
+    show_damage_skin: ",0,"
+    gun_tag_ids: "121,105,133,113"
+    atk_speed_max: 135
+    ratio_rec: 122
+    recommended_team_ids: "1,2,3,6,7"
+  }
+  {
+    id: 392
+    name: 欧文
+    en_name: Owen
+    code: Owen
+    extra: 斎木こまり,,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+      Mass                       4.23 kg (9.33 lb)
+      Length                     813 mm (32.0 in)
+      Barrel length              250 mm (9.84 in)
+      Cartridge                  9×19mm Parabellum
+      Action                     Blowback, open bolt
+      Rate of fire               700 rounds/min
+      Muzzle velocity            366 m/s
+      Effective firing range     123 m
+      Maximum firing range       200 m
+      Feed system                33-round detachable magazine
+      Sights                     Iron sights
+      '''
+    type: 2
+    rank: 4
+    develop_duration: 7500
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 98
+    ratio_pow: 100
+    ratio_rate: 105
+    ratio_speed: 100
+    ratio_hit: 100
+    ratio_dodge: 122
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 118
+    ratio_range: 100
+    skill1: 750831
+    normal_attack: 300102
+    passive_skill: "750832"
+    dynamic_passive_skill: "750833,750834,750835,750836"
+    effect_grid_center: 14
+    effect_guntype: "4"
+    effect_grid_pos: "8,10"
+    effect_grid_effect: "1,20;5,20"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 150
+    launch_time: 2023-07-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 4
+    org_id: 10402
+    show_damage_skin: ",0,"
+    gun_tag_ids: "10101,108"
+    atk_speed_max: 120
+    ratio_rec: 98
+    recommended_team_ids: "1,2,3,6,7"
+  }
+  {
+    id: 393
+    name: 贝奥武夫
+    en_name: Beowulf
+    code: Beowulf
+    extra: そおの,,
+    en_introduce:
+      '''
+      Type                       Assault rifle
+      Mass                       4.1 kg
+      Length                     940 mm
+      Barrel length              420 mm
+      Cartridge                  .50 Beowulf
+      Caliber                    12.7 x 42 mm
+      Feed system                5.56 mm M16 magazine
+      '''
+    type: 4
+    rank: 5
+    develop_duration: 15900
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 110
+    ratio_pow: 140
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 110
+    ratio_dodge: 90
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 122
+    ratio_range: 100
+    skill1: 750845
+    normal_attack: 750846
+    passive_skill: "750847,750848,750849,750850,750851,750852,750853,750854"
+    dynamic_passive_skill: "750855"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "17,18"
+    effect_grid_effect: "4,25"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2023-07-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_US
+    org_id: 10402
+    show_damage_skin: ",0,"
+    gun_tag_ids: "108"
+    atk_speed_max: 135
+    ratio_rec: 110
+    recommended_team_ids: "1"
+  }
+  {
+    id: 394
+    name: CM901
+    en_name: CM901
+    code: CM901
+    extra: RFF,,
+    en_introduce:
+      '''
+      Type                       Assault rifle
+      Mass                        4.3 kg (9.4 lb)
+      Length                     950 mm (37.5 in) (stock extended)
+                                 870 mm (34.24 in) (stock retracted)
+      Barrel length              410 mm (16.1 in)
+      Cartridge                  5.56×45mm NATO
+                                 6.8mm Remington SPC
+                                 7.62×39mm
+                                 7.62×51mm NATO
+      Caliber                    5.56mm/.223
+                                 6.8mm/.277
+                                 7.62mm/.308/.311
+      Action                     Gas-operated,
+                                 rotating bolt (direct impingement)
+      Rate of fire               700 - 950 rounds/min
+      Effective firing range     700 m
+      Feed system                30-round detachable STANAG magazines,
+                                 Proprietary box magazines, 
+                                 SR-25 pattern magazine
+      Sights                     Flip-up/Fixed
+      '''
+    type: 4
+    rank: 4
+    develop_duration: 13560
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 105
+    ratio_pow: 102
+    ratio_rate: 110
+    ratio_speed: 100
+    ratio_hit: 118
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 116
+    ratio_range: 100
+    skill1: 121601
+    normal_attack: 300103
+    effect_grid_center: 13
+    effect_guntype: "2,4"
+    effect_grid_pos: "17,18,19,7,8,9"
+    effect_grid_effect: "1,10;3,30"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2023-07-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 4
+    gun_detail_bg: nation_US
+    org_id: 10303
+    show_damage_skin: ",0,"
+    gun_tag_ids: "145,108"
+    atk_speed_max: 120
+    ratio_rec: 105
+    recommended_team_ids: "1"
+  }
+  {
     id: 1001
     name: 诺爱尔
     en_name: Noel

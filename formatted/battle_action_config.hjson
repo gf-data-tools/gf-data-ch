@@ -17682,7 +17682,7 @@
     id: 5812
     name: 老李增益触发盟友
     creation_order: "8858,8859"
-    creation_delay: "5,8"
+    creation_delay: "1,9"
   }
   {
     id: 5813
@@ -23535,6 +23535,51 @@
     creation_order: "9447"
   }
   {
+    id: 8831
+    name: 冲锋枪监测
+    creation_order: "9449"
+  }
+  {
+    id: 8832
+    name: 同排伤害提升
+    creation_order: "9450"
+  }
+  {
+    id: 8833
+    name: 前排检测
+    creation_order: "9451"
+  }
+  {
+    id: 8834
+    name: 82投掷手榴弹
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "9452"
+    creation_delay: "33"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8835
+    name: 突击步枪普攻-非主动
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9454,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 8836
+    name: 突击步枪普攻-主动
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9455,7,7,21,140,140,9456"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
     id: 8837
     name: vsk额外攻击次数
     action_order: "1,1,1"
@@ -23542,6 +23587,21 @@
     action_playspeed: "100,100,100"
     creation_order: "3063,21,139,10302,21,139,9461,21,139"
     creation_delay: "0,0,0,5,5,5,10,10,10"
+  }
+  {
+    id: 8838
+    name: 贝奥武夫
+    creation_order: "9466"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8839
+    name: 欧文照相
+    action_order: s
+    action_playspeed: "100"
+    effect_order: "1"
+    effect_duration: "1"
   }
   {
     id: 9001

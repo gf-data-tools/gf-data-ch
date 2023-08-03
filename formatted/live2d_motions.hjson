@@ -27417,7 +27417,7 @@
     name: 交互1
     camera: 1
     delay: 500
-    voice_code: DIALOGUE2
+    voice_code: MOOD1
   }
   {
     id: 710104
@@ -27430,7 +27430,7 @@
     name: 交互2
     camera: 1
     delay: 430
-    voice_code: DIALOGUE3
+    voice_code: COMBINE
   }
   {
     id: 710105
@@ -27442,7 +27442,7 @@
     text: GUN|ZB26|DIALOGUE1
     name: 交互3
     camera: 1
-    voice_code: VALENTINE
+    voice_code: DIALOGUE1
   }
   {
     id: 710106
@@ -27455,7 +27455,7 @@
     name: 交互4
     camera: 1
     delay: 500
-    voice_code: COMBINE
+    voice_code: FEELING
   }
   {
     id: 710107
@@ -27467,7 +27467,7 @@
     text: GUN|ZB26|MOOD2
     name: 交互5
     camera: 1
-    voice_code: LOADING
+    voice_code: MOOD2
   }
   {
     id: 710108
@@ -27533,7 +27533,7 @@
     camera: 1
     is_hurt: 1
     delay: 1000
-    voice_code: BREAK
+    voice_code: OPERATIONOVER
   }
   {
     id: 710114
@@ -27560,7 +27560,7 @@
     camera: 1
     is_hurt: 1
     delay: 500
-    voice_code: COMBINE
+    voice_code: FIX
   }
   {
     id: 710116
@@ -27573,7 +27573,7 @@
     name: 交互4
     camera: 1
     is_hurt: 1
-    voice_code: FIX
+    voice_code: TIP
   }
   {
     id: 710117
@@ -27586,7 +27586,7 @@
     name: 交互5
     camera: 1
     is_hurt: 1
-    voice_code: TIP
+    voice_code: DIALOGUE2
   }
   {
     id: 710118
@@ -28744,7 +28744,7 @@
     touch_area: body
     probability: 1
     voice: GUN|88typeMod|FIX
-    text: GUN|88type|FIX
+    text: GUN|88typeMod|FIX
     name: 交互3
     camera: 1
     is_hurt: 1
@@ -28757,7 +28757,7 @@
     touch_area: leg
     probability: 1
     voice: GUN|88typeMod|LOWMOOD
-    text: GUN|88type|LOWMOOD
+    text: GUN|88typeMod|LOWMOOD
     name: 交互4
     camera: 1
     is_hurt: 1
@@ -28770,7 +28770,7 @@
     touch_area: leg
     probability: 1
     voice: GUN|88typeMod|MOOD2
-    text: GUN|88type|MOOD2
+    text: GUN|88typeMod|MOOD2
     name: 交互5
     camera: 1
     is_hurt: 1

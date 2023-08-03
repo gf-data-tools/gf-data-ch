@@ -1909,6 +1909,29 @@
     buff_trigger_type: 6
   }
   {
+    id: 359
+    description: 找敌方
+    target_type: 1
+    target_number: 1
+    select_order: "1000002259"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000002260
+    buff_trigger_type: 18
+  }
+  {
+    id: 360
+    description: 找新枪
+    target_type: 1
+    target_number: 1
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000002268
+    buff_trigger_type: 18
+  }
+  {
     id: 501
     description: 蝴蝶飞队友
     target_type: 2
@@ -4090,6 +4113,92 @@
     target_buff_id: 9050
     target_parameter: 1
     buff_trigger_type: 7
+  }
+  {
+    id: 733
+    description: 我方冲锋枪
+    target_type: 2
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000005329
+    buff_trigger_type: 18
+  }
+  {
+    id: 734
+    description: 选择82式
+    target_type: 1
+    target_number: 1
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000005330
+    buff_trigger_type: 18
+  }
+  {
+    id: 735
+    description: 贝奥武夫技能普攻
+    target_type: 1
+    target_number: 1
+    select_order: "1000005342"
+    is_ascend_order: "1"
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 736
+    description: 贝奥武夫巨人-生命值最高
+    target_type: 1
+    target_number: 1
+    select_order: "1000005340,1000002051"
+    is_ascend_order: "1,1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000005341
+    buff_trigger_type: 18
+  }
+  {
+    id: 737
+    description: 贝奥武夫海蛇-伤害最高
+    target_type: 1
+    target_number: 1
+    select_order: "1000005339,1000002051"
+    is_ascend_order: "1,1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000005368
+    buff_trigger_type: 18
+  }
+  {
+    id: 738
+    description: 贝奥武夫巨龙-威胁度最高
+    target_type: 1
+    target_number: 1
+    select_order: "1000001977,1000002051"
+    is_ascend_order: "1,1"
+    is_ingore_range: 1
+    list_ranking: 1
+  }
+  {
+    id: 739
+    description: 欧文找队长-找自己
+    target_type: 2
+    target_number: 1
+    select_order: "1000005349"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 740
+    description: 选择欧文
+    target_type: 2
+    target_number: 1
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000005350
+    buff_trigger_type: 18
   }
   {
     id: 1006
