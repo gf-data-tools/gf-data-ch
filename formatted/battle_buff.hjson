@@ -50214,6 +50214,158 @@
     forced_skill: "750869"
   }
   {
+    id: 9207
+    name: HK416套装装备1
+    conflict_type: 2343
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9208
+    name: HK416套装装备2
+    conflict_type: 2343
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9209
+    name: HK416套装装备3
+    conflict_type: 2344
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9210
+    name: 梯队伤害+5%
+    conflict_type: 2344
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9211
+    name: 416套装
+    conflict_type: 2344
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9212
+    name: 416首次榴弹
+    conflict_type: 2345
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9213
+    name: 备用
+    conflict_type: 2345
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9214
+    name: PPK套装装备1
+    conflict_type: 2346
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9215
+    name: PPK套装装备2
+    conflict_type: 2346
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9216
+    name: PPK套装装备3
+    conflict_type: 2347
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9217
+    name: PPK套装
+    conflict_type: 2347
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9218
+    name: PPK亡语技能
+    conflict_type: 2348
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "759244"
+  }
+  {
+    id: 9219
+    name: PPK亡语伤害下降
+    conflict_type: 2348
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "9474"
+    is_form_play: 1
+  }
+  {
+    id: 9220
+    name: PPK亡语命中下降
+    conflict_type: 2348
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+    trigger_creation_id: "9473"
+    is_form_play: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -60697,6 +60849,18 @@
     duration_type: 1
     duration: "99999"
     boss_available: 1
+  }
+  {
+    id: 847601
+    name: M327友方监视buff3
+    description: 杰里科
+    conflict_type: 2165
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1042
   }
   {
     id: 873901

@@ -2861,8 +2861,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:400,hit:400,critical_percent:700
+    passive_skill: "759233"
     max_level: 10
     auto_select_id: 18009
+    equip_group_id: 12
     is_show: 1
     obtain_ids: "3,3049"
   }
@@ -4385,8 +4387,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:500
+    passive_skill: "759239"
     max_level: 10
     auto_select_id: 18036
+    equip_group_id: 11
     is_show: 1
     obtain_ids: "3003"
   }
@@ -4518,8 +4522,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: pow:1500,dodge:700,critical_harm_rate:250
+    passive_skill: "759234"
     max_level: 10
     auto_select_id: 20020
+    equip_group_id: 12
     is_show: 1
     obtain_ids: "3016"
   }
@@ -7249,7 +7255,7 @@
     max_level: 10
     auto_select_id: 19032
     is_show: 1
-    obtain_ids: "3009"
+    obtain_ids: "3009,3096"
   }
   {
     id: 243
@@ -8400,7 +8406,7 @@
     max_level: 10
     auto_select_id: 18088
     is_show: 1
-    obtain_ids: "3066"
+    obtain_ids: "3066,3096"
   }
   {
     id: 278
@@ -8625,9 +8631,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: hit:1000
-    passive_skill: "300903"
+    passive_skill: "300903,759240"
     max_level: 10
     auto_select_id: 19041
+    equip_group_id: 11
     is_show: 1
     obtain_ids: "3016"
     sp_description: 梯队命中+10%
@@ -10958,5 +10965,73 @@
     auto_select_id: 20064
     is_show: 1
     obtain_ids: "3088"
+  }
+  {
+    id: 355
+    name: 多功能裙撑
+    description:
+      '''
+      回避+<dodge>
+      PPK改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "11,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_PPKMod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20010"
+    equip_introduction: IOP专门为PPK设计的特殊裙撑，可以有效保持作战时的人形平衡，即使是在高速行动时也不会阻碍人形的走位。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759241"
+    max_level: 10
+    auto_select_id: 20065
+    equip_group_id: 11
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 356
+    name: M856曳光弹
+    description:
+      '''
+      伤害+<pow>
+      梯队伤害+5%$HK416改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "8,12"
+    skill_effect: 300
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: 弹匣_特殊_HK416Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20065"
+    equip_introduction: 为HK416定制的特殊曳光弹，可以通过校正射击、点燃目标和发送信号来辅助作战。
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:700
+    passive_skill: "759235"
+    max_level: 10
+    auto_select_id: 19061
+    equip_group_id: 12
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队伤害+5%
   }
 ]
