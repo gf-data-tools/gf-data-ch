@@ -4,6 +4,7 @@
     name: 地雷出现
     code: dilei_chuxian
     description: 地雷
+    priority: 1
     duration: 1
     size: 0.8
     sound: bb_noel_nachujiguanqiang
@@ -14,6 +15,7 @@
     name: 地雷待机
     code: dilei_daiji
     description: 地雷
+    priority: 1
     size: 0.8
     offset: "0,0"
   }
@@ -22,6 +24,7 @@
     name: 地雷爆炸
     code: dilei_baoza
     description: 爆炸
+    priority: 1
     duration: 1
     size: 0.8
     sound: BT_grenade_explode
@@ -32,6 +35,7 @@
     name: 导弹
     code: BulletMove
     description: 导弹
+    priority: 1
     duration: 1
     size: 1
     sound: BT_MissileExplo
@@ -42,6 +46,7 @@
     name: 堡垒出现
     code: Gsyaojing_buzhi
     description: 堡垒
+    priority: 1
     duration: 1
     size: 1
     sound: bb_noel_nachujiguanqiang
@@ -61,6 +66,7 @@
     name: 导弹槽
     code: daodanchao
     description: 导弹槽
+    priority: 1
     size: 0.6
     offset: "0,0"
   }
@@ -69,6 +75,7 @@
     name: 导弹槽_待机
     code: daodanchao_daiji
     description: 导弹槽
+    priority: 1
     size: 0.6
     sound: bb_noel_nachujiguanqiang
     offset: "0,0"
@@ -78,6 +85,7 @@
     name: 耀夜姬特效
     code: ui_glass
     description: 镜面
+    priority: 1
     duration: 2
     delay: 1
     size: 1.5
@@ -89,6 +97,7 @@
     name: 耀夜姬爆炸
     code: dilei_baoza
     description: 爆炸
+    priority: 1
     duration: 1
     delay: 1.6
     size: 0.8
@@ -100,6 +109,7 @@
     name: 花瓣出现
     code: DJmax_huaban
     description: 花瓣
+    priority: 1
     size: 1
     offset: "0,0"
   }
@@ -108,6 +118,7 @@
     name: 桃子特效
     code: 2019_DH_YJ_xiangrui_1
     description: 桃子特效
+    priority: 1
     size: 1
     offset: "0,0"
   }
@@ -116,6 +127,7 @@
     name: 桃子拾取特效
     code: 2019_DH_YJ_xiangrui_3
     description: 桃子特效
+    priority: 1
     size: 1
     offset: "0,0"
   }
@@ -228,6 +240,7 @@
     name: 蝴蝶特效
     code: jy_hudie
     description: 蝴蝶特效
+    priority: 1
     size: 0.3
     offset: "0,150"
   }
@@ -414,6 +427,7 @@
     name: 沙舞妖精特效
     code: bian_sz
     description: 沙舞妖精特效
+    priority: 1
     size: 0.1
     offset: "0,0"
   }
