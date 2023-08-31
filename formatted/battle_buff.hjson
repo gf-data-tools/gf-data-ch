@@ -50366,6 +50366,38 @@
     is_form_play: 1
   }
   {
+    id: 9221
+    name: 竞争者装备
+    conflict_type: 2349
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9222
+    name: 监视死亡
+    conflict_type: 2349
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1043
+  }
+  {
+    id: 9223
+    name: 眩晕
+    conflict_type: 2349
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "209"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

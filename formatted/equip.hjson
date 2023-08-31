@@ -11034,4 +11034,36 @@
     obtain_ids: "3096"
     sp_description: 梯队伤害+5%
   }
+  {
+    id: 357
+    name: TC高性能骨骼
+    description:
+      '''
+      回避+<dodge>
+      技能增强$竞争者专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "12,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_竞争者
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "183"
+    equip_introduction: 专门为竞争者设计的外骨骼，提高了射击稳定性的同时还拥有高强度作战需要的运动性能。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759246"
+    max_level: 10
+    auto_select_id: 20066
+    is_show: 1
+    obtain_ids: "3089"
+  }
 ]
