@@ -31339,7 +31339,7 @@
     probability: 1
     voice: GUN|DP12|DIALOGUE1
     text: GUN|DP12|DIALOGUE1
-    name: 特殊待机2
+    name: 交互1
     camera: 1
     voice_code: DIALOGUE1
   }
@@ -31351,7 +31351,7 @@
     probability: 1
     voice: GUN|DP12|TIP
     text: GUN|DP12|TIP
-    name: 交互1
+    name: 交互2
     camera: 1
     delay: 1460
     voice_code: TIP
@@ -31364,7 +31364,7 @@
     probability: 1
     voice: GUN|DP12|LOADING
     text: GUN|DP12|LOADING
-    name: 交互2
+    name: 交互3
     camera: 1
     voice_code: LOADING
   }
@@ -31376,7 +31376,7 @@
     probability: 1
     voice: GUN|DP12|BLACKACTION
     text: GUN|DP12|BLACKACTION
-    name: 交互3
+    name: 交互4
     camera: 1
     voice_code: BLACKACTION
   }
@@ -31388,7 +31388,7 @@
     probability: 1
     voice: GUN|DP12|GOATTACK
     text: GUN|DP12|GOATTACK
-    name: 交互4
+    name: 交互5
     camera: 1
     voice_code: GOATTACK
   }
@@ -31398,7 +31398,7 @@
     motion_name: motions/GLS_1.mtn
     touch_area: gls
     probability: 1
-    name: 交互5
+    name: 戴眼镜
     camera: 1
   }
   {
@@ -31407,7 +31407,7 @@
     motion_name: motions/GLS_2.mtn
     touch_area: gls2
     probability: 1
-    name: 戴眼镜
+    name: 摘眼镜
     camera: 1
   }
   {
@@ -31418,7 +31418,7 @@
     probability: 1
     voice: GUN|DP12|DIALOGUEWEDDING
     text: GUN|DP12|DIALOGUEWEDDING
-    name: 摘眼镜
+    name: 结契后交互
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -31429,7 +31429,7 @@
     probability: 1
     voice: GUN|DP12|SOULCONTRACT
     text: GUN|DP12|SOULCONTRACT
-    name: 结契后交互
+    name: 结契动作
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -31439,7 +31439,7 @@
     motion_name: motions/shake.mtn
     probability: 1
     voice: GUN|DP12|LOWMOOD
-    name: 结契动作
+    name: 晃动响应
     camera: 1
   }
   {
@@ -31449,7 +31449,7 @@
     probability: 1
     voice: GUN|DP12|HELLO
     text: GUN|DP12|HELLO
-    name: 晃动响应
+    name: 上线响应
     camera: 1
     delay: 2100
     voice_code: HELLO
@@ -31459,7 +31459,7 @@
     type: 401
     motion_name: motions/daiji_idle_01.mtn
     probability: 1
-    name: 上线响应
+    name: 待机
     is_hurt: 1
   }
   {
@@ -31470,7 +31470,7 @@
     probability: 1
     voice: GUN|DP12|OPERATIONBEGIN
     text: GUN|DP12|OPERATIONBEGIN
-    name: 待机
+    name: 交互1
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -31484,7 +31484,7 @@
     probability: 1
     voice: GUN|DP12|BLACKACTION
     text: GUN|DP12|BLACKACTION
-    name: 特殊待机1
+    name: 交互2
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -31498,7 +31498,7 @@
     probability: 1
     voice: GUN|DP12|BREAK
     text: GUN|DP12|BREAK
-    name: 特殊待机2
+    name: 交互3
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -31512,7 +31512,7 @@
     probability: 1
     voice: GUN|DP12|BUILDOVER
     text: GUN|DP12|BUILDOVER
-    name: 交互1
+    name: 交互4
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -31526,7 +31526,7 @@
     probability: 1
     voice: GUN|DP12|RETREAT
     text: GUN|DP12|RETREAT
-    name: 交互2
+    name: 交互5
     camera: 1
     is_hurt: 1
     delay: 4000
@@ -31537,7 +31537,7 @@
     type: 301
     motion_name: motions/shake.mtn
     probability: 1
-    name: 交互3
+    name: 晃动响应
     camera: 1
     is_hurt: 1
   }
@@ -31548,10 +31548,246 @@
     probability: 1
     voice: GUN|DP12|HELLO
     text: GUN|DP12|HELLO
-    name: 交互4
+    name: 上线响应
     camera: 1
     is_hurt: 1
     delay: 7250
     voice_code: HELLO
+  }
+  {
+    id: 861001
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 861002
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.3
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 861003
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.3
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 861004
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|6P62|FIX
+    text: GUN|6P62|FIX
+    name: 交互1
+    camera: 1
+    delay: 2220
+    voice_code: FIX
+  }
+  {
+    id: 861005
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|6P62|LOADING
+    text: GUN|6P62|LOADING
+    name: 交互2
+    camera: 1
+    delay: 2000
+    voice_code: LOADING
+  }
+  {
+    id: 861006
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body1
+    probability: 1
+    voice: GUN|6P62|DIALOGUE3
+    text: GUN|6P62|DIALOGUE3
+    name: 交互3
+    camera: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 861007
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body2
+    probability: 1
+    voice: GUN|6P62|DIALOGUE1
+    text: GUN|6P62|DIALOGUE1
+    name: 交互4
+    camera: 1
+    delay: 7100
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 861008
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|6P62|OPERATIONBEGIN
+    text: GUN|6P62|OPERATIONBEGIN
+    name: 交互5
+    camera: 1
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 861009
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body2
+    probability: 1
+    voice: GUN|6P62|DIALOGUEWEDDING
+    text: GUN|6P62|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 861010
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|6P62|SOULCONTRACT
+    text: GUN|6P62|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 861011
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 861012
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|6P62|HELLO
+    text: GUN|6P62|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 3100
+    voice_code: HELLO
+  }
+  {
+    id: 861013
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 861014
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861015
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|6P62|MOOD2
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861016
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: arm1
+    probability: 1
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861017
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: arm2
+    probability: 1
+    voice: GUN|6P62|APPRECIATE
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861018
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|6P62|MOOD1
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861019
+    type: 402
+    motion_name: motions/broken_6.mtn
+    touch_area: other
+    probability: 1
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861020
+    type: 402
+    motion_name: motions/broken_7.mtn
+    touch_area: other2
+    probability: 1
+    voice: GUN|6P62|DIALOGUE1
+    text: GUN|6P62|DIALOGUE1
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 861021
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 861022
+    type: 1001
+    motion_name: motions/broken_7.mtn
+    probability: 1
+    voice: GUN|6P62|DIALOGUE1
+    text: GUN|6P62|DIALOGUE1
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE1
   }
 ]
