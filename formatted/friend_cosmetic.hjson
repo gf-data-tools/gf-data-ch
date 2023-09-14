@@ -17009,6 +17009,7 @@
     sub_type: 1
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profilePic_friendmall_AUG
     order: 1
     rarity: 5
@@ -17020,10 +17021,33 @@
     sub_type: 2
     gem: 320
     item_ids: 508-8000
+    onsale: 1
     code: card_friendmall_AUG
     order: 1
     rarity: 5
     event_id: 2808
+  }
+  {
+    id: 1362
+    item_id: 2362
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_SPAS15
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1363
+    item_id: 2363
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_SPAS15
+    order: 1
+    rarity: 5
+    skin: 30011
   }
   {
     id: 100001
@@ -17277,10 +17301,20 @@
     sub_type: 4
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profileFrame_friendmall_AUG
     order: 1
     rarity: 5
     filter_type: "5"
     event_id: 2814
+  }
+  {
+    id: 100030
+    item_id: 200030
+    sub_type: 4
+    code: profileFrame_BattlePass_SPAS15
+    order: 1
+    rarity: 5
+    filter_type: "5"
   }
 ]

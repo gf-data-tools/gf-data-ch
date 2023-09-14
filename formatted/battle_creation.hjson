@@ -82711,6 +82711,160 @@
     still_exist: 1
   }
   {
+    id: 9475
+    name: 娜希斯普攻单刀
+    code: NXS_sdg
+    start_type: "1"
+    start_offset: "3,0,0"
+    destination_type: "5"
+    destination_offset: "-1,0,0"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2384"
+    creation_type: 2
+    scale: "2,0.5,0.5"
+    is_orb_effect: 1
+  }
+  {
+    id: 9476
+    name: 娜希斯普攻受击效果
+    code: NXS_pg_dg
+    start_type: "5"
+    start_offset: "0,0.5,0"
+    destination_type: "5"
+    destination_offset: "0,0.5,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9477
+    name: 娜希斯二技能伤害
+    code: NXS_zd
+    start_type: "2"
+    destination_type: "5"
+    destination_offset: "1,0,0"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2385"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9478
+    name: 娜希斯二技能受击效果
+    code: NXS_bingci
+    start_type: "5"
+    start_offset: "-0.5,0,0"
+    destination_type: "5"
+    destination_offset: "-0.5,0,0"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "0.3,0.3,0.3"
+  }
+  {
+    id: 9479
+    name: 娜希斯二技能触发
+    start_type: "1"
+    destination_type: "2"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2386"
+    scale: "1"
+  }
+  {
+    id: 9480
+    name: 娜希斯一技能触发
+    start_type: "1"
+    destination_type: "2"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2387"
+    scale: "1"
+  }
+  {
+    id: 9481
+    name: 娜希斯一技能伤害
+    start_type: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2388"
+    scale: "1"
+  }
+  {
+    id: 9482
+    name: 娜希斯一技能解析触发
+    start_type: "1"
+    destination_type: "2"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "2389"
+    scale: "1"
+  }
+  {
+    id: 9485
+    name: 娜希斯一技能受击效果
+    code: NXS_pg_dg02
+    start_type: "5"
+    start_offset: "-1.5,0,0"
+    destination_type: "5"
+    destination_offset: "-1.5,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9486
+    name: 娜希斯一技能冲锋效果
+    code: NXS_tw
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "20"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9487
+    name: 娜希斯一技能光柱
+    code: NXS_guangzhu
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9488
+    name: 娜希斯普攻受击效果
+    code: NXS_pg_dg
+    start_type: "5"
+    start_offset: "0,0.5,0"
+    destination_type: "5"
+    destination_offset: "0,0.5,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    hurt_id: "1"
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -90107,7 +90261,6 @@
   {
     id: 10463
     name: 火力下降
-    code: Debuff_zi04
     start_type: hip
     start_offset: "0,0.5,-0.8"
     destination_type: hip
@@ -90123,7 +90276,6 @@
   {
     id: 10464
     name: 闪避下降
-    code: Debuff_zi01
     start_type: hip
     start_offset: "0,0.5,-0.8"
     destination_type: hip
@@ -90139,7 +90291,6 @@
   {
     id: 10465
     name: 命中下降
-    code: Debuff_zi02
     start_type: hip
     start_offset: "0,0.5,-0.8"
     destination_type: hip
@@ -90155,7 +90306,6 @@
   {
     id: 10466
     name: 射速下降
-    code: Debuff_zi03
     start_type: hip
     start_offset: "0,0.5,-0.8"
     destination_type: hip

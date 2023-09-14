@@ -4201,6 +4201,16 @@
     buff_trigger_type: 18
   }
   {
+    id: 741
+    description: 对我方全体释放除自己
+    target_type: 2
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 9227
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
     id: 1006
     description: 敌方_最近_嘲讽
     target_type: 1

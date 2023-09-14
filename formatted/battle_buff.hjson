@@ -50398,6 +50398,98 @@
     trigger_creation_id: "209"
   }
   {
+    id: 9224
+    name: 四技能伤害提升值层数
+    description: 娜希斯
+    conflict_type: 2350
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9225
+    name: 三技能伤害降低
+    description: 娜希斯
+    conflict_type: 2350
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+    available_gun_type: "103"
+  }
+  {
+    id: 9226
+    name: 三技能触发我方-监视撤退
+    description: 娜希斯
+    conflict_type: 2351
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1044
+  }
+  {
+    id: 9227
+    name: 三技能触发敌方-监视死亡
+    description: 娜希斯
+    conflict_type: 2351
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1045
+  }
+  {
+    id: 9228
+    name: 二技能实际触发
+    description: 娜希斯
+    conflict_type: 2350
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9229
+    name: 二技能易伤
+    conflict_type: 2350
+    max_tier: 14
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 9230
+    name: 一技能实际触发
+    conflict_type: 2352
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9231
+    name: 一技能解析实际触发
+    conflict_type: 2352
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
