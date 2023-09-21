@@ -34,7 +34,21 @@ local _SpineTakeOffOneSkin = function(self,slot_id)
 	
 	self:SpineTakeOffOneSkin(slot_id);
 end
+local _ChooseOneSkin = function(self,good,skin)
+	local hasGood=false;
+	if self.readyBuyGoods.Count >0 then
+		hasGood=self.readyBuyGoods:ContainsValue(good);
+	end
+	
+	self:ChooseOneSkin(good,skin);
 
-
+	if hasGood==true and self.curSelectedSlot~=nil then
+		local id = self.curSelectedSlot.slotId;
+		if self.readyBuyGoods:ContainsKey(id) then
+			self.readyBuyGoods:Remove(id);
+		end
+	end
+end
 util.hotfix_ex(CS.VehicleStoreCtrl,'SpineChangeOneComponent',_SpineChangeOneComponent)
 util.hotfix_ex(CS.VehicleStoreCtrl,'SpineTakeOffOneSkin',_SpineTakeOffOneSkin)
+util.hotfix_ex(CS.VehicleStoreCtrl,'ChooseOneSkin',_ChooseOneSkin)
