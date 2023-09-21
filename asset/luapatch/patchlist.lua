@@ -263,7 +263,8 @@ patch3030=
 "3030/ResearchSkillChoosePanleNew",
 "3030/VehicleStateDetailController",
 "3030/VehicleUnlockTaskController",
-"3030/OPSEventPrizeItemController",	
+"3030/OPSEventPrizeItemController",
+"3030/Request",		
 }
 -- va11
 print("load Va11");
