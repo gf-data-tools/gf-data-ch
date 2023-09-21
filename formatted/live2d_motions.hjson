@@ -31795,7 +31795,7 @@
     type: 101
     motion_name: motions/daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-10870101
+    name: 待机
   }
   {
     id: 870102
@@ -31803,7 +31803,7 @@
     motion_name: motions/wait_1.mtn
     hold_time: "15,17"
     probability: 0.5
-    name: live2d_motions-10870102
+    name: 特殊待机1
     camera: 1
   }
   {
@@ -31812,7 +31812,7 @@
     motion_name: motions/wait_2.mtn
     hold_time: "30,35"
     probability: 0.5
-    name: live2d_motions-10870103
+    name: 特殊待机2
     camera: 1
   }
   {
@@ -31821,12 +31821,11 @@
     motion_name: motions/touch_1.mtn
     touch_area: head
     probability: 1
-    voice: GUN|PA15|DIALOGUE2
-    text: GUN|PA15|DIALOGUE2
-    name: live2d_motions-10870104
+    voice: GUN|PA15|GAIN
+    text: GUN|PA15|GAIN
+    name: 交互1
     camera: 1
-    delay: 500
-    voice_code: DIALOGUE2
+    voice_code: GAIN
   }
   {
     id: 870105
@@ -31836,9 +31835,9 @@
     probability: 1
     voice: GUN|PA15|DIALOGUE1
     text: GUN|PA15|DIALOGUE1
-    name: live2d_motions-10870105
+    name: 交互2
     camera: 1
-    delay: 2000
+    delay: 1000
     voice_code: DIALOGUE1
   }
   {
@@ -31847,12 +31846,11 @@
     motion_name: motions/touch_3.mtn
     touch_area: body
     probability: 1
-    voice: GUN|PA15|BUILDOVER
-    text: GUN|PA15|BUILDOVER
-    name: live2d_motions-10870106
+    voice: GUN|PA15|PHRASE
+    text: GUN|PA15|PHRASE
+    name: 交互3
     camera: 1
-    delay: 500
-    voice_code: BUILDOVER
+    voice_code: PHRASE
   }
   {
     id: 870107
@@ -31860,11 +31858,12 @@
     motion_name: motions/touch_4.mtn
     touch_area: body
     probability: 1
-    voice: GUN|PA15|FEED
-    text: GUN|PA15|FEED
-    name: live2d_motions-10870107
+    voice: GUN|PA15|BUILDOVER
+    text: GUN|PA15|BUILDOVER
+    name: 交互4
     camera: 1
-    voice_code: FEED
+    delay: 1000
+    voice_code: BUILDOVER
   }
   {
     id: 870108
@@ -31872,12 +31871,12 @@
     motion_name: motions/touch_5.mtn
     touch_area: leg
     probability: 1
-    voice: GUN|PA15|LOADING
-    text: GUN|PA15|LOADING
-    name: live2d_motions-10870108
+    voice: GUN|PA15|TIP
+    text: GUN|PA15|TIP
+    name: 交互5
     camera: 1
-    delay: 500
-    voice_code: LOADING
+    delay: 2000
+    voice_code: TIP
   }
   {
     id: 870109
@@ -31887,7 +31886,7 @@
     probability: 1
     voice: GUN|PA15|DIALOGUEWEDDING
     text: GUN|PA15|DIALOGUEWEDDING
-    name: live2d_motions-10870109
+    name: 结契后交互
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -31898,9 +31897,8 @@
     probability: 1
     voice: GUN|PA15|SOULCONTRACT
     text: GUN|PA15|SOULCONTRACT
-    name: live2d_motions-10870110
+    name: 结契动作
     camera: 1
-    delay: 500
     voice_code: SOULCONTRACT
   }
   {
@@ -31908,27 +31906,27 @@
     type: 300
     motion_name: motions/shake.mtn
     probability: 1
-    name: live2d_motions-10870111
+    name: 晃动响应
     camera: 1
   }
   {
     id: 870112
     type: 1000
-    motion_name: motions/login.mtn
+    motion_name: motions/LOADING.mtn
     probability: 1
-    voice: GUN|PA15|HELLO
-    text: GUN|PA15|HELLO
-    name: live2d_motions-10870112
+    voice: GUN|PA15|LOADING
+    text: GUN|PA15|LOADING
+    name: 上线响应
     camera: 1
-    delay: 3500
-    voice_code: HELLO
+    delay: 2000
+    voice_code: LOADING
   }
   {
     id: 870113
     type: 401
     motion_name: motions/daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-10870113
+    name: 待机
     is_hurt: 1
   }
   {
@@ -31939,7 +31937,7 @@
     probability: 1
     voice: GUN|PA15|DIALOGUE1
     text: GUN|PA15|DIALOGUE1
-    name: live2d_motions-10870114
+    name: 交互1
     camera: 1
     is_hurt: 1
     voice_code: DIALOGUE1
@@ -31952,10 +31950,10 @@
     probability: 1
     voice: GUN|PA15|DIALOGUE1
     text: GUN|PA15|DIALOGUE1
-    name: live2d_motions-10870115
+    name: 交互1B
     camera: 1
     is_hurt: 1
-    voice_code: COMBINE
+    voice_code: DIALOGUE1
   }
   {
     id: 870116
@@ -31965,10 +31963,10 @@
     probability: 1
     voice: GUN|PA15|MEET
     text: GUN|PA15|MEET
-    name: live2d_motions-10870116
+    name: 交互2
     camera: 1
     is_hurt: 1
-    voice_code: DIALOGUE2
+    voice_code: MEET
   }
   {
     id: 870117
@@ -31978,10 +31976,10 @@
     probability: 1
     voice: GUN|PA15|PHRASE
     text: GUN|PA15|PHRASE
-    name: live2d_motions-10870117
+    name: 交互3
     camera: 1
     is_hurt: 1
-    voice_code: FIX
+    voice_code: PHRASE
   }
   {
     id: 870118
@@ -31991,10 +31989,10 @@
     probability: 1
     voice: GUN|PA15|FIX
     text: GUN|PA15|FIX
-    name: live2d_motions-10870118
+    name: 交互4
     camera: 1
     is_hurt: 1
-    voice_code: TIP
+    voice_code: FIX
   }
   {
     id: 870119
@@ -32004,7 +32002,7 @@
     probability: 1
     voice: GUN|PA15|TIP
     text: GUN|PA15|TIP
-    name: live2d_motions-10870119
+    name: 交互5
     camera: 1
     is_hurt: 1
     voice_code: TIP
@@ -32016,11 +32014,11 @@
     probability: 1
     voice: GUN|PA15|BUILDOVER
     text: GUN|PA15|BUILDOVER
-    name: live2d_motions-10870120
+    name: 上线响应
     camera: 1
     is_hurt: 1
-    delay: 9300
-    voice_code: BREAK
+    delay: 430
+    voice_code: BUILDOVER
   }
   {
     id: 870121
@@ -32028,7 +32026,7 @@
     motion_name: motions/shake.mtn
     probability: 1
     voice: GUN|PA15|MOOD1
-    name: live2d_motions-10870121
+    name: 晃动响应
     camera: 1
     is_hurt: 1
   }

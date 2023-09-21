@@ -261,6 +261,7 @@ patch3030=
 "3030/GashaponController",
 "3030/HomeController",	
 "3030/VehicleStateDetailController",
+"3030/VehicleUnlockTaskController",
 }
 -- va11
 print("load Va11");
