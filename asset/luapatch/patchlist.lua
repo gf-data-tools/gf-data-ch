@@ -259,9 +259,11 @@ patch3030=
 "3030/FormationController",
 "3030/GuideManagerController",			
 "3030/GashaponController",
-"3030/HomeController",	
+"3030/HomeController",
+"3030/ResearchSkillChoosePanleNew",
 "3030/VehicleStateDetailController",
 "3030/VehicleUnlockTaskController",
+"3030/OPSEventPrizeItemController",	
 }
 -- va11
 print("load Va11");
