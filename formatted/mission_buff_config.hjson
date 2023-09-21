@@ -13,7 +13,7 @@
   }
   {
     id: 2
-    name: 战斗buff
+    name: 战斗效率
     description: 增加攻击攻速
     code: buff
     type: 1
@@ -25,7 +25,7 @@
   }
   {
     id: 3
-    name: 暴击buff
+    name: 怒无限强
     description: 增加暴击爆伤
     code: buff
     type: 1
@@ -37,8 +37,8 @@
   }
   {
     id: 5
-    name: 防御buff
-    description: 减少梯队收到伤害
+    name: 能量护盾
+    description: 获得护盾效果
     code: buff
     type: 1
     duration_type: "1"
@@ -49,19 +49,19 @@
   }
   {
     id: 6
-    name: 堡垒buff
-    description: 增加梯队属性
+    name: 临时装甲
+    description: 获得减伤效果
     code: buff
     type: 1
-    duration_type: "1"
-    duration_time: "1"
+    duration_type: "1,5"
+    duration_time: "1,1"
     exp_buff: "1"
     battle_skill_config_id: 900113
     conflict_type: 6
   }
   {
     id: 8
-    name: 增援buff
+    name: 增援人形
     description: 增援后增加一场战斗提升回避
     code: buff
     type: 1
@@ -73,7 +73,7 @@
   }
   {
     id: 13
-    name: 经验buff
+    name: 超量经验
     description: 增加经验获得
     code: buff
     type: 1
@@ -84,7 +84,7 @@
   }
   {
     id: 14
-    name: 掉落buff
+    name: 高效搜救
     description: 增加掉落概率
     code: buff
     type: 1
@@ -96,8 +96,8 @@
   }
   {
     id: 15
-    name: 夜战buff
-    description: 增加视野
+    name: 夜间照明
+    description: 夜间照明
     code: buff
     type: 1
     duration_type: "1"
@@ -108,21 +108,33 @@
     conflict_type: 15
   }
   {
+    id: 61
+    name: 临时装甲
+    description: 获得减伤效果
+    code: buff
+    type: 1
+    duration_type: "1,5"
+    duration_time: "1,2"
+    exp_buff: "1"
+    battle_skill_config_id: 900113
+    conflict_type: 6
+  }
+  {
     id: 1004
     name: 花瓣buff
     description: 增加梯队属性
     code: buff
     type: 1
-    duration_type: "4"
-    duration_time: "1"
+    duration_type: "1,5"
+    duration_time: "1,1"
     exp_buff: "1"
     battle_skill_config_id: 900154
     conflict_type: 1004
   }
   {
     id: 1301
-    name: 经验buff
-    description: 等级1
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -132,8 +144,8 @@
   }
   {
     id: 1302
-    name: 经验buff
-    description: 等级2
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -143,8 +155,8 @@
   }
   {
     id: 1303
-    name: 经验buff
-    description: 等级3
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -154,8 +166,8 @@
   }
   {
     id: 1304
-    name: 经验buff
-    description: 等级4
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -165,8 +177,8 @@
   }
   {
     id: 1305
-    name: 经验buff
-    description: 等级5
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -176,8 +188,8 @@
   }
   {
     id: 1306
-    name: 经验buff
-    description: 等级6
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -187,8 +199,8 @@
   }
   {
     id: 1307
-    name: 经验buff
-    description: 等级7
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -198,8 +210,8 @@
   }
   {
     id: 1308
-    name: 经验buff
-    description: 等级8
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -209,8 +221,8 @@
   }
   {
     id: 1309
-    name: 经验buff
-    description: 等级9
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -220,8 +232,8 @@
   }
   {
     id: 1310
-    name: 经验buff
-    description: 等级10
+    name: 超量经验
+    description: 经验获取提升
     code: buff
     type: 1
     duration_type: "2"
@@ -231,8 +243,8 @@
   }
   {
     id: 1501
-    name: 视野buff
-    description: 等级1
+    name: 夜间照明
+    description: 命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -243,8 +255,8 @@
   }
   {
     id: 1502
-    name: 视野buff
-    description: 等级2
+    name: 夜间照明
+    description: 命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -255,8 +267,8 @@
   }
   {
     id: 1503
-    name: 视野buff
-    description: 等级3
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -268,8 +280,8 @@
   }
   {
     id: 1504
-    name: 视野buff
-    description: 等级4
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -281,8 +293,8 @@
   }
   {
     id: 1505
-    name: 视野buff
-    description: 等级5
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -294,8 +306,8 @@
   }
   {
     id: 1506
-    name: 视野buff
-    description: 等级6
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -307,8 +319,8 @@
   }
   {
     id: 1507
-    name: 视野buff
-    description: 等级7
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -320,8 +332,8 @@
   }
   {
     id: 1508
-    name: 视野buff
-    description: 等级8
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -333,8 +345,8 @@
   }
   {
     id: 1509
-    name: 视野buff
-    description: 等级9
+    name: 夜间照明
+    description: 提升1格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -346,8 +358,8 @@
   }
   {
     id: 1510
-    name: 视野buff
-    description: 等级10
+    name: 夜间照明
+    description: 提升2格视野，命中提升
     code: buff
     type: 1
     duration_type: "1"
@@ -359,8 +371,8 @@
   }
   {
     id: 1700
-    name: 连击标记
-    description: 连击标记
+    name: 连击
+    description: 妖精技能效果生效中
     code: combo
     type: 1
     duration_type: "1"
@@ -376,7 +388,7 @@
   {
     id: 1701
     name: 二连击
-    description: 二连击
+    description: 二连击效果生效中
     code: combo
     type: 1
     duration_type: "1"
@@ -392,7 +404,7 @@
   {
     id: 1702
     name: 多连击
-    description: 多连击
+    description: 多连击效果生效中
     code: combo
     type: 1
     duration_type: "1"
@@ -405,7 +417,7 @@
   {
     id: 1801
     name: 桃子
-    description: 你在想桃子
+    description: 敌方接触降低火力，我方接触提升移动速度
     code: buff
     type: 1
     duration_type: "4"
@@ -417,7 +429,7 @@
   {
     id: 1811
     name: 桃子
-    description: 你在想桃子
+    description: 敌方接触降低火力，我方接触提升移动速度
     code: debuff
     type: 2
     duration_type: "4"
@@ -428,11 +440,12 @@
   }
   {
     id: 1900
-    name: 沙暴触发
+    name: 迷乱沙域
+    description: 在沙漠环境中单位降低移速，降低射速，命中持续降低，携带沙舞妖精可以抵抗减益并且减伤
     code: ExtraAp
     type: 1
-    duration_type: "4"
-    duration_time: "1"
+    duration_type: "1,5"
+    duration_time: "1,1"
     exp_buff: "1"
     battle_skill_config_id: 900900
     conflict_type: 1900
@@ -440,11 +453,12 @@
   }
   {
     id: 2000
-    name: 沙暴自身
+    name: 迷乱沙域
+    description: 在沙漠环境中单位降低移速，降低射速，命中持续降低，携带沙舞妖精可以抵抗减益并且减伤
     code: ExtraAp
     type: 1
     duration_type: "1"
-    duration_time: "99"
+    duration_time: "999"
     exp_buff: "1"
     battle_skill_config_id: 900903
     conflict_type: 2000
@@ -452,8 +466,8 @@
   }
   {
     id: 2100
-    name: 定身
-    description: 定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -466,7 +480,7 @@
   {
     id: 2300
     name: 火箭
-    description: 火箭
+    description: 火箭支援中
     code: SpeedUp
     type: 1
     duration_type: "4"
@@ -478,7 +492,7 @@
   }
   {
     id: 10001
-    name: 携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -490,8 +504,20 @@
     carry_mission_skill: "10002"
   }
   {
+    id: 10041
+    name: 花瓣buff
+    description: 增加梯队属性
+    code: buff
+    type: 1
+    duration_type: "1,5"
+    duration_time: "1,2"
+    exp_buff: "1"
+    battle_skill_config_id: 900154
+    conflict_type: 1004
+  }
+  {
     id: 10086
-    name: 空降debuff
+    name: 机场解放
     description: 降低各项属性
     code: debuff
     type: 2
@@ -503,7 +529,7 @@
   }
   {
     id: 10101
-    name: 携带EMP手雷
+    name: 携带buff
     description: 携带EMP手雷
     type: 1
     duration_type: "1"
@@ -529,7 +555,8 @@
   }
   {
     id: 20102
-    name: 单独行动C
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -554,7 +581,8 @@
   }
   {
     id: 20202
-    name: 单独行动B
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -579,7 +607,8 @@
   }
   {
     id: 20302
-    name: 单独行动A
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -591,8 +620,8 @@
   }
   {
     id: 20401
-    name: 再动C
-    description: 连续行动
+    name: 加速
+    description: 移动力提升
     code: ExtraMove
     type: 1
     duration_type: "1"
@@ -603,8 +632,8 @@
   }
   {
     id: 20402
-    name: 再动B
-    description: 连续行动+
+    name: 加速
+    description: 移动力提升
     code: ExtraMove2
     type: 1
     duration_type: "1"
@@ -615,8 +644,8 @@
   }
   {
     id: 20403
-    name: 再动A
-    description: 连续行动++
+    name: 加速
+    description: 移动力提升
     code: ExtraMove3
     type: 1
     duration_type: "1"
@@ -627,8 +656,8 @@
   }
   {
     id: 50000
-    name: 额外弹药口粮测试
-    description: 额外携带弹药口粮
+    name: 芯片buff
+    description: 携带额外的弹药口粮
     code: ExtraAmmo
     type: 1
     duration_type: "1"
@@ -639,8 +668,8 @@
   }
   {
     id: 50001
-    name: 行动点测试测试
-    description: 行动点
+    name: 芯片buff
+    description: 额外行动力
     code: ExtraAp
     type: 1
     duration_type: "1,5"
@@ -651,8 +680,8 @@
   }
   {
     id: 50002
-    name: 减少消耗测试
-    description: 减少消耗
+    name: 芯片buff
+    description: 额外作战弹粮
     code: AmmoReduce
     type: 1
     duration_type: "4"
@@ -665,8 +694,8 @@
   }
   {
     id: 50003
-    name: 夜战视野芯片
-    description: 等级1
+    name: 芯片buff
+    description: 夜战视野加强
     code: NightView
     type: 1
     duration_type: "1"
@@ -677,8 +706,8 @@
   }
   {
     id: 50004
-    name: 夜视能力芯片
-    description: 等级1
+    name: 芯片buff
+    description: 夜战能力加强
     code: nighthitBuff
     type: 1
     duration_type: "1"
@@ -689,8 +718,8 @@
   }
   {
     id: 50005
-    name: 炮灰
-    description: 炮灰
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "4"
@@ -701,6 +730,8 @@
   }
   {
     id: 50006
+    name: 禁足
+    description: 禁止移动
     code: debuff
     type: 2
     duration_type: "1"
@@ -712,6 +743,8 @@
   }
   {
     id: 50007
+    name: 个别性调整
+    description: 属性提升
     code: buff
     type: 1
     duration_type: "4"
@@ -723,6 +756,8 @@
   }
   {
     id: 50008
+    name: debuff
+    description: 属性下降
     code: debuff
     type: 1
     duration_type: "1"
@@ -734,7 +769,7 @@
   }
   {
     id: 70015
-    name: 【标记】加速
+    name: 加速
     description: 行动力提升
     code: ExtraAp
     type: 1
@@ -746,7 +781,7 @@
   }
   {
     id: 70016
-    name: 【标记】自动作战加速
+    name: 加速
     description: 行动力提升
     code: ExtraAp
     type: 1
@@ -778,7 +813,8 @@
   }
   {
     id: 78001
-    name: 单独行动A
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -790,7 +826,8 @@
   }
   {
     id: 78002
-    name: 单独行动EX
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -802,7 +839,8 @@
   }
   {
     id: 78003
-    name: 单独行动EX
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -814,7 +852,7 @@
   }
   {
     id: 363001
-    name: 携带炸药
+    name: 携带buff
     description: 携带炸药
     type: 1
     duration_type: "1"
@@ -827,7 +865,7 @@
   }
   {
     id: 363002
-    name: 携带EMP手雷
+    name: 携带buff
     description: 携带EMP手雷
     type: 1
     duration_type: "1"
@@ -840,7 +878,6 @@
   }
   {
     id: 381402
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -849,7 +886,6 @@
   }
   {
     id: 381403
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -858,7 +894,6 @@
   }
   {
     id: 381404
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -867,7 +902,6 @@
   }
   {
     id: 381405
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -876,7 +910,6 @@
   }
   {
     id: 381406
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -885,7 +918,6 @@
   }
   {
     id: 381407
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -894,7 +926,6 @@
   }
   {
     id: 381408
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -903,7 +934,6 @@
   }
   {
     id: 381409
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -912,7 +942,6 @@
   }
   {
     id: 381410
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -921,7 +950,6 @@
   }
   {
     id: 381411
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -930,7 +958,6 @@
   }
   {
     id: 381412
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -939,7 +966,6 @@
   }
   {
     id: 381413
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -948,7 +974,6 @@
   }
   {
     id: 381414
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -957,7 +982,6 @@
   }
   {
     id: 381415
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -966,7 +990,6 @@
   }
   {
     id: 381416
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -975,7 +998,6 @@
   }
   {
     id: 381417
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -984,7 +1006,6 @@
   }
   {
     id: 381418
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -993,7 +1014,6 @@
   }
   {
     id: 381419
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1002,7 +1022,6 @@
   }
   {
     id: 381420
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1011,7 +1030,6 @@
   }
   {
     id: 381421
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1020,7 +1038,6 @@
   }
   {
     id: 381422
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1029,7 +1046,6 @@
   }
   {
     id: 381423
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1038,7 +1054,6 @@
   }
   {
     id: 381424
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1047,7 +1062,6 @@
   }
   {
     id: 381425
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1056,7 +1070,7 @@
   }
   {
     id: 381468
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1066,7 +1080,7 @@
   }
   {
     id: 381602
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1078,7 +1092,7 @@
   }
   {
     id: 381603
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1090,7 +1104,6 @@
   }
   {
     id: 381903
-    code: fighting
     type: 1
     duration_type: "1"
     duration_time: "3"
@@ -1101,7 +1114,6 @@
   {
     id: 410301
     name: 靠近检测
-    description: 靠近检测
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1114,8 +1126,8 @@
   }
   {
     id: 410363
-    name: 持有歌利亚标记
-    description: 持有歌利亚标记
+    name: 携带buff
+    description: 携带歌利亚
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1127,8 +1139,8 @@
   }
   {
     id: 410364
-    name: 持有EMP标记
-    description: 持有EMP标记
+    name: 携带buff
+    description: 持有EMP
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1140,7 +1152,7 @@
   }
   {
     id: 410501
-    name: 花粉感染
+    name: 感染
     description: 花粉感染
     code: debuff
     type: 1
@@ -1153,7 +1165,7 @@
   }
   {
     id: 410502
-    name: 花粉感染
+    name: 感染
     description: 花粉感染
     code: buff
     type: 1
@@ -1177,7 +1189,8 @@
   }
   {
     id: 440001
-    name: 丹德莱BUFF
+    name: 阴极双影
+    description: 当进入战斗时可在场中召唤丹德莱的幻像，对全体敌人造成伤害后退场。
     code: buff
     type: 1
     duration_type: "1"
@@ -1189,7 +1202,8 @@
   }
   {
     id: 440002
-    name: 丹德莱DEBUFF
+    name: 光核熔断
+    description: 清空全部力场值，并极大幅度降低命中闪避和移动速度，削弱效果逐渐消失。
     code: debuff
     type: 1
     duration_type: "1"
@@ -1276,8 +1290,7 @@
   }
   {
     id: 480000
-    name: 【标记】丹德莱
-    description: 【标记】丹德莱
+    name: 丹德莱
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1288,7 +1301,7 @@
   }
   {
     id: 480102
-    name: 【标记】携带EMP手雷
+    name: 携带buff
     description: 携带EMP手雷
     type: 1
     duration_type: "1"
@@ -1301,7 +1314,7 @@
   }
   {
     id: 481400
-    name: 【标记】携带大量炸药
+    name: 携带buff
     description: 携带大量炸药
     type: 1
     duration_type: "1"
@@ -1313,8 +1326,8 @@
   }
   {
     id: 482000
-    name: 【标记】运输队定身
-    description: 【标记】运输队定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -1326,8 +1339,9 @@
   }
   {
     id: 482001
-    name: 【标记】帕斯卡鬼步
-    description: 【标记】帕斯卡鬼步
+    name: 加速
+    description: 可以额外行动
+    code: speedup
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1340,8 +1354,8 @@
   }
   {
     id: 482002
-    name: 【标记】帕斯卡鬼步生效
-    description: 【标记】帕斯卡鬼步
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -1354,7 +1368,6 @@
   {
     id: 482101
     name: 【标记】夜视buff
-    description: 【标记】
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1367,7 +1380,6 @@
   {
     id: 482300
     name: 【标记】帕斯卡
-    description: 【标记】帕斯卡
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1379,7 +1391,6 @@
   {
     id: 482301
     name: 【标记】帕斯卡技能CD
-    description: 【标记】帕斯卡技能CD
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -1389,8 +1400,8 @@
   }
   {
     id: 482430
-    name: 【标记】布置傀儡cost
-    description: 布置傀儡cost
+    name: COST
+    description: 部署费用
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -1402,8 +1413,8 @@
   }
   {
     id: 482505
-    name: 【标记】布拉梅德削弱
-    description: 【标记】布拉梅德削弱
+    name: 削弱
+    description: 属性下降
     code: debuff
     type: 2
     duration_type: "1"
@@ -1416,8 +1427,8 @@
   }
   {
     id: 482506
-    name: 【标记】布拉梅德削弱
-    description: 【标记】布拉梅德削弱
+    name: 削弱
+    description: 属性下降
     code: debuff
     type: 2
     duration_type: "1"
@@ -1430,8 +1441,8 @@
   }
   {
     id: 482507
-    name: 【标记】布拉梅德削弱
-    description: 【标记】布拉梅德削弱
+    name: 削弱
+    description: 属性下降
     code: debuff
     type: 2
     duration_type: "1"
@@ -1444,7 +1455,7 @@
   }
   {
     id: 483501
-    name: 【标记】携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -1457,8 +1468,8 @@
   }
   {
     id: 483600
-    name: 【标记】指挥官定身
-    description: 【标记】指挥官定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -1470,7 +1481,7 @@
   }
   {
     id: 483601
-    name: 【标记】携带高爆炸药
+    name: 携带buff
     description: 携带高爆炸药
     type: 1
     duration_type: "1"
@@ -1484,7 +1495,6 @@
   {
     id: 483901
     name: 【标记】运输队
-    description: 【标记】运输队
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1498,7 +1508,7 @@
   }
   {
     id: 483903
-    name: 【标记】携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
     type: 1
     duration_type: "1"
@@ -1510,8 +1520,8 @@
   }
   {
     id: 483911
-    name: 【标记】运输队定身
-    description: 【标记】运输队定身
+    name: 禁足
+    description: 运输队无法移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -1523,8 +1533,8 @@
   }
   {
     id: 483921
-    name: 【标记】运输队鬼步生效
-    description: 【标记】运输队鬼步
+    name: 加速
+    description: 运输队行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"
@@ -1535,7 +1545,7 @@
   }
   {
     id: 500020
-    name: 可可豆
+    name: 携带buff
     description: 携带可可豆
     type: 1
     duration_type: "1"
@@ -1546,7 +1556,7 @@
   }
   {
     id: 500021
-    name: 咖啡豆
+    name: 携带buff
     description: 携带咖啡豆
     type: 1
     duration_type: "1"
@@ -1557,7 +1567,7 @@
   }
   {
     id: 500022
-    name: 白砂糖
+    name: 携带buff
     description: 携带白砂糖
     type: 1
     duration_type: "1"
@@ -1568,7 +1578,7 @@
   }
   {
     id: 500023
-    name: 怪味粉
+    name: 携带buff
     description: 携带怪味粉
     type: 1
     duration_type: "1"
@@ -1579,7 +1589,7 @@
   }
   {
     id: 500024
-    name: 荧光粉
+    name: 携带buff
     description: 携带荧光粉
     type: 1
     duration_type: "1"
@@ -1590,7 +1600,7 @@
   }
   {
     id: 500025
-    name: 冷却剂
+    name: 携带buff
     description: 携带冷却剂
     type: 1
     duration_type: "1"
@@ -1601,7 +1611,7 @@
   }
   {
     id: 500026
-    name: 食用色素
+    name: 携带buff
     description: 携带食用色素
     type: 1
     duration_type: "1"
@@ -1612,7 +1622,7 @@
   }
   {
     id: 500027
-    name: 特色调料
+    name: 携带buff
     description: 携带特色调料
     type: 1
     duration_type: "1"
@@ -1623,7 +1633,7 @@
   }
   {
     id: 500028
-    name: 标准模具
+    name: 携带buff
     description: 携带标准模具
     type: 1
     duration_type: "1"
@@ -1634,7 +1644,7 @@
   }
   {
     id: 500029
-    name: 个性模具
+    name: 携带buff
     description: 携带个性模具
     type: 1
     duration_type: "1"
@@ -1655,7 +1665,7 @@
   }
   {
     id: 500401
-    name: 薄荷世家
+    name: 携带buff
     description: 携带薄荷世家
     type: 1
     duration_type: "1"
@@ -1666,7 +1676,7 @@
   }
   {
     id: 500402
-    name: 甜蜜军刀
+    name: 携带buff
     description: 携带甜蜜军刀
     type: 1
     duration_type: "1"
@@ -1677,7 +1687,7 @@
   }
   {
     id: 500403
-    name: 命运之吻
+    name: 携带buff
     description: 携带命运之吻
     type: 1
     duration_type: "1"
@@ -1688,7 +1698,7 @@
   }
   {
     id: 500404
-    name: 巧克力二重奏
+    name: 携带buff
     description: 携带巧克力二重奏
     type: 1
     duration_type: "1"
@@ -1699,7 +1709,7 @@
   }
   {
     id: 500405
-    name: 经典记忆
+    name: 携带buff
     description: 携带经典记忆
     type: 1
     duration_type: "1"
@@ -1710,7 +1720,7 @@
   }
   {
     id: 500406
-    name: 可可新世界
+    name: 携带buff
     description: 携带可可新世界
     type: 1
     duration_type: "1"
@@ -1722,7 +1732,7 @@
   }
   {
     id: 500407
-    name: 巧苏鲁
+    name: 携带buff
     description: 携带巧苏鲁
     type: 1
     duration_type: "1"
@@ -1744,7 +1754,6 @@
   {
     id: 510201
     name: BOSS
-    description: BOSS
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1757,7 +1766,7 @@
   }
   {
     id: 510701
-    name: 携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
     type: 1
     duration_type: "1"
@@ -1794,6 +1803,7 @@
   {
     id: 510705
     name: 信号增幅
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "1"
@@ -1804,7 +1814,8 @@
   }
   {
     id: 510713
-    name: 限制移动
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -1816,7 +1827,8 @@
   }
   {
     id: 510904
-    name: 破解定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -1828,7 +1840,8 @@
   }
   {
     id: 510914
-    name: 高速破解定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -1840,7 +1853,8 @@
   }
   {
     id: 511012
-    name: 伤害增幅
+    name: 增幅
+    description: 伤害增加
     code: powBuff
     type: 1
     duration_type: "4"
@@ -1852,7 +1866,8 @@
   }
   {
     id: 511013
-    name: 护盾增幅
+    name: 增幅
+    description: 护盾增加
     code: shield
     type: 1
     duration_type: "4"
@@ -1864,7 +1879,8 @@
   }
   {
     id: 511022
-    name: 伤害增幅
+    name: 增幅
+    description: 伤害增加
     code: powBuff
     type: 1
     duration_type: "4"
@@ -1876,7 +1892,8 @@
   }
   {
     id: 511023
-    name: 护盾增幅
+    name: 增幅
+    description: 护盾增加
     code: shield
     type: 1
     duration_type: "4"
@@ -1888,7 +1905,8 @@
   }
   {
     id: 520600
-    name: 单独行动
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "1"
@@ -1900,7 +1918,8 @@
   }
   {
     id: 520800
-    name: 【标记】充能
+    name: COST
+    description: 部署费用
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -1911,7 +1930,9 @@
   }
   {
     id: 520801
-    name: 【标记】定身
+    name: 禁足
+    description: 禁止移动
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1922,7 +1943,8 @@
   }
   {
     id: 541201
-    name: 扒衣服
+    name: 携带buff
+    description: 带着一套衣服
     code: Chloe
     type: 1
     duration_type: "1"
@@ -1962,6 +1984,8 @@
   {
     id: 541311
     name: 空袭引导
+    description: 禁止移动
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -1974,7 +1998,7 @@
   }
   {
     id: 541314
-    name: 携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -2007,7 +2031,7 @@
   }
   {
     id: 543114
-    name: 携带心智震撼弹
+    name: 携带buff
     description: 携带心智震撼弹
     type: 1
     duration_type: "1"
@@ -2030,7 +2054,8 @@
   }
   {
     id: 544112
-    name: 削弱BOSS
+    name: 削弱
+    description: 属性下降中
     code: shield
     type: 2
     duration_type: "1"
@@ -2088,7 +2113,8 @@
   }
   {
     id: 544212
-    name: 携带燃油
+    name: 携带buff
+    description: 携带燃油
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -2100,6 +2126,7 @@
   {
     id: 570000
     name: Fever
+    description: 气氛被炒热，所有演出得分大幅提高
     code: wota
     type: 1
     duration_type: "1"
@@ -2109,7 +2136,8 @@
   }
   {
     id: 570001
-    name: +
+    name: 情绪高昂
+    description: 下一次演出得分提高
     code: ZLSR_happy
     type: 1
     duration_type: "1"
@@ -2121,7 +2149,8 @@
   }
   {
     id: 570002
-    name: -
+    name: 陷入紧张
+    description: 下一次演出得分降低
     code: ZLSR_sad
     type: 2
     duration_type: "1"
@@ -2133,7 +2162,8 @@
   }
   {
     id: 570003
-    name: 冷却
+    name: 演出完毕
+    description: 演出完毕，无法继续表演
     code: Angelica
     type: 1
     duration_type: "1"
@@ -2233,7 +2263,7 @@
   }
   {
     id: 570601
-    name: 携带鱿鱼丝
+    name: 携带buff
     description: 一大包鱿鱼丝
     type: 1
     duration_type: "1"
@@ -2245,7 +2275,7 @@
   }
   {
     id: 570602
-    name: 携带外卖
+    name: 携带buff
     description: 好几份外卖
     type: 1
     duration_type: "1"
@@ -2258,6 +2288,7 @@
   {
     id: 571000
     name: 对手行动
+    description: 下一个演出的对手
     code: SpeedUp
     type: 1
     duration_type: "1"
@@ -2268,6 +2299,7 @@
   {
     id: 571001
     name: 沉睡
+    description: Zzzzzzzzzzzzz
     code: QBZ191
     type: 1
     duration_type: "1"
@@ -2289,8 +2321,9 @@
   {
     id: 580002
     name: 偏低心率
+    description: 属性略微下降
     code: Weak
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2311,6 +2344,7 @@
   {
     id: 580004
     name: 活跃心率
+    description: 属性略微提升
     code: 561mod
     type: 1
     duration_type: "1"
@@ -2318,14 +2352,16 @@
     exp_buff: "1"
     battle_skill_config_id: 759109
     conditions_time: 0-0
+    ammo_mre_reduce: ITS NOT EMPTEEE ANYMORE.
     conflict_type: 580004
     ext_move: 1
   }
   {
     id: 580005
     name: 心率过高
+    description: 禁止移动
     code: Rouge_593303
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2347,6 +2383,7 @@
   {
     id: 580101
     name: 信号失联
+    description: 禁止移动
     code: LBLLMOD
     type: 1
     duration_type: "1"
@@ -2359,6 +2396,7 @@
   {
     id: 580102
     name: 信号偏低
+    description: 战斗力降低
     code: Vpm5
     type: 1
     duration_type: "1"
@@ -2380,6 +2418,7 @@
   {
     id: 580104
     name: 信号良好
+    description: 战斗力提升
     code: UTS15
     type: 1
     duration_type: "1"
@@ -2391,8 +2430,9 @@
   {
     id: 580105
     name: 信号暴露
+    description: 战斗力提高
     code: medusa
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2402,8 +2442,9 @@
   {
     id: 580120
     name: 干扰
+    description: 受到干扰中
     code: Energytowerdebuff
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2415,9 +2456,10 @@
   }
   {
     id: 580121
-    name: 干扰定身
+    name: 定身
+    description: 禁止移动
     code: combo
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2429,7 +2471,8 @@
   }
   {
     id: 580122
-    name: 信号强化
+    name: 强化
+    description: 信号强化中
     code: AK74M
     type: 1
     duration_type: "1"
@@ -2441,8 +2484,9 @@
   {
     id: 580123
     name: 干扰
+    description: 受到干扰中
     code: Energytowerdebuff
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2473,8 +2517,9 @@
   {
     id: 580205
     name: 信号暴露
+    description: 战斗力提高
     code: medusa
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2483,7 +2528,8 @@
   }
   {
     id: 580302
-    name: 通用加速buff
+    name: 加速
+    description: 移动力提升
     code: ExtraMove
     type: 1
     duration_type: "1"
@@ -2495,7 +2541,8 @@
   }
   {
     id: 580303
-    name: 通用加速buff2
+    name: 加速
+    description: 移动力提升
     code: ExtraMove2
     type: 1
     duration_type: "1"
@@ -2550,8 +2597,9 @@
   {
     id: 583601
     name: 干扰
+    description: 干扰中属性下降
     code: debuff
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2593,6 +2641,7 @@
   {
     id: 590000
     name: 待机
+    description: 禁止移动
     code: Theresa_Back
     type: 1
     duration_type: "1"
@@ -3368,8 +3417,8 @@
   }
   {
     id: 593001
-    name: 勇士无人机
-    description: 携带勇士无人机
+    name: 携带buff
+    description: 携带一架勇士无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3380,8 +3429,8 @@
   }
   {
     id: 593002
-    name: 暴怒无人机
-    description: 携带暴怒无人机
+    name: 携带buff
+    description: 携带一架暴怒无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3393,6 +3442,7 @@
   {
     id: 593011
     name: 战斗效率·改
+    description: 下一场战斗开启战斗效率，最多叠加2层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3404,6 +3454,11 @@
   {
     id: 593012
     name: 怒无限强·改
+    description:
+      '''
+      下一场战斗开启怒无限强，并每6秒赋予全队1层[耐性]
+      [耐性]:令目标受到伤害降低30%，持续6秒，最多叠加2层
+      '''
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3434,8 +3489,8 @@
   }
   {
     id: 593103
-    name: 盾甲无人机
-    description: 携带盾甲无人机
+    name: 携带buff
+    description: 携带一架盾甲无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3446,8 +3501,8 @@
   }
   {
     id: 593104
-    name: 护盾无人机
-    description: 携带护盾无人机
+    name: 携带buff
+    description: 携带一架护盾无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3458,8 +3513,8 @@
   }
   {
     id: 593105
-    name: 防御无人机
-    description: 携带防御无人机
+    name: 携带buff
+    description: 携带一架防御无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3470,8 +3525,8 @@
   }
   {
     id: 593106
-    name: 嘲讽无人机
-    description: 携带嘲讽无人机
+    name: 携带buff
+    description: 携带一架嘲讽无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3483,6 +3538,7 @@
   {
     id: 593113
     name: 防暴强化·改
+    description: 下一场战斗开启防暴强化，最多叠加5层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3494,6 +3550,7 @@
   {
     id: 593114
     name: 能量护盾·改
+    description: 下一场战斗开启能量护盾，最多叠加5层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3505,6 +3562,7 @@
   {
     id: 593115
     name: 临时装甲·改
+    description: 下一场战斗开启临时装甲，最多叠加5层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3516,6 +3574,7 @@
   {
     id: 593116
     name: 嘲讽靶机·改
+    description: 下一场战斗开启嘲讽靶机，最多叠加5层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3566,8 +3625,8 @@
   }
   {
     id: 593201
-    name: 狙击无人机
-    description: 携带狙击无人机
+    name: 携带buff
+    description: 携带一架狙击无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3578,8 +3637,8 @@
   }
   {
     id: 593202
-    name: 炮击无人机
-    description: 携带炮击无人机
+    name: 携带buff
+    description: 携带一架炮击无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3590,8 +3649,8 @@
   }
   {
     id: 593203
-    name: 空袭无人机
-    description: 携带空袭无人机
+    name: 携带buff
+    description: 携带一架空袭无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3603,6 +3662,7 @@
   {
     id: 593211
     name: 狙击指令·改
+    description: 下一场战斗开启狙击指令，最多叠加2层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3614,6 +3674,7 @@
   {
     id: 593212
     name: 炮击指令·改
+    description: 下一场战斗开启炮击指令，最多叠加2层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3625,6 +3686,7 @@
   {
     id: 593213
     name: 致命空袭·改
+    description: 下一场战斗开启致命空袭，最多叠加2层
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3665,8 +3727,8 @@
   }
   {
     id: 593301
-    name: 热血无人机
-    description: 携带热血无人机
+    name: 携带buff
+    description: 携带一架热血无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3677,8 +3739,8 @@
   }
   {
     id: 593302
-    name: 集中无人机
-    description: 携带集中无人机
+    name: 携带buff
+    description: 携带一架集中无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3689,8 +3751,8 @@
   }
   {
     id: 593303
-    name: 干扰无人机
-    description: 携带干扰无人机
+    name: 携带buff
+    description: 携带一架干扰无人机
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -3702,6 +3764,7 @@
   {
     id: 593311
     name: 热血
+    description: 下一场战斗赋予场上输出最高的人形1层[专注][速射]
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3713,6 +3776,7 @@
   {
     id: 593312
     name: 集中
+    description: 下一场战斗赋予场上输出最高的人形1层[精密][会心]
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3724,6 +3788,7 @@
   {
     id: 593313
     name: 干扰
+    description: 下一场战斗赋予威胁最高的敌人1层[破甲][震荡][点燃]
     code: MK3A1
     type: 1
     duration_type: "4"
@@ -3943,7 +4008,6 @@
   {
     id: 597011
     name: 【标记】AR普通升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -3955,7 +4019,6 @@
   {
     id: 597012
     name: 【标记】RF普通升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -3967,7 +4030,6 @@
   {
     id: 597013
     name: 【标记】MG普通升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -3979,7 +4041,6 @@
   {
     id: 597014
     name: 【标记】通用普通升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -3991,7 +4052,6 @@
   {
     id: 597015
     name: 【标记】AR精英升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4003,7 +4063,6 @@
   {
     id: 597016
     name: 【标记】RF精英升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4015,7 +4074,6 @@
   {
     id: 597017
     name: 【标记】MG精英升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4027,7 +4085,6 @@
   {
     id: 597018
     name: 【标记】通用精英升级
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4069,7 +4126,6 @@
   {
     id: 598001
     name: 【标记】无人机站
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "2"
@@ -4334,7 +4390,8 @@
   }
   {
     id: 910630
-    name: 【标记】护盾发生器buff
+    name: 护盾
+    description: 护盾增幅中
     code: shield
     type: 1
     duration_type: "1,5"
@@ -4344,8 +4401,20 @@
     conflict_type: 910630
   }
   {
+    id: 998002
+    code: Intruder_H1
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    special_spot_config_id: 998002
+    conditions_type: "51"
+    conditions_time: 0-1
+    conflict_type: 998002
+  }
+  {
     id: 1000000
-    name: 携带炸药
+    name: 携带buff
     description: 携带炸药
     type: 1
     duration_type: "1"
@@ -4357,7 +4426,7 @@
   {
     id: 1000001
     name: 电磁瘫痪
-    description: 降低各项属性
+    description: 禁止移动且降低各项属性
     code: debuff
     type: 2
     duration_type: "1"
@@ -4373,7 +4442,7 @@
     description: 减少梯队收到伤害
     code: buff
     type: 1
-    duration_type: "4"
+    duration_type: "5"
     duration_time: "1"
     exp_buff: "1"
     battle_skill_config_id: 900106
@@ -4381,7 +4450,8 @@
   }
   {
     id: 1000003
-    name: 【标记】1回合定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -4392,7 +4462,8 @@
   }
   {
     id: 1000004
-    name: 【标记】99回合定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -4404,7 +4475,6 @@
   {
     id: 1000005
     name: 【标记】99回合
-    code: SpeedUp
     type: 2
     duration_type: "1"
     duration_time: "99"
@@ -4413,7 +4483,7 @@
   }
   {
     id: 1000006
-    name: 携带EMP手雷
+    name: 携带buff
     description: 携带EMP手雷
     type: 1
     duration_type: "1"
@@ -4425,8 +4495,6 @@
   {
     id: 1000007
     name: 可以被EMP球攻击
-    description: 可以被EMP球攻击
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -4436,7 +4504,6 @@
   {
     id: 1000008
     name: 【标记】炮击目标标记buff
-    code: Chasing_AntiMissile
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -4445,8 +4512,8 @@
   }
   {
     id: 1000009
-    name: 【标记】浸水debuff_1
-    description: -30%闪避/火力
+    name: 浸水
+    description: 浸水中...-30%闪避/火力
     code: debuff
     type: 2
     duration_type: "1"
@@ -4457,8 +4524,8 @@
   }
   {
     id: 1000010
-    name: 【标记】浸水debuff_2
-    description: -10%闪避/火力
+    name: 浸水
+    description: 浸水中...-10%闪避/火力
     code: debuff
     type: 2
     duration_type: "1"
@@ -4470,7 +4537,6 @@
   {
     id: 1000011
     name: 【标记】搬运标记
-    code: ExtraAp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4479,8 +4545,8 @@
   }
   {
     id: 4040901
-    name: 【标记】携带黑雷
-    code: SpeedUp
+    name: 携带buff
+    description: 携带歌利亚
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4491,7 +4557,8 @@
   }
   {
     id: 6000001
-    name: 炸敌人标记
+    name: 携带buff
+    description: 携带歌利亚
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4502,7 +4569,7 @@
   }
   {
     id: 6000002
-    name: 持有EMP标记
+    name: 携带buff
     description: 持有EMP标记
     type: 1
     duration_type: "1"
@@ -4515,7 +4582,8 @@
   }
   {
     id: 6000003
-    name: 禁止移动
+    name: 禁足
+    description: 禁止移动
     code: debuff
     type: 1
     duration_type: "1"
@@ -4524,6 +4592,47 @@
     cannot_move: "1"
     conflict_type: 6000003
     priority: -1
+  }
+  {
+    id: 6000004
+    name: 【标记】载具靶场水阀标记
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 6000004
+    carry_mission_skill: "6005014,6005013"
+  }
+  {
+    id: 6000005
+    name: 【标记】高达教学标记
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 220194
+    conflict_type: 6000005
+  }
+  {
+    id: 6000006
+    name: 【标记】坦克教学标记
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 220195
+    conflict_type: 6000006
+  }
+  {
+    id: 6000007
+    name: 【标记】坦克教学标记2
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 220196
+    conflict_type: 6000007
   }
   {
     id: 6360000
@@ -4635,7 +4744,8 @@
   }
   {
     id: 6410101
-    name: 【标记】衔尾蛇自闭1
+    name: 莫比乌斯
+    description: 莫比乌斯生效中，目前梯队不会移动
     code: Wea2
     type: 2
     duration_type: "1"
@@ -4645,7 +4755,8 @@
   }
   {
     id: 6410102
-    name: 【标记】衔尾蛇自闭2
+    name: 莫比乌斯
+    description: 莫比乌斯生效中，目前梯队不会移动
     code: Wea2
     type: 2
     duration_type: "1"
@@ -4655,7 +4766,8 @@
   }
   {
     id: 6410103
-    name: 【标记】衔尾蛇自闭3
+    name: 莫比乌斯
+    description: 莫比乌斯生效中，目前梯队不会移动
     code: Wea2
     type: 2
     duration_type: "1"
@@ -4665,7 +4777,8 @@
   }
   {
     id: 6410104
-    name: 炸敌人标记
+    name: 携带buff
+    description: 携带歌利亚
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4685,8 +4798,8 @@
   }
   {
     id: 6430002
-    name: 【标记】A1高闪
-    description: 闪光弹
+    name: 天亮了
+    description: 被闪光弹作用中
     code: debuff
     type: 2
     duration_type: "1"
@@ -4728,8 +4841,8 @@
   }
   {
     id: 6440001
-    name: 【标记】炮击定身
-    description: 定身一回合
+    name: 禁足
+    description: 禁止移动
     code: debuff
     type: 1
     duration_type: "1"
@@ -4741,7 +4854,7 @@
   }
   {
     id: 6440002
-    name: 【标记】持有EMP标记
+    name: 携带buff
     description: 持有EMP标记
     type: 1
     duration_type: "1"
@@ -4754,8 +4867,8 @@
   }
   {
     id: 6440003
-    name: 【标记】电磁瘫痪
-    description: 降低各项属性
+    name: 禁足
+    description: 禁止移动
     code: debuff
     type: 2
     duration_type: "1"
@@ -4767,8 +4880,9 @@
   }
   {
     id: 6440004
-    name: 【标记】电磁瘫痪
-    description: 降低各项属性
+    name: 瘫痪
+    description: 降低各项属性且禁止移动
+    code: debuff
     type: 2
     duration_type: "1"
     duration_time: "1"
@@ -4779,8 +4893,9 @@
   }
   {
     id: 6440005
-    name: 【标记】抵抗电磁瘫痪属性降低
+    name: 电磁抵抗
     description: 抵抗电磁瘫痪属性降低
+    code: buff
     type: 2
     duration_type: "1"
     duration_time: "99"
@@ -4802,8 +4917,8 @@
   }
   {
     id: 6480001
-    name: 【标记】电磁瘫痪
-    description: 降低各项属性
+    name: 禁足
+    description: 禁止移动
     code: debuff
     type: 2
     duration_type: "1"
@@ -4815,7 +4930,7 @@
   }
   {
     id: 6480002
-    name: 【标记】丢歌莉娅标记
+    name: 携带buff
     description: 携带歌莉娅
     type: 1
     duration_type: "1"
@@ -4828,7 +4943,7 @@
   }
   {
     id: 6480003
-    name: 【标记】携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
     type: 1
     duration_type: "1"
@@ -4841,7 +4956,7 @@
   }
   {
     id: 6480004
-    name: 【标记】携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
     type: 1
     duration_type: "1"
@@ -4853,8 +4968,8 @@
   }
   {
     id: 6510001
-    name: 电磁炮瘫痪
-    description: 瘫痪
+    name: 瘫痪
+    description: 禁止移动且降低各项属性
     code: debuff
     type: 1
     duration_type: "1"
@@ -4865,7 +4980,7 @@
   }
   {
     id: 6510002
-    name: 移动buff
+    name: 加速
     description: 行动力提升
     code: ExtraAp
     type: 1
@@ -4878,7 +4993,7 @@
   }
   {
     id: 6510003
-    name: 移动buff
+    name: 加速
     description: 行动力提升
     code: ExtraAp
     type: 1
@@ -4891,7 +5006,7 @@
   }
   {
     id: 6510004
-    name: 移动buff
+    name: 加速
     description: 行动力提升
     code: ExtraAp
     type: 1
@@ -4905,6 +5020,7 @@
   {
     id: 6510005
     name: 护盾buff
+    description: 护盾增加
     code: shield
     type: 1
     duration_type: "4,1"
@@ -4918,6 +5034,7 @@
   {
     id: 6510006
     name: 护盾buff
+    description: 护盾增加
     code: shield
     type: 1
     duration_type: "4,1"
@@ -4931,6 +5048,7 @@
   {
     id: 6510007
     name: 护盾buff
+    description: 护盾增加
     code: shield
     type: 1
     duration_type: "4,1"
@@ -4944,6 +5062,7 @@
   {
     id: 6510008
     name: 伤害buff
+    description: 伤害增加
     code: powBuff
     type: 1
     duration_type: "4,1"
@@ -4957,6 +5076,7 @@
   {
     id: 6510009
     name: 伤害buff
+    description: 伤害增加
     code: powBuff
     type: 1
     duration_type: "4,1"
@@ -4969,9 +5089,8 @@
   }
   {
     id: 6510010
-    name: 携带资料
+    name: 携带buff
     description: 携带资料
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4982,8 +5101,7 @@
   }
   {
     id: 6510011
-    name: 充能buff
-    code: buff
+    name: 【标记】充能buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4992,9 +5110,8 @@
   }
   {
     id: 6510012
-    name: 携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5004,9 +5121,8 @@
   }
   {
     id: 6510013
-    name: 携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5026,7 +5142,8 @@
   }
   {
     id: 6510015
-    name: 【标记】定身
+    name: 瘫痪
+    description: 禁止移动且降低各项属性
     code: debuff
     type: 2
     duration_type: "1"
@@ -5038,7 +5155,8 @@
   }
   {
     id: 6510016
-    name: 【标记】4-4移动力提升
+    name: 加速
+    description: 行动力提升
     code: buff
     type: 1
     duration_type: "5,1"
@@ -5069,7 +5187,7 @@
   }
   {
     id: 6510019
-    name: 移动buff
+    name: 加速
     description: 行动力提升
     code: ExtraAp
     type: 1
@@ -5094,7 +5212,8 @@
   }
   {
     id: 6520001
-    name: 【标记】伤害buff
+    name: 增益
+    description: 火力提升
     code: powBuff
     type: 1
     duration_type: "1"
@@ -5105,7 +5224,8 @@
   }
   {
     id: 6520002
-    name: 【标记】闪避buff
+    name: 增益
+    description: 闪避提升
     code: dodgeBuff
     type: 1
     duration_type: "1"
@@ -5116,8 +5236,8 @@
   }
   {
     id: 6520003
-    name: 【标记】携带烟花buff
-    description: 携带烟花buff
+    name: 携带buff
+    description: 携带烟花
     code: dodgeBuff
     type: 1
     duration_type: "1"
@@ -5128,7 +5248,7 @@
   }
   {
     id: 6540000
-    name: 【标记】格里芬经验0
+    name: 军衔
     description: 晋升少尉所需破敌数：3
     type: 1
     duration_type: "1"
@@ -5144,7 +5264,7 @@
   }
   {
     id: 6540001
-    name: 【标记】格里芬经验1
+    name: 军衔
     description: 晋升少尉所需破敌数：2
     type: 1
     duration_type: "1"
@@ -5161,7 +5281,7 @@
   }
   {
     id: 6540002
-    name: 【标记】格里芬经验2
+    name: 军衔
     description: 晋升少尉所需破敌数：1
     type: 1
     duration_type: "1"
@@ -5178,7 +5298,7 @@
   }
   {
     id: 6540003
-    name: 【标记】格里芬经验3
+    name: 军衔
     description: 晋升中尉所需破敌数：3
     type: 1
     duration_type: "1"
@@ -5195,7 +5315,7 @@
   }
   {
     id: 6540004
-    name: 【标记】格里芬经验4
+    name: 军衔
     description: 晋升中尉所需破敌数：2
     type: 1
     duration_type: "1"
@@ -5212,7 +5332,7 @@
   }
   {
     id: 6540005
-    name: 【标记】格里芬经验5
+    name: 军衔
     description: 晋升中尉所需破敌数：1
     type: 1
     duration_type: "1"
@@ -5229,7 +5349,7 @@
   }
   {
     id: 6540006
-    name: 【标记】格里芬经验6
+    name: 军衔
     description: 晋升上尉所需破敌数：4
     type: 1
     duration_type: "1"
@@ -5246,7 +5366,7 @@
   }
   {
     id: 6540007
-    name: 【标记】格里芬经验7
+    name: 军衔
     description: 晋升上尉所需破敌数：3
     type: 1
     duration_type: "1"
@@ -5263,7 +5383,7 @@
   }
   {
     id: 6540008
-    name: 【标记】格里芬经验8
+    name: 军衔
     description: 晋升上尉所需破敌数：2
     type: 1
     duration_type: "1"
@@ -5280,7 +5400,7 @@
   }
   {
     id: 6540009
-    name: 【标记】格里芬经验9
+    name: 军衔
     description: 晋升上尉所需破敌数：1
     type: 1
     duration_type: "1"
@@ -5297,7 +5417,7 @@
   }
   {
     id: 6540010
-    name: 【标记】格里芬经验10
+    name: 军衔
     description: 已晋升上尉
     type: 1
     duration_type: "1"
@@ -5311,7 +5431,7 @@
   }
   {
     id: 6540100
-    name: 【标记】融合势力经验0
+    name: 军衔
     description: 晋升中士所需破敌数：3
     type: 1
     duration_type: "1"
@@ -5327,7 +5447,7 @@
   }
   {
     id: 6540101
-    name: 【标记】融合势力经验1
+    name: 军衔
     description: 晋升中士所需破敌数：2
     type: 1
     duration_type: "1"
@@ -5344,7 +5464,7 @@
   }
   {
     id: 6540102
-    name: 【标记】融合势力经验2
+    name: 军衔
     description: 晋升中士所需破敌数：1
     type: 1
     duration_type: "1"
@@ -5361,7 +5481,7 @@
   }
   {
     id: 6540103
-    name: 【标记】融合势力经验3
+    name: 军衔
     description: 晋升上士所需破敌数：3
     type: 1
     duration_type: "1"
@@ -5378,7 +5498,7 @@
   }
   {
     id: 6540104
-    name: 【标记】融合势力经验4
+    name: 军衔
     description: 晋升上士所需破敌数：2
     type: 1
     duration_type: "1"
@@ -5395,7 +5515,7 @@
   }
   {
     id: 6540105
-    name: 【标记】融合势力经验5
+    name: 军衔
     description: 晋升上士所需破敌数：1
     type: 1
     duration_type: "1"
@@ -5412,7 +5532,7 @@
   }
   {
     id: 6540106
-    name: 【标记】融合势力经验6
+    name: 军衔
     description: 晋升军士长所需破敌数：4
     type: 1
     duration_type: "1"
@@ -5429,7 +5549,7 @@
   }
   {
     id: 6540107
-    name: 【标记】融合势力经验7
+    name: 军衔
     description: 晋升军士长所需破敌数：3
     type: 1
     duration_type: "1"
@@ -5446,7 +5566,7 @@
   }
   {
     id: 6540108
-    name: 【标记】融合势力经验8
+    name: 军衔
     description: 晋升军士长所需破敌数：2
     type: 1
     duration_type: "1"
@@ -5463,7 +5583,7 @@
   }
   {
     id: 6540109
-    name: 【标记】融合势力经验9
+    name: 军衔
     description: 晋升军士长所需破敌数：1
     type: 1
     duration_type: "1"
@@ -5480,7 +5600,7 @@
   }
   {
     id: 6540110
-    name: 【标记】融合势力经验10
+    name: 军衔
     description: 已晋升军士长
     type: 1
     duration_type: "1"
@@ -5495,7 +5615,6 @@
   {
     id: 6540200
     name: 【标记】任务可接
-    description: 可以接受任务buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5514,7 +5633,9 @@
   }
   {
     id: 6540202
-    name: 【标记】任务2
+    name: 禁足
+    description: 禁止移动
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5542,7 +5663,7 @@
   }
   {
     id: 6540205
-    name: 【标记】任务3护送资料
+    name: 护送资料
     description: 携带作战方案
     type: 1
     duration_type: "1"
@@ -5555,7 +5676,6 @@
   {
     id: 6540206
     name: 【标记】任务唯一
-    description: 可以接受任务buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5618,7 +5738,7 @@
   }
   {
     id: 6540213
-    name: 格里芬技能1 轰炸
+    name: 【标记】格里芬技能1 轰炸
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5628,7 +5748,7 @@
   }
   {
     id: 6540214
-    name: 格里芬技能2 照明
+    name: 【标记】格里芬技能2 照明
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5638,7 +5758,7 @@
   }
   {
     id: 6540215
-    name: 格里芬技能3 榴弹炮支援
+    name: 【标记】格里芬技能3 榴弹炮支援
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5648,7 +5768,7 @@
   }
   {
     id: 6540216
-    name: 格里芬技能4 emp
+    name: 携带buff
     description: 携带EMP
     type: 1
     duration_type: "1"
@@ -5660,7 +5780,7 @@
   }
   {
     id: 6540217
-    name: 融合势力技能1  孙红雷
+    name: 携带buff
     description: 携带投掷式歌莉娅
     type: 1
     duration_type: "1"
@@ -5672,7 +5792,8 @@
   }
   {
     id: 6540218
-    name: 融合势力技能2  视野+1
+    name: 增幅
+    description: 视野增幅
     code: powBuff
     type: 1
     duration_type: "1"
@@ -5683,7 +5804,8 @@
   }
   {
     id: 6540220
-    name: 融合势力技能4  属性20
+    name: 增幅
+    description: 属性增幅
     code: powBuff
     type: 1
     duration_type: "1"
@@ -5742,8 +5864,8 @@
   }
   {
     id: 6540225
-    name: npc统一爆破三回合内
-    description: 携带塑胶炸弹
+    name: 携带buff
+    description: 携带塑胶炸弹，在第4回合前必须使用
     type: 1
     duration_type: "1"
     duration_time: "3"
@@ -5754,7 +5876,8 @@
   }
   {
     id: 6540226
-    name: 【标记】额外移动_1回，移动1次消失
+    name: 增幅
+    description: 移动力增幅
     code: ExtraMove
     type: 1
     duration_type: "1"
@@ -5765,7 +5888,7 @@
   }
   {
     id: 6540227
-    name: 携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -5777,7 +5900,7 @@
   }
   {
     id: 6540228
-    name: 携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
     type: 1
     duration_type: "1"
@@ -5790,7 +5913,7 @@
   }
   {
     id: 6540229
-    name: 携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -5892,7 +6015,8 @@
   }
   {
     id: 6540238
-    name: 【标记】额外移动_1回，移动99次消失
+    name: 增幅
+    description: 移动力增幅
     code: ExtraMove
     type: 1
     duration_type: "1"
@@ -5903,7 +6027,7 @@
   }
   {
     id: 6540239
-    name: 携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -5915,7 +6039,8 @@
   }
   {
     id: 6540240
-    name: 【标记】高达持续1
+    name: 增幅
+    description: 属性增强中
     code: buff
     type: 1
     duration_type: "1"
@@ -5930,7 +6055,8 @@
   }
   {
     id: 6540241
-    name: 【标记】高达持续2
+    name: 增幅
+    description: 属性增强中
     code: buff
     type: 1
     duration_type: "1"
@@ -5945,7 +6071,8 @@
   }
   {
     id: 6540242
-    name: 【标记】高达持续3
+    name: 增幅
+    description: 属性增强中
     code: buff
     type: 1
     duration_type: "1"
@@ -5973,7 +6100,8 @@
   }
   {
     id: 6540244
-    name: 【标记】高达持续5
+    name: 削弱
+    description: 属性下降中
     code: debuff
     type: 1
     duration_type: "1"
@@ -5988,7 +6116,8 @@
   }
   {
     id: 6540245
-    name: 【标记】高达持续6
+    name: 削弱
+    description: 属性下降中
     code: debuff
     type: 1
     duration_type: "1"
@@ -6021,7 +6150,9 @@
   }
   {
     id: 6540248
-    name: 【标记】定身
+    name: 禁足
+    description: 禁止移动
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -6031,7 +6162,8 @@
   }
   {
     id: 6540249
-    name: 融合势力技能2  视野+1
+    name: 增幅
+    description: 视野增幅
     code: powBuff
     type: 1
     duration_type: "1"
@@ -6054,7 +6186,7 @@
   }
   {
     id: 6560002
-    name: 携带歌利亚
+    name: 携带buff
     description: 携带歌利亚
     type: 1
     duration_type: "1"
@@ -6066,7 +6198,7 @@
   }
   {
     id: 6560003
-    name: 可以压制敌人
+    name: 携带buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -6077,6 +6209,8 @@
   {
     id: 6560004
     name: 定身
+    description: 禁止移动
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -6096,7 +6230,7 @@
   }
   {
     id: 6580000
-    name: 【标记】疲劳1
+    name: 梯队状态
     description: 精力充沛(当前回合交战场次:0)
     type: 1
     duration_type: "1"
@@ -6110,7 +6244,7 @@
   }
   {
     id: 6580001
-    name: 【标记】疲劳2
+    name: 梯队状态
     description: 精力充沛(当前回合交战场次:1)
     type: 1
     duration_type: "1"
@@ -6125,7 +6259,7 @@
   }
   {
     id: 6580002
-    name: 【标记】疲劳3
+    name: 梯队状态
     description: 精力充沛(当前回合交战场次:2)
     type: 1
     duration_type: "1"
@@ -6140,7 +6274,7 @@
   }
   {
     id: 6580003
-    name: 【标记】疲劳4
+    name: 梯队状态
     description: 1级疲劳(当前回合交战场次:3)
     type: 1
     duration_type: "1"
@@ -6156,7 +6290,7 @@
   }
   {
     id: 6580004
-    name: 【标记】疲劳5
+    name: 梯队状态
     description: 1级疲劳(当前回合交战场次:4)
     type: 1
     duration_type: "1"
@@ -6172,7 +6306,7 @@
   }
   {
     id: 6580005
-    name: 【标记】疲劳6
+    name: 梯队状态
     description: 1级疲劳(当前回合交战场次:5)
     type: 1
     duration_type: "1"
@@ -6188,7 +6322,7 @@
   }
   {
     id: 6580006
-    name: 【标记】疲劳7
+    name: 梯队状态
     description: 2级疲劳(当前回合交战场次:6)
     type: 1
     duration_type: "1"
@@ -6204,7 +6338,7 @@
   }
   {
     id: 6580007
-    name: 【标记】疲劳8
+    name: 梯队状态
     description: 2级疲劳(当前回合交战场次:7)
     type: 1
     duration_type: "1"
@@ -6220,7 +6354,7 @@
   }
   {
     id: 6580008
-    name: 【标记】疲劳9
+    name: 梯队状态
     description: 3级疲劳(当前回合交战场次:8)
     type: 1
     duration_type: "1"
@@ -6236,7 +6370,7 @@
   }
   {
     id: 6580009
-    name: 【标记】疲劳10
+    name: 梯队状态
     description: 疲惫不堪
     type: 1
     duration_type: "1"
@@ -6249,7 +6383,7 @@
   }
   {
     id: 6580010
-    name: 【标记】携带弹药1
+    name: 携带弹药
     description: 剩余炮弹:1
     type: 1
     duration_type: "1"
@@ -6261,7 +6395,7 @@
   }
   {
     id: 6580011
-    name: 【标记】携带弹药2
+    name: 携带弹药
     description: 剩余炮弹:2
     type: 1
     duration_type: "1"
@@ -6273,7 +6407,7 @@
   }
   {
     id: 6580012
-    name: 【标记】携带弹药3
+    name: 携带弹药
     description: 剩余炮弹:3
     type: 1
     duration_type: "1"
@@ -6304,7 +6438,7 @@
   }
   {
     id: 6580015
-    name: 携带塑胶炸弹
+    name: 携带buff
     description: 携带塑胶炸弹
     type: 1
     duration_type: "1"
@@ -6317,6 +6451,7 @@
   {
     id: 6580016
     name: 信号强化
+    description: 可以抵抗福音枢椎的效果
     code: AK74M
     type: 1
     duration_type: "1"
@@ -6397,9 +6532,10 @@
   }
   {
     id: 6580107
-    name: 【标记】定身
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -6428,9 +6564,10 @@
   }
   {
     id: 6580110
-    name: 【标记】格雷debuff
+    name: 禁足
+    description: 禁止移动且降低各项属性
     code: Theresa_Back
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -6460,7 +6597,6 @@
   {
     id: 9100001
     name: 【标记】标记buff
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6470,7 +6606,6 @@
   {
     id: 9100002
     name: 【标记】标记buff
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6480,7 +6615,6 @@
   {
     id: 9100003
     name: 【标记】标记buff
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6490,7 +6624,6 @@
   {
     id: 9100004
     name: 【标记】标记buff
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6499,8 +6632,7 @@
   }
   {
     id: 9100005
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6509,8 +6641,7 @@
   }
   {
     id: 9100006
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6519,8 +6650,7 @@
   }
   {
     id: 9100007
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6529,8 +6659,7 @@
   }
   {
     id: 9100008
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6539,8 +6668,7 @@
   }
   {
     id: 9100009
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6549,8 +6677,7 @@
   }
   {
     id: 9100010
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6559,8 +6686,7 @@
   }
   {
     id: 9100011
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6569,8 +6695,7 @@
   }
   {
     id: 9100012
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6579,8 +6704,7 @@
   }
   {
     id: 9100013
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6589,8 +6713,7 @@
   }
   {
     id: 9100014
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6599,8 +6722,7 @@
   }
   {
     id: 9100015
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6609,8 +6731,7 @@
   }
   {
     id: 9100016
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6619,8 +6740,7 @@
   }
   {
     id: 9100017
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6629,8 +6749,7 @@
   }
   {
     id: 9100018
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6639,8 +6758,7 @@
   }
   {
     id: 9100019
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6649,8 +6767,7 @@
   }
   {
     id: 9100020
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6659,8 +6776,7 @@
   }
   {
     id: 9100021
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6669,8 +6785,7 @@
   }
   {
     id: 9100022
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6679,8 +6794,7 @@
   }
   {
     id: 9100023
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6689,8 +6803,7 @@
   }
   {
     id: 9100024
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6699,8 +6812,7 @@
   }
   {
     id: 9100025
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6709,8 +6821,7 @@
   }
   {
     id: 9100026
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6719,8 +6830,7 @@
   }
   {
     id: 9100027
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6729,8 +6839,7 @@
   }
   {
     id: 9100028
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6739,8 +6848,7 @@
   }
   {
     id: 9100029
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6749,8 +6857,7 @@
   }
   {
     id: 9100030
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6759,8 +6866,7 @@
   }
   {
     id: 9100031
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6769,8 +6875,7 @@
   }
   {
     id: 9100032
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6779,8 +6884,7 @@
   }
   {
     id: 9100033
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6789,8 +6893,7 @@
   }
   {
     id: 9100034
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6799,8 +6902,7 @@
   }
   {
     id: 9100035
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6809,8 +6911,7 @@
   }
   {
     id: 9100036
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6819,8 +6920,7 @@
   }
   {
     id: 9100037
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6829,8 +6929,7 @@
   }
   {
     id: 9100038
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6839,8 +6938,7 @@
   }
   {
     id: 9100039
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6849,8 +6947,7 @@
   }
   {
     id: 9100040
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6859,8 +6956,7 @@
   }
   {
     id: 9100041
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6869,8 +6965,7 @@
   }
   {
     id: 9100042
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6879,8 +6974,7 @@
   }
   {
     id: 9100043
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6889,8 +6983,7 @@
   }
   {
     id: 9100044
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6899,8 +6992,7 @@
   }
   {
     id: 9100045
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6909,8 +7001,7 @@
   }
   {
     id: 9100046
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6919,8 +7010,7 @@
   }
   {
     id: 9100047
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6929,8 +7019,7 @@
   }
   {
     id: 9100048
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6939,8 +7028,7 @@
   }
   {
     id: 9100049
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6949,8 +7037,7 @@
   }
   {
     id: 9100050
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6959,8 +7046,7 @@
   }
   {
     id: 9100051
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6969,8 +7055,7 @@
   }
   {
     id: 9100052
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6979,8 +7064,7 @@
   }
   {
     id: 9100053
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6989,8 +7073,7 @@
   }
   {
     id: 9100054
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6999,8 +7082,7 @@
   }
   {
     id: 9100055
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7009,8 +7091,7 @@
   }
   {
     id: 9100056
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7019,8 +7100,7 @@
   }
   {
     id: 9100057
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7029,8 +7109,7 @@
   }
   {
     id: 9100058
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7039,8 +7118,7 @@
   }
   {
     id: 9100059
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7049,8 +7127,7 @@
   }
   {
     id: 9100060
-    name: 【标记】标记buff
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7059,8 +7136,7 @@
   }
   {
     id: 9130601
-    name: 【标记】标记buff_99回合_存活标记
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -7072,8 +7148,7 @@
   }
   {
     id: 9200001
-    name: 【标记】标记buff_99回合
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -7082,8 +7157,7 @@
   }
   {
     id: 9200002
-    name: 【标记】标记buff_99回合
-    code: SpeedUp
+    name: 【标记】特殊标记buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -7092,7 +7166,8 @@
   }
   {
     id: 9410201
-    name: 【标记】提取资料
+    name: 携带buff
+    description: 提取资料
     code: Landmines
     type: 1
     duration_type: "1"
@@ -7103,7 +7178,8 @@
   }
   {
     id: 9410216
-    name: 【标记】无限移动
+    name: 无限移动
+    description: 无限移动
     code: Racing_Fly
     type: 1
     duration_type: "1"
@@ -7115,7 +7191,8 @@
   }
   {
     id: 9410331
-    name: 【标记】门卡1
+    name: 携带buff
+    description: 携带门卡
     code: DJMAX_ArrowLeft
     type: 1
     duration_type: "1"
@@ -7126,7 +7203,8 @@
   }
   {
     id: 9410332
-    name: 【标记】门卡2
+    name: 携带buff
+    description: 携带门卡
     code: TurnLeft
     type: 1
     duration_type: "1"
@@ -7137,7 +7215,8 @@
   }
   {
     id: 9410333
-    name: 【标记】门卡3
+    name: 携带buff
+    description: 携带门卡
     code: TurnRight
     type: 1
     duration_type: "1"
@@ -7148,7 +7227,8 @@
   }
   {
     id: 9411870
-    name: 【标记】4章探索任务_衔尾蛇资料
+    name: 携带buff
+    description: 衔尾蛇资料
     code: claes
     type: 1
     duration_type: "1"
@@ -7162,7 +7242,8 @@
   }
   {
     id: 9490101
-    name: 【标记】定身2回合
+    name: 禁足
+    description: 禁止移动
     code: Theresa_Back
     type: 2
     duration_type: "1"
@@ -7174,7 +7255,8 @@
   }
   {
     id: 9490102
-    name: 【标记】携带杂物A
+    name: 携带buff
+    description: 携带杂物
     code: GunBox
     type: 1
     duration_type: "1"
@@ -7186,7 +7268,8 @@
   }
   {
     id: 9490103
-    name: 【标记】携带杂物B
+    name: 携带buff
+    description: 携带杂物
     code: GunBox
     type: 1
     duration_type: "1"
@@ -7198,7 +7281,8 @@
   }
   {
     id: 9490201
-    name: 【标记】携带礼物
+    name: 携带buff
+    description: 携带礼物
     code: GunBox
     type: 1
     duration_type: "1"
@@ -7209,7 +7293,8 @@
   }
   {
     id: 9521000
-    name: 【标记】携带雷
+    name: 携带buff
+    description: 携带歌利亚
     code: SpeedUp
     type: 1
     duration_type: "1"
@@ -7220,7 +7305,8 @@
   }
   {
     id: 9521401
-    name: 【标记】找到门卡
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "1"
@@ -7239,7 +7325,8 @@
   }
   {
     id: 9583801
-    name: 【标记】持有EMP
+    name: 携带buff
+    description: 持有EMP
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -7251,7 +7338,8 @@
   }
   {
     id: 9583802
-    name: 【标记】无限移动
+    name: 加速
+    description: 无限移动
     code: Racing_Fly
     type: 1
     duration_type: "1"
@@ -7283,7 +7371,8 @@
   }
   {
     id: 9583805
-    name: 【标记】Boss多动1
+    name: 加速
+    description: 行动力提升
     code: ExtraMove
     type: 1
     duration_type: "1"
@@ -7305,7 +7394,8 @@
   }
   {
     id: 9584001
-    name: 【标记】Boss强化
+    name: 强化
+    description: 被强化加强不可以击破
     code: Invincible
     type: 1
     duration_type: "1"
@@ -7338,8 +7428,21 @@
     carry_mission_skill: "95842010"
   }
   {
+    id: 10000021
+    name: 掩体作战
+    description: 减少梯队收到伤害
+    code: buff
+    type: 1
+    duration_type: "5"
+    duration_time: "2"
+    exp_buff: "1"
+    battle_skill_config_id: 900106
+    conflict_type: 1000002
+  }
+  {
     id: 58000401
-    name: 活跃加速buff
+    name: 加速
+    description: 行动加速中
     code: SpeedUp
     type: 1
     duration_type: "5"

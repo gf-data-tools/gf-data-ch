@@ -1,6 +1,7 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.MallController)
 xlua.private_accessible(CS.VehicleGoodItemCtrl)
+xlua.private_accessible(CS.MallSkinDisplayItemListController)
 
 local _JumpToTab = function(self,jumpType)
 	if jumpType == 3 then
@@ -25,6 +26,33 @@ local _InitSkinID = function(self)
 		self.strTitle = self.skin_info.Name;
 		self.strIntroduction = self.skin_info.Introduce;
 	end
+	if self.tex_TypeName.text.color.r < 0.9 then
+		self.tex_TypeName.text.color=CS.UnityEngine.Color(1,1,1,1);
+	end
+end
+local _SetName = function(self)
+	self:SetName();
+
+	if self.skin_info ~=nil and self.skin_info.type == 1 then
+		
+		local id = self.skin_info.VehilceID;
+		if id>0 and CS.GameData.listVehicleData:ContainsKey(id) then
+			if self.tex_TypeName.gameObject.activeSelf == false then
+				self.tex_TypeName.gameObject:SetActive(true);
+			end
+			local name = CS.GameData.listVehicleData:GetDataById(id).Name;
+			self.tex_TypeName:SetText(name);
+		end
+	end
+	
+end
+local _InitData = function(self)
+	if CS.MallController.Instance ~=nil and CS.MallController.Instance.listSkinTheme ~=nil and CS.MallController.Instance.listSkinTheme:Contains(0) then
+		CS.MallController.Instance.listSkinTheme:Remove(0);
+	end
+	self:InitData();
 end
 util.hotfix_ex(CS.MallController,'JumpToTab',_JumpToTab)
 util.hotfix_ex(CS.VehicleGoodItemCtrl,'InitSkinID',_InitSkinID)
+util.hotfix_ex(CS.VehicleGoodItemCtrl,'SetName',_SetName)
+util.hotfix_ex(CS.MallSkinDisplayItemListController,'InitData',_InitData)

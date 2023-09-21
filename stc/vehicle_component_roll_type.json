@@ -11,7 +11,7 @@
         "id": 1002,
         "name": "vehicle_component_roll_type-10001002",
         "type": 1,
-        "roll_code": "light_damage",
+        "roll_code": "reload",
         "skill_id": 0,
         "group": 1
     },
@@ -19,7 +19,7 @@
         "id": 1003,
         "name": "vehicle_component_roll_type-10001003",
         "type": 1,
-        "roll_code": "reload",
+        "roll_code": "precision",
         "skill_id": 0,
         "group": 1
     },
@@ -27,7 +27,7 @@
         "id": 1004,
         "name": "vehicle_component_roll_type-10001004",
         "type": 1,
-        "roll_code": "precision",
+        "roll_code": "H_armor_piercing",
         "skill_id": 0,
         "group": 1
     },
@@ -35,7 +35,7 @@
         "id": 1005,
         "name": "vehicle_component_roll_type-10001005",
         "type": 1,
-        "roll_code": "atk_speed",
+        "roll_code": "light_damage",
         "skill_id": 0,
         "group": 1
     },
@@ -43,7 +43,7 @@
         "id": 1006,
         "name": "vehicle_component_roll_type-10001006",
         "type": 1,
-        "roll_code": "hit",
+        "roll_code": "atk_speed",
         "skill_id": 0,
         "group": 1
     },
@@ -51,7 +51,7 @@
         "id": 1007,
         "name": "vehicle_component_roll_type-10001007",
         "type": 1,
-        "roll_code": "armor",
+        "roll_code": "hit",
         "skill_id": 0,
         "group": 1
     },
@@ -59,7 +59,7 @@
         "id": 1008,
         "name": "vehicle_component_roll_type-10001008",
         "type": 1,
-        "roll_code": "dodge",
+        "roll_code": "L_armor_piercing",
         "skill_id": 0,
         "group": 1
     },
@@ -83,7 +83,7 @@
         "id": 1011,
         "name": "vehicle_component_roll_type-10001011",
         "type": 1,
-        "roll_code": "L_armor_piercing",
+        "roll_code": "armor",
         "skill_id": 0,
         "group": 1
     },
@@ -91,7 +91,7 @@
         "id": 1012,
         "name": "vehicle_component_roll_type-10001012",
         "type": 1,
-        "roll_code": "def_break",
+        "roll_code": "dodge",
         "skill_id": 0,
         "group": 1
     },
@@ -99,7 +99,7 @@
         "id": 1013,
         "name": "vehicle_component_roll_type-10001013",
         "type": 1,
-        "roll_code": "H_armor_piercing",
+        "roll_code": "def_break",
         "skill_id": 0,
         "group": 1
     },
@@ -108,7 +108,7 @@
         "name": "vehicle_component_roll_type-10002001",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770090,
+        "skill_id": 770036,
         "group": 2
     },
     {
@@ -116,7 +116,7 @@
         "name": "vehicle_component_roll_type-10002002",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770036,
+        "skill_id": 770038,
         "group": 2
     },
     {
@@ -124,7 +124,7 @@
         "name": "vehicle_component_roll_type-10002003",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770037,
+        "skill_id": 770125,
         "group": 2
     },
     {
@@ -132,7 +132,7 @@
         "name": "vehicle_component_roll_type-10002004",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770038,
+        "skill_id": 770106,
         "group": 2
     },
     {
@@ -140,60 +140,12 @@
         "name": "vehicle_component_roll_type-10002005",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770039,
+        "skill_id": 220187,
         "group": 2
     },
     {
         "id": 2006,
         "name": "vehicle_component_roll_type-10002006",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770040,
-        "group": 2
-    },
-    {
-        "id": 2007,
-        "name": "vehicle_component_roll_type-10002007",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770041,
-        "group": 2
-    },
-    {
-        "id": 2008,
-        "name": "vehicle_component_roll_type-10002008",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770046,
-        "group": 2
-    },
-    {
-        "id": 2009,
-        "name": "vehicle_component_roll_type-10002009",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770092,
-        "group": 2
-    },
-    {
-        "id": 2010,
-        "name": "vehicle_component_roll_type-10002010",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770082,
-        "group": 2
-    },
-    {
-        "id": 2011,
-        "name": "vehicle_component_roll_type-10002011",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770106,
-        "group": 2
-    },
-    {
-        "id": 2012,
-        "name": "vehicle_component_roll_type-10002012",
         "type": 2,
         "roll_code": "",
         "skill_id": 770113,
@@ -204,7 +156,7 @@
         "name": "vehicle_component_roll_type-10003001",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770091,
+        "skill_id": 220173,
         "group": 3
     },
     {
@@ -212,7 +164,7 @@
         "name": "vehicle_component_roll_type-10003002",
         "type": 2,
         "roll_code": "",
-        "skill_id": 220173,
+        "skill_id": 220175,
         "group": 3
     },
     {
@@ -220,7 +172,7 @@
         "name": "vehicle_component_roll_type-10003003",
         "type": 2,
         "roll_code": "",
-        "skill_id": 220174,
+        "skill_id": 220181,
         "group": 3
     },
     {
@@ -228,7 +180,7 @@
         "name": "vehicle_component_roll_type-10003004",
         "type": 2,
         "roll_code": "",
-        "skill_id": 220175,
+        "skill_id": 220180,
         "group": 3
     },
     {
@@ -236,7 +188,7 @@
         "name": "vehicle_component_roll_type-10003005",
         "type": 2,
         "roll_code": "",
-        "skill_id": 220176,
+        "skill_id": 220167,
         "group": 3
     },
     {
@@ -244,135 +196,7 @@
         "name": "vehicle_component_roll_type-10003006",
         "type": 2,
         "roll_code": "",
-        "skill_id": 220177,
-        "group": 3
-    },
-    {
-        "id": 3007,
-        "name": "vehicle_component_roll_type-10003007",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220178,
-        "group": 3
-    },
-    {
-        "id": 3008,
-        "name": "vehicle_component_roll_type-10003008",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220179,
-        "group": 3
-    },
-    {
-        "id": 3009,
-        "name": "vehicle_component_roll_type-10003009",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220180,
-        "group": 3
-    },
-    {
-        "id": 3010,
-        "name": "vehicle_component_roll_type-10003010",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220166,
-        "group": 3
-    },
-    {
-        "id": 3011,
-        "name": "vehicle_component_roll_type-10003011",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220167,
-        "group": 3
-    },
-    {
-        "id": 3012,
-        "name": "vehicle_component_roll_type-10003012",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770045,
-        "group": 3
-    },
-    {
-        "id": 3013,
-        "name": "vehicle_component_roll_type-10003013",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220181,
-        "group": 3
-    },
-    {
-        "id": 3014,
-        "name": "vehicle_component_roll_type-10003014",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220170,
-        "group": 3
-    },
-    {
-        "id": 3015,
-        "name": "vehicle_component_roll_type-10003015",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770093,
-        "group": 3
-    },
-    {
-        "id": 3016,
-        "name": "vehicle_component_roll_type-10003016",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220182,
-        "group": 3
-    },
-    {
-        "id": 3017,
-        "name": "vehicle_component_roll_type-10003017",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220184,
-        "group": 3
-    },
-    {
-        "id": 3018,
-        "name": "vehicle_component_roll_type-10003018",
-        "type": 2,
-        "roll_code": "",
         "skill_id": 220185,
-        "group": 3
-    },
-    {
-        "id": 3019,
-        "name": "vehicle_component_roll_type-10003019",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220186,
-        "group": 3
-    },
-    {
-        "id": 3020,
-        "name": "vehicle_component_roll_type-10003020",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220187,
-        "group": 3
-    },
-    {
-        "id": 3021,
-        "name": "vehicle_component_roll_type-10003021",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 220191,
-        "group": 3
-    },
-    {
-        "id": 3022,
-        "name": "vehicle_component_roll_type-10003022",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770081,
         "group": 3
     },
     {
@@ -380,7 +204,7 @@
         "name": "vehicle_component_roll_type-10004001",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770014,
+        "skill_id": 770090,
         "group": 4
     },
     {
@@ -388,7 +212,7 @@
         "name": "vehicle_component_roll_type-10004002",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770016,
+        "skill_id": 770091,
         "group": 4
     },
     {
@@ -396,7 +220,7 @@
         "name": "vehicle_component_roll_type-10004003",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770019,
+        "skill_id": 770014,
         "group": 4
     },
     {
@@ -404,7 +228,7 @@
         "name": "vehicle_component_roll_type-10004004",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770120,
+        "skill_id": 770016,
         "group": 4
     },
     {
@@ -412,7 +236,7 @@
         "name": "vehicle_component_roll_type-10004005",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770024,
+        "skill_id": 770019,
         "group": 4
     },
     {
@@ -420,7 +244,7 @@
         "name": "vehicle_component_roll_type-10004006",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770096,
+        "skill_id": 770024,
         "group": 4
     },
     {
@@ -428,7 +252,23 @@
         "name": "vehicle_component_roll_type-10004007",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770098,
+        "skill_id": 770096,
+        "group": 4
+    },
+    {
+        "id": 4008,
+        "name": "vehicle_component_roll_type-10004008",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770107,
+        "group": 4
+    },
+    {
+        "id": 4009,
+        "name": "vehicle_component_roll_type-10004009",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770109,
         "group": 4
     },
     {
@@ -436,7 +276,7 @@
         "name": "vehicle_component_roll_type-10005001",
         "type": 2,
         "roll_code": "",
-        "skill_id": 220183,
+        "skill_id": 770037,
         "group": 5
     },
     {
@@ -444,7 +284,7 @@
         "name": "vehicle_component_roll_type-10005002",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770101,
+        "skill_id": 770039,
         "group": 5
     },
     {
@@ -452,7 +292,7 @@
         "name": "vehicle_component_roll_type-10005003",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770111,
+        "skill_id": 770040,
         "group": 5
     },
     {
@@ -460,7 +300,7 @@
         "name": "vehicle_component_roll_type-10005004",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770112,
+        "skill_id": 770041,
         "group": 5
     },
     {
@@ -468,7 +308,23 @@
         "name": "vehicle_component_roll_type-10005005",
         "type": 2,
         "roll_code": "",
+        "skill_id": 220183,
+        "group": 5
+    },
+    {
+        "id": 5006,
+        "name": "vehicle_component_roll_type-10005006",
+        "type": 2,
+        "roll_code": "",
         "skill_id": 770114,
+        "group": 5
+    },
+    {
+        "id": 5007,
+        "name": "vehicle_component_roll_type-10005007",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770104,
         "group": 5
     },
     {
@@ -476,7 +332,7 @@
         "name": "vehicle_component_roll_type-10006001",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770047,
+        "skill_id": 770092,
         "group": 6
     },
     {
@@ -484,7 +340,7 @@
         "name": "vehicle_component_roll_type-10006002",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770050,
+        "skill_id": 770093,
         "group": 6
     },
     {
@@ -492,7 +348,55 @@
         "name": "vehicle_component_roll_type-10006003",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770052,
+        "skill_id": 770026,
+        "group": 6
+    },
+    {
+        "id": 6004,
+        "name": "vehicle_component_roll_type-10006004",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770028,
+        "group": 6
+    },
+    {
+        "id": 6005,
+        "name": "vehicle_component_roll_type-10006005",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 220182,
+        "group": 6
+    },
+    {
+        "id": 6006,
+        "name": "vehicle_component_roll_type-10006006",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770030,
+        "group": 6
+    },
+    {
+        "id": 6007,
+        "name": "vehicle_component_roll_type-10006007",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770032,
+        "group": 6
+    },
+    {
+        "id": 6008,
+        "name": "vehicle_component_roll_type-10006008",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770034,
+        "group": 6
+    },
+    {
+        "id": 6009,
+        "name": "vehicle_component_roll_type-10006009",
+        "type": 2,
+        "roll_code": "",
+        "skill_id": 770100,
         "group": 6
     },
     {
@@ -500,7 +404,7 @@
         "name": "vehicle_component_roll_type-10007001",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770026,
+        "skill_id": 770046,
         "group": 7
     },
     {
@@ -508,7 +412,7 @@
         "name": "vehicle_component_roll_type-10007002",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770028,
+        "skill_id": 770045,
         "group": 7
     },
     {
@@ -516,7 +420,7 @@
         "name": "vehicle_component_roll_type-10007003",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770030,
+        "skill_id": 770047,
         "group": 7
     },
     {
@@ -524,7 +428,7 @@
         "name": "vehicle_component_roll_type-10007004",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770032,
+        "skill_id": 770082,
         "group": 7
     },
     {
@@ -532,7 +436,7 @@
         "name": "vehicle_component_roll_type-10007005",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770034,
+        "skill_id": 770081,
         "group": 7
     },
     {
@@ -540,55 +444,7 @@
         "name": "vehicle_component_roll_type-10007006",
         "type": 2,
         "roll_code": "",
-        "skill_id": 770100,
-        "group": 7
-    },
-    {
-        "id": 8001,
-        "name": "vehicle_component_roll_type-10008001",
-        "type": 2,
-        "roll_code": "",
         "skill_id": 770084,
-        "group": 8
-    },
-    {
-        "id": 8002,
-        "name": "vehicle_component_roll_type-10008002",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770086,
-        "group": 8
-    },
-    {
-        "id": 8003,
-        "name": "vehicle_component_roll_type-10008003",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770088,
-        "group": 8
-    },
-    {
-        "id": 8004,
-        "name": "vehicle_component_roll_type-10008004",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770104,
-        "group": 8
-    },
-    {
-        "id": 8005,
-        "name": "vehicle_component_roll_type-10008005",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770107,
-        "group": 8
-    },
-    {
-        "id": 8006,
-        "name": "vehicle_component_roll_type-10008006",
-        "type": 2,
-        "roll_code": "",
-        "skill_id": 770109,
-        "group": 8
+        "group": 7
     }
 ]

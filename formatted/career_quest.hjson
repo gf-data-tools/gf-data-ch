@@ -693,10 +693,10 @@
   {
     id: 172
     type: squad_base_data_analyse
-    count: 1
+    count: 20
     prize_id: 780
-    title: 重装部队：原始样本
-    content: 在“情报中心-记录仪”使用原始样本进行1次抽样分析
+    title: 火力小队：原始样本
+    content: 累计消耗20点原始数据样本
     new_type: 1
     grade_id: 29
     sort: 206
@@ -704,43 +704,21 @@
   {
     id: 173
     type: squad_senior_data_analyse
-    count: 1
+    count: 20
     prize_id: 781
-    title: 重装部队：纯净样本
-    content: 在“情报中心-记录仪”使用纯净样本进行1次抽样分析
+    title: 火力小队：纯净样本
+    content: 累计消耗20点纯净数据样本
     new_type: 1
     grade_id: 29
     sort: 207
-  }
-  {
-    id: 174
-    type: squad_get_chip
-    count: 1
-    prize_id: 782
-    title: 重装部队：芯片
-    content: 首次获得芯片
-    new_type: 1
-    grade_id: 29
-    sort: 208
-  }
-  {
-    id: 175
-    type: squad_get_secret_data
-    count: 1
-    prize_id: 783
-    title: 重装部队：中枢数据
-    content: 首次获得中枢数据
-    new_type: 1
-    grade_id: 29
-    sort: 209
   }
   {
     id: 176
     type: squad_get_type1_unit
     count: 1
     prize_id: 784
-    title: 重装部队：解锁
-    content: 首次解锁重装部队火力单位
+    title: 火力小队：解锁
+    content: 首次解锁重装部队-火力小队
     new_type: 1
     grade_id: 29
     sort: 210
@@ -750,8 +728,8 @@
     type: squad_up_rank
     count: 1
     prize_id: 785
-    title: 重装部队：晋升
-    content: 首次对重装部队进行晋升
+    title: 火力小队：晋升
+    content: 首次对火力小队进行晋升
     new_type: 1
     grade_id: 30
     sort: 222
@@ -761,30 +739,19 @@
     type: squad_rank_max
     count: 1
     prize_id: 786
-    title: 重装部队：晋升
-    content: 首次将重装部队晋升至五星
+    title: 火力小队：晋升
+    content: 首次将火力小队晋升至五星
     new_type: 1
     grade_id: 33
     sort: 264
-  }
-  {
-    id: 179
-    type: squad_train_time
-    count: 1
-    prize_id: 787
-    title: 重装部队：经验训练
-    content: 通过“格纳库-训练场”完成1次重装部队经验训练
-    new_type: 1
-    grade_id: 29
-    sort: 211
   }
   {
     id: 180
     type: squad_level_max
     count: 1
     prize_id: 788
-    title: 重装部队：等级训练
-    content: 将1个重装部队等级升至100级
+    title: 火力小队：等级训练
+    content: 将1个火力小队等级升至100级
     new_type: 1
     grade_id: 33
     sort: 265
@@ -794,8 +761,8 @@
     type: squad_up_skill_times
     count: 1
     prize_id: 789
-    title: 重装部队：技能训练
-    content: 通过“格纳库-训练场”完成1次重装部队技能训练
+    title: 火力小队：技能训练
+    content: 通过“情报中心-训练场”完成1次火力小队技能训练
     new_type: 1
     grade_id: 30
     sort: 223
@@ -805,33 +772,11 @@
     type: squad_up_advanced_times
     count: 1
     prize_id: 790
-    title: 重装部队：迭代
-    content: 首次对重装部队进行迭代
+    title: 火力小队：迭代
+    content: 首次对火力小队进行迭代
     new_type: 1
     grade_id: 33
     sort: 266
-  }
-  {
-    id: 184
-    type: squad_chip_retire_times
-    count: 1
-    prize_id: 792
-    title: 重装部队：芯片回收
-    content: 在“格纳库-芯片仓库”进行1次芯片回收
-    new_type: 1
-    grade_id: 30
-    sort: 224
-  }
-  {
-    id: 185
-    type: squad_eat_chip_num
-    count: 1
-    prize_id: 793
-    title: 重装部队：芯片强化
-    content: 在“格纳库-芯片仓库”进行1次芯片强化
-    new_type: 1
-    grade_id: 30
-    sort: 225
   }
   {
     id: 186
@@ -2716,10 +2661,10 @@
   {
     id: 355
     type: squad_base_data_analyse
-    count: 20
+    count: 400
     prize_id: 11163
-    title: 重装部队：原始样本
-    content: 在“情报中心-记录仪”使用原始样本进行20次抽样分析
+    title: 火力小队：原始样本
+    content: 累计消耗400点原始数据样本
     new_type: 1
     grade_id: 30
     sort: 226
@@ -2727,10 +2672,10 @@
   {
     id: 356
     type: squad_senior_data_analyse
-    count: 5
+    count: 100
     prize_id: 11164
-    title: 重装部队：纯净样本
-    content: 在“情报中心-记录仪”使用纯净样本进行5次抽样分析
+    title: 火力小队：纯净样本
+    content: 累计消耗100点纯净数据样本
     new_type: 1
     grade_id: 30
     sort: 227
@@ -2740,8 +2685,8 @@
     type: c_squad_rank
     count: 1
     prize_id: 11165
-    title: 重装部队：晋升
-    content: 将1个重装晋升至3星
+    title: 火力小队：晋升
+    content: 将1个火力小队晋升至3星
     new_type: 1
     grade_id: 31
     sort: 241
@@ -2752,8 +2697,8 @@
     type: c_squad_rank
     count: 1
     prize_id: 11166
-    title: 重装部队：晋升
-    content: 将1个重装晋升至4星
+    title: 火力小队：晋升
+    content: 将1个火力小队晋升至4星
     new_type: 1
     grade_id: 32
     sort: 253
@@ -2764,7 +2709,7 @@
     type: write_squad_report
     count: 1
     prize_id: 11167
-    title: 重装部队：特种作战报告书
+    title: 火力小队：特种作战报告书
     content: 在“资料室-办公桌”撰写1次特种作战报告书
     new_type: 1
     grade_id: 29
@@ -2775,7 +2720,7 @@
     type: exchange_squad_report
     count: 1
     prize_id: 11168
-    title: 重装部队：特种作战报告书
+    title: 火力小队：特种作战报告书
     content: 在“前进营地-机密商店”兑换1次特种作战报告书
     new_type: 1
     grade_id: 30
@@ -2786,8 +2731,8 @@
     type: c_squad_level
     count: 1
     prize_id: 11169
-    title: 重装部队：等级训练
-    content: 通过“格纳库-训练场”将1个重装部队等级升至30级
+    title: 火力小队：等级训练
+    content: 将1个火力小队等级升至30级
     new_type: 1
     grade_id: 30
     sort: 229
@@ -2798,8 +2743,8 @@
     type: c_squad_level
     count: 1
     prize_id: 11170
-    title: 重装部队：等级训练
-    content: 通过“格纳库-训练场”将1个重装部队等级升至50级
+    title: 火力小队：等级训练
+    content: 将1个火力小队等级升至50级
     new_type: 1
     grade_id: 31
     sort: 242
@@ -2810,8 +2755,8 @@
     type: c_squad_level
     count: 1
     prize_id: 11171
-    title: 重装部队：等级训练
-    content: 通过“格纳库-训练场”将1个重装部队等级升至70级
+    title: 火力小队：等级训练
+    content: 将1个火力小队等级升至70级
     new_type: 1
     grade_id: 32
     sort: 254
@@ -2822,8 +2767,8 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11172
-    title: 重装部队：技能训练
-    content: 通过“格纳库-训练场”将1个重装部队的总技能等级升至6级
+    title: 火力小队：技能训练
+    content: 通过“情报中心-训练场”将1个火力小队的总技能等级升至6级
     new_type: 1
     grade_id: 30
     sort: 230
@@ -2834,8 +2779,8 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11173
-    title: 重装部队：技能训练
-    content: 通过“格纳库-训练场”将1个重装部队的总技能等级升至15级
+    title: 火力小队：技能训练
+    content: 通过“情报中心-训练场”将1个火力小队的总技能等级升至15级
     new_type: 1
     grade_id: 31
     sort: 243
@@ -2846,8 +2791,8 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11174
-    title: 重装部队：技能训练
-    content: 通过“格纳库-训练场”将1个重装部队的总技能等级升至24级
+    title: 火力小队：技能训练
+    content: 通过“情报中心-训练场”将1个火力小队的总技能等级升至24级
     new_type: 1
     grade_id: 32
     sort: 255
@@ -2858,151 +2803,20 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11175
-    title: 重装部队：技能训练
-    content: 通过“格纳库-训练场”将1个重装部队的总技能等级升至30级
+    title: 火力小队：技能训练
+    content: 通过“情报中心-训练场”将1个火力小队的总技能等级升至30级
     new_type: 1
     grade_id: 33
     sort: 267
     condition: "30"
   }
   {
-    id: 368
-    type: c_squad_chip_level
-    count: 1
-    prize_id: 11176
-    title: 重装部队：芯片强化
-    content: 将1个重装芯片升至5级
-    new_type: 1
-    grade_id: 30
-    sort: 231
-    condition: "5"
-  }
-  {
-    id: 369
-    type: c_squad_chip_level
-    count: 3
-    prize_id: 11177
-    title: 重装部队：芯片强化
-    content: 将3个重装芯片升至5级
-    new_type: 1
-    grade_id: 31
-    sort: 244
-    condition: "5"
-  }
-  {
-    id: 370
-    type: c_squad_chip_level
-    count: 6
-    prize_id: 11178
-    title: 重装部队：芯片强化
-    content: 将6个重装芯片升至10级
-    new_type: 1
-    grade_id: 32
-    sort: 256
-    condition: "10"
-  }
-  {
-    id: 371
-    type: c_squad_chip_level
-    count: 6
-    prize_id: 11179
-    title: 重装部队：芯片强化
-    content: 将6个重装芯片升至20级
-    new_type: 1
-    grade_id: 33
-    sort: 268
-    condition: "20"
-  }
-  {
-    id: 372
-    type: squad_get_chip
-    count: 20
-    prize_id: 11180
-    title: 重装部队：芯片
-    content: 累计获取20个芯片
-    new_type: 1
-    grade_id: 30
-    sort: 232
-  }
-  {
-    id: 373
-    type: c_establish_up
-    count: 1
-    prize_id: 11181
-    title: 重装部队：库房
-    content: 在“格纳库”将库房升至1级
-    new_type: 1
-    grade_id: 29
-    sort: 213
-    condition: "601"
-  }
-  {
-    id: 374
-    type: c_establish_up
-    count: 3
-    prize_id: 11182
-    title: 重装部队：库房
-    content: 在“格纳库”将库房升至3级
-    new_type: 1
-    grade_id: 30
-    sort: 233
-    condition: "601"
-  }
-  {
-    id: 375
-    type: c_establish_up
-    count: 6
-    prize_id: 11183
-    title: 重装部队：库房
-    content: 在“格纳库”将库房升至6级
-    new_type: 1
-    grade_id: 32
-    sort: 245
-    condition: "601"
-  }
-  {
-    id: 376
-    type: c_establish_up
-    count: 10
-    prize_id: 11184
-    title: 重装部队：库房
-    content: 在“格纳库”将库房升至10级
-    new_type: 1
-    grade_id: 33
-    sort: 257
-    condition: "601"
-  }
-  {
-    id: 377
-    type: c_establish_up
-    count: 1
-    prize_id: 11185
-    title: 重装部队：维修设备
-    content: 在“格纳库”将维修设施升至1级
-    new_type: 1
-    grade_id: 29
-    sort: 214
-    condition: "602"
-  }
-  {
-    id: 378
-    type: c_establish_up
-    count: 2
-    prize_id: 11186
-    title: 重装部队：维修设备
-    content: 在“格纳库”将维修设施升至2级
-    new_type: 1
-    grade_id: 30
-    sort: 234
-    condition: "602"
-  }
-  {
     id: 381
     type: c_establish_up
     count: 1
     prize_id: 11187
-    title: 重装部队：训练场
-    content: 在“格纳库”将训练场升至1级
+    title: 火力小队：训练场
+    content: 在“情报中心”将训练场升至1级
     new_type: 1
     grade_id: 29
     sort: 215
@@ -3013,8 +2827,8 @@
     type: c_establish_up
     count: 3
     prize_id: 11188
-    title: 重装部队：训练场
-    content: 在“格纳库”将训练场升至3级
+    title: 火力小队：训练场
+    content: 在“情报中心”将训练场升至3级
     new_type: 1
     grade_id: 30
     sort: 235
@@ -3025,8 +2839,8 @@
     type: c_establish_up
     count: 6
     prize_id: 11189
-    title: 重装部队：训练场
-    content: 在“格纳库”将训练场升至6级
+    title: 火力小队：训练场
+    content: 在“情报中心”将训练场升至6级
     new_type: 1
     grade_id: 32
     sort: 247
@@ -3037,67 +2851,19 @@
     type: c_establish_up
     count: 10
     prize_id: 11190
-    title: 重装部队：训练场
-    content: 在“格纳库”将训练场升至10级
+    title: 火力小队：训练场
+    content: 在“情报中心”将训练场升至10级
     new_type: 1
     grade_id: 33
     sort: 259
     condition: "603"
   }
   {
-    id: 385
-    type: c_establish_up
-    count: 1
-    prize_id: 11191
-    title: 重装部队：简报台
-    content: 在“情报中心”将任务简报台升至1级
-    new_type: 1
-    grade_id: 29
-    sort: 216
-    condition: "502"
-  }
-  {
-    id: 386
-    type: c_establish_up
-    count: 3
-    prize_id: 11192
-    title: 重装部队：简报台
-    content: 在“情报中心”将任务简报台升至3级
-    new_type: 1
-    grade_id: 30
-    sort: 236
-    condition: "502"
-  }
-  {
-    id: 387
-    type: c_establish_up
-    count: 6
-    prize_id: 11193
-    title: 重装部队：简报台
-    content: 在“情报中心”将任务简报台升至6级
-    new_type: 1
-    grade_id: 32
-    sort: 248
-    condition: "502"
-  }
-  {
-    id: 388
-    type: c_establish_up
-    count: 10
-    prize_id: 11194
-    title: 重装部队：简报台
-    content: 在“情报中心”将任务简报台升至10级
-    new_type: 1
-    grade_id: 33
-    sort: 260
-    condition: "502"
-  }
-  {
     id: 389
     type: c_establish_up
     count: 1
     prize_id: 11195
-    title: 重装部队：监听站
+    title: 火力小队：监听站
     content: 在“情报中心”将监听站升至1级
     new_type: 1
     grade_id: 29
@@ -3109,7 +2875,7 @@
     type: c_establish_up
     count: 3
     prize_id: 11196
-    title: 重装部队：监听站
+    title: 火力小队：监听站
     content: 在“情报中心”将监听站升至3级
     new_type: 1
     grade_id: 30
@@ -3121,7 +2887,7 @@
     type: c_establish_up
     count: 6
     prize_id: 11197
-    title: 重装部队：监听站
+    title: 火力小队：监听站
     content: 在“情报中心”将监听站升至6级
     new_type: 1
     grade_id: 32
@@ -3133,7 +2899,7 @@
     type: c_establish_up
     count: 10
     prize_id: 11198
-    title: 重装部队：监听站
+    title: 火力小队：监听站
     content: 在“情报中心”将监听站升至10级
     new_type: 1
     grade_id: 33
@@ -3145,7 +2911,7 @@
     type: c_establish_up
     count: 1
     prize_id: 11199
-    title: 重装部队：记录仪
+    title: 火力小队：记录仪
     content: 在“情报中心”将记录仪升至1级
     new_type: 1
     grade_id: 29
@@ -3157,7 +2923,7 @@
     type: c_establish_up
     count: 3
     prize_id: 11200
-    title: 重装部队：记录仪
+    title: 火力小队：记录仪
     content: 在“情报中心”将记录仪升至3级
     new_type: 1
     grade_id: 30
@@ -3169,7 +2935,7 @@
     type: c_establish_up
     count: 6
     prize_id: 11201
-    title: 重装部队：记录仪
+    title: 火力小队：记录仪
     content: 在“情报中心”将记录仪升至6级
     new_type: 1
     grade_id: 32
@@ -3181,60 +2947,12 @@
     type: c_establish_up
     count: 10
     prize_id: 11202
-    title: 重装部队：记录仪
+    title: 火力小队：记录仪
     content: 在“情报中心”将记录仪升至10级
     new_type: 1
     grade_id: 33
     sort: 262
     condition: "503"
-  }
-  {
-    id: 397
-    type: c_establish_up
-    count: 1
-    prize_id: 11203
-    title: 重装部队：解析仪
-    content: 在“情报中心”将解析仪升至1级
-    new_type: 1
-    grade_id: 29
-    sort: 219
-    condition: "504"
-  }
-  {
-    id: 398
-    type: c_establish_up
-    count: 3
-    prize_id: 11204
-    title: 重装部队：解析仪
-    content: 在“情报中心”将解析仪升至3级
-    new_type: 1
-    grade_id: 30
-    sort: 239
-    condition: "504"
-  }
-  {
-    id: 399
-    type: c_establish_up
-    count: 6
-    prize_id: 11205
-    title: 重装部队：解析仪
-    content: 在“情报中心”将解析仪升至6级
-    new_type: 1
-    grade_id: 32
-    sort: 251
-    condition: "504"
-  }
-  {
-    id: 400
-    type: c_establish_up
-    count: 10
-    prize_id: 11206
-    title: 重装部队：解析仪
-    content: 在“情报中心”将解析仪升至10级
-    new_type: 1
-    grade_id: 33
-    sort: 263
-    condition: "504"
   }
   {
     id: 401
@@ -4471,8 +4189,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11312
-    title: 重装部队：初级考核
-    content: 完成晋升关卡，运用重装部队破坏战场设施改变战场局势。
+    title: 火力小队：初级考核
+    content: 完成晋升关卡，运用火力小队破坏战场设施改变战场局势。
     new_type: 1
     grade_id: 29
     sort: 220
@@ -4484,8 +4202,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11313
-    title: 重装部队：中级考核
-    content: 完成晋升关卡，运用重装部队打败拥有力场盾的敌人。
+    title: 火力小队：中级考核
+    content: 完成晋升关卡，运用火力小队打败拥有力场盾的敌人。
     new_type: 1
     grade_id: 31
     sort: 252
@@ -4497,8 +4215,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11314
-    title: 重装部队：最终考核
-    content: 完成晋升关卡，需要高等级重装部队击败强敌才能通过的最终考核。
+    title: 火力小队：最终考核
+    content: 完成晋升关卡，需要高等级火力小队击败强敌才能通过的最终考核。
     new_type: 1
     grade_id: 33
     sort: 269
@@ -4510,8 +4228,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11315
-    title: 重装部队：破坏设施
-    content: 完成教学关卡，了解如何使用重装部队破坏战场设施。
+    title: 火力小队：破坏设施
+    content: 完成教学关卡，了解如何使用火力小队破坏战场设施。
     new_type: 1
     grade_id: 29
     sort: 221
@@ -4522,8 +4240,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11316
-    title: 重装部队：破坏力场盾
-    content: 完成教学关卡，了解如何使用重装部队击败带有力场盾的敌人。
+    title: 火力小队：破坏力场盾
+    content: 完成教学关卡，了解如何使用火力小队击败带有力场盾的敌人。
     new_type: 1
     grade_id: 30
     sort: 240
@@ -4885,5 +4603,451 @@
     grade_id: 45
     sort: 360
     condition: "10921"
+  }
+  {
+    id: 564
+    type: different_vehicle_1
+    count: 1
+    prize_id: 220019
+    title: 机动装甲：第一门炮
+    content: 解锁主战坦克的图鉴
+    new_type: 1
+    grade_id: 65
+    sort: 361
+  }
+  {
+    id: 565
+    type: get_vehicle_component
+    count: 1
+    prize_id: 220007
+    title: 机动装甲：组件获取
+    content: 获取任意1个机动装甲组件
+    new_type: 1
+    grade_id: 65
+    sort: 362
+  }
+  {
+    id: 566
+    type: vehicle_shooting_range
+    count: 1
+    prize_id: 220002
+    title: 机动装甲：实弹试射
+    content: 通关1次装甲靶场的机动装甲测试
+    new_type: 1
+    grade_id: 65
+    sort: 363
+  }
+  {
+    id: 567
+    type: vehicle_progress
+    count: 1
+    prize_id: 220008
+    title: 机动装甲：科技攀升
+    content: 激活1个机动装甲科技树节点
+    new_type: 1
+    grade_id: 65
+    sort: 364
+  }
+  {
+    id: 568
+    type: vehicle_kill
+    count: 1
+    prize_id: 220002
+    title: 机动装甲：首次作战
+    content: 在战斗胜利的情况下用机动装甲主动战斗并击杀1个单位
+    new_type: 1
+    grade_id: 65
+    sort: 365
+  }
+  {
+    id: 569
+    type: vehicle_component_level
+    count: 3
+    prize_id: 220002
+    title: 机动装甲：组件强化
+    content: 提升组件等级总计3级
+    new_type: 1
+    grade_id: 65
+    sort: 366
+  }
+  {
+    id: 570
+    type: get_vehicle_component
+    count: 10
+    prize_id: 220009
+    title: 机动装甲：组件获取
+    content: 累计获取10个机动装甲组件
+    new_type: 1
+    grade_id: 66
+    sort: 367
+  }
+  {
+    id: 571
+    type: vehicle_progress
+    count: 3
+    prize_id: 220002
+    title: 机动装甲：科技攀升
+    content: 解锁3个机动装甲科技树节点
+    new_type: 1
+    grade_id: 66
+    sort: 368
+  }
+  {
+    id: 572
+    type: vehicle_kill
+    count: 5
+    prize_id: 220003
+    title: 机动装甲：初露锋芒
+    content: 在战斗胜利的情况下用机动装甲主动战斗并击杀5个单位
+    new_type: 1
+    grade_id: 66
+    sort: 369
+  }
+  {
+    id: 573
+    type: get_vehicle_component_rank5
+    count: 1
+    prize_id: 220010
+    title: 机动装甲：稀有组件
+    content: 获取1个5星机动装甲组件
+    new_type: 1
+    grade_id: 66
+    sort: 370
+  }
+  {
+    id: 574
+    type: vehicle_skill_progress
+    count: 1
+    prize_id: 220002
+    title: 机动装甲：技能升级
+    content: 激活1个技能科技树节点
+    new_type: 1
+    grade_id: 66
+    sort: 371
+  }
+  {
+    id: 575
+    type: vehicle_daily_game
+    count: 1
+    prize_id: 220003
+    title: 机动装甲：灰域探查
+    content: 占领1个灰域探查“结晶带-地狱”任意点位
+    new_type: 1
+    grade_id: 66
+    sort: 372
+  }
+  {
+    id: 576
+    type: get_vehicle_component_rank5
+    count: 5
+    prize_id: 220011
+    title: 机动装甲：稀有组件
+    content: 累计获取5个5星机动装甲组件
+    new_type: 1
+    grade_id: 67
+    sort: 373
+  }
+  {
+    id: 577
+    type: vehicle_unlock_slot1
+    count: 2
+    prize_id: 220003
+    title: 机动装甲：槽位解锁
+    content: 解锁主战坦克的所有组件栏位
+    new_type: 1
+    grade_id: 68
+    sort: 374
+  }
+  {
+    id: 578
+    type: vehicle_defeat_challenge_1
+    count: 1
+    prize_id: 220016
+    title: 机动装甲：精进突击
+    content: 突破装甲突击-主战坦克1层
+    new_type: 1
+    grade_id: 67
+    sort: 375
+  }
+  {
+    id: 579
+    type: vehicle_kill
+    count: 20
+    prize_id: 220015
+    title: 机动装甲：久经沙场
+    content: 在战斗胜利的情况下用机动装甲主动战斗并击杀20个单位
+    new_type: 1
+    grade_id: 67
+    sort: 376
+  }
+  {
+    id: 580
+    type: vehicle_skill_progress
+    count: 2
+    prize_id: 220004
+    title: 机动装甲：技能升级
+    content: 激活2个技能科技树节点
+    new_type: 1
+    grade_id: 67
+    sort: 377
+  }
+  {
+    id: 581
+    type: vehicle_daily_game_boss
+    count: 3
+    prize_id: 220017
+    title: 机动装甲：灰域探查
+    content: 占领3个“结晶带-地狱”boss点位
+    new_type: 1
+    grade_id: 68
+    sort: 378
+  }
+  {
+    id: 582
+    type: vehicle_daily_game
+    count: 60
+    prize_id: 220004
+    title: 机动装甲：灰域探查
+    content: 占领60个“结晶带-地狱”点位
+    new_type: 1
+    grade_id: 68
+    sort: 379
+  }
+  {
+    id: 583
+    type: vehicle_progress
+    count: 10
+    prize_id: 220018
+    title: 机动装甲：科技攀升
+    content: 解锁10个机动装甲科技树节点
+    new_type: 1
+    grade_id: 67
+    sort: 380
+  }
+  {
+    id: 584
+    type: c_tutorial_mission
+    count: 1
+    prize_id: 220003
+    title: 机动装甲：最终考核
+    content: 使用主战坦克进行作战的考核关卡。
+    new_type: 1
+    grade_id: 69
+    sort: 381
+    condition: "11481"
+  }
+  {
+    id: 585
+    type: c_tutorial_mission
+    count: 1
+    prize_id: 220020
+    title: 机动装甲：最终考核
+    content: 使用战术人型机甲进行作战的考核关卡。
+    new_type: 1
+    grade_id: 69
+    sort: 382
+    condition: "11480"
+  }
+  {
+    id: 586
+    type: vehicle_defeat_challenge_1
+    count: 10
+    prize_id: 220005
+    title: 机动装甲：精进突击
+    content: 突破装甲突击-主战坦克10层
+    new_type: 1
+    grade_id: 68
+    sort: 383
+  }
+  {
+    id: 587
+    type: vehicle_skill_progress
+    count: 4
+    prize_id: 220006
+    title: 机动装甲：技能升级
+    content: 激活4个技能科技树节点
+    new_type: 1
+    grade_id: 68
+    sort: 384
+  }
+  {
+    id: 588
+    type: get_vehicle_component_rank5
+    count: 30
+    prize_id: 220005
+    title: 机动装甲：稀有组件
+    content: 累计获取30个5星机动装甲组件
+    new_type: 1
+    grade_id: 69
+    sort: 385
+  }
+  {
+    id: 589
+    type: vehicle_defeat_challenge_1
+    count: 30
+    prize_id: 220006
+    title: 机动装甲：精进突击
+    content: 突破装甲突击-主战坦克30层
+    new_type: 1
+    grade_id: 69
+    sort: 386
+  }
+  {
+    id: 590
+    type: vehicle_component_level_type0
+    count: 10
+    prize_id: 220003
+    title: 机动装甲：组件强化
+    content: 升级任意1个机动装甲通用组件到10级
+    new_type: 1
+    grade_id: 69
+    sort: 387
+  }
+  {
+    id: 591
+    type: vehicle_component_level_type1
+    count: 10
+    prize_id: 220003
+    title: 机动装甲：组件强化
+    content: 升级任意1个机动装甲重武器组件到10级
+    new_type: 1
+    grade_id: 69
+    sort: 388
+  }
+  {
+    id: 592
+    type: vehicle_component_level_type2
+    count: 10
+    prize_id: 220003
+    title: 机动装甲：组件强化
+    content: 升级任意1个机动装甲轻武器组件到10级
+    new_type: 1
+    grade_id: 69
+    sort: 389
+  }
+  {
+    id: 593
+    type: vehicle_component_level_type3
+    count: 10
+    prize_id: 220003
+    title: 机动装甲：组件强化
+    content: 升级任意1个机动装甲功能组件到10级
+    new_type: 1
+    grade_id: 69
+    sort: 390
+  }
+  {
+    id: 594
+    type: vehicle_component_level_type4
+    count: 10
+    prize_id: 220003
+    title: 机动装甲：组件强化
+    content: 升级任意1个机动装甲防护组件到10级
+    new_type: 1
+    grade_id: 69
+    sort: 391
+  }
+  {
+    id: 595
+    type: vehicle_progress
+    count: 15
+    prize_id: 220006
+    title: 机动装甲：科技攀升
+    content: 解锁15个机动装甲科技树节点
+    new_type: 1
+    grade_id: 68
+    sort: 392
+  }
+  {
+    id: 600
+    type: vehicle_progress
+    count: 30
+    prize_id: 220005
+    title: 机动装甲：科技攀升
+    content: 解锁30个机动装甲科技树节点
+    new_type: 1
+    grade_id: 69
+    sort: 393
+  }
+  {
+    id: 1003
+    type: squad_get_chip
+    count: 1
+    prize_id: 782
+    title: 火力小队：芯片
+    content: 首次装载火力小队芯片
+    new_type: 1
+    grade_id: 29
+    sort: 208
+  }
+  {
+    id: 1005
+    type: squad_eat_chip_num
+    count: 1
+    prize_id: 793
+    title: 火力小队：芯片强化
+    content: 进行1次火力小队芯片强化
+    new_type: 1
+    grade_id: 30
+    sort: 225
+  }
+  {
+    id: 1008
+    type: c_squad_chip_level
+    count: 1
+    prize_id: 11176
+    title: 火力小队：芯片强化
+    content: 将1个火力小队芯片升至5级
+    new_type: 1
+    grade_id: 30
+    sort: 231
+    condition: "5"
+  }
+  {
+    id: 1009
+    type: c_squad_chip_level
+    count: 3
+    prize_id: 11177
+    title: 火力小队：芯片强化
+    content: 将3个火力小队芯片升至5级
+    new_type: 1
+    grade_id: 31
+    sort: 244
+    condition: "5"
+  }
+  {
+    id: 1010
+    type: c_squad_chip_level
+    count: 6
+    prize_id: 11178
+    title: 火力小队：芯片强化
+    content: 将6个火力小队芯片升至10级
+    new_type: 1
+    grade_id: 32
+    sort: 256
+    condition: "10"
+  }
+  {
+    id: 1011
+    type: c_squad_chip_level
+    count: 6
+    prize_id: 11179
+    title: 火力小队：芯片强化
+    content: 将6个火力小队芯片升至20级
+    new_type: 1
+    grade_id: 33
+    sort: 268
+    condition: "20"
+  }
+  {
+    id: 1012
+    type: squad_get_chip
+    count: 20
+    prize_id: 11180
+    title: 火力小队：芯片
+    content: 累计解锁20个芯片
+    new_type: 1
+    grade_id: 30
+    sort: 232
   }
 ]

@@ -1,520 +1,394 @@
 [
   {
     id: 1001
-    name: vehicle_component_roll_type-10001001
+    name: 重武伤害
     type: 1
     roll_code: heavy_damage
     group: 1
   }
   {
     id: 1002
-    name: vehicle_component_roll_type-10001002
-    type: 1
-    roll_code: light_damage
-    group: 1
-  }
-  {
-    id: 1003
-    name: vehicle_component_roll_type-10001003
+    name: 装填
     type: 1
     roll_code: reload
     group: 1
   }
   {
-    id: 1004
-    name: vehicle_component_roll_type-10001004
+    id: 1003
+    name: 精度
     type: 1
     roll_code: precision
     group: 1
   }
   {
+    id: 1004
+    name: 重武穿甲
+    type: 1
+    roll_code: H_armor_piercing
+    group: 1
+  }
+  {
     id: 1005
-    name: vehicle_component_roll_type-10001005
+    name: 轻武伤害
+    type: 1
+    roll_code: light_damage
+    group: 1
+  }
+  {
+    id: 1006
+    name: 攻速
     type: 1
     roll_code: atk_speed
     group: 1
   }
   {
-    id: 1006
-    name: vehicle_component_roll_type-10001006
+    id: 1007
+    name: 命中
     type: 1
     roll_code: hit
     group: 1
   }
   {
-    id: 1007
-    name: vehicle_component_roll_type-10001007
-    type: 1
-    roll_code: armor
-    group: 1
-  }
-  {
     id: 1008
-    name: vehicle_component_roll_type-10001008
+    name: 轻武穿甲
     type: 1
-    roll_code: dodge
+    roll_code: L_armor_piercing
     group: 1
   }
   {
     id: 1009
-    name: vehicle_component_roll_type-10001009
+    name: 暴击概率
     type: 1
     roll_code: crit_rate
     group: 1
   }
   {
     id: 1010
-    name: vehicle_component_roll_type-10001010
+    name: 暴击伤害
     type: 1
     roll_code: crit_damage
     group: 1
   }
   {
     id: 1011
-    name: vehicle_component_roll_type-10001011
+    name: 护甲
     type: 1
-    roll_code: L_armor_piercing
+    roll_code: armor
     group: 1
   }
   {
     id: 1012
-    name: vehicle_component_roll_type-10001012
+    name: 回避
+    type: 1
+    roll_code: dodge
+    group: 1
+  }
+  {
+    id: 1013
+    name: 破防
     type: 1
     roll_code: def_break
     group: 1
   }
   {
-    id: 1013
-    name: vehicle_component_roll_type-10001013
-    type: 1
-    roll_code: H_armor_piercing
-    group: 1
-  }
-  {
     id: 2001
-    name: vehicle_component_roll_type-10002001
-    type: 2
-    skill_id: 770090
-    group: 2
-  }
-  {
-    id: 2002
-    name: vehicle_component_roll_type-10002002
+    name: 无甲特化
     type: 2
     skill_id: 770036
     group: 2
   }
   {
-    id: 2003
-    name: vehicle_component_roll_type-10002003
-    type: 2
-    skill_id: 770037
-    group: 2
-  }
-  {
-    id: 2004
-    name: vehicle_component_roll_type-10002004
+    id: 2002
+    name: 人形特化
     type: 2
     skill_id: 770038
     group: 2
   }
   {
-    id: 2005
-    name: vehicle_component_roll_type-10002005
+    id: 2003
+    name: 单编特化
     type: 2
-    skill_id: 770039
+    skill_id: 770125
     group: 2
   }
   {
-    id: 2006
-    name: vehicle_component_roll_type-10002006
-    type: 2
-    skill_id: 770040
-    group: 2
-  }
-  {
-    id: 2007
-    name: vehicle_component_roll_type-10002007
-    type: 2
-    skill_id: 770041
-    group: 2
-  }
-  {
-    id: 2008
-    name: vehicle_component_roll_type-10002008
-    type: 2
-    skill_id: 770046
-    group: 2
-  }
-  {
-    id: 2009
-    name: vehicle_component_roll_type-10002009
-    type: 2
-    skill_id: 770092
-    group: 2
-  }
-  {
-    id: 2010
-    name: vehicle_component_roll_type-10002010
-    type: 2
-    skill_id: 770082
-    group: 2
-  }
-  {
-    id: 2011
-    name: vehicle_component_roll_type-10002011
+    id: 2004
+    name: 近身打击
     type: 2
     skill_id: 770106
     group: 2
   }
   {
-    id: 2012
-    name: vehicle_component_roll_type-10002012
+    id: 2005
+    name: 急速强化
+    type: 2
+    skill_id: 220187
+    group: 2
+  }
+  {
+    id: 2006
+    name: 轻武支援
     type: 2
     skill_id: 770113
     group: 2
   }
   {
     id: 3001
-    name: vehicle_component_roll_type-10003001
-    type: 2
-    skill_id: 770091
-    group: 3
-  }
-  {
-    id: 3002
-    name: vehicle_component_roll_type-10003002
+    name: 有甲特化
     type: 2
     skill_id: 220173
     group: 3
   }
   {
-    id: 3003
-    name: vehicle_component_roll_type-10003003
-    type: 2
-    skill_id: 220174
-    group: 3
-  }
-  {
-    id: 3004
-    name: vehicle_component_roll_type-10003004
+    id: 3002
+    name: 机械特化
     type: 2
     skill_id: 220175
     group: 3
   }
   {
-    id: 3005
-    name: vehicle_component_roll_type-10003005
-    type: 2
-    skill_id: 220176
-    group: 3
-  }
-  {
-    id: 3006
-    name: vehicle_component_roll_type-10003006
-    type: 2
-    skill_id: 220177
-    group: 3
-  }
-  {
-    id: 3007
-    name: vehicle_component_roll_type-10003007
-    type: 2
-    skill_id: 220178
-    group: 3
-  }
-  {
-    id: 3008
-    name: vehicle_component_roll_type-10003008
-    type: 2
-    skill_id: 220179
-    group: 3
-  }
-  {
-    id: 3009
-    name: vehicle_component_roll_type-10003009
-    type: 2
-    skill_id: 220180
-    group: 3
-  }
-  {
-    id: 3010
-    name: vehicle_component_roll_type-10003010
-    type: 2
-    skill_id: 220166
-    group: 3
-  }
-  {
-    id: 3011
-    name: vehicle_component_roll_type-10003011
-    type: 2
-    skill_id: 220167
-    group: 3
-  }
-  {
-    id: 3012
-    name: vehicle_component_roll_type-10003012
-    type: 2
-    skill_id: 770045
-    group: 3
-  }
-  {
-    id: 3013
-    name: vehicle_component_roll_type-10003013
+    id: 3003
+    name: 多编特化
     type: 2
     skill_id: 220181
     group: 3
   }
   {
-    id: 3014
-    name: vehicle_component_roll_type-10003014
+    id: 3004
+    name: 弱点突破
     type: 2
-    skill_id: 220170
+    skill_id: 220180
     group: 3
   }
   {
-    id: 3015
-    name: vehicle_component_roll_type-10003015
+    id: 3005
+    name: 精英打击
     type: 2
-    skill_id: 770093
+    skill_id: 220167
     group: 3
   }
   {
-    id: 3016
-    name: vehicle_component_roll_type-10003016
-    type: 2
-    skill_id: 220182
-    group: 3
-  }
-  {
-    id: 3017
-    name: vehicle_component_roll_type-10003017
-    type: 2
-    skill_id: 220184
-    group: 3
-  }
-  {
-    id: 3018
-    name: vehicle_component_roll_type-10003018
+    id: 3006
+    name: 重武支援
     type: 2
     skill_id: 220185
     group: 3
   }
   {
-    id: 3019
-    name: vehicle_component_roll_type-10003019
-    type: 2
-    skill_id: 220186
-    group: 3
-  }
-  {
-    id: 3020
-    name: vehicle_component_roll_type-10003020
-    type: 2
-    skill_id: 220187
-    group: 3
-  }
-  {
-    id: 3021
-    name: vehicle_component_roll_type-10003021
-    type: 2
-    skill_id: 220191
-    group: 3
-  }
-  {
-    id: 3022
-    name: vehicle_component_roll_type-10003022
-    type: 2
-    skill_id: 770081
-    group: 3
-  }
-  {
     id: 4001
-    name: vehicle_component_roll_type-10004001
+    name: 轻武护盾
+    type: 2
+    skill_id: 770090
+    group: 4
+  }
+  {
+    id: 4002
+    name: 重武护盾
+    type: 2
+    skill_id: 770091
+    group: 4
+  }
+  {
+    id: 4003
+    name: 护盾预防
     type: 2
     skill_id: 770014
     group: 4
   }
   {
-    id: 4002
-    name: vehicle_component_roll_type-10004002
+    id: 4004
+    name: 护盾偏折
     type: 2
     skill_id: 770016
     group: 4
   }
   {
-    id: 4003
-    name: vehicle_component_roll_type-10004003
+    id: 4005
+    name: 护盾增伤
     type: 2
     skill_id: 770019
     group: 4
   }
   {
-    id: 4004
-    name: vehicle_component_roll_type-10004004
-    type: 2
-    skill_id: 770120
-    group: 4
-  }
-  {
-    id: 4005
-    name: vehicle_component_roll_type-10004005
+    id: 4006
+    name: 护盾净化
     type: 2
     skill_id: 770024
     group: 4
   }
   {
-    id: 4006
-    name: vehicle_component_roll_type-10004006
+    id: 4007
+    name: 连携减伤
     type: 2
     skill_id: 770096
     group: 4
   }
   {
-    id: 4007
-    name: vehicle_component_roll_type-10004007
+    id: 4008
+    name: 近身威慑
     type: 2
-    skill_id: 770098
+    skill_id: 770107
+    group: 4
+  }
+  {
+    id: 4009
+    name: 应急护盾
+    type: 2
+    skill_id: 770109
     group: 4
   }
   {
     id: 5001
-    name: vehicle_component_roll_type-10005001
+    name: 精英增幅
+    type: 2
+    skill_id: 770037
+    group: 5
+  }
+  {
+    id: 5002
+    name: 帕拉蒂斯增幅
+    type: 2
+    skill_id: 770039
+    group: 5
+  }
+  {
+    id: 5003
+    name: 正规军增幅
+    type: 2
+    skill_id: 770040
+    group: 5
+  }
+  {
+    id: 5004
+    name: 铁血工造增幅
+    type: 2
+    skill_id: 770041
+    group: 5
+  }
+  {
+    id: 5005
+    name: 减益增幅
     type: 2
     skill_id: 220183
     group: 5
   }
   {
-    id: 5002
-    name: vehicle_component_roll_type-10005002
-    type: 2
-    skill_id: 770101
-    group: 5
-  }
-  {
-    id: 5003
-    name: vehicle_component_roll_type-10005003
-    type: 2
-    skill_id: 770111
-    group: 5
-  }
-  {
-    id: 5004
-    name: vehicle_component_roll_type-10005004
-    type: 2
-    skill_id: 770112
-    group: 5
-  }
-  {
-    id: 5005
-    name: vehicle_component_roll_type-10005005
+    id: 5006
+    name: 印记增幅
     type: 2
     skill_id: 770114
     group: 5
   }
   {
-    id: 6001
-    name: vehicle_component_roll_type-10006001
+    id: 5007
+    name: 应急增幅
     type: 2
-    skill_id: 770047
+    skill_id: 770104
+    group: 5
+  }
+  {
+    id: 6001
+    name: 轻武弱化
+    type: 2
+    skill_id: 770092
     group: 6
   }
   {
     id: 6002
-    name: vehicle_component_roll_type-10006002
+    name: 重武弱化
     type: 2
-    skill_id: 770050
+    skill_id: 770093
     group: 6
   }
   {
     id: 6003
-    name: vehicle_component_roll_type-10006003
+    name: 随机弱化
     type: 2
-    skill_id: 770052
+    skill_id: 770026
+    group: 6
+  }
+  {
+    id: 6004
+    name: 故障晕眩
+    type: 2
+    skill_id: 770028
+    group: 6
+  }
+  {
+    id: 6005
+    name: 晕眩打击
+    type: 2
+    skill_id: 220182
+    group: 6
+  }
+  {
+    id: 6006
+    name: 晕眩惩罚
+    type: 2
+    skill_id: 770030
+    group: 6
+  }
+  {
+    id: 6007
+    name: 晕眩暴露
+    type: 2
+    skill_id: 770032
+    group: 6
+  }
+  {
+    id: 6008
+    name: 晕眩自爆
+    type: 2
+    skill_id: 770034
+    group: 6
+  }
+  {
+    id: 6009
+    name: 预防压制
+    type: 2
+    skill_id: 770100
     group: 6
   }
   {
     id: 7001
-    name: vehicle_component_roll_type-10007001
+    name: 轻武引爆
     type: 2
-    skill_id: 770026
+    skill_id: 770046
     group: 7
   }
   {
     id: 7002
-    name: vehicle_component_roll_type-10007002
+    name: 重武引爆
     type: 2
-    skill_id: 770028
+    skill_id: 770045
     group: 7
   }
   {
     id: 7003
-    name: vehicle_component_roll_type-10007003
+    name: 标记引爆
     type: 2
-    skill_id: 770030
+    skill_id: 770047
     group: 7
   }
   {
     id: 7004
-    name: vehicle_component_roll_type-10007004
+    name: 轻武蓄能
     type: 2
-    skill_id: 770032
+    skill_id: 770082
     group: 7
   }
   {
     id: 7005
-    name: vehicle_component_roll_type-10007005
+    name: 重武蓄能
     type: 2
-    skill_id: 770034
+    skill_id: 770081
     group: 7
   }
   {
     id: 7006
-    name: vehicle_component_roll_type-10007006
-    type: 2
-    skill_id: 770100
-    group: 7
-  }
-  {
-    id: 8001
-    name: vehicle_component_roll_type-10008001
+    name: 蓄能转化
     type: 2
     skill_id: 770084
-    group: 8
-  }
-  {
-    id: 8002
-    name: vehicle_component_roll_type-10008002
-    type: 2
-    skill_id: 770086
-    group: 8
-  }
-  {
-    id: 8003
-    name: vehicle_component_roll_type-10008003
-    type: 2
-    skill_id: 770088
-    group: 8
-  }
-  {
-    id: 8004
-    name: vehicle_component_roll_type-10008004
-    type: 2
-    skill_id: 770104
-    group: 8
-  }
-  {
-    id: 8005
-    name: vehicle_component_roll_type-10008005
-    type: 2
-    skill_id: 770107
-    group: 8
-  }
-  {
-    id: 8006
-    name: vehicle_component_roll_type-10008006
-    type: 2
-    skill_id: 770109
-    group: 8
+    group: 7
   }
 ]

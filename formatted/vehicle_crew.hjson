@@ -1,9 +1,9 @@
 [
   {
     id: 1001
-    name: vehicle_crew-10001001
-    unit_type_description: vehicle_crew-20001001
-    description: vehicle_crew-30001001
+    name: 车长
+    unit_type_description: 任意人形可用
+    description: 根据编入成员的等级和编制提升攻速和命中
     available_unit_type: 1:1,2,3,4,5,6
     if_show: 1
     required_level: 100
@@ -14,9 +14,9 @@
   }
   {
     id: 1002
-    name: vehicle_crew-10001002
-    unit_type_description: vehicle_crew-20001002
-    description: vehicle_crew-30001002
+    name: 炮长
+    unit_type_description: 火力小队限定
+    description: 根据编入成员的等级和星级提升伤害
     available_unit_type: 3:1,2,3
     required_level: 100
     required_rank: 5
@@ -26,9 +26,9 @@
   }
   {
     id: 1003
-    name: vehicle_crew-10001003
-    unit_type_description: vehicle_crew-20001003
-    description: vehicle_crew-30001003
+    name: 装填手
+    unit_type_description: 火力小队限定
+    description: 根据编入成员的等级和星级提升精度和装填
     available_unit_type: 3:1,2,3
     required_level: 100
     required_rank: 5
@@ -38,9 +38,9 @@
   }
   {
     id: 1004
-    name: vehicle_crew-10001004
-    unit_type_description: vehicle_crew-20001004
-    description: vehicle_crew-30001004
+    name: 驾驶员
+    unit_type_description: 任意单位可用
+    description: 根据编入成员的等级提升护甲和回避
     available_unit_type: 1:1,2,3,4,5,6;2:1;3:1,2,3
     required_level: 100
     armor: 10
@@ -49,9 +49,9 @@
   }
   {
     id: 2001
-    name: vehicle_crew-10002001
-    unit_type_description: vehicle_crew-20002001
-    description: vehicle_crew-30002001
+    name: 驾驶员
+    unit_type_description: 任意人形可用
+    description: 根据编入成员的等级和编制提升装填、精度、攻速和命中
     available_unit_type: 1:1,2,3,4,5,6
     if_show: 1
     required_level: 100

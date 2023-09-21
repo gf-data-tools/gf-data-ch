@@ -9,6 +9,8 @@
     visable_count: "100"
     ranking_onlist_number: "20000"
     every_table_num: "20000"
+    sub_rank: "1"
+    sub_rank_name: 总积分
   }
   {
     id: "2"
@@ -21,6 +23,8 @@
     visable_count: "100"
     ranking_onlist_number: "20000"
     every_table_num: "20000"
+    sub_rank: "2"
+    sub_rank_name: 总积分
   }
   {
     id: "3"
@@ -33,6 +37,8 @@
     visable_count: "100"
     ranking_onlist_number: "20000"
     every_table_num: "20000"
+    sub_rank: "3"
+    sub_rank_name: 总积分
   }
   {
     id: "4"
@@ -45,6 +51,8 @@
     visable_count: "100"
     ranking_onlist_number: "20000"
     every_table_num: "20000"
+    sub_rank: "1"
+    sub_rank_name: 总积分
   }
   {
     id: "5"
@@ -99,6 +107,29 @@
     end_show_time: 2023-07-13 10:00:00
     sub_mission_group: "11435"
     event_rank_id: "10"
+    prize_preview: http://gfcn-transit.gw.sunborngame.com/listAward.html
+  }
+  {
+    id: "9"
+    name: 活动积分排行
+    type: "6"
+    sub_type: "11402,11403"
+    refresh: end:2023-06-08 10:00:00
+    title: <慢休克>积分榜（6月1日发放奖励）
+    top_rewards: 1:40549,2:40550,3:40551,4:40552,5:40553,6:40554,7:40555,8:40556,9:40557,10:40558,100:40559
+    visable_rank: "100"
+    visable_count: "100"
+    score_rewards: 300000:40560,600000:40561,1000000:40562,1300000:40563,1500000:40564
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    rank_list_num: "2"
+    begin_refresh_time: 2023-04-18
+    end_refresh_time: 2023-06-08
+    begin_show_time: 2023-04-18 00:00:00
+    end_show_time: 2023-06-08 10:00:00
+    mission_rank_type: "2"
+    sub_mission_group: 11402||11403
+    event_rank_id: "9"
     prize_preview: http://gfcn-transit.gw.sunborngame.com/listAward.html
   }
   {
@@ -1167,6 +1198,21 @@
     visable_count: "100"
     ranking_onlist_number: "160000"
     every_table_num: "40000"
+  }
+  {
+    id: "301"
+    name: 坠入兔洞PLUS常驻
+    type: "10"
+    sub_type: "10105"
+    refresh: test
+    title: <坠入兔洞+>常驻积分榜
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: 积分
   }
   {
     id: "1001"

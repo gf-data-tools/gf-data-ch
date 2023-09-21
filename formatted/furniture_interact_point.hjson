@@ -532,6 +532,13 @@
     end_action: wait
   }
   {
+    id: 70
+    is_cover: -1
+    direction: -1
+    bone_name: point
+    end_action: wait
+  }
+  {
     id: 104
     gun_action: bird_sit
     is_cover: -1
@@ -901,6 +908,14 @@
     furiniture_action_interact: action,action
     bone_name: point
     end_action: wait
+  }
+  {
+    id: 87243
+    gun_action: sleep
+    is_cover: -1
+    sorting: 10
+    furiniture_action_interact: action
+    end_action: lying
   }
   {
     id: 87303
@@ -1286,6 +1301,25 @@
     direction: 1
     bone_name: point
     end_action: wait
+  }
+  {
+    id: 872421
+    gun_action: sit
+    is_cover: -1
+    sorting: 15
+    furiniture_action_interact: action,action,action
+    bone_name: point2
+    end_action: sit
+  }
+  {
+    id: 872422
+    gun_action: sit
+    is_cover: -1
+    sorting: 15
+    furiniture_action_interact: action,action,action
+    direction: 1
+    bone_name: point
+    end_action: sit
   }
   {
     id: 876091

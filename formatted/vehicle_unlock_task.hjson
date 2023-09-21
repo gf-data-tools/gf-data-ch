@@ -1,7 +1,7 @@
 [
   {
     id: 1
-    description: vehicle_unlock_task-10000001
+    description: 指挥官等级到达50级
     task_type: commander_level
     count: "50"
     vehicle_id: 1
@@ -9,7 +9,7 @@
   }
   {
     id: 2
-    description: vehicle_unlock_task-10000002
+    description: 总计获得120个金、银、铜勋章
     task_type: mission_medal_all
     count: "120"
     vehicle_id: 1
@@ -17,7 +17,7 @@
   }
   {
     id: 3
-    description: vehicle_unlock_task-10000003
+    description: 拥有10个100级的人形或铁血
     task_type: i_gun_level
     count: "10"
     condition: "100"
@@ -26,7 +26,7 @@
   }
   {
     id: 4
-    description: vehicle_unlock_task-10000004
+    description: 完成主战坦克的装甲靶场教学
     task_type: c_guide_complete
     condition: "11487"
     vehicle_id: 1
@@ -34,7 +34,7 @@
   }
   {
     id: 5
-    description: vehicle_unlock_task-10000005
+    description: 击杀1次AA-02 负罪者（推荐普通13-6）
     task_type: i_kill_enemy_all
     count: "1"
     condition: "80"
@@ -43,7 +43,7 @@
   }
   {
     id: 6
-    description: vehicle_unlock_task-10000006
+    description: 总计获得50个金勋章
     task_type: mission_bestrank5
     count: "50"
     vehicle_id: 2
@@ -51,7 +51,7 @@
   }
   {
     id: 7
-    description: vehicle_unlock_task-10000007
+    description: 拥有2个100级的火力小队
     task_type: i_squad_level
     count: "2"
     condition: "100"
@@ -60,7 +60,7 @@
   }
   {
     id: 8
-    description: vehicle_unlock_task-10000008
+    description: 完成战术人型机甲的装甲靶场教学
     task_type: c_guide_complete
     condition: "11486"
     vehicle_id: 2

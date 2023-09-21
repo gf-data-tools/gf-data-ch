@@ -114,6 +114,7 @@
     description: 前进营地获取探索归来奖励数量提高 {0}%{1}
     arguments: 5
     max_level: 3
+    is_show: 1
     type: 1
     function_skill: exploration_reward_up
   }
@@ -125,6 +126,7 @@
     description: 前进营地获取探索中途奖励概率提高 {0}%{1}
     arguments: 1
     max_level: 5
+    is_show: 1
     type: 1
     function_skill: exploration_mid_rate_up
   }

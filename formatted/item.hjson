@@ -394,6 +394,27 @@
     detail_introduction: 可在改造&突破中提升妖精突破经验。
   }
   {
+    id: 57
+    type: 1
+    arg: "1"
+    code: Energy
+    item_name: 能源
+    introduction: IOP统一了旗下产品的能量资源规格，让享受其服务的承包商仅使用一套能源系统即可满足所有机动装甲的消耗需求。
+    rank: 1
+  }
+  {
+    id: 60
+    type: 1
+    arg: "1"
+    code: Component_EXP_Item
+    item_name: 组件加工包
+    introduction: IOP为组件提供了额外的特殊加工服务，使组件有更好的组合度，从而提升机动装甲单位的效能。为了简化流程，IOP直接提供了组件加工包，使得后勤部门可以自行对组件进行升级加工。
+    rank: 1
+    sort: 115
+    item_access: "7"
+    detail_introduction: 可为组件提供200开发值。
+  }
+  {
     id: 100
     type: 3
     arg: "1"
@@ -13241,6 +13262,60 @@
     rank: 1
   }
   {
+    id: 2364
+    type: 5
+    arg: "1"
+    code: profilePic_Dancer2023_PA15
+    item_name: PA-15-踏光而来的夜
+    introduction: PA-15-踏光而来的夜
+    rank: 1
+  }
+  {
+    id: 2365
+    type: 5
+    arg: "1"
+    code: profilePic_Dancer2023_QBU191
+    item_name: QBU-191-为你而作的歌
+    introduction: QBU-191-为你而作的歌
+    rank: 1
+  }
+  {
+    id: 2366
+    type: 5
+    arg: "1"
+    code: profilePic_Dancer2023_GeneralLiu
+    item_name: 刘氏步枪-东方有佳人
+    introduction: 刘氏步枪-东方有佳人
+    rank: 1
+  }
+  {
+    id: 2367
+    type: 5
+    arg: "1"
+    code: profilePic_Dancer2023_G28
+    item_name: G28-花与风的诗
+    introduction: G28-花与风的诗
+    rank: 1
+  }
+  {
+    id: 2368
+    type: 5
+    arg: "1"
+    code: profilePic_Dancer2023_M14
+    item_name: M14-曳云霞旋舞时
+    introduction: M14-曳云霞旋舞时
+    rank: 1
+  }
+  {
+    id: 2369
+    type: 5
+    arg: "1"
+    code: profilePic_Dancer2023_RMB93
+    item_name: RMB-93-杯酒缱绻的吻
+    introduction: RMB-93-杯酒缱绻的吻
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -13821,6 +13896,33 @@
     rank: 1
   }
   {
+    id: 7048
+    type: 7
+    arg: "7045"
+    code: qjyd_20230901
+    item_name: 倾心恋慕
+    introduction: 并非只有幻想中才有一眼望不到边的花海，也并非只有幻想中才能走进这样的多彩世界，它也在梦境之外，在你的身边。
+    rank: 1
+  }
+  {
+    id: 7049
+    type: 7
+    arg: "7046"
+    code: qjyd_20230902
+    item_name: 漂浮梦境
+    introduction: 最简单的数字化情感隐藏着最纯粹的心意，8位像素便是它所能为你带来的全部——爱来自心智底层。
+    rank: 1
+  }
+  {
+    id: 7050
+    type: 7
+    arg: "7047"
+    code: qjyd_20230903
+    item_name: 律动次元
+    introduction: 并非只有幻想中才有一眼望不到边的花海，也并非只有幻想中才能走进这样的多彩世界，它也在梦境之外，在你的身边。
+    rank: 1
+  }
+  {
     id: 7201
     type: 7
     arg: "7201"
@@ -14380,6 +14482,15 @@
     id: 10707
     type: 18
     arg: "10707"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10708
+    type: 18
+    arg: "10708"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -16994,6 +17105,888 @@
     rank: 1
   }
   {
+    id: 130022
+    type: 12
+    arg: "130022"
+    code: Y_Z_zhihuiguan_Dancer
+    item_name: 迷梦时代
+    introduction: 灯球璀璨，平等地照耀着每一个舞者。此刻，舞蹈无关身份与利益计算，只是共享快乐的表达。
+    rank: 1
+  }
+  {
+    id: 133007
+    type: 13
+    arg: "7"
+    code: TankM1_1001_icon
+    item_name: 沙漠黄-主战坦克装甲图纸
+    introduction: 黄褐黑的精心搭配，让你隐遁在茫茫荒漠。
+    rank: 5
+  }
+  {
+    id: 133008
+    type: 13
+    arg: "8"
+    code: MG_Single_1001_icon
+    item_name: 沙漠黄-通用机枪MK-I
+    introduction: 基础机枪，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133009
+    type: 13
+    arg: "9"
+    code: RF_AntiTank_1001_icon
+    item_name: 沙漠黄-反装甲狙击枪
+    introduction: 反装甲狙击枪，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133011
+    type: 13
+    arg: "10"
+    code: MG_Multi_Barrel_1001_icon
+    item_name: 沙漠黄-机枪组
+    introduction: 提供密集的扫射支援，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133012
+    type: 13
+    arg: "11"
+    code: Searchlight_1001_icon
+    item_name: 沙漠黄-车载夜视仪
+    introduction: 提供夜间视野，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133013
+    type: 13
+    arg: "12"
+    code: Flame_Ejector_1001_icon
+    item_name: 沙漠黄-烈焰喷射器
+    introduction: 近距离喷射火焰，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133014
+    type: 13
+    arg: "13"
+    code: MG_Cannon_1001_icon
+    item_name: 沙漠黄-机枪炮
+    introduction: 小口径炮弹发射器，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133015
+    type: 13
+    arg: "14"
+    code: GrenadeComponent_1001_icon
+    item_name: 沙漠黄-榴弹发射器
+    introduction: 灵活多变的多功能发射器，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133016
+    type: 13
+    arg: "15"
+    code: Laser_Weapon_1001_icon
+    item_name: 沙漠黄-激光武器
+    introduction: 多目标持续伤害利器，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133017
+    type: 13
+    arg: "16"
+    code: Cannon_1001_icon
+    item_name: 沙漠黄-加农炮
+    introduction: 大范围伤害的火炮，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133018
+    type: 13
+    arg: "17"
+    code: Flak_Cannon_1001_icon
+    item_name: 沙漠黄-高射加农炮
+    introduction: 远距离特化的加农炮，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133019
+    type: 13
+    arg: "18"
+    code: Pulse_Cannon_1001_icon
+    item_name: 沙漠黄-脉冲加农炮
+    introduction: 近距离持续伤害的加农炮，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133020
+    type: 13
+    arg: "19"
+    code: Armor_Cannon_1001_icon
+    item_name: 沙漠黄-装甲加农炮
+    introduction: 提供了更多装甲防护的加农炮，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133021
+    type: 13
+    arg: "20"
+    code: Interference_Gun_1001_icon
+    item_name: 沙漠黄-干扰枪
+    introduction: 发射影响机械单位的干扰弹，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133022
+    type: 13
+    arg: "21"
+    code: Jammer_1001_icon
+    item_name: 沙漠黄-干扰器
+    introduction: 提供范围干扰的支援设备，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133023
+    type: 13
+    arg: "22"
+    code: Signal_Tower_1001_icon
+    item_name: 沙漠黄-信号塔
+    introduction: 为我方提供强化的支援设备，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133024
+    type: 13
+    arg: "23"
+    code: Smoke_Emitter_1001_icon
+    item_name: 沙漠黄-烟雾发射器
+    introduction: 制造定点的烟雾干扰，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133025
+    type: 13
+    arg: "24"
+    code: Small_Missile_Launcher_1001_icon
+    item_name: 沙漠黄-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133026
+    type: 13
+    arg: "25"
+    code: Medium_Missile_Launcher_1001_icon
+    item_name: 沙漠黄-导弹发射器MK2
+    introduction: 为友军提供强大的火力支援，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133027
+    type: 13
+    arg: "26"
+    code: Electromagnetic_Artillery_1001_icon
+    item_name: 沙漠黄-电磁炮
+    introduction: 威力巨大的主力武器，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133028
+    type: 13
+    arg: "27"
+    code: Protective_Generator_1001_icon
+    item_name: 沙漠黄-自动防卫系统
+    introduction: 可进行多种武器的切换，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133029
+    type: 13
+    arg: "28"
+    code: Rotating_Turret_1001_icon
+    item_name: 沙漠黄-旋转炮台
+    introduction: 释放可战斗的无人机，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133030
+    type: 13
+    arg: "29"
+    code: UAV_Compartment_1001_icon
+    item_name: 沙漠黄-无人机仓
+    introduction: 为机动装甲产生防护，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133031
+    type: 13
+    arg: "30"
+    code: TankM1_1002_icon
+    item_name: 城市迷彩-主战坦克装甲图纸
+    introduction: 钢筋混凝土的丛林，我是猎人，你是猎物。
+    rank: 5
+  }
+  {
+    id: 133032
+    type: 13
+    arg: "31"
+    code: MG_Single_1002_icon
+    item_name: 城市迷彩-通用机枪MK-I
+    introduction: 基础机枪，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133033
+    type: 13
+    arg: "32"
+    code: RF_AntiTank_1002_icon
+    item_name: 城市迷彩-反装甲狙击枪
+    introduction: 反装甲狙击枪，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133035
+    type: 13
+    arg: "33"
+    code: MG_Multi_Barrel_1002_icon
+    item_name: 城市迷彩-机枪组
+    introduction: 多枪管的挂载机枪，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133036
+    type: 13
+    arg: "34"
+    code: Searchlight_1002_icon
+    item_name: 城市迷彩-车载夜视仪
+    introduction: 提供夜间视野，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133037
+    type: 13
+    arg: "35"
+    code: Flame_Ejector_1002_icon
+    item_name: 城市迷彩-烈焰喷射器
+    introduction: 近距离喷射火焰，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133038
+    type: 13
+    arg: "36"
+    code: MG_Cannon_1002_icon
+    item_name: 城市迷彩-机枪炮
+    introduction: 小口径炮弹发射器，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133039
+    type: 13
+    arg: "37"
+    code: GrenadeComponent_1002_icon
+    item_name: 城市迷彩-榴弹发射器
+    introduction: 灵活多变的多功能发射器，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133040
+    type: 13
+    arg: "38"
+    code: Laser_Weapon_1002_icon
+    item_name: 城市迷彩-激光武器
+    introduction: 多目标持续伤害利器，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133041
+    type: 13
+    arg: "39"
+    code: Cannon_1002_icon
+    item_name: 城市迷彩-加农炮
+    introduction: 大范围伤害的火炮，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133042
+    type: 13
+    arg: "40"
+    code: Flak_Cannon_1002_icon
+    item_name: 城市迷彩-高射加农炮
+    introduction: 远距离特化的加农炮，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133043
+    type: 13
+    arg: "41"
+    code: Pulse_Cannon_1002_icon
+    item_name: 城市迷彩-脉冲加农炮
+    introduction: 近距离持续伤害的加农炮，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133044
+    type: 13
+    arg: "42"
+    code: Armor_Cannon_1002_icon
+    item_name: 城市迷彩-装甲加农炮
+    introduction: 提供了更多装甲防护的加农炮，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133045
+    type: 13
+    arg: "43"
+    code: Interference_Gun_1002_icon
+    item_name: 城市迷彩-干扰枪
+    introduction: 发射影响机械单位的干扰弹，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133046
+    type: 13
+    arg: "44"
+    code: Jammer_1002_icon
+    item_name: 城市迷彩-干扰器
+    introduction: 提供范围干扰的支援设备，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133047
+    type: 13
+    arg: "45"
+    code: Signal_Tower_1002_icon
+    item_name: 城市迷彩-信号塔
+    introduction: 为我方提供强化的支援设备，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133048
+    type: 13
+    arg: "46"
+    code: Smoke_Emitter_1002_icon
+    item_name: 城市迷彩-烟雾发射器
+    introduction: 制造顶点的烟雾，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133049
+    type: 13
+    arg: "47"
+    code: Small_Missile_Launcher_1002_icon
+    item_name: 城市迷彩-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133050
+    type: 13
+    arg: "48"
+    code: Medium_Missile_Launcher_1002_icon
+    item_name: 城市迷彩-导弹发射器MK2
+    introduction: 为友军提供火力支援，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133051
+    type: 13
+    arg: "49"
+    code: Electromagnetic_Artillery_1002_icon
+    item_name: 城市迷彩-电磁炮
+    introduction: 威力巨大的主力武器，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133052
+    type: 13
+    arg: "50"
+    code: Protective_Generator_1002_icon
+    item_name: 城市迷彩-自动防卫系统
+    introduction: 可进行多种武器的切换，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133053
+    type: 13
+    arg: "51"
+    code: Rotating_Turret_1002_icon
+    item_name: 城市迷彩-旋转炮台
+    introduction: 释放可战斗的无人机，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133054
+    type: 13
+    arg: "52"
+    code: UAV_Compartment_1002_icon
+    item_name: 城市迷彩-无人机仓
+    introduction: 为机动装甲产生防护，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133055
+    type: 13
+    arg: "53"
+    code: Warjack_1001_icon
+    item_name: 沙漠黄-战术人型机甲装甲图纸
+    introduction: 黄褐黑的精心搭配，让你隐遁在茫茫荒漠。
+    rank: 5
+  }
+  {
+    id: 133056
+    type: 13
+    arg: "54"
+    code: Warjack_1002_icon
+    item_name: 城市迷彩-战术人型机甲装甲图纸
+    introduction: 钢筋混凝土的丛林，我是猎人，你是猎物。
+    rank: 5
+  }
+  {
+    id: 133057
+    type: 13
+    arg: "46"
+    code: LMGCom_1001_icon
+    item_name: 沙漠黄-轻机枪
+    introduction: 多目标弱单位用机枪，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133058
+    type: 13
+    arg: "47"
+    code: ElecGun_1001_icon
+    item_name: 沙漠黄-轻型速射电磁枪
+    introduction: 牺牲火力换取射速的电磁枪，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133059
+    type: 13
+    arg: "48"
+    code: AutoDef_1001_icon
+    item_name: 沙漠黄-防护发生器
+    introduction: 为机动装甲产生防护，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133060
+    type: 13
+    arg: "49"
+    code: LaserSup_1001_icon
+    item_name: 沙漠黄-激光压制装置
+    introduction: 干扰敌方的火力瞄准，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133061
+    type: 13
+    arg: "50"
+    code: HMGCom_1001_icon
+    item_name: 沙漠黄-重机枪
+    introduction: 拥有更猛火力的机枪，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133062
+    type: 13
+    arg: "51"
+    code: PAR_1001_icon
+    item_name: 沙漠黄-相控阵雷达
+    introduction: 提供范围的侦测，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133063
+    type: 13
+    arg: "52"
+    code: ERA_1001_icon
+    item_name: 沙漠黄-爆炸反应装甲
+    introduction: 有效应对穿甲弹的袭击，涂装了和图纸配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133064
+    type: 13
+    arg: "46"
+    code: LMGCom_1002_icon
+    item_name: 城市迷彩-轻机枪
+    introduction: 多目标弱单位用机枪，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133065
+    type: 13
+    arg: "47"
+    code: ElecGun_1002_icon
+    item_name: 城市迷彩-轻型速射电磁枪
+    introduction: 牺牲火力换取射速的电磁枪，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133066
+    type: 13
+    arg: "48"
+    code: AutoDef_1002_icon
+    item_name: 城市迷彩-防护发生器
+    introduction: 为机动装甲产生防护，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133067
+    type: 13
+    arg: "49"
+    code: LaserSup_1002_icon
+    item_name: 城市迷彩-激光压制装置
+    introduction: 干扰敌方的瞄准设备，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133068
+    type: 13
+    arg: "50"
+    code: HMGCom_1002_icon
+    item_name: 城市迷彩-重机枪
+    introduction: 拥有更猛火力的机枪，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133069
+    type: 13
+    arg: "51"
+    code: PAR_1002_icon
+    item_name: 城市迷彩-相控阵雷达
+    introduction: 提供范围的侦测，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133070
+    type: 13
+    arg: "52"
+    code: ERA_1002_icon
+    item_name: 城市迷彩-爆炸反应装甲
+    introduction: 有效应对穿甲弹的袭击，涂装了和图纸配套的城市迷彩。
+    rank: 5
+  }
+  {
+    id: 133071
+    type: 13
+    arg: "49"
+    code: TankM1_1003_icon
+    item_name: KV-2 巨齿鲨-主战坦克装甲图纸
+    introduction: 张着大嘴的鲨鱼和这个钢铁怪兽可是绝配！
+    rank: 5
+  }
+  {
+    id: 133072
+    type: 13
+    arg: "50"
+    code: TankM1_1004_icon
+    item_name: KV-2 雪地迷彩-主战坦克装甲图纸
+    introduction: 和这个家伙比，雪崩的威力也不过如此。
+    rank: 5
+  }
+  {
+    id: 133073
+    type: 13
+    arg: "51"
+    code: TankM1_1005_icon
+    item_name: 裁决原野灰-主战坦克装甲图纸
+    introduction: 看这崭新的油漆漂亮的膛线，会是哪位幸运的兵蚁听到它第一次怒吼呢？
+    rank: 5
+  }
+  {
+    id: 133074
+    type: 13
+    arg: "52"
+    code: TankM1_1006_icon
+    item_name: 裁决雪地迷彩-主战坦克装甲图纸
+    introduction: 再冰冷的履带，也休想抑制它热情的火舌。
+    rank: 5
+  }
+  {
+    id: 133075
+    type: 13
+    arg: "53"
+    code: TankM1_1007_icon
+    item_name: 裁决沙漠黄-主战坦克装甲图纸
+    introduction: 让发动机的怒吼把沙漠扬上天吧！
+    rank: 5
+  }
+  {
+    id: 133076
+    type: 13
+    arg: "54"
+    code: TankM1_1008_icon
+    item_name: 裁决丛林迷彩-主战坦克装甲图纸
+    introduction: 逢山开路，遇水叠桥，泥泞溅起，枝杈飞扬。
+    rank: 5
+  }
+  {
+    id: 133077
+    type: 13
+    arg: "55"
+    code: Warjack_1009_icon
+    item_name: TCW48-A3钢爪-战术人型机甲装甲图纸
+    introduction: 学会驾驭，冷静是你最强大的武器。
+    rank: 5
+  }
+  {
+    id: 133078
+    type: 13
+    arg: "55"
+    code: Flame_Ejector_1009_icon
+    item_name: TCW48-A3钢爪-烈焰喷射器
+    introduction: 钢爪的配套烈焰喷射器，能近距离喷射火焰。
+    rank: 5
+  }
+  {
+    id: 133079
+    type: 13
+    arg: "55"
+    code: MG_Multi_Barrel_1009_icon
+    item_name: TCW48-A3钢爪-多管机枪
+    introduction: 钢爪的配套多管机枪，能提供密集的扫射支援。
+    rank: 5
+  }
+  {
+    id: 133080
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1009_icon
+    item_name: TCW48-A3钢爪-机枪炮
+    introduction: 钢爪的配套机枪炮，小口径炮弹发射器。
+    rank: 5
+  }
+  {
+    id: 133081
+    type: 13
+    arg: "55"
+    code: Protective_Generator_1009_icon
+    item_name: TCW48-A3钢爪-防护发生器
+    introduction: 钢爪的配套防护发生器，为钢爪提供防护。
+    rank: 5
+  }
+  {
+    id: 133082
+    type: 13
+    arg: "55"
+    code: Jammer_1009_icon
+    item_name: TCW48-A3钢爪-干扰器
+    introduction: 钢爪的配套干扰器，能够提供范围干扰
+    rank: 5
+  }
+  {
+    id: 133089
+    type: 13
+    arg: "55"
+    code: MG_Single_1003_icon
+    item_name: KV-2 通用-通用机枪MK-I
+    introduction: 基础机枪，涂装可适配KV-2的所有风格。
+    rank: 5
+  }
+  {
+    id: 133090
+    type: 13
+    arg: "55"
+    code: Searchlight_1003_icon
+    item_name: KV-2 巨齿鲨-车载夜视仪
+    introduction: 提供夜间视野，涂装了和KV-2配套的巨齿鲨风格。
+    rank: 5
+  }
+  {
+    id: 133091
+    type: 13
+    arg: "55"
+    code: Protective_Generator_1003_icon
+    item_name: KV-2 巨齿鲨-自动防卫系统
+    introduction: 为机动装甲产生防护，涂装了和KV-2配套的巨齿鲨风格。
+    rank: 5
+  }
+  {
+    id: 133092
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1003_icon
+    item_name: KV-2 巨齿鲨-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和KV-2配套的巨齿鲨风格。
+    rank: 5
+  }
+  {
+    id: 133093
+    type: 13
+    arg: "55"
+    code: Flame_Ejector_1003_icon
+    item_name: KV-2 巨齿鲨-烈焰喷射器
+    introduction: 近距离喷射火焰，涂装了和KV-2配套的巨齿鲨风格。
+    rank: 5
+  }
+  {
+    id: 133094
+    type: 13
+    arg: "55"
+    code: Searchlight_1004_icon
+    item_name: KV-2 雪地迷彩-车载夜视仪
+    introduction: 提供夜间视野，涂装了和KV-2配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133095
+    type: 13
+    arg: "55"
+    code: Protective_Generator_1004_icon
+    item_name: KV-2 雪地迷彩-自动防卫系统
+    introduction: 为机动装甲产生防护，涂装了和KV-2配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133096
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1004_icon
+    item_name: KV-2 雪地迷彩-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和KV-2配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133097
+    type: 13
+    arg: "55"
+    code: Flame_Ejector_1004_icon
+    item_name: KV-2 雪地迷彩-烈焰喷射器
+    introduction: 近距离喷射火焰，涂装了和KV-2配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133098
+    type: 13
+    arg: "55"
+    code: Flak_Cannon_1005_icon
+    item_name: 裁决原野灰-高射加农炮
+    introduction: 远距离特化的加农炮，涂装了和裁决配套的原野灰风格。
+    rank: 5
+  }
+  {
+    id: 133099
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1005_icon
+    item_name: 裁决原野灰-烟雾发射器
+    introduction: 制造定点的烟雾干扰，涂装了和裁决配套的原野灰风格。
+    rank: 5
+  }
+  {
+    id: 133100
+    type: 13
+    arg: "55"
+    code: Signal_Tower_1005_icon
+    item_name: 裁决通用-信号塔
+    introduction: 为我方提供强化的支援设备，涂装了配套裁决全系的风格。
+    rank: 5
+  }
+  {
+    id: 133101
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1005_icon
+    item_name: 裁决原野灰-机枪炮
+    introduction: 小口径炮弹发射器，涂装了和裁决配套的原野灰风格。
+    rank: 5
+  }
+  {
+    id: 133102
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1005_icon
+    item_name: 裁决原野灰-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和裁决配套的原野灰风格。
+    rank: 5
+  }
+  {
+    id: 133103
+    type: 13
+    arg: "55"
+    code: Flak_Cannon_1006_icon
+    item_name: 裁决通用-高射加农炮
+    introduction: 远距离特化的加农炮，涂装了和裁决配套的迷彩及沙漠风格。
+    rank: 5
+  }
+  {
+    id: 133104
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1006_icon
+    item_name: 裁决雪地迷彩-烟雾发射器
+    introduction: 制造定点的烟雾干扰，涂装了和裁决配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133105
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1006_icon
+    item_name: 裁决雪地迷彩-机枪炮
+    introduction: 小口径炮弹发射器，涂装了和裁决配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133106
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1006_icon
+    item_name: 裁决雪地迷彩-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和裁决配套的雪地迷彩。
+    rank: 5
+  }
+  {
+    id: 133107
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1007_icon
+    item_name: 裁决通用-烟雾发射器
+    introduction: 制造定点的烟雾干扰，涂装了和裁决配套的沙漠及丛林风格。
+    rank: 5
+  }
+  {
+    id: 133108
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1007_icon
+    item_name: 裁决沙漠黄-机枪炮
+    introduction: 小口径炮弹发射器，涂装了和裁决配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133109
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1007_icon
+    item_name: 裁决沙漠黄-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和裁决配套的沙漠黄风格。
+    rank: 5
+  }
+  {
+    id: 133110
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1008_icon
+    item_name: 裁决丛林迷彩-机枪炮
+    introduction: 小口径炮弹发射器，涂装了和裁决配套的丛林迷彩。
+    rank: 5
+  }
+  {
+    id: 133111
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1008_icon
+    item_name: 裁决丛林迷彩-导弹发射器MK1
+    introduction: 为战斗提供精准打击，涂装了和裁决配套的丛林迷彩。
+    rank: 5
+  }
+  {
     id: 140001
     type: 14
     arg: "1"
@@ -17192,6 +18185,26 @@
     code: PT
     item_name: *功能物品占位
     introduction: *功能物品占位
+    rank: 1
+    detail_introduction: 功能物品占位
+  }
+  {
+    id: 161000
+    type: 1
+    arg: "1"
+    code: PT
+    item_name: 塔亚柔斯-协助者形态
+    introduction: 塔亚柔斯-协助者形态
+    rank: 1
+    detail_introduction: 功能物品占位
+  }
+  {
+    id: 161001
+    type: 1
+    arg: "1"
+    code: PT
+    item_name: 纱那-协助者形态
+    introduction: 纱那-协助者形态
     rank: 1
     detail_introduction: 功能物品占位
   }
@@ -18496,7 +19509,7 @@
     type: 15
     arg: "1500096"
     code: package_choose
-    item_name: 弹匣类装备自选序标
+    item_name: 人形类装备自选包
     introduction: 来自于前线协议-霸牛堡来袭！可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
@@ -18547,5 +19560,175 @@
     item_name: 幸运信笺
     introduction: 将幸运信笺投入许愿信箱，即有机会获得对应的周边大奖！
     rank: 1
+  }
+  {
+    id: 1700001
+    type: 15
+    arg: "1700001"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700002
+    type: 15
+    arg: "1700002"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700003
+    type: 15
+    arg: "1700003"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800001
+    type: 15
+    arg: "1800001"
+    code: package_random
+    item_name: 军规级武器组件箱
+    introduction: 打开后必定获取5星重/轻武器组件
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800002
+    type: 15
+    arg: "1800002"
+    code: package_random
+    item_name: 军规级功能组件箱
+    introduction: 打开后必定获取5星功能/防护/通用组件
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800003
+    type: 15
+    arg: "1800003"
+    code: package_random
+    item_name: 专业级组件箱
+    introduction: 打开后有中等概率获取5星组件
+    rank: 4
+    sort: -1
+  }
+  {
+    id: 1800004
+    type: 15
+    arg: "1800004"
+    code: package_random
+    item_name: 工业级组件箱
+    introduction: 打开后有较低概率获取5星组件
+    rank: 3
+    sort: -1
+  }
+  {
+    id: 1800005
+    type: 15
+    arg: "1800005"
+    code: package_random
+    item_name: 普通级组件箱
+    introduction: 打开后可以获取组件
+    rank: 2
+    sort: -1
+  }
+  {
+    id: 1800011
+    type: 15
+    arg: "1800011"
+    code: package_choose
+    item_name: 5星组件自选序标
+    introduction: 5星组件自选序标
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800012
+    type: 15
+    arg: "1800012"
+    code: package_choose
+    item_name: 4星组件自选序标
+    introduction: 4星组件自选序标
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800013
+    type: 15
+    arg: "1800013"
+    code: package_choose
+    item_name: 3星组件自选序标
+    introduction: 3星组件自选序标
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800021
+    type: 15
+    arg: "1800021"
+    code: package_choose
+    item_name: 5星组件多选
+    introduction: 5星组件多选
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800022
+    type: 15
+    arg: "1800022"
+    code: package_choose
+    item_name: 4星组件多选
+    introduction: 4星组件多选
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800023
+    type: 15
+    arg: "1800023"
+    code: package_choose
+    item_name: 3星组件多选
+    introduction: 3星组件多选
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800031
+    type: 15
+    arg: "1800031"
+    code: package_choose
+    item_name: 5星组件固定
+    introduction: 5星组件固定
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800032
+    type: 15
+    arg: "1800032"
+    code: package_choose
+    item_name: 4星组件固定
+    introduction: 4星组件固定
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800033
+    type: 15
+    arg: "1800033"
+    code: package_choose
+    item_name: 3星组件固定
+    introduction: 3星组件固定
+    rank: 1
+    sort: -1
   }
 ]

@@ -13337,6 +13337,385 @@
     sound_delay: "3"
   }
   {
+    id: 3597
+    name: 坦克重武器
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10517,10518"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3598
+    name: 导弹
+    creation_order: "10519,10520"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3599
+    name: 坦克重武器lv3
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10522,10518"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3600
+    name: 轻武器机枪lv1
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10524,10571,10572,10572,10570,10570,10570,10570,10571,10571,10571,10571,10571,6124"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,5"
+  }
+  {
+    id: 3601
+    name: 轻武器机枪lv2
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10525,10571,10572,10572,10570,10570,10570,10570,10571,10571,10571,10571,10571,6124"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,5"
+  }
+  {
+    id: 3602
+    name: 轻武器机枪lv3
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10526,10571,10572,10572,10570,10570,10570,10570,10571,10571,10571,10571,10571,6124"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,5"
+  }
+  {
+    id: 3603
+    name: 轻武法球
+    creation_order: "10527"
+  }
+  {
+    id: 3604
+    name: 榴弹发射器
+    creation_order: "10528,10520,10528,10520,10528,10520"
+    creation_delay: "0,0,5,5,10,10"
+  }
+  {
+    id: 3605
+    name: 加农炮
+    creation_order: "10530"
+  }
+  {
+    id: 3606
+    name: 烟雾发射器
+    creation_order: "10551"
+    creation_delay: "3"
+    sound_order: BT_gasbomb_woosh
+    sound_delay: "39"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 3607
+    name: 榴弹发射器法球
+    creation_order: "10532"
+  }
+  {
+    id: 3608
+    name: 榴弹发射器
+    creation_order: "10534"
+  }
+  {
+    id: 3609
+    name: 激光
+    creation_order: "10535,10536,10536,10536,10536,10536,10536,10536,10536,10536,10536,10536,10536,10536,10536,10536"
+    creation_delay: "0,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140"
+  }
+  {
+    id: 3610
+    name: 多管单机枪组
+    creation_order: "10537,21,139,139,10537,10537,10537,10537,21,21,21,21,21"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
+    id: 3611
+    name: 喷火器
+    creation_order: "10538"
+  }
+  {
+    id: 3612
+    name: 机枪炮
+    creation_order: "10539,10539,10539"
+    creation_delay: "0,5,10"
+  }
+  {
+    id: 3613
+    name: 高射加农
+    creation_order: "10541,10520"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3614
+    name: 激光[蓄力]
+    creation_order: "10543,10544"
+    creation_delay: "0,30"
+  }
+  {
+    id: 3615
+    name: 装甲加农炮
+    creation_order: "10545"
+  }
+  {
+    id: 3616
+    name: 干扰枪
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10547"
+  }
+  {
+    id: 3617
+    name: 干扰器
+    creation_order: "10548"
+  }
+  {
+    id: 3618
+    name: 小型导弹
+    creation_order: "10578,10520,10578,10520,10578,10520,10578,10520,10578,10520,10578,10520"
+    creation_delay: "0,0,3,3,6,6,9,9,12,12,15,15"
+  }
+  {
+    id: 3619
+    name: 中型导弹
+    creation_order: "10549,10520"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3620
+    name: 防护发生器特效
+  }
+  {
+    id: 3621
+    name: 防护发生器主动特效
+  }
+  {
+    id: 3622
+    name: 旋转炮台机枪
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10524,21,139,139,9,9,9,9,21,21,21,21,21"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
+    id: 3623
+    name: 旋转炮台榴弹
+    creation_order: "10528,10520"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3624
+    name: 高达重武器原生lv1
+    action_order: heavyattack
+    action_playspeed: "100"
+    creation_order: "10553,10554"
+    creation_delay: "22,22"
+  }
+  {
+    id: 3625
+    name: 高达重武器原生lv2
+    action_order: heavyattack
+    action_playspeed: "100"
+    creation_order: "10553,10555"
+    creation_delay: "22,22"
+  }
+  {
+    id: 3626
+    name: 高达重武器原生lv3
+    action_order: heavyattack
+    action_playspeed: "100"
+    creation_order: "10553,10555,10556"
+    creation_delay: "22,22,22"
+  }
+  {
+    id: 3627
+    name: 高达轻武器近战
+    action_order: attack_SP
+    action_playspeed: "150"
+    creation_order: "10557,10557,10558,6124"
+    creation_delay: "0,3,9,6"
+  }
+  {
+    id: 3628
+    name: 高达轻武器远程
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10559,21,139,139,10559,9,21,21,6124"
+    creation_delay: "0,0,3,6,3,6,3,6,5"
+  }
+  {
+    id: 3629
+    name: 高达轻武器远程lv2额外
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10559,21,139,139,10560,10559,21,21,6124"
+    creation_delay: "0,0,3,6,3,6,3,6,5"
+  }
+  {
+    id: 3630
+    name: 高达轻武器近战lv3
+    action_order: attack_SP
+    action_playspeed: "150"
+    creation_order: "10561,10561,10562,6124"
+    creation_delay: "0,3,9,6"
+  }
+  {
+    id: 3631
+    name: 高达轻武器远程lv3
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10563,21,139,139,10563,9,21,21,6124"
+    creation_delay: "0,0,3,6,3,6,3,6,5"
+  }
+  {
+    id: 3632
+    name: 高达轻武器远程lv3额外
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "10563,21,139,139,10560,10563,21,21,6124"
+    creation_delay: "0,0,3,6,3,6,3,6,5"
+  }
+  {
+    id: 3633
+    name: 高达主动1
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10564"
+  }
+  {
+    id: 3634
+    name: 高达隐形逻辑
+    creation_order: "10566"
+  }
+  {
+    id: 3635
+    name: 雷区电
+    creation_order: "10567,10568"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3636
+    name: 高达主动2-敌方自伤
+    creation_order: "10569"
+  }
+  {
+    id: 3637
+    name: 加农炮法球
+    creation_order: "10573"
+  }
+  {
+    id: 3638
+    name: 电磁炮
+    creation_order: "10575,10574"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3639
+    name: 重武器额外效果
+    creation_order: "10576"
+  }
+  {
+    id: 3640
+    name: 高达教学
+    avg_order: vehicle_warjack_tip1
+    avg_delay: "4"
+  }
+  {
+    id: 3641
+    name: 坦克教学
+    avg_order: vehicle_tank_tip1
+    avg_delay: "4"
+  }
+  {
+    id: 3642
+    name: 远程攻击教学
+    avg_order: vehicle_tank_tip2
+    avg_delay: "4"
+  }
+  {
+    id: 3643
+    name: 坦克支援
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10577,10518"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3644
+    name: 叶戈尔特殊技能
+    sound_delay: "1680,1681,1682"
+    effect_order: "0,0,0"
+  }
+  {
+    id: 3645
+    name: kord技能普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10584,10585,10586,10586,10584,10584,10584,10584,10585,10585,10585,10585,10585,10580,10581"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,0,0"
+  }
+  {
+    id: 3646
+    name: 汉阳造穿透普攻
+    action_order: attack2
+    action_playspeed: "100"
+    creation_order: "10591,2412,10589,10582"
+    creation_delay: "0,0,0,0"
+  }
+  {
+    id: 3647
+    name: "ceshi "
+    creation_order: "10583"
+  }
+  {
+    id: 3648
+    name: 步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10587,10585,10586,6124"
+    creation_delay: "0,0,0,5"
+  }
+  {
+    id: 3649
+    name: 机枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10588,10585,10586,10586,10584,10584,10584,10584,10585,10585,10585,10585,10585,6124"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,5"
+  }
+  {
+    id: 3650
+    name: 坦克支援cutIn
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10590"
+    creation_delay: "30"
+    sound_order: BT_squad_bazooka
+    sound_delay: "30"
+  }
+  {
+    id: 3651
+    name: 勃朗宁友方（改）
+    creation_order: "10592"
+  }
+  {
+    id: 3652
+    name: 高达轻武器近战
+    action_order: attack_SP
+    action_playspeed: "150"
+    creation_order: "10557,10557,10558,6124,10593"
+    creation_delay: "0,3,6,0,9"
+  }
+  {
+    id: 3653
+    name: 高达轻武器近战lv3
+    action_order: attack_SP
+    action_playspeed: "150"
+    creation_order: "10561,10561,10562,6124,10594"
+    creation_delay: "0,3,6,0,9"
+  }
+  {
     id: 4001
     name: 白色boss普攻
     action_order: attack
@@ -18070,6 +18449,162 @@
     creation_order: "2963,2964,21,21"
     creation_delay: "0,5,0,5"
     effect_duration: "1"
+  }
+  {
+    id: 7001
+    name: 单管单挺通用口径机枪【真普攻】
+    creation_order: "6101,6124,6130,139,139,9,9,9,9,6130,6130,6130,6130"
+    creation_delay: "0,5,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
+    id: 7002
+    name: 单管反装甲狙击枪【真普攻】
+    creation_order: "6102,6124,6131"
+    creation_delay: "0,5,0"
+  }
+  {
+    id: 7003
+    name: 单管多机枪组【真普攻】
+    creation_order: "6103,6124,6130,9,9,6130,6130,139"
+    creation_delay: "0,5,0,2,6,2,6,0"
+  }
+  {
+    id: 7004
+    name: 单管多机枪组2【辅助普攻】
+    creation_order: "6104,6124,6130,9,9,6130,6130,139"
+    creation_delay: "5,10,0,4,8,4,8,5"
+  }
+  {
+    id: 7005
+    name: 多管单机枪组【真普攻】
+    creation_order: "6105,6105,6105,6105,6105,6124,6130,6130,6130,6130,6130"
+    creation_delay: "0,2,4,6,8,5,0,2,4,6,8"
+  }
+  {
+    id: 7006
+    name: 扣护盾打伤害
+    creation_order: "6106"
+  }
+  {
+    id: 7007
+    name: 眩晕结束打伤害
+    creation_order: "6107"
+  }
+  {
+    id: 7008
+    name: 爆炸伤害
+    creation_order: "6108,6141"
+    creation_delay: "0,5"
+  }
+  {
+    id: 7009
+    name: 烈焰喷射器【真普攻】
+    creation_order: "6109,6109,6109,6109,6109,6124,610901"
+    creation_delay: "0,5,10,15,20,5,0"
+  }
+  {
+    id: 7010
+    name: 机枪炮【真普攻】
+    creation_order: "6110,6124,6132,6136"
+    creation_delay: "0,5,0,0"
+  }
+  {
+    id: 7011
+    name: 机枪模式【真普攻】
+    creation_order: "6112,6124,6130,139,139,9,9,9,9,6130,6130,6130,6130"
+    creation_delay: "0,5,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
+    id: 7012
+    name: 榴弹发射器模式【真普攻】
+    creation_order: "6115,6124,6132,6136"
+    creation_delay: "0,5,0,0"
+    sound_order: BT_fire_grenade
+  }
+  {
+    id: 7013
+    name: 召唤无人机
+    creation_order: "6116"
+  }
+  {
+    id: 7014
+    name: 无人机冲锋自爆
+    action_order: wait,wait,wait,move,move,move
+    action_delay: "0,40,80,120,140,160"
+    action_playspeed: "100,100,100,100,100,100"
+    creation_order: "6127"
+    creation_delay: "180"
+    move_order: "1502,1503"
+    move_delay: "120,178"
+  }
+  {
+    id: 7015
+    name: 干扰器
+    creation_order: "6120,6133"
+    creation_delay: "0,0"
+  }
+  {
+    id: 7016
+    name: 烟雾弹发射器
+    creation_order: "6117,6132"
+    creation_delay: "0,0"
+  }
+  {
+    id: 7017
+    name: 对直线造成一次500%的编制伤害
+    creation_order: "6121,6139"
+    creation_delay: "0,0"
+  }
+  {
+    id: 7018
+    name: 造成一次范围3的100%编制伤害
+    creation_order: "6122"
+  }
+  {
+    id: 7019
+    name: 击退范围
+    creation_order: "6123"
+  }
+  {
+    id: 7020
+    name: 击退位移
+    move_order: "1501"
+  }
+  {
+    id: 7021
+    name: 威慑范围
+    creation_order: "6126"
+  }
+  {
+    id: 7022
+    name: 无人机自爆
+    creation_order: "6128"
+  }
+  {
+    id: 7023
+    name: 爆裂护盾
+    creation_order: "6129,6140"
+    creation_delay: "0,0"
+  }
+  {
+    id: 7024
+    name: 信号塔
+    creation_order: "6134"
+  }
+  {
+    id: 7025
+    name: 干扰枪
+    creation_order: "6135"
+  }
+  {
+    id: 7026
+    name: 爆炸引爆
+    creation_order: "6142"
+  }
+  {
+    id: 7027
+    name: 护盾爆裂
+    creation_order: "6143"
   }
   {
     id: 8001
@@ -26341,6 +26876,56 @@
     id: 541840
     name: 刘皮肤7701增援lv10
     creation_order: "570140"
+  }
+  {
+    id: 541841
+    name: 刘皮肤8703增援lv1
+    creation_order: "570141"
+  }
+  {
+    id: 541842
+    name: 刘皮肤8703增援lv2
+    creation_order: "570142"
+  }
+  {
+    id: 541843
+    name: 刘皮肤8703增援lv3
+    creation_order: "570143"
+  }
+  {
+    id: 541844
+    name: 刘皮肤8703增援lv4
+    creation_order: "570144"
+  }
+  {
+    id: 541845
+    name: 刘皮肤8703增援lv5
+    creation_order: "570145"
+  }
+  {
+    id: 541846
+    name: 刘皮肤8703增援lv6
+    creation_order: "570146"
+  }
+  {
+    id: 541847
+    name: 刘皮肤8703增援lv7
+    creation_order: "570147"
+  }
+  {
+    id: 541848
+    name: 刘皮肤8703增援lv8
+    creation_order: "570148"
+  }
+  {
+    id: 541849
+    name: 刘皮肤8703增援lv9
+    creation_order: "570149"
+  }
+  {
+    id: 541850
+    name: 刘皮肤8703增援lv10
+    creation_order: "570150"
   }
   {
     id: 542701

@@ -4,7 +4,7 @@
     name: SHD定制"V"
     des: 使用了全套SHD特殊装备的特工维克托将获得极强的队伍辅助能力,提升队伍整体的生存能力。
     code: EgroupVec
-    equip_unit: "199,200,201"
+    equip_unit: "201,200,199"
     group_skill: 2:992050,3:992051
     fit_gun: "1028"
     is_addition: 1
@@ -25,7 +25,7 @@
     des: 拥有完整套装的莫辛-纳甘可以最大限度发挥出自身的战斗素质,一切都会没问题的。
     code: EgroupM1891
     equip_unit: "337,111,86"
-    group_skill: 2:778217,3:759100
+    group_skill: 3:759100
     fit_gun: "20039"
   }
   {
@@ -34,7 +34,7 @@
     des: 使用了全套16LAB特殊装备的ST AR-15得到了极强的作战能力加成,副武器的使用也会更加得心应手。
     code: EgroupAR15
     equip_unit: "100,338,60"
-    group_skill: 2:778217,3:759094
+    group_skill: 3:759094
     fit_gun: "20057"
   }
   {
@@ -42,8 +42,8 @@
     name: APS狂欢
     des: 使用了全套IOP特殊装备的斯捷奇金将获得强大的队伍辅助能力，提升队伍整体战斗实力。
     code: EgroupAPS
-    equip_unit: "133,171,342"
-    group_skill: 2:778217,3:759134
+    equip_unit: "133,342,171"
+    group_skill: 3:759134
     fit_gun: "20007"
   }
   {
@@ -51,8 +51,8 @@
     name: 雨林冒险
     des: 装备了全套迷彩装备的64式可以更好地融入密林丛生的作战环境，对敌人进行出其不意的攻击。
     code: Egroup64type
-    equip_unit: "103,218,343"
-    group_skill: 2:778217,3:759143
+    equip_unit: "218,343,103"
+    group_skill: 3:759143
     fit_gun: "20094"
   }
   {
@@ -60,8 +60,8 @@
     name: 小小邮差
     des: 拥有完整套装的MP5大幅提升了作战行动时的灵活性，帮助队伍之间更快地传递信息与物资。
     code: EgroupMP5
-    equip_unit: "62,157,348"
-    group_skill: 2:778217,3:759187
+    equip_unit: "62,348,157"
+    group_skill: 3:759187
     fit_gun: "20026"
   }
   {
@@ -69,8 +69,8 @@
     name: 沉默者
     des: 使用了全套特制装备的MG4即使在纷扰的战场上也可以精确地找到击杀目标。
     code: EgroupMG4
-    equip_unit: "132,239,349"
-    group_skill: 2:778217,3:759192
+    equip_unit: "239,132,349"
+    group_skill: 3:759192
     fit_gun: "20125"
   }
   {
@@ -79,7 +79,7 @@
     des: 使用了全套特制产品的马卡洛夫可以在战场上更加精确地指挥人形作战。
     code: EgroupPM
     equip_unit: "180,238,351"
-    group_skill: 2:778217,3:759219
+    group_skill: 3:759219
     fit_gun: "20008"
   }
   {
@@ -88,7 +88,7 @@
     des: 拥有完整套装的PPSh-41与其他人形的协作更加地密切，时刻准备着迎来自己的光荣的时刻。
     code: EgroupPPSh41
     equip_unit: "352,272,219"
-    group_skill: 2:778217,3:759224
+    group_skill: 3:759224
     fit_gun: "20021"
   }
   {
@@ -97,7 +97,7 @@
     des: 拥有完整套装的PPK可以尽情给别人带去愉悦的痛楚。
     code: EgroupPPK
     equip_unit: "155,284,355"
-    group_skill: 2:778217,3:759242
+    group_skill: 3:759242
     fit_gun: "20010"
   }
   {
@@ -106,7 +106,25 @@
     des: 404小队定制的HK416专属套装，可以大幅提升HK416的作战能力。
     code: EgroupHK416KMod
     equip_unit: "106,356,159"
-    group_skill: 2:778217,3:759236
+    group_skill: 3:759236
     fit_gun: "20065"
+  }
+  {
+    id: 13
+    name: 404定制UMP45
+    des: 为UMP45定制的新型空尖弹，在原有的基础上大幅降低了音爆的影响。
+    code: EgroupUMP45
+    equip_unit: "92,358,125"
+    group_skill: 3:759092
+    fit_gun: "20103"
+  }
+  {
+    id: 14
+    name: 404定制UMP9
+    des: 404小队定制的UMP9专属套装，可以大幅提升UMP9的作战能力。
+    code: EgroupUMP9
+    equip_unit: "92,359,156"
+    group_skill: 3:759093
+    fit_gun: "20101"
   }
 ]

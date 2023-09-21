@@ -52,11 +52,11 @@
   {
     identity: 6
     mission_type: 2
-    type: squad_data_analyse
-    count: 4
-    title: 建设：情报解析
-    content: 进行4次情报解析。
-    function_control_id: 15
+    type: get_vehicle_component
+    count: 6
+    title: 建设：组件获取
+    content: 获取6个机动装甲组件。
+    function_control_id: 30
     prize_id: 8308
     exchange_prize_id: 8315
   }
@@ -146,17 +146,6 @@
   {
     identity: 15
     mission_type: 4
-    type: complete_squad_daily
-    count: 1
-    title: 后勤：情报搜集
-    content: 完成1个情报任务。
-    function_control_id: 15
-    prize_id: 8308
-    exchange_prize_id: 8315
-  }
-  {
-    identity: 16
-    mission_type: 4
     type: sangvis_exercise
     count: 3
     title: 后勤：模拟演练
@@ -166,7 +155,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 17
+    identity: 16
     mission_type: 4
     type: auto_battle
     count: 1
@@ -177,7 +166,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 18
+    identity: 17
     mission_type: 5
     type: from_friend_build_coin
     count: 5
@@ -187,7 +176,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 19
+    identity: 18
     mission_type: 5
     type: like
     count: 5
@@ -197,7 +186,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 20
+    identity: 19
     mission_type: 5
     type: borrow_friend_team
     count: 2
@@ -207,7 +196,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 21
+    identity: 20
     mission_type: 6
     type: explore
     count: 1
@@ -218,7 +207,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 22
+    identity: 21
     mission_type: 6
     type: sangvis_daily_retrieval
     count: 1
@@ -229,7 +218,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 23
+    identity: 22
     mission_type: 6
     type: heart_collect
     count: 5
@@ -239,7 +228,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 24
+    identity: 23
     mission_type: 6
     type: gift
     count: 1

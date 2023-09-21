@@ -5438,13 +5438,13 @@
   {
     id: 786
     name: 生涯任务奖励86
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     content: 首次晋升至五星
   }
   {
     id: 787
     name: 生涯任务奖励87
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     content: 首次完成重装部队经验训练
   }
   {
@@ -5462,7 +5462,7 @@
   {
     id: 790
     name: 生涯任务奖励90
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     content: 首次进行迭代
   }
   {
@@ -23073,6 +23073,47 @@
     item_ids: 10706-90
   }
   {
+    id: 7624
+    name: 日常载具关奖励1
+    ammo: 300
+    mre: 300
+  }
+  {
+    id: 7625
+    name: 日常载具关奖励2
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 7626
+    name: 日常载具关奖励3
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    item_ids: 44-15
+  }
+  {
+    id: 7627
+    name: 日常载具关奖励4
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    item_ids: 46-25,44-15
+  }
+  {
+    id: 7628
+    name: 日常载具关奖励5
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    item_ids: 9-5,46-25,44-15
+  }
+  {
     id: 7631
     name: 日常玩法掉落
     item_ids: 10707-30
@@ -23161,6 +23202,96 @@
     id: 7648
     name: 日常玩法掉落
     item_ids: 10707-90
+  }
+  {
+    id: 7649
+    name: 日常玩法掉落
+    item_ids: 10708-30
+  }
+  {
+    id: 7650
+    name: 日常玩法掉落
+    item_ids: 10708-45
+  }
+  {
+    id: 7651
+    name: 日常玩法掉落
+    item_ids: 10708-60
+  }
+  {
+    id: 7652
+    name: 日常玩法掉落
+    item_ids: 10708-45
+  }
+  {
+    id: 7653
+    name: 日常玩法掉落
+    item_ids: 10708-68
+  }
+  {
+    id: 7654
+    name: 日常玩法掉落
+    item_ids: 10708-90
+  }
+  {
+    id: 7655
+    name: 日常玩法掉落
+    item_ids: 10708-90
+  }
+  {
+    id: 7656
+    name: 日常玩法掉落
+    item_ids: 10708-120
+  }
+  {
+    id: 7657
+    name: 日常玩法掉落
+    item_ids: 10708-75
+  }
+  {
+    id: 7658
+    name: 日常玩法掉落
+    item_ids: 10708-150
+  }
+  {
+    id: 7659
+    name: 日常玩法掉落
+    item_ids: 10708-60
+  }
+  {
+    id: 7660
+    name: 日常玩法掉落
+    item_ids: 10708-135
+  }
+  {
+    id: 7661
+    name: 日常玩法掉落
+    item_ids: 10708-180
+  }
+  {
+    id: 7662
+    name: 日常玩法掉落
+    item_ids: 10708-180
+  }
+  {
+    id: 7663
+    name: 日常玩法掉落
+    item_ids: 10708-270
+  }
+  {
+    id: 7664
+    name: 日常玩法掉落
+    item_ids: 10708-360
+  }
+  {
+    id: 7665
+    name: 日常玩法掉落
+    item_ids: 10708-112
+  }
+  {
+    id: 7666
+    name: 日常玩法掉落
+    item_ids: 10708-90
   }
   {
     id: 8001
@@ -23489,7 +23620,7 @@
     id: 8310
     name: 格里芬周报：50
     core: 10
-    item_ids: 4-10,1-5,2-5,14-20,50-5,10702-70
+    item_ids: 4-10,1-5,2-5,14-90,50-5,10702-70
     content: 领取奖励
     icon: Bumdle_purple
   }
@@ -23497,7 +23628,7 @@
     id: 8311
     name: 格里芬周报：100
     core: 10
-    item_ids: 525-5,3-5,4-10,1-5,2-10,14-30,15-20,50-10,10702-70
+    item_ids: 525-5,3-5,4-10,1-5,2-10,14-120,15-60,50-10,10702-70
     content: 领取奖励
     icon: Bumdle_navy
   }
@@ -23505,21 +23636,21 @@
     id: 8312
     name: 格里芬周报：150
     core: 10
-    item_ids: 525-5,3-5,16-5,2-15,14-50,15-20,50-10,41-5,44-10,6009-1,10702-80
+    item_ids: 525-5,3-5,16-5,2-15,14-160,15-70,50-10,41-5,44-10,6009-1,10702-80
     content: 领取奖励
     icon: Bumdle_blue
   }
   {
     id: 8313
     name: 格里芬周报：200
-    item_ids: 525-5,3-5,16-5,14-100,15-30,41-15,44-10,10604-1,10702-80
+    item_ids: 525-5,3-5,16-5,14-200,15-95,41-15,44-10,10604-1,10702-80
     content: 领取奖励
     icon: Bumdle_orange
   }
   {
     id: 8314
     name: 格里芬周报：250
-    item_ids: 525-5,3-5,15-30,41-20,605-1,10702-80
+    item_ids: 525-5,3-5,14-260,15-130,41-20,605-1,10702-80
     content: 领取奖励
     icon: Bumdle_ruby
   }
@@ -26159,19 +26290,19 @@
   {
     id: 11169
     name: 生涯任务奖励361
-    item_ids: 46-100,519-10,9-50
+    item_ids: 46-250,14-1200,15-500
     content: 领取奖励
   }
   {
     id: 11170
     name: 生涯任务奖励362
-    item_ids: 46-150,519-20,9-100
+    item_ids: 46-450,14-2400,15-1000
     content: 领取奖励
   }
   {
     id: 11171
     name: 生涯任务奖励363
-    item_ids: 46-200,9-150
+    item_ids: 46-650
     content: 领取奖励
   }
   {
@@ -28556,6 +28687,42 @@
       '''
   }
   {
+    id: 12348
+    name: 12.7mm改良弹
+    equip_ids: "361"
+    content:
+      '''
+      <color=#ffb400>满校准满强化属性</color>
+      伤害+20
+      穿甲+200
+      6P62专用
+      '''
+  }
+  {
+    id: 12349
+    name: Beretta特制芯片
+    equip_ids: "363"
+    content:
+      '''
+      <color=#ffb400>满校准满强化属性</color>
+      伤害+18 射速+25
+      暴击伤害-50%
+      AR70专用
+      '''
+  }
+  {
+    id: 12350
+    name: MAS特殊弹
+    equip_ids: "362"
+    content:
+      '''
+      <color=#ffb400>满校准满强化属性</color>
+      伤害+5
+      穿甲+500
+      AAT-52专用
+      '''
+  }
+  {
     id: 12401
     name: 糖果口袋
     item_ids: 7001-1
@@ -28836,6 +29003,24 @@
     name: 池鱼故梦
     item_ids: 7047-1
     content: 只有倔强的少女才会赞同红蝶尾金鱼的宣言——天空不过是湖泊的倒影。
+  }
+  {
+    id: 12448
+    name: 倾心恋慕
+    item_ids: 7048-1
+    content: 如果看到对方的第0.03秒，视野中突然充满美妙的光芒，那就是名为一见钟情的时刻。
+  }
+  {
+    id: 12449
+    name: 漂浮梦境
+    item_ids: 7049-1
+    content: 并非只有幻想中才有一眼望不到边的花海，也并非只有幻想中才能走进这样的多彩世界，它也在梦境之外，在你的身边。
+  }
+  {
+    id: 12450
+    name: 律动次元
+    item_ids: 7050-1
+    content: 最简单的数字化情感隐藏着最纯粹的心意，8位像素便是它所能为你带来的全部——爱来自心智底层。
   }
   {
     id: 12501
@@ -41622,6 +41807,100 @@
     fairy_ids: 27-910124
   }
   {
+    id: 40593
+    name: 阶段奖励I
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gift: 200001-100
+    coins: 1-100,2-100
+    icon: Bumdle_black
+  }
+  {
+    id: 40594
+    name: 阶段奖励II
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gem: 50
+    gift: 200001-100
+    coins: 1-200,2-200
+    icon: Bumdle_blue
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40595
+    name: 阶段奖励III
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gift: 200001-200
+    coins: 2-200,3-100
+    icon: Bumdle_brown
+  }
+  {
+    id: 40596
+    name: 阶段奖励IV
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    gift: 200001-200,400001-200
+    equip_ids: "85"
+    coins: 3-200
+    icon: Bumdle_purple
+  }
+  {
+    id: 40597
+    name: 阶段奖励V
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 514-150,515-150
+    gift: 400001-200
+    icon: Bumdle_red
+  }
+  {
+    id: 40598
+    name: 阶段奖励VI
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    gem: 100
+    item_ids: 514-250,515-250,516-200
+    equip_ids: "84"
+    icon: Bumdle_ruby
+  }
+  {
+    id: 40599
+    name: 阶段奖励VII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 515-300,516-400
+    icon: Bumdle_white
+  }
+  {
+    id: 40600
+    name: 阶段奖励VIII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 100
+    item_ids: 45-500
+    gift: 200001-500
+    equip_ids: "83"
+    icon: Bumdle_yellow
+  }
+  {
     id: 44001
     name: 战区3000积分奖励
     mp: 500
@@ -44767,6 +45046,54 @@
     icon: chessgahsa_95451
   }
   {
+    id: 95511
+    name: 名士守则
+    send_limit: 1
+    commander_uniform: "5511"
+  }
+  {
+    id: 95512
+    name: 俏丽风度
+    send_limit: 1
+    commander_uniform: "5512"
+  }
+  {
+    id: 95520
+    name: 闪耀的资本
+    send_limit: 1
+    commander_uniform: "5520"
+  }
+  {
+    id: 95531
+    name: 金色年华
+    send_limit: 1
+    commander_uniform: "5531"
+  }
+  {
+    id: 95532
+    name: 奇卉芬芳
+    send_limit: 1
+    commander_uniform: "5532"
+  }
+  {
+    id: 95540
+    name: 傍身绝技
+    send_limit: 1
+    commander_uniform: "5540"
+  }
+  {
+    id: 95551
+    name: 迂回步
+    send_limit: 1
+    commander_uniform: "5551"
+  }
+  {
+    id: 95552
+    name: 侧行并步
+    send_limit: 1
+    commander_uniform: "5552"
+  }
+  {
     id: 99999
     name: 新人首充奖励
     mp: 1000
@@ -45877,6 +46204,16 @@
     furniture: "20004"
   }
   {
+    id: 121006
+    name: 摇晃的天空
+    furniture: "7242"
+  }
+  {
+    id: 121007
+    name: 嗜睡深渊
+    furniture: "7243"
+  }
+  {
     id: 130001
     name: 前线协议额外奖励
     item_ids: 1500014-1
@@ -46672,7 +47009,7 @@
   {
     id: 150005
     name: 日常玩法-首通bonus奖励5
-    item_ids: 32-300
+    item_ids: 506-140
   }
   {
     id: 150006
@@ -46712,7 +47049,7 @@
   {
     id: 150013
     name: 日常玩法-首通bonus奖励13
-    item_ids: 506-140
+    item_ids: 32-300
   }
   {
     id: 150014
@@ -46722,7 +47059,7 @@
   {
     id: 150015
     name: 日常玩法-首通bonus奖励15
-    item_ids: 44-15
+    item_ids: 16-40
   }
   {
     id: 150016
@@ -46737,7 +47074,7 @@
   {
     id: 150018
     name: 日常玩法-首通bonus奖励18
-    item_ids: 16-40
+    item_ids: 44-15
   }
   {
     id: 150019
@@ -46772,12 +47109,12 @@
   {
     id: 150025
     name: 日常玩法-首通bonus奖励25
-    item_ids: 32-300
+    item_ids: 506-140
   }
   {
     id: 150026
     name: 日常玩法-首通bonus奖励26
-    item_ids: 506-140
+    item_ids: 32-300
   }
   {
     id: 150027
@@ -46822,7 +47159,7 @@
   {
     id: 150035
     name: 日常玩法-常规奖励5
-    item_ids: 32-100
+    item_ids: 1800002-1
   }
   {
     id: 150036
@@ -46847,7 +47184,7 @@
   {
     id: 150040
     name: 日常玩法-常规奖励10
-    item_ids: 1500088-1
+    item_ids: 1700001-1
   }
   {
     id: 150041
@@ -46862,7 +47199,7 @@
   {
     id: 150043
     name: 日常玩法-常规奖励13
-    item_ids: 506-60
+    item_ids: 32-100
   }
   {
     id: 150044
@@ -46872,7 +47209,7 @@
   {
     id: 150045
     name: 日常玩法-常规奖励15
-    item_ids: 44-25
+    item_ids: 1800001-2
   }
   {
     id: 150046
@@ -46887,7 +47224,7 @@
   {
     id: 150048
     name: 日常玩法-常规奖励18
-    item_ids: 16-20
+    item_ids: 44-25
   }
   {
     id: 150049
@@ -46897,7 +47234,7 @@
   {
     id: 150050
     name: 日常玩法-常规奖励20
-    item_ids: 1500089-1
+    item_ids: 1700002-1
   }
   {
     id: 150051
@@ -46922,12 +47259,12 @@
   {
     id: 150055
     name: 日常玩法-常规奖励25
-    item_ids: 32-100
+    item_ids: 1800002-2
   }
   {
     id: 150056
     name: 日常玩法-常规奖励26
-    item_ids: 506-60
+    item_ids: 32-100
   }
   {
     id: 150057
@@ -46947,7 +47284,7 @@
   {
     id: 150060
     name: 日常玩法-常规奖励30
-    item_ids: 1500090-1
+    item_ids: 1700003-1
   }
   {
     id: 150074
@@ -47023,5 +47360,1169 @@
     id: 150088
     name: 日常玩法-第5期-5星人形专属装备自选池子
     equip_ids: "236,278,247,295,105,349,237,168,282,356,277"
+  }
+  {
+    id: 150089
+    name: 日常玩法-第6期-五星装备自选池子
+    equip_ids: "16,20,32,44,66,72,90"
+  }
+  {
+    id: 150090
+    name: 日常玩法-第6期-4星及以下人形专属装备自选池子
+    equip_ids: "211,337,338,342,343,348,248,351,352,355,242,358,359"
+  }
+  {
+    id: 150091
+    name: 日常玩法-第6期-5星人形专属装备自选池子
+    equip_ids: "236,278,247,295,105,349,237,168,282,356,277,270,283"
+  }
+  {
+    id: 200001
+    name: 5星组件奖励列表
+    vehicle_component: "1001"
+  }
+  {
+    id: 200002
+    name: 5星组件奖励列表
+    vehicle_component: "1002"
+  }
+  {
+    id: 200003
+    name: 5星组件奖励列表
+    vehicle_component: "1003"
+  }
+  {
+    id: 200004
+    name: 5星组件奖励列表
+    vehicle_component: "1004"
+  }
+  {
+    id: 200005
+    name: 5星组件奖励列表
+    vehicle_component: "1005"
+  }
+  {
+    id: 200006
+    name: 5星组件奖励列表
+    vehicle_component: "1006"
+  }
+  {
+    id: 200007
+    name: 5星组件奖励列表
+    vehicle_component: "1007"
+  }
+  {
+    id: 200008
+    name: 5星组件奖励列表
+    vehicle_component: "1008"
+  }
+  {
+    id: 200009
+    name: 5星组件奖励列表
+    vehicle_component: "1009"
+  }
+  {
+    id: 200010
+    name: 5星组件奖励列表
+    vehicle_component: "1010"
+  }
+  {
+    id: 200011
+    name: 5星组件奖励列表
+    vehicle_component: "1011"
+  }
+  {
+    id: 200012
+    name: 5星组件奖励列表
+    vehicle_component: "1012"
+  }
+  {
+    id: 200013
+    name: 5星组件奖励列表
+    vehicle_component: "1013"
+  }
+  {
+    id: 200014
+    name: 5星组件奖励列表
+    vehicle_component: "1101"
+  }
+  {
+    id: 200015
+    name: 5星组件奖励列表
+    vehicle_component: "1102"
+  }
+  {
+    id: 200016
+    name: 5星组件奖励列表
+    vehicle_component: "1103"
+  }
+  {
+    id: 200017
+    name: 5星组件奖励列表
+    vehicle_component: "1104"
+  }
+  {
+    id: 200018
+    name: 5星组件奖励列表
+    vehicle_component: "1105"
+  }
+  {
+    id: 200019
+    name: 5星组件奖励列表
+    vehicle_component: "1106"
+  }
+  {
+    id: 200020
+    name: 5星组件奖励列表
+    vehicle_component: "1107"
+  }
+  {
+    id: 200021
+    name: 5星组件奖励列表
+    vehicle_component: "1108"
+  }
+  {
+    id: 200022
+    name: 5星组件奖励列表
+    vehicle_component: "1109"
+  }
+  {
+    id: 200023
+    name: 5星组件奖励列表
+    vehicle_component: "1110"
+  }
+  {
+    id: 200024
+    name: 5星组件奖励列表
+    vehicle_component: "1111"
+  }
+  {
+    id: 200025
+    name: 5星组件奖励列表
+    vehicle_component: "1112"
+  }
+  {
+    id: 200026
+    name: 5星组件奖励列表
+    vehicle_component: "1113"
+  }
+  {
+    id: 200027
+    name: 5星组件奖励列表
+    vehicle_component: "1114"
+  }
+  {
+    id: 200028
+    name: 5星组件奖励列表
+    vehicle_component: "1115"
+  }
+  {
+    id: 200029
+    name: 5星组件奖励列表
+    vehicle_component: "1116"
+  }
+  {
+    id: 200030
+    name: 5星组件奖励列表
+    vehicle_component: "1117"
+  }
+  {
+    id: 200031
+    name: 5星组件奖励列表
+    vehicle_component: "1118"
+  }
+  {
+    id: 200032
+    name: 5星组件奖励列表
+    vehicle_component: "1119"
+  }
+  {
+    id: 200033
+    name: 5星组件奖励列表
+    vehicle_component: "1120"
+  }
+  {
+    id: 200034
+    name: 5星组件奖励列表
+    vehicle_component: "1121"
+  }
+  {
+    id: 200035
+    name: 5星组件奖励列表
+    vehicle_component: "1122"
+  }
+  {
+    id: 200036
+    name: 5星组件奖励列表
+    vehicle_component: "1123"
+  }
+  {
+    id: 200037
+    name: 5星组件奖励列表
+    vehicle_component: "1124"
+  }
+  {
+    id: 200038
+    name: 5星组件奖励列表
+    vehicle_component: "1125"
+  }
+  {
+    id: 200039
+    name: 5星组件奖励列表
+    vehicle_component: "1126"
+  }
+  {
+    id: 200040
+    name: 5星组件奖励列表
+    vehicle_component: "1127"
+  }
+  {
+    id: 200041
+    name: 5星组件奖励列表
+    vehicle_component: "1128"
+  }
+  {
+    id: 200042
+    name: 5星组件奖励列表
+    vehicle_component: "1129"
+  }
+  {
+    id: 201001
+    name: 4星组件奖励列表
+    vehicle_component: "2001"
+  }
+  {
+    id: 201002
+    name: 4星组件奖励列表
+    vehicle_component: "2002"
+  }
+  {
+    id: 201003
+    name: 4星组件奖励列表
+    vehicle_component: "2003"
+  }
+  {
+    id: 201004
+    name: 4星组件奖励列表
+    vehicle_component: "2004"
+  }
+  {
+    id: 201005
+    name: 4星组件奖励列表
+    vehicle_component: "2005"
+  }
+  {
+    id: 201006
+    name: 4星组件奖励列表
+    vehicle_component: "2006"
+  }
+  {
+    id: 201007
+    name: 4星组件奖励列表
+    vehicle_component: "2007"
+  }
+  {
+    id: 201008
+    name: 4星组件奖励列表
+    vehicle_component: "2008"
+  }
+  {
+    id: 201009
+    name: 4星组件奖励列表
+    vehicle_component: "2009"
+  }
+  {
+    id: 201010
+    name: 4星组件奖励列表
+    vehicle_component: "2010"
+  }
+  {
+    id: 201011
+    name: 4星组件奖励列表
+    vehicle_component: "2011"
+  }
+  {
+    id: 201012
+    name: 4星组件奖励列表
+    vehicle_component: "2012"
+  }
+  {
+    id: 201013
+    name: 4星组件奖励列表
+    vehicle_component: "2013"
+  }
+  {
+    id: 201014
+    name: 4星组件奖励列表
+    vehicle_component: "2101"
+  }
+  {
+    id: 201015
+    name: 4星组件奖励列表
+    vehicle_component: "2102"
+  }
+  {
+    id: 201016
+    name: 4星组件奖励列表
+    vehicle_component: "2103"
+  }
+  {
+    id: 201017
+    name: 4星组件奖励列表
+    vehicle_component: "2104"
+  }
+  {
+    id: 201018
+    name: 4星组件奖励列表
+    vehicle_component: "2105"
+  }
+  {
+    id: 201019
+    name: 4星组件奖励列表
+    vehicle_component: "2106"
+  }
+  {
+    id: 201020
+    name: 4星组件奖励列表
+    vehicle_component: "2107"
+  }
+  {
+    id: 201021
+    name: 4星组件奖励列表
+    vehicle_component: "2108"
+  }
+  {
+    id: 201022
+    name: 4星组件奖励列表
+    vehicle_component: "2109"
+  }
+  {
+    id: 201023
+    name: 4星组件奖励列表
+    vehicle_component: "2110"
+  }
+  {
+    id: 201024
+    name: 4星组件奖励列表
+    vehicle_component: "2111"
+  }
+  {
+    id: 201025
+    name: 4星组件奖励列表
+    vehicle_component: "2112"
+  }
+  {
+    id: 201026
+    name: 4星组件奖励列表
+    vehicle_component: "2113"
+  }
+  {
+    id: 201027
+    name: 4星组件奖励列表
+    vehicle_component: "2114"
+  }
+  {
+    id: 201028
+    name: 4星组件奖励列表
+    vehicle_component: "2115"
+  }
+  {
+    id: 201029
+    name: 4星组件奖励列表
+    vehicle_component: "2116"
+  }
+  {
+    id: 201030
+    name: 4星组件奖励列表
+    vehicle_component: "2117"
+  }
+  {
+    id: 201031
+    name: 4星组件奖励列表
+    vehicle_component: "2118"
+  }
+  {
+    id: 201032
+    name: 4星组件奖励列表
+    vehicle_component: "2119"
+  }
+  {
+    id: 201033
+    name: 4星组件奖励列表
+    vehicle_component: "2120"
+  }
+  {
+    id: 201034
+    name: 4星组件奖励列表
+    vehicle_component: "2121"
+  }
+  {
+    id: 201035
+    name: 4星组件奖励列表
+    vehicle_component: "2122"
+  }
+  {
+    id: 201036
+    name: 4星组件奖励列表
+    vehicle_component: "2123"
+  }
+  {
+    id: 201037
+    name: 4星组件奖励列表
+    vehicle_component: "2124"
+  }
+  {
+    id: 201038
+    name: 4星组件奖励列表
+    vehicle_component: "2125"
+  }
+  {
+    id: 201039
+    name: 4星组件奖励列表
+    vehicle_component: "2126"
+  }
+  {
+    id: 201040
+    name: 4星组件奖励列表
+    vehicle_component: "2127"
+  }
+  {
+    id: 201041
+    name: 4星组件奖励列表
+    vehicle_component: "2128"
+  }
+  {
+    id: 201042
+    name: 4星组件奖励列表
+    vehicle_component: "2129"
+  }
+  {
+    id: 202001
+    name: 3星组件奖励列表
+    vehicle_component: "3001"
+  }
+  {
+    id: 202002
+    name: 3星组件奖励列表
+    vehicle_component: "3002"
+  }
+  {
+    id: 202003
+    name: 3星组件奖励列表
+    vehicle_component: "3003"
+  }
+  {
+    id: 202004
+    name: 3星组件奖励列表
+    vehicle_component: "3004"
+  }
+  {
+    id: 202005
+    name: 3星组件奖励列表
+    vehicle_component: "3005"
+  }
+  {
+    id: 202006
+    name: 3星组件奖励列表
+    vehicle_component: "3006"
+  }
+  {
+    id: 202007
+    name: 3星组件奖励列表
+    vehicle_component: "3007"
+  }
+  {
+    id: 202008
+    name: 3星组件奖励列表
+    vehicle_component: "3008"
+  }
+  {
+    id: 202009
+    name: 3星组件奖励列表
+    vehicle_component: "3009"
+  }
+  {
+    id: 202010
+    name: 3星组件奖励列表
+    vehicle_component: "3010"
+  }
+  {
+    id: 202011
+    name: 3星组件奖励列表
+    vehicle_component: "3011"
+  }
+  {
+    id: 202012
+    name: 3星组件奖励列表
+    vehicle_component: "3012"
+  }
+  {
+    id: 202013
+    name: 3星组件奖励列表
+    vehicle_component: "3013"
+  }
+  {
+    id: 202014
+    name: 3星组件奖励列表
+    vehicle_component: "3101"
+  }
+  {
+    id: 202015
+    name: 3星组件奖励列表
+    vehicle_component: "3102"
+  }
+  {
+    id: 202016
+    name: 3星组件奖励列表
+    vehicle_component: "3103"
+  }
+  {
+    id: 202017
+    name: 3星组件奖励列表
+    vehicle_component: "3104"
+  }
+  {
+    id: 202018
+    name: 3星组件奖励列表
+    vehicle_component: "3105"
+  }
+  {
+    id: 202019
+    name: 3星组件奖励列表
+    vehicle_component: "3106"
+  }
+  {
+    id: 202020
+    name: 3星组件奖励列表
+    vehicle_component: "3107"
+  }
+  {
+    id: 202021
+    name: 3星组件奖励列表
+    vehicle_component: "3108"
+  }
+  {
+    id: 202022
+    name: 3星组件奖励列表
+    vehicle_component: "3109"
+  }
+  {
+    id: 202023
+    name: 3星组件奖励列表
+    vehicle_component: "3110"
+  }
+  {
+    id: 202024
+    name: 3星组件奖励列表
+    vehicle_component: "3111"
+  }
+  {
+    id: 202025
+    name: 3星组件奖励列表
+    vehicle_component: "3112"
+  }
+  {
+    id: 202026
+    name: 3星组件奖励列表
+    vehicle_component: "3113"
+  }
+  {
+    id: 202027
+    name: 3星组件奖励列表
+    vehicle_component: "3114"
+  }
+  {
+    id: 202028
+    name: 3星组件奖励列表
+    vehicle_component: "3115"
+  }
+  {
+    id: 202029
+    name: 3星组件奖励列表
+    vehicle_component: "3116"
+  }
+  {
+    id: 202030
+    name: 3星组件奖励列表
+    vehicle_component: "3117"
+  }
+  {
+    id: 202031
+    name: 3星组件奖励列表
+    vehicle_component: "3118"
+  }
+  {
+    id: 202032
+    name: 3星组件奖励列表
+    vehicle_component: "3119"
+  }
+  {
+    id: 202033
+    name: 3星组件奖励列表
+    vehicle_component: "3120"
+  }
+  {
+    id: 202034
+    name: 3星组件奖励列表
+    vehicle_component: "3121"
+  }
+  {
+    id: 202035
+    name: 3星组件奖励列表
+    vehicle_component: "3122"
+  }
+  {
+    id: 202036
+    name: 3星组件奖励列表
+    vehicle_component: "3123"
+  }
+  {
+    id: 202037
+    name: 3星组件奖励列表
+    vehicle_component: "3124"
+  }
+  {
+    id: 202038
+    name: 3星组件奖励列表
+    vehicle_component: "3125"
+  }
+  {
+    id: 202039
+    name: 3星组件奖励列表
+    vehicle_component: "3126"
+  }
+  {
+    id: 202040
+    name: 3星组件奖励列表
+    vehicle_component: "3127"
+  }
+  {
+    id: 202041
+    name: 3星组件奖励列表
+    vehicle_component: "3128"
+  }
+  {
+    id: 202042
+    name: 3星组件奖励列表
+    vehicle_component: "3129"
+  }
+  {
+    id: 203001
+    name: 5星组件自选
+    vehicle_component: 1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1101;1102;1103;1104;1105;1106;1107;1108;1109;1110;1111;1112;1113;1114;1115;1116;1117;1118;1119;1120;1121;1122;1123;1124;1125;1126;1127;1128;1129
+  }
+  {
+    id: 203002
+    name: 4星组件自选
+    vehicle_component: 2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2101;2102;2103;2104;2105;2106;2107;2108;2109;2110;2111;2112;2113;2114;2115;2116;2117;2118;2119;2120;2121;2122;2123;2124;2125;2126;2127;2128;2129
+  }
+  {
+    id: 203003
+    name: 3星组件自选
+    vehicle_component: 3001;3002;3003;3004;3005;3006;3007;3008;3009;3010;3011;3012;3013;3101;3102;3103;3104;3105;3106;3107;3108;3109;3110;3111;3112;3113;3114;3115;3116;3117;3118;3119;3120;3121;3122;3123;3124;3125;3126;3127;3128;3129
+  }
+  {
+    id: 204001
+    name: 5星组件多选
+    vehicle_component: 1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1101;1102;1103;1104;1105;1106;1107;1108;1109;1110;1111;1112;1113;1114;1115;1116;1117;1118;1119;1120;1121;1122;1123;1124;1125;1126
+  }
+  {
+    id: 204002
+    name: 4星组件多选
+    vehicle_component: 2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2101;2102;2103;2104;2105;2106;2107;2108;2109;2110;2111;2112;2113;2114;2115;2116;2117;2118;2119;2120;2121;2122;2123;2124;2125;2126
+  }
+  {
+    id: 204003
+    name: 3星组件多选
+    vehicle_component: 3001;3002;3003;3004;3005;3006;3007;3008;3009;3010;3011;3012;3013;3101;3102;3103;3104;3105;3106;3107;3108;3109;3110;3111;3112;3113;3114;3115;3116;3117;3118;3119;3120;3121;3122;3123;3124;3125;3126
+  }
+  {
+    id: 205001
+    name: 5星组件固定
+    vehicle_component: 1106-0-770082,reload,precision
+  }
+  {
+    id: 205002
+    name: 4星组件固定
+    vehicle_component: 2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2101;2102;2103;2104;2105;2106;2107;2108;2109;2110;2111;2112;2113;2114;2115;2116;2117;2118;2119;2120;2121;2122;2123;2124;2125;2126
+  }
+  {
+    id: 205003
+    name: 3星组件固定
+    vehicle_component: 3001;3002;3003;3004;3005;3006;3007;3008;3009;3010;3011;3012;3013;3101;3102;3103;3104;3105;3106;3107;3108;3109;3110;3111;3112;3113;3114;3115;3116;3117;3118;3119;3120;3121;3122;3123;3124;3125;3126
+  }
+  {
+    id: 210001
+    name: 装甲突击-主战坦克01通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210002
+    name: 装甲突击-主战坦克02通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210003
+    name: 装甲突击-主战坦克03通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210004
+    name: 装甲突击-主战坦克04通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210005
+    name: 装甲突击-主战坦克05通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210006
+    name: 装甲突击-主战坦克06通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210007
+    name: 装甲突击-主战坦克07通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210008
+    name: 装甲突击-主战坦克08通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210009
+    name: 装甲突击-主战坦克09通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210010
+    name: 装甲突击-主战坦克10通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210011
+    name: 装甲突击-主战坦克11通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210012
+    name: 装甲突击-主战坦克12通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210013
+    name: 装甲突击-主战坦克13通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210014
+    name: 装甲突击-主战坦克14通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210015
+    name: 装甲突击-主战坦克15通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210016
+    name: 装甲突击-主战坦克16通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210017
+    name: 装甲突击-主战坦克17通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210018
+    name: 装甲突击-主战坦克18通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210019
+    name: 装甲突击-主战坦克19通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210020
+    name: 装甲突击-主战坦克20通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210021
+    name: 装甲突击-主战坦克21通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210022
+    name: 装甲突击-主战坦克22通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210023
+    name: 装甲突击-主战坦克23通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210024
+    name: 装甲突击-主战坦克24通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210025
+    name: 装甲突击-主战坦克25通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210026
+    name: 装甲突击-主战坦克26通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210027
+    name: 装甲突击-主战坦克27通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210028
+    name: 装甲突击-主战坦克28通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210029
+    name: 装甲突击-主战坦克29通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210030
+    name: 装甲突击-主战坦克30通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210031
+    name: 装甲突击-战术人型机甲01通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210032
+    name: 装甲突击-战术人型机甲02通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210033
+    name: 装甲突击-战术人型机甲03通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210034
+    name: 装甲突击-战术人型机甲04通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210035
+    name: 装甲突击-战术人型机甲05通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210036
+    name: 装甲突击-战术人型机甲06通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210037
+    name: 装甲突击-战术人型机甲07通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210038
+    name: 装甲突击-战术人型机甲08通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210039
+    name: 装甲突击-战术人型机甲09通关奖励
+    item_ids: 1800002-2
+  }
+  {
+    id: 210040
+    name: 装甲突击-战术人型机甲10通关奖励
+    item_ids: 1800001-2
+  }
+  {
+    id: 210041
+    name: 装甲突击-战术人型机甲11通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210042
+    name: 装甲突击-战术人型机甲12通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210043
+    name: 装甲突击-战术人型机甲13通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210044
+    name: 装甲突击-战术人型机甲14通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210045
+    name: 装甲突击-战术人型机甲15通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210046
+    name: 装甲突击-战术人型机甲16通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210047
+    name: 装甲突击-战术人型机甲17通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210048
+    name: 装甲突击-战术人型机甲18通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210049
+    name: 装甲突击-战术人型机甲19通关奖励
+    item_ids: 1800002-3
+  }
+  {
+    id: 210050
+    name: 装甲突击-战术人型机甲20通关奖励
+    item_ids: 1800001-3
+  }
+  {
+    id: 210051
+    name: 装甲突击-战术人型机甲21通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210052
+    name: 装甲突击-战术人型机甲22通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210053
+    name: 装甲突击-战术人型机甲23通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210054
+    name: 装甲突击-战术人型机甲24通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210055
+    name: 装甲突击-战术人型机甲25通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210056
+    name: 装甲突击-战术人型机甲26通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210057
+    name: 装甲突击-战术人型机甲27通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210058
+    name: 装甲突击-战术人型机甲28通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 210059
+    name: 装甲突击-战术人型机甲29通关奖励
+    item_ids: 1800002-4
+  }
+  {
+    id: 210060
+    name: 装甲突击-战术人型机甲30通关奖励
+    item_ids: 1800001-4
+  }
+  {
+    id: 220001
+    name: 生涯任务奖励
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 220002
+    name: 生涯任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 57-1000
+  }
+  {
+    id: 220003
+    name: 生涯任务奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 57-1000
+  }
+  {
+    id: 220004
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+  }
+  {
+    id: 220005
+    name: 生涯任务奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+  }
+  {
+    id: 220006
+    name: 生涯任务奖励
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+  }
+  {
+    id: 220007
+    name: 生涯任务奖励
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    item_ids: 1800005-1
+  }
+  {
+    id: 220008
+    name: 生涯任务奖励
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    item_ids: 1800004-1
+  }
+  {
+    id: 220009
+    name: 生涯任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 1800004-1
+  }
+  {
+    id: 220010
+    name: 生涯任务奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 1800003-1
+  }
+  {
+    id: 220011
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 1800001-1,133008-1,133009-1,133011-1,133057-1,133058-1
+  }
+  {
+    id: 220012
+    name: 生涯任务奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+  }
+  {
+    id: 220013
+    name: 生涯任务奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    item_ids: 1800002-1
+  }
+  {
+    id: 220014
+    name: 生涯任务奖励
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 220015
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133007-1
+  }
+  {
+    id: 220016
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133012-1,133013-1,133014-1,133015-1,133059-1,133060-1
+  }
+  {
+    id: 220017
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133016-1,133017-1,133018-1,133019-1,133020-1,133061-1
+  }
+  {
+    id: 220018
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133021-1,133022-1,133023-1,133024-1,133025-1,133062-1
+  }
+  {
+    id: 220019
+    name: 生涯任务奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 57-1000
+  }
+  {
+    id: 220020
+    name: 生涯任务奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 133026-1,133027-1,133028-1,133029-1,133030-1,133063-1
   }
 ]

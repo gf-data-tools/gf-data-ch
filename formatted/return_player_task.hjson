@@ -143,8 +143,8 @@
     id: 16
     type: squad_eat_chip_num
     count: 10
-    title: 芯片强化
-    describe: 将10个芯片用于日常强化
+    title: 支援派遣
+    describe: 完成10次自律作战
     function_control_id: 15
     prize_id: 30026
     activity_bonus: 20
@@ -152,10 +152,9 @@
   {
     id: 17
     type: complete_squad_daily
-    count: 3
-    title: 情报搜集
-    describe: 完成3个情报任务
-    function_control_id: 15
+    count: 10
+    title: 人形交流
+    describe: 向人形或融合势力赠送10次礼物
     prize_id: 30027
     activity_bonus: 20
   }
@@ -163,8 +162,8 @@
     id: 18
     type: squad_data_analyse
     count: 10
-    title: 情报解析
-    describe: 进行10次情报解析
+    title: 作战行动
+    describe: 战役中使用10次火力小队
     function_control_id: 15
     prize_id: 30028
     activity_bonus: 20

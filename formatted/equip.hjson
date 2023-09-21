@@ -1428,7 +1428,7 @@
     passive_skill: "759090"
     max_level: 10
     auto_select_id: 19002
-    equip_group_id: 4
+    group_id: "4"
     is_show: 1
     obtain_ids: "3"
   }
@@ -1495,7 +1495,7 @@
     passive_skill: "759184"
     max_level: 10
     auto_select_id: 20002
-    equip_group_id: 7
+    group_id: "7"
     is_show: 1
     obtain_ids: "3"
   }
@@ -2229,7 +2229,7 @@
     passive_skill: "759098"
     max_level: 10
     auto_select_id: 20003
-    equip_group_id: 3
+    group_id: "3"
     is_show: 1
     obtain_ids: "3"
   }
@@ -2409,8 +2409,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:400,critical_harm_rate:700
+    passive_skill: "759085,759088"
     max_level: 10
     auto_select_id: 20005
+    group_id: "13,14"
     is_show: 1
     obtain_ids: "3,3048"
   }
@@ -2664,7 +2666,7 @@
     passive_skill: "759089"
     max_level: 10
     auto_select_id: 18005
-    equip_group_id: 4
+    group_id: "4"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -2764,7 +2766,7 @@
     passive_skill: "759140"
     max_level: 10
     auto_select_id: 18006
-    equip_group_id: 6
+    group_id: "6"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -2864,7 +2866,7 @@
     passive_skill: "759233"
     max_level: 10
     auto_select_id: 18009
-    equip_group_id: 12
+    group_id: "12"
     is_show: 1
     obtain_ids: "3,3049"
   }
@@ -3025,7 +3027,7 @@
     passive_skill: "759096"
     max_level: 10
     auto_select_id: 18010
-    equip_group_id: 3
+    group_id: "3"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -3439,8 +3441,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:500,critical_percent:400
+    passive_skill: "759083"
     max_level: 10
     auto_select_id: 18020
+    group_id: "13"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -3671,7 +3675,7 @@
     passive_skill: "759189"
     max_level: 10
     auto_select_id: 18026
-    equip_group_id: 8
+    group_id: "8"
     is_show: 1
     obtain_ids: "3027"
   }
@@ -3708,7 +3712,7 @@
     passive_skill: "300120,759147"
     max_level: 10
     auto_select_id: 18027
-    equip_group_id: 5
+    group_id: "5"
     is_show: 1
     obtain_ids: "3"
   }
@@ -4390,7 +4394,7 @@
     passive_skill: "759239"
     max_level: 10
     auto_select_id: 18036
-    equip_group_id: 11
+    group_id: "11"
     is_show: 1
     obtain_ids: "3003"
   }
@@ -4422,8 +4426,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:450,hit:500,dodge:500
+    passive_skill: "759086"
     max_level: 10
     auto_select_id: 18037
+    group_id: "14"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -4458,7 +4464,7 @@
     passive_skill: "759185"
     max_level: 10
     auto_select_id: 18038
-    equip_group_id: 7
+    group_id: "7"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -4525,7 +4531,7 @@
     passive_skill: "759234"
     max_level: 10
     auto_select_id: 20020
-    equip_group_id: 12
+    group_id: "12"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -4921,7 +4927,7 @@
     passive_skill: "759132"
     max_level: 10
     auto_select_id: 20023
-    equip_group_id: 5
+    group_id: "5"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -5220,7 +5226,7 @@
     passive_skill: "759216"
     max_level: 10
     auto_select_id: 18052
-    equip_group_id: 9
+    group_id: "9"
     is_show: 1
     obtain_ids: "3003"
   }
@@ -5853,7 +5859,7 @@
     passive_skill: "900992"
     max_level: 10
     auto_select_id: 18061
-    equip_group_id: 1
+    group_id: "1"
     is_addition: 1
     is_show: 1
     obtain_ids: "3059"
@@ -5888,7 +5894,7 @@
     passive_skill: "900993"
     max_level: 10
     auto_select_id: 19021
-    equip_group_id: 1
+    group_id: "1"
     is_addition: 1
     is_show: 1
     obtain_ids: "3060"
@@ -5923,7 +5929,7 @@
     passive_skill: "900994"
     max_level: 10
     auto_select_id: 20030
-    equip_group_id: 1
+    group_id: "1"
     is_addition: 1
     is_show: 1
     obtain_ids: "3032"
@@ -5957,7 +5963,7 @@
     passive_skill: "901014"
     max_level: 10
     auto_select_id: 18062
-    equip_group_id: 2
+    group_id: "2"
     is_addition: 1
     is_show: 1
     obtain_ids: "3059"
@@ -5991,7 +5997,7 @@
     passive_skill: "901015"
     max_level: 10
     auto_select_id: 19022
-    equip_group_id: 2
+    group_id: "2"
     is_addition: 1
     is_show: 1
     obtain_ids: "3060"
@@ -6025,7 +6031,7 @@
     passive_skill: "901016"
     max_level: 10
     auto_select_id: 20031
-    equip_group_id: 2
+    group_id: "2"
     is_addition: 1
     is_show: 1
     obtain_ids: "3033"
@@ -6487,7 +6493,7 @@
     passive_skill: "902391,759141"
     max_level: 10
     auto_select_id: 20035
-    equip_group_id: 6
+    group_id: "6"
     is_show: 1
     obtain_ids: "3006"
   }
@@ -6522,7 +6528,7 @@
     passive_skill: "759221"
     max_level: 10
     auto_select_id: 18068
-    equip_group_id: 10
+    group_id: "10"
     is_show: 1
     obtain_ids: "3003"
   }
@@ -7118,7 +7124,7 @@
     passive_skill: "300903,759217"
     max_level: 10
     auto_select_id: 19029
-    equip_group_id: 9
+    group_id: "9"
     is_show: 1
     obtain_ids: "3016"
     sp_description: 梯队命中+10%
@@ -7153,7 +7159,7 @@
     passive_skill: "803906,759190"
     max_level: 10
     auto_select_id: 19030
-    equip_group_id: 8
+    group_id: "8"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8173,7 +8179,7 @@
     max_level: 10
     auto_select_id: 18084
     is_show: 1
-    obtain_ids: "3064"
+    obtain_ids: "3064,3096"
   }
   {
     id: 271
@@ -8237,7 +8243,7 @@
     passive_skill: "759222"
     max_level: 10
     auto_select_id: 19038
-    equip_group_id: 10
+    group_id: "10"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8602,7 +8608,7 @@
     max_level: 10
     auto_select_id: 18092
     is_show: 1
-    obtain_ids: "3068"
+    obtain_ids: "3068,3096"
   }
   {
     id: 284
@@ -8634,7 +8640,7 @@
     passive_skill: "300903,759240"
     max_level: 10
     auto_select_id: 19041
-    equip_group_id: 11
+    group_id: "11"
     is_show: 1
     obtain_ids: "3016"
     sp_description: 梯队命中+10%
@@ -10390,7 +10396,7 @@
     passive_skill: "759097"
     max_level: 10
     auto_select_id: 19053
-    equip_group_id: 3
+    group_id: "3"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10425,7 +10431,7 @@
     passive_skill: "759091"
     max_level: 10
     auto_select_id: 18114
-    equip_group_id: 4
+    group_id: "4"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10558,7 +10564,7 @@
     passive_skill: "759133,759034"
     max_level: 10
     auto_select_id: 19057
-    equip_group_id: 5
+    group_id: "5"
     is_show: 1
     obtain_ids: "3096"
     sp_description: 梯队命中+20%
@@ -10593,7 +10599,7 @@
     passive_skill: "759142,759034"
     max_level: 10
     auto_select_id: 19058
-    equip_group_id: 6
+    group_id: "6"
     is_show: 1
     obtain_ids: "3096"
     sp_description: 梯队命中+20%
@@ -10760,7 +10766,7 @@
     passive_skill: "759186"
     max_level: 10
     auto_select_id: 19060
-    equip_group_id: 7
+    group_id: "7"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10796,7 +10802,7 @@
     passive_skill: "759062,759191"
     max_level: 10
     auto_select_id: 20059
-    equip_group_id: 8
+    group_id: "8"
     is_show: 1
     obtain_ids: "3096"
     sp_description: 换弹时间-2秒
@@ -10864,7 +10870,7 @@
     passive_skill: "759218"
     max_level: 10
     auto_select_id: 20061
-    equip_group_id: 9
+    group_id: "9"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10898,7 +10904,7 @@
     passive_skill: "759223"
     max_level: 10
     auto_select_id: 20062
-    equip_group_id: 10
+    group_id: "10"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10995,7 +11001,7 @@
     passive_skill: "759241"
     max_level: 10
     auto_select_id: 20065
-    equip_group_id: 11
+    group_id: "11"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -11029,7 +11035,7 @@
     passive_skill: "759235"
     max_level: 10
     auto_select_id: 19061
-    equip_group_id: 12
+    group_id: "12"
     is_show: 1
     obtain_ids: "3096"
     sp_description: 梯队伤害+5%
@@ -11065,5 +11071,170 @@
     auto_select_id: 20066
     is_show: 1
     obtain_ids: "3089"
+  }
+  {
+    id: 358
+    name: .45UMP空尖弹
+    description:
+      '''
+      伤害+<pow>
+      命中+<hit>$UMP45改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "6,10"
+    hit: "8,10"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_UMP45Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20103"
+    equip_introduction: 为UMP45定制的新型空尖弹，在原有的基础上大幅降低了音爆的影响。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000,hit:500
+    passive_skill: "759084"
+    max_level: 10
+    auto_select_id: 19062
+    group_id: "13"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 359
+    name: 9mmUMP空尖弹
+    description:
+      '''
+      伤害+<pow>
+      暴击概率+<critical_percent><%>$UMP9改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "5,8"
+    critical_percent: "6,10"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_UMP9Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20101"
+    equip_introduction: 为UMP9定制的新型空尖弹，在原有的基础上提升了一定的杀伤力。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "759087"
+    max_level: 10
+    auto_select_id: 19063
+    group_id: "14"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 361
+    name: 12.7mm改良弹
+    description:
+      '''
+      穿甲+<armor_piercing>
+      伤害+<pow>$6P62专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "5,10"
+    armor_piercing: "95,100"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_6P62
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "138"
+    equip_introduction: 针对性地改良了12.7mm普通弹，比起.50 BMG杀伤力进一步提高，更适合6P62使用。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:1000
+    max_level: 10
+    auto_select_id: 19064
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 362
+    name: MAS特殊弹
+    description:
+      '''
+      穿甲+<armor_piercing>
+      伤害+<pow>$AAT-52专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "1,3"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_AAT52
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "111"
+    equip_introduction: 在7.5×54毫米子弹的基础上做了升级开发，使用了腐蚀性较低的火药，威力也有一定的提高。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:700
+    max_level: 10
+    auto_select_id: 19065
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 363
+    name: Beretta特制芯片
+    description:
+      '''
+      伤害+<pow> 射速+<rate>
+      暴击伤害<critical_harm_rate><%>$AR70专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: 人形_特殊_AR70
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "134"
+    equip_introduction: 专为AR70定制的强化芯片，能够大幅提高作战时的攻击精准度。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    max_level: 10
+    auto_select_id: 20068
+    is_show: 1
+    obtain_ids: "3003"
   }
 ]

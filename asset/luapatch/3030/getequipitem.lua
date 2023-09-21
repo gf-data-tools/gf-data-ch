@@ -2,7 +2,7 @@ local util = require 'xlua.util'
 xlua.private_accessible(CS.GetEquipItem)
 
 local _PlayGetEquipAnim = function(self,equip,action)
-	if CS.Utility.loadedLevelName == "Factory" then
+	if CS.Utility.loadedLevelName == "Factory" or CS.Utility.loadedLevelName == "StoreRoom" then
 		self:SetLayer("UI",50);
 
 		local lable=self.goBackCard:GetComponent(typeof(CS.UnityEngine.Canvas))

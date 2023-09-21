@@ -12,6 +12,10 @@ local GetComponentPropertyName_New = function(typeName)
         attrName = CS.Data.GetLang(1809);
     end
 
+    if typeName == "atk_speed" then
+        attrName = CS.Data.GetLang(160016);
+    end
+
     return attrName
 end
 

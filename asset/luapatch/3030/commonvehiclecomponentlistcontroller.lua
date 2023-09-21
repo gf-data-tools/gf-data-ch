@@ -20,7 +20,12 @@ local OnClickIntelligentConfirm_New = function(self,starType)
         end
 	end
 
-	self:CheckStrengthenFood(listNewFood)
+	if self.listType == CS.VehicleComponentListType.StrengthenFeed then
+		self:CheckStrengthenFood(listNewFood)
+	else
+		self.listSelectedComponent:AddRange(listNewFood);
+	end
+	
     self:RefreshList()
     self:RefreshAllLabelSelection()
 end

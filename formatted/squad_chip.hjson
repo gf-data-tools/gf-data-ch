@@ -1,478 +1,960 @@
 [
   {
-    id: 2011
-    name: *2星1格
-    rank: 2
-    color: "1,2"
-    grid: "1"
+    id: 1001
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "1,1"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 28
-    grid_number: 1
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 2021
-    name: *2星2格
-    rank: 2
-    color: "1,2"
-    grid: "2"
-    is_random: 1
-    random_number: "1,2"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 28
-    grid_number: 2
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 2031
-    name: *2星3格
-    rank: 2
-    color: "1,2"
-    grid: "3,4"
-    is_random: 1
-    random_number: "1,3"
-    assist_damage: 72
-    assist_def_break: 43
-    assist_hit: 35
-    assist_reload: 24
-    intensity_ratio: 32
-    grid_number: 3
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 2041
-    name: *2星4格
-    rank: 2
-    color: "1,2"
-    grid: "5,6,7,8,9,10,11"
-    is_random: 1
-    random_number: "1,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 32
+    assist_damage: 36
+    assist_reload: 9
     grid_number: 4
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 90
+    color: 2
   }
   {
-    id: 2051
-    name: *2星5格
-    rank: 2
-    color: "1,2"
-    grid: "12,13,14,15,16,17,18,19,20"
+    id: 1002
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 36
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 2052
-    name: *2星5格
-    rank: 2
-    color: "1,2"
-    grid: "21,22,23,24,25,26,27,28,29"
-    is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 40
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 2061
-    name: *2星6格
-    rank: 2
-    color: "1,2"
-    grid: "30,31,32,33,34,35,36,37,38,39"
-    is_random: 1
-    random_number: "2,4"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 40
+    assist_def_break: 55
+    assist_hit: 13
     grid_number: 6
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 140
+    color: 2
   }
   {
-    id: 3011
-    name: *3星1格
-    rank: 3
-    color: "1,2"
-    grid: "1"
+    id: 1003
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "1,1"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 44
-    grid_number: 1
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 3021
-    name: *3星2格
-    rank: 3
-    color: "1,2"
-    grid: "2"
-    is_random: 1
-    random_number: "1,2"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 44
-    grid_number: 2
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 3031
-    name: *3星3格
-    rank: 3
-    color: "1,2"
-    grid: "3,4"
-    is_random: 1
-    random_number: "1,3"
-    assist_damage: 72
-    assist_def_break: 43
-    assist_hit: 35
-    assist_reload: 24
-    intensity_ratio: 48
-    grid_number: 3
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 3041
-    name: *3星4格
-    rank: 3
-    color: "1,2"
-    grid: "5,6,7,8,9,10,11"
-    is_random: 1
-    random_number: "1,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 48
+    assist_def_break: 5
+    assist_hit: 40
     grid_number: 4
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 90
+    color: 2
   }
   {
-    id: 3051
-    name: *3星5格
-    rank: 3
-    color: "1,2"
-    grid: "12,13,14,15,16,17,18,19,20"
+    id: 1004
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 56
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 3052
-    name: *3星5格
-    rank: 3
-    color: "1,2"
-    grid: "21,22,23,24,25,26,27,28,29"
-    is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 60
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 3061
-    name: *3星6格
-    rank: 3
-    color: "1,2"
-    grid: "30,31,32,33,34,35,36,37,38,39"
-    is_random: 1
-    random_number: "2,4"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 60
-    grid_number: 6
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 4011
-    name: *4星1格
-    rank: 4
-    color: "1,2"
-    grid: "1"
-    is_random: 1
-    random_number: "1,1"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 56
-    grid_number: 1
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 4021
-    name: *4星2格
-    rank: 4
-    color: "1,2"
-    grid: "2"
-    is_random: 1
-    random_number: "1,2"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 56
+    assist_damage: 23
     grid_number: 2
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 50
+    color: 2
   }
   {
-    id: 4031
-    name: *4星3格
-    rank: 4
-    color: "1,2"
-    grid: "3,4"
+    id: 1005
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "1,3"
-    assist_damage: 72
-    assist_def_break: 43
-    assist_hit: 35
-    assist_reload: 24
-    intensity_ratio: 60
-    grid_number: 3
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 4041
-    name: *4星4格
-    rank: 4
-    color: "1,2"
-    grid: "5,6,7,8,9,10,11"
-    is_random: 1
-    random_number: "1,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 64
-    grid_number: 4
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 4051
-    name: *4星5格
-    rank: 4
-    color: "1,2"
-    grid: "12,13,14,15,16,17,18,19,20"
-    is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 72
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 4052
-    name: *4星5格
-    rank: 4
-    color: "1,2"
-    grid: "21,22,23,24,25,26,27,28,29"
-    is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 80
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 4061
-    name: *4星6格
-    rank: 4
-    color: "1,2"
-    grid: "30,31,32,33,34,35,36,37,38,39"
-    is_random: 1
-    random_number: "2,4"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 80
-    grid_number: 6
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 5011
-    name: *5星1格
-    rank: 5
-    color: "1,2"
-    grid: "1"
-    is_random: 1
-    random_number: "1,1"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 72
-    grid_number: 1
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 5021
-    name: *5星2格
-    rank: 5
-    color: "1,2"
-    grid: "2"
-    is_random: 1
-    random_number: "1,2"
-    assist_damage: 85
-    assist_def_break: 51
-    assist_hit: 35
-    assist_reload: 22
-    intensity_ratio: 72
+    assist_damage: 23
     grid_number: 2
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 50
+    color: 2
   }
   {
-    id: 5031
-    name: *5星3格
-    rank: 5
-    color: "1,2"
-    grid: "3,4"
+    id: 1006
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "1,3"
-    assist_damage: 72
-    assist_def_break: 43
-    assist_hit: 35
-    assist_reload: 24
-    intensity_ratio: 76
-    grid_number: 3
-    type: 1
-    develop_duration: 28800
-  }
-  {
-    id: 5041
-    name: *5星4格
-    rank: 5
-    color: "1,2"
-    grid: "5,6,7,8,9,10,11"
-    is_random: 1
-    random_number: "1,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 80
+    assist_def_break: 42
+    assist_reload: 5
     grid_number: 4
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 90
+    color: 2
   }
   {
-    id: 5051
-    name: *5星5格
-    rank: 5
-    color: "1,2"
-    grid: "12,13,14,15,16,17,18,19,20"
+    id: 1007
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 27
-    intensity_ratio: 92
-    grid_number: 5
-    type: 1
-    develop_duration: 28800
+    assist_damage: 36
+    assist_reload: 8
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
   }
   {
-    id: 5052
-    name: *5星5格
-    rank: 5
-    color: "1,2"
-    grid: "21,22,23,24,25,26,27,28,29"
+    id: 1008
+    squad_id: 1
+    rank: 1
     is_random: 1
-    random_number: "2,3"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
+    assist_def_break: 15
+    assist_hit: 30
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 1009
+    squad_id: 1
+    rank: 1
+    is_random: 1
+    assist_def_break: 41
+    assist_hit: 5
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 1010
+    squad_id: 1
+    rank: 1
+    is_random: 1
+    assist_damage: 21
+    assist_hit: 4
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 2
+  }
+  {
+    id: 2001
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_damage: 28
+    assist_def_break: 4
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 2002
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_hit: 9
+    assist_reload: 24
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 2003
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_hit: 8
     assist_reload: 32
-    intensity_ratio: 100
     grid_number: 5
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 110
+    color: 1
   }
   {
-    id: 5061
-    name: *5星6格
-    rank: 5
-    color: "1,2"
-    grid: "30,31,32,33,34,35,36,37,38,39"
+    id: 2004
+    squad_id: 2
+    rank: 1
     is_random: 1
-    random_number: "2,4"
-    assist_damage: 65
-    assist_def_break: 39
-    assist_hit: 35
-    assist_reload: 32
-    intensity_ratio: 100
+    assist_def_break: 24
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 1
+  }
+  {
+    id: 2005
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_damage: 24
+    assist_hit: 24
     grid_number: 6
-    type: 1
-    develop_duration: 28800
+    unlock_chip_point: 130
+    color: 1
+  }
+  {
+    id: 2006
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_def_break: 8
+    assist_reload: 40
+    grid_number: 6
+    unlock_chip_point: 130
+    color: 1
+  }
+  {
+    id: 2007
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_reload: 16
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 1
+  }
+  {
+    id: 2008
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_hit: 16
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 1
+  }
+  {
+    id: 2009
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_damage: 24
+    assist_def_break: 8
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 2010
+    squad_id: 2
+    rank: 1
+    is_random: 1
+    assist_def_break: 18
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 1
+  }
+  {
+    id: 3001
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_damage: 28
+    assist_def_break: 8
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 3002
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_damage: 24
+    assist_def_break: 4
+    grid_number: 3
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 3003
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_hit: 4
+    assist_reload: 24
+    grid_number: 3
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 3004
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_damage: 32
+    assist_hit: 4
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 3005
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_damage: 32
+    assist_hit: 4
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 3006
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_def_break: 17
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 1
+  }
+  {
+    id: 3007
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_damage: 31
+    assist_hit: 5
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 3008
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_hit: 28
+    assist_reload: 7
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 3009
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_damage: 21
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 1
+  }
+  {
+    id: 3010
+    squad_id: 3
+    rank: 1
+    is_random: 1
+    assist_reload: 21
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 1
+  }
+  {
+    id: 4001
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_damage: 23
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 4002
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_damage: 25
+    assist_def_break: 6
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 4003
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_hit: 25
+    assist_reload: 6
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 4004
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_damage: 31
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 4005
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_damage: 5
+    assist_reload: 26
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 4006
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_def_break: 24
+    assist_hit: 7
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 4007
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_damage: 40
+    assist_reload: 6
+    grid_number: 6
+    unlock_chip_point: 110
+    color: 2
+  }
+  {
+    id: 4008
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_reload: 32
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 4009
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_hit: 16
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 2
+  }
+  {
+    id: 4010
+    squad_id: 4
+    rank: 1
+    is_random: 1
+    assist_damage: 22
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 5001
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_damage: 26
+    assist_hit: 15
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 5002
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_def_break: 32
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 5003
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_damage: 21
+    assist_reload: 21
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 5004
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_def_break: 8
+    assist_hit: 33
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 5005
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_def_break: 41
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 5006
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_damage: 21
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 2
+  }
+  {
+    id: 5007
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_def_break: 6
+    assist_reload: 21
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 5008
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_def_break: 30
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 5009
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_damage: 48
+    assist_hit: 15
+    grid_number: 6
+    unlock_chip_point: 140
+    color: 2
+  }
+  {
+    id: 5010
+    squad_id: 5
+    rank: 1
+    is_random: 1
+    assist_def_break: 5
+    assist_hit: 26
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 6001
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_damage: 30
+    assist_def_break: 4
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 6002
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_def_break: 17
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 1
+  }
+  {
+    id: 6003
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_hit: 13
+    assist_reload: 30
+    grid_number: 5
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 6004
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_damage: 25
+    assist_hit: 11
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 6005
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_damage: 7
+    assist_reload: 27
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 6006
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_def_break: 30
+    assist_hit: 4
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 6007
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_damage: 16
+    assist_def_break: 18
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 6008
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_reload: 25
+    grid_number: 3
+    unlock_chip_point: 60
+    color: 1
+  }
+  {
+    id: 6009
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_hit: 34
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 6010
+    squad_id: 6
+    rank: 1
+    is_random: 1
+    assist_damage: 7
+    assist_reload: 27
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 7001
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_damage: 20
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 2
+  }
+  {
+    id: 7002
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_def_break: 25
+    assist_reload: 5
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 7003
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_damage: 45
+    assist_hit: 15
+    grid_number: 6
+    unlock_chip_point: 130
+    color: 2
+  }
+  {
+    id: 7004
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_def_break: 35
+    assist_reload: 6
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 7005
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_hit: 35
+    assist_reload: 5
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 7006
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_damage: 20
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 2
+  }
+  {
+    id: 7007
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_def_break: 20
+    grid_number: 2
+    unlock_chip_point: 40
+    color: 2
+  }
+  {
+    id: 7008
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_damage: 38
+    assist_def_break: 5
+    grid_number: 4
+    unlock_chip_point: 90
+    color: 2
+  }
+  {
+    id: 7009
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_def_break: 45
+    assist_hit: 40
+    grid_number: 8
+    unlock_chip_point: 170
+    color: 2
+  }
+  {
+    id: 7010
+    squad_id: 7
+    rank: 1
+    is_random: 1
+    assist_def_break: 3
+    assist_reload: 27
+    grid_number: 3
+    unlock_chip_point: 70
+    color: 2
+  }
+  {
+    id: 8001
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_damage: 28
+    assist_reload: 5
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 8002
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_hit: 25
+    grid_number: 3
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 8003
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_def_break: 27
+    assist_reload: 6
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 8004
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_damage: 28
+    assist_hit: 5
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 8005
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_reload: 25
+    grid_number: 3
+    unlock_chip_point: 90
+    color: 1
+  }
+  {
+    id: 8006
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_damage: 16
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 1
+  }
+  {
+    id: 8007
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_damage: 25
+    assist_reload: 8
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 8008
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_def_break: 16
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 1
+  }
+  {
+    id: 8009
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_def_break: 6
+    assist_hit: 28
+    grid_number: 4
+    unlock_chip_point: 100
+    color: 1
+  }
+  {
+    id: 8010
+    squad_id: 8
+    rank: 1
+    is_random: 1
+    assist_damage: 15
+    grid_number: 2
+    unlock_chip_point: 50
+    color: 1
+  }
+  {
+    id: 9001
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_damage: 4
+    assist_reload: 22
+    grid_number: 3
+    unlock_chip_point: 75
+    color: 2
+  }
+  {
+    id: 9002
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_damage: 27
+    assist_def_break: 6
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9003
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_hit: 32
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9004
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_damage: 6
+    assist_def_break: 26
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9005
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_damage: 24
+    assist_reload: 8
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9006
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_reload: 36
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9007
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_def_break: 25
+    assist_reload: 8
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9008
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_def_break: 5
+    assist_reload: 24
+    grid_number: 3
+    unlock_chip_point: 75
+    color: 2
+  }
+  {
+    id: 9009
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_hit: 30
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
+  }
+  {
+    id: 9010
+    squad_id: 9
+    rank: 1
+    is_random: 1
+    assist_damage: 25
+    assist_def_break: 7
+    grid_number: 4
+    unlock_chip_point: 85
+    color: 2
   }
 ]

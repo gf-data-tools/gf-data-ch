@@ -2,7 +2,6 @@
   {
     id: 1
     name: 减耗BUFF点
-    description: 减耗妖精生成的初期特殊点，出生时给我方梯队释放BUFF
     code: "1"
     priority: 9
     duration_type: "1"
@@ -19,12 +18,11 @@
   {
     id: 2
     name: 战斗妖精
-    description: 战斗妖精生成的特殊点
     code: "2"
     priority: 10
     duration_type: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 2
@@ -37,12 +35,11 @@
   {
     id: 3
     name: 暴击妖精
-    description: 暴击妖精生辰的初始特殊点
     code: "3"
     priority: 11
     duration_type: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 3
@@ -55,13 +52,12 @@
   {
     id: 6
     name: 防御妖精
-    description: 防御妖精生成时的特殊点
     code: "6"
     priority: 14
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 4
@@ -74,13 +70,12 @@
   {
     id: 8
     name: 增援妖精
-    description: 增援妖精生成特殊点
     code: "8"
     priority: 16
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 8
@@ -93,7 +88,7 @@
   {
     id: 10
     name: 布雷妖精
-    description: 布雷妖精生成特殊点
+    description: 地雷，踩上去就会爆炸！
     code: "10"
     priority: 18
     duration_type: "1,3"
@@ -116,29 +111,28 @@
   {
     id: 12
     name: 工事妖精
-    description: 工事妖精生成特殊点
+    description: 堡垒，我方在该点位战斗时，将获得提升
     code: "12"
     priority: 20
     duration_type: "1"
-    duration_time: "3"
-    mission_buff_config_id: 6
+    duration_time: "1"
+    mission_buff_config_id: 61
     detect_target_type: "-1"
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 12
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
-    skill_config_id_on_death: "0,0,0"
+    skill_config_id_on_birth: "6,0,0"
+    skill_config_id_on_death: "0,0,1201"
+    death_effect_target_type: "-1"
     effect_duration: 6
     effect_conditions: "0,1"
   }
   {
     id: 13
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -157,7 +151,6 @@
   {
     id: 14
     name: 搜救妖精
-    description: 搜救妖精生成buff用特殊点
     code: "14"
     priority: 22
     duration_type: "1"
@@ -176,7 +169,6 @@
   {
     id: 15
     name: 照明妖精
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -195,13 +187,12 @@
   {
     id: 98
     name: 工事buff点
-    description: 工事妖精触发战斗生成buff点
     code: "98"
     priority: 98
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     side_type: 2
@@ -215,7 +206,7 @@
   {
     id: 1101
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -236,7 +227,7 @@
   {
     id: 1102
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -257,7 +248,7 @@
   {
     id: 1103
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -278,7 +269,7 @@
   {
     id: 1104
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -299,7 +290,7 @@
   {
     id: 1105
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -320,7 +311,7 @@
   {
     id: 1106
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -341,7 +332,7 @@
   {
     id: 1107
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -362,7 +353,7 @@
   {
     id: 1108
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -383,7 +374,7 @@
   {
     id: 1109
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -404,7 +395,7 @@
   {
     id: 1110
     name: 火箭妖精
-    description: 火箭妖精初始点，生成覆盖点。
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "11"
     priority: 19
     duration_type: "1"
@@ -425,7 +416,7 @@
   {
     id: 1111
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -446,7 +437,7 @@
   {
     id: 1112
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -467,7 +458,7 @@
   {
     id: 1113
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -488,7 +479,7 @@
   {
     id: 1114
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -509,7 +500,7 @@
   {
     id: 1115
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -530,7 +521,7 @@
   {
     id: 1116
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -551,7 +542,7 @@
   {
     id: 1117
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -572,7 +563,7 @@
   {
     id: 1118
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -593,7 +584,7 @@
   {
     id: 1119
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -614,7 +605,7 @@
   {
     id: 1120
     name: 火箭覆盖
-    description: 火箭妖精覆盖点，覆盖原先点并且生成发动范围技能
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     code: "99"
     priority: 99
     duration_type: "1"
@@ -635,7 +626,6 @@
   {
     id: 1121
     name: 火箭伤害
-    description: 火箭妖精伤害点。
     code: "99"
     priority: 100
     duration_type: "1"
@@ -652,9 +642,52 @@
     effect_conditions: "0,1"
   }
   {
+    id: 1201
+    name: 工事妖精
+    description: 堡垒，我方在该点位战斗时，将获得提升
+    code: "12"
+    priority: 20
+    duration_type: "1"
+    duration_time: "1"
+    mission_buff_config_id: 61
+    detect_target_type: "-1"
+    effect_target_type: "1,8,301,10,305,304"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 12
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "6,0,0"
+    skill_config_id_on_death: "0,0,1202"
+    death_effect_target_type: "-1"
+    effect_duration: 6
+    effect_conditions: "0,1"
+  }
+  {
+    id: 1202
+    name: 工事妖精
+    description: 堡垒，我方在该点位战斗时，将获得提升
+    code: "12"
+    priority: 20
+    duration_type: "1"
+    duration_time: "1"
+    mission_buff_config_id: 61
+    detect_target_type: "-1"
+    effect_target_type: "1,8,301,10,305,304"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 12
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "6,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 6
+    effect_conditions: "0,1"
+  }
+  {
     id: 1301
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -673,7 +706,6 @@
   {
     id: 1302
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -692,7 +724,6 @@
   {
     id: 1303
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -711,7 +742,6 @@
   {
     id: 1304
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -730,7 +760,6 @@
   {
     id: 1305
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -749,7 +778,6 @@
   {
     id: 1306
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -768,7 +796,6 @@
   {
     id: 1307
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -787,7 +814,6 @@
   {
     id: 1308
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -806,7 +832,6 @@
   {
     id: 1309
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -825,7 +850,6 @@
   {
     id: 1310
     name: 指挥妖精
-    description: 指挥妖精生成buff用特殊点
     code: "13"
     priority: 21
     duration_type: "1"
@@ -844,7 +868,6 @@
   {
     id: 1501
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -863,7 +886,6 @@
   {
     id: 1502
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -882,7 +904,6 @@
   {
     id: 1503
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -901,7 +922,6 @@
   {
     id: 1504
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -920,7 +940,6 @@
   {
     id: 1505
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -939,7 +958,6 @@
   {
     id: 1506
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -958,7 +976,6 @@
   {
     id: 1507
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -977,7 +994,6 @@
   {
     id: 1508
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -996,7 +1012,6 @@
   {
     id: 1509
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -1015,7 +1030,6 @@
   {
     id: 1510
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
     code: "15"
     priority: 23
     duration_type: "1"
@@ -1034,13 +1048,12 @@
   {
     id: 1701
     name: 连击1
-    description: 连击1
     code: "1701"
     priority: 1701
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1701
@@ -1054,13 +1067,12 @@
   {
     id: 1702
     name: 连击2
-    description: 连击2
     code: "1702"
     priority: 1702
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1702
@@ -1074,13 +1086,14 @@
   {
     id: 1800
     name: 桃子触发器(友方)
+    description: 神秘桃子
     code: "1800"
     priority: 1800
     duration_type: "1,3"
     duration_time: "2,1"
     special_spot_config_id: 1801
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1800
@@ -1098,7 +1111,7 @@
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1801
@@ -1147,44 +1160,47 @@
   {
     id: 1900
     name: 沙暴
+    description: 迷乱沙域，在沙漠环境中单位降低作战能力
     priority: 1900
     duration_type: "1"
     duration_time: "1"
     mission_buff_config_id: 1900
     detect_target_type: "-1"
-    effect_target_type: "1,8,301,303"
+    effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1900
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1900,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_duration: 1000024
     effect_conditions: "1"
   }
   {
     id: 1901
-    name: 沙暴2
+    name: 沙暴
+    description: 迷乱沙域，在沙漠环境中单位降低作战能力
     priority: 1901
     duration_type: "1"
-    duration_time: "2"
+    duration_time: "1"
     mission_buff_config_id: 1900
     detect_target_type: "-1"
-    effect_target_type: "1,8,301,303"
+    effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1901
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
-    skill_config_id_on_death: "0,0,0"
+    skill_config_id_on_birth: "1900,0,0"
+    skill_config_id_on_death: "0,0,1900"
+    death_effect_target_type: "-1"
     effect_duration: 1000024
     effect_conditions: "1"
   }
   {
     id: 2001
-    name: 代理人空降标记
+    name: 【标记】代理人空降标记
     priority: 2001
     duration_type: "1"
     duration_time: "1"
@@ -1201,6 +1217,7 @@
   {
     id: 2100
     name: 陷阱
+    description: 对进入的敌方单位造成少量伤害且禁止行动1回合
     priority: 2100
     duration_type: "1,3"
     duration_time: "1,1"
@@ -1219,6 +1236,7 @@
   {
     id: 2101
     name: 陷阱
+    description: 对进入的敌方单位造成少量伤害且禁止行动1回合
     priority: 2101
     duration_type: "1,3"
     duration_time: "1,1"
@@ -1236,7 +1254,7 @@
   }
   {
     id: 2200
-    name: 修理
+    name: 【标记】修理
     priority: 2200
     duration_type: "1"
     duration_time: "1"
@@ -1254,6 +1272,7 @@
   {
     id: 2300
     name: 火箭
+    description: 火箭发射器，在范围2内战斗的我方单位将得到火箭支援
     priority: 2300
     duration_type: "1,2"
     duration_time: "3,4"
@@ -1272,14 +1291,14 @@
   }
   {
     id: 2301
-    name: 发射1
+    name: 【标记】发射1
     priority: 1
     duration_type: "2"
     duration_time: "1"
     mission_buff_config_id: 2300
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 2301
@@ -1291,14 +1310,14 @@
   }
   {
     id: 2302
-    name: 发射2
+    name: 【标记】发射2
     priority: 2
     duration_type: "2"
     duration_time: "1"
     mission_buff_config_id: 2300
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 2301
@@ -1310,14 +1329,14 @@
   }
   {
     id: 2303
-    name: 发射3
+    name: 【标记】发射3
     priority: 3
     duration_type: "2"
     duration_time: "1"
     mission_buff_config_id: 2300
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 2301
@@ -1329,7 +1348,7 @@
   }
   {
     id: 2304
-    name: 火箭结束
+    name: 【标记】火箭结束
     priority: 4
     duration_type: "1"
     duration_time: "1"
@@ -1414,7 +1433,8 @@
   }
   {
     id: 70001
-    name: 阻挡buff
+    name: 【标记】阻挡buff
+    description: 禁止通行
     code: "70001"
     priority: 70001
     duration_type: "1"
@@ -1435,13 +1455,13 @@
   }
   {
     id: 70012
-    name: 扣残血-出生发动
+    name: 【标记】扣残血-出生发动
     code: "70012"
     priority: 70012
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 70012
@@ -1455,13 +1475,13 @@
   }
   {
     id: 70014
-    name: 扣掉编-出生发动
+    name: 【标记】扣掉编-出生发动
     code: "70014"
     priority: 70014
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 70014
@@ -1475,13 +1495,12 @@
   }
   {
     id: 72001
-    name: 炸建筑得分
-    description: 炸建筑得分
+    name: 【标记】炸建筑得分
     priority: -1
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 72001
@@ -1493,13 +1512,12 @@
   }
   {
     id: 72002
-    name: 奖励关计分
-    description: 奖励关计分
+    name: 【标记】奖励关计分
     priority: -1
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 72002
@@ -1511,7 +1529,7 @@
   }
   {
     id: 78001
-    name: 不亮
+    name: 【标记】不亮
     priority: 1
     duration_type: "3"
     duration_time: "1"
@@ -1528,7 +1546,7 @@
   }
   {
     id: 78002
-    name: 亮
+    name: 【标记】亮
     priority: 1
     duration_type: "3"
     duration_time: "1"
@@ -1546,7 +1564,7 @@
   }
   {
     id: 78003
-    name: 结算
+    name: 【标记】结算
     code: M4A1_Boss
     priority: 1
     duration_type: "1"
@@ -1615,7 +1633,7 @@
   }
   {
     id: 78027
-    name: "60"
+    name: 【标记】60
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -1633,7 +1651,7 @@
   {
     id: 100201
     name: 棱镜
-    description: 耀夜姬技能初始生成点
+    description: 八咫镜，在此处下场战斗中召唤绯狱丸
     code: "1002"
     priority: 1002
     duration_type: "1"
@@ -1654,7 +1672,6 @@
   {
     id: 100202
     name: 棱镜2
-    description: 耀夜姬技能效果点
     code: "1002"
     priority: 10021
     duration_type: "1"
@@ -1672,43 +1689,45 @@
   }
   {
     id: 100401
-    name: 花瓣初始点
-    description: 联动妖精生成特殊点
+    name: 花瓣
+    description: 我方在该点位战斗时，伤害、命中、回避、护甲和暴击率提升
     code: "1004"
     priority: 20
     duration_type: "1"
-    duration_time: "2"
-    mission_buff_config_id: 1004
+    duration_time: "1"
+    mission_buff_config_id: 10041
     detect_target_type: "-1"
-    effect_target_type: "1,8"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 10
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
-    skill_config_id_on_death: "0,0,0"
+    skill_config_id_on_birth: "1004,0,0"
+    skill_config_id_on_death: "0,0,100402"
+    death_effect_target_type: "-1"
     effect_duration: 1004
     effect_conditions: "0,1"
   }
   {
     id: 100402
-    name: 花瓣buff点
-    description: 联动妖精触发战斗生成buff点
-    code: "100401"
-    priority: 100401
+    name: 花瓣
+    description: 我方在该点位战斗时，伤害、命中、回避、护甲和暴击率提升
+    code: "1004"
+    priority: 20
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1"
-    effect_target_type: "1"
+    mission_buff_config_id: 10041
+    detect_target_type: "-1"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
-    conflict_type: 100401
-    conditions_type: 0;0
-    conditions_time: 0-0;0-0
+    conflict_type: 10
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
     skill_config_id_on_birth: "1004,0,0"
     skill_config_id_on_death: "0,0,0"
+    effect_duration: 1004
     effect_conditions: "0,1"
   }
   {
@@ -1908,6 +1927,7 @@
   {
     id: 381902
     name: 【标记】堵路
+    description: 禁止通行
     priority: 381902
     duration_type: "1"
     duration_time: "99"
@@ -2001,6 +2021,7 @@
   {
     id: 382001
     name: 【标记】堵路_内圈
+    description: 禁止通行
     priority: 382001
     duration_type: "1"
     duration_time: "99"
@@ -2061,6 +2082,7 @@
   {
     id: 382004
     name: 【标记】预置清堵路_外圈
+    description: 机场增援中,单位变强
     priority: 382004
     duration_type: "1"
     duration_time: "99"
@@ -2115,6 +2137,7 @@
   {
     id: 382007
     name: 【标记】预置清堵路_次内圈_特殊解
+    description: 机场增援中,单位变强
     priority: 382002
     duration_type: "3"
     duration_time: "1"
@@ -2136,6 +2159,7 @@
   {
     id: 382008
     name: 【标记】预置清堵路_次内圈_特殊解
+    description: 机场增援中,单位变强
     priority: 382003
     duration_type: "3"
     duration_time: "1"
@@ -2157,6 +2181,7 @@
   {
     id: 382009
     name: 【标记】禁飞
+    description: 机场增援中,单位变强
     priority: 382009
     duration_type: "1"
     duration_time: "99"
@@ -2175,7 +2200,7 @@
   }
   {
     id: 410300
-    name: 技能失效标记
+    name: 【标记】技能失效标记
     priority: 400300
     duration_type: "1"
     duration_time: "99"
@@ -2191,12 +2216,12 @@
   }
   {
     id: 410301
-    name: 靠近检测标记
+    name: 【标记】靠近检测标记
     priority: 410301
     duration_type: "1"
     duration_time: "1"
     special_spot_config_id: 410302
-    detect_target_type: "1,8"
+    detect_target_type: "1,8,10"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -2227,7 +2252,7 @@
   }
   {
     id: 410312
-    name: 潜行传送点标记
+    name: 【标记】潜行传送点标记
     priority: 410312
     duration_type: "1"
     duration_time: "99"
@@ -2244,7 +2269,8 @@
   }
   {
     id: 410351
-    name: 传送节点生效标记
+    name: 【标记】传送节点生效标记
+    description: 传送开启中
     priority: 410351
     duration_type: "1"
     duration_time: "99"
@@ -2261,7 +2287,7 @@
   }
   {
     id: 410352
-    name: 传送节点标记
+    name: 【标记】传送节点标记
     priority: 410352
     duration_type: "1"
     duration_time: "99"
@@ -2277,7 +2303,7 @@
   }
   {
     id: 410361
-    name: 歌利亚可拾取标记
+    name: 【标记】歌利亚可拾取标记
     priority: 410361
     duration_type: "1"
     duration_time: "99"
@@ -2293,7 +2319,7 @@
   }
   {
     id: 410362
-    name: EMP雷可拾取标记
+    name: 【标记】EMP雷可拾取标记
     priority: 410362
     duration_type: "1"
     duration_time: "99"
@@ -2347,13 +2373,14 @@
   }
   {
     id: 410501
-    name: 花粉区标记(对蓝色)
+    name: 【标记】花粉区标记(对蓝色)
+    description: 花粉四散，接触后影响作战效率
     priority: 410501
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 410501
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 410501
@@ -2366,7 +2393,7 @@
   }
   {
     id: 410502
-    name: 花粉区标记(对红色)
+    name: 【标记】花粉区标记(对红色)
     priority: 410502
     duration_type: "1"
     duration_time: "99"
@@ -2384,7 +2411,7 @@
   }
   {
     id: 420111
-    name: 防御门生效标记
+    name: 【标记】防御门生效标记
     priority: 420111
     duration_type: "1"
     duration_time: "99"
@@ -2401,7 +2428,7 @@
   }
   {
     id: 420202
-    name: 潜行目标点标记
+    name: 【标记】潜行目标点标记
     priority: 420202
     duration_type: "1"
     duration_time: "99"
@@ -2434,7 +2461,7 @@
   }
   {
     id: 420213
-    name: 扳道打开标记
+    name: 【标记】扳道打开标记
     priority: 420213
     duration_type: "1"
     duration_time: "99"
@@ -2450,7 +2477,8 @@
   }
   {
     id: 420301
-    name: 记忆碎片标记
+    name: 【标记】记忆碎片标记
+    description: 记忆碎片，不妨尝试过来触摸一下
     priority: 420301
     duration_type: "1"
     duration_time: "99"
@@ -2468,7 +2496,7 @@
   }
   {
     id: 420311
-    name: 碎片1标记
+    name: 【标记】碎片1标记
     priority: 420311
     duration_type: "1"
     duration_time: "99"
@@ -2484,7 +2512,7 @@
   }
   {
     id: 420312
-    name: 碎片2标记
+    name: 【标记】碎片2标记
     priority: 420312
     duration_type: "1"
     duration_time: "99"
@@ -2500,7 +2528,7 @@
   }
   {
     id: 420313
-    name: 碎片3标记
+    name: 【标记】碎片3标记
     priority: 420313
     duration_type: "1"
     duration_time: "99"
@@ -2516,7 +2544,7 @@
   }
   {
     id: 420314
-    name: 碎片4标记
+    name: 【标记】碎片4标记
     priority: 420314
     duration_type: "1"
     duration_time: "99"
@@ -2532,7 +2560,7 @@
   }
   {
     id: 420315
-    name: 碎片5标记
+    name: 【标记】碎片5标记
     priority: 420315
     duration_type: "1"
     duration_time: "99"
@@ -2661,7 +2689,7 @@
   }
   {
     id: 420401
-    name: 机场可用标记
+    name: 【标记】机场可用标记
     priority: 420401
     duration_type: "1"
     duration_time: "99"
@@ -2678,6 +2706,7 @@
   {
     id: 420501
     name: 传送标记
+    description: 传送开启中
     priority: 420501
     duration_type: "1"
     duration_time: "99"
@@ -2695,7 +2724,7 @@
   }
   {
     id: 420502
-    name: 扳道1标记
+    name: 【标记】扳道1标记
     priority: 420502
     duration_type: "1"
     duration_time: "99"
@@ -2711,7 +2740,7 @@
   }
   {
     id: 420503
-    name: 扳道2标记
+    name: 【标记】扳道2标记
     priority: 420503
     duration_type: "1"
     duration_time: "99"
@@ -2727,7 +2756,7 @@
   }
   {
     id: 420504
-    name: 两边扳道标记
+    name: 【标记】两边扳道标记
     priority: 420504
     duration_type: "1"
     duration_time: "99"
@@ -2743,7 +2772,7 @@
   }
   {
     id: 420512
-    name: 扳道1生效标记
+    name: 【标记】扳道1生效标记
     priority: 420512
     duration_type: "1"
     duration_time: "99"
@@ -2759,7 +2788,7 @@
   }
   {
     id: 420513
-    name: 扳道2生效标记
+    name: 【标记】扳道2生效标记
     priority: 420513
     duration_type: "1"
     duration_time: "99"
@@ -2775,7 +2804,7 @@
   }
   {
     id: 420514
-    name: 两边扳道打开标记
+    name: 【标记】两边扳道打开标记
     priority: 420514
     duration_type: "1"
     duration_time: "99"
@@ -2792,6 +2821,7 @@
   {
     id: 420600
     name: 中心传送点标记
+    description: 传送开启中
     priority: 420600
     duration_type: "1"
     duration_time: "99"
@@ -2810,6 +2840,7 @@
   {
     id: 420601
     name: 中心传送点标记
+    description: 传送开启中
     priority: 420601
     duration_type: "1"
     duration_time: "99"
@@ -2828,6 +2859,7 @@
   {
     id: 420602
     name: 内圈1标记
+    description: 传送开启中
     priority: 420602
     duration_type: "1"
     duration_time: "99"
@@ -2846,6 +2878,7 @@
   {
     id: 420603
     name: 内圈2标记
+    description: 传送开启中
     priority: 420603
     duration_type: "1"
     duration_time: "99"
@@ -2864,6 +2897,7 @@
   {
     id: 420604
     name: 内圈3标记
+    description: 传送开启中
     priority: 420604
     duration_type: "1"
     duration_time: "99"
@@ -2882,6 +2916,7 @@
   {
     id: 420605
     name: 外圈1标记
+    description: 传送开启中
     priority: 420605
     duration_type: "1"
     duration_time: "99"
@@ -2900,6 +2935,7 @@
   {
     id: 420606
     name: 外圈2标记
+    description: 传送开启中
     priority: 420606
     duration_type: "1"
     duration_time: "99"
@@ -2918,6 +2954,7 @@
   {
     id: 420607
     name: 外圈3标记
+    description: 传送开启中
     priority: 420607
     duration_type: "1"
     duration_time: "99"
@@ -2935,7 +2972,7 @@
   }
   {
     id: 420613
-    name: 密码箱1标记
+    name: 【标记】密码箱1标记
     priority: 420613
     duration_type: "1"
     duration_time: "99"
@@ -2951,7 +2988,7 @@
   }
   {
     id: 420614
-    name: 密码箱2标记
+    name: 【标记】密码箱2标记
     priority: 420614
     duration_type: "1"
     duration_time: "99"
@@ -2967,7 +3004,7 @@
   }
   {
     id: 420615
-    name: 密码箱3标记
+    name: 【标记】密码箱3标记
     priority: 420615
     duration_type: "1"
     duration_time: "99"
@@ -2983,7 +3020,7 @@
   }
   {
     id: 440010
-    name: 迷雾点1
+    name: 【标记】迷雾点1
     priority: 440010
     duration_type: "1"
     duration_time: "99"
@@ -3001,7 +3038,7 @@
   }
   {
     id: 440020
-    name: 迷雾点2
+    name: 【标记】迷雾点2
     priority: 440020
     duration_type: "1"
     duration_time: "99"
@@ -3019,7 +3056,7 @@
   }
   {
     id: 440030
-    name: 迷雾点3
+    name: 【标记】迷雾点3
     priority: 440030
     duration_type: "1"
     duration_time: "99"
@@ -3037,7 +3074,7 @@
   }
   {
     id: 440040
-    name: 迷雾点4
+    name: 【标记】迷雾点4
     priority: 440040
     duration_type: "1"
     duration_time: "99"
@@ -3055,7 +3092,7 @@
   }
   {
     id: 440050
-    name: 迷雾点5
+    name: 【标记】迷雾点5
     priority: 440050
     duration_type: "1"
     duration_time: "99"
@@ -3073,7 +3110,7 @@
   }
   {
     id: 440060
-    name: 迷雾点6
+    name: 【标记】迷雾点6
     priority: 440060
     duration_type: "1"
     duration_time: "99"
@@ -3091,7 +3128,7 @@
   }
   {
     id: 440070
-    name: 迷雾点7
+    name: 【标记】迷雾点7
     priority: 440070
     duration_type: "1"
     duration_time: "99"
@@ -3109,7 +3146,7 @@
   }
   {
     id: 440080
-    name: 迷雾点8
+    name: 【标记】迷雾点8
     priority: 440080
     duration_type: "1"
     duration_time: "99"
@@ -3127,7 +3164,7 @@
   }
   {
     id: 440090
-    name: 迷雾点9
+    name: 【标记】迷雾点9
     priority: 440090
     duration_type: "1"
     duration_time: "99"
@@ -3145,7 +3182,7 @@
   }
   {
     id: 440201
-    name: 鲨鱼剧情触发点1
+    name: 【标记】鲨鱼剧情触发点1
     priority: 440201
     duration_type: "3"
     duration_time: "1"
@@ -3163,7 +3200,7 @@
   }
   {
     id: 440202
-    name: 鲨鱼剧情触发点2
+    name: 【标记】鲨鱼剧情触发点2
     priority: 440202
     duration_type: "3"
     duration_time: "1"
@@ -3215,12 +3252,12 @@
   }
   {
     id: 440301
-    name: 玛赫莲绑架点
+    name: 【标记】玛赫莲绑架点
     priority: 440301
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440302
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3234,7 +3271,6 @@
   {
     id: 440302
     name: "[avg]-44-B1-2First"
-    description: 搜寻目标
     code: TargetPoint_Radar
     priority: 440302
     duration_type: "1"
@@ -3252,12 +3288,12 @@
   }
   {
     id: 440311
-    name: 夜战视野触发点
+    name: 【标记】夜战视野触发点
     priority: 440311
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 440301
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3287,7 +3323,7 @@
   }
   {
     id: 440501
-    name: GK1标记
+    name: 【标记】GK1标记
     priority: 440501
     duration_type: "1"
     duration_time: "99"
@@ -3304,7 +3340,7 @@
   }
   {
     id: 440502
-    name: GK2标记
+    name: 【标记】GK2标记
     priority: 440502
     duration_type: "1"
     duration_time: "99"
@@ -3321,7 +3357,7 @@
   }
   {
     id: 440503
-    name: GK3标记
+    name: 【标记】GK3标记
     priority: 440503
     duration_type: "1"
     duration_time: "99"
@@ -3338,7 +3374,7 @@
   }
   {
     id: 440504
-    name: GK4标记
+    name: 【标记】GK4标记
     priority: 440504
     duration_type: "1"
     duration_time: "99"
@@ -3355,7 +3391,7 @@
   }
   {
     id: 440505
-    name: GK5标记
+    name: 【标记】GK5标记
     priority: 440505
     duration_type: "1"
     duration_time: "99"
@@ -3372,7 +3408,7 @@
   }
   {
     id: 440510
-    name: GK临时标记
+    name: 【标记】GK临时标记
     priority: 440510
     duration_type: "1"
     duration_time: "99"
@@ -3390,7 +3426,6 @@
   {
     id: 440511
     name: G标记
-    description: 狮鹫印记
     code: gkemblem
     priority: 440511
     duration_type: "1"
@@ -3408,7 +3443,7 @@
   }
   {
     id: 440512
-    name: GK临时标记2
+    name: 【标记】GK临时标记2
     priority: 440512
     duration_type: "1"
     duration_time: "1"
@@ -3426,7 +3461,7 @@
   }
   {
     id: 440521
-    name: G标记映射
+    name: 【标记】G标记映射
     priority: -1
     duration_type: "1"
     duration_time: "99"
@@ -3443,12 +3478,12 @@
   }
   {
     id: 440601
-    name: 酒吧标记1
+    name: 【标记】酒吧标记1
     priority: 440601
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440611
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3461,12 +3496,12 @@
   }
   {
     id: 440602
-    name: 酒吧标记2
+    name: 【标记】酒吧标记2
     priority: 440602
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440612
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3479,12 +3514,12 @@
   }
   {
     id: 440603
-    name: 酒吧标记3
+    name: 【标记】酒吧标记3
     priority: 440603
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440613
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3497,12 +3532,12 @@
   }
   {
     id: 440604
-    name: 酒吧标记4
+    name: 【标记】酒吧标记4
     priority: 440604
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440614
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3516,7 +3551,6 @@
   {
     id: 440611
     name: "[avg]-44-B2-1-A"
-    description: 搜寻目标
     code: TargetPoint_Radar
     priority: 440611
     duration_type: "1"
@@ -3535,7 +3569,6 @@
   {
     id: 440612
     name: "[avg]-44-B2-1-B"
-    description: 搜寻目标
     code: TargetPoint_Radar
     priority: 440612
     duration_type: "1"
@@ -3554,7 +3587,6 @@
   {
     id: 440613
     name: "[avg]-44-B2-1-C"
-    description: 搜寻目标
     code: TargetPoint_Radar
     priority: 440613
     duration_type: "1"
@@ -3572,8 +3604,7 @@
   }
   {
     id: 440614
-    name: 酒吧标记
-    description: 未知胜利目标
+    name: 【标记】酒吧标记
     code: TargetPoint_Radar
     priority: 440614
     duration_type: "1"
@@ -3592,7 +3623,6 @@
   {
     id: 440800
     name: 记忆碎片可读取标记
-    description: 读取记忆
     code: Memorys
     priority: 440800
     duration_type: "1"
@@ -3683,8 +3713,7 @@
   }
   {
     id: 440900
-    name: 最终剧情点标记
-    description: 深度探索
+    name: 【标记】最终剧情点标记
     code: TargetPoint_Radar
     priority: 440900
     duration_type: "1"
@@ -3702,7 +3731,7 @@
   }
   {
     id: 440902
-    name: 传送点标记
+    name: 【标记】传送点标记
     priority: 440902
     duration_type: "1"
     duration_time: "99"
@@ -3719,12 +3748,12 @@
   }
   {
     id: 440903
-    name: 召唤点标记
+    name: 【标记】召唤点标记
     priority: 440903
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 440000
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3738,6 +3767,7 @@
   {
     id: 440907
     name: 最终传送标记
+    description: 指向左侧
     priority: 440907
     duration_type: "1"
     duration_time: "99"
@@ -3756,6 +3786,7 @@
   {
     id: 440908
     name: 传送标记1
+    description: 指向下方
     priority: 440908
     duration_type: "1"
     duration_time: "99"
@@ -3774,6 +3805,7 @@
   {
     id: 440909
     name: 传送标记2
+    description: 指向下方
     priority: 440909
     duration_type: "1"
     duration_time: "99"
@@ -3791,12 +3823,12 @@
   }
   {
     id: 440910
-    name: 剧情标记
+    name: 【标记】剧情标记
     priority: 440910
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440911
-    detect_target_type: "1,8"
+    detect_target_type: "1,8,10"
     detect_range: 3
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -3844,7 +3876,7 @@
   }
   {
     id: 442011
-    name: 解锁1标记
+    name: 【标记】解锁1标记
     priority: 442011
     duration_type: "1"
     duration_time: "99"
@@ -3861,7 +3893,7 @@
   }
   {
     id: 442012
-    name: 解锁2标记
+    name: 【标记】解锁2标记
     priority: 442012
     duration_type: "1"
     duration_time: "99"
@@ -3878,7 +3910,7 @@
   }
   {
     id: 442013
-    name: 解锁3标记
+    name: 【标记】解锁3标记
     priority: 442013
     duration_type: "1"
     duration_time: "99"
@@ -3895,7 +3927,7 @@
   }
   {
     id: 442014
-    name: 解锁4标记
+    name: 【标记】解锁4标记
     priority: 442014
     duration_type: "1"
     duration_time: "99"
@@ -3912,7 +3944,7 @@
   }
   {
     id: 442015
-    name: 解锁5标记
+    name: 【标记】解锁5标记
     priority: 442015
     duration_type: "1"
     duration_time: "99"
@@ -4022,6 +4054,7 @@
   {
     id: 480002
     name: 【标记】禁飞生效
+    description: 禁止通行
     priority: 480002
     duration_type: "1"
     duration_time: "99"
@@ -4058,6 +4091,7 @@
   {
     id: 480101
     name: 【标记】传送节点
+    description: 传送开启中
     priority: 480101
     duration_type: "1"
     duration_time: "99"
@@ -4320,6 +4354,7 @@
   {
     id: 480162
     name: 【标记】接受
+    description: 传送开启中
     priority: 480162
     duration_type: "1"
     duration_time: "2"
@@ -4377,8 +4412,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 481400
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 481400
@@ -4425,6 +4460,7 @@
   {
     id: 481404
     name: 【标记】炸药
+    description: 预置炸弹，快离开这，要爆炸啦！
     code: TargetPoint_Radar
     priority: 481404
     duration_type: "1"
@@ -4550,7 +4586,7 @@
   }
   {
     id: 481812
-    name: EMP启动
+    name: 【标记】EMP启动
     priority: 481812
     duration_type: "1"
     duration_time: "1"
@@ -4570,7 +4606,7 @@
   }
   {
     id: 481813
-    name: 变电站启动
+    name: 【标记】变电站启动
     priority: 481813
     duration_type: "1"
     duration_time: "99"
@@ -4588,6 +4624,7 @@
   {
     id: 481814
     name: 【标记】变电站过载
+    description: 过载中，暂时无法使用
     priority: 481814
     duration_type: "1"
     duration_time: "2"
@@ -4657,6 +4694,7 @@
   {
     id: 481904
     name: "[avg]-48-EXT-5-2"
+    description: 禁止通行
     priority: 481904
     duration_type: "1"
     duration_time: "99"
@@ -4746,6 +4784,7 @@
   {
     id: 482002
     name: 【标记】防御门生效
+    description: 禁止通行
     code: Door_Left_S
     priority: 482002
     duration_type: "1"
@@ -4853,6 +4892,7 @@
   {
     id: 482102
     name: 【标记】地雷
+    description: 预置炸弹，快离开这，要爆炸啦！
     priority: 482102
     duration_type: "3"
     duration_time: "1"
@@ -4909,6 +4949,7 @@
   {
     id: 482202
     name: 【标记】防御门1生效
+    description: 禁止通行
     priority: 482202
     duration_type: "1"
     duration_time: "99"
@@ -4928,6 +4969,7 @@
   {
     id: 482204
     name: 【标记】防御门2生效
+    description: 禁止通行
     priority: 482204
     duration_type: "1"
     duration_time: "99"
@@ -4998,6 +5040,7 @@
   {
     id: 482208
     name: 【标记】埋雷
+    description: 预置炸弹，快离开这，要爆炸啦！
     code: TargetPoint_Radar
     priority: 482208
     duration_type: "1"
@@ -5242,6 +5285,7 @@
   {
     id: 482311
     name: 【标记】防御门生效
+    description: 禁止通行
     priority: 482311
     duration_type: "1"
     duration_time: "99"
@@ -5261,6 +5305,7 @@
   {
     id: 482312
     name: 【标记】防御门生效
+    description: 禁止通行
     priority: 482312
     duration_type: "1"
     duration_time: "99"
@@ -5280,6 +5325,7 @@
   {
     id: 482313
     name: 【标记】防御门生效
+    description: 禁止通行
     priority: 482313
     duration_type: "1"
     duration_time: "99"
@@ -5299,6 +5345,7 @@
   {
     id: 482314
     name: 【标记】防御门生效
+    description: 禁止通行
     priority: 482314
     duration_type: "1"
     duration_time: "99"
@@ -5422,6 +5469,7 @@
   {
     id: 482411
     name: 【标记】左边向下
+    description: 指向下方
     priority: 482411
     duration_type: "1"
     duration_time: "99"
@@ -5441,6 +5489,7 @@
   {
     id: 482412
     name: 【标记】右边向下
+    description: 指向下方
     priority: 482412
     duration_type: "1"
     duration_time: "99"
@@ -5460,6 +5509,7 @@
   {
     id: 482421
     name: 【标记】向右
+    description: 指向右侧
     priority: 482421
     duration_type: "1"
     duration_time: "99"
@@ -5479,6 +5529,7 @@
   {
     id: 482422
     name: 【标记】向左
+    description: 指向左侧
     priority: 482422
     duration_type: "1"
     duration_time: "99"
@@ -5768,6 +5819,7 @@
   {
     id: 482504
     name: 【标记】防御门
+    description: 禁止通行
     priority: 482504
     duration_type: "1"
     duration_time: "99"
@@ -5880,8 +5932,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 483411
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 483401
@@ -5928,6 +5980,7 @@
   {
     id: 483503
     name: 【标记】乱石堆
+    description: 禁止通行
     priority: 483503
     duration_type: "1"
     duration_time: "99"
@@ -5984,6 +6037,7 @@
   {
     id: 483611
     name: 【标记】高爆炸药
+    description: 预置炸弹，快离开这，要爆炸啦！
     priority: 483611
     duration_type: "1"
     duration_time: "1"
@@ -6147,6 +6201,7 @@
   {
     id: 483912
     name: 【标记】废墟生效
+    description: 禁止通行
     code: Viscosity_Bomb
     priority: 483912
     duration_type: "1"
@@ -6338,6 +6393,7 @@
   {
     id: 484106
     name: 【标记】防御门3生效
+    description: 禁止通行
     priority: 484106
     duration_type: "1"
     duration_time: "99"
@@ -6545,7 +6601,6 @@
   {
     id: 500001
     name: "[avg]-50-EXT-0-1"
-    description: 薄荷世家
     code: 2022WV21
     priority: 500001
     duration_type: "1"
@@ -6564,7 +6619,6 @@
   {
     id: 500002
     name: "[avg]-50-EXT-0-2"
-    description: 甜蜜军刀
     code: 2022WV22
     priority: 500002
     duration_type: "1"
@@ -6583,7 +6637,6 @@
   {
     id: 500003
     name: "[avg]-50-EXT-0-3"
-    description: 命运之吻
     code: 2022WV23
     priority: 500003
     duration_type: "1"
@@ -6602,7 +6655,6 @@
   {
     id: 500004
     name: "[avg]-50-EXT-0-4"
-    description: 巧克力二重奏
     code: 2022WV24
     priority: 500004
     duration_type: "1"
@@ -6621,7 +6673,6 @@
   {
     id: 500005
     name: "[avg]-50-EXT-0-5"
-    description: 经典记忆
     code: 2022WV25
     priority: 500005
     duration_type: "1"
@@ -6640,7 +6691,6 @@
   {
     id: 500006
     name: "[avg]-50-EXT-0-6"
-    description: 可可新世界
     code: 2022WV11
     priority: 500006
     duration_type: "1"
@@ -6659,7 +6709,6 @@
   {
     id: 500007
     name: "[avg]-50-EXT-0-7"
-    description: 巧苏鲁
     code: 2022WV12
     priority: 500007
     duration_type: "1"
@@ -7036,7 +7085,6 @@
   }
   {
     id: 500041
-    description: 【标记】糖霜巧克力检测
     priority: 500041
     duration_type: "1"
     duration_time: "99"
@@ -7053,7 +7101,6 @@
   }
   {
     id: 500042
-    description: 【标记】战术巧克力检测
     priority: 500042
     duration_type: "1"
     duration_time: "99"
@@ -7070,7 +7117,6 @@
   }
   {
     id: 500043
-    description: 【标记】水晶巧克力检测
     priority: 500043
     duration_type: "1"
     duration_time: "99"
@@ -7087,7 +7133,6 @@
   }
   {
     id: 500044
-    description: 【标记】火焰巧克力检测
     priority: 500044
     duration_type: "1"
     duration_time: "99"
@@ -7104,7 +7149,6 @@
   }
   {
     id: 500045
-    description: 【标记】巧克力咖啡检测
     priority: 500045
     duration_type: "1"
     duration_time: "99"
@@ -7121,7 +7165,6 @@
   }
   {
     id: 500046
-    description: 【标记】试作型检测
     priority: 500046
     duration_type: "1"
     duration_time: "99"
@@ -7139,7 +7182,6 @@
   {
     id: 500050
     name: "[avg]-50-EXT-1-3-2"
-    description: 【标记】配方
     priority: 500050
     duration_type: "1"
     duration_time: "99"
@@ -7189,7 +7231,6 @@
   }
   {
     id: 500301
-    description: 【标记】召唤小怪1
     priority: 500301
     duration_type: "1"
     duration_time: "99"
@@ -7206,7 +7247,6 @@
   }
   {
     id: 500302
-    description: 【标记】召唤小怪2
     priority: 500302
     duration_type: "1"
     duration_time: "99"
@@ -7223,7 +7263,6 @@
   }
   {
     id: 500303
-    description: 【标记】召唤小怪3
     priority: 500303
     duration_type: "1"
     duration_time: "99"
@@ -7240,7 +7279,6 @@
   }
   {
     id: 500304
-    description: 【标记】召唤BOSS
     priority: 500304
     duration_type: "1"
     duration_time: "99"
@@ -7327,7 +7365,6 @@
   {
     id: 500411
     name: "[avg]-50-3-2"
-    description: 刘易斯的场合
     code: 2022WV21
     priority: 500411
     duration_type: "1"
@@ -7346,7 +7383,6 @@
   {
     id: 500412
     name: "[avg]-50-3-3"
-    description: 隼的场合
     code: 2022WV21
     priority: 500412
     duration_type: "1"
@@ -7365,7 +7401,6 @@
   {
     id: 500413
     name: "[avg]-50-3-4"
-    description: 79式的场合
     code: 2022WV21
     priority: 500413
     duration_type: "1"
@@ -7384,7 +7419,6 @@
   {
     id: 500414
     name: "[avg]-50-3-5"
-    description: 97式的场合
     code: 2022WV21
     priority: 500414
     duration_type: "1"
@@ -7403,7 +7437,6 @@
   {
     id: 500415
     name: "[avg]-50-3-6"
-    description: 猎手-裳夜落蛾的场合
     code: 2022WV22
     priority: 500415
     duration_type: "1"
@@ -7422,7 +7455,6 @@
   {
     id: 500416
     name: "[avg]-50-3-7"
-    description: LWMMG的场合
     code: 2022WV22
     priority: 500416
     duration_type: "1"
@@ -7441,7 +7473,6 @@
   {
     id: 500417
     name: "[avg]-50-3-8"
-    description: K5的场合
     code: 2022WV23
     priority: 500417
     duration_type: "1"
@@ -7460,7 +7491,6 @@
   {
     id: 500418
     name: "[avg]-50-3-9"
-    description: M1加兰德的场合
     code: 2022WV23
     priority: 500418
     duration_type: "1"
@@ -7479,7 +7509,6 @@
   {
     id: 500419
     name: "[avg]-50-3-10"
-    description: P22的场合
     code: 2022WV24
     priority: 500419
     duration_type: "1"
@@ -7498,7 +7527,6 @@
   {
     id: 500420
     name: "[avg]-50-3-11"
-    description: T77的场合
     code: 2022WV24
     priority: 500420
     duration_type: "1"
@@ -7517,7 +7545,6 @@
   {
     id: 500421
     name: "[avg]-50-3-1"
-    description: 刘易斯的场合
     priority: 500421
     duration_type: "1"
     duration_time: "99"
@@ -7535,7 +7562,6 @@
   {
     id: 500422
     name: "[avg]-50-3-1"
-    description: 隼的场合
     priority: 500422
     duration_type: "1"
     duration_time: "99"
@@ -7553,7 +7579,6 @@
   {
     id: 500423
     name: "[avg]-50-3-1"
-    description: 79式的场合
     priority: 500423
     duration_type: "1"
     duration_time: "99"
@@ -7571,7 +7596,6 @@
   {
     id: 500424
     name: "[avg]-50-3-1"
-    description: 97式的场合
     priority: 500424
     duration_type: "1"
     duration_time: "99"
@@ -7589,7 +7613,6 @@
   {
     id: 500425
     name: "[avg]-50-3-1"
-    description: 猎手-裳夜落蛾的场合
     priority: 500425
     duration_type: "1"
     duration_time: "99"
@@ -7607,7 +7630,6 @@
   {
     id: 500426
     name: "[avg]-50-3-1"
-    description: LWMMG的场合
     priority: 500426
     duration_type: "1"
     duration_time: "99"
@@ -7625,7 +7647,6 @@
   {
     id: 500427
     name: "[avg]-50-3-1"
-    description: K5的场合
     priority: 500427
     duration_type: "1"
     duration_time: "99"
@@ -7643,7 +7664,6 @@
   {
     id: 500428
     name: "[avg]-50-3-1"
-    description: M1加兰德的场合
     priority: 500428
     duration_type: "1"
     duration_time: "99"
@@ -7661,7 +7681,6 @@
   {
     id: 500429
     name: "[avg]-50-3-1"
-    description: P22的场合
     priority: 500429
     duration_type: "1"
     duration_time: "99"
@@ -7679,7 +7698,6 @@
   {
     id: 500430
     name: "[avg]-50-3-1"
-    description: T77的场合
     priority: 500430
     duration_type: "1"
     duration_time: "99"
@@ -7748,7 +7766,6 @@
   {
     id: 500491
     name: "[avg]-50-EXT-1-4-1"
-    description: 【标记】炸狗
     priority: 500491
     duration_type: "1"
     duration_time: "1"
@@ -7766,7 +7783,6 @@
   {
     id: 500492
     name: "[avg]-50-EXT-1-4-2"
-    description: 【标记】勾引生效
     priority: 500492
     duration_type: "3"
     duration_time: "1"
@@ -7784,7 +7800,6 @@
   {
     id: 500493
     name: "[avg]-50-EXT-1-4-3"
-    description: 【标记】变大
     priority: 500493
     duration_type: "1"
     duration_time: "1"
@@ -7802,7 +7817,6 @@
   {
     id: 500496
     name: "[avg]-50-EXT-1-4-4"
-    description: 【标记】丢雷
     priority: 500496
     duration_type: "1"
     duration_time: "1"
@@ -7819,7 +7833,6 @@
   }
   {
     id: 500497
-    description: 【标记】勾引点
     priority: 500497
     duration_type: "1"
     duration_time: "99"
@@ -7859,7 +7872,7 @@
     duration_type: "1"
     duration_time: "1"
     special_spot_config_id: 510202
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -7874,7 +7887,6 @@
   {
     id: 510202
     name: "[avg]-51-EXT-1-1"
-    description: 追逐
     code: Nimeylan
     priority: 510202
     duration_type: "1"
@@ -7893,7 +7905,6 @@
   {
     id: 510299
     name: 【标记】失败触发
-    description: 逃逸
     code: TargetPoint_Radar
     priority: 510299
     duration_type: "1"
@@ -7999,6 +8010,7 @@
   {
     id: 510321
     name: 【标记】山生效
+    description: 禁止通行
     priority: 510321
     duration_type: "1"
     duration_time: "99"
@@ -8019,7 +8031,6 @@
   {
     id: 510400
     name: 【标记】失败触发
-    description: 败退
     code: dupijin
     priority: 510400
     duration_type: "1"
@@ -8072,7 +8083,6 @@
   {
     id: 510500
     name: 【标记】失败触发
-    description: 败退
     code: Sterling
     priority: 510500
     duration_type: "1"
@@ -8176,6 +8186,7 @@
   {
     id: 510702
     name: 【标记】乱石堆初始化
+    description: 禁止通行
     priority: 510702
     duration_type: "1"
     duration_time: "99"
@@ -8199,8 +8210,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 510703
-    detect_target_type: "1,7,8"
-    effect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
+    effect_target_type: "1,7,8,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 510703
@@ -8266,7 +8277,6 @@
   {
     id: 510800
     name: 【标记】折跃门
-    description: 爆破
     code: Portal_ar_3
     priority: 510800
     duration_type: "1"
@@ -8406,7 +8416,6 @@
   {
     id: 510841
     name: 【标记】炸弹爆炸
-    description: 爆破
     code: Portal_ar_3
     priority: 510841
     duration_type: "1"
@@ -8425,6 +8434,7 @@
   {
     id: 510901
     name: 【标记】电磁炮初始化
+    description: 禁止通行
     priority: 510901
     duration_type: "1"
     duration_time: "99"
@@ -8535,7 +8545,7 @@
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,301"
+    effect_target_type: "1,3,7,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 510931
@@ -8658,6 +8668,7 @@
   {
     id: 511024
     name: 【标记】变大山
+    description: 禁止通行
     priority: 511024
     duration_type: "1"
     duration_time: "99"
@@ -8713,6 +8724,7 @@
   {
     id: 511701
     name: "[avg]-51-EXT-2-3"
+    description: 空袭引导就绪，打击诸元数据链传输中。
     priority: 511701
     duration_type: "1"
     duration_time: "1"
@@ -8750,7 +8762,6 @@
   {
     id: 513700
     name: 【标记】失败触发
-    description: 败退
     code: TargetPoint_Radar
     priority: 513700
     duration_type: "1"
@@ -8768,7 +8779,7 @@
   }
   {
     id: 520600
-    name: 中心标记
+    name: 【标记】中心标记
     priority: 520600
     duration_type: "1"
     duration_time: "99"
@@ -8785,7 +8796,7 @@
   }
   {
     id: 520601
-    name: 白色
+    name: 【标记】白色
     priority: 520601
     duration_type: "1"
     duration_time: "99"
@@ -8802,7 +8813,7 @@
   }
   {
     id: 520602
-    name: 蓝色
+    name: 【标记】蓝色
     priority: 520602
     duration_type: "1"
     duration_time: "99"
@@ -8819,7 +8830,7 @@
   }
   {
     id: 520603
-    name: 红色
+    name: 【标记】红色
     priority: 520603
     duration_type: "1"
     duration_time: "99"
@@ -8836,7 +8847,7 @@
   }
   {
     id: 520604
-    name: 黄色
+    name: 【标记】黄色
     priority: 520604
     duration_type: "1"
     duration_time: "99"
@@ -8853,7 +8864,7 @@
   }
   {
     id: 520605
-    name: 正面
+    name: 【标记】正面
     priority: 520605
     duration_type: "1"
     duration_time: "99"
@@ -8870,7 +8881,7 @@
   }
   {
     id: 520606
-    name: 反面
+    name: 【标记】反面
     priority: 520606
     duration_type: "1"
     duration_time: "99"
@@ -8887,7 +8898,7 @@
   }
   {
     id: 520650
-    name: 切换标记
+    name: 【标记】切换标记
     priority: 520650
     duration_type: "1"
     duration_time: "99"
@@ -8922,7 +8933,7 @@
   }
   {
     id: 520656
-    name: 标记反面
+    name: 【标记】标记反面
     priority: -1
     duration_type: "1"
     duration_time: "99"
@@ -8939,7 +8950,7 @@
   }
   {
     id: 520801
-    name: A直伤
+    name: 【标记】A直伤
     priority: 520801
     duration_type: "1"
     duration_time: "2"
@@ -8959,7 +8970,7 @@
   }
   {
     id: 520802
-    name: B直伤
+    name: 【标记】B直伤
     priority: 520802
     duration_type: "1"
     duration_time: "2"
@@ -8979,7 +8990,7 @@
   }
   {
     id: 520803
-    name: C直伤
+    name: 【标记】C直伤
     priority: 520803
     duration_type: "1"
     duration_time: "2"
@@ -8999,7 +9010,7 @@
   }
   {
     id: 520804
-    name: D直伤
+    name: 【标记】D直伤
     priority: 520804
     duration_type: "1"
     duration_time: "1"
@@ -9019,7 +9030,7 @@
   }
   {
     id: 520805
-    name: E直伤
+    name: 【标记】E直伤
     priority: 520805
     duration_type: "1"
     duration_time: "1"
@@ -9039,7 +9050,7 @@
   }
   {
     id: 520811
-    name: A破甲
+    name: 【标记】A破甲
     priority: 520811
     duration_type: "1"
     duration_time: "2"
@@ -9059,7 +9070,7 @@
   }
   {
     id: 520812
-    name: B破甲
+    name: 【标记】B破甲
     priority: 520812
     duration_type: "1"
     duration_time: "2"
@@ -9079,7 +9090,7 @@
   }
   {
     id: 520813
-    name: C破甲
+    name: 【标记】C破甲
     priority: 520813
     duration_type: "1"
     duration_time: "2"
@@ -9099,7 +9110,7 @@
   }
   {
     id: 520814
-    name: D破甲
+    name: 【标记】D破甲
     priority: 520814
     duration_type: "1"
     duration_time: "1"
@@ -9119,7 +9130,7 @@
   }
   {
     id: 520815
-    name: E破甲
+    name: 【标记】E破甲
     priority: 520815
     duration_type: "1"
     duration_time: "1"
@@ -9139,7 +9150,7 @@
   }
   {
     id: 520821
-    name: 充能3
+    name: 【标记】充能3
     priority: 520821
     duration_type: "1"
     duration_time: "1"
@@ -9157,7 +9168,7 @@
   }
   {
     id: 520822
-    name: 充能4
+    name: 【标记】充能4
     priority: 520822
     duration_type: "1"
     duration_time: "1"
@@ -9175,7 +9186,7 @@
   }
   {
     id: 520823
-    name: 充能5
+    name: 【标记】充能5
     priority: 520823
     duration_type: "1"
     duration_time: "99"
@@ -9215,7 +9226,7 @@
     priority: 1
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -9336,6 +9347,7 @@
   {
     id: 541303
     name: 【标记】乱石堆
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -9355,11 +9367,12 @@
   {
     id: 541311
     name: 【标记】空袭引导
+    description: 空袭引导就绪，打击诸元数据链传输中。
     priority: 1
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 541321
-    detect_target_type: "201,301"
+    detect_target_type: "201,301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -9499,6 +9512,7 @@
   {
     id: 541411
     name: 【标记】烟花阻挡
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9639,7 +9653,7 @@
   }
   {
     id: 542711
-    name: 撤离
+    name: 【标记】撤离
     code: TargetPoint_Radar
     priority: -1
     duration_type: "1"
@@ -9726,6 +9740,7 @@
   {
     id: 543902
     name: 【标记】中心炮台
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -9744,6 +9759,7 @@
   {
     id: 543903
     name: 【标记】炮台开炮回合
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9763,6 +9779,7 @@
   {
     id: 543904
     name: 【标记】炮台等待回合
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9782,6 +9799,7 @@
   {
     id: 543909
     name: 【标记】临时炮台开炮回合
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9801,6 +9819,7 @@
   {
     id: 543910
     name: 【标记】临时炮台等待回合
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9837,6 +9856,7 @@
   {
     id: 543912
     name: 【标记】中心炮台升起
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -9856,6 +9876,7 @@
   {
     id: 543913
     name: 【标记】每轮炮击兔子
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9874,6 +9895,7 @@
   {
     id: 543914
     name: 【标记】这轮炮击兔子
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9909,6 +9931,7 @@
   {
     id: 543916
     name: 【标记】临时每轮炮击兔子
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9927,6 +9950,7 @@
   {
     id: 543917
     name: 【标记】临时这轮炮击兔子
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9962,6 +9986,7 @@
   {
     id: 543919
     name: 【标记】一二这轮炮击兔子
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -9980,6 +10005,7 @@
   {
     id: 543920
     name: 【标记】常一每轮炮击兔子
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -10049,6 +10075,7 @@
   {
     id: 544102
     name: 【标记】干扰器
+    description: 莫比乌斯生效中，禁止移动
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10084,6 +10111,7 @@
   {
     id: 544111
     name: 【标记】1层传送门
+    description: 传送开启中
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -10102,6 +10130,7 @@
   {
     id: 544113
     name: 【标记】防御门启动
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -10174,6 +10203,7 @@
   {
     id: 544202
     name: 【标记】油桶初始化
+    description: 油桶，易燃易爆炸
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10192,6 +10222,7 @@
   {
     id: 544203
     name: 【标记】树林
+    description: 树林，朽木
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10278,6 +10309,7 @@
   {
     id: 544223
     name: 【标记】燃烧
+    description: 烧焦的树木
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10298,6 +10330,7 @@
   {
     id: 544233
     name: 【标记】燃烧
+    description: 熊熊烈火
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10315,7 +10348,7 @@
   }
   {
     id: 570004
-    name: 冷却计数
+    name: 【标记】冷却计数
     priority: -1
     duration_type: "1"
     duration_time: "99"
@@ -10332,7 +10365,7 @@
   }
   {
     id: 570005
-    name: Fever标记
+    name: 【标记】Fever标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10349,7 +10382,7 @@
   }
   {
     id: 570006
-    name: 胜利标记
+    name: 【标记】胜利标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10366,7 +10399,7 @@
   }
   {
     id: 570031
-    name: 星川莉莉紧张效果
+    name: 【标记】星川莉莉紧张效果
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10384,7 +10417,7 @@
   }
   {
     id: 570091
-    name: Fever标记数
+    name: 【标记】Fever标记数
     priority: -1
     duration_type: "1"
     duration_time: "99"
@@ -10401,7 +10434,7 @@
   }
   {
     id: 570171
-    name: 山田紧张效果
+    name: 【标记】山田紧张效果
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -10420,7 +10453,6 @@
   {
     id: 570191
     name: 胜利标记数
-    description: 特别挑战
     code: ZLSP
     priority: -1
     duration_type: "1"
@@ -10438,7 +10470,7 @@
   }
   {
     id: 570301
-    name: 普通演出
+    name: 【标记】普通演出
     priority: -1
     duration_type: "1"
     duration_time: "1"
@@ -10456,7 +10488,7 @@
   }
   {
     id: 570302
-    name: 演出大成功
+    name: 【标记】演出大成功
     priority: -1
     duration_type: "1"
     duration_time: "1"
@@ -10474,7 +10506,7 @@
   }
   {
     id: 570303
-    name: 演出大失败
+    name: 【标记】演出大失败
     priority: -1
     duration_type: "1"
     duration_time: "1"
@@ -10492,7 +10524,7 @@
   }
   {
     id: 570311
-    name: 普通演出
+    name: 【标记】普通演出
     priority: -1
     duration_type: "1"
     duration_time: "1"
@@ -10510,7 +10542,7 @@
   }
   {
     id: 570312
-    name: 演出大成功
+    name: 【标记】演出大成功
     priority: -1
     duration_type: "1"
     duration_time: "1"
@@ -10528,7 +10560,7 @@
   }
   {
     id: 570313
-    name: 演出大失败
+    name: 【标记】演出大失败
     priority: -1
     duration_type: "1"
     duration_time: "1"
@@ -10546,7 +10578,7 @@
   }
   {
     id: 570391
-    name: 跳字1000
+    name: 【标记】跳字1000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10563,7 +10595,7 @@
   }
   {
     id: 570392
-    name: 跳字1500
+    name: 【标记】跳字1500
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10580,7 +10612,7 @@
   }
   {
     id: 570393
-    name: 跳字500
+    name: 【标记】跳字500
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10597,7 +10629,7 @@
   }
   {
     id: 570394
-    name: 跳字2000
+    name: 【标记】跳字2000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10614,7 +10646,7 @@
   }
   {
     id: 570395
-    name: 跳字3000
+    name: 【标记】跳字3000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10631,7 +10663,7 @@
   }
   {
     id: 570396
-    name: 跳字4500
+    name: 【标记】跳字4500
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10648,7 +10680,7 @@
   }
   {
     id: 570397
-    name: 跳字4000
+    name: 【标记】跳字4000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10665,7 +10697,7 @@
   }
   {
     id: 570491
-    name: 跳字1000
+    name: 【标记】跳字1000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10682,7 +10714,7 @@
   }
   {
     id: 570492
-    name: 跳字1500
+    name: 【标记】跳字1500
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10699,7 +10731,7 @@
   }
   {
     id: 570493
-    name: 跳字500
+    name: 【标记】跳字500
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10716,7 +10748,7 @@
   }
   {
     id: 570494
-    name: 跳字2000
+    name: 【标记】跳字2000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10733,7 +10765,7 @@
   }
   {
     id: 570495
-    name: 跳字3000
+    name: 【标记】跳字3000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10750,7 +10782,7 @@
   }
   {
     id: 570496
-    name: 跳字4500
+    name: 【标记】跳字4500
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10767,7 +10799,7 @@
   }
   {
     id: 570497
-    name: 跳字4000
+    name: 【标记】跳字4000
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
@@ -10785,7 +10817,6 @@
   {
     id: 570501
     name: 【标记】泡泡机初始化
-    description: 故障的泡泡机
     code: Bubble_machine
     priority: 570501
     duration_type: "1"
@@ -10804,7 +10835,6 @@
   {
     id: 570505
     name: 【标记】泡泡机初始化
-    description: 击败敌人
     code: Bubble_machine
     priority: 570505
     duration_type: "1"
@@ -10823,6 +10853,7 @@
   {
     id: 570601
     name: 【标记】罗梅罗初始化
+    description: 禁止通行
     priority: 570601
     duration_type: "1"
     duration_time: "99"
@@ -10842,7 +10873,7 @@
   {
     id: 570602
     name: 【标记】顾客初始化
-    description: 着急的顾客
+    description: 禁止通行
     code: Bathhouse_guest_2
     priority: 570602
     duration_type: "1"
@@ -10880,7 +10911,6 @@
   {
     id: 570604
     name: 【标记】外卖初始化
-    description: 遗失的外卖
     code: TakeOut
     priority: 570604
     duration_type: "1"
@@ -10899,7 +10929,6 @@
   {
     id: 570605
     name: 【标记】打卡机
-    description: 打卡机
     code: Console
     priority: 570605
     duration_type: "1"
@@ -10952,7 +10981,6 @@
   {
     id: 570612
     name: 【标记】得分计算点
-    description: 打卡机
     code: Console
     priority: -1
     duration_type: "1"
@@ -10971,7 +10999,6 @@
   {
     id: 570613
     name: 【标记】得分计算点
-    description: 击败敌人
     code: Tyre_enemy
     priority: -1
     duration_type: "1"
@@ -11007,7 +11034,7 @@
   }
   {
     id: 571000
-    name: 对手待启动
+    name: 【标记】对手待启动
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -11024,7 +11051,7 @@
   }
   {
     id: 571008
-    name: CD
+    name: 【标记】CD
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -11041,7 +11068,7 @@
   }
   {
     id: 571009
-    name: 二动
+    name: 【标记】二动
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11058,7 +11085,7 @@
   }
   {
     id: 571010
-    name: 对手1号标记
+    name: 【标记】对手1号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11075,7 +11102,7 @@
   }
   {
     id: 571020
-    name: 对手2号标记
+    name: 【标记】对手2号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11092,7 +11119,7 @@
   }
   {
     id: 571030
-    name: 对手3号标记
+    name: 【标记】对手3号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11109,7 +11136,7 @@
   }
   {
     id: 571040
-    name: 对手4号标记
+    name: 【标记】对手4号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11126,7 +11153,7 @@
   }
   {
     id: 571050
-    name: 对手5号标记
+    name: 【标记】对手5号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11143,7 +11170,7 @@
   }
   {
     id: 571060
-    name: 对手6号标记
+    name: 【标记】对手6号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11160,7 +11187,7 @@
   }
   {
     id: 571070
-    name: 对手7号标记
+    name: 【标记】对手7号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11177,7 +11204,7 @@
   }
   {
     id: 571080
-    name: 对手8号标记
+    name: 【标记】对手8号标记
     priority: 1
     duration_type: "1"
     duration_time: "3"
@@ -11425,7 +11452,7 @@
   }
   {
     id: 572013
-    name: Fever标记
+    name: 【标记】Fever标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -11870,8 +11897,7 @@
   }
   {
     id: 575002
-    name: 战斗胜利
-    description: 特别挑战
+    name: 【标记】战斗胜利
     code: ZLSP
     priority: 1
     duration_type: "1"
@@ -11889,8 +11915,7 @@
   }
   {
     id: 575003
-    name: 结算
-    description: 特别挑战
+    name: 【标记】结算
     code: ZLSP
     priority: 1
     duration_type: "1"
@@ -11908,7 +11933,7 @@
   }
   {
     id: 580001
-    name: 【安洁行动轨迹】心率过低
+    name: 【标记】【安洁行动轨迹】心率过低
     priority: 99
     duration_type: "1"
     duration_time: "1"
@@ -11926,7 +11951,7 @@
   }
   {
     id: 580002
-    name: 【安洁行动轨迹】偏低心率
+    name: 【标记】【安洁行动轨迹】偏低心率
     priority: 99
     duration_type: "1"
     duration_time: "1"
@@ -11943,7 +11968,7 @@
   }
   {
     id: 580003
-    name: 【安洁行动轨迹】标准心率
+    name: 【标记】【安洁行动轨迹】标准心率
     priority: 99
     duration_type: "1"
     duration_time: "1"
@@ -11960,7 +11985,7 @@
   }
   {
     id: 580004
-    name: 【安洁行动轨迹】活跃心率
+    name: 【标记】【安洁行动轨迹】活跃心率
     priority: 99
     duration_type: "1"
     duration_time: "1"
@@ -11977,7 +12002,7 @@
   }
   {
     id: 580005
-    name: 【安洁行动轨迹】心率过高
+    name: 【标记】【安洁行动轨迹】心率过高
     priority: 99
     duration_type: "1"
     duration_time: "1"
@@ -12047,7 +12072,7 @@
   }
   {
     id: 580100
-    name: 信号标记
+    name: 【标记】信号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -12064,7 +12089,7 @@
   }
   {
     id: 580101
-    name: 信号
+    name: 【标记】信号
     priority: -1
     duration_type: "1"
     duration_time: "99"
@@ -12081,7 +12106,7 @@
   }
   {
     id: 580102
-    name: 关机场
+    name: 【标记】关机场
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -12099,13 +12124,13 @@
   }
   {
     id: 580103
-    name: 信号低
+    name: 【标记】信号低
     priority: 1
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 580102
     detect_target_type: "-1"
-    effect_target_type: "1,7,8,301,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 580103
@@ -12117,7 +12142,8 @@
   }
   {
     id: 580120
-    name: 干扰器检测
+    name: 【标记】干扰器检测
+    description: 高强度辐射，接触后的单位移动2次后被麻痹1回合，麻痹状态下无法移动且各属性大幅下降
     code: Gospelaxis
     priority: 1
     duration_type: "1"
@@ -12125,7 +12151,7 @@
     mission_buff_config_id: 580120
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,7,8,301,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 580120
@@ -12139,12 +12165,12 @@
   }
   {
     id: 580121
-    name: 干扰器生效
+    name: 【标记】干扰器生效
     priority: 1
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,7,8,301,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 580121
@@ -12156,7 +12182,7 @@
   }
   {
     id: 580200
-    name: 简单难度信号标记
+    name: 【标记】简单难度信号标记
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -12207,7 +12233,7 @@
   }
   {
     id: 580903
-    name: 炮塔激活点
+    name: 【标记】炮塔激活点
     priority: 2
     duration_type: "1"
     duration_time: "99"
@@ -12225,6 +12251,7 @@
   {
     id: 580904
     name: 炮塔攻击目标点
+    description: 被瞄准点位，下回合开始会攻击此处
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -12243,7 +12270,7 @@
   }
   {
     id: 580905
-    name: 炮塔攻击点
+    name: 【标记】炮塔攻击点
     priority: 1
     duration_type: "3"
     duration_time: "1"
@@ -12261,7 +12288,7 @@
   }
   {
     id: 580906
-    name: 炮塔静默攻击点
+    name: 【标记】炮塔静默攻击点
     priority: 99
     duration_type: "1"
     duration_time: "99"
@@ -12278,7 +12305,7 @@
   }
   {
     id: 580907
-    name: 炮塔激活点沉默特效
+    name: 【标记】炮塔激活点沉默特效
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -12296,7 +12323,7 @@
   }
   {
     id: 580908
-    name: 炮塔静默取消
+    name: 【标记】炮塔静默取消
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -12347,7 +12374,7 @@
   }
   {
     id: 581500
-    name: 失败标记
+    name: 【标记】失败标记
     code: Ange_03
     priority: 1
     duration_type: "1"
@@ -12365,7 +12392,7 @@
   }
   {
     id: 581503
-    name: AR退场
+    name: 【标记】AR退场
     priority: -1
     duration_type: "1"
     duration_time: "99"
@@ -12416,7 +12443,7 @@
   }
   {
     id: 581599
-    name: 存活标记
+    name: 【标记】存活标记
     priority: 2
     duration_type: "1"
     duration_time: "99"
@@ -12433,26 +12460,25 @@
   }
   {
     id: 581701
-    name: 废弃建筑初始化
+    name: 【标记】废弃建筑初始化
     priority: 1
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 581701
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
   }
   {
     id: 581702
-    name: 引爆
+    name: 【标记】引爆
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -12471,6 +12497,7 @@
   {
     id: 581703
     name: "[avg]-58-C4-EXT2"
+    description: 禁止通行
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -12490,7 +12517,7 @@
   }
   {
     id: 581704
-    name: 引爆伤害
+    name: 【标记】引爆伤害
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -12547,7 +12574,7 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 583602
-    detect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -12561,7 +12588,7 @@
   }
   {
     id: 583602
-    name: 默莉朵靠近
+    name: 【标记】默莉朵靠近
     code: Dandelion_Gri
     priority: 1
     duration_type: "1"
@@ -12579,7 +12606,7 @@
   }
   {
     id: 583603
-    name: 心智崩坏
+    name: 【标记】心智崩坏
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -12596,13 +12623,13 @@
   }
   {
     id: 583604
-    name: 默莉朵检测
+    name: 【标记】默莉朵检测
     priority: 1
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 583602
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 583604
@@ -12615,6 +12642,7 @@
   {
     id: 584505
     name: 阻挡点
+    description: 禁止通行
     priority: 99
     duration_type: "1"
     duration_time: "99"
@@ -12633,7 +12661,7 @@
   }
   {
     id: 584511
-    name: 传送点
+    name: 【标记】传送点
     priority: 99
     duration_type: "1"
     duration_time: "99"
@@ -12650,7 +12678,7 @@
   }
   {
     id: 584512
-    name: 传送点
+    name: 【标记】传送点
     priority: 99
     duration_type: "1"
     duration_time: "99"
@@ -12667,7 +12695,7 @@
   }
   {
     id: 584513
-    name: 传送点
+    name: 【标记】传送点
     priority: 99
     duration_type: "1"
     duration_time: "99"
@@ -12684,7 +12712,7 @@
   }
   {
     id: 584514
-    name: 传送点
+    name: 【标记】传送点
     priority: 99
     duration_type: "1"
     duration_time: "99"
@@ -12701,7 +12729,7 @@
   }
   {
     id: 589999
-    name: 心率引导
+    name: 【标记】心率引导
     priority: 1
     duration_type: "1"
     duration_time: "99"
@@ -13173,7 +13201,7 @@
     duration_time: "99"
     mission_buff_config_id: 597001
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597001
@@ -13191,7 +13219,7 @@
     duration_time: "99"
     mission_buff_config_id: 597002
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597002
@@ -13209,7 +13237,7 @@
     duration_time: "99"
     mission_buff_config_id: 597003
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597003
@@ -13227,7 +13255,7 @@
     duration_time: "99"
     mission_buff_config_id: 597004
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597004
@@ -13245,7 +13273,7 @@
     duration_time: "99"
     mission_buff_config_id: 597005
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597005
@@ -13263,7 +13291,7 @@
     duration_time: "99"
     mission_buff_config_id: 597006
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597006
@@ -13281,7 +13309,7 @@
     duration_time: "99"
     mission_buff_config_id: 597007
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597007
@@ -13299,7 +13327,7 @@
     duration_time: "99"
     mission_buff_config_id: 597008
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597008
@@ -13558,7 +13586,7 @@
     mission_buff_config_id: 599901
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13578,7 +13606,7 @@
     mission_buff_config_id: 599902
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13598,7 +13626,7 @@
     mission_buff_config_id: 599903
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13618,7 +13646,7 @@
     mission_buff_config_id: 599904
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13638,7 +13666,7 @@
     mission_buff_config_id: 599905
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13658,7 +13686,7 @@
     mission_buff_config_id: 599906
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13678,7 +13706,7 @@
     mission_buff_config_id: 599907
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13698,7 +13726,7 @@
     mission_buff_config_id: 599908
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13901,7 +13929,7 @@
   }
   {
     id: 610000
-    name: 搅拌机标记
+    name: 【标记】搅拌机标记
     priority: 1
     duration_type: "1"
     duration_time: "999"
@@ -13919,7 +13947,7 @@
   }
   {
     id: 610001
-    name: 拾取
+    name: 【标记】拾取
     code: 2023RougeSummer_Mixer
     priority: -1
     duration_type: "1"
@@ -13937,7 +13965,7 @@
   }
   {
     id: 610002
-    name: 拾取干扰
+    name: 【标记】拾取干扰
     code: 2307RGM1
     priority: 1
     duration_type: "1"
@@ -13955,7 +13983,7 @@
   }
   {
     id: 610003
-    name: 拾取跳跃
+    name: 【标记】拾取跳跃
     code: 2307RGM2
     priority: 1
     duration_type: "1"
@@ -13973,7 +14001,7 @@
   }
   {
     id: 610009
-    name: 搅拌机启动标记
+    name: 【标记】搅拌机启动标记
     priority: 1
     duration_type: "1"
     duration_time: "999"
@@ -13991,7 +14019,7 @@
   }
   {
     id: 610022
-    name: 小跳标记
+    name: 【标记】小跳标记
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -14008,7 +14036,7 @@
   }
   {
     id: 610024
-    name: 大跳标记
+    name: 【标记】大跳标记
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -14025,7 +14053,7 @@
   }
   {
     id: 610025
-    name: 突袭标记
+    name: 【标记】突袭标记
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -14127,7 +14155,7 @@
   }
   {
     id: 611001
-    name: 拾取计数点
+    name: 【标记】拾取计数点
     priority: 1
     duration_type: "1"
     duration_time: "999"
@@ -14144,7 +14172,7 @@
   }
   {
     id: 611002
-    name: 强敌刷新点
+    name: 【标记】强敌刷新点
     priority: 1
     duration_type: "1"
     duration_time: "999"
@@ -14161,7 +14189,7 @@
   }
   {
     id: 611003
-    name: 强敌1计数
+    name: 【标记】强敌1计数
     priority: -1
     duration_type: "1"
     duration_time: "999"
@@ -14178,7 +14206,7 @@
   }
   {
     id: 611004
-    name: 强敌2计数
+    name: 【标记】强敌2计数
     priority: -1
     duration_type: "1"
     duration_time: "999"
@@ -14195,7 +14223,7 @@
   }
   {
     id: 611005
-    name: 结算
+    name: 【标记】结算
     code: 2023RougeSummer_Mixer
     priority: 1
     duration_type: "1"
@@ -14247,14 +14275,14 @@
   }
   {
     id: 700121
-    name: 扣残血ss
+    name: 【标记】扣残血ss
     code: "700121"
     priority: 700121
     duration_type: "3"
     duration_time: "1"
     mission_hurt_config_id: 70012
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 700121
@@ -14266,14 +14294,14 @@
   }
   {
     id: 700141
-    name: 扣掉编
+    name: 【标记】扣掉编
     code: "700141"
     priority: 700141
     duration_type: "3"
     duration_time: "1"
     mission_hurt_config_id: 70014
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 700141
@@ -14286,7 +14314,7 @@
   {
     id: 900001
     name: 机场出兵
-    description: 出兵池更换
+    description: 机场增援中,增援的单位更强
     code: "900001"
     priority: 900001
     duration_type: "1"
@@ -14304,7 +14332,7 @@
   {
     id: 900002
     name: 防空炮
-    description: 不能空降
+    description: 禁止通行
     code: "900002"
     priority: 900002
     duration_type: "1"
@@ -14322,13 +14350,13 @@
   {
     id: 900003
     name: 污染源
-    description: 造成伤害
+    description: 受到污染中，接触会受到伤害
     code: "900003"
     priority: 900003
     duration_type: "1"
     duration_time: "99"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 900003
@@ -14342,7 +14370,6 @@
   {
     id: 900007
     name: 污染源
-    description: 秒杀支援小队
     code: "900007"
     priority: 900007
     duration_type: "1"
@@ -14361,7 +14388,7 @@
   {
     id: 900009
     name: 防空炮
-    description: 不能空降
+    description: 防空区域
     code: "900002"
     priority: 900002
     duration_type: "1"
@@ -14377,9 +14404,63 @@
     spot_buff_config_id: 2
   }
   {
+    id: 998001
+    name: 【标记】载具组件照明
+    priority: 1
+    duration_type: "1"
+    duration_time: "2"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 998001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    spot_buff_config_id: 7
+  }
+  {
+    id: 998002
+    name: 【标记】载具组件阻挡
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 998003
+    detect_target_type: "-1"
+    detect_range: 1
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 998002
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    spot_buff_config_id: 3
+  }
+  {
+    id: 998003
+    name: 【标记】载具组件阻挡
+    priority: 2
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 998002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 1000001
     name: 堵路生效标记
-    description: 堵路生效标记
+    description: 禁止通行
     code: "1000001"
     priority: 1000001
     duration_type: "1"
@@ -14400,7 +14481,6 @@
   {
     id: 1000002
     name: 开门音效标记
-    description: 开门音效标记
     code: "1000002"
     priority: 1000002
     duration_type: "1"
@@ -14420,7 +14500,6 @@
   {
     id: 1000003
     name: 关门音效标记
-    description: 关门音效标记
     code: "1000003"
     priority: 1000002
     duration_type: "1"
@@ -14440,7 +14519,6 @@
   {
     id: 1000004
     name: 敌方通用hurt编号
-    description: 敌方通用hurt编号
     code: "1000004"
     priority: 1000004
     duration_type: "1"
@@ -14459,12 +14537,11 @@
   {
     id: 1000005
     name: 关门对我方/人质通用hurt编号
-    description: 关门对我方/人质通用hurt编号
     code: "1000005"
     priority: 1000005
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000005
@@ -14477,12 +14554,11 @@
   {
     id: 1000006
     name: 爆破对我方/人质通用hurt编号
-    description: 爆破对我方/人质通用hurt编号
     code: "1000006"
     priority: 1000006
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000006
@@ -14495,7 +14571,6 @@
   {
     id: 1000007
     name: 导弹炮击冷却标记(2回合)
-    description: 导弹炮击冷却标记(2回合)
     code: "1000007"
     priority: 1000007
     duration_type: "1"
@@ -14514,7 +14589,6 @@
   {
     id: 1000008
     name: 导弹炮击伤害标记
-    description: 导弹炮击伤害标记
     code: "1000008"
     priority: 1000008
     duration_type: "1"
@@ -14534,7 +14608,6 @@
   {
     id: 1000009
     name: 炸药标记
-    description: 炸药标记
     code: "1000009"
     priority: 1000009
     duration_type: "1"
@@ -14553,7 +14626,6 @@
   {
     id: 1000010
     name: 爆破对设施通用hurt编号
-    description: 爆破对设施通用hurt编号
     code: "1000010"
     priority: 1000010
     duration_type: "1"
@@ -14572,7 +14644,6 @@
   {
     id: 1000011
     name: 通用标记编号1
-    description: 通用标记编号1
     code: "1000011"
     priority: 1000011
     duration_type: "1"
@@ -14591,7 +14662,7 @@
   {
     id: 1000012
     name: 预置炸弹(对设施)
-    description: 预置炸弹(对设施)
+    description: 预置炸弹，快离开这，要爆炸啦！
     code: "1000012"
     priority: 1000012
     duration_type: "1"
@@ -14612,7 +14683,6 @@
   {
     id: 1000013
     name: 覆盖预置(对设施)
-    description: 覆盖预置(对设施)
     code: "1000013"
     priority: 1000013
     duration_type: "1,3"
@@ -14631,7 +14701,6 @@
   {
     id: 1000014
     name: 爆炸伤害(对设施)
-    description: 爆炸伤害(对设施)
     code: "1000013"
     priority: 1000014
     duration_type: "1,3"
@@ -14650,7 +14719,6 @@
   {
     id: 1000015
     name: 预置炸弹(对我方/人质)
-    description: 预置炸弹(对我方/人质)
     code: "1000015"
     priority: 1000015
     duration_type: "1"
@@ -14670,7 +14738,6 @@
   {
     id: 1000016
     name: 覆盖预置(对我方/人质)
-    description: 覆盖预置(对我方/人质)
     code: "1000016"
     priority: 1000016
     duration_type: "1,3"
@@ -14689,13 +14756,12 @@
   {
     id: 1000017
     name: 爆炸伤害(对我方/人质)
-    description: 爆炸伤害(对我方/人质)
     code: "1000016"
     priority: 1000017
     duration_type: "1,3"
     duration_time: "1,1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000017
@@ -14708,7 +14774,6 @@
   {
     id: 1000018
     name: 预置炸弹(对敌方)
-    description: 预置炸弹(对敌方)
     code: "1000018"
     priority: 1000018
     duration_type: "1"
@@ -14728,7 +14793,6 @@
   {
     id: 1000019
     name: 覆盖预置(对敌方)
-    description: 覆盖预置(对敌方)
     code: "1000019"
     priority: 1000019
     duration_type: "1,3"
@@ -14747,7 +14811,6 @@
   {
     id: 1000020
     name: 爆炸伤害(对敌方)
-    description: 爆炸伤害(对敌方)
     code: "1000019"
     priority: 1000020
     duration_type: "1,3"
@@ -14766,7 +14829,6 @@
   {
     id: 1000021
     name: 预置点优先级1
-    description: 预置点优先级1
     code: "1000021"
     priority: 1000021
     duration_type: "1"
@@ -14785,7 +14847,6 @@
   {
     id: 1000022
     name: 预置点优先级2
-    description: 预置点优先级2
     code: "1000022"
     priority: 1000022
     duration_type: "1"
@@ -14804,7 +14865,6 @@
   {
     id: 1000023
     name: 预置点优先级3
-    description: 预置点优先级3
     code: "1000023"
     priority: 1000023
     duration_type: "1"
@@ -14823,7 +14883,6 @@
   {
     id: 1000024
     name: 预置点1
-    description: 预置点1
     code: "1000024"
     priority: 1000024
     duration_type: "1"
@@ -14842,7 +14901,6 @@
   {
     id: 1000025
     name: 预置点2
-    description: 预置点2
     code: "1000025"
     priority: 1000025
     duration_type: "1"
@@ -14861,7 +14919,6 @@
   {
     id: 1000026
     name: 预置点3
-    description: 预置点3
     code: "1000026"
     priority: 1000026
     duration_type: "1"
@@ -14880,13 +14937,12 @@
   {
     id: 1000028
     name: 污染源通用伤害标记
-    description: 污染源通用伤害标记
     code: "1000028"
     priority: 1000028
     duration_type: "1"
     duration_time: "99"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000028
@@ -14900,7 +14956,6 @@
   {
     id: 1000029
     name: 预置污染源(对我方)(延时1回合)
-    description: 预置污染源(对我方)(延时1回合)
     code: "1000029"
     priority: 1000029
     duration_type: "1"
@@ -14920,7 +14975,6 @@
   {
     id: 1000030
     name: 覆盖污染源(对我方)(延时1回合)
-    description: 覆盖污染源(对我方)(延时1回合)
     code: "1000030"
     priority: 1000030
     duration_type: "1"
@@ -14939,7 +14993,6 @@
   {
     id: 1000031
     name: 污染源伤害(对我方)(延时1回合)
-    description: 污染源伤害(对我方)(延时1回合)
     code: "1000030"
     priority: 1000031
     duration_type: "1"
@@ -14958,7 +15011,6 @@
   {
     id: 1000032
     name: 预置污染源(对我方)(延时2回合)
-    description: 预置污染源(对我方)(延时2回合)
     code: "1000032"
     priority: 1000032
     duration_type: "1"
@@ -14978,7 +15030,6 @@
   {
     id: 1000033
     name: 覆盖污染源(对我方)(延时2回合)
-    description: 覆盖污染源(对我方)(延时2回合)
     code: "1000033"
     priority: 1000033
     duration_type: "1"
@@ -14997,7 +15048,6 @@
   {
     id: 1000034
     name: 污染源伤害(对我方)(延时2回合)
-    description: 污染源伤害(对我方)(延时2回合)
     code: "1000033"
     priority: 1000034
     duration_type: "1"
@@ -15016,7 +15066,6 @@
   {
     id: 1000035
     name: 预置污染源(对我方)(延时4回合)
-    description: 预置污染源(对我方)(延时4回合)
     code: "1000035"
     priority: 1000035
     duration_type: "1"
@@ -15036,7 +15085,6 @@
   {
     id: 1000036
     name: 覆盖污染源(对我方)(延时4回合)
-    description: 覆盖污染源(对我方)(延时4回合)
     code: "1000036"
     priority: 1000036
     duration_type: "1"
@@ -15055,7 +15103,6 @@
   {
     id: 1000037
     name: 污染源伤害(对我方)(延时4回合)
-    description: 污染源伤害(对我方)(延时4回合)
     code: "1000036"
     priority: 1000037
     duration_type: "1"
@@ -15074,7 +15121,6 @@
   {
     id: 1000038
     name: 预置污染源(对我方)(延时7回合)
-    description: 预置污染源(对我方)(延时7回合)
     code: "1000038"
     priority: 1000038
     duration_type: "1"
@@ -15094,7 +15140,6 @@
   {
     id: 1000039
     name: 覆盖污染源(对我方)(延时7回合)
-    description: 覆盖污染源(对我方)(延时7回合)
     code: "1000039"
     priority: 1000039
     duration_type: "1"
@@ -15113,7 +15158,6 @@
   {
     id: 1000040
     name: 污染源伤害(对我方)(延时7回合)
-    description: 污染源伤害(对我方)(延时7回合)
     code: "1000039"
     priority: 1000040
     duration_type: "1"
@@ -15132,7 +15176,6 @@
   {
     id: 1000041
     name: 污染源预置标记1
-    description: 污染源预置标记1
     code: "1000041"
     priority: 1000041
     duration_type: "1"
@@ -15151,7 +15194,6 @@
   {
     id: 1000042
     name: 污染源预置标记2
-    description: 污染源预置标记2
     code: "1000042"
     priority: 1000042
     duration_type: "1"
@@ -15170,7 +15212,6 @@
   {
     id: 1000043
     name: 污染源预置标记3
-    description: 污染源预置标记3
     code: "1000043"
     priority: 1000043
     duration_type: "1"
@@ -15189,7 +15230,6 @@
   {
     id: 1000044
     name: 污染源预置标记4
-    description: 污染源预置标记4
     code: "1000044"
     priority: 1000044
     duration_type: "1"
@@ -15208,7 +15248,6 @@
   {
     id: 1000045
     name: 预置清理(对污染标记)(冷却2回合)
-    description: 预置清理(对污染标记)(冷却2回合)
     code: "1000045"
     priority: 1000045
     duration_type: "1"
@@ -15228,7 +15267,6 @@
   {
     id: 1000046
     name: 覆盖清理(对污染标记)(冷却2回合)
-    description: 覆盖清理(对污染标记)(冷却2回合)
     code: "1000046"
     priority: 1000046
     duration_type: "1"
@@ -15247,7 +15285,6 @@
   {
     id: 1000047
     name: 重新污染(对污染标记)(冷却2回合)
-    description: 重新污染(对污染标记)(冷却2回合)
     code: "1000046"
     priority: 1000047
     duration_type: "1"
@@ -15266,14 +15303,13 @@
   {
     id: 1000048
     name: 污染源移动伤害
-    description: 污染源移动伤害
     code: "1000048"
     priority: 1000048
     duration_type: "1,3"
     duration_time: "99,99"
     mission_hurt_config_id: 1000048
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000048
@@ -15286,7 +15322,6 @@
   {
     id: 1000049
     name: 预置清理(对污染标记-移动)(冷却2回合)
-    description: 预置清理(对污染标记)(冷却2回合)
     code: "1000049"
     priority: 1000049
     duration_type: "1"
@@ -15306,7 +15341,6 @@
   {
     id: 1000050
     name: 覆盖清理(对污染标记-移动)(冷却2回合)
-    description: 覆盖清理(对污染标记)(冷却2回合)
     code: "1000050"
     priority: 1000050
     duration_type: "1"
@@ -15325,7 +15359,6 @@
   {
     id: 1000051
     name: 重新污染(对污染标记-移动)(冷却2回合)
-    description: 重新污染(对污染标记)(冷却2回合)
     code: "1000050"
     priority: 1000051
     duration_type: "1"
@@ -15344,7 +15377,6 @@
   {
     id: 1000052
     name: 导弹炮击冷却标记(2回合)
-    description: 导弹炮击冷却标记(2回合)
     code: "1000052"
     priority: 1000052
     duration_type: "1"
@@ -15363,7 +15395,6 @@
   {
     id: 1000053
     name: 解锁控制台音效标记
-    description: 开门音效标记
     code: "1000053"
     priority: 1000053
     duration_type: "1"
@@ -15383,7 +15414,6 @@
   {
     id: 1000054
     name: 关门音效标记
-    description: 关门音效标记
     code: "1000054"
     priority: 1000053
     duration_type: "1"
@@ -15421,7 +15451,6 @@
   {
     id: 1000056
     name: 敌方通用hurt编号
-    description: 敌方通用hurt编号
     code: "1000056"
     priority: 1000056
     duration_type: "1"
@@ -15441,6 +15470,7 @@
   {
     id: 1000058
     name: 【标记】浸水1
+    description: 被水淹没，接触后闪避/火力降低
     priority: 1000058
     duration_type: "1,3"
     duration_time: "99,99"
@@ -15460,6 +15490,7 @@
   {
     id: 1000059
     name: 【标记】浸水2
+    description: 被水淹没，接触后闪避/火力降低
     priority: 1000059
     duration_type: "1,3"
     duration_time: "99,99"
@@ -15584,6 +15615,7 @@
   {
     id: 1000066
     name: 【标记】堵路点_1回合持续
+    description: 禁止通行
     priority: 1000066
     duration_type: "1"
     duration_time: "1"
@@ -15654,7 +15686,7 @@
   }
   {
     id: 1000072
-    name: 一次性生效设施标记
+    name: 【标记】一次性生效设施标记
     priority: 1000072
     duration_type: "1"
     duration_time: "99"
@@ -15671,7 +15703,6 @@
   {
     id: 1000100
     name: 兔子1标记
-    description: 兔子1标记
     code: "1000100"
     priority: 1000100
     duration_type: "1"
@@ -15690,7 +15721,6 @@
   {
     id: 1000111
     name: 兔子1拓展标记1
-    description: 兔子1拓展标记1
     code: "1000111"
     priority: 1000111
     duration_type: "1"
@@ -15709,7 +15739,6 @@
   {
     id: 1000200
     name: 兔子2标记
-    description: 兔子2标记
     code: "1000200"
     priority: 1000200
     duration_type: "1"
@@ -15728,7 +15757,6 @@
   {
     id: 1000300
     name: 兔子3标记
-    description: 兔子3标记
     code: "1000300"
     priority: 1000300
     duration_type: "1"
@@ -15747,7 +15775,6 @@
   {
     id: 1000400
     name: 兔子4标记
-    description: 兔子4标记
     code: "1000400"
     priority: 1000400
     duration_type: "1"
@@ -15766,7 +15793,6 @@
   {
     id: 1000500
     name: 兔子5标记
-    description: 兔子5标记
     code: "1000500"
     priority: 1000500
     duration_type: "1"
@@ -15785,7 +15811,6 @@
   {
     id: 1000600
     name: 兔子6标记
-    description: 兔子6标记
     code: "1000600"
     priority: 1000600
     duration_type: "1"
@@ -15890,7 +15915,6 @@
   {
     id: 1010100
     name: 控制台I标记
-    description: 控制台I标记
     code: "1010100"
     priority: 1010100
     duration_type: "1"
@@ -15909,7 +15933,6 @@
   {
     id: 1010101
     name: 控制台I预设上锁标记
-    description: 控制台I预设上锁标记
     code: "1010101"
     priority: 1010101
     duration_type: "1"
@@ -15928,7 +15951,6 @@
   {
     id: 1010200
     name: 控制台II标记
-    description: 控制台II标记
     code: "1010200"
     priority: 1010200
     duration_type: "1"
@@ -15947,7 +15969,6 @@
   {
     id: 1010201
     name: 控制台II预设上锁标记
-    description: 控制台II预设上锁标记
     code: "1010201"
     priority: 1010201
     duration_type: "1"
@@ -15966,7 +15987,6 @@
   {
     id: 1010300
     name: 控制台III标记
-    description: 控制台III标记
     code: "1010300"
     priority: 1010300
     duration_type: "1"
@@ -15985,7 +16005,6 @@
   {
     id: 1010301
     name: 控制台III预设上锁标记
-    description: 控制台III预设上锁标记
     code: "1010301"
     priority: 1010301
     duration_type: "1"
@@ -16004,7 +16023,6 @@
   {
     id: 1010400
     name: 控制台IV标记
-    description: 控制台IV标记
     code: "1010400"
     priority: 1010400
     duration_type: "1"
@@ -16023,7 +16041,6 @@
   {
     id: 1010401
     name: 控制台IV预设上锁标记
-    description: 控制台IV预设上锁标记
     code: "1010401"
     priority: 1010401
     duration_type: "1"
@@ -16042,7 +16059,6 @@
   {
     id: 1010500
     name: 控制台V标记
-    description: 控制台V标记
     code: "1010500"
     priority: 1010500
     duration_type: "1"
@@ -16061,7 +16077,6 @@
   {
     id: 1010501
     name: 控制台V预设上锁标记
-    description: 控制台V预设上锁标记
     code: "1010501"
     priority: 1010501
     duration_type: "1"
@@ -16080,7 +16095,6 @@
   {
     id: 1010600
     name: 控制台VI标记
-    description: 控制台VI标记
     code: "1010600"
     priority: 1010600
     duration_type: "1"
@@ -16099,7 +16113,6 @@
   {
     id: 1010601
     name: 控制台VI预设上锁标记
-    description: 控制台VI预设上锁标记
     code: "1010601"
     priority: 1010601
     duration_type: "1"
@@ -16118,7 +16131,6 @@
   {
     id: 1010700
     name: 控制台VII标记
-    description: 控制台VII标记
     code: "1010700"
     priority: 1010700
     duration_type: "1"
@@ -16137,7 +16149,6 @@
   {
     id: 1010701
     name: 控制台VII预设上锁标记
-    description: 控制台VII预设上锁标记
     code: "1010701"
     priority: 1010701
     duration_type: "1"
@@ -16156,7 +16167,6 @@
   {
     id: 1010800
     name: 控制台VIII标记
-    description: 控制台VIII标记
     code: "1010800"
     priority: 1010800
     duration_type: "1"
@@ -16175,7 +16185,6 @@
   {
     id: 1010801
     name: 控制台VIII预设上锁标记
-    description: 控制台VIII预设上锁标记
     code: "1010801"
     priority: 1010801
     duration_type: "1"
@@ -16194,7 +16203,6 @@
   {
     id: 1020100
     name: 防御门I标记
-    description: 防御门I标记
     code: "1020100"
     priority: 1020100
     duration_type: "1"
@@ -16213,7 +16221,6 @@
   {
     id: 1020101
     name: 防御门I生效标记
-    description: 防御门I生效标记
     code: "1020101"
     priority: 1020101
     duration_type: "1"
@@ -16232,7 +16239,6 @@
   {
     id: 1020200
     name: 防御门II标记
-    description: 防御门II标记
     code: "1020200"
     priority: 1020200
     duration_type: "1"
@@ -16251,7 +16257,6 @@
   {
     id: 1020201
     name: 防御门II生效标记
-    description: 防御门II生效标记
     code: "1020201"
     priority: 1020201
     duration_type: "1"
@@ -16270,7 +16275,6 @@
   {
     id: 1020300
     name: 防御门III标记
-    description: 防御门III标记
     code: "1020300"
     priority: 1020300
     duration_type: "1"
@@ -16289,7 +16293,6 @@
   {
     id: 1020301
     name: 防御门III生效标记
-    description: 防御门III生效标记
     code: "1020301"
     priority: 1020301
     duration_type: "1"
@@ -16308,7 +16311,6 @@
   {
     id: 1020400
     name: 防御门IV标记
-    description: 防御门IV标记
     code: "1020400"
     priority: 1020400
     duration_type: "1"
@@ -16327,7 +16329,6 @@
   {
     id: 1020401
     name: 防御门IV生效标记
-    description: 防御门IV生效标记
     code: "1020401"
     priority: 1020401
     duration_type: "1"
@@ -16346,7 +16347,6 @@
   {
     id: 1020500
     name: 防御门V标记
-    description: 防御门V标记
     code: "1020500"
     priority: 1020500
     duration_type: "1"
@@ -16365,7 +16365,6 @@
   {
     id: 1020501
     name: 防御门V生效标记
-    description: 防御门V生效标记
     code: "1020501"
     priority: 1020501
     duration_type: "1"
@@ -16384,7 +16383,6 @@
   {
     id: 1020600
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1020600"
     priority: 1020600
     duration_type: "1"
@@ -16403,7 +16401,6 @@
   {
     id: 1020601
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1020601"
     priority: 1020601
     duration_type: "1"
@@ -16422,7 +16419,6 @@
   {
     id: 1020700
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1020700"
     priority: 1020700
     duration_type: "1"
@@ -16441,7 +16437,6 @@
   {
     id: 1020701
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1020701"
     priority: 1020701
     duration_type: "1"
@@ -16460,7 +16455,6 @@
   {
     id: 1020800
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1020800"
     priority: 1020800
     duration_type: "1"
@@ -16479,7 +16473,6 @@
   {
     id: 1020801
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1020801"
     priority: 1020801
     duration_type: "1"
@@ -16498,7 +16491,6 @@
   {
     id: 1020900
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1020900"
     priority: 1020900
     duration_type: "1"
@@ -16517,7 +16509,6 @@
   {
     id: 1020901
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1020901"
     priority: 1020901
     duration_type: "1"
@@ -16536,7 +16527,6 @@
   {
     id: 1021000
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1021000"
     priority: 1021000
     duration_type: "1"
@@ -16555,7 +16545,6 @@
   {
     id: 1021001
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1021001"
     priority: 1021001
     duration_type: "1"
@@ -16574,7 +16563,6 @@
   {
     id: 1021100
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1021100"
     priority: 1021100
     duration_type: "1"
@@ -16593,7 +16581,6 @@
   {
     id: 1021101
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1021101"
     priority: 1021101
     duration_type: "1"
@@ -16612,7 +16599,6 @@
   {
     id: 1021200
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1021200"
     priority: 1021200
     duration_type: "1"
@@ -16631,7 +16617,6 @@
   {
     id: 1021201
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1021201"
     priority: 1021201
     duration_type: "1"
@@ -16650,7 +16635,6 @@
   {
     id: 1021300
     name: 防御门VI标记
-    description: 防御门VI标记
     code: "1021300"
     priority: 1021300
     duration_type: "1"
@@ -16669,7 +16653,6 @@
   {
     id: 1021301
     name: 防御门VI生效标记
-    description: 防御门VI生效标记
     code: "1021301"
     priority: 1021301
     duration_type: "1"
@@ -16960,7 +16943,6 @@
   {
     id: 1030100
     name: 炸药I标记
-    description: 炸药I标记
     code: "1030100"
     priority: 1030100
     duration_type: "1"
@@ -16979,7 +16961,6 @@
   {
     id: 1030200
     name: 炸药II标记
-    description: 炸药II标记
     code: "1030200"
     priority: 1030200
     duration_type: "1"
@@ -16998,7 +16979,6 @@
   {
     id: 1030300
     name: 炸药III标记
-    description: 炸药III标记
     code: "1030300"
     priority: 1030300
     duration_type: "1"
@@ -17017,7 +16997,6 @@
   {
     id: 1030400
     name: 炸药IV标记
-    description: 炸药IV标记
     code: "1030400"
     priority: 1030400
     duration_type: "1"
@@ -17036,7 +17015,6 @@
   {
     id: 1030500
     name: 炸药V标记
-    description: 炸药V标记
     code: "1030500"
     priority: 1030500
     duration_type: "1"
@@ -17055,7 +17033,6 @@
   {
     id: 1030600
     name: 炸药VI标记
-    description: 炸药VI标记
     code: "1030600"
     priority: 1030600
     duration_type: "1"
@@ -17074,7 +17051,6 @@
   {
     id: 1040100
     name: 乱石堆I标记
-    description: 乱石堆I标记
     code: "1040100"
     priority: 1040100
     duration_type: "1"
@@ -17093,7 +17069,6 @@
   {
     id: 1040101
     name: 乱石堆I生效标记
-    description: 乱石堆I生效标记
     code: "1040101"
     priority: 1040101
     duration_type: "1"
@@ -17112,7 +17087,6 @@
   {
     id: 1040200
     name: 乱石堆II标记
-    description: 乱石堆II标记
     code: "1040200"
     priority: 1040200
     duration_type: "1"
@@ -17131,7 +17105,6 @@
   {
     id: 1040201
     name: 乱石堆II生效标记
-    description: 乱石堆II生效标记
     code: "1040201"
     priority: 1040201
     duration_type: "1"
@@ -17150,7 +17123,6 @@
   {
     id: 1040300
     name: 乱石堆III标记
-    description: 乱石堆III标记
     code: "1040300"
     priority: 1040300
     duration_type: "1"
@@ -17169,7 +17141,6 @@
   {
     id: 1040301
     name: 乱石堆III生效标记
-    description: 乱石堆III生效标记
     code: "1040301"
     priority: 1040301
     duration_type: "1"
@@ -17188,7 +17159,6 @@
   {
     id: 1040400
     name: 乱石堆IV标记
-    description: 乱石堆IV标记
     code: "1040400"
     priority: 1040400
     duration_type: "1"
@@ -17207,7 +17177,6 @@
   {
     id: 1040401
     name: 乱石堆IV生效标记
-    description: 乱石堆IV生效标记
     code: "1040401"
     priority: 1040401
     duration_type: "1"
@@ -17226,7 +17195,6 @@
   {
     id: 1040500
     name: 乱石堆V标记
-    description: 乱石堆V标记
     code: "1040500"
     priority: 1040500
     duration_type: "1"
@@ -17245,7 +17213,6 @@
   {
     id: 1040501
     name: 乱石堆V生效标记
-    description: 乱石堆V生效标记
     code: "1040501"
     priority: 1040501
     duration_type: "1"
@@ -17264,7 +17231,6 @@
   {
     id: 1040600
     name: 乱石堆VI标记
-    description: 乱石堆VI标记
     code: "1040600"
     priority: 1040600
     duration_type: "1"
@@ -17283,7 +17249,6 @@
   {
     id: 1040601
     name: 乱石堆VI生效标记
-    description: 乱石堆VI生效标记
     code: "1040601"
     priority: 1040601
     duration_type: "1"
@@ -17302,7 +17267,6 @@
   {
     id: 1050100
     name: 要道I标记
-    description: 要道I标记
     code: "1050100"
     priority: 1050100
     duration_type: "1"
@@ -17321,7 +17285,6 @@
   {
     id: 1050101
     name: 要道I生效标记
-    description: 要道I生效标记
     code: "1050101"
     priority: 1000001
     duration_type: "1"
@@ -17340,7 +17303,6 @@
   {
     id: 1050200
     name: 要道II标记
-    description: 要道II标记
     code: "1050200"
     priority: 1050200
     duration_type: "1"
@@ -17359,7 +17321,6 @@
   {
     id: 1050201
     name: 要道II生效标记
-    description: 要道II生效标记
     code: "1050201"
     priority: 1000001
     duration_type: "1"
@@ -17378,7 +17339,6 @@
   {
     id: 1050300
     name: 要道III标记
-    description: 要道III标记
     code: "1050300"
     priority: 1050300
     duration_type: "1"
@@ -17397,7 +17357,6 @@
   {
     id: 1050301
     name: 要道III生效标记
-    description: 要道III生效标记
     code: "1050301"
     priority: 1000001
     duration_type: "1"
@@ -17416,7 +17375,6 @@
   {
     id: 1050400
     name: 要道IV标记
-    description: 要道IV标记
     code: "1050400"
     priority: 1050400
     duration_type: "1"
@@ -17435,7 +17393,6 @@
   {
     id: 1050401
     name: 要道IV生效标记
-    description: 要道IV生效标记
     code: "1050401"
     priority: 1000001
     duration_type: "1"
@@ -17454,7 +17411,6 @@
   {
     id: 1050500
     name: 要道V标记
-    description: 要道V标记
     code: "1050500"
     priority: 1050500
     duration_type: "1"
@@ -17473,7 +17429,6 @@
   {
     id: 1050501
     name: 要道V生效标记
-    description: 要道V生效标记
     code: "1050501"
     priority: 1000001
     duration_type: "1"
@@ -17492,7 +17447,6 @@
   {
     id: 1050600
     name: 要道VI标记
-    description: 要道VI标记
     code: "1050600"
     priority: 1050600
     duration_type: "1"
@@ -17511,7 +17465,6 @@
   {
     id: 1050601
     name: 要道VI生效标记
-    description: 要道VI生效标记
     code: "1050601"
     priority: 1000001
     duration_type: "1"
@@ -17530,7 +17483,6 @@
   {
     id: 1060100
     name: 炮击阵地I标记
-    description: 炮击阵地I标记
     code: "1060100"
     priority: 1060100
     duration_type: "1"
@@ -17549,7 +17501,6 @@
   {
     id: 1060101
     name: 炮击阵地I生效标记
-    description: 炮击阵地I生效标记
     code: "1060101"
     priority: 1060101
     duration_type: "1"
@@ -17568,7 +17519,6 @@
   {
     id: 1060200
     name: 炮击阵地II标记
-    description: 炮击阵地II标记
     code: "1060200"
     priority: 1060200
     duration_type: "1"
@@ -17587,7 +17537,6 @@
   {
     id: 1060201
     name: 炮击阵地II生效标记
-    description: 炮击阵地II生效标记
     code: "1060201"
     priority: 1060201
     duration_type: "1"
@@ -17606,7 +17555,6 @@
   {
     id: 1060300
     name: 炮击阵地III标记
-    description: 炮击阵地III标记
     code: "1060300"
     priority: 1060300
     duration_type: "1"
@@ -17625,7 +17573,6 @@
   {
     id: 1060301
     name: 炮击阵地III生效标记
-    description: 炮击阵地III生效标记
     code: "1060301"
     priority: 1060301
     duration_type: "1"
@@ -17644,7 +17591,6 @@
   {
     id: 1060400
     name: 炮击阵地IV标记
-    description: 炮击阵地IV标记
     code: "1060400"
     priority: 1060400
     duration_type: "1"
@@ -17663,7 +17609,6 @@
   {
     id: 1060401
     name: 炮击阵地IV生效标记
-    description: 炮击阵地IV生效标记
     code: "1060401"
     priority: 1060401
     duration_type: "1"
@@ -17682,7 +17627,6 @@
   {
     id: 1060500
     name: 炮击阵地V标记
-    description: 炮击阵地V标记
     code: "1060500"
     priority: 1060500
     duration_type: "1"
@@ -17701,7 +17645,6 @@
   {
     id: 1060501
     name: 炮击阵地V生效标记
-    description: 炮击阵地V生效标记
     code: "1060501"
     priority: 1060501
     duration_type: "1"
@@ -17720,7 +17663,6 @@
   {
     id: 1060600
     name: 炮击阵地VI标记
-    description: 炮击阵地VI标记
     code: "1060600"
     priority: 1060600
     duration_type: "1"
@@ -17739,7 +17681,6 @@
   {
     id: 1060601
     name: 炮击阵地VI生效标记
-    description: 炮击阵地VI生效标记
     code: "1060601"
     priority: 1060601
     duration_type: "1"
@@ -17758,7 +17699,6 @@
   {
     id: 1070100
     name: 指挥塔I标记
-    description: 指挥塔I标记
     code: "1070100"
     priority: 1070100
     duration_type: "1"
@@ -17777,7 +17717,6 @@
   {
     id: 1070101
     name: 指挥塔I生效标记
-    description: 指挥塔I生效标记
     code: "1070101"
     priority: 1070101
     duration_type: "1"
@@ -17796,7 +17735,6 @@
   {
     id: 1070200
     name: 指挥塔II标记
-    description: 指挥塔II标记
     code: "1070200"
     priority: 1070200
     duration_type: "1"
@@ -17815,7 +17753,6 @@
   {
     id: 1070201
     name: 指挥塔II生效标记
-    description: 指挥塔II生效标记
     code: "1070201"
     priority: 1070201
     duration_type: "1"
@@ -17834,7 +17771,6 @@
   {
     id: 1070300
     name: 指挥塔III标记
-    description: 指挥塔III标记
     code: "1070300"
     priority: 1070300
     duration_type: "1"
@@ -17853,7 +17789,6 @@
   {
     id: 1070301
     name: 指挥塔III生效标记
-    description: 指挥塔III生效标记
     code: "1070301"
     priority: 1070301
     duration_type: "1"
@@ -17872,7 +17807,6 @@
   {
     id: 1070400
     name: 指挥塔IV标记
-    description: 指挥塔IV标记
     code: "1070400"
     priority: 1070400
     duration_type: "1"
@@ -17891,7 +17825,6 @@
   {
     id: 1070401
     name: 指挥塔IV生效标记
-    description: 指挥塔IV生效标记
     code: "1070401"
     priority: 1070401
     duration_type: "1"
@@ -17910,7 +17843,6 @@
   {
     id: 1070500
     name: 指挥塔V标记
-    description: 指挥塔V标记
     code: "1070500"
     priority: 1070500
     duration_type: "1"
@@ -17929,7 +17861,6 @@
   {
     id: 1070501
     name: 指挥塔V生效标记
-    description: 指挥塔V生效标记
     code: "1070501"
     priority: 1070501
     duration_type: "1"
@@ -17948,7 +17879,6 @@
   {
     id: 1070600
     name: 指挥塔VI标记
-    description: 指挥塔VI标记
     code: "1070600"
     priority: 1070600
     duration_type: "1"
@@ -17967,7 +17897,6 @@
   {
     id: 1070601
     name: 指挥塔VI生效标记
-    description: 指挥塔VI生效标记
     code: "1070601"
     priority: 1070601
     duration_type: "1"
@@ -17986,7 +17915,6 @@
   {
     id: 1080100
     name: 污染源I标记
-    description: 污染源I标记
     code: "1080100"
     priority: 1080100
     duration_type: "1"
@@ -18005,7 +17933,6 @@
   {
     id: 1080101
     name: 污染源I生效标记
-    description: 污染源I生效标记
     code: "1080101"
     priority: 1080101
     duration_type: "1"
@@ -18024,7 +17951,6 @@
   {
     id: 1080200
     name: 污染源II标记
-    description: 污染源II标记
     code: "1080200"
     priority: 1080200
     duration_type: "1"
@@ -18043,7 +17969,6 @@
   {
     id: 1080201
     name: 污染源II生效标记
-    description: 污染源II生效标记
     code: "1080201"
     priority: 1080201
     duration_type: "1"
@@ -18062,7 +17987,6 @@
   {
     id: 1080300
     name: 污染源III标记
-    description: 污染源III标记
     code: "1080300"
     priority: 1080300
     duration_type: "1"
@@ -18081,7 +18005,6 @@
   {
     id: 1080301
     name: 污染源III生效标记
-    description: 污染源III生效标记
     code: "1080301"
     priority: 1080301
     duration_type: "1"
@@ -18100,7 +18023,6 @@
   {
     id: 1080400
     name: 污染源IV标记
-    description: 污染源IV标记
     code: "1080400"
     priority: 1080400
     duration_type: "1"
@@ -18119,7 +18041,6 @@
   {
     id: 1080401
     name: 污染源IV生效标记
-    description: 污染源IV生效标记
     code: "1080401"
     priority: 1080401
     duration_type: "1"
@@ -18138,7 +18059,6 @@
   {
     id: 1080500
     name: 污染源V标记
-    description: 污染源V标记
     code: "1080500"
     priority: 1080500
     duration_type: "1"
@@ -18157,7 +18077,6 @@
   {
     id: 1080501
     name: 污染源V生效标记
-    description: 污染源V生效标记
     code: "1080501"
     priority: 1080501
     duration_type: "1"
@@ -18176,7 +18095,6 @@
   {
     id: 1080600
     name: 污染源VI标记
-    description: 污染源VI标记
     code: "1080600"
     priority: 1080600
     duration_type: "1"
@@ -18195,7 +18113,6 @@
   {
     id: 1080601
     name: 污染源VI生效标记
-    description: 污染源VI生效标记
     code: "1080601"
     priority: 1080601
     duration_type: "1"
@@ -18440,6 +18357,7 @@
   {
     id: 1100102
     name: 【标记】过载
+    description: 过载中，暂时无法使用
     code: "1100102"
     priority: 1100102
     duration_type: "1"
@@ -18495,6 +18413,7 @@
   {
     id: 1100202
     name: 【标记】过载
+    description: 过载中，暂时无法使用
     code: "1100202"
     priority: 1100202
     duration_type: "1"
@@ -18550,6 +18469,7 @@
   {
     id: 1100302
     name: 【标记】过载
+    description: 过载中，暂时无法使用
     code: "1100302"
     priority: 1100302
     duration_type: "1"
@@ -18605,6 +18525,7 @@
   {
     id: 1100402
     name: 【标记】过载
+    description: 过载中，暂时无法使用
     code: "1100402"
     priority: 1100402
     duration_type: "1"
@@ -18660,6 +18581,7 @@
   {
     id: 1100502
     name: 【标记】过载
+    description: 过载中，暂时无法使用
     code: "1100502"
     priority: 1100502
     duration_type: "1"
@@ -18882,16 +18804,15 @@
     priority: 1120101
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120101
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -18921,16 +18842,15 @@
     priority: 1120201
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120201
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -18960,16 +18880,15 @@
     priority: 1120301
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120301
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -18999,16 +18918,15 @@
     priority: 1120401
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120401
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -19038,16 +18956,15 @@
     priority: 1120501
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120501
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -19395,7 +19312,7 @@
   }
   {
     id: 1144303
-    name: building自伤
+    name: 【标记】building自伤
     priority: 1144303
     duration_type: "1"
     duration_time: "99"
@@ -19430,7 +19347,7 @@
   }
   {
     id: 1144401
-    name: 分身1刷新点
+    name: 【标记】分身1刷新点
     priority: 1144401
     duration_type: "1"
     duration_time: "99"
@@ -19448,7 +19365,7 @@
   }
   {
     id: 1144402
-    name: 分身2刷新点
+    name: 【标记】分身2刷新点
     priority: 1144402
     duration_type: "1"
     duration_time: "99"
@@ -19466,7 +19383,7 @@
   }
   {
     id: 1144403
-    name: 分身3刷新点
+    name: 【标记】分身3刷新点
     priority: 1144403
     duration_type: "1"
     duration_time: "99"
@@ -19501,7 +19418,7 @@
   }
   {
     id: 1144411
-    name: 分身1刷新点
+    name: 【标记】分身1刷新点
     description: 击败代理人
     code: Agent
     priority: 1144411
@@ -19520,7 +19437,7 @@
   }
   {
     id: 1144412
-    name: 分身1刷新点
+    name: 【标记】分身1刷新点
     priority: 1144412
     duration_type: "1"
     duration_time: "99"
@@ -19537,7 +19454,7 @@
   }
   {
     id: 1144413
-    name: 分身1刷新点
+    name: 【标记】分身1刷新点
     priority: 1144413
     duration_type: "1"
     duration_time: "99"
@@ -19929,7 +19846,6 @@
   {
     id: 2000001
     name: 预置清理(对污染标记-移动)(冷却2回合)
-    description: 预置清理(对污染标记)(冷却2回合)
     code: "2000001"
     priority: 2000001
     duration_type: "1"
@@ -19949,7 +19865,6 @@
   {
     id: 2000002
     name: 预置清理(对污染标记-移动)(冷却2回合)
-    description: 预置清理(对污染标记)(冷却2回合)
     code: "2000002"
     priority: 2000002
     duration_type: "1"
@@ -19969,7 +19884,6 @@
   {
     id: 2000003
     name: 预置清理(对污染标记-移动)(冷却2回合)
-    description: 预置清理(对污染标记)(冷却2回合)
     code: "2000003"
     priority: 2000003
     duration_type: "1"
@@ -19989,7 +19903,6 @@
   {
     id: 2000004
     name: 预置清理(对污染标记-移动)(冷却2回合)
-    description: 预置清理(对污染标记)(冷却2回合)
     code: "2000004"
     priority: 2000004
     duration_type: "1"
@@ -20030,7 +19943,7 @@
     priority: 2110101
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 2110101
@@ -20222,7 +20135,7 @@
   {
     id: 6000002
     name: 【标记】防空炮
-    description: 不能空降
+    description: 禁止通行
     code: "6000002"
     priority: 6000002
     duration_type: "1"
@@ -20262,7 +20175,7 @@
     duration_time: "99"
     mission_buff_config_id: 6000003
     detect_target_type: "-1"
-    effect_target_type: "301"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6000004
@@ -20276,13 +20189,13 @@
   {
     id: 6000005
     name: 夜间照明
-    description: 照明妖精生成buff用特殊点
+    description: 被照明中，获得视野
     code: "6000005"
     priority: 6000005
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6000005
@@ -20329,6 +20242,7 @@
   {
     id: 6000121
     name: 【标记】防御门X1生效标记
+    description: 禁止通行
     code: "6000121"
     priority: 6000121
     duration_type: "1"
@@ -20382,6 +20296,7 @@
   {
     id: 6000202
     name: 【标记】乱石堆I生效标记
+    description: 禁止通行
     code: "6000202"
     priority: 6000202
     duration_type: "1"
@@ -20491,6 +20406,7 @@
   {
     id: 6000317
     name: 【标记】传送节点生效标记
+    description: 传送开启中
     code: "6000317"
     priority: 6000317
     duration_type: "1"
@@ -20505,6 +20421,296 @@
     skill_config_id_on_birth: "0,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_duration: 1013
+  }
+  {
+    id: 6005001
+    name: 【标记】道路
+    code: "6005001"
+    priority: 6005001
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,6580001,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005002
+    name: 【标记】道路
+    code: "6005002"
+    priority: 6005002
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,6580001,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005003
+    name: 【标记】乱石堆
+    code: "6005003"
+    priority: 6005003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005004
+    name: 【标记】乱石堆
+    code: "6005004"
+    priority: 6005004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005005
+    name: 【标记】油桶初始化
+    code: "6005005"
+    priority: 6005005
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 544202
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1000108
+  }
+  {
+    id: 6005006
+    name: 【标记】大型水阀关闭中
+    code: "6005006"
+    priority: 6005006
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005007
+    name: 【标记】防御门
+    code: "6005007"
+    priority: 6005007
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005007
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005008
+    name: 【标记】防御门
+    code: "6005008"
+    priority: 6005008
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005009
+    name: 【标记】防御门
+    code: "6005009"
+    priority: 6005009
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005009
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005010
+    name: 【标记】防御门
+    code: "6005010"
+    priority: 6005010
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005010
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005011
+    name: 【标记】防御门
+    code: "6005011"
+    priority: 6005011
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005011
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005012
+    name: 【标记】防御门
+    code: "6005012"
+    priority: 6005012
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005012
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005013
+    name: 【标记】大型水阀放水中
+    code: "6005013"
+    priority: 6005013
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    effect_range: 1
+    conflict_type: 6005013
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005014
+    name: 【标记】浸水_回合1
+    priority: 9130601
+    duration_type: "1,3"
+    duration_time: "99,99"
+    mission_buff_config_id: 1000009
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9130601
+    conditions_type: "3,3;0"
+    conditions_time: 0-1,0-1;0-0
+    skill_config_id_on_birth: "1000009,1000004,9130608"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1000019
+    effect_conditions: "0,1"
+  }
+  {
+    id: 6005015
+    name: 【标记】浸水伤害_对我方
+    priority: 9130608
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "1,3,4,5,6,7,8,201"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9130608
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,1000005,9130607"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "0,1"
   }
   {
     id: 6030141
@@ -20564,6 +20770,7 @@
   {
     id: 6030144
     name: 【标记】电站过载特效
+    description: 过载中，暂时无法使用
     code: "6030144"
     priority: 6030144
     duration_type: "1"
@@ -21013,6 +21220,7 @@
   {
     id: 6380221
     name: 防御门X1生效标记
+    description: 禁止通行
     code: "6380221"
     priority: 6380221
     duration_type: "1"
@@ -21032,6 +21240,7 @@
   {
     id: 6380222
     name: 防御门X2生效标记
+    description: 禁止通行
     code: "6380222"
     priority: 6380222
     duration_type: "1"
@@ -21051,6 +21260,7 @@
   {
     id: 6380223
     name: 防御门X1生效标记
+    description: 禁止通行
     code: "6380223"
     priority: 6380223
     duration_type: "1"
@@ -21121,7 +21331,6 @@
   {
     id: 6390301
     name: 乱石堆标记
-    description: 乱石堆标记
     code: "6390301"
     priority: 6390301
     duration_type: "1"
@@ -21140,7 +21349,7 @@
   {
     id: 6390302
     name: 乱石堆生效标记
-    description: 乱石堆生效标记
+    description: 禁止通行
     code: "6390302"
     priority: 6390302
     duration_type: "1"
@@ -21195,6 +21404,7 @@
   {
     id: 6390323
     name: 防御门X1生效标记
+    description: 禁止通行
     code: "6390323"
     priority: 6390323
     duration_type: "1"
@@ -21248,6 +21458,7 @@
   {
     id: 6390335
     name: 禁飞区
+    description: 禁止通行
     code: "6390335"
     priority: 6390335
     duration_type: "1"
@@ -21289,7 +21500,7 @@
     priority: 6410101
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,8"
+    detect_target_type: "1,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -21323,6 +21534,7 @@
   {
     id: 6410103
     name: 乱石堆生效标记
+    description: 禁止通行
     code: "6410103"
     priority: 6410103
     duration_type: "1"
@@ -21360,7 +21572,6 @@
   {
     id: 6410201
     name: 炮击阵地群生效标记
-    description: 炮击阵地群生效标记
     code: "6410201"
     priority: 6410201
     duration_type: "1"
@@ -21379,7 +21590,6 @@
   {
     id: 6410301
     name: 炮击阵地I生效标记倒计时
-    description: 炮击阵地I生效标记倒计时
     code: "6410301"
     priority: 6410301
     duration_type: "1"
@@ -21398,7 +21608,6 @@
   {
     id: 6410302
     name: 炮击阵地II生效标记倒计时
-    description: 炮击阵地II生效标记倒计时
     code: "6410302"
     priority: 6410302
     duration_type: "1"
@@ -21417,7 +21626,6 @@
   {
     id: 6410303
     name: 炮击阵地III生效标记倒计时
-    description: 炮击阵地III生效标记倒计时
     code: "6410303"
     priority: 6410303
     duration_type: "1"
@@ -21436,7 +21644,6 @@
   {
     id: 6410304
     name: 炮击阵地IV生效标记倒计时
-    description: 炮击阵地IV生效标记倒计时
     code: "6410304"
     priority: 6410304
     duration_type: "1"
@@ -21455,7 +21662,6 @@
   {
     id: 6410305
     name: 兔子阵地I生效标记
-    description: 炮击阵地I生效标记
     code: "6410305"
     priority: 6410305
     duration_type: "1"
@@ -21475,7 +21681,6 @@
   {
     id: 6410306
     name: 兔子阵地II生效标记
-    description: 炮击阵地II生效标记
     code: "6410306"
     priority: 6410306
     duration_type: "1"
@@ -21495,7 +21700,6 @@
   {
     id: 6410307
     name: 兔子阵地III生效标记
-    description: 炮击阵地III生效标记
     code: "6410307"
     priority: 6410307
     duration_type: "1"
@@ -21515,7 +21719,6 @@
   {
     id: 6410308
     name: 兔子阵地IV生效标记
-    description: 炮击阵地IV生效标记
     code: "6410308"
     priority: 6410308
     duration_type: "1"
@@ -21569,6 +21772,7 @@
   {
     id: 6410423
     name: 防御门X1生效标记
+    description: 禁止通行
     code: "6410423"
     priority: 6410423
     duration_type: "1"
@@ -21639,6 +21843,7 @@
   {
     id: 6410523
     name: 防御门X1生效标记
+    description: 禁止通行
     code: "6410523"
     priority: 6410523
     duration_type: "1"
@@ -21692,6 +21897,7 @@
   {
     id: 6410602
     name: 乱石堆I生效标记
+    description: 禁止通行
     code: "6410602"
     priority: 6410602
     duration_type: "1"
@@ -21711,6 +21917,7 @@
   {
     id: 6410603
     name: 乱石堆II生效标记
+    description: 禁止通行
     code: "6410603"
     priority: 6410603
     duration_type: "1"
@@ -21730,6 +21937,7 @@
   {
     id: 6410604
     name: 乱石堆III生效标记
+    description: 禁止通行
     code: "6410604"
     priority: 6410604
     duration_type: "1"
@@ -21887,7 +22095,8 @@
   }
   {
     id: 6410802
-    name: 防御门X1生效标记
+    name: 【标记】防御门X1生效标记
+    description: 禁止通行
     code: Door_Left_S
     priority: 6410802
     duration_type: "1"
@@ -22013,7 +22222,7 @@
     priority: 6410907
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,8"
+    detect_target_type: "1,3,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -22254,6 +22463,7 @@
   {
     id: 6411404
     name: 特效1标记
+    description: 莫比乌斯生效中，禁止移动
     code: "6411404"
     priority: 6411404
     duration_type: "1"
@@ -22272,6 +22482,7 @@
   {
     id: 6411405
     name: 特效1标记
+    description: 莫比乌斯生效中，禁止移动
     code: "6411405"
     priority: 6411405
     duration_type: "1"
@@ -22290,6 +22501,7 @@
   {
     id: 6411406
     name: 特效1标记
+    description: 莫比乌斯生效中，禁止移动
     code: "6411406"
     priority: 6411406
     duration_type: "1"
@@ -23529,6 +23741,7 @@
   {
     id: 6440039
     name: 【标记】防御门I生效标记
+    description: 禁止通行
     code: "6440039"
     priority: 6440039
     duration_type: "1"
@@ -23549,6 +23762,7 @@
   {
     id: 6440040
     name: 【标记】防御门II生效标记
+    description: 禁止通行
     code: "6440040"
     priority: 6440040
     duration_type: "1"
@@ -23569,6 +23783,7 @@
   {
     id: 6440041
     name: 【标记】防御门III生效标记
+    description: 禁止通行
     code: "6440041"
     priority: 6440041
     duration_type: "1"
@@ -23589,6 +23804,7 @@
   {
     id: 6440042
     name: 【标记】花粉爆炸标记
+    description: 花粉四散，接触后影响作战效率
     code: "6440042"
     priority: 6440042
     duration_type: "1"
@@ -23699,6 +23915,7 @@
   {
     id: 6440048
     name: 【标记】禁飞区
+    description: 禁止通行
     code: "6440048"
     priority: 6440048
     duration_type: "1"
@@ -23718,6 +23935,7 @@
   {
     id: 6440049
     name: 【标记】禁飞区花粉
+    description: 花粉四散
     code: "6440049"
     priority: 6440049
     duration_type: "1"
@@ -23810,6 +24028,7 @@
   {
     id: 6440054
     name: 【标记】防御门XI生效标记
+    description: 禁止通行
     code: "6440054"
     priority: 6440054
     duration_type: "1"
@@ -23830,6 +24049,7 @@
   {
     id: 6440055
     name: 【标记】防御门XII生效标记
+    description: 禁止通行
     code: "6440055"
     priority: 6440055
     duration_type: "1"
@@ -24103,6 +24323,7 @@
   {
     id: 6440070
     name: 【标记】防御门生效标记
+    description: 禁止通行
     code: "6440070"
     priority: 6440070
     duration_type: "1"
@@ -24195,6 +24416,7 @@
   {
     id: 6440075
     name: 【标记】防御门生效标记
+    description: 禁止通行
     code: "6440075"
     priority: 6440075
     duration_type: "1"
@@ -24215,6 +24437,7 @@
   {
     id: 6440076
     name: 【标记】防御门生效标记
+    description: 禁止通行
     code: "6440076"
     priority: 6440076
     duration_type: "1"
@@ -24235,6 +24458,7 @@
   {
     id: 6440077
     name: 【标记】防御门生效标记
+    description: 禁止通行
     code: "6440077"
     priority: 6440077
     duration_type: "1"
@@ -24255,6 +24479,7 @@
   {
     id: 6440081
     name: 【标记】炸弹倒计时1
+    description: 倒计时"1"
     code: "6440081"
     priority: 6440081
     duration_type: "1"
@@ -24274,6 +24499,7 @@
   {
     id: 6440082
     name: 【标记】炸弹倒计时2
+    description: 倒计时"2"
     code: "6440082"
     priority: 6440082
     duration_type: "1"
@@ -24293,6 +24519,7 @@
   {
     id: 6440083
     name: 【标记】炸弹倒计时3
+    description: 倒计时"3"
     code: "6440083"
     priority: 6440083
     duration_type: "1"
@@ -24312,6 +24539,7 @@
   {
     id: 6440084
     name: 【标记】炸弹倒计时4
+    description: 倒计时"4"
     code: "6440084"
     priority: 6440084
     duration_type: "1"
@@ -24331,6 +24559,7 @@
   {
     id: 6440085
     name: 【标记】炸弹倒计时5
+    description: 倒计时"5"
     code: "6440085"
     priority: 6440085
     duration_type: "1"
@@ -24350,6 +24579,7 @@
   {
     id: 6440086
     name: 【标记】炸弹倒计时6
+    description: 倒计时"6"
     code: "6440086"
     priority: 6440086
     duration_type: "1"
@@ -24369,6 +24599,7 @@
   {
     id: 6440087
     name: 【标记】炸弹倒计时7
+    description: 倒计时"7"
     code: "6440087"
     priority: 6440087
     duration_type: "1"
@@ -24388,6 +24619,7 @@
   {
     id: 6440088
     name: 【标记】炸弹倒计时8
+    description: 倒计时"8"
     code: "6440088"
     priority: 6440088
     duration_type: "1"
@@ -24407,6 +24639,7 @@
   {
     id: 6440089
     name: 【标记】炸弹倒计时9
+    description: 倒计时"9"
     code: "6440089"
     priority: 6440089
     duration_type: "1"
@@ -24537,6 +24770,7 @@
   {
     id: 6440100
     name: 【标记】控制台1按钮0
+    description: 数字"6"
     code: "6440100"
     priority: 6440100
     duration_type: "1"
@@ -24556,6 +24790,7 @@
   {
     id: 6440200
     name: 【标记】控制台2按钮0
+    description: 数字"4"
     code: "6440200"
     priority: 6440200
     duration_type: "1"
@@ -24575,6 +24810,7 @@
   {
     id: 6440300
     name: 【标记】控制台3按钮0
+    description: 数字"0"
     code: "6440300"
     priority: 6440300
     duration_type: "1"
@@ -24594,6 +24830,7 @@
   {
     id: 6440310
     name: 【标记】控制台3按钮1
+    description: 数字"1"
     code: "6440310"
     priority: 6440310
     duration_type: "1"
@@ -24613,6 +24850,7 @@
   {
     id: 6440320
     name: 【标记】控制台3按钮2
+    description: 数字"2"
     code: "6440320"
     priority: 6440320
     duration_type: "1"
@@ -24632,6 +24870,7 @@
   {
     id: 6440330
     name: 【标记】控制台3按钮3
+    description: 数字"3"
     code: "6440330"
     priority: 6440330
     duration_type: "1"
@@ -24651,6 +24890,7 @@
   {
     id: 6440340
     name: 【标记】控制台3按钮4
+    description: 数字"4"
     code: "6440340"
     priority: 6440340
     duration_type: "1"
@@ -24670,6 +24910,7 @@
   {
     id: 6440350
     name: 【标记】控制台3按钮5
+    description: 数字"5"
     code: "6440350"
     priority: 6440350
     duration_type: "1"
@@ -24689,6 +24930,7 @@
   {
     id: 6440360
     name: 【标记】控制台3按钮6
+    description: 数字"6"
     code: "6440360"
     priority: 6440360
     duration_type: "1"
@@ -24708,6 +24950,7 @@
   {
     id: 6440370
     name: 【标记】控制台3按钮7
+    description: 数字"7"
     code: "6440370"
     priority: 6440370
     duration_type: "1"
@@ -24727,6 +24970,7 @@
   {
     id: 6440380
     name: 【标记】控制台3按钮8
+    description: 数字"8"
     code: "6440380"
     priority: 6440380
     duration_type: "1"
@@ -24746,6 +24990,7 @@
   {
     id: 6440390
     name: 【标记】控制台3按钮9
+    description: 数字"9"
     code: "6440390"
     priority: 6440390
     duration_type: "1"
@@ -24765,6 +25010,7 @@
   {
     id: 6440400
     name: 【标记】控制台4按钮0
+    description: 数字"0"
     code: "6440400"
     priority: 6440400
     duration_type: "1"
@@ -24784,6 +25030,7 @@
   {
     id: 6440410
     name: 【标记】控制台4按钮1
+    description: 数字"1"
     code: "6440410"
     priority: 6440410
     duration_type: "1"
@@ -24803,6 +25050,7 @@
   {
     id: 6440420
     name: 【标记】控制台4按钮2
+    description: 数字"2"
     code: "6440420"
     priority: 6440420
     duration_type: "1"
@@ -24822,6 +25070,7 @@
   {
     id: 6440430
     name: 【标记】控制台4按钮3
+    description: 数字"3"
     code: "6440430"
     priority: 6440430
     duration_type: "1"
@@ -24841,6 +25090,7 @@
   {
     id: 6440440
     name: 【标记】控制台4按钮4
+    description: 数字"4"
     code: "6440440"
     priority: 6440440
     duration_type: "1"
@@ -24860,6 +25110,7 @@
   {
     id: 6440450
     name: 【标记】控制台4按钮5
+    description: 数字"5"
     code: "6440450"
     priority: 6440450
     duration_type: "1"
@@ -24879,6 +25130,7 @@
   {
     id: 6440460
     name: 【标记】控制台4按钮6
+    description: 数字"6"
     code: "6440460"
     priority: 6440460
     duration_type: "1"
@@ -24898,6 +25150,7 @@
   {
     id: 6440470
     name: 【标记】控制台4按钮7
+    description: 数字"7"
     code: "6440470"
     priority: 6440470
     duration_type: "1"
@@ -24917,6 +25170,7 @@
   {
     id: 6440480
     name: 【标记】控制台4按钮8
+    description: 数字"8"
     code: "6440480"
     priority: 6440480
     duration_type: "1"
@@ -24936,6 +25190,7 @@
   {
     id: 6440490
     name: 【标记】控制台4按钮9
+    description: 数字"9"
     code: "6440490"
     priority: 6440490
     duration_type: "1"
@@ -24955,6 +25210,7 @@
   {
     id: 6440500
     name: 【标记】控制台5按钮0
+    description: 数字"0"
     code: "6440500"
     priority: 6440500
     duration_type: "1"
@@ -24974,6 +25230,7 @@
   {
     id: 6440510
     name: 【标记】控制台5按钮1
+    description: 数字"1"
     code: "6440510"
     priority: 6440510
     duration_type: "1"
@@ -24993,6 +25250,7 @@
   {
     id: 6440520
     name: 【标记】控制台5按钮2
+    description: 数字"2"
     code: "6440520"
     priority: 6440520
     duration_type: "1"
@@ -25012,6 +25270,7 @@
   {
     id: 6440530
     name: 【标记】控制台5按钮3
+    description: 数字"3"
     code: "6440530"
     priority: 6440530
     duration_type: "1"
@@ -25031,6 +25290,7 @@
   {
     id: 6440540
     name: 【标记】控制台5按钮4
+    description: 数字"4"
     code: "6440540"
     priority: 6440540
     duration_type: "1"
@@ -25050,6 +25310,7 @@
   {
     id: 6440550
     name: 【标记】控制台5按钮5
+    description: 数字"5"
     code: "6440550"
     priority: 6440550
     duration_type: "1"
@@ -25069,6 +25330,7 @@
   {
     id: 6440560
     name: 【标记】控制台5按钮6
+    description: 数字"6"
     code: "6440560"
     priority: 6440560
     duration_type: "1"
@@ -25088,6 +25350,7 @@
   {
     id: 6440570
     name: 【标记】控制台5按钮7
+    description: 数字"7"
     code: "6440570"
     priority: 6440570
     duration_type: "1"
@@ -25107,6 +25370,7 @@
   {
     id: 6440580
     name: 【标记】控制台5按钮8
+    description: 数字"8"
     code: "6440580"
     priority: 6440580
     duration_type: "1"
@@ -25126,6 +25390,7 @@
   {
     id: 6440590
     name: 【标记】控制台5按钮9
+    description: 数字"9"
     code: "6440590"
     priority: 6440590
     duration_type: "1"
@@ -25145,6 +25410,7 @@
   {
     id: 6440600
     name: 【标记】控制台6按钮0
+    description: 数字"0"
     code: "6440600"
     priority: 6440600
     duration_type: "1"
@@ -25164,6 +25430,7 @@
   {
     id: 6440610
     name: 【标记】控制台6按钮1
+    description: 数字"1"
     code: "6440610"
     priority: 6440610
     duration_type: "1"
@@ -25183,6 +25450,7 @@
   {
     id: 6440620
     name: 【标记】控制台6按钮2
+    description: 数字"2"
     code: "6440620"
     priority: 6440620
     duration_type: "1"
@@ -25202,6 +25470,7 @@
   {
     id: 6440630
     name: 【标记】控制台6按钮3
+    description: 数字"3"
     code: "6440630"
     priority: 6440630
     duration_type: "1"
@@ -25221,6 +25490,7 @@
   {
     id: 6440640
     name: 【标记】控制台6按钮4
+    description: 数字"4"
     code: "6440640"
     priority: 6440640
     duration_type: "1"
@@ -25240,6 +25510,7 @@
   {
     id: 6440650
     name: 【标记】控制台6按钮5
+    description: 数字"5"
     code: "6440650"
     priority: 6440650
     duration_type: "1"
@@ -25259,6 +25530,7 @@
   {
     id: 6440660
     name: 【标记】控制台6按钮6
+    description: 数字"6"
     code: "6440660"
     priority: 6440660
     duration_type: "1"
@@ -25278,6 +25550,7 @@
   {
     id: 6440670
     name: 【标记】控制台6按钮7
+    description: 数字"7"
     code: "6440670"
     priority: 6440670
     duration_type: "1"
@@ -25297,6 +25570,7 @@
   {
     id: 6440680
     name: 【标记】控制台6按钮8
+    description: 数字"8"
     code: "6440680"
     priority: 6440680
     duration_type: "1"
@@ -25316,6 +25590,7 @@
   {
     id: 6440690
     name: 【标记】控制台6按钮9
+    description: 数字"9"
     code: "6440690"
     priority: 6440690
     duration_type: "1"
@@ -25335,6 +25610,7 @@
   {
     id: 6448881
     name: 【标记】提示倒计时1
+    description: 倒计时"1"
     code: "6448881"
     priority: 6448881
     duration_type: "1"
@@ -25354,6 +25630,7 @@
   {
     id: 6448882
     name: 【标记】提示倒计时2
+    description: 倒计时"2"
     code: "6448882"
     priority: 6448882
     duration_type: "1"
@@ -25373,6 +25650,7 @@
   {
     id: 6448883
     name: 【标记】提示倒计时3
+    description: 倒计时"3"
     code: "6448883"
     priority: 6448883
     duration_type: "1"
@@ -25392,6 +25670,7 @@
   {
     id: 6448884
     name: 【标记】提示倒计时4
+    description: 倒计时"4"
     code: "6448884"
     priority: 6448884
     duration_type: "1"
@@ -25411,6 +25690,7 @@
   {
     id: 6448885
     name: 【标记】提示倒计时5
+    description: 倒计时"5"
     code: "6448885"
     priority: 6448885
     duration_type: "1"
@@ -25430,6 +25710,7 @@
   {
     id: 6448886
     name: 【标记】提示倒计时6
+    description: 倒计时"6"
     code: "6448886"
     priority: 6448886
     duration_type: "1"
@@ -25449,6 +25730,7 @@
   {
     id: 6448887
     name: 【标记】提示倒计时7
+    description: 倒计时"7"
     code: "6448887"
     priority: 6448887
     duration_type: "1"
@@ -25468,6 +25750,7 @@
   {
     id: 6448888
     name: 【标记】提示倒计时8
+    description: 倒计时"8"
     code: "6448888"
     priority: 6448888
     duration_type: "1"
@@ -25487,6 +25770,7 @@
   {
     id: 6448889
     name: 【标记】提示倒计时9
+    description: 倒计时"9"
     code: "6448889"
     priority: 6448889
     duration_type: "1"
@@ -25882,11 +26166,12 @@
   {
     id: 6460001
     name: 【标记】刨冰I生效标记
+    description: 美味刨冰，邪神酱很喜欢
     code: "6460001"
     priority: 6460001
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26072,11 +26357,12 @@
   {
     id: 6460011
     name: 【标记】刨冰II生效标记
+    description: 美味刨冰，邪神酱很喜欢
     code: "6460011"
     priority: 6460011
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26092,11 +26378,12 @@
   {
     id: 6460012
     name: 【标记】刨冰III生效标记
+    description: 美味刨冰，邪神酱很喜欢
     code: "6460012"
     priority: 6460012
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26112,11 +26399,12 @@
   {
     id: 6460013
     name: 【标记】刨冰IV生效标记
+    description: 美味刨冰，邪神酱很喜欢
     code: "6460013"
     priority: 6460013
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26132,11 +26420,12 @@
   {
     id: 6460014
     name: 【标记】刨冰V生效标记
+    description: 美味刨冰，邪神酱很喜欢
     code: "6460014"
     priority: 6460014
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26512,6 +26801,7 @@
   {
     id: 6480001
     name: 【标记】上生效标记
+    description: 指向上方
     code: "6480001"
     priority: 6480001
     duration_type: "1"
@@ -26531,6 +26821,7 @@
   {
     id: 6480002
     name: 【标记】下生效标记
+    description: 指向下方
     code: "6480002"
     priority: 6480002
     duration_type: "1"
@@ -26550,6 +26841,7 @@
   {
     id: 6480003
     name: 【标记】左生效标记
+    description: 指向左侧
     code: "6480003"
     priority: 6480003
     duration_type: "1"
@@ -26569,6 +26861,7 @@
   {
     id: 6480004
     name: 【标记】右生效标记
+    description: 指向右侧
     code: "6480004"
     priority: 6480004
     duration_type: "1"
@@ -26718,7 +27011,7 @@
     priority: 6480012
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26736,7 +27029,7 @@
     priority: 6480013
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26990,7 +27283,7 @@
     priority: 6480027
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27061,6 +27354,7 @@
   {
     id: 6480031
     name: 【标记】防御门I初始化
+    description: 禁止通行
     code: "6480031"
     priority: 6480031
     duration_type: "1"
@@ -27081,6 +27375,7 @@
   {
     id: 6480032
     name: 【标记】防御门II初始化
+    description: 禁止通行
     code: "6480032"
     priority: 6480032
     duration_type: "1"
@@ -27214,6 +27509,7 @@
   {
     id: 6480039
     name: 【标记】大楼初始化
+    description: 禁止通行
     code: "6480039"
     priority: 6480039
     duration_type: "1"
@@ -27252,6 +27548,7 @@
   {
     id: 6480041
     name: 【标记】乱石堆出现
+    description: 禁止通行
     code: "6480041"
     priority: 6480038
     duration_type: "1"
@@ -27383,6 +27680,7 @@
   {
     id: 6480048
     name: 【标记】废墟生效
+    description: 禁止通行
     code: "6480048"
     priority: 6480048
     duration_type: "1"
@@ -27425,7 +27723,7 @@
     priority: 6480050
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27444,7 +27742,7 @@
     priority: 6480051
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27463,7 +27761,7 @@
     priority: 6480052
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27482,7 +27780,7 @@
     priority: 6480053
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27501,7 +27799,7 @@
     priority: 6480054
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27519,7 +27817,7 @@
     priority: 6480055
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27537,7 +27835,7 @@
     priority: 6480056
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27555,7 +27853,7 @@
     priority: 6480057
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27569,6 +27867,7 @@
   {
     id: 6480058
     name: 【标记】3-3胜利标记
+    description: 禁止通行
     code: Air_Runway
     priority: 6480058
     duration_type: "1"
@@ -27593,7 +27892,7 @@
     priority: 6480059
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27625,6 +27924,7 @@
   {
     id: 6480061
     name: 【标记】1-2EX特效64376
+    description: 指向左侧
     code: "6480061"
     priority: 6480061
     duration_type: "1"
@@ -27644,6 +27944,7 @@
   {
     id: 6480062
     name: 【标记】1-2EX特效64340
+    description: 传送开启中
     code: "6480062"
     priority: 6480062
     duration_type: "1"
@@ -27663,6 +27964,7 @@
   {
     id: 6480063
     name: 【标记】1-2EX特效64361
+    description: 传送开启中
     code: "6480063"
     priority: 6480063
     duration_type: "1"
@@ -27682,6 +27984,7 @@
   {
     id: 6480064
     name: 【标记】1-2EX特效64367
+    description: 传送开启中
     code: "6480064"
     priority: 6480064
     duration_type: "1"
@@ -27701,6 +28004,7 @@
   {
     id: 6480065
     name: 【标记】1-2EX特效64363
+    description: 传送开启中
     code: "6480065"
     priority: 6480065
     duration_type: "1"
@@ -28232,7 +28536,7 @@
     priority: 6480094
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28250,7 +28554,7 @@
     priority: 6480095
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28268,7 +28572,7 @@
     priority: 6480096
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28286,7 +28590,7 @@
     priority: 6480097
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28304,7 +28608,7 @@
     priority: 6480098
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28322,7 +28626,7 @@
     priority: 6480099
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28340,7 +28644,7 @@
     priority: 6480100
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28358,7 +28662,7 @@
     priority: 6480101
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28376,7 +28680,7 @@
     priority: 6480102
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28394,7 +28698,7 @@
     priority: 6480103
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28412,7 +28716,7 @@
     priority: 6480104
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28430,7 +28734,7 @@
     priority: 6480105
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28448,7 +28752,7 @@
     priority: 6480106
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28466,7 +28770,7 @@
     priority: 6480107
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28480,6 +28784,7 @@
   {
     id: 6480108
     name: 【标记】粘性炸药爆炸伤害
+    description: 禁止通行
     code: "6480108"
     priority: 6480108
     duration_type: "1"
@@ -28809,6 +29114,7 @@
   {
     id: 6510017
     name: 【标记】传送节点生效
+    description: 传送开启中
     code: "6510017"
     priority: 6510017
     duration_type: "1"
@@ -28847,7 +29153,6 @@
   {
     id: 6510019
     name: 【标记】传送节点胜利
-    description: 操作设施
     code: Console
     priority: 6510019
     duration_type: "1"
@@ -28866,7 +29171,6 @@
   {
     id: 6510020
     name: 【标记】传送节点胜利
-    description: 操作设施
     code: Console
     priority: 6510020
     duration_type: "1"
@@ -30276,6 +30580,7 @@
   {
     id: 6510098
     name: 【标记】4-1第一位0
+    description: 数字"0"
     code: "6510098"
     priority: 6510098
     duration_type: "1"
@@ -30295,6 +30600,7 @@
   {
     id: 6510099
     name: 【标记】4-1第一位1
+    description: 数字"1"
     code: "6510099"
     priority: 6510099
     duration_type: "1"
@@ -30314,6 +30620,7 @@
   {
     id: 6510100
     name: 【标记】4-1第二位0
+    description: 数字"0"
     code: "6510100"
     priority: 6510100
     duration_type: "1"
@@ -30333,6 +30640,7 @@
   {
     id: 6510101
     name: 【标记】4-1第二位1
+    description: 数字"1"
     code: "6510101"
     priority: 6510101
     duration_type: "1"
@@ -30352,6 +30660,7 @@
   {
     id: 6510102
     name: 【标记】4-1第三位0
+    description: 数字"0"
     code: "6510102"
     priority: 6510102
     duration_type: "1"
@@ -30371,6 +30680,7 @@
   {
     id: 6510103
     name: 【标记】4-1第三位1
+    description: 数字"1"
     code: "6510103"
     priority: 6510103
     duration_type: "1"
@@ -30599,7 +30909,7 @@
     mission_buff_config_id: 6510013
     detect_target_type: "-1"
     detect_range: 1
-    effect_target_type: "3,301,302,303"
+    effect_target_type: "3,301,10,305,304,302,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -31086,6 +31396,7 @@
   {
     id: 6510142
     name: 【标记】防御门生效
+    description: 禁止通行
     code: "6510142"
     priority: 6510142
     duration_type: "1"
@@ -31566,6 +31877,7 @@
   {
     id: 6520011
     name: 【标记】-52-Pachinko1
+    description: 数字"1"
     code: "6520011"
     priority: 6520011
     duration_type: "1"
@@ -31586,6 +31898,7 @@
   {
     id: 6520012
     name: 【标记】-52-Pachinko2
+    description: 数字"2"
     code: "6520012"
     priority: 6520012
     duration_type: "1"
@@ -31606,6 +31919,7 @@
   {
     id: 6520013
     name: 【标记】-52-Pachinko3
+    description: 数字"3"
     code: "6520013"
     priority: 6520013
     duration_type: "1"
@@ -31626,6 +31940,7 @@
   {
     id: 6520014
     name: 【标记】-52-Pachinko4
+    description: 数字"4"
     code: "6520014"
     priority: 6520014
     duration_type: "1"
@@ -31646,6 +31961,7 @@
   {
     id: 6520015
     name: 【标记】-52-Pachinko5
+    description: 数字"5"
     code: "6520015"
     priority: 6520015
     duration_type: "1"
@@ -31666,6 +31982,7 @@
   {
     id: 6520016
     name: 【标记】-52-Pachinko6
+    description: 数字"6"
     code: "6520016"
     priority: 6520016
     duration_type: "1"
@@ -31686,6 +32003,7 @@
   {
     id: 6520017
     name: 【标记】-52-Pachinko7
+    description: 数字"7"
     code: "6520017"
     priority: 6520017
     duration_type: "1"
@@ -31706,6 +32024,7 @@
   {
     id: 6520018
     name: 【标记】-52-Pachinko8
+    description: 数字"8"
     code: "6520018"
     priority: 6520018
     duration_type: "1"
@@ -31726,6 +32045,7 @@
   {
     id: 6520019
     name: 【标记】-52-Pachinko9
+    description: 数字"9"
     code: "6520019"
     priority: 6520019
     duration_type: "1"
@@ -31746,6 +32066,7 @@
   {
     id: 6520020
     name: 【标记】-52-Pachinko0
+    description: 数字"0"
     code: "6520020"
     priority: 6520020
     duration_type: "1"
@@ -31789,8 +32110,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 6520003
-    detect_target_type: "1,3,7,8,301"
-    effect_target_type: "1,3,7,8,301"
+    detect_target_type: "1,3,7,8,301,10,305,304"
+    effect_target_type: "1,3,7,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6520022
@@ -31861,6 +32182,7 @@
   {
     id: 6520026
     name: 【标记】烟花照明
+    description: 被照明的点位，获得视野
     code: 2022_Bikini_Fireworks
     priority: 6520026
     duration_type: "1"
@@ -32464,7 +32786,7 @@
     mission_buff_config_id: 6540200
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,7,8"
+    effect_target_type: "1,7,8,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 3
@@ -33244,6 +33566,7 @@
   {
     id: 6540145
     name: 【标记】防御门I初始化
+    description: 禁止通行
     code: "6540145"
     priority: 6540145
     duration_type: "1"
@@ -33264,6 +33587,7 @@
   {
     id: 6540146
     name: 【标记】防御门II初始化
+    description: 禁止通行
     code: "6540146"
     priority: 6540146
     duration_type: "1"
@@ -33284,6 +33608,7 @@
   {
     id: 6540147
     name: 【标记】防御门III初始化
+    description: 禁止通行
     code: "6540147"
     priority: 6540147
     duration_type: "1"
@@ -33322,6 +33647,7 @@
   {
     id: 6540149
     name: 【标记】乱石堆初始化
+    description: 禁止通行
     code: "6540149"
     priority: 6540149
     duration_type: "1"
@@ -33492,6 +33818,7 @@
   {
     id: 6540158
     name: 【标记】乱石堆初始化
+    description: 禁止通行
     code: "6540158"
     priority: 6540158
     duration_type: "1"
@@ -33530,6 +33857,7 @@
   {
     id: 6540160
     name: 【标记】乱石堆初始化
+    description: 禁止通行
     code: "6540160"
     priority: 6540160
     duration_type: "1"
@@ -33550,6 +33878,7 @@
   {
     id: 6540161
     name: 【标记】乱石堆初始化
+    description: 禁止通行
     code: "6540161"
     priority: 6540161
     duration_type: "1"
@@ -33570,6 +33899,7 @@
   {
     id: 6540162
     name: 【标记】乱石堆初始化
+    description: 禁止通行
     code: "6540162"
     priority: 6540162
     duration_type: "1"
@@ -33945,7 +34275,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 6540183
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -34109,13 +34439,14 @@
   {
     id: 6540191
     name: 【标记】照明
+    description: 被照明的点位，获得视野，抵消部分夜战减益
     code: "6540191"
     priority: 6540191
     duration_type: "1"
     duration_time: "1"
     mission_buff_config_id: 6540246
     detect_target_type: "-1"
-    effect_target_type: "1,301,8"
+    effect_target_type: "1,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6540191
@@ -34134,8 +34465,8 @@
     priority: 6540192
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,301,8"
-    effect_target_type: "1,301,8"
+    detect_target_type: "1,301,10,305,304,8"
+    effect_target_type: "1,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6540192
@@ -34241,6 +34572,7 @@
   {
     id: 6560003
     name: 【标记】自动机初始化
+    description: 禁止通行
     code: "6560003"
     priority: 6560003
     duration_type: "1"
@@ -34261,6 +34593,7 @@
   {
     id: 6560004
     name: 【标记】自动机初始化
+    description: 禁止通行
     code: "6560004"
     priority: 6560004
     duration_type: "1"
@@ -34281,6 +34614,7 @@
   {
     id: 6560005
     name: 【标记】自动机初始化
+    description: 禁止通行
     code: "6560005"
     priority: 6560005
     duration_type: "1"
@@ -34319,6 +34653,7 @@
   {
     id: 6560007
     name: 【标记】防御门初始化
+    description: 禁止通行
     code: "6560007"
     priority: 6560007
     duration_type: "1"
@@ -34375,6 +34710,7 @@
   {
     id: 6560010
     name: 【标记】破碎心智初始化
+    description: 月印，不妨尝试过来触摸一下
     code: "6560010"
     priority: 6560010
     duration_type: "1"
@@ -34574,13 +34910,14 @@
   {
     id: 6560021
     name: 【标记】开火点
+    description: 被瞄准点位，下回合开始会攻击此处
     code: "6560021"
     priority: 6560021
     duration_type: "1"
     duration_time: "1"
     mission_hurt_config_id: 6560001
-    detect_target_type: "1,3,301,8"
-    effect_target_type: "1,3,301,8"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560021
@@ -34852,7 +35189,7 @@
     duration_time: "99"
     mission_buff_config_id: 6560004
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560036
@@ -34871,7 +35208,7 @@
     duration_time: "99"
     special_spot_config_id: 6560039
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560037
@@ -34890,7 +35227,7 @@
     duration_time: "99"
     special_spot_config_id: 6560040
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560038
@@ -34946,7 +35283,7 @@
     special_spot_config_id: 6560042
     detect_target_type: "-1"
     detect_range: 1
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560041
@@ -34977,6 +35314,7 @@
   {
     id: 6560043
     name: 【标记】左箭头
+    description: 指向左侧
     code: "6560043"
     priority: 6560043
     duration_type: "1"
@@ -34996,6 +35334,7 @@
   {
     id: 6560044
     name: 【标记】右箭头
+    description: 指向右侧
     code: "6560044"
     priority: 6560044
     duration_type: "1"
@@ -35186,8 +35525,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 6580000
-    detect_target_type: "1,8"
-    effect_target_type: "1,8"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6580005
@@ -35220,6 +35559,7 @@
   {
     id: 6580007
     name: 【标记】弹药计数1
+    description: 剩余数量"1"
     code: "6580007"
     priority: 6580007
     duration_type: "1"
@@ -35240,6 +35580,7 @@
   {
     id: 6580008
     name: 【标记】弹药计数2
+    description: 剩余数量"2"
     code: "6580008"
     priority: 6580008
     duration_type: "1"
@@ -35260,6 +35601,7 @@
   {
     id: 6580009
     name: 【标记】弹药计数3
+    description: 剩余数量"3"
     code: "6580009"
     priority: 6580009
     duration_type: "1"
@@ -35280,6 +35622,7 @@
   {
     id: 6580010
     name: 【标记】弹药计数4
+    description: 剩余数量"4"
     code: "6580010"
     priority: 6580010
     duration_type: "1"
@@ -35300,6 +35643,7 @@
   {
     id: 6580011
     name: 【标记】弹药计数5
+    description: 剩余数量"5"
     code: "6580011"
     priority: 6580011
     duration_type: "1"
@@ -35320,6 +35664,7 @@
   {
     id: 6580012
     name: 【标记】弹药计数6
+    description: 剩余数量"6"
     code: "6580012"
     priority: 6580012
     duration_type: "1"
@@ -35522,12 +35867,13 @@
   {
     id: 6580023
     name: 【标记】弹药计数1支援中
+    description: 剩余数量"1"
     code: "6580023"
     priority: 6580023
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -35543,12 +35889,13 @@
   {
     id: 6580024
     name: 【标记】弹药计数2支援中
+    description: 剩余数量"2"
     code: "6580024"
     priority: 6580024
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -35564,12 +35911,13 @@
   {
     id: 6580025
     name: 【标记】弹药计数3支援中
+    description: 剩余数量"3"
     code: "6580025"
     priority: 6580025
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -35585,12 +35933,13 @@
   {
     id: 6580026
     name: 【标记】弹药计数4支援中
+    description: 剩余数量"4"
     code: "6580026"
     priority: 6580026
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -35606,12 +35955,13 @@
   {
     id: 6580027
     name: 【标记】弹药计数5支援中
+    description: 剩余数量"5"
     code: "6580027"
     priority: 6580027
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -35627,12 +35977,13 @@
   {
     id: 6580028
     name: 【标记】弹药计数6支援中
+    description: 剩余数量"6"
     code: "6580028"
     priority: 6580028
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -37024,6 +37375,7 @@
   {
     id: 6580114
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580114"
     priority: 6580114
     duration_type: "3"
@@ -37044,6 +37396,7 @@
   {
     id: 6580115
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580115"
     priority: 6580115
     duration_type: "3"
@@ -37064,6 +37417,7 @@
   {
     id: 6580116
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580116"
     priority: 6580116
     duration_type: "3"
@@ -37084,6 +37438,7 @@
   {
     id: 6580117
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580117"
     priority: 6580117
     duration_type: "3"
@@ -37104,6 +37459,7 @@
   {
     id: 6580118
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580118"
     priority: 6580118
     duration_type: "3"
@@ -37124,6 +37480,7 @@
   {
     id: 6580119
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580119"
     priority: 6580119
     duration_type: "3"
@@ -37144,6 +37501,7 @@
   {
     id: 6580120
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580120"
     priority: 6580120
     duration_type: "3"
@@ -37164,6 +37522,7 @@
   {
     id: 6580121
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580121"
     priority: 6580121
     duration_type: "3"
@@ -37184,6 +37543,7 @@
   {
     id: 6580122
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580122"
     priority: 6580122
     duration_type: "3"
@@ -37204,6 +37564,7 @@
   {
     id: 6580123
     name: 【标记】状态0
+    description: 数字"0"
     code: "6580123"
     priority: 6580123
     duration_type: "3"
@@ -37224,6 +37585,7 @@
   {
     id: 6580124
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580124"
     priority: 6580124
     duration_type: "3"
@@ -37244,6 +37606,7 @@
   {
     id: 6580125
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580125"
     priority: 6580125
     duration_type: "3"
@@ -37264,6 +37627,7 @@
   {
     id: 6580126
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580126"
     priority: 6580126
     duration_type: "3"
@@ -37284,6 +37648,7 @@
   {
     id: 6580127
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580127"
     priority: 6580127
     duration_type: "3"
@@ -37304,6 +37669,7 @@
   {
     id: 6580128
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580128"
     priority: 6580128
     duration_type: "3"
@@ -37324,6 +37690,7 @@
   {
     id: 6580129
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580129"
     priority: 6580129
     duration_type: "3"
@@ -37344,6 +37711,7 @@
   {
     id: 6580130
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580130"
     priority: 6580130
     duration_type: "3"
@@ -37364,6 +37732,7 @@
   {
     id: 6580131
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580131"
     priority: 6580131
     duration_type: "3"
@@ -37384,6 +37753,7 @@
   {
     id: 6580132
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580132"
     priority: 6580132
     duration_type: "3"
@@ -37404,6 +37774,7 @@
   {
     id: 6580133
     name: 【标记】状态1
+    description: 数字"1"
     code: "6580133"
     priority: 6580133
     duration_type: "3"
@@ -37609,6 +37980,7 @@
   {
     id: 6580144
     name: 【标记】陷阱生效2
+    description: 陷阱布置完成，吸引格雷到此地。
     code: "6580144"
     priority: 6580144
     duration_type: "3"
@@ -37627,14 +37999,14 @@
   }
   {
     id: 7000001
-    name: AI目标识别-非空检测
+    name: 【标记】AI目标识别-非空检测
     code: "7000001"
     priority: 7000001
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 7000001
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 7000001
@@ -38839,6 +39211,7 @@
   {
     id: 9130503
     name: 【标记】预置炸弹(对设施)
+    description: 预置炸弹，快离开这，要爆炸啦！
     priority: 9130503
     duration_type: "1"
     duration_time: "2"
@@ -38892,6 +39265,7 @@
   {
     id: 9130601
     name: 【标记】浸水_回合1
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130601
     duration_type: "1,3"
     duration_time: "1,99"
@@ -38911,6 +39285,7 @@
   {
     id: 9130602
     name: 【标记】浸水_回合2
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130602
     duration_type: "1,3"
     duration_time: "1,99"
@@ -38930,6 +39305,7 @@
   {
     id: 9130603
     name: 【标记】浸水_回合3
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130603
     duration_type: "1,3"
     duration_time: "1,99"
@@ -38949,6 +39325,7 @@
   {
     id: 9130604
     name: 【标记】浸水_回合4
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130604
     duration_type: "1,3"
     duration_time: "1,99"
@@ -38968,6 +39345,7 @@
   {
     id: 9130605
     name: 【标记】浸水_回合5
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130605
     duration_type: "1,3"
     duration_time: "1,99"
@@ -38987,6 +39365,7 @@
   {
     id: 9130606
     name: 【标记】浸水_回合6
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130606
     duration_type: "1,3"
     duration_time: "1,99"
@@ -39027,7 +39406,7 @@
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,4,5,6,7,8,201"
+    effect_target_type: "1,3,4,5,6,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9130608
@@ -39074,6 +39453,7 @@
   {
     id: 9130611
     name: 【标记】浸水_永续
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9130611
     duration_type: "1,3"
     duration_time: "99,99"
@@ -39350,6 +39730,7 @@
   {
     id: 9321220
     name: 【标记】堵路生效标记
+    description: 禁止通行
     priority: 9321220
     duration_type: "1"
     duration_time: "99"
@@ -39369,6 +39750,7 @@
   {
     id: 9321601
     name: 【标记】堵路生效标记
+    description: 禁止通行
     priority: 9321601
     duration_type: "1"
     duration_time: "2"
@@ -39621,16 +40003,15 @@
     priority: 9332110
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 9332110
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -39673,7 +40054,7 @@
     priority: 9332113
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9332113
@@ -39702,6 +40083,7 @@
   {
     id: 9332115
     name: 【标记】电站过载特效
+    description: 过载中，暂时无法使用
     priority: 9332115
     duration_type: "1"
     duration_time: "2"
@@ -40151,6 +40533,7 @@
   {
     id: 9337201
     name: 【标记】污染源初始周围1格
+    description: 受到污染中，接触会受到伤害
     priority: 9337201
     duration_type: "1"
     duration_time: "2"
@@ -40171,6 +40554,7 @@
   {
     id: 9337202
     name: 【标记】【第2回合】污染源扩散2格
+    description: 受到污染中，接触会受到伤害
     priority: 9337202
     duration_type: "1"
     duration_time: "3"
@@ -40191,6 +40575,7 @@
   {
     id: 9337203
     name: 【标记】【第3回合】污染源扩散1格
+    description: 受到污染中，接触会受到伤害
     priority: 9337203
     duration_type: "1"
     duration_time: "5"
@@ -40211,6 +40596,7 @@
   {
     id: 9337204
     name: 【标记】【第5回合】污染源扩散1格
+    description: 受到污染中，接触会受到伤害
     priority: 9337204
     duration_type: "1"
     duration_time: "9"
@@ -40230,6 +40616,7 @@
   {
     id: 9337205
     name: 【标记】【第7回合】污染源扩散1格
+    description: 受到污染中，接触会受到伤害
     priority: 9337205
     duration_type: "1"
     duration_time: "9"
@@ -40252,8 +40639,8 @@
     priority: 9337206
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,201"
-    effect_target_type: "1,3,7,8,201"
+    detect_target_type: "1,3,201,10"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9337206
@@ -40269,8 +40656,8 @@
     priority: 9337207
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "7"
-    effect_target_type: "7"
+    detect_target_type: "7,10"
+    effect_target_type: "7,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9337207
@@ -40385,6 +40772,7 @@
   {
     id: 9361401
     name: 【标记】预置炸弹(对设施)
+    description: 预置炸弹，快离开这，要爆炸啦！
     priority: 9361401
     duration_type: "1"
     duration_time: "2"
@@ -41286,6 +41674,7 @@
   {
     id: 9362002
     name: 地雷触发器
+    description: 预置炸弹，快离开这，要爆炸啦！
     code: "9362002"
     priority: 9362002
     duration_type: "3"
@@ -41448,6 +41837,7 @@
   {
     id: 9362022
     name: 冲水
+    description: 被水淹没，接触后闪避/火力降低
     code: "9362022"
     priority: 9362022
     duration_type: "1"
@@ -41677,6 +42067,7 @@
   {
     id: 9363937
     name: 【标记】堵路生效
+    description: 禁止通行
     priority: 9363937
     duration_type: "1"
     duration_time: "99"
@@ -42613,7 +43004,7 @@
     duration_time: "1"
     special_spot_config_id: 9410211
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410210
@@ -42668,7 +43059,7 @@
     duration_time: "1"
     special_spot_config_id: 9410214
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410213
@@ -42723,7 +43114,7 @@
     duration_time: "9999999"
     mission_buff_config_id: 6410216
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410213
@@ -42804,6 +43195,7 @@
   {
     id: 9410301
     name: 【标记】禁飞
+    description: 禁止通行
     priority: 9410301
     duration_type: "1"
     duration_time: "99"
@@ -42839,6 +43231,7 @@
   {
     id: 9410319
     name: 【标记】蓝圈特效
+    description: 传送开启中
     priority: 9410319
     duration_type: "1"
     duration_time: "99"
@@ -42857,6 +43250,7 @@
   {
     id: 9410320
     name: 【标记】橙圈特效
+    description: 传送开启中
     priority: 9410320
     duration_type: "1"
     duration_time: "99"
@@ -42879,8 +43273,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9410331
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410331
@@ -42897,8 +43291,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9410332
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410332
@@ -42915,8 +43309,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9410333
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410333
@@ -42934,7 +43328,7 @@
     duration_time: "1"
     special_spot_config_id: 9411239
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9411238
@@ -42984,6 +43378,7 @@
   {
     id: 9411243
     name: 【标记】泉水特效
+    description: 被水淹没，接触后闪避/火力降低
     priority: 9411243
     duration_type: "1"
     duration_time: "99"
@@ -43006,8 +43401,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9411870
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9411870
@@ -43088,7 +43483,6 @@
   {
     id: 9490104
     name: 【标记】礼物堆放成功标记点
-    description: 清理工作
     code: Sundries
     priority: -1
     duration_type: "1"
@@ -43107,7 +43501,6 @@
   {
     id: 9490105
     name: 【标记】礼物堆放成功标记点
-    description: 清理工作
     code: Sundries
     priority: -1
     duration_type: "1"
@@ -43126,7 +43519,6 @@
   {
     id: 9490201
     name: 【标记】送礼物次数计数标记
-    description: 送出礼物
     code: KP-31CD
     priority: 9490201
     duration_type: "1"
@@ -43199,8 +43591,8 @@
     duration_type: "1,3"
     duration_time: "99,1"
     special_spot_config_id: 9490402
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9490401
@@ -43213,13 +43605,12 @@
   {
     id: 9490402
     name: "[avg]-49-EXT-4-1"
-    description: 清理工作
     code: Sundries
     priority: 9490402
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9490402
@@ -43247,13 +43638,12 @@
   }
   {
     id: 9521001
-    description: 到达指定地点
     code: Hole
     priority: 9521001
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521001
@@ -43287,8 +43677,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521212
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521211
@@ -43322,8 +43712,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521310
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521309
@@ -43374,8 +43764,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521405
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521404
@@ -43409,8 +43799,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521407
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521406
@@ -43499,7 +43889,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9583804
-    detect_target_type: "1,3,301,8"
+    detect_target_type: "1,3,301,10,305,304,8"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -43551,7 +43941,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9584002
-    detect_target_type: "1,3,301,8"
+    detect_target_type: "1,3,301,10,305,304,8"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -43659,7 +44049,7 @@
     duration_time: "99"
     mission_buff_config_id: 9584201
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9584203
@@ -43690,6 +44080,7 @@
   {
     id: 9584205
     name: 【标记】炮击阵地标识
+    description: 锁定空域中...
     priority: 9584205
     duration_type: "1"
     duration_time: "99"
@@ -43764,8 +44155,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44350002
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44350001
@@ -43800,8 +44191,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44360004
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44360001
@@ -43814,14 +44205,13 @@
   {
     id: 44360003
     name: 【标记】兔洞触发预埋点【埋ss
-    description: 区域探索
     code: TargetPoint_Radar
     priority: 44360003
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44360005
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44360003
@@ -43834,7 +44224,6 @@
   {
     id: 44360004
     name: "[avg]-44-T2-1-EX"
-    description: 【标记】踩空气提示
     priority: 44360004
     duration_type: "1"
     duration_time: "1"
@@ -43852,7 +44241,6 @@
   }
   {
     id: 44360005
-    description: 【标记】完成剧情
     priority: 44360005
     duration_type: "1"
     duration_time: "1"
@@ -43892,9 +44280,9 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44370002
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     detect_range: 1
-    effect_target_type: "301"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -43908,7 +44296,6 @@
   {
     id: 44370002
     name: "[avg]-44-T2-3-EX"
-    description: 【标记】投掷式歌利亚使用提示
     priority: 44370002
     duration_type: "1"
     duration_time: "1"
@@ -43926,13 +44313,12 @@
   {
     id: 44400001
     name: 【标记】任务目标计数_下半部
-    description: 区域探索
     code: Console
     priority: 44400001
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44400001
@@ -43945,13 +44331,12 @@
   {
     id: 44400002
     name: 【标记】任务目标计数_上半部
-    description: 区域探索
     code: Console
     priority: 44400002
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44400002
@@ -43968,8 +44353,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400004
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44400003
@@ -43982,7 +44367,6 @@
   {
     id: 44400004
     name: "[avg]-44-T4-1-EX"
-    description: 【标记】踩空气提示
     priority: 44400004
     duration_type: "1"
     duration_time: "1"
@@ -44001,7 +44385,6 @@
   {
     id: 44400005
     name: 【标记】任务目标计数_下半部
-    description: 情报搜集
     code: Console
     priority: 44400005
     duration_type: "1"
@@ -44019,7 +44402,6 @@
   }
   {
     id: 44400020
-    description: 【标记】完成剧情
     priority: 44400020
     duration_type: "1"
     duration_time: "1"
@@ -44038,7 +44420,6 @@
   {
     id: 44400021
     name: "[avg]-44-T4-2-EX"
-    description: 【标记】提示操作另一边
     priority: 44400021
     duration_type: "1"
     duration_time: "1"
@@ -44061,8 +44442,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400025
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44080,8 +44461,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400026
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44095,12 +44476,11 @@
   {
     id: 44400025
     name: "[avg]-44-T4-3-EX"
-    description: 【标记】提示等待下方看到防御门1才能发送指令
     priority: 44400025
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44114,12 +44494,11 @@
   {
     id: 44400026
     name: "[avg]-44-T4-4-EX"
-    description: 【标记】提示等待下方看到防御门2才能发送指令
     priority: 44400026
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44137,8 +44516,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400028
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44152,12 +44531,11 @@
   {
     id: 44400028
     name: "[avg]-44-T4-5-EX"
-    description: 【标记】提示在上方找控制台
     priority: 44400028
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44171,6 +44549,7 @@
   {
     id: 44430001
     name: 【标记】预置炸弹(对设施)
+    description: 预置炸弹，快离开这，要爆炸啦！
     priority: 44430001
     duration_type: "1"
     duration_time: "2"
@@ -44207,7 +44586,6 @@
   {
     id: 44430003
     name: 【标记】爆炸伤害(对设施)
-    description: 设施控制
     code: Console
     priority: 44430003
     duration_type: "1"
@@ -44231,8 +44609,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44430005
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44246,7 +44624,6 @@
   {
     id: 44430005
     name: "[avg]-44-EXT-02"
-    description: 【标记】小秃洞积分提示
     priority: 44430005
     duration_type: "3"
     duration_time: "1"
@@ -44269,8 +44646,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44440002
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -44284,7 +44661,6 @@
   {
     id: 44440002
     name: "[avg]-44-EXT-01"
-    description: 【标记】大秃洞积分提示
     priority: 44440002
     duration_type: "3"
     duration_time: "1"
@@ -44303,6 +44679,7 @@
   {
     id: 44540001
     name: 【标记】预置炸弹(对设施)
+    description: 预置炸弹，快离开这，要爆炸啦！
     priority: 44540001
     duration_type: "1"
     duration_time: "2"
@@ -44339,7 +44716,6 @@
   {
     id: 44540003
     name: 【标记】爆炸伤害(对设施)
-    description: 设施控制
     code: Console
     priority: 44540003
     duration_type: "1"
@@ -44359,7 +44735,6 @@
   {
     id: 45010004
     name: "[avg]-45-EXT-01"
-    description: 【标记】击杀1提示
     priority: 45010004
     duration_type: "1"
     duration_time: "1"
@@ -44378,7 +44753,6 @@
   {
     id: 45010006
     name: "[avg]-45-EXT-02"
-    description: 【标记】击杀1提示
     priority: 45010006
     duration_type: "1"
     duration_time: "1"
@@ -44397,7 +44771,6 @@
   {
     id: 45010007
     name: "[avg]-45-EXT-03"
-    description: 【标记】击杀2提示
     priority: 45010007
     duration_type: "1"
     duration_time: "1"
@@ -44416,6 +44789,7 @@
   {
     id: 94040969
     name: 【标记】禁飞
+    description: 禁止通行
     priority: 94040969
     duration_type: "1"
     duration_time: "99"

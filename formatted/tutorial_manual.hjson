@@ -301,88 +301,79 @@
   {
     id: 500
     type: 1
-    child_ids: "501,502,503,504,505,506,507,508,509"
-    title: 重装部队
-    sub_title: 重装部队的出厂，或许能扭转战局。
+    child_ids: "501,502,503,504,505,506,507,508"
+    title: 火力小队
+    sub_title: 火力小队的出厂，或许能扭转战局。
     code: manural_squad
     function_control_id: 15
   }
   {
     id: 501
     type: 2
-    title: 重装介绍
-    sub_title: 重装部队可以提供强大的火力支援。
-    content: 33be2b0bad344408_draw_200717086.jpg,a1f1d965d9f9ad41_draw_200717087.jpg
+    title: 小队介绍
+    sub_title: 火力小队可以提供强大的火力支援。
+    content: 5f1dda9fe3c6cad5_draw_230907001.jpg,a1f1d965d9f9ad41_draw_200717087.jpg
     function_control_id: 15
   }
   {
     id: 502
     type: 2
-    title: 重装研发
-    sub_title: 通过情报分析，研发重装部队。
-    content: c9d0a4eeca01ce09_draw_210119001.jpg,6982b9f7b0e558d0_draw_200717089.jpg,e8f628ad70ebf648_draw_200717090.jpg,996180b927348ad2_draw_200717091.jpg,f5cf9cdd04b35cf7_draw_200717092.jpg
+    title: 小队研发
+    sub_title: 使用数据样本，研发火力小队。
+    content: 1ab7ac421cb5a032_draw_230901010.jpg,9b960f08cc76f1e0_draw_230901009.jpg,ae7d3c2cb05285c5_draw_230901011.jpg,fdd68a6a14416413_draw_230901014.jpg
     function_control_id: 15
-    goto_page: 202
+    goto_page: 340
   }
   {
     id: 503
     type: 2
-    title: 重装作战
-    sub_title: 重装部队虽然火力强大，但没有单独作战能力。
-    content: 289035bdd3c6d3e4_draw_200717095.jpg,75f54d7de4478346_draw_200717093.jpg,0ac3aac8aa1d7510_draw_200717096.jpg,feb5426e770b58b4_draw_200717097.jpg,36b2f8bf4e431d60_draw_200717094.jpg,c26fc2f0d9e2ae0d_draw_200717098.jpg
+    title: 小队作战
+    sub_title: 火力小队虽然火力强大，但没有单独作战能力。
+    content: 7771ff5ab50599d6_draw_230907007.jpg,c43172df3417138f_draw_230907005.jpg,9c70a667655c1ec4_draw_230907002.jpg,8a5a2a4dbb80009d_draw_230907003.jpg,fbdaec44ff3b3036_draw_230907006.jpg,803ed14958beb38f_draw_230907004.jpg
     function_control_id: 15
   }
   {
     id: 504
     type: 2
-    title: 重装育成
-    sub_title: 请继续强化您的重装部队吧！
-    content: ab22c5e34c6f28bf_draw_210901001.jpg,f6ca103a01c8f37f_draw_200717077.jpg
+    title: 小队育成
+    sub_title: 请继续强化您的火力小队吧！
+    content: b20c5e42a8a88f0a_draw_230901012.jpg
     function_control_id: 15
-    goto_page: 203
+    goto_page: 389
   }
   {
     id: 505
     type: 2
-    title: 重装回路
-    sub_title: 为重装回路安装芯片，进一步提升效能。
-    content: 625b49274cd8bb70_draw_200717084.jpg,12047ac26a23a7e3_draw_200717083.jpg,10c7fcddc77866bb_draw_200717081.jpg,f3643ed66f3601f5_draw_200717082.jpg
+    title: 小队回路
+    sub_title: 装载火力小队芯片，进一步提升效能。
+    content: cc00243e84082bc6_draw_230901002.jpg,5d33d9b470798e21_draw_230901003.jpg,961e9b9ed084a2b5_draw_230901004.jpg,488c98efdb87c22f_draw_230901006.jpg
     function_control_id: 15
   }
   {
     id: 506
     type: 2
-    title: 重装技能
-    sub_title: 重装部队的技能需要更严格的训练。
-    content: e7fa25b3a3da8412_draw_200717085.jpg
+    title: 小队技能
+    sub_title: 火力小队的技能需要更严格的训练。
+    content: 0689e15979a1b3c4_draw_230901013.jpg
     function_control_id: 15
-    goto_page: 203
+    goto_page: 389
   }
   {
     id: 507
     type: 2
-    title: 重装迭代
-    sub_title: 重装部队满级后还可以进一步提升。
-    content: 7dd300a5cbe3a082_draw_200717079.jpg,8dd7603f1bd8a069_draw_200717080.jpg
+    title: 小队迭代
+    sub_title: 火力小队满级后还可以进一步提升。
+    content: d6af81d95b46b0e2_draw_230901001.jpg
     function_control_id: 15
   }
   {
     id: 508
     type: 2
-    title: 格纳库
-    sub_title: 在格纳库中，您可以查看和管理重装部队。
-    content: 837cbee47b7c181b_draw_200717074.jpg,d53f289b4c287a91_draw_200717073.jpg
-    function_control_id: 15
-    goto_page: 203
-  }
-  {
-    id: 509
-    type: 2
     title: 情报中心
-    sub_title: 在情报中心解析样本是获取重装部队的核心途径。
-    content: 98750a6e5a08a9cf_draw_200717076.jpg,3f63932ac85c3f41_draw_200717075.jpg
+    sub_title: 情报中心设施会给火力小队提供必要的支持。
+    content: 74f6994b99b9c7a3_draw_230901007.jpg,aa017055c4d58023_draw_230901008.jpg
     function_control_id: 15
-    goto_page: 202
+    goto_page: 340
   }
   {
     id: 600
@@ -465,7 +456,7 @@
   {
     id: 700
     type: 1
-    child_ids: "701,702,703,704,705,706,707,708,709,710,711,712"
+    child_ids: "701,702,703,704,705,706,707,708,709,710,711,712,713"
     title: 战场指引
     sub_title: 您必须了解的作战规则与技巧。
     code: manural_battle
@@ -537,8 +528,8 @@
   {
     id: 710
     type: 2
-    title: 重装作战
-    sub_title: 重装部队虽然火力强大，但缺乏单独作战能力。
+    title: 火力小队作战
+    sub_title: 火力小队虽然火力强大，但缺乏单独作战能力。
     content: 289035bdd3c6d3e4_draw_200717095.jpg,75f54d7de4478346_draw_200717093.jpg,0ac3aac8aa1d7510_draw_200717096.jpg,feb5426e770b58b4_draw_200717097.jpg,36b2f8bf4e431d60_draw_200717094.jpg,c26fc2f0d9e2ae0d_draw_200717098.jpg
     function_control_id: 15
   }
@@ -556,6 +547,13 @@
     title: 友方梯队
     sub_title: 有时会有友方梯队加入战局，一起并肩作战吧！
     content: a36a000187ee6ada_draw_200803005.jpg,33db76217bd37ea5_draw_200811002.jpg
+  }
+  {
+    id: 713
+    type: 2
+    title: 信息简化模式
+    sub_title: 缩放镜头可切换战场信息至简化模式，便于指挥官掌控全局。
+    content: 576fafd40b37f766_draw_230906003.jpg
   }
   {
     id: 800
@@ -709,7 +707,7 @@
   {
     id: 1000
     type: 1
-    child_ids: "1001,1002,1003,1004,1005"
+    child_ids: "1001,1002,1003,1004,1005,1006"
     title: 梯队编成
     sub_title: 合理的梯队编成可以最大化您的梯队实力。
     code: manual_formation
@@ -733,7 +731,7 @@
     type: 2
     title: 融合势力编队
     sub_title: 融合势力更依赖队长的指挥，围绕着队长来编队吧。
-    content: a64d9d0375b16173_draw_200728002.jpg,6ecf6fbe86be2fcd_draw_200728004.jpg,872b30d9dd775550_draw_200728003.jpg
+    content: a64d9d0375b16173_draw_200728002.jpg,6ecf6fbe86be2fcd_draw_200728004.jpg,47cf2387d017c225_draw_230906001.jpg,872b30d9dd775550_draw_200728003.jpg
     function_control_id: 21
   }
   {
@@ -751,6 +749,13 @@
     sub_title: 预设装备后就可以根据需要一键换装啦。
     content: b774b4eb853aa1e7_draw_200807010.jpg,cd42d2dade79f87f_draw_200807011.jpg,6dfe2ccfef8f52d1_draw_200807009.jpg
     function_control_id: 2
+  }
+  {
+    id: 1006
+    type: 2
+    title: 编队与受击
+    sub_title: 人形在梯队中的顺序会影响人形的受击优先级，需要多加注意。
+    content: 4514bc465095ece6_draw_230906002.jpg,47cf2387d017c225_draw_230906001.jpg
   }
   {
     id: 1100
@@ -850,8 +855,8 @@
     id: 1112
     type: 2
     title: 格纳库
-    sub_title: 在格纳库中，您可以查看和管理重装部队。
-    content: 837cbee47b7c181b_draw_200717074.jpg,d53f289b4c287a91_draw_200717073.jpg
+    sub_title: 在格纳库中，您可以查看和管理机动装甲。
+    content: 58ab717df9aea87d_draw_230905001.jpg,1208cfc9ca878a80_draw_230905002.jpg,33b080514f70f23b_draw_230905003.jpg
     function_control_id: 15
     goto_page: 203
   }
@@ -859,10 +864,10 @@
     id: 1113
     type: 2
     title: 情报中心
-    sub_title: 在情报中心解析样本是获取重装部队的核心途径。
-    content: 98750a6e5a08a9cf_draw_200717076.jpg,3f63932ac85c3f41_draw_200717075.jpg
+    sub_title: 情报中心设施会给火力小队提供必要的支持。
+    content: 74f6994b99b9c7a3_draw_230901007.jpg,aa017055c4d58023_draw_230901008.jpg
     function_control_id: 15
-    goto_page: 202
+    goto_page: 340
   }
   {
     id: 1114
@@ -1412,7 +1417,7 @@
   {
     id: 2100
     type: 1
-    child_ids: "2101,2102,2103,2104,2105,2106,2107,2108"
+    child_ids: "2101,2102,2103,2104,2105,2106,2107,2108,2109,2110"
     title: 灰域探查
     sub_title: 在一次常规探查中，边境调查团第六支队意外发现了一片从未踏足的神秘区域。
     code: manual_daily
@@ -1431,7 +1436,7 @@
     type: 2
     title: 地图规则
     sub_title: 灰域地形变幻莫测，掌握规则尤为重要。
-    content: d528b8d0ed61acf6_draw_230330003.jpg,8dbf3710dc4a8390_draw_230330004.jpg,ed6eaf180b6fec31_draw_230330005.jpg
+    content: d528b8d0ed61acf6_draw_230330003.jpg,8feb2ebd8448e2bd_draw_230831005.jpg,82dae9d9eefead76_draw_230906001.jpg,ed6eaf180b6fec31_draw_230330005.jpg
     function_control_id: 29
   }
   {
@@ -1481,5 +1486,94 @@
     sub_title: 格里芬AI代理作战系统试运行中。
     content: e3f76b439e9ad47a_draw_230328018.jpg
     function_control_id: 29
+  }
+  {
+    id: 2109
+    type: 2
+    title: 灰域计划模式
+    sub_title: 规划后自动进行灰域的攻略探索。
+    content: dbde401733bb112f_draw_230905003.jpg,22e82ecddda03562_draw_230904001.jpg,572285e2ff46e4f6_draw_230904002.jpg,21be0288774db751_draw_230904003.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2110
+    type: 2
+    title: 装甲突击
+    sub_title: 完成结晶带难度的首领点位可以获得装甲突击关卡挑战资格。
+    content: cdebe7620667f437_draw_230905002.jpg,b9860d460f1cf7a7_draw_230905001.jpg,867bedca8deeb7bf_draw_230831002.jpg,7fc519511da81ade_draw_230831003.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2200
+    type: 1
+    child_ids: "2201,2202,2203,2204,2205,2206,2207,2208"
+    title: 机动装甲
+    sub_title: 为了应对高威胁敌对势力的进攻风险，格里芬已被授权可以动用机动装甲。
+    code: manual_vehicle
+    function_control_id: 30
+  }
+  {
+    id: 2201
+    type: 2
+    title: 装甲详情
+    sub_title: 机动装甲的详情界面介绍。
+    content: 9f31eb421f9c2aec_draw_230905004.jpg,712d7b7caf6956a0_draw_230905006.jpg,08de8e6ebed4dd17_draw_230905005.jpg,608da17e7d641d00_draw_230905007.jpg,aada115dbcfacaff_draw_230912001.jpg,793c064c9f24a80c_draw_230905008.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2202
+    type: 2
+    title: 装甲养成
+    sub_title: 机动装甲的提升与强化。
+    content: e8bf9523e3cdb9f5_draw_230905010.jpg,033ec9d1f7e38c5c_draw_230918001.jpg,16f2f80f9844abce_draw_230905021.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2203
+    type: 2
+    title: 组件强化
+    sub_title: 机动装甲组件的获取与养成。
+    content: cdebe7620667f437_draw_230905002.jpg,867bedca8deeb7bf_draw_230831002.jpg,df8179c29d676fc1_draw_230905009.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2204
+    type: 2
+    title: 战场信息
+    sub_title: 机动装甲在关卡内的信息显示。
+    content: d7e5e6f8ee1ceb8e_draw_230905012.jpg,1c9968aa5ca7f7ca_draw_230905013.jpg,a312c7a22be80a6c_draw_230905014.jpg,0ae4abe215761c20_draw_230905015.jpg,80de474211dacacf_draw_230905016.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2205
+    type: 2
+    title: 接敌作战
+    sub_title: 机动装甲的作战方式介绍。
+    content: f04771da287190d8_draw_230905017.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2206
+    type: 2
+    title: 格纳库
+    sub_title: 在格纳库中，您可以查看和管理机动装甲。
+    content: 58ab717df9aea87d_draw_230905001.jpg,1208cfc9ca878a80_draw_230905002.jpg,33b080514f70f23b_draw_230905003.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2207
+    type: 2
+    title: 独特：主战坦克
+    sub_title: 主战坦克的特殊功能介绍。
+    content: 611c9463d55df9ad_draw_230905018.jpg,670b524525413a8b_draw_230905019.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2208
+    type: 2
+    title: 独特：战术人型机甲
+    sub_title: 战术人形机甲的特殊功能介绍。
+    content: 634c1601f641e756_draw_230905020.jpg
+    function_control_id: 30
   }
 ]

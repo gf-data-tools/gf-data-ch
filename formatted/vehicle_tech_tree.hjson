@@ -6,7 +6,8 @@
     unlock_cost: "100,100,100,100"
     node_type: 1
     basic_effect: 1000
-    hp: 1400
+    hp: 200
+    dodge: 4
   }
   {
     id: 10002
@@ -35,7 +36,7 @@
     unlock_cost: "100,100,100,100"
     node_type: 1
     basic_effect: 1000
-    light_damage: 30
+    light_damage: 45
   }
   {
     id: 10005
@@ -45,7 +46,7 @@
     unlock_cost: "100,100,100,100"
     node_type: 1
     basic_effect: 1000
-    reload: 16
+    precision: 34
   }
   {
     id: 10006
@@ -76,7 +77,7 @@
     unlock_cost: "200,200,200,200"
     node_type: 1
     basic_effect: 1000
-    atk_speed: 7
+    hit: 8
   }
   {
     id: 10009
@@ -96,7 +97,7 @@
     unlock_cost: "200,200,200,200"
     node_type: 1
     basic_effect: 1000
-    precision: 45
+    reload: 23
   }
   {
     id: 10011
@@ -106,7 +107,7 @@
     unlock_cost: "300,300,300,300"
     node_type: 1
     basic_effect: 1000
-    hit: 5
+    atk_speed: 11
   }
   {
     id: 10012
@@ -137,7 +138,8 @@
     unlock_cost: "300,300,300,300"
     node_type: 1
     basic_effect: 1000
-    H_armor_piercing: 100
+    H_armor_piercing: 20
+    L_armor_piercing: 10
   }
   {
     id: 10015
@@ -147,7 +149,8 @@
     unlock_cost: "300,300,300,300"
     node_type: 1
     basic_effect: 1000
-    L_armor_piercing: 15
+    hp: 250
+    def_break: 35
   }
   {
     id: 11001
@@ -156,7 +159,8 @@
     unlock_cost: "100,100,100,100"
     node_type: 1
     basic_effect: 1000
-    hp: 1100
+    hp: 250
+    dodge: 3
   }
   {
     id: 11002
@@ -176,7 +180,7 @@
     unlock_cost: "100,100,100,100"
     node_type: 2
     skill_id: 220141-2
-    passive_skill: 220143-2,220144-2,220145-1,220146-1
+    passive_skill: 220143-2,220144-2,220145-2,220146-2,220222-1,220224-2,220203-2
     basic_effect: 1000
   }
   {
@@ -197,7 +201,7 @@
     unlock_cost: "100,100,100,100"
     node_type: 1
     basic_effect: 1000
-    reload: 8
+    precision: 27
   }
   {
     id: 11006
@@ -227,7 +231,7 @@
     unlock_cost: "200,200,200,200"
     node_type: 1
     basic_effect: 1000
-    atk_speed: 10
+    hit: 10
   }
   {
     id: 11009
@@ -237,7 +241,7 @@
     unlock_cost: "200,200,200,200"
     node_type: 2
     skill_id: 220141-3
-    passive_skill: 220143-2,220149-1
+    passive_skill: 220143-3,,220144-3,220149-2,220225-2
     basic_effect: 1000
   }
   {
@@ -248,7 +252,7 @@
     unlock_cost: "200,200,200,200"
     node_type: 1
     basic_effect: 1000
-    precision: 60
+    reload: 18
   }
   {
     id: 11011
@@ -258,7 +262,7 @@
     unlock_cost: "300,300,300,300"
     node_type: 1
     basic_effect: 1000
-    hit: 8
+    atk_speed: 14
   }
   {
     id: 11012
@@ -288,7 +292,8 @@
     unlock_cost: "300,300,300,300"
     node_type: 1
     basic_effect: 1000
-    H_armor_piercing: 30
+    H_armor_piercing: 15
+    L_armor_piercing: 15
   }
   {
     id: 11015
@@ -298,6 +303,7 @@
     unlock_cost: "300,300,300,300"
     node_type: 1
     basic_effect: 1000
-    L_armor_piercing: 30
+    hp: 300
+    def_break: 30
   }
 ]

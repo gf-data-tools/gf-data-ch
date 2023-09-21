@@ -1,10 +1,10 @@
 [
   {
     id: 1
-    name: vehicle-10000001
-    en_name: vehicle-20000001
+    name: 主战坦克
+    en_name: tank
     code: TankM1
-    introduce: vehicle-30000001
+    introduce: 具有强大重武器火力的装甲单位，战斗时能通过重武器给敌人远距离打击，也可以通过多种轻武器近距离打击敌人。主战坦克所拥有的远近打击手段配合其装甲和快速机动能力，使其成为控制地面战场的王者。
     type: 1
     population: 2
     energy_max: 60
@@ -19,27 +19,27 @@
     type_component3: "1,2"
     type_component4: "2"
     type_component5: "3"
-    name_component1: vehicle-40000001
-    name_component2: vehicle-50000001
-    name_component3: vehicle-60000001
-    name_component4: vehicle-70000001
-    name_component5: vehicle-80000001
+    name_component1: 重武器栏位
+    name_component2: 防护/功能栏位
+    name_component3: 重/轻武器栏位
+    name_component4: 轻武器栏位
+    name_component5: 功能栏位
     common_component_num: 4
     crew_ids: "1001,1002,1003,1004"
     launch_times: 2016-05-20 00:00:00
-    basic_hp: 18000
-    basic_heavy_damage: 515
-    basic_light_damage: 95
-    basic_reload: 152
-    basic_atk_speed: 56
-    basic_precision: 275
-    basic_hit: 35
-    basic_armor: 20
-    basic_dodge: 60
-    H_armor_piercing: 195
-    L_armor_piercing: 60
-    def_break: 200
-    crit: 15
+    basic_hp: 3600
+    basic_heavy_damage: 290
+    basic_light_damage: 220
+    basic_reload: 136
+    basic_atk_speed: 64
+    basic_precision: 102
+    basic_hit: 24
+    basic_armor: 10
+    basic_dodge: 12
+    H_armor_piercing: 85
+    L_armor_piercing: 45
+    def_break: 180
+    crit: 10
     crit_dmg: 150
     night_vision: 2
     move: 12
@@ -62,10 +62,10 @@
   }
   {
     id: 2
-    name: vehicle-10000002
-    en_name: vehicle-20000002
+    name: 战术人型机甲
+    en_name: Warjack
     code: Warjack
-    introduce: vehicle-30000002
+    introduce: 战术人型机甲项目在IOP的投资下进行了数个原型试做，IOP希望抛弃原本军用机甲的笨重布局，以高机动力为设计前提，配置强大的武器及装备支持，通过轻重武器的多范围覆盖的打击形式填补装甲载具在城市巷战山区地形等复杂作战环境下的定位空白。
     type: 2
     population: 2
     energy_max: 80
@@ -80,27 +80,27 @@
     type_component3: "2"
     type_component4: "3,4"
     type_component5: "3"
-    name_component1: vehicle-40000002
-    name_component2: vehicle-50000002
-    name_component3: vehicle-60000002
-    name_component4: vehicle-70000002
-    name_component5: vehicle-80000002
+    name_component1: 重/轻武器栏位
+    name_component2: 轻武器栏位
+    name_component3: 轻武器栏位
+    name_component4: 防护/功能栏位
+    name_component5: 功能栏位
     common_component_num: 4
     crew_ids: "2001"
     launch_times: 2016-05-20 00:00:00
-    basic_hp: 27000
-    basic_heavy_damage: 400
-    basic_light_damage: 120
-    basic_reload: 120
-    basic_atk_speed: 72
-    basic_precision: 225
-    basic_hit: 45
-    basic_armor: 20
-    basic_dodge: 60
-    H_armor_piercing: 150
-    L_armor_piercing: 75
-    def_break: 150
-    crit: 20
+    basic_hp: 4400
+    basic_heavy_damage: 220
+    basic_light_damage: 290
+    basic_reload: 104
+    basic_atk_speed: 80
+    basic_precision: 81
+    basic_hit: 30
+    basic_armor: 10
+    basic_dodge: 12
+    H_armor_piercing: 65
+    L_armor_piercing: 60
+    def_break: 140
+    crit: 40
     crit_dmg: 150
     night_vision: 2
     move: 12

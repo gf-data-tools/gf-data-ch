@@ -27134,8 +27134,8 @@
     hurt_id: "423"
     is_form_play: 1
     scale: "1"
-    trigger_creation_id: "2182,117,36"
-    trigger_creation_delay: "-1,-1,-1"
+    trigger_creation_id: "2182,117,36,9188"
+    trigger_creation_delay: "-1,-1,-1,-1"
   }
   {
     id: 2093
@@ -27147,8 +27147,8 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "988"
-    buff_cd: "59"
+    buff_id: 988:1,1000005047:1,1000005048:1,8811:1
+    buff_cd: "59,59,59,59"
     is_form_play: 1
     scale: "1"
     sound_order: BT_gasbomb_explode
@@ -30518,7 +30518,8 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "3175"
+    buff_id: 3175:1,1000005005:1
+    buff_cd: "0,0"
     is_form_play: 1
     scale: "1"
     sound_order: BT_flashbomb_explode
@@ -61481,6 +61482,675 @@
     scale: "1"
   }
   {
+    id: 6101
+    name: 单管单挺通用口径机枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3001"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 6102
+    name: 单管反装甲狙击子弹尾迹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "3002"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 6103
+    name: 单管多机枪子弹1
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3003"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 6104
+    name: 单管多机枪子弹2
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3003"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 6105
+    name: 多管单机枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3004"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 6106
+    name: 扣盾打伤害
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3005"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 6107
+    name: 眩晕结束打伤害
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3006"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 6108
+    name: 爆炸触发打伤害
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3007"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 6109
+    name: 烈焰喷射器子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3008"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 6110
+    name: 机枪炮子弹
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    trigger_creation_id: "6111,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 6111
+    name: 榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "3009"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 6112
+    name: 机枪模式子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3010"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 6113
+    name: 榴弹模式子弹
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    trigger_creation_id: "6114,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 6114
+    name: 榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "3011"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 6115
+    name: 榴弹模式直达子弹
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3012"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 6116
+    name: 召唤无人机
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "6000,6002"
+    summoner_delay: "0,10"
+  }
+  {
+    id: 6117
+    name: 烟雾弹面片
+    code: 烟雾弹
+    start_type: "2"
+    destination_type: "6"
+    destination_offset: "1.5,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "423"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "6118,36"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 6118
+    name: 烟雾弹结算范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 15075:1
+    buff_cd: "3"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_gasbomb_explode
+  }
+  {
+    id: 6119
+    name: 烟雾弹结算范围2备用
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    buff_id: "210"
+    buff_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 6120
+    name: 干扰器范围
+    start_type: "3"
+    start_offset: "2.5,0,0"
+    destination_type: "3"
+    destination_offset: "2.5,0,0"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "5"
+    effect_param_2: "30"
+    buff_id: 15073:1,15074:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 6121
+    name: 能量对直线编制伤害
+    start_type: "3"
+    start_offset: "10"
+    destination_type: "3"
+    destination_offset: "10"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "4"
+    hurt_id: "3013"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6122
+    name: 反击范围3的编制伤害
+    start_type: "3"
+    start_offset: "3"
+    destination_type: "3"
+    destination_offset: "3"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "3014"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6123
+    name: 范围击退
+    code: 20tiexue_Manticore
+    start_type: "3"
+    destination_type: "3"
+    destination_offset: "20,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    speed: 1000
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "20"
+    hurt_id: "3015"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 6124
+    name: 轻武器身后额外范围伤害
+    start_type: "6"
+    start_offset: "3"
+    destination_type: "6"
+    destination_offset: "3"
+    exist_duration: *103
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "1"
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "6125"
+    trigger_creation_delay: "3"
+  }
+  {
+    id: 6125
+    name: 轻武器身后额外范围真伤害
+    code: 爆炸
+    start_type: "6"
+    start_offset: "3"
+    destination_type: "6"
+    destination_offset: "3"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "3016"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_gasbomb_explode
+  }
+  {
+    id: 6126
+    name: 威慑范围
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "5"
+    buff_id: 15114:1,15115:1
+    buff_cd: "0,0"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6127
+    name: 无人机范围2的500点编制伤害
+    code: 爆炸
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "3017"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6128
+    name: Neptune判定靶机自毁
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "3021"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 6129
+    name: 爆裂护盾
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "3018"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 6130
+    name: 轻武枪口火光
+    code: Zaij02_MG_spinfire
+    start_type: "1"
+    start_offset: "0.3,0.2"
+    destination_type: "1"
+    destination_offset: "0.3,0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6131
+    name: 轻武狙击枪口火光
+    code: Zaij02_RF_spinfire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6132
+    name: 烟雾弹枪口火光
+    code: Zaij02_Smoke_piece
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6133
+    name: 干扰器波
+    code: Zaij02_SP_wave
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6134
+    name: 信号塔波
+    code: 2022summer/FHZZ_wifi
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6135
+    name: 干扰枪子弹
+    code: Zaij02_SP_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6136
+    name: 烟雾弹枪口火光
+    code: Zaij_Grenade_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6137
+    name: 弱点敌人
+    code: 2023ss/23ss_boss_bz
+    start_type: "2"
+    destination_type: "2"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 6138
+    name: 爆炸标记敌人
+    code: Zaij02_yinbao
+    start_type: "2"
+    destination_type: "2"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 6139
+    name: 激光
+    code: Zaij02_jiguang
+    start_type: "3"
+    start_offset: "3"
+    destination_type: "3"
+    destination_offset: "20"
+    is_tracing: 1
+    route_type: 1
+    speed: 2500
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6140
+    name: 爆裂护盾
+    code: Zaij02_hudun_ps
+    start_type: "2"
+    destination_type: "2"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 6141
+    name: 爆炸伤害爆炸
+    code: Zaij02_baozha_lz
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+  }
+  {
+    id: 6142
+    name: 引爆
+    start_type: "8"
+    destination_type: "8"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "100"
+    hurt_id: "3019"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6143
+    name: 护盾爆裂2
+    start_type: "1"
+    destination_type: "5"
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    hurt_id: "3020"
+    scale: "1"
+  }
+  {
     id: 8001
     name: 小怪近战普攻
     start_type: "1"
@@ -78028,6 +78698,17 @@
     scale: "2.4,0.1,4"
   }
   {
+    id: 9188
+    name: 45烟雾弹烟雾
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: *103
+    scale: "1"
+    trigger_creation_id: "918801,918802,918803,918804"
+    trigger_creation_delay: "3,3,3,3"
+    still_exist: 1
+  }
+  {
     id: 9189
     name: 狙击子弹尾迹-莫辛纳甘
     code: SniperSkillBullet
@@ -91117,6 +91798,1328 @@
     scale: "1"
   }
   {
+    id: 10517
+    name: 坦克重武器lv1
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 7
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.4"
+    trigger_creation_id: "10521"
+    trigger_creation_delay: "-1"
+    sound_order: BT_Sniper_rifle_silencer
+  }
+  {
+    id: 10518
+    name: 坦克重武器枪口火花
+    code: Zaij_Tank_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    sound_order: BT_squad_bazooka
+  }
+  {
+    id: 10519
+    name: 2B14普通攻击
+    code: XDZY/XDZY_TY5_3
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 2400
+    speed: 2400
+    spin_velocity: -170
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "10521,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_mortar
+  }
+  {
+    id: 10520
+    name: 导弹设施枪口火花
+    code: Zaij_Grenade_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+    sound_order: BT_squad_bazooka
+  }
+  {
+    id: 10521
+    name: 重武器爆炸结算
+    code: Zaij_Tank_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "663"
+    buff_id: "5116"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 10522
+    name: 坦克重武器lv3
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 7
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.4"
+    trigger_creation_id: "10523"
+    trigger_creation_delay: "-1"
+    sound_order: BT_traintank_tank_shot
+  }
+  {
+    id: 10523
+    name: 重武器爆炸结算
+    code: Zaij_Tank_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "664"
+    buff_id: "5116"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 10524
+    name: 坦克原轻武子弹lv1
+    code: bullet/Zaiju_bullet
+    start_type: muzzle2
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "665"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10525
+    name: 坦克原轻武子弹lv2
+    code: bullet/Zaiju_bullet
+    start_type: muzzle2
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "666"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10526
+    name: 坦克原轻武子弹lv3
+    code: bullet/Zaiju_bullet
+    start_type: muzzle2
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "667"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10527
+    name: 坦克轻武法球
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "668"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+  }
+  {
+    id: 10528
+    name: 榴弹组件
+    code: Zaij_Grenade_shell
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -250
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.2,0.2"
+    trigger_creation_id: "10529,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10529
+    name: 榴弹组件结算范围
+    code: Zaij_Tank_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *102
+    hurt_id: "669"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.4,0.4,0.4"
+    sound_order: BT_squad_explode
+    is_orb_effect: 2
+  }
+  {
+    id: 10530
+    name: 加农炮
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 7
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.6,0.5"
+    trigger_creation_id: "10531"
+    trigger_creation_delay: "-1"
+    sound_order: BT_Sniper_rifle_silencer
+  }
+  {
+    id: 10531
+    name: 重武器爆炸结算
+    code: Zaij_Cannon_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "670"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+    is_orb_effect: 2
+  }
+  {
+    id: 10532
+    name: 榴弹特殊弹药
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "10533,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10533
+    name: 榴弹特殊弹药结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *102
+    hurt_id: "671"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 10534
+    name: 燃烧弹DOT结算
+    code: 火苗
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "5"
+    hurt_cd: "10"
+    buff_id: "3159"
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "3,0.1,3"
+    sound_order: BT_firebomb_fireloop
+  }
+  {
+    id: 10535
+    name: 白色跳跳兵激光特效
+    code: Zaij02_Weapon_laser
+    start_type: "1"
+    destination_type: "1"
+    is_tracing: 1
+    exist_duration: "150"
+    is_form_play: 1
+    creation_type: 5
+    scale: "1"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10536
+    name: 白色跳跳兵激光
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 7
+    speed: 50000
+    effect_area: 1
+    hurt_id: "678"
+    is_form_play: 1
+    creation_type: 5
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 10537
+    name: 多管单机枪组
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "672"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10538
+    name: 燃烧喷射表现
+    code: qjfs_penghuo
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "0,0,180"
+    exist_duration: "35"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "1"
+  }
+  {
+    id: 10539
+    name: 机枪炮
+    code: XDZY/XDZY_TY5_2
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "10540,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10540
+    name: 机枪炮结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "674"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 10541
+    name: 高射加农
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 650
+    speed: 2400
+    spin_velocity: -240
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "10542,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_mortar
+  }
+  {
+    id: 10542
+    name: 高射加农结算
+    code: Zaij_Cannon_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "689"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 10543
+    name: 蓄力激光
+    code: Zaij_Cannon_laser
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "90"
+    is_form_play: 1
+    creation_type: 5
+    scale: "0.2"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10544
+    name: 蓄力激光
+    start_type: "1"
+    start_offset: "4"
+    destination_type: "1"
+    destination_offset: "4"
+    is_form_offset_start: 1
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 4
+    effect_param_1: "8"
+    effect_param_2: "3"
+    hurt_id: "675"
+    is_form_play: 1
+    creation_type: 5
+    scale: "1,0.2"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10545
+    name: 装甲加农炮
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 7
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.7,0.7"
+    trigger_creation_id: "10546"
+    trigger_creation_delay: "-1"
+    sound_order: BT_Sniper_rifle_silencer
+  }
+  {
+    id: 10546
+    name: 装甲加农炮结算
+    code: Zaij_Cannon_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "676"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 10547
+    name: 干扰枪子弹
+    code: SubBulletB
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 4000
+    effect_area: 1
+    hurt_id: "677"
+    is_form_play: 1
+    scale: "2,1.5,1.5"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10548
+    name: 干扰器
+    code: testcube
+    start_type: "3"
+    start_offset: "2.5"
+    destination_type: "3"
+    destination_offset: "2.5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "5"
+    effect_param_2: "15"
+    buff_id: 5147:1,5149:1
+    buff_cd: "0,0"
+    scale: "6,0.1,15"
+  }
+  {
+    id: 10549
+    name: 中型导弹攻击
+    code: Zaij02_Missile_shell
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 1200
+    speed: 2400
+    spin_velocity: -170
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "10550,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_mortar
+  }
+  {
+    id: 10550
+    name: 重武器爆炸结算
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "663"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 10551
+    name: 烟雾弹面片
+    code: 烟雾弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    exist_duration: *102
+    effect_area: 1
+    hurt_id: "423"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "10552,36"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10552
+    name: 烟雾弹结算范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: "5135"
+    buff_cd: "30"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_gasbomb_explode
+  }
+  {
+    id: 10553
+    name: 高达原生激光
+    code: Zaij_Gundam_laser
+    start_type: muzzle2
+    destination_type: muzzle2
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "0.8,0.8"
+  }
+  {
+    id: 10554
+    name: 高达原生激光
+    code: Zaij_Gundam_fin
+    start_type: muzzle2
+    start_offset: "25,6"
+    destination_type: muzzle2
+    destination_offset: "25,6"
+    is_form_offset_start: 1
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 4
+    effect_param_1: "50"
+    effect_param_2: "3"
+    hurt_id: "679"
+    is_form_play: 1
+    creation_type: 5
+    scale: "1,0.2"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10555
+    name: 高达原生激光lv2
+    code: Zaij_Gundam_fin
+    start_type: muzzle2
+    start_offset: "25,6"
+    destination_type: muzzle2
+    destination_offset: "25,6"
+    is_form_offset_start: 1
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 4
+    effect_param_1: "50"
+    effect_param_2: "3"
+    hurt_id: "679"
+    buff_id: 5136:1000002341
+    is_form_play: 1
+    creation_type: 5
+    scale: "1,0.2"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10556
+    name: 高达原生激光lv3
+    code: Zaij_Gundam_fin
+    start_type: muzzle2
+    start_offset: "25,6"
+    destination_type: muzzle2
+    destination_offset: "25,6"
+    is_form_offset_start: 1
+    exist_duration: "150"
+    effect_type: 2
+    effect_area: 4
+    effect_param_1: "50"
+    effect_param_2: "3"
+    hurt_id: "680"
+    hurt_cd: "10"
+    buff_id: 5137:1,5138:1
+    buff_cd: "10,10"
+    is_form_play: 1
+    creation_type: 5
+    scale: "1,0.2"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10557
+    name: 高达轻武透明子弹lv1
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "681"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 10558
+    name: 高达轻武透明子弹lv1
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "682"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 10559
+    name: 高达轻武子弹lv1
+    code: bullet/Zaiju_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "681"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10560
+    name: 高达轻武子弹lv2
+    code: bullet/Zaiju_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "683"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10561
+    name: 高达轻武透明子弹lv3
+    start_type: "3"
+    start_offset: "2.5"
+    destination_type: "3"
+    destination_offset: "2.5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "5"
+    effect_param_2: "12"
+    hurt_id: "681"
+    is_form_play: 1
+    scale: "5,0.1,12"
+    is_orb_effect: 1
+  }
+  {
+    id: 10562
+    name: 高达轻武透明子弹lv3
+    start_type: "3"
+    start_offset: "2.5"
+    destination_type: "3"
+    destination_offset: "2.5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "5"
+    effect_param_2: "12"
+    hurt_id: "682"
+    is_form_play: 1
+    scale: "5,0.1,12"
+    is_orb_effect: 1
+  }
+  {
+    id: 10563
+    name: 高达轻武子弹lv3
+    code: bullet/Zaiju_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "684"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10564
+    name: 高达手榴弹
+    code: 2021xiahuo/ZDB_sld02
+    start_type: "2"
+    destination_type: "6"
+    route_type: 2
+    route_hight: 400
+    speed: 1500
+    spin_velocity: 1500
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "10565"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 10565
+    name: 高达手榴弹结算
+    code: 2021xiahuo/ZDB_dzmc_zt
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "685"
+    is_form_play: 1
+    scale: "1.25,1.25,1.25"
+    sound_order: BT_grenade_explode
+    summoner_order: "1679"
+  }
+  {
+    id: 10566
+    name: 高达手榴弹范围
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    buff_id: "5143"
+    is_form_play: 1
+    scale: "8,0.1,8"
+  }
+  {
+    id: 10567
+    name: 雷区闪电
+    code: zhld/ZH_yy_lightning
+    start_type: "6"
+    start_offset: "0,3.1,0"
+    destination_type: "6"
+    destination_offset: "0,3.1,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "100"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10568
+    name: 雷区闪电
+    start_type: "2"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    route_type: 1
+    speed: 7000
+    exist_duration: "30"
+    hurt_id: "686"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 10569
+    name: 高达技能2范围
+    code: 爆炸
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    exist_duration: *102
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "694"
+    buff_id: "221"
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+  }
+  {
+    id: 10570
+    name: 机枪无判定子弹
+    code: bullet/Zaiju_bullet
+    start_type: muzzle2
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+  }
+  {
+    id: 10571
+    name: 我方枪口火光
+    code: Zaiju_Fire
+    start_type: muzzle2
+    destination_type: muzzle2
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 10572
+    name: 7.62mm弹壳
+    code: shell/Zaiju_7.62mm
+    start_type: muzzle2
+    start_offset: "-1"
+    destination_type: muzzle2
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "45"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.3,0.3"
+  }
+  {
+    id: 10573
+    name: 加农炮贯穿
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "5"
+    route_type: 6
+    speed: 5000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "690"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10574
+    name: 蓄力激光
+    code: Zaij02_Electr_laser
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: *101
+    is_form_play: 1
+    creation_type: 5
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 10575
+    name: 蓄力激光
+    start_type: "1"
+    start_offset: "25"
+    destination_type: "1"
+    destination_offset: "25"
+    is_form_offset_start: 1
+    exist_duration: *101
+    effect_type: 2
+    effect_area: 4
+    effect_param_1: "50"
+    effect_param_2: "3"
+    hurt_id: "687"
+    hurt_cd: "30"
+    is_form_play: 1
+    creation_type: 5
+    scale: "1"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 10576
+    name: 重武器额外效果
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 10000
+    effect_area: 1
+    hurt_id: "688"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+  }
+  {
+    id: 10577
+    name: 坦克支援
+    code: Zaij_Tank_shell
+    start_type: "8"
+    start_offset: "-60,2"
+    destination_type: "6"
+    decision_offset: "-56,2"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 200
+    speed: 3400
+    easing_type: 1
+    spin_velocity: -105
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.7,0.7"
+    trigger_creation_id: "10521"
+    trigger_creation_delay: "-1"
+    sound_order: BT_Sniper_rifle_silencer
+    edge_indicator: Pics/Vehicle/TankM1_icon:2
+  }
+  {
+    id: 10578
+    name: 导弹
+    code: Zaij02_Missile_shell
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 550
+    speed: 3000
+    easing_type: 1
+    spin_velocity: -115
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.2,0.2"
+    trigger_creation_id: "10579,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 10579
+    name: 导弹结算
+    code: Zaij_Tank_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "691"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+    is_orb_effect: 2
+  }
+  {
+    id: 10580
+    name: kord贯穿
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    route_type: 6
+    speed: 10000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "1"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 10581
+    name: kord贯穿buff
+    start_type: "1"
+    destination_type: "5"
+    route_type: 6
+    speed: 10000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000009042:2
+    buff_cd: "1"
+    is_single_hurt: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 10582
+    name: 汉阳造贯穿buff
+    start_type: "3"
+    destination_type: "5"
+    route_type: 6
+    speed: 7500
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 1000009042:2
+    buff_cd: "1"
+    is_single_hurt: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 10583
+    name: test
+    code: testcube
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "3,3,3"
+    sound_order: BT_squad_bazooka
+  }
+  {
+    id: 10584
+    name: 载具-机枪无判定子弹
+    code: bullet/Zaiju_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+  }
+  {
+    id: 10585
+    name: 载具-枪口火光
+    code: Zaiju_Fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 10586
+    name: 载具-7.62mm弹壳
+    code: shell/Zaiju_7.62mm
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "1"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "45"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.3,0.3"
+  }
+  {
+    id: 10587
+    name: 步枪子弹
+    code: bullet/Zaiju_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 10588
+    name: 机枪子弹
+    code: bullet/Zaiju_bullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10589
+    name: 汉阳造贯穿表现
+    code: 88type/Zaiju_Razer
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "0.8,0.8"
+    sound_order: BT_White_Laser
+  }
+  {
+    id: 10590
+    name: 坦克重武器枪口火花
+    code: Zaij_Tank_fire
+    start_type: muzzle
+    destination_type: muzzle
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    sound_order: BT_squad_bazooka
+  }
+  {
+    id: 10591
+    name: 汉阳造贯穿
+    start_type: "3"
+    destination_type: "5"
+    route_type: 6
+    speed: 7500
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "692"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 10592
+    name: 勃朗宁友方
+    start_type: "8"
+    destination_type: "8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: 5219:1,5220:1000002338
+    buff_cd: "0,0"
+    scale: "1"
+  }
+  {
+    id: 10593
+    name: 高达轻武子弹lv2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    effect_area: 1
+    hurt_id: "693"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10594
+    name: 高达轻武透明子弹lv3
+    code: testcube
+    start_type: "3"
+    start_offset: "2.5"
+    destination_type: "3"
+    destination_offset: "2.5"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "5"
+    effect_param_2: "12"
+    hurt_id: "693"
+    is_form_play: 1
+    scale: "5,0.1,12"
+    is_orb_effect: 1
+  }
+  {
     id: 26001
     name: 人偶扳机2
     code: bullet/bullet2
@@ -101753,6 +103756,136 @@
     summoner_order: "149720"
   }
   {
+    id: 570141
+    name: 刘皮肤8703增援lv1
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149721"
+  }
+  {
+    id: 570142
+    name: 刘皮肤8703增援lv2
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149722"
+  }
+  {
+    id: 570143
+    name: 刘皮肤8703增援lv3
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149723"
+  }
+  {
+    id: 570144
+    name: 刘皮肤8703增援lv4
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149724"
+  }
+  {
+    id: 570145
+    name: 刘皮肤8703增援lv5
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149725"
+  }
+  {
+    id: 570146
+    name: 刘皮肤8703增援lv6
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149726"
+  }
+  {
+    id: 570147
+    name: 刘皮肤8703增援lv7
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149727"
+  }
+  {
+    id: 570148
+    name: 刘皮肤8703增援lv8
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149728"
+  }
+  {
+    id: 570149
+    name: 刘皮肤8703增援lv9
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149729"
+  }
+  {
+    id: 570150
+    name: 刘皮肤8703增援lv10
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149730"
+  }
+  {
     id: 570501
     name: 万圣火球受击
     code: wsgs_baozha
@@ -107416,6 +109549,21 @@
     sound_order: BT_pistol
   }
   {
+    id: 610901
+    name: 燃烧喷射表现
+    code: Zaij02_Flame_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "35"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "1"
+  }
+  {
     id: 777010
     name: 磁场每秒伤害15目标
     code: test_elc
@@ -107756,6 +109904,59 @@
     creation_type: 2
     scale: "1"
     is_die_delete: 1
+  }
+  {
+    id: 918801
+    name: 45烟雾弹烟雾
+    code: Smoke
+    start_type: "7"
+    start_offset: "2.4,0,0"
+    destination_type: "7"
+    destination_offset: "2.4,0,0"
+    random_offset: "2.4,0,0;-2.4,0,0;0,0,4.8;0,0,-4.8"
+    exist_duration: *103
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 918802
+    name: 45烟雾弹烟雾
+    code: Smoke
+    start_type: "7"
+    start_offset: "-2.4,0,0"
+    destination_type: "7"
+    destination_offset: "-2.4,0,0"
+    exist_duration: *103
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 918803
+    name: 45烟雾弹烟雾
+    code: Smoke
+    start_type: "7"
+    start_offset: "0,0,4.8"
+    destination_type: "7"
+    destination_offset: "0,0,4.8"
+    exist_duration: *103
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 918804
+    name: 45烟雾弹烟雾
+    code: Smoke
+    start_type: "7"
+    start_offset: "0,0,-4.8"
+    destination_type: "7"
+    destination_offset: "0,0,-4.8"
+    exist_duration: *103
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
   }
   {
     id: 941101
