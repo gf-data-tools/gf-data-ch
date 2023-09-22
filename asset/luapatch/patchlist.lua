@@ -264,7 +264,10 @@ patch3030=
 "3030/VehicleStateDetailController",
 "3030/VehicleUnlockTaskController",
 "3030/OPSEventPrizeItemController",
+"3030/FriendUserCardController",
 "3030/Request",		
+"3030/NavigationItemStationController",
+"3030/BattleFieldTeamHolderNew",
 }
 -- va11
 print("load Va11");
