@@ -7,26 +7,13 @@ local ResClean = function(deep)
 	if CS.Utility.loadedLevelName ~= "Deployment" and CS.Utility.loadedLevelName ~= "Cutin" and CS.Utility.loadedLevelName ~= "Battle" then
 		CS.DynamicDataCache.Instance.cacheDataMap:Clear();
 		CS.SkeletonDataAsset.saveSkeletonDataTemp:Clear();
-		local iter = CS.GF.Common.ObjectPool.Instance.sence2Prefab:GetEnumerator();
-		while iter:MoveNext() do
-			local name = iter.Current.Key;
-			CS.GF.Common.ObjectPool.DestroyAll(name);
-		end
-		CS.GF.Common.ObjectPool.Instance.sence2Prefab:Clear();
-		CS.GF.Common.ObjectPool.Instance.pathPrefabs:Clear();
-		CS.GF.Common.ObjectPool.Instance.spawnedObjects:Clear();
-		CS.GF.Common.ObjectPool.Instance.pooledObjects:Clear();
 		CS.GF.Common.ObjectPool.tempList:Clear();
+		CS.UnityEngine.Object.DestroyImmediate(CS.GF.Common.ObjectPool.Instance.gameObject);
 		print("ClearRes");
 	end
 	CS.ResManager.ResClean(deep);
 end
-local Recycle = function(obj,prefab)
-	if not CS.GF.Common.ObjectPool.Instance.pooledObjects:ContainsKey(prefab) then
-		CS.GF.Common.ObjectPool.Instance.pooledObjects:Add(prefab,CS.System.Collections.Generic.List(CS.UnityEngine.GameObject));
-	end
-	CS.CS.GF.Common.ObjectPool.Recycle(obj,prefab);
-end
+
 local Awake = function(self)
 	self:Awake()
 	util.hotfix_ex(CS.ResManager,'ResClean',ResClean)
@@ -54,8 +41,34 @@ local CheckDownloadInHome = function(self)
 	end
 	self:CheckDownloadInHome();
 end
+
+local BeginDownLoadAdd = function(self)
+	CS.ResCenter.instance.currentDownloadState = CS.ResCenter.DownloadAddState.DownloadAddInHome;
+	self:BeginDownLoadAdd();
+end
+local BeginDownLoadVoice = function(self)
+	CS.ResCenter.instance.currentDownloadVoiceState = CS.ResCenter.DownloadVoiceState.DownloadAddInHome;
+	self:BeginDownLoadVoice();
+end
+
+local _OnLevelWasLoaded = function(self)
+	if CS.ResCenter.instance.currentDownloadState == CS.ResCenter.DownloadAddState.DownloadAddInHome then
+		self:Show();
+	end
+	if CS.ResCenter.instance.currentDownloadVoiceState == CS.ResCenter.DownloadVoiceState.DownloadAddInHome then
+		self:Show();
+	end
+	if CS.ResCenter.instance.currentSceneName == "HotUpdate" or CS.ResCenter.instance.currentSceneName == "Login" then
+		CS.ResCenter.instance:CancelDownBackground();
+		self:Hide();
+	elseif CS.ResCenter.instance.currentSceneName == "Battle" then
+		self.transform.parent:GetComponent(typeof(CS.UnityEngine.Canvas)).enabled = false;
+	end
+end
 util.hotfix_ex(CS.HomeController,'Awake',Awake)
-util.hotfix_ex(CS.GF.Common.ObjectPool,'Recycle',Recycle)
 util.hotfix_ex(CS.ResCenter,'ShowDownLoadJPVoice',ShowDownLoadJPVoice)
 util.hotfix_ex(CS.ResCenter,'ShowDownLoadAddData',ShowDownLoadAddData)
 util.hotfix_ex(CS.ResCenter,'CheckDownloadInHome',CheckDownloadInHome)
+util.hotfix_ex(CS.ResCenter,'BeginDownLoadAdd',BeginDownLoadAdd)
+util.hotfix_ex(CS.ResCenter,'BeginDownLoadVoice',BeginDownLoadVoice)
+util.hotfix_ex(CS.ResDownloadProcess,'_OnLevelWasLoaded',_OnLevelWasLoaded)

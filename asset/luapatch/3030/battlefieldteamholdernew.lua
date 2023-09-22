@@ -4,7 +4,7 @@ xlua.private_accessible(CS.GF.Battle.BattleCharacterManager)
 xlua.private_accessible(CS.GF.Battle.BattleMemberManager)
 local FP = CS.TrueSync.FP
 local UpdateTargetsInRange = function(self,pos,skillCfg,createCfg,rotate)
-	print(self.listCharacter.Count)
+	--print(self.listCharacter.Count)
 	if self.listCharacter.Count > 10 then
 		self.UNIT_RADIUS = FP.FromFloat(1.82)
 	else
