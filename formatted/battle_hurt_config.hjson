@@ -1498,7 +1498,7 @@
     id: 399
     description: M870P防护值衰减
     critical_hit_rate: "100"
-    extra_defbreak: "100"
+    extra_defbreak: *102
     hit_type: 2
     is_ricochet: 100
   }
@@ -8244,6 +8244,21 @@
     float_wide: 15
     buff_id_self: 9231:1
     buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2390
+    description: 1000破防
+    critical_hit_rate: "100"
+    extra_defbreak: *101
+    hit_type: 1
+  }
+  {
+    id: 2391
+    description: 1000破防，3000伤害
+    extra_damage: *102
+    critical_hit_rate: "100"
+    extra_defbreak: *101
     hit_type: 1
   }
   {

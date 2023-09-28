@@ -336,7 +336,7 @@
     map_information: "3000,2625|-3490,-3097|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "769"
+    draw_event_s_id: "944"
     support_available: 2
     reinforce_ally_team: "10"
     round_config: 1:1,2:2,3:3
@@ -487,7 +487,7 @@
     map_information: "3000,2625|-3485,-3106|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "769"
+    draw_event_s_id: "944"
     support_available: 2
     reinforce_ally_team: "14"
     round_config: 1:1,2:2,3:3
@@ -705,7 +705,7 @@
     map_information: "4096,3584|4096,3595|243,-182"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "770"
+    draw_event_s_id: "945"
     support_available: 2
     reinforce_ally_team: "20"
     round_config: 1:1,2:2,3:3
@@ -856,7 +856,7 @@
     map_information: "4096,3584|4096,3595|243,-182"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "770"
+    draw_event_s_id: "945"
     support_available: 2
     reinforce_ally_team: "24"
     round_config: 1:1,2:2,3:3
@@ -1074,7 +1074,7 @@
     map_information: "3724,3265|4214,3617|-5,-70"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "771"
+    draw_event_s_id: "946"
     support_available: 2
     reinforce_ally_team: "30"
     round_config: 1:1,2:2,3:3
@@ -1225,7 +1225,7 @@
     map_information: "3724,3265|4214,3617|-5,-70"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "771"
+    draw_event_s_id: "946"
     support_available: 2
     reinforce_ally_team: "34"
     round_config: 1:1,2:2,3:3
@@ -1443,7 +1443,7 @@
     map_information: "3770,3299|4257,3799|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "772"
+    draw_event_s_id: "947"
     support_available: 2
     reinforce_ally_team: "40"
     round_config: 1:1,2:2,3:3
@@ -1594,7 +1594,7 @@
     map_information: "3770,3299|4257,3799|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "772"
+    draw_event_s_id: "947"
     support_available: 2
     reinforce_ally_team: "44"
     round_config: 1:1,2:2,3:3
@@ -1807,7 +1807,7 @@
     map_information: "4656,3951|4001,3647|-575,393"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "773"
+    draw_event_s_id: "948"
     support_available: 2
     reinforce_ally_team: "50"
     round_config: 1:1,2:2,3:3
@@ -1954,7 +1954,7 @@
     map_information: "4656,3951|4001,3647|-575,393"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "773"
+    draw_event_s_id: "948"
     support_available: 2
     reinforce_ally_team: "54"
     round_config: 1:1,2:2,3:3
@@ -2166,7 +2166,7 @@
     map_information: "4000,3751|4500,3667|17,283"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "774"
+    draw_event_s_id: "949"
     support_available: 2
     reinforce_ally_team: "60"
     round_config: 1:1,2:2,3:3
@@ -2313,7 +2313,7 @@
     map_information: "4000,3751|4500,4251|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "774"
+    draw_event_s_id: "949"
     support_available: 2
     reinforce_ally_team: "64"
     round_config: 1:1,2:2,3:3
@@ -49518,6 +49518,688 @@
     limit_vehicle: -1
   }
   {
+    id: 11461
+    integration_switch: 1-1
+    campaign: -62
+    sub: 18
+    if_emergency: -1
+    name: 纯白试炼
+    difficulty: 3500
+    recommend_gun_level: 35
+    exp_parameter: 28
+    type: "7"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "275"
+    limit_team: "2"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|5035,3582|370,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "933"
+    expect_hostage_num: "1,1"
+    drop_mission_key: "0,0,1146100:1"
+    mission_group_id: 29
+    open_mission_keys: 1148800:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    mapped_mission_id: 62001
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11462
+    integration_switch: 1-1
+    campaign: -62
+    sub: 19
+    if_emergency: -1
+    name: 绝对火力
+    difficulty: 4500
+    recommend_gun_level: 45
+    exp_parameter: 30
+    type: "2"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "311"
+    limit_team: "2"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|3312,3199|-14,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "934"
+    drop_mission_key: "0,0,1146200:1"
+    mission_group_id: 29
+    open_mission_keys: 1148900:1
+    round_config: 1:1,2:5,3:3
+    limit_squad: -1
+    mapped_mission_id: 62002
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11463
+    integration_switch: 1-1
+    campaign: -62
+    sub: 20
+    if_emergency: -1
+    name: 危墙潜行
+    difficulty: 5500
+    recommend_gun_level: 55
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "335"
+    limit_team: "2"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|3691,3241|207,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "935"
+    drop_mission_key: "0,0,1146300:1"
+    mission_group_id: 29
+    open_mission_keys: 1149000:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    mapped_mission_id: 62003
+    win_type: "4"
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "2,3,4"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11464
+    integration_switch: 1-1
+    campaign: -62
+    sub: 2
+    if_emergency: -1
+    name: 雪原回响
+    difficulty: 7000
+    recommend_gun_level: 65
+    exp_parameter: 36
+    type: "2"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 9
+    limit_gun_pool: "361"
+    limit_team: "2,*2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "936"
+    drop_mission_key: "0,0,1146400:1"
+    mission_group_id: 29
+    open_mission_keys: 1149100:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    mapped_mission_id: 62004
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2"
+    limit_vehicle: 1
+  }
+  {
+    id: 11465
+    integration_switch: 1-1
+    campaign: -62
+    sub: 5
+    if_emergency: -1
+    name: 极限阻击
+    difficulty: 10000
+    recommend_gun_level: 75
+    exp_parameter: 40
+    type: "6"
+    enemy_ai_type: 4
+    win_spot_id: "68578"
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 9
+    limit_gun_pool: "275"
+    limit_team: "2,*2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|6000,5000|1000,800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "937"
+    expect_defend_line_turn: 2
+    drop_mission_key: "0,0,1146500:1"
+    mission_group_id: 29
+    open_mission_keys: 1149300:1
+    round_config: 1:1,2:5,3:3
+    limit_squad: -1
+    mapped_mission_id: 62005
+    win_type: "1146501"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "2,3"
+    limit_vehicle: 1
+  }
+  {
+    id: 11466
+    integration_switch: 1-1
+    campaign: -62
+    sub: 7
+    if_emergency: -1
+    name: 孤城余晖
+    difficulty: 14000
+    recommend_gun_level: 87
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 9
+    limit_gun_pool: "311"
+    limit_team: "2,*2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|7000,5500|-500,500"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "938"
+    expect_hostage_num: "2,2"
+    drop_mission_key: "0,0,1146600:1"
+    mission_group_id: 29
+    open_mission_keys: 1149400:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    mapped_mission_id: 62006
+    win_type: "1146601"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,3"
+    limit_vehicle: 1
+  }
+  {
+    id: 11467
+    integration_switch: 1-1
+    campaign: -62
+    sub: 21
+    if_emergency: -1
+    name: 纯白试炼-EX
+    difficulty: 22000
+    recommend_gun_level: 105
+    exp_parameter: 49
+    type: "7"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "275"
+    limit_team: "2"
+    map_res_name: BloodNetwork_Y
+    map_information: "6000,6000|4922,3393|74,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "939"
+    expect_hostage_num: "3,3"
+    drop_mission_key: "0,0,1146100:1"
+    mission_group_id: 29
+    open_mission_keys: 1148800:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    mapped_mission_id: 62001
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "2,3"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11468
+    integration_switch: 1-1
+    campaign: -62
+    sub: 22
+    if_emergency: -1
+    name: 绝对火力-EX
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "2"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "311"
+    limit_team: "2"
+    map_res_name: BloodNetwork_Y
+    map_information: "6000,6000|4514,3962|338,-170"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "940"
+    drop_mission_key: "0,0,1146200:1"
+    mission_group_id: 29
+    open_mission_keys: 1148900:1
+    round_config: 1:1,2:5,3:3
+    limit_squad: -1
+    mapped_mission_id: 62002
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11469
+    integration_switch: 1-1
+    campaign: -62
+    sub: 23
+    if_emergency: -1
+    name: 危墙潜行-EX
+    difficulty: 28000
+    recommend_gun_level: 115
+    exp_parameter: 52
+    type: "3"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "335"
+    limit_team: "2"
+    map_res_name: BloodNetwork_Y
+    map_information: "6000,6000|4584,3421|-275,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "939"
+    drop_mission_key: "0,0,1146300:1"
+    mission_group_id: 29
+    open_mission_keys: 1149000:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    mapped_mission_id: 62003
+    win_type: "4"
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11470
+    integration_switch: 1-1
+    campaign: -62
+    sub: 3
+    if_emergency: -1
+    name: 雪原回响-EX
+    difficulty: 30000
+    recommend_gun_level: 120
+    exp_parameter: 53
+    type: "2"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 9
+    limit_gun_pool: "361"
+    limit_team: "2,*2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|6000,5500|0,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "941"
+    drop_mission_key: "0,0,1146400:1"
+    mission_group_id: 29
+    open_mission_keys: 1149100:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    mapped_mission_id: 62004
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2"
+    limit_vehicle: 1
+  }
+  {
+    id: 11471
+    integration_switch: 1-1
+    campaign: -62
+    sub: 4
+    if_emergency: -1
+    name: 极限阻击-EX
+    difficulty: 32000
+    recommend_gun_level: 120
+    exp_parameter: 54
+    type: "6"
+    enemy_ai_type: 4
+    win_spot_id: "68532"
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 9
+    limit_gun_pool: "275"
+    limit_team: "2,*2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|7000,6000|0,800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "942"
+    drop_mission_key: "0,0,1146500:1"
+    mission_group_id: 29
+    open_mission_keys: 1149300:1
+    round_config: 1:1,2:5,3:3
+    limit_squad: -1
+    mapped_mission_id: 62005
+    win_type: "1147101"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "2,3"
+    limit_vehicle: 1
+  }
+  {
+    id: 11472
+    integration_switch: 1-1
+    campaign: -62
+    sub: 6
+    if_emergency: -1
+    name: 孤城余晖-EX
+    difficulty: 34000
+    recommend_gun_level: 120
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 9
+    limit_gun_pool: "311"
+    limit_team: "2,*2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|7500,6000|-800,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "941"
+    expect_defend_line_turn: 2
+    expect_hostage_num: "2,2"
+    drop_mission_key: "0,0,1146600:1"
+    mission_group_id: 29
+    open_mission_keys: 1149400:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: 1
+    mapped_mission_id: 62006
+    win_type: "1147201"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,3"
+    limit_vehicle: 1
+  }
+  {
+    id: 11473
+    integration_switch: 1-1
+    campaign: -62
+    sub: 24
+    if_emergency: -1
+    name: 胜负的天平
+    difficulty: 20000
+    recommend_gun_level: 100
+    exp_parameter: 48
+    type: "4"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "361"
+    limit_team: "3"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|5020,4350|539,462"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "943"
+    drop_mission_key: "0,0,1147300:1"
+    mission_group_id: 29
+    open_mission_keys: 1149500:1
+    round_config: 1:1,2:29,3:3
+    limit_squad: 1
+    mapped_mission_id: 62007
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    win_step: 1147301|1147302|1147303
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3"
+    restart_hide: 1
+    limit_vehicle: 1
+  }
+  {
+    id: 11474
+    integration_switch: 1-1
+    campaign: -62
+    sub: 8
+    if_emergency: -1
+    name: 胜负的天平-EX
+    difficulty: 36000
+    recommend_gun_level: 120
+    exp_parameter: 56
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 8
+    expect_gun_die_num: 9
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 12
+    limit_gun_pool: "361"
+    limit_team: "3,*3"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|8500,7600|-300,800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "941"
+    drop_mission_key: "0,0,1147300:1"
+    mission_group_id: 29
+    open_mission_keys: 1149500:1
+    round_config: 1:1,2:29,3:3
+    limit_squad: 1
+    mapped_mission_id: 62007
+    medal_type_silver: "1147405"
+    limit_sangvis: -1
+    win_step: 1147401|1147402|1147403
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3,9"
+    limit_vehicle: 1
+  }
+  {
+    id: 11475
+    integration_switch: 1-1
+    campaign: -62
+    sub: 25
+    if_emergency: -1
+    name: 歧路演绎
+    difficulty: 10000
+    recommend_gun_level: 70
+    exp_parameter: 40
+    type: "7"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "275,335"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|5035,3582|370,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "937"
+    mission_group_id: 29
+    open_mission_keys: 1146300:1
+    round_config: 1:1,2:29,3:3
+    limit_squad: -1
+    mapped_mission_id: 62008
+    win_type: "1147501"
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3"
+    restart_hide: 1
+  }
+  {
+    id: 11476
+    integration_switch: 1-1
+    campaign: -62
+    sub: 26
+    if_emergency: -1
+    name: 归途试证
+    difficulty: 10000
+    recommend_gun_level: 70
+    exp_parameter: 40
+    type: "7"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "311,361"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|5035,3582|370,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "938"
+    mission_group_id: 29
+    open_mission_keys: 1146600:1
+    round_config: 1:1,2:29,3:3
+    limit_squad: -1
+    mapped_mission_id: 62009
+    win_type: "1147501"
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3"
+    restart_hide: 1
+  }
+  {
+    id: 11477
+    integration_switch: 1-1
+    campaign: -62
+    sub: 27
+    if_emergency: -1
+    name: 歧路演绎-EX
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "7"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "275,335"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|5035,3582|370,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "942"
+    mission_group_id: 29
+    open_mission_keys: 1146300:1
+    round_config: 1:1,2:29,3:3
+    limit_squad: -1
+    mapped_mission_id: 62008
+    win_type: "1147501"
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3"
+    restart_hide: 1
+  }
+  {
+    id: 11478
+    integration_switch: 1-1
+    campaign: -62
+    sub: 28
+    if_emergency: -1
+    name: 归途试证-EX
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "7"
+    enemy_ai_type: 1
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 9
+    expect_turn: 15
+    turn_duration: 360000000
+    limit_gun_pool: "311,361"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|5035,3582|370,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "941"
+    mission_group_id: 29
+    open_mission_keys: 1146600:1
+    round_config: 1:1,2:29,3:3
+    limit_squad: -1
+    mapped_mission_id: 62009
+    win_type: "1147501"
+    difficulty_recommend: "0,0;0,0;0,0;0,0;0,0"
+    limit_sangvis: -1
+    environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
+    recommended_team_ids: "1,2,3"
+    restart_hide: 1
+  }
+  {
+    id: 11479
+    integration_switch: 1-1
+    campaign: -62
+    sub: 1
+    if_emergency: -1
+    special_type: 9
+    name: 补测风云
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1147900:1"
+    mission_group_id: 29
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
     id: 11480
     integration_switch: 1-1;4-40:80:160
     campaign: -10006
@@ -49531,9 +50213,9 @@
     boss_team_id: "1"
     turn_duration: 360000000
     limit_team: "-1"
-    map_res_name: OPS2_Y
-    map_information: "10000,10000|7500,8000|800,1000"
-    fog_length: "0,500"
+    map_res_name: OPS64_Y
+    map_information: "10000,10000|6000,4200|0,400"
+    fog_length: "0,800"
     fog_color: "#000000FF"
     support_available: 3
     drop_mission_key: "0,0,1148000:1"
@@ -49741,6 +50423,240 @@
     limit_sangvis: -1
     lose_type: "1148091"
     limit_vehicle: -1
+  }
+  {
+    id: 11488
+    integration_switch: 1-1
+    campaign: -62
+    sub: 9
+    if_emergency: -1
+    special_type: 9
+    name: 集结指令
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1148800:1"
+    mission_group_id: 29
+    open_mission_keys: 1147900:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11489
+    integration_switch: 1-1
+    campaign: -62
+    sub: 10
+    if_emergency: -1
+    special_type: 9
+    name: 迷途生变
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1148900:1"
+    mission_group_id: 29
+    open_mission_keys: 1146100:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11490
+    integration_switch: 1-1
+    campaign: -62
+    sub: 11
+    if_emergency: -1
+    special_type: 9
+    name: 幸存边际
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149000:1"
+    mission_group_id: 29
+    open_mission_keys: 1146200:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11491
+    integration_switch: 1-1
+    campaign: -62
+    sub: 12
+    if_emergency: -1
+    special_type: 9
+    name: 二次重启
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149100:1"
+    mission_group_id: 29
+    open_mission_keys: 1146300:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11492
+    integration_switch: 1-1
+    campaign: -62
+    sub: 13
+    if_emergency: -1
+    special_type: 9
+    name: 局外洞见
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149200:1"
+    mission_group_id: 29
+    open_mission_keys: 1146400:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11493
+    integration_switch: 1-1
+    campaign: -62
+    sub: 14
+    if_emergency: -1
+    special_type: 9
+    name: 后进之勇
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149300:1"
+    mission_group_id: 29
+    open_mission_keys: 1149200:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11494
+    integration_switch: 1-1
+    campaign: -62
+    sub: 15
+    if_emergency: -1
+    special_type: 9
+    name: 亡羊补牢
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149400:1"
+    mission_group_id: 29
+    open_mission_keys: 1146500:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11495
+    integration_switch: 1-1
+    campaign: -62
+    sub: 16
+    if_emergency: -1
+    special_type: 9
+    name: 黎明未至
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149500:1"
+    mission_group_id: 29
+    open_mission_keys: 1146600:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
+  }
+  {
+    id: 11496
+    integration_switch: 1-1
+    campaign: -62
+    sub: 17
+    if_emergency: -1
+    special_type: 9
+    name: 重修启示录
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|5000,3500|0,1200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1149600:1"
+    mission_group_id: 29
+    open_mission_keys: 1147300:1
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    limit_sangvis: -1
   }
   {
     id: 90001

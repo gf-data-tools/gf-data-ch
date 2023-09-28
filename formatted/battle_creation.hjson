@@ -83492,6 +83492,38 @@
     scale: "1"
   }
   {
+    id: 9483
+    name: 1000破防
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2390"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 9484
+    name: 1000破防，3000伤害
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2391"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
     id: 9485
     name: 娜希斯一技能受击效果
     code: NXS_pg_dg02

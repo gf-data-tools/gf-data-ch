@@ -29314,6 +29314,62 @@
     rotate: "2"
   }
   {
+    id: 20107
+    name: DIY特供中心
+    classes: 81
+    type: 302
+    space: "4,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 如同每张作战报告书都源自格琳娜一笔一划的辛勤书写，此刻打印机源源不断吐出的空白试卷也将由人形们亲笔填满——“是时候让大家尝尝手作的辛劳了！”
+    code: 2023SepActivity_deco_A
+    texture_type: "1"
+    offset: "0.000,0.699,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20108
+    name: 好胜黑洞
+    classes: 81
+    type: 201
+    space: "5,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 探险时发现的古董机枪游戏机。因其诡异的难度和微妙的随机性，意外地令战术人形们上瘾——“什么？！本格里芬第一精英居然无法通关？！这不科学！再来一局！”
+    code: 2023SepActivity_deco_B
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20109
+    name: 考前突击夜
+    classes: 81
+    type: 201
+    space: "6,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “G&K军事安全承包商成立于205……呃……五几来着？……哦对！2051！”（翻书中……）“——呃啊啊啊！笨蛋，是2053啦！！”
+    code: 2023SepActivity_deco_C
+    texture_type: "1"
+    offset: "0.000,-0.209,-0.052"
+    rotate: "2"
+  }
+  {
+    id: 20110
+    name: 狂野追风
+    classes: 81
+    type: 201
+    space: "9,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 还在为买不起炫酷的摩托而遗憾吗？还在为付不起飙车事故的维修费而懊恼吗？格琳娜特供电玩摩托车，一比一复刻NTW-20专属坐骑——体验1分钟仅需代写10张作战报告书！你值得拥有！
+    code: 2023NationalDay_deco
+    texture_type: "1"
+    offset: "0.000,-0.219,-0.052"
+    rotate: "2"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -39313,6 +39369,21 @@
     decompose_gift: 100003
     description: 6P62的海报
     code: poster_OfficeLady2023_6P62
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38611
+    name: LWMMG-薪金妙算师
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LWMMG的海报
+    code: poster_OfficeLady2023_LWMMG
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

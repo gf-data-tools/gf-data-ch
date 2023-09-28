@@ -6586,6 +6586,360 @@
     carry_mission_skill: "6580139,6580149,6580140,6580150,6580141,6580151,6580142,6580152,6580143,6580153,6580144,6580154,6580145,6580155,6580146,6580156,6580147,6580157,6580148,6580158,6580169"
   }
   {
+    id: 6620001
+    name: 携带buff
+    description: 携带EMP
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 6620001
+    carry_mission_skill: "6620006"
+  }
+  {
+    id: 6629000
+    name: 携带buff
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6629000
+    carry_mission_skill: "6629408"
+  }
+  {
+    id: 6629001
+    name: 携带buff
+    description: 携带EMP
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 6629001
+    carry_mission_skill: "6629409"
+  }
+  {
+    id: 6629002
+    name: 携带buff
+    description: 携带传送技能
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: BlinkIcon#90b22a
+    conflict_type: 6629002
+    carry_mission_skill: "6629410"
+  }
+  {
+    id: 6629003
+    name: 加速
+    description: 移动力提升
+    code: SpeedUp
+    type: 1
+    duration_type: "3"
+    duration_time: "1"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 6629003
+  }
+  {
+    id: 6629004
+    name: 冷却减少
+    description: 技能冷却降低30%
+    code: assess202309_13
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759260
+    conflict_type: 6629004
+  }
+  {
+    id: 6629005
+    name: 额外支援
+    description: 战斗开始时对力场盾直接造成伤害
+    code: assess202309_14
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759261
+    conflict_type: 6629005
+  }
+  {
+    id: 6629006
+    name: 【标记】战场效果1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629006
+    carry_mission_skill: "6629414"
+  }
+  {
+    id: 6629007
+    name: 【标记】战场效果2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629007
+    carry_mission_skill: "6629415"
+  }
+  {
+    id: 6629008
+    name: 【标记】战场效果3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629008
+    carry_mission_skill: "6629416"
+  }
+  {
+    id: 6629009
+    name: 【标记】BOSS霸体
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629009
+  }
+  {
+    id: 6629100
+    name: 强化
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629100
+  }
+  {
+    id: 6629101
+    name: 强化
+    description:
+      '''
+      提升命中和回避
+      <color=#CF8000>等级:1</color>
+      '''
+    code: assess202309_1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759248
+    conflict_type: 6629100
+    priority: 1
+  }
+  {
+    id: 6629102
+    name: 强化
+    description:
+      '''
+      提升命中和回避
+      <color=#CF8000>等级:2</color>
+      '''
+    code: assess202309_2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759249
+    conflict_type: 6629100
+    priority: 2
+  }
+  {
+    id: 6629103
+    name: 强化
+    description:
+      '''
+      提升命中和回避
+      <color=#CF8000>等级:3</color>
+      '''
+    code: assess202309_3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759250
+    conflict_type: 6629100
+    priority: 3
+  }
+  {
+    id: 6629104
+    name: 强化
+    description:
+      '''
+      提升命中和回避
+      <color=#CF8000>等级:4</color>
+      '''
+    code: assess202309_4
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759251
+    conflict_type: 6629100
+    priority: 4
+  }
+  {
+    id: 6629200
+    name: 强化
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629200
+  }
+  {
+    id: 6629201
+    name: 强化
+    description:
+      '''
+      提升护甲和穿甲
+      <color=#CF8000>等级:1</color>
+      '''
+    code: assess202309_5
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759252
+    conflict_type: 6629200
+    priority: 1
+  }
+  {
+    id: 6629202
+    name: 强化
+    description:
+      '''
+      提升护甲和穿甲
+      <color=#CF8000>等级:2</color>
+      '''
+    code: assess202309_6
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759253
+    conflict_type: 6629200
+    priority: 2
+  }
+  {
+    id: 6629203
+    name: 强化
+    description:
+      '''
+      提升护甲和穿甲
+      <color=#CF8000>等级:3</color>
+      '''
+    code: assess202309_7
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759254
+    conflict_type: 6629200
+    priority: 3
+  }
+  {
+    id: 6629204
+    name: 强化
+    description:
+      '''
+      提升护甲和穿甲
+      <color=#CF8000>等级:4</color>
+      '''
+    code: assess202309_8
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759255
+    conflict_type: 6629200
+    priority: 4
+  }
+  {
+    id: 6629300
+    name: 强化
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629300
+  }
+  {
+    id: 6629301
+    name: 强化
+    description:
+      '''
+      提升伤害和射速
+      <color=#CF8000>等级:1</color>
+      '''
+    code: assess202309_9
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759256
+    conflict_type: 6629300
+    priority: 1
+  }
+  {
+    id: 6629302
+    name: 强化
+    description:
+      '''
+      提升伤害和射速
+      <color=#CF8000>等级:2</color>
+      '''
+    code: assess202309_10
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759257
+    conflict_type: 6629300
+    priority: 2
+  }
+  {
+    id: 6629303
+    name: 强化
+    description:
+      '''
+      提升伤害和射速
+      <color=#CF8000>等级:3</color>
+      '''
+    code: assess202309_11
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759258
+    conflict_type: 6629300
+    priority: 3
+  }
+  {
+    id: 6629304
+    name: 强化
+    description:
+      '''
+      提升伤害和射速
+      <color=#CF8000>等级:4</color>
+      '''
+    code: assess202309_12
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759259
+    conflict_type: 6629300
+    priority: 4
+  }
+  {
     id: 7000001
     name: 【标记】自动作战标识
     type: 1

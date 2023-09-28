@@ -56737,6 +56737,1054 @@
     mission_buff_minus: 6580015:1
   }
   {
+    id: 6620001
+    name: 【标记】emp初始化
+    skill_group_id: 6620001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6620001:1
+  }
+  {
+    id: 6620002
+    name: 【标记】传送初始化
+    skill_group_id: 6620002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6620002:1
+  }
+  {
+    id: 6620003
+    name: 【标记】控制台初始化
+    skill_group_id: 6620003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6620003:1
+  }
+  {
+    id: 6620004
+    name: 【标记】防御门初始化
+    skill_group_id: 6620004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6620004:1
+  }
+  {
+    id: 6620005
+    name: 拾取EMP
+    description: 获得一枚EMP手雷。
+    skill_group_id: 6620005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    trigger_id: "662000131"
+    target_id: "1"
+    special_spot_minus: 6620001:1
+    mission_buff_add: 6620001:1
+    is_manual: 6620007
+  }
+  {
+    id: 6620006
+    name: 投掷EMP
+    description: "1,2,3,木头人。"
+    skill_group_id: 6620006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    start_range: 1
+    special_spot_add: 6629952:1
+    subsidiary_mission_skill: "6620007"
+    is_manual: 6620002
+  }
+  {
+    id: 6620007
+    name: 【标记】投掷EMP连携
+    skill_group_id: 6620007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6620001:1
+  }
+  {
+    id: 6620008
+    name: 发动传送
+    description: 对巡逻强敌点位开启传送，会让敌人像移动方向后退一格，持续一回合。（每回合可以使用1次）
+    skill_group_id: 6620008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "5,6"
+    start_range: 99
+    trigger_id: "662000231"
+    special_spot_add: 6620005:1
+    subsidiary_mission_skill: "6620009"
+    is_manual: 6620003
+  }
+  {
+    id: 6620009
+    name: 【标记】扣除传送
+    skill_group_id: 6620009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6620002:1
+  }
+  {
+    id: 6620010
+    name: 开启防御门
+    description: 开启防御门。
+    skill_group_id: 6620010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662000431"
+    special_spot_minus: 6620004:1
+    subsidiary_mission_skill: "6620011"
+    is_manual: 6620008
+  }
+  {
+    id: 6620011
+    name: 【标记】开启后连携
+    skill_group_id: 6620011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "1"
+    special_spot_minus: 6620003:1
+  }
+  {
+    id: 6620012
+    name: 【标记】传送节点描述
+    description:
+      '''
+      “Energize”
+      可将巡逻强敌的点位开启传送，使其倒退一格。
+      '''
+    skill_group_id: 6620012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6620002:1
+  }
+  {
+    id: 6620013
+    name: 【标记】BOSS霸体
+    skill_group_id: 6620013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 6629009:1
+  }
+  {
+    id: 6629000
+    name: 【标记】杀敌计数初始化
+    skill_group_id: 6629000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 6629000:1,6629001:1,6629002:1,6629003:1,6629941:1,6629942:1,6629943:1,6629004:1,6629005:1,6629006:1
+    subsidiary_mission_skill: "6629001"
+  }
+  {
+    id: 6629001
+    name: 【标记】杀敌计数初始化扣除item
+    skill_group_id: 6629001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    drop_item: 531:-999;532:-999;533:-999;534:-999
+  }
+  {
+    id: 6629002
+    name: 【标记】机场专用杀敌计数初始化3种属性初始特殊点
+    skill_group_id: 6629002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 6629910:1,6629920:1,6629930:1,6629905:1
+    mission_buff_add: 6629100:1,6629200:1,6629300:1
+  }
+  {
+    id: 6629100
+    name: 【标记】铁血击杀数+1item
+    skill_group_id: 6629100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "662900031"
+    subsidiary_mission_skill: "6629400,6629101"
+    drop_item: 531:1
+  }
+  {
+    id: 6629101
+    name: 【标记】铁血击杀数+1特殊点
+    skill_group_id: 6629101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "622910139"
+    target_id: "662900031"
+    special_spot_add: 6629101:1
+    subsidiary_mission_skill: "6629107,6629106,6629105,6629104,6629103,6629102"
+  }
+  {
+    id: 6629102
+    name: 【标记】铁血属性技能1-1
+    skill_group_id: 6629102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662910131&&662900131
+    target_id: "662910041"
+    mission_buff_add: 6629101:1
+    mission_buff_minus: 6629100:1
+    subsidiary_mission_skill: "6629109"
+  }
+  {
+    id: 6629103
+    name: 【标记】铁血属性技能1-2
+    skill_group_id: 6629103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662910132&&662900131
+    target_id: "662910141"
+    mission_buff_add: 6629102:1
+    mission_buff_minus: 6629101:1
+    subsidiary_mission_skill: "6629110"
+  }
+  {
+    id: 6629104
+    name: 【标记】铁血属性技能1-3
+    skill_group_id: 6629104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662910133&&662900131
+    target_id: "662910241"
+    mission_buff_add: 6629103:1
+    mission_buff_minus: 6629102:1
+    subsidiary_mission_skill: "6629111"
+  }
+  {
+    id: 6629105
+    name: 【标记】铁血属性技能1-4
+    skill_group_id: 6629105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662910134&&662900131
+    target_id: "662910341"
+    mission_buff_add: 6629104:1
+    mission_buff_minus: 6629103:1
+    subsidiary_mission_skill: "6629112"
+  }
+  {
+    id: 6629106
+    name: 【标记】铁血被动技能
+    skill_group_id: 6629106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,10"
+    start_range: 99
+    trigger_id: 662910135&&662900131&&662900431
+    mission_buff_add: 20102:1,20101:1
+    subsidiary_mission_skill: "6629114"
+  }
+  {
+    id: 6629107
+    name: 【标记】铁血主动技能
+    skill_group_id: 6629107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662910136&&662900131
+    mission_buff_add: 6629000:1
+    subsidiary_mission_skill: "6629113"
+  }
+  {
+    id: 6629108
+    name: 【标记】铁血被动技能连携机场
+    skill_group_id: 6629108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    target_id: "662990531"
+    special_spot_add: 6629915:1
+  }
+  {
+    id: 6629109
+    name: 【标记】铁血属性技能1-1特殊点替换
+    skill_group_id: 6629109
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662991031"
+    special_spot_add: 6629911:1
+    special_spot_minus: 6629910:1
+  }
+  {
+    id: 6629110
+    name: 【标记】铁血属性技能1-2特殊点替换
+    skill_group_id: 6629110
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662991131"
+    special_spot_add: 6629912:1
+    special_spot_minus: 6629911:1
+  }
+  {
+    id: 6629111
+    name: 【标记】铁血属性技能1-3特殊点替换
+    skill_group_id: 6629111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662991231"
+    special_spot_add: 6629913:1
+    special_spot_minus: 6629912:1
+  }
+  {
+    id: 6629112
+    name: 【标记】铁血属性技能1-4特殊点替换
+    skill_group_id: 6629112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662991331"
+    special_spot_add: 6629914:1
+    special_spot_minus: 6629913:1
+  }
+  {
+    id: 6629113
+    name: 【标记】铁血技能满8不再计数
+    skill_group_id: 6629113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_minus: 6629001:1
+  }
+  {
+    id: 6629114
+    name: 【标记】铁血被动唯一
+    skill_group_id: 6629114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6629004:1
+  }
+  {
+    id: 6629200
+    name: 【标记】军方击杀数+1item
+    skill_group_id: 6629200
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "662900031"
+    subsidiary_mission_skill: "6629400,6629201"
+    drop_item: 532:1
+  }
+  {
+    id: 6629201
+    name: 【标记】军方击杀数+1特殊点
+    skill_group_id: 6629201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "622920139"
+    target_id: "662900031"
+    special_spot_add: 6629201:1
+    subsidiary_mission_skill: "6629207,6629206,6629205,6629204,6629203,6629202"
+  }
+  {
+    id: 6629202
+    name: 【标记】军方属性技能1-1
+    skill_group_id: 6629202
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662920131&&662900231
+    target_id: "662920041"
+    mission_buff_add: 6629201:1
+    mission_buff_minus: 6629200:1
+    subsidiary_mission_skill: "6629209"
+  }
+  {
+    id: 6629203
+    name: 【标记】军方属性技能1-2
+    skill_group_id: 6629203
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662920132&&662900231
+    target_id: "662920141"
+    mission_buff_add: 6629202:1
+    mission_buff_minus: 6629201:1
+    subsidiary_mission_skill: "6629210"
+  }
+  {
+    id: 6629204
+    name: 【标记】军方属性技能1-3
+    skill_group_id: 6629204
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662920133&&662900231
+    target_id: "662920241"
+    mission_buff_add: 6629203:1
+    mission_buff_minus: 6629202:1
+    subsidiary_mission_skill: "6629211"
+  }
+  {
+    id: 6629205
+    name: 【标记】军方属性技能1-4
+    skill_group_id: 6629205
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662920134&&662900231
+    target_id: "662920341"
+    mission_buff_add: 6629204:1
+    mission_buff_minus: 6629203:1
+    subsidiary_mission_skill: "6629212"
+  }
+  {
+    id: 6629206
+    name: 【标记】军方被动技能
+    skill_group_id: 6629206
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662920135&&662900231&&662900531
+    mission_buff_add: 6629004:1
+    subsidiary_mission_skill: "6629214"
+  }
+  {
+    id: 6629207
+    name: 【标记】军方主动技能
+    skill_group_id: 6629207
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662920136&&662900231
+    mission_buff_add: 6629001:1
+    subsidiary_mission_skill: "6629213"
+  }
+  {
+    id: 6629208
+    name: 【标记】军方被动技能连携机场
+    skill_group_id: 6629208
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    target_id: "662990531"
+    special_spot_add: 6629925:1
+  }
+  {
+    id: 6629209
+    name: 【标记】军方属性技能1-1特殊点替换
+    skill_group_id: 6629209
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662992031"
+    special_spot_add: 6629921:1
+    special_spot_minus: 6629920:1
+  }
+  {
+    id: 6629210
+    name: 【标记】军方属性技能1-2特殊点替换
+    skill_group_id: 6629210
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662992131"
+    special_spot_add: 6629922:1
+    special_spot_minus: 6629921:1
+  }
+  {
+    id: 6629211
+    name: 【标记】军方属性技能1-3特殊点替换
+    skill_group_id: 6629211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662992231"
+    special_spot_add: 6629923:1
+    special_spot_minus: 6629922:1
+  }
+  {
+    id: 6629212
+    name: 【标记】军方属性技能1-4特殊点替换
+    skill_group_id: 6629212
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662992331"
+    special_spot_add: 6629924:1
+    special_spot_minus: 6629923:1
+  }
+  {
+    id: 6629213
+    name: 【标记】军方技能满8不在计数
+    skill_group_id: 6629213
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_minus: 6629002:1
+  }
+  {
+    id: 6629214
+    name: 【标记】军方技能被动唯一
+    skill_group_id: 6629214
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6629005:1
+  }
+  {
+    id: 6629300
+    name: 【标记】帕拉迪斯击杀数+1item
+    skill_group_id: 6629300
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "662900031"
+    subsidiary_mission_skill: "6629400,6629301"
+    drop_item: 533:1
+  }
+  {
+    id: 6629301
+    name: 【标记】帕拉迪斯击杀数+1特殊点
+    skill_group_id: 6629301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "622930139"
+    target_id: "662900031"
+    special_spot_add: 6629301:1
+    subsidiary_mission_skill: "6629307,6629306,6629305,6629304,6629303,6629302"
+  }
+  {
+    id: 6629302
+    name: 【标记】帕拉迪斯属性技能1-1
+    skill_group_id: 6629302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662930131&&662900331
+    target_id: "662930041"
+    mission_buff_add: 6629301:1
+    mission_buff_minus: 6629300:1
+    subsidiary_mission_skill: "6629309"
+  }
+  {
+    id: 6629303
+    name: 【标记】帕拉迪斯属性技能1-2
+    skill_group_id: 6629303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662930132&&662900331
+    target_id: "662930141"
+    mission_buff_add: 6629302:1
+    mission_buff_minus: 6629301:1
+    subsidiary_mission_skill: "6629310"
+  }
+  {
+    id: 6629304
+    name: 【标记】帕拉迪斯属性技能1-3
+    skill_group_id: 6629304
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662930133&&662900331
+    target_id: "662930241"
+    mission_buff_add: 6629303:1
+    mission_buff_minus: 6629302:1
+    subsidiary_mission_skill: "6629311"
+  }
+  {
+    id: 6629305
+    name: 【标记】帕拉迪斯属性技能1-4
+    skill_group_id: 6629305
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662930134&&662900331
+    target_id: "662930341"
+    mission_buff_add: 6629304:1
+    mission_buff_minus: 6629303:1
+    subsidiary_mission_skill: "6629312"
+  }
+  {
+    id: 6629306
+    name: 【标记】帕拉迪斯被动技能
+    skill_group_id: 6629306
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662930135&&662900331&&662900631
+    mission_buff_add: 6629005:1
+    subsidiary_mission_skill: "6629314"
+  }
+  {
+    id: 6629307
+    name: 【标记】帕拉迪斯主动技能
+    skill_group_id: 6629307
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662930136&&662900331
+    mission_buff_add: 6629002:1
+    subsidiary_mission_skill: "6629313"
+  }
+  {
+    id: 6629308
+    name: 【标记】帕拉迪斯被动技能连携机场
+    skill_group_id: 6629308
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    target_id: "662990531"
+    special_spot_add: 6629935:1
+  }
+  {
+    id: 6629309
+    name: 【标记】帕拉迪斯属性技能1-1特殊点替换
+    skill_group_id: 6629309
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662993031"
+    special_spot_add: 6629931:1
+    special_spot_minus: 6629930:1
+  }
+  {
+    id: 6629310
+    name: 【标记】帕拉迪斯属性技能1-2特殊点替换
+    skill_group_id: 6629310
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662993131"
+    special_spot_add: 6629932:1
+    special_spot_minus: 6629931:1
+  }
+  {
+    id: 6629311
+    name: 【标记】帕拉迪斯属性技能1-3特殊点替换
+    skill_group_id: 6629311
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662993231"
+    special_spot_add: 6629933:1
+    special_spot_minus: 6629932:1
+  }
+  {
+    id: 6629312
+    name: 【标记】帕拉迪斯属性技能1-4特殊点替换
+    skill_group_id: 6629312
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662993331"
+    special_spot_add: 6629934:1
+    special_spot_minus: 6629933:1
+  }
+  {
+    id: 6629313
+    name: 【标记】帕拉迪斯技能满8不在计数
+    skill_group_id: 6629313
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_minus: 6629003:1
+  }
+  {
+    id: 6629314
+    name: 【标记】帕拉迪斯被动唯一
+    skill_group_id: 6629314
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6629006:1
+  }
+  {
+    id: 6629400
+    name: 【标记】总杀数+1item
+    skill_group_id: 6629400
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "662900031"
+    subsidiary_mission_skill: "6629401"
+    drop_item: 534:1
+  }
+  {
+    id: 6629401
+    name: 【标记】总杀数+1特殊点
+    skill_group_id: 6629401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "622940139"
+    target_id: "662900031"
+    special_spot_add: 6629401:1
+    subsidiary_mission_skill: "6629404,6629403,6629402"
+  }
+  {
+    id: 6629402
+    name: 【标记】全局技能1
+    skill_group_id: 6629402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662940131&&662994131
+    mission_buff_add: 6629006:1
+    subsidiary_mission_skill: "6629405"
+  }
+  {
+    id: 6629403
+    name: 【标记】全局技能2
+    skill_group_id: 6629403
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662940132&&662994231
+    mission_buff_add: 6629007:1
+    subsidiary_mission_skill: "6629406"
+  }
+  {
+    id: 6629404
+    name: 【标记】全局技能3
+    skill_group_id: 6629404
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    trigger_id: 662940133&&662994331
+    mission_buff_add: 6629008:1
+    subsidiary_mission_skill: "6629407"
+  }
+  {
+    id: 6629405
+    name: 【标记】全局技能1扣除特殊点
+    skill_group_id: 6629405
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6629941:1
+  }
+  {
+    id: 6629406
+    name: 【标记】全局技能2扣除特殊点
+    skill_group_id: 6629406
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6629942:1
+  }
+  {
+    id: 6629407
+    name: 【标记】全局技能3扣除特殊点
+    skill_group_id: 6629407
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 6629943:1
+  }
+  {
+    id: 6629408
+    name: 投掷歌利亚
+    description: 炸它个稀巴烂。
+    skill_group_id: 6629408
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    start_range: 1
+    target_id: "662900940"
+    special_spot_add: 6629951:1
+    subsidiary_mission_skill: "6629411"
+    is_manual: 6620001
+  }
+  {
+    id: 6629409
+    name: 投掷EMP
+    description: "1,2,3,木头人。"
+    skill_group_id: 6629409
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    start_range: 1
+    target_id: "662900940"
+    special_spot_add: 6629952:1
+    subsidiary_mission_skill: "6629412"
+    is_manual: 6620002
+  }
+  {
+    id: 6629410
+    name: 启动传送
+    description: 向范围3以内的无人点发动传送。
+    skill_group_id: 6629410
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    start_range: 3
+    is_airborne: 2
+    effect_cast: "1009"
+    effect_target: "1010"
+    special_spot_add: 6620006:1
+    subsidiary_mission_skill: "6629413"
+    is_manual: 6620003
+  }
+  {
+    id: 6629411
+    name: 【标记】投掷歌利亚扣除
+    skill_group_id: 6629411
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6629000:1
+  }
+  {
+    id: 6629412
+    name: 【标记】投掷EMP扣除
+    skill_group_id: 6629412
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 6629001:1
+  }
+  {
+    id: 6629413
+    name: 【标记】发动传送扣除
+    skill_group_id: 6629413
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "662000631"
+    special_spot_minus: 6620006:1
+    mission_buff_minus: 6629002:1
+  }
+  {
+    id: 6629414
+    name: 开战冻结
+    description:
+      '''
+      开始战斗时,眩晕全体敌人5秒。
+      <color=#CF8000>效果持续1回合</color>
+      '''
+    skill_group_id: 6629414
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    subsidiary_mission_skill: "6629417"
+    is_manual: 6620004
+  }
+  {
+    id: 6629415
+    name: 强袭之地
+    description:
+      '''
+      开始战斗时,赋予全体敌人20%易伤。
+      <color=#CF8000>效果持续1回合</color>
+      '''
+    skill_group_id: 6629415
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    subsidiary_mission_skill: "6629418"
+    is_manual: 6620005
+  }
+  {
+    id: 6629416
+    name: 覆盖支援
+    description:
+      '''
+      战斗中每间隔5秒对全体敌方单位造成3000点伤害和1000点破防。
+      <color=#CF8000>效果持续1回合</color>
+      '''
+    skill_group_id: 6629416
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    subsidiary_mission_skill: "6629419"
+    is_manual: 6620006
+  }
+  {
+    id: 6629417
+    name: 【标记】效果连携扣除1
+    skill_group_id: 6629417
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    target_id: "662900641"
+    mission_buff_minus: 6629006:1
+  }
+  {
+    id: 6629418
+    name: 【标记】效果连携扣除2
+    skill_group_id: 6629418
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    target_id: "662900741"
+    mission_buff_minus: 6629007:1
+  }
+  {
+    id: 6629419
+    name: 【标记】效果连携扣除3
+    skill_group_id: 6629419
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,10"
+    start_range: 99
+    target_id: "662900841"
+    mission_buff_minus: 6629008:1
+  }
+  {
     id: 8120101
     name: 开启指令(对防御门I型①)
     code: "1"

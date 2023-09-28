@@ -52003,6 +52003,38 @@
     boss_available: 1
   }
   {
+    id: 9232
+    name: 穿甲上升
+    description: 穿甲上升
+    conflict_type: 107
+    max_tier: 5
+    type: 111
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: *201
+  }
+  {
+    id: 9233
+    name: M870装备
+    conflict_type: 2353
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9234
+    name: 备用
+    conflict_type: 2353
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

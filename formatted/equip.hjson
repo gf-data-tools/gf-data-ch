@@ -11141,6 +11141,39 @@
     obtain_ids: "3096"
   }
   {
+    id: 360
+    name: 小熊辅助处理器
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>$AS Val专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "8,10"
+    rate: "-5,-1"
+    critical_harm_rate: "15,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: 人形_特殊_ASVal
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "60,20060"
+    equip_introduction: 按AS Val特别要求设计的处理器，加装了不少特别功能，但愿不会影响作战任务的执行。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 20067
+    is_show: 1
+    obtain_ids: "3099"
+  }
+  {
     id: 361
     name: 12.7mm改良弹
     description:
@@ -11236,5 +11269,39 @@
     auto_select_id: 20068
     is_show: 1
     obtain_ids: "3003"
+  }
+  {
+    id: 364
+    name: 巡查头盔
+    description:
+      '''
+      移速+<speed>
+      护甲+<armor>技能增强$M870专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "3,3"
+    armor: "4,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: 人形_特殊_M870
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "229"
+    equip_introduction: M870自称过去在高速公路上巡查时常戴的头盔，据说执法时还能起到一定的震慑作用。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:500
+    passive_skill: "759267"
+    max_level: 10
+    auto_select_id: 20069
+    is_show: 1
+    obtain_ids: "3090"
   }
 ]

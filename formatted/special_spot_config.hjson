@@ -37998,6 +37998,767 @@
     effect_duration: 900003
   }
   {
+    id: 6620001
+    name: 【标记】emp初始化
+    code: "6620001"
+    priority: 6620001
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6620002
+    name: 【标记】传送初始化
+    code: "6620002"
+    priority: 6620002
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+  }
+  {
+    id: 6620003
+    name: 【标记】控制台初始化
+    code: "6620003"
+    priority: 6620003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6620004
+    name: 【标记】防御门初始化
+    code: "6620004"
+    priority: 6620004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6620005
+    name: 【标记】传送兔子初始化标记
+    code: "6620005"
+    priority: 6620005
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+  }
+  {
+    id: 6620006
+    name: 【标记】传送扣除标记
+    code: "6620006"
+    priority: 6620006
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629000
+    name: 【标记】初始化标记
+    code: "6629000"
+    priority: 6629000
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629000
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629001
+    name: 【标记】铁血特殊点继续生效标记
+    code: "6629001"
+    priority: 6629001
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629002
+    name: 【标记】军方特殊点继续生效标记
+    code: "6629002"
+    priority: 6629002
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629003
+    name: 【标记】帕拉迪斯特殊点继续生效标记
+    code: "6629003"
+    priority: 6629003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629004
+    name: 【标记】铁血被动唯一
+    code: "6629004"
+    priority: 6629004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629005
+    name: 【标记】军方被动唯一
+    code: "6629005"
+    priority: 6629005
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629006
+    name: 【标记】白教被动唯一
+    code: "6629006"
+    priority: 6629006
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629101
+    name: 【标记】铁血击杀数+1特殊点
+    code: "6629101"
+    priority: 6629101
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629201
+    name: 【标记】军方击杀数+1特殊点
+    code: "6629201"
+    priority: 6629201
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629301
+    name: 【标记】帕拉迪斯击杀数+1特殊点
+    code: "6629301"
+    priority: 6629301
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629401
+    name: 【标记】总杀数+1特殊点
+    code: "6629401"
+    priority: 6629401
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629905
+    name: 【标记】机场标记
+    code: "6629905"
+    priority: 6629905
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629905
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629910
+    name: 【标记】铁血属性初始特殊点
+    code: "6629910"
+    priority: 6629910
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629100
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629910
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629911
+    name: 【标记】铁血属性特殊点1
+    code: "6629911"
+    priority: 6629911
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629101
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629911
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629912
+    name: 【标记】铁血属性特殊点2
+    code: "6629912"
+    priority: 6629912
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629102
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629912
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629913
+    name: 【标记】铁血属性特殊点3
+    code: "6629913"
+    priority: 6629913
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629103
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629913
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629914
+    name: 【标记】铁血属性特殊点4
+    code: "6629914"
+    priority: 6629914
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629104
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629914
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629915
+    name: 【标记】铁血4杀特殊点4
+    code: "6629915"
+    priority: 6629915
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629003
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629915
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629920
+    name: 【标记】军方属性初始特殊点
+    code: "6629920"
+    priority: 6629920
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629200
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629920
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629921
+    name: 【标记】军方属性特殊点1
+    code: "6629921"
+    priority: 6629921
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629201
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629921
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629922
+    name: 【标记】军方属性特殊点2
+    code: "6629922"
+    priority: 6629922
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629202
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629922
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629923
+    name: 【标记】军方属性特殊点3
+    code: "6629923"
+    priority: 6629923
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629203
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629923
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629924
+    name: 【标记】军方属性特殊点4
+    code: "6629924"
+    priority: 6629924
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629204
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629924
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629925
+    name: 【标记】军方4杀特殊点4
+    code: "6629925"
+    priority: 6629925
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629004
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629925
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629930
+    name: 【标记】帕拉迪斯属性初始特殊点
+    code: "6629930"
+    priority: 6629930
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629300
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629930
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629931
+    name: 【标记】帕拉迪斯属性特殊点1
+    code: "6629931"
+    priority: 6629931
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629301
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629931
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629932
+    name: 【标记】帕拉迪斯属性特殊点2
+    code: "6629932"
+    priority: 6629932
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629302
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629932
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629933
+    name: 【标记】帕拉迪斯属性特殊点3
+    code: "6629933"
+    priority: 6629933
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629303
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629933
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629934
+    name: 【标记】帕拉迪斯属性特殊点4
+    code: "6629934"
+    priority: 6629934
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629304
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629934
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629935
+    name: 【标记】帕拉迪斯4杀特殊点4
+    code: "6629935"
+    priority: 6629935
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629005
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629935
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629941
+    name: 【标记】全局技能1唯一标记
+    code: "6629941"
+    priority: 6629941
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629941
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629942
+    name: 【标记】全局技能2唯一标记
+    code: "6629942"
+    priority: 6629942
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629942
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629943
+    name: 【标记】全局技能3唯一标记
+    code: "6629943"
+    priority: 6629943
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629943
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629951
+    name: 【标记】歌利亚
+    code: "6629951"
+    priority: 6629951
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629951
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6360001,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629952
+    name: 【标记】emp
+    code: "6629952"
+    priority: 6629952
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629952
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "1000001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_birth: 1000020
+  }
+  {
     id: 7000001
     name: 【标记】AI目标识别-非空检测
     code: "7000001"

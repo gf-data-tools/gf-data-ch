@@ -652,39 +652,37 @@
     x_counts: 0;20;40;80
   }
   {
-    id: 92
+    id: 93
     code: defferent_vehicle
     type_id: 1201
     basic_scores: 100
   }
   {
-    id: 93
+    id: 94
     code: vehicle_level
     type_id: 1202
-    basic_scores: 1
-    k_slopes: 0.5;4.5;2
-    x_counts: 0;90;100
+    basic_scores: 0.1
   }
   {
-    id: 94
+    id: 95
     code: vehicle_progress
     type_id: 1203
     basic_scores: 1
   }
   {
-    id: 95
+    id: 96
     code: get_vehicle_component_rank5
     type_id: 1204
     basic_scores: 1
   }
   {
-    id: 96
+    id: 97
     code: vehicle_component_level_rank5
     type_id: 1205
     basic_scores: 2
   }
   {
-    id: 97
+    id: 98
     code: vehicle_component_level
     type_id: 1206
     basic_scores: 1
