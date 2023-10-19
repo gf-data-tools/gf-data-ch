@@ -28,8 +28,8 @@ local mInitialize = function(self,appkey,domain,appId)
 	CS.AIhelpService._instance = CS.AIhelpService(appkey, domain_new, appId);
 end
 if CS.HotUpdateController.instance.mUsePlatform == CS.HotUpdateController.EUsePlatform.ePlatform_Normal then 
-    --util.hotfix_ex(CS.LoginController,'Start',mReportUpload)//CS.ApplicationConfigData.PlatformChannelId == "ios" or 
-    if CS.ApplicationConfigData.PlatformChannelId == "TapTap" or CS.ApplicationConfigData.PlatformChannelId == "GWGW" or CS.ApplicationConfigData.PlatformChannelId == "GWHF" then
+    --util.hotfix_ex(CS.LoginController,'Start',mReportUpload)
+    if CS.ApplicationConfigData.PlatformChannelId == "ios" or CS.ApplicationConfigData.PlatformChannelId == "TapTap" or CS.ApplicationConfigData.PlatformChannelId == "GWGW" or CS.ApplicationConfigData.PlatformChannelId == "GWHF" then
 		util.hotfix_ex(CS.AIhelpService,'Initialize',mInitialize)
 	end
 end
