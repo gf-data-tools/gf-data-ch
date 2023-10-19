@@ -29061,7 +29061,7 @@
     text: GUN|M327|MEET
     name: 交互1
     camera: 1
-    delay: 1600
+    delay: 500
     voice_code: MEET
   }
   {
@@ -29074,7 +29074,6 @@
     text: GUN|M327|DIALOGUE1
     name: 交互2
     camera: 1
-    delay: 1000
     voice_code: DIALOGUE1
   }
   {
@@ -29087,7 +29086,6 @@
     text: GUN|M327|DIALOGUE3
     name: 交互3
     camera: 1
-    delay: 1000
     voice_code: DIALOGUE3
   }
   {
@@ -29100,7 +29098,6 @@
     text: GUN|M327|ALLHALLOWS
     name: 交互4
     camera: 1
-    delay: 1000
     voice_code: ALLHALLOWS
   }
   {
@@ -29113,7 +29110,6 @@
     text: GUN|M327|GOATTACK
     name: 交互5
     camera: 1
-    delay: 1000
     voice_code: GOATTACK
   }
   {
@@ -29137,7 +29133,6 @@
     text: GUN|M327|SOULCONTRACT
     name: 结契动作
     camera: 1
-    delay: 500
     voice_code: SOULCONTRACT
   }
   {
@@ -29157,7 +29152,7 @@
     text: GUN|M327|HELLO
     name: 上线响应
     camera: 1
-    delay: 1000
+    delay: 3500
     voice_code: HELLO
   }
   {
@@ -29205,6 +29200,7 @@
     name: 交互3
     camera: 1
     is_hurt: 1
+    delay: 170
     voice_code: RETREAT
   }
   {
@@ -29231,6 +29227,7 @@
     name: 交互5
     camera: 1
     is_hurt: 1
+    delay: 500
     voice_code: OPERATIONOVER
   }
   {
@@ -29243,7 +29240,6 @@
     name: 上线响应
     camera: 1
     is_hurt: 1
-    delay: 1000
     voice_code: BREAK
   }
   {

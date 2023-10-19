@@ -4495,8 +4495,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:800,critical_percent:1000
+    passive_skill: "759273"
     max_level: 10
     auto_select_id: 18039
+    group_id: "15"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -4863,7 +4865,7 @@
     max_level: 10
     auto_select_id: 18047
     is_show: 1
-    obtain_ids: "3054"
+    obtain_ids: "3054,3096"
   }
   {
     id: 170
@@ -6561,8 +6563,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: hit:1000,critical_harm_rate:1000,critical_percent:1000
+    passive_skill: "759268"
     max_level: 10
     auto_select_id: 18069
+    group_id: "16"
     is_show: 1
     obtain_ids: "3003"
   }
@@ -6593,8 +6597,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:500,pow:700
+    passive_skill: "759274"
     max_level: 10
     auto_select_id: 19028
+    group_id: "15"
     is_show: 1
     obtain_ids: "3003"
   }
@@ -8908,7 +8914,7 @@
     max_level: 10
     auto_select_id: 18099
     is_show: 1
-    obtain_ids: "3070"
+    obtain_ids: "3070,3096"
   }
   {
     id: 293
@@ -10258,9 +10264,10 @@
     powerup_part: 0.55
     exclusive_rate: 3
     bonus_type: pow:1000
-    passive_skill: "759062"
+    passive_skill: "759062,759270"
     max_level: 10
     auto_select_id: 20055
+    group_id: "16"
     is_show: 1
     obtain_ids: "3016"
     sp_description: 换弹时间-2秒
@@ -11303,5 +11310,72 @@
     auto_select_id: 20069
     is_show: 1
     obtain_ids: "3090"
+  }
+  {
+    id: 365
+    name: 战术头饰
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      射速+<rate>$汉阳造88式改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    rate: "1,3"
+    critical_harm_rate: "10,15"
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_88typeMod
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "20095"
+    equip_introduction: 汉阳造88式最爱佩戴的头饰，时刻提醒自己要不失作为女仆的优雅。
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:1000,rate:700
+    passive_skill: "759275"
+    max_level: 10
+    auto_select_id: 20070
+    group_id: "15"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 366
+    name: .30-64弹
+    description:
+      '''
+      穿甲+<armor_piercing>
+      暴击伤害+<critical_harm_rate><%>$M1919A4改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_harm_rate: "3,5"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_M1919A4Mod
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "20080"
+    equip_introduction: 全新出厂的口径为0.30英寸的步枪弹，加重了弹头的同时调整了弹壳的长度，大大增强了穿透力。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_harm_rate:1000
+    passive_skill: "759269"
+    max_level: 10
+    auto_select_id: 19066
+    group_id: "16"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

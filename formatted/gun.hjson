@@ -7392,7 +7392,7 @@
     ratio_range: 110
     skill1: 105202
     normal_attack: 300105
-    passive_skill: "300201,300202,999999,756183"
+    passive_skill: "300201,300202,999999,756183,759272"
     effect_grid_center: 19
     effect_guntype: "6"
     effect_grid_pos: "25"
@@ -8734,7 +8734,7 @@
     ratio_range: 100
     skill1: 100114
     normal_attack: 300104
-    passive_skill: "803010,999999"
+    passive_skill: "803010,999999,759277"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18"
@@ -29518,7 +29518,7 @@
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10703
-    show_damage_skin: ",0,7601,"
+    show_damage_skin: ",0,7601,30012,"
     gun_tag_ids: "108,107"
     atk_speed_max: 130
     ratio_rec: 105
@@ -42235,12 +42235,12 @@
     skill1: 740084
     skill2: 740088
     normal_attack: 740086
-    passive_skill: "300201,300202,740087"
+    passive_skill: "300201,300202,740087,759272"
     effect_grid_center: 19
     effect_guntype: "6"
     effect_grid_pos: "23,24,25"
     effect_grid_effect: "3,30;8,12"
-    type_equip1: 2;5,17
+    type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16,18
     type_equip3: 3;14,21,20
     ai: 80
@@ -42898,15 +42898,15 @@
     skill1: 803001
     skill2: 803003
     normal_attack: 803002
-    passive_skill: "803005,803007,803009,803006"
-    dynamic_passive_skill: "803004"
+    passive_skill: "803005,803007,803009,803006,759277"
+    dynamic_passive_skill: "803004,803013,803014"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18,17"
     effect_grid_effect: "6,15"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,20
     ai: 95
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "35"

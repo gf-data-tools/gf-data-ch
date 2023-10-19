@@ -52035,6 +52035,147 @@
     boss_available: 1
   }
   {
+    id: 9235
+    name: 火力下降
+    description: 火力下降
+    conflict_type: 2353
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *204
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 9236
+    name: m1919a4装备套装
+    conflict_type: 2354
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9237
+    name: m1919a4装备1
+    conflict_type: 2354
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9238
+    name: m1919a4装备2
+    conflict_type: 2355
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9239
+    name: m1919a4装备3
+    conflict_type: 2355
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9240
+    name: 88t装备套装
+    conflict_type: 2356
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9241
+    name: 88t装备1
+    conflict_type: 2356
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9242
+    name: 88t装备2
+    conflict_type: 2357
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9243
+    name: 88t装备3
+    conflict_type: 2357
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9244
+    name: 触发清盾
+    conflict_type: 2358
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "1"
+    boss_available: 1
+  }
+  {
+    id: 9245
+    name: 清盾技能
+    conflict_type: 2358
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "200"
+    boss_available: 1
+    forced_skill: "759278"
+  }
+  {
+    id: 9246
+    name: 大刀模式受到伤害减少
+    conflict_type: 2359
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005382
+  }
+  {
+    id: 9247
+    name: 大刀模式造成伤害增加
+    conflict_type: 2359
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -54211,6 +54352,26 @@
     pow_number: *201
     trigger_creation_id: "205"
     is_form_play: 1
+  }
+  {
+    id: 316201
+    name: 手雷触发
+    conflict_type: 2359
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 316301
+    name: 导弹触发
+    conflict_type: 2359
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 354801
