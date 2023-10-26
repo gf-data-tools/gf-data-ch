@@ -32026,4 +32026,248 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 880101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 880102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "15,17"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 880103
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Python|FEED
+    text: GUN|Python|FEED
+    name: 交互1
+    camera: 1
+    voice_code: SKILL3
+  }
+  {
+    id: 880104
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Python|SKILL3
+    text: GUN|Python|SKILL3
+    name: 交互2
+    camera: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 880105
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|Python|BREAK
+    text: GUN|Python|BREAK
+    name: 交互3
+    camera: 1
+    delay: 960
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 880106
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Python|COMBINE
+    text: GUN|Python|COMBINE
+    name: 交互4
+    camera: 1
+    delay: 500
+    voice_code: ATTACK
+  }
+  {
+    id: 880107
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: feet1
+    probability: 1
+    voice: GUN|Python|DEFENSE
+    text: GUN|Python|DEFENSE
+    name: 交互5
+    camera: 1
+    voice_code: LOADING
+  }
+  {
+    id: 880108
+    type: 200
+    motion_name: motions/touch_6.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|Python|ALLHALLOWS
+    text: GUN|Python|ALLHALLOWS
+    name: 交互6
+    camera: 1
+    voice_code: ATTACK
+  }
+  {
+    id: 880109
+    type: 200
+    motion_name: motions/touch_7.mtn
+    touch_area: feet2
+    probability: 1
+    name: 交互7
+    camera: 1
+    voice_code: LOADING
+  }
+  {
+    id: 880110
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Python|DIALOGUEWEDDING
+    text: GUN|Python|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 880111
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|Python|SOULCONTRACT
+    text: GUN|Python|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 880112
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    voice: GUN|Python|MOOD1
+    text: GUN|Python|MOOD1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 880113
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|Python|HELLO
+    text: GUN|Python|HELLO
+    name: 上线响应
+    camera: 1
+    voice_code: FORMATION
+  }
+  {
+    id: 880114
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 880115
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Python|ALLHALLOWS
+    text: GUN|Python|ALLHALLOWS
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: HELLO
+  }
+  {
+    id: 880116
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Python|FIX
+    text: GUN|Python|FIX
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: BREAK
+  }
+  {
+    id: 880117
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Python|PHRASE
+    text: GUN|Python|PHRASE
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: ATTACK
+  }
+  {
+    id: 880118
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Python|DIALOGUE3
+    text: GUN|Python|DIALOGUE3
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: WIN
+  }
+  {
+    id: 880119
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|Python|GAIN
+    text: GUN|Python|GAIN
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: SKILL3
+  }
+  {
+    id: 880120
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|Python|RETREAT
+    text: GUN|Python|RETREAT
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 6000
+    voice_code: LOADING
+  }
+  {
+    id: 880121
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
 ]

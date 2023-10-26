@@ -24249,6 +24249,33 @@
     creation_delay: "8"
   }
   {
+    id: 8850
+    name: rpg29攻击
+    creation_order: "948501,9495"
+    creation_delay: "0,0"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "0,13,26"
+  }
+  {
+    id: 8851
+    name: rpg29特殊导弹攻击
+    creation_order: "9490,9495"
+    creation_delay: "0,0"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "0,13,26"
+  }
+  {
+    id: 8852
+    name: rpg29cutIn
+    action_order: wait,attack
+    action_delay: "0,5"
+    action_playspeed: "100,100"
+    creation_order: "9489"
+    creation_delay: "15"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "11,14,17,20,23,26,29,32"
+  }
+  {
     id: 9001
     name: 狙击妖精
     creation_order: "901,951"

@@ -12827,6 +12827,12 @@
     gun_id: "388"
   }
   {
+    id: 1974
+    name: 2023十一月签到
+    gem: 90
+    equip_ids: "367"
+  }
+  {
     id: 2001
     name: WA2000-古堡历险
     gift: 6-1
@@ -24422,131 +24428,128 @@
     id: 10086
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110063-10
+    item_ids: 110065-10
   }
   {
     id: 10087
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110063-20
+    item_ids: 110065-20
   }
   {
     id: 10088
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110063-20
+    item_ids: 110065-20
   }
   {
     id: 10089
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110063-30
+    item_ids: 110065-30
   }
   {
     id: 10090
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110063-20
+    item_ids: 110065-20
   }
   {
     id: 10091
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110063-30
+    item_ids: 110065-30
   }
   {
     id: 10092
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110063-50
+    item_ids: 110065-50
   }
   {
     id: 10093
     name: 嘉年华奖励
     part: 100
-    item_ids: 110063-30
+    item_ids: 110065-30
   }
   {
     id: 10094
     name: 嘉年华奖励
     part: 100
-    item_ids: 110063-50
+    item_ids: 110065-50
   }
   {
     id: 10095
     name: 嘉年华奖励
     part: 100
-    item_ids: 110063-100
+    item_ids: 110065-100
   }
   {
     id: 10096
     name: 嘉年华奖励
     part: 200
-    item_ids: 110063-50
+    item_ids: 110065-50
   }
   {
     id: 10097
     name: 嘉年华奖励
     part: 200
-    item_ids: 110063-100
+    item_ids: 110065-100
   }
   {
     id: 10098
     name: 嘉年华奖励
     part: 300
-    item_ids: 110063-150
+    item_ids: 110065-150
   }
   {
     id: 10099
     name: 嘉年华奖励
-    item_ids: 110063-200,45-200
+    item_ids: 110065-200,45-200
   }
   {
     id: 10100
     name: 活跃奖励
     ammo: 1000
     mre: 1000
-    item_ids: 1600050-3
     icon: Bumdle_red
   }
   {
     id: 10101
     name: 活跃奖励
-    item_ids: 9-20,4-5,6003-2,525-5,1600050-3
+    item_ids: 9-20,4-5,6003-2,525-5
     icon: Bumdle_brown
   }
   {
     id: 10102
     name: 活跃奖励
-    item_ids: 3-5,525-5,1600050-3,2303-1
+    item_ids: 3-5,525-5
     coins: 2-200
     icon: Bumdle_indigo
   }
   {
     id: 10103
     name: 活跃奖励
-    item_ids: 1-5,45-100,506-200,601-2,525-5,1600050-3,2304-1
+    item_ids: 1-5,45-100,506-200,601-2,525-5
     icon: Bumdle_guoqing
   }
   {
     id: 10104
     name: 活跃奖励
     core: 10
-    item_ids: 41-20,8-1,1600050-3
-    furniture: "20102"
+    item_ids: 41-20,8-1
     icon: Bumdle_yellow
   }
   {
     id: 10105
     name: 活跃奖励
-    item_ids: 1600050-6
-    gift: 100003-10,8309-1
+    gift: 100003-10,8807-1
     icon: Bumdle_bline
   }
   {
     id: 10106
     name: 活跃奖励
-    item_ids: 45-100,6009-2,1600050-3
+    item_ids: 45-100,6009-2
     coins: 3-200
     icon: Bumdle_navy
     bp_pay: 10
@@ -24554,13 +24557,13 @@
   {
     id: 10107
     name: 活跃奖励
-    item_ids: 45-200,41-50,1-10,103-1,10604-3,1600050-3
+    item_ids: 45-200,41-50,1-10,103-1,10604-3
     icon: Bumdle_blue
   }
   {
     id: 10108
     name: 活跃奖励
-    item_ids: 103-1,1600050-3
+    item_ids: 103-1
     icon: Bumdle_may
   }
   {
@@ -37456,6 +37459,552 @@
     coins: 2-50
   }
   {
+    id: 36799
+    name: ①-任务奖励
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 36801
+    name: ③-任务奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+  }
+  {
+    id: 36802
+    name: ⑥-任务奖励
+    gift: 200001-100
+  }
+  {
+    id: 36803
+    name: ⑨-任务奖励
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36804
+    name: ⑬-任务奖励
+    core: 5
+  }
+  {
+    id: 36805
+    name: Ⅲ-任务奖励
+    coins: 1-100
+  }
+  {
+    id: 36806
+    name: Ⅶ-任务奖励
+    item_ids: 51-2
+  }
+  {
+    id: 36807
+    name: Ⅹ-任务奖励
+    item_ids: 45-100
+  }
+  {
+    id: 36808
+    name: XIII-任务奖励
+    item_ids: 525-30
+  }
+  {
+    id: 36809
+    name: IIIB-任务奖励
+    coins: 3-50
+  }
+  {
+    id: 36810
+    name: VIIB-任务奖励
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36811
+    name: IVA-任务奖励
+    item_ids: 9-30
+  }
+  {
+    id: 36812
+    name: VIA-任务奖励
+    item_ids: 44-100
+  }
+  {
+    id: 36813
+    name: delta-任务奖励
+    coins: 2-100
+  }
+  {
+    id: 36814
+    name: zeta-任务奖励
+    item_ids: 45-100
+  }
+  {
+    id: 36815
+    name: theta-任务奖励
+    core: 5
+  }
+  {
+    id: 36816
+    name: kappa-任务奖励
+    item_ids: 51-2
+  }
+  {
+    id: 36817
+    name: 10-任务奖励
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 36818
+    name: 100-任务奖励
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36819
+    name: 1001-任务奖励
+    item_ids: 506-50
+  }
+  {
+    id: 36820
+    name: 111-任务奖励
+    item_ids: 14-50
+  }
+  {
+    id: 36821
+    name: hecta-任务奖励
+    item_ids: 51-2
+  }
+  {
+    id: 36822
+    name: micro-任务奖励
+    coins: 3-50
+  }
+  {
+    id: 36823
+    name: centi-任务奖励
+    coins: 3-100
+  }
+  {
+    id: 36824
+    name: Mega-任务奖励
+    item_ids: 45-100
+  }
+  {
+    id: 36825
+    name: ⑥-EX-任务奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+  }
+  {
+    id: 36826
+    name: ⑬-EX-任务奖励
+    item_ids: 51-2
+  }
+  {
+    id: 36827
+    name: Ⅲ-EX-任务奖励
+    gift: 200001-100
+  }
+  {
+    id: 36828
+    name: Ⅶ-EX-任务奖励
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36829
+    name: XIII-EX-任务奖励
+    coins: 1-300
+  }
+  {
+    id: 36830
+    name: IIIB-EX-任务奖励
+    item_ids: 51-2
+  }
+  {
+    id: 36831
+    name: IVA-EX-任务奖励
+    item_ids: 9-50
+  }
+  {
+    id: 36832
+    name: VIA-EX-任务奖励
+    coins: 2-300
+  }
+  {
+    id: 36833
+    name: delta-EX-任务奖励
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36834
+    name: theta-EX-任务奖励
+    item_ids: 44-100
+  }
+  {
+    id: 36835
+    name: kappa-EX-任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36836
+    name: 10-EX-任务奖励
+    core: 10
+  }
+  {
+    id: 36837
+    name: 100-EX-任务奖励
+    item_ids: 46-100
+  }
+  {
+    id: 36838
+    name: 1001-EX-任务奖励
+    coins: 3-300
+  }
+  {
+    id: 36839
+    name: 111-EX-任务奖励
+    item_ids: 45-150
+  }
+  {
+    id: 36840
+    name: hecta-EX-任务奖励
+    item_ids: 15-100
+  }
+  {
+    id: 36841
+    name: micro-EX-任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36842
+    name: Mega-EX-任务奖励
+    item_ids: 45-100
+  }
+  {
+    id: 36846
+    name: 阿赖耶识-任务奖励
+    core: 10
+  }
+  {
+    id: 36847
+    name: 离散演化∞-任务奖励
+    coins: 2-50
+  }
+  {
+    id: 36848
+    name: 离散演化∞-EX-任务奖励
+    item_ids: 525-30
+  }
+  {
+    id: 36849
+    name: 自旋回声∞-任务奖励
+    item_ids: 44-50
+  }
+  {
+    id: 36850
+    name: 自旋回声∞-EX-任务奖励
+    coins: 3-100
+  }
+  {
+    id: 36851
+    name: ②-任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36852
+    name: ④-任务奖励
+    item_ids: 506-50
+  }
+  {
+    id: 36853
+    name: ⑤-任务奖励
+    item_ids: 44-50
+  }
+  {
+    id: 36854
+    name: ⑦-任务奖励
+    coins: 1-100
+  }
+  {
+    id: 36855
+    name: ⑧-任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36856
+    name: ⑩-任务奖励
+    item_ids: 45-50
+  }
+  {
+    id: 36857
+    name: ⑪-任务奖励
+    item_ids: 9-20
+  }
+  {
+    id: 36858
+    name: ⑫-任务奖励
+    item_ids: 14-100
+  }
+  {
+    id: 36859
+    name: ⑭-任务奖励
+    core: 5
+  }
+  {
+    id: 36860
+    name: ⑮-任务奖励
+    coins: 2-50
+  }
+  {
+    id: 36861
+    name: Ⅰ-任务奖励
+    item_ids: 46-50
+  }
+  {
+    id: 36862
+    name: Ⅱ-任务奖励
+    coins: 3-50
+  }
+  {
+    id: 36863
+    name: Ⅳ-任务奖励
+    item_ids: 44-50
+  }
+  {
+    id: 36864
+    name: Ⅴ-任务奖励
+    core: 5
+  }
+  {
+    id: 36865
+    name: Ⅵ-任务奖励
+    coins: 2-100
+  }
+  {
+    id: 36866
+    name: Ⅷ-任务奖励
+    item_ids: 45-50
+  }
+  {
+    id: 36867
+    name: Ⅸ-任务奖励
+    item_ids: 525-20
+  }
+  {
+    id: 36868
+    name: Ⅺ-任务奖励
+    item_ids: 14-50
+  }
+  {
+    id: 36869
+    name: Ⅻ-任务奖励
+    core: 5
+  }
+  {
+    id: 36870
+    name: XIV-任务奖励
+    item_ids: 9-50
+  }
+  {
+    id: 36871
+    name: XV-任务奖励
+    coins: 1-100
+  }
+  {
+    id: 36872
+    name: IA-任务奖励
+    item_ids: 506-100
+  }
+  {
+    id: 36873
+    name: IIA-任务奖励
+    item_ids: 44-50
+  }
+  {
+    id: 36874
+    name: IVB-任务奖励
+    item_ids: 9-20
+  }
+  {
+    id: 36875
+    name: VB-任务奖励
+    item_ids: 14-50
+  }
+  {
+    id: 36876
+    name: VIB-任务奖励
+    item_ids: 45-50
+  }
+  {
+    id: 36877
+    name: IB-任务奖励
+    coins: 2-50
+  }
+  {
+    id: 36878
+    name: IIB-任务奖励
+    coins: 3-50
+  }
+  {
+    id: 36879
+    name: IIIA-任务奖励
+    coins: 1-50
+  }
+  {
+    id: 36880
+    name: VA-任务奖励
+    coins: 2-50
+  }
+  {
+    id: 36881
+    name: VIIA-任务奖励
+    coins: 3-50
+  }
+  {
+    id: 36882
+    name: alpha-任务奖励
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 36883
+    name: beta-任务奖励
+    item_ids: 506-100
+  }
+  {
+    id: 36884
+    name: gamma-任务奖励
+    item_ids: 45-50
+  }
+  {
+    id: 36885
+    name: epsilon-任务奖励
+    coins: 2-100
+  }
+  {
+    id: 36886
+    name: eta-任务奖励
+    item_ids: 525-20
+  }
+  {
+    id: 36887
+    name: iota-任务奖励
+    core: 5
+  }
+  {
+    id: 36888
+    name: lambda-任务奖励
+    item_ids: 44-50
+  }
+  {
+    id: 36889
+    name: mu-任务奖励
+    item_ids: 46-100
+  }
+  {
+    id: 36890
+    name: nu-任务奖励
+    coins: 3-50
+  }
+  {
+    id: 36891
+    name: 1-任务奖励
+    item_ids: 15-50
+  }
+  {
+    id: 36892
+    name: 11-任务奖励
+    item_ids: 45-50
+  }
+  {
+    id: 36893
+    name: 101-任务奖励
+    item_ids: 506-50
+  }
+  {
+    id: 36894
+    name: 110-任务奖励
+    coins: 3-100
+  }
+  {
+    id: 36895
+    name: 1000-任务奖励
+    coins: 1-50
+  }
+  {
+    id: 36896
+    name: 1010-任务奖励
+    coins: 2-50
+  }
+  {
+    id: 36897
+    name: pico-任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36898
+    name: nano-任务奖励
+    mp: 400
+    ammo: 400
+    mre: 400
+    part: 400
+  }
+  {
+    id: 36899
+    name: milli-任务奖励
+    item_ids: 46-100
+  }
+  {
+    id: 36900
+    name: deci-任务奖励
+    item_ids: 15-50
+  }
+  {
+    id: 36901
+    name: deca-任务奖励
+    item_ids: 45-100
+  }
+  {
+    id: 36902
+    name: kilo-任务奖励
+    coins: 2-50
+  }
+  {
+    id: 36903
+    name: Giga-任务奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36904
+    name: Tera-任务奖励
+    coins: 3-50
+  }
+  {
     id: 36950
     name: 离席之时②-任务奖励
     gift: 200001-50
@@ -46711,6 +47260,36 @@
     furniture: "2082"
   }
   {
+    id: 121009
+    name: 标靶的使命
+    furniture: "20016"
+  }
+  {
+    id: 121010
+    name: 思念之碑
+    furniture: "20017"
+  }
+  {
+    id: 121011
+    name: 夺命轨迹
+    furniture: "20018"
+  }
+  {
+    id: 121012
+    name: 烟花发射器
+    furniture: "20019"
+  }
+  {
+    id: 121013
+    name: 末日警示钟
+    furniture: "20020"
+  }
+  {
+    id: 121014
+    name: 海拜尔型闹钟
+    furniture: "20021"
+  }
+  {
     id: 130001
     name: 前线协议额外奖励
     item_ids: 1500014-1
@@ -46898,12 +47477,12 @@
   {
     id: 130038
     name: 基础付费展示奖励-13
-    item_ids: 602-1,1500099-1,1500096-1,505-680
+    item_ids: 602-1,1500099-1,1500100-1,505-680
   }
   {
     id: 130039
     name: 进阶付费展示奖励-13
-    item_ids: 10606-300,200030-1,2362-1
+    item_ids: 10606-300,200032-1,2373-1
   }
   {
     id: 140001
@@ -49091,5 +49670,417 @@
     mre: 500
     part: 500
     item_ids: 133026-1,133027-1,133028-1,133029-1,133030-1,133063-1
+  }
+  {
+    id: 411001
+    name: 战区3000积分奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    icon: Bumdle_red
+  }
+  {
+    id: 411002
+    name: 战区30000积分奖励
+    item_ids: 310-1,506-100,9-50
+    icon: CentreDataRPG29
+  }
+  {
+    id: 411003
+    name: 战区60000积分奖励
+    item_ids: 310-2,46-100
+    icon: CentreDataRPG29
+  }
+  {
+    id: 411004
+    name: 战区90000积分奖励
+    item_ids: 310-3,46-100,506-100
+    coins: 1-500
+    icon: CentreDataRPG29
+  }
+  {
+    id: 411005
+    name: 战区120000积分奖励
+    item_ids: 8-1,41-20,9-50
+    icon: Bumdle_red
+  }
+  {
+    id: 411006
+    name: 战区155000积分奖励
+    item_ids: 310-4,46-200,506-100
+    icon: CentreDataRPG29
+  }
+  {
+    id: 411007
+    name: 战区190000积分奖励
+    item_ids: 46-200
+    coins: 2-500
+    icon: Bumdle_red
+  }
+  {
+    id: 411008
+    name: 战区225000积分奖励
+    item_ids: 310-5,506-100,44-200,9-50
+    icon: CentreDataRPG29
+  }
+  {
+    id: 411009
+    name: 战区260000积分奖励
+    item_ids: 8-1
+    coins: 3-500
+    icon: Bumdle_red
+  }
+  {
+    id: 411010
+    name: 战区300000积分奖励
+    item_ids: 310-5,46-200,506-100
+    icon: CentreDataRPG29
+  }
+  {
+    id: 411011
+    name: 战区340000积分奖励
+    item_ids: 128-1,41-50
+    icon: Bumdle_red
+  }
+  {
+    id: 411012
+    name: 战区380000积分奖励
+    item_ids: 9-100,46-300,10604-5
+    icon: Bumdle_red
+  }
+  {
+    id: 411013
+    name: 战区430000积分奖励
+    item_ids: 46-300,506-200,10604-5
+    icon: Bumdle_red
+  }
+  {
+    id: 411014
+    name: 战区480000积分奖励
+    item_ids: 8-1,44-300,10604-5
+    icon: Bumdle_red
+  }
+  {
+    id: 411101
+    name: 战区积分排行冠军奖励
+    item_ids: 310-40,9-100,46-500,506-500
+    coins: 1-500,2-500,3-500
+    icon: Bumdle_red
+  }
+  {
+    id: 411102
+    name: 战区积分排行亚军奖励
+    item_ids: 310-39,9-95,46-475,506-475
+    coins: 1-475,2-475,3-475
+    icon: Bumdle_red
+  }
+  {
+    id: 411103
+    name: 战区积分排行季军奖励
+    item_ids: 310-38,9-90,46-450,506-450
+    coins: 1-450,2-450,3-450
+    icon: Bumdle_red
+  }
+  {
+    id: 411104
+    name: 战区积分排行第4名奖励
+    item_ids: 310-37,9-85,46-425,506-425
+    coins: 1-425,2-425,3-425
+    icon: Bumdle_red
+  }
+  {
+    id: 411105
+    name: 战区积分排行第5名奖励
+    item_ids: 310-36,9-80,46-400,506-400
+    coins: 1-400,2-400,3-400
+    icon: Bumdle_red
+  }
+  {
+    id: 411106
+    name: 战区积分排行第6名奖励
+    item_ids: 310-35,9-75,46-375,506-375
+    coins: 1-375,2-375,3-375
+    icon: Bumdle_red
+  }
+  {
+    id: 411107
+    name: 战区积分排行第7名奖励
+    item_ids: 310-35,9-70,46-350,506-350
+    coins: 1-350,2-350,3-350
+    icon: Bumdle_red
+  }
+  {
+    id: 411108
+    name: 战区积分排行第8名奖励
+    item_ids: 310-35,9-65,46-325,506-325
+    coins: 1-325,2-325,3-325
+    icon: Bumdle_red
+  }
+  {
+    id: 411109
+    name: 战区积分排行第9名奖励
+    item_ids: 310-35,9-60,46-300,506-300
+    coins: 1-300,2-300,3-300
+    icon: Bumdle_red
+  }
+  {
+    id: 411110
+    name: 战区积分排行第10名奖励
+    item_ids: 310-35,9-55,46-275,506-275
+    coins: 1-275,2-275,3-275
+    icon: Bumdle_red
+  }
+  {
+    id: 411111
+    name: 战区积分排行第11~100名奖励
+    item_ids: 310-32,9-50,46-250,506-250
+    coins: 1-250,2-250,3-250
+    icon: Bumdle_red
+  }
+  {
+    id: 411112
+    name: 战区积分排行1%~5%奖励
+    item_ids: 310-30,9-45,46-225,506-225
+    coins: 1-225,2-225,3-225
+    icon: Bumdle_red
+  }
+  {
+    id: 411113
+    name: 战区积分排行6%~10%奖励
+    item_ids: 310-25,9-40,46-200,506-200
+    coins: 1-200,2-200,3-200
+    icon: Bumdle_red
+  }
+  {
+    id: 411114
+    name: 战区积分排行11%~15%奖励
+    item_ids: 310-20,9-35,46-175,506-175
+    coins: 1-175,2-175,3-175
+    icon: Bumdle_red
+  }
+  {
+    id: 411115
+    name: 战区积分排行16%~20%奖励
+    item_ids: 310-15,9-30,46-150,506-150
+    coins: 1-150,2-150,3-150
+    icon: Bumdle_red
+  }
+  {
+    id: 411116
+    name: 战区积分排行21%~30%奖励
+    item_ids: 310-10,9-25,46-125,506-125
+    coins: 1-125,2-125,3-125
+    icon: Bumdle_red
+  }
+  {
+    id: 411117
+    name: 战区积分排行31%~40%奖励
+    item_ids: 310-5,9-20,46-100,506-100
+    coins: 1-100,2-100,3-100
+    icon: Bumdle_red
+  }
+  {
+    id: 411118
+    name: 战区积分排行41%~50%奖励
+    item_ids: 310-2,9-15,46-75,506-75
+    coins: 1-75,2-75,3-75
+    icon: Bumdle_red
+  }
+  {
+    id: 411119
+    name: 战区积分排行51%~100%奖励
+    item_ids: 9-10,46-50,506-50
+    coins: 1-50,2-50,3-50
+    icon: Bumdle_red
+  }
+  {
+    id: 411201
+    name: 战区最终关排行冠军奖励
+    mp: 10000
+    ammo: 10000
+    mre: 10000
+    part: 10000
+    item_ids: 129-12
+    icon: Bumdle_red
+  }
+  {
+    id: 411202
+    name: 战区最终关排行亚军奖励
+    mp: 9500
+    ammo: 9500
+    mre: 9500
+    part: 9500
+    item_ids: 129-11
+    icon: Bumdle_red
+  }
+  {
+    id: 411203
+    name: 战区最终关排行季军奖励
+    mp: 9000
+    ammo: 9000
+    mre: 9000
+    part: 9000
+    item_ids: 129-10
+    icon: Bumdle_red
+  }
+  {
+    id: 411204
+    name: 战区最终关排行第4名奖励
+    mp: 8500
+    ammo: 8500
+    mre: 8500
+    part: 8500
+    item_ids: 129-9
+    icon: Bumdle_red
+  }
+  {
+    id: 411205
+    name: 战区最终关排行第5名奖励
+    mp: 8000
+    ammo: 8000
+    mre: 8000
+    part: 8000
+    item_ids: 129-8
+    icon: Bumdle_red
+  }
+  {
+    id: 411206
+    name: 战区最终关排行第6名奖励
+    mp: 7500
+    ammo: 7500
+    mre: 7500
+    part: 7500
+    item_ids: 129-7
+    icon: Bumdle_red
+  }
+  {
+    id: 411207
+    name: 战区最终关排行第7名奖励
+    mp: 7000
+    ammo: 7000
+    mre: 7000
+    part: 7000
+    item_ids: 129-6
+    icon: Bumdle_red
+  }
+  {
+    id: 411208
+    name: 战区最终关排行第8名奖励
+    mp: 6500
+    ammo: 6500
+    mre: 6500
+    part: 6500
+    item_ids: 129-5
+    icon: Bumdle_red
+  }
+  {
+    id: 411209
+    name: 战区最终关排行第9名奖励
+    mp: 6000
+    ammo: 6000
+    mre: 6000
+    part: 6000
+    item_ids: 129-4
+    icon: Bumdle_red
+  }
+  {
+    id: 411210
+    name: 战区最终关排行第10名奖励
+    mp: 5500
+    ammo: 5500
+    mre: 5500
+    part: 5500
+    item_ids: 129-3
+    icon: Bumdle_red
+  }
+  {
+    id: 411211
+    name: 战区最终关排行第11~100名奖励
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 129-2
+    icon: Bumdle_red
+  }
+  {
+    id: 411212
+    name: 战区最终关排行1%~5%奖励
+    mp: 4500
+    ammo: 4500
+    mre: 4500
+    part: 4500
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411213
+    name: 战区最终关排行6%~10%奖励
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411214
+    name: 战区最终关排行11%~15%奖励
+    mp: 3500
+    ammo: 3500
+    mre: 3500
+    part: 3500
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411215
+    name: 战区最终关排行16%~20%奖励
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411216
+    name: 战区最终关排行21%~30%奖励
+    mp: 2500
+    ammo: 2500
+    mre: 2500
+    part: 2500
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411217
+    name: 战区最终关排行31%~40%奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411218
+    name: 战区最终关排行41%~50%奖励
+    mp: 1500
+    ammo: 1500
+    mre: 1500
+    part: 1500
+    item_ids: 129-1
+    icon: Bumdle_red
+  }
+  {
+    id: 411219
+    name: 战区最终关排行51%~100%奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    icon: Bumdle_red
   }
 ]

@@ -11378,4 +11378,37 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 367
+    name: 熊猫挂饰
+    description:
+      '''
+      命中+<hit>
+      回避+<dodge>技能增强$CF05专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "1,2"
+    dodge: "15,19"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_CF05
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "295"
+    equip_introduction: CF05最喜欢的多功能挂饰，每次看到它都能回想起家乡的味道。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: hit:1000,dodge:1000
+    passive_skill: "759279"
+    max_level: 10
+    auto_select_id: 20071
+    is_show: 1
+    obtain_ids: "3091"
+  }
 ]

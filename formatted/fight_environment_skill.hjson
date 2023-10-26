@@ -217,7 +217,7 @@
   {
     id: 720
     name: 钢铁靶机
-    desc: 每隔10秒召唤1组5编，每编1000血的靶机
+    desc: 每隔10秒召唤1组总血量1000的5编靶机
     if_display: 1
     code: fight_skill_hurt103
     skill_group: "990017"
@@ -1497,7 +1497,7 @@
   {
     id: 12022801
     name: 协同挑衅
-    desc: 战斗开始时召唤1组5编，每编1000血的靶机。
+    desc: 战斗开始时召唤1组总血量1000的5编靶机。
     if_display: 1
     code: daily_game_28
     skill_group: "120228"

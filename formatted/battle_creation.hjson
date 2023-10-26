@@ -83578,6 +83578,112 @@
     scale: "1"
   }
   {
+    id: 9489
+    name: RPG29枪口火花2
+    code: XDZY/XDZY_TY1
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+  }
+  {
+    id: 9490
+    name: RPG29特殊攻击
+    code: XDZY/XDZY_TY5_1
+    start_type: "8"
+    start_offset: "-60,2"
+    destination_type: "6"
+    decision_offset: "-56,2"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 200
+    speed: 3400
+    easing_type: 1
+    spin_velocity: -105
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.3,0.3"
+    trigger_creation_id: "9492,25,9494,9491"
+    trigger_creation_delay: "-1,-1,-1,-1"
+    sound_order: BT_squad_bazooka
+    edge_indicator: Pics/Squads/RPG29_icon:2
+  }
+  {
+    id: 9491
+    name: RPG29特殊攻击直达
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2397"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9492
+    name: RPG29特殊攻击结算范围
+    code: XDZY/RPG29_XDZY_bz
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2395"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9493
+    name: RPG29特殊攻击破防结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2396"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9494
+    name: RPG29特殊攻击额外结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2398"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9495
+    name: RPG29边缘指示器
+    code: 迫击炮
+    start_type: "8"
+    start_offset: "-50,15"
+    destination_type: "8"
+    destination_offset: "-22,7"
+    is_tracing: 1
+    route_type: 2
+    speed: 2000
+    easing_type: 1
+    exist_duration: *101
+    is_form_play: 1
+    scale: "1"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -110902,6 +111008,71 @@
     buff_id: 9117:1000005277,9118:1000005277,1201:1000005277,1204:1000005277
     buff_cd: "0,0,0,0"
     scale: "0.85,1.5,1"
+  }
+  {
+    id: 948501
+    name: RPG29普通攻击
+    code: XDZY/XDZY_TY5_1
+    start_type: "8"
+    start_offset: "-60,2"
+    destination_type: "6"
+    decision_offset: "-56,2"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 200
+    speed: 3400
+    easing_type: 1
+    spin_velocity: -105
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.3,0.3"
+    trigger_creation_id: "948701,25,948601"
+    trigger_creation_delay: "-1,-1,-1"
+    sound_order: BT_squad_bazooka
+    edge_indicator: Pics/Squads/RPG29_icon:2
+  }
+  {
+    id: 948601
+    name: RPG29普通攻击直达
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2394"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 948701
+    name: RPG29普通攻击结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2392"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 948801
+    name: RPG29普通攻击破防结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2393"
+    creation_type: 2
+    scale: "1"
   }
   {
     id: 975001

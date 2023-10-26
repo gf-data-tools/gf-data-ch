@@ -52176,6 +52176,79 @@
     buff_description: PowBuffText
   }
   {
+    id: 9248
+    name: 二技能血量层数
+    conflict_type: 2360
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9249
+    name: 三技能负面层数
+    conflict_type: 2360
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9250
+    name: rpk29普攻触发
+    conflict_type: 2361
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9251
+    name: rpk29特殊普攻触发
+    conflict_type: 2361
+    max_tier: 2
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9252
+    name: 短路眩晕
+    description: 通用-眩晕
+    conflict_type: 2362
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *102
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 9253
+    name: cf05装备
+    conflict_type: 2360
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9254
+    name: 受伤增加50点
+    conflict_type: 2360
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000005387
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
