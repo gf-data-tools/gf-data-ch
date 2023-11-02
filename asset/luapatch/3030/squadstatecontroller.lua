@@ -48,5 +48,5 @@ local ShowPlayerEnergy = function(self)
 end
 util.hotfix_ex(CS.SquadStateController,'Start',Start)
 util.hotfix_ex(CS.DormVehicleVisitLogController,'InitUIElements',InitUIElements)
-util.hotfix_ex(CS.FriendShopGoodController,'FriendShopGoodController_Start',FriendShopGoodController_Start)
+util.hotfix_ex(CS.FriendShopGoodController,'Start',FriendShopGoodController_Start)
 util.hotfix_ex(CS.DeploymentUIController,'ShowPlayerEnergy',ShowPlayerEnergy)
