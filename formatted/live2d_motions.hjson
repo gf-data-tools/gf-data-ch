@@ -32052,7 +32052,7 @@
     text: GUN|Python|FEED
     name: 交互1
     camera: 1
-    voice_code: SKILL3
+    voice_code: FEED
   }
   {
     id: 880104
@@ -32064,7 +32064,7 @@
     text: GUN|Python|SKILL3
     name: 交互2
     camera: 1
-    voice_code: SKILL2
+    voice_code: SKILL3
   }
   {
     id: 880105
@@ -32077,7 +32077,7 @@
     name: 交互3
     camera: 1
     delay: 960
-    voice_code: OPERATIONOVER
+    voice_code: BREAK
   }
   {
     id: 880106
@@ -32090,7 +32090,7 @@
     name: 交互4
     camera: 1
     delay: 500
-    voice_code: ATTACK
+    voice_code: COMBINE
   }
   {
     id: 880107
@@ -32102,7 +32102,7 @@
     text: GUN|Python|DEFENSE
     name: 交互5
     camera: 1
-    voice_code: LOADING
+    voice_code: DEFENSE
   }
   {
     id: 880108
@@ -32114,7 +32114,7 @@
     text: GUN|Python|ALLHALLOWS
     name: 交互6
     camera: 1
-    voice_code: ATTACK
+    voice_code: ALLHALLOWS
   }
   {
     id: 880109
@@ -32124,7 +32124,6 @@
     probability: 1
     name: 交互7
     camera: 1
-    voice_code: LOADING
   }
   {
     id: 880110
@@ -32158,6 +32157,7 @@
     text: GUN|Python|MOOD1
     name: 晃动响应
     camera: 1
+    voice_code: MOOD1
   }
   {
     id: 880113
@@ -32168,7 +32168,7 @@
     text: GUN|Python|HELLO
     name: 上线响应
     camera: 1
-    voice_code: FORMATION
+    voice_code: HELLO
   }
   {
     id: 880114
@@ -32190,7 +32190,7 @@
     camera: 1
     is_hurt: 1
     delay: 2000
-    voice_code: HELLO
+    voice_code: ALLHALLOWS
   }
   {
     id: 880116
@@ -32204,7 +32204,7 @@
     camera: 1
     is_hurt: 1
     delay: 2000
-    voice_code: BREAK
+    voice_code: FIX
   }
   {
     id: 880117
@@ -32218,7 +32218,7 @@
     camera: 1
     is_hurt: 1
     delay: 3000
-    voice_code: ATTACK
+    voice_code: PHRASE
   }
   {
     id: 880118
@@ -32232,7 +32232,7 @@
     camera: 1
     is_hurt: 1
     delay: 1000
-    voice_code: WIN
+    voice_code: DIALOGUE3
   }
   {
     id: 880119
@@ -32246,7 +32246,7 @@
     camera: 1
     is_hurt: 1
     delay: 2000
-    voice_code: SKILL3
+    voice_code: GAIN
   }
   {
     id: 880120
@@ -32259,7 +32259,7 @@
     camera: 1
     is_hurt: 1
     delay: 6000
-    voice_code: LOADING
+    voice_code: RETREAT
   }
   {
     id: 880121
