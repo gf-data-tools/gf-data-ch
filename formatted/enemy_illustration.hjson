@@ -1992,8 +1992,8 @@
     armor_rank: 3
     speed_rank: 3
     range_rank: 1
-    counter: 危险！请注意评估队伍输出能力是否足够歼灭该单位，输出能力不足时建议规避。
-    character: "309,321"
+    counter: 该单位有着极高的护甲和韧性，并且请注意及时处理增援进场的歌利亚！
+    character: "1003,1005,334,321"
     enemy_skill: "21"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "100,100,1"
@@ -4238,6 +4238,27 @@
     enemy_skill: "108,109,110"
     launch_time: 2035-5-20 00:00:00
     org_id: 10603
+  }
+  {
+    id: 216
+    name: 梦想家-雾月翼手
+    type: 1
+    code: Dreamer_Halloween
+    introduce: 梦想家-雾月翼手，针对暗夜环境研发的特化型号。改良后的激光武器能在更远距离对敌方后排实现强力穿透，而应梦想家本人喜好定制的一对恶魔之角也将在战斗时同步释放干扰信号，令己方“置身”重重黑雾中，宛如鬼魅现世，散播迷瘴、混沌与声势浩大的死亡……最好祈祷不要在夜晚与她遭遇——因为在她的绝对主场中，没有一只猎物可以侥幸生还。
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,209"
+    enemy_skill: "70,97"
+    launch_time: 2035-5-20 00:00:00
+    org_id: 10604
   }
   {
     id: 100001

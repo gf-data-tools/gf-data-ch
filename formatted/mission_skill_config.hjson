@@ -57785,6 +57785,387 @@
     mission_buff_minus: 6629008:1
   }
   {
+    id: 6630001
+    name: 【标记】乱石堆初始化
+    skill_group_id: 6630001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6630019:1
+  }
+  {
+    id: 6630002
+    name: 【标记】歌利亚初始化
+    skill_group_id: 6630002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6630020:1
+    subsidiary_mission_skill: "6630003"
+  }
+  {
+    id: 6630003
+    name: 【标记】机场兔子初始化
+    skill_group_id: 6630003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6630006:1,6630023:1
+    subsidiary_mission_skill: "6630028"
+  }
+  {
+    id: 6630004
+    name: 【标记】每回合重置buff
+    skill_group_id: 6630004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,10"
+    cd_time_type: 1
+    start_range: 100
+    mission_buff_minus: 6630011:1,6630012:1,6630013:1,6630014:1,6630015:1,6630016:1,6630017:1
+    subsidiary_mission_skill: "6630027"
+  }
+  {
+    id: 6630005
+    name: 拾取歌利亚
+    skill_group_id: 6630005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "663002031"
+    target_id: "1"
+    special_spot_minus: 6630020:1
+    mission_buff_add: 6630020:1
+    is_manual: 6560005
+  }
+  {
+    id: 6630006
+    name: 投掷歌利亚（设施）
+    description: 炸它个稀巴烂！
+    skill_group_id: 6630006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "663001931"
+    special_spot_add: 6630022:1
+    subsidiary_mission_skill: "6630008"
+    is_manual: 6630001
+  }
+  {
+    id: 6630007
+    name: 投掷歌利亚（对敌）
+    description: 炸它个稀巴烂！
+    skill_group_id: 6630007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 6630021:1
+    subsidiary_mission_skill: "6630008"
+    is_manual: 6630002
+  }
+  {
+    id: 6630008
+    name: 【标记】投掷连携
+    skill_group_id: 6630008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 6630020:1
+  }
+  {
+    id: 6630009
+    name: 【标记】连杀技能
+    skill_group_id: 6630009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "6630014,6630013,6630012,6630011,6630010"
+  }
+  {
+    id: 6630010
+    name: 【标记】+200
+    skill_group_id: 6630010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000131"
+    special_spot_minus: 6630001:1
+  }
+  {
+    id: 6630011
+    name: 【标记】+400
+    skill_group_id: 6630011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000231"
+    special_spot_minus: 6630002:1
+  }
+  {
+    id: 6630012
+    name: 【标记】+600
+    skill_group_id: 6630012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000331"
+    special_spot_minus: 6630003:1
+  }
+  {
+    id: 6630013
+    name: 【标记】+800
+    skill_group_id: 6630013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000431"
+    special_spot_minus: 6630004:1
+  }
+  {
+    id: 6630014
+    name: 【标记】+1000
+    skill_group_id: 6630014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000531"
+    special_spot_minus: 6630005:1
+  }
+  {
+    id: 6630015
+    name: 【标记】泉水特效
+    skill_group_id: 6630015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    special_spot_add: 9411243:1
+  }
+  {
+    id: 6630016
+    name: 【标记】泉水生效
+    skill_group_id: 6630016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    special_spot_add: 1020301:1
+  }
+  {
+    id: 6630017
+    name: 金斧头？银斧头？【金
+    description: 少年哟，你丢掉的是左边这把金斧头，还是右边这把银斧头呢？
+    skill_group_id: 6630017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "100"
+    target_id: 102010190&&102020190&&102030191
+    special_spot_add: 1020101:1,1000010:1
+    is_manual: 9411239
+  }
+  {
+    id: 6630018
+    name: 金斧头？银斧头？【银
+    description: 少年哟，你丢掉的是左边这把金斧头，还是右边这把银斧头呢？
+    skill_group_id: 6630018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "100"
+    target_id: 102010190&&102020190&&102030191
+    special_spot_add: 1020101:1,1000010:1
+    is_manual: 9411240
+  }
+  {
+    id: 6630019
+    name: 金斧头？银斧头？【没丢
+    description: 少年哟，你丢掉的是左边这把金斧头，还是右边这把银斧头呢？
+    skill_group_id: 6630019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: 102010190&&102020190&&102030191
+    special_spot_add: 1020101:1,1000010:1
+    is_manual: 9411241
+  }
+  {
+    id: 6630020
+    name: 金斧头？银斧头？【……
+    description: 少年哟，你丢掉的是左边这把金斧头，还是右边这把银斧头呢？
+    skill_group_id: 6630020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: 102010190&&102020190&&102030191
+    special_spot_add: 1020201:1
+    is_manual: 9411242
+  }
+  {
+    id: 6630021
+    name: 金斧头？银斧头？【全都要
+    description: 少年哟，你丢掉的是左边这把金斧头，还是右边这把银斧头呢？
+    skill_group_id: 6630021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "100"
+    target_id: 102010190&&102020191&&102030191
+    special_spot_add: 1000010:1
+    is_manual: 9411244
+  }
+  {
+    id: 6630022
+    name: 【标记】小队1
+    skill_group_id: 6630022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000461"
+    mission_buff_add: 6630022:1,6510003:1
+  }
+  {
+    id: 6630023
+    name: 【标记】小队2
+    skill_group_id: 6630023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "663000561"
+    mission_buff_add: 6360004:1,6510003:1
+  }
+  {
+    id: 6630024
+    name: 视野加成
+    description: 指定小队获得视野加成
+    skill_group_id: 6630024
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,10"
+    cd_time_type: 1
+    start_range: 1
+    mission_buff_add: 6630021:1
+    subsidiary_mission_skill: "6630025"
+    is_manual: 6630003
+  }
+  {
+    id: 6630025
+    name: 【标记】视野加成CD
+    skill_group_id: 6630025
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 6630022:1
+  }
+  {
+    id: 6630026
+    name: 偷吃歌利亚
+    description: 太重了不拿了。
+    skill_group_id: 6630026
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "6630008"
+    is_manual: 6630004
+  }
+  {
+    id: 6630027
+    name: mission_skill_config-16630027
+    description: mission_skill_config-26630027
+    lvup_description: mission_skill_config-36630027
+    skill_group_id: 6630027
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,10"
+    cd_time_type: 1
+    start_range: 100
+    mission_buff_add: 6630001:1,6630011:1
+  }
+  {
+    id: 6630028
+    name: mission_skill_config-16630028
+    description: mission_skill_config-26630028
+    lvup_description: mission_skill_config-36630028
+    skill_group_id: 6630028
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "0,1,8,10"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 6630001:1,6630011:1
+  }
+  {
     id: 8120101
     name: 开启指令(对防御门I型①)
     code: "1"

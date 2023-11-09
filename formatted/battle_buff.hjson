@@ -8674,7 +8674,7 @@
     max_tier: 99
     type: 400
     duration_type: 1
-    duration: "5"
+    duration: "6"
     boss_available: 1
   }
   {
@@ -8684,7 +8684,7 @@
     max_tier: 99
     type: 400
     duration_type: 1
-    duration: "5"
+    duration: "6"
     boss_available: 1
   }
   {
@@ -52247,6 +52247,183 @@
     duration: *101
     boss_available: 1
     fix_damage: 1000005387
+  }
+  {
+    id: 9255
+    name: 夜视提升
+    conflict_type: 2363
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "9506"
+    night_view_percent: *202
+  }
+  {
+    id: 9256
+    name: 火力上升
+    conflict_type: 2363
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9257
+    name: 四技能
+    conflict_type: 2363
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9258
+    name: 三技能
+    conflict_type: 2363
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9259
+    name: 鬼雾命中下降
+    conflict_type: 2364
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: "12"
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 9260
+    name: 鬼雾易伤
+    conflict_type: 2364
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "12"
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 9261
+    name: 鬼雾回避提升
+    conflict_type: 2364
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "12"
+    boss_available: 1
+    dodge_number: *203
+    trigger_creation_id: "201"
+    is_form_play: 1
+  }
+  {
+    id: 9262
+    name: 万圣梦想家在场
+    conflict_type: 2364
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "12"
+    boss_available: 1
+  }
+  {
+    id: 9263
+    name: 鬼雾时间
+    conflict_type: 2364
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "9505"
+    is_form_play: 1
+  }
+  {
+    id: 9264
+    name: 二技能触发
+    conflict_type: 2365
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9265
+    name: 远程加射程
+    conflict_type: 2365
+    max_tier: 1
+    type: 830
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "106"
+    range_number: "30"
+  }
+  {
+    id: 9266
+    name: 非解析触发
+    conflict_type: 2365
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9267
+    name: 解析触发
+    conflict_type: 2365
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9268
+    name: 撤退监视
+    conflict_type: 2367
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1047
+  }
+  {
+    id: 9269
+    conflict_type: 2366
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9270
+    conflict_type: 2366
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 10000

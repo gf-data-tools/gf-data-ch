@@ -4,6 +4,7 @@
     name: 出兵点
     code: "1"
     type: 2
+    vision_buff: "-1"
     grow_enemy_pool: 1
   }
   {
@@ -11,6 +12,7 @@
     name: 禁止空降
     code: "2"
     type: 2
+    vision_buff: "-1"
     no_airborne: 1
   }
   {
@@ -18,6 +20,7 @@
     name: 禁止通行
     code: "2"
     type: 2
+    vision_buff: "-1"
     no_entry: 1
   }
   {
@@ -25,6 +28,7 @@
     name: 禁止通行
     code: "2"
     type: 2
+    vision_buff: "-1"
     no_entry: 2
   }
   {

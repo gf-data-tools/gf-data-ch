@@ -2873,6 +2873,33 @@
     danger: 60
   }
   {
+    id: 10115
+    type: 2
+    name: 歌利亚工厂
+    enemy_info: 铁血兵工厂
+    code: Golyat_Factory
+    maxlife: 20000
+    pow: 10
+    hit: 15
+    range: 8
+    speed: 10
+    number: 1
+    angle: 180
+    armor: 350
+    rate: 25
+    def: 99999
+    level: 30100
+    character: 高威胁,韧性,重甲,制造
+    normal_attack: 900107
+    passive_skill: "200304,755312,755000,770044"
+    effect_ratio: 1.41
+    unable_buff_type: "221"
+    deployment_scale: 1
+    enemy_illustration_id: 99
+    tenacity: 80
+    danger: 60
+  }
+  {
     id: 11001
     type: 2
     name: 巡游者SWAP
@@ -4761,6 +4788,33 @@
     effect_ratio: 0.8
     deployment_scale: 1
     enemy_illustration_id: 213
+    danger: 60
+  }
+  {
+    id: 12114
+    type: 2
+    name: 歌利亚工厂
+    enemy_info: 铁血兵工厂(夜)
+    code: Golyat_Factory
+    maxlife: 16000
+    pow: 10
+    hit: 15
+    range: 8
+    speed: 10
+    number: 1
+    angle: 180
+    armor: 350
+    rate: 25
+    def: 99999
+    level: 30100
+    character: 高威胁,韧性,重甲,制造
+    normal_attack: 900107
+    passive_skill: "200304,755312,755000,770044"
+    effect_ratio: 1.41
+    unable_buff_type: "221"
+    deployment_scale: 1
+    enemy_illustration_id: 99
+    tenacity: 80
     danger: 60
   }
   {
@@ -21992,6 +22046,61 @@
     voice: "1,2,3"
     deployment_scale: 1
     enemy_illustration_id: 155
+    danger: 1000
+  }
+  {
+    id: 900624
+    type: 1
+    name: 破坏者
+    enemy_info: 秃洞复刻BOSS135夜
+    code: DestroyerPlus
+    maxlife: 320000
+    pow: 160
+    hit: 75
+    dodge: 60
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 320000
+    def: 99999
+    level: 100
+    character: 精英,远程,范围杀伤
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029,770044"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+    danger: 1000
+  }
+  {
+    id: 900625
+    type: 1
+    name: 梦想家-雾月翼手
+    enemy_info: 捕获Boss
+    code: Dreamer_Halloween
+    maxlife: 350000
+    pow: 240
+    hit: 70
+    dodge: 50
+    range: 16
+    speed: 40
+    number: 1
+    angle: 180
+    armor_piercing: 40
+    rate: 60
+    boss_hp: 350000
+    def: 99999
+    level: 100
+    character: 精英,梦想家
+    normal_attack: 750898
+    passive_skill: "119029,770044"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 216
     danger: 1000
   }
   {

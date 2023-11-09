@@ -18327,6 +18327,14 @@
     summon_order: "4326"
   }
   {
+    id: 5850
+    name: 歌莉娅工厂
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9496"
+    creation_delay: "25"
+  }
+  {
     id: 6000
     name: 扳机触发普攻-通用
   }
@@ -24274,6 +24282,87 @@
     creation_delay: "15"
     sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
     sound_delay: "11,14,17,20,23,26,29,32"
+  }
+  {
+    id: 8853
+    name: 万圣梦想家普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9502"
+    creation_delay: "3"
+  }
+  {
+    id: 8854
+    name: 万圣梦想家鬼雾
+    creation_order: "949601,9497"
+    creation_delay: "0,0"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 8855
+    name: 万圣梦想家二技能鬼雾
+    action_order: s1
+    action_playspeed: "100"
+    creation_order: "9498,9498,9498,9509,9509,9509"
+    creation_delay: "40,61,82,40,61,82"
+  }
+  {
+    id: 8856
+    name: 万圣梦想家二技能无鬼雾
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "9499,9499,9499,9507,9507,9507,9508,9508,9508"
+    creation_delay: "65,110,155,33,78,123,65,110,155"
+  }
+  {
+    id: 8857
+    name: 万圣梦想家一技能
+    action_order: skill1,s4
+    action_delay: "0,41"
+    action_playspeed: "100,100"
+    creation_order: "9500,9504"
+    creation_delay: "60,43"
+    effect_order: 3(Dreamer_Halloween;雾夜游灵;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8858
+    name: 万圣梦想家一技能解析
+    action_order: skill1,s4
+    action_delay: "0,41"
+    action_playspeed: "100,100"
+    creation_order: "9500,9504"
+    creation_delay: "60,43"
+    effect_order: 3(Dreamer_Halloween_1;雾夜游灵;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8859
+    name: 万圣梦想家一技能额外
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "9501"
+    creation_delay: "2"
+  }
+  {
+    id: 8860
+    name: 万圣梦想家一技能解析额外
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "9501"
+    creation_delay: "2"
+  }
+  {
+    id: 8861
+    name: 表演普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9503"
+    creation_delay: "3"
   }
   {
     id: 9001

@@ -24112,6 +24112,31 @@
     phase_duration: 99999
   }
   {
+    id: 4327
+    name: GLY_Black_Enemy
+    code: Golyat
+    hp: 1000005389
+    pow: 1000
+    hit: 10000
+    range: 2
+    def: 9999
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    level: 100
+    normal_attack: 900107
+    passive_skill: "310325,119020,770044"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102"
+    unable_buff_type: "101,102,103,104,106,201,202,203,204,206"
+    scale: "0.7,0.7,0.7"
+    start_offset: "0,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
     id: 4841
     name: 异构体150夜
     code: Isomer

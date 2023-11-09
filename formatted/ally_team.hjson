@@ -20906,6 +20906,65 @@
     no_battle_damage: -1
   }
   {
+    id: 6630001
+    name: 替死鬼_1层道中
+    guns: "895"
+    enemy_team_id: 9411213
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    transform_condition: "4"
+    transform_number: "6630111"
+    no_battle_damage: -1
+  }
+  {
+    id: 6630002
+    name: 破旧人形
+    guns: "932"
+    enemy_team_id: 9411216
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "2"
+    betray_number: "600121"
+    betray_result: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6630003
+    name: 泉水之神？
+    guns: "931"
+    enemy_team_id: 9411216
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "2"
+    betray_number: "600290"
+    betray_result: "1"
+    transform_condition: "6"
+    transform_number: "6630017,6630018,6630021"
+    transform_result: "0,0,0"
+    no_battle_damage: -1
+  }
+  {
+    id: 6630004
+    name: 支援小队
+    guns: "10005,10006,10007,10008,10009"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6630005
+    name: 支援小队
+    guns: "10010,10011,10012,10013,10014"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
     id: 9120101
     name: 离线心智
     guns: "716"

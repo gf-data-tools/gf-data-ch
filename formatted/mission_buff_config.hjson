@@ -4693,7 +4693,7 @@
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
-    manual_ui_code: CarryBoomerIcon#EC4702
+    manual_ui_code: CarryEMPIcon#1E90FF
     conflict_type: 6360004
     carry_mission_skill: "6360011"
   }
@@ -6938,6 +6938,248 @@
     battle_skill_config_id: 759259
     conflict_type: 6629300
     priority: 4
+  }
+  {
+    id: 6630001
+    name: 积分加成
+    description: 击杀额外获取200分
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630001
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_0#a84fb5
+    conflict_type: 6630001
+  }
+  {
+    id: 6630002
+    name: 积分加成
+    description: 击杀额外获取400分
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630002
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_1#a84fb5
+    conflict_type: 6630001
+    priority: 1
+  }
+  {
+    id: 6630003
+    name: 积分加成
+    description: 击杀额外获取600分
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630003
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_2#a84fb5
+    conflict_type: 6630001
+    priority: 2
+  }
+  {
+    id: 6630004
+    name: 积分加成
+    description: 击杀额外获取800分
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630004
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_3#a84fb5
+    conflict_type: 6630001
+    priority: 3
+  }
+  {
+    id: 6630005
+    name: 积分加成
+    description: 击杀额外获取1000分
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630005
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_4#a84fb5
+    conflict_type: 6630001
+    priority: 4
+  }
+  {
+    id: 6630011
+    name: 移动计数
+    description: 当前回合移动次数：0
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "8"
+    exp_buff: "1"
+    special_spot_config_id: 6630011
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+  }
+  {
+    id: 6630012
+    name: 移动计数
+    description: 当前回合移动次数：1
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "7"
+    exp_buff: "1"
+    special_spot_config_id: 6630012
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 1
+  }
+  {
+    id: 6630013
+    name: 移动计数
+    description: 当前回合移动次数：2
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "6"
+    exp_buff: "1"
+    special_spot_config_id: 6630013
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 2
+  }
+  {
+    id: 6630014
+    name: 移动计数
+    description: 当前回合移动次数：3
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "5"
+    exp_buff: "1"
+    special_spot_config_id: 6630014
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 3
+  }
+  {
+    id: 6630015
+    name: 移动计数
+    description: 当前回合移动次数：4
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "4"
+    exp_buff: "1"
+    special_spot_config_id: 6630015
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 4
+  }
+  {
+    id: 6630016
+    name: 移动计数
+    description: 当前回合移动次数：5
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    special_spot_config_id: 6630016
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 5
+  }
+  {
+    id: 6630017
+    name: 移动计数
+    description: 当前回合移动次数：6
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 6630017
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 6
+  }
+  {
+    id: 6630018
+    name: 移动计数
+    description: 当前回合移动次数：7
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630018
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 7
+  }
+  {
+    id: 6630019
+    name: 当前回合移动额外消耗ap
+    description: 当前回合移动额外消耗ap
+    code: Vpm5
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6630011
+    priority: 8
+    ext_ap_cost: 1
+  }
+  {
+    id: 6630020
+    name: 携带buff
+    description: 携带歌利亚
+    type: 1
+    duration_type: "99"
+    duration_time: "1"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6630020
+    carry_mission_skill: "6630006,6630007,6630026"
+  }
+  {
+    id: 6630021
+    name: 增幅
+    description: 小队视野获得增幅
+    code: NightView
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    vision_buff: "2"
+    conflict_type: 6630021
+  }
+  {
+    id: 6630022
+    name: 携带buff
+    description: 携带视野增幅辅助技能
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6630022
+    carry_mission_skill: "6630024"
   }
   {
     id: 7000001

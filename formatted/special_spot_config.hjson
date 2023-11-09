@@ -38759,6 +38759,353 @@
     effect_birth: 1000020
   }
   {
+    id: 6630001
+    name: "200"
+    code: "6630001"
+    priority: 6630001
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630002,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630002
+    name: "400"
+    code: "6630002"
+    priority: 6630002
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630003,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630003
+    name: "600"
+    code: "6630003"
+    priority: 6630003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630004,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630004
+    name: "800"
+    code: "6630004"
+    priority: 6630004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630005,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630005
+    name: "1000"
+    code: "6630005"
+    priority: 6630005
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630006
+    name: 【标记】部署初始化
+    code: "6630006"
+    priority: 6630006
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6630001
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630006
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630011
+    name: 【标记】当前回合移动次数0
+    code: "6630011"
+    priority: 6630011
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630011
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630012,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630012
+    name: 【标记】当前回合移动次数1
+    code: "6630012"
+    priority: 6630012
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630012
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630013,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630013
+    name: 【标记】当前回合移动次数2
+    code: "6630013"
+    priority: 6630013
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630013
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630014,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630014
+    name: 【标记】当前回合移动次数3
+    code: "6630014"
+    priority: 6630014
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630014
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630015,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630015
+    name: 【标记】当前回合移动次数4
+    code: "6630015"
+    priority: 6630015
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630015
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630016,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630016
+    name: 【标记】当前回合移动次数5
+    code: "6630016"
+    priority: 6630016
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630016
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630017,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630017
+    name: 【标记】当前回合移动次数6
+    code: "6630017"
+    priority: 6630017
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630017
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630018,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630018
+    name: 【标记】当前回合移动次数7
+    code: "6630018"
+    priority: 6630018
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630018
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630019,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630019
+    name: 【标记】乱石堆初始化
+    code: "6630019"
+    priority: 6630019
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630019
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6630020
+    name: 【标记】歌利亚初始化
+    code: "6630020"
+    priority: 6630020
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630020
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630021
+    name: 【标记】歌利亚投掷对敌人
+    code: "6630021"
+    priority: 6630021
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630021
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6630001,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630022
+    name: 【标记】歌利亚投掷设施
+    code: "6630022"
+    priority: 6630022
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630022
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6630002,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630023
+    name: special_spot_config-16630023
+    description: special_spot_config-26630023
+    code: "6630023"
+    priority: 6630023
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6630011
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630023
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 7000001
     name: 【标记】AI目标识别-非空检测
     code: "7000001"

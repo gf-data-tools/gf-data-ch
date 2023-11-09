@@ -12838,6 +12838,33 @@
     furniture: "20111"
   }
   {
+    id: 1976
+    name: 双十一超值采购币礼包
+    gem: 300
+    item_ids: 41-200
+    gift: 100003-5
+    icon: Bumdle_double112017
+  }
+  {
+    id: 1977
+    name: 双十一誓约特惠补给
+    item_ids: 7-4
+    icon: Bumdle_double1120212
+  }
+  {
+    id: 1978
+    name: 双十一采购特惠补给
+    gem: 600
+    item_ids: 41-500
+    gift: 100003-10
+    icon: Bumdle_double112021
+  }
+  {
+    id: 1979
+    name: 掎角攻势-秘宝港湾
+    item_ids: 121003-1
+  }
+  {
     id: 2001
     name: WA2000-古堡历险
     gift: 6-1
@@ -25388,6 +25415,74 @@
     content:
       '''
       恭喜你在"代号拾：冕环"赛季中，获得元帅荣誉，奖励：拉弗伯雷勋章*60，指挥官经验*2000，头像"共感誓约"
+      初次领取元帅荣誉邮件将解锁头像框·将星闪耀
+      '''
+    icon: Medal_Chess
+  }
+  {
+    id: 10785
+    name: 少校荣誉
+    user_exp: 30
+    item_ids: 106-5,2384-1,200008-1
+    content:
+      '''
+      恭喜你在"代号拾壹：暗隙"赛季中，获得少校荣誉，奖励：拉弗伯雷勋章*5，指挥官经验*30，头像"决断机谋"
+      初次领取少校荣誉邮件将解锁头像框·决胜火线
+      '''
+    icon: Medal_Chess
+  }
+  {
+    id: 10786
+    name: 中校荣誉
+    user_exp: 60
+    item_ids: 106-10
+    content: 恭喜你在"代号拾壹：暗隙"赛季中，获得中校荣誉，奖励：拉弗伯雷勋章*10，指挥官经验*60
+    icon: Medal_Chess
+  }
+  {
+    id: 10787
+    name: 上校荣誉
+    user_exp: 100
+    item_ids: 106-20
+    content: 恭喜你在"代号拾壹：暗隙"赛季中，获得上校荣誉，奖励：拉弗伯雷勋章*20，指挥官经验*100
+    icon: Medal_Chess
+  }
+  {
+    id: 10788
+    name: 少将荣誉
+    user_exp: 200
+    item_ids: 106-30,2385-1,200007-1
+    content:
+      '''
+      恭喜你在"代号拾壹：暗隙"赛季中，获得少将荣誉，奖励：拉弗伯雷勋章*30，指挥官经验*200，头像"诡术奇策"
+      初次领取少将荣誉邮件将解锁头像框·运筹帷幄
+      '''
+    icon: Medal_Chess
+  }
+  {
+    id: 10789
+    name: 中将荣誉
+    user_exp: 500
+    item_ids: 106-40
+    content: 恭喜你在"代号拾壹：暗隙"赛季中，获得中将荣誉，奖励：拉弗伯雷勋章*40，指挥官经验*500
+    icon: Medal_Chess
+  }
+  {
+    id: 10790
+    name: 上将荣誉
+    user_exp: 1000
+    item_ids: 106-50
+    content: 恭喜你在"代号拾壹：暗隙"赛季中，获得上将荣誉，奖励：拉弗伯雷勋章*50，指挥官经验*1000
+    icon: Medal_Chess
+  }
+  {
+    id: 10791
+    name: 元帅荣誉
+    user_exp: 2000
+    item_ids: 106-60,2386-1,200006-1
+    content:
+      '''
+      恭喜你在"代号拾壹：暗隙"赛季中，获得元帅荣誉，奖励：拉弗伯雷勋章*60，指挥官经验*2000，头像"方略纵横"
       初次领取元帅荣誉邮件将解锁头像框·将星闪耀
       '''
     icon: Medal_Chess
@@ -42923,6 +43018,365 @@
     gift: 200001-500
     equip_ids: "83"
     icon: Bumdle_yellow
+  }
+  {
+    id: 40601
+    name: 阶段奖励I
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gift: 200001-100
+    coins: 1-100,2-100
+    icon: Bumdle_black
+  }
+  {
+    id: 40602
+    name: 阶段奖励II
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gem: 50
+    gift: 200001-100
+    coins: 1-200,2-200
+    icon: Bumdle_blue
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40603
+    name: 阶段奖励III
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gift: 200001-200
+    coins: 2-200,3-100
+    icon: Bumdle_brown
+  }
+  {
+    id: 40604
+    name: 阶段奖励IV
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    gift: 200001-200,400001-200
+    equip_ids: "93"
+    coins: 3-200
+    icon: Bumdle_purple
+  }
+  {
+    id: 40605
+    name: 阶段奖励V
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 514-150,515-150
+    gift: 400001-200
+    icon: Bumdle_red
+  }
+  {
+    id: 40606
+    name: 阶段奖励VI
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    gem: 100
+    item_ids: 514-250,515-250,516-200
+    icon: Bumdle_ruby
+  }
+  {
+    id: 40607
+    name: 阶段奖励VII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 515-300,516-400
+    icon: Bumdle_white
+  }
+  {
+    id: 40608
+    name: 阶段奖励VIII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 100
+    item_ids: 45-500
+    gift: 200001-500
+    icon: Bumdle_yellow
+    fairy_ids: 18-0
+  }
+  {
+    id: 40609
+    name: 100000积分奖励
+    item_ids: 514-40,41-6
+    gift: 200001-50,400001-50
+    icon: Bumdle_red
+  }
+  {
+    id: 40610
+    name: 300000积分奖励
+    mp: 150
+    ammo: 150
+    mre: 150
+    part: 150
+    item_ids: 515-50,516-50,41-6
+    coins: 1-50,2-50,3-50
+    icon: Bumdle_brown
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40611
+    name: 500000积分奖励
+    item_ids: 514-60,41-6
+    gift: 200001-100,400001-100
+    icon: Bumdle_indigo
+  }
+  {
+    id: 40612
+    name: 800000积分奖励
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 515-100,516-100,41-8
+    coins: 1-100,2-100,3-100
+    icon: Bumdle_guoqing
+  }
+  {
+    id: 40613
+    name: 1100000积分奖励
+    item_ids: 514-80,41-8
+    gift: 200001-150,400001-150
+    icon: Bumdle_yellow
+  }
+  {
+    id: 40614
+    name: 1300000积分奖励
+    mp: 350
+    ammo: 350
+    mre: 350
+    part: 350
+    item_ids: 515-150,516-150,41-8
+    equip_ids: "197"
+    coins: 1-150,2-150,3-150
+    icon: Bumdle_black
+  }
+  {
+    id: 40615
+    name: 1500000积分奖励
+    item_ids: 514-120,41-10
+    gift: 200001-200,400001-200
+    icon: Bumdle_purple
+    fairy_ids: 28-0
+  }
+  {
+    id: 40616
+    name: 1800000积分奖励
+    mp: 700
+    ammo: 700
+    mre: 700
+    part: 700
+    item_ids: 515-300,516-200,41-10
+    coins: 1-300,2-250,3-200
+    icon: Bumdle_navy
+  }
+  {
+    id: 40617
+    name: 2150000积分奖励
+    item_ids: 514-150,41-10
+    gift: 200001-300,400001-300
+    icon: Bumdle_blue
+  }
+  {
+    id: 40618
+    name: 2400000积分奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 515-400,516-300,41-10
+    coins: 1-400,2-350,3-300
+    icon: Bumdle_may
+  }
+  {
+    id: 40619
+    name: 2700000积分奖励
+    item_ids: 514-150,41-10
+    gift: 200001-300,400001-300
+    icon: Bumdle_orange
+  }
+  {
+    id: 40620
+    name: 3000000积分奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 515-400,516-400,41-10
+    coins: 1-400,2-350,3-300
+    icon: Bumdle_ruby
+  }
+  {
+    id: 40621
+    name: <双联乱数>秘密涡点+积分榜冠军奖励
+    mp: 30000
+    ammo: 30000
+    mre: 30000
+    part: 30000
+    gem: 2023
+    item_ids: 130-11
+  }
+  {
+    id: 40622
+    name: <双联乱数>秘密涡点+积分榜亚军奖励
+    mp: 28000
+    ammo: 28000
+    mre: 28000
+    part: 28000
+    gem: 1800
+    item_ids: 130-10
+  }
+  {
+    id: 40623
+    name: <双联乱数>秘密涡点+积分榜季军奖励
+    mp: 26000
+    ammo: 26000
+    mre: 26000
+    part: 26000
+    gem: 1600
+    item_ids: 130-9
+  }
+  {
+    id: 40624
+    name: <双联乱数>秘密涡点+积分榜第4名奖励
+    mp: 24000
+    ammo: 24000
+    mre: 24000
+    part: 24000
+    gem: 1400
+    item_ids: 130-8
+  }
+  {
+    id: 40625
+    name: <双联乱数>秘密涡点+积分榜第5名奖励
+    mp: 22000
+    ammo: 22000
+    mre: 22000
+    part: 22000
+    gem: 1200
+    item_ids: 130-7
+  }
+  {
+    id: 40626
+    name: <双联乱数>秘密涡点+积分榜第6名奖励
+    mp: 20000
+    ammo: 20000
+    mre: 20000
+    part: 20000
+    gem: 1000
+    item_ids: 130-6
+  }
+  {
+    id: 40627
+    name: <双联乱数>秘密涡点+积分榜第7名奖励
+    mp: 18000
+    ammo: 18000
+    mre: 18000
+    part: 18000
+    gem: 900
+    item_ids: 130-5
+  }
+  {
+    id: 40628
+    name: <双联乱数>秘密涡点+积分榜第8名奖励
+    mp: 16000
+    ammo: 16000
+    mre: 16000
+    part: 16000
+    gem: 800
+    item_ids: 130-4
+  }
+  {
+    id: 40629
+    name: <双联乱数>秘密涡点+积分榜第9名奖励
+    mp: 14000
+    ammo: 14000
+    mre: 14000
+    part: 14000
+    gem: 700
+    item_ids: 130-3
+  }
+  {
+    id: 40630
+    name: <双联乱数>秘密涡点+积分榜第10名奖励
+    mp: 12000
+    ammo: 12000
+    mre: 12000
+    part: 12000
+    gem: 600
+    item_ids: 130-2
+  }
+  {
+    id: 40631
+    name: <双联乱数>秘密涡点+积分榜第11~100名奖励
+    mp: 10000
+    ammo: 10000
+    mre: 10000
+    part: 10000
+    gem: 500
+    item_ids: 130-1
+  }
+  {
+    id: 40632
+    name: <双联乱数>秘密涡点+积分榜300000积分奖励
+    fairy_ids: 28-0
+  }
+  {
+    id: 40633
+    name: <双联乱数>秘密涡点+积分榜500000积分奖励
+    mp: 1500
+    ammo: 1500
+    mre: 1500
+    part: 1500
+    gem: 50
+    item_ids: 130-1
+  }
+  {
+    id: 40634
+    name: <双联乱数>秘密涡点+积分榜600000积分奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    fairy_ids: 28-0
+  }
+  {
+    id: 40635
+    name: <双联乱数>秘密涡点+积分榜800000积分奖励
+    mp: 2500
+    ammo: 2500
+    mre: 2500
+    part: 2500
+    gem: 100
+    commander_uniform: "2520"
+  }
+  {
+    id: 40636
+    name: <双联乱数>秘密涡点+积分榜1000000积分奖励
+    mp: 3500
+    ammo: 3500
+    mre: 3500
+    part: 3500
+    gem: 200
+    fairy_ids: 28-900906
   }
   {
     id: 44001

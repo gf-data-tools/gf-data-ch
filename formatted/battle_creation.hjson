@@ -83684,6 +83684,228 @@
     scale: "1"
   }
   {
+    id: 9496
+    name: 歌莉娅召唤物
+    code: Dinergate
+    start_type: "3"
+    start_offset: "-1"
+    destination_type: "3"
+    destination_offset: "-1"
+    is_tracing: 1
+    exist_duration: "45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4327"
+    summoner_delay: "1"
+  }
+  {
+    id: 9497
+    name: 鬼雾范围敌方
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: *101
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "90"
+    buff_id: 9259:1,9260:1
+    buff_cd: "10,10"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9498
+    name: 二技能鬼雾子弹
+    code: WSMX_jgz
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2399"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9499
+    name: 二技能无鬼雾子弹
+    code: WSMX_jgz
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2400"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9500
+    name: 万圣梦想家一技能激光束
+    start_type: "3"
+    start_offset: "15"
+    destination_type: "3"
+    destination_offset: "15"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "30"
+    effect_param_2: "4"
+    hurt_id: "2401"
+    creation_type: 2
+    scale: "30,0,4"
+  }
+  {
+    id: 9501
+    name: 一技能额外子弹
+    code: WSMX_jgz
+    start_type: "1"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2402"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9502
+    name: 普攻
+    code: bullet/bullet3
+    start_type: "1"
+    start_offset: "0.3,-0.15,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2403"
+    is_form_play: 1
+    scale: "0.7,0.5"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9503
+    name: 表演普攻
+    code: bullet/bullet3
+    start_type: "1"
+    start_offset: "-0.3,-0.15,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2403"
+    is_form_play: 1
+    scale: "0.7,0.5"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9504
+    name: 万圣梦想家一技能激光束
+    code: WSMX_jg
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "45"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9505
+    name: 鬼雾期间
+    code: WSMX_stg
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+  }
+  {
+    id: 9506
+    name: 夜视提升
+    code: WSMX_yzts
+    start_type: "3"
+    start_offset: "0,2.5,0"
+    destination_type: "3"
+    destination_offset: "0,2.5,0"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9507
+    name: 一技能蓄力
+    code: WSMX_xld
+    start_type: "1"
+    start_offset: "-0.5,-0.1,0"
+    destination_type: "1"
+    destination_offset: "-0.5,-0.1,0"
+    is_tracing: 1
+    exist_duration: "35"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9508
+    name: 狙击枪口火光
+    code: Agent/Agent_Attack02
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9509
+    name: 狙击枪口火光
+    code: Agent/Agent_Attack02
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "20"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -111073,6 +111295,23 @@
     hurt_id: "2393"
     creation_type: 2
     scale: "1"
+  }
+  {
+    id: 949601
+    name: 鬼雾范围我方
+    code: WSMX_yan
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "90"
+    buff_id: 9259:1000005391,9260:1000005391,9261:1000005390
+    buff_cd: "10,10,10"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
   }
   {
     id: 975001
