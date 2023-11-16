@@ -73438,6 +73438,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2240"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1,1,0"
     trigger_creation_id: "8843,8844,8845,8846"
@@ -73458,6 +73459,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8847,8851"
@@ -73477,6 +73479,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8848,8854"
@@ -73496,6 +73499,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8849,8852"
@@ -73515,6 +73519,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8850,8853"
@@ -73534,6 +73539,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73551,6 +73557,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73568,6 +73575,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73585,6 +73593,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73602,6 +73611,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73619,6 +73629,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73636,6 +73647,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73653,6 +73665,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -110208,6 +110221,20 @@
     effect_param_1: "300"
     buff_id: "8338"
     creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 884201
+    name: 额外易伤
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: 9281:1000005394
+    is_form_play: 1
     scale: "1"
   }
   {

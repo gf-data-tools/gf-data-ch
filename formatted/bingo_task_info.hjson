@@ -97,16 +97,6 @@
   {
     task_id: "10"
     type: general
-    task_name: consume_core
-    size: "45"
-    ticket_num: "1"
-    title: 核心消耗
-    content: 累计消耗核心*45
-    task_type_id: "57"
-  }
-  {
-    task_id: "11"
-    type: general
     task_name: consume_mp
     size: "1500"
     ticket_num: "1"
@@ -115,7 +105,7 @@
     task_type_id: "11"
   }
   {
-    task_id: "12"
+    task_id: "11"
     type: general
     task_name: consume_ammo
     size: "1500"
@@ -125,7 +115,7 @@
     task_type_id: "12"
   }
   {
-    task_id: "13"
+    task_id: "12"
     type: general
     task_name: consume_mre
     size: "1500"
@@ -135,7 +125,7 @@
     task_type_id: "13"
   }
   {
-    task_id: "14"
+    task_id: "13"
     type: general
     task_name: consume_part
     size: "500"
@@ -145,7 +135,7 @@
     task_type_id: "14"
   }
   {
-    task_id: "15"
+    task_id: "14"
     type: general
     task_name: friends_battery
     size: "10"
@@ -155,27 +145,27 @@
     task_type_id: "110"
   }
   {
-    task_id: "16"
+    task_id: "15"
     type: general
     task_name: love_collect
-    size: "20"
+    size: "10"
     ticket_num: "1"
     title: 爱心搜集
-    content: 累计搜集20个爱心（包括战术人形与格琳娜）
+    content: 累计搜集10个爱心（包括战术人形与格琳娜）
     task_type_id: "16"
   }
   {
-    task_id: "17"
+    task_id: "16"
     type: general
     task_name: borrow_friend_team
-    size: "3"
+    size: "1"
     ticket_num: "1"
     title: 使用好友梯队
-    content: 累计使用3次好友的支援梯队
+    content: 累计使用1次好友的支援梯队
     task_type_id: "17"
   }
   {
-    task_id: "18"
+    task_id: "17"
     type: difficulty
     task_name: gain_hg
     size: "3"
@@ -186,7 +176,7 @@
     task_type_id: "18"
   }
   {
-    task_id: "19"
+    task_id: "18"
     type: difficulty
     task_name: gain_smg
     size: "3"
@@ -197,7 +187,7 @@
     task_type_id: "19"
   }
   {
-    task_id: "20"
+    task_id: "19"
     type: difficulty
     task_name: gain_ar
     size: "3"
@@ -208,7 +198,7 @@
     task_type_id: "20"
   }
   {
-    task_id: "21"
+    task_id: "20"
     type: difficulty
     task_name: gain_mg
     size: "3"
@@ -219,7 +209,7 @@
     task_type_id: "21"
   }
   {
-    task_id: "22"
+    task_id: "21"
     type: difficulty
     task_name: gain_rf
     size: "3"
@@ -230,7 +220,7 @@
     task_type_id: "22"
   }
   {
-    task_id: "23"
+    task_id: "22"
     type: difficulty
     task_name: gain_fittings
     size: "3"
@@ -241,7 +231,7 @@
     task_type_id: "23"
   }
   {
-    task_id: "24"
+    task_id: "23"
     type: difficulty
     task_name: gain_magazine
     size: "3"
@@ -252,7 +242,7 @@
     task_type_id: "24"
   }
   {
-    task_id: "25"
+    task_id: "24"
     type: difficulty
     task_name: gain_equipment
     size: "3"
@@ -263,7 +253,7 @@
     task_type_id: "25"
   }
   {
-    task_id: "26"
+    task_id: "25"
     type: difficulty
     task_name: special_develop_gun
     size: "1"
@@ -274,7 +264,7 @@
     task_type_id: "26"
   }
   {
-    task_id: "27"
+    task_id: "26"
     type: difficulty
     task_name: special_develop_fairy
     size: "1"
@@ -285,7 +275,7 @@
     task_type_id: "129"
   }
   {
-    task_id: "28"
+    task_id: "27"
     type: difficulty
     task_name: operation_quick_develop
     size: "1"
@@ -296,17 +286,7 @@
     task_type_id: "28"
   }
   {
-    task_id: "29"
-    type: difficulty
-    task_name: map_capture
-    size: "10"
-    ticket_num: "1"
-    title: 日常探查
-    content: 在灰域探查中累计占领10个点位
-    task_type_id: "10"
-  }
-  {
-    task_id: "30"
+    task_id: "28"
     type: difficulty
     task_name: operation_equip_contract
     size: "1"
@@ -317,7 +297,7 @@
     task_type_id: "30"
   }
   {
-    task_id: "31"
+    task_id: "29"
     type: difficulty
     task_name: operation_iop_contract
     size: "1"
@@ -328,17 +308,17 @@
     task_type_id: "31"
   }
   {
-    task_id: "32"
+    task_id: "30"
     type: difficulty
     task_name: win_boss
-    size: "5"
+    size: "3"
     ticket_num: "1"
     title: 消灭BOSS
-    content: 战斗胜利情况下消灭5个BOSS
+    content: 战斗胜利情况下消灭3个BOSS
     task_type_id: "32"
   }
   {
-    task_id: "33"
+    task_id: "31"
     type: difficulty
     task_name: win_armorrobot
     size: "10"
@@ -348,7 +328,7 @@
     task_type_id: "33"
   }
   {
-    task_id: "34"
+    task_id: "32"
     type: difficulty
     task_name: win_robot
     size: "20"
@@ -358,7 +338,7 @@
     task_type_id: "34"
   }
   {
-    task_id: "35"
+    task_id: "33"
     type: difficulty
     task_name: win_person
     size: "30"
@@ -368,17 +348,17 @@
     task_type_id: "35"
   }
   {
-    task_id: "36"
+    task_id: "34"
     type: difficulty
     task_name: operation_duration
-    size: "43200"
+    size: "28800"
     ticket_num: "1"
     title: 累计后勤支援时长
-    content: 在后勤支援完成的情况下累计后勤43200小时
+    content: 在后勤支援完成的情况下累计后勤28800小时
     task_type_id: "36"
   }
   {
-    task_id: "37"
+    task_id: "35"
     type: difficulty
     task_name: consume_voucher
     size: "30"
@@ -388,7 +368,7 @@
     task_type_id: "37"
   }
   {
-    task_id: "38"
+    task_id: "36"
     type: difficulty
     task_name: simulated_warfare
     size: "2"
@@ -398,7 +378,7 @@
     task_type_id: "38"
   }
   {
-    task_id: "39"
+    task_id: "37"
     type: difficulty
     task_name: upgrade
     size: "1"
@@ -408,7 +388,17 @@
     task_type_id: "39"
   }
   {
-    task_id: "40"
+    task_id: "38"
+    type: difficulty
+    task_name: map_capture
+    size: "3"
+    ticket_num: "1"
+    title: 日常探查
+    content: 在灰域探查中累计占领3个点位
+    task_type_id: "10"
+  }
+  {
+    task_id: "39"
     type: difficulty
     task_name: s_win
     size: "10"
@@ -418,7 +408,7 @@
     task_type_id: "40"
   }
   {
-    task_id: "41"
+    task_id: "40"
     type: recharge
     task_name: auto_mission
     size: "1"
@@ -428,7 +418,7 @@
     task_type_id: "41"
   }
   {
-    task_id: "42"
+    task_id: "41"
     type: recharge
     task_name: get_lollipop
     size: "1"
@@ -439,7 +429,7 @@
     task_type_id: "42"
   }
   {
-    task_id: "43"
+    task_id: "42"
     type: recharge
     task_name: get_icecream
     size: "1"
@@ -450,7 +440,7 @@
     task_type_id: "43"
   }
   {
-    task_id: "44"
+    task_id: "43"
     type: recharge
     task_name: friend_greeting
     size: "1"
@@ -460,17 +450,17 @@
     task_type_id: "44"
   }
   {
-    task_id: "45"
+    task_id: "44"
     type: recharge
     task_name: upvote
-    size: "20"
+    size: "10"
     ticket_num: "1"
     title: 点赞使者
-    content: 累计点赞他人宿舍20次
+    content: 累计点赞他人宿舍10次
     task_type_id: "45"
   }
   {
-    task_id: "46"
+    task_id: "45"
     type: recharge
     task_name: open_gift
     size: "10"
@@ -480,7 +470,7 @@
     task_type_id: "47"
   }
   {
-    task_id: "47"
+    task_id: "46"
     type: recharge
     task_name: consume_build_coin
     size: "100"
@@ -490,7 +480,7 @@
     task_type_id: "48"
   }
   {
-    task_id: "48"
+    task_id: "47"
     type: recharge
     task_name: get_core
     size: "3"

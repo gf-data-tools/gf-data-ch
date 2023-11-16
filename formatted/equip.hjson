@@ -2128,8 +2128,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_harm_rate:100,critical_percent:500
+    passive_skill: "759280"
     max_level: 10
     auto_select_id: 18001
+    group_id: "17"
     is_show: 1
     obtain_ids: "3017"
   }
@@ -2900,8 +2902,10 @@
     powerup_part: 0.55
     exclusive_rate: 3
     bonus_type: bullet_number_up:500
+    passive_skill: "759288"
     max_level: 10
     auto_select_id: 20010
+    group_id: "18"
     is_show: 1
     obtain_ids: "3"
   }
@@ -5064,7 +5068,7 @@
     max_level: 10
     auto_select_id: 18049
     is_show: 1
-    obtain_ids: "3055"
+    obtain_ids: "3055,3096"
   }
   {
     id: 176
@@ -8679,8 +8683,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:1000,hit:700,pow:1000
+    passive_skill: "759286"
     max_level: 10
     auto_select_id: 18093
+    group_id: "18"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8980,7 +8986,7 @@
     max_level: 10
     auto_select_id: 18100
     is_show: 1
-    obtain_ids: "3071"
+    obtain_ids: "3071,3096"
   }
   {
     id: 295
@@ -9140,8 +9146,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: pow:500,rate:1000
+    passive_skill: "759282"
     max_level: 10
     auto_select_id: 20050
+    group_id: "17"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -11410,5 +11418,72 @@
     auto_select_id: 20071
     is_show: 1
     obtain_ids: "3091"
+  }
+  {
+    id: 368
+    name: M43改良弹
+    description:
+      '''
+      伤害+<pow>
+      $56-1式改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "10,14"
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: Magazine_SP_56-1typeMod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20066"
+    equip_introduction: IOP为56-1式改良升级后的7.62*39mm口径钢芯普通弹，使用了最新的加工技术，使得弹头侵砌力大幅提高。
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:750
+    passive_skill: "759281"
+    max_level: 10
+    auto_select_id: 19067
+    group_id: "17"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 369
+    name: Mk948SLAP
+    description:
+      '''
+      穿甲+<armor_piercing>
+      伤害+<pow>$MG3改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "1,3"
+    armor_piercing: "270,275"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_MG3Mod
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "20088"
+    equip_introduction: 由IOP专为MG3开发的7.62mm口径脱壳穿甲弹，精度上也有了一定的提升。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:700
+    passive_skill: "759287"
+    max_level: 10
+    auto_select_id: 19068
+    group_id: "18"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

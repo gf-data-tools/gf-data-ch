@@ -52426,6 +52426,119 @@
     boss_available: 1
   }
   {
+    id: 9271
+    name: 561装备套装
+    conflict_type: 2354
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9272
+    name: 561装备1
+    conflict_type: 2354
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9273
+    name: 561装备2
+    conflict_type: 2355
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9274
+    name: 561装备3
+    conflict_type: 2355
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9275
+    name: MG3装备套装
+    conflict_type: 2356
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9276
+    name: MG3装备1
+    conflict_type: 2356
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9277
+    name: MG3装备2
+    conflict_type: 2357
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9278
+    name: MG3装备3
+    conflict_type: 2357
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9279
+    name: MG3伤害加2
+    conflict_type: 2357
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "2"
+  }
+  {
+    id: 9280
+    name: MG3暴击率
+    conflict_type: 2357
+    max_tier: 1
+    type: 806
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: "30"
+  }
+  {
+    id: 9281
+    name: 561易伤
+    conflict_type: 2357
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    damage_reduce_number: "110"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

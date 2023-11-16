@@ -13590,6 +13590,15 @@
     rank: 1
   }
   {
+    id: 2393
+    type: 5
+    arg: "1"
+    code: profilePic_Dining2023_Falcon
+    item_name: 隼-抚翎女侍
+    introduction: 隼-抚翎女侍
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -14774,6 +14783,15 @@
     id: 10709
     type: 18
     arg: "10709"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10710
+    type: 18
+    arg: "10710"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -16600,6 +16618,16 @@
     item_name: 霜天悠游箱
     introduction: 霜天悠游箱
     rank: 1
+  }
+  {
+    id: 100200
+    type: 4
+    arg: "100200"
+    code: Bumdle_October2
+    item_name: item-10100200
+    introduction: item-20100200
+    rank: 1
+    detail_introduction: item-30100200
   }
   {
     id: 110001
@@ -20171,6 +20199,36 @@
     id: 1700006
     type: 15
     arg: "1700006"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700007
+    type: 15
+    arg: "1700007"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700008
+    type: 15
+    arg: "1700008"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700009
+    type: 15
+    arg: "1700009"
     code: package_choose
     item_name: 高阶专属装备自选序标
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
