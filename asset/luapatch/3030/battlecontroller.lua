@@ -66,6 +66,7 @@ local CreateFriendlyCharacter = function(self)
 	--else
 	--	xlua.hotfix(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',nil)
 	--end
+	print("")
 	if CS.GF.Battle.BattleDynamicData.isRemoteBattle then
 		util.hotfix_ex(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',Scout)
 	else
