@@ -27653,6 +27653,216 @@
     interact_point_offset: *-2.538,2.106,-1.679|*2.975,1.252,-1.821
   }
   {
+    id: 11201
+    name: 六有茶餐厅-雪花菱格砖
+    classes: 112
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 偶尔会被投喂可乐、酱汁、炼乳……但是没关系，打扫干净了又是一块好砖！
+    code: Dining2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11202
+    name: 六有茶餐厅-一堵锈红墙
+    classes: 112
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 复古的锈红色墙壁，有种沉稳安静的气质，据说灵感来自于指挥官某套制服的颜色。
+    code: Dining2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11203
+    name: 六有茶餐厅-四屏蔬脯肴
+    classes: 112
+    type: 302
+    position: "5,1"
+    space: "10,6,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 五星级品质，大排档价格，吃了都说好！
+    code: Dining2023_deco_01
+    texture_type: "1"
+    offset: "0.000,1.543,0.000"
+    rotate: "3"
+  }
+  {
+    id: 11204
+    name: 六有茶餐厅-奶茶三明治
+    classes: 112
+    type: 202
+    position: "21,4"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 丝袜奶茶里没有丝袜，就像菠萝包里没有菠萝。
+    code: Dining2023_deco_17,Dining2023_deco_11,Dining2023_deco_12
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,0.000,0.000|-0.807,0.000,0.000|0.820,0.000,0.000"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *2.188,1.565,0.114|*-2.071,1.537,-0.285
+  }
+  {
+    id: 11205
+    name: 六有茶餐厅-煎蛋加叉烧
+    classes: 112
+    type: 202
+    position: "26,10"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 工作日午餐加一瓶快乐汽水，双倍满足！
+    code: Dining2023_deco_10,Dining2023_deco_11
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0.313,-0.250,-0.052|-0.845,0.000,0.000"
+    rotate: "2,2"
+    interact_point: "19"
+    interact_point_offset: *-2.333,1.480,0.142
+  }
+  {
+    id: 11206
+    name: 六有茶餐厅-黄油厚多士
+    classes: 112
+    type: 202
+    position: "2,7"
+    space: "8,5,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 黄油那么凉，冰淇淋那么冷，怎么会有热量？
+    code: Dining2023_deco_16,Dining2023_deco_14
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "-0.250,-0.323,-0.073|0.996,0.079,0.020"
+    rotate: "2,2"
+    interact_point: "18"
+    interact_point_offset: *2.421,1.224,0.341
+  }
+  {
+    id: 11207
+    name: 六有茶餐厅-烧麦小笼包
+    classes: 112
+    type: 202
+    position: "13,7"
+    space: "8,5,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: “食饭未呀？饮茶先啦。”听CF05吸溜着奶茶说出这句话时，RO635对字句发音表示了疑惑。
+    code: Dining2023_deco_15,Dining2023_deco_13
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0.334,-0.282,-0.063|-0.980,0.109,0.028"
+    rotate: "2,2"
+    interact_point: "19"
+    interact_point_offset: *-1.925,1.537,-0.285
+  }
+  {
+    id: 11208
+    name: 六有茶餐厅-荷叶电灯泡
+    classes: 112
+    type: 201
+    position: "25,8"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “灯罩是荷叶诶，如果电灯泡做成莲蓬样式……呃，还是算了。”某密集恐惧症患者打了个寒颤。
+    code: Dining2023_deco_02,Dining2023_deco_03
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-2.053,1.523,0.351|2.555,1.558,0.360"
+    rotate: "2,2"
+  }
+  {
+    id: 11209
+    name: 六有茶餐厅-琳琅满柜台
+    classes: 112
+    type: 201
+    position: "2,1"
+    space: "12,4,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: 小吃甜品饮料，应有尽有，格琳娜倾情推荐！等等，这四个玩偶是非卖品，请不要再捏了！
+    code: Dining2023_deco_04
+    texture_type: "1"
+    offset: "0.000,-0.167,-0.042"
+    rotate: "2"
+  }
+  {
+    id: 11210
+    name: 六有茶餐厅-每日值班表
+    classes: 112
+    type: 302
+    position: "9,8"
+    space: "4,8,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 格琳娜为了节省经费，用订购奶茶原料时商家赠送的小海报代替原定的大尺寸墙面装饰画，又加了一排小黑板。
+    code: Dining2023_deco_05
+    texture_type: "1"
+    offset: "0.000,0.417,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11211
+    name: 六有茶餐厅-高炉挂叉烧
+    classes: 112
+    type: 201
+    position: "19,0"
+    space: "13,3,1,1,0,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: 餐厅建成后，烤架只比台面略高，奈何烧鹅肥鸡频频失窃，作案者只在台面上留下一串梅花足迹，于是烤架被升到了如今的高度。
+    code: Dining2023_deco_06,Dining2023_deco_07,Dining2023_ants,Dining2023_deco_18,Dining2023_deco_19
+    texture_type: "1,1,2,1,1"
+    sorting: "0,0,0,20,20"
+    offset: "0.000,0.000,0.000|4.600,0.000,0.000|-1.083,0.838,-0.044|0.000,0.000,0.000|4.600,0.000,0.000"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 11212
+    name: 六有茶餐厅-香煞小馋猫
+    classes: 112
+    type: 302
+    position: "15,15"
+    space: "3,8,1,1,1,1"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 神秘盗窃犯试图闪入后厨，假装自己的身体100%由液体构成。
+    code: Dining2023_deco_08
+    texture_type: "1"
+    offset: "0.000,0.302,0.000"
+    rotate: "3"
+  }
+  {
+    id: 11213
+    name: 六有茶餐厅-金字招牌
+    classes: 112
+    type: 302
+    position: "19,2"
+    space: "5,4,1,1,1,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 指挥官本想定制两个巨幅招牌，在听到造价后打消了这个念头。
+    code: Dining2023_deco_09,Dining2023_lightA,Dining2023_lightB
+    texture_type: "1,2,2"
+    sorting: "0,0,0"
+    offset: "0.352,0.000,0.000|-0.658,-0.423,0.000|0.345,-0.380,0.000"
+    rotate: "3,3,3"
+  }
+  {
     id: 20000
     name: 名汤·拉王
     classes: 81
@@ -39614,6 +39824,96 @@
     rotate: "3"
   }
   {
+    id: 38901
+    name: M4A1-丝绒兔果茶
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M4A1的海报
+    code: poster_Dining2023_M4A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38902
+    name: M4 SOPMODII-疾行者芭菲
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M4 SOPMODII的海报
+    code: poster_Dining2023_M4 SOPMOD II
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38903
+    name: ST AR-15-猫头鹰拿铁
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ST AR-15的海报
+    code: poster_Dining2023_AR15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38904
+    name: M16A1-仙国精酿
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M16A1的海报
+    code: poster_Dining2023_M16A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38905
+    name: RO635-樱花霜奶昔
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: RO635的海报
+    code: poster_Dining2023_RO635
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38906
+    name: A-545-银铃花骑士
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: A-545的海报
+    code: poster_Dining2023_A545
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 38908
     name: 隼-抚翎女侍
     classes: 300
@@ -44082,6 +44382,21 @@
     decompose_gift: 100003
     description: M327的海报。
     code: poster_BattlePass_M327
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330013
+    name: HK433-偷心私厨
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HK433的海报。
+    code: poster_BattlePass_HK433
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
