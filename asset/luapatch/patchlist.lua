@@ -305,7 +305,6 @@ patch3030=
 "3030/EquipGourpEquipListController",
 "3030/HomeAdjutantController",
 "3030/GriffinEntryMessageBoxController",	
-"3030/SkillInstance",	
 }
 patch3040=
 {
