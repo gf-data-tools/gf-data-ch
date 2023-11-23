@@ -41,9 +41,14 @@ end
 local Play = function(self,bTurnToDes)
 	self:Play(bTurnToDes)
 	if not self.mFinish then
-		if self.mTargets.Count > 0 then
-			self.mTargets[0].defPos = self.mTargets[0]:GetPos()
+		if self.mSelf:GetCharacterData() ~= nil then
+			if self.mSelf:GetCharacterData().gunCode == "BossGager" then
+				if self.mTargets.Count > 0 then
+					self.mTargets[0].defPos = self.mTargets[0]:GetPos()
+				end
+			end
 		end
+		
 	end
 end
 local _HandleScrEffectEvent = function(self,pEvent)
