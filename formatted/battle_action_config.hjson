@@ -13716,6 +13716,55 @@
     creation_delay: "0,3,6,0,9"
   }
   {
+    id: 3654
+    name: 开场
+    creation_order: "10611,10612,10609,10610"
+    creation_delay: "0,0,1,1"
+  }
+  {
+    id: 3655
+    name: 史蒂文斯620换弹
+    action_order: "3"
+    action_playspeed: "100"
+    creation_order: "10596"
+  }
+  {
+    id: 3656
+    name: 再抽一次
+    creation_order: "10596"
+  }
+  {
+    id: 3657
+    name: 移动后重新部署
+    creation_order: "10609,10610"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3658
+    name: 无动作技能CUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10596"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 3671
+    name: MG15支援
+    creation_order: "10642,139,139,10642,10646,10646,10646"
+    creation_delay: "0,0,5,2,4,6,8"
+  }
+  {
+    id: 3672
+    name: 无动作技能CUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10647"
+    effect_order: "1"
+    effect_duration: "1"
+    summon_order: "432701"
+  }
+  {
     id: 4001
     name: 白色boss普攻
     action_order: attack
@@ -24363,6 +24412,99 @@
     action_playspeed: "100"
     creation_order: "9503"
     creation_delay: "3"
+  }
+  {
+    id: 8880
+    name: 520开场判断
+    creation_order: "9540,9541,9542,9543"
+    creation_delay: "0,0,0,0"
+  }
+  {
+    id: 8881
+    name: 换弹
+    action_order: "3"
+    action_playspeed: "100"
+  }
+  {
+    id: 8882
+    name: 霰弹枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9558,30"
+    creation_delay: "0,0"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 8883
+    name: 机枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "5,21,139,139,9,9,9,9,21,21,21,21,21,9545"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,5"
+  }
+  {
+    id: 8884
+    name: 620主动
+    effect_duration: "1"
+  }
+  {
+    id: 8885
+    name: 620开场判定
+    creation_order: "9546,9547,9548,9559,9560"
+    creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 8886
+    name: 620开场1
+    creation_order: "9555,9556,9557"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8887
+    name: 620开场2
+    creation_order: "9552,9553,9554"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8888
+    name: 620开场3
+    creation_order: "9549,9550,9551"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8889
+    name: 影响格8
+    creation_order: "9552"
+  }
+  {
+    id: 8890
+    name: 影响格5
+    creation_order: "9553"
+  }
+  {
+    id: 8891
+    name: 影响格2
+    creation_order: "9554"
+  }
+  {
+    id: 8892
+    name: 影响格7
+    creation_order: "9549"
+  }
+  {
+    id: 8893
+    name: 影响格4
+    creation_order: "9550"
+  }
+  {
+    id: 8894
+    name: 影响格1
+    creation_order: "9551"
+  }
+  {
+    id: 8895
+    creation_order: "573301"
+    move_order: "81601"
   }
   {
     id: 9001

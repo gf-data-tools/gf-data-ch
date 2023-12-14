@@ -83919,6 +83919,377 @@
     scale: "1"
   }
   {
+    id: 9540
+    name: 开局判断上
+    start_type: "3"
+    start_offset: "-0.8,0,4.3"
+    destination_type: "3"
+    destination_offset: "-0.8,0,4.3"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9541
+    name: 开局判断下
+    start_type: "3"
+    start_offset: "-0.8,0,-4.3"
+    destination_type: "3"
+    destination_offset: "-0.8,0,-4.3"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9542
+    name: 开局判断左
+    start_type: "3"
+    start_offset: "-3.2,0,0"
+    destination_type: "3"
+    destination_offset: "-3.2,0,0"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9543
+    name: 开局判断右
+    start_type: "3"
+    start_offset: "1.6,0,0"
+    destination_type: "3"
+    destination_offset: "1.6,0,0"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9544
+    name: fm24判断子弹
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 9545
+    name: fm24额外子弹
+    code: bullet/bullet3
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2416"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 9546
+    name: 开场第1排
+    start_type: "8"
+    start_offset: "-1.5,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-1.7"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "12"
+    buff_id: 9332:1
+    creation_type: 2
+    scale: "2,1,12"
+  }
+  {
+    id: 9547
+    name: 开场第2排
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "12"
+    buff_id: 9333:1
+    creation_type: 2
+    scale: "2,1,12"
+  }
+  {
+    id: 9548
+    name: 开场第3排
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "12"
+    buff_id: 9334:1
+    creation_type: 2
+    scale: "2,1,12"
+  }
+  {
+    id: 9549
+    name: 影响格7
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-6.3,0,2.5"
+    destination_type: "8"
+    destination_offset: "-6.3,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9550
+    name: 影响格4
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9551
+    name: 影响格1
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-6.3,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9552
+    name: 影响格8
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9553
+    name: 影响格5
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9554
+    name: 影响格2
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9555
+    name: 影响格9
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-1.5,0,2.5"
+    destination_type: "8"
+    destination_offset: "-1.5,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9556
+    name: 影响格6
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-1.5,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9557
+    name: 影响格3
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-1.5,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9558
+    name: 霰弹枪子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2417"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 9559
+    name: 开场上
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "9"
+    effect_param_2: "4"
+    buff_id: 9373:1
+    creation_type: 2
+    scale: "9,0.1,4"
+  }
+  {
+    id: 9560
+    name: 开场下
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "9"
+    effect_param_2: "4"
+    buff_id: 9374:1
+    creation_type: 2
+    scale: "9,0.1,4"
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -93485,6 +93856,366 @@
     hurt_id: "693"
     is_form_play: 1
     scale: "5,0.1,12"
+    is_orb_effect: 1
+  }
+  {
+    id: 10595
+    name: 史蒂文斯620当前排
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13,18,8"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "4,0.1,2"
+    trigger_creation_id: "10643,10644,10645"
+    trigger_creation_delay: "0,0,0"
+  }
+  {
+    id: 10596
+    name: 抽卡
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,8.4;0,0,12.6;0,0,16.8;0,0,21"
+    exist_duration: "10"
+    scale: "4,0.1,2"
+    trigger_creation_id: "10597,10598,10599,10600,10601,10602"
+    trigger_creation_delay: "0,0,0,0,0,0"
+  }
+  {
+    id: 10597
+    name: 情况1
+    code: testcube
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5230"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10598
+    name: 情况2
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-4.2"
+    destination_type: "7"
+    destination_offset: "0,0,-4.2"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5231"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10599
+    name: 情况3
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-8.4"
+    destination_type: "7"
+    destination_offset: "0,0,-8.4"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5232"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10600
+    name: 情况4
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-12.6"
+    destination_type: "7"
+    destination_offset: "0,0,-12.6"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5233"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10601
+    name: 情况5
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-16.8"
+    destination_type: "7"
+    destination_offset: "0,0,-16.8"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5234"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10602
+    name: 情况6
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-21"
+    destination_type: "7"
+    destination_offset: "0,0,-21"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5235"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10603
+    name: 影响格1
+    code: testcube
+    start_type: "8"
+    start_offset: "-6.3,0,2.5"
+    destination_type: "8"
+    destination_offset: "-6.3,0,2.5"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10604
+    name: 影响格2
+    code: testcube
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10605
+    name: 影响格3
+    code: testcube
+    start_type: "8"
+    start_offset: "-6.3,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-5.9"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10606
+    name: 影响格4
+    code: testcube
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10607
+    name: 影响格5
+    code: testcube
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10608
+    name: 影响格6
+    code: testcube
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10609
+    name: 史蒂文斯620第二排
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "7,12,17"
+    buff_id: "5245"
+    buff_cd: "5"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10610
+    name: 史蒂文斯620第三排
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "6,11,16"
+    buff_id: "5245"
+    buff_cd: "5"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10611
+    name: 第二排监视者
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    exist_duration: "10"
+    effect_type: 1
+    scale: "4,0.1,2"
+    summoner_order: "1683"
+  }
+  {
+    id: 10612
+    name: 第三排监视者
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    exist_duration: "10"
+    effect_type: 1
+    scale: "4,0.1,2"
+    summoner_order: "1684"
+  }
+  {
+    id: 10642
+    name: 机枪子弹
+    code: bullet/bullet2
+    start_type: "3"
+    start_offset: "0,10,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    rotate: "-45,0,-45"
+    effect_area: 1
+    hurt_id: "698"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10643
+    name: 当前排特效
+    code: testcube
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "999999"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10644
+    name: 当前排特效
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,4.2"
+    destination_type: "7"
+    destination_offset: "0,0,4.2"
+    exist_duration: "999999"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10645
+    name: 当前排特效
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-4.2"
+    destination_type: "7"
+    destination_offset: "0,0,-4.2"
+    exist_duration: "999999"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10646
+    name: 机枪子弹
+    code: bullet/bullet2
+    start_type: "3"
+    start_offset: "0,10,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    rotate: "-45,0,-45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10647
+    name: 边缘指示物
+    start_type: "3"
+    start_offset: "0,10,0"
+    destination_type: "3"
+    destination_offset: "0,10,0"
+    is_form_offset: 1
+    exist_duration: *101
+    scale: "1"
+    edge_indicator: Pics/Squads/MG15_Skill:2
     is_orb_effect: 1
   }
   {

@@ -14897,6 +14897,15 @@
     rank: 1
   }
   {
+    id: 10711
+    type: 18
+    arg: "10711"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
     id: 100001
     type: 4
     arg: "100001"
@@ -20519,6 +20528,36 @@
     sort: -1
   }
   {
+    id: 1700010
+    type: 15
+    arg: "1700010"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700011
+    type: 15
+    arg: "1700011"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700012
+    type: 15
+    arg: "1700012"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1800001
     type: 15
     arg: "1800001"
@@ -20566,6 +20605,26 @@
     item_name: 普通级组件箱
     introduction: 打开后可以获取组件
     rank: 2
+    sort: -1
+  }
+  {
+    id: 1800006
+    type: 15
+    arg: "1800006"
+    code: package_random
+    item_name: 精密级重武通用组件箱
+    introduction: 打开后必定获取5星重武器/通用组件
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800007
+    type: 15
+    arg: "1800007"
+    code: package_random
+    item_name: 精密级轻武通用组件箱
+    introduction: 打开后必定获取5星轻武器/通用组件
+    rank: 5
     sort: -1
   }
   {
