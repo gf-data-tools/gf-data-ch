@@ -2674,6 +2674,7 @@
     order: 1
     rarity: 5
     filter_type: "2"
+    event_id: 2964
   }
   {
     id: 186
@@ -2686,6 +2687,7 @@
     order: 1
     rarity: 4
     filter_type: "2"
+    event_id: 2965
   }
   {
     id: 187
@@ -4114,6 +4116,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 2967
   }
   {
     id: 302
@@ -4127,6 +4130,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 2968
   }
   {
     id: 303
@@ -17590,6 +17594,50 @@
     skin: 9008
   }
   {
+    id: 1406
+    item_id: 2406
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_M950A
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1407
+    item_id: 2407
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_M950A
+    order: 1
+    rarity: 5
+    skin: 30014
+  }
+  {
+    id: 1408
+    item_id: 2408
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_friendmall_A545
+    order: 1
+    rarity: 5
+    event_id: 2966
+  }
+  {
+    id: 1409
+    item_id: 2409
+    sub_type: 2
+    gem: 320
+    item_ids: 508-8000
+    code: card_friendmall_A545
+    order: 1
+    rarity: 5
+    event_id: 2963
+  }
+  {
     id: 100001
     item_id: 200001
     sub_type: 4
@@ -17910,5 +17958,26 @@
     rarity: 5
     filter_type: "5"
     event_id: 2948
+  }
+  {
+    id: 100036
+    item_id: 200036
+    sub_type: 4
+    code: profileFrame_BattlePass_M950A
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100037
+    item_id: 200037
+    sub_type: 4
+    gem: 200
+    item_ids: 508-5000
+    code: profileFrame_friendmall_A545
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    event_id: 2969
   }
 ]

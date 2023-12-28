@@ -84291,6 +84291,23 @@
     scale: "9,0.1,4"
   }
   {
+    id: 9567
+    name: 步枪子弹k31
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2424"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
