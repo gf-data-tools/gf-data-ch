@@ -32512,4 +32512,267 @@
     delay: 260
     voice_code: MOOD2
   }
+  {
+    id: 1000401
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1000402
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    voice: GUN|ZB26|MOOD1
+    name: 特殊待机1
+    camera: 1
+    delay: 2030
+  }
+  {
+    id: 1000403
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    voice: GUN|ZB26|LOWMOOD
+    name: 特殊待机2
+    camera: 1
+    delay: 4330
+  }
+  {
+    id: 1000404
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|ZB26|DIALOGUE1
+    text: GUN|ZB26|DIALOGUE1
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 1000405
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|ZB26|TIP
+    text: GUN|ZB26|TIP
+    name: 交互2
+    camera: 1
+    voice_code: TIP
+  }
+  {
+    id: 1000406
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|ZB26|PHRASE
+    text: GUN|ZB26|PHRASE
+    name: 交互3
+    camera: 1
+    voice_code: PHRASE
+  }
+  {
+    id: 1000407
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|ZB26|FEED
+    text: GUN|ZB26|FEED
+    name: 交互4
+    camera: 1
+    delay: 2960
+    voice_code: FEED
+  }
+  {
+    id: 1000408
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|ZB26|OPERATIONOVER
+    text: GUN|ZB26|OPERATIONOVER
+    name: 交互5
+    camera: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1000409
+    type: 200
+    motion_name: motions/touch_6.mtn
+    touch_area: hand
+    probability: 1
+    voice: GUN|ZB26|NEWYEAR
+    text: GUN|ZB26|NEWYEAR
+    name: 交互5
+    camera: 1
+    voice_code: NEWYEAR
+  }
+  {
+    id: 1000410
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|ZB26|DIALOGUEWEDDING
+    text: GUN|ZB26|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1000411
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|ZB26|SOULCONTRACT
+    text: GUN|ZB26|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1000412
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    voice: GUN|ZB26|MOOD2
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1000413
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|ZB26|LOADING
+    text: GUN|ZB26|LOADING
+    name: 上线响应
+    camera: 1
+    delay: 500
+    voice_code: LOADING
+  }
+  {
+    id: 1000414
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1000415
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|ZB26|NEWYEAR
+    text: GUN|ZB26|NEWYEAR
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: NEWYEAR
+  }
+  {
+    id: 1000416
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|ZB26|DIALOGUE2
+    text: GUN|ZB26|DIALOGUE2
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1000417
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: jiubei
+    probability: 1
+    voice: GUN|ZB26|OPERATIONBEGIN
+    text: GUN|ZB26|OPERATIONBEGIN
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 5200
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 1000418
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: shengzi
+    probability: 1
+    voice: GUN|ZB26|FIX
+    text: GUN|ZB26|FIX
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    delay: 3500
+    voice_code: FIX
+  }
+  {
+    id: 1000419
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|ZB26|BREAK
+    text: GUN|ZB26|BREAK
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1000420
+    type: 402
+    motion_name: motions/broken_7.mtn
+    touch_area: beijingguan
+    probability: 1
+    name: 关闭背景
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 1000421
+    type: 402
+    motion_name: motions/broken_8.mtn
+    touch_area: beijingkai
+    probability: 1
+    name: 显示背景
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 1000422
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|ZB26|LOADING
+    text: GUN|ZB26|LOADING
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 6000
+    voice_code: LOADING
+  }
+  {
+    id: 1000423
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
 ]
