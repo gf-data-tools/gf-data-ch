@@ -53480,6 +53480,106 @@
     boss_available: 1
   }
   {
+    id: 9403
+    name: g3装备1
+    conflict_type: 2403
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9404
+    name: g3装备2
+    conflict_type: 2403
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9405
+    name: g3套装
+    conflict_type: 2404
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9406
+    name: m1911装备1
+    conflict_type: 2404
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9407
+    name: m1911装备2
+    conflict_type: 2405
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9408
+    name: m1911套装
+    conflict_type: 2405
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9409
+    name: G3提升伤害技能
+    conflict_type: 2406
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "759314"
+  }
+  {
+    id: 9410
+    name: G3提升伤害
+    conflict_type: 2406
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: "110"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9411
+    name: 火力下降
+    description: 火力下降
+    conflict_type: 2406
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    pow_number: "70"
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

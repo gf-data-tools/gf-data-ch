@@ -4449,6 +4449,8 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1
+    buff_id_target: 9411:1000005508
+    buff_rate: "100"
     hit_type: 1
   }
   {
@@ -8465,6 +8467,28 @@
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005490"
+  }
+  {
+    id: 2426
+    description: 榴弹g3
+    damage_ratio: *201
+    is_critical_hit: 1000005497
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_self: 9409:1000005496
+  }
+  {
+    id: 2427
+    description: 榴弹g3
+    damage_ratio: *201
+    is_critical_hit: 1000005497
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
   }
   {
     id: 2479

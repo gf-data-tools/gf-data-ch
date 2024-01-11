@@ -14445,7 +14445,7 @@
     arg: "7045"
     code: qjyd_20230901
     item_name: 倾心恋慕
-    introduction: 并非只有幻想中才有一眼望不到边的花海，也并非只有幻想中才能走进这样的多彩世界，它也在梦境之外，在你的身边。
+    introduction: 如果看到对方的第0.03秒，视野中突然充满美妙的光芒，那就是名为一见钟情的时刻。
     rank: 1
   }
   {
@@ -14454,7 +14454,7 @@
     arg: "7046"
     code: qjyd_20230902
     item_name: 漂浮梦境
-    introduction: 最简单的数字化情感隐藏着最纯粹的心意，8位像素便是它所能为你带来的全部——爱来自心智底层。
+    introduction: 并非只有幻想中才有一眼望不到边的花海，也并非只有幻想中才能走进这样的多彩世界，它也在梦境之外，在你的身边。
     rank: 1
   }
   {
@@ -14463,7 +14463,7 @@
     arg: "7047"
     code: qjyd_20230903
     item_name: 律动次元
-    introduction: 并非只有幻想中才有一眼望不到边的花海，也并非只有幻想中才能走进这样的多彩世界，它也在梦境之外，在你的身边。
+    introduction: 最简单的数字化情感隐藏着最纯粹的心意，8位像素便是它所能为你带来的全部——爱来自心智底层。
     rank: 1
   }
   {
@@ -15062,6 +15062,15 @@
     id: 10711
     type: 18
     arg: "10711"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10712
+    type: 18
+    arg: "10712"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -20805,6 +20814,36 @@
     id: 1700012
     type: 15
     arg: "1700012"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700013
+    type: 15
+    arg: "1700013"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700014
+    type: 15
+    arg: "1700014"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700015
+    type: 15
+    arg: "1700015"
     code: package_choose
     item_name: 高阶专属装备自选序标
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备

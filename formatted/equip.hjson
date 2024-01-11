@@ -2699,8 +2699,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:550
+    passive_skill: "759310"
     max_level: 10
     auto_select_id: 19004
+    group_id: "22"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -3413,8 +3415,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "759306"
     max_level: 10
     auto_select_id: 18019
+    group_id: "21"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -5836,7 +5840,7 @@
     max_level: 10
     auto_select_id: 18060
     is_show: 1
-    obtain_ids: "3058"
+    obtain_ids: "3058,3096"
   }
   {
     id: 199
@@ -8060,7 +8064,7 @@
     max_level: 10
     auto_select_id: 18081
     is_show: 1
-    obtain_ids: "3063"
+    obtain_ids: "3063,3096"
   }
   {
     id: 267
@@ -11624,5 +11628,75 @@
     auto_select_id: 19071
     is_show: 1
     obtain_ids: "3101"
+  }
+  {
+    id: 374
+    name: 多功能头饰
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>$G3改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "5,8"
+    rate: "-5,-1"
+    critical_harm_rate: "18,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_G3Mod
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "20063"
+    equip_introduction: G3一直使用的立体头饰，似乎是人形的接收装置，请勿拆卸！
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,critical_harm_rate:400
+    passive_skill: "759307"
+    max_level: 10
+    auto_select_id: 20073
+    group_id: "21"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 375
+    name: PT瞄准具
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      命中+<hit>$M1911改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "10,15"
+    critical_percent: "12,15"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: Accessories_SP_M1911Mod
+    develop_duration: 3540
+    company: IOP
+    fit_guns: "20002"
+    equip_introduction: 在经典的设计上做了全新的升级，即使在较低的光照下，也能帮助M1911迅速瞄准目标。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:700,critical_percent:1000
+    passive_skill: "759311"
+    max_level: 10
+    auto_select_id: 18116
+    group_id: "22"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]
