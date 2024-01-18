@@ -707,7 +707,7 @@
   {
     id: 1000
     type: 1
-    child_ids: "1001,1002,1003,1004,1005,1006"
+    child_ids: "1001,1002,1003,1004,1005,1006,1007"
     title: 梯队编成
     sub_title: 合理的梯队编成可以最大化您的梯队实力。
     code: manual_formation
@@ -756,6 +756,13 @@
     title: 编队与受击
     sub_title: 人形在梯队中的顺序会影响人形的受击优先级，需要多加注意。
     content: 4514bc465095ece6_draw_230906002.jpg,47cf2387d017c225_draw_230906001.jpg
+  }
+  {
+    id: 1007
+    type: 2
+    title: 分享编队
+    sub_title: 分享编队给其他指挥官，或是快速套用其他指挥官分享的编队。
+    content: c5d13b8506729866_draw_240103010.jpg,4d65f19804d1ebbf_draw_240103011.jpg
   }
   {
     id: 1100
@@ -1484,7 +1491,7 @@
     type: 2
     title: 代理作战
     sub_title: 格里芬AI代理作战系统试运行中。
-    content: e3f76b439e9ad47a_draw_230328018.jpg
+    content: e3f76b439e9ad47a_draw_230328018.jpg,b246b0c6a6660b2d_draw_240103012.jpg,272f48b7cea6f1e1_draw_240103013.jpg
     function_control_id: 29
   }
   {
@@ -1500,13 +1507,13 @@
     type: 2
     title: 装甲突击
     sub_title: 完成结晶带难度的首领点位可以获得装甲突击关卡挑战资格。
-    content: cdebe7620667f437_draw_230905002.jpg,b9860d460f1cf7a7_draw_230905001.jpg,867bedca8deeb7bf_draw_230831002.jpg,7fc519511da81ade_draw_230831003.jpg
+    content: cdebe7620667f437_draw_230905002.jpg,b9860d460f1cf7a7_draw_230905001.jpg,867bedca8deeb7bf_draw_230831002.jpg,7fc519511da81ade_draw_230831003.jpg,97f81c5644abc8be_draw_231201006.jpg
     function_control_id: 30
   }
   {
     id: 2200
     type: 1
-    child_ids: "2201,2202,2203,2204,2205,2206,2207,2208"
+    child_ids: "2201,2202,2203,2204,2205,2206,2207,2208,2209"
     title: 机动装甲
     sub_title: 为了应对高威胁敌对势力的进攻风险，格里芬已被授权可以动用机动装甲。
     code: manual_vehicle
@@ -1574,6 +1581,14 @@
     title: 独特：战术人型机甲
     sub_title: 战术人形机甲的特殊功能介绍。
     content: 634c1601f641e756_draw_230905020.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2209
+    type: 2
+    title: 装甲风格商城
+    sub_title: 在装甲风格商城自定义您的机动装甲风格。
+    content: 5bd310ddc8837ed2_draw_240103005.jpg,2a83b037c0df84ae_draw_240103006.jpg,e624b8a80c7cb7de_draw_240103007.jpg
     function_control_id: 30
   }
 ]

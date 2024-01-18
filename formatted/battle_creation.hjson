@@ -62152,6 +62152,88 @@
     scale: "1"
   }
   {
+    id: 6144
+    name: 霰弹枪子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "3022"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 6145
+    name: 霰弹枪枪口火光
+    code: ShotGun/Fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "40"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 6146
+    name: 导弹设施枪口火花
+    code: Zaij_Grenade_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+    sound_order: BT_squad_bazooka
+  }
+  {
+    id: 6147
+    name: 迫击炮
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 650
+    speed: 2400
+    spin_velocity: -240
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "6148,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_mortar
+  }
+  {
+    id: 6148
+    name: 迫击炮结算
+    code: Zaij_Cannon_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "3023"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
+  }
+  {
     id: 8001
     name: 小怪近战普攻
     start_type: "1"

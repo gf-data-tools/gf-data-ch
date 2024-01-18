@@ -162,6 +162,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "AutoBattleControlSwitch",
+        "parameter_type": "int",
+        "parameter_value": "1",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "auto_battle_protect",
         "parameter_type": "string",
         "parameter_value": "10",
@@ -315,6 +321,12 @@
         "parameter_name": "capsule_overflow_threthod",
         "parameter_type": "int",
         "parameter_value": "10",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "career_quest_version",
+        "parameter_type": "int",
+        "parameter_value": "0",
         "client_require": "1"
     },
     {
@@ -1548,6 +1560,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "Live2dSceneMotionConfig",
+        "parameter_type": "string",
+        "parameter_value": "HK433_8502",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "live_efficien",
         "parameter_type": "float",
         "parameter_value": "0.5",
@@ -2502,6 +2520,12 @@
         "client_require": "1"
     },
     {
+        "parameter_name": "simulate_sweeping",
+        "parameter_type": "string",
+        "parameter_value": "0",
+        "client_require": "1"
+    },
+    {
         "parameter_name": "sim_energy_recover_max",
         "parameter_type": "int",
         "parameter_value": "12",
@@ -2955,6 +2979,12 @@
         "parameter_name": "stamina_recover_max",
         "parameter_type": "int",
         "parameter_value": "6",
+        "client_require": "1"
+    },
+    {
+        "parameter_name": "State_Live2D_Scale",
+        "parameter_type": "int",
+        "parameter_value": "1",
         "client_require": "1"
     },
     {

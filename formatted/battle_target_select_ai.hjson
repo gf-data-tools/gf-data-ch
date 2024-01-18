@@ -4441,6 +4441,26 @@
     buff_trigger_type: 18
   }
   {
+    id: 1016
+    description: 3个最近敌方目标
+    target_type: 1
+    target_number: 3
+    select_order: "9"
+    list_ranking: 1
+  }
+  {
+    id: 1017
+    description: 未标记最高血量
+    target_type: 1
+    target_number: 1
+    select_order: "1"
+    is_ascend_order: "1"
+    list_ranking: 1
+    target_buff_id: 15143
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
     id: 2000
     description: 煤气罐找人
     target_type: 2

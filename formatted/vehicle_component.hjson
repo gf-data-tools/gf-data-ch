@@ -12,10 +12,10 @@
     search_range: 20
     skill: 1:220106
     h_weapon_ratio: 100
-    hit_ratio: 100
-    atk_speed_ratio: 100
     reload_ratio: 100
+    atk_speed_ratio: 100
     precision_ratio: 100
+    hit_ratio: 100
     att_roll: 1001
     bonus_type: h_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
     exp_provide: 200
@@ -39,10 +39,10 @@
     skill: 1:220201
     skill_group: "220158,220108"
     l_weapon_ratio: 100
-    hit_ratio: 100
-    atk_speed_ratio: 100
     reload_ratio: 100
+    atk_speed_ratio: 100
     precision_ratio: 100
+    hit_ratio: 100
     obtain_ids: "3,3001"
     att_roll: 1002
     bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
@@ -63,10 +63,10 @@
     search_range: 20
     skill: 1:220140
     h_weapon_ratio: 100
-    hit_ratio: 100
-    atk_speed_ratio: 100
     reload_ratio: 100
+    atk_speed_ratio: 100
     precision_ratio: 100
+    hit_ratio: 100
     att_roll: 1001
     bonus_type: h_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
     exp_provide: 200
@@ -90,10 +90,10 @@
     skill: 1:220141
     skill_group: "220143,220142,220144,220145,220146,220149,220224,220225"
     l_weapon_ratio: 100
-    hit_ratio: 100
-    atk_speed_ratio: 100
     reload_ratio: 100
+    atk_speed_ratio: 100
     precision_ratio: 100
+    hit_ratio: 100
     obtain_ids: "3,3001"
     att_roll: 1002
     bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
@@ -115,10 +115,10 @@
     normal_attack: 900107
     skill: 1:220150
     l_weapon_ratio: 100
-    hit_ratio: 100
-    atk_speed_ratio: 100
     reload_ratio: 100
+    atk_speed_ratio: 100
     precision_ratio: 100
+    hit_ratio: 100
     obtain_ids: "3,3001"
     att_roll: 1002
     bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
@@ -338,8 +338,8 @@
     normal_attack: 770001
     skill: 1:770002
     l_weapon_ratio: 60
-    hit_ratio: 90
     atk_speed_ratio: 100
+    hit_ratio: 90
     light_damage: 25
     atk_speed: 3
     is_show: 1
@@ -361,8 +361,8 @@
     normal_attack: 770003
     skill: 1:770004
     l_weapon_ratio: 160
-    hit_ratio: 200
     atk_speed_ratio: 35
+    hit_ratio: 200
     light_damage: 50
     is_show: 1
     att_roll: 2002
@@ -384,8 +384,8 @@
     skill: 1:770009
     skill_group: "770010,770009"
     l_weapon_ratio: 70
-    hit_ratio: 90
     atk_speed_ratio: 90
+    hit_ratio: 90
     light_damage: 25
     atk_speed: 3
     is_show: 1
@@ -408,8 +408,8 @@
     skill: 1:220205
     skill_group: "220207,220208,220219"
     l_weapon_ratio: 150
-    hit_ratio: 60
     atk_speed_ratio: 120
+    hit_ratio: 60
     light_damage: 25
     hit: 6
     is_show: 1
@@ -451,8 +451,8 @@
     normal_attack: 770053
     skill: 1:770054
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 100
+    hit_ratio: 100
     light_damage: 25
     atk_speed: 3
     is_show: 1
@@ -474,8 +474,8 @@
     normal_attack: 770055
     skill: 1:770056
     l_weapon_ratio: 110
-    hit_ratio: 80
     atk_speed_ratio: 60
+    hit_ratio: 80
     light_damage: 30
     atk_speed: 3
     is_show: 1
@@ -827,8 +827,8 @@
     skill: 1:770057
     skill_group: "770058,770059,770061"
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 100
+    hit_ratio: 100
     light_damage: 20
     atk_speed: 3
     hit: 5
@@ -850,8 +850,8 @@
     normal_attack: 900107
     skill: 1:770071
     reload: 5
-    precision: 17
     atk_speed: 3
+    precision: 17
     hit: 6
     is_show: 1
     att_roll: 4002
@@ -912,8 +912,8 @@
     normal_attack: 220210
     skill: 1:220209
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 80
+    hit_ratio: 100
     atk_speed: 4
     hit: 7
     is_show: 1
@@ -956,8 +956,8 @@
     skill: 1:220211
     skill_group: "220213"
     l_weapon_ratio: 120
-    hit_ratio: 100
     atk_speed_ratio: 60
+    hit_ratio: 100
     light_damage: 30
     atk_speed: 4
     is_show: 1
@@ -983,6 +983,119 @@
     is_show: 1
     att_roll: 4001
     bonus_type: hit:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1130
+    name: 车载霰弹枪
+    description: 对最近的3个目标造成伤害有有概率击退目标，5范围内每有一组敌人伤害命中提升
+    rank: 5
+    code: ShotgunVehicle
+    type: 2
+    group: 144
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770128
+    skill: 1:770129
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 25
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1131
+    name: 小型迫击炮
+    description: 发射迫击炮对半径2范围内敌人造成1倍杀伤和1倍破防。
+    rank: 5
+    code: MortarVehicle
+    type: 1
+    group: 145
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:770133
+    skill_group: "220171,770137"
+    h_weapon_ratio: 80
+    reload_ratio: 50
+    precision_ratio: 50
+    heavy_damage: 25
+    reload: 5
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 1132
+    name: 镭射测距仪
+    description: 被动：重武器攻击距离增加。每隔一段时间标记一个敌方目标，优先未被标记血量最高单位，大幅降低其闪避
+    rank: 5
+    code: LaserRangefinder
+    type: 3
+    group: 146
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770134
+    heavy_damage: 25
+    reload: 5
+    precision: 17
+    is_show: 1
+    att_roll: 4003
+    bonus_type: heavy_damage:1000,reload:1000,precision:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1133
+    name: 迷彩网
+    description: 地图技能：自身3回合不会被（非远程攻击）索敌
+    rank: 5
+    code: CamouflageNet
+    type: 4
+    group: 147
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9982
+    armor: 2
+    dodge: 4
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1134
+    name: 顶部格栅装甲
+    description: 被动：开场后获得保护，受到的伤害最高不超过N点，受到N次伤害后效果消失。主动：重新获得该效果
+    rank: 5
+    code: GrilleArmor
+    type: 4
+    group: 148
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770131
+    skill_group: "770130,770132,770136,770135"
+    armor: 4
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
     exp_provide: 1000
     custom_type: "1003"
   }
@@ -1199,8 +1312,8 @@
     normal_attack: 770001
     skill: 1:770002
     l_weapon_ratio: 60
-    hit_ratio: 90
     atk_speed_ratio: 100
+    hit_ratio: 90
     light_damage: 20
     atk_speed: 3
     is_show: 1
@@ -1222,8 +1335,8 @@
     normal_attack: 770003
     skill: 1:770004
     l_weapon_ratio: 160
-    hit_ratio: 200
     atk_speed_ratio: 35
+    hit_ratio: 200
     light_damage: 40
     is_show: 1
     att_roll: 2002
@@ -1245,8 +1358,8 @@
     skill: 1:770009
     skill_group: "770010,770009"
     l_weapon_ratio: 70
-    hit_ratio: 90
     atk_speed_ratio: 90
+    hit_ratio: 90
     light_damage: 20
     atk_speed: 3
     is_show: 1
@@ -1269,8 +1382,8 @@
     skill: 1:220205
     skill_group: "220207,220208,220219"
     l_weapon_ratio: 150
-    hit_ratio: 60
     atk_speed_ratio: 120
+    hit_ratio: 60
     light_damage: 20
     hit: 5
     is_show: 1
@@ -1312,8 +1425,8 @@
     normal_attack: 770053
     skill: 1:770054
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 100
+    hit_ratio: 100
     light_damage: 20
     atk_speed: 3
     is_show: 1
@@ -1335,8 +1448,8 @@
     normal_attack: 770055
     skill: 1:770056
     l_weapon_ratio: 110
-    hit_ratio: 80
     atk_speed_ratio: 60
+    hit_ratio: 80
     light_damage: 25
     atk_speed: 2
     is_show: 1
@@ -1688,8 +1801,8 @@
     skill: 1:770057
     skill_group: "770058,770059,770061"
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 100
+    hit_ratio: 100
     light_damage: 18
     atk_speed: 2
     hit: 4
@@ -1711,8 +1824,8 @@
     normal_attack: 900107
     skill: 1:770071
     reload: 4
-    precision: 14
     atk_speed: 3
+    precision: 14
     hit: 5
     is_show: 1
     att_roll: 4002
@@ -1773,8 +1886,8 @@
     normal_attack: 220210
     skill: 1:220209
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 80
+    hit_ratio: 100
     atk_speed: 3
     hit: 6
     is_show: 1
@@ -1817,8 +1930,8 @@
     skill: 1:220211
     skill_group: "220213"
     l_weapon_ratio: 120
-    hit_ratio: 100
     atk_speed_ratio: 60
+    hit_ratio: 100
     light_damage: 25
     atk_speed: 3
     is_show: 1
@@ -1845,6 +1958,119 @@
     att_roll: 4001
     bonus_type: hit:1000,dodge:1000
     exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2130
+    name: 车载霰弹枪
+    description: 对最近的3个目标造成伤害有有概率击退目标，5范围内每有一组敌人伤害命中提升
+    rank: 4
+    code: ShotgunVehicle
+    type: 2
+    group: 144
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770128
+    skill: 1:770129
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 20
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 2131
+    name: 小型迫击炮
+    description: 发射迫击炮对半径2范围内敌人造成1倍杀伤和1倍破防。
+    rank: 4
+    code: MortarVehicle
+    type: 1
+    group: 145
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:770133
+    skill_group: "220171,770137"
+    h_weapon_ratio: 80
+    reload_ratio: 50
+    precision_ratio: 50
+    heavy_damage: 20
+    reload: 4
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 2132
+    name: 镭射测距仪
+    description: 被动：重武器攻击距离增加。每隔一段时间标记一个敌方目标，优先未被标记血量最高单位，大幅降低其闪避
+    rank: 4
+    code: LaserRangefinder
+    type: 3
+    group: 146
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770134
+    heavy_damage: 20
+    reload: 4
+    precision: 14
+    is_show: 1
+    att_roll: 4003
+    bonus_type: heavy_damage:1000,reload:1000,precision:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 2133
+    name: 迷彩网
+    description: 地图技能：自身3回合不会被（非远程攻击）索敌
+    rank: 4
+    code: CamouflageNet
+    type: 4
+    group: 147
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9982
+    armor: 2
+    dodge: 3
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 2134
+    name: 顶部格栅装甲
+    description: 被动：开场后获得保护，受到的伤害最高不超过N点，受到N次伤害后效果消失。主动：重新获得该效果
+    rank: 4
+    code: GrilleArmor
+    type: 4
+    group: 148
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770131
+    skill_group: "770130,770132,770136,770135"
+    armor: 3
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
     custom_type: "1003"
   }
   {
@@ -2060,8 +2286,8 @@
     normal_attack: 770001
     skill: 1:770002
     l_weapon_ratio: 60
-    hit_ratio: 90
     atk_speed_ratio: 100
+    hit_ratio: 90
     light_damage: 18
     atk_speed: 2
     is_show: 1
@@ -2083,8 +2309,8 @@
     normal_attack: 770003
     skill: 1:770004
     l_weapon_ratio: 160
-    hit_ratio: 200
     atk_speed_ratio: 35
+    hit_ratio: 200
     light_damage: 33
     is_show: 1
     att_roll: 2002
@@ -2106,8 +2332,8 @@
     skill: 1:770009
     skill_group: "770010,770009"
     l_weapon_ratio: 70
-    hit_ratio: 90
     atk_speed_ratio: 90
+    hit_ratio: 90
     light_damage: 18
     atk_speed: 2
     is_show: 1
@@ -2130,8 +2356,8 @@
     skill: 1:220205
     skill_group: "220207,220208,220219"
     l_weapon_ratio: 150
-    hit_ratio: 60
     atk_speed_ratio: 120
+    hit_ratio: 60
     light_damage: 18
     hit: 4
     is_show: 1
@@ -2173,8 +2399,8 @@
     normal_attack: 770053
     skill: 1:770054
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 100
+    hit_ratio: 100
     light_damage: 18
     atk_speed: 2
     is_show: 1
@@ -2196,8 +2422,8 @@
     normal_attack: 770055
     skill: 1:770056
     l_weapon_ratio: 110
-    hit_ratio: 80
     atk_speed_ratio: 60
+    hit_ratio: 80
     light_damage: 20
     atk_speed: 2
     is_show: 1
@@ -2549,8 +2775,8 @@
     skill: 1:770057
     skill_group: "770058,770059,770061"
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 100
+    hit_ratio: 100
     light_damage: 15
     atk_speed: 2
     hit: 4
@@ -2572,8 +2798,8 @@
     normal_attack: 900107
     skill: 1:770071
     reload: 3
-    precision: 12
     atk_speed: 2
+    precision: 12
     hit: 4
     is_show: 1
     att_roll: 4002
@@ -2634,8 +2860,8 @@
     normal_attack: 220210
     skill: 1:220209
     l_weapon_ratio: 60
-    hit_ratio: 100
     atk_speed_ratio: 80
+    hit_ratio: 100
     atk_speed: 3
     hit: 5
     is_show: 1
@@ -2678,8 +2904,8 @@
     skill: 1:220211
     skill_group: "220213"
     l_weapon_ratio: 120
-    hit_ratio: 100
     atk_speed_ratio: 60
+    hit_ratio: 100
     light_damage: 20
     atk_speed: 3
     is_show: 1
@@ -2706,6 +2932,119 @@
     att_roll: 4001
     bonus_type: hit:1000,dodge:1000
     exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3130
+    name: 车载霰弹枪
+    description: 对最近的3个目标造成伤害有有概率击退目标，5范围内每有一组敌人伤害命中提升
+    rank: 3
+    code: ShotgunVehicle
+    type: 2
+    group: 144
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770128
+    skill: 1:770129
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 18
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 3131
+    name: 小型迫击炮
+    description: 发射迫击炮对半径2范围内敌人造成1倍杀伤和1倍破防。
+    rank: 3
+    code: MortarVehicle
+    type: 1
+    group: 145
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:770133
+    skill_group: "220171,770137"
+    h_weapon_ratio: 80
+    reload_ratio: 50
+    precision_ratio: 50
+    heavy_damage: 18
+    reload: 3
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 3132
+    name: 镭射测距仪
+    description: 被动：重武器攻击距离增加。每隔一段时间标记一个敌方目标，优先未被标记血量最高单位，大幅降低其闪避
+    rank: 3
+    code: LaserRangefinder
+    type: 3
+    group: 146
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770134
+    heavy_damage: 18
+    reload: 3
+    precision: 12
+    is_show: 1
+    att_roll: 4003
+    bonus_type: heavy_damage:1000,reload:1000,precision:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 3133
+    name: 迷彩网
+    description: 地图技能：自身3回合不会被（非远程攻击）索敌
+    rank: 3
+    code: CamouflageNet
+    type: 4
+    group: 147
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9982
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 3134
+    name: 顶部格栅装甲
+    description: 被动：开场后获得保护，受到的伤害最高不超过N点，受到N次伤害后效果消失。主动：重新获得该效果
+    rank: 3
+    code: GrilleArmor
+    type: 4
+    group: 148
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770131
+    skill_group: "770130,770132,770136,770135"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
     custom_type: "1003"
   }
 ]

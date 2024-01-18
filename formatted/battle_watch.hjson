@@ -421,6 +421,23 @@
     activation_skills: "770087"
   }
   {
+    id: 3008
+    description: 受伤监视
+    record_chara1: 1000009070
+    watch_trigger_type: 2
+    activation_watch_trigger: 2008
+    activation_skills: "770132"
+    record_watch_trigger: 2010
+    new_record_chara1: 1000009071
+  }
+  {
+    id: 3009
+    description: 受伤监视记录次数
+    watch_trigger_type: 2
+    activation_watch_trigger: 2009
+    activation_skills: "770136"
+  }
+  {
     id: 5001
     description: 曦和监视
     record_chara1: 1000002118
