@@ -55355,6 +55355,27 @@
     buff_description: HitBuffText
   }
   {
+    id: 15150
+    name: 解放者套装
+    conflict_type: 3044
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 15151
+    name: 解放者套装暴击
+    conflict_type: 3044
+    max_tier: 1
+    type: 806
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: "10000"
+  }
+  {
     id: 37001
     name: 增伤标记
     description: 增伤标记_用于统计debuff

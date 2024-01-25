@@ -11740,4 +11740,140 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 376
+    name: 战术防卫盾
+    description:
+      '''
+      回避+<dodge>
+      护甲+<armor>技能增强$解放者专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "1,2"
+    armor: "4,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_Liberator
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "283"
+    equip_introduction: equip-30000376
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:400
+    passive_skill: "759316"
+    max_level: 10
+    auto_select_id: 20074
+    is_show: 1
+    obtain_ids: "3102"
+    sp_description: equip-40000376
+    description_skill: 759316
+  }
+  {
+    id: 377
+    name: 高速运算芯片
+    description:
+      '''
+      伤害+<pow> 射速+<rate>
+      暴击伤害<critical_harm_rate><%>$L85A1专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_L85A1
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "68"
+    equip_introduction: 在IOP开发的第二代运算芯片上做了升级，大大加快了运算速度。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    max_level: 10
+    auto_select_id: 20075
+    is_show: 1
+    obtain_ids: "3003"
+    sp_description: equip-40000377
+  }
+  {
+    id: 378
+    name: 拉戈改良弹
+    description:
+      '''
+      伤害+<pow>
+      穿甲<armor_piercing>$Z-62专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "8,10"
+    armor_piercing: "-10,-7"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Z62
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "116"
+    equip_introduction: 特意为Z-62改良的旧式子弹，在披甲材料上也做了升级。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    max_level: 10
+    auto_select_id: 19072
+    is_show: 1
+    obtain_ids: "3003"
+    sp_description: equip-40000378
+  }
+  {
+    id: 379
+    name: TMP外骨骼
+    description:
+      '''
+      伤害<pow>
+      回避+<dodge>$TMP专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-5,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_TMP
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "176"
+    equip_introduction: 为TMP量身制作的外骨骼，样式结构都按要求做了特别设计，非常受TMP喜爱。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    max_level: 10
+    auto_select_id: 20076
+    is_show: 1
+    obtain_ids: "3003"
+    sp_description: equip-40000379
+  }
 ]

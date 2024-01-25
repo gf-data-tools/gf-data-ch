@@ -485,6 +485,7 @@
     sorting: 10
     furiniture_action_interact: action
     end_action: wait
+    group: "1"
   }
   {
     id: 65
@@ -537,6 +538,26 @@
     direction: -1
     bone_name: point
     end_action: wait
+  }
+  {
+    id: 71
+    gun_action: wait
+    is_cover: -1
+    sorting: 10
+    furiniture_action_interact: action2
+    direction: 1
+    end_action: wait
+    group: "1"
+  }
+  {
+    id: 72
+    gun_action: wait
+    is_cover: -1
+    sorting: 10
+    furiniture_action_interact: action3
+    direction: -1
+    end_action: wait
+    group: "1"
   }
   {
     id: 104

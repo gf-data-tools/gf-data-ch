@@ -13800,6 +13800,12 @@
     coins: 2-200
   }
   {
+    id: 2198
+    name: 2024二月签到
+    gem: 90
+    equip_ids: "376"
+  }
+  {
     id: 3001
     name: 柯尔特左轮
     item_ids: 1318-1
@@ -29587,6 +29593,42 @@
       '''
   }
   {
+    id: 12351
+    name: 拉戈改良弹
+    equip_ids: "378"
+    content:
+      '''
+      <color=#ffb400>满校准满强化属性</color>
+      伤害+20
+      穿甲-7
+      Z-62专用
+      '''
+  }
+  {
+    id: 12352
+    name: TMP外骨骼
+    equip_ids: "379"
+    content:
+      '''
+      <color=#ffb400>满校准满强化属性</color>
+      伤害-3
+      回避+42
+      TMP专用
+      '''
+  }
+  {
+    id: 12353
+    name: 高速运算芯片
+    equip_ids: "377"
+    content:
+      '''
+      <color=#ffb400>满校准满强化属性</color>
+      伤害+18 射速+25
+      暴击伤害-50%
+      L85A1专用
+      '''
+  }
+  {
     id: 12401
     name: 糖果口袋
     item_ids: 7001-1
@@ -29885,6 +29927,24 @@
     name: 律动次元
     item_ids: 7050-1
     content: 最简单的数字化情感隐藏着最纯粹的心意，8位像素便是它所能为你带来的全部——爱来自心智底层。
+  }
+  {
+    id: 12451
+    name: 白银时代
+    item_ids: 7051-1
+    content: 你以为只有在梦中，才能见到银币如雨的情景，但仔细想想，每次挥霍花掉的数量，好像也差不太多。
+  }
+  {
+    id: 12452
+    name: 蔚蓝群星
+    item_ids: 7052-1
+    content: 高悬暗夜，闪闪发光的群星也不及我掌中璀璨。
+  }
+  {
+    id: 12453
+    name: 魔鬼的敬意
+    item_ids: 7053-1
+    content: 从来没有任何东西能像它一样诱人堕落，从来没有。
   }
   {
     id: 12501
@@ -43832,6 +43892,99 @@
     fairy_ids: 28-900906
   }
   {
+    id: 40637
+    name: 阶段奖励I
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gift: 200001-100
+    coins: 1-100,2-100
+    icon: Bumdle_black
+  }
+  {
+    id: 40638
+    name: 阶段奖励II
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gem: 50
+    gift: 200001-100
+    coins: 1-200,2-200
+    icon: Bumdle_blue
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40639
+    name: 阶段奖励III
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gift: 200001-200
+    coins: 2-200,3-100
+    icon: Bumdle_brown
+  }
+  {
+    id: 40640
+    name: 阶段奖励IV
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    gift: 200001-200,400001-200
+    equip_ids: "105"
+    coins: 3-200
+    icon: Bumdle_purple
+  }
+  {
+    id: 40641
+    name: 阶段奖励V
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 514-150,515-150
+    gift: 400001-200
+    icon: Bumdle_red
+  }
+  {
+    id: 40642
+    name: 阶段奖励VI
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    gem: 100
+    item_ids: 514-250,515-250,516-200
+    icon: Bumdle_ruby
+  }
+  {
+    id: 40643
+    name: 阶段奖励VII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 515-300,516-400
+    icon: Bumdle_white
+  }
+  {
+    id: 40644
+    name: 阶段奖励VIII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 100
+    item_ids: 45-500
+    gift: 200001-500
+    icon: Bumdle_yellow
+    fairy_ids: 19-0
+  }
+  {
     id: 44001
     name: 战区3000积分奖励
     mp: 500
@@ -48294,6 +48447,16 @@
     furniture: "20021"
   }
   {
+    id: 121015
+    name: 末日警示钟
+    furniture: "7244"
+  }
+  {
+    id: 121016
+    name: 海拜尔型闹钟
+    furniture: "7245"
+  }
+  {
     id: 130001
     name: 前线协议额外奖励
     item_ids: 1500014-1
@@ -49244,7 +49407,7 @@
   {
     id: 150003
     name: 日常玩法-首通bonus奖励3
-    item_ids: 31-300
+    coins: 1-300
   }
   {
     id: 150004
@@ -49269,7 +49432,7 @@
   {
     id: 150008
     name: 日常玩法-首通bonus奖励8
-    item_ids: 33-300
+    coins: 3-300
   }
   {
     id: 150009
@@ -49289,12 +49452,12 @@
   {
     id: 150012
     name: 日常玩法-首通bonus奖励12
-    item_ids: 10-40
+    core: 40
   }
   {
     id: 150013
     name: 日常玩法-首通bonus奖励13
-    item_ids: 32-300
+    coins: 2-300
   }
   {
     id: 150014
@@ -49339,7 +49502,7 @@
   {
     id: 150022
     name: 日常玩法-首通bonus奖励22
-    item_ids: 31-300
+    coins: 1-300
   }
   {
     id: 150023
@@ -49359,7 +49522,7 @@
   {
     id: 150026
     name: 日常玩法-首通bonus奖励26
-    item_ids: 32-300
+    coins: 2-300
   }
   {
     id: 150027
@@ -49369,7 +49532,7 @@
   {
     id: 150028
     name: 日常玩法-首通bonus奖励28
-    item_ids: 33-300
+    coins: 3-300
   }
   {
     id: 150029
@@ -49394,7 +49557,7 @@
   {
     id: 150033
     name: 日常玩法-常规奖励3
-    item_ids: 31-100
+    coins: 1-100
   }
   {
     id: 150034
@@ -49419,7 +49582,7 @@
   {
     id: 150038
     name: 日常玩法-常规奖励8
-    item_ids: 33-100
+    coins: 3-100
   }
   {
     id: 150039
@@ -49439,12 +49602,12 @@
   {
     id: 150042
     name: 日常玩法-常规奖励12
-    item_ids: 10-20
+    core: 20
   }
   {
     id: 150043
     name: 日常玩法-常规奖励13
-    item_ids: 32-100
+    coins: 2-100
   }
   {
     id: 150044
@@ -49489,7 +49652,7 @@
   {
     id: 150052
     name: 日常玩法-常规奖励22
-    item_ids: 31-100
+    coins: 1-100
   }
   {
     id: 150053
@@ -49509,7 +49672,7 @@
   {
     id: 150056
     name: 日常玩法-常规奖励26
-    item_ids: 32-100
+    coins: 2-100
   }
   {
     id: 150057
@@ -49519,7 +49682,7 @@
   {
     id: 150058
     name: 日常玩法-常规奖励28
-    item_ids: 33-100
+    coins: 3-100
   }
   {
     id: 150059
