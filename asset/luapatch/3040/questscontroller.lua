@@ -4,12 +4,16 @@ xlua.private_accessible(CS.DailyWeekQuestCtrl)
 
 local ShowUI = function(self)
 	self:ShowUI();
-	CS.DailyWeekQuestCtrl.Instance.hasLoadPic = false;
-	CS.DailyWeekQuestCtrl.Instance:InitKalina();
-	CS.DailyWeekQuestCtrl.Instance:LoadRewardBox();
+	if CS.DailyWeekQuestCtrl.Instance~=nil and CS.DailyWeekQuestCtrl.Instance.hasLoadPic then
+		if CS.DailyWeekQuestCtrl.Instance.kalinaParent.childCount == 0 then
+			CS.DailyWeekQuestCtrl.Instance.hasLoadPic = false;
+			CS.DailyWeekQuestCtrl.Instance:InitKalina();
+			CS.DailyWeekQuestCtrl.Instance:LoadRewardBox();
+		end 
+	end
 end
-local Start = function(self)
+-- local Start = function(self)
 	
-end
+-- end
 util.hotfix_ex(CS.QuestsController,'ShowUI',ShowUI)
-util.hotfix_ex(CS.DailyWeekQuestCtrl,'Start',Start)
+--util.hotfix_ex(CS.DailyWeekQuestCtrl,'Start',Start)
