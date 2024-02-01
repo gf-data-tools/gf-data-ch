@@ -53580,6 +53580,182 @@
     is_form_play: 1
   }
   {
+    id: 9420
+    name: 二技能触发
+    conflict_type: 2410
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9421
+    name: 手雷人数
+    conflict_type: 2410
+    max_tier: 6
+    type: 400
+    duration_type: 1
+    duration: "450"
+    boss_available: 1
+  }
+  {
+    id: 9422
+    name: 易伤
+    conflict_type: 2410
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 9423
+    name: 二技能伤害下降
+    conflict_type: 2410
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "12"
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "205"
+  }
+  {
+    id: 9424
+    name: 破碎目标死亡监视
+    conflict_type: 2411
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1060
+  }
+  {
+    id: 9425
+    name: 冷却减少
+    conflict_type: 2411
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    cdr_number: "90"
+  }
+  {
+    id: 9426
+    name: 额外伤害倍率
+    conflict_type: 2411
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9427
+    name: mod2
+    conflict_type: 2412
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9428
+    name: 射速提升数值
+    conflict_type: 2412
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9429
+    name: 持续时间
+    conflict_type: 2413
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9430
+    name: px风暴
+    conflict_type: 2413
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9431
+    name: 射速提升
+    conflict_type: 2413
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9432
+    name: 风暴火力上升不可驱散
+    description: 风暴火力上升不可驱散
+    conflict_type: 2413
+    max_tier: 3
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9433
+    name: px风暴暴击触发监视
+    conflict_type: 2414
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1061
+  }
+  {
+    id: 9434
+    name: px风暴暴击累计次数
+    conflict_type: 2414
+    max_tier: 100
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9435
+    name: px3
+    conflict_type: 2414
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -65916,6 +66092,16 @@
     duration_type: 1
     duration: "30"
     is_form_play: 1
+  }
+  {
+    id: 943301
+    name: 风暴撤退监视
+    conflict_type: 2414
+    max_tier: 1
+    type: 600
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1062
   }
   {
     id: 999007

@@ -84390,6 +84390,189 @@
     is_orb_effect: 1
   }
   {
+    id: 9580
+    name: 手榴弹面片
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "9582,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 9581
+    name: 手榴毒弹面片
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "9583,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 9582
+    name: 榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2430"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9583
+    name: 毒榴弹结算范围
+    code: 18qi_du
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2431"
+    hurt_cd: "30"
+    buff_id: "9423"
+    buff_cd: "10"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9584
+    name: EM2狙击子弹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2432"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 9585
+    name: 突击步枪枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2433"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9586
+    name: tac狙击子弹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "368"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 9587
+    name: tac狙击子弹dimian
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3800
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2434"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9588
+    name: 同排射速
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "20"
+    buff_id: "9431"
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,0,20"
+  }
+  {
+    id: 9589
+    name: 手枪子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2435"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX

@@ -7903,7 +7903,7 @@
     explore_tag: "39,43,55,57"
     gun_detail_bg: nation_German
     org_id: 10702
-    show_damage_skin: ",0,7606,"
+    show_damage_skin: ",0,7606,597,"
     gun_tag_ids: "108"
     atk_speed_max: 1000
     ratio_rec: 100
@@ -11943,7 +11943,7 @@
     gun_detail_bg: nation_China
     org_id: 10203
     related_story_id: 100129
-    show_damage_skin: ",0,7202,"
+    show_damage_skin: ",0,7202,30015,"
     gun_tag_ids: "108"
     atk_speed_max: 135
     ratio_rec: 105
@@ -12112,13 +12112,14 @@
     effect_guntype: "4"
     effect_grid_pos: "8"
     effect_grid_effect: "3,55"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;6
     type_equip3: 1;1,2,3,4,13,18
     ai: 131
     launch_time: 2016-10-21 00:00:00
     obtain_ids: "101"
     rank_display: 3
+    mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     org_id: 10303
     related_story_id: 100131
     show_damage_skin: ",4607,0,"
@@ -20354,11 +20355,12 @@
     effect_grid_effect: "1,12;3,30"
     type_equip1: 1;4,13,16,18
     type_equip2: 2;6
-    type_equip3: 3;10
+    type_equip3: 3;10,20
     ai: 233
     launch_time: 2018-09-06 00:00:00
     obtain_ids: "1"
     rank_display: 5
+    mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     gun_detail_bg: nation_Italy
     org_id: 10203
     related_story_id: 100233
@@ -22098,13 +22100,14 @@
     effect_guntype: "1"
     effect_grid_pos: "17,18"
     effect_grid_effect: "6,12"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
     type_equip3: 3;15,23
     ai: 241
     launch_time: 2019-03-21 00:00:00
     obtain_ids: "424"
     rank_display: 3
+    mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     org_id: 10703
     show_damage_skin: ",0,6908,4107,8908,"
     gun_tag_ids: "117"
@@ -22554,18 +22557,19 @@
     ratio_range: 100
     skill1: 112101
     normal_attack: 300103
-    dynamic_passive_skill: "112102"
+    dynamic_passive_skill: "740096,112102"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,19"
     effect_grid_effect: "1,20;3,55"
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 216
     launch_time: 2019-04-29 00:00:00
     obtain_ids: "1,2"
     rank_display: 4
+    mindupdate_consume: 10:20,45:200;10:40,45:1000;10:60,45:2000
     org_id: 10303
     related_story_id: 100262
     show_damage_skin: ",0,5706,4209,"
@@ -23066,7 +23070,7 @@
     type_equip3: 3;15
     ai: 241
     launch_time: 2019-07-21 00:00:00
-    obtain_ids: "1907"
+    obtain_ids: "425"
     rank_display: 3
     org_id: 10802
     gun_tag_ids: "108"
@@ -23314,7 +23318,7 @@
     type_equip3: 3;14,21
     ai: 208
     launch_time: 2019-08-21 00:00:00
-    obtain_ids: "1908"
+    obtain_ids: "425"
     rank_display: 3
     org_id: 10802
     show_damage_skin: ",0,"
@@ -23728,7 +23732,7 @@
     type_equip3: 3;10
     ai: 15
     launch_time: 2019-09-21 00:00:00
-    obtain_ids: "1909"
+    obtain_ids: "425"
     rank_display: 3
     gun_detail_bg: nation_German
     org_id: 10702
@@ -23789,7 +23793,7 @@
     type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2019-10-21 00:00:00
-    obtain_ids: "1910"
+    obtain_ids: "425"
     rank_display: 3
     gun_detail_bg: nation_US
     org_id: 10802
@@ -23870,7 +23874,7 @@
     type_equip3: 3;9,10
     ai: 105
     launch_time: 2019-11-21 00:00:00
-    obtain_ids: "1911"
+    obtain_ids: "425"
     rank_display: 3
     org_id: 10702
     related_story_id: 100279
@@ -24205,7 +24209,7 @@
     type_equip3: 3;15
     ai: 241
     launch_time: 2019-12-21 00:00:00
-    obtain_ids: "1912"
+    obtain_ids: "425"
     rank_display: 3
     org_id: 10403
     related_story_id: 100284
@@ -24635,7 +24639,7 @@
     type_equip3: 1;1,2,3,4,13
     ai: 116
     launch_time: 2020-01-21 00:00:00
-    obtain_ids: "2001,234"
+    obtain_ids: "426"
     rank_display: 3
     org_id: 10704
     gun_tag_ids: "108"
@@ -24892,7 +24896,7 @@
     type_equip3: 1;1,2,3,4,13
     ai: 150
     launch_time: 2020-01-16 00:00:00
-    obtain_ids: "228"
+    obtain_ids: "425"
     rank_display: 4
     gun_detail_bg: nation_China
     org_id: 10802
@@ -25014,7 +25018,7 @@
     type_equip3: 3;9,10
     ai: 48
     launch_time: 2020-01-16 00:00:00
-    obtain_ids: "228,234"
+    obtain_ids: "425"
     rank_display: 4
     org_id: 10403
     related_story_id: 100297
@@ -25074,7 +25078,7 @@
     type_equip3: 3;9,10
     ai: 171
     launch_time: 2020-02-21 00:00:00
-    obtain_ids: "2002,234"
+    obtain_ids: "426"
     rank_display: 3
     org_id: 10802
     gun_tag_ids: "10101"
@@ -25135,7 +25139,7 @@
     type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2020-03-21 00:00:00
-    obtain_ids: "2003,234"
+    obtain_ids: "426"
     rank_display: 3
     gun_detail_bg: nation_US
     org_id: 10402
@@ -25200,7 +25204,7 @@
     type_equip3: 3;14,21
     ai: 208
     launch_time: 2020-04-21 00:00:00
-    obtain_ids: "2004,234"
+    obtain_ids: "426"
     rank_display: 3
     org_id: 10702
     gun_tag_ids: "108"
@@ -25261,7 +25265,7 @@
     type_equip3: 1;1,2,3,4,13
     ai: 116
     launch_time: 2020-05-21 00:00:00
-    obtain_ids: "2005,234"
+    obtain_ids: "426"
     rank_display: 3
     org_id: 10704
     show_damage_skin: ",0,"
@@ -25700,7 +25704,7 @@
     type_equip3: 3;15
     ai: 241
     launch_time: 2020-06-21 00:00:00
-    obtain_ids: "2006,234"
+    obtain_ids: "426"
     rank_display: 3
     org_id: 10303
     show_damage_skin: ",7004,7506,10006,"
@@ -25759,7 +25763,7 @@
     type_equip3: 3;10
     ai: 15
     launch_time: 2020-07-21 00:00:00
-    obtain_ids: "2007,239"
+    obtain_ids: "427"
     rank_display: 3
     gun_detail_bg: nation_German
     org_id: 10303
@@ -26058,7 +26062,7 @@
     type_equip3: 3;9,10
     ai: 171
     launch_time: 2020-08-21 00:00:00
-    obtain_ids: "2008,239"
+    obtain_ids: "427"
     rank_display: 3
     gun_detail_bg: nation_German
     org_id: 10702
@@ -26179,7 +26183,7 @@
     type_equip3: 3;15
     ai: 222
     launch_time: 2020-08-20 00:00:00
-    obtain_ids: "234"
+    obtain_ids: "426"
     rank_display: 5
     gun_detail_bg: nation_China
     org_id: 10203
@@ -26244,7 +26248,7 @@
     type_equip3: 3;15,20
     ai: 200
     launch_time: 2020-08-20 00:00:00
-    obtain_ids: "234"
+    obtain_ids: "426"
     rank_display: 4
     org_id: 10202
     related_story_id: 100317
@@ -26431,7 +26435,7 @@
     type_equip3: 3;15,23
     ai: 241
     launch_time: 2020-09-21 00:00:00
-    obtain_ids: "2009,239"
+    obtain_ids: "427"
     rank_display: 3
     org_id: 10402
     show_damage_skin: ",0,"
@@ -26492,7 +26496,7 @@
     type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2020-10-21 00:00:00
-    obtain_ids: "2010,239"
+    obtain_ids: "427"
     rank_display: 3
     org_id: 10202
     show_damage_skin: ",7408,8205,"
@@ -26552,7 +26556,7 @@
     type_equip3: 3;10
     ai: 220
     launch_time: 2020-11-21 00:00:00
-    obtain_ids: "2011,239"
+    obtain_ids: "427"
     rank_display: 3
     gun_detail_bg: nation_China
     org_id: 10705
@@ -26874,7 +26878,7 @@
     type_equip3: 1;1,2,3,4,13
     ai: 116
     launch_time: 2020-12-21 00:00:00
-    obtain_ids: "2012,239"
+    obtain_ids: "427"
     rank_display: 3
     gun_detail_bg: nation_US
     org_id: 10802
@@ -27174,7 +27178,7 @@
     type_equip3: 3;10
     ai: 212
     launch_time: 2021-02-04 00:00:00
-    obtain_ids: "239"
+    obtain_ids: "427"
     rank_display: 4
     gun_detail_bg: nation_US
     org_id: 10704
@@ -27305,7 +27309,7 @@
     type_equip3: 3;15
     ai: 222
     launch_time: 2021-02-04 00:00:00
-    obtain_ids: "239"
+    obtain_ids: "427"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10302
@@ -27813,7 +27817,7 @@
     type_equip3: 3;9,10
     ai: 48
     launch_time: 2021-08-26 00:00:00
-    obtain_ids: "245"
+    obtain_ids: "428"
     rank_display: 5
     org_id: 10201
     related_story_id: 100342
@@ -27941,7 +27945,7 @@
     type_equip3: 3;9,10
     ai: 48
     launch_time: 2021-08-26 00:00:00
-    obtain_ids: "245"
+    obtain_ids: "428"
     rank_display: 4
     org_id: 10403
     related_story_id: 100344
@@ -44015,6 +44019,94 @@
     recommended_team_ids: "3,5"
   }
   {
+    id: 20131
+    name: EVO 3
+    en_name: EVO 3
+    code: EVO3Mod
+    introduce:
+      '''
+      类型            闭锁式枪机/反冲作用
+      发射速率        1,100—1,150 发/分钟
+      枪口初速        370 米／秒
+      有效射程        250 米
+      供弹方式        20、30发透明聚合物制双排双进可拆卸式弹匣
+      瞄准具型式      机械瞄具：
+                         觇孔式照门和柱状准星
+                         夜间瞄准具型：氚光夜间用瞄准具
+                      机匣顶部的MIL-STD-1913战术导轨上安装日间／夜间光学瞄准镜、红点镜／反射式瞄准镜、全息瞄准镜、夜视镜、热成像仪（可拆卸）
+      '''
+    dialogue: 您好，尊敬的指挥官。我是蝎式EVO3，从今天起正式入职，还望您多多关照。
+    extra: 钉田西瓜,山本希望,
+    en_introduce:
+      '''
+      Type                       Submachine Gun
+
+      Weight                     2.77 kg with full magazine
+
+      Length                     670 mm (26.37 in) stock unfolded
+
+                                 410 mm (16.14 in) stock folded
+
+      Barrel length              196 mm (7.71 in) 
+
+      Cartridge                  9×19mm Parabellum
+
+      Action                     Blowback
+
+      Rate of fire               1150 rounds/min
+
+      Muzzle velocity            370 m/s
+
+      Effective firing range     250 m 
+
+      Feed system                30-round detachable box magazine
+
+      Sights                     Picatinny Rails for optics, backup iron sights
+      '''
+    type: 2
+    rank: 4
+    develop_duration: 6600
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 116
+    ratio_pow: 102
+    ratio_rate: 120
+    ratio_speed: 100
+    ratio_hit: 115
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 105
+    ratio_range: 100
+    skill1: 740092
+    skill2: 740093
+    normal_attack: 300102
+    passive_skill: "900156"
+    effect_grid_center: 13
+    effect_guntype: "4"
+    effect_grid_pos: "8"
+    effect_grid_effect: "1,10;3,55"
+    type_equip1: 3;9,10,20
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13,18
+    ai: 131
+    launch_time: 2016-10-21 00:00:00
+    obtain_ids: "35"
+    rank_display: 4
+    prize_id: 3131
+    related_story_id: 100131
+    show_damage_skin: ",4607,0,"
+    gun_tag_ids: "121,105,103"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "1,2,3,6,7"
+  }
+  {
     id: 20136
     name: PP-19
     en_name: PP-19
@@ -45513,6 +45605,83 @@
     recommended_team_ids: "2,4"
   }
   {
+    id: 20233
+    name: Px4 风暴
+    en_name: Px4 Storm
+    code: Px4StormMod
+    extra: 戏言咸咸,山村響,
+    en_introduce:
+      '''
+      Type                       Semi-automatic pistol
+      Weight                     Px4: 785 g (27.7 oz) (without magazine) 
+                                 Px4SC: 715 g (25.2 oz) (without magazine)
+      Length                     Px4: 192 mm (7.55 in) 
+                                 Px4SC: 158 mm (6.2 inch)
+      Barrel length              113 mm (4.4 in) (HK45)
+                                 99 mm (3.9 in) (HK45 Compact)
+      Cartridge                  9×19mm Parabellum
+                                 .45 ACP
+                                 .40 S&W
+      Action                     Short recoil, locked-breech, rotating barrel lock
+      Feed system                Px4FS:
+                                      9 (.45 ACP [w/ flush mag])
+                                      10 (.45 ACP [w/ extended basepad mag])
+                                      14 (.40 S&W)
+                                      15, 17 (9×19mm)
+                                      20 (9×19mm [w/ extended basepad mag]) 
+                                 Px4C:
+                                      12 (.40 S&W)
+                                      15 (9×19mm)
+                                 Px4SC:
+                                      12 (.40 S&W)
+                                      15 (9×19mm)
+      Sights                      3-dot iron sights
+      '''
+    type: 1
+    rank: 6
+    develop_duration: 3840
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 112
+    ratio_pow: 118
+    ratio_rate: 102
+    ratio_speed: 100
+    ratio_hit: 131
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 132
+    ratio_range: 100
+    skill1: 740104
+    skill2: 740105
+    normal_attack: 300101
+    passive_skill: "740108,740109"
+    dynamic_passive_skill: "740107,740106"
+    effect_grid_center: 12
+    effect_grid_pos: "6,7,8,12"
+    effect_grid_effect: "1,15;3,30"
+    type_equip1: 1;4,13,16,18
+    type_equip2: 2;6
+    type_equip3: 3;10,20
+    ai: 233
+    launch_time: 2018-09-06 00:00:00
+    obtain_ids: "35"
+    rank_display: 6
+    prize_id: 3233
+    gun_detail_bg: nation_Italy
+    related_story_id: 100233
+    show_damage_skin: ",6103,0,7203,8002,"
+    gun_tag_ids: "10101,124"
+    atk_speed_max: 135
+    ratio_rec: 112
+    recommended_team_ids: "2,3,4,6,8"
+  }
+  {
     id: 20252
     name: KSVK
     en_name: KSVK
@@ -45590,6 +45759,168 @@
     atk_speed_max: 125
     ratio_rec: 100
     recommended_team_ids: "8"
+  }
+  {
+    id: 20256
+    name: 隼
+    en_name: Falcon
+    code: FalconMod
+    introduce:
+      '''
+      类型            狙击步枪
+      总重            13.4 公斤
+      全长            1380 毫米
+      枪管长度        927 毫米
+      弹药            12.7×108mm
+      枪机种类        手动枪机
+      枪口初速        700 - 900米/秒
+      有效射程        1,600米
+      供弹方式        2发内置弹仓
+      瞄准具型式      瞄准镜、备用机械瞄具
+      '''
+    extra: 八才,大空直美,
+    en_introduce:
+      '''
+      Type                       Bullpup sniper rifle
+      Weight                     13.4 kg
+      Length                     1380 mm
+      Barrel length              927 mm
+      Cartridge                  12.7×108mm
+      Action                     Mauser Bolt action
+      Rate of fire               825–925 m/s
+      Muzzle velocity            1,600 m (1,700 yd)
+      Feed system                single-shot or 2-round detachable fixed magazine
+      Sights                     ZD 10×50 or ZN 6x passive night sight;Iron sights
+      '''
+    type: 3
+    rank: 4
+    develop_duration: 15600
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 100
+    ratio_pow: 140
+    ratio_rate: 95
+    ratio_speed: 100
+    ratio_hit: 118
+    ratio_dodge: 85
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 116
+    ratio_range: 100
+    skill1: 740101
+    skill2: 740102
+    normal_attack: 111501
+    passive_skill: "111502,111503,111504,111505,111508,111511"
+    dynamic_passive_skill: "111509,111510"
+    effect_grid_center: 13
+    effect_guntype: "1"
+    effect_grid_pos: "17,18"
+    effect_grid_effect: "6,15"
+    type_equip1: 2;5,19
+    type_equip2: 1;1,2,3,13
+    type_equip3: 3;15,23
+    ai: 241
+    launch_time: 2019-03-21 00:00:00
+    obtain_ids: "35"
+    rank_display: 4
+    prize_id: 3256
+    show_damage_skin: ",0,6908,4107,8908,"
+    gun_tag_ids: "117,10101,144"
+    atk_speed_max: 120
+    ratio_rec: 100
+    recommended_team_ids: "2,4,8"
+  }
+  {
+    id: 20262
+    name: EM-2
+    en_name: EM-2
+    code: EM2Mod
+    introduce:
+      '''
+      类型                       突击步枪
+      重量                       3.49 kg
+      长度                       889 mm
+      枪管长度                   623 mm
+                                 
+      子弹                       7×43mm（.280英国）
+                                 7.62×51mm NATO
+                                 6.25 × 43mm
+                                 .30-06春田
+                                 7×49 mm
+                                 7×51mm
+      枪机                       气动式
+      发射模式                   半自动、全自动
+      射速                       450-600发/分钟
+      枪口初速                   771米/秒
+      有效射程                   700米
+      供弹方式                   20发弹匣
+      瞄具                       光学瞄准镜
+
+      '''
+    extra: X布,逢田梨香子,
+    en_introduce:
+      '''
+      Type                       Bullpup assault rifle
+      Mass                       3.49 kg (7.7 lb)
+      Length                     889 mm (35.0 in)
+      Barrel length              623 mm (24.5 in)
+                                 
+      Cartridge                  .280 British
+      Action                     Gas-operated, Flapper Locked
+      Rate of fire               450–600 round/min (7.5 to 10 /s)
+      Muzzle velocity            771m/s (2,545 ft/s)
+      Effective firing range     700 m (770 yd)
+      Feed system                20-round detachable box magazine
+      Sights                     Optical
+      '''
+    type: 4
+    rank: 5
+    develop_duration: 12900
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 108
+    ratio_pow: 128
+    ratio_rate: 105
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 120
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 740095
+    skill2: 740097
+    normal_attack: 740098
+    passive_skill: "740099"
+    dynamic_passive_skill: "740096"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "17,19"
+    effect_grid_effect: "1,24;3,55"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10,20
+    ai: 216
+    launch_time: 2019-04-29 00:00:00
+    obtain_ids: "35"
+    rank_display: 5
+    prize_id: 3262
+    related_story_id: 100262
+    show_damage_skin: ",0,5706,4209,"
+    gun_tag_ids: "109,131"
+    atk_speed_max: 135
+    ratio_rec: 108
+    recommended_team_ids: "1"
   }
   {
     id: 20282

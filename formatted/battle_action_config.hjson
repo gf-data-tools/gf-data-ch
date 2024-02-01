@@ -24527,6 +24527,72 @@
     creation_delay: "0,0,0"
   }
   {
+    id: 8910
+    name: 手榴弹
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9580"
+    creation_delay: "40"
+    sound_order: BT_grenade_woosh
+    sound_delay: "35"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8911
+    name: 手榴毒弹
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9581"
+    creation_delay: "40"
+    sound_order: BT_grenade_woosh
+    sound_delay: "35"
+    effect_order: "9"
+    effect_duration: "30"
+  }
+  {
+    id: 8912
+    name: EM-2射击
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9584"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "3"
+  }
+  {
+    id: 8913
+    name: 突击步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9585,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 8914
+    name: 隼狙击
+    action_order: "1"
+    action_delay: "40"
+    action_playspeed: "100"
+    creation_order: "9586,9587,9588"
+    creation_delay: "40,40,40"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "40"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8915
+    name: 击退强制位移
+    move_order: "81602"
+  }
+  {
+    id: 8916
+    name: 穿盾伤害
+    creation_order: "9589"
+  }
+  {
     id: 9001
     name: 狙击妖精
     creation_order: "901,951"

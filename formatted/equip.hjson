@@ -8068,7 +8068,7 @@
     code: 配件_特殊_Px4Storm
     develop_duration: 2820
     company: B&T
-    fit_guns: "233"
+    fit_guns: "233,20233"
     equip_introduction: 为Px4风暴专门定制9毫米消音器，紧凑版本缩短了长度使其更适合在狭小的空间里作战，是Px4风暴的爱用品之一。
     powerup_mp: 0.55
     powerup_ammo: 0.23
@@ -9302,7 +9302,7 @@
     code: 配件_特殊_EVO3
     develop_duration: 2820
     company: MI
-    fit_guns: "131"
+    fit_guns: "131,20131"
     equip_introduction: 由MI为EVO 3专门设计的mlok护木,能够极高地提升EVO 3的挂载能力。
     powerup_mp: 0.55
     powerup_ammo: 0.23
@@ -11871,5 +11871,134 @@
     auto_select_id: 20076
     is_show: 1
     obtain_ids: "3003"
+  }
+  {
+    id: 380
+    name: 雄狮勋章
+    description:
+      '''
+      暴击概率<critical_percent><%>
+      伤害+<pow>$EVO 3专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,15"
+    critical_percent: "-5,-5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_EVO3
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "131,20131"
+    equip_introduction: 为表彰EVO 3辛勤工作特别制作的勋章，用了不少EVO 3家乡的元素。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:700
+    max_level: 10
+    auto_select_id: 20062
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 381
+    name: 女王斗篷
+    description:
+      '''
+      射速<rate>
+      回避+<dodge>$Px4 风暴专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "20,25"
+    rate: "-5,-1"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_Px4Storm
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "233,20233"
+    equip_introduction: 据称是Px4 风暴经过周密计算后置办的斗篷，能最有效地降低工作风险。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:800
+    max_level: 10
+    auto_select_id: 20079
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 382
+    name: Falcon精制弹
+    description:
+      '''
+      穿甲+<armor_piercing>
+      暴击伤害+<critical_harm_rate><%>$隼专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_harm_rate: "6,10"
+    armor_piercing: "115,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_Falcon
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "256,20256"
+    equip_introduction: 经过隼精挑细选后精制的子弹，能够一击贯穿厚重的装甲。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 19073
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 383
+    name: JS芯片
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      暴击伤害+<critical_harm_rate><%>$EM-2专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,8"
+    hit: "3,5"
+    critical_harm_rate: "10,15"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_EM2
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "262,20262"
+    equip_introduction: EM-2专用的芯片，有效提高了计算变数并制定计划的能力。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,hit:1000,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 20080
+    is_show: 1
+    obtain_ids: "3016"
   }
 ]
