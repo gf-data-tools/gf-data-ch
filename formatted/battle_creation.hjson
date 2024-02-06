@@ -84573,6 +84573,40 @@
     is_orb_effect: 1
   }
   {
+    id: 9601
+    name: 手枪精准普攻[*]
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2441"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 9602
+    name: 手枪弱点普攻[*]
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2442"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
     id: 9740
     name: 掩体表现1
     code: Obstacle\zawX
@@ -112353,6 +112387,21 @@
     creation_type: 2
     scale: "1"
     still_exist: 1
+  }
+  {
+    id: 958901
+    name: 手枪子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "243501"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 975001

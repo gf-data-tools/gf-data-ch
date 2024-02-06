@@ -3649,8 +3649,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,pow:1000,critical_percent:1000
+    passive_skill: "1000101"
     max_level: 10
     auto_select_id: 18025
+    group_id: "23"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -5205,8 +5207,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:700,critical_percent:350
+    passive_skill: "1000201"
     max_level: 10
     auto_select_id: 18051
+    group_id: "24"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -12000,5 +12004,74 @@
     auto_select_id: 20080
     is_show: 1
     obtain_ids: "3016"
+  }
+  {
+    id: 384
+    name: FA原型外骨骼
+    description:
+      '''
+      命中<hit>
+      回避+<dodge>$M950A改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "-5,-3"
+    dodge: "20,25"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_M950AMod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20097"
+    equip_introduction: 仿照M950A之前损坏的外骨骼做了全新的升级，但是没有修改样式，据说是为了纪念送她装备的一个朋友。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:800
+    passive_skill: "1000202"
+    max_level: 10
+    auto_select_id: 20081
+    group_id: "24"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 385
+    name: 64型轻量装具
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      弹量+<bullet_number_up>$LWMMG改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_harm_rate: "6,10"
+    bullet_number_up: "3,4"
+    retire_mp: 1
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 5
+    code: TDoll_SP_LWMMGMod
+    develop_duration: 3420
+    company: IOP
+    fit_guns: "20081"
+    equip_introduction: 专门为LWMMG设计的单兵装备，使用了性价比很高的材料制作，耐用不容易损坏。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:1000,critical_harm_rate:1000
+    passive_skill: "1000102"
+    max_level: 10
+    auto_select_id: 20082
+    group_id: "23"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

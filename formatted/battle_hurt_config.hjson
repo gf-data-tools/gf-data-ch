@@ -8554,12 +8554,34 @@
   {
     id: 2435
     description: 额外普攻
-    extra_damage: *101
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
     is_shield: 100
-    fix_damage: "1000005547"
+    fix_damage: "1000005543"
+  }
+  {
+    id: 2441
+    description: 手枪精准普攻[*]
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000005582"
+  }
+  {
+    id: 2442
+    description: 手枪弱点普攻[*]
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
   }
   {
     id: 2479
@@ -10751,6 +10773,15 @@
     buff_rate: "100"
     hit_type: 1
     fix_damage: "1000004384"
+  }
+  {
+    id: 243501
+    description: 额外普攻
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000005544"
   }
   {
     id: 251001

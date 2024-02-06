@@ -53756,6 +53756,309 @@
     duration: "-1"
   }
   {
+    id: 9436
+    name: LWMMG装备1
+    conflict_type: 2415
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9437
+    name: LWMMG装备2
+    conflict_type: 2415
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9438
+    name: LWMMG套装
+    conflict_type: 2416
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9439
+    name: LWMMG全队暴击概率上升
+    description: LWMMG全队暴击概率上升
+    conflict_type: 2417
+    max_tier: 1
+    type: 806
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *203
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9440
+    name: LWMMG猎杀触发
+    conflict_type: 2418
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9441
+    name: M950A装备1
+    conflict_type: 2419
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9442
+    name: M950A装备2
+    conflict_type: 2419
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9443
+    name: M950A套装
+    conflict_type: 2420
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9450
+    name: 普攻触发
+    conflict_type: 2420
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9451
+    name: 弱点
+    conflict_type: 2420
+    max_tier: 2
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9452
+    name: p2000命中
+    conflict_type: 2420
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9453
+    name: p2000回避
+    conflict_type: 2420
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9454
+    name: p2000命中敌方
+    conflict_type: 2420
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 9455
+    name: p2000回避敌方
+    conflict_type: 2420
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 9456
+    name: 易伤
+    conflict_type: 2420
+    max_tier: 2
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+  }
+  {
+    id: 9457
+    name: 敌方命中回避值
+    conflict_type: 2421
+    max_tier: 10
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9458
+    name: 易伤1
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "110"
+  }
+  {
+    id: 9459
+    name: 易伤2
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "111"
+  }
+  {
+    id: 9460
+    name: 易伤3
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "112"
+  }
+  {
+    id: 9461
+    name: 易伤4
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "113"
+  }
+  {
+    id: 9462
+    name: 易伤5
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "114"
+  }
+  {
+    id: 9463
+    name: 易伤6
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "116"
+  }
+  {
+    id: 9464
+    name: 易伤7
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "117"
+  }
+  {
+    id: 9465
+    name: 易伤8
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "118"
+  }
+  {
+    id: 9466
+    name: 易伤9
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "119"
+  }
+  {
+    id: 9467
+    name: 易伤10
+    conflict_type: 2421
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "120"
+  }
+  {
+    id: 9468
+    name: 易伤值
+    conflict_type: 2421
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9469
+    name: 易伤激活
+    conflict_type: 2422
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -58511,6 +58814,16 @@
     is_form_play: 1
     buff_animation: YellowFlash
     buff_description: HitBuffText
+  }
+  {
+    id: 414101
+    name: 绿毛技能触发判定2
+    conflict_type: 841
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 445301

@@ -32775,4 +32775,236 @@
     camera: 1
     is_hurt: 1
   }
+  {
+    id: 1010101
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1010102
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1010103
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1010104
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|QBZ191|NEWYEAR
+    text: GUN|QBZ191|NEWYEAR
+    name: 交互1
+    camera: 1
+    delay: 4000
+    voice_code: NEWYEAR
+  }
+  {
+    id: 1010105
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|QBZ191|OPERATIONBEGIN
+    text: GUN|QBZ191|OPERATIONBEGIN
+    name: 交互2
+    camera: 1
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 1010106
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|QBZ191|DIALOGUE2
+    text: GUN|QBZ191|DIALOGUE2
+    name: 交互3
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1010107
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|QBZ191|LOADING
+    text: GUN|QBZ191|LOADING
+    name: 交互4
+    camera: 1
+    delay: 1000
+    voice_code: LOADING
+  }
+  {
+    id: 1010108
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|QBZ191|FIX
+    text: GUN|QBZ191|FIX
+    name: 交互5
+    camera: 1
+    delay: 6000
+    voice_code: FIX
+  }
+  {
+    id: 1010109
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|QBZ191|DIALOGUEWEDDING
+    text: GUN|QBZ191|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1010110
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|QBZ191|SOULCONTRACT
+    text: GUN|QBZ191|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1010111
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1010112
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|QBZ191|HELLO
+    text: GUN|QBZ191|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: HELLO
+  }
+  {
+    id: 1010113
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1010114
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|QBZ191|DIALOGUE2
+    text: GUN|QBZ191|DIALOGUE2
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1010115
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|QBZ191|BREAK
+    text: GUN|QBZ191|BREAK
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 6200
+    voice_code: BREAK
+  }
+  {
+    id: 1010116
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|QBZ191|COMBINE
+    text: GUN|QBZ191|COMBINE
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 4330
+    voice_code: COMBINE
+  }
+  {
+    id: 1010117
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|QBZ191|LOADING
+    text: GUN|QBZ191|LOADING
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: LOADING
+  }
+  {
+    id: 1010118
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|QBZ191|NEWYEAR
+    text: GUN|QBZ191|NEWYEAR
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: NEWYEAR
+  }
+  {
+    id: 1010119
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|QBZ191|HELLO
+    text: GUN|QBZ191|HELLO
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: HELLO
+  }
+  {
+    id: 1010120
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    voice: GUN|QBZ191|MOOD2
+    text: GUN|QBZ191|MOOD2
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+    delay: 160
+    voice_code: MOOD2
+  }
 ]
