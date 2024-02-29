@@ -24609,6 +24609,119 @@
     confront_des: 【标记】略
   }
   {
+    id: 640000
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】玩家梯队光学迷彩
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6400002,6400001"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 640001
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;640006,640005;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】BossAI状态机
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "640101,640102,6400004"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,1150500,6400008,0"
+  }
+  {
+    id: 640002
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】敌方光学迷彩
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "640103"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 640003
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;640006,640005;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】布丁BossAI状态机
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "640101,640109,6400004"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,1150500,6400008,0"
+  }
+  {
+    id: 640004
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;640006,640005;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】布丁BossAI状态机EX关
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "640101,640109,6400004"
+    type: 5
+    is_focus: "-1"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,1151600,6400009,0"
+  }
+  {
     id: 1144001
     defender: 99999
     defender_upper: 99999

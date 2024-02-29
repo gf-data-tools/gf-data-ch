@@ -6825,6 +6825,129 @@
     danger: 10
   }
   {
+    id: 13254
+    type: 3
+    name: 都市隶人
+    enemy_info: 无脸人A
+    code: FacelessMenA
+    maxlife: 2000
+    pow: 10
+    hit: 10
+    dodge: 50
+    range: 20
+    speed: 25
+    number: 1
+    angle: 180
+    rate: 50
+    def: 500
+    level: 30100
+    character: 近战
+    normal_attack: 755330
+    passive_skill: "200304"
+    effect_ratio: 0.8
+    deployment_scale: 1
+    enemy_illustration_id: 100052
+    danger: 10
+  }
+  {
+    id: 13255
+    type: 3
+    name: 都市隶人
+    enemy_info: 无脸人B
+    code: FacelessMenB
+    maxlife: 2000
+    pow: 10
+    hit: 10
+    dodge: 50
+    range: 20
+    speed: 25
+    number: 1
+    angle: 180
+    rate: 50
+    def: 500
+    level: 30100
+    character: 近战
+    normal_attack: 755330
+    passive_skill: "200304"
+    effect_ratio: 0.8
+    deployment_scale: 1
+    enemy_illustration_id: 100053
+    danger: 10
+  }
+  {
+    id: 13256
+    type: 3
+    name: SPS的傀儡
+    enemy_info: SPS_NPC
+    code: SPS_NPC
+    maxlife: 4200
+    pow: 78
+    hit: 32
+    dodge: 90
+    range: 4
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 32
+    def: 99999
+    level: 30100
+    character: 格里芬,竖盾
+    normal_attack: 755146
+    passive_skill: "755145,755147,755148,200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100054
+  }
+  {
+    id: 13257
+    type: 3
+    name: KSVK的傀儡
+    enemy_info: KSVK_NPC
+    code: KSVK_NPC
+    maxlife: 3600
+    pow: 156
+    hit: 90
+    dodge: 18
+    range: 9
+    speed: 20
+    number: 1
+    angle: 180
+    armor_piercing: 35
+    rate: 26
+    def: 99999
+    level: 30100
+    character: 格里芬,征用
+    normal_attack: 755153
+    passive_skill: "755154,200304"
+    effect_ratio: 0.7
+    deployment_scale: 1
+    enemy_illustration_id: 100055
+  }
+  {
+    id: 13258
+    type: 3
+    name: A545的傀儡
+    enemy_info: A545_NPC
+    code: A545_NPC
+    maxlife: 4500
+    pow: 126
+    hit: 52
+    dodge: 60
+    range: 5
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 50
+    def: 99999
+    level: 30100
+    character: 格里芬,掩护号令
+    normal_attack: 755151
+    passive_skill: "755152,200304"
+    effect_ratio: 1.4
+    deployment_scale: 1
+    enemy_illustration_id: 100056
+  }
+  {
     id: 14001
     type: 3
     name: 僵尸新娘
@@ -22101,6 +22224,168 @@
     voice: "1,2,3"
     deployment_scale: 1
     enemy_illustration_id: 216
+    danger: 1000
+  }
+  {
+    id: 900626
+    type: 1
+    name: 江崎普林
+    enemy_info: 江崎布丁
+    code: EzakiBoss
+    maxlife: 260000
+    pow: 42
+    hit: 120
+    dodge: 120
+    range: 8
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 150
+    boss_hp: 260000
+    def: 99999
+    level: 100
+    character: 江崎普林
+    normal_attack: 121901
+    passive_skill: "121902,121903,121904,121905,121906,121907,121908,121909,121910,121911,121912,121913,121914,121915,121916,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100057
+    danger: 1000
+  }
+  {
+    id: 900627
+    type: 1
+    name: 岛村孝
+    enemy_info: 岛村孝
+    code: TakashiBoss
+    maxlife: 280000
+    pow: 42
+    hit: 60
+    dodge: 40
+    range: 15
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 150
+    boss_hp: 280000
+    def: 99999
+    level: 100
+    character: 岛村孝
+    normal_attack: 122001
+    passive_skill: "122002,122003,122004,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100058
+    danger: 1000
+  }
+  {
+    id: 900628
+    type: 1
+    name: 水金铃鹿
+    enemy_info: 水金凉香
+    code: MizukinnBoss
+    maxlife: 240000
+    pow: 46
+    hit: 80
+    dodge: 30
+    range: 12
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 150
+    boss_hp: 240000
+    def: 99999
+    level: 100
+    character: 水金铃鹿
+    normal_attack: 755318
+    passive_skill: "755314,755315,755316,755317,755319,755320,755325,755326,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100059
+    danger: 1000
+  }
+  {
+    id: 900676
+    type: 1
+    name: 江崎普林
+    enemy_info: 江崎布丁60
+    code: EzakiBoss
+    maxlife: 26000
+    pow: 32
+    hit: 70
+    dodge: 60
+    range: 8
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 150
+    boss_hp: 26000
+    def: 99999
+    level: 100
+    character: 江崎普林
+    normal_attack: 121901
+    passive_skill: "121902,121903,121904,121905,121906,121907,121908,121909,121910,121911,121912,121913,121914,121915,121916,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100057
+    danger: 1000
+  }
+  {
+    id: 900677
+    type: 1
+    name: 岛村孝
+    enemy_info: 岛村孝70
+    code: TakashiBoss
+    maxlife: 32000
+    pow: 32
+    hit: 40
+    dodge: 30
+    range: 15
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 150
+    boss_hp: 32000
+    def: 99999
+    level: 100
+    character: 岛村孝
+    normal_attack: 122001
+    passive_skill: "122002,122003,122004,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100058
+    danger: 1000
+  }
+  {
+    id: 900678
+    type: 1
+    name: 水金铃鹿
+    enemy_info: 水金凉香70
+    code: MizukinnBoss
+    maxlife: 28000
+    pow: 38
+    hit: 50
+    dodge: 20
+    range: 12
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 150
+    boss_hp: 28000
+    def: 99999
+    level: 100
+    character: 水金铃鹿
+    normal_attack: 755318
+    passive_skill: "755314,755315,755316,755317,755319,755320,755325,755326,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100059
     danger: 1000
   }
   {

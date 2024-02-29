@@ -121,4 +121,62 @@
     unlock_mission: "11484,11486;11482"
     dorm_interact: 2;0.6;0
   }
+  {
+    id: 1001
+    name: 塔奇克马
+    en_name: Tachikoma
+    code: Tachikoma
+    type: 2
+    population: 2
+    energy_max: 80
+    energy_bak_max: 240
+    energy_cost: 20
+    baseammo: 40
+    basemre: 40
+    ammo_part: 10
+    mre_part: 10
+    type_component1: "1,2"
+    type_component2: "2"
+    type_component3: "2"
+    type_component4: "3,4"
+    type_component5: "3"
+    name_component1: 重/轻武器栏位
+    name_component2: 轻武器栏位
+    name_component3: 轻武器栏位
+    name_component4: 防护/功能栏位
+    name_component5: 功能栏位
+    common_component_num: 4
+    crew_ids: "2001"
+    launch_times: 2035-12-31 00:00:00
+    basic_hp: 4400
+    basic_heavy_damage: 220
+    basic_light_damage: 290
+    basic_reload: 104
+    basic_atk_speed: 80
+    basic_precision: 81
+    basic_hit: 30
+    basic_armor: 10
+    basic_dodge: 12
+    H_armor_piercing: 65
+    L_armor_piercing: 60
+    def_break: 140
+    crit: 40
+    crit_dmg: 150
+    night_vision: 2
+    move: 12
+    L_attack_rang: 8
+    H_attack_rang: 20
+    long_attack_range: "0,0"
+    battle_assist_range: "0,0"
+    display_assist_damage_area: 100
+    original_component1: 101
+    original_component2: 102
+    original_component3: 103
+    normal_attack: 900107
+    performance_skill: 900001
+    mission_skill: "1,640104"
+    basic_effect: 25000
+    C_off: "1.6,5.2"
+    dorm_interact: 2;0.6;0
+  }
 ]

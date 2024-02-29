@@ -15710,6 +15710,64 @@
     no_battle_damage: -1
   }
   {
+    id: 1150101
+    name: 草薙素子
+    guns: "10094"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;21000;0
+    ai_content: 0;0;0
+    no_battle_damage: 95
+  }
+  {
+    id: 1150500
+    name: 江崎普林
+    guns: "1"
+    enemy_team_id: 1150500
+    initial_type: 2
+    ai: 0;0;102
+    ai_content: 0;0;4
+    betray_condition: "6"
+    betray_number: "6400000,640005,640006"
+    betray_result: "2,2,2"
+    betray_result_enemy: "1150502,1150502,1150500"
+    no_battle_damage: -1
+  }
+  {
+    id: 1150501
+    name: 塔奇克马
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 103;20110:10,10,60,180;103
+    ai_content: 0;0;0
+    no_battle_damage: -1
+    vehicle: 1150501
+  }
+  {
+    id: 1151201
+    name: 草薙素子
+    guns: "10094"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;21000;0
+    ai_content: 0;0;0
+    no_battle_damage: 95
+  }
+  {
+    id: 1151600
+    name: 江崎普林
+    guns: "1"
+    enemy_team_id: 1151600
+    initial_type: 2
+    ai: 0;0;102
+    ai_content: 0;0;4
+    betray_condition: "6"
+    betray_number: "6400000,640005,640006"
+    betray_result: "2,2,2"
+    betray_result_enemy: "1150502,1150502,1150500"
+    no_battle_damage: -1
+  }
+  {
     id: 3000601
     code: profilePic_AI
     ui_image_icon: ally0

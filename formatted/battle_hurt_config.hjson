@@ -4348,6 +4348,34 @@
     hit_type: 1
   }
   {
+    id: 695
+    description: 江琦布丁红雷
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 696
+    description: 岛村孝标记
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    buff_id_target: "5263"
+    hit_type: 1
+  }
+  {
+    id: 697
+    description: 混乱伤害
+    extra_damage: "10"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
     id: 698
     description: MG15支援伤害
     damage_ratio: *201
@@ -8431,6 +8459,78 @@
     is_shield: 1000005398
   }
   {
+    id: 2406
+    description: 凉香RPG普攻
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2407
+    description: 凉香RPG二技能
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2408
+    description: 塔奇克马普通攻击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2409
+    description: 塔奇克马榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2410
+    description: 布丁榴弹
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_target: 9302:1
+  }
+  {
+    id: 2411
+    description: 布丁榴弹中心
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 9302:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2412
+    description: 凉香榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    hit_type: 1
+  }
+  {
     id: 2416
     description: 额外攻击fm24
     extra_damage: *102
@@ -10248,6 +10348,15 @@
     fix_damage: "1000003959"
   }
   {
+    id: 2681
+    description: 连珠终结MG5
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
     id: 3001
     description: 普通攻击【真普攻】【轻武器】
     damage_ratio: *202
@@ -10773,6 +10882,26 @@
     buff_rate: "100"
     hit_type: 1
     fix_damage: "1000004384"
+  }
+  {
+    id: 241201
+    description: 凉香榴弹
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 241202
+    description: 普通攻击凉香
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
   }
   {
     id: 243501

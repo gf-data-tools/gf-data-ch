@@ -27437,6 +27437,165 @@
     allyteam_summoner: "612312"
   }
   {
+    id: 640001
+    name: 【标记】向下传送触发
+    skill_group_id: 640001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 6400005&&6400006
+    target_id: 6400005&&6400006
+    special_spot_add: 640001:1
+  }
+  {
+    id: 640002
+    name: 【标记】向上传送触发
+    skill_group_id: 640002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 640001||640002||640003||640004
+    target_id: 640001||640002||640003||640004
+    special_spot_add: 640002:1
+  }
+  {
+    id: 640005
+    name: 【标记】场上存在隐身buff
+    skill_group_id: 640005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: "640005"
+    target_id: "1"
+  }
+  {
+    id: 640006
+    name: 【标记】场上不存在隐身buff
+    skill_group_id: 640006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: "640006"
+    target_id: "1"
+  }
+  {
+    id: 640100
+    name: 【标记】Boss单位死亡
+    skill_group_id: 640100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: 640007&&640009
+    target_id: "640009"
+    special_spot_minus: 640100:1
+  }
+  {
+    id: 640101
+    name: 【标记】敌方加速
+    skill_group_id: 640101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: 640101||640102||640103||640104
+    target_id: 640101||640102||640103||640104
+    mission_buff_add: 640101:1
+  }
+  {
+    id: 640102
+    name: 【标记】敌方隐身
+    skill_group_id: 640102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: 640105||640106
+    target_id: 640105||640106
+    mission_buff_add: 640102:1
+  }
+  {
+    id: 640103
+    name: 【标记】敌方小怪隐身初始化
+    skill_group_id: 640103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 640102:1
+  }
+  {
+    id: 640106
+    name: 【标记】反隐身标记
+    skill_group_id: 640106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 640101:1
+  }
+  {
+    id: 640107
+    name: 【标记】敌方隐身
+    skill_group_id: 640107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 640102:1
+  }
+  {
+    id: 640108
+    name: 【标识】给敌方消除隐身
+    skill_group_id: 640108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 3
+    target_id: "64010491"
+    mission_buff_add: 640100:1
+    mission_buff_minus: 640102:1
+  }
+  {
+    id: 640109
+    name: 【标记】布丁隐身
+    skill_group_id: 640109
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "1"
+    mission_buff_add: 640102:1
+  }
+  {
     id: 700111
     name: AI识别-连携检测空
     skill_group_id: 700111
@@ -27647,13 +27806,14 @@
     id: 998201
     name: 光学迷彩
     code: ComponentSkill26
-    description: 地图技能：自身3回合不会被索敌
+    description: 地图技能：自身3回合不会被索敌，只能使用一次
     lvup_description: 地图技能
     skill_group_id: 9982
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
     spot_echelon: "-1"
+    cd_time: 99999
     cd_time_type: 1
     target_id: "1"
     special_spot_add: 998002:1
@@ -40071,6 +40231,167 @@
     start_range: 99
     target_id: "1"
     special_spot_add: 6390336:1
+  }
+  {
+    id: 6400000
+    description: 2回合内不会被警戒和巡逻敌人发现，冷却时间1回合;
+    skill_group_id: 6400000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: (6400003&&6400004)&&1
+    target_id: (6400003&&6400004)&&1
+    special_spot_add: 640001:1
+    mission_buff_add: 6400000:1,6400002:1,6400003:1
+    subsidiary_mission_skill: "6400010,6400020"
+    is_manual: 6400000
+  }
+  {
+    id: 6400001
+    name: 【标记】我方隐身携带
+    skill_group_id: 6400001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 6400001:1
+  }
+  {
+    id: 6400002
+    name: 【标记】我方隐身初始化SP点
+    skill_group_id: 6400002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 640000:1
+  }
+  {
+    id: 6400003
+    description: 主动取消光学伪装效果
+    skill_group_id: 6400003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 640002:1
+    mission_buff_add: 6400004:1
+    mission_buff_minus: 6400000:1,6400002:1,6400003:1
+    subsidiary_mission_skill: "6400010,6400020"
+    is_manual: 6400003
+  }
+  {
+    id: 6400004
+    name: 【标记】Boss持续标记
+    skill_group_id: 6400004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 640100:1
+    mission_buff_add: 6400005:1
+  }
+  {
+    id: 6400005
+    name: 【标记】Boss单位死亡EX
+    skill_group_id: 6400005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: 640008&&640009
+    target_id: "640009"
+    special_spot_minus: 640100:1
+  }
+  {
+    id: 6400006
+    name: 【标记】Boss单位存活确认
+    skill_group_id: 6400006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: "640010"
+    target_id: "640010"
+    special_spot_add: 6400005:1,640100:1
+  }
+  {
+    id: 6400007
+    name: 【标记】Boss单位存活确认EX
+    skill_group_id: 6400007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    trigger_id: "640011"
+    target_id: "640011"
+    special_spot_add: 6400005:1,640100:1
+  }
+  {
+    id: 6400008
+    name: 【标记】Boss检测主键
+    skill_group_id: 6400008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "640100,6400006"
+  }
+  {
+    id: 6400009
+    name: 【标记】Boss检测主键EX
+    skill_group_id: 6400009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "6400005,6400007"
+  }
+  {
+    id: 6400010
+    name: 【标记】向下传送结束
+    skill_group_id: 6400010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "6400010"
+    special_spot_minus: 640001:1
+  }
+  {
+    id: 6400020
+    name: 【标记】向上传送结束
+    skill_group_id: 6400020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 100
+    target_id: "6400020"
+    special_spot_minus: 640002:1
   }
   {
     id: 6410101
@@ -72829,6 +73150,25 @@
     is_airborne: 2
     target_id: "1"
     special_spot_add: 584514:1
+  }
+  {
+    id: 64010401
+    name: 伪装侦测
+    code: medusa
+    description: 2格距离内，以选择点为中心，消除周围1格内所有敌人的光学伪装效果，冷却时间1回合。
+    skill_group_id: 640104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 1
+    cd_time_type: 1
+    start_range: 2
+    effect_target: "1000167"
+    trigger_id: 640100&&1
+    special_spot_add: 640103:1
+    subsidiary_mission_skill: "640106,640108"
+    is_manual: 640104
   }
   {
     id: 93617101

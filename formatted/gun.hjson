@@ -10041,15 +10041,16 @@
     special: 11
     eat_ratio: 110
     ratio_range: 100
-    skill1: 301504
+    skill1: 1000302
     normal_attack: 300107
     passive_skill: "756219,300202"
+    dynamic_passive_skill: "1000303"
     effect_grid_center: 18
     effect_guntype: "6"
     effect_grid_pos: "22,24"
     effect_grid_effect: "1,10;8,10"
     type_equip1: 2;5,17
-    type_equip2: 1;1,2,3,16
+    type_equip2: 1;1,2,3,16,18
     type_equip3: 3;14,21
     ai: 109
     launch_time: 2016-05-20 00:00:00
@@ -33278,6 +33279,155 @@
     atk_speed_max: 60
     ratio_rec: 110
     recommended_team_ids: "9"
+  }
+  {
+    id: 1042
+    name: 草薙素子
+    en_name: Motoko
+    code: Motoko
+    extra: 小枪,田中敦子,
+    type: 1
+    rank: 5
+    develop_duration: 3600
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 105
+    ratio_pow: 95
+    ratio_rate: 112
+    ratio_speed: 100
+    ratio_hit: 122
+    ratio_dodge: 138
+    armor_piercing: 15
+    crit: 20
+    special: 1
+    eat_ratio: 130
+    ratio_range: 100
+    skill1: 750900
+    normal_attack: 750905
+    passive_skill: "750901"
+    dynamic_passive_skill: "750906,750904,750903"
+    effect_grid_center: 13
+    effect_grid_pos: "8,12,14,7,9,18"
+    effect_grid_effect: "1,15;5,10"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10,20
+    ai: 1035
+    is_additional: 1
+    launch_time: 2024-01-19 00:00:00
+    obtain_ids: "260"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,600,"
+    gun_tag_ids: "103,124"
+    atk_speed_max: 120
+    ratio_rec: 105
+    recommended_team_ids: "2,3,4,8"
+  }
+  {
+    id: 1043
+    name: 江崎普林
+    en_name: Ezaki
+    code: Ezaki
+    extra: 二花,潘惠美,
+    type: 4
+    rank: 5
+    develop_duration: 14100
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 100
+    ratio_pow: 108
+    ratio_rate: 108
+    ratio_speed: 100
+    ratio_hit: 98
+    ratio_dodge: 105
+    armor_piercing: 15
+    crit: 30
+    eat_ratio: 145
+    ratio_range: 100
+    skill1: 750907
+    normal_attack: 750909
+    passive_skill: "750908,750910"
+    dynamic_passive_skill: "750911,750912"
+    effect_grid_center: 13
+    effect_guntype: "2,4"
+    effect_grid_pos: "12,17,18,14,19"
+    effect_grid_effect: "1,10;3,20"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10,20
+    ai: 1007
+    is_additional: 1
+    launch_time: 2024-01-19 00:00:00
+    obtain_ids: "262"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,598,"
+    gun_tag_ids: "108,117,121"
+    atk_speed_max: 135
+    ratio_rec: 100
+    recommended_team_ids: "1"
+  }
+  {
+    id: 1044
+    name: 水金铃鹿
+    en_name: Mizukinn
+    code: Mizukinn
+    extra: 陆银,庄司宇芽香,
+    type: 5
+    rank: 5
+    develop_duration: 23760
+    baseammo: 40
+    basemre: 30
+    ammo_add_withnumber: 25
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    retirepart: 5
+    ratio_life: 96
+    ratio_pow: 128
+    ratio_rate: 128
+    ratio_speed: 100
+    ratio_hit: 110
+    ratio_dodge: 120
+    armor_piercing: 15
+    crit: 5
+    special: 9
+    eat_ratio: 118
+    ratio_range: 100
+    skill1: 750913
+    normal_attack: 750915
+    passive_skill: "750917,750918,750919,750920,750921"
+    dynamic_passive_skill: "750914,750916"
+    effect_grid_center: 18
+    effect_guntype: "6"
+    effect_grid_pos: "23,24"
+    effect_grid_effect: "1,15;8,15"
+    type_equip1: 2;5,17
+    type_equip2: 1;1,2,3,16,18
+    type_equip3: 3;14,21
+    ai: 1026
+    is_additional: 1
+    launch_time: 2024-01-19 00:00:00
+    obtain_ids: "261"
+    rank_display: 7
+    gun_detail_bg: collab
+    show_damage_skin: ",0,599,"
+    gun_tag_ids: "125,143"
+    atk_speed_max: 1000
+    ratio_rec: 95
+    recommended_team_ids: "3,5"
   }
   {
     id: 9001

@@ -29633,6 +29633,80 @@
     rotate: "2"
   }
   {
+    id: 20112
+    name: 赛博水晶球
+    classes: 19
+    type: 201
+    space: "2,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 曾经用于协助运行2Z64区的AI，在被剥离掉部分设定和程序后，现在变成了人形们有问必答的水晶球。
+    code: 2024Ghost_deco01,2024Ghost_Cyberbrain
+    texture_type: "1,2"
+    sorting: "0,20"
+    offset: "0.000,-0.176,-0.041|0.000,1.096,0.253"
+    rotate: "2,2"
+  }
+  {
+    id: 20113
+    name: 完全潜行模拟设备
+    classes: 19
+    type: 202
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 原本是用于帮助指挥官模拟进入2Z64区的体验设备，现在只是把还算舒服的午睡椅。
+    code: 2024Ghost_deco04,2024Ghost_deco02,2024Ghost_LinkedDevice
+    texture_type: "1,1,2"
+    sorting: "0,20,10"
+    offset: "0.000,-0.057,-0.013|0.000,-0.054,-0.013|0.670,0.315,-0.137"
+    rotate: "2,2,2"
+    interact_point: "14"
+    interact_point_offset: *-1.021,1.593,-0.285
+  }
+  {
+    id: 20114
+    name: 铁窗合影
+    classes: 19
+    type: 302
+    space: "5,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 一张摄于2Z64区的四人合影，应某位不愿透露姓名的女士的强烈要求，挂在了指挥室。
+    code: 2024Ghost_deco03
+    texture_type: "1"
+    offset: "0.000,0.558,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20115
+    name: 无尽永夜
+    classes: 19
+    type: 301
+    space: "9,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 在这里，不再能感受到时间的流逝，只有数据流不断划过夜空。
+    code: 2024Ghost_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20116
+    name: 无眠寂地
+    classes: 19
+    type: 101
+    space: "3,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 当时间的流逝不再具有意义，睡眠也悄然离开了。
+    code: 2024Ghost_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
     id: 20117
     name: 塔奇克马
     classes: 299
@@ -29648,6 +29722,20 @@
     interact_point: "17"
     interact_point_offset: *0.166,0.105,-0.285
     bonus_id: 3108
+  }
+  {
+    id: 20118
+    name: 指向永恒的徽记
+    classes: 19
+    type: 302
+    space: "2,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 人类或许永远无法抵达幸福的彼岸，但请不要迷茫，我们来过的痕迹，将为后继者指引前行的方向。
+    code: 2024Ghost_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
   }
   {
     id: 30001
@@ -31504,6 +31592,51 @@
     decompose_gift: 100003
     description: MG42的海报。
     code: poster_ChessBonus_MG42
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30598
+    name: 江崎普林-灵魂骇客
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 江崎普林的海报
+    code: poster_Ghost2024_Ezaki
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30599
+    name: 水金铃鹿-梦中安魂曲
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 水金铃鹿的海报
+    code: poster_Ghost2024_Mizukinn
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30600
+    name: 草薙素子-幽魂低语
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 草薙素子的海报
+    code: poster_Ghost2024_Motoko
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

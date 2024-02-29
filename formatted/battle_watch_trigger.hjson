@@ -95,6 +95,12 @@
     buff_judge: 1000005065
   }
   {
+    id: 1019
+    description: 生命值监视
+    hurt_type: "0,1,2"
+    hurt_judge: 1000005402
+  }
+  {
     id: 1060
     description: 暴击监视
     hurt_type: "1"
@@ -197,6 +203,17 @@
     description: 掉编
     hurt_type: "0,1,2"
     hurt_judge: 1000002319
+  }
+  {
+    id: 5009
+    description: 江琦布丁监视
+    hurt_type: "0,1,2,3"
+    hurt_judge: 1
+  }
+  {
+    id: 5010
+    description: 江琦布丁解控监视
+    buff_judge: 1000002356
   }
   {
     id: 70001

@@ -17387,4 +17387,38 @@
     icon_code: 满分试卷
     condition: 11474:1147405
   }
+  {
+    identity: 1219
+    type: c_mission_win_no_battle
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 慈悲的远望
+    content: 镜扉的永恒-突围：战斗胜利情况下不进行任何一场战斗。
+    type_sort: 100
+    sort: 323
+    icon_code: 慈悲的远望
+    condition: "11498,11509"
+  }
+  {
+    identity: 1220
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 第六只眼
+    content: 镜扉的永恒-盗梦：不使用伪装侦测的情况下获得胜利。
+    type_sort: 100
+    sort: 324
+    icon_code: 第六只眼
+    condition: 11506:640101,11517:640101
+  }
 ]

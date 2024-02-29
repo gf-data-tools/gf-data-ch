@@ -12074,4 +12074,139 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 386
+    name: 特制PR导轨
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      命中+<hit>技能增强$MG5专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "14,16"
+    critical_percent: "18,20"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_MG5
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "109"
+    equip_introduction: 在经典设计的选材上使用了聚合材料，减轻了导轨的重量，同时在设计精度上也有一定提升。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000,critical_percent:1000
+    passive_skill: "1000301"
+    max_level: 10
+    auto_select_id: 18118
+    is_show: 1
+    obtain_ids: "3103"
+    description_skill: 1000301
+  }
+  {
+    id: 387
+    name: 挺括皮衣
+    description:
+      '''
+      伤害<pow>
+      回避+<dodge>$草薙素子专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-3,-1"
+    dodge: "15,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_Motoko
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "1042"
+    equip_introduction: 款式和质地都比较常见的一件皮衣，肘部和背部的刮擦痕迹为它增添了几分神秘感。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    max_level: 10
+    auto_select_id: 20077
+    is_addition: 1
+    is_show: 1
+    obtain_ids: "3113"
+  }
+  {
+    id: 388
+    name: 备用眼球
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>$江崎普林专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "5,8"
+    rate: "-5,-1"
+    critical_harm_rate: "18,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_Ezaki
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "1043"
+    equip_introduction: 使用了新型技术的义体眼球，能够更容易找到目标心智的弱点，但普林被勒令不准在日常使用。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,critical_harm_rate:400
+    max_level: 10
+    auto_select_id: 20078
+    is_addition: 1
+    is_show: 1
+    obtain_ids: "3113"
+  }
+  {
+    id: 389
+    name: 红色眼镜
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      伤害+<pow> 命中+<hit>$水金铃鹿专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    hit: "1,3"
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_Mizukinn
+    develop_duration: 2700
+    company: IOP
+    fit_guns: "1044"
+    equip_introduction: 根据观察，她的义体并不需要视力矫正，但不知出于什么原因，她总是随身带着这幅眼镜。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,hit:700,pow:1000
+    max_level: 10
+    auto_select_id: 18117
+    is_addition: 1
+    is_show: 1
+    obtain_ids: "3113"
+  }
 ]
