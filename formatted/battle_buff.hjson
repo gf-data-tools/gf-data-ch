@@ -54646,6 +54646,124 @@
     boss_available: 1
   }
   {
+    id: 9471
+    name: G36装备1
+    conflict_type: 2424
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9472
+    name: G36装备2
+    conflict_type: 2425
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9473
+    name: G36套装
+    conflict_type: 2426
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9474
+    name: RO635装备1
+    conflict_type: 2427
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9475
+    name: RO635装备2
+    conflict_type: 2428
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9476
+    name: RO635套装
+    conflict_type: 2429
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9477
+    name: G36增益目标
+    conflict_type: 2430
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9478
+    name: G36增益火力
+    conflict_type: 2431
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9479
+    name: G36增益回避
+    conflict_type: 2432
+    max_tier: 1
+    type: 802
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    dodge_number: *202
+  }
+  {
+    id: 9480
+    name: G36记录
+    description: G36 用
+    conflict_type: 2433
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    trigger_creation_id: "3713"
+  }
+  {
+    id: 9481
+    name: RO635护盾
+    conflict_type: 2434
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    is_form_play: 1
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

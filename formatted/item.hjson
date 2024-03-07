@@ -14211,6 +14211,105 @@
     rank: 1
   }
   {
+    id: 2454
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M16A1
+    item_name: 名片：枪响之后
+    introduction: 名片：枪响之后
+    rank: 1
+  }
+  {
+    id: 2455
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M16A1
+    item_name: M16A1-特工没有假期
+    introduction: M16A1-特工没有假期
+    rank: 1
+  }
+  {
+    id: 2456
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_Erma
+    item_name: Erma-月下天使泪
+    introduction: Erma-月下天使泪
+    rank: 1
+  }
+  {
+    id: 2457
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_HK433
+    item_name: HK433-夜色落入赫墨拉的窗
+    introduction: HK433-夜色落入赫墨拉的窗
+    rank: 1
+  }
+  {
+    id: 2458
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_HK416
+    item_name: HK416-透明的蓝
+    introduction: HK416-透明的蓝
+    rank: 1
+  }
+  {
+    id: 2459
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_GeneralLiu
+    item_name: 刘氏步枪-清音素心
+    introduction: 刘氏步枪-清音素心
+    rank: 1
+  }
+  {
+    id: 2460
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_X95
+    item_name: X95-厄瑞涅的耳语
+    introduction: X95-厄瑞涅的耳语
+    rank: 1
+  }
+  {
+    id: 2461
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_K2
+    item_name: K2-相守在花下
+    introduction: K2-相守在花下
+    rank: 1
+  }
+  {
+    id: 2462
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_Saiga12
+    item_name: 塞伽12型-水中茜影
+    introduction: 塞伽12型-水中茜影
+    rank: 1
+  }
+  {
+    id: 2463
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_G3
+    item_name: G3-暗红嫣柔
+    introduction: G3-暗红嫣柔
+    rank: 1
+  }
+  {
+    id: 2464
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_G43
+    item_name: G43-光影之舞
+    introduction: G43-光影之舞
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -15458,6 +15557,15 @@
     id: 10713
     type: 18
     arg: "10713"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10714
+    type: 18
+    arg: "10714"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -19610,6 +19718,22 @@
     rank: 1
   }
   {
+    id: 140033
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第17期前线协议
+    rank: 1
+  }
+  {
+    id: 140034
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第17期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -19988,6 +20112,15 @@
     code: profileFrame_friendmall_M110
     item_name: 头像框·香糯童话
     introduction: 头像框·香糯童话
+    rank: 1
+  }
+  {
+    id: 200042
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M16A1
+    item_name: 头像框·灯下微尘
+    introduction: 头像框·灯下微尘
     rank: 1
   }
   {
@@ -21275,6 +21408,46 @@
     sort: -1
   }
   {
+    id: 1500120
+    type: 15
+    arg: "1500120"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-威士忌风暴，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500121
+    type: 15
+    arg: "1500121"
+    code: package_choose
+    item_name: 弹匣类装备自选包
+    introduction: 来自于前线协议-威士忌风暴，可从该指定投递配给序标内选择获取一件弹匣类装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500122
+    type: 15
+    arg: "1500122"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-威士忌风暴，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500123
+    type: 15
+    arg: "1500123"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-威士忌风暴，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -21475,6 +21648,36 @@
     id: 1700018
     type: 15
     arg: "1700018"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700019
+    type: 15
+    arg: "1700019"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700020
+    type: 15
+    arg: "1700020"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700021
+    type: 15
+    arg: "1700021"
     code: package_choose
     item_name: 高阶专属装备自选序标
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备

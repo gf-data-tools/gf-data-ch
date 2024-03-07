@@ -4247,7 +4247,7 @@
     gun_detail_bg: nation_German
     org_id: 10303
     related_story_id: 100047
-    show_damage_skin: ",0,7607,"
+    show_damage_skin: ",0,7607,10210,"
     gun_tag_ids: "108,106"
     atk_speed_max: 120
     ratio_rec: 90
@@ -5818,6 +5818,7 @@
     gun_detail_bg: nation_German
     org_id: 105
     related_story_id: 100063
+    show_damage_skin: ",10209,"
     gun_tag_ids: "121,153"
     atk_speed_max: 120
     ratio_rec: 100
@@ -5893,6 +5894,7 @@
     ratio_range: 100
     skill1: 100107
     normal_attack: 300103
+    passive_skill: "1000404,1000406"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18"
@@ -6029,7 +6031,7 @@
     gun_detail_bg: team_404
     org_id: 10104
     related_story_id: 100065
-    show_damage_skin: ",548,557,3401,6505,537,0,581,"
+    show_damage_skin: ",548,557,3401,6505,537,0,581,10203,"
     gun_tag_ids: "121,153"
     atk_speed_max: 135
     ratio_rec: 110
@@ -13170,7 +13172,8 @@
     ratio_range: 100
     skill1: 105604
     normal_attack: 300102
-    passive_skill: "200474,200432,200425,201431,201006,202008,702015,702042,756233"
+    passive_skill: "200474,200432,200425,201431,201006,202008,702015,702042,756233,1000504"
+    dynamic_passive_skill: "1000505"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9,12,14"
@@ -14540,7 +14543,7 @@
     gun_detail_bg: nation_Russia
     org_id: 10802
     related_story_id: 100160
-    show_damage_skin: ",0,30009,"
+    show_damage_skin: ",0,30009,10208,"
     gun_tag_ids: "109"
     atk_speed_max: 60
     ratio_rec: 120
@@ -17255,7 +17258,7 @@
     rank_display: 5
     org_id: 10202
     related_story_id: 100194
-    show_damage_skin: ",3301,"
+    show_damage_skin: ",3301,10207,"
     gun_tag_ids: "125"
     atk_speed_max: 150
     ratio_rec: 115
@@ -21724,7 +21727,7 @@
     rank_display: 5
     org_id: 10203
     related_story_id: 100251
-    show_damage_skin: ",0,4603,"
+    show_damage_skin: ",0,4603,10205,"
     gun_tag_ids: "127"
     atk_speed_max: 150
     ratio_rec: 110
@@ -26190,7 +26193,7 @@
     gun_detail_bg: nation_China
     org_id: 10203
     related_story_id: 100316
-    show_damage_skin: ",563,578,7701,8703,"
+    show_damage_skin: ",563,578,7701,8703,10204,"
     gun_tag_ids: "126,125,143"
     atk_speed_max: 125
     ratio_rec: 90
@@ -29981,7 +29984,7 @@
     gun_detail_bg: nation_German
     org_id: 10703
     related_story_id: 100376
-    show_damage_skin: ",0,8003,"
+    show_damage_skin: ",0,8003,10201,"
     gun_tag_ids: "131,103"
     atk_speed_max: 135
     ratio_rec: 150
@@ -30890,7 +30893,7 @@
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10301
-    show_damage_skin: ",0,8502,30013,"
+    show_damage_skin: ",0,8502,30013,10202,"
     gun_tag_ids: "108,121"
     atk_speed_max: 135
     ratio_rec: 112
@@ -42066,6 +42069,7 @@
     explore_tag: "26,69"
     gun_detail_bg: nation_German
     related_story_id: 100063
+    show_damage_skin: ",10209,"
     gun_tag_ids: "121,153,127,110"
     atk_speed_max: 120
     ratio_rec: 100
@@ -42142,6 +42146,7 @@
     skill1: 802101
     skill2: 802102
     normal_attack: 300103
+    passive_skill: "1000404,1000406"
     dynamic_passive_skill: "802103"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -42149,7 +42154,7 @@
     effect_grid_effect: "1,30;2,15"
     type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 64
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "35"
@@ -42278,7 +42283,7 @@
     explore_tag: "9,10,83,86"
     gun_detail_bg: team_404
     related_story_id: 100065
-    show_damage_skin: ",0,548,557,3401,6505,537,5024,581,"
+    show_damage_skin: ",0,548,557,3401,6505,537,5024,581,10203,"
     gun_tag_ids: "121,153"
     atk_speed_max: 150
     ratio_rec: 110
@@ -44496,14 +44501,14 @@
     skill1: 803501
     skill2: 803502
     normal_attack: 803504
-    passive_skill: "803503,803505,702042,756233"
-    dynamic_passive_skill: "803506"
+    passive_skill: "803503,803505,702042,756233,1000504"
+    dynamic_passive_skill: "803506,1000505"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9,12,14"
     effect_grid_effect: "2,15;3,40"
     type_equip1: 3;9,10,20
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13
     ai: 143
     launch_time: 2017-01-13 00:00:00

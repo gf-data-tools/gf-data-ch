@@ -27902,6 +27902,229 @@
     rotate: "3,3,3"
   }
   {
+    id: 11301
+    name: 圣洁颂歌-拱顶之下
+    classes: 113
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 繁复的建筑与装饰下，是层层垒就的砖石：朴素、坚韧，承载着人们幸福的重量。
+    code: WhiteV2024_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11302
+    name: 圣洁颂歌-梦中的伊甸园
+    classes: 113
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 虽然绿意盎然、无忧无虑的生活已是梦幻泡影，但心怀美好的向往，我们终将找到属于自己的乐土。
+    code: WhiteV2024_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11303
+    name: 圣洁颂歌-安宁之栏
+    classes: 113
+    type: 201
+    position: "19,5"
+    space: "6,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 区分会场主人公与来宾们的神圣分界线——前排虽好，请不要过分热情。
+    code: WhiteV2024_deco_01
+    texture_type: "1"
+    offset: "-0.042,-0.511,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11304
+    name: 圣洁颂歌-恬静之栏
+    classes: 113
+    type: 201
+    position: "9,5"
+    space: "6,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 区分会场主人公与来宾们的神圣分界线——前排虽好，请不要过分热情。
+    code: WhiteV2024_deco_02
+    texture_type: "1"
+    offset: "0.010,-0.375,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11305
+    name: 圣洁颂歌-祈愿圣像
+    classes: 113
+    type: 201
+    position: "7,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: 穿越历史风霜的古老石像，定格着祈祷的瞬间。“如果我也一动不动，未来的人类是否将向我致意？”一只小小兵蚁如是想着，悄悄换上灰色涂装。
+    code: WhiteV2024_deco_03
+    texture_type: "1"
+    offset: "0.000,-0.094,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11306
+    name: 圣洁颂歌-香槟的诱惑
+    classes: 113
+    type: 201
+    position: "29,11"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 很多人光临此地并非为了观摩仪式，而是为了一杯美酒。然而神圣之地亦有禁忌，瓶中之物不过是气泡果汁而已。
+    code: WhiteV2024_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 11307
+    name: 圣洁颂歌-迷你见证团
+    classes: 113
+    type: 202
+    position: "10,9"
+    space: "4,5,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 忙成一锅粥的摄像团队，老远就能听见黄色兵蚁正在发号施令——“你，盯紧画幅！你们，固定好支架！……咦？我的喇叭呢？！”
+    code: WhiteV2024_videoAnt
+    texture_type: "2"
+    offset: "0.125,0.219,0.000"
+    rotate: "2"
+    interact_point: "73"
+    interact_point_offset: *-0.788,0.882,0.000
+    touch_area: "4,5,4"
+  }
+  {
+    id: 11308
+    name: 圣洁颂歌-硕果的尊严
+    classes: 113
+    type: 201
+    position: "24,11"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 面对人满为患的香槟桌，各色水果与糖果的联合拼盘也不甘示弱……至于火锅和筷子？只是拿来凑高度的而已。
+    code: WhiteV2024_deco_05
+    texture_type: "1"
+    offset: "-0.240,-0.125,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11309
+    name: 圣洁颂歌-金币许愿池
+    classes: 113
+    type: 201
+    position: "27,0"
+    space: "6,5,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: “背对喷泉向池中投一枚金币，就可以许三个愿望，特别灵验哦！”——来自喷泉管理人格琳娜的友情说明。
+    code: WhiteV2024_deco_06,WhiteV2024_fountainPigeon
+    texture_type: "1,2"
+    sorting: "0,0"
+    offset: "-0.270,-0.169,0.000|-0.125,2.117,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11310
+    name: 圣洁颂歌-誓约之坛
+    classes: 113
+    type: 201
+    position: "11,0"
+    space: "12,5,1,1,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 红毯之路的终点通往此处。请对你所说的每一句话都心怀敬意，因为高坛之上，神明正在聆听。
+    code: WhiteV2024_deco_07,WhiteV2024_deco_08,WhiteV2024_deco_09,WhiteV2024_weddingStage
+    texture_type: "1,1,1,2"
+    sorting: "0,0,20,10"
+    offset: "-1.189,-0.271,0.000|3.419,-0.271,0.000|0.083,0.375,0.000|-0.021,2.252,0.000"
+    rotate: "2,2,2,2"
+    interact_point: "74"
+    interact_point_offset: *0.204,1.366,-0.285
+  }
+  {
+    id: 11311
+    name: 圣洁颂歌-幸福囚笼
+    classes: 113
+    type: 202
+    position: "0,0"
+    space: "7,7,1,1,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 参照捕鸟笼的基本原理，内置舒适安逸的吊椅。从此，再谨慎的来宾都无法拒绝它的诱惑——只不过代价是按秒计费。
+    code: WhiteV2024_deco_10,WhiteV2024_swingPigeon,WhiteV2024_swingPigeon2
+    texture_type: "1,2,2"
+    sorting: "0,0,0"
+    offset: "-0.375,-1.387,3.305|-0.688,2.742,3.305|-0.288,-0.624,3.305"
+    rotate: "2,2,2"
+    interact_point: "12"
+    interact_point_offset: *0.263,2.533,-0.285
+  }
+  {
+    id: 11312
+    name: 圣洁颂歌-和平广场的盛宴
+    classes: 113
+    type: 201
+    position: "19,9"
+    space: "4,4,1,1,0,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 别再问它们为什么不飞了，吃饱了才有力气表演！
+    code: WhiteV2024_pigeon
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "4,4,4"
+  }
+  {
+    id: 11313
+    name: 圣洁颂歌-降礼星环
+    classes: 113
+    type: 201
+    position: "16,6"
+    space: "2,2,1,1,1,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 旋转、分解……天际最美的行星以此降下丰饶的祝福。
+    code: WhiteV2024_deco_11
+    texture_type: "1"
+    offset: "0.000,1.037,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11314
+    name: 圣洁颂歌-矫捷闪电
+    classes: 113
+    type: 201
+    position: "3,10"
+    space: "6,3,1,1,1,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 王子可以没有王冠，却不能没有优雅的坐骑——哪怕是从旋转木马上拆下来的部件，也好过空空如也。
+    code: WhiteV2024_deco_12
+    texture_type: "1"
+    offset: "0.000,-0.209,0.000"
+    rotate: "2"
+    interact_point: "12"
+    interact_point_offset: *-0.613,2.874,-0.285
+  }
+  {
     id: 20000
     name: 名汤·拉王
     classes: 81
@@ -29736,6 +29959,20 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
+  }
+  {
+    id: 20119
+    name: 雪乡的夜与星
+    classes: 81
+    type: 201
+    space: "5,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 北境漫长的夜晚，点缀着绚丽星辰，极光撒在松树梢上，与深邃的夜空一起构筑冰雪的梦境。
+    code: 2024KP31_decoA
+    texture_type: "1"
+    offset: "0.000,-0.120,-0.028"
+    rotate: "2"
   }
   {
     id: 30001
@@ -44742,6 +44979,141 @@
     rotate: "3"
   }
   {
+    id: 310201
+    name: Erma-月下天使泪
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Erma的海报。
+    code: poster_WhiteV2024_Erma
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310202
+    name: HK433-夜色落入赫墨拉的窗
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HK433的海报。
+    code: poster_WhiteV2024_HK433
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310203
+    name: HK416-透明的蓝
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HK416的海报。
+    code: poster_WhiteV2024_HK416
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310204
+    name: 刘氏步枪-清音素心
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 刘氏步枪的海报。
+    code: poster_WhiteV2024_GeneralLiu
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310205
+    name: X95-厄瑞涅的耳语
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: X95的海报。
+    code: poster_WhiteV2024_X95
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310207
+    name: K2-相守在花下
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: K2的海报。
+    code: poster_WhiteV2024_K2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310208
+    name: 塞伽12型-水中茜影
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 塞伽12型的海报。
+    code: poster_WhiteV2024_Saiga12
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310209
+    name: G3-暗红嫣柔
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: G3的海报。
+    code: poster_WhiteV2024_G3
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310210
+    name: G43-光影之舞
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: G43的海报。
+    code: poster_WhiteV2024_G43
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 330001
     name: ST AR-15-午夏憩风
     classes: 300
@@ -44961,6 +45333,21 @@
     decompose_gift: 100003
     description: 95式的海报。
     code: poster_BattlePass_95type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330017
+    name: M16A1-特工没有假期
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M16A1的海报。
+    code: poster_BattlePass_M16A1
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
