@@ -8910,6 +8910,70 @@
     creation_delay: "0,0,0,0"
   }
   {
+    id: 2074
+    name: AR15敌方普攻
+    action_order: attack2
+    action_playspeed: "100"
+    creation_order: "3715,336,336,35,35,35,3714,371502,371502,371501,371501,371501"
+    creation_delay: "1,5,9,1,6,10,1,5,9,1,6,10"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 2075
+    name: AR15掩体
+    action_order: s2
+    action_playspeed: "90"
+    creation_order: "371701,371702"
+    creation_delay: "0,0"
+  }
+  {
+    id: 2076
+    name: AR15掩体防护
+    creation_order: "3717"
+  }
+  {
+    id: 2077
+    name: AR15扔手雷1
+    action_order: s3
+    action_playspeed: "70"
+    creation_order: "3718"
+    sound_order: BT_grenade_woosh
+    sound_delay: "50"
+  }
+  {
+    id: 2078
+    name: AR15扔手雷2
+    action_order: s3
+    action_playspeed: "70"
+    creation_order: "3719"
+    sound_order: BT_grenade_woosh
+    sound_delay: "50"
+  }
+  {
+    id: 2079
+    name: AR15剧情
+    avg_order: always-404-1-1-2
+    avg_delay: "4"
+  }
+  {
+    id: 2080
+    name: AR15自爆
+    action_order: s,die
+    action_delay: "0,60"
+    action_playspeed: "70,60"
+    creation_order: "3720,372001,372002"
+    creation_delay: "60,60,150"
+  }
+  {
+    id: 2081
+    name: 希普卡强化普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "3721,21,138,8,8,8,372101"
+    creation_delay: "0,0,0,9,4,7,2"
+  }
+  {
     id: 2609
     name: 魂竞争者普攻
     action_order: "1"

@@ -151,10 +151,10 @@
     expect_turn: 2
     boss_team_id: "2"
     turn_duration: 360000000
-    map_res_name: Chapter1_Y
-    map_information: "3000,2625|2472,1574|0,-758"
-    fog_length: "0,500"
-    fog_color: "#000000FF"
+    map_res_name: Chapter1_Y;OPS86_Y
+    map_information: "3000,2625|2472,1574|0,-758;6000,6000|6000,4000|0,5000"
+    fog_length: "0,500;0,500"
+    fog_color: "#000000FF;#000000FF"
     support_available: 2
     round_config: 1:1,2:2,3:3
     limit_squad: -1

@@ -12283,4 +12283,38 @@
     obtain_ids: "3096"
     sp_description: 梯队命中+20%
   }
+  {
+    id: 392
+    name: 9x18mm SPK
+    description:
+      '''
+      伤害+<pow>
+      穿甲<armor_piercing>技能增强$希普卡专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "12,15"
+    armor_piercing: "-10,-7"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Shipka
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "150"
+    equip_introduction: 在经典9x18mm手枪弹的基础上做了改良升级，弹头结构使用了锥形弹芯，大幅提升了子弹出膛的速度，是希普卡爱用的子弹。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:500
+    passive_skill: "1001001"
+    max_level: 10
+    auto_select_id: 19075
+    is_show: 1
+    obtain_ids: "3104"
+    description_skill: 1001001
+  }
 ]
