@@ -37939,7 +37939,7 @@
     exist_duration: "30"
     effect_type: 2
     effect_area: 1
-    effect_param_1: *101
+    effect_param_1: *102
     hurt_id: "503"
     is_form_play: 1
     creation_type: 2
@@ -37976,7 +37976,7 @@
     exist_duration: "30"
     effect_type: 2
     effect_area: 1
-    effect_param_1: *101
+    effect_param_1: *102
     hurt_id: "504"
     is_form_play: 1
     creation_type: 2
@@ -51212,6 +51212,22 @@
     scale: "0.35,0.35,1"
     sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
     sound_delay: "0,2,4,6"
+    is_orb_effect: 1
+  }
+  {
+    id: 3730
+    name: 布伦子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2700"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
     is_orb_effect: 1
   }
   {

@@ -3385,8 +3385,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,pow:700,critical_percent:1000
+    passive_skill: "1001101"
     max_level: 10
     auto_select_id: 18018
+    group_id: "27"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -5042,9 +5044,10 @@
     powerup_part: 0.48
     exclusive_rate: 3
     bonus_type: hit:700,pow:900
-    passive_skill: "114001"
+    passive_skill: "114001,1001201"
     max_level: 10
     auto_select_id: 19014
+    group_id: "28"
     is_show: 1
     obtain_ids: "3030"
     sp_description: 目标-2
@@ -12316,5 +12319,74 @@
     is_show: 1
     obtain_ids: "3104"
     description_skill: 1001001
+  }
+  {
+    id: 393
+    name: .303布伦弹
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      穿甲+<armor_piercing>$布伦改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_harm_rate: "3,5"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_BrenMKMod
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "20089"
+    equip_introduction: 以布伦之名命名的子弹，蕴藏着布伦内心的骄傲和变强的决心。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_harm_rate:1000
+    passive_skill: "1001102"
+    max_level: 10
+    auto_select_id: 19076
+    group_id: "27"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 394
+    name: AA作战盾
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      护甲+<armor>$AA-12专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_percent: "8,10"
+    armor: "5,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_AA12
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "163"
+    equip_introduction: AA-12亲自参与设计的作战盾牌，添加了许多AA-12喜欢的要素，每次出任务都是装备的不二选择。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:500,critical_percent:1000
+    passive_skill: "1001202"
+    max_level: 10
+    auto_select_id: 20081
+    group_id: "28"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

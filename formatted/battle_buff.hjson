@@ -54861,6 +54861,121 @@
     buff_description: ShieldText
   }
   {
+    id: 9520
+    name: 布伦装备1
+    conflict_type: 2470
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9521
+    name: 布伦装备2
+    conflict_type: 2471
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9522
+    name: 布伦套装
+    conflict_type: 2472
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9523
+    name: 布伦增加伤害
+    conflict_type: 2473
+    max_tier: 3
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "30"
+  }
+  {
+    id: 9524
+    name: AA-12装备1
+    conflict_type: 2474
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9525
+    name: AA-12装备2
+    conflict_type: 2475
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9526
+    name: AA-12套装
+    conflict_type: 2476
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9527
+    name: 减前置冷却30%
+    conflict_type: 2477
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "70"
+  }
+  {
+    id: 9528
+    name: AA-12护甲增加
+    conflict_type: 2478
+    max_tier: 1
+    type: 808
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    armor_reduce_number: "10"
+  }
+  {
+    id: 9529
+    name: AA-12伤害提升
+    conflict_type: 2479
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "200"
+  }
+  {
+    id: 9530
+    name: AA-12伤害减免
+    conflict_type: 2480
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: "70"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
