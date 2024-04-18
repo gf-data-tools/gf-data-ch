@@ -37,7 +37,7 @@ Erma(26)<Speaker>艾尔玛</Speaker><Position>0,155</Position>||<CGDelay>0.4</CG
 ()<Speaker></Speaker>||:从未见过的场景，但也许，这早已见过很多次。
 ()<Speaker></Speaker>||:阳光照亮黯淡的花窗，将绚烂的颜色投射在地上，植物的根茎由此汇集，交织成细密的网。+纤长的叶片探出，小心地捧起蓝紫色的花，它本该朝生暮死，但因了这光，它得以无限地延长自己的美丽。+在这永不凋谢的翠芦莉花丛前，四个人，再一次重逢于此。
 ()||<白屏1>:
-()<Speaker></Speaker>||<BIN>688</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1.2%%duration=0%%</bg_move><白屏2><CGDelay>0.6</CGDelay>:
+()<Speaker></Speaker>||<BIN>688</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><白屏2><CGDelay>0.6</CGDelay>:
 NPC_Stevens520(0)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:我是不是……不该来这里……
 NPC_Stevens620(1)<Speaker>米拉贝</Speaker><Position>-200,0</Position>||:……这是艾尔玛的选择。+……也是国王陛下的结局。
 NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:……
@@ -157,7 +157,7 @@ Erma(26)<Speaker>艾尔玛</Speaker><Position>0,155</Position>||:如你所说，
 ()<Speaker>米拉贝</Speaker>||:你不是最讨厌这种称呼吗？+请保持始终如一的设定。
 ()<Speaker>蕾妮特</Speaker>||:……
 ()<Speaker>艾尔玛</Speaker>||<黑屏1>:……就这样吧。+最后一句话应该说些什么呢？+像妈妈那样？不要——我才不会跟谁说对不起。+艾尔玛是最可爱的人形。+所以——+艾尔玛拒绝成为人类。
-()||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:蕾妮特是一个口是心非的人形，她嘴上比谁都要讨厌艾尔玛。
+()||<黑屏2><BIN>9</BIN><bg_move>%%pivot_x=0.5%%pivot_y=0.5%%scale=1%%duration=0%%</bg_move><BGM>BGM_Empty</BGM>:蕾妮特是一个口是心非的人形，她嘴上比谁都要讨厌艾尔玛。
 ()<Speaker>蕾妮特</Speaker>||<BGM>BGM_Hume_ImFutue_Main</BGM>:……
 ()||:蕾妮特总是标榜绝不落泪。
 ()||<黑屏1><SE1>AVG_Water_Drip</SE1>:但现在，她的眼泪止不住地流。
