@@ -1,7 +1,7 @@
 ()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<narrator><BIN>9</BIN><黑屏2>:“死海”，阿佛那斯。
 ()||<黑屏1>:
-()<Speaker></Speaker>||<黑屏2><SE1>AVG_20Winter_Burnfire_Loop</SE1><BIN>645</BIN><BGM>BGM_23S_Expedition_Story</BGM>:沉闷的爆炸声还在继续，不时混杂着尖锐哀怨的爆鸣。+巨大的双子塔被烈焰撕扯着，碎裂一地焦黑的残骸和仍然燃烧着的皮肉，此情此景倒是完全应上了“地狱之门”的称呼。
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_20Winter_Burnfire_Loop</SE1><BIN>645</BIN><BGM>BGM_23S_Expedition_Story</BGM>:沉闷的爆炸声还在继续，不时混杂着尖锐哀怨的爆鸣。+巨大的双子塔被烈焰撕扯着，碎裂一地焦黑的残骸和仍然燃烧着的皮肉，此情景倒是完全可以称得上是“地狱之门”。
 ()||<黑屏1>:
 ()<Speaker></Speaker>||<SE1>Stop_AVG_loop</SE1><CGDelay>0.2</CGDelay><黑屏2><BIN>683</BIN>:
 ()<Speaker></Speaker>||:
@@ -26,7 +26,7 @@ Erma(14)<Speaker>艾尔玛</Speaker>||<SE1>ClothingUp</SE1>:好，参加行动�
 AR18(2)<Speaker>AR18</Speaker><Position>0,70</Position>||:艾尔玛，蒲公英小队的清洗和简单修整已经完成，你去接应下。
 Erma(14)<Speaker>艾尔玛</Speaker>||:知道了。
 ()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:艾尔玛踩着轻盈的脚步离开，将满室嘈杂的键盘声和通讯提示音甩在身后。
-AR18(5)<Speaker>AR18</Speaker><Position>0,70</Position>||:抱歉，指挥官，我需要再次向您确认。“艾莫号”开启自动驾驶后，目标仍为之前计划的坐标，“死海”边缘是吗？
+AR18(5)<Speaker>AR18</Speaker><Position>0,70</Position>||:抱歉，指挥官，我需要再次向您确认。艾莫号开启自动驾驶后，目标仍为之前计划的坐标，“死海”边缘是吗？
 AR18(5)<Speaker>指挥官</Speaker><同时置暗><Position>0,70</Position>||:是。
 AR18(2)<Speaker>AR18</Speaker><Position>0,70</Position>||:了解，全车自检模式将于20分钟之后完成，确认无误之后将开启自动驾驶……
 ()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:“滴滴滴”——通讯声突然响起。
@@ -39,7 +39,7 @@ NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>首先，我
 NPC-Griffin(0)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:……但我们失去了更多。
 NPC-Griffin(0)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>记得吗，我要求过你停止。</color>
 NPC-Griffin(0)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:不，在那之前你已经决定要牺牲安洁。
-NPC-Griffin(1)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>死亡并不是终点，何况我们每个人的生命也并不只属于自己。</color>+<color=#00CCFF>漫长的旅途上总有人会先行一步，也总会有人中途加入。</color>+<color=#00CCFF>理智一点，为你自己，也为克鲁格和基地的剩下人员考虑一下。</color>
+NPC-Griffin(1)<Speaker>爵士</Speaker><通讯框>||:<color=#00CCFF>死亡并不是终点，何况我们每个人的生命也并不只属于自己。</color>+<color=#00CCFF>漫长的旅途上总有人会先行一步，也总会有人中途加入。</color>+<color=#00CCFF>理智一点，为你自己，也为克鲁格和基地剩下的人员考虑一下。</color>
 NPC-Griffin(1)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:没猜错的话，你是要我把“他”交给你？
 NPC-Griffin(1)<Speaker>爵士</Speaker>||:<color=#00CCFF>斯塔西的人此刻正守在“死海”外围。</color>+<color=#00CCFF>不论是交给谁，都不会由你亲自处置。</color>+<color=#00CCFF>我以为这些事，克鲁格应该跟你讲得很清楚。</color>+<color=#00CCFF>你已经做完了你该做的，剩下的，理应交到能够结束这场闹剧的人手里。</color>
 NPC-Griffin(1)<Speaker>指挥官</Speaker><同时置暗><通讯框>||:你打算如何处置“他”？
@@ -78,7 +78,7 @@ Erma(17)<Speaker>艾尔玛</Speaker>||:咦，你不是在指挥室吗？怎么�
 AR18(3)<Speaker>AR18</Speaker><Position>0,70</Position>||:嗯，车内自检情况良好，我来看下这边进度，修理情况怎么样？
 AR18(3)<Position>0,70</Position>;Erma(13)<Speaker>艾尔玛</Speaker>||:唔……目前蒲公英和Fe56的基础检修已经完成。+UMP9目前没有合适替换的素体，不过心智核心已经确认没有损伤，正在等待迁移。+曙光和独角兽还在修理队列中，RO要求把自己排在最后。
 AR18(5)<Speaker>AR18</Speaker><Position>0,70</Position>;Erma(13)||:艾莉安娜？
-AR18(5)<Position>0,70</Position>;Erma(15)<Speaker>艾尔玛</Speaker>||:她的心智融毁了，找不回任何数据……
+AR18(5)<Position>0,70</Position>;Erma(15)<Speaker>艾尔玛</Speaker>||:她的心智融毁，找不回任何数据……
 AR18(2)<Speaker>AR18</Speaker><Position>0,70</Position>||:我知道了。
 ()<Speaker></Speaker>||:注意到UMP45独自坐在角落，对着UMP9的心智核心发呆，AR18安静地接近，试图判断对方的心智状态。
 UMP45Mod(0)<Speaker>UMP45</Speaker>||:……我没事，心智很稳定。
