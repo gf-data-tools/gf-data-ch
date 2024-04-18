@@ -8,7 +8,7 @@ Erma(31)<Speaker>艾尔玛</Speaker><Position>0,155</Position>||:她们人数太
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:遥望着垂头丧气的两人，艾尔玛疑惑地望向蕾妮特。
 ()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>为什么我俩这个时候这么弱？</color>
 ()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……我不知道，我完全没有这段记忆，我印象里博士只有一个名字——亚瑟•休谟。</color>+<color=#66CDAA>但是我现在百分百确定，眼前的这个路易•休谟，就是我认识的亚瑟•休谟。</color>
-()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>啊？他这个名字换的有什么必要啊……</color>+<color=#66CDAA>明明是一张脸，也明明是一个姓氏。</color>
+()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>啊？他这个名字换得有什么必要啊……</color>+<color=#66CDAA>明明是一张脸，也明明是一个姓氏。</color>
 ()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……难道让我见到这一切，也都在“那人”的计划之中吗？</color>
 ()<Speaker>艾尔玛</Speaker>||:<color=#66CDAA>所以你的目的到底是什么？</color>
 ()<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:<color=#66CDAA>……现在还不到告诉你的时候。</color>
@@ -25,7 +25,7 @@ ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||<SE1>C
 ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:……既然庞兹女士这么喜欢这间实验室。+艾尔玛，史蒂文斯520，我们收拾下准备搬家。
 ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(5)||:啧啧，你还有钱再搞一间实验室？+我查过你的银行卡余额了……特别干净。
 ColtWalker(6)<Position>0,210</Position>;NPC_Hume(5)<Speaker>路易•休谟</Speaker>||:不劳女士费心。
-ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:哦对，像你们这种旧贵族做派确实比起虚拟货币更喜欢收藏现金。+凯瑟琳。
+ColtWalker(6)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:哦对，像你们这种旧贵族做派，确实比起虚拟货币更喜欢收藏现金。+凯瑟琳。
 NPC_PP90(2)<Speaker>凯瑟琳•庞兹</Speaker><Position>0,200</Position>||<SE1>AVG_Cheerful</SE1>:在，刚刚索菲娅已经打开了这里全部的保险柜。+除非这间实验室还剩有保险柜，不然所有的金条都改姓庞兹啦！+唯一遗憾的是，我以为能看到价值几亿的金条，结果只有几万，这个博士也太穷了，存款还不如索菲娅的小金库呢。
 NPC_CZ52(0)<Speaker>索菲娅</Speaker><Shake><Position>0,170</Position>||:<size=50>！！！凯瑟琳小姐，你怎么偷窥人家的私房钱！</size>
 ()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:在索菲娅的哀嚎中，休谟博士的脸色显然惨白了几分。
@@ -120,7 +120,7 @@ NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:
 NPC_Hume(0)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||<SE1>ClothingUp</SE1>:……我会尝试一些别的办法。
 NPC_Hume(0);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:你现在选择的福克斯姐妹会是一个很好的合作对象，其实相关研究也可以借用一下她们的渠道。
 NPC_Hume(2)<Speaker>路易•休谟</Speaker>;NPC_Misha(1)<Position>0,50</Position>||:她们只是一群骗子。
-NPC_Hume(2);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:……有些事，骗子做的要比我们好太多。+也许在别人眼里，我们也不过是借神眷行欺世盗名之事。
+NPC_Hume(2);NPC_Misha(1)<Speaker>老米沙</Speaker><Position>0,50</Position>||:……有些事，骗子做得要比我们好太多。+也许在别人眼里，我们也不过是借神眷行欺世盗名之事。
 NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:“老米沙”阁下，我和您不一样。+我并不喜欢接触政治，或者是成为利益的工具。
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:休谟博士从办公桌前后退几步，坐上了稍远距离的沙发。
 NPC_Hume(0)<Speaker>路易•休谟</Speaker>||:我放弃了父亲的法国姓氏和爵位，就代表我只想使用休谟这个身份，作为一个纯粹的人形工程师，过完这一辈子。+虽然神眷令你我拥有不知道何时结束的生命，但并非不死之身。+“老米沙”阁下，请允许我和您追求不一样的理想。

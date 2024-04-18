@@ -33,7 +33,7 @@ NPC_Stevens520(1)<Speaker>蕾妮特</Speaker><Position>0,60</Position>||:打开�
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_Empty</BGM>:蕾妮特握住了门把手。
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:咔哒——
 ()||<黑点1>:
-()<Speaker></Speaker>||<黑点2><SE1>AVG_Chimes</SE1><BIN>9</BIN><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:门后是一片深不可测的浓雾，似乎有远远地铃音传来……
+()<Speaker></Speaker>||<黑点2><SE1>AVG_Chimes</SE1><BIN>9</BIN><common_effect>%%code=AVG_chuxian_yan%%</common_effect>:门后是一片深不可测的浓雾，似乎有铃音远远地传来……
 ()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_4</BGM>:咖啡壶里汨汨冒着泡泡，复古得仿佛上个世纪的老古董。+黑胶唱片机中吱吱呀呀地放着过时的旧音乐。
 ()<Speaker>？？？</Speaker>||:凯瑟琳小姐！醒醒——
 ()||<黑屏1>:
@@ -46,7 +46,7 @@ NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||:还有二十
 ()<Speaker></Speaker>||<SE1>AVG_Chimes</SE1>:叮铃——门铃声响起——
 ()<Speaker>门铃</Speaker>||:<color=#00CCFF>尊敬的福克斯小姐，您的客人到啦！</color>
 NPC_PP90(4)<Speaker>凯瑟琳</Speaker><Position>0,200</Position>||:嗯？！+不是还有二十分钟吗？
-NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||:啊……我忘记跟你说了，这个客人作风很严谨。+不是那种踩点1秒的类型。+是会提前十五分钟左右的守旧派！
+NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||:啊……我忘记跟你说了，这个客人作风很严谨。+不是那种踩点一秒的类型。+是会提前十五分钟左右的守旧派！
 NPC_PP90(4)<Speaker>凯瑟琳</Speaker><Position>0,200</Position>||:……资料上不是显示二十七岁吗？其实是七十二岁吧！！！
 ()<Speaker></Speaker>||<SE1>AVG_Chimes</SE1>:叮铃——门铃声响起——
 ()<Speaker>门铃</Speaker>||:<color=#00CCFF>尊敬的福克斯小姐，您的客人到啦！</color>
@@ -58,7 +58,7 @@ NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||:……收到
 ()||<黑点1>:
 ()<Speaker></Speaker>||<黑点2><SE1>AVG_Button_Click</SE1><BIN>9</BIN>:
 ()||<黑屏1>:
-NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||<Night><BIN>528</BIN><黑点2>:欢迎光临(*^▽^*)尊贵的老板！+这里是独角兽科技有限公司，奉上这杯盛满美酒的希望之角，为您刺破坍塌迷雾！+我是索菲娅，竭诚为您提供优质可靠的交易！
+NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||<Night><BIN>528</BIN><黑点2>:欢迎光临(*^▽^*)尊贵的老板！+这里是独角兽科技有限公司，奉上这杯盛满美酒的希望之角，为您刺破坍塌迷雾！+我是索菲娅，竭诚为您提供优质可靠的交易服务！
 NPC_Hume(1)<Speaker>？？？</Speaker>||:贵安，冒昧前来。+请问贵地是福克斯姐妹会总部吗？
 NPC_CZ52(0)<Speaker>索菲娅</Speaker><Position>0,170</Position>||:……贵安。+是的，尊贵的布罗伊公爵阁下。+这里是福克斯姐妹会董事凯瑟琳•庞兹小姐的办事处。
 NPC_Hume(1)<Speaker>？？？</Speaker>||:女士不必如此客气，我已经被国王除名，称呼路易•休谟即可。
@@ -98,9 +98,9 @@ ColtWalker(7)<Speaker>？？？</Speaker><Position>0,210</Position>||<BGM>GF_202
 ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:这是一个彻头彻尾的骗局，玛姬•庞兹女士。
 ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(2)||:如何界定骗局呢？+富兰克林发明电以前，汽车这种东西会被认为是骗局。+现代医学成立完整体系之前，放血疗法风行了几个世纪。
 ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:富兰克林发现的是一种现象和规律。+他并不是电的创造者。
-ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(2)||:好吧，算我说的不够严谨。+但是你应该明白我的意思，“希望角”计划就像这些东西一样，现在看起来还不够明确，但充满了可预期的未来。
+ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>;NPC_Hume(2)||:好吧，算我说得不够严谨。+但是你应该明白我的意思，“希望角”计划就像这些东西一样，现在看起来还不够明确，但充满了可预期的未来。
 ColtWalker(7)<Position>0,210</Position>;NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……你在挑战我的底线，庞兹女士。+你的“希望角”计划，说是骗局已经是非常委婉的用词了。
-NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:一滴血就可以查验基因序列，然后得到专属医学建议。+从而获得更强的抵抗辐射的专属“希望角”之杯，实现免疫健体的效果。+恕我说一句难听话，但凡有一点医学常识，都不会相信这种鬼话。
+NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:一滴血就可以查验基因序列，然后得到专属医学建议。+从而获得更强的抵抗辐射的专属“希望角”之杯，实现免疫健体的效果。+恕我冒犯，但凡有一点医学常识，都不会相信这种鬼话。
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:玛姬•庞兹微微一笑，望着休谟的眼睛里是满意的神情。
 ColtWalker(7)<Speaker>玛姬·庞兹</Speaker><Position>0,210</Position>||:对，就是这种自信的态度。+休谟阁下，你的这张脸和这种气质，不用来搞诈骗实在太屈才了。
 NPC_Hume(2)<Speaker>路易•休谟</Speaker>||:……+庞兹女士，看在你是位女士的份上，请您自行离开吧，今晚的谈话到此为止。
