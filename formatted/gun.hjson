@@ -2145,7 +2145,7 @@
     effect_guntype: "4"
     effect_grid_pos: "7,9"
     effect_grid_effect: "1,8;4,20"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;6
     type_equip3: 1;1,2,3,4,13
     ai: 23
@@ -2155,6 +2155,7 @@
     explore_tag: "18"
     gun_detail_bg: nation_Russia
     org_id: 10303
+    show_damage_skin: ",10306,"
     gun_tag_ids: "108"
     atk_speed_max: 120
     ratio_rec: 90
@@ -11222,7 +11223,7 @@
     explore_tag: "33"
     gun_detail_bg: nation_US
     org_id: 10402
-    show_damage_skin: ",8306,"
+    show_damage_skin: ",8306,10304,"
     gun_tag_ids: "108"
     atk_speed_max: 1000
     ratio_rec: 105
@@ -11751,18 +11752,20 @@
     ratio_range: 100
     skill1: 102204
     normal_attack: 300102
-    passive_skill: "900156"
+    passive_skill: "900156,1000909,1000911,1000913"
+    dynamic_passive_skill: "1000902"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,9"
     effect_grid_effect: "1,20"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13
     ai: 127
     launch_time: 2016-09-29 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
+    mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10203
@@ -14621,7 +14624,7 @@
     gun_detail_bg: nation_China
     org_id: 10302
     related_story_id: 100161
-    show_damage_skin: ",0,5805,"
+    show_damage_skin: ",0,5805,10303,"
     gun_tag_ids: "108,109"
     atk_speed_max: 60
     ratio_rec: 120
@@ -18604,7 +18607,7 @@
     explore_tag: "18"
     org_id: 10402
     related_story_id: 100210
-    show_damage_skin: ",0,3007,"
+    show_damage_skin: ",0,3007,10307,"
     gun_tag_ids: "10101"
     atk_speed_max: 120
     ratio_rec: 115
@@ -27383,6 +27386,7 @@
     gun_detail_bg: nation_Russia
     org_id: 10202
     related_story_id: 100335
+    show_damage_skin: ",10305,"
     gun_tag_ids: "108,131"
     atk_speed_max: 120
     ratio_rec: 100
@@ -29719,7 +29723,7 @@
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
     type_equip3: 3;9,10
-    ai: 48
+    ai: 372
     launch_time: 2022-09-06 00:00:00
     obtain_ids: "253"
     rank_display: 5
@@ -29910,14 +29914,14 @@
     type_equip1: 1;4,13,16
     type_equip2: 2;6
     type_equip3: 3;10
-    ai: 4
+    ai: 375
     launch_time: 2022-11-08 00:00:00
     obtain_ids: "1"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10701
     related_story_id: 100375
-    show_damage_skin: ",0,30004,"
+    show_damage_skin: ",0,30004,10302,"
     gun_tag_ids: "103,113,124"
     atk_speed_max: 120
     ratio_rec: 90
@@ -29978,7 +29982,7 @@
     type_equip1: 3;9,10
     type_equip2: 2;6
     type_equip3: 1;1,2,3,4,13
-    ai: 150
+    ai: 376
     launch_time: 2022-11-08 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
@@ -30706,7 +30710,7 @@
     gun_detail_bg: nation_Belgium
     org_id: 10802
     related_story_id: 100387
-    show_damage_skin: ",0,"
+    show_damage_skin: ",0,10301,"
     gun_tag_ids: "112,110,103,129"
     atk_speed_max: 60
     ratio_rec: 115
@@ -31334,7 +31338,7 @@
     type_equip1: 3;11
     type_equip2: 2;7
     type_equip3: 1;1,2,3,4,22
-    ai: 164
+    ai: 397
     launch_time: 2023-12-06 00:00:00
     obtain_ids: "2"
     rank_display: 5
@@ -31396,7 +31400,7 @@
     type_equip1: 3;11
     type_equip2: 2;7
     type_equip3: 1;1,2,3,4,22
-    ai: 164
+    ai: 398
     launch_time: 2023-12-06 00:00:00
     obtain_ids: "2"
     rank_display: 5
@@ -44245,6 +44249,98 @@
     recommended_team_ids: "3,5"
   }
   {
+    id: 20127
+    name: 79式
+    en_name: Type 79
+    code: 79typeMod
+    introduce:
+      '''
+      类型            冲锋枪
+      总重            1.75公斤
+      全长            枪托打开：740毫米
+                      枪托折叠：470毫米
+      枪管长度        250毫米
+      弹药            7.62×25mm托卡列夫手枪弹
+      枪机种类        气动式、转拴式枪机、闭锁式枪机
+      发射速率        1000发/分钟（理论射速）
+      枪口初速        515米/秒
+      有效射程        200米
+      供弹方式        20发弹匣
+      瞄准具型式      金属机械瞄具
+      '''
+    dialogue: 长官，79式，正式报到，请下命令！
+    extra: 防弹乳牛,田中美海,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+
+      Weight                     1.75 kg
+
+      Length                     740 mm stock extended/470mm stock closed
+
+      Barrel length              250 mm
+
+      Cartridge                  7.62×25 mm Tokarev
+
+      Action                     Gas-Operated, Rotating bolt
+
+      Rate of fire               500 rounds/min
+
+      Muzzle velocity            515 m/s
+
+      Effective firing range     200 m
+
+      Feed system                20-round box magazine
+
+      Sights                     Rear sight notch
+      '''
+    type: 2
+    rank: 6
+    develop_duration: 9300
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 135
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 130
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 1000901
+    skill2: 1000905
+    normal_attack: 300102
+    passive_skill: "900156,1000903,1000904,1000906,1000909,1000913,1000911"
+    dynamic_passive_skill: "1000902,1000907"
+    effect_grid_center: 13
+    effect_guntype: "4"
+    effect_grid_pos: "7,8,9"
+    effect_grid_effect: "1,20;5,10"
+    type_equip1: 3;9,10,20
+    type_equip2: 2;6,19
+    type_equip3: 1;1,2,3,4,13
+    ai: 127
+    launch_time: 2016-09-29 00:00:00
+    obtain_ids: "35"
+    rank_display: 6
+    prize_id: 3127
+    explore_tag: "53"
+    gun_detail_bg: nation_China
+    related_story_id: 100127
+    show_damage_skin: ",0,1402,3306,"
+    gun_tag_ids: "110,105,104,113,108,10101"
+    atk_speed_max: 150
+    ratio_rec: 110
+    recommended_team_ids: "1,2,3,6,7"
+  }
+  {
     id: 20131
     name: EVO 3
     en_name: EVO 3
@@ -44845,7 +44941,7 @@
     explore_tag: "53"
     gun_detail_bg: nation_China
     related_story_id: 100161
-    show_damage_skin: ",5038,5805,"
+    show_damage_skin: ",5038,5805,10303,"
     gun_tag_ids: "108,109"
     atk_speed_max: 60
     ratio_rec: 120

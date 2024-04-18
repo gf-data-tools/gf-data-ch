@@ -29975,6 +29975,185 @@
     rotate: "2"
   }
   {
+    id: 20120
+    name: 无忧草坪
+    classes: 19
+    type: 101
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 当年一起埋下的时光胶囊，是不是已经被岁月偷偷吞掉了？
+    code: 202404Activity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20121
+    name: 心扉封锁
+    classes: 19
+    type: 301
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 小时候常去玩耍的花园被冰冷的栅栏封锁，再也无法返回，就像童年一样。
+    code: 202404Activity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20122
+    name: 花卉的妙想
+    classes: 19
+    type: 201
+    space: "4,8,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 花卉在开花前，会知道自己是花吗？会不会以为自己也是散尾葵？
+    code: 202404Activity_deco1
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20123
+    name: 故事时间
+    classes: 19
+    type: 202
+    space: "8,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 窝在舒服的座椅上，嗅闻着红茶温润的气息，聆听妈妈讲述的故事……是有关童年最美好的记忆。
+    code: 202404Activity_deco3,202404Activity_deco2,202404Activity_deco4
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "0.000,-0.125,0.000|-0.928,-0.146,-0.005|0.976,-0.146,0.001"
+    rotate: "2,2,2"
+    interact_point: "14,12"
+    interact_point_offset: *2.363,0.854,0.000|*-2.275,0.968,-0.285
+  }
+  {
+    id: 20124
+    name: 藏匿圣地
+    classes: 19
+    type: 201
+    space: "10,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 她一定猜不到我躲在了哪一个灌木丛里，如果她猜到了……哼，那就算她好运！
+    code: 202404Activity_deco5
+    texture_type: "1"
+    offset: "0.000,-0.125,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20125
+    name: 时间的遗迹
+    classes: 19
+    type: 201
+    space: "1,1,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 有些东西总是趁我们不注意就悄悄溜走，比如消失在童年灌木丛中的皮球，比如一起玩皮球的小朋友。
+    code: 202404Activity_ball
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "820125"
+    interact_point_offset: *0.000,0.356,0.000
+    touch_area: "2,2,2"
+  }
+  {
+    id: 20126
+    name: 低语枝桠
+    classes: 19
+    type: 302
+    space: "3,23,0,0,7,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 我们也曾荡悠着双脚，坐在树干上聊天。但现在连树也爬不上的我们，只好站在树下聆听。
+    code: 202404Activity_deco6
+    texture_type: "1"
+    offset: "0.500,-0.219,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20127
+    name: 天使塑像喷泉
+    classes: 19
+    type: 201
+    space: "7,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 故事中的天使都是住在天堂的，为什么这个天使站在喷泉里？难道她也喜欢玩水？
+    code: 202404Activity_deco16,202404Activity_fountain
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "-0.104,-0.365,0.000|-0.063,0.313,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 20128
+    name: 通缉榜单
+    classes: 19
+    type: 201
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 玩抓捕游戏的必备道具——将担任抓捕目标的画像画在榜单上，等到抓住了再划去，或者，等到多年后被风雨抹去。
+    code: 202404Activity_deco7
+    texture_type: "1"
+    offset: "-0.063,-0.271,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20129
+    name: 树下茶会
+    classes: 19
+    type: 202
+    space: "13,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 重要的是聊天的人，而并非茶点……本该如此的。
+    code: 202404Activity_deco8,202404Activity_deco9,202404Activity_deco10,202404Activity_deco11,202404Activity_deco12,202404Activity_deco13,202404Activity_deco14,202404Activity_deco17
+    texture_type: "1,1,1,1,1,1,1,1"
+    sorting: "0,0,0,0,10,20,10,-10"
+    offset: "0.000,-0.626,0.000|-4.606,-0.626,0.000|-4.600,3.858,0.000|0.000,3.858,0.000|-0.188,0.167,0.000|0.709,0.156,0.000|1.627,0.167,0.000|0.667,-0.667,0.000"
+    rotate: "2,2,2,2,2,2,2,2"
+    interact_point: "14,12"
+    interact_point_offset: *4.288,1.992,-0.285|*-0.292,2.134,-0.285
+  }
+  {
+    id: 20130
+    name: 时间赎回者勋章
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“错构之泉”活动中的卓越战绩，“越过分界线，这里，在死亡的梦幻王国中，金色的幻象重新出现。”
+    code: 202404Activity_Meal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20131
+    name: 海报-2023慢休克
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2023春季活动-慢休克的特典海报。
+    code: pv_2023spring
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -45123,6 +45302,111 @@
     decompose_gift: 100003
     description: G43的海报。
     code: poster_WhiteV2024_G43
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310301
+    name: TPS-心不跳游戏
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TPS的海报。
+    code: poster_Hospital2024_TPS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310302
+    name: 柯尔特沃克-和玛姬的夜话时间
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 柯尔特沃克的海报。
+    code: poster_Hospital2024_ColtWalker
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310303
+    name: 97式霰-吐真剂滥用家
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 97式霰的海报。
+    code: poster_Hospital2024_97typeS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310304
+    name: Mk48-恋爱脑缔造者
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Mk48的海报。
+    code: poster_Hospital2024_Mk48
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310305
+    name: 菲德洛夫-薄荷色的吐息
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 菲德洛夫的海报。
+    code: poster_Hospital2024_Fedorov
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310306
+    name: PP-90-灯下安眠曲
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: PP-90的海报。
+    code: poster_Hospital2024_PP90
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310307
+    name: CZ52-驱鸦黑魔女
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: CZ52的海报。
+    code: poster_Hospital2024_CZ52
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

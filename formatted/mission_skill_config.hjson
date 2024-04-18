@@ -14481,7 +14481,6 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 99
     is_airborne: 2
@@ -14495,7 +14494,6 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 99
     is_airborne: 2
@@ -14509,7 +14507,6 @@
     level: 1
     spot_type: "-1"
     spot_belong: "-1"
-    spot_echelon: "-1"
     cd_time_type: 1
     start_range: 99
     is_airborne: 2
@@ -27607,6 +27604,447 @@
     start_range: 1
     target_id: "1"
     drop_item: 57:1
+  }
+  {
+    id: 680001
+    name: 【标记】鬼打墙兔子1
+    code: "1"
+    skill_group_id: 680001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680001:1
+  }
+  {
+    id: 680002
+    name: 【标记】鬼打墙兔子2
+    code: "1"
+    skill_group_id: 680002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680002:1
+  }
+  {
+    id: 680003
+    name: 【标记】鬼打墙兔子3
+    code: "1"
+    skill_group_id: 680003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680003:1
+  }
+  {
+    id: 680006
+    name: 【标记】传送兔子0
+    code: "1"
+    skill_group_id: 680006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680006:1
+  }
+  {
+    id: 680016
+    name: 【标记】传送兔子1
+    code: "1"
+    skill_group_id: 680016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680016:1
+  }
+  {
+    id: 680100
+    name: 【标记】战斗计数
+    code: "1"
+    skill_group_id: 680100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680100:1
+  }
+  {
+    id: 680200
+    name: 【标记】出口
+    code: "1"
+    skill_group_id: 680200
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680200:1
+  }
+  {
+    id: 680201
+    name: 【标记】失败
+    code: "1"
+    skill_group_id: 680201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680201:1
+  }
+  {
+    id: 680210
+    name: 【标记】光头
+    code: "1"
+    skill_group_id: 680210
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680210:1
+  }
+  {
+    id: 680211
+    name: 【标记】单独行动
+    code: "1"
+    skill_group_id: 680211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 20301:1,20302:1
+  }
+  {
+    id: 680301
+    name: 童话书？
+    code: "1"
+    skill_group_id: 680301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680301:1,680300:1
+  }
+  {
+    id: 680302
+    name: 童话书？
+    code: "1"
+    skill_group_id: 680302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680302:1,680300:1
+  }
+  {
+    id: 680303
+    name: 童话书？
+    code: "1"
+    skill_group_id: 680303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680303:1,680300:1
+  }
+  {
+    id: 680304
+    name: 童话书？
+    code: "1"
+    skill_group_id: 680304
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680304:1,680300:1
+  }
+  {
+    id: 680305
+    name: 童话书？
+    code: "1"
+    skill_group_id: 680305
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680305:1,680300:1
+  }
+  {
+    id: 680306
+    name: 童话书？
+    code: "1"
+    skill_group_id: 680306
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680306:1
+  }
+  {
+    id: 680511
+    name: 防御门I初始化
+    code: "1"
+    skill_group_id: 680511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680511:1,680531:1
+  }
+  {
+    id: 680512
+    name: 防御门I初始化
+    code: "1"
+    skill_group_id: 680512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680512:1,680531:1
+  }
+  {
+    id: 680513
+    name: 防御门I初始化
+    code: "1"
+    skill_group_id: 680513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680513:1,680531:1
+  }
+  {
+    id: 680514
+    name: 防御门I初始化
+    code: "1"
+    skill_group_id: 680514
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680514:1,680531:1
+  }
+  {
+    id: 680515
+    name: 防御门I初始化
+    code: "1"
+    skill_group_id: 680515
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680515:1,680531:1
+  }
+  {
+    id: 680521
+    name: 开门
+    code: "1"
+    skill_group_id: 680521
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051101&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680522
+    name: 开门
+    code: "1"
+    skill_group_id: 680522
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051201&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680523
+    name: 开门
+    code: "1"
+    skill_group_id: 680523
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051301&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680524
+    name: 开门
+    code: "1"
+    skill_group_id: 680524
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051401&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680525
+    name: 开门
+    code: "1"
+    skill_group_id: 680525
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051501&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680531
+    name: 关门
+    code: "1"
+    skill_group_id: 680531
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051101&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680532
+    name: 关门
+    code: "1"
+    skill_group_id: 680532
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051201&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680533
+    name: 关门
+    code: "1"
+    skill_group_id: 680533
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051301&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680534
+    name: 关门
+    code: "1"
+    skill_group_id: 680534
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051401&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680535
+    name: 关门
+    code: "1"
+    skill_group_id: 680535
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051501&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680701
+    name: 【标记】提示
+    code: "1"
+    skill_group_id: 680701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680701:1
   }
   {
     id: 700111

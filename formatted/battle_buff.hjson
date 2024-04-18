@@ -54817,6 +54817,105 @@
     buff_description: ShieldText
   }
   {
+    id: 9496
+    name: 79式释放技能
+    conflict_type: 2449
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9497
+    name: 79式夜视抵消
+    conflict_type: 2450
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    night_view_percent: *201
+  }
+  {
+    id: 9498
+    name: 79式未受伤标记
+    conflict_type: 2451
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "45"
+    boss_available: 1
+  }
+  {
+    id: 9499
+    name: 79式未受伤时间
+    conflict_type: 2452
+    max_tier: 3
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9500
+    name: 79式威视伤害提升
+    conflict_type: 2453
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9501
+    name: 79式威视暴击提升
+    conflict_type: 2454
+    max_tier: 5
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *201
+  }
+  {
+    id: 9502
+    name: 79式受伤监视
+    conflict_type: 2455
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1066
+  }
+  {
+    id: 9503
+    name: 79式护盾
+    conflict_type: 2456
+    max_tier: 8
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    is_form_play: 1
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9504
+    name: 79式受伤标记
+    conflict_type: 2457
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 9505
     name: 希普卡技能触发
     conflict_type: 2462
@@ -54859,6 +54958,79 @@
     is_form_play: 1
     buff_animation: BlueFlash
     buff_description: ShieldText
+  }
+  {
+    id: 9509
+    name: 79式冷却缩减25%
+    conflict_type: 2463
+    max_tier: 1
+    type: 128
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    cdr_number: "25"
+  }
+  {
+    id: 9510
+    name: 79式专属装备
+    conflict_type: 2464
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9511
+    name: 79式闪光弹命中标记
+    conflict_type: 2465
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "1000912"
+  }
+  {
+    id: 9512
+    name: 79式闪光弹易伤
+    conflict_type: 2466
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "135"
+    boss_available: 1
+    damage_reduce_number: "120"
+  }
+  {
+    id: 9513
+    name: 79式闪光弹命中人数
+    conflict_type: 2467
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "135"
+    boss_available: 1
+  }
+  {
+    id: 9514
+    name: 79式闪光弹易伤目标
+    conflict_type: 2468
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9515
+    name: 79式闪光弹触发
+    conflict_type: 2469
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 9520

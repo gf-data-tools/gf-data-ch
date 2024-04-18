@@ -51215,6 +51215,73 @@
     is_orb_effect: 1
   }
   {
+    id: 3722
+    name: 双刀涅托透明子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2688"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3723
+    name: 砸球涅托技能
+    code: 2019summer/Y_19_summer_1_2
+    start_type: "3"
+    start_offset: "-2.5"
+    destination_type: "3"
+    destination_offset: "-2.5"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: skill_hugerobot_enemy_white_explo
+  }
+  {
+    id: 3724
+    name: 气功涅托透明子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "2689"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3725
+    name: 79式闪光弹面片
+    code: 闪光弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "423"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "112,372501,22"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
     id: 3730
     name: 布伦子弹
     start_type: "1"
@@ -102168,6 +102235,62 @@
     is_form_play: 1
     scale: "0.35,0.35,1"
     is_orb_effect: 1
+  }
+  {
+    id: 372301
+    name: 砸球涅托技能特效
+    code: 2019summer/Y_19_summer_1_1
+    start_type: Rhand
+    start_offset: "-0.5,0.5"
+    destination_type: Rhand
+    destination_offset: "-0.5,0.5"
+    is_tracing: 1
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "0.8,0.8"
+    sound_order: skill_hugerobot_enemy_white_cast
+  }
+  {
+    id: 372401
+    name: 气功涅托光球
+    code: 2019summer/Y_19_summer_1_1
+    start_type: Rhand
+    start_offset: "-0.6,-0.3"
+    destination_type: Rhand
+    is_tracing: 1
+    speed: 1000
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "0.5,0.5"
+    trigger_creation_id: "372402"
+    trigger_creation_delay: "30"
+  }
+  {
+    id: 372402
+    name: 气功涅托光球
+    code: 2019summer/Y_19_summer_1_1
+    start_type: Rhand
+    destination_type: "5"
+    is_tracing: 1
+    route_type: 1
+    speed: 1000
+    is_form_play: 1
+    scale: "0.5,0.5"
+  }
+  {
+    id: 372501
+    name: 79式闪光弹结算范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 9511:1
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_flashbomb_explode
   }
   {
     id: 536801

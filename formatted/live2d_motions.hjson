@@ -32612,7 +32612,7 @@
     probability: 1
     voice: GUN|ZB26|NEWYEAR
     text: GUN|ZB26|NEWYEAR
-    name: 交互5
+    name: 交互6
     camera: 1
     voice_code: NEWYEAR
   }
@@ -33101,7 +33101,7 @@
     probability: 1
     voice: GUN|HK416|VALENTINE
     text: GUN|HK416|VALENTINE
-    name: 交互5
+    name: 交互6
     camera: 1
     voice_code: VALENTINE
   }
@@ -33245,5 +33245,245 @@
     name: 晃动响应
     camera: 1
     is_hurt: 1
+  }
+  {
+    id: 1030201
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1030202
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1030203
+    type: 200
+    motion_name: motions/wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1030204
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: body2
+    probability: 1
+    voice: GUN|ColtWalker|DIALOGUE3
+    text: GUN|ColtWalker|DIALOGUE3
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 1030205
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head1
+    probability: 1
+    voice: GUN|ColtWalker|GAIN
+    text: GUN|ColtWalker|GAIN
+    name: 交互2
+    camera: 1
+    voice_code: GAIN
+  }
+  {
+    id: 1030206
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body1
+    probability: 1
+    voice: GUN|ColtWalker|BLACKACTION
+    text: GUN|ColtWalker|BLACKACTION
+    name: 交互3
+    camera: 1
+    delay: 2000
+    voice_code: BLACKACTION
+  }
+  {
+    id: 1030207
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body1
+    probability: 1
+    voice: GUN|ColtWalker|SKILL3
+    text: GUN|ColtWalker|SKILL3
+    name: 交互4
+    camera: 1
+    delay: 2000
+    voice_code: SKILL3
+  }
+  {
+    id: 1030208
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: body2
+    probability: 1
+    voice: GUN|ColtWalker|LOADING
+    text: GUN|ColtWalker|LOADING
+    name: 交互5
+    camera: 1
+    delay: 2000
+    voice_code: LOADING
+  }
+  {
+    id: 1030209
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: head2
+    probability: 1
+    voice: GUN|ColtWalker|DIALOGUEWEDDING
+    text: GUN|ColtWalker|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1030210
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|ColtWalker|HELLO
+    text: GUN|ColtWalker|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 7000
+    voice_code: HELLO
+  }
+  {
+    id: 1030211
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1030212
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|ColtWalker|SOULCONTRACT
+    text: GUN|ColtWalker|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1030213
+    type: 200
+    motion_name: motions/shake_2.mtn
+    touch_area: leg
+    probability: 1
+    name: 交互6
+    camera: 1
+  }
+  {
+    id: 1030214
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1030215
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|ColtWalker|BREAK
+    text: GUN|ColtWalker|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    delay: 670
+    voice_code: BREAK
+  }
+  {
+    id: 1030216
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|ColtWalker|SKILL3
+    text: GUN|ColtWalker|SKILL3
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 670
+    voice_code: SKILL3
+  }
+  {
+    id: 1030217
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|ColtWalker|FIX
+    text: GUN|ColtWalker|FIX
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 1770
+    voice_code: FIX
+  }
+  {
+    id: 1030218
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|ColtWalker|BLACKACTION
+    text: GUN|ColtWalker|BLACKACTION
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: BLACKACTION
+  }
+  {
+    id: 1030219
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|ColtWalker|ACCEPT
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: ACCEPT
+  }
+  {
+    id: 1030220
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|ColtWalker|GAIN
+    text: GUN|ColtWalker|GAIN
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 4000
+    voice_code: GAIN
+  }
+  {
+    id: 1030221
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    voice: GUN|ColtWalker|MOOD2
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+    delay: 4000
+    voice_code: MOOD2
   }
 ]

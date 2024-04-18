@@ -10437,6 +10437,30 @@
     hit_type: 1
   }
   {
+    id: 2688
+    description: 双刀涅托普攻
+    damage_ratio: "50"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 2689
+    description: 气功涅托普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000002368"
+  }
+  {
     id: 2700
     description: 布伦额外伤害
     damage_ratio: "10"

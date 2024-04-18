@@ -8974,6 +8974,42 @@
     creation_delay: "0,0,0,9,4,7,2"
   }
   {
+    id: 2082
+    name: 双刀涅托普攻
+    action_order: attack
+    action_playspeed: "110"
+    creation_order: "3722,3722"
+    creation_delay: "0,0"
+  }
+  {
+    id: 2083
+    name: 砸球涅托技能
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "3723,372301"
+    creation_delay: "40,8"
+  }
+  {
+    id: 2084
+    name: 气功涅托技能
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "3724,372401"
+    creation_delay: "50,8"
+  }
+  {
+    id: 2085
+    name: 79式闪光弹
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "3725"
+    creation_delay: "40"
+    sound_order: BT_flashbomb_woosh
+    sound_delay: "43"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
     id: 2100
     name: 布伦套装普攻
     action_order: "1"
