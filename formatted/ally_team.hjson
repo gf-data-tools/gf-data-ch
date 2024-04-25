@@ -21108,6 +21108,193 @@
     no_battle_damage: -1
   }
   {
+    id: 6650001
+    name: 市民？
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    betray_result_enemy: "6650049"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650002
+    name: 市民？
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "1"
+    transform_number: "1"
+    transform_result: 1:64-5
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650003
+    name: 市民？
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "1"
+    transform_number: "1"
+    transform_result: 1:64-5
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650004
+    name: 市民？
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "1"
+    transform_number: "1"
+    transform_result: 1:64-5
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650005
+    name: 囚徒
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650006
+    name: 囚徒
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650007
+    name: 囚徒
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650008
+    name: 囚徒
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650009
+    name: 囚徒
+    guns: "1028"
+    enemy_team_id: 6650009
+    ai: 102;0;102
+    ai_content: 15;0;15
+    betray_condition: 1;2
+    betray_number: 3;690098,690100
+    betray_result: 1;2,2
+    betray_result_enemy: 6650009;6650009,6650009
+    no_battle_damage: -1
+  }
+  {
+    id: 6650010
+    name: 狱警
+    guns: "100061,100062,100063"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650011
+    name: 狱警
+    guns: "100061,100062,100063"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650012
+    name: 指挥官
+    guns: "905"
+    enemy_team_id: 6650001
+    ai: 103;20100;103
+    ai_content: 1;0;1
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: 10
+    betray_result_ai: "20100"
+  }
+  {
+    id: 6650013
+    name: 玛赫莲
+    guns: "1010"
+    enemy_team_id: 6650001
+    ai: 103;20100;103
+    ai_content: 1;0;1
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: 10
+    betray_result_ai: "20100"
+  }
+  {
     id: 9120101
     name: 离线心智
     guns: "716"

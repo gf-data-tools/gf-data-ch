@@ -112,11 +112,8 @@
   }
   {
     id: 22
-    type: 1
+    type: 2
     mission_campaign: "-53"
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2022-06-02 10:00:00
-    end_time: 2022-06-23 10:00:00
     init_mission_id: "11116"
   }
   {
@@ -316,5 +313,20 @@
     start_time: 2024-04-12 10:00:00
     end_time: 2024-05-09 10:00:00
     init_mission_id: "11631"
+  }
+  {
+    id: 50
+    type: 2
+    mission_campaign: "-45"
+    init_mission_id: "10766"
+  }
+  {
+    id: 51
+    type: 1
+    mission_campaign: "-65"
+    draw_event_id: "400,401,402,403,404"
+    start_time: 2024-04-18 10:00:00
+    end_time: 2024-05-09 10:00:00
+    init_mission_id: "11549"
   }
 ]

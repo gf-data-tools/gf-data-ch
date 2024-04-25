@@ -712,6 +712,15 @@
     rank: 1
   }
   {
+    id: 133
+    type: 3
+    arg: "34"
+    code: Medal_21winter_re_rank
+    item_name: 雾尽终途勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“镜像论”积分模式中的卓绝功勋，“待迷雾消散之时，阳光会照亮我们的笑靥。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -1169,6 +1178,16 @@
     item_name: 模拟作战基础动能
     introduction: 消耗基础动能可以参与部分模拟作战，获得人形及妖精提升所需材料。
     rank: 1
+  }
+  {
+    id: 542
+    type: 1
+    arg: "542"
+    code: 2020winter_rabbit_plus
+    item_name: 驱雾行动+
+    introduction: 在驱雾行动+击杀敌人的凭证，可以在控制台换取加成类效果。单价10/次。
+    rank: 1
+    is_hide_info: 1
   }
   {
     id: 601
@@ -14481,6 +14500,33 @@
     rank: 1
   }
   {
+    id: 2483
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season15_1
+    item_name: 阵列时序 · 代号拾叁：时域
+    introduction: 阵列时序 · 代号拾叁：时域
+    rank: 1
+  }
+  {
+    id: 2484
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season15_2
+    item_name: 轴向波动 · 代号拾叁：时域
+    introduction: 轴向波动 · 代号拾叁：时域
+    rank: 1
+  }
+  {
+    id: 2485
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season15_3
+    item_name: 频域永恒 · 代号拾叁：时域
+    introduction: 频域永恒 · 代号拾叁：时域
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -18347,6 +18393,15 @@
     type: 4
     arg: "110070"
     code: PT
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
+    id: 110071
+    type: 4
+    arg: "110071"
+    code: EventPT9
     item_name: 活动点数
     introduction: 活动点数
     rank: 1

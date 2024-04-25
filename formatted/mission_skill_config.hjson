@@ -59033,6 +59033,343 @@
     mission_buff_add: 6630001:1,6630011:1
   }
   {
+    id: 6650001
+    name: 【标记】秃洞扣分5
+    code: "1"
+    skill_group_id: 6650001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650001:1,6449989:1
+  }
+  {
+    id: 6650002
+    name: 【标记】秃洞炸弹5
+    code: "1"
+    skill_group_id: 6650002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650002:1,6440084:1
+  }
+  {
+    id: 6650003
+    name: 拆弹
+    code: "1"
+    skill_group_id: 6650003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "665000231"
+    target_id: "665000231"
+    special_spot_minus: 6650002:1,6440081:1,6440082:1,6440083:1,6440084:1,6440085:1,6440086:1,6440087:1,6440088:1,6440089:1
+    subsidiary_mission_skill: "6440119"
+    is_manual: 6440003
+  }
+  {
+    id: 6650004
+    name: 【标记】控制台I初始化
+    code: "1"
+    skill_group_id: 6650004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650003:1,6650005:1,6650006:1,6650007:1,6650014:1,6650015:1
+  }
+  {
+    id: 6650005
+    name: 【标记】控制台II初始化
+    code: "1"
+    skill_group_id: 6650005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650003:1,6650008:1,6650009:1,6650010:1,6650014:1,6650015:1
+  }
+  {
+    id: 6650006
+    name: 【标记】控制台III初始化
+    code: "1"
+    skill_group_id: 6650006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650003:1,6650011:1,6650012:1,6650013:1,6650014:1,6650015:1
+  }
+  {
+    id: 6650007
+    name: 坚守阵地
+    code: "1"
+    description: 每隔3秒提升我方前排人形回避和护甲6%，最多10层
+    skill_group_id: 6650007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000531
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650005:1,6650003:1
+    is_manual: 6580002
+    consumption_item: 542:10
+  }
+  {
+    id: 6650008
+    name: 迅速整备
+    code: "1"
+    description: 我方前置冷却时间缩减50%
+    skill_group_id: 6650008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000631
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650006:1,6650003:1
+    is_manual: 6580003
+    consumption_item: 542:10
+  }
+  {
+    id: 6650009
+    name: 焦土战略
+    code: "1"
+    description: 每隔6秒时间向敌人血量最高单位投掷燃烧物，每0.33秒造成60点伤害，持续15秒，范围3*3
+    skill_group_id: 6650009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000731
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650007:1,6650003:1
+    is_manual: 6580004
+    consumption_item: 542:10
+  }
+  {
+    id: 6650010
+    name: 应急护盾
+    code: "1"
+    description: 每隔10秒时间恢复我方已损失血量30%的护盾持续6秒
+    skill_group_id: 6650010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000831
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650008:1,6650003:1
+    is_manual: 6580005
+    consumption_item: 542:10
+  }
+  {
+    id: 6650011
+    name: 随机打击
+    code: "1"
+    description: 每隔10秒随机弱化一个敌方单位，大幅降低该单位属性（伤害，射速，命中，闪避，护甲）降低50%
+    skill_group_id: 6650011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000931
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650009:1,6650003:1
+    is_manual: 6580006
+    consumption_item: 542:10
+  }
+  {
+    id: 6650012
+    name: 偏转力场
+    code: "1"
+    description: 我方血量最高单位开场获得9999点偏转力场，持续5秒
+    skill_group_id: 6650012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001031
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650010:1,6650003:1
+    is_manual: 6580007
+    consumption_item: 542:10
+  }
+  {
+    id: 6650013
+    name: 突击惯性
+    code: "1"
+    description: 该场战斗中提升我方全体伤害和回避每4秒提升3%，最多叠加10层
+    skill_group_id: 6650013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001131
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650011:1,6650003:1
+    is_manual: 6580008
+    consumption_item: 542:10
+  }
+  {
+    id: 6650014
+    name: 铁甲肉盾
+    code: "1"
+    description: 我方血量最高的单位额外获得30%减伤
+    skill_group_id: 6650014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001231
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650012:1,6650003:1
+    is_manual: 6580009
+    consumption_item: 542:10
+  }
+  {
+    id: 6650015
+    name: 突击号令
+    code: "1"
+    description: 我方全体射速提升30%
+    skill_group_id: 6650015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001331
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650013:1,6650003:1
+    is_manual: 6580010
+    consumption_item: 542:10
+  }
+  {
+    id: 6650016
+    name: 移动力提升
+    code: "1"
+    description: 指定梯队获得行动力提升
+    skill_group_id: 6650016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 665000331&&665001431
+    mission_buff_add: 6510003:1
+    subsidiary_mission_skill: "6650018"
+    is_manual: 6650001
+    consumption_item: 542:10
+  }
+  {
+    id: 6650017
+    name: 投掷歌莉娅
+    code: "1"
+    description: 指定梯队获得投掷歌莉娅
+    skill_group_id: 6650017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 665000331&&665001531
+    mission_buff_add: 6630020:1
+    subsidiary_mission_skill: "6650019"
+    is_manual: 6650002
+    consumption_item: 542:10
+  }
+  {
+    id: 6650018
+    name: 【标记】移动力提升2连携
+    code: "1"
+    skill_group_id: 6650018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650014:1,6650003:1
+  }
+  {
+    id: 6650019
+    name: 【标记】投掷歌莉娅连携
+    code: "1"
+    skill_group_id: 6650019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650015:1,6650003:1
+  }
+  {
+    id: 6650020
+    name: 【标记】发道具初始化
+    code: "1"
+    skill_group_id: 6650020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    drop_item: 542:-9999
+  }
+  {
+    id: 6650021
+    name: 【标记】发道具1
+    code: "1"
+    skill_group_id: 6650021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    drop_item: 542:1
+  }
+  {
+    id: 6650022
+    name: 【标记】发道具5
+    code: "1"
+    skill_group_id: 6650022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    drop_item: 542:5
+  }
+  {
     id: 8120101
     name: 开启指令(对防御门I型①)
     code: "1"
@@ -73918,8 +74255,8 @@
     spot_belong: "-1"
     spot_echelon: "-1"
     cd_time_type: 1
-    trigger_id: 105010091&&404090181
-    target_id: 105010091&&100001590
+    trigger_id: 105010091&&404090181&&100000190
+    target_id: 105010091&&100001590&&100000190
     subsidiary_mission_skill: "1050103,1050104,94040967"
     is_manual: 94040902
   }

@@ -55148,6 +55148,27 @@
     damage_reduce_number: "70"
   }
   {
+    id: 9533
+    name: USAS-12装备
+    conflict_type: 2483
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9534
+    name: USAS-12专属伤害提升
+    conflict_type: 2484
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "130"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

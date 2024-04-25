@@ -31140,7 +31140,7 @@
     text: GUN|HK433|SKILL3
     name: 交互3
     camera: 1
-    delay: 6000
+    delay: 6330
     voice_code: SKILL3
   }
   {
@@ -31165,7 +31165,6 @@
     text: GUN|HK433|LOADING
     name: 交互5
     camera: 1
-    delay: 5000
     voice_code: LOADING
   }
   {
@@ -31198,7 +31197,6 @@
     probability: 1
     name: 晃动响应
     camera: 1
-    delay: 6000
   }
   {
     id: 850212
@@ -31209,7 +31207,7 @@
     text: GUN|HK433|GAIN
     name: 上线响应
     camera: 1
-    delay: 1000
+    delay: 9000
     voice_code: GAIN
   }
   {
@@ -31231,6 +31229,7 @@
     name: 交互1
     camera: 1
     is_hurt: 1
+    delay: 10000
     voice_code: BREAK
   }
   {
@@ -31244,6 +31243,7 @@
     name: 交互2
     camera: 1
     is_hurt: 1
+    delay: 230
     voice_code: SKILL2
   }
   {
@@ -31270,6 +31270,7 @@
     name: 交互4
     camera: 1
     is_hurt: 1
+    delay: 530
     voice_code: SKILL3
   }
   {
@@ -31283,6 +31284,7 @@
     name: 交互5
     camera: 1
     is_hurt: 1
+    delay: 2660
     voice_code: RETREAT
   }
   {
@@ -31295,6 +31297,7 @@
     name: 上线响应
     camera: 1
     is_hurt: 1
+    delay: 6330
     voice_code: PHRASE
   }
   {
@@ -33483,7 +33486,7 @@
     name: 晃动响应
     camera: 1
     is_hurt: 1
-    delay: 4000
+    delay: 400
     voice_code: MOOD2
   }
 ]

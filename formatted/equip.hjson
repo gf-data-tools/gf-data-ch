@@ -12455,4 +12455,39 @@
     obtain_ids: "3016"
     description_skill: 1000910
   }
+  {
+    id: 397
+    name: 聚合物弹鼓
+    description:
+      '''
+      弹量+<bullet_number_up>
+      命中+<hit>技能增强$USAS-12专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "6,10"
+    bullet_number_up: "2,3"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    retire_part: 1
+    code: 配件_特殊_USAS12
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "189"
+    equip_introduction: USAS-12最常用的配件之一，装弹量升级后的弹鼓配上高射速使得战斗能力获得大幅提升。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:1000,hit:1000
+    passive_skill: "1001301"
+    max_level: 10
+    auto_select_id: 18118
+    is_show: 1
+    obtain_ids: "3105"
+    description_skill: 1001301
+  }
 ]
