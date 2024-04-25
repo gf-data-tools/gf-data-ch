@@ -30154,6 +30154,50 @@
     rotate: "3"
   }
   {
+    id: 20132
+    name: 八年如梦
+    classes: 81
+    type: 201
+    space: "6,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 入职当天发生的一切还历历在目，时间竟已经过去了八年。曾以为八年的故事足够写完一篇长长的演讲稿，但事实上，此刻却只想要和大家分享这一个蛋糕。
+    code: 2024Anniversay_deco1
+    texture_type: "1"
+    offset: "-0.209,-0.188,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20133
+    name: “携手过去”之毯
+    classes: 81
+    type: 201
+    space: "11,8,5,2,0,4"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 灯牌上的邀请函闪闪发光，等待着指挥官和人形们一起走过这条红毯，一起开启第九年的篇章。
+    code: 2024Anniversay_deco2,2024Anniversay_deco3
+    texture_type: "1,1"
+    sorting: "0,10"
+    offset: "0.167,-0.688,0.000|0.167,-0.688,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 20134
+    name: “预知未来”奖杯
+    classes: 81
+    type: 201
+    space: "14,8,0,6,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 很难想象需要怎样的能力才能完全猜中所有的人选，只能大胆猜测指挥官不是具有惊人的预知能力，就是来自未来。
+    code: 2024Anniversay_deco4,2024Anniversay_deco5,2024Anniversay_deco6
+    texture_type: "1,1,1"
+    sorting: "0,10,10"
+    offset: "0.000,0.000,0.000|0.094,0.000,0.000|4.692,0.000,0.000"
+    rotate: "2,2,2"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
