@@ -51282,6 +51282,53 @@
     trigger_creation_delay: "-1,-1"
   }
   {
+    id: 3726
+    name: 柯尔特海军开场
+    code: Ketwk_dl02
+    start_type: "8"
+    start_offset: "-15,0,-2"
+    destination_type: "8"
+    destination_offset: "25,0,-2"
+    is_tracing: 1
+    route_type: 1
+    speed: 2500
+    exist_duration: "30"
+    effect_area: 1
+    scale: "3,3,1"
+  }
+  {
+    id: 3727
+    name: 马提尼亨利技能影响格
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "14,19,23,24"
+    buff_id: 9495:1,1202:1
+    buff_cd: "0,0"
+    scale: "1"
+  }
+  {
+    id: 3728
+    name: 马提尼亨利子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "699"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
     id: 3730
     name: 布伦子弹
     start_type: "1"
@@ -102291,6 +102338,21 @@
     is_form_play: 1
     scale: "1"
     sound_order: BT_flashbomb_explode
+  }
+  {
+    id: 372801
+    name: 马提尼亨利攻击计数
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 1025:6
+    is_form_play: 1
+    scale: "1"
   }
   {
     id: 536801

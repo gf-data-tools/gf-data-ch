@@ -8607,6 +8607,17 @@
     boss_available: 1
   }
   {
+    id: 1025
+    name: 效果显示通用25
+    description: 马提尼亨利
+    conflict_type: 113
+    max_tier: 300
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 1100
     name: hs2000标记
     description: 若存在则未被判断
@@ -54817,6 +54828,160 @@
     buff_description: ShieldText
   }
   {
+    id: 9482
+    name: 柯尔特海军易伤
+    conflict_type: 2435
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 9483
+    name: 柯尔特海军技能触发
+    conflict_type: 2436
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9484
+    name: 柯尔特海军命中下降
+    conflict_type: 2437
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+  }
+  {
+    id: 9485
+    name: 柯尔特海军监视命中
+    conflict_type: 2438
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1063
+  }
+  {
+    id: 9486
+    name: 柯尔特海军命中持续下降
+    conflict_type: 2439
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "207"
+    forced_skill: "1000607"
+  }
+  {
+    id: 9487
+    name: 柯尔特海军敌方监视伤害
+    conflict_type: 2440
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1064
+  }
+  {
+    id: 9488
+    name: 柯尔特海军命中下降90
+    conflict_type: 2441
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: "20"
+  }
+  {
+    id: 9489
+    name: P50伤害下降
+    conflict_type: 2442
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9490
+    name: P50技能触发
+    conflict_type: 2443
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9491
+    name: P50监视受伤
+    conflict_type: 2444
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1065
+  }
+  {
+    id: 9492
+    name: P50监视给予护盾
+    conflict_type: 2445
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 9493
+    name: P50监视给予回避
+    conflict_type: 2446
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    dodge_number: *202
+  }
+  {
+    id: 9494
+    name: P50监视友方受伤标记
+    conflict_type: 2447
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9495
+    name: 马提尼亨利影响格回避提升
+    conflict_type: 2448
+    max_tier: 999
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *202
+  }
+  {
     id: 9496
     name: 79式释放技能
     conflict_type: 2449
@@ -55033,6 +55198,47 @@
     boss_available: 1
   }
   {
+    id: 9516
+    name: P50认证标记
+    conflict_type: 2470
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9517
+    name: P50技能触发
+    conflict_type: 2471
+    max_tier: 4
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9518
+    name: P50人数检测
+    conflict_type: 2472
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "1000708"
+  }
+  {
+    id: 9519
+    name: P50人数判断
+    conflict_type: 2473
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 9520
     name: 布伦装备1
     conflict_type: 2470
@@ -55146,6 +55352,27 @@
     duration: "-1"
     boss_available: 1
     damage_reduce_number: "70"
+  }
+  {
+    id: 9531
+    name: 马提尼亨利触发回避下降
+    conflict_type: 2481
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+  }
+  {
+    id: 9532
+    name: 马提尼亨利触发易伤
+    conflict_type: 2482
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    damage_reduce_number: "110"
   }
   {
     id: 9533

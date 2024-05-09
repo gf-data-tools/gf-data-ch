@@ -25227,6 +25227,26 @@
     creation_delay: "0,2,4,6,8,0,2,4,6,8"
   }
   {
+    id: 9212
+    name: 柯尔特海军开场
+    creation_order: "3726"
+  }
+  {
+    id: 9213
+    name: 马提尼亨利主动技能
+    creation_order: "3727"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 9214
+    name: 马提尼亨利六发普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "3728,21,139,3728,21,139,3728,21,139,3728,3728,3728,372801"
+    creation_delay: "0,0,0,0,3,3,0,6,6,0,0,0,0"
+  }
+  {
     id: 9995
     name: 战区boss特效
     creation_order: "386,10000,238"

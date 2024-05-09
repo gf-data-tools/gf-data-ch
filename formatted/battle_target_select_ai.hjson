@@ -4358,6 +4358,38 @@
     buff_trigger_type: 6
   }
   {
+    id: 804
+    description: 找敌方非BOSS单位
+    target_type: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    target_parameter: 1000002260
+    buff_trigger_type: 18
+  }
+  {
+    id: 805
+    description: P50找受伤的友方
+    target_type: 2
+    target_number: 1
+    select_order: "1"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 9494
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 806
+    description: 找非P50友方
+    target_type: 2
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 9516
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
     id: 1000
     description: 单管多机枪组随机目标
     target_type: 1

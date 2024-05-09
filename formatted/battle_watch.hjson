@@ -436,6 +436,28 @@
     activation_skills: "740110"
   }
   {
+    id: 1063
+    description: 柯尔特海军监视友方命中
+    watch_trigger_type: 1
+    activation_skills: "1000605"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1064
+    description: 柯尔特海军监视敌方伤害
+    watch_trigger_type: 1
+    activation_skills: "1000606"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1065
+    description: P50监视友方受伤
+    watch_trigger_type: 2
+    activation_watch_trigger: 1061
+    activation_skills: "1000704"
+    sp_skill_target: "1"
+  }
+  {
     id: 1066
     description: 79式监视受伤
     watch_trigger_type: 2
