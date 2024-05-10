@@ -1649,7 +1649,7 @@
     id: 414
     description: 巴雷特狙击
     damage_ratio: *201
-    is_critical_hit: 209
+    is_critical_hit: -47
     critical_hit_rate: "100"
     float_wide: 15
     buff_id_target: 120112:1
@@ -4532,8 +4532,8 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 196
-    is_armor: 196
+    is_miss: -60
+    is_armor: -60
     hit_type: 1
   }
   {
@@ -4594,8 +4594,8 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 10
-    is_miss: 163
-    is_armor: 163
+    is_miss: -93
+    is_armor: -93
     hit_type: 1
     is_shield: 1000004004
   }
@@ -6635,7 +6635,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_miss: 1
-    is_armor: 214
+    is_armor: -42
     hit_type: 1
   }
   {
@@ -6962,7 +6962,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 145
+    is_miss: -111
     is_armor: 1
     hit_type: 1
   }
@@ -6973,7 +6973,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 145
+    is_miss: -111
     is_armor: 1
     hit_type: 1
   }
@@ -8085,7 +8085,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 133
+    is_miss: -123
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005193"
@@ -8097,7 +8097,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 233
+    is_miss: -23
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005194"
@@ -8131,7 +8131,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 129
+    is_miss: -127
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005216"
