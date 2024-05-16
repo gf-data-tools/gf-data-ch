@@ -51345,6 +51345,20 @@
     is_orb_effect: 1
   }
   {
+    id: 3731
+    name: PKP套装技能影响格
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "5,10,15"
+    buff_id: 9543:1
+    scale: "1"
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -53586,7 +53600,7 @@
     rotate: "0,90,0"
     exist_duration: "30"
     effect_area: 1
-    hurt_id: "389"
+    hurt_id: "700"
     is_form_play: 1
     scale: "1"
     trigger_creation_id: "93"

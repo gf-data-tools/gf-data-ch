@@ -7,9 +7,10 @@
     item_name: 人形制造契约
     introduction: 委托IOP制造人形的订单。万幸，我们的老朋友一直是我们坚实的后援。
     rank: 1
-    sort: 10
+    sort: 501
     item_access: "1,4,5,3"
     detail_introduction: 可在工厂-人形制造中委托IOP进行人形制造。
+    type_sort: 3
   }
   {
     id: 2
@@ -19,9 +20,10 @@
     item_name: 装备制造契约
     introduction: 委托16Lab制造装备的订单。打折的代价就是随机。
     rank: 1
-    sort: 15
+    sort: 502
     item_access: "1,4,5,3"
     detail_introduction: 可在工厂-装备制造中委托16lab进行装备制造。
+    type_sort: 3
   }
   {
     id: 3
@@ -31,9 +33,10 @@
     item_name: 快速制造契约
     introduction: 为制造订单附上加急的需求。加急有风险，货已售出，非质量问题概不退换。
     rank: 1
-    sort: 20
+    sort: 503
     item_access: "1,4,5,3"
     detail_introduction: 可在工厂中立即完成人形或装备的制造。
+    type_sort: 3
   }
   {
     id: 4
@@ -43,9 +46,10 @@
     item_name: 快速修复契约
     introduction: 为修复附上加急的需求。她迫不及待地想和你一起重回前线了。
     rank: 1
-    sort: 25
+    sort: 504
     item_access: "1,4,5,3"
     detail_introduction: 可立即完成受损单位的修复。
+    type_sort: 3
   }
   {
     id: 5
@@ -73,9 +77,10 @@
     item_name: 誓约之证
     introduction: 与心意相通的战术少女缔结誓约的证明。是时候让你们的关系升华一下了！
     rank: 1
-    sort: 5
+    sort: 505
     item_access: "1"
     detail_introduction: 可与好感度达到上限的人形缔结誓约，提高好感度上限。
+    type_sort: 3
   }
   {
     id: 8
@@ -85,9 +90,10 @@
     item_name: 快速训练契约
     introduction: 虽然人类的学习需要时间，但在金钱的堆砌下，战术单位可以不需要。
     rank: 1
-    sort: 30
+    sort: 506
     item_access: "1,3"
     detail_introduction: 可在研发-技能训练中立即完成单位的技能训练。
+    type_sort: 3
   }
   {
     id: 9
@@ -97,9 +103,10 @@
     item_name: 增幅胶囊
     introduction: 有多种果味可选的强化胶囊，据说最近为了配合某些人形增加了酒味的版本。
     rank: 1
-    sort: 35
+    sort: 2
     item_access: "25,6"
     detail_introduction: 可在工厂-人形强化中提高人形未达上限的四项属性各一点，溢出部分会少量并依次分配到其它属性。
+    type_sort: 2
   }
   {
     id: 10
@@ -109,9 +116,10 @@
     item_name: 替代核心
     introduction: 驱动傀儡的模块。“经原主人的许可才能卸下，进而演化成机器人之间的压迫。”
     rank: 1
-    sort: 40
+    sort: 3
     item_access: "7,5,6,3"
     detail_introduction: 可在工厂-编制扩大中替代相同人形进行编制扩大。
+    type_sort: 2
   }
   {
     id: 11
@@ -139,8 +147,9 @@
     item_name: 改名卡
     introduction: 申请更改指挥官名字的登记卡，“一个让大家（包括您自己）重新看待您的机会。”
     rank: 1
-    sort: -195
+    sort: -507
     item_access: "2"
+    type_sort: 3
   }
   {
     id: 14
@@ -150,9 +159,10 @@
     item_name: 原始数据样本
     introduction: 粗略的数据样本，质量参差不齐。“这次会是相同的结果吗？也许只是临时缺少一些灵感。”
     rank: 1
-    sort: 95
+    sort: 4
     item_access: "8,5"
     detail_introduction: 可在情报中心进行情报解析，获取重装部队中枢数据或芯片。
+    type_sort: 2
   }
   {
     id: 15
@@ -162,9 +172,10 @@
     item_name: 纯净数据样本
     introduction: 仔细筛选过的样本，分析出有价值的数据的可能性高一些。只是一些。“至少这一份看起来更清澈。”
     rank: 1
-    sort: 100
+    sort: 5
     item_access: "8,5"
     detail_introduction: 可在情报中心进行情报解析，相比原始数据更容易获取重装部队中枢数据和高星级芯片。
+    type_sort: 2
   }
   {
     id: 16
@@ -174,9 +185,10 @@
     item_name: 快速解析契约
     introduction: 不逼数据分析师一把，你永远不知道给自己打工的人能有多优秀。“出于对方的爱好，这份契约需要您额外支付一张真实猫咪的照片。”
     rank: 1
-    sort: 105
+    sort: 508
     item_access: "1,5,2"
     detail_introduction: 可立即完成情报中心正在进行的情报解析。
+    type_sort: 3
   }
   {
     id: 17
@@ -186,9 +198,10 @@
     item_name: 数据补丁
     introduction: 能够晋升重装部队的数据补丁，其中有一部分是拆解满级的重装部队后获得。“‘三人行必有我师焉’，所以……‘再见了，老师’。”
     rank: 1
-    sort: 110
+    sort: -1
     item_access: "9,10"
     detail_introduction: 可用于满星满级重装部队的迭代强化。
+    type_sort: 2
   }
   {
     id: 31
@@ -198,10 +211,11 @@
     item_name: 初级训练资料
     introduction: 为人形们编写的初级技能训练指南，有进步就好！“好耶！虽然没做什么，但我真是辛苦了！”
     rank: 1
-    sort: 45
+    sort: 7
     upper_limit: 9999
     item_access: "12"
     detail_introduction: 可在研发-技能训练中为格里芬单位提供技能初级训练。
+    type_sort: 2
   }
   {
     id: 32
@@ -211,10 +225,11 @@
     item_name: 中级训练资料
     introduction: 为人形们编写的中级技能训练指南，不必求甚解。“变强就有命吃更多的冰淇淋，没有更多的钱去吃就是另一个问题了……”
     rank: 1
-    sort: 50
+    sort: 8
     upper_limit: 9999
     item_access: "12"
     detail_introduction: 可在研发-技能训练中为格里芬单位提供技能中级训练。
+    type_sort: 2
   }
   {
     id: 33
@@ -224,10 +239,11 @@
     item_name: 高级训练资料
     introduction: 为人形们编写的高级技能训练指南，十分精深。“扫地僧是什么，为什么我要做扫地僧？”人形问。
     rank: 1
-    sort: 55
+    sort: 9
     upper_limit: 9999
     item_access: "12"
     detail_introduction: 可在研发-技能训练中为格里芬单位提供技能高级训练。
+    type_sort: 2
   }
   {
     id: 41
@@ -237,10 +253,11 @@
     item_name: 采购币
     introduction: 白色发亮的特殊货币，在这个时代很少见。“这些神秘硬币曾被怀疑是为设计师人形们提供灵感动力的电池。”
     rank: 1
-    sort: 60
+    sort: 509
     upper_limit: 300000
     item_access: "1,4,5,2"
     detail_introduction: 可在宿舍中进行家具和人形装扮的采购。
+    type_sort: 3
   }
   {
     id: 42
@@ -250,9 +267,10 @@
     item_name: 兑换券
     introduction: 订购商品赠送的无门槛代金券。买得越多送的越多，IOP不愧业界良心企业。
     rank: 1
-    sort: 65
+    sort: 510
     item_access: "11"
     detail_introduction: 可在宿舍-采购-限时兑换中兑换当期限时采购的家具和人形装扮，限时采购结束后一比一会转化为采购币。
+    type_sort: 3
   }
   {
     id: 43
@@ -262,9 +280,10 @@
     item_name: 黑卡
     introduction: 曾经精英才能申请的高端卡片，你也拥有了。
     rank: 1
-    sort: 70
+    sort: 511
     item_access: "11"
     detail_introduction: 可在宿舍-采购-黑卡兑换中兑换人形装扮。
+    type_sort: 3
   }
   {
     id: 44
@@ -274,9 +293,10 @@
     item_name: 校准点券
     introduction: 装备校准需要使用的代币，看起来并不值钱。据说存在的意义只是防止强迫症重复调试。
     rank: 1
-    sort: 75
+    sort: 10
     item_access: "13,5"
     detail_introduction: 可在研发中用于装备或妖精校准。
+    type_sort: 2
   }
   {
     id: 45
@@ -286,10 +306,11 @@
     item_name: 记忆碎片
     introduction: 人形心智梳理时产生的数据，经过筛选可用于升级人形的心智空间。“你们说要让我自由，但我只想要冰淇淋。”
     rank: 1
-    sort: 90
+    sort: 11
     upper_limit: 9999
     item_access: "14,15"
     detail_introduction: 可在研发-心智升级中用于人形心智升级。
+    type_sort: 2
   }
   {
     id: 46
@@ -299,9 +320,10 @@
     item_name: 特种作战报告书
     introduction: 重装部队的特殊作战报告，类似的报告书正在不断增加。“希望大家从中发掘真正的宝藏，要知道失败的经验总大于成功。”
     rank: 1
-    sort: 115
+    sort: 12
     item_access: "24,16,6"
     detail_introduction: 可在格纳库中用于重装部队的经验训练。
+    type_sort: 2
   }
   {
     id: 47
@@ -336,9 +358,10 @@
     item_name: 通用配件
     introduction: 人形们外出执行任务时顺便回收的旧配件，稍加清洗和加工就能用来强化装备。格琳娜和指挥官对此非常满意，并表扬了提议进行这种行动的人形，但好像并没有给她加薪。
     rank: 1
-    sort: 130
+    sort: 13
     item_access: "6,5"
     detail_introduction: 可在研发-装备强化中提供装备开发值。
+    type_sort: 2
   }
   {
     id: 51
@@ -348,10 +371,11 @@
     item_name: 新型火控元件
     introduction: 针对拥有足够拓展空间的高级人形，IOP特别研制了此款强化元件。还在调试期，数量非常有限。
     rank: 5
-    sort: 130
+    sort: 14
     upper_limit: 9999
     item_access: "6"
     detail_introduction: 可用于高星级人形的心智升级。
+    type_sort: 2
   }
   {
     id: 52
@@ -379,8 +403,9 @@
     item_name: 黑卡晶片
     introduction: 特殊材料构成的半导体，是制造黑卡的核心组件。
     rank: 1
-    sort: -70
+    sort: -508
     detail_introduction: 多个黑卡晶片可在仓库中合成一张黑卡，或在兑换人形装扮时抵扣一张黑卡。
+    type_sort: 3
   }
   {
     id: 55
@@ -390,8 +415,9 @@
     item_name: 膨化妖精饼干
     introduction: 对于妖精而言极其美味的食物，食用之后可以获得丰富的突破经验，但包装上似乎刻意隐瞒了制造食材……
     rank: 1
-    sort: -71
+    sort: -15
     detail_introduction: 可在改造&突破中提升妖精突破经验。
+    type_sort: 2
   }
   {
     id: 57
@@ -410,9 +436,10 @@
     item_name: 组件加工包
     introduction: IOP为组件提供了额外的特殊加工服务，使组件有更好的组合度，从而提升机动装甲单位的效能。为了简化流程，IOP直接提供了组件加工包，使得后勤部门可以自行对组件进行升级加工。
     rank: 1
-    sort: 115
+    sort: 16
     item_access: "7"
     detail_introduction: 可为组件提供100开发值。
+    type_sort: 2
   }
   {
     id: 100
@@ -867,10 +894,11 @@
     item_name: 电池
     introduction: “作为电池其实有点大，但是电权保护组织称，电池也有权拥有梦想。”
     rank: 1
-    sort: 85
+    sort: 509
     upper_limit: 9999
     item_access: "17,6,5"
     detail_introduction: 可用于宿舍-附属房间中设施的升级和日常使用。
+    type_sort: 3
   }
   {
     id: 507
@@ -889,9 +917,10 @@
     item_name: 友情点数
     introduction: 与朋友们互动积累下来的成就点数。不涉及实际利益的友情纯粹也脆弱。“哦？你也是来自世纪末的Friends吗？”
     rank: 1
-    sort: 80
+    sort: 510
     item_access: "17,18,5"
     detail_introduction: 可在友情商店内兑换名片、头像、基地背景等奖励。
+    type_sort: 3
   }
   {
     id: 509
@@ -929,9 +958,10 @@
     item_name: 超星内核
     introduction: 从初始2、3星融合势力单位身上落下的闪亮星辰，物以稀为贵。
     rank: 1
-    sort: 160
+    sort: 511
     item_access: "7"
     detail_introduction: 可在收归行动-内核商店中兑换高级道具。
+    type_sort: 3
   }
   {
     id: 513
@@ -941,9 +971,10 @@
     item_name: 暗星内核
     introduction: 从初始1星融合势力单位身上落下的黯淡星辰，平凡的物品也有作用。
     rank: 1
-    sort: 165
+    sort: 512
     item_access: "7"
     detail_introduction: 可在收归行动-内核商店中兑换道具。
+    type_sort: 3
   }
   {
     id: 514
@@ -953,9 +984,10 @@
     item_name: 开发培养皿
     introduction: 以太开发的必要物品，培育事物必须的温床。
     rank: 1
-    sort: 135
+    sort: 17
     item_access: "20,19,22"
     detail_introduction: 可在工厂-强化&开发中对融合势力单位进行以太开发。
+    type_sort: 2
   }
   {
     id: 515
@@ -965,9 +997,10 @@
     item_name: 初级训练密钥
     introduction: 为融合势力单位编写的初级技能训练指南，初步练习是必要的。“这就是让我们打格里芬便宜靶子的理由？”
     rank: 1
-    sort: 140
+    sort: 18
     item_access: "20,19,22"
     detail_introduction: 可在研发-技能训练中为融合势力单位提供技能初级训练。
+    type_sort: 2
   }
   {
     id: 516
@@ -977,9 +1010,10 @@
     item_name: 高级训练密钥
     introduction: 为融合势力单位编写的高级技能训练指南，相信的心就是学会的魔法。“就算你这么说，这个程序也太难了！”
     rank: 1
-    sort: 145
+    sort: 19
     item_access: "20,19,22"
     detail_introduction: 可在研发-技能训练中为融合势力单位提供技能高级训练。
+    type_sort: 2
   }
   {
     id: 517
@@ -989,9 +1023,10 @@
     item_name: 指定装备契约
     introduction: 委托制造指定类型装备的契约，每一份契约可用于制造一个指定类型的装备。
     rank: 1
-    sort: -200
+    sort: -513
     item_access: "2"
     detail_introduction: 可在工厂-装备制造中执行I.O.P特殊订单。
+    type_sort: 3
   }
   {
     id: 518
@@ -1010,9 +1045,10 @@
     item_name: 重装通用数据
     introduction: 一些重装部队通用的零件，似乎是从战场回收的。节约是格里芬的传统美德。
     rank: 1
-    sort: -150
+    sort: -20
     item_access: "9"
     detail_introduction: 可在重装解锁、晋升时替代指定数据的通用数据。
+    type_sort: 2
   }
   {
     id: 520
@@ -1022,8 +1058,9 @@
     item_name: 破片手雷
     introduction: 破片拥有很好的范围杀伤效果，尤其针对那些躲在掩体后面的家伙。（暗金潮活动限定）
     rank: 1
-    sort: -175
+    sort: -3000
     item_access: "2"
+    type_sort: 4
   }
   {
     id: 521
@@ -1033,8 +1070,9 @@
     item_name: 闪光弹
     introduction: 闪光手雷会对目标造成致盲及致聋效果，但别忘了闭上自己的眼睛。（暗金潮活动限定）
     rank: 1
-    sort: -180
+    sort: -3001
     item_access: "2"
+    type_sort: 4
   }
   {
     id: 522
@@ -1044,8 +1082,9 @@
     item_name: 机枪塔
     introduction: 能够部署在战场上的自动武器，可攻击邻近敌人直到被摧毁或电池耗尽为止。（暗金潮活动限定）
     rank: 1
-    sort: -185
+    sort: -3002
     item_access: "2"
+    type_sort: 4
   }
   {
     id: 523
@@ -1064,8 +1103,9 @@
     item_name: 投掷式歌利亚
     introduction: 便携式爆炸机器人，比起原型伤害力降低、灵活性增加。被投掷后会在定点爆炸，打乱敌方原定的部署。（镜像论活动安洁视角战役限定）
     rank: 1
-    sort: -190
+    sort: -3003
     item_access: "2"
+    type_sort: 4
   }
   {
     id: 525
@@ -1075,9 +1115,10 @@
     item_name: 快速自律契约
     introduction: 激发人形的最大潜能，使战斗能够迅速结束。格里芬战术，唯快不破！
     rank: 1
-    sort: 35
+    sort: 514
     item_access: "23,5,2"
     detail_introduction: 可立即完成自律作战。
+    type_sort: 3
   }
   {
     id: 526
@@ -1087,8 +1128,9 @@
     item_name: 指定重建契约test
     introduction: 委托重型制造指定类型装备的契约，每一份契约可用于制造一个指定类型的装备。test
     rank: 1
-    sort: -40
+    sort: -515
     detail_introduction: 可在工厂-装备制造中执行重型建造I.O.P特殊订单。Testtest
+    type_sort: 3
   }
   {
     id: 527
@@ -1197,9 +1239,10 @@
     item_name: 无限惊喜染色剂
     introduction: 没有人能知道自己想像中的款式是不是真的合适，让随机性带来惊喜吧。
     rank: 1
-    sort: 120
+    sort: 516
     item_access: "1,2"
     detail_introduction: 可对指挥官服装进行一次随机染色。
+    type_sort: 3
   }
   {
     id: 602
@@ -1209,9 +1252,10 @@
     item_name: 色彩指定染色剂
     introduction: 别再为十连也抽不出自己想要的款式沮丧了，自己想要的花纹就该掌握在自己手里！
     rank: 1
-    sort: 125
+    sort: 517
     item_access: "2"
     detail_introduction: 可对指挥官服装进行一次指定染色。
+    type_sort: 3
   }
   {
     id: 603
@@ -1241,9 +1285,10 @@
     item_name: 协力委托书
     introduction: 虽然我们的经验也有可取之处，但毕竟火神重工才是专业的收归人员。
     rank: 1
-    sort: 155
+    sort: 518
     item_access: "1,5,3,2"
     detail_introduction: 可在收归行动中委托火神重工在分区所有剩余单位中进行一次收归。
+    type_sort: 3
   }
   {
     id: 606
@@ -1253,9 +1298,10 @@
     item_name: 转移触媒
     introduction: 能够将经验与拓展空间全部转移给另一个单位的触媒。“一夜醒来，我又再次一无所有”。
     rank: 1
-    sort: 170
+    sort: 21
     item_access: "19"
     detail_introduction: 可在协议控制中心-对称灌输驱动器中交换两个相同融合势力单位的培养度。
+    type_sort: 2
   }
   {
     id: 1001
@@ -14527,6 +14573,150 @@
     rank: 1
   }
   {
+    id: 2486
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M99
+    item_name: 名片：捣蛋鬼与小补丁
+    introduction: 名片：捣蛋鬼与小补丁
+    rank: 1
+  }
+  {
+    id: 2487
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M99
+    item_name: M99-幕启时踏歌
+    introduction: M99-幕启时踏歌
+    rank: 1
+  }
+  {
+    id: 2488
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_HK21
+    item_name: HK21-心跳加速中
+    introduction: HK21-心跳加速中
+    rank: 1
+  }
+  {
+    id: 2489
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_Vector
+    item_name: 维克托-片刻沉醉
+    introduction: 维克托-片刻沉醉
+    rank: 1
+  }
+  {
+    id: 2490
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_97type
+    item_name: 97式-鸦雀之声
+    introduction: 97式-鸦雀之声
+    rank: 1
+  }
+  {
+    id: 2491
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_ART556
+    item_name: ART556-狐森小夜曲
+    introduction: ART556-狐森小夜曲
+    rank: 1
+  }
+  {
+    id: 2492
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_TAC50
+    item_name: TAC-50-枫糖香槟
+    introduction: TAC-50-枫糖香槟
+    rank: 1
+  }
+  {
+    id: 2493
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_FO12
+    item_name: FO-12-甜蜜救援
+    introduction: FO-12-甜蜜救援
+    rank: 1
+  }
+  {
+    id: 2494
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_Stevens520
+    item_name: 史蒂文斯520-多洛塔之语
+    introduction: 史蒂文斯520-多洛塔之语
+    rank: 1
+  }
+  {
+    id: 2495
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_M2HB
+    item_name: M2HB-晚宴小憩时
+    introduction: M2HB-晚宴小憩时
+    rank: 1
+  }
+  {
+    id: 2496
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_6P62
+    item_name: 6P62-时光的乐章
+    introduction: 6P62-时光的乐章
+    rank: 1
+  }
+  {
+    id: 2497
+    type: 5
+    arg: "1"
+    code: profilePic_mask_8years
+    item_name: 真核面具纪念头像·八周年
+    introduction: 真核面具纪念头像·八周年
+    rank: 1
+  }
+  {
+    id: 2498
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2024_88type
+    item_name: 汉阳造88式-致群星
+    introduction: 汉阳造88式-致群星
+    rank: 1
+  }
+  {
+    id: 2499
+    type: 5
+    arg: "1"
+    code: cg_Anniversary2024
+    item_name: 背景：全装甲战备
+    introduction: 前线告急！立刻做好出击准备——就让它扭转战局，为敌人献上最后的镇魂曲！
+    rank: 1
+  }
+  {
+    id: 2500
+    type: 5
+    arg: "1"
+    code: profilePic_8years_A
+    item_name: 头像：醉颜红
+    introduction: 头像：醉颜红
+    rank: 1
+  }
+  {
+    id: 2501
+    type: 5
+    arg: "1"
+    code: card_8years_A
+    item_name: 名片：暖香蜜意
+    introduction: 名片：暖香蜜意
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -15509,7 +15699,8 @@
     item_name: 尘封的设计图
     introduction: 破旧纸片，可能是前遗迹开发时代的纸质工业蓝图，似乎描绘着大型装甲单位，内容已无法辨识。
     rank: 1
-    sort: -999
+    sort: -22
+    type_sort: 2
   }
   {
     id: 9034
@@ -15519,7 +15710,8 @@
     item_name: 锥形零件
     introduction: 使用未知金属材质制造，特性与用途尚不明确，请勿直接接触。
     rank: 1
-    sort: -999
+    sort: -23
+    type_sort: 2
   }
   {
     id: 9035
@@ -15529,7 +15721,8 @@
     item_name: 环形零件
     introduction: 造型特异的零件，有强烈信号发出，当前无法完整解析信号参数。
     rank: 1
-    sort: -999
+    sort: -24
+    type_sort: 2
   }
   {
     id: 9036
@@ -15539,7 +15732,8 @@
     item_name: 精密机械核心
     introduction: 以当前技术无法拆分其结构，唯一能确定的是内部蓄有极大能量，危险系数高。
     rank: 1
-    sort: -999
+    sort: -25
+    type_sort: 2
   }
   {
     id: 9037
@@ -15549,7 +15743,8 @@
     item_name: 复合芯片组
     introduction: 从应用的光电技术来看，难以想象是多年前的产物。遗憾的是，无法从破损的芯片中读取完整数据。
     rank: 1
-    sort: -999
+    sort: -26
+    type_sort: 2
   }
   {
     id: 9038
@@ -15559,7 +15754,8 @@
     item_name: 残存数据影像
     introduction: 通过小型全息设备输出的未知地形影像，位置数据缺失，目前仍在更进一步解析中。
     rank: 1
-    sort: -999
+    sort: -27
+    type_sort: 2
   }
   {
     id: 9039
@@ -15587,8 +15783,9 @@
     item_name: 液化干扰喷雾
     introduction: 含有大量小型干扰物质的喷雾器，可替换的内胆中装有液体溶液，经由喷雾口对敌使用，可对电子仪器造成一定的损害。
     rank: 1
-    sort: -999
+    sort: -3004
     is_hide_info: 1
+    type_sort: 4
   }
   {
     id: 9042
@@ -15598,8 +15795,9 @@
     item_name: 人形润滑机油
     introduction: 为战术人形特供的军用级战术物资，可以在短时间内提高人形的素体性能，尤其是在跳跃力的功能方面，能够提供极大的帮助。
     rank: 1
-    sort: -999
+    sort: -3005
     is_hide_info: 1
+    type_sort: 4
   }
   {
     id: 9043
@@ -15629,10 +15827,11 @@
     item_name: 超导脉冲
     introduction: 虽然火神重工才是专业的收归人员，但我们的经验也不是没有可取之处。
     rank: 1
-    sort: 150
+    sort: 519
     consume_type: 1
     item_access: "5,3,2"
     detail_introduction: 可在收归行动中对地图上的融合势力单位进行一次收归。
+    type_sort: 3
   }
   {
     id: 10605
@@ -15678,7 +15877,8 @@
     item_name: 探查许可证
     introduction: 允许进入灰域完成一次探查的许可证明，出示这张证明将不再需要消耗额外的资源
     rank: 1
-    sort: -1
+    sort: -520
+    type_sort: 3
   }
   {
     id: 10703
@@ -15792,6 +15992,15 @@
     id: 10715
     type: 18
     arg: "10715"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10716
+    type: 18
+    arg: "10716"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -17170,8 +17379,9 @@
     item_name: 投掷式歌利亚
     introduction: 便携式爆炸机器人，比起原型伤害力降低、灵活性增加。被投掷后会在定点爆炸，打乱敌方原定的部署。（薄雾迷宫战役II、III、IV、V限定）
     rank: 1
-    sort: -52
+    sort: -3006
     item_access: "2"
+    type_sort: 4
   }
   {
     id: 100152
@@ -17366,7 +17576,8 @@
     item_name: 联合突袭
     introduction: 获取后活动中的友方梯队可获得技能联合突袭，使用后同时获得狙击支援、炮击支援、空袭支援的战场效果
     rank: 1
-    sort: -1
+    sort: -3007
+    type_sort: 4
   }
   {
     id: 100173
@@ -17376,7 +17587,8 @@
     item_name: 专注
     introduction: 获取后活动中的友方梯队可获得技能专注，使用后获得同名战场效果
     rank: 1
-    sort: -1
+    sort: -3008
+    type_sort: 4
   }
   {
     id: 100174
@@ -17386,7 +17598,8 @@
     item_name: 强化
     introduction: 获取后活动中的友方梯队可获得技能强化，使用后获得同名战场效果
     rank: 1
-    sort: -1
+    sort: -3009
+    type_sort: 4
   }
   {
     id: 100175
@@ -17765,6 +17978,33 @@
     code: coremask2_202404
     item_name: 蚀心面具·错构之泉
     introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
+    rank: 1
+  }
+  {
+    id: 100216
+    type: 4
+    arg: "100216"
+    code: Bumdle_20248year
+    item_name: 莫比乌斯之箱
+    introduction: 莫比乌斯之箱
+    rank: 1
+  }
+  {
+    id: 100217
+    type: 4
+    arg: "100217"
+    code: core_mask_8year
+    item_name: 真核面具·八周年
+    introduction: 真核面具·八周年
+    rank: 1
+  }
+  {
+    id: 100218
+    type: 4
+    arg: "100218"
+    code: Bumdle_8year
+    item_name: 8周年装扮券
+    introduction: 8周年装扮券
     rank: 1
   }
   {
@@ -18402,6 +18642,15 @@
     type: 4
     arg: "110071"
     code: EventPT9
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
+    id: 110072
+    type: 4
+    arg: "110072"
+    code: PT
     item_name: 活动点数
     introduction: 活动点数
     rank: 1
@@ -19743,6 +19992,60 @@
     rank: 5
   }
   {
+    id: 133130
+    type: 13
+    arg: "55"
+    code: Warjack_1012
+    item_name: 64年式-银河-战术人型机甲装甲图纸
+    introduction: 格里芬64年式通用作战机甲，它将为我们撕裂一切黑暗。
+    rank: 5
+  }
+  {
+    id: 133131
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1012
+    item_name: 64年式-银河-导弹发射器MK1
+    introduction: 银河的配套小型导弹发射器，为战斗提供精准打击。
+    rank: 5
+  }
+  {
+    id: 133132
+    type: 13
+    arg: "55"
+    code: ElecGun_1012
+    item_name: 64年式-银河-轻型速射电磁枪
+    introduction: 银河的配套速射电磁枪，能够连续进行小型电磁炮攻击。
+    rank: 5
+  }
+  {
+    id: 133133
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1012
+    item_name: 64年式-银河-机枪炮
+    introduction: 银河的配套机枪炮，小口径炮弹发射器。
+    rank: 5
+  }
+  {
+    id: 133134
+    type: 13
+    arg: "55"
+    code: AutoDef_1012
+    item_name: 64年式-银河-防护发生器
+    introduction: 银河的配套防护发生器，为银河提供防护。
+    rank: 5
+  }
+  {
+    id: 133135
+    type: 13
+    arg: "55"
+    code: LaserSup_1012
+    item_name: 64年式-银河-激光压制装置
+    introduction: 银河的配套激光压制装置，干扰敌方的火力瞄准。
+    rank: 5
+  }
+  {
     id: 140001
     type: 14
     arg: "1"
@@ -20028,6 +20331,22 @@
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
     item_name: *第18期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140037
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第19期前线协议
+    rank: 1
+  }
+  {
+    id: 140038
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第19期前线协议进阶
     rank: 1
   }
   {
@@ -20430,6 +20749,15 @@
     rank: 1
   }
   {
+    id: 200044
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M99
+    item_name: 头像框·七彩乐引
+    introduction: 头像框·七彩乐引
+    rank: 1
+  }
+  {
     id: 900030
     type: 4
     arg: "100030"
@@ -20564,6 +20892,7 @@
     introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500010
@@ -20574,6 +20903,7 @@
     introduction: 打开时，可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500011
@@ -20584,6 +20914,7 @@
     introduction: 打开时，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500012
@@ -20594,6 +20925,7 @@
     introduction: 打开时，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500013
@@ -20604,6 +20936,7 @@
     introduction: 打开时，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500014
@@ -20614,6 +20947,7 @@
     introduction: 打开时，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500015
@@ -20624,6 +20958,7 @@
     introduction: 打开时，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500016
@@ -20634,6 +20969,7 @@
     introduction: 打开时，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500017
@@ -20644,6 +20980,7 @@
     introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500018
@@ -20654,6 +20991,7 @@
     introduction: 打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500019
@@ -20664,6 +21002,7 @@
     introduction: 打开时，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500020
@@ -20674,6 +21013,7 @@
     introduction: 打开时，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500021
@@ -20684,6 +21024,7 @@
     introduction: 来自于重返基地，在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500022
@@ -20694,6 +21035,7 @@
     introduction: 来自于重返基地，打开时，可自选获得指定范围内的一个五星装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500023
@@ -20704,6 +21046,7 @@
     introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500024
@@ -20718,6 +21061,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500025
@@ -20732,6 +21076,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500026
@@ -20746,6 +21091,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500027
@@ -20760,6 +21106,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500028
@@ -20774,6 +21121,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500029
@@ -20788,6 +21136,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500030
@@ -20798,6 +21147,7 @@
     introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500031
@@ -20812,6 +21162,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500032
@@ -20826,6 +21177,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500033
@@ -20840,6 +21192,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500034
@@ -20854,6 +21207,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500035
@@ -20868,6 +21222,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500036
@@ -20882,6 +21237,7 @@
       '''
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500037
@@ -20892,6 +21248,7 @@
     introduction: 可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500038
@@ -20902,6 +21259,7 @@
     introduction: 可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500039
@@ -20912,6 +21270,7 @@
     introduction: 可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500040
@@ -20922,6 +21281,7 @@
     introduction: 可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500041
@@ -20932,6 +21292,7 @@
     introduction: 可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500042
@@ -20942,6 +21303,7 @@
     introduction: 可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500043
@@ -20952,6 +21314,7 @@
     introduction: 可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500044
@@ -20962,6 +21325,7 @@
     introduction: 可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500045
@@ -20972,6 +21336,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500046
@@ -20982,6 +21347,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500047
@@ -20992,6 +21358,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500048
@@ -21002,6 +21369,7 @@
     introduction: 来自于前线协议-微风暖阳，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500049
@@ -21012,6 +21380,7 @@
     introduction: 来自于前线协议-微风暖阳，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500050
@@ -21022,6 +21391,7 @@
     introduction: 来自于前线协议-微风暖阳，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500051
@@ -21032,6 +21402,7 @@
     introduction: 来自于前线协议-微风暖阳，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500052
@@ -21042,6 +21413,7 @@
     introduction: 来自于前线协议-假日情调，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500053
@@ -21052,6 +21424,7 @@
     introduction: 来自于前线协议-假日情调，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500054
@@ -21062,6 +21435,7 @@
     introduction: 来自于前线协议-假日情调，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500055
@@ -21072,6 +21446,7 @@
     introduction: 来自于前线协议-假日情调，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500056
@@ -21082,6 +21457,7 @@
     introduction: 来自于前线协议-夜阑灯下，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500057
@@ -21092,6 +21468,7 @@
     introduction: 来自于前线协议-夜阑灯下，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500058
@@ -21102,6 +21479,7 @@
     introduction: 来自于前线协议-夜阑灯下，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500059
@@ -21112,6 +21490,7 @@
     introduction: 来自于重返基地，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500060
@@ -21122,6 +21501,7 @@
     introduction: 来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500061
@@ -21132,6 +21512,7 @@
     introduction: 来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500062
@@ -21142,6 +21523,7 @@
     introduction: 来自于灰域探查第一期，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500063
@@ -21152,6 +21534,7 @@
     introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位战术人形。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500064
@@ -21162,6 +21545,7 @@
     introduction: 来自于前线协议-夜阑灯下，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500065
@@ -21172,6 +21556,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500066
@@ -21182,6 +21567,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500067
@@ -21192,6 +21578,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500068
@@ -21202,6 +21589,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500069
@@ -21212,6 +21600,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500070
@@ -21222,6 +21611,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500071
@@ -21232,6 +21622,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500072
@@ -21242,6 +21633,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500073
@@ -21252,6 +21644,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500074
@@ -21262,6 +21655,7 @@
     introduction: 来自于前线协议-闲云野鹤，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500075
@@ -21272,6 +21666,7 @@
     introduction: 来自于前线协议-闲云野鹤，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500076
@@ -21282,6 +21677,7 @@
     introduction: 来自于前线协议-闲云野鹤，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500077
@@ -21292,6 +21688,7 @@
     introduction: 来自于前线协议-闲云野鹤，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500078
@@ -21302,6 +21699,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500079
@@ -21312,6 +21710,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500080
@@ -21322,6 +21721,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500081
@@ -21332,6 +21732,7 @@
     introduction: 来自于前线协议-氤氲时光，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500082
@@ -21342,6 +21743,7 @@
     introduction: 来自于前线协议-氤氲时光，可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500083
@@ -21352,6 +21754,7 @@
     introduction: 来自于前线协议-氤氲时光，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500084
@@ -21362,6 +21765,7 @@
     introduction: 来自于前线协议-氤氲时光，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500085
@@ -21372,6 +21776,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500086
@@ -21382,6 +21787,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500087
@@ -21392,6 +21798,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500088
@@ -21402,6 +21809,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500089
@@ -21412,6 +21820,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500090
@@ -21422,6 +21831,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500091
@@ -21432,6 +21842,7 @@
     introduction: 来自于前线协议-宝藏湾的夏日，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500092
@@ -21442,6 +21853,7 @@
     introduction: 来自于前线协议-宝藏湾的夏日，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500093
@@ -21452,6 +21864,7 @@
     introduction: 来自于前线协议-宝藏湾的夏日，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500094
@@ -21462,6 +21875,7 @@
     introduction: 来自于前线协议-宝藏湾的夏日，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500095
@@ -21472,6 +21886,7 @@
     introduction: 来自于前线协议-霸牛堡来袭！可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500096
@@ -21482,6 +21897,7 @@
     introduction: 来自于前线协议-霸牛堡来袭！可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500097
@@ -21492,6 +21908,7 @@
     introduction: 来自于前线协议-霸牛堡来袭！可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500098
@@ -21502,6 +21919,7 @@
     introduction: 来自于前线协议-霸牛堡来袭！可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500099
@@ -21512,6 +21930,7 @@
     introduction: 来自于前线协议-晨郊乐园，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500100
@@ -21522,6 +21941,7 @@
     introduction: 来自于前线协议-晨郊乐园，可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500101
@@ -21532,6 +21952,7 @@
     introduction: 来自于前线协议-晨郊乐园，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500102
@@ -21542,6 +21963,7 @@
     introduction: 来自于前线协议-晨郊乐园，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500103
@@ -21552,6 +21974,7 @@
     introduction: 来自于前线协议-寻味初晨，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500104
@@ -21562,6 +21985,7 @@
     introduction: 来自于前线协议-寻味初晨，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500105
@@ -21572,6 +21996,7 @@
     introduction: 来自于前线协议-寻味初晨，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500106
@@ -21582,6 +22007,7 @@
     introduction: 来自于前线协议-寻味初晨，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500107
@@ -21592,6 +22018,7 @@
     introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500108
@@ -21602,6 +22029,7 @@
     introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500109
@@ -21612,6 +22040,7 @@
     introduction: 来自于前线协议-劲爽摇滚！可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500110
@@ -21622,6 +22051,7 @@
     introduction: 来自于前线协议-劲爽摇滚！可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500111
@@ -21632,6 +22062,7 @@
     introduction: 来自于前线协议-劲爽摇滚！可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500112
@@ -21642,6 +22073,7 @@
     introduction: 来自于前线协议-劲爽摇滚！可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500113
@@ -21652,6 +22084,7 @@
     introduction: 来自于前线协议-兰塘秋梦，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500114
@@ -21662,6 +22095,7 @@
     introduction: 来自于前线协议-兰塘秋梦，可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500115
@@ -21672,6 +22106,7 @@
     introduction: 来自于前线协议-兰塘秋梦，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500116
@@ -21682,6 +22117,7 @@
     introduction: 来自于前线协议-兰塘秋梦，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500117
@@ -21692,6 +22128,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500118
@@ -21702,6 +22139,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500119
@@ -21712,6 +22150,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500120
@@ -21722,6 +22161,7 @@
     introduction: 来自于前线协议-威士忌风暴，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500121
@@ -21732,6 +22172,7 @@
     introduction: 来自于前线协议-威士忌风暴，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500122
@@ -21742,6 +22183,7 @@
     introduction: 来自于前线协议-威士忌风暴，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500123
@@ -21752,6 +22194,7 @@
     introduction: 来自于前线协议-威士忌风暴，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500124
@@ -21762,6 +22205,7 @@
     introduction: 来自于前线协议-云端的王座，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500125
@@ -21772,6 +22216,7 @@
     introduction: 来自于前线协议-云端的王座，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500126
@@ -21782,6 +22227,7 @@
     introduction: 来自于前线协议-云端的王座，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500127
@@ -21792,6 +22238,7 @@
     introduction: 来自于前线协议-云端的王座，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500128
@@ -21802,6 +22249,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500129
@@ -21812,6 +22260,7 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1500130
@@ -21822,6 +22271,51 @@
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500131
+    type: 15
+    arg: "1500131"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-奇趣排练班，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500132
+    type: 15
+    arg: "1500132"
+    code: package_choose
+    item_name: 配件类装备自选包
+    introduction: 来自于前线协议-奇趣排练班，可从该指定投递配给序标内选择获取一件配件类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500133
+    type: 15
+    arg: "1500133"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-奇趣排练班，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500134
+    type: 15
+    arg: "1500134"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-奇趣排练班，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
   }
   {
     id: 1600001
@@ -21859,6 +22353,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700002
@@ -21869,6 +22364,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700003
@@ -21879,6 +22375,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700004
@@ -21889,6 +22386,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700005
@@ -21899,6 +22397,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700006
@@ -21909,6 +22408,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700007
@@ -21919,6 +22419,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700008
@@ -21929,6 +22430,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700009
@@ -21939,6 +22441,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700010
@@ -21949,6 +22452,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700011
@@ -21959,6 +22463,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700012
@@ -21969,6 +22474,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700013
@@ -21979,6 +22485,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700014
@@ -21989,6 +22496,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700015
@@ -21999,6 +22507,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700016
@@ -22009,6 +22518,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700017
@@ -22019,6 +22529,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700018
@@ -22029,6 +22540,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700019
@@ -22039,6 +22551,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700020
@@ -22049,6 +22562,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700021
@@ -22059,6 +22573,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700022
@@ -22069,6 +22584,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700023
@@ -22079,6 +22595,7 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1700024
@@ -22089,6 +22606,40 @@
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700025
+    type: 15
+    arg: "1700025"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700026
+    type: 15
+    arg: "1700026"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700027
+    type: 15
+    arg: "1700027"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
   }
   {
     id: 1800001
@@ -22099,6 +22650,7 @@
     introduction: 打开后必定获取5星重/轻武器组件
     rank: 5
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800002
@@ -22109,6 +22661,7 @@
     introduction: 打开后必定获取5星功能/防护/通用组件
     rank: 5
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800003
@@ -22119,6 +22672,7 @@
     introduction: 打开后有中等概率获取5星组件
     rank: 4
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800004
@@ -22129,6 +22683,7 @@
     introduction: 打开后有较低概率获取5星组件
     rank: 3
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800005
@@ -22139,6 +22694,7 @@
     introduction: 打开后可以获取组件
     rank: 2
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800006
@@ -22149,6 +22705,7 @@
     introduction: 打开后必定获取5星重武器/通用组件
     rank: 5
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800007
@@ -22159,6 +22716,7 @@
     introduction: 打开后必定获取5星轻武器/通用组件
     rank: 5
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800008
@@ -22169,6 +22727,7 @@
     introduction: 打开后必定获取5星重/轻武器组件
     rank: 5
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800009
@@ -22179,6 +22738,7 @@
     introduction: 打开后必定获取5星功能/防护/通用组件
     rank: 5
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800011
@@ -22189,6 +22749,7 @@
     introduction: 5星组件自选序标
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800012
@@ -22199,6 +22760,7 @@
     introduction: 4星组件自选序标
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800013
@@ -22209,6 +22771,7 @@
     introduction: 3星组件自选序标
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800021
@@ -22219,6 +22782,7 @@
     introduction: 5星组件多选
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800022
@@ -22229,6 +22793,7 @@
     introduction: 4星组件多选
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800023
@@ -22239,6 +22804,7 @@
     introduction: 3星组件多选
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800031
@@ -22249,6 +22815,7 @@
     introduction: 5星组件固定
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800032
@@ -22259,6 +22826,7 @@
     introduction: 4星组件固定
     rank: 1
     sort: -1
+    type_sort: 1
   }
   {
     id: 1800033
@@ -22269,5 +22837,6 @@
     introduction: 3星组件固定
     rank: 1
     sort: -1
+    type_sort: 1
   }
 ]

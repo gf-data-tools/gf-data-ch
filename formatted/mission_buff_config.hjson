@@ -656,8 +656,8 @@
   }
   {
     id: 50000
-    name: 芯片buff
-    description: 携带额外的弹药口粮
+    name: 充足燃料
+    description: 梯队可额外携带2份弹药口粮。
     code: ExtraAmmo
     type: 1
     duration_type: "1"
@@ -668,8 +668,8 @@
   }
   {
     id: 50001
-    name: 芯片buff
-    description: 额外行动力
+    name: 鬼影姿态
+    description: 梯队每回合第1次移动时不消耗行动点。
     code: ExtraAp
     type: 1
     duration_type: "1,5"
@@ -680,8 +680,8 @@
   }
   {
     id: 50002
-    name: 芯片buff
-    description: 额外作战弹粮
+    name: 俭节勤兵
+    description: 梯队部署后的首次战斗不消耗弹药和口粮且伤害提升15%。
     code: AmmoReduce
     type: 1
     duration_type: "4"
@@ -694,8 +694,8 @@
   }
   {
     id: 50003
-    name: 芯片buff
-    description: 夜战视野加强
+    name: 夜战视野
+    description: 夜间作战时，额外为梯队提供1格视野。
     code: NightView
     type: 1
     duration_type: "1"
@@ -706,8 +706,8 @@
   }
   {
     id: 50004
-    name: 芯片buff
-    description: 夜战能力加强
+    name: 夜视能力
+    description: 夜间作战时，抵消100%夜战命中惩罚。
     code: nighthitBuff
     type: 1
     duration_type: "1"

@@ -33267,7 +33267,7 @@
   }
   {
     id: 1030203
-    type: 200
+    type: 102
     motion_name: motions/wait_2.mtn
     hold_time: "23,25"
     probability: 0.5
@@ -33488,5 +33488,504 @@
     is_hurt: 1
     delay: 400
     voice_code: MOOD2
+  }
+  {
+    id: 1040701
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1040702
+    type: 103
+    motion_name: daiji_BG.mtn
+    probability: 1
+    name: 场景动作
+  }
+  {
+    id: 1040703
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    voice: GUN|Stevens520|MOOD1
+    name: 特殊待机1
+    camera: 1
+    delay: 2500
+    voice_code: MOOD1
+  }
+  {
+    id: 1040704
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1040705
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Stevens520|LOADING
+    text: GUN|Stevens520|LOADING
+    name: 交互1
+    camera: 1
+    delay: 3000
+    voice_code: LOADING
+  }
+  {
+    id: 1040706
+    type: 200
+    motion_name: touch_2A.mtn
+    touch_area: feet1
+    probability: 1
+    voice: GUN|Stevens520|BLACKACTION
+    text: GUN|Stevens520|BLACKACTION
+    name: 交互2
+    camera: 1
+    voice_code: BLACKACTION
+  }
+  {
+    id: 1040707
+    type: 200
+    motion_name: touch_2B.mtn
+    touch_area: feet2
+    probability: 1
+    name: 交互3
+    camera: 1
+  }
+  {
+    id: 1040708
+    type: 200
+    motion_name: touch_3A.mtn
+    touch_area: leg1
+    probability: 1
+    voice: GUN|Stevens520|COMBINE
+    text: GUN|Stevens520|COMBINE
+    name: 交互4
+    camera: 1
+    delay: 2000
+    voice_code: COMBINE
+  }
+  {
+    id: 1040709
+    type: 200
+    motion_name: touch_3B.mtn
+    touch_area: leg2
+    probability: 1
+    voice: GUN|Stevens520|COMBINE
+    text: GUN|Stevens520|COMBINE
+    name: 交互5
+    camera: 1
+    delay: 2000
+    voice_code: COMBINE
+  }
+  {
+    id: 1040710
+    type: 200
+    motion_name: touch_3C.mtn
+    touch_area: leg3
+    probability: 1
+    voice: GUN|Stevens520|COMBINE
+    text: GUN|Stevens520|COMBINE
+    name: 交互6
+    camera: 1
+    delay: 2000
+    voice_code: COMBINE
+  }
+  {
+    id: 1040711
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Stevens520|OPERATIONBEGIN
+    text: GUN|Stevens520|OPERATIONBEGIN
+    name: 交互7
+    camera: 1
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 1040712
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Stevens520|FORMATION
+    text: GUN|Stevens520|FORMATION
+    name: 交互8
+    camera: 1
+    delay: 1000
+    voice_code: FORMATION
+  }
+  {
+    id: 1040713
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Stevens520|DIALOGUEWEDDING
+    text: GUN|Stevens520|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1040714
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|Stevens520|HELLO
+    text: GUN|Stevens520|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 2000
+    voice_code: HELLO
+  }
+  {
+    id: 1040715
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|Stevens520|MOOD2
+    name: 晃动响应
+    camera: 1
+    delay: 170
+    voice_code: MOOD2
+  }
+  {
+    id: 1040716
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|Stevens520|SOULCONTRACT
+    text: GUN|Stevens520|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1040717
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1040718
+    type: 402
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Stevens520|BREAK
+    text: GUN|Stevens520|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: BREAK
+  }
+  {
+    id: 1040719
+    type: 402
+    motion_name: touch_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Stevens520|DIALOGUE1
+    text: GUN|Stevens520|DIALOGUE1
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 1040720
+    type: 402
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Stevens520|HELLO
+    text: GUN|Stevens520|HELLO
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: HELLO
+  }
+  {
+    id: 1040721
+    type: 402
+    motion_name: touch_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|Stevens520|BLACKACTION
+    text: GUN|Stevens520|BLACKACTION
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: BLACKACTION
+  }
+  {
+    id: 1040722
+    type: 402
+    motion_name: touch_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Stevens520|OPERATIONOVER
+    text: GUN|Stevens520|OPERATIONOVER
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1040723
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|Stevens520|GAIN
+    text: GUN|Stevens520|GAIN
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: GAIN
+  }
+  {
+    id: 1040724
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 5000101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 5000102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 5000103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 5000104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE1
+    text: GUN|88typeMod|DIALOGUE1
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 5000105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|GAIN
+    text: GUN|88typeMod|GAIN
+    name: 交互2
+    camera: 1
+    voice_code: GAIN
+  }
+  {
+    id: 5000106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE2
+    text: GUN|88typeMod|DIALOGUE2
+    name: 交互3
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 5000107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|SKILL2
+    text: GUN|88typeMod|SKILL2
+    name: 交互4
+    camera: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 5000108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|WIN
+    text: GUN|88typeMod|WIN
+    name: 交互5
+    camera: 1
+    voice_code: WIN
+  }
+  {
+    id: 5000109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUEWEDDING
+    text: GUN|88typeMod|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 5000110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|88typeMod|HELLO
+    text: GUN|88typeMod|HELLO
+    name: 上线响应
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 5000111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 5000112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|88typeMod|SOULCONTRACT
+    text: GUN|88typeMod|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 5000113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 5000114
+    type: 402
+    motion_name: broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE3
+    text: GUN|88typeMod|DIALOGUE3
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 5000115
+    type: 402
+    motion_name: broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|RETREAT
+    text: GUN|88typeMod|RETREAT
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 5000116
+    type: 402
+    motion_name: broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|FIX
+    text: GUN|88typeMod|FIX
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 5000117
+    type: 402
+    motion_name: broken_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|LOWMOOD
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: LOWMOOD
+  }
+  {
+    id: 5000118
+    type: 402
+    motion_name: broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|MOOD2
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: MOOD2
+  }
+  {
+    id: 5000119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|88typeMod|BREAK
+    text: GUN|88typeMod|BREAK
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 4000
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 5000120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
   }
 ]
