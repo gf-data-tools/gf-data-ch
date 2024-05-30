@@ -18141,7 +18141,7 @@
   }
   {
     id: 5792
-    name: 突击步枪普攻
+    name: 突击步枪普攻-套装普通攻击
     action_order: "1"
     action_playspeed: "100"
     creation_order: "8716,7,7,21,140,140"
@@ -25333,6 +25333,16 @@
     creation_delay: "15,15,15"
   }
   {
+    id: 20101
+    name: 专注射击普攻
+    action_order: attack2
+    action_playspeed: "100"
+    creation_order: "3,200701,7,2018,140,140,2022"
+    creation_delay: "0,2,4,0,0,2,0"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
     id: 36401
     name: 铁血m16普通
     action_order: attack
@@ -25984,6 +25994,14 @@
     summon_order: "70058"
   }
   {
+    id: 83101
+    name: TFQ步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "851601,21,139"
+    creation_delay: "0,0,0"
+  }
+  {
     id: 84001
     name: 加火力召唤物
     summon_order: "48001"
@@ -26086,6 +26104,11 @@
     creation_order: "300701,300801,300801,300801,300801,300801,300801,300801,30"
     creation_delay: "0,0,0,0,0,0,0,0,0"
     sound_order: BT_Shot_1
+  }
+  {
+    id: 205101
+    name: HK416未击杀-套装
+    creation_order: "235701"
   }
   {
     id: 205502
@@ -29559,6 +29582,26 @@
     creation_delay: "27"
   }
   {
+    id: 579201
+    name: 突击步枪普攻-套装无视护甲
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "871601,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 579202
+    name: 突击步枪普攻-判断
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "871602,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
     id: 777010
     name: 电磁弹
     creation_order: "777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012,777010,777012"
@@ -29620,6 +29663,14 @@
     id: 841201
     name: 水白
     creation_order: "874001"
+  }
+  {
+    id: 846701
+    name: M240L机枪主动普攻必中
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "890301,21,139,139,9,9,9,9,21,21,21,21,21,890401,890401,890401,8956"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,1,3,5,1"
   }
   {
     id: 891601

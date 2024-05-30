@@ -1648,6 +1648,7 @@
     hurt_id: "5"
     hurt_cd: "10"
     buff_id: "3159"
+    buff_type: 109:1000009421
     buff_cd: "10"
     is_form_play: 1
     scale: "3,0.1,3"
@@ -83687,7 +83688,7 @@
     hurt_id: "417"
     is_form_play: 1
     scale: "1"
-    trigger_creation_id: "114,25,2356"
+    trigger_creation_id: "114,25,235601"
     trigger_creation_delay: "1,1,1"
   }
   {
@@ -97743,6 +97744,20 @@
     scale: "1"
   }
   {
+    id: 200701
+    name: 专注射击法球
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    hurt_id: "200601"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 4
+  }
+  {
     id: 203701
     name: 沙漠之鹰标记
     code: TAC50/TAC50_Note
@@ -97969,6 +97984,32 @@
     scale: "0.35,0.35,1"
     sound_order: BT_pistol
     is_orb_effect: 1
+  }
+  {
+    id: 235601
+    name: HK416召唤物
+    start_type: "7"
+    start_offset: "-15"
+    destination_type: "7"
+    destination_offset: "-15"
+    exist_duration: "10"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "81601"
+    is_die_delete: 1
+  }
+  {
+    id: 235701
+    name: HK416未击杀-套装
+    start_type: "5"
+    destination_type: "5"
+    is_tracing: 1
+    route_type: 1
+    speed: 600000
+    effect_area: 1
+    hurt_id: "46001"
+    is_form_play: 1
+    scale: "1"
   }
   {
     id: 237102
@@ -112935,6 +112976,53 @@
     is_die_delete: 1
   }
   {
+    id: 851601
+    name: TFQ步枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "218201"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 871601
+    name: 突击步枪枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "222701"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 871602
+    name: 突击步枪枪子弹判断
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
     id: 874001
     name: 水白在场
     start_type: "8"
@@ -112962,6 +113050,37 @@
     buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1"
+  }
+  {
+    id: 890301
+    name: M240L机枪主动子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "226101"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 890401
+    name: M240L主动额外穿甲子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "226201"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
   }
   {
     id: 900002

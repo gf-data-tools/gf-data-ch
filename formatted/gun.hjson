@@ -1868,7 +1868,7 @@
     effect_grid_pos: "8"
     effect_grid_effect: "2,25"
     type_equip1: 3;9,10
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13
     ai: 20
     launch_time: 2016-05-20 00:00:00
@@ -7106,7 +7106,7 @@
     effect_grid_effect: "1,22"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,21
+    type_equip3: 3;14,21,20
     ai: 77
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "1,3,2"
@@ -13030,7 +13030,7 @@
     effect_grid_pos: "7,9,18"
     effect_grid_effect: "2,14"
     type_equip1: 1;4,13,16
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 3;10
     ai: 141
     launch_time: 2017-01-13 00:00:00
@@ -16716,7 +16716,7 @@
     ratio_range: 100
     skill1: 759042
     normal_attack: 759043
-    passive_skill: "756186"
+    passive_skill: "756186,7590431,7590432,7590421,7590422,7590433,7590434"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,19"
@@ -19595,7 +19595,7 @@
     effect_grid_effect: "1,15;3,25"
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 223
     launch_time: 2018-07-21 00:00:00
     obtain_ids: "415"
@@ -28983,7 +28983,7 @@
     ratio_range: 100
     skill1: 750242
     normal_attack: 750246
-    passive_skill: "750243"
+    passive_skill: "750243,7502461,7502462"
     dynamic_passive_skill: "750245"
     effect_grid_center: 13
     effect_guntype: "1"
@@ -29874,7 +29874,7 @@
     ratio_range: 100
     skill1: 750528
     normal_attack: 750532
-    passive_skill: "750529,750530,750531,750533,750534,750537,750538,300201,300202"
+    passive_skill: "750529,750530,750531,750533,750534,750537,750538,300201,300202,7505311,7505331"
     dynamic_passive_skill: "750535"
     effect_grid_center: 19
     effect_guntype: "5,6"
@@ -31194,7 +31194,7 @@
     name: FM24
     en_name: FM24
     code: FM24
-    extra: Wongpanda,,
+    extra: Wongpanda,愛美,
     en_introduce:
       '''
       Type                       Light machine gun
@@ -31260,7 +31260,7 @@
     name: MG15
     en_name: MG15
     code: MG15
-    extra: 白崇宁,,
+    extra: 白崇宁,桑原由気,
     en_introduce:
       '''
       Type                       Aircraft machine gun
@@ -31324,7 +31324,7 @@
     name: 史蒂文斯520
     en_name: Stevens520
     code: Stevens520
-    extra: NAMYO,,
+    extra: NAMYO,優木かな,
     en_introduce:
       '''
       Type                       Shotgun
@@ -31385,7 +31385,7 @@
     name: 史蒂文斯620
     en_name: Stevens620
     code: Stevens620
-    extra: 小枪,,
+    extra: 小枪,小原好美,
     en_introduce:
       '''
       Type                       Shotgun
@@ -31447,7 +31447,7 @@
     name: P2000
     en_name: P2000
     code: P2000
-    extra: 薯子Imoko,,
+    extra: 薯子Imoko,斋藤千和,
     en_introduce:
       '''
       Type                       Semi-automatic pistol             
@@ -41966,7 +41966,7 @@
     skill2: 801002
     normal_attack: 801001
     passive_skill: "200402,201437,201002,202006,702017,702041,756232,759077,759080,759081,759082"
-    dynamic_passive_skill: "801004"
+    dynamic_passive_skill: "801004,8010041"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18,19"

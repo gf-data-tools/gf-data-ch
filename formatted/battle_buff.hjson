@@ -55499,6 +55499,26 @@
     armor_reduce_number: "105"
   }
   {
+    id: 9544
+    name: 维克托装备
+    conflict_type: 2494
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9545
+    name: 维克托首次燃烧触发
+    conflict_type: 2495
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -57308,6 +57328,17 @@
     buff_animation: YellowFlash
   }
   {
+    id: 31601
+    name: HK416主目标-套装
+    description: hk416榴弹标记
+    conflict_type: 56601
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "9999"
+    boss_available: 1
+  }
+  {
     id: 37001
     name: 增伤标记
     description: 增伤标记_用于统计debuff
@@ -57864,6 +57895,17 @@
     boss_available: 1
   }
   {
+    id: 316211
+    name: 判定成功-套装
+    conflict_type: 59401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
     id: 316301
     name: 导弹触发
     conflict_type: 2359
@@ -57872,6 +57914,28 @@
     duration_type: 1
     duration: "-1"
     boss_available: 1
+  }
+  {
+    id: 316311
+    name: 判定失败-套装
+    conflict_type: 59501
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 316401
+    name: HK416增伤-套装
+    conflict_type: 59601
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    damage_reduce_number: *202
   }
   {
     id: 354801
@@ -67763,6 +67827,46 @@
     move_number: "110"
   }
   {
+    id: 830101
+    name: AK5火力记录
+    conflict_type: 213701
+    max_tier: 99999
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+  }
+  {
+    id: 830102
+    name: AK5触发套装
+    conflict_type: 213702
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+  }
+  {
+    id: 830103
+    name: AK5未触发套装
+    conflict_type: 213703
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+  }
+  {
+    id: 830104
+    name: AK5触发套装判断
+    conflict_type: 213704
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+  }
+  {
     id: 835401
     name: SPAS-15触发后禁止
     conflict_type: 2222
@@ -67780,6 +67884,16 @@
     type: 500
     duration_type: 1
     duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 845401
+    name: M240L骑士精神100层
+    conflict_type: 215901
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
     boss_available: 1
   }
   {

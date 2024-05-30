@@ -12562,4 +12562,138 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 400
+    name: HB弹链箱
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      弹量+<bullet_number_up>$M2HB专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_percent: "12,15"
+    bullet_number_up: "3,4"
+    retire_mp: 1
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 5
+    code: TDoll_SP_M2HB
+    develop_duration: 3420
+    company: IOP
+    fit_guns: "77"
+    equip_introduction: M2HB最喜欢的弹链箱，能够满足她的杀戮欲望。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:500,critical_percent:700
+    max_level: 10
+    auto_select_id: 20081
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 401
+    name: Model芯片
+    description:
+      '''
+      伤害+<pow> 射速+<rate>
+      暴击伤害<critical_harm_rate><%>$Model L专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_Modell
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "223"
+    equip_introduction: 为Model L特别订制的芯片，据说可以帮助她平衡工作和玩耍的算力消耗。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    max_level: 10
+    auto_select_id: 20082
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 402
+    name: USP信号枪
+    description:
+      '''
+      命中+<hit>
+      梯队命中+10%$USP-C专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_USPC
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "141"
+    equip_introduction: 专门为USP-C配备的信号枪，遇到危险时可以向大家发出求救信号。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "300903"
+    max_level: 10
+    auto_select_id: 19079
+    is_show: 1
+    obtain_ids: "3003"
+    sp_description: 梯队命中+10%
+  }
+  {
+    id: 403
+    name: 9毫米XD弹药+P
+    description:
+      '''
+      伤害+<pow>
+      射速<rate>$维克托专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "12,15"
+    rate: "-8,-5"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Vector
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "20"
+    equip_introduction: 由IOP专为维克托订制的+P 9毫米弹药，改进了原本维克托不适合+P弹药的问题，同时配上XD弹头大大提升了杀伤力。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    passive_skill: "1001601"
+    max_level: 10
+    auto_select_id: 19080
+    is_show: 1
+    obtain_ids: "3106"
+    description_skill: 1001601
+  }
 ]
