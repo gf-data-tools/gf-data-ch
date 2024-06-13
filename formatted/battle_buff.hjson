@@ -11006,6 +11006,457 @@
     boss_available: 1
   }
   {
+    id: 2438
+    name: 皇帝-沙尘移速下降
+    description: 移速下降
+    conflict_type: 1001
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+    move_number: "70"
+  }
+  {
+    id: 2439
+    name: 皇帝-沙尘射速下降
+    description: 射速下降
+    conflict_type: 1002
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+    rate_number: "80"
+    trigger_creation_id: "208"
+    is_form_play: 1
+  }
+  {
+    id: 2440
+    name: 皇帝-沙尘命中下降
+    description: 命中下降_5层
+    conflict_type: 1003
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+    hit_number: "90"
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
+    id: 2441
+    name: 力量-伤害提升
+    conflict_type: 1004
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    pow_number: "120"
+  }
+  {
+    id: 2442
+    name: 力量-射速提升
+    conflict_type: 1005
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    rate_number: "110"
+  }
+  {
+    id: 2443
+    name: 隐者-夜视性能下降
+    conflict_type: 1006
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    night_view_percent: "10"
+  }
+  {
+    id: 2444
+    name: 隐者-命中下降
+    conflict_type: 1007
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: "10"
+  }
+  {
+    id: 2445
+    name: 星星-恢复护盾
+    conflict_type: 1008
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 2446
+    name: 月亮-护盾
+    conflict_type: 1009
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2447
+    name: 月亮-伤害增益
+    conflict_type: 1010
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 2448
+    name: 月亮-护盾触发
+    conflict_type: 1011
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "421103,421104"
+  }
+  {
+    id: 2449
+    name: 月亮-护盾比例
+    conflict_type: 1012
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "366"
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 2501
+    name: 拉普拉斯妖星币
+    conflict_type: 1501
+    max_tier: 6
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2502
+    name: 拉普拉斯妖圣杯免伤
+    conflict_type: 1502
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000002401
+  }
+  {
+    id: 2503
+    name: 拉普拉斯妖圣杯护盾
+    conflict_type: 1503
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 2504
+    name: 拉普拉斯妖权杖伤害增益
+    conflict_type: 1504
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    pow_number: "130"
+  }
+  {
+    id: 2505
+    name: 拉普拉斯妖权杖回避增益
+    conflict_type: 1505
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    dodge_number: "130"
+  }
+  {
+    id: 2506
+    name: 拉普拉斯妖-皇帝
+    conflict_type: 1506
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2507
+    name: 拉普拉斯妖-教皇
+    conflict_type: 1506
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2508
+    name: 拉普拉斯妖-战车
+    conflict_type: 1506
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2509
+    name: 拉普拉斯妖-力量
+    conflict_type: 1506
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2510
+    name: 拉普拉斯妖-恋人
+    conflict_type: 1507
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2511
+    name: 拉普拉斯妖-隐者
+    conflict_type: 1507
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2512
+    name: 拉普拉斯妖-正义
+    conflict_type: 1507
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2513
+    name: 拉普拉斯妖-节制
+    conflict_type: 1507
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2514
+    name: 拉普拉斯妖-死神
+    conflict_type: 1508
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2515
+    name: 拉普拉斯妖-恶魔
+    conflict_type: 1508
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2516
+    name: 拉普拉斯妖-星星
+    conflict_type: 1508
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2517
+    name: 拉普拉斯妖-月亮
+    conflict_type: 1508
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2518
+    name: 拉普拉斯妖权杖自爆预备
+    conflict_type: 1509
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2519
+    name: 星星-恢复护盾触发
+    conflict_type: 1510
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "421003"
+  }
+  {
+    id: 2520
+    name: 拉普拉斯妖抽牌时停
+    conflict_type: 1511
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+  }
+  {
+    id: 2521
+    name: 拉普拉斯妖锁血80%
+    conflict_type: 1512
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000002375
+  }
+  {
+    id: 2522
+    name: 拉普拉斯妖锁血60%
+    conflict_type: 1513
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000002376
+  }
+  {
+    id: 2523
+    name: 拉普拉斯妖锁血30%
+    conflict_type: 1514
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000002377
+  }
+  {
+    id: 2524
+    name: 拉普拉斯妖圣杯盾
+    conflict_type: 1515
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "7105"
+  }
+  {
+    id: 2525
+    name: 拉普拉斯妖星币数1
+    conflict_type: 1516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 2526
+    name: 拉普拉斯妖星币数2
+    conflict_type: 1516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 2527
+    name: 拉普拉斯妖星币数3
+    conflict_type: 1516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 2528
+    name: 拉普拉斯妖星币数4
+    conflict_type: 1516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 2529
+    name: 拉普拉斯妖星币数5
+    conflict_type: 1516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 2530
+    name: 拉普拉斯妖星币数6
+    conflict_type: 1516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
     id: 3000
     name: Beer
     description: Beer
@@ -31845,6 +32296,77 @@
     duration_type: 1
     duration: *101
     boss_available: 1
+  }
+  {
+    id: 5274
+    name: Rex1号无人机存在
+    conflict_type: 5274
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 5275
+    name: Rex2号无人机存在
+    conflict_type: 5275
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 5276
+    name: Rex3号无人机存在
+    conflict_type: 5276
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 5277
+    name: Rex4号无人机存在
+    conflict_type: 5277
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 5278
+    name: Rex5号无人机存在
+    conflict_type: 5278
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 5284
+    name: Rex专属标记
+    conflict_type: 5284
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5285
+    name: Rex摩托移速下降
+    conflict_type: 5285
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    move_number: "75"
   }
   {
     id: 5700
@@ -55519,6 +56041,79 @@
     boss_available: 1
   }
   {
+    id: 9546
+    name: 维尔德MkⅡ装备1
+    conflict_type: 2496
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9547
+    name: 维尔德MkⅡ装备2
+    conflict_type: 2497
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9548
+    name: 维尔德MkⅡ套装
+    conflict_type: 2498
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9549
+    name: 司登MkⅡ装备1
+    conflict_type: 2499
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9550
+    name: 司登MkⅡ装备2
+    conflict_type: 2500
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9551
+    name: 司登MkⅡ套装
+    conflict_type: 2501
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9552
+    name: 英勇护盾减伤
+    conflict_type: 2502
+    max_tier: 2
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
+    trigger_creation_id: "2044"
+    trigger_creation_delay: "4"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -57315,6 +57910,32 @@
     critical_number: "10000"
   }
   {
+    id: 15156
+    name: 全队伤害提升
+    conflict_type: 5713
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+    pow_number: "200"
+  }
+  {
+    id: 15157
+    name: 全队每秒回盾
+    conflict_type: 5714
+    max_tier: 99
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: "100"
+    trigger_creation_id: "220"
+    is_form_play: 1
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
     id: 30701
     name: 触发:暴动宣告-套装
     description: 触发:暴动宣告
@@ -57726,6 +58347,143 @@
     duration_type: 1
     duration: "99999"
     boss_available: 1
+  }
+  {
+    id: 82601
+    name: EMP伤害减益
+    description: 火力下降
+    conflict_type: 826
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "10"
+    trigger_creation_id: "205"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 82602
+    name: EMP伤害减益-Boss
+    description: 火力下降
+    conflict_type: 826
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "90"
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 82701
+    name: EMP命中减益
+    description: 命中下降
+    conflict_type: 827
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: "10"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 82702
+    name: EMP命中减益-Boss
+    description: 命中下降
+    conflict_type: 827
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hit_number: "90"
+    is_form_play: 1
+  }
+  {
+    id: 82801
+    name: EMP暴击减益
+    description: 暴击概率下降
+    conflict_type: 828
+    max_tier: 1
+    type: 206
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    critical_number: "10"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 82802
+    name: EMP暴击减益-Boss
+    description: 暴击概率下降
+    conflict_type: 828
+    max_tier: 1
+    type: 206
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    critical_number: "90"
+    is_form_play: 1
+  }
+  {
+    id: 82901
+    name: EMP回避减益
+    description: 回避下降
+    conflict_type: 829
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    dodge_number: "10"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 82902
+    name: EMP回避减益-Boss
+    description: 回避下降
+    conflict_type: 829
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    dodge_number: "90"
+    is_form_play: 1
+  }
+  {
+    id: 83001
+    name: EMP护甲减益
+    description: 护甲下降
+    conflict_type: 830
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    armor_reduce_number: "10"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 83002
+    name: EMP护甲减益-Boss
+    description: 护甲下降
+    conflict_type: 830
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    armor_reduce_number: "90"
+    is_form_play: 1
   }
   {
     id: 120101
@@ -60523,6 +61281,1106 @@
     duration_type: 1
     duration: "15"
     boss_available: 1
+  }
+  {
+    id: 526901
+    name: Rex标记1号位1
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400101
+  }
+  {
+    id: 526902
+    name: Rex标记1号位2
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400102
+  }
+  {
+    id: 526903
+    name: Rex标记1号位3
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400103
+  }
+  {
+    id: 526904
+    name: Rex标记1号位4
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400104
+  }
+  {
+    id: 526905
+    name: Rex标记1号位5
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400105
+  }
+  {
+    id: 526906
+    name: Rex标记1号位6
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400106
+  }
+  {
+    id: 526907
+    name: Rex标记1号位7
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400107
+  }
+  {
+    id: 526908
+    name: Rex标记1号位8
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400108
+  }
+  {
+    id: 526909
+    name: Rex标记1号位9
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400109
+  }
+  {
+    id: 526910
+    name: Rex标记1号位10
+    conflict_type: 5269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400110
+  }
+  {
+    id: 527001
+    name: Rex标记2号位1
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400201
+  }
+  {
+    id: 527002
+    name: Rex标记2号位2
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400202
+  }
+  {
+    id: 527003
+    name: Rex标记2号位3
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400203
+  }
+  {
+    id: 527004
+    name: Rex标记2号位4
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400204
+  }
+  {
+    id: 527005
+    name: Rex标记2号位5
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400205
+  }
+  {
+    id: 527006
+    name: Rex标记2号位6
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400206
+  }
+  {
+    id: 527007
+    name: Rex标记2号位7
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400207
+  }
+  {
+    id: 527008
+    name: Rex标记2号位8
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400208
+  }
+  {
+    id: 527009
+    name: Rex标记2号位9
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400209
+  }
+  {
+    id: 527010
+    name: Rex标记2号位10
+    conflict_type: 5270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400210
+  }
+  {
+    id: 527101
+    name: Rex标记3号位1
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400301
+  }
+  {
+    id: 527102
+    name: Rex标记3号位2
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400302
+  }
+  {
+    id: 527103
+    name: Rex标记3号位3
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400303
+  }
+  {
+    id: 527104
+    name: Rex标记3号位4
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400304
+  }
+  {
+    id: 527105
+    name: Rex标记3号位5
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400305
+  }
+  {
+    id: 527106
+    name: Rex标记3号位6
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400306
+  }
+  {
+    id: 527107
+    name: Rex标记3号位7
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400307
+  }
+  {
+    id: 527108
+    name: Rex标记3号位8
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400308
+  }
+  {
+    id: 527109
+    name: Rex标记3号位9
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400309
+  }
+  {
+    id: 527110
+    name: Rex标记3号位10
+    conflict_type: 5271
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400310
+  }
+  {
+    id: 527201
+    name: Rex标记4号位1
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400401
+  }
+  {
+    id: 527202
+    name: Rex标记4号位2
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400402
+  }
+  {
+    id: 527203
+    name: Rex标记4号位3
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400403
+  }
+  {
+    id: 527204
+    name: Rex标记4号位4
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400404
+  }
+  {
+    id: 527205
+    name: Rex标记4号位5
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400405
+  }
+  {
+    id: 527206
+    name: Rex标记4号位6
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400406
+  }
+  {
+    id: 527207
+    name: Rex标记4号位7
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400407
+  }
+  {
+    id: 527208
+    name: Rex标记4号位8
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400408
+  }
+  {
+    id: 527209
+    name: Rex标记4号位9
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400409
+  }
+  {
+    id: 527210
+    name: Rex标记4号位10
+    conflict_type: 5272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400410
+  }
+  {
+    id: 527301
+    name: Rex标记5号位1
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400501
+  }
+  {
+    id: 527302
+    name: Rex标记5号位2
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400502
+  }
+  {
+    id: 527303
+    name: Rex标记5号位3
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400503
+  }
+  {
+    id: 527304
+    name: Rex标记5号位4
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400504
+  }
+  {
+    id: 527305
+    name: Rex标记5号位5
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400505
+  }
+  {
+    id: 527306
+    name: Rex标记5号位6
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400506
+  }
+  {
+    id: 527307
+    name: Rex标记5号位7
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400507
+  }
+  {
+    id: 527308
+    name: Rex标记5号位8
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400508
+  }
+  {
+    id: 527309
+    name: Rex标记5号位9
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400509
+  }
+  {
+    id: 527310
+    name: Rex标记5号位10
+    conflict_type: 5273
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 400510
+  }
+  {
+    id: 527901
+    name: Rex1号无人机召唤1
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426401"
+  }
+  {
+    id: 527902
+    name: Rex1号无人机召唤2
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426402"
+  }
+  {
+    id: 527903
+    name: Rex1号无人机召唤3
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426403"
+  }
+  {
+    id: 527904
+    name: Rex1号无人机召唤4
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426404"
+  }
+  {
+    id: 527905
+    name: Rex1号无人机召唤5
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426405"
+  }
+  {
+    id: 527906
+    name: Rex1号无人机召唤6
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426406"
+  }
+  {
+    id: 527907
+    name: Rex1号无人机召唤7
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426407"
+  }
+  {
+    id: 527908
+    name: Rex1号无人机召唤8
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426408"
+  }
+  {
+    id: 527909
+    name: Rex1号无人机召唤9
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426409"
+  }
+  {
+    id: 527910
+    name: Rex1号无人机召唤10
+    conflict_type: 5279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426410"
+  }
+  {
+    id: 528001
+    name: Rex2号位触发召唤1
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426501"
+  }
+  {
+    id: 528002
+    name: Rex2号位触发召唤2
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426502"
+  }
+  {
+    id: 528003
+    name: Rex2号位触发召唤3
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426503"
+  }
+  {
+    id: 528004
+    name: Rex2号位触发召唤4
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426504"
+  }
+  {
+    id: 528005
+    name: Rex2号位触发召唤5
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426505"
+  }
+  {
+    id: 528006
+    name: Rex2号位触发召唤6
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426506"
+  }
+  {
+    id: 528007
+    name: Rex2号位触发召唤7
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426507"
+  }
+  {
+    id: 528008
+    name: Rex2号位触发召唤8
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426508"
+  }
+  {
+    id: 528009
+    name: Rex2号位触发召唤9
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426509"
+  }
+  {
+    id: 528010
+    name: Rex2号位触发召唤10
+    conflict_type: 5280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426510"
+  }
+  {
+    id: 528101
+    name: Rex3号位触发召唤1
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426601"
+  }
+  {
+    id: 528102
+    name: Rex3号位触发召唤2
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426602"
+  }
+  {
+    id: 528103
+    name: Rex3号位触发召唤3
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426603"
+  }
+  {
+    id: 528104
+    name: Rex3号位触发召唤4
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426604"
+  }
+  {
+    id: 528105
+    name: Rex3号位触发召唤5
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426605"
+  }
+  {
+    id: 528106
+    name: Rex3号位触发召唤6
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426606"
+  }
+  {
+    id: 528107
+    name: Rex3号位触发召唤7
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426607"
+  }
+  {
+    id: 528108
+    name: Rex3号位触发召唤8
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426608"
+  }
+  {
+    id: 528109
+    name: Rex3号位触发召唤9
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426609"
+  }
+  {
+    id: 528110
+    name: Rex3号位触发召唤10
+    conflict_type: 5281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426610"
+  }
+  {
+    id: 528201
+    name: Rex4号位触发召唤1
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426701"
+  }
+  {
+    id: 528202
+    name: Rex4号位触发召唤2
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426702"
+  }
+  {
+    id: 528203
+    name: Rex4号位触发召唤3
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426703"
+  }
+  {
+    id: 528204
+    name: Rex4号位触发召唤4
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426704"
+  }
+  {
+    id: 528205
+    name: Rex4号位触发召唤5
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426705"
+  }
+  {
+    id: 528206
+    name: Rex4号位触发召唤6
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426706"
+  }
+  {
+    id: 528207
+    name: Rex4号位触发召唤7
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426707"
+  }
+  {
+    id: 528208
+    name: Rex4号位触发召唤8
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426708"
+  }
+  {
+    id: 528209
+    name: Rex4号位触发召唤9
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426709"
+  }
+  {
+    id: 528210
+    name: Rex4号位触发召唤10
+    conflict_type: 5282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426710"
+  }
+  {
+    id: 528301
+    name: Rex5号位触发召唤1
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426801"
+  }
+  {
+    id: 528302
+    name: Rex5号位触发召唤2
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426802"
+  }
+  {
+    id: 528303
+    name: Rex5号位触发召唤3
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426803"
+  }
+  {
+    id: 528304
+    name: Rex5号位触发召唤4
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426804"
+  }
+  {
+    id: 528305
+    name: Rex5号位触发召唤5
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426805"
+  }
+  {
+    id: 528306
+    name: Rex5号位触发召唤6
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426806"
+  }
+  {
+    id: 528307
+    name: Rex5号位触发召唤7
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426807"
+  }
+  {
+    id: 528308
+    name: Rex5号位触发召唤8
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426808"
+  }
+  {
+    id: 528309
+    name: Rex5号位触发召唤9
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426809"
+  }
+  {
+    id: 528310
+    name: Rex5号位触发召唤10
+    conflict_type: 5283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "426810"
   }
   {
     id: 710101
@@ -67907,6 +69765,17 @@
     duration: "99999"
     boss_available: 1
     watch_id: 1042
+  }
+  {
+    id: 858401
+    name: 队伍夜视+10%
+    conflict_type: 219401
+    max_tier: 9
+    type: 404
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    night_view_percent: "10"
   }
   {
     id: 873901

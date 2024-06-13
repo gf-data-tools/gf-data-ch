@@ -3556,8 +3556,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:350
+    passive_skill: "1001801"
     max_level: 10
     auto_select_id: 18022
+    group_id: "32"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -6358,9 +6360,10 @@
     exclusive_rate: 3
     bonus_type: dodge:700
     skill: 902257
-    passive_skill: "902256"
+    passive_skill: "902256,1001701"
     max_level: 10
     auto_select_id: 20033
+    group_id: "31"
     is_show: 1
     obtain_ids: "3016"
     description_skill: 902256
@@ -12695,5 +12698,144 @@
     is_show: 1
     obtain_ids: "3106"
     description_skill: 1001601
+  }
+  {
+    id: 404
+    name: 特制作战摩托
+    description:
+      '''
+      回避+<dodge> 射速<rate>
+      护甲+<armor>技能增加$Rex-0-1专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "8,11"
+    rate: "-5,-1"
+    armor: "3,5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_RexZero1
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "310,20310"
+    equip_introduction: Rex-0-1最爱使用的摩托，她非常享受在战场上风驰电掣的感觉。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "992490"
+    max_level: 10
+    auto_select_id: 20083
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 992490
+  }
+  {
+    id: 405
+    name: 夜行披风
+    description:
+      '''
+      伤害+<pow> 暴击伤害+<critical_harm_rate><%>
+      前置冷却-80%$DSR-50专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    critical_harm_rate: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_DSR50
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "179"
+    equip_introduction: DSR-50经常带在身边的披风，除了辅助作战之外，还非常方便在夜晚里行动。
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:500,pow:1000
+    passive_skill: "759059"
+    max_level: 10
+    auto_select_id: 20084
+    is_show: 1
+    obtain_ids: "3115"
+    sp_description: 前置冷却-80%
+  }
+  {
+    id: 406
+    name: 黑夜警帽
+    description:
+      '''
+      回避+<dodge>
+      梯队夜视能力+10%$维尔德MkⅡ改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "2,5"
+    skill_effect: 300
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: Accessories_SP_WelrodMod
+    develop_duration: 2820
+    company: IOP
+    fit_guns: "20114"
+    equip_introduction: 维尔德MkⅡ执勤时佩戴的帽子，在面对罪恶之时，这顶帽子就是天降正义的旗帜！
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1001702,759412"
+    max_level: 10
+    auto_select_id: 18119
+    group_id: "31"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队夜视能力+10%
+  }
+  {
+    id: 407
+    name: 司登专用外骨骼
+    description:
+      '''
+      命中<hit>
+      回避+<dodge>$司登MkⅡ改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "-3,-1"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_StenMK2Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20029"
+    equip_introduction: 针对司登MkⅡ特别设计的专用外骨骼，提升机动能力的同时也存在一点点小缺陷。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1001802"
+    max_level: 10
+    auto_select_id: 20085
+    group_id: "32"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

@@ -53545,6 +53545,64 @@
     sound_order: BT_Shot_1
   }
   {
+    id: 4269
+    name: Rex摩托
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "4333"
+  }
+  {
+    id: 4270
+    name: Rex摩托左侧判定
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    scale: "1"
+    sound_order: BT_Motor_falloff
+  }
+  {
+    id: 4271
+    name: Rex摩托轮胎尾烟
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    start_offset: "0.3,0.2"
+    destination_type: "3"
+    destination_offset: "0.3,0.2"
+    is_tracing: 1
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 4272
+    name: Rex摩托伤害
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "701"
+    hurt_cd: "3"
+    buff_id: "5285"
+    buff_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 5010
     name: 狙击子弹
     code: SniperSkillBullet
@@ -62498,6 +62556,360 @@
     creation_type: 2
     scale: "1"
     sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 7001
+    name: 战车-迫击炮己方
+    code: 迫击炮
+    start_type: "8"
+    start_offset: "-15"
+    destination_type: "5"
+    decision_offset: "-9"
+    is_clone: 1
+    route_type: 2
+    route_hight: 2500
+    speed: 800
+    rotate: "0,0,110"
+    is_form_play: 1
+    scale: "1,1"
+    trigger_creation_id: "7003"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7002
+    name: 战车-迫击炮己方瞄准
+    code: mortars/paojitishi 2
+    start_type: "6"
+    start_offset: "0,2.5"
+    destination_type: "6"
+    destination_offset: "0,2.5"
+    is_tracing: 1
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 7003
+    name: 战车-迫击炮己方结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "6"
+    hurt_id: "1401"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7004
+    name: 星星护盾
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "1.5"
+    buff_id: "2445"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7006
+    name: 战车-迫击炮敌方预警
+    code: 爆炸范围
+    start_type: "8"
+    start_offset: "-3.98,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-3.98,0,-1.65"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2;2.6,0,0;2.6,0,4.2;2.6,0,-4.2;-2.6,0,0;-2.6,0,4.2;-2.6,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "60"
+    scale: "1.25,2.15"
+    trigger_creation_id: "7007,7007,7007"
+    trigger_creation_delay: "55,60,65"
+  }
+  {
+    id: 7007
+    name: 战车-迫击炮敌方
+    code: 迫击炮
+    start_type: "3"
+    start_offset: "8"
+    destination_type: "7"
+    is_clone: 1
+    route_type: 2
+    route_hight: 2500
+    speed: 1500
+    rotate: "0,0,60"
+    exist_duration: "30"
+    scale: "1,1"
+    trigger_creation_id: "7008"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7008
+    name: 战车-迫击炮敌方结算
+    code: 爆炸
+    start_type: "7"
+    start_offset: "-0.75,0,0.1"
+    destination_type: "7"
+    destination_offset: "-0.75,0,0.1"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "1402"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7009
+    name: 死亡-己方伤害
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "1403"
+    is_form_play: 1
+    scale: "10,0,10"
+  }
+  {
+    id: 7010
+    name: 死亡-敌方伤害
+    start_type: "1"
+    start_offset: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 500
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "99"
+    hurt_id: "1403"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7011
+    name: 恶魔-侵蚀伤害
+    start_type: hip
+    destination_type: hip
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1404"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7012
+    name: 恶魔-侵蚀Dot
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "1405"
+    hurt_cd: "90"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7013
+    name: 月亮-增益己方
+    start_type: "8"
+    destination_type: "8"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: 2446:50
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 7101
+    name: 拉普拉斯妖子弹
+    code: Laplace_zidan
+    start_type: sword
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 2000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: FlightGame_Audio_SelfTurn
+  }
+  {
+    id: 7102
+    name: 拉普拉斯妖宝剑预警
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.75,0,0.1"
+    destination_type: "6"
+    destination_offset: "-0.75,0,0.1"
+    is_clone: 1
+    rotate: "90,0,0"
+    exist_duration: "105"
+    scale: "1.25,2.15"
+    trigger_creation_id: "710201"
+    trigger_creation_delay: "100"
+  }
+  {
+    id: 7104
+    name: 拉普拉斯妖权杖分身自爆伤害
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "1502"
+    is_form_play: 1
+    scale: "10,0,10"
+  }
+  {
+    id: 7105
+    name: 拉普拉斯妖圣杯盾
+    code: Laplace_dun
+    start_type: "2"
+    start_offset: "-0.8"
+    destination_type: "2"
+    destination_offset: "-0.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "9999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7106
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7107
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "710701"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7108
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "710801"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7109
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "710901"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7110
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "711001"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7111
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "711101"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7112
+    name: 拉普拉斯妖星币显示
+    code: Laplace_jb_z
+    start_type: "2"
+    start_offset: "-1,2,0"
+    destination_type: "2"
+    destination_offset: "-1,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "711201"
+    trigger_creation_delay: "-1"
   }
   {
     id: 8001
@@ -102410,6 +102822,806 @@
     scale: "1"
   }
   {
+    id: 426401
+    name: Rex1号无人机1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432801"
+  }
+  {
+    id: 426402
+    name: Rex1号无人机2
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432802"
+  }
+  {
+    id: 426403
+    name: Rex1号无人机3
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432803"
+  }
+  {
+    id: 426404
+    name: Rex1号无人机4
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432804"
+  }
+  {
+    id: 426405
+    name: Rex1号无人机5
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432805"
+  }
+  {
+    id: 426406
+    name: Rex1号无人机6
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432806"
+  }
+  {
+    id: 426407
+    name: Rex1号无人机7
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432807"
+  }
+  {
+    id: 426408
+    name: Rex1号无人机8
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432808"
+  }
+  {
+    id: 426409
+    name: Rex1号无人机9
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432809"
+  }
+  {
+    id: 426410
+    name: Rex1号无人机10
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432810"
+  }
+  {
+    id: 426501
+    name: Rex2号无人机1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432901"
+  }
+  {
+    id: 426502
+    name: Rex2号无人机2
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432902"
+  }
+  {
+    id: 426503
+    name: Rex2号无人机3
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432903"
+  }
+  {
+    id: 426504
+    name: Rex2号无人机4
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432904"
+  }
+  {
+    id: 426505
+    name: Rex2号无人机5
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432905"
+  }
+  {
+    id: 426506
+    name: Rex2号无人机6
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432906"
+  }
+  {
+    id: 426507
+    name: Rex2号无人机7
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432907"
+  }
+  {
+    id: 426508
+    name: Rex2号无人机8
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432908"
+  }
+  {
+    id: 426509
+    name: Rex2号无人机9
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432909"
+  }
+  {
+    id: 426510
+    name: Rex2号无人机10
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "432910"
+  }
+  {
+    id: 426601
+    name: Rex3号无人机1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433001"
+  }
+  {
+    id: 426602
+    name: Rex3号无人机2
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433002"
+  }
+  {
+    id: 426603
+    name: Rex3号无人机3
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433003"
+  }
+  {
+    id: 426604
+    name: Rex3号无人机4
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433004"
+  }
+  {
+    id: 426605
+    name: Rex3号无人机5
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433005"
+  }
+  {
+    id: 426606
+    name: Rex3号无人机6
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433006"
+  }
+  {
+    id: 426607
+    name: Rex3号无人机7
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433007"
+  }
+  {
+    id: 426608
+    name: Rex3号无人机8
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433008"
+  }
+  {
+    id: 426609
+    name: Rex3号无人机9
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433009"
+  }
+  {
+    id: 426610
+    name: Rex3号无人机10
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433010"
+  }
+  {
+    id: 426701
+    name: Rex4号无人机1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433101"
+  }
+  {
+    id: 426702
+    name: Rex4号无人机2
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433102"
+  }
+  {
+    id: 426703
+    name: Rex4号无人机3
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433103"
+  }
+  {
+    id: 426704
+    name: Rex4号无人机4
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433104"
+  }
+  {
+    id: 426705
+    name: Rex4号无人机5
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433105"
+  }
+  {
+    id: 426706
+    name: Rex4号无人机6
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433106"
+  }
+  {
+    id: 426707
+    name: Rex4号无人机7
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433107"
+  }
+  {
+    id: 426708
+    name: Rex4号无人机8
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433108"
+  }
+  {
+    id: 426709
+    name: Rex4号无人机9
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433109"
+  }
+  {
+    id: 426710
+    name: Rex4号无人机10
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433110"
+  }
+  {
+    id: 426801
+    name: Rex5号无人机1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433201"
+  }
+  {
+    id: 426802
+    name: Rex5号无人机2
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433202"
+  }
+  {
+    id: 426803
+    name: Rex5号无人机3
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433203"
+  }
+  {
+    id: 426804
+    name: Rex5号无人机4
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433204"
+  }
+  {
+    id: 426805
+    name: Rex5号无人机5
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433205"
+  }
+  {
+    id: 426806
+    name: Rex5号无人机6
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433206"
+  }
+  {
+    id: 426807
+    name: Rex5号无人机7
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433207"
+  }
+  {
+    id: 426808
+    name: Rex5号无人机8
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433208"
+  }
+  {
+    id: 426809
+    name: Rex5号无人机9
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433209"
+  }
+  {
+    id: 426810
+    name: Rex5号无人机10
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "433210"
+  }
+  {
     id: 536801
     name: 铁血M16打击预警
     code: M16_Normal/M16_Alert
@@ -112696,6 +113908,180 @@
     effect_area: 1
     is_form_play: 1
     creation_type: 5
+    scale: "1"
+  }
+  {
+    id: 701201
+    name: 恶魔-侵蚀Dot
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "140501"
+    hurt_cd: "90"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 710201
+    name: 拉普拉斯妖宝剑
+    code: Laplace_sword
+    start_type: "7"
+    start_offset: "0,2,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    is_clone: 1
+    exist_duration: "30"
+    scale: "1"
+    trigger_creation_id: "710202"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 710202
+    name: 拉普拉斯妖宝剑结算
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "1501"
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 710301
+    name: 拉普拉斯妖权杖分身1
+    start_type: "3"
+    start_offset: "-4,0,-2.1"
+    destination_type: "3"
+    destination_offset: "-4,0,-2.1"
+    exist_duration: "1"
+    scale: "1"
+    summoner_order: "5101"
+  }
+  {
+    id: 710302
+    name: 拉普拉斯妖权杖分身2
+    start_type: "3"
+    start_offset: "-4,0,2.1"
+    destination_type: "3"
+    destination_offset: "-4,0,2.1"
+    exist_duration: "1"
+    scale: "1"
+    summoner_order: "5101"
+  }
+  {
+    id: 710401
+    name: 拉普拉斯妖权杖分身爆炸
+    code: 爆炸
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,2"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 710402
+    name: 拉普拉斯妖权杖分身自爆自我伤害
+    start_type: "1"
+    start_offset: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 500
+    hurt_id: "1503"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 710701
+    name: 拉普拉斯妖星币1
+    code: Laplace_jb_01
+    start_type: "2"
+    start_offset: "0.5,2,0"
+    destination_type: "2"
+    destination_offset: "0.5,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 710801
+    name: 拉普拉斯妖星币2
+    code: Laplace_jb_02
+    start_type: "2"
+    start_offset: "0.5,2,0"
+    destination_type: "2"
+    destination_offset: "0.5,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 710901
+    name: 拉普拉斯妖星币3
+    code: Laplace_jb_03
+    start_type: "2"
+    start_offset: "0.5,2,0"
+    destination_type: "2"
+    destination_offset: "0.5,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 711001
+    name: 拉普拉斯妖星币4
+    code: Laplace_jb_04
+    start_type: "2"
+    start_offset: "0.5,2,0"
+    destination_type: "2"
+    destination_offset: "0.5,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 711101
+    name: 拉普拉斯妖星币5
+    code: Laplace_jb_05
+    start_type: "2"
+    start_offset: "0.5,2,0"
+    destination_type: "2"
+    destination_offset: "0.5,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 711201
+    name: 拉普拉斯妖星币6
+    code: Laplace_jb_06
+    start_type: "2"
+    start_offset: "0.5,2,0"
+    destination_type: "2"
+    destination_offset: "0.5,2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "15"
+    is_form_play: 1
     scale: "1"
   }
   {

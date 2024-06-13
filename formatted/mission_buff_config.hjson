@@ -4436,6 +4436,227 @@
     carry_mission_skill: "640104"
   }
   {
+    id: 690001
+    name: 【标记】角色初始化
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 690001
+    priority: 1
+    carry_mission_skill: "690032,690012,690042,690022"
+  }
+  {
+    id: 690022
+    name: 权杖
+    description: 受到EMP影响
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    cannot_move: "1"
+    battle_skill_config_id: 778225
+    conflict_type: 690022
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 690032
+    name: 宝剑
+    description: 下一场战斗伤害大幅提高
+    code: powBuff
+    type: 1
+    duration_type: "4"
+    duration_time: "2"
+    exp_buff: "1"
+    battle_skill_config_id: 778222
+    special_spot_config_id: 690052
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 690032
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 690042
+    name: 圣杯
+    description: 1回合内，每次战斗开始时获得护盾
+    code: shield
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 778223
+    conflict_type: 690042
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 690052
+    name: 定身
+    description: 精疲力尽
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 690032
+    priority: 2
+    is_still_alive: 1
+  }
+  {
+    id: 690502
+    name: 【标记】AR初始化
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 690502
+    priority: 1
+    carry_mission_skill: "690512"
+  }
+  {
+    id: 690503
+    name: 【标记】人形初始化
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 690503
+    priority: 1
+    carry_mission_skill: "690513"
+  }
+  {
+    id: 690504
+    name: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 690504
+    priority: -1
+    carry_mission_skill: "690514"
+  }
+  {
+    id: 690701
+    name: 【标记】AR初始化
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 690701
+    priority: -1
+    carry_mission_skill: "690711,690721"
+    is_still_alive: 1
+  }
+  {
+    id: 690702
+    name: 【标记】BOSS2动
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 690703
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 690702
+    priority: 1
+    ext_move: 1
+  }
+  {
+    id: 690703
+    name: 【标记】BOSS3动
+    code: ExtraMove2
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 690704
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 690702
+    priority: 2
+    ext_move: 2
+  }
+  {
+    id: 690704
+    name: 【标记】BOSS4动
+    code: ExtraMove3
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 690705
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 690702
+    priority: 3
+    ext_move: 3
+  }
+  {
+    id: 690705
+    name: 【标记】BOSS5动
+    code: 561mod
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 690702
+    priority: 4
+    ext_move: 4
+  }
+  {
+    id: 690800
+    name: 【标记】EMP计数
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 690800
+    priority: -1
+  }
+  {
+    id: 690801
+    name: 【标记】BOSS强化
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 778224
+    conflict_type: 690801
+    priority: 1
+    effect_duration: 1000173
+  }
+  {
+    id: 690804
+    name: 携带EMP手雷
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 690804
+    priority: -1
+    carry_mission_skill: "690814"
+  }
+  {
+    id: 690813
+    name: 电磁瘫痪
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    cannot_move: "1"
+    battle_skill_config_id: 778225
+    conflict_type: 690813
+    priority: 1
+  }
+  {
     id: 910630
     name: 护盾
     description: 护盾增幅中

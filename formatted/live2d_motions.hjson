@@ -33769,6 +33769,236 @@
     is_hurt: 1
   }
   {
+    id: 1050101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1050102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1050103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1050104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|DSR50|OPERATIONOVER
+    text: GUN|DSR50|OPERATIONOVER
+    name: 交互1
+    camera: 1
+    delay: 2000
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1050105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|DSR50|COMBINE
+    text: GUN|DSR50|COMBINE
+    name: 交互2
+    camera: 1
+    delay: 2000
+    voice_code: COMBINE
+  }
+  {
+    id: 1050106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|DSR50|HELLO
+    text: GUN|DSR50|HELLO
+    name: 交互3
+    camera: 1
+    delay: 3250
+    voice_code: HELLO
+  }
+  {
+    id: 1050107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|DSR50|DIALOGUE3
+    text: GUN|DSR50|DIALOGUE3
+    name: 交互4
+    camera: 1
+    delay: 2000
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 1050108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|DSR50|WIN
+    text: GUN|DSR50|WIN
+    name: 交互5
+    camera: 1
+    delay: 1000
+    voice_code: WIN
+  }
+  {
+    id: 1050109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|DSR50|DIALOGUEWEDDING
+    text: GUN|DSR50|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1050110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|DSR50|GAIN
+    text: GUN|DSR50|GAIN
+    name: 上线响应
+    camera: 1
+    delay: 500
+    voice_code: GAIN
+  }
+  {
+    id: 1050111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1050112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|DSR50|SOULCONTRACT
+    text: GUN|DSR50|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1050113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1050114
+    type: 402
+    motion_name: broken_1.mtn
+    touch_area: bot
+    probability: 1
+    voice: GUN|DSR50|SKILL3
+    text: GUN|DSR50|SKILL3
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: SKILL3
+  }
+  {
+    id: 1050115
+    type: 402
+    motion_name: broken_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|DSR50|WIN
+    text: GUN|DSR50|WIN
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: WIN
+  }
+  {
+    id: 1050116
+    type: 402
+    motion_name: broken_3.mtn
+    touch_area: ass
+    probability: 1
+    voice: GUN|DSR50|LOADING
+    text: GUN|DSR50|LOADING
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: LOADING
+  }
+  {
+    id: 1050117
+    type: 402
+    motion_name: broken_4.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|DSR50|DIALOGUE3
+    text: GUN|DSR50|DIALOGUE3
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 1050118
+    type: 402
+    motion_name: broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|DSR50|OPERATIONOVER
+    text: GUN|DSR50|OPERATIONOVER
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1050119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|DSR50|HELLO
+    text: GUN|DSR50|HELLO
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: HELLO
+  }
+  {
+    id: 1050120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|DSR50|LOWMOOD
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+    voice_code: LOWMOOD
+  }
+  {
     id: 5000101
     type: 101
     motion_name: daiji_idle_01.mtn

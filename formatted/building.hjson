@@ -25266,6 +25266,380 @@
     confront_des: 本次战役中无法破坏该设施
   }
   {
+    id: 690000
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】卡牌初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690000"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】角色初始化
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】检测
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690100"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,690101,690101,0;2,690201,690101,0"
+  }
+  {
+    id: 690301
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 加密控制台
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "690311"
+    active_mission_skill: "690311"
+    inherent_mission_skill: "690301"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690501
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】2动
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690501"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690502
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】AR
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690502"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690503
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】人形
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690503"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690504
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000007
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 废弃歌利亚
+    code: Boomer
+    shifting_spot: "45,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "1000072"
+    active_mission_skill: "690504"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690601
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 控制台
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "1000072"
+    active_mission_skill: "690601"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690602
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: 防御门
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "690602"
+    inherent_mission_skill: "690602"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】AR
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690701"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,690701,690790,0"
+  }
+  {
+    id: 690702
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】BOSS
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690702"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690801
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】BOSS
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690801"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690802
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000012
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:2,1:2;0:0,1:0
+    name: 变电站
+    code: Substation
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "690812"
+    inherent_mission_skill: "690802"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690803
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000013
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0
+    name: EMP发生器
+    code: EMP
+    shifting_spot: "10,103"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    working_special_spot: "690812"
+    active_mission_skill: "690813"
+    inherent_mission_skill: "690803"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690804
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000017
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: EMP手雷
+    code: Build_PortableEMP
+    shifting_spot: "65,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "1000072"
+    active_mission_skill: "690804"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 690901
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】BOSS
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690901"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: "15"
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
     id: 1144001
     defender: 99999
     defender_upper: 99999

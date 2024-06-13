@@ -15545,6 +15545,160 @@
     no_battle_damage: -1
   }
   {
+    id: 690101
+    name: 稻草人!
+    guns: "1"
+    enemy_team_id: 690101
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690102
+    name: 稻草人?
+    guns: "1"
+    enemy_team_id: 690102
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690201
+    name: 稻草人!
+    guns: "1"
+    enemy_team_id: 690201
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690202
+    name: 稻草人?
+    guns: "1"
+    enemy_team_id: 690202
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690203
+    name: 铁血势力
+    guns: "1"
+    enemy_team_id: 690203
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    betray_result_enemy: "690203"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690501
+    name: AR小队
+    guns: "10095,10096,10097"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "690511"
+    betray_result: "1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 10095|10096|10097|10109
+    betray_result_ai: 20010:5,10
+  }
+  {
+    id: 690502
+    name: 人形小队
+    guns: "10101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "690511"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690601
+    name: AR小队
+    guns: "10098,10099,10100"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "690511"
+    betray_result: "1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 10098|10099|10100|10110
+    betray_result_ai: 20010:5,10
+  }
+  {
+    id: 690602
+    name: 人形小队
+    guns: "10102"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "690511"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690701
+    name: AR小队
+    guns: "10103,10104,10105,10106"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "690711,690721"
+    betray_result: "1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 10103|10104|10105,10103|10104
+    betray_result_ai: 20010:5,10#20010:5,10
+    betray_result_ai_content: "0#0"
+  }
+  {
+    id: 690702
+    name: SOP2
+    guns: "10107"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690703
+    name: RO
+    guns: "10108"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0

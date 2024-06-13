@@ -416,7 +416,7 @@
     gun_detail_bg: nation_Russia
     org_id: 10302
     related_story_id: 100005
-    show_damage_skin: ",0,2706,5309,7107,30010,"
+    show_damage_skin: ",0,2706,5309,7107,30010,10507,"
     gun_tag_ids: "10102,106"
     atk_speed_max: 120
     ratio_rec: 105
@@ -2722,7 +2722,7 @@
     ratio_range: 110
     skill1: 102102
     normal_attack: 300102
-    passive_skill: "900156,200427,999999"
+    passive_skill: "900156,200427,999999,1001804"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
@@ -10528,6 +10528,7 @@
     ratio_range: 100
     skill1: 101504
     normal_attack: 300101
+    passive_skill: "1001704"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,12,14"
     effect_grid_effect: "1,10;2,8"
@@ -16079,7 +16080,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15,23
+    type_equip3: 3;15,23,20
     ai: 179
     launch_time: 2017-07-27 00:00:00
     obtain_ids: "25"
@@ -16088,7 +16089,7 @@
     gun_detail_bg: nation_German
     org_id: 10701
     related_story_id: 100179
-    show_damage_skin: ",30002,1801,"
+    show_damage_skin: ",30002,1801,10501,"
     gun_tag_ids: "138"
     atk_speed_max: 125
     ratio_rec: 93
@@ -23492,6 +23493,7 @@
     gun_detail_bg: nation_German
     org_id: 10402
     related_story_id: 100273
+    show_damage_skin: ",10505,"
     gun_tag_ids: "108"
     atk_speed_max: 120
     ratio_rec: 100
@@ -25849,16 +25851,18 @@
     ratio_range: 100
     skill1: 900815
     normal_attack: 300101
+    passive_skill: "992491"
     effect_grid_center: 12
     effect_grid_pos: "7,12,17,8,18"
     effect_grid_effect: "1,12;3,25"
     type_equip1: 1;4,13,16
     type_equip2: 2;6
-    type_equip3: 3;10
+    type_equip3: 3;10,20
     ai: 212
     launch_time: 2020-07-30 00:00:00
     obtain_ids: "1"
     rank_display: 4
+    mindupdate_consume: 10:20,45:200;10:40,45:1000;10:60,45:2000
     org_id: 10703
     show_damage_skin: ",8005,"
     gun_tag_ids: "103,113"
@@ -27542,7 +27546,7 @@
     obtain_ids: "1,2"
     rank_display: 5
     org_id: 10802
-    show_damage_skin: ",0,6202,7801,"
+    show_damage_skin: ",0,6202,7801,10504,"
     gun_tag_ids: "10101,145"
     atk_speed_max: 125
     ratio_rec: 115
@@ -27607,7 +27611,7 @@
     rank_display: 5
     org_id: 10802
     related_story_id: 100338
-    show_damage_skin: ",6502,7404,8203,"
+    show_damage_skin: ",6502,7404,8203,10503,"
     gun_tag_ids: "117,110"
     atk_speed_max: 135
     ratio_rec: 105
@@ -28623,7 +28627,7 @@
     rank_display: 4
     gun_detail_bg: nation_US
     org_id: 10302
-    show_damage_skin: ",0,"
+    show_damage_skin: ",0,10506,"
     gun_tag_ids: "103,112,124"
     atk_speed_max: 120
     ratio_rec: 100
@@ -31504,7 +31508,7 @@
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10402
-    show_damage_skin: ",0,"
+    show_damage_skin: ",0,10502,"
     gun_tag_ids: "125,103"
     atk_speed_max: 120
     ratio_rec: 115
@@ -39644,6 +39648,47 @@
     ratio_rec: 1200
   }
   {
+    id: 9118
+    name: M16A1
+    en_name: M16A1
+    code: M16A1_533
+    type: 4
+    rank: 4
+    develop_duration: 12900
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 1100
+    ratio_pow: 440
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 50
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 102203
+    normal_attack: 300103
+    passive_skill: "900156"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "12,14,17,19"
+    effect_grid_effect: "1,10;4,12"
+    type_equip1: 2;8
+    type_equip2: 3;9,10,11
+    type_equip3: 3;9,10,11
+    ai: 54
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 5
+    atk_speed_max: 120
+    ratio_rec: 1100
+  }
+  {
     id: 20001
     name: 柯尔特左轮
     en_name: M1873
@@ -39900,7 +39945,7 @@
     explore_tag: "6,25,54,58,70,73"
     gun_detail_bg: nation_Russia
     related_story_id: 100005
-    show_damage_skin: ",0,2706,5309,7107,5006,30010,"
+    show_damage_skin: ",0,2706,5309,7107,5006,30010,10507,"
     gun_tag_ids: "10102,106"
     atk_speed_max: 120
     ratio_rec: 105
@@ -40687,12 +40732,12 @@
     skill1: 802001
     skill2: 802002
     normal_attack: 300102
-    passive_skill: "900156,200427"
+    passive_skill: "900156,200427,1001804"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
     effect_grid_effect: "3,30;4,40"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;6
     type_equip3: 1;1,2,3,4,13,18
     ai: 29
@@ -44063,11 +44108,11 @@
     skill1: 902241
     skill2: 902243
     normal_attack: 300101
-    passive_skill: "902242"
+    passive_skill: "902242,1001704"
     effect_grid_center: 12
     effect_grid_pos: "6,7,8,12,18,17"
     effect_grid_effect: "1,12;2,10"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10,20
     ai: 114
@@ -46591,6 +46636,63 @@
     atk_speed_max: 150
     ratio_rec: 105
     recommended_team_ids: "1"
+  }
+  {
+    id: 20310
+    name: Rex-0-1
+    en_name: Rex Zero 1
+    code: RexZero1Mod
+    extra: 呜拉祖啦,筏井かなえ,
+    en_introduce:
+      '''
+      Type                       Semi-automatic pistol
+      Mass                       715g(25 oz)
+      Length                     180 mm(7.1 in)
+      Barrel length              98 mm(3.8 in)
+      Cartridge                  9mm Luger
+      Action                     Double Action revolver
+      Feed system             15-round box magazine
+      '''
+    type: 1
+    rank: 5
+    develop_duration: 3240
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 122
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 992431
+    skill2: 992432
+    normal_attack: 300101
+    passive_skill: "992491"
+    effect_grid_center: 12
+    effect_grid_pos: "6,7,12,17,8,18"
+    effect_grid_effect: "1,18;3,25"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10,20
+    ai: 212
+    launch_time: 2020-07-30 00:00:00
+    obtain_ids: "35"
+    rank_display: 5
+    prize_id: 3310
+    show_damage_skin: ",0,8005,"
+    gun_tag_ids: "103,113,126"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "2,3,4,6,8"
   }
   {
     id: 30156

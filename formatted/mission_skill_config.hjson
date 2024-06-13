@@ -28047,6 +28047,783 @@
     special_spot_add: 680701:1
   }
   {
+    id: 690000
+    name: 【标记】卡牌初始化
+    code: "1"
+    skill_group_id: 690000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690010"
+  }
+  {
+    id: 690001
+    name: 【标记】角色初始化
+    code: "1"
+    skill_group_id: 690001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690001:1
+  }
+  {
+    id: 690010
+    name: 【标记】卡牌初始化
+    code: "1"
+    skill_group_id: 690010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690020"
+    drop_item: 9044:-9999
+  }
+  {
+    id: 690011
+    name: 【标记】星币初始化
+    code: "1"
+    skill_group_id: 690011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690021"
+    drop_item: 9044:1
+  }
+  {
+    id: 690012
+    name: 星币王牌
+    code: "1"
+    description: 将当前所选梯队传送至范围2以内的无人点位。
+    skill_group_id: 690012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 2
+    is_airborne: 2
+    effect_cast: "1000170"
+    is_manual: 690012
+    consumption_item: 9044:1
+  }
+  {
+    id: 690020
+    name: 【标记】卡牌初始化
+    code: "1"
+    skill_group_id: 690020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690030"
+    drop_item: 9045:-9999
+  }
+  {
+    id: 690021
+    name: 【标记】权杖初始化
+    code: "1"
+    skill_group_id: 690021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690031"
+    drop_item: 9045:1
+  }
+  {
+    id: 690022
+    name: 权杖王牌
+    code: "1"
+    description: 向当前点位范围1以内的指定敌人施加EMP影响，削弱属性并禁止移动1回合。
+    skill_group_id: 690022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    effect_cast: "1000171"
+    mission_buff_add: 690022:1,690800:1
+    subsidiary_mission_skill: "690800"
+    is_manual: 690022
+    consumption_item: 9045:1
+  }
+  {
+    id: 690030
+    name: 【标记】卡牌初始化
+    code: "1"
+    skill_group_id: 690030
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690040"
+    drop_item: 9046:-9999
+  }
+  {
+    id: 690031
+    name: 【标记】宝剑初始化
+    code: "1"
+    skill_group_id: 690031
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690041"
+    drop_item: 9046:1
+  }
+  {
+    id: 690032
+    name: 宝剑王牌
+    code: "1"
+    description: 为当前所选梯队提供额外2点行动点数，使其在下次交战中变强。但交战后该梯队将无法移动。
+    skill_group_id: 690032
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_cast: "1000172"
+    target_id: "1"
+    mission_buff_add: 690032:1,20202:1
+    is_manual: 690032
+    consumption_item: 9046:1
+  }
+  {
+    id: 690040
+    name: 【标记】卡牌初始化
+    code: "1"
+    skill_group_id: 690040
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690011"
+    drop_item: 9047:-9999
+  }
+  {
+    id: 690041
+    name: 【标记】圣杯初始化
+    code: "1"
+    skill_group_id: 690041
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    drop_item: 9047:1
+  }
+  {
+    id: 690042
+    name: 圣杯王牌
+    code: "1"
+    description: 战斗开始时获得护盾，持续1回合。
+    skill_group_id: 690042
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_cast: "1000169"
+    target_id: "1"
+    mission_buff_add: 690042:1
+    is_manual: 690042
+    consumption_item: 9047:1
+  }
+  {
+    id: 690100
+    name: 【标记】初始化
+    code: "1"
+    skill_group_id: 690100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690100:1
+  }
+  {
+    id: 690101
+    name: 【标记】稻草人死亡
+    code: "1"
+    skill_group_id: 690101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690101:1
+  }
+  {
+    id: 690301
+    name: 【标记】控制台初始化
+    code: "1"
+    skill_group_id: 690301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690301:1
+  }
+  {
+    id: 690311
+    name: 破解
+    code: "1"
+    description:
+      '''
+      破解加密控制台
+      加密每回合会重置，需要重新破解
+      '''
+    skill_group_id: 690311
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690311:1
+    special_spot_minus: 690301:1
+    is_manual: 690311
+  }
+  {
+    id: 690501
+    name: 【标记】BOSS2动
+    code: "1"
+    skill_group_id: 690501
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 20401:1
+  }
+  {
+    id: 690502
+    name: 【标记】AR初始化
+    code: "1"
+    skill_group_id: 690502
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690502:1,690001:1
+  }
+  {
+    id: 690503
+    name: 【标记】人形初始化
+    code: "1"
+    skill_group_id: 690503
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690503:1,690001:1
+  }
+  {
+    id: 690504
+    name: 拾取
+    code: "1"
+    description: 拾取弃置歌利亚
+    skill_group_id: 690504
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100007201"
+    target_id: "1"
+    mission_buff_add: 690504:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 690504
+  }
+  {
+    id: 690511
+    name: 【标记】合流·真
+    code: "1"
+    skill_group_id: 690511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690511:1
+  }
+  {
+    id: 690512
+    name: 合流
+    code: "1"
+    skill_group_id: 690512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "69050301"
+    subsidiary_mission_skill: "690511"
+    is_manual: 690512
+  }
+  {
+    id: 690513
+    name: 合流
+    code: "1"
+    skill_group_id: 690513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "69050201"
+    subsidiary_mission_skill: "690511"
+    is_manual: 690513
+  }
+  {
+    id: 690514
+    name: 投掷
+    code: "1"
+    description: 投掷歌利亚，对目标敌人造成伤害
+    skill_group_id: 690514
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 690514:1
+    subsidiary_mission_skill: "690524"
+    is_manual: 690514
+  }
+  {
+    id: 690524
+    name: 【标记】清BUFF
+    code: "1"
+    skill_group_id: 690524
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 690504:1
+  }
+  {
+    id: 690601
+    name: 开门
+    code: "1"
+    description:
+      '''
+      打开防御门
+      两扇门只能选择一扇打开
+      '''
+    skill_group_id: 690601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "100007201"
+    target_id: "69060201"
+    special_spot_minus: 690602:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 690601
+  }
+  {
+    id: 690602
+    name: 【标记】防御门初始化
+    code: "1"
+    skill_group_id: 690602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690602:1
+  }
+  {
+    id: 690701
+    name: 【标记】AR初始化
+    code: "1"
+    skill_group_id: 690701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690701:1,690001:1
+  }
+  {
+    id: 690702
+    name: 【标记】BOSS多动
+    code: "1"
+    skill_group_id: 690702
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690702:1
+  }
+  {
+    id: 690711
+    name: 分头行动
+    code: "1"
+    description: 让SOP2暂时离队单独行动
+    skill_group_id: 690711
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "69070101"
+    special_spot_add: 690711:1
+    subsidiary_mission_skill: "690741"
+    is_manual: 690711
+    allyteam_summoner: "690702"
+  }
+  {
+    id: 690721
+    name: 分头行动
+    code: "1"
+    description: 让RO暂时离队单独行动
+    skill_group_id: 690721
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "69070102"
+    special_spot_add: 690711:1
+    subsidiary_mission_skill: "690741"
+    is_manual: 690721
+    allyteam_summoner: "690703"
+  }
+  {
+    id: 690731
+    name: 分头行动
+    code: "1"
+    description: 让AR15暂时离队单独行动
+    skill_group_id: 690731
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "69070103"
+    special_spot_add: 690711:1
+    subsidiary_mission_skill: "690741"
+    is_manual: 690731
+    allyteam_summoner: "690704"
+  }
+  {
+    id: 690741
+    name: 【标记】分头行动叠层
+    code: "1"
+    skill_group_id: 690741
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690701:1
+  }
+  {
+    id: 690790
+    name: 【标记】AR队死亡检测
+    code: "1"
+    skill_group_id: 690790
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    subsidiary_mission_skill: "690791,690792,690793"
+  }
+  {
+    id: 690791
+    name: 【标记】AR队标记
+    code: "1"
+    skill_group_id: 690791
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "69070199"
+    target_id: "1"
+    special_spot_add: 690791:1
+  }
+  {
+    id: 690792
+    name: 【标记】AR队撤退
+    code: "1"
+    skill_group_id: 690792
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690792:1
+  }
+  {
+    id: 690793
+    name: 【标记】AR队清标记
+    code: "1"
+    skill_group_id: 690793
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_minus: 690791:1
+  }
+  {
+    id: 690800
+    name: 【标记】BOSS层数检测
+    code: "1"
+    skill_group_id: 690800
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 69080101&&69080004
+    target_id: "69080101"
+    mission_buff_minus: 690801:1
+  }
+  {
+    id: 690801
+    name: 【标记】BOSS标记
+    code: "1"
+    skill_group_id: 690801
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690801:1,690800:1
+  }
+  {
+    id: 690802
+    name: 【标记】变电站初始化
+    code: "1"
+    skill_group_id: 690802
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690802:1
+  }
+  {
+    id: 690803
+    name: 【标记】EMP初始化
+    code: "1"
+    skill_group_id: 690803
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690803:1
+  }
+  {
+    id: 690804
+    name: 拾取
+    code: "1"
+    description: 拾取EMP手雷
+    skill_group_id: 690804
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100007201"
+    target_id: "1"
+    mission_buff_add: 690804:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 690804
+  }
+  {
+    id: 690812
+    name: 供电
+    code: "1"
+    description:
+      '''
+      向目标EMP发生器供电
+      同时只能给1个发生器供电
+      '''
+    skill_group_id: 690812
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 1&&69082200
+    target_id: 69080301&&69081200
+    special_spot_add: 690812:1
+    subsidiary_mission_skill: "690822"
+    is_manual: 690812
+  }
+  {
+    id: 690813
+    name: E！M！P！
+    code: "1"
+    description: 启动EMP发生器，削弱范围2以内的所有敌人并将其定身1回合
+    skill_group_id: 690813
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_self: "1000016"
+    trigger_id: 1&&69081201
+    target_id: "1"
+    special_spot_minus: 690803:1
+    subsidiary_mission_skill: "690843,690800,690823"
+    is_manual: 690813
+  }
+  {
+    id: 690814
+    name: 投掷
+    code: "1"
+    description: 投掷EMP手雷，削弱目标敌人并将其定身1回合
+    skill_group_id: 690814
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    mission_buff_add: 690813:1,690800:1
+    subsidiary_mission_skill: "690800,690824"
+    is_manual: 690814
+  }
+  {
+    id: 690822
+    name: 【标记】供电
+    code: "1"
+    skill_group_id: 690822
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690822:1
+  }
+  {
+    id: 690823
+    name: 【标记】EMP过载
+    code: "1"
+    skill_group_id: 690823
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    special_spot_minus: 690812:1
+    subsidiary_mission_skill: "690833"
+  }
+  {
+    id: 690824
+    name: 【标记】清BUFF
+    code: "1"
+    skill_group_id: 690824
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 690804:1
+  }
+  {
+    id: 690833
+    name: 【标记】EMP过载2
+    code: "1"
+    skill_group_id: 690833
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "69080201"
+    special_spot_minus: 690822:1
+  }
+  {
+    id: 690843
+    name: 【标记】EMP生效
+    code: "1"
+    skill_group_id: 690843
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 2
+    mission_buff_add: 690813:1,690800:1
+  }
+  {
+    id: 690901
+    name: 【标记】困难BOSS标记
+    code: "1"
+    skill_group_id: 690901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690801:1
+  }
+  {
     id: 700111
     name: AI识别-连携检测空
     skill_group_id: 700111

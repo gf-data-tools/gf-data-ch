@@ -4408,6 +4408,14 @@
     hit_type: 1
   }
   {
+    id: 701
+    description: Rex摩托伤害
+    extra_damage: "200"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -4487,6 +4495,75 @@
     float_wide: 15
     buff_id_target: 1432:1
     buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1401
+    description: 战车-迫击炮己方
+    extra_damage: "999"
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 1402
+    description: 战车-迫击炮敌方
+    extra_damage: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 1403
+    description: 死亡-高伤害
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    defbreak_rate: "100"
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000002369"
+  }
+  {
+    id: 1404
+    description: 恶魔-侵蚀伤害
+    extra_damage: "150"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1405
+    description: 恶魔-侵蚀Dot
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000002370"
+  }
+  {
+    id: 1501
+    description: 拉普拉斯妖宝剑
+    extra_damage: "999"
+    critical_hit_rate: "100"
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_self: 2501:2
+  }
+  {
+    id: 1502
+    description: 拉普拉斯妖权杖分身自爆
+    extra_damage: "9"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 1503
+    description: 拉普拉斯妖权杖分身自爆自伤
+    extra_damage: "999999"
+    critical_hit_rate: "100"
     hit_type: 1
   }
   {
@@ -11018,6 +11095,14 @@
     buff_rate: "100"
     hit_type: 1
     fix_damage: "1000070009"
+  }
+  {
+    id: 140501
+    description: 恶魔-侵蚀Dot
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000002374"
   }
   {
     id: 200601
