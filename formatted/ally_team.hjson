@@ -15512,6 +15512,74 @@
     no_battle_damage: -1
   }
   {
+    id: 670100
+    name: 丹德莱
+    guns: "969"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "670104"
+    transform_result: "2"
+    no_battle_damage: 50
+  }
+  {
+    id: 670101
+    name: M4A1?
+    guns: "670101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670190
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 670190
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670191
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 670191
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670192
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 670192
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670193
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 670193
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 680101
     name: 艾尔玛
     guns: "680101"
@@ -17494,7 +17562,7 @@
     guns: "861,862,863,864,865"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17506,7 +17574,7 @@
     guns: "866,867,868,869,870"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17518,7 +17586,7 @@
     guns: "871,872,873,874,875"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17530,7 +17598,7 @@
     guns: "876,877,878,879"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17542,7 +17610,7 @@
     guns: "880,881,882,883,884"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17554,7 +17622,7 @@
     guns: "885,886,887,888,889"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17566,7 +17634,7 @@
     guns: "852,853,854,855"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17578,7 +17646,7 @@
     guns: "856,857,858,859"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1

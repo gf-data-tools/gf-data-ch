@@ -91,22 +91,22 @@
     id: "8"
     name: 活动积分排行
     type: "6"
-    sub_type: "11549"
-    refresh: end:2024-05-23 10:00:00
-    title: <驱雾行动+>积分榜（5月16日发放奖励）
-    top_rewards: 1:40661,2:40662,3:40663,4:40664,5:40665,6:40666,7:40667,8:40668,9:40669,10:40670,100:40671
+    sub_type: "11630"
+    refresh: end:2024-07-18 10:00:00
+    title: <噩梦迷城+>积分榜（7月11日发放奖励）
+    top_rewards: 1:40705,2:40706,3:40707,4:40708,5:40709,6:40710,7:40711,8:40712,9:40713,10:40714,100:40715
     visable_rank: "100"
     visable_count: "100"
-    score_rewards: 200000:40672,300000:40673,350000:40674,550000:40675,650000:40676
+    score_rewards: 200000:40716,300000:40717,600000:40718,900000:40719,1300000:40720
     ranking_onlist_number: "80000"
     every_table_num: "30000"
     rank_list_num: "1"
-    begin_refresh_time: 2024-04-19
-    end_refresh_time: 2024-05-23
-    begin_show_time: 2024-04-19 00:00:00
-    end_show_time: 2024-05-23 10:00:00
-    sub_mission_group: "11549"
-    event_rank_id: "11"
+    begin_refresh_time: 2024-06-14
+    end_refresh_time: 2024-07-18
+    begin_show_time: 2024-06-14 00:00:00
+    end_show_time: 2024-07-18 10:00:00
+    sub_mission_group: "11630"
+    event_rank_id: "12"
     prize_preview: http://gfcn-transit.gw.sunborngame.com/listAward.html
   }
   {
@@ -1266,6 +1266,36 @@
     sub_type: "11116"
     refresh: test
     title: <混沌落幕+>常驻积分榜
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: 积分
+  }
+  {
+    id: "306"
+    name: 终焉花海PLUS常驻
+    type: "10"
+    sub_type: "11320"
+    refresh: test
+    title: <终焉花海+>常驻积分榜
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: 积分
+  }
+  {
+    id: "307"
+    name: 谜境守卫PLUS常驻
+    type: "10"
+    sub_type: "11435"
+    refresh: test
+    title: <谜境守卫+>常驻积分榜
     visable_rank: "100"
     visable_count: "100"
     ranking_onlist_number: "80000"

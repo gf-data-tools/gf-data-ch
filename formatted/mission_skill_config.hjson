@@ -27606,6 +27606,492 @@
     drop_item: 57:1
   }
   {
+    id: 670101
+    name: 转化：传送节点
+    code: "1"
+    description: 将空白模块转化为传送节点，转化后无法还原
+    skill_group_id: 670101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    special_spot_add: 480101:1
+    subsidiary_mission_skill: "1000073,480171,670110,670108"
+    is_manual: 480101
+  }
+  {
+    id: 670102
+    name: 转化：EMP手雷塔
+    code: "1"
+    description: 将空白模块转化为EMP手雷塔，每回合提供1个EMP手雷，转化后无法还原
+    skill_group_id: 670102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    special_spot_add: 480102:1,480104:1
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480102
+  }
+  {
+    id: 670103
+    name: 转化：数据站
+    code: "1"
+    description: 将空白模块转化为数据站，每回合可下载数据获得积分，转化后无法还原
+    skill_group_id: 670103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    special_spot_add: 480103:1,480105:1,480131:1
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480103
+  }
+  {
+    id: 670104
+    name: ？？？
+    code: "1"
+    description: 传送到目标位置并且发生一些变化
+    skill_group_id: 670104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    special_spot_add: 670104:1
+    subsidiary_mission_skill: "670106"
+    is_manual: 670104
+    allyteam_summoner: "670101"
+  }
+  {
+    id: 670105
+    name: 传送
+    code: "1"
+    description: 传送到另一个节点并在1回合内提高移动速度和回避
+    skill_group_id: 670105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    trigger_id: 48010101&&1
+    target_id: "48010101"
+    special_spot_add: 670105:1
+    subsidiary_mission_skill: "670107"
+    is_manual: 480111
+  }
+  {
+    id: 670106
+    name: 【标记】升变buff
+    code: "1"
+    skill_group_id: 670106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "67010401"
+    special_spot_minus: 670104:1
+    mission_buff_add: 670104:1,670106:1,20301:1,20302:1
+  }
+  {
+    id: 670107
+    name: 【标记】传送buff
+    code: "1"
+    skill_group_id: 670107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "67010501"
+    special_spot_minus: 670105:1
+    mission_buff_add: 670105:1
+  }
+  {
+    id: 670108
+    name: 【标记】雷达计数
+    code: "1"
+    skill_group_id: 670108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "48010808"
+    target_id: "67010001"
+    mission_buff_add: 670103:1
+  }
+  {
+    id: 670110
+    name: 【标记】传送节点计数
+    code: "1"
+    skill_group_id: 670110
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 100007201||67010001
+    special_spot_add: 670101:1
+    subsidiary_mission_skill: "670111,670112,670113,670114,670115,670116,670117"
+  }
+  {
+    id: 670111
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010101&&1
+  }
+  {
+    id: 670112
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010102&&1
+  }
+  {
+    id: 670113
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010103&&1
+  }
+  {
+    id: 670114
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010104&&1
+  }
+  {
+    id: 670115
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010105&&1
+  }
+  {
+    id: 670116
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010106&&1
+  }
+  {
+    id: 670117
+    name: 【标记】传送节点转化
+    code: "1"
+    skill_group_id: 670117
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010107&&1
+  }
+  {
+    id: 670121
+    name: 【标记】额外刷怪初始化
+    code: "1"
+    skill_group_id: 670121
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670121:1
+  }
+  {
+    id: 670122
+    name: 【标记】额外刷怪2
+    code: "1"
+    skill_group_id: 670122
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670120:1
+  }
+  {
+    id: 670123
+    name: 【标记】额外刷怪3
+    code: "1"
+    skill_group_id: 670123
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670120:1
+  }
+  {
+    id: 670124
+    name: 【标记】额外刷怪4
+    code: "1"
+    skill_group_id: 670124
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670120:1
+  }
+  {
+    id: 670125
+    name: 【标记】4T刷怪
+    code: "1"
+    skill_group_id: 670125
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670190"
+  }
+  {
+    id: 670126
+    name: 【标记】5T刷怪
+    code: "1"
+    skill_group_id: 670126
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670191"
+  }
+  {
+    id: 670127
+    name: 【标记】6T刷怪
+    code: "1"
+    skill_group_id: 670127
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670192"
+  }
+  {
+    id: 670128
+    name: 【标记】7T刷怪
+    code: "1"
+    skill_group_id: 670128
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670193"
+  }
+  {
+    id: 670131
+    name: 传送节点
+    code: "1"
+    description: 丹德莱特制传送节点，传送后1回合内移动速度和闪避提高
+    skill_group_id: 670131
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+  }
+  {
+    id: 670132
+    name: EMP手雷
+    code: "1"
+    description: 丹德莱特制EMP手雷，每回合可拾取1枚
+    skill_group_id: 670132
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+  }
+  {
+    id: 670133
+    name: 数据站
+    code: "1"
+    description: 丹德莱特制数据站，每回合可下载数据获得积分
+    skill_group_id: 670133
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+  }
+  {
+    id: 670141
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670141
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670142
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670142
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670143
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670143
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670144
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670144
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670145
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670145
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670146
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670146
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670147
+    name: 转化：补给修理站
+    code: "1"
+    description: 将空白模块转化为可以使用4次修理4次补给的补给修理站，转化后无法还原
+    skill_group_id: 670147
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
     id: 680001
     name: 【标记】鬼打墙兔子1
     code: "1"
@@ -76093,8 +76579,8 @@
     cd_time_type: 1
     start_range: 4
     trigger_id: 101010091&&112010191
-    target_id: 112010091&&112010191
-    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    target_id: "112010091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
     special_spot_minus: 9332110:1,1120100:1,1120101:1
     subsidiary_mission_skill: "95401010"
     is_manual: 95401003
@@ -76111,8 +76597,8 @@
     cd_time_type: 1
     start_range: 4
     trigger_id: 101010091&&112020191
-    target_id: 112020091&&112020191
-    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    target_id: "112020091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
     special_spot_minus: 9332110:1,1120200:1,1120201:1
     subsidiary_mission_skill: "95401011"
     is_manual: 95401004
@@ -76129,8 +76615,8 @@
     cd_time_type: 1
     start_range: 4
     trigger_id: 101010091&&112030191
-    target_id: 112030091&&112030191
-    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    target_id: "112030091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
     special_spot_minus: 9332110:1,1120300:1,1120301:1
     subsidiary_mission_skill: "95401012"
     is_manual: 95401005
@@ -76147,8 +76633,8 @@
     cd_time_type: 1
     start_range: 4
     trigger_id: 101010091&&112040191
-    target_id: 112040091&&112040191
-    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    target_id: "112040091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
     special_spot_minus: 9332110:1,1120400:1,1120401:1
     subsidiary_mission_skill: "95401013"
     is_manual: 95401006
@@ -76165,8 +76651,8 @@
     cd_time_type: 1
     start_range: 4
     trigger_id: 101010091&&112050191
-    target_id: 112050091&&112050191
-    special_spot_add: 2110100:1,2110101:1,2110102:1,1000001:1:1
+    target_id: "112050091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
     special_spot_minus: 9332110:1,1120500:1,1120501:1
     subsidiary_mission_skill: "95401014"
     is_manual: 95401007
@@ -76316,6 +76802,71 @@
     cd_time_type: 1
     target_id: "1"
     mission_buff_add: 9550101:1
+  }
+  {
+    id: 95401019
+    name: 【标记】引爆废弃建筑①
+    skill_group_id: 95401019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112010091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120100:1
+  }
+  {
+    id: 95401020
+    name: 【标记】引爆废弃建筑②
+    skill_group_id: 95401020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112020091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120200:1
+  }
+  {
+    id: 95401021
+    name: 【标记】引爆废弃建筑③
+    skill_group_id: 95401021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112030091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120300:1
+  }
+  {
+    id: 95401022
+    name: 【标记】引爆废弃建筑④
+    skill_group_id: 95401022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112040091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120400:1
+  }
+  {
+    id: 95401023
+    name: 【标记】引爆废弃建筑⑤
+    skill_group_id: 95401023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112050091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120500:1
   }
   {
     id: 95838001

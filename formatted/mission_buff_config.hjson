@@ -4436,6 +4436,56 @@
     carry_mission_skill: "640104"
   }
   {
+    id: 670103
+    name: 就绪
+    description: 是时候了
+    code: 561mod
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 670103
+    priority: 1
+    carry_mission_skill: "670104"
+  }
+  {
+    id: 670104
+    name: 降神
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 778219
+    conflict_type: 670104
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 670105
+    name: 闪电冲锋
+    description: 提高移动速度和回避，持续1回合
+    code: Racing_Fly
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 778220
+    conflict_type: 670105
+    priority: 1
+  }
+  {
+    id: 670106
+    name: 降神2
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 778221
+    conflict_type: 670106
+    priority: 1
+    is_still_alive: 1
+  }
+  {
     id: 690001
     name: 【标记】角色初始化
     type: 1

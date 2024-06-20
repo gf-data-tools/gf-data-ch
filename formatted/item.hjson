@@ -775,6 +775,15 @@
     rank: 1
   }
   {
+    id: 137
+    type: 3
+    arg: "38"
+    code: Medal_21summer_re_rank
+    item_name: 噩兆熄止勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“熵减焓增”积分模式中的耀眼功勋，“无尽的炼狱已被您抹除，人们得以安睡在幸福的梦中。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -14906,6 +14915,24 @@
     rank: 1
   }
   {
+    id: 2520
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1897
+    item_name: M1897-洁净圆舞曲
+    introduction: M1897-洁净圆舞曲
+    rank: 1
+  }
+  {
+    id: 2521
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1897
+    item_name: 名片：迷乱间奏
+    introduction: 名片：迷乱间奏
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -18986,6 +19013,15 @@
     rank: 1
   }
   {
+    id: 110073
+    type: 4
+    arg: "110073"
+    code: EventPT2
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
     id: 120001
     type: 10
     arg: "1"
@@ -20680,6 +20716,22 @@
     rank: 1
   }
   {
+    id: 140039
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第20期前线协议
+    rank: 1
+  }
+  {
+    id: 140040
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第20期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -21085,6 +21137,15 @@
     code: profileFrame_BattlePass_M99
     item_name: 头像框·七彩乐引
     introduction: 头像框·七彩乐引
+    rank: 1
+  }
+  {
+    id: 200045
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1897
+    item_name: 头像框·无瑕交响
+    introduction: 头像框·无瑕交响
     rank: 1
   }
   {
@@ -22676,6 +22737,50 @@
     code: Bumdle_cartesiantheatre03
     item_name: 22重困境限定装扮券·叁
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500138
+    type: 15
+    arg: "1500138"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-梦季旋律，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500139
+    type: 15
+    arg: "1500139"
+    code: package_choose
+    item_name: 弹匣类装备自选包
+    introduction: 来自于前线协议-梦季旋律，可从该指定投递配给序标内选择获取一件人形类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500140
+    type: 15
+    arg: "1500140"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-梦季旋律，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500141
+    type: 15
+    arg: "1500141"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-梦季旋律，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1

@@ -24720,6 +24720,370 @@
     missionskill_on_death: "2,1151600,6400009,0"
   }
   {
+    id: 670101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子1号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670141"
+    inherent_mission_skill: "480000,1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670102
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子2号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670142"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670103
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子3号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670143"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670104
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子4号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670144"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670105
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子5号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670145"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670106
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子6号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670146"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670107
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    name: 【标记】兔子7号雷达
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670147"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    active_building_info: Hiding;传送节点;0,0;670131|Build_PortableEMP;EMP手雷;0,0;670132|Console;数据站;0,0;670133|Build_PortableEMP;EMP手雷;0,0;670132
+    initial_state: -1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670108
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】门神
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480108"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670111
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】自动跳转兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480161"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670112
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】自动跳转兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480162"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670113
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】自动跳转兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480163"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670114
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】自动跳转兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480164"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670115
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670125;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】4T刷怪兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "670121"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 670116
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670126;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】5T刷怪兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,670190,670122,0"
+  }
+  {
+    id: 670117
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670127;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】6T刷怪兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,670191,670123,0"
+  }
+  {
+    id: 670118
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670128;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】7T刷怪兔子
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    des: 【标记】略
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,670192,670124,0"
+  }
+  {
     id: 680001
     defender: 99999
     defender_upper: 99999
@@ -25283,7 +25647,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25304,7 +25668,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25325,7 +25689,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
     missionskill_on_death: "2,690101,690101,0;2,690201,690101,0"
   }
@@ -25343,6 +25707,7 @@
     shifting_spot: "40,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
+    show_info: 1
     working_special_spot: "690311"
     active_mission_skill: "690311"
     inherent_mission_skill: "690301"
@@ -25350,7 +25715,6 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     initial_state: -1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25371,7 +25735,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25392,7 +25756,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25413,7 +25777,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25430,13 +25794,13 @@
     shifting_spot: "45,100"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
+    show_info: 1
     working_special_spot: "1000072"
     active_mission_skill: "690504"
     inherent_mission_skill: "1000072"
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25453,13 +25817,13 @@
     shifting_spot: "40,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
+    show_info: 1
     working_special_spot: "1000072"
     active_mission_skill: "690601"
     inherent_mission_skill: "1000072"
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25476,12 +25840,12 @@
     shifting_spot: "10,80"
     shifting_team: "-20,0"
     battle_assist_range: "0,0"
+    show_info: 1
     working_special_spot: "690602"
     inherent_mission_skill: "690602"
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25502,7 +25866,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
     missionskill_on_death: "2,690701,690790,0"
   }
@@ -25524,7 +25888,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25545,7 +25909,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25562,13 +25926,13 @@
     shifting_spot: "50,100"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
+    show_info: 1
     active_mission_skill: "690812"
     inherent_mission_skill: "690802"
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     initial_state: -1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25585,6 +25949,7 @@
     shifting_spot: "10,103"
     shifting_team: "-30,0"
     battle_assist_range: "0,2"
+    show_info: 1
     working_special_spot: "690812"
     active_mission_skill: "690813"
     inherent_mission_skill: "690803"
@@ -25592,7 +25957,6 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     initial_state: -1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25609,13 +25973,13 @@
     shifting_spot: "65,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
+    show_info: 1
     working_special_spot: "1000072"
     active_mission_skill: "690804"
     inherent_mission_skill: "1000072"
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -25636,7 +26000,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: "15"
+    des: 【标记】略
     confront_des: 本次战役中无法破坏该设施
   }
   {
@@ -48911,10 +49275,8 @@
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
-    working_special_spot: 1120101|1000001
-    trigger_distance: 4
-    active_mission_skill: "95401003"
-    inherent_mission_skill: "1120100,1120101,95401002"
+    working_special_spot: 1120101|1000901
+    inherent_mission_skill: "1010100,1120100,1120101,95401002"
     type: 15
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1,0
@@ -48942,10 +49304,8 @@
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
-    working_special_spot: 1120201|1000001
-    trigger_distance: 4
-    active_mission_skill: "95401004"
-    inherent_mission_skill: "1120200,1120201,95401002"
+    working_special_spot: 1120201|1000901
+    inherent_mission_skill: "1010100,1120200,1120201,95401002"
     type: 15
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1,0
@@ -48973,10 +49333,8 @@
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
-    working_special_spot: 1120301|1000001
-    trigger_distance: 4
-    active_mission_skill: "95401005"
-    inherent_mission_skill: "1120300,1120301,95401002"
+    working_special_spot: 1120301|1000901
+    inherent_mission_skill: "1010100,1120300,1120301,95401002"
     type: 15
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1,0
@@ -49004,10 +49362,8 @@
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
-    working_special_spot: 1120401|1000001
-    trigger_distance: 4
-    active_mission_skill: "95401006"
-    inherent_mission_skill: "1120400,1120401,95401002"
+    working_special_spot: 1120401|1000901
+    inherent_mission_skill: "1010100,1120400,1120401,95401002"
     type: 15
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1,0
@@ -49035,10 +49391,8 @@
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
-    working_special_spot: 1120501|1000001
-    trigger_distance: 4
-    active_mission_skill: "95401007"
-    inherent_mission_skill: "1120500,1120501,95401002"
+    working_special_spot: 1120501|1000901
+    inherent_mission_skill: "1010100,1120500,1120501,95401002"
     type: 15
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1,0
@@ -49066,6 +49420,7 @@
     battle_assist_range: "0,0"
     show_info: 1
     working_special_spot: "1010101"
+    active_mission_skill: "95401003,95401004,95401005,95401006,95401007"
     inherent_mission_skill: "1010100,1120101,1120201,1120301,1120401,1120501"
     type: 14
     transition: Detonator:1_1

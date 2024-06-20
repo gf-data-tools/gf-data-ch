@@ -57910,6 +57910,54 @@
     critical_number: "10000"
   }
   {
+    id: 15152
+    name: M4护盾
+    conflict_type: 5709
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: "200"
+    trigger_creation_id: "220"
+    is_form_play: 1
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 15153
+    name: M4减速
+    conflict_type: 5710
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    move_number: "70"
+  }
+  {
+    id: 15154
+    name: 全队回避提升
+    conflict_type: 5711
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    dodge_number: "115"
+  }
+  {
+    id: 15155
+    name: 全队移速提升
+    conflict_type: 5712
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    move_number: "115"
+  }
+  {
     id: 15156
     name: 全队伤害提升
     conflict_type: 5713
