@@ -4416,6 +4416,24 @@
     hit_type: 1
   }
   {
+    id: 702
+    description: Thunder50狙击
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    hit_type: 1
+  }
+  {
+    id: 703
+    description: Thunder50狙击专属
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201

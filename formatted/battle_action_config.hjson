@@ -25305,6 +25305,32 @@
     creation_order: "3731"
   }
   {
+    id: 9216
+    name: Thunder50狙击
+    action_order: "1,skill"
+    action_delay: "30,50"
+    action_playspeed: "100,100"
+    creation_order: "3732"
+    creation_delay: "30"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "10"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 9217
+    name: Thunder50狙击
+    action_order: "1,skill"
+    action_delay: "30,50"
+    action_playspeed: "100,100"
+    creation_order: "3733,373301"
+    creation_delay: "30,25"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "10"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
     id: 9995
     name: 战区boss特效
     creation_order: "386,10000,238"

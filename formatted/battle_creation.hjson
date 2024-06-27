@@ -51360,6 +51360,46 @@
     scale: "1"
   }
   {
+    id: 3732
+    name: Thunder50狙击
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "702"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 3733
+    name: Thunder50狙击专属
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "703"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -102818,6 +102858,21 @@
     effect_area: 3
     effect_param_1: "13"
     buff_id: 1025:6
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 373301
+    name: Thunder50狙击专属debuff
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    buff_id: 9555:1
     is_form_play: 1
     scale: "1"
   }

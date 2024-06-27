@@ -12838,4 +12838,39 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 408
+    name: M33型加强弹
+    description:
+      '''
+      伤害+<pow> 穿甲+<armor_piercing>
+      射速<rate>技能增强$雷电专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "12,15"
+    rate: "-8,-6"
+    armor_piercing: "20,25"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Thunder50
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "202"
+    equip_introduction: 在原.50 BMG的设计基础上进行了升级加强，破坏力得到了进一步的提高。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:700,armor_piercing:1000
+    passive_skill: "1001901"
+    max_level: 10
+    auto_select_id: 19081
+    is_show: 1
+    obtain_ids: "3107"
+    description_skill: 1001901
+  }
 ]

@@ -56114,6 +56114,37 @@
     trigger_creation_delay: "4"
   }
   {
+    id: 9553
+    name: 雷电装备
+    conflict_type: 2553
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9554
+    name: 雷电一技能触发
+    conflict_type: 2554
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9555
+    name: 雷电装备易伤
+    conflict_type: 2555
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    damage_reduce_number: "110"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
