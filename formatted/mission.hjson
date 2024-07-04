@@ -36254,7 +36254,6 @@
     fog_color: "#000000FF"
     drop_mission_key: "0,0,1100200:1;0,0,1100201:1"
     mission_group_id: 21
-    open_mission_keys: 1107300:1
     round_config: 1:1,2:4,3:3
     limit_squad: 2
     win_type: 1100201|1100202
@@ -36289,7 +36288,6 @@
     fog_color: "#000000FF"
     drop_mission_key: "0,0,1100300:1;0,0,1100301:1;0,0,1100302:1;0,0,1100303:1"
     mission_group_id: 21
-    open_mission_keys: 1100200:1
     round_config: 1:1,2:4,3:3
     limit_squad: 3
     win_type: 1100304|1100301|1100302|1100303
@@ -36325,7 +36323,6 @@
     expect_hostage_num: "3,3"
     drop_mission_key: "0,0,1100400:1;0,0,1100401:1"
     mission_group_id: 21
-    open_mission_keys: 1100201:1
     round_config: 1:1,2:4,3:3
     limit_squad: -1
     win_type: 1100401|1100402
@@ -36359,7 +36356,6 @@
     fog_length: "0,1000"
     fog_color: "#000000FF"
     mission_group_id: 21
-    open_mission_keys: 1100301:1
     round_config: 1:1,2:4,3:3
     limit_squad: 4
     difficulty_recommend: "34000,125;0,0;0,0;0,0;0,0"
@@ -36391,7 +36387,6 @@
     fog_length: "0,1000"
     fog_color: "#000000FF"
     mission_group_id: 21
-    open_mission_keys: 1100302:1
     round_config: 1:1,2:4,3:3
     limit_squad: 4
     difficulty_recommend: "34000,125;0,0;0,0;0,0;0,0"
@@ -36423,7 +36418,6 @@
     fog_length: "0,1000"
     fog_color: "#000000FF"
     mission_group_id: 21
-    open_mission_keys: 1100303:1
     round_config: 1:1,2:4,3:3
     limit_squad: 4
     difficulty_recommend: "34000,125;0,0;0,0;0,0;0,0"
@@ -36455,7 +36449,6 @@
     fog_length: "0,1000"
     fog_color: "#000000FF"
     mission_group_id: 21
-    open_mission_keys: 1100300:1
     round_config: 1:1,2:4,3:3
     limit_squad: 4
     difficulty_recommend: "42000,145;0,0;0,0;0,0;0,0"
@@ -36487,7 +36480,6 @@
     fog_length: "0,1000"
     fog_color: "#000000FF"
     mission_group_id: 21
-    open_mission_keys: 1100400:1
     round_config: 1:1,2:4,3:3
     limit_squad: -1
     difficulty_recommend: "34000,125;0,0;0,0;0,0;0,0"
@@ -36520,7 +36512,6 @@
     fog_length: "0,1000"
     fog_color: "#000000FF"
     mission_group_id: 21
-    open_mission_keys: 1100401:1
     round_config: 1:1,2:4,3:3
     limit_squad: 4
     difficulty_recommend: "42000,145;0,0;0,0;0,0;0,0"
@@ -48617,7 +48608,7 @@
     limit_squad: 4
     difficulty_recommend: "32000,100;0,0;0,0;0,0"
     limit_sangvis: 4
-    event_score: 1|10,10000,8000,5000,1000,50000,5000,10000,8000,10000,1000,10000,1:10000;2:1000;3:2000;5:10000;6:10000;7:2500;8:2500,6363081:1:20000;6363082:1:20000;6363083:1:20000;6363084:1:20000;6363085:1:20000;6363086:1:20000;6363087:1:20000;6363088:1:20000;6363089:1:20000,10,6360006:100000;6360010:100000,1000,5000,,
+    event_score: 1|10,10000,8000,5000,1000,50000,5000,10000,8000,10000,1000,10000,1:10000;2:1000;3:2000;5:10000;6:10000;7:2500;8:2500,6363081:1:20000;6363082:1:20000;6363083:1:20000;6363084:1:20000;6363085:1:20000;6363086:1:20000;6363087:1:20000;6363088:1:20000;6363089:1:20000,10,6360006:100000;6360010:100000,1000,5000,,,8000,20000,10000,5000
     score_prize: 1-0|110064:1
   }
   {
@@ -48640,7 +48631,7 @@
     map_information: "15000,15000|15000,15000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "863"
+    draw_event_s_id: "1181"
     drop_mission_key: "0,0,1143600:1;0,0,1143600:1"
     mission_group_id: 28
     round_config: 1:1,2:4,3:3
@@ -48670,7 +48661,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "863"
+    draw_event_s_id: "1181"
     drop_mission_key: "0,0,1143700:1"
     mission_group_id: 28
     open_mission_keys: 1143600:1
@@ -48703,7 +48694,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "882"
+    draw_event_s_id: "1200"
     drop_mission_key: "0,0,1143800:1"
     mission_group_id: 28
     open_mission_keys: 1143700:1
@@ -48739,7 +48730,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "885"
+    draw_event_s_id: "1203"
     drop_mission_key: "0,0,1143900:1"
     mission_group_id: 28
     open_mission_keys: 1143800:1;1144100:1
@@ -48774,7 +48765,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
-    draw_event_s_id: "884"
+    draw_event_s_id: "1202"
     drop_mission_key: "0,0,1144000:1"
     mission_group_id: 28
     open_mission_keys: 1143900:1;1144200:1;1144400:1
@@ -48784,6 +48775,7 @@
     win_type: "1144001"
     difficulty_recommend: "10000,75;10000,75;0,0;0,10000;0,0"
     recommended_team_ids: "2,3,4"
+    limit_vehicle: -1
   }
   {
     id: 11441
@@ -48807,7 +48799,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "883"
+    draw_event_s_id: "1201"
     drop_mission_key: "0,0,1144100:1"
     mission_group_id: 28
     open_mission_keys: 1143700:1
@@ -48841,7 +48833,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "884"
+    draw_event_s_id: "1202"
     drop_mission_key: "0,0,1144200:1"
     mission_group_id: 28
     open_mission_keys: 1143800:1;1144100:1
@@ -48877,7 +48869,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
-    draw_event_s_id: "885"
+    draw_event_s_id: "1203"
     drop_mission_key: "0,0,1144300:1"
     mission_group_id: 28
     open_mission_keys: 1143900:1;1144200:1;1144400:1
@@ -48886,6 +48878,7 @@
     win_type: "1144302,1144301"
     difficulty_recommend: "10000,75;10000,75;0,0;0,10000;0,0"
     recommended_team_ids: "3,4,8,9"
+    limit_vehicle: -1
   }
   {
     id: 11444
@@ -48910,7 +48903,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
-    draw_event_s_id: "884"
+    draw_event_s_id: "1202"
     drop_mission_key: "0,0,1144400:1"
     mission_group_id: 28
     open_mission_keys: 1143800:1;1144100:1
@@ -48920,6 +48913,7 @@
     win_type: "1144401"
     difficulty_recommend: "5500,55;5500,55;0,0;0,5500;0,0"
     recommended_team_ids: "1,2,3,6"
+    limit_vehicle: -1
   }
   {
     id: 11445
@@ -48944,7 +48938,7 @@
     map_information: "15000,15000|15000,15000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "872"
+    draw_event_s_id: "1190"
     drop_mission_key: "0,0,1144500:1|1144501:1;0,0,1144500:1|1144502:1;0,0,1144500:1|1144503:1"
     mission_group_id: 28
     open_mission_keys: 1144000:1;1144300:1
@@ -48955,7 +48949,7 @@
     difficulty_recommend: "20000,99;20000,99;0,0;0,0;0,0"
     win_step: "1144501"
     event_score: 1|10,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,610002:1000;610003:1000,0,0,0,0,0
-    score_prize: 1-0|9043:1
+    score_prize: 1-0|9048:1
     limit_vehicle: -1
   }
   {
@@ -48980,7 +48974,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "871"
+    draw_event_s_id: "1189"
     drop_mission_key: "0,0,1144600:1"
     mission_group_id: 28
     open_mission_keys: 1144000:1;1144300:1
@@ -49013,7 +49007,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "873"
+    draw_event_s_id: "1191"
     drop_mission_key: "0,0,1144700:1"
     mission_group_id: 28
     open_mission_keys: 1144000:1;1144300:1
@@ -49139,7 +49133,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "869"
+    draw_event_s_id: "1187"
     drop_mission_key: "0,0,1143800:1"
     mission_group_id: 28
     open_mission_keys: 1143700:1
@@ -49175,7 +49169,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "875"
+    draw_event_s_id: "1193"
     drop_mission_key: "0,0,1143900:1"
     mission_group_id: 28
     open_mission_keys: 1143800:1;1144100:1
@@ -49210,7 +49204,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
-    draw_event_s_id: "874"
+    draw_event_s_id: "1192"
     drop_mission_key: "0,0,1144000:1"
     mission_group_id: 28
     open_mission_keys: 1143900:1;1144200:1;1144400:1
@@ -49220,6 +49214,7 @@
     win_type: "1144001"
     difficulty_recommend: "32000,99;32000,99;40,2;40,32000;0,0"
     recommended_team_ids: "2,3,4"
+    limit_vehicle: -1
   }
   {
     id: 11454
@@ -49243,7 +49238,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "870"
+    draw_event_s_id: "1188"
     drop_mission_key: "0,0,1144100:1"
     mission_group_id: 28
     open_mission_keys: 1143700:1
@@ -49277,7 +49272,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "874"
+    draw_event_s_id: "1192"
     drop_mission_key: "0,0,1144200:1"
     mission_group_id: 28
     open_mission_keys: 1143800:1;1144100:1
@@ -49313,7 +49308,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
-    draw_event_s_id: "875"
+    draw_event_s_id: "1193"
     drop_mission_key: "0,0,1144300:1"
     mission_group_id: 28
     open_mission_keys: 1143900:1;1144200:1;1144400:1
@@ -49322,6 +49317,7 @@
     win_type: "1144302,1144301"
     difficulty_recommend: "32000,99;32000,99;40,2;40,32000;0,0"
     recommended_team_ids: "3,4,8,9"
+    limit_vehicle: -1
   }
   {
     id: 11457
@@ -49346,7 +49342,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
-    draw_event_s_id: "874"
+    draw_event_s_id: "1192"
     drop_mission_key: "0,0,1144400:1"
     mission_group_id: 28
     open_mission_keys: 1143800:1;1144100:1
@@ -49356,6 +49352,7 @@
     win_type: "1144401"
     difficulty_recommend: "30000,99;30000,99;40,2;40,30000;0,0"
     recommended_team_ids: "1,2,3,6"
+    limit_vehicle: -1
   }
   {
     id: 11458
@@ -49380,7 +49377,7 @@
     map_information: "15000,15000|15000,15000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "877"
+    draw_event_s_id: "1195"
     drop_mission_key: "0,0,1144500:1|1144501:1;0,0,1144500:1|1144502:1;0,0,1144500:1|1144503:1"
     mission_group_id: 28
     open_mission_keys: 1144000:1;1144300:1
@@ -49391,7 +49388,7 @@
     difficulty_recommend: "34000,99;34000,99;40,2;0,0;0,0"
     win_step: "1144501"
     event_score: 1|10,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,610002:2000;610003:2000,0,0,0,0,0
-    score_prize: 1-0|9043:1
+    score_prize: 1-0|9048:1
     limit_vehicle: -1
   }
   {
@@ -49416,7 +49413,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "876"
+    draw_event_s_id: "1194"
     drop_mission_key: "0,0,1144600:1"
     mission_group_id: 28
     open_mission_keys: 1144000:1;1144300:1
@@ -49449,7 +49446,7 @@
     map_information: "6000,6000|6000,6000|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "878"
+    draw_event_s_id: "1196"
     drop_mission_key: "0,0,1144700:1"
     mission_group_id: 28
     open_mission_keys: 1144000:1;1144300:1

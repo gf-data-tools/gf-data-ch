@@ -161,7 +161,7 @@
     rank: 1
     sort: 4
     item_access: "8,5"
-    detail_introduction: 可在情报中心进行情报解析，获取重装部队中枢数据或芯片。
+    detail_introduction: 可用于火力小队芯片的解锁和升级。
     type_sort: 2
   }
   {
@@ -174,7 +174,7 @@
     rank: 1
     sort: 5
     item_access: "8,5"
-    detail_introduction: 可在情报中心进行情报解析，相比原始数据更容易获取重装部队中枢数据和高星级芯片。
+    detail_introduction: 可用于火力小队的解锁、晋升、迭代，也可用于火力小队芯片升级。
     type_sort: 2
   }
   {
@@ -186,8 +186,8 @@
     introduction: 不逼数据分析师一把，你永远不知道给自己打工的人能有多优秀。“出于对方的爱好，这份契约需要您额外支付一张真实猫咪的照片。”
     rank: 1
     sort: 508
-    item_access: "1,5,2"
-    detail_introduction: 可立即完成情报中心正在进行的情报解析。
+    item_access: "5,2"
+    detail_introduction: 可立即完成火力小队的晋升。
     type_sort: 3
   }
   {
@@ -200,7 +200,7 @@
     rank: 1
     sort: -1
     item_access: "9,10"
-    detail_introduction: 可用于满星满级重装部队的迭代强化。
+    detail_introduction: 可用于火力小队的迭代。
     type_sort: 2
   }
   {
@@ -322,7 +322,7 @@
     rank: 1
     sort: 12
     item_access: "24,16,6"
-    detail_introduction: 可在格纳库中用于重装部队的经验训练。
+    detail_introduction: 可在情报中心中用于火力小队的经验训练。
     type_sort: 2
   }
   {
@@ -16092,6 +16092,15 @@
     is_hide_info: 1
   }
   {
+    id: 9048
+    type: 1
+    arg: "9048"
+    code: mind_PT
+    item_name: 思域迷航PT
+    introduction: 思域迷航PT
+    rank: 1
+  }
+  {
     id: 10603
     type: 1
     arg: "1"
@@ -18363,6 +18372,34 @@
     item_name: 蚀心面具·22重困境
     introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
     rank: 1
+  }
+  {
+    id: 100226
+    type: 4
+    arg: "100226"
+    code: Nova_medal
+    item_name: 新星勋章·思域迷航
+    introduction: 新星勋章·思域迷航
+    rank: 1
+  }
+  {
+    id: 100227
+    type: 4
+    arg: "100227"
+    code: Platinum_medal
+    item_name: 白金勋章·思域迷航
+    introduction: 白金勋章·思域迷航
+    rank: 1
+  }
+  {
+    id: 100228
+    type: 9
+    arg: "100228"
+    code: Mind_Coin
+    item_name: 思维币
+    introduction: 思维币
+    rank: 1
+    daily_limit: "120"
   }
   {
     id: 110001
