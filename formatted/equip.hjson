@@ -3827,8 +3827,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: pow:750
+    passive_skill: "1002101"
     max_level: 10
     auto_select_id: 19006
+    group_id: "34"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -7536,8 +7538,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: pow:700,hit:1000
+    passive_skill: "1002001"
     max_level: 10
     auto_select_id: 18077
+    group_id: "33"
     is_show: 1
     obtain_ids: "3036"
   }
@@ -12872,5 +12876,77 @@
     is_show: 1
     obtain_ids: "3107"
     description_skill: 1001901
+  }
+  {
+    id: 409
+    name: 黑兔小帽
+    description:
+      '''
+      射速+<rate> 回避<dodge>
+      普通攻击伤害+25%$SR-3MP专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "-12,-10"
+    rate: "2,5"
+    skill_effect_per: 150
+    skill_effect: 300
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_SR3MP
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "135"
+    equip_introduction: SR-3MP最喜欢佩戴的帽子，除了美观实用外，似乎戴上后还会显得个子高一点。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: rate:1000
+    passive_skill: "1002002"
+    max_level: 10
+    auto_select_id: 20086
+    group_id: "33"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 普通攻击伤害+25%
+  }
+  {
+    id: 410
+    name: StG44专用芯片
+    description:
+      '''
+      伤害+<pow> 射速+<rate>
+      暴击伤害<critical_harm_rate><%>$StG44改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_STG44Mod
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "20061"
+    equip_introduction: 性能全面升级后的专用芯片，可以帮助StG44在处理事务时更加一丝不苟。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    passive_skill: "1002102"
+    max_level: 10
+    auto_select_id: 20087
+    group_id: "34"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

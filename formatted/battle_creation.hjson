@@ -1736,6 +1736,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "22"
+    buff_id: 9565:1000009453
     is_form_play: 1
     creation_type: 2
     scale: "1,1,0"
@@ -1757,6 +1758,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "23"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "123,127"
@@ -1776,6 +1778,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "23"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "124,130"
@@ -1795,6 +1798,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "23"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "125,128"
@@ -1814,6 +1818,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "23"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "126,129"
@@ -1833,6 +1838,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1850,6 +1856,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1867,6 +1874,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1884,6 +1892,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1901,6 +1910,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1918,6 +1928,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1935,6 +1946,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -1952,6 +1964,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -22983,6 +22996,7 @@
     effect_area: 1
     effect_param_1: *101
     hurt_id: "22"
+    buff_id: 9565:1000009453
     is_form_play: 1
     creation_type: 2
     scale: "1"
@@ -23001,6 +23015,7 @@
     effect_area: 1
     effect_param_1: *102
     hurt_id: "23"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1"
     trigger_creation_id: "1804"
@@ -23017,6 +23032,7 @@
     effect_area: 1
     effect_param_1: *103
     hurt_id: "24"
+    buff_id: 9565:1000009453
     is_form_play: 1
     scale: "1"
   }
@@ -51398,6 +51414,58 @@
     trigger_creation_id: "93"
     trigger_creation_delay: "-1"
     sound_order: BT_rifle_skill
+  }
+  {
+    id: 3734
+    name: SR-3MP技能子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "704"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_delay: "0,2,4,6"
+    is_orb_effect: 1
+  }
+  {
+    id: 3735
+    name: SR-3MP子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "705"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_delay: "0,2,4,6"
+    is_orb_effect: 1
+  }
+  {
+    id: 3736
+    name: SR-3MP加速
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 9566:1
+    is_form_play: 1
+    scale: "1"
   }
   {
     id: 4000

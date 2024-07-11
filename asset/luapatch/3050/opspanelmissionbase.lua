@@ -23,10 +23,18 @@ local ChectSelect = function(self,oPSPanelMissionBase)
 		parent:Find("StoryOnly").gameObject:SetActive(show);
 	end
 end
-
+local ChecckCampaion = function()
+	if CS.OPSPanelController.Instance.campaionId == -69 then
+		return true;
+	end
+	if CS.OPSPanelController.Instance.campaionId == -70 then
+		return true;
+	end
+	return false;
+end
 local Awake = function(self)
 	self:Awake();
-	if CS.OPSPanelController.Instance.campaionId == -69 then
+	if ChecckCampaion() then
 		self.checkChoose = false;
 	end
 end
@@ -35,8 +43,9 @@ local Start = function(self)
 	if self.opsDiskMission ~= nil then
 		self.transform.rotation = CS.UnityEngine.Quaternion.Euler(0, 0, 0);
 	end
-	if CS.OPSPanelController.Instance.campaionId == -69 then
+	if ChecckCampaion() then
 		if self.opsDiskMission == nil then
+			--print("实例化到Left");
 			self.transform:SetParent(CS.OPSPanelController.Instance.leftMain,false);
 			local rectTrans = self.transform:GetComponent(typeof(CS.UnityEngine.RectTransform));
 			rectTrans.anchorMin = CS.UnityEngine.Vector2(0,0.5);

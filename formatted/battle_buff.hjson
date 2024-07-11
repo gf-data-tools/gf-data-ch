@@ -56145,6 +56145,119 @@
     damage_reduce_number: "110"
   }
   {
+    id: 9556
+    name: SR-3MP套装装备1
+    conflict_type: 2556
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9557
+    name: SR-3MP套装装备2
+    conflict_type: 2557
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9558
+    name: SR-3MP套装
+    conflict_type: 2558
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9559
+    name: StG44套装装备1
+    conflict_type: 2559
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9560
+    name: StG44套装装备2
+    conflict_type: 2560
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9561
+    name: StG44套装
+    conflict_type: 2561
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9562
+    name: SR-3MP一技能触发
+    conflict_type: 2562
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9563
+    name: SR-3MP加速触发
+    conflict_type: 2563
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9564
+    name: SR-3MP加速判定
+    conflict_type: 2564
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "1002009"
+  }
+  {
+    id: 9565
+    name: StG44易伤
+    conflict_type: 2565
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "360"
+    boss_available: 1
+    damage_reduce_number: "105"
+  }
+  {
+    id: 9566
+    name: SR-3MP加速
+    conflict_type: 2566
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    move_number: *201
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
