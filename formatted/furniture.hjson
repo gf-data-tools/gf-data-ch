@@ -30274,6 +30274,50 @@
     rotate: "3"
   }
   {
+    id: 20140
+    name: 寻常的一天
+    classes: 19
+    type: 201
+    space: "9,7,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “她们一起行动，寻常的任务，寻常的环境，寻常的对谈与默契……”“后来呢？”“那成为了她再也无法企及的梦中幻影。"
+    code: 202407Activity_SnowGlobe_deco1,202407Activity_SnowGlobe,202407Activity_SnowGlobe_deco2
+    texture_type: "1,2,1"
+    sorting: "0,10,20"
+    offset: "0.000,-0.438,0.000|0.000,0.438,0.000|0.000,-0.438,0.000"
+    rotate: "2,2,2"
+  }
+  {
+    id: 20141
+    name: 见证之眼勋章
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在”零电荷“活动中的卓越战绩，“用一场大雪，遮蔽存在的痕迹，用彼此的眼睛，见证狼群的结局。”
+    code: 202407Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20142
+    name: 海报-2024“22重困境”
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2024限时活动-22重困境的特典海报。
+    code: pv_202406activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -45767,6 +45811,111 @@
     decompose_gift: 100003
     description: 纳甘左轮的海报。
     code: poster_Masque2024_M1895
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310601
+    name: SCAR-H-萨摩不是卧底
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SCAR-H的海报。
+    code: poster_Detective2024_SCARH
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310602
+    name: LAMG-珀里克烟丝
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LAMG的海报。
+    code: poster_Detective2024_LAMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310603
+    name: KH2002-夜访猫头鹰
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: KH2002的海报。
+    code: poster_Detective2024_KH2002
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310604
+    name: AUG SMG-浅丁香票根
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AUG SMG的海报。
+    code: poster_Detective2024_AUGPARA
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310605
+    name: 9A-91-香槟后座驰援记
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 9A-91的海报。
+    code: poster_Detective2024_9A91
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310606
+    name: MP5-直觉，名为红色
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MP5的海报。
+    code: poster_Detective2024_MP5
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310607
+    name: MK23-法医喵代克
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MK23的海报。
+    code: poster_Detective2024_Mk23
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

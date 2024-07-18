@@ -33999,6 +33999,235 @@
     voice_code: LOWMOOD
   }
   {
+    id: 1060101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1060102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1060103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1060104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SCARH|FORMATION
+    text: GUN|SCARH|FORMATION
+    name: 交互1
+    camera: 1
+    voice_code: FORMATION
+  }
+  {
+    id: 1060105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: dog
+    probability: 1
+    voice: GUN|SCARH|COMBINE
+    text: GUN|SCARH|COMBINE
+    name: 交互2
+    camera: 1
+    delay: 1000
+    voice_code: COMBINE
+  }
+  {
+    id: 1060106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SCARH|BLACKACTION
+    text: GUN|SCARH|BLACKACTION
+    name: 交互3
+    camera: 1
+    voice_code: BLACKACTION
+  }
+  {
+    id: 1060107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SCARH|PHRASE
+    text: GUN|SCARH|PHRASE
+    name: 交互4
+    camera: 1
+    voice_code: PHRASE
+  }
+  {
+    id: 1060108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: dog
+    probability: 1
+    voice: GUN|SCARH|ATTACK
+    text: GUN|SCARH|ATTACK
+    name: 交互5
+    camera: 1
+    voice_code: ATTACK
+  }
+  {
+    id: 1060109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|SCARH|DIALOGUEWEDDING
+    text: GUN|SCARH|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1060110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|SCARH|HELLO
+    text: GUN|SCARH|HELLO
+    name: 上线响应
+    camera: 1
+    delay: 3200
+    voice_code: HELLO
+  }
+  {
+    id: 1060111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|SCARH|LOWMOOD
+    name: 晃动响应
+    camera: 1
+    voice_code: LOWMOOD
+  }
+  {
+    id: 1060112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|SCARH|SOULCONTRACT
+    text: GUN|SCARH|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1060113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1060114
+    type: 402
+    motion_name: touch_1.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|SCARH|BREAK
+    text: GUN|SCARH|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1060115
+    type: 402
+    motion_name: touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|SCARH|SKILL2
+    text: GUN|SCARH|SKILL2
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: SKILL2
+  }
+  {
+    id: 1060116
+    type: 402
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SCARH|SKILL1
+    text: GUN|SCARH|SKILL1
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: SKILL1
+  }
+  {
+    id: 1060117
+    type: 402
+    motion_name: touch_4.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SCARH|LOADING
+    text: GUN|SCARH|LOADING
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: LOADING
+  }
+  {
+    id: 1060118
+    type: 402
+    motion_name: touch_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SCARH|FIX
+    text: GUN|SCARH|FIX
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 1060119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|SCARH|RETREAT
+    text: GUN|SCARH|RETREAT
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 3300
+    voice_code: RETREAT
+  }
+  {
+    id: 1060120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
     id: 5000101
     type: 101
     motion_name: daiji_idle_01.mtn

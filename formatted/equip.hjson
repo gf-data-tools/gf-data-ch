@@ -12949,4 +12949,37 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 411
+    name: 1PN64夜视瞄准镜
+    description:
+      '''
+      夜视能力+<night_view_percent><%>
+      暴击概率+<critical_percent><%>$OTs-14专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    critical_percent: "15,20"
+    night_view_percent: "100,100"
+    skill_effect: 150
+    retire_mp: 3
+    retire_mre: 4
+    retire_part: 2
+    code: Accessories_SP_OTs14
+    develop_duration: 2940
+    company: IOP
+    fit_guns: "119"
+    equip_introduction: 在NSP3微光瞄准镜基础之上进行了轻量化改进后的产品，使用了最新型的微光管，成像质量大幅提高。
+    powerup_mp: 0.33
+    powerup_ammo: 0.22
+    powerup_mre: 0.5
+    powerup_part: 0.18
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000
+    max_level: 10
+    auto_select_id: 18120
+    is_show: 1
+    obtain_ids: "3116"
+  }
 ]

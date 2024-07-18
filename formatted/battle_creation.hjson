@@ -63020,6 +63020,294 @@
     trigger_creation_delay: "-1"
   }
   {
+    id: 7113
+    name: RPK-16前方护盾
+    start_type: "3"
+    start_offset: "-10"
+    destination_type: "3"
+    destination_offset: "-10"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: 2551:1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7114
+    name: RPK-16后方增伤
+    start_type: "3"
+    start_offset: "10"
+    destination_type: "3"
+    destination_offset: "10"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: 2546:1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7115
+    name: RPK-16召唤警备士
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "3,0,2.8;3,0,0;3,0,-2.8;3,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5116"
+  }
+  {
+    id: 7116
+    name: RPK-16召唤防卫者
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "3,0,2.8;3,0,0;3,0,-2.8;3,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5117"
+  }
+  {
+    id: 7117
+    name: RPK-16召唤拔摩之笔
+    start_type: "8"
+    destination_type: "8"
+    random_number: "1"
+    random_offset: "6,0,2.8;6,0,0;6,0,-2.8;6,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5118"
+  }
+  {
+    id: 7118
+    name: RPK-16召唤圣歌风琴
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "6,0,2.8;6,0,0;6,0,-2.8;6,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5119"
+  }
+  {
+    id: 7119
+    name: RPK-16召唤角斗士
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "3,0,2.8;3,0,0;3,0,-2.8;3,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5120"
+  }
+  {
+    id: 7120
+    name: RPK-16召唤重炮士
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "6,0,2.8;6,0,0;6,0,-2.8;6,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5121"
+  }
+  {
+    id: 7121
+    name: RPK-16召唤重锤士
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "3,0,2.8;3,0,0;3,0,-2.8;3,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5122"
+  }
+  {
+    id: 7122
+    name: RPK-16召唤掷弹士
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "6,0,2.8;6,0,0;6,0,-2.8;6,0,-5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "5123"
+  }
+  {
+    id: 7123
+    name: RPK-16天花板预警
+    code: 爆炸范围
+    start_type: "8"
+    start_offset: "-3.98,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-3.98,0,-1.65"
+    random_number: "3"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2;2.6,0,0;2.6,0,4.2;2.6,0,-4.2;-2.6,0,0;-2.6,0,4.2;-2.6,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "75"
+    scale: "1.25,2.15"
+    trigger_creation_id: "7126,7127"
+    trigger_creation_delay: "70,70"
+  }
+  {
+    id: 7124
+    name: RPK-16天花板掉落
+    code: RPK16_stone
+    start_type: "7"
+    start_offset: "-0.1,0,1.5"
+    destination_type: "7"
+    destination_offset: "-0.1,0,1.5"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "1504"
+    buff_id: 2547:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7125
+    name: RPK-16天花板预警
+    code: 爆炸范围
+    start_type: "8"
+    start_offset: "-3.98,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-3.98,0,-1.65"
+    random_number: "3"
+    random_offset: "5.2,0,0;5.2,0,4.2;5.2,0,-4.2;7.8,0,0;7.8,0,4.2;7.8,0,-4.2;10.4,0,0;10.4,0,4.2;10.4,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "75"
+    scale: "1.25,2.15"
+    trigger_creation_id: "7126,7127"
+    trigger_creation_delay: "70,70"
+  }
+  {
+    id: 7126
+    name: RPK-16天花板掉落敌方
+    code: RPK16_stone
+    start_type: "7"
+    start_offset: "-0.1,0,0.1"
+    destination_type: "7"
+    destination_offset: "-0.1,0,0.1"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "1504"
+    buff_id: 2547:1,2554:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7127
+    name: RPK-16天花板掉落友方
+    code: RPK16_stone
+    start_type: "7"
+    start_offset: "-0.1,0,0.1"
+    destination_type: "7"
+    destination_offset: "-0.1,0,0.1"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "1504"
+    buff_id: 2547:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7128
+    name: RPK-16嘲讽标记
+    code: M16_Normal/M16_N_Alert
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "180"
+    effect_area: 1
+    creation_type: 2
+    scale: "1.5,1.5"
+  }
+  {
+    id: 7129
+    name: RPK-16瘫痪
+    code: 2021xiahuo/ZDB_dzmc_zt
+    start_type: "3"
+    start_offset: "-0.7,0.2,0"
+    destination_type: "3"
+    destination_offset: "-0.7,0.2,0"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "2,2,2"
+    sound_order: BT_Agent_Shield3
+  }
+  {
+    id: 7130
+    name: RPK-16群体增益
+    code: 20tiexue_BOSS_ganraozhe  3
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "150"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    trigger_creation_id: "7132"
+  }
+  {
+    id: 7131
+    name: RPK-16目标瘫痪
+    code: zhld/ZH_yy_flash
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "150"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 7132
+    name: RPK-16群体增益特效
+    code: judge/fashi_baoqi 1
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+  }
+  {
     id: 8001
     name: 小怪近战普攻
     start_type: "1"

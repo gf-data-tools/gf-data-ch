@@ -8410,6 +8410,83 @@
     carry_mission_skill: "95842010"
   }
   {
+    id: 9700307
+    name: 加速
+    description: 行动力提升
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 9700307
+    priority: 1
+    ext_move: 1
+  }
+  {
+    id: 9700308
+    name: 禁足
+    description: 无法移动
+    code: Theresa_Back
+    type: 2
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 9700307
+    priority: 1
+  }
+  {
+    id: 9701203
+    name: 强化
+    description: 处于强化状态中，战斗中将难以被击败。
+    code: Invincible
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 900915
+    conflict_type: 9584001
+    priority: 9584001
+  }
+  {
+    id: 9701204
+    name: 【标记】携带歌利亚buff
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 9701204
+    carry_mission_skill: "9701204"
+  }
+  {
+    id: 9701205
+    name: 加速
+    description: 行动力提升
+    code: ExtraMove2
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 9701513
+    priority: 1
+    ext_move: 2
+  }
+  {
+    id: 9701512
+    name: 加速
+    description: 行动力提升
+    code: ExtraMove3
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    free_ap_move: 3
+    conflict_type: 9701512
+    priority: 1
+  }
+  {
     id: 10000021
     name: 掩体作战
     description: 减少梯队收到伤害

@@ -20967,6 +20967,125 @@
     effect_conditions: "0,1"
   }
   {
+    id: 1170001
+    name: 【标记】抵达检测
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 1170002
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 1170001
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 1170002
+    name: 【标记】抵达
+    description: 追逐
+    code: RPK16Reborn
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 1170002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 1170003
+    name: 【标记】惊动特工
+    description: 暴露
+    code: Plaincloth
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 1170003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 1170101
+    name: 【标记】放置炸弹
+    description: 爆破
+    code: Boomer
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 1170101
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 2
+    effect_conditions: "1"
+  }
+  {
+    id: 1170201
+    name: 【标记】抵达检测
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 1170202
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 1170201
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 1170202
+    name: 【标记】抵达
+    description: 逃离
+    code: TargetPoint_Radar
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 1170202
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
     id: 1200100
     name: 【标记】护盾发生器标记1
     priority: 1200100
@@ -46902,6 +47021,60 @@
     skill_config_id_on_birth: "0,1000004,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
+  }
+  {
+    id: 9700608
+    name: "[avg]-70-EXT-2-1"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9700608
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 9701208
+    name: "[avg]-70-EXT-4-1"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9701208
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 9701513
+    name: "[avg]-70-EXT-5-1"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9701513
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
   }
   {
     id: 44350001

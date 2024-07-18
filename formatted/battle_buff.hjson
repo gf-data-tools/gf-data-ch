@@ -11457,6 +11457,280 @@
     boss_available: 1
   }
   {
+    id: 2531
+    name: RPK-16修复标识
+    conflict_type: 1531
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+  }
+  {
+    id: 2532
+    name: RPK-16强攻标识
+    conflict_type: 1532
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+  }
+  {
+    id: 2533
+    name: RPK-16修复护盾
+    conflict_type: 1533
+    max_tier: 3
+    type: 109
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 2534
+    name: RPK-16强攻攻速
+    conflict_type: 1534
+    max_tier: 3
+    type: 104
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+    rate_number: "130"
+  }
+  {
+    id: 2535
+    name: RPK-16强攻移速
+    conflict_type: 1535
+    max_tier: 3
+    type: 105
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+    move_number: "130"
+  }
+  {
+    id: 2536
+    name: RPK-16大招嘲讽
+    conflict_type: 1536
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    trigger_creation_id: "7128"
+  }
+  {
+    id: 2537
+    name: RPK-16大招护盾
+    conflict_type: 1537
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "185"
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+  }
+  {
+    id: 2538
+    name: RPK-16大招标识
+    conflict_type: 1538
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    forced_skill: "450039"
+  }
+  {
+    id: 2539
+    name: RPK-16护盾破碎
+    conflict_type: 1539
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "540"
+    boss_available: 1
+  }
+  {
+    id: 2540
+    name: RPK-16护盾未破碎
+    conflict_type: 1540
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "540"
+    boss_available: 1
+  }
+  {
+    id: 2541
+    name: RPK-16瘫痪
+    conflict_type: 1541
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    trigger_creation_id: "7131"
+    is_form_play: 1
+  }
+  {
+    id: 2542
+    name: RPK-16易伤
+    conflict_type: 1542
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    damage_reduce_number: "200"
+  }
+  {
+    id: 2543
+    name: RPK-16护盾
+    conflict_type: 1543
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+  }
+  {
+    id: 2544
+    name: RPK-16伤害提升
+    conflict_type: 1544
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    pow_number: "200"
+  }
+  {
+    id: 2545
+    name: RPK-16号令护盾
+    conflict_type: 1545
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+  }
+  {
+    id: 2546
+    name: RPK-16号令伤害
+    conflict_type: 1546
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    pow_number: "120"
+  }
+  {
+    id: 2547
+    name: RPK-16天花板眩晕
+    conflict_type: 1547
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 2548
+    name: RPK-16修复模式触发
+    conflict_type: 1548
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+    forced_skill: "450050"
+  }
+  {
+    id: 2549
+    name: RPK-16本体
+    conflict_type: 1549
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2550
+    name: RPK-16强攻模式触发
+    conflict_type: 1550
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "270"
+    boss_available: 1
+    forced_skill: "450051"
+  }
+  {
+    id: 2551
+    name: RPK-16号令护盾触发
+    conflict_type: 1551
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "450052"
+  }
+  {
+    id: 2552
+    name: RPK-16大招护盾触发
+    conflict_type: 1552
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "450053"
+  }
+  {
+    id: 2553
+    name: RPK-16护盾破碎触发
+    conflict_type: 1553
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    trigger_creation_id: "7129"
+  }
+  {
+    id: 2554
+    name: RPK-16天花板禁足
+    conflict_type: 1554
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+  }
+  {
+    id: 2555
+    name: RPK-16护盾未破碎触发
+    conflict_type: 1555
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    trigger_creation_id: "7130"
+  }
+  {
     id: 3000
     name: Beer
     description: Beer
