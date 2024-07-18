@@ -123,7 +123,7 @@ NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:请允许我，为你们献上万
 ()<Speaker></Speaker>||<SE1>AVG_Applause</SE1>:恩布拉拍了拍手。
 NPC_Embla_RPK(1)<Speaker>恩布拉</Speaker>||:出来吧，我的墨菲斯托们。
 ()||<黑点1><SE1>AVG_BaseDoor_Close</SE1>:
-()<Speaker></Speaker>||<BGM>GF_21winter_avg_betray</BGM><黑点2>:台上垂挂的幕布一层层拉开，恩布拉的身后站满了全副武装的白教武装。
+()<Speaker></Speaker>||<BGM>GF_21winter_avg_betray</BGM><BIN>96</BIN><黑点2>:台上垂挂的幕布一层层拉开，恩布拉的身后站满了全副武装的白教武装。
 ()<Speaker></Speaker>||<controll_shake>%%type_id=2%%duration=5%%delay=0.1%%range=4</controll_shake>:
 ()<Speaker></Speaker>||<白屏2><BIN>183</BIN><SE1>AVG_Gatling_gun</SE1><震屏3>:呯呯呯——+枪林弹雨朝着正前方扫去，观众席上的黑涅托瞬间倒在地上。
 ()||<白屏1>:

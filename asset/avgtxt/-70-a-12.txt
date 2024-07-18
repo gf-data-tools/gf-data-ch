@@ -40,7 +40,7 @@ NPC-Romy(0);NPC-maya(0)<Speaker>Q</Speaker>||:三年之后又三年，老板，�
 NPC-Romy(1)<Speaker>罗密</Speaker>;NPC-maya(0)||:说明你在斯塔西的资历很长，下次就可以轮到你晋升了。
 NPC-maya(2)<Speaker>Q</Speaker>||:老板，我爱死这份好处只有钱的工作了。
 ()||<黑屏1><CGDelay>1</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><BGM>BGM_Empty</BGM>:法兰克福 白区 普通职员通行入口
+()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><BGM>BGM_Empty</BGM>:法兰克福 白区 普通职员通行入口
 ()||:经过重重安检，布里吉特终于抵达了通行闸口。+手续之多，种类之繁杂，令身为人形的布里吉特都觉得有几分厌烦。
 ()<Speaker></Speaker>||:然而，还有最后一道关卡，一名法兰克福卫戍团士兵拦在了她的面前。
 ()<Speaker>卫戍团士兵</Speaker>||<SE1>ClothingUp</SE1>:汇报身份和目的。
@@ -81,7 +81,7 @@ NPC-Keven(12)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>闭嘴！十五分
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:J挂掉了通讯。
 ()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:在重新做好一轮心理建设后，布里吉特面带微笑地回到了电梯……
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:一个卫戍团士兵打扮的人带着一个笑盈盈的人形经过了布里吉特身边。
+()<Speaker></Speaker>||<黑屏2><BIN>745</BIN><SE1>AVG_footsteps_cave</SE1><SE1>AVG_footsteps_woodfloor</SE1>:一个卫戍团士兵打扮的人带着一个笑盈盈的人形经过了布里吉特身边。
 ()<Speaker>卫戍团士兵</Speaker>||:托马斯，今天又轮到你值班了吗？
 ()<Speaker>托马斯</Speaker>||<SE1>Stop_AVG_loop</SE1>:是的，第二警卫团的人明天开始过来跟我们轮值。+少将的勤务兵让我来这边拿点东西，麻烦你通行。
 ()<Speaker>卫戍团士兵</Speaker>||:辛苦。
@@ -184,7 +184,7 @@ NPC-Maid(0)<Speaker>劳拉</Speaker>||:……任务结束！
 ()<Speaker>守卫人形</Speaker>||:重复，超权限查询，请出示授权！600秒无应答，进入无限制开火！
 NPC-Maid(0)<Speaker>劳拉</Speaker>||:……！
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>747</BIN>:
+()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><黑屏2><BIN>745</BIN>:
 PPQ(0)<Speaker>布里吉特</Speaker>||:无论如何你必须给我一个交代，斯塔西的人形和军方的人形为什么拥有不同的待遇！
 PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:这是我们的规定，两边的权限不一样。
 PPQ(0)<Speaker>布里吉特</Speaker>||:……大家遵守的条例明明是同一套，我认为你在故意刁难我。
@@ -193,7 +193,7 @@ PPQ(0)<Speaker>卫戍团士兵</Speaker><同时置暗>||:你有异议应该向�
 ()<Speaker></Speaker>||<SE1>RunStep</SE1>:哒哒哒——一阵急促的跑步声后，J终于抵达了现场。
 NPC-Keven(12)<Speaker>J</Speaker>||:*的，这些交警真不讲人情……+布里吉特，这个警报是什么情况？
 PPQ(0)<Speaker>布里吉特</Speaker>||:我也不知道。
-()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:唰——+接听完紧急通讯后，卫戍团士兵严肃的看向J和布里吉特。
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:唰——+接听完紧急通讯后，卫戍团士兵严肃地看向J和布里吉特。
 ()<Speaker>卫戍团士兵</Speaker>||:国家安全部档案室有人触发了警报。+你们一起过来。
 PPQ(0)<Speaker>布里吉特</Speaker>||:哈，哪里的档案室？
 NPC-Keven(7)<Speaker>J</Speaker>||:能重复一遍吗？
