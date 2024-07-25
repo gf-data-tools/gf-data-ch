@@ -30318,6 +30318,39 @@
     rotate: "3"
   }
   {
+    id: 20143
+    name: 素面永动机
+    classes: 81
+    type: 201
+    space: "8,7,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 加压、入泵、净化……淙淙清泉涌动而下，只为一筷流淌的好素面！……89式自的夏日挚爱，提升宿舍幸福感的不二好物！——摘自“格琳娜王牌甄选频道”
+    code: Anniversary2024jp_nagashisomen
+    texture_type: "2"
+    offset: "-0.063,0.229,0.000"
+    rotate: "2"
+    interact_point: "820143"
+    interact_point_offset: *1.196,0.825,0.000
+    touch_area: "4,5,4"
+  }
+  {
+    id: 20144
+    name: “特工兔兔”积木套组
+    classes: 81
+    type: 201
+    space: "4,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “在欣赏特工与萌兔这对充满反差感的组合同时，还能体味亲手组装UMP45的至高乐趣……啊，不许坐在45姐的头上！”某位署名为9的网友写下如此评论。
+    code: UMP45Childhood_deco_doll
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "20"
+    interact_point_offset: *1.715,2.319,0.458
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -46201,6 +46234,21 @@
     decompose_gift: 100003
     description: M1897的海报。
     code: poster_BattlePass_M1897
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330021
+    name: 柯尔特M1851N-白羽飞扬
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 柯尔特M1851N的海报。
+    code: poster_BattlePass_M1851N
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

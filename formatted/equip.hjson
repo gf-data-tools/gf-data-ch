@@ -12982,4 +12982,38 @@
     is_show: 1
     obtain_ids: "3116"
   }
+  {
+    id: 413
+    name: 荣光披风
+    description:
+      '''
+      伤害<pow>
+      回避+<dodge>技能增加$韦伯利专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-5,-1"
+    dodge: "16,22"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_Webley
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "294"
+    equip_introduction: 即使是在众多高级服装收藏之中也是深受韦伯利喜爱的一款披风，寓意着勇往直前，迈向胜利。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1002201"
+    max_level: 10
+    auto_select_id: 20089
+    is_show: 1
+    obtain_ids: "3108"
+    description_skill: 1002201
+  }
 ]

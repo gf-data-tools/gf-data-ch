@@ -49460,7 +49460,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49496,7 +49495,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49533,7 +49531,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "2,3,4"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49683,7 +49680,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "2,3"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49719,7 +49715,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2,3"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49756,7 +49751,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49906,7 +49900,6 @@
     win_step: 1147301|1147302|1147303
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2,3"
-    restart_hide: 1
     limit_vehicle: 1
   }
   {
@@ -49979,7 +49972,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2,3"
-    restart_hide: 1
   }
   {
     id: 11476
@@ -50013,7 +50005,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2,3"
-    restart_hide: 1
   }
   {
     id: 11477
@@ -50047,7 +50038,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2,3"
-    restart_hide: 1
   }
   {
     id: 11478
@@ -50081,7 +50071,6 @@
     limit_sangvis: -1
     environment_transform_config: 1147901;1147902;1147903;1147904;1147905;1147906;1147907;1147908;1147909;1147910;1147911;1147912;1147913
     recommended_team_ids: "1,2,3"
-    restart_hide: 1
   }
   {
     id: 11479
@@ -53153,7 +53142,7 @@
   }
   {
     id: 11700
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 3
     if_emergency: -1
@@ -53184,11 +53173,10 @@
     win_type: 1170001|1170003
     difficulty_recommend: "0,0;0,0;0,0;0,0"
     lose_type: "1170002"
-    restart_hide: 1
   }
   {
     id: 11701
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 6
     if_emergency: -1
@@ -53217,11 +53205,10 @@
     mapped_mission_id: 70002
     win_type: "1170101"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11702
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 9
     if_emergency: -1
@@ -53250,11 +53237,10 @@
     mapped_mission_id: 70003
     win_type: "1170201"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11703
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 12
     if_emergency: -1
@@ -53283,11 +53269,10 @@
     mapped_mission_id: 70004
     win_type: "1170301"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11704
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 15
     if_emergency: -1
@@ -53316,11 +53301,10 @@
     mapped_mission_id: 70005
     win_type: "1170401"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11705
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 18
     if_emergency: -1
@@ -53349,11 +53333,10 @@
     mapped_mission_id: 70006
     win_type: "1170501"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11706
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 19
     if_emergency: -1
@@ -53385,11 +53368,10 @@
     medal_type_silver: "1170601"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
     lose_type: "1170002"
-    restart_hide: 1
   }
   {
     id: 11707
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 20
     if_emergency: -1
@@ -53418,11 +53400,10 @@
     mapped_mission_id: 70002
     win_type: "1170101"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11708
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 21
     if_emergency: -1
@@ -53451,11 +53432,10 @@
     mapped_mission_id: 70003
     win_type: "1170201"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11709
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 22
     if_emergency: -1
@@ -53484,11 +53464,10 @@
     mapped_mission_id: 70004
     win_type: "1170901"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11710
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 23
     if_emergency: -1
@@ -53517,11 +53496,10 @@
     mapped_mission_id: 70005
     win_type: "1171001"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11711
-    integration_switch: 1-1
+    integration_switch: 1-1;4-40:80:160
     campaign: -70
     sub: 24
     if_emergency: -1
@@ -53550,7 +53528,6 @@
     mapped_mission_id: 70006
     win_type: "1170501"
     difficulty_recommend: "0,0;0,0;0,0;0,0"
-    restart_hide: 1
   }
   {
     id: 11712

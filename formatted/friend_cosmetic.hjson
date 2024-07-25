@@ -6570,6 +6570,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_19summer
+    event_id: 3416
   }
   {
     id: 492
@@ -6851,6 +6852,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_halloween
+    event_id: 3417
   }
   {
     id: 514
@@ -6865,6 +6867,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_halloween
+    event_id: 3418
   }
   {
     id: 515
@@ -6878,6 +6881,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3413
   }
   {
     id: 516
@@ -7232,6 +7236,7 @@
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 3414
   }
   {
     id: 543
@@ -7556,6 +7561,7 @@
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 3415
   }
   {
     id: 568
@@ -19142,6 +19148,26 @@
     skin: 10607
   }
   {
+    id: 1540
+    item_id: 2540
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_M1851N
+    order: 1
+    rarity: 5
+    skin: 30021
+  }
+  {
+    id: 1541
+    item_id: 2541
+    sub_type: 2
+    code: card_BattlePass_M1851N
+    order: 1
+    rarity: 5
+  }
+  {
     id: 100001
     item_id: 200001
     sub_type: 4
@@ -19561,6 +19587,15 @@
     item_id: 200045
     sub_type: 4
     code: profileFrame_BattlePass_M1897
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100046
+    item_id: 200046
+    sub_type: 4
+    code: profileFrame_BattlePass_M1851N
     order: 1
     rarity: 5
     filter_type: "5"
