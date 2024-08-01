@@ -53711,6 +53711,51 @@
     scale: "1"
   }
   {
+    id: 4273
+    name: AK12改造一技能影响格
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "14,18,19,23,24"
+    buff_id: 5287:1,5288:1,5289:1,5290:1
+    buff_cd: "0,0,0,0"
+    scale: "1"
+  }
+  {
+    id: 4274
+    name: AK12突击步枪枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "710"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 4275
+    name: AN94找隐身AK12
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25"
+    buff_id: 8097:1
+    scale: "1"
+  }
+  {
     id: 5010
     name: 狙击子弹
     code: SniperSkillBullet

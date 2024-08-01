@@ -14344,6 +14344,36 @@
     creation_order: "4272"
   }
   {
+    id: 4054
+    name: AK12改造一技能
+    creation_order: "4273"
+  }
+  {
+    id: 4055
+    name: AK12专属普攻ex
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "4274,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 4056
+    name: AK12无专属普攻ex
+    action_order: attack2
+    action_playspeed: "100"
+    creation_order: "4274,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 4057
+    name: AN94联动隐身AK12
+    creation_order: "4275"
+  }
+  {
     id: 5010
     name: 炮狙射击
     action_order: "1"

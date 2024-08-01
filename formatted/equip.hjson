@@ -12983,6 +12983,41 @@
     obtain_ids: "3116"
   }
   {
+    id: 412
+    name: 冬霜Ⅵ
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>技能增强$AK-12专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    rate: "-10,-5"
+    critical_harm_rate: "15,20"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_AK12
+    develop_duration: 3060
+    company: ZNT
+    fit_guns: "206,20206"
+    equip_introduction: AK-12从阿佛纳斯撤离时携带的装备，是帕拉蒂斯组织发明的第六代战术披风，可以帮助AK-12进入隐形状态。在不启动时，是半透明的材质，十分轻便，就像一层笼罩在身体周围的薄雾。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_harm_rate:750
+    passive_skill: "992500"
+    max_level: 10
+    auto_select_id: 20088
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 992500
+  }
+  {
     id: 413
     name: 荣光披风
     description:
