@@ -56740,6 +56740,99 @@
     boss_available: 1
   }
   {
+    id: 9569
+    name: WA2000套装装备1
+    conflict_type: 2569
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9570
+    name: WA2000套装装备2
+    conflict_type: 2570
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9571
+    name: WA2000套装
+    conflict_type: 2571
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9572
+    name: 纳甘左轮套装装备1
+    conflict_type: 2572
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9573
+    name: 纳甘左轮套装装备2
+    conflict_type: 2573
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9574
+    name: 纳甘左轮套装
+    conflict_type: 2574
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9575
+    name: WA2000套装穿甲
+    conflict_type: 2575
+    max_tier: 999
+    type: 811
+    duration_type: 1
+    duration: "450"
+    boss_available: 1
+    arp_number: "1"
+  }
+  {
+    id: 9576
+    name: WA2000套装命中
+    conflict_type: 2576
+    max_tier: 999
+    type: 803
+    duration_type: 1
+    duration: "450"
+    boss_available: 1
+    hit_number: "1"
+  }
+  {
+    id: 9577
+    name: 纳甘左轮易伤
+    conflict_type: 2577
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: "110"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

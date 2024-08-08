@@ -51468,6 +51468,23 @@
     scale: "1"
   }
   {
+    id: 3737
+    name: WA2000套装步枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "707"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"

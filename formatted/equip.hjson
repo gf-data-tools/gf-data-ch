@@ -3099,8 +3099,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,hit:1000,critical_percent:350
+    passive_skill: "1002401"
     max_level: 10
     auto_select_id: 18012
+    group_id: "36"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -6497,8 +6499,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:700,critical_percent:1000
+    passive_skill: "1002301"
     max_level: 10
     auto_select_id: 18067
+    group_id: "35"
     is_show: 1
     obtain_ids: "3034"
   }
@@ -13050,5 +13054,72 @@
     is_show: 1
     obtain_ids: "3108"
     description_skill: 1002201
+  }
+  {
+    id: 414
+    name: WM加强弹
+    description:
+      '''
+      穿甲+<armor_piercing>
+      暴击伤害+<critical_harm_rate><%>$WA2000专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_harm_rate: "10,15"
+    armor_piercing: "95,100"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_WA2000
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "48"
+    equip_introduction: 在经典设计上做了提升，使威力更为强大，而且对枪械的适配性也做得更好。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_harm_rate:700
+    passive_skill: "1002302"
+    max_level: 10
+    auto_select_id: 19082
+    group_id: "35"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 415
+    name: 纳甘左轮外骨骼
+    description:
+      '''
+      回避+<dodge>
+      $纳甘左轮改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "11,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_M1895Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20005"
+    equip_introduction: 因为纳甘左轮经常性的收集行为，特别为其制作了这款性能优越的外骨骼，进一步提升了行动能力。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1002402"
+    max_level: 10
+    auto_select_id: 20090
+    group_id: "36"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]
