@@ -8487,6 +8487,34 @@
     priority: 1
   }
   {
+    id: 9711501
+    name: 特殊机制
+    description:
+      '''
+      ·禁止移动
+      ·可在控制台上远程操作变更雷达点的链接状态
+      '''
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 9711501
+  }
+  {
+    id: 9713101
+    name: 移动强化·Extra
+    description: 梯队移动时不消耗行动点。
+    code: Racing_Fly
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    free_ap_move: 99
+    conflict_type: 9713101
+  }
+  {
     id: 10000021
     name: 掩体作战
     description: 减少梯队收到伤害

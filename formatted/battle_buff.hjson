@@ -32788,6 +32788,37 @@
     boss_available: 1
   }
   {
+    id: 5300
+    name: SPAS12一技能触发
+    conflict_type: 5300
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 5301
+    name: SPAS12护盾监视
+    conflict_type: 5301
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5302
+    name: SPAS12伤害加成
+    conflict_type: 5302
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
     id: 5320
     name: AK12攻击目标
     conflict_type: 5320
@@ -32866,6 +32897,82 @@
     boss_available: 1
     is_form_play: 1
     buff_animation: YellowFlash
+  }
+  {
+    id: 6101
+    name: 泳装计量官潮湿标记
+    conflict_type: 6101
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "6206"
+  }
+  {
+    id: 6102
+    name: 泳装计量官射速下降
+    conflict_type: 6102
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+  }
+  {
+    id: 6103
+    name: 泳装计量官命中下降
+    conflict_type: 6103
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 6104
+    name: 泳装计量官潮湿射速下降
+    conflict_type: 6102
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *203
+  }
+  {
+    id: 6105
+    name: 泳装计量官潮湿命中下降
+    conflict_type: 6103
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *203
+  }
+  {
+    id: 6106
+    name: 泳装计量官增伤标记
+    conflict_type: 6106
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    fix_damage: 1000006104
+  }
+  {
+    id: 6107
+    name: 泳装计量官四技能层数
+    conflict_type: 6107
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
   }
   {
     id: 7101

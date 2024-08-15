@@ -793,6 +793,15 @@
     rank: 1
   }
   {
+    id: 139
+    type: 3
+    arg: "40"
+    code: Medal_202408Activity
+    item_name: 迷局破围者勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“银染显影”活动中的卓越战绩，“自助者，天恒助之。冲破重重枷锁后，未来的无限将为你敞开。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -15122,6 +15131,141 @@
     rank: 1
   }
   {
+    id: 2542
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_AUG
+    item_name: AUG-绯红女王
+    introduction: AUG-绯红女王
+    rank: 1
+  }
+  {
+    id: 2543
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_Rhino
+    item_name: 芮诺-逆位战车
+    introduction: 芮诺-逆位战车
+    rank: 1
+  }
+  {
+    id: 2544
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_M1928A1
+    item_name: 汤姆森-无界棋后
+    introduction: 汤姆森-无界棋后
+    rank: 1
+  }
+  {
+    id: 2545
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_APC556
+    item_name: APC556-跃行骑士
+    introduction: APC556-跃行骑士
+    rank: 1
+  }
+  {
+    id: 2546
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_P7
+    item_name: P7-神谕守护者
+    introduction: P7-神谕守护者
+    rank: 1
+  }
+  {
+    id: 2547
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_MP41
+    item_name: MP41-粉碎尖兵
+    introduction: MP41-粉碎尖兵
+    rank: 1
+  }
+  {
+    id: 2548
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_IDW
+    item_name: IDW-猫咪重锤
+    introduction: IDW-猫咪重锤
+    rank: 1
+  }
+  {
+    id: 2549
+    type: 5
+    arg: "1"
+    code: profilePic_202408Activity_01
+    item_name: 头像：故人初见
+    introduction: 头像：故人初见
+    rank: 1
+  }
+  {
+    id: 2550
+    type: 5
+    arg: "1"
+    code: profilePic_202408Activity_02
+    item_name: 头像：不言之中
+    introduction: 头像：不言之中
+    rank: 1
+  }
+  {
+    id: 2551
+    type: 5
+    arg: "1"
+    code: profilePic_202408Activity_03
+    item_name: 头像：砺心
+    introduction: 头像：砺心
+    rank: 1
+  }
+  {
+    id: 2552
+    type: 5
+    arg: "1"
+    code: card_202408Activity_01
+    item_name: 名片：触不可及
+    introduction: 名片：触不可及
+    rank: 1
+  }
+  {
+    id: 2553
+    type: 5
+    arg: "1"
+    code: card_202408Activity_02
+    item_name: 名片：咫尺天空
+    introduction: 名片：咫尺天空
+    rank: 1
+  }
+  {
+    id: 2554
+    type: 5
+    arg: "1"
+    code: cg_202408Activity_01
+    item_name: 背景：暮色回响
+    introduction: 背景：暮色回响
+    rank: 1
+  }
+  {
+    id: 2555
+    type: 5
+    arg: "1"
+    code: cg_202408Activity_02
+    item_name: 背景：纯净的恩典
+    introduction: 背景：纯净的恩典
+    rank: 1
+  }
+  {
+    id: 3501
+    type: 5
+    arg: "1"
+    code: profilePic_rank5_SPAS12Mod
+    item_name: SPAS-12心智升级头像
+    introduction: SPAS-12心智升级头像
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -18642,6 +18786,43 @@
     arg: "100232"
     code: coremask2_202407ZeroCharge
     item_name: 蚀心面具·零电荷
+    introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
+    rank: 1
+  }
+  {
+    id: 100233
+    type: 4
+    arg: "100233"
+    code: Nova_medal
+    item_name: 新星勋章·银染显影
+    introduction: 新星勋章·银染显影
+    rank: 1
+  }
+  {
+    id: 100234
+    type: 4
+    arg: "100234"
+    code: Platinum_medal
+    item_name: 白金勋章·银染显影
+    introduction: 白金勋章·银染显影
+    rank: 1
+  }
+  {
+    id: 100235
+    type: 9
+    arg: "100235"
+    code: Coin_202408AngularGyrus
+    item_name: 致胜兵卒
+    introduction: 棋局之上，黑白之间，唯有小兵没有后退的权利。
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100236
+    type: 4
+    arg: "100236"
+    code: coremask2_202408AngularGyrus
+    item_name: 蚀心面具·银染显影
     introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
     rank: 1
   }
@@ -23164,6 +23345,87 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-决胜！热辣假期，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500149
+    type: 15
+    arg: "1500149"
+    code: Bumdle_Angulargyrus01
+    item_name: 银染显影限定装扮券·壹
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500150
+    type: 15
+    arg: "1500150"
+    code: Bumdle_Angulargyrus02
+    item_name: 银染显影限定装扮券·贰
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500151
+    type: 15
+    arg: "1500151"
+    code: Bumdle_Angulargyrus03
+    item_name: 银染显影限定装扮券·叁
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500152
+    type: 15
+    arg: "1500152"
+    code: Bumdle_invocation_3
+    item_name: 四星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500153
+    type: 15
+    arg: "1500153"
+    code: Bumdle_invocation_2
+    item_name: 五星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500154
+    type: 15
+    arg: "1500154"
+    code: Bumdle_sangvischoose
+    item_name: 融合势力定向收归委托书
+    introduction:
+      '''
+      在仓库中使用该委托书，即可从指定范围内选择获得一位初始三星融合势力单位。
+      *若指挥官未解锁“融合势力”系统，在获得所选的初始三星融合势力单位后将暂时无法使用，待后续指挥官解锁了“融合势力”系统后可正常使用。
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500155
+    type: 15
+    arg: "1500155"
+    code: Bumdle_equipment
+    item_name: 五星装备自选凭证
+    introduction: 在仓库中使用该自选凭证，即可从指定范围内选择获得一个非专属五星装备。
     rank: 1
     sort: -1
     type_sort: 1

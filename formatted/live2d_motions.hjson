@@ -34228,6 +34228,234 @@
     is_hurt: 1
   }
   {
+    id: 1070301
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1070302
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1070303
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1070304
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|M1928A1|HELLO
+    text: GUN|M1928A1|HELLO
+    name: 交互1
+    camera: 1
+    delay: 7000
+    voice_code: HELLO
+  }
+  {
+    id: 1070305
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|M1928A1|DIALOGUE2
+    text: GUN|M1928A1|DIALOGUE2
+    name: 交互2
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1070306
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|M1928A1|FORMATION
+    text: GUN|M1928A1|FORMATION
+    name: 交互3
+    camera: 1
+    delay: 1000
+    voice_code: FORMATION
+  }
+  {
+    id: 1070307
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|M1928A1|DIALOGUE1
+    text: GUN|M1928A1|DIALOGUE1
+    name: 交互4
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 1070308
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|M1928A1|GOATTACK
+    text: GUN|M1928A1|GOATTACK
+    name: 交互5
+    camera: 1
+    delay: 3000
+    voice_code: GOATTACK
+  }
+  {
+    id: 1070309
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|M1928A1|DIALOGUEWEDDING
+    text: GUN|M1928A1|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1070310
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|M1928A1|GAIN
+    text: GUN|M1928A1|GAIN
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: GAIN
+  }
+  {
+    id: 1070311
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1070312
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|M1928A1|SOULCONTRACT
+    text: GUN|M1928A1|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1070313
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1070314
+    type: 402
+    motion_name: broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|M1928A1|MOOD1
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: MOOD1
+  }
+  {
+    id: 1070315
+    type: 402
+    motion_name: broken_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|M1928A1|DIALOGUE1
+    text: GUN|M1928A1|DIALOGUE1
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 1070316
+    type: 402
+    motion_name: broken_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|M1928A1|BREAK
+    text: GUN|M1928A1|BREAK
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1070317
+    type: 402
+    motion_name: broken_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|M1928A1|SKILL2
+    text: GUN|M1928A1|SKILL2
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 1070318
+    type: 402
+    motion_name: broken_5.mtn
+    touch_area: ma
+    probability: 1
+    voice: GUN|M1928A1|WIN
+    text: GUN|M1928A1|WIN
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: WIN
+  }
+  {
+    id: 1070319
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|M1928A1|ATTACK
+    text: GUN|M1928A1|ATTACK
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: ATTACK
+  }
+  {
+    id: 1070320
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|M1928A1|MOOD2
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+    voice_code: MOOD2
+  }
+  {
     id: 5000101
     type: 101
     motion_name: daiji_idle_01.mtn

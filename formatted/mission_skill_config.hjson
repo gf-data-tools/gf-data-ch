@@ -74993,6 +74993,690 @@
     is_manual: 9700301
   }
   {
+    id: 9710601
+    name: 开门
+    description: 打开防御门
+    skill_group_id: 9710601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 102010091&&100000191
+    target_id: "102010091"
+    special_spot_minus: 1000001:1,1020101:1
+    is_manual: 680521
+  }
+  {
+    id: 9710602
+    name: 【标记】兔子_随机传送说明
+    skill_group_id: 9710602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9710601:1
+  }
+  {
+    id: 9710603
+    name: 【标记】兔子_传送下层说明
+    skill_group_id: 9710603
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9710602:1
+  }
+  {
+    id: 9711501
+    name: 【标记】挂载禁足Buff
+    skill_group_id: 9711501
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9711501:1
+  }
+  {
+    id: 9711502
+    name: 【标记】银章标记
+    skill_group_id: 9711502
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 1040100:1
+  }
+  {
+    id: 9711503
+    name: 控制台②
+    description: ·变更链接状态为←
+    skill_group_id: 9711503
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101020091)||(102030091&&101020091)
+    target_id: "101020091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711504
+    name: 控制台②
+    description: ·变更链接状态为↑
+    skill_group_id: 9711504
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101020091)||(102030091&&101020091)
+    target_id: "101020091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711505
+    name: 控制台②
+    description: ·变更链接状态为↓
+    skill_group_id: 9711505
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101020091)||(102020091&&101020091)
+    target_id: "101020091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711506
+    name: 控制台③
+    description: ·变更链接状态为→
+    skill_group_id: 9711506
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101030091)||(102030091&&101030091)
+    target_id: "101030091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711507
+    name: 控制台③
+    description: ·变更链接状态为↓
+    skill_group_id: 9711507
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101030091)||(102030091&&101030091)
+    target_id: "101030091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711508
+    name: 控制台③
+    description: ·变更链接状态为←
+    skill_group_id: 9711508
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101030091)||(102020091&&101030091)
+    target_id: "101030091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711509
+    name: 控制台④
+    description: ·变更链接状态为←
+    skill_group_id: 9711509
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101040091)||(102030091&&101040091)
+    target_id: "101040091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711510
+    name: 控制台④
+    description: ·变更链接状态为↑
+    skill_group_id: 9711510
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101040091)||(102030091&&101040091)
+    target_id: "101040091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711511
+    name: 控制台④
+    description: ·变更链接状态为→
+    skill_group_id: 9711511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101040091)||(102020091&&101040091)
+    target_id: "101040091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711512
+    name: 控制台⑤
+    description: ·变更链接状态为→
+    skill_group_id: 9711512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101050091)||(102030091&&101050091)
+    target_id: "101050091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711513
+    name: 控制台⑤
+    description: ·变更链接状态为↑
+    skill_group_id: 9711513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101050091)||(102030091&&101050091)
+    target_id: "101050091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711514
+    name: 控制台⑤
+    description: ·变更链接状态为↓
+    skill_group_id: 9711514
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101050091)||(102020091&&101050091)
+    target_id: "101050091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9711515
+    name: 【标识】提示文本
+    skill_group_id: 9711515
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9711501:1
+  }
+  {
+    id: 9712901
+    name: 控制台②
+    description: ·变更链接状态为←
+    skill_group_id: 9712901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101020091)||(102030091&&101020091)
+    target_id: "101020091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712902
+    name: 控制台②
+    description: ·变更链接状态为↓
+    skill_group_id: 9712902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101020091)||(102030091&&101020091)
+    target_id: "101020091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712903
+    name: 控制台②
+    description: ·变更链接状态为↗
+    skill_group_id: 9712903
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101020091)||(102020091&&101020091)
+    target_id: "101020091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712904
+    name: 控制台③
+    description: ·变更链接状态为↑
+    skill_group_id: 9712904
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101030091)||(102030091&&101030091)
+    target_id: "101030091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712905
+    name: 控制台③
+    description: ·变更链接状态为←
+    skill_group_id: 9712905
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101030091)||(102030091&&101030091)
+    target_id: "101030091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712906
+    name: 控制台③
+    description: ·变更链接状态为↘
+    skill_group_id: 9712906
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101030091)||(102020091&&101030091)
+    target_id: "101030091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712907
+    name: 控制台④
+    description: ·变更链接状态为↓
+    skill_group_id: 9712907
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101040091)||(102030091&&101040091)
+    target_id: "101040091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712908
+    name: 控制台④
+    description: ·变更链接状态为←
+    skill_group_id: 9712908
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101040091)||(102030091&&101040091)
+    target_id: "101040091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712909
+    name: 控制台④
+    description: ·变更链接状态为→
+    skill_group_id: 9712909
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101040091)||(102020091&&101040091)
+    target_id: "101040091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712910
+    name: 控制台⑤
+    description: ·变更链接状态为→
+    skill_group_id: 9712910
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101050091)||(102030091&&101050091)
+    target_id: "101050091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712911
+    name: 控制台⑤
+    description: ·变更链接状态为↑
+    skill_group_id: 9712911
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101050091)||(102030091&&101050091)
+    target_id: "101050091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712912
+    name: 控制台⑤
+    description: ·变更链接状态为←
+    skill_group_id: 9712912
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101050091)||(102020091&&101050091)
+    target_id: "101050091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712913
+    name: 控制台⑥
+    description: ·变更链接状态为→
+    skill_group_id: 9712913
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101060091)||(102030091&&101060091)
+    target_id: "101060091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712914
+    name: 控制台⑥
+    description: ·变更链接状态为↑
+    skill_group_id: 9712914
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101060091)||(102030091&&101060091)
+    target_id: "101060091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712915
+    name: 控制台⑥
+    description: ·变更链接状态为↓
+    skill_group_id: 9712915
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101060091)||(102020091&&101060091)
+    target_id: "101060091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712916
+    name: 控制台⑦
+    description: ·变更链接状态为↓
+    skill_group_id: 9712916
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102020091&&101070091)||(102030091&&101070091)
+    target_id: "101070091"
+    special_spot_add: 1020100:1
+    special_spot_minus: 1020200:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712917
+    name: 控制台⑦
+    description: ·变更链接状态为→
+    skill_group_id: 9712917
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101070091)||(102030091&&101070091)
+    target_id: "101070091"
+    special_spot_add: 1020200:1
+    special_spot_minus: 1020100:1,1020300:1
+    is_manual: 9711503
+  }
+  {
+    id: 9712918
+    name: 控制台⑦
+    description: ·变更链接状态为↑
+    skill_group_id: 9712918
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    trigger_id: (102010091&&101070091)||(102020091&&101070091)
+    target_id: "101070091"
+    special_spot_add: 1020300:1
+    special_spot_minus: 1020100:1,1020200:1
+    is_manual: 9711503
+  }
+  {
+    id: 9713001
+    name: 关闭防御门
+    description: 对同一防御门进行操作需冷却2回合
+    skill_group_id: 9713001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 2
+    trigger_id: 102010091&&100000190
+    target_id: "102010091"
+    special_spot_add: 1000001:1,1020101:1
+    is_manual: 680531
+  }
+  {
+    id: 9713002
+    name: 关闭防御门
+    description: 对同一防御门进行操作需冷却3回合
+    skill_group_id: 9713002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 2
+    trigger_id: 102020091&&100000190
+    target_id: "102020091"
+    special_spot_add: 1000001:1,1020201:1
+    is_manual: 680531
+  }
+  {
+    id: 9713003
+    name: 关闭防御门
+    description: 对同一防御门进行操作需冷却4回合
+    skill_group_id: 9713003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 2
+    trigger_id: 102030091&&100000190
+    target_id: "102030091"
+    special_spot_add: 1000001:1,1020301:1
+    is_manual: 680531
+  }
+  {
+    id: 9713004
+    name: 关闭防御门
+    description: 对同一防御门进行操作需冷却5回合
+    skill_group_id: 9713004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 2
+    trigger_id: 102040091&&100000190
+    target_id: "102040091"
+    special_spot_add: 1000001:1,1020401:1
+    is_manual: 680531
+  }
+  {
+    id: 9713005
+    name: 【标识】每回合重开门
+    skill_group_id: 9713005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 4
+    target_id: 102010091||102020091||102030091||102040091
+    special_spot_minus: 1000001:1,1020101:1,1020201:1,1020301:1,1020401:1
+  }
+  {
+    id: 9713006
+    name: 【标识】挂无敌Buff
+    skill_group_id: 9713006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 4
+    target_id: "971300191"
+    mission_buff_add: 9701203:1
+  }
+  {
+    id: 9713101
+    name: 拾取
+    skill_group_id: 9713101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "100010091"
+    target_id: "1"
+    special_spot_minus: 1000100:1
+    mission_buff_add: 9713101:1
+    is_manual: 9713101
+  }
+  {
+    id: 9713102
+    name: 拾取
+    skill_group_id: 9713102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "100010091"
+    target_id: "1"
+    special_spot_minus: 1000100:1
+    mission_buff_add: 20201:1,20202:1
+    is_manual: 9713101
+  }
+  {
+    id: 9713103
+    name: 拾取
+    skill_group_id: 9713103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "100010091"
+    target_id: "1"
+    special_spot_minus: 1000100:1
+    mission_buff_add: 20301:1,20302:1
+    is_manual: 9713101
+  }
+  {
     id: 40400001
     name: 【标记】枪少彩蛋测试
     skill_group_id: 40400001

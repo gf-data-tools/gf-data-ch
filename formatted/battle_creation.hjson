@@ -53773,6 +53773,62 @@
     scale: "1"
   }
   {
+    id: 4280
+    name: SPAS12子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "706"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 4281
+    name: SPAS12皮肤子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "706"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "1815"
+    trigger_creation_delay: "-1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 4282
+    name: SPAS12枪口火光
+    code: XD_Fire_new
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "40"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
     id: 5010
     name: 狙击子弹
     code: SniperSkillBullet
@@ -62726,6 +62782,111 @@
     creation_type: 2
     scale: "1"
     sound_order: BT_traintank_tank_explo
+  }
+  {
+    id: 6201
+    name: 泳装计量官子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "0.6,0,-0.2"
+    destination_type: "5"
+    destination_offset: "0.6,0,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "4001"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 6202
+    name: 泳装计量官大招子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "0.6,0,-0.2"
+    destination_type: "5"
+    destination_offset: "0.6,0,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "4002"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 6203
+    name: 泳装计量官锚击
+    code: Yongz_zidan
+    start_type: "2"
+    start_offset: "0.6,0,-0.2"
+    destination_type: "6"
+    destination_offset: "-0.1,0,0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 1500
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "620301"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 6204
+    name: 泳装计量官二技能洪流
+    code: Yongz_HL
+    start_type: "8"
+    start_offset: "-3.98,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-3.98,0,-1.65"
+    random_number: "3"
+    random_offset: "5.2,0,0;5.2,0,4.2;5.2,0,-4.2;7.8,0,0;7.8,0,4.2;7.8,0,-4.2;10.4,0,0;10.4,0,4.2;10.4,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+    trigger_creation_id: "620401"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 6205
+    name: 泳装计量官三技能洪流
+    code: Yongz_HL
+    start_type: "8"
+    start_offset: "-3.98,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-3.98,0,-1.65"
+    random_number: "1"
+    random_offset: "5.2,0,0;5.2,0,4.2;5.2,0,-4.2;7.8,0,0;7.8,0,4.2;7.8,0,-4.2;10.4,0,0;10.4,0,4.2;10.4,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "620501"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 6206
+    name: 潮湿效果
+    code: Yongz_bw
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
   }
   {
     id: 7001
@@ -114381,6 +114542,95 @@
     effect_area: 1
     is_form_play: 1
     creation_type: 5
+    scale: "1"
+  }
+  {
+    id: 620101
+    name: 泳装计量官子弹_假
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "0.6,0,-0.2"
+    destination_type: "5"
+    destination_offset: "0.6,0,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 620201
+    name: 泳装计量官大招隐藏子弹
+    start_type: "1"
+    start_offset: "0.6,0,-0.2"
+    destination_type: "5"
+    destination_offset: "0.6,0,-0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "4002"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 620301
+    name: 泳装计量官锚击伤害
+    code: Yongz_bao
+    start_type: "7"
+    start_offset: "-0.1,0,0.1"
+    destination_type: "7"
+    destination_offset: "-0.1,0,0.1"
+    is_form_offset: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "4003"
+    buff_id: 6101:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,2,2"
+  }
+  {
+    id: 620401
+    name: 泳装计量官二技能洪流伤害
+    start_type: "7"
+    start_offset: "-0.1,0,0.1"
+    destination_type: "7"
+    destination_offset: "-0.1,0,0.1"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "4004"
+    buff_id: 6101:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 620501
+    name: 泳装计量官三技能洪流伤害
+    start_type: "7"
+    start_offset: "-0.1,0,0.1"
+    destination_type: "7"
+    destination_offset: "-0.1,0,0.1"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "4005"
+    buff_id: 6101:1
+    is_form_play: 1
+    creation_type: 2
     scale: "1"
   }
   {

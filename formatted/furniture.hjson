@@ -30365,6 +30365,64 @@
     rotate: "2"
   }
   {
+    id: 20146
+    name: 至高赞赏
+    classes: 81
+    type: 201
+    space: "5,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “格里芬运动急报：一位体操选手吞下芥末炸弹，而后疾速旋转飞向观众席，最终于0.01m的距离惊险落地！”——喔噢，太刺激了！PA-15为这目眩神迷的一幕打出十分！
+    code: PA15_7501_deco
+    texture_type: "1"
+    offset: "0.000,-0.042,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20147
+    name: 残局的召唤
+    classes: 19
+    type: 201
+    space: "9,7,1,1,0,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: “白兵必须升变为后！干死他们！”新手兵蚁振臂高呼。“不对不对！我们得先解救被困住的国王……”老棋手兵蚁纵观全局，徐徐提议。
+    code: 202408Activity_Chess_deco,202408Activity_Chess
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0.000,-0.178,0.000|0.021,0.344,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 20148
+    name: 迷局破围者勋章
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“银染显影”活动中的卓越战绩，“自助者，天恒助之。冲破重重枷锁后，未来的无限将为你敞开。”
+    code: 202408Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20149
+    name: 海报-2024“零电荷”
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2024限时活动-零电荷的特典海报。
+    code: pv_202407activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -45963,6 +46021,111 @@
     decompose_gift: 100003
     description: MK23的海报。
     code: poster_Detective2024_Mk23
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310701
+    name: AUG-绯红女王
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AUG的海报。
+    code: poster_Chess2024_AUG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310702
+    name: 芮诺-逆位战车
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 芮诺的海报。
+    code: poster_Chess2024_Rhino
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310703
+    name: 汤姆森-无界棋后
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 汤姆森的海报。
+    code: poster_Chess2024_M1928A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310704
+    name: APC556-跃行骑士
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: APC556的海报。
+    code: poster_Chess2024_APC556
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310705
+    name: P7-神谕守护者
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P7的海报。
+    code: poster_Chess2024_P7
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310706
+    name: MP41-粉碎尖兵
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MP41的海报。
+    code: poster_Chess2024_MP41
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310707
+    name: IDW-猫咪重锤
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: IDW的海报。
+    code: poster_Chess2024_IDW
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

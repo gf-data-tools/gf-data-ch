@@ -4457,6 +4457,22 @@
     fix_damage: "1000009454"
   }
   {
+    id: 706
+    description: SPAS12攻击
+    damage_ratio: "100"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+    fix_damage: "1000007024"
+  }
+  {
     id: 707
     description: WA2000套装普通攻击
     damage_ratio: "100"
@@ -10900,6 +10916,60 @@
     fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
     range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
     range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1,15146:1
+  }
+  {
+    id: 4001
+    description: 泳装计量官普攻
+    damage_ratio: "60"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4002
+    description: 泳装计量官大招普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4003
+    description: 泳装计量官大招锚击
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4004
+    description: 泳装计量官二技能洪流
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4005
+    description: 泳装计量官三技能洪流
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000006101
   }
   {
     id: 7772

@@ -14374,6 +14374,24 @@
     creation_order: "4275"
   }
   {
+    id: 4060
+    name: SPAS12普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "4280,4282"
+    creation_delay: "0,0"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 4061
+    name: SPAS12魂特效普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "4281,4282"
+    creation_delay: "0,0"
+    sound_order: satk_spas12_goblinhunter
+  }
+  {
     id: 5010
     name: 炮狙射击
     action_order: "1"
@@ -18786,6 +18804,58 @@
     creation_order: "2963,2964,21,21"
     creation_delay: "0,5,0,5"
     effect_duration: "1"
+  }
+  {
+    id: 6101
+    name: 泳装计量官普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "6201,620101,6201,620101"
+    creation_delay: "0,3,7,9"
+  }
+  {
+    id: 6102
+    name: 泳装计量官大招
+    action_order: s
+    action_delay: "40"
+    action_playspeed: "100"
+    creation_order: "6202,6202,6202,6202,620201,6203"
+    creation_delay: "80,83,87,90,85,135"
+    effect_order: 3(GagerSwimwear;埃吉尔之锚;Aegir Anchor;Gager-VWV),10(Gager_Summer;0;0)
+    effect_delay: "1,41,41"
+    effect_duration: "1,90,30"
+    stop_time_duration: "40"
+  }
+  {
+    id: 6103
+    name: 泳装计量官大招解析
+    action_order: s
+    action_delay: "40"
+    action_playspeed: "100"
+    creation_order: "6202,6202,6202,6202,620201,620201,620201,620201,6203"
+    creation_delay: "80,92,82,96,84,88,86,90,135"
+    effect_order: 3(GagerSwimwear_1;埃吉尔之锚;Aegir Anchor;Gager-VWV),10(Gager_Summer;0;0)
+    effect_delay: "1,41,41"
+    effect_duration: "1,90,30"
+    stop_time_duration: "40"
+  }
+  {
+    id: 6104
+    name: 泳装计量官二技能洪流
+    creation_order: "6204"
+  }
+  {
+    id: 6105
+    name: 泳装计量官三技能洪流
+    creation_order: "6205"
+  }
+  {
+    id: 6106
+    name: 泳装计量官三技能换场景
+    stop_time_duration: "60"
+    scene_order: beach
+    scene_play_speed: "300"
+    scene_transition: "2"
   }
   {
     id: 7001
