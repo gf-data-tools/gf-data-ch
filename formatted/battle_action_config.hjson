@@ -25987,6 +25987,39 @@
     move_delay: "0,59,118,177"
   }
   {
+    id: 39001
+    name: L9A1支援小队cutIn
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9784"
+    creation_delay: "30"
+    sound_order: BT_squad_morta
+    sound_delay: "29"
+  }
+  {
+    id: 39002
+    name: L9A1普通攻击
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9785"
+  }
+  {
+    id: 39003
+    name: L9A1主技能-白天
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9787,5790"
+    creation_delay: "0,2"
+  }
+  {
+    id: 39004
+    name: L9A1主技能-夜晚
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9791,5790"
+    creation_delay: "0,2"
+  }
+  {
     id: 40001
     name: 灰熊新技能
     action_delay: "-1"

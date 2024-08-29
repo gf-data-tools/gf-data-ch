@@ -32862,6 +32862,62 @@
     dodge_number: *202
   }
   {
+    id: 5324
+    name: KLIN装备
+    conflict_type: 2324
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5325
+    name: KLIN首次掷弹增益
+    conflict_type: 2325
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5326
+    name: KLIN技能触发
+    conflict_type: 2326
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 5327
+    name: KLIN伤害提升
+    conflict_type: 2327
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "200"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5328
+    name: KLIN免疫伤害
+    conflict_type: 2328
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000002455
+  }
+  {
     id: 5700
     name: ***
     conflict_type: 100
@@ -32872,6 +32928,143 @@
     boss_available: 1
     trigger_creation_id: "5700"
     is_form_play: 1
+  }
+  {
+    id: 5801
+    name: L9A1攻击次数
+    conflict_type: 5801
+    max_tier: 3
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5802
+    name: L9A1烟雾命中下降
+    conflict_type: 5802
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 5803
+    name: L9A1烟雾移速下降
+    conflict_type: 5803
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    move_number: *203
+  }
+  {
+    id: 5804
+    name: L9A1夜晚夜视提升
+    conflict_type: 5804
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    night_view_percent: *204
+  }
+  {
+    id: 5805
+    name: L9A1夜晚触发
+    conflict_type: 5805
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5806
+    name: L9A1二技能触发1
+    conflict_type: 5806
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5807
+    name: L9A1二技能触发2
+    conflict_type: 5807
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5808
+    name: L9A1护甲下降
+    conflict_type: 5808
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+  }
+  {
+    id: 5809
+    name: L9A1护盾
+    conflict_type: 5809
+    max_tier: 99
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 5810
+    name: L9A1三技能触发1
+    conflict_type: 5810
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5811
+    name: L9A1三技能触发2
+    conflict_type: 5811
+    max_tier: 3
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5812
+    name: L9A1范围易伤
+    conflict_type: 5812
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
+  }
+  {
+    id: 5813
+    name: L9A1随机易伤
+    conflict_type: 5813
+    max_tier: 3
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
   }
   {
     id: 6000
@@ -63257,6 +63450,68 @@
     trigger_creation_id: "426810"
   }
   {
+    id: 580601
+    name: L9A1二技能触发1对象
+    conflict_type: 580601
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "503012"
+  }
+  {
+    id: 580602
+    name: L9A1二技能触发1敌人
+    conflict_type: 580602
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 580603
+    name: L9A1二技能触发1层数
+    conflict_type: 580603
+    max_tier: 70
+    type: 400
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 580701
+    name: L9A1二技能触发2对象
+    conflict_type: 580701
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 580901
+    name: L9A1护盾层数
+    conflict_type: 580901
+    max_tier: 15
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 580902
+    name: L9A1护盾触发
+    conflict_type: 580902
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "503011"
+  }
+  {
     id: 710101
     name: ****
     conflict_type: 321
@@ -70681,6 +70936,16 @@
     duration: *101
     boss_available: 1
     night_view_percent: "100"
+  }
+  {
+    id: 908801
+    name: 枪种反馈触发
+    conflict_type: 908801
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
   }
   {
     id: 920001

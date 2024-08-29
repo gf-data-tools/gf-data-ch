@@ -9766,6 +9766,7 @@
     destination_offset: "-0.7"
     is_form_offset: 1
     is_form_offset_start: 1
+    is_tracing: 1
     exist_duration: "9999"
     is_form_play: 1
     scale: "1"
@@ -86745,6 +86746,162 @@
     scale: "1"
   }
   {
+    id: 9784
+    name: L9A1支援小队枪口火花
+    code: XDZY/XDZY_TY4
+    start_type: "3"
+    start_offset: "1.2,1.2"
+    destination_type: "3"
+    destination_offset: "1.2,1.2"
+    is_form_offset_start: 1
+    rotate: "0,0,-10"
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+    sound_order: BT_squad_mortar
+  }
+  {
+    id: 9785
+    name: L9A1普通攻击
+    code: XDZY/XDZY_TY5_3
+    start_type: "8"
+    start_offset: "-50,6"
+    destination_type: "6"
+    decision_offset: "-45,6"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 2400
+    speed: 2400
+    spin_velocity: -170
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "9786,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_mortar
+    edge_indicator: Pics/Squads/L9A1_icon:1
+  }
+  {
+    id: 9786
+    name: L9A1普通攻击结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    hurt_id: "1701"
+    buff_id: 5812:1,580601:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9787
+    name: L9A1主技能-白天
+    code: XDZY/XDZY_TY5_3
+    start_type: "8"
+    start_offset: "-50,6"
+    destination_type: "6"
+    decision_offset: "-46,6"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 2400
+    speed: 2400
+    easing_type: 1
+    spin_velocity: -170
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "25,9788,9789"
+    trigger_creation_delay: "-1,-1,-1"
+    sound_order: BT_squad_mortar
+    edge_indicator: Pics/Squads/L9A1_icon:1
+  }
+  {
+    id: 9788
+    name: L9A1主技能结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset_start: 1
+    is_tracing: 1
+    speed: 2000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "1702"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9789
+    name: L9A1烟雾
+    code: Smoke
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+    trigger_creation_id: "9790"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 9790
+    name: L9A1烟雾结算范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *103
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *102
+    buff_id: 5802:1,5803:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_gasbomb_explode
+  }
+  {
+    id: 9791
+    name: L9A1主技能
+    code: XDZY/XDZY_TY5_3
+    start_type: "8"
+    start_offset: "-50,6"
+    destination_type: "6"
+    decision_offset: "-46,6"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 2400
+    speed: 2400
+    easing_type: 1
+    spin_velocity: -170
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "25,9788"
+    trigger_creation_delay: "-1,-1,-1"
+    sound_order: BT_squad_mortar
+    edge_indicator: Pics/Squads/L9A1_icon:1
+  }
+  {
     id: 10000
     name: 战区boss特效
     code: Boss_dead show
@@ -118010,6 +118167,20 @@
     exist_duration: "60"
     creation_type: 2
     scale: "1"
+  }
+  {
+    id: 978601
+    name: L9A1普通攻击结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
   }
   {
     id: 999001

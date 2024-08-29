@@ -13153,7 +13153,7 @@
     bonus_type: armor:600
     passive_skill: "740091"
     max_level: 10
-    auto_select_id: 20058
+    auto_select_id: 20091
     is_show: 1
     obtain_ids: "3016"
     sp_description: 受到的伤害-1
@@ -13186,8 +13186,42 @@
     exclusive_rate: 3
     bonus_type: dodge:1000
     max_level: 10
-    auto_select_id: 20051
+    auto_select_id: 20092
     is_show: 1
     obtain_ids: "3117"
+  }
+  {
+    id: 418
+    name: NO.1外骨骼
+    description:
+      '''
+      伤害+<pow>
+      回避+<dodge>技能增强$KLIN专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    dodge: "3,5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_KLIN
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "177"
+    equip_introduction: 据说KLIN给制造商的唯一要求是，她的装备必须和她一样是NO.1！
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,dodge:1000
+    passive_skill: "1003001"
+    max_level: 10
+    auto_select_id: 20093
+    is_show: 1
+    obtain_ids: "3109"
+    description_skill: 1003001
   }
 ]

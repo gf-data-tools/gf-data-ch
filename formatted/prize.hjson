@@ -16042,6 +16042,12 @@
     furniture: "20146"
   }
   {
+    id: 2603
+    name: 2024九月签到
+    gem: 90
+    equip_ids: "418"
+  }
+  {
     id: 3001
     name: 柯尔特左轮
     item_ids: 1318-1
@@ -17574,6 +17580,16 @@
     id: 4324
     name: 头像：梦想家-雾月翼手头像
     item_ids: 2396-1
+  }
+  {
+    id: 4325
+    name: 融合势力：计量官-VWV型
+    sangvis: "1028"
+  }
+  {
+    id: 4326
+    name: 头像：计量官-VWV型头像
+    item_ids: 2556-1
   }
   {
     id: 5001
@@ -27380,6 +27396,26 @@
     id: 8575
     name: 通行证复刻
     gift: 30009-1
+  }
+  {
+    id: 8576
+    name: 通行证68
+    item_ids: 140043-1
+  }
+  {
+    id: 8577
+    name: 通行证98
+    item_ids: 140044-1,10606-300,200047-1,2558-1
+  }
+  {
+    id: 8578
+    name: 通行证30
+    item_ids: 140044-1,10606-300,200047-1,2558-1
+  }
+  {
+    id: 8579
+    name: 通行证复刻
+    gift: 30010-1
   }
   {
     id: 9101
@@ -53705,6 +53741,28 @@
     item_ids: 1500147-1
   }
   {
+    id: 120126
+    name: 增量补给-15级-22
+    item_ids: 41-30,1500156-1
+  }
+  {
+    id: 120127
+    name: 增量补给-25级-22
+    item_ids: 41-30
+    gift: 30022-1
+  }
+  {
+    id: 120128
+    name: 增量补给-35级-22
+    item_ids: 41-30,1500157-1
+  }
+  {
+    id: 120129
+    name: 增量补给-45级-22
+    gem: 680
+    item_ids: 1500158-1
+  }
+  {
     id: 121001
     name: 喧闹之石
     furniture: "7240"
@@ -54158,6 +54216,21 @@
     id: 130063
     name: 进阶付费展示奖励-21
     item_ids: 10606-300,200046-1,2541-1
+  }
+  {
+    id: 130064
+    name: 前线协议额外奖励-22
+    item_ids: 1500159-1
+  }
+  {
+    id: 130065
+    name: 基础付费展示奖励-22
+    item_ids: 602-1,1500156-1,1500157-1,505-680
+  }
+  {
+    id: 130066
+    name: 进阶付费展示奖励-22
+    item_ids: 10606-300,200047-1,2558-1
   }
   {
     id: 140001
@@ -55111,6 +55184,46 @@
     id: 140188
     name: 必得未解锁人形序标-Erma
     gun_id: "376"
+  }
+  {
+    id: 140189
+    name: 必得未解锁人形序标-P50
+    gun_id: "401"
+  }
+  {
+    id: 140190
+    name: 必得未解锁人形序标-PA-15
+    gun_id: "260"
+  }
+  {
+    id: 140191
+    name: 必得未解锁人形序标-ADS
+    gun_id: "214"
+  }
+  {
+    id: 140192
+    name: 必得未解锁人形序标-索米
+    gun_id: "115"
+  }
+  {
+    id: 140193
+    name: 必得未解锁人形序标-G41
+    gun_id: "62"
+  }
+  {
+    id: 140194
+    name: 必得未解锁人形序标-贝奥武夫
+    gun_id: "393"
+  }
+  {
+    id: 140195
+    name: 必得未解锁人形序标-MG5
+    gun_id: "109"
+  }
+  {
+    id: 140196
+    name: 必得未解锁人形序标-SIG MCX
+    gun_id: "338"
   }
   {
     id: 150001
@@ -57812,6 +57925,418 @@
     name: 战区最终关51%~100%奖励补发
     item_ids: 310-30,9-35,46-175,506-175
     coins: 1-175,2-175,3-175
+    icon: Bumdle_red
+  }
+  {
+    id: 413001
+    name: 战区3000积分奖励
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    icon: Bumdle_red
+  }
+  {
+    id: 413002
+    name: 战区30000积分奖励
+    item_ids: 311-1,506-100,9-50
+    icon: CentreDataL9A1
+  }
+  {
+    id: 413003
+    name: 战区60000积分奖励
+    item_ids: 311-2,46-100
+    icon: CentreDataL9A1
+  }
+  {
+    id: 413004
+    name: 战区90000积分奖励
+    item_ids: 311-3,46-100,506-100
+    coins: 1-500
+    icon: CentreDataL9A1
+  }
+  {
+    id: 413005
+    name: 战区120000积分奖励
+    item_ids: 8-1,41-20,9-50
+    icon: Bumdle_red
+  }
+  {
+    id: 413006
+    name: 战区155000积分奖励
+    item_ids: 311-4,46-200,506-100
+    icon: CentreDataL9A1
+  }
+  {
+    id: 413007
+    name: 战区190000积分奖励
+    item_ids: 46-200
+    coins: 2-500
+    icon: Bumdle_red
+  }
+  {
+    id: 413008
+    name: 战区225000积分奖励
+    item_ids: 311-5,506-100,44-200,9-50
+    icon: CentreDataL9A1
+  }
+  {
+    id: 413009
+    name: 战区260000积分奖励
+    item_ids: 8-1
+    coins: 3-500
+    icon: Bumdle_red
+  }
+  {
+    id: 413010
+    name: 战区300000积分奖励
+    item_ids: 311-5,46-200,506-100
+    icon: CentreDataL9A1
+  }
+  {
+    id: 413011
+    name: 战区340000积分奖励
+    item_ids: 140-1,41-50
+    icon: Bumdle_red
+  }
+  {
+    id: 413012
+    name: 战区380000积分奖励
+    item_ids: 9-100,46-300,10604-5
+    icon: Bumdle_red
+  }
+  {
+    id: 413013
+    name: 战区430000积分奖励
+    item_ids: 46-300,506-200,10604-5
+    icon: Bumdle_red
+  }
+  {
+    id: 413014
+    name: 战区480000积分奖励
+    item_ids: 8-1,44-300,10604-5
+    icon: Bumdle_red
+  }
+  {
+    id: 413101
+    name: 战区积分排行冠军奖励
+    item_ids: 311-40,9-100,46-500,506-500
+    coins: 1-500,2-500,3-500
+    icon: Bumdle_red
+  }
+  {
+    id: 413102
+    name: 战区积分排行亚军奖励
+    item_ids: 311-39,9-95,46-475,506-475
+    coins: 1-475,2-475,3-475
+    icon: Bumdle_red
+  }
+  {
+    id: 413103
+    name: 战区积分排行季军奖励
+    item_ids: 311-38,9-90,46-450,506-450
+    coins: 1-450,2-450,3-450
+    icon: Bumdle_red
+  }
+  {
+    id: 413104
+    name: 战区积分排行第4名奖励
+    item_ids: 311-37,9-85,46-425,506-425
+    coins: 1-425,2-425,3-425
+    icon: Bumdle_red
+  }
+  {
+    id: 413105
+    name: 战区积分排行第5名奖励
+    item_ids: 311-36,9-80,46-400,506-400
+    coins: 1-400,2-400,3-400
+    icon: Bumdle_red
+  }
+  {
+    id: 413106
+    name: 战区积分排行第6名奖励
+    item_ids: 311-35,9-75,46-375,506-375
+    coins: 1-375,2-375,3-375
+    icon: Bumdle_red
+  }
+  {
+    id: 413107
+    name: 战区积分排行第7名奖励
+    item_ids: 311-35,9-70,46-350,506-350
+    coins: 1-350,2-350,3-350
+    icon: Bumdle_red
+  }
+  {
+    id: 413108
+    name: 战区积分排行第8名奖励
+    item_ids: 311-35,9-65,46-325,506-325
+    coins: 1-325,2-325,3-325
+    icon: Bumdle_red
+  }
+  {
+    id: 413109
+    name: 战区积分排行第9名奖励
+    item_ids: 311-35,9-60,46-300,506-300
+    coins: 1-300,2-300,3-300
+    icon: Bumdle_red
+  }
+  {
+    id: 413110
+    name: 战区积分排行第10名奖励
+    item_ids: 311-35,9-55,46-275,506-275
+    coins: 1-275,2-275,3-275
+    icon: Bumdle_red
+  }
+  {
+    id: 413111
+    name: 战区积分排行第11~100名奖励
+    item_ids: 311-32,9-50,46-250,506-250
+    coins: 1-250,2-250,3-250
+    icon: Bumdle_red
+  }
+  {
+    id: 413112
+    name: 战区积分排行1%~5%奖励
+    item_ids: 311-30,9-45,46-225,506-225
+    coins: 1-225,2-225,3-225
+    icon: Bumdle_red
+  }
+  {
+    id: 413113
+    name: 战区积分排行6%~10%奖励
+    item_ids: 311-25,9-40,46-200,506-200
+    coins: 1-200,2-200,3-200
+    icon: Bumdle_red
+  }
+  {
+    id: 413114
+    name: 战区积分排行11%~15%奖励
+    item_ids: 311-20,9-35,46-175,506-175
+    coins: 1-175,2-175,3-175
+    icon: Bumdle_red
+  }
+  {
+    id: 413115
+    name: 战区积分排行16%~20%奖励
+    item_ids: 311-15,9-30,46-150,506-150
+    coins: 1-150,2-150,3-150
+    icon: Bumdle_red
+  }
+  {
+    id: 413116
+    name: 战区积分排行21%~30%奖励
+    item_ids: 311-10,9-25,46-125,506-125
+    coins: 1-125,2-125,3-125
+    icon: Bumdle_red
+  }
+  {
+    id: 413117
+    name: 战区积分排行31%~40%奖励
+    item_ids: 311-5,9-20,46-100,506-100
+    coins: 1-100,2-100,3-100
+    icon: Bumdle_red
+  }
+  {
+    id: 413118
+    name: 战区积分排行41%~50%奖励
+    item_ids: 311-2,9-15,46-75,506-75
+    coins: 1-75,2-75,3-75
+    icon: Bumdle_red
+  }
+  {
+    id: 413119
+    name: 战区积分排行51%~100%奖励
+    item_ids: 9-10,46-50,506-50
+    coins: 1-50,2-50,3-50
+    icon: Bumdle_red
+  }
+  {
+    id: 413201
+    name: 战区最终关排行冠军奖励
+    mp: 10000
+    ammo: 10000
+    mre: 10000
+    part: 10000
+    item_ids: 141-12
+    icon: Bumdle_red
+  }
+  {
+    id: 413202
+    name: 战区最终关排行亚军奖励
+    mp: 9500
+    ammo: 9500
+    mre: 9500
+    part: 9500
+    item_ids: 141-11
+    icon: Bumdle_red
+  }
+  {
+    id: 413203
+    name: 战区最终关排行季军奖励
+    mp: 9000
+    ammo: 9000
+    mre: 9000
+    part: 9000
+    item_ids: 141-10
+    icon: Bumdle_red
+  }
+  {
+    id: 413204
+    name: 战区最终关排行第4名奖励
+    mp: 8500
+    ammo: 8500
+    mre: 8500
+    part: 8500
+    item_ids: 141-9
+    icon: Bumdle_red
+  }
+  {
+    id: 413205
+    name: 战区最终关排行第5名奖励
+    mp: 8000
+    ammo: 8000
+    mre: 8000
+    part: 8000
+    item_ids: 141-8
+    icon: Bumdle_red
+  }
+  {
+    id: 413206
+    name: 战区最终关排行第6名奖励
+    mp: 7500
+    ammo: 7500
+    mre: 7500
+    part: 7500
+    item_ids: 141-7
+    icon: Bumdle_red
+  }
+  {
+    id: 413207
+    name: 战区最终关排行第7名奖励
+    mp: 7000
+    ammo: 7000
+    mre: 7000
+    part: 7000
+    item_ids: 141-6
+    icon: Bumdle_red
+  }
+  {
+    id: 413208
+    name: 战区最终关排行第8名奖励
+    mp: 6500
+    ammo: 6500
+    mre: 6500
+    part: 6500
+    item_ids: 141-5
+    icon: Bumdle_red
+  }
+  {
+    id: 413209
+    name: 战区最终关排行第9名奖励
+    mp: 6000
+    ammo: 6000
+    mre: 6000
+    part: 6000
+    item_ids: 141-4
+    icon: Bumdle_red
+  }
+  {
+    id: 413210
+    name: 战区最终关排行第10名奖励
+    mp: 5500
+    ammo: 5500
+    mre: 5500
+    part: 5500
+    item_ids: 141-3
+    icon: Bumdle_red
+  }
+  {
+    id: 413211
+    name: 战区最终关排行第11~100名奖励
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 141-2
+    icon: Bumdle_red
+  }
+  {
+    id: 413212
+    name: 战区最终关排行1%~5%奖励
+    mp: 4500
+    ammo: 4500
+    mre: 4500
+    part: 4500
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413213
+    name: 战区最终关排行6%~10%奖励
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413214
+    name: 战区最终关排行11%~15%奖励
+    mp: 3500
+    ammo: 3500
+    mre: 3500
+    part: 3500
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413215
+    name: 战区最终关排行16%~20%奖励
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413216
+    name: 战区最终关排行21%~30%奖励
+    mp: 2500
+    ammo: 2500
+    mre: 2500
+    part: 2500
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413217
+    name: 战区最终关排行31%~40%奖励
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413218
+    name: 战区最终关排行41%~50%奖励
+    mp: 1500
+    ammo: 1500
+    mre: 1500
+    part: 1500
+    item_ids: 141-1
+    icon: Bumdle_red
+  }
+  {
+    id: 413219
+    name: 战区最终关排行51%~100%奖励
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
     icon: Bumdle_red
   }
 ]

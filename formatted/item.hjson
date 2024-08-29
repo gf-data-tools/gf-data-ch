@@ -802,6 +802,24 @@
     rank: 1
   }
   {
+    id: 140
+    type: 3
+    arg: "41"
+    code: Medal_Theater13th
+    item_name: 第十三战区开拓者勋章
+    introduction: 表彰该指挥官及其麾下战术人形在第十三期战区通过不懈努力收获的瞩目积分，“您奋斗在前线的身影，已成为人们眼中的希望。”
+    rank: 1
+  }
+  {
+    id: 141
+    type: 3
+    arg: "42"
+    code: Medal_Theater13th_rank
+    item_name: 第十三战区征服者勋章
+    introduction: 表彰该指挥官及其麾下战术人形在第十三期战区立下的卓越战功，“以您为核心，人形们汇聚成了席卷一切的怒涛。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -889,6 +907,15 @@
     code: CentreDataRPG29
     item_name: 中枢数据:RPG-29
     introduction: 重装部队RPG-29的数据碎片，—“会有谁在冬夜里使用绿油油的迷彩进行伪装？零分！”“老姐，首先，那是一棵圣诞树。”
+    rank: 1
+  }
+  {
+    id: 311
+    type: 1
+    arg: "1"
+    code: CentreDataL9A1
+    item_name: 中枢数据:L9A1
+    introduction: 重装部队L9A1的数据碎片，—“做完这单差不多就该休息了吧？”—“哎呀……你确定吗？下一单有限时双倍返利喔。”
     rank: 1
   }
   {
@@ -15257,6 +15284,33 @@
     rank: 1
   }
   {
+    id: 2556
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_GagerSwimwear
+    item_name: 计量官-VWV型头像
+    introduction: 计量官-VWV型头像
+    rank: 1
+  }
+  {
+    id: 2557
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_LWMMG
+    item_name: LWMMG-柔暖根音
+    introduction: LWMMG-柔暖根音
+    rank: 1
+  }
+  {
+    id: 2558
+    type: 5
+    arg: "1"
+    code: card_BattlePass_LWMMG
+    item_name: 名片：过载宇宙
+    introduction: 名片：过载宇宙
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -21210,6 +21264,22 @@
     rank: 1
   }
   {
+    id: 140043
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第22期前线协议
+    rank: 1
+  }
+  {
+    id: 140044
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第22期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -21633,6 +21703,15 @@
     code: profileFrame_BattlePass_M1851N
     item_name: 头像框·甜心轻羽
     introduction: 头像框·甜心轻羽
+    rank: 1
+  }
+  {
+    id: 200047
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_LWMMG
+    item_name: 头像框·律动光束
+    introduction: 头像框·律动光束
     rank: 1
   }
   {
@@ -23426,6 +23505,50 @@
     code: Bumdle_equipment
     item_name: 五星装备自选凭证
     introduction: 在仓库中使用该自选凭证，即可从指定范围内选择获得一个非专属五星装备。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500156
+    type: 15
+    arg: "1500156"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-独奏边界，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500157
+    type: 15
+    arg: "1500157"
+    code: package_choose
+    item_name: 配件类装备自选包
+    introduction: 来自于前线协议-独奏边界，可从该指定投递配给序标内选择获取一件配件类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500158
+    type: 15
+    arg: "1500158"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-独奏边界，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500159
+    type: 15
+    arg: "1500159"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-独奏边界，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1

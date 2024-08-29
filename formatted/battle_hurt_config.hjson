@@ -4658,6 +4658,32 @@
     fix_damage: "1000002426"
   }
   {
+    id: 1701
+    description: L9A1普通攻击
+    damage_ratio: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+  }
+  {
+    id: 1702
+    description: L9A1主技能
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 2001
     description: 英雄本色
     damage_ratio: *201

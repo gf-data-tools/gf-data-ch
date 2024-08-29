@@ -7210,6 +7210,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_christmas
+    event_id: 3472
   }
   {
     id: 541
@@ -7224,6 +7225,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_christmas
+    event_id: 3473
   }
   {
     id: 542
@@ -7549,6 +7551,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_20winter
+    event_id: 3474
   }
   {
     id: 567
@@ -8092,6 +8095,7 @@
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 3469
   }
   {
     id: 614
@@ -8652,6 +8656,7 @@
     order: 1
     rarity: 5
     filter_type: "1,2"
+    event_id: 3470
   }
   {
     id: 655
@@ -8664,6 +8669,7 @@
     order: 1
     rarity: 5
     filter_type: "1,2"
+    event_id: 3471
   }
   {
     id: 656
@@ -19343,6 +19349,36 @@
     filter_type: "1"
   }
   {
+    id: 1556
+    item_id: 2556
+    sub_type: 1
+    code: profilePic_sangvis_GagerSwimwear
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    frame_id: 200002
+  }
+  {
+    id: 1557
+    item_id: 2557
+    sub_type: 1
+    gem: 40
+    item_ids: 508-1000
+    onsale: 1
+    code: profilePic_BattlePass_LWMMG
+    order: 1
+    rarity: 5
+    skin: 30022
+  }
+  {
+    id: 1558
+    item_id: 2558
+    sub_type: 2
+    code: card_BattlePass_LWMMG
+    order: 1
+    rarity: 5
+  }
+  {
     id: 2501
     item_id: 3501
     sub_type: 1
@@ -19781,6 +19817,15 @@
     item_id: 200046
     sub_type: 4
     code: profileFrame_BattlePass_M1851N
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100047
+    item_id: 200047
+    sub_type: 4
+    code: profileFrame_BattlePass_LWMMG
     order: 1
     rarity: 5
     filter_type: "5"
