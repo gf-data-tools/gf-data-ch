@@ -466,6 +466,16 @@
     sp_skill_target: "1"
   }
   {
+    id: 1080
+    description: G41Buff监视
+    record_chara1: 1000009494
+    watch_trigger_type: 1
+    activation_watch_trigger: 1063
+    activation_skills: "1002905"
+    sp_skill_target: "1"
+    new_record_chara1: 1000009494
+  }
+  {
     id: 3001
     description: 距离监视
     max_times: 1

@@ -57133,6 +57133,124 @@
     damage_reduce_number: "110"
   }
   {
+    id: 9620
+    name: G41套装装备1
+    conflict_type: 2620
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9621
+    name: G41套装装备2
+    conflict_type: 2621
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9622
+    name: G41套装
+    conflict_type: 2622
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1080
+  }
+  {
+    id: 9623
+    name: M500套装装备1
+    conflict_type: 2623
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9624
+    name: M500套装装备2
+    conflict_type: 2624
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9625
+    name: M500套装
+    conflict_type: 2625
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9626
+    name: G41套装火力提升
+    description: 火力上升
+    conflict_type: 2626
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9627
+    name: G41射速提升
+    conflict_type: 2627
+    max_tier: 12
+    type: 104
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: "103"
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9628
+    name: M500套装护甲
+    conflict_type: 2628
+    max_tier: 3
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: "105"
+  }
+  {
+    id: 9629
+    name: M500套装伤害
+    conflict_type: 2629
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    pow_number: "105"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
