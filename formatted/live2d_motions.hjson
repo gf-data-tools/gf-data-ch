@@ -34460,7 +34460,7 @@
     type: 101
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11080301
+    name: 待机
   }
   {
     id: 1080302
@@ -34468,7 +34468,7 @@
     motion_name: wait_1.mtn
     hold_time: "13,15"
     probability: 0.5
-    name: live2d_motions-11080302
+    name: 特殊待机1
     camera: 1
   }
   {
@@ -34477,7 +34477,7 @@
     motion_name: wait_2.mtn
     hold_time: "23,25"
     probability: 0.5
-    name: live2d_motions-11080303
+    name: 特殊待机2
     camera: 1
   }
   {
@@ -34488,7 +34488,7 @@
     probability: 1
     voice: GUN|LTLX7000|DIALOGUE1
     text: GUN|LTLX7000|DIALOGUE1
-    name: live2d_motions-11080304
+    name: 交互1
     camera: 1
     voice_code: DIALOGUE1
   }
@@ -34500,7 +34500,7 @@
     probability: 1
     voice: GUN|LTLX7000|BREAK
     text: GUN|LTLX7000|BREAK
-    name: live2d_motions-11080305
+    name: 交互2
     camera: 1
     delay: 2700
     voice_code: BREAK
@@ -34512,7 +34512,7 @@
     touch_area: leg
     probability: 1
     voice: GUN|LTLX7000|MOOD1
-    name: live2d_motions-11080306
+    name: 交互3
     camera: 1
     delay: 200
     voice_code: MOOD1
@@ -34524,7 +34524,7 @@
     touch_area: feet
     probability: 1
     voice: GUN|LTLX7000|MOOD2
-    name: live2d_motions-11080307
+    name: 交互4
     camera: 1
     delay: 3900
     voice_code: MOOD2
@@ -34536,7 +34536,7 @@
     touch_area: body
     probability: 1
     voice: GUN|LTLX7000|LOWMOOD
-    name: live2d_motions-11080308
+    name: 交互5
     camera: 1
     delay: 2730
     voice_code: LOWMOOD
@@ -34549,7 +34549,7 @@
     probability: 1
     voice: GUN|LTLX7000|DIALOGUEWEDDING
     text: GUN|LTLX7000|DIALOGUEWEDDING
-    name: live2d_motions-11080309
+    name: 结契后交互
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -34560,7 +34560,7 @@
     probability: 1
     voice: GUN|LTLX7000|HELLO
     text: GUN|LTLX7000|HELLO
-    name: live2d_motions-11080310
+    name: 上线响应
     camera: 1
     delay: 3000
     voice_code: HELLO
@@ -34570,7 +34570,7 @@
     type: 300
     motion_name: shake.mtn
     probability: 1
-    name: live2d_motions-11080311
+    name: 晃动响应
     camera: 1
   }
   {
@@ -34580,7 +34580,7 @@
     probability: 1
     voice: GUN|LTLX7000|SOULCONTRACT
     text: GUN|LTLX7000|SOULCONTRACT
-    name: live2d_motions-11080312
+    name: 结契动作
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -34589,7 +34589,7 @@
     type: 401
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11080313
+    name: 待机
     is_hurt: 1
   }
   {
@@ -34600,7 +34600,7 @@
     probability: 1
     voice: GUN|LTLX7000|DIALOGUE1
     text: GUN|LTLX7000|DIALOGUE1
-    name: live2d_motions-11080314
+    name: 交互1
     camera: 1
     is_hurt: 1
     voice_code: DIALOGUE1
@@ -34613,7 +34613,7 @@
     probability: 1
     voice: GUN|LTLX7000|BREAK
     text: GUN|LTLX7000|BREAK
-    name: live2d_motions-11080315
+    name: 交互2
     camera: 1
     is_hurt: 1
     voice_code: BREAK
@@ -34626,7 +34626,7 @@
     probability: 1
     voice: GUN|LTLX7000|FIX
     text: GUN|LTLX7000|FIX
-    name: live2d_motions-11080316
+    name: 交互3
     camera: 1
     is_hurt: 1
     voice_code: FIX
@@ -34639,7 +34639,7 @@
     probability: 1
     voice: GUN|LTLX7000|OPERATIONOVER
     text: GUN|LTLX7000|OPERATIONOVER
-    name: live2d_motions-11080317
+    name: 交互4
     camera: 1
     is_hurt: 1
     voice_code: OPERATIONOVER
@@ -34652,7 +34652,7 @@
     probability: 1
     voice: GUN|LTLX7000|BLACKACTION
     text: GUN|LTLX7000|BLACKACTION
-    name: live2d_motions-11080318
+    name: 交互5
     camera: 1
     is_hurt: 1
     voice_code: BLACKACTION
@@ -34664,7 +34664,7 @@
     probability: 1
     voice: GUN|LTLX7000|HELLO
     text: GUN|LTLX7000|HELLO
-    name: live2d_motions-11080319
+    name: 上线响应
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -34675,7 +34675,7 @@
     type: 301
     motion_name: shake.mtn
     probability: 1
-    name: live2d_motions-11080320
+    name: 晃动响应
     camera: 1
     is_hurt: 1
   }
