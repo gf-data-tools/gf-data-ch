@@ -25455,6 +25455,26 @@
     creation_delay: "0,0,0"
   }
   {
+    id: 9221
+    name: MK18近身检测
+    creation_order: "3738"
+  }
+  {
+    id: 9222
+    name: XM556普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "3739,21,139,139,9,9,9,9,21,21,21,21,21"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
+    id: 9223
+    name: XM556换弹
+    action_order: "3"
+    action_playspeed: "100"
+    creation_order: "3740"
+  }
+  {
     id: 9995
     name: 战区boss特效
     creation_order: "386,10000,238"

@@ -30,7 +30,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -16919,7 +16919,7 @@
     hurt_id: "422"
     is_form_play: 1
     scale: "1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -17275,7 +17275,7 @@
     hurt_id: "424"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -26644,7 +26644,7 @@
     hurt_id: "375"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -29407,7 +29407,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -45009,7 +45009,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
   }
   {
@@ -51232,7 +51232,7 @@
     hurt_id: "2687"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -51434,7 +51434,7 @@
     hurt_id: "704"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -51452,7 +51452,7 @@
     hurt_id: "705"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -51488,6 +51488,70 @@
     scale: "0.7,0.7"
     sound_order: BT_rifle
     is_orb_effect: 1
+  }
+  {
+    id: 3738
+    name: MK18近身检测
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "6"
+    buff_id: 9579:1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 3739
+    name: XM556子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "711"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 3740
+    name: XM556前方一列
+    code: 9yue_dun
+    start_type: "6"
+    start_offset: "0.65,0,0"
+    destination_type: "6"
+    destination_offset: "0.65,0,0"
+    is_clone: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "4,9,14,19,24"
+    buff_id: 9603:1
+    scale: "1"
+  }
+  {
+    id: 3741
+    name: 狩猎标记
+    code: 9yue_biaoji
+    start_type: "5"
+    start_offset: "-0.2,0.8"
+    destination_type: "5"
+    destination_offset: "-0.2,0.8"
+    is_tracing: 1
+    exist_duration: *101
+    is_form_play: 1
+    scale: "1.5,1.5"
+    is_die_delete: 1
   }
   {
     id: 4000
@@ -51689,7 +51753,7 @@
     hurt_id: "410"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
   }
   {
@@ -60713,7 +60777,7 @@
     hurt_id: "2631"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
   }
   {
@@ -66269,7 +66333,7 @@
     hurt_id: "2094"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -68762,7 +68826,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
   }
   {
@@ -77424,7 +77488,7 @@
     hurt_id: "2294"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -87939,7 +88003,7 @@
     hurt_id: "619"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
   }
@@ -91207,7 +91271,7 @@
     hurt_id: "1"
     is_form_play: 1
     scale: "0.35,0.35,1"
-    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
   }
   {
