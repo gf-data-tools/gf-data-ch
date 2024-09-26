@@ -13304,4 +13304,38 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 421
+    name: DM21圆头弹
+    description:
+      '''
+      伤害+<pow>
+      命中+<hit>技能加强$MP7专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "7,10"
+    hit: "3,5"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_MP7
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "28"
+    equip_introduction: 在原有基础上改进了对目标的能量转移，并提供了较为良好的精度，近距离射击的表现相当不错。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:500,hit:1000
+    passive_skill: "1003201"
+    max_level: 10
+    auto_select_id: 19084
+    is_show: 1
+    obtain_ids: "3110"
+    description_skill: 1003201
+  }
 ]

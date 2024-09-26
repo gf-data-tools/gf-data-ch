@@ -15374,6 +15374,24 @@
     rank: 1
   }
   {
+    id: 2566
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_MartiniHenry
+    item_name: 马提尼亨利-莓果色的悸动
+    introduction: 马提尼亨利-莓果色的悸动
+    rank: 1
+  }
+  {
+    id: 2567
+    type: 5
+    arg: "1"
+    code: card_BattlePass_MartiniHenry
+    item_name: 名片：流淌于巷角的阳光
+    introduction: 名片：流淌于巷角的阳光
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -18953,6 +18971,33 @@
     rank: 1
   }
   {
+    id: 100237
+    type: 4
+    arg: "100237"
+    code: Nova_medal_black
+    item_name: 新星勋章
+    introduction: 新星勋章
+    rank: 1
+  }
+  {
+    id: 100238
+    type: 4
+    arg: "100238"
+    code: Platinum_medal_black
+    item_name: 白金勋章
+    introduction: 白金勋章
+    rank: 1
+  }
+  {
+    id: 100239
+    type: 4
+    arg: "100239"
+    code: Bumdle_October3
+    item_name: 秋日乐游箱
+    introduction: 秋日乐游箱
+    rank: 1
+  }
+  {
     id: 110001
     type: 4
     arg: "110001"
@@ -21352,6 +21397,22 @@
     rank: 1
   }
   {
+    id: 140045
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第23期前线协议
+    rank: 1
+  }
+  {
+    id: 140046
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第23期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -21784,6 +21845,15 @@
     code: profileFrame_BattlePass_LWMMG
     item_name: 头像框·律动光束
     introduction: 头像框·律动光束
+    rank: 1
+  }
+  {
+    id: 200048
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_MartiniHenry
+    item_name: 头像框·莓莓慕斯猫
+    introduction: 头像框·莓莓慕斯猫
     rank: 1
   }
   {
@@ -23621,6 +23691,50 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-独奏边界，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500160
+    type: 15
+    arg: "1500160"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-暖梦咖啡屋，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500161
+    type: 15
+    arg: "1500161"
+    code: package_choose
+    item_name: 弹匣类装备自选包
+    introduction: 来自于前线协议-暖梦咖啡屋，可从该指定投递配给序标内选择获取一件弹匣类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500162
+    type: 15
+    arg: "1500162"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-暖梦咖啡屋，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500163
+    type: 15
+    arg: "1500163"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-暖梦咖啡屋，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1

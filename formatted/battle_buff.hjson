@@ -57629,6 +57629,27 @@
     boss_available: 1
   }
   {
+    id: 9614
+    name: MP7装备
+    conflict_type: 2614
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9615
+    name: MP7伤害减少
+    conflict_type: 2615
+    max_tier: 99
+    type: 801
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    pow_number: "-1"
+  }
+  {
     id: 9620
     name: G41套装装备1
     conflict_type: 2620

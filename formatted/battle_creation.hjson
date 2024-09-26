@@ -51377,7 +51377,8 @@
     effect_type: 1
     effect_area: 3
     effect_param_1: "5,10,15"
-    buff_id: 9543:1
+    buff_id: 9543:1,1208:1
+    buff_cd: "0,0"
     scale: "1"
   }
   {
@@ -51551,6 +51552,24 @@
     is_form_play: 1
     scale: "1.5,1.5"
     is_die_delete: 1
+  }
+  {
+    id: 3742
+    name: MP7装备子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "708"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
+    sound_delay: "0,2,4,6"
+    is_orb_effect: 1
   }
   {
     id: 4000
