@@ -3356,8 +3356,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: pow:500,dodge:300,critical_percent:350
+    passive_skill: "1003401"
     max_level: 10
     auto_select_id: 18017
+    group_id: "40"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -4897,8 +4899,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:1000,critical_harm_rate:800
+    passive_skill: "1003301"
     max_level: 10
     auto_select_id: 18047
+    group_id: "39"
     is_show: 1
     obtain_ids: "3054,3096"
   }
@@ -13337,5 +13341,75 @@
     is_show: 1
     obtain_ids: "3110"
     description_skill: 1003201
+  }
+  {
+    id: 422
+    name: RFB处理器
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      暴击伤害+<critical_harm_rate><%>$RFB专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "4,6"
+    hit: "4,6"
+    critical_harm_rate: "10,15"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_RFB
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "172"
+    equip_introduction: RFB特别订制的高性能处理器，为了能够更好地打电…战斗！
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:700,hit:1000,critical_harm_rate:1000
+    passive_skill: "1003302"
+    max_level: 10
+    auto_select_id: 20096
+    group_id: "39"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 423
+    name: 柯尔特信号枪
+    description:
+      '''
+      伤害+<pow>
+      梯队命中+10%$柯尔特左轮改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "5,8"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_M1873Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20001"
+    equip_introduction: 西部故事的决斗需要发射胜利的信号，或许，信号的标记是一瓶元祖可乐。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    passive_skill: "300903,1003402"
+    max_level: 10
+    auto_select_id: 19085
+    group_id: "40"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队命中+10%
   }
 ]

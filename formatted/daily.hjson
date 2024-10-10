@@ -12,16 +12,6 @@
   {
     identity: 2
     mission_type: 1
-    type: win_boss
-    count: 2
-    title: 战斗：作战行动
-    content: 战斗胜利情况下消灭2个首领单位。
-    prize_id: 8308
-    exchange_prize_id: 8315
-  }
-  {
-    identity: 3
-    mission_type: 1
     type: s_win
     count: 8
     title: 战斗：作战行动
@@ -30,7 +20,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 4
+    identity: 3
     mission_type: 1
     type: rescue
     count: 5
@@ -40,7 +30,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 5
+    identity: 4
     mission_type: 1
     type: mission
     count: 2
@@ -50,7 +40,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 6
+    identity: 5
     mission_type: 2
     type: get_vehicle_component
     count: 6
@@ -61,7 +51,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 7
+    identity: 6
     mission_type: 2
     type: develop_equip
     count: 4
@@ -72,7 +62,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 8
+    identity: 7
     mission_type: 2
     type: develop_gun
     count: 2
@@ -82,7 +72,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 9
+    identity: 8
     mission_type: 2
     type: recycle
     count: 3
@@ -92,7 +82,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 10
+    identity: 9
     mission_type: 3
     type: upgrade_value
     count: 3
@@ -102,7 +92,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 11
+    identity: 10
     mission_type: 3
     type: adjust_equip
     count: 1
@@ -113,7 +103,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 12
+    identity: 11
     mission_type: 3
     type: upgrade_equip
     count: 3
@@ -124,7 +114,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 13
+    identity: 12
     mission_type: 4
     type: operation
     count: 3
@@ -134,7 +124,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 14
+    identity: 13
     mission_type: 4
     type: coin_mission
     count: 3
@@ -144,7 +134,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 15
+    identity: 14
     mission_type: 4
     type: sangvis_exercise
     count: 3
@@ -155,7 +145,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 16
+    identity: 15
     mission_type: 4
     type: auto_battle
     count: 1
@@ -166,17 +156,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 17
-    mission_type: 5
-    type: from_friend_build_coin
-    count: 5
-    title: 协力：联合行动
-    content: 从好友处获得5次共享电池。
-    prize_id: 8308
-    exchange_prize_id: 8315
-  }
-  {
-    identity: 18
+    identity: 16
     mission_type: 5
     type: like
     count: 5
@@ -186,7 +166,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 19
+    identity: 17
     mission_type: 5
     type: borrow_friend_team
     count: 2
@@ -196,7 +176,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 20
+    identity: 18
     mission_type: 6
     type: explore
     count: 1
@@ -207,7 +187,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 21
+    identity: 19
     mission_type: 6
     type: sangvis_daily_retrieval
     count: 1
@@ -218,7 +198,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 22
+    identity: 20
     mission_type: 6
     type: heart_collect
     count: 5
@@ -228,7 +208,7 @@
     exchange_prize_id: 8315
   }
   {
-    identity: 23
+    identity: 21
     mission_type: 6
     type: gift
     count: 1
