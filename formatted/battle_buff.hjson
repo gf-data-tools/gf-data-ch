@@ -8662,6 +8662,16 @@
     is_form_play: 1
   }
   {
+    id: 1030
+    name: 效果显示通用
+    conflict_type: 101
+    max_tier: 5
+    type: 401
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+  }
+  {
     id: 1100
     name: hs2000标记
     description: 若存在则未被判断
@@ -11773,6 +11783,114 @@
     duration: "150"
     boss_available: 1
     trigger_creation_id: "7130"
+  }
+  {
+    id: 2556
+    name: 赫柏护甲下降
+    conflict_type: 2556
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: "11"
+    boss_available: 1
+    armor_reduce_number: "10"
+  }
+  {
+    id: 2557
+    name: 赫柏回避下降
+    conflict_type: 2557
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: "11"
+    boss_available: 1
+    dodge_number: "10"
+  }
+  {
+    id: 2558
+    name: 赫柏致幻标记
+    conflict_type: 2558
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "11"
+    boss_available: 1
+  }
+  {
+    id: 2559
+    name: 赫柏连击预备标记
+    conflict_type: 2559
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "360"
+    boss_available: 1
+  }
+  {
+    id: 2560
+    name: 赫柏连击重置标记
+    conflict_type: 2560
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "360"
+    boss_available: 1
+  }
+  {
+    id: 2561
+    name: 赫柏连击掉编监视
+    conflict_type: 2561
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "70"
+    boss_available: 1
+    watch_id: 5012
+  }
+  {
+    id: 2562
+    name: 赫柏毒针致死监视
+    conflict_type: 2562
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5013
+  }
+  {
+    id: 2563
+    name: 赫柏毒针致死触发
+    conflict_type: 2563
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2564
+    name: 赫柏毒针标记
+    conflict_type: 2564
+    max_tier: 1
+    type: 136
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    hurt_id: 1510
+    hurt_cd: 10
+  }
+  {
+    id: 2565
+    name: 赫柏致幻毒针标记
+    conflict_type: 2565
+    max_tier: 1
+    type: 136
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hurt_id: 1511
+    hurt_cd: 3
   }
   {
     id: 3000
@@ -32962,6 +33080,88 @@
     fix_damage: 1000002455
   }
   {
+    id: 5329
+    name: Zas伤害提升
+    conflict_type: 2329
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    pow_number: *203
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5330
+    name: Zas暴击伤害提升
+    conflict_type: 2330
+    max_tier: 5
+    type: 112
+    duration_type: 1
+    duration: *104
+    boss_available: 1
+    critical_damage_number: *204
+    is_form_play: 1
+  }
+  {
+    id: 5331
+    name: Zas榴弹发射触发
+    conflict_type: 2331
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5332
+    name: Zas二技能层数
+    conflict_type: 2332
+    max_tier: 300
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5333
+    name: Zas装备
+    conflict_type: 2333
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5334
+    name: Zas手榴弹易伤
+    conflict_type: 2334
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    damage_reduce_number: "110"
+    is_form_play: 1
+  }
+  {
+    id: 5335
+    name: Zas一技能触发
+    conflict_type: 2335
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
     id: 5700
     name: ***
     conflict_type: 100
@@ -33210,6 +33410,86 @@
     duration_type: 1
     duration: "15"
     boss_available: 1
+  }
+  {
+    id: 6301
+    name: 英雄妖精掉编监视
+    conflict_type: 6301
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 2001
+  }
+  {
+    id: 6302
+    name: 英雄妖精撤退监视
+    conflict_type: 6302
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 2002
+  }
+  {
+    id: 6303
+    name: 英雄妖精护盾层数
+    conflict_type: 6303
+    max_tier: 20
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6304
+    name: 英雄妖精伤害层数
+    conflict_type: 6304
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6305
+    name: 英雄妖精护盾触发
+    conflict_type: 6305
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "757222"
+  }
+  {
+    id: 6306
+    name: 英雄妖精护盾
+    conflict_type: 6306
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    is_form_play: 1
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 6307
+    name: 英雄妖精正义特效
+    conflict_type: 6307
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "7502"
+    is_form_play: 1
   }
   {
     id: 7101
@@ -55439,6 +55719,288 @@
     boss_available: 1
   }
   {
+    id: 9376
+    name: 格雷法球1
+    conflict_type: 415
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "104"
+    orb_effect: 75096601
+  }
+  {
+    id: 9377
+    name: 格雷法球2
+    conflict_type: 415
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "104"
+    orb_effect: 75096701
+  }
+  {
+    id: 9378
+    name: 格雷法球3
+    conflict_type: 415
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "104"
+    orb_effect: 75096801
+  }
+  {
+    id: 9379
+    name: 格雷法球4
+    conflict_type: 415
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "104"
+    orb_effect: 75096901
+  }
+  {
+    id: 9380
+    name: 格雷法球5
+    conflict_type: 415
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "104"
+    orb_effect: 75097001
+  }
+  {
+    id: 9381
+    name: 损失1
+    conflict_type: 2399
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "999"
+    boss_available: 1
+    available_gun_type: "104"
+    forced_skill: "750971"
+  }
+  {
+    id: 9382
+    name: 损失2
+    conflict_type: 2399
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "999"
+    boss_available: 1
+    available_gun_type: "104"
+    forced_skill: "750972"
+  }
+  {
+    id: 9383
+    name: 损失3
+    conflict_type: 2399
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "999"
+    boss_available: 1
+    available_gun_type: "104"
+    forced_skill: "750973"
+  }
+  {
+    id: 9384
+    name: 损失4
+    conflict_type: 2399
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "999"
+    boss_available: 1
+    available_gun_type: "104"
+    forced_skill: "750974"
+  }
+  {
+    id: 9385
+    name: 损失5
+    conflict_type: 2399
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "999"
+    boss_available: 1
+    available_gun_type: "104"
+    forced_skill: "750975"
+  }
+  {
+    id: 9386
+    name: 三技能触发
+    conflict_type: 2399
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9387
+    name: 四技能
+    conflict_type: 2400
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9388
+    name: 四技能护盾技能1
+    conflict_type: 2400
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750976"
+  }
+  {
+    id: 9389
+    name: 四技能护盾技能2
+    conflict_type: 2400
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750977"
+  }
+  {
+    id: 9390
+    name: 四技能护盾技能3
+    conflict_type: 2400
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750978"
+  }
+  {
+    id: 9391
+    name: 四技能护盾技能4
+    conflict_type: 2400
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750979"
+  }
+  {
+    id: 9392
+    name: 四技能护盾技能5
+    conflict_type: 2400
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750980"
+  }
+  {
+    id: 9393
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750985"
+  }
+  {
+    id: 9394
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750986"
+  }
+  {
+    id: 9395
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750987"
+  }
+  {
+    id: 9396
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750988"
+  }
+  {
+    id: 9397
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750989"
+  }
+  {
+    id: 9398
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750990"
+  }
+  {
+    id: 9399
+    name: 护盾伤害值记录
+    conflict_type: 2401
+    max_tier: 999999
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+  }
+  {
+    id: 9400
+    name: 护盾记录技能
+    conflict_type: 2402
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750991"
+  }
+  {
     id: 9401
     name: k31装备
     conflict_type: 2402
@@ -55447,6 +56009,17 @@
     duration_type: 1
     duration: "-1"
     boss_available: 1
+  }
+  {
+    id: 9402
+    name: 护盾清除技能
+    conflict_type: 2402
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750992"
   }
   {
     id: 9403
@@ -71778,6 +72351,78 @@
     duration_type: 1
     duration: "30"
     is_form_play: 1
+  }
+  {
+    id: 938701
+    name: 四技能护盾
+    conflict_type: 2400
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 938801
+    name: 格雷二护盾
+    conflict_type: 2401
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *101
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 938901
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750981"
+  }
+  {
+    id: 939001
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750982"
+  }
+  {
+    id: 939101
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750983"
+  }
+  {
+    id: 939201
+    name: 二护盾技能
+    conflict_type: 2401
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "100"
+    boss_available: 1
+    forced_skill: "750984"
   }
   {
     id: 943301

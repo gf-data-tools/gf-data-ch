@@ -4328,6 +4328,24 @@
     buff_trigger_type: 18
   }
   {
+    id: 748
+    description: 我方铁血人形
+    target_type: 2
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    target_parameter: 1000005455
+    buff_trigger_type: 18
+  }
+  {
+    id: 749
+    description: 敌护盾最高
+    target_type: 1
+    target_number: 1
+    select_order: "1000005467,1000005468"
+    is_ascend_order: "1,1"
+    list_ranking: 1
+  }
+  {
     id: 755
     description: em2破碎
     target_type: 1
@@ -4450,6 +4468,26 @@
     target_type: 1
     target_number: 4
     list_ranking: 1
+  }
+  {
+    id: 911
+    description: 毒针目标
+    target_type: 1
+    target_number: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 2558
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 912
+    description: 致幻目标
+    target_type: 1
+    target_number: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
   }
   {
     id: 1000

@@ -53916,6 +53916,114 @@
     scale: "1"
   }
   {
+    id: 4283
+    name: Zas智能榴弹
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "6"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "714"
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "4284,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 4284
+    name: Zas爆炸范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "712"
+    buff_id: "247"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 4285
+    name: Zas手榴弹
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "715"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "4286,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 4286
+    name: Zas手雷爆炸范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "713"
+    buff_id: 5334:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 4287
+    name: Zas智能榴弹续剑
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "6"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "714"
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "4288,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 4288
+    name: Zas续剑爆炸范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "716"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
     id: 5010
     name: 狙击子弹
     code: SniperSkillBullet
@@ -63613,6 +63721,121 @@
     is_form_offset_start: 1
     is_tracing: 1
     exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 7133
+    name: 赫柏普攻一段
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1505"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7134
+    name: 赫柏普攻二段
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1506"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7135
+    name: 赫柏普攻二段
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1507"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7136
+    name: 赫柏监控
+    code: 2019summer/Y_19_summer_1_2_sp
+    start_type: "6"
+    start_offset: "-0.65,0,0"
+    destination_type: "6"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "180"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    hurt_id: "1508"
+    hurt_cd: "10"
+    buff_id: 2556:1,2557:1,2558:1
+    buff_cd: "10,10,10"
+    scale: "1"
+    trigger_creation_id: "713601"
+  }
+  {
+    id: 7137
+    name: 赫柏连击一段
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1509"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7138
+    name: 赫柏毒针
+    code: HP_zidan
+    start_type: Atail2
+    destination_type: "5"
+    decision_offset: "1"
+    is_form_offset: 1
+    route_type: 1
+    speed: 500
+    exist_duration: "30"
+    effect_area: 1
+    buff_id: 1000002463:1
+    is_form_play: 1
+    scale: "1.5,1.5,1.5"
+  }
+  {
+    id: 7501
+    name: 英雄妖精全体伤害
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "40"
+    effect_param_2: "40"
+    hurt_id: "8001"
+    is_form_play: 1
+    scale: "8,0.1,12"
+  }
+  {
+    id: 7502
+    name: 正义爆气
+    code: HKD_baoqi
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    is_tracing: 1
+    exist_duration: "60"
     effect_area: 1
     creation_type: 2
     scale: "0.6,0.6,0.6"
@@ -86125,6 +86348,86 @@
     scale: "9,0.1,4"
   }
   {
+    id: 9561
+    name: Neptune判定靶机自毁
+    start_type: "2"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2420"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9562
+    name: 法球效果
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2419"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9563
+    name: 格雷普攻
+    start_type: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2421"
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9564
+    name: 格雷普攻受击
+    code: GLFR_du_sj
+    start_type: "5"
+    destination_type: "5"
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9565
+    name: 格雷清护盾
+    start_type: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2422"
+    buff_type: 109:-99
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9566
+    name: 格雷护盾伤害
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2423"
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 9567
     name: 步枪子弹k31
     code: bullet/bullet2
@@ -86140,6 +86443,74 @@
     scale: "0.7,0.7"
     sound_order: BT_rifle
     is_orb_effect: 1
+  }
+  {
+    id: 9569
+    name: 格雷普攻
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2421"
+    scale: "1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9570
+    name: 格雷普攻受击
+    code: GLFR_du_sj
+    start_type: "5"
+    destination_type: "5"
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "-1"
+  }
+  {
+    id: 9571
+    name: 格雷开局
+    code: GLFR_buff_jt
+    start_type: "2"
+    destination_type: "2"
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9572
+    name: 格雷毒爆
+    code: GLFR_du_bao
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9573
+    name: 格雷毒爆2
+    code: GLFR_du_pao
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9574
+    name: 格雷治疗
+    code: GLFR_buff_sz
+    start_type: "5"
+    destination_type: "5"
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
   }
   {
     id: 9580
@@ -115049,6 +115420,18 @@
     exist_duration: "15"
     is_form_play: 1
     scale: "1"
+  }
+  {
+    id: 713601
+    name: 赫柏监控眼睛
+    code: ZS_eye
+    start_type: "7"
+    start_offset: "0,2,0"
+    destination_type: "7"
+    destination_offset: "0,2,0"
+    exist_duration: "180"
+    effect_area: 1
+    scale: "1.5,1.5,1.5"
   }
   {
     id: 777010

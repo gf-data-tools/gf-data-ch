@@ -13412,4 +13412,71 @@
     obtain_ids: "3096"
     sp_description: 梯队命中+10%
   }
+  {
+    id: 424
+    name: Zas芯片
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>技能增强$Zas M21专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    rate: "-5,-1"
+    critical_harm_rate: "16,20"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_ZasM21
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "196,20196"
+    equip_introduction: 专门为Zas M21配备的芯片，除了配色按照要求设计外还有着难以置信的处理性能。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_harm_rate:500
+    passive_skill: "992518"
+    max_level: 10
+    auto_select_id: 20088
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 992518
+  }
+  {
+    id: 425
+    name: HS加强弹
+    description:
+      '''
+      伤害+<pow>
+      穿甲+<armor_piercing>$HS.50专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "95,100"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_HS50
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "348"
+    equip_introduction: 专属于HS.50的加强型12.7毫米口径弹药，进一步提高了对敌人的杀伤能力。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:600
+    max_level: 10
+    auto_select_id: 19086
+    is_show: 1
+    obtain_ids: "517"
+  }
 ]

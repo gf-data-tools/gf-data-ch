@@ -40257,6 +40257,210 @@
     mission_buff_add: 50008:1
   }
   {
+    id: 3001201
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复5%最大生命值,并且该梯队在战斗开始时获得3%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:5%,护盾倍率:3%
+    skill_group_id: 30012
+    level: 1
+    train_coin_type: 4
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-5"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001202
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复6%最大生命值,并且该梯队在战斗开始时获得4%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:6%,护盾倍率:4%
+    skill_group_id: 30012
+    level: 2
+    train_coin_type: 4
+    train_coin_number: 300
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-6"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001203
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复6%最大生命值,并且该梯队在战斗开始时获得5%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:6%,护盾倍率:5%
+    skill_group_id: 30012
+    level: 3
+    train_coin_type: 4
+    train_coin_number: 400
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-6"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001204
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复7%最大生命值,并且该梯队在战斗开始时获得5%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:7%,护盾倍率:5%
+    skill_group_id: 30012
+    level: 4
+    train_coin_type: 4
+    train_coin_number: 500
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-7"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001205
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复7%最大生命值,并且该梯队在战斗开始时获得6%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:7%,护盾倍率:6%
+    skill_group_id: 30012
+    level: 5
+    train_coin_type: 4
+    train_coin_number: 600
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-7"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001206
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复8%最大生命值,并且该梯队在战斗开始时获得7%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:8%,护盾倍率:7%
+    skill_group_id: 30012
+    level: 6
+    train_coin_type: 4
+    train_coin_number: 800
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-8"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001207
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复8%最大生命值,并且该梯队在战斗开始时获得8%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:8%,护盾倍率:8%
+    skill_group_id: 30012
+    level: 7
+    train_coin_type: 5
+    train_coin_number: 200
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-8"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001208
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复9%最大生命值,并且该梯队在战斗开始时获得8%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:9%,护盾倍率:8%
+    skill_group_id: 30012
+    level: 8
+    train_coin_type: 5
+    train_coin_number: 300
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-9"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001209
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复9%最大生命值,并且该梯队在战斗开始时获得9%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:9%,护盾倍率:9%
+    skill_group_id: 30012
+    level: 9
+    train_coin_type: 5
+    train_coin_number: 400
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-9"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
+    id: 3001210
+    name: 心音复苏
+    code: gary_2
+    description: 选择范围1以内的我方任一梯队释放,该梯队回复10%最大生命值,并且该梯队在战斗开始时获得10%自身最大生命值的护盾。
+    lvup_description: 生命值回复倍率:10%,护盾倍率:10%
+    skill_group_id: 30012
+    level: 10
+    train_coin_type: 5
+    train_coin_number: 600
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "1,8,301,10,305,304"
+    cd_time: 2
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "-10"
+    special_spot_add: 2200:1
+    mission_buff_add: 30012:1
+  }
+  {
     id: 3179011
     name: 炸毁指令(对乱石堆I)
     code: "1"
@@ -75679,6 +75883,510 @@
     special_spot_minus: 1000100:1
     mission_buff_add: 20301:1,20302:1
     is_manual: 9713101
+  }
+  {
+    id: 9720400
+    name: 回收全部物资
+    skill_group_id: 9720400
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    start_range: 1
+    trigger_id: (972040481&&972040181)||(972040481&&972040281)
+    target_id: 972040290&&972040390&&100010091&&972040492
+    special_spot_add: 9720402:1
+    subsidiary_mission_skill: "9720414,9720417"
+    is_manual: 9720406
+  }
+  {
+    id: 9720401
+    name: 【标识】挂多动buff · 3步 · 己方梯队
+    skill_group_id: 9720401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    mission_buff_add: 9720401:1,9720403:1,20301:1,20302:1
+  }
+  {
+    id: 9720402
+    name: 【标识】挂多动buff · 3步 · NPC梯队
+    skill_group_id: 9720402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    mission_buff_add: 9720402:1,9720403:1,20301:1,20302:1
+    subsidiary_mission_skill: "9720421"
+  }
+  {
+    id: 9720403
+    name: 【标识】物资标记
+    skill_group_id: 9720403
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9720402:1
+  }
+  {
+    id: 9720404
+    name: 【标识】杂物堵路标记
+    skill_group_id: 9720404
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9720403:1
+  }
+  {
+    id: 9720405
+    name: 拾取物资
+    description: ※每个梯队最多只能携带一份物资或者杂物。
+    skill_group_id: 9720405
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    trigger_id: 972040480&&972040580&&972040181
+    target_id: "972040291"
+    special_spot_minus: 9720402:1
+    subsidiary_mission_skill: "9720413"
+    is_manual: 9720405
+  }
+  {
+    id: 9720406
+    name: 放置物资
+    description:
+      '''
+      选择一处没有物资或杂物的没人的路径点放置。
+      ※可重复堆积在回收点（雷达点）上。
+      '''
+    skill_group_id: 9720406
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    start_range: 1
+    trigger_id: 972040481&&972040181
+    target_id: 972040290&&972040390&&972040472
+    special_spot_add: 9720402:1
+    subsidiary_mission_skill: "9720414,9720417"
+    is_manual: 9720406
+  }
+  {
+    id: 9720407
+    name: 拾取杂物
+    description: ※每个梯队最多只能携带一份物资或者杂物。
+    skill_group_id: 9720407
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    trigger_id: 972040480&&972040580&&972040181
+    target_id: "972040391"
+    special_spot_minus: 9720403:1
+    subsidiary_mission_skill: "9720415"
+    is_manual: 9720407
+  }
+  {
+    id: 9720408
+    name: 放置杂物
+    description: 选择一处没有物资或杂物的没人的路径点放置。
+    skill_group_id: 9720408
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    start_range: 1
+    trigger_id: 972040581&&972040181
+    target_id: 972040290&&972040390&&972040490
+    special_spot_add: 9720403:1
+    subsidiary_mission_skill: "9720416"
+    is_manual: 9720408
+  }
+  {
+    id: 9720409
+    name: 拾取物资
+    description: ※每个梯队最多只能携带一份物资或者杂物。
+    skill_group_id: 9720409
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    trigger_id: 972040480&&972040580&&972040281
+    target_id: "972040291"
+    special_spot_minus: 9720402:1
+    subsidiary_mission_skill: "9720413"
+    is_manual: 9720405
+  }
+  {
+    id: 9720410
+    name: 放置物资
+    description:
+      '''
+      选择一处没有物资或杂物的没人的路径点放置。
+      ※可重复堆积在回收点（雷达点）上。
+      '''
+    skill_group_id: 9720410
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    start_range: 1
+    trigger_id: 972040481&&972040281
+    target_id: 972040290&&972040390&&972040472
+    special_spot_add: 9720402:1
+    subsidiary_mission_skill: "9720414,9720417"
+    is_manual: 9720406
+  }
+  {
+    id: 9720411
+    name: 拾取杂物
+    description: ※每个梯队最多只能携带一份物资或者杂物。
+    skill_group_id: 9720411
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    trigger_id: 972040480&&972040580&&972040281
+    target_id: "972040391"
+    special_spot_minus: 9720403:1
+    subsidiary_mission_skill: "9720415"
+    is_manual: 9720407
+  }
+  {
+    id: 9720412
+    name: 放置杂物
+    description: 选择一处没有物资或杂物的没人的路径点放置。
+    skill_group_id: 9720412
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    start_range: 1
+    trigger_id: 972040581&&972040281
+    target_id: 972040290&&972040390&&972040490
+    special_spot_add: 9720403:1
+    subsidiary_mission_skill: "9720416"
+    is_manual: 9720408
+  }
+  {
+    id: 9720413
+    name: 【标识】持有物资
+    skill_group_id: 9720413
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9720404:1
+  }
+  {
+    id: 9720414
+    name: 【标识】消除物资持有
+    skill_group_id: 9720414
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 9720404:1
+  }
+  {
+    id: 9720415
+    name: 【标识】持有杂物
+    skill_group_id: 9720415
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9720405:1
+  }
+  {
+    id: 9720416
+    name: 【标识】消除杂物持有
+    skill_group_id: 9720416
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 9720405:1
+  }
+  {
+    id: 9720417
+    name: 【标识】回收点数量检测
+    skill_group_id: 9720417
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: 100010091&&972040291
+    special_spot_add: 9720404:1
+    special_spot_minus: 9720402:1
+    subsidiary_mission_skill: "9720418"
+  }
+  {
+    id: 9720418
+    name: 【标识】回收点达标检测
+    skill_group_id: 9720418
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: 100010091&&972040493
+    subsidiary_mission_skill: "9720419,9720420"
+  }
+  {
+    id: 9720419
+    name: 【标识】转阶段梯队转移_我方梯队
+    skill_group_id: 9720419
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "972040181"
+    special_spot_add: 1000500:1
+    mission_buff_minus: 9720401:1,9720403:1,20301:1,20302:1
+  }
+  {
+    id: 9720420
+    name: 【标识】转阶段梯队转移_NPC
+    skill_group_id: 9720420
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    target_id: "972040281"
+    special_spot_add: 1000600:1
+    mission_buff_minus: 9720402:1,9720403:1,20301:1,20302:1
+  }
+  {
+    id: 9720421
+    name: 【标识】提示文本
+    skill_group_id: 9720421
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9720405:1
+  }
+  {
+    id: 9720422
+    name: 【标识】普通难度直接标记为已经搬了2个状态
+    skill_group_id: 9720422
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9720404:2
+  }
+  {
+    id: 9721101
+    name: 开启指令(对防御门I)
+    description: 使防御门I变更为开启状态
+    skill_group_id: 9721101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101010190&&102010191
+    target_id: "102010091"
+    special_spot_minus: 1020101:1,1000001:1
+    subsidiary_mission_skill: "1000002,1020102"
+    is_manual: 680521
+  }
+  {
+    id: 9721102
+    name: 关闭指令(对防御门I)
+    description: 使防御门I变更为关闭状态
+    skill_group_id: 9721102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101010190&&102010190
+    target_id: "102010091"
+    special_spot_add: 1020101:1,1000001:1
+    subsidiary_mission_skill: "1000003,1020103,1020104,1020105"
+    is_manual: 680531
+  }
+  {
+    id: 9721103
+    name: 开启指令(对防御门II)
+    description: 使防御门II变更为开启状态
+    skill_group_id: 9721103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101020190&&102020191
+    target_id: "102020091"
+    special_spot_minus: 1020201:1,1000001:1
+    subsidiary_mission_skill: "1000002,1020202"
+    is_manual: 680521
+  }
+  {
+    id: 9721104
+    name: 关闭指令(对防御门II)
+    description: 使防御门II变更为关闭状态
+    skill_group_id: 9721104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101020190&&102020190
+    target_id: "102020091"
+    special_spot_add: 1020201:1,1000001:1
+    subsidiary_mission_skill: "1000003,1020203,1020204,1020205"
+    is_manual: 680531
+  }
+  {
+    id: 9721105
+    name: 开启指令(对防御门III)
+    description: 使防御门III变更为开启状态
+    skill_group_id: 9721105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101030190&&102030191
+    target_id: "102030091"
+    special_spot_minus: 1020301:1,1000001:1
+    subsidiary_mission_skill: "1000002,1020302"
+    is_manual: 680521
+  }
+  {
+    id: 9721106
+    name: 关闭指令(对防御门III)
+    description: 使防御门III变更为关闭状态
+    skill_group_id: 9721106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101030190&&102030190
+    target_id: "102030091"
+    special_spot_add: 1020301:1,1000001:1
+    subsidiary_mission_skill: "1000003,1020303,1020304,1020305"
+    is_manual: 680531
+  }
+  {
+    id: 9721107
+    name: 开启指令(对防御门IV)
+    description: 使防御门IV变更为开启状态
+    skill_group_id: 9721107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101040190&&102040191
+    target_id: "102040091"
+    special_spot_minus: 1020401:1,1000001:1
+    subsidiary_mission_skill: "1000002,1020402"
+    is_manual: 680521
+  }
+  {
+    id: 9721108
+    name: 关闭指令(对防御门IV)
+    description: 使防御门IV变更为关闭状态
+    skill_group_id: 9721108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 99
+    trigger_id: 101010091&&101040190&&102040190
+    target_id: "102040091"
+    special_spot_add: 1020401:1,1000001:1
+    subsidiary_mission_skill: "1000003,1020403,1020404,1020405"
+    is_manual: 680531
+  }
+  {
+    id: 9721401
+    name: 【标识】免疫buff
+    skill_group_id: 9721401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9721401:1
+  }
+  {
+    id: 9721601
+    name: 【标记】关门检测
+    skill_group_id: 9721601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    subsidiary_mission_skill: "9721603,9721604"
+  }
+  {
+    id: 9721602
+    name: 【标记】Boss挂多动buff
+    skill_group_id: 9721602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9721602:1
+  }
+  {
+    id: 9721603
+    name: 【标记】Boss关门
+    skill_group_id: 9721603
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    target_id: 102010091&&101020191&&101040190
+    special_spot_add: 1020101:1,1000001:1,1010401:1
+    subsidiary_mission_skill: "1000003,1020103,1020104,1020105"
+  }
+  {
+    id: 9721604
+    name: 【标记】Boss关门前置
+    skill_group_id: 9721604
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 1
+    target_id: 102010091&&101030190
+    special_spot_add: 1010201:1,1010301:1
+  }
+  {
+    id: 9722701
+    name: 【标识】强敌多动 · 1步
+    skill_group_id: 9722701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 640101:1
   }
   {
     id: 40400001

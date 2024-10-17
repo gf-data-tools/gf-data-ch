@@ -23636,6 +23636,308 @@
     no_battle_damage: 100
   }
   {
+    id: 9720401
+    name: AR18
+    guns: "9720001,9720002,9720003,9720004,9720005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9720402
+    guns: "748"
+    enemy_team_id: 9722601
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "900772,900771,900764;0;900772,900771,900764"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9720404
+    guns: "748"
+    enemy_team_id: 9722603
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "900769,900768,900761;0;900769,900768,900761"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9720806
+    guns: "748"
+    enemy_team_id: 9720806
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9720808
+    guns: "748"
+    enemy_team_id: 9720808
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9720810
+    guns: "748"
+    enemy_team_id: 9720810
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9720812
+    guns: "748"
+    enemy_team_id: 9720812
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9721101
+    guns: "748"
+    enemy_team_id: 9721101
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9721102
+    guns: "748"
+    enemy_team_id: 9721102
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9721409
+    name: 默莉朵
+    guns: "748"
+    enemy_team_id: 9721409
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9721412
+    name: 格雷
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    sangvis: 9720031-8,9720032-18,9720033-13,9720034-7,9720035-9
+  }
+  {
+    id: 9721601
+    guns: "748"
+    enemy_team_id: 9721601
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "901133,901145,901143,901142,901131;0;901133,901145,901143,901142,901131"
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    icon: Army
+    betray_result_enemy: "9721601"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9721602
+    guns: "748"
+    enemy_team_id: 9721602
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722601
+    name: AR18
+    guns: "9720011,9720012,9720013,9720014,9720015"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722602
+    guns: "748"
+    enemy_team_id: 9722601
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "900834,900833,900826;0;900834,900833,900826"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722604
+    guns: "748"
+    enemy_team_id: 9722603
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "900831,900830,900823;0;900831,900830,900823"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722706
+    guns: "748"
+    enemy_team_id: 9722706
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722708
+    guns: "748"
+    enemy_team_id: 9722708
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722710
+    guns: "748"
+    enemy_team_id: 9722710
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722712
+    guns: "748"
+    enemy_team_id: 9722712
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 4;0;4
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722801
+    guns: "748"
+    enemy_team_id: 9722801
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722802
+    guns: "748"
+    enemy_team_id: 9722802
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722909
+    name: 默莉朵
+    guns: "748"
+    enemy_team_id: 9722909
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9722912
+    name: 格雷
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    sangvis: 9720041-8,9720042-18,9720043-13,9720044-7,9720045-9,9720046-12,9720047-14
+  }
+  {
+    id: 9723001
+    guns: "748"
+    enemy_team_id: 9723001
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "901164,901176,901174,901173,901162;0;901164,901176,901174,901173,901162"
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    icon: Army
+    betray_result_enemy: "9723001"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9723002
+    guns: "748"
+    enemy_team_id: 9723002
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 3;0;3
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 40499001
     name: 格里芬
     guns: "10084,10085,10086,10087,10088"

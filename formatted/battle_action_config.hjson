@@ -14392,6 +14392,40 @@
     sound_order: satk_spas12_goblinhunter
   }
   {
+    id: 4062
+    name: Zas改造榴弹
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "4283"
+    creation_delay: "12"
+    sound_order: BT_fire_grenade
+    sound_delay: "35"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 4063
+    name: Zas手榴弹
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "4285"
+    creation_delay: "40"
+    sound_order: BT_grenade_woosh
+    sound_delay: "35"
+    effect_order: "1"
+  }
+  {
+    id: 4064
+    name: Zas改造榴弹续剑
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "4287"
+    creation_delay: "12"
+    sound_order: BT_fire_grenade
+    sound_delay: "35"
+    effect_order: "1"
+  }
+  {
     id: 5010
     name: 炮狙射击
     action_order: "1"
@@ -19024,6 +19058,61 @@
     name: 迫击炮
     creation_order: "6146,6147"
     creation_delay: "0,0"
+  }
+  {
+    id: 7501
+    name: 英雄妖精全体伤害
+    creation_order: "7501"
+  }
+  {
+    id: 7502
+    name: 英雄妖精工具人-1
+    summon_order: "2001"
+  }
+  {
+    id: 7503
+    name: 英雄妖精工具人-2
+    summon_order: "2002"
+  }
+  {
+    id: 7504
+    name: 英雄妖精工具人-3
+    summon_order: "2003"
+  }
+  {
+    id: 7505
+    name: 英雄妖精工具人-4
+    summon_order: "2004"
+  }
+  {
+    id: 7506
+    name: 英雄妖精工具人-5
+    summon_order: "2005"
+  }
+  {
+    id: 7507
+    name: 英雄妖精工具人-6
+    summon_order: "2006"
+  }
+  {
+    id: 7508
+    name: 英雄妖精工具人-7
+    summon_order: "2007"
+  }
+  {
+    id: 7509
+    name: 英雄妖精工具人-8
+    summon_order: "2008"
+  }
+  {
+    id: 7510
+    name: 英雄妖精工具人-9
+    summon_order: "2009"
+  }
+  {
+    id: 7511
+    name: 英雄妖精工具人-10
+    summon_order: "2010"
   }
   {
     id: 8001
@@ -24953,12 +25042,72 @@
     move_order: "81601"
   }
   {
+    id: 8896
+    name: 格雷3技能自毁
+    creation_order: "9561"
+  }
+  {
+    id: 8897
+    name: 格雷3技能法球
+    creation_order: "9562,9562"
+    creation_delay: "0,3"
+  }
+  {
+    id: 8898
+    name: 格雷普攻
+    action_order: sp4
+    action_playspeed: "100"
+    creation_order: "9563,9564"
+    creation_delay: "0,5"
+  }
+  {
+    id: 8899
+    name: 格雷一技能
+    action_order: sp3
+    action_delay: "42"
+    action_playspeed: "100"
+    creation_order: "9565,9566,9572,9573"
+    creation_delay: "62,70,70,62"
+    effect_order: 3(Mrsgray;病灶穿刺;Poisonous Sting;Gray),10(Mrsgray;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8900
+    name: 格雷一技能解析
+    action_order: sp3
+    action_delay: "42"
+    action_playspeed: "100"
+    creation_order: "9565,9566,9572,9573"
+    creation_delay: "62,70,70,62"
+    effect_order: 3(Mrsgray_1;病灶穿刺;Poisonous Sting;Gray),10(Mrsgray;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
     id: 8901
     name: 步枪普攻
     action_order: "1"
     action_playspeed: "100"
     creation_order: "9567,21,139"
     creation_delay: "0,0,0"
+  }
+  {
+    id: 8902
+    name: 格雷普攻表演
+    action_order: sp4
+    action_playspeed: "100"
+    creation_order: "9569,9570"
+    creation_delay: "0,0"
+  }
+  {
+    id: 8903
+    name: 格雷开场
+    action_order: sp2
+    action_playspeed: "100"
+    creation_order: "9571"
   }
   {
     id: 8910
@@ -25942,6 +26091,39 @@
     name: RPK-16嘲讽
     action_order: s2
     action_playspeed: "200"
+  }
+  {
+    id: 12036
+    name: 赫柏普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "7133,7134,7135"
+    creation_delay: "10,15,20"
+  }
+  {
+    id: 12037
+    name: 赫柏致幻
+    action_order: sp1
+    action_playspeed: "100"
+    creation_order: "7136"
+  }
+  {
+    id: 12038
+    name: 赫柏连击
+    action_order: sp2
+    action_playspeed: "100"
+    creation_order: "7137,7137,7137,7137"
+    creation_delay: "10,20,30,40"
+  }
+  {
+    id: 12039
+    name: 赫柏毒针
+    action_order: sp3
+    action_playspeed: "60"
+    creation_order: "7138"
+    creation_delay: "60"
+    effect_order: 3(HebeBoss;剧毒荆棘;Venom Thorns;Hebe)
+    effect_duration: "1"
   }
   {
     id: 13801

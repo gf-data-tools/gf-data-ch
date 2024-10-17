@@ -1579,6 +1579,65 @@
     recommended_team_ids: "4"
   }
   {
+    id: 1027
+    name: 格雷
+    en_name: Mrsgray
+    code: Mrsgray
+    introduce: 格雷，支援特化涅托。善于利用身边的一切有利因素作战，在疗愈队友的同时，亦可精确刺穿敌方精心保护的目标，以达到削弱敌人、使自己获得优势的战略目的。曾作为帕拉蒂斯用以顶替人类医生格雷的造物；在被我方回收、修复并清除一切记忆后，如今的格雷仅保留了“灰夫人”的作战效能和“医生”无意识的性格习惯。尽管只是一台不具灵魂的机械复制品，但锋利的手术刀在正义之人手中，仍能发挥它最大的价值。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 3
+    type: 1
+    character: "2,4,6"
+    formation: 1
+    resolution: 127
+    shape_scale: "80,120"
+    ap_cost: 10
+    rank: 5
+    skill1: 750960
+    skill2_type: 2
+    skill2: 30012
+    skill3: 750963
+    skill_advance: 750964
+    skill_resolution: "750961"
+    normal_attack: 750965
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 120
+    ratio_pow: 100
+    ratio_rate: 100
+    ratio_hit: 120
+    ratio_dodge: 135
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 18
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    effect_grid_effect: 0:1,10;2,10;4,30
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 110
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930028
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10604
+    gun_tag_ids: "121,113,103,145"
+    ratio_rec: 165
+    recommended_team_ids: "9"
+  }
+  {
     id: 1028
     name: 计量官-VWV型
     en_name: GagerSwimwear

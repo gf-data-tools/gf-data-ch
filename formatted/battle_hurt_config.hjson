@@ -4527,6 +4527,54 @@
     hit_type: 1
   }
   {
+    id: 712
+    description: Zas改造榴弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_self: 5335:1
+  }
+  {
+    id: 713
+    description: Zas手雷
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 714
+    description: Zas榴弹技能效果
+    critical_hit_rate: "100"
+    buff_id_self: 5329:1000007057,5330:1000007057,576:1,1030:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 715
+    description: Zas手雷技能效果
+    critical_hit_rate: "100"
+    buff_id_self: 5329:1000007057,5330:1000007057,576:1,1030:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 716
+    description: Zas改造续剑榴弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -4683,6 +4731,78 @@
     critical_hit_rate: "100"
     hit_type: 1
     fix_damage: "1000002426"
+  }
+  {
+    id: 1505
+    description: 赫柏普攻1
+    damage_ratio: "30"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1506
+    description: 赫柏普攻2
+    damage_ratio: "30"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1507
+    description: 赫柏普攻3
+    damage_ratio: "40"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1508
+    description: 赫柏致幻伤害
+    damage_ratio: "10"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 1509
+    description: 赫柏连击伤害
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 1510
+    description: 赫柏毒针伤害
+    damage_ratio: "30"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 1511
+    description: 赫柏致幻毒针伤害
+    extra_damage: "99999"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000002461
+    fix_damage: "1000002462"
   }
   {
     id: 1701
@@ -8823,6 +8943,52 @@
     hit_type: 1
   }
   {
+    id: 2419
+    description: 格雷法球子弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2420
+    description: 格雷自毁
+    extra_damage: *101
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2421
+    description: 格雷普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2422
+    description: 格雷清护盾
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2423
+    description: 格雷护盾伤害
+    extra_damage: *102
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
     id: 2424
     description: k31普通攻击
     damage_ratio: "100"
@@ -11038,6 +11204,14 @@
     critical_hit_rate: "100"
     hit_type: 1
     fix_damage: "15"
+  }
+  {
+    id: 8001
+    description: 英雄妖精伤害
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000008802"
   }
   {
     id: 12509

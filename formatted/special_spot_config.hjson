@@ -47185,6 +47185,119 @@
     effect_conditions: "1"
   }
   {
+    id: 9720400
+    name: 【标记】杂物堆选择点
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 9720401
+    detect_target_type: "-1"
+    detect_range: 1
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9720400
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 9720401
+    name: 【标记】杂物堆选择点_移动后清理
+    priority: 2
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9720400
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 9720402
+    name: 【标记】物资标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9720402
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    effect_duration: 9720401
+    effect_process_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 9720403
+    name: 【标记】杂物堆标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9720403
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    effect_duration: 9720402
+    effect_process_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 9720404
+    name: 【标记】任务目标检测
+    description: 收集
+    code: GunBox
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9720404
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 9720401
+    effect_process_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 9720405
+    name: "[avg]-72-EXT-1-1"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9713103
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
     id: 44350001
     name: 【标记】弃置歌利亚使用提示
     priority: 44350001
