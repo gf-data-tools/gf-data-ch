@@ -42,6 +42,17 @@ local InitPanelSpot = function(self,spot)
 	end
 	self:CheckInfoPos();
 end
+
+local ThenLoadLeftBG = function(self,bg)
+	if self == nil or self.gameObject == nil then
+		return;
+	end
+	if CS.OPSPanelController.Instance == nil or CS.OPSPanelController.Instance:isNull() then
+		return;
+	end
+	self:ThenLoadLeftBG(bg);
+end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
+util.hotfix_ex(CS.OPSPanelController,'ThenLoadLeftBG',ThenLoadLeftBG)
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitPanelSpot',InitPanelSpot)
 

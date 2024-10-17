@@ -179,7 +179,7 @@ NPC-Nele(0)<Speaker>奈乐</Speaker>||:……你是不是快迟到了？
 NPC-Constanze(1)<Speaker>康斯坦斯</Speaker><Shake>||<震屏3>:完了，还有十五分钟就要上课了！+那我走了！
 NPC-Nele(0)<Speaker>奈乐</Speaker>||:好，路上小心……
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:
-()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3><SE1>AVG_Cloak_Whoosh</SE1>:康斯坦斯风一般刮开大门吹了出去。
+()<Speaker></Speaker>||<SE1>RunStep</SE1><震屏3><SE1>AVG_Cloak_Whoosh</SE1>:康斯坦斯风一般刮开大门冲了出去。
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay><SE1>AVG_footsteps_woodfloor</SE1>:奈乐收拾好她带来的外卖，朝着有异响的储物间走去……
 ()||<黑屏1><CGDelay>0.5</CGDelay><SE1>Stop_AVG_loop</SE1>:
 ()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Open</SE1><黑屏2><BIN>129</BIN><CGDelay>0.7</CGDelay>:
