@@ -43,16 +43,20 @@ local InitPanelSpot = function(self,spot)
 	self:CheckInfoPos();
 end
 
-local ThenLoadLeftBG = function(self,bg)
-	if self == nil or self.gameObject == nil then
+local LoadLeftBG = function(self)
+	if not CS.OPSConfig.Instance.OPSLeftBGNormalActivity:ContainsKey(self.campaionId) then
 		return;
 	end
-	if CS.OPSPanelController.Instance == nil or CS.OPSPanelController.Instance:isNull() then
+	local path = "Pics/ActivityMap/"..CS.OPSConfig.Instance.OPSLeftBGNormalActivity[self.campaionId];
+	local bgObj = CS.ResManager.GetObjectByPath(path);
+	if bgObj == nil then
 		return;
 	end
-	self:ThenLoadLeftBG(bg);
+	local bg = CS.UnityEngine.GameObject.Instantiate(bgObj);
+	bg.transform:SetParent(self.leftMain, false);
+	bg.transform:SetAsFirstSibling();
 end
 util.hotfix_ex(CS.OPSPanelController,'ShowItemLimitUINew',ShowItemLimitUINew)
-util.hotfix_ex(CS.OPSPanelController,'ThenLoadLeftBG',ThenLoadLeftBG)
+util.hotfix_ex(CS.OPSPanelController,'LoadLeftBG',LoadLeftBG)
 util.hotfix_ex(CS.SpecialMissionInfoController,'InitPanelSpot',InitPanelSpot)
 
