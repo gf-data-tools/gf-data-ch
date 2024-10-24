@@ -427,6 +427,9 @@ patch3060=
 "3060/PrizeInfoBoxCtrl",
 "3060/CommonIconController",
 "3060/AVGController",
+"3060/BreakoutIntelligenceItem",
+"3060/BreakoutPhaseBattleFinishController",
+"3060/GriffinEntryMessageBoxController",
 }
 -- va11
 print("load Va11");
