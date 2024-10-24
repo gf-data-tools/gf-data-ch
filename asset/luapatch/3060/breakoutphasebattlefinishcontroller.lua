@@ -1,7 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.BreakoutPhaseMissionFinishController)
 xlua.private_accessible(CS.BreakoutPhaseBattleFinishController)
-xlua.private_accessible(CS.GriffinEntryMessageBoxController)
 
 local mShowBattleResult = function(self)
 	self:ShowBattleResult();
@@ -25,6 +24,10 @@ local mShowBattleResult = function(self)
 end
 local mInitMainBagView = function(self)
 	self:InitMainBagView();
+	local priceObj = self.textPackNum.transform.parent:Find("TotalPrice");
+	priceObj.gameObject:SetActive(true);
+	local priceText=priceObj:Find("Text_TotalPrice"):GetComponent(typeof(CS.ExText));
+
 	local itemCount = self.bagData.listItemMain.Count;
 	local price=0;
 	if itemCount>0 then
@@ -36,12 +39,12 @@ local mInitMainBagView = function(self)
 			end
 		end
 	end
-	print(price) 
+	priceText.text=""..price;
 end
 local mCheckIntelligencePoint = function(self)
 	return;
 end
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'ShowBattleResult',mShowBattleResult)
 
---util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'InitMainBagView',mInitMainBagView)
+util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'InitMainBagView',mInitMainBagView)
 util.hotfix_ex(CS.BreakoutPhaseMissionFinishController,'CheckIntelligencePoint',mCheckIntelligencePoint)
