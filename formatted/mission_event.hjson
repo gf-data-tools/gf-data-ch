@@ -357,12 +357,9 @@
   }
   {
     id: 53
-    type: 1
+    type: 2
     mission_campaign: "-67"
     event_name: 噩梦迷城+
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-06-14 10:00:00
-    end_time: 2024-07-04 10:00:00
     init_mission_id: "11630"
   }
   {
@@ -395,5 +392,12 @@
     end_time: 2024-11-07 10:00:00
     init_mission_id: "11762"
     token_item_id: "100243"
+  }
+  {
+    id: 57
+    type: 2
+    mission_campaign: "-40401"
+    event_name: mission_event-10000057
+    init_mission_id: "11002"
   }
 ]
