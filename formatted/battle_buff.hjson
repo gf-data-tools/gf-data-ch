@@ -58504,6 +58504,27 @@
     is_form_play: 1
   }
   {
+    id: 9700
+    name: SSG3000装备
+    conflict_type: 9700
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9701
+    name: SSG3000夜间伤害上升
+    conflict_type: 9701
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *201
+    boss_available: 1
+    pow_number: "115"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -60372,6 +60393,16 @@
     is_form_play: 1
     buff_animation: BlueFlash
     buff_description: ShieldText
+  }
+  {
+    id: 18001
+    name: 护卫者无判定标记
+    conflict_type: 18001
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
   }
   {
     id: 30701

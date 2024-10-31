@@ -13479,4 +13479,38 @@
     is_show: 1
     obtain_ids: "517"
   }
+  {
+    id: 426
+    name: SSG护目镜
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      暴击伤害+<critical_harm_rate><%>技能增强$SSG3000专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    critical_harm_rate: "6,10"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_SSG3000
+    develop_duration: 2700
+    company: IOP
+    fit_guns: "273"
+    equip_introduction: SSG3000最常佩戴的护目镜，可以帮助她快速锁定猎物。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,critical_harm_rate:500
+    passive_skill: "1003701"
+    max_level: 10
+    auto_select_id: 18092
+    is_show: 1
+    obtain_ids: "3111"
+    description_skill: 1003701
+  }
 ]
