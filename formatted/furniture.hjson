@@ -8997,6 +8997,138 @@
     rotate: "2"
   }
   {
+    id: 3119
+    name: 武器陈列墙
+    classes: 31
+    type: 202
+    space: "9,8,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 在卡莫纳，拥有武器的人才有选择的权利。哪怕只是一颗子弹，也能为自己在黑暗丛林里赢来发声的机会。
+    code: aqtw2024_deco_02_A,aqtw2024_deco_02_B
+    texture_type: "1,1"
+    sorting: "0,5"
+    offset: "0.010,-0.052,0|0.010,-0.052,0"
+    rotate: "2,2"
+    interact_point: "20"
+    interact_point_offset: *-0.146,1.309,-0.285
+  }
+  {
+    id: 3120
+    name: 战利品藏桌
+    classes: 31
+    type: 201
+    space: "18,4,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 为什么没有像往常那样卖掉这些战利品？是为了记住什么，还是想要忘记什么？
+    code: aqtw2024_deco_03_A,aqtw2024_deco_03_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.875,0,0|3.733,0,0"
+    rotate: "2,2"
+  }
+  {
+    id: 3121
+    name: 荣誉奖章
+    classes: 31
+    type: 302
+    space: "3,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 每个特遣队员都有自己的荣誉等级，并希望通过完成更多的委托去提升它。其实很多人都有获得“传说”荣誉的潜力，只是缺点运气去撑到那个时候。
+    code: aqtw2024_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 3122
+    name: 士气章收藏
+    classes: 31
+    type: 302
+    space: "7,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 这些士气章里，有敌人的，也有故人的。每次看到它们被放在一起，都会让人有一瞬间的恍惚。
+    code: aqtw2024_deco_05
+    texture_type: "1"
+    offset: "0,0.09,0"
+    rotate: "3"
+  }
+  {
+    id: 3123
+    name: 猫爪武器架
+    classes: 31
+    type: 201
+    space: "7,6,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 没人会嫌弃自己的武器太多，无论是枪支、弹药、防具……还是猫咪藏在肉垫里的利爪。
+    code: aqtw2024_deco_06,ArenaBreakout_weaponrack
+    texture_type: "1,2"
+    sorting: "0,5"
+    offset: "0,0,0|-0.428,0.250,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 3124
+    name: 高压电箱
+    classes: 31
+    type: 302
+    space: "3,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 虽然被挂上了“危险”的标志，但危险程度远远不及“高压线”：比如某个男性boss的墨镜是否是用来掩藏鱼尾纹的。
+    code: aqtw2024_deco_07
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 3125
+    name: 实用吊灯
+    classes: 31
+    type: 201
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 摒除华丽的外表与复杂的功能；带来光明——这是一台吊灯最重要的意义。
+    code: ArenaBreakout_lamp
+    texture_type: "2"
+    offset: "0,3.806,0"
+    rotate: "2"
+    touch_area: "3,5,0,0,10,0"
+  }
+  {
+    id: 3126
+    name: 迷雾沼泽
+    classes: 31
+    type: 101
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 前路与归处，总要看得清一个；盯紧它，从下陷的沼泽中拔出腿，即便是蜗牛也有爬到终点的资格。
+    code: aqtw2024_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 3127
+    name: 鸦色丛林
+    classes: 31
+    type: 301
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 一只乌鸦飞入黑暗的丛林，你看不到它的羽翼。当黑色成为唯一的保护色，请给自己挂上一盏灯。
+    code: aqtw2024_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 3201
     name: 海边小屋-更衣室地板
     classes: 32
@@ -30494,6 +30626,20 @@
     rotate: "3"
   }
   {
+    id: 20154
+    name: 追光者勋章
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“蝴蝶星云”活动中的卓越战绩，“暗区的迷雾从未真正湮没光亮，因为光，是来自天上的。”
+    code: 2024ArenaBreakout_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -46743,6 +46889,21 @@
     rotate: "3"
   }
   {
+    id: 330024
+    name: S.A.T.8-暮野花谣
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: S.A.T.8的海报。
+    code: poster_BattlePass_SAT8
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 350001
     name: 汉阳造88式-致群星
     classes: 300
@@ -46752,6 +46913,66 @@
     decompose_gift: 100003
     description: 汉阳造88式的海报。
     code: poster_Anniversary2024_88type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350002
+    name: 艾薇塔-复合呼吸
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 艾薇塔的海报。
+    code: poster_ArenaBreakout_Evita
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350003
+    name: 黑卡蒂-致命焦点
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 黑卡蒂的海报。
+    code: poster_ArenaBreakout_Hecate
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350004
+    name: P90-幻影尖兵
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P90的海报。
+    code: poster_ArenaBreakout_P90
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350005
+    name: MDR-DDOS特工队
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MDR的海报。
+    code: poster_ArenaBreakout_MDR
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

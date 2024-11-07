@@ -25609,6 +25609,194 @@
     confront_des: 本次战役中无法破坏该设施
   }
   {
+    id: 730001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000017
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    name: 冒烟的歌利亚
+    code: Boomer
+    shifting_spot: "45,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000072"
+    active_mission_skill: "730001"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730002
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】敌方2动
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690501"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730003
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】我方2动
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "20301"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】平民检测
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "730101"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730201
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】NPC检测
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "730201"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+    missionskill_on_death: "2,730001,730221,0"
+  }
+  {
+    id: 730401
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】传送点1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "730411"
+    inherent_mission_skill: "730401"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730402
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】传送点2
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "730412"
+    inherent_mission_skill: "730402"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730403
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】传送点3
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "730413"
+    inherent_mission_skill: "730403"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
+    id: 730404
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: 【标记】传送点4
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "730414"
+    inherent_mission_skill: "730404"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: 本次战役中无法破坏该设施
+  }
+  {
     id: 1144001
     defender: 99999
     defender_upper: 99999

@@ -5579,6 +5579,15 @@
     note: 原型皮肤
   }
   {
+    id: 5079
+    name: CR-21-原型
+    fit_gun: 20288
+    voice: 4
+    is_hidden: 2
+    dialog: 原型皮肤
+    note: 原型皮肤
+  }
+  {
     id: 5101
     name: 刘氏步枪-垂枝梦狐影
     fit_gun: 316
@@ -9540,6 +9549,15 @@
     order: 140
   }
   {
+    id: 30024
+    name: S.A.T.8-暮野花谣
+    fit_gun: 188
+    voice: 4
+    dialog: 在绿野上与小羊漫步，一同沐浴夕暮的余晖，在木推车上载满雏菊，向您分享我的心意……指挥官，这就是我能想到的最温暖、最幸福的画面！
+    illustrator_cv: 豆芽,浅倉杏美,
+    order: 143
+  }
+  {
     id: 50001
     name: 汉阳造88式-致群星
     fit_gun: 95
@@ -9548,6 +9566,52 @@
     gift_position: "-231.9,39.7"
     order: 132
     class_id: 99
+    skin_source: 1
+  }
+  {
+    id: 50002
+    name: 艾薇塔-复合呼吸
+    fit_gun: 1045
+    voice: 4
+    dialog: “伤势不重，不用签订捐赠协议了——军医配枪是很普通的事，不要大惊小怪，你也不希望我用它给你麻醉吧。”
+    gift_position: "-12.8,63.7"
+    order: 142
+    class_id: 53
+    skin_source: 1
+  }
+  {
+    id: 50003
+    name: 黑卡蒂-致命焦点
+    fit_gun: 1046
+    voice: 4
+    dialog: “打仗，不是别人死，就是自己死，活久了，都会有一两个听起来很吓人的外号，习惯就好，不用被吓到。”
+    gift_position: "-67,71"
+    order: 142
+    class_id: 53
+    skin_source: 1
+  }
+  {
+    id: 50004
+    name: P90-幻影尖兵
+    fit_gun: 245
+    voice: 4
+    dialog: “支援这种事，交给我吧，我最擅长的就是迷惑对手了——就算看到千军万马也别惊讶哦？觉得头晕也是正常的，毕竟看到幻觉了嘛。”
+    gift_position: "-130.8,-38.7"
+    illustrator_cv: RIRE,諸星すみれ,
+    order: 142
+    class_id: 53
+    skin_source: 1
+  }
+  {
+    id: 50005
+    name: MDR-DDOS特工队
+    fit_gun: 215
+    voice: 4
+    dialog: “哈哈哈！没错！又是我！MDR驾到！任务都安心交给我吧——欸？我跟P90组队的原因？指挥官，你听过DDOS攻击吗？我和她，可以各自从网络和现实发起相似的进攻哦……你也很期待看到对面被数据淹没的样子，对吧？”
+    gift_position: "-127.5,-85.9"
+    illustrator_cv: 小枪,愛美,
+    order: 142
+    class_id: 53
     skin_source: 1
   }
 ]

@@ -29339,6 +29339,191 @@
     special_spot_add: 700141:1
   }
   {
+    id: 730001
+    name: 拾取
+    description: 拾取一个冒烟的歌利亚
+    skill_group_id: 730001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100007201"
+    target_id: "1"
+    mission_buff_add: 730001:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 730001
+  }
+  {
+    id: 730011
+    name: 投掷
+    description: 将冒烟的歌利亚投掷出去形成一片烟雾。烟雾持续2个回合，期间进入的敌方单位无法走出来直至烟雾散去
+    skill_group_id: 730011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 730011:1
+    mission_buff_add: 730011:1
+    subsidiary_mission_skill: "730021"
+    is_manual: 730011
+  }
+  {
+    id: 730021
+    name: 【标记】清buff
+    skill_group_id: 730021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 730001:1
+  }
+  {
+    id: 730101
+    name: 【标记】NPC初始化
+    skill_group_id: 730101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730101:1
+    mission_buff_add: 730101:1
+  }
+  {
+    id: 730201
+    name: 【标记】NPC检测
+    skill_group_id: 730201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730201:1
+  }
+  {
+    id: 730221
+    name: 【标记】NPC死亡检测
+    skill_group_id: 730221
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730221:1
+  }
+  {
+    id: 730401
+    name: 【标记】山洞初始化
+    skill_group_id: 730401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730401:1
+  }
+  {
+    id: 730402
+    name: 【标记】山洞初始化
+    skill_group_id: 730402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730402:1
+  }
+  {
+    id: 730403
+    name: 【标记】山洞初始化
+    skill_group_id: 730403
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730403:1
+  }
+  {
+    id: 730404
+    name: 【标记】山洞初始化
+    skill_group_id: 730404
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 730404:1
+  }
+  {
+    id: 730411
+    name: 攀登
+    description: 移动到山道的另一端
+    skill_group_id: 730411
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: "73040101"
+    is_manual: 730411
+  }
+  {
+    id: 730412
+    name: 攀登
+    description: 移动到山道的另一端
+    skill_group_id: 730412
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: "73040201"
+    is_manual: 730411
+  }
+  {
+    id: 730413
+    name: 攀登
+    description: 移动到山道的另一端
+    skill_group_id: 730413
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: "73040301"
+    is_manual: 730411
+  }
+  {
+    id: 730414
+    name: 攀登
+    description: 移动到山道的另一端
+    skill_group_id: 730414
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    target_id: "73040401"
+    is_manual: 730411
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"
@@ -40486,6 +40671,190 @@
     data_pool: "-10"
     special_spot_add: 2200:1
     mission_buff_add: 30012:1
+  }
+  {
+    id: 3001501
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害1%和回避10%,提升己方融合势力梯队暴击率30%和护甲10%。
+    lvup_description: 伤害提升:1%,回避提升:10%,暴击率提升:30%,护甲提升:10%
+    skill_group_id: 30015
+    level: 1
+    train_coin_type: 4
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001502
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害2%和回避12%,提升己方融合势力梯队暴击率32%和护甲11%。
+    lvup_description: 伤害提升:2%,回避提升:12%,暴击率提升:32%,护甲提升:11%
+    skill_group_id: 30015
+    level: 2
+    train_coin_type: 4
+    train_coin_number: 300
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001503
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害3%和回避14%,提升己方融合势力梯队暴击率34%和护甲12%。
+    lvup_description: 伤害提升:3%,回避提升:14%,暴击率提升:34%,护甲提升:12%
+    skill_group_id: 30015
+    level: 3
+    train_coin_type: 4
+    train_coin_number: 400
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001504
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害4%和回避17%,提升己方融合势力梯队暴击率37%和护甲13%。
+    lvup_description: 伤害提升:4%,回避提升:17%,暴击率提升:37%,护甲提升:13%
+    skill_group_id: 30015
+    level: 4
+    train_coin_type: 4
+    train_coin_number: 500
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001505
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害5%和回避19%,提升己方融合势力梯队暴击率39%和护甲14%。
+    lvup_description: 伤害提升:5%,回避提升:19%,暴击率提升:39%,护甲提升:14%
+    skill_group_id: 30015
+    level: 5
+    train_coin_type: 4
+    train_coin_number: 600
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001506
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害6%和回避21%,提升己方融合势力梯队暴击率41%和护甲16%。
+    lvup_description: 伤害提升:6%,回避提升:21%,暴击率提升:41%,护甲提升:16%
+    skill_group_id: 30015
+    level: 6
+    train_coin_type: 4
+    train_coin_number: 800
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001507
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害7%和回避23%,提升己方融合势力梯队暴击率43%和护甲17%。
+    lvup_description: 伤害提升:7%,回避提升:23%,暴击率提升:43%,护甲提升:17%
+    skill_group_id: 30015
+    level: 7
+    train_coin_type: 5
+    train_coin_number: 200
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001508
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害8%和回避26%,提升己方融合势力梯队暴击率46%和护甲18%。
+    lvup_description: 伤害提升:8%,回避提升:26%,暴击率提升:46%,护甲提升:18%
+    skill_group_id: 30015
+    level: 8
+    train_coin_type: 5
+    train_coin_number: 300
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001509
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害9%和回避28%,提升己方融合势力梯队暴击率48%和护甲19%。
+    lvup_description: 伤害提升:9%,回避提升:28%,暴击率提升:48%,护甲提升:19%
+    skill_group_id: 30015
+    level: 9
+    train_coin_type: 5
+    train_coin_number: 400
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
+  }
+  {
+    id: 3001510
+    name: 共生
+    code: M16A1_2
+    description: 白烨戈梯队存活时,提升地图内己方格里芬梯队伤害10%和回避30%,提升己方融合势力梯队暴击率50%和护甲20%。
+    lvup_description: 伤害提升:10%,回避提升:30%,暴击率提升:50%,护甲提升:20%
+    skill_group_id: 30015
+    level: 10
+    train_coin_type: 5
+    train_coin_number: 600
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time: 99
+    cd_time_type: 1
+    special_spot_add: 2400:1
+    mission_buff_add: 300151:1
   }
   {
     id: 3179011
@@ -53564,7 +53933,7 @@
   }
   {
     id: 6540103
-    name: 防御门II初始化
+    name: 防御门II开启
     code: "1"
     description: 开启防御门。
     skill_group_id: 6540103
@@ -53581,7 +53950,7 @@
   }
   {
     id: 6540104
-    name: 防御门III初始化
+    name: 防御门III开启
     code: "1"
     description: 开启防御门。
     skill_group_id: 6540104
@@ -53611,7 +53980,7 @@
   }
   {
     id: 6540106
-    name: 【标记】防御门II初始化连携
+    name: 【标记】防御门II开启连携
     code: "1"
     skill_group_id: 6540106
     level: 1
@@ -53624,7 +53993,7 @@
   }
   {
     id: 6540107
-    name: 【标记】防御门III初始化连携
+    name: 【标记】防御门III开启连携
     code: "1"
     skill_group_id: 6540107
     level: 1

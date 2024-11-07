@@ -673,6 +673,18 @@
     conflict_type: 30012
   }
   {
+    id: 30015
+    name: 共生
+    code: M16A1_2
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 760012
+    conflict_type: 30015
+    priority: 1
+  }
+  {
     id: 50000
     name: 充足燃料
     description: 梯队可额外携带2份弹药口粮。
@@ -866,6 +878,18 @@
     exp_buff: "1"
     free_ap_move: 1
     conflict_type: 78003
+    priority: 1
+  }
+  {
+    id: 300151
+    name: 共生
+    description: 对地图内我方梯队有增益效果
+    code: M16A1_2
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 300151
     priority: 1
   }
   {
@@ -4716,6 +4740,43 @@
     cannot_move: "1"
     battle_skill_config_id: 778225
     conflict_type: 690813
+    priority: 1
+  }
+  {
+    id: 730001
+    name: 携带冒烟的歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 730001
+    priority: -1
+    carry_mission_skill: "730011"
+  }
+  {
+    id: 730011
+    name: 视线受阻
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 730011
+    priority: 1
+  }
+  {
+    id: 730101
+    name: 惊吓检测
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 730101
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 730101
     priority: 1
   }
   {

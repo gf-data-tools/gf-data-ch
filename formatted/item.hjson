@@ -161,7 +161,7 @@
     rank: 1
     sort: 4
     item_access: "8,5"
-    detail_introduction: 可在情报中心进行情报解析，获取重装部队中枢数据或芯片。
+    detail_introduction: 可用于火力小队芯片的解锁和升级。
     type_sort: 2
   }
   {
@@ -174,7 +174,7 @@
     rank: 1
     sort: 5
     item_access: "8,5"
-    detail_introduction: 可在情报中心进行情报解析，相比原始数据更容易获取重装部队中枢数据和高星级芯片。
+    detail_introduction: 可用于火力小队的解锁、晋升、迭代，也可用于火力小队芯片升级。
     type_sort: 2
   }
   {
@@ -187,7 +187,7 @@
     rank: 1
     sort: 508
     item_access: "5,2"
-    detail_introduction: 可立即完成情报中心正在进行的情报解析。
+    detail_introduction: 可立即完成火力小队的晋升。
     type_sort: 3
   }
   {
@@ -200,7 +200,7 @@
     rank: 1
     sort: -1
     item_access: "9,10"
-    detail_introduction: 可用于满星满级重装部队的迭代强化。
+    detail_introduction: 可用于火力小队的迭代。
     type_sort: 2
   }
   {
@@ -322,7 +322,7 @@
     rank: 1
     sort: 12
     item_access: "24,16,6"
-    detail_introduction: 可在格纳库中用于重装部队的经验训练。
+    detail_introduction: 可在情报中心中用于火力小队的经验训练。
     type_sort: 2
   }
   {
@@ -788,50 +788,54 @@
     type: 3
     arg: "39"
     code: Medal_202407Activity
-    item_name: item-10000138
-    introduction: item-20000138
+    item_name: 见证之眼勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在”零电荷“活动中的卓越战绩，“用一场大雪，遮蔽存在的痕迹，用彼此的眼睛，见证狼群的结局。”
     rank: 1
-    detail_introduction: item-30000138
   }
   {
     id: 139
     type: 3
     arg: "40"
     code: Medal_202408Activity
-    item_name: item-10000139
-    introduction: item-20000139
+    item_name: 迷局破围者勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“银染显影”活动中的卓越战绩，“自助者，天恒助之。冲破重重枷锁后，未来的无限将为你敞开。”
     rank: 1
-    detail_introduction: item-30000139
   }
   {
     id: 140
     type: 3
     arg: "41"
     code: Medal_Theater13th
-    item_name: item-10000140
-    introduction: item-20000140
+    item_name: 第十三战区开拓者勋章
+    introduction: 表彰该指挥官及其麾下战术人形在第十三期战区通过不懈努力收获的瞩目积分，“您奋斗在前线的身影，已成为人们眼中的希望。”
     rank: 1
-    detail_introduction: item-30000140
   }
   {
     id: 141
     type: 3
     arg: "42"
     code: Medal_Theater13th_rank
-    item_name: item-10000141
-    introduction: item-20000141
+    item_name: 第十三战区征服者勋章
+    introduction: 表彰该指挥官及其麾下战术人形在第十三期战区立下的卓越战功，“以您为核心，人形们汇聚成了席卷一切的怒涛。”
     rank: 1
-    detail_introduction: item-30000141
   }
   {
     id: 142
     type: 3
     arg: "43"
     code: Medal_202410Activity
-    item_name: item-10000142
-    introduction: item-20000142
+    item_name: 孤林守护者勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“孤立丛林”活动中的卓越战绩，“一群树木漫步向着傍晚与死亡，当它们成为枯树时它们终于抵达。死者死去，但只有生者知道这一点。”
     rank: 1
-    detail_introduction: item-30000142
+  }
+  {
+    id: 143
+    type: 3
+    arg: "44"
+    code: Medal_2024ArenaBreakout
+    item_name: 追光者勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“蝴蝶星云”活动中的卓越战绩，“暗区的迷雾从未真正湮没光亮，因为光，是来自天上的。”
+    rank: 1
   }
   {
     id: 301
@@ -928,10 +932,9 @@
     type: 1
     arg: "1"
     code: CentreDataL9A1
-    item_name: item-10000311
-    introduction: item-20000311
+    item_name: 中枢数据:L9A1
+    introduction: 重装部队L9A1的数据碎片，—“做完这单差不多就该休息了吧？”—“哎呀……你确定吗？下一单有限时双倍返利喔。”
     rank: 1
-    detail_introduction: item-30000311
   }
   {
     id: 501
@@ -14997,630 +15000,738 @@
     type: 5
     arg: "1"
     code: profilePic_ChessFlight_season16_1
-    item_name: item-10002522
-    introduction: item-20002522
+    item_name: 奇策构筑 · 代号拾肆：弛豫
+    introduction: 奇策构筑 · 代号拾肆：弛豫
     rank: 1
-    detail_introduction: item-30002522
   }
   {
     id: 2523
     type: 5
     arg: "1"
     code: profilePic_ChessFlight_season16_2
-    item_name: item-10002523
-    introduction: item-20002523
+    item_name: 谋律想定 · 代号拾肆：弛豫
+    introduction: 谋律想定 · 代号拾肆：弛豫
     rank: 1
-    detail_introduction: item-30002523
   }
   {
     id: 2524
     type: 5
     arg: "1"
     code: profilePic_ChessFlight_season16_3
-    item_name: item-10002524
-    introduction: item-20002524
+    item_name: 机略推演 · 代号拾肆：弛豫
+    introduction: 机略推演 · 代号拾肆：弛豫
     rank: 1
-    detail_introduction: item-30002524
   }
   {
     id: 2525
     type: 5
     arg: "1"
     code: profilePic_202407Activity_01
-    item_name: item-10002525
-    introduction: item-20002525
+    item_name: 头像：叛逆埃多斯
+    introduction: 头像：叛逆埃多斯
     rank: 1
-    detail_introduction: item-30002525
   }
   {
     id: 2526
     type: 5
     arg: "1"
     code: profilePic_202407Activity_02
-    item_name: item-10002526
-    introduction: item-20002526
+    item_name: 头像：珀尔修斯的使命
+    introduction: 头像：珀尔修斯的使命
     rank: 1
-    detail_introduction: item-30002526
   }
   {
     id: 2527
     type: 5
     arg: "1"
     code: profilePic_202407Activity_03
-    item_name: item-10002527
-    introduction: item-20002527
+    item_name: 头像：墨菲斯托的光
+    introduction: 头像：墨菲斯托的光
     rank: 1
-    detail_introduction: item-30002527
   }
   {
     id: 2528
     type: 5
     arg: "1"
     code: card_202407Activity_01
-    item_name: item-10002528
-    introduction: item-20002528
+    item_name: 名片：法兰克福老铁桥
+    introduction: 名片：法兰克福老铁桥
     rank: 1
-    detail_introduction: item-30002528
   }
   {
     id: 2529
     type: 5
     arg: "1"
     code: card_202407Activity_02
-    item_name: item-10002529
-    introduction: item-20002529
+    item_name: 名片：静夜美因河
+    introduction: 名片：静夜美因河
     rank: 1
-    detail_introduction: item-30002529
   }
   {
     id: 2530
     type: 5
     arg: "1"
     code: profilePic_rank6_AK12Mod
-    item_name: item-10002530
-    introduction: item-20002530
+    item_name: AK-12心智升级头像
+    introduction: AK-12心智升级头像
     rank: 1
-    detail_introduction: item-30002530
   }
   {
     id: 2531
     type: 5
     arg: "1"
     code: cg_202407Activity_01
-    item_name: item-10002531
-    introduction: item-20002531
+    item_name: 背景：文明避难所
+    introduction: 背景：文明避难所
     rank: 1
-    detail_introduction: item-30002531
   }
   {
     id: 2532
     type: 5
     arg: "1"
     code: cg_202407Activity_02
-    item_name: item-10002532
-    introduction: item-20002532
+    item_name: 背景：法兰克福老歌剧院
+    introduction: 背景：法兰克福老歌剧院
     rank: 1
-    detail_introduction: item-30002532
   }
   {
     id: 2533
     type: 5
     arg: "1"
     code: profilePic_Detective2024_SCARH
-    item_name: item-10002533
-    introduction: item-20002533
+    item_name: SCAR-H-萨摩不是卧底
+    introduction: SCAR-H-萨摩不是卧底
     rank: 1
-    detail_introduction: item-30002533
   }
   {
     id: 2534
     type: 5
     arg: "1"
     code: profilePic_Detective2024_LAMG
-    item_name: item-10002534
-    introduction: item-20002534
+    item_name: LAMG-珀里克烟丝
+    introduction: LAMG-珀里克烟丝
     rank: 1
-    detail_introduction: item-30002534
   }
   {
     id: 2535
     type: 5
     arg: "1"
     code: profilePic_Detective2024_KH2002
-    item_name: item-10002535
-    introduction: item-20002535
+    item_name: KH2002-夜访猫头鹰
+    introduction: KH2002-夜访猫头鹰
     rank: 1
-    detail_introduction: item-30002535
   }
   {
     id: 2536
     type: 5
     arg: "1"
     code: profilePic_Detective2024_AUGPARA
-    item_name: item-10002536
-    introduction: item-20002536
+    item_name: AUG SMG-浅丁香票根
+    introduction: AUG SMG-浅丁香票根
     rank: 1
-    detail_introduction: item-30002536
   }
   {
     id: 2537
     type: 5
     arg: "1"
     code: profilePic_Detective2024_9A91
-    item_name: item-10002537
-    introduction: item-20002537
+    item_name: 9A-91-香槟后座驰援记
+    introduction: 9A-91-香槟后座驰援记
     rank: 1
-    detail_introduction: item-30002537
   }
   {
     id: 2538
     type: 5
     arg: "1"
     code: profilePic_Detective2024_MP5
-    item_name: item-10002538
-    introduction: item-20002538
+    item_name: MP5-直觉，名为红色
+    introduction: MP5-直觉，名为红色
     rank: 1
-    detail_introduction: item-30002538
   }
   {
     id: 2539
     type: 5
     arg: "1"
     code: profilePic_Detective2024_Mk23
-    item_name: item-10002539
-    introduction: item-20002539
+    item_name: MK23-法医喵代克
+    introduction: MK23-法医喵代克
     rank: 1
-    detail_introduction: item-30002539
   }
   {
     id: 2540
     type: 5
     arg: "1"
     code: profilePic_BattlePass_M1851N
-    item_name: item-10002540
-    introduction: item-20002540
+    item_name: 柯尔特M1851N-白羽飞扬
+    introduction: 柯尔特M1851N-白羽飞扬
     rank: 1
-    detail_introduction: item-30002540
   }
   {
     id: 2541
     type: 5
     arg: "1"
     code: card_BattlePass_M1851N
-    item_name: item-10002541
-    introduction: item-20002541
+    item_name: 名片：活力节拍
+    introduction: 名片：活力节拍
     rank: 1
-    detail_introduction: item-30002541
   }
   {
     id: 2542
     type: 5
     arg: "1"
     code: profilePic_Chess2024_AUG
-    item_name: item-10002542
-    introduction: item-20002542
+    item_name: AUG-绯红女王
+    introduction: AUG-绯红女王
     rank: 1
-    detail_introduction: item-30002542
   }
   {
     id: 2543
     type: 5
     arg: "1"
     code: profilePic_Chess2024_Rhino
-    item_name: item-10002543
-    introduction: item-20002543
+    item_name: 芮诺-逆位战车
+    introduction: 芮诺-逆位战车
     rank: 1
-    detail_introduction: item-30002543
   }
   {
     id: 2544
     type: 5
     arg: "1"
     code: profilePic_Chess2024_M1928A1
-    item_name: item-10002544
-    introduction: item-20002544
+    item_name: 汤姆森-无界棋后
+    introduction: 汤姆森-无界棋后
     rank: 1
-    detail_introduction: item-30002544
   }
   {
     id: 2545
     type: 5
     arg: "1"
     code: profilePic_Chess2024_APC556
-    item_name: item-10002545
-    introduction: item-20002545
+    item_name: APC556-跃行骑士
+    introduction: APC556-跃行骑士
     rank: 1
-    detail_introduction: item-30002545
   }
   {
     id: 2546
     type: 5
     arg: "1"
     code: profilePic_Chess2024_P7
-    item_name: item-10002546
-    introduction: item-20002546
+    item_name: P7-神谕守护者
+    introduction: P7-神谕守护者
     rank: 1
-    detail_introduction: item-30002546
   }
   {
     id: 2547
     type: 5
     arg: "1"
     code: profilePic_Chess2024_MP41
-    item_name: item-10002547
-    introduction: item-20002547
+    item_name: MP41-粉碎尖兵
+    introduction: MP41-粉碎尖兵
     rank: 1
-    detail_introduction: item-30002547
   }
   {
     id: 2548
     type: 5
     arg: "1"
     code: profilePic_Chess2024_IDW
-    item_name: item-10002548
-    introduction: item-20002548
+    item_name: IDW-猫咪重锤
+    introduction: IDW-猫咪重锤
     rank: 1
-    detail_introduction: item-30002548
   }
   {
     id: 2549
     type: 5
     arg: "1"
     code: profilePic_202408Activity_01
-    item_name: item-10002549
-    introduction: item-20002549
+    item_name: 头像：故人初见
+    introduction: 头像：故人初见
     rank: 1
-    detail_introduction: item-30002549
   }
   {
     id: 2550
     type: 5
     arg: "1"
     code: profilePic_202408Activity_02
-    item_name: item-10002550
-    introduction: item-20002550
+    item_name: 头像：不言之中
+    introduction: 头像：不言之中
     rank: 1
-    detail_introduction: item-30002550
   }
   {
     id: 2551
     type: 5
     arg: "1"
     code: profilePic_202408Activity_03
-    item_name: item-10002551
-    introduction: item-20002551
+    item_name: 头像：砺心
+    introduction: 头像：砺心
     rank: 1
-    detail_introduction: item-30002551
   }
   {
     id: 2552
     type: 5
     arg: "1"
     code: card_202408Activity_01
-    item_name: item-10002552
-    introduction: item-20002552
+    item_name: 名片：触不可及
+    introduction: 名片：触不可及
     rank: 1
-    detail_introduction: item-30002552
   }
   {
     id: 2553
     type: 5
     arg: "1"
     code: card_202408Activity_02
-    item_name: item-10002553
-    introduction: item-20002553
+    item_name: 名片：咫尺天空
+    introduction: 名片：咫尺天空
     rank: 1
-    detail_introduction: item-30002553
   }
   {
     id: 2554
     type: 5
     arg: "1"
     code: cg_202408Activity_01
-    item_name: item-10002554
-    introduction: item-20002554
+    item_name: 背景：暮色回响
+    introduction: 背景：暮色回响
     rank: 1
-    detail_introduction: item-30002554
   }
   {
     id: 2555
     type: 5
     arg: "1"
     code: cg_202408Activity_02
-    item_name: item-10002555
-    introduction: item-20002555
+    item_name: 背景：纯净的恩典
+    introduction: 背景：纯净的恩典
     rank: 1
-    detail_introduction: item-30002555
   }
   {
     id: 2556
     type: 5
     arg: "1"
     code: profilePic_sangvis_GagerSwimwear
-    item_name: item-10002556
-    introduction: item-20002556
+    item_name: 计量官-VWV型头像
+    introduction: 计量官-VWV型头像
     rank: 1
-    detail_introduction: item-30002556
   }
   {
     id: 2557
     type: 5
     arg: "1"
     code: profilePic_BattlePass_LWMMG
-    item_name: item-10002557
-    introduction: item-20002557
+    item_name: LWMMG-柔暖根音
+    introduction: LWMMG-柔暖根音
     rank: 1
-    detail_introduction: item-30002557
   }
   {
     id: 2558
     type: 5
     arg: "1"
     code: card_BattlePass_LWMMG
-    item_name: item-10002558
-    introduction: item-20002558
+    item_name: 名片：过载宇宙
+    introduction: 名片：过载宇宙
     rank: 1
-    detail_introduction: item-30002558
   }
   {
     id: 2559
     type: 5
     arg: "1"
     code: profilePic_Bunny24_FM24
-    item_name: item-10002559
-    introduction: item-20002559
+    item_name: FM24-敬金色的相遇
+    introduction: FM24-敬金色的相遇
     rank: 1
-    detail_introduction: item-30002559
   }
   {
     id: 2560
     type: 5
     arg: "1"
     code: profilePic_Bunny24_JS9mm
-    item_name: item-10002560
-    introduction: item-20002560
+    item_name: JS 9-芭菲马提尼
+    introduction: JS 9-芭菲马提尼
     rank: 1
-    detail_introduction: item-30002560
   }
   {
     id: 2561
     type: 5
     arg: "1"
     code: profilePic_Bunny24_LTLX7000
-    item_name: item-10002561
-    introduction: item-20002561
+    item_name: LTLX7000-醉情麦卡伦
+    introduction: LTLX7000-醉情麦卡伦
     rank: 1
-    detail_introduction: item-30002561
   }
   {
     id: 2562
     type: 5
     arg: "1"
     code: profilePic_Bunny24_SR3MP
-    item_name: item-10002562
-    introduction: item-20002562
+    item_name: SR-3MP-枪炮玫瑰之礼
+    introduction: SR-3MP-枪炮玫瑰之礼
     rank: 1
-    detail_introduction: item-30002562
   }
   {
     id: 2563
     type: 5
     arg: "1"
     code: profilePic_Bunny24_56-1type
-    item_name: item-10002563
-    introduction: item-20002563
+    item_name: 56-1式-粽香百利甜
+    introduction: 56-1式-粽香百利甜
     rank: 1
-    detail_introduction: item-30002563
   }
   {
     id: 2564
     type: 5
     arg: "1"
     code: profilePic_Bunny24_RMB93
-    item_name: item-10002564
-    introduction: item-20002564
+    item_name: RMB-93-莓果微醺之夜
+    introduction: RMB-93-莓果微醺之夜
     rank: 1
-    detail_introduction: item-30002564
   }
   {
     id: 2565
     type: 5
     arg: "1"
     code: profilePic_Bunny24_MP40
-    item_name: item-10002565
-    introduction: item-20002565
+    item_name: MP40-黑桃香槟
+    introduction: MP40-黑桃香槟
     rank: 1
-    detail_introduction: item-30002565
   }
   {
     id: 2566
     type: 5
     arg: "1"
     code: profilePic_BattlePass_MartiniHenry
-    item_name: item-10002566
-    introduction: item-20002566
+    item_name: 马提尼亨利-莓果色的悸动
+    introduction: 马提尼亨利-莓果色的悸动
     rank: 1
-    detail_introduction: item-30002566
   }
   {
     id: 2567
     type: 5
     arg: "1"
     code: card_BattlePass_MartiniHenry
-    item_name: item-10002567
-    introduction: item-20002567
+    item_name: 名片：流淌于巷角的阳光
+    introduction: 名片：流淌于巷角的阳光
     rank: 1
-    detail_introduction: item-30002567
   }
   {
     id: 2568
     type: 5
     arg: "1"
     code: profilePic_mask_Hallowmas_NA
-    item_name: item-10002568
-    introduction: item-20002568
+    item_name: 真核面具纪念头像·万圣节
+    introduction: 真核面具纪念头像·万圣节
     rank: 1
-    detail_introduction: item-30002568
   }
   {
     id: 2569
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_HS50
-    item_name: item-10002569
-    introduction: item-20002569
+    item_name: HS.50-深海狱使
+    introduction: HS.50-深海狱使
     rank: 1
-    detail_introduction: item-30002569
   }
   {
     id: 2570
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_M1887
-    item_name: item-10002570
-    introduction: item-20002570
+    item_name: M1887-血色荆棘
+    introduction: M1887-血色荆棘
     rank: 1
-    detail_introduction: item-30002570
   }
   {
     id: 2571
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_SPAS15
-    item_name: item-10002571
-    introduction: item-20002571
+    item_name: SPAS-15-潘神的低语
+    introduction: SPAS-15-潘神的低语
     rank: 1
-    detail_introduction: item-30002571
   }
   {
     id: 2572
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_SR2
-    item_name: item-10002572
-    introduction: item-20002572
+    item_name: SR-2-蝰鳞之吻
+    introduction: SR-2-蝰鳞之吻
     rank: 1
-    detail_introduction: item-30002572
   }
   {
     id: 2573
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_Welrod
-    item_name: item-10002573
-    introduction: item-20002573
+    item_name: 维尔德MkⅡ-垂丝傀儡谣
+    introduction: 维尔德MkⅡ-垂丝傀儡谣
     rank: 1
-    detail_introduction: item-30002573
   }
   {
     id: 2574
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_AR15
-    item_name: item-10002574
-    introduction: item-20002574
+    item_name: ST AR-15-我，即混沌
+    introduction: ST AR-15-我，即混沌
     rank: 1
-    detail_introduction: item-30002574
   }
   {
     id: 2575
     type: 5
     arg: "1"
     code: profilePic_Revenge2024_C14
-    item_name: item-10002575
-    introduction: item-20002575
+    item_name: C14-幽冥曼姝
+    introduction: C14-幽冥曼姝
     rank: 1
-    detail_introduction: item-30002575
   }
   {
     id: 2576
     type: 5
     arg: "1"
     code: profilePic_202410Activity_01
-    item_name: item-10002576
-    introduction: item-20002576
+    item_name: 头像：因果偃师
+    introduction: 头像：因果偃师
     rank: 1
-    detail_introduction: item-30002576
   }
   {
     id: 2577
     type: 5
     arg: "1"
     code: profilePic_202410Activity_02
-    item_name: item-10002577
-    introduction: item-20002577
+    item_name: 头像：伸冤医者
+    introduction: 头像：伸冤医者
     rank: 1
-    detail_introduction: item-30002577
   }
   {
     id: 2578
     type: 5
     arg: "1"
     code: card_202410Activity_01
-    item_name: item-10002578
-    introduction: item-20002578
+    item_name: 名片：轻若尘埃，重如千钧
+    introduction: 名片：轻若尘埃，重如千钧
     rank: 1
-    detail_introduction: item-30002578
   }
   {
     id: 2579
     type: 5
     arg: "1"
     code: card_202410Activity_02
-    item_name: item-10002579
-    introduction: item-20002579
+    item_name: 名片：马卡洛夫与白衣天使
+    introduction: 名片：马卡洛夫与白衣天使
     rank: 1
-    detail_introduction: item-30002579
   }
   {
     id: 2580
     type: 5
     arg: "1"
     code: cg_202410Activity_01
-    item_name: item-10002580
-    introduction: item-20002580
+    item_name: 背景：走在清晨的雪径
+    introduction: 背景：走在清晨的雪径
     rank: 1
-    detail_introduction: item-30002580
   }
   {
     id: 2581
     type: 5
     arg: "1"
     code: cg_202410Activity_02
-    item_name: item-10002581
-    introduction: item-20002581
+    item_name: 背景：光影交织的午后
+    introduction: 背景：光影交织的午后
     rank: 1
-    detail_introduction: item-30002581
   }
   {
     id: 2582
     type: 5
     arg: "1"
     code: profilePic_sangvis_Mrsgray
-    item_name: item-10002582
-    introduction: item-20002582
+    item_name: 格雷头像
+    introduction: 格雷头像
     rank: 1
-    detail_introduction: item-30002582
+  }
+  {
+    id: 2583
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season17_1
+    item_name: 辰星群系 · 代号拾伍：银冕
+    introduction: 辰星群系 · 代号拾伍：银冕
+    rank: 1
+  }
+  {
+    id: 2584
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season17_2
+    item_name: 卫月潮汐 · 代号拾伍：银冕
+    introduction: 卫月潮汐 · 代号拾伍：银冕
+    rank: 1
+  }
+  {
+    id: 2585
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season17_3
+    item_name: 聚变核心 · 代号拾伍：银冕
+    introduction: 聚变核心 · 代号拾伍：银冕
+    rank: 1
+  }
+  {
+    id: 2586
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_Evita
+    item_name: 艾薇塔-复合呼吸
+    introduction: 艾薇塔-复合呼吸
+    rank: 1
+  }
+  {
+    id: 2587
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_Hecate
+    item_name: 黑卡蒂-致命焦点
+    introduction: 黑卡蒂-致命焦点
+    rank: 1
+  }
+  {
+    id: 2588
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_P90
+    item_name: P90-幻影尖兵
+    introduction: P90-幻影尖兵
+    rank: 1
+  }
+  {
+    id: 2589
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_MDR
+    item_name: MDR-DDOS特工队
+    introduction: MDR-DDOS特工队
+    rank: 1
+  }
+  {
+    id: 2590
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_M16A1_Boss
+    item_name: 白烨戈头像
+    introduction: 白烨戈头像
+    rank: 1
+  }
+  {
+    id: 2591
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_01
+    item_name: 头像：流浪的刀
+    introduction: 头像：流浪的刀
+    rank: 1
+  }
+  {
+    id: 2592
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_02
+    item_name: 头像：追随你
+    introduction: 头像：追随你
+    rank: 1
+  }
+  {
+    id: 2593
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_03
+    item_name: 头像：攀登者
+    introduction: 头像：攀登者
+    rank: 1
+  }
+  {
+    id: 2594
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_04
+    item_name: 头像：一个考验
+    introduction: 头像：一个考验
+    rank: 1
+  }
+  {
+    id: 2595
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_05
+    item_name: 头像：他乡来客
+    introduction: 头像：他乡来客
+    rank: 1
+  }
+  {
+    id: 2596
+    type: 5
+    arg: "1"
+    code: card_2024ArenaBreakout_01
+    item_name: 名片：纷乱枪火
+    introduction: 名片：纷乱枪火
+    rank: 1
+  }
+  {
+    id: 2597
+    type: 5
+    arg: "1"
+    code: card_2024ArenaBreakout_02
+    item_name: 名片：16号金标
+    introduction: 名片：16号金标
+    rank: 1
+  }
+  {
+    id: 2598
+    type: 5
+    arg: "1"
+    code: cg_2024ArenaBreakout_01
+    item_name: 背景：银月孤舟
+    introduction: 背景：银月孤舟
+    rank: 1
+  }
+  {
+    id: 2599
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_SAT8
+    item_name: 马提尼亨利-莓果色的悸动
+    introduction: 马提尼亨利-莓果色的悸动
+    rank: 1
+  }
+  {
+    id: 2600
+    type: 5
+    arg: "1"
+    code: card_BattlePass_SAT8
+    item_name: 名片：夜空中流溢的星
+    introduction: 名片：夜空中流溢的星
+    rank: 1
   }
   {
     id: 3501
     type: 5
     arg: "1"
     code: profilePic_rank5_SPAS12Mod
-    item_name: item-10003501
-    introduction: item-20003501
+    item_name: SPAS-12心智升级头像
+    introduction: SPAS-12心智升级头像
     rank: 1
-    detail_introduction: item-30003501
   }
   {
     id: 3502
     type: 5
     arg: "1"
     code: profilePic_rank6_ZastavaM21Mod
-    item_name: item-10003502
-    introduction: item-20003502
+    item_name: Zas M21心智升级头像
+    introduction: Zas M21心智升级头像
     rank: 1
-    detail_introduction: item-30003502
+  }
+  {
+    id: 3503
+    type: 5
+    arg: "1"
+    code: profilePic_rank5_CR21Mod
+    item_name: CR-21心智升级头像
+    introduction: CR-21心智升级头像
+    rank: 1
   }
   {
     id: 4001
@@ -16786,10 +16897,169 @@
     type: 1
     arg: "9048"
     code: mind_PT
-    item_name: item-10009048
-    introduction: item-20009048
+    item_name: 思域迷航PT
+    introduction: 思域迷航PT
     rank: 1
-    detail_introduction: item-30009048
+  }
+  {
+    id: 9049
+    type: 1
+    arg: "9049"
+    code: mind_PT
+    item_name: 思域迷航PT
+    introduction: 思域迷航PT
+    rank: 1
+  }
+  {
+    id: 9301
+    type: 1
+    arg: "9301"
+    code: intelligence1
+    item_name: 一个整洁的医疗工具包
+    introduction:
+      '''
+      >>>>一个整洁的医疗工具包。
+      这个医疗包很眼熟，似乎在艾薇塔那里见过很多次。
+      大多数热人刚到暗区的时候，都从艾薇塔手中买过保命的东西。
+      急救包，止痛药，手术袋……医疗物资和枪械一样，还是贵的好，对吧？
+      眼前的医疗包就打理得整齐崭新，保养得跟没怎么用过一样。
+      好医生就该这样。
+      '''
+    rank: 1
+  }
+  {
+    id: 9302
+    type: 1
+    arg: "9302"
+    code: intelligence2
+    item_name: 一段模糊不清的录音文件…
+    introduction:
+      '''
+      >>>>一段模糊不清的录音文件，从口音判断是本地人断断续续的议论。
+      “那些……*(杂音)*……上当了。全没了！”
+      “不管是科伦还是特维拉，没有一个好东西。都盯着咱们呢！”
+      “……就没有好人来吗？”
+      “那个医生……”
+      “她？哈哈哈哈，要我说嘛……”
+      “你也小心点，那个……*(杂音)*……艾薇塔……可不是什么……*(杂音)*……”
+      >>>>录音结束。
+      '''
+    rank: 1
+  }
+  {
+    id: 9303
+    type: 1
+    arg: "9303"
+    code: intelligence3
+    item_name: 一个老旧的指南针
+    introduction:
+      '''
+      >>>>一个老旧的指南针。
+      并非军用，精度不高。即使被悉心保存，外壳漆面也出现了剥落。
+      如果这是某个知名人物携带过的信物，或许还能拿到市场上大赚一笔。
+      但无论怎么看，它都只是一个平平无奇的旧物而已。
+      不知它曾从谁的手交递到谁的手中，又曾指引过一段怎样的道路。
+      '''
+    rank: 1
+  }
+  {
+    id: 9304
+    type: 1
+    arg: "9304"
+    code: intelligence4
+    item_name: 一枚磨损的古金币
+    introduction:
+      '''
+      >>>>一枚磨损的古金币。
+      大多数货币都采用了不易磨损的材质制作，但这一枚实在太过古老。
+      经过漫长的时间磨蚀，金币上的图案和字样都已经模糊，轮廓也有些残缺。
+      多斯总是抛接着这枚古金币，就像是试图通过它感受着什么……
+      当它被你握在手中，你感觉到的是什么？
+      权力的诱惑？历史的回声？还是——这玩意一定很值钱？
+      '''
+    rank: 1
+  }
+  {
+    id: 9305
+    type: 1
+    arg: "9305"
+    code: intelligence5
+    item_name: 一支风干的玫瑰花
+    introduction:
+      '''
+      >>>>一支风干的玫瑰花。
+      听人说山谷这块地方，以前是做鲜花产业的。
+      人们确实听说过多斯手底下的这些鲜花生意，据说主要就是浪漫的玫瑰。
+      卡莫纳一定是有着庞大的鲜花需求市场，才使得安东尼家族的鲜花生意如此庞大。
+      靠着花卉绿植交易，加上一些人情往来，就能几乎控制整个山谷……
+      如果有机会，真该去他的鲜花基地逛逛。
+      '''
+    rank: 1
+  }
+  {
+    id: 9306
+    type: 1
+    arg: "9306"
+    code: intelligence6
+    item_name: 一盒5.56×45毫米M955穿甲子弹
+    introduction:
+      '''
+      >>>>一盒5.56×45毫米M955穿甲子弹。
+      在暗区闯荡，装备武器弹药缺一不可。谁能拒绝好子弹呢？
+      穿透力，精准度，当然还有性价比，都是需要好好考虑的考虑的角度。
+      至于这一批子弹，应该是某个人为自己的爱枪特地准备的。
+      是据为己有，还是留给这位难得的“朋友”？怎么选都不稀奇。
+      不过，如果是“指挥官”的话……
+      '''
+    rank: 1
+  }
+  {
+    id: 9307
+    type: 1
+    arg: "9307"
+    code: intelligence7
+    item_name: 一个精心保养的登山扣
+    introduction:
+      '''
+      >>>>一个精心保养的登山扣。
+      熟悉黑卡蒂的人都知道，这个登山扣是她的心爱之物。
+      每个人都有关于过往的秘密，但黑卡蒂从不打算隐藏自己的过去。
+      攀岩与登山是她的兴趣，也是独属于她的荣耀。
+      牢牢抓住手中的机会，不知疲倦地向上攀登——她就是这样的人。
+      '''
+    rank: 1
+  }
+  {
+    id: 9308
+    type: 1
+    arg: "9308"
+    code: intelligence8
+    item_name: 一张手绘的暗区地图
+    introduction:
+      '''
+      >>>>一张手绘的暗区地图。
+      这张地图有些年头了，纸面还算完整，但上面由不同颜色的笔迹涂改过好几次。
+      在卡莫纳这块地方，黑金和白狼两方都有自己所支持的势力，在暗区各自盘踞。
+      这些地块也曾多次易主，上面的人时而交火争锋，时而又互相合作。
+      不到最后一刻，谁也不知道这张地图上会涂改多少次“所有者”的名字……
+      '''
+    rank: 1
+  }
+  {
+    id: 9309
+    type: 1
+    arg: "9309"
+    code: intelligence9
+    item_name: 块被破坏的军牌
+    introduction:
+      '''
+      >>>>一块被破坏的军牌。
+      这块军牌遭到过严重的损毁，被弹孔贯穿，字样也已经难以辨认。
+      按理说，通过这块小小的金属铭牌，你就能掌握持有者的基本信息。
+      名字、血型、编号，甚至家乡，都浓缩在这短短的几行字里……
+      它的制式和材质看上去十分眼熟，你一定在哪见过和它样式相同的东西。
+      '''
+    rank: 1
   }
   {
     id: 10603
@@ -17003,50 +17273,63 @@
     type: 18
     arg: "10718"
     code: daily_points
-    item_name: item-10010718
-    introduction: item-20010718
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
     rank: 1
-    detail_introduction: item-30010718
   }
   {
     id: 10719
     type: 18
     arg: "10719"
     code: daily_points
-    item_name: item-10010719
-    introduction: item-20010719
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
     rank: 1
-    detail_introduction: item-30010719
   }
   {
     id: 10720
     type: 18
     arg: "10720"
     code: daily_points
-    item_name: item-10010720
-    introduction: item-20010720
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
     rank: 1
-    detail_introduction: item-30010720
   }
   {
     id: 10721
     type: 18
     arg: "10721"
     code: daily_points
-    item_name: item-10010721
-    introduction: item-20010721
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
     rank: 1
-    detail_introduction: item-30010721
+  }
+  {
+    id: 10722
+    type: 18
+    arg: "10722"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
   }
   {
     id: 30023
     type: 1
     arg: "30023"
     code: gift_bundle_BattlePass_MartiniHenry
-    item_name: item-10030023
-    introduction: item-20030023
+    item_name: 马提尼亨利-莓果色的悸动
+    introduction: 指挥官是来买莓莓慕斯的吗？果然和我预料的一样~给，我已经提前买好咯！报酬就要……一张指挥官的微笑！
     rank: 1
-    detail_introduction: item-30030023
+  }
+  {
+    id: 30024
+    type: 1
+    arg: "30024"
+    code: gift_bundle_BattlePass_SAT8
+    item_name: S.A.T.8-暮野花谣
+    introduction: 在绿野上与小羊漫步，一同沐浴夕暮的余晖，在木推车上载满雏菊，向您分享我的心意……指挥官，这就是我能想到的最温暖、最幸福的画面！
+    rank: 1
   }
   {
     id: 100001
@@ -19119,194 +19402,203 @@
     type: 4
     arg: "100226"
     code: Nova_medal
-    item_name: item-10100226
-    introduction: item-20100226
+    item_name: 新星勋章·思域迷航
+    introduction: 新星勋章·思域迷航
     rank: 1
-    detail_introduction: item-30100226
   }
   {
     id: 100227
     type: 4
     arg: "100227"
     code: Platinum_medal
-    item_name: item-10100227
-    introduction: item-20100227
+    item_name: 白金勋章·思域迷航
+    introduction: 白金勋章·思域迷航
     rank: 1
-    detail_introduction: item-30100227
   }
   {
     id: 100228
     type: 9
     arg: "100228"
     code: Mind_Coin
-    item_name: item-10100228
-    introduction: item-20100228
+    item_name: 思维币
+    introduction: 思维币
     rank: 1
     daily_limit: "120"
-    detail_introduction: item-30100228
   }
   {
     id: 100229
     type: 4
     arg: "100229"
     code: Nova_medal_black
-    item_name: item-10100229
-    introduction: item-20100229
+    item_name: 新星勋章·零电荷
+    introduction: 新星勋章·零电荷
     rank: 1
-    detail_introduction: item-30100229
   }
   {
     id: 100230
     type: 4
     arg: "100230"
     code: Platinum_medal_black
-    item_name: item-10100230
-    introduction: item-20100230
+    item_name: 白金勋章·零电荷
+    introduction: 白金勋章·零电荷
     rank: 1
-    detail_introduction: item-30100230
   }
   {
     id: 100231
     type: 9
     arg: "100231"
     code: Coin_202407ZeroCharge
-    item_name: item-10100231
-    introduction: item-20100231
+    item_name: '''"潘多拉"纪念币'''
+    introduction: 一出意外上演的歌剧，让整个法兰克福震颤。这枚纪念币，承载着昔日的痛苦与喜悦，和一个夙愿。
     rank: 1
     daily_limit: "60"
-    detail_introduction: item-30100231
   }
   {
     id: 100232
     type: 4
     arg: "100232"
     code: coremask2_202407ZeroCharge
-    item_name: item-10100232
-    introduction: item-20100232
+    item_name: 蚀心面具·零电荷
+    introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
     rank: 1
-    detail_introduction: item-30100232
   }
   {
     id: 100233
     type: 4
     arg: "100233"
     code: Nova_medal
-    item_name: item-10100233
-    introduction: item-20100233
+    item_name: 新星勋章·银染显影
+    introduction: 新星勋章·银染显影
     rank: 1
-    detail_introduction: item-30100233
   }
   {
     id: 100234
     type: 4
     arg: "100234"
     code: Platinum_medal
-    item_name: item-10100234
-    introduction: item-20100234
+    item_name: 白金勋章·银染显影
+    introduction: 白金勋章·银染显影
     rank: 1
-    detail_introduction: item-30100234
   }
   {
     id: 100235
     type: 9
     arg: "100235"
     code: Coin_202408AngularGyrus
-    item_name: item-10100235
-    introduction: item-20100235
+    item_name: 致胜兵卒
+    introduction: 棋局之上，黑白之间，唯有小兵没有后退的权利。
     rank: 1
     daily_limit: "60"
-    detail_introduction: item-30100235
   }
   {
     id: 100236
     type: 4
     arg: "100236"
     code: coremask2_202408AngularGyrus
-    item_name: item-10100236
-    introduction: item-20100236
+    item_name: 蚀心面具·银染显影
+    introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
     rank: 1
-    detail_introduction: item-30100236
   }
   {
     id: 100237
     type: 4
     arg: "100237"
     code: Nova_medal_black
-    item_name: item-10100237
-    introduction: item-20100237
+    item_name: 新星勋章
+    introduction: 新星勋章
     rank: 1
-    detail_introduction: item-30100237
   }
   {
     id: 100238
     type: 4
     arg: "100238"
     code: Platinum_medal_black
-    item_name: item-10100238
-    introduction: item-20100238
+    item_name: 白金勋章
+    introduction: 白金勋章
     rank: 1
-    detail_introduction: item-30100238
   }
   {
     id: 100239
     type: 4
     arg: "100239"
     code: Bumdle_October3
-    item_name: item-10100239
-    introduction: item-20100239
+    item_name: 秋日乐游箱
+    introduction: 秋日乐游箱
     rank: 1
-    detail_introduction: item-30100239
   }
   {
     id: 100240
     type: 4
     arg: "100240"
     code: core_mask_24Hallowmas_NA
-    item_name: item-10100240
-    introduction: item-20100240
+    item_name: 真核面具·美服万圣
+    introduction: 真核面具·美服万圣
     rank: 1
-    detail_introduction: item-30100240
   }
   {
     id: 100241
     type: 4
     arg: "100241"
     code: Nova_medal
-    item_name: item-10100241
-    introduction: item-20100241
+    item_name: 新星勋章·孤立丛林
+    introduction: 新星勋章·孤立丛林
     rank: 1
-    detail_introduction: item-30100241
   }
   {
     id: 100242
     type: 4
     arg: "100242"
     code: Platinum_medal
-    item_name: item-10100242
-    introduction: item-20100242
+    item_name: 白金勋章·孤立丛林
+    introduction: 白金勋章·孤立丛林
     rank: 1
-    detail_introduction: item-30100242
   }
   {
     id: 100243
     type: 9
     arg: "100243"
     code: Coin_202410IsolationForest
-    item_name: item-10100243
-    introduction: item-20100243
+    item_name: 倒悬树影
+    introduction: 在梦境中倒立着肆意生长的树，根系纠缠在一起，组成一座座漂浮群岛。
     rank: 1
     daily_limit: 60;180
-    detail_introduction: item-30100243
   }
   {
     id: 100244
     type: 4
     arg: "100244"
     code: coremask2_202410IsolationForest
-    item_name: item-10100244
-    introduction: item-20100244
+    item_name: 蚀心面具·孤立丛林
+    introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
     rank: 1
-    detail_introduction: item-30100244
+  }
+  {
+    id: 100245
+    type: 4
+    arg: "100245"
+    code: Nova_medal_black
+    item_name: 新星勋章·蝴蝶星云
+    introduction: 新星勋章·蝴蝶星云
+    rank: 1
+  }
+  {
+    id: 100246
+    type: 4
+    arg: "100246"
+    code: Platinum_medal_black
+    item_name: 白金勋章·蝴蝶星云
+    introduction: 白金勋章·蝴蝶星云
+    rank: 1
+  }
+  {
+    id: 100247
+    type: 9
+    arg: "100247"
+    code: Coin_202411LorenzButterfly
+    item_name: 柯恩币
+    introduction: 暗区的流通货币，无论在官方还是黑市，都被认可。
+    rank: 1
+    daily_limit: 60;180
   }
   {
     id: 110001
@@ -21680,60 +21972,68 @@
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: item-10140041
-    introduction: item-20140041
+    item_name: *第21期前线协议
     rank: 1
-    detail_introduction: item-30140041
   }
   {
     id: 140042
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: item-10140042
-    introduction: item-20140042
+    item_name: *第21期前线协议进阶
     rank: 1
-    detail_introduction: item-30140042
   }
   {
     id: 140043
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: item-10140043
-    introduction: item-20140043
+    item_name: *第22期前线协议
     rank: 1
-    detail_introduction: item-30140043
   }
   {
     id: 140044
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: item-10140044
-    introduction: item-20140044
+    item_name: *第22期前线协议进阶
     rank: 1
-    detail_introduction: item-30140044
   }
   {
     id: 140045
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: item-10140045
-    introduction: item-20140045
+    item_name: *第23期前线协议
     rank: 1
-    detail_introduction: item-30140045
   }
   {
     id: 140046
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: item-10140046
-    introduction: item-20140046
+    item_name: *第23期前线协议进阶
     rank: 1
-    detail_introduction: item-30140046
+  }
+  {
+    id: 140047
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140047
+    introduction: item-20140047
+    rank: 1
+    detail_introduction: item-30140047
+  }
+  {
+    id: 140048
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140048
+    introduction: item-20140048
+    rank: 1
+    detail_introduction: item-30140048
   }
   {
     id: 160001
@@ -22157,30 +22457,36 @@
     type: 1
     arg: "1"
     code: profileFrame_BattlePass_M1851N
-    item_name: item-10200046
-    introduction: item-20200046
+    item_name: 头像框·甜心轻羽
+    introduction: 头像框·甜心轻羽
     rank: 1
-    detail_introduction: item-30200046
   }
   {
     id: 200047
     type: 1
     arg: "1"
     code: profileFrame_BattlePass_LWMMG
-    item_name: item-10200047
-    introduction: item-20200047
+    item_name: 头像框·律动光束
+    introduction: 头像框·律动光束
     rank: 1
-    detail_introduction: item-30200047
   }
   {
     id: 200048
     type: 1
     arg: "1"
     code: profileFrame_BattlePass_MartiniHenry
-    item_name: item-10200048
-    introduction: item-20200048
+    item_name: 头像框·莓莓慕斯猫
+    introduction: 头像框·莓莓慕斯猫
     rank: 1
-    detail_introduction: item-30200048
+  }
+  {
+    id: 200049
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_SAT8
+    item_name: 头像框·牧羊煦曲
+    introduction: 头像框·牧羊煦曲
+    rank: 1
   }
   {
     id: 900030
@@ -23792,7 +24098,7 @@
     arg: "1500139"
     code: package_choose
     item_name: 弹匣类装备自选包
-    introduction: 来自于前线协议-梦季旋律，可从该指定投递配给序标内选择获取一件人形类装备
+    introduction: 来自于前线协议-梦季旋律，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
     type_sort: 1
@@ -23824,11 +24130,10 @@
     type: 15
     arg: "1500142"
     code: Bumdle_zerocharge01
-    item_name: item-11500142
-    introduction: item-21500142
+    item_name: 零电荷限定装扮券·壹
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500142
     type_sort: 1
   }
   {
@@ -23836,11 +24141,10 @@
     type: 15
     arg: "1500143"
     code: Bumdle_zerocharge02
-    item_name: item-11500143
-    introduction: item-21500143
+    item_name: 零电荷限定装扮券·贰
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500143
     type_sort: 1
   }
   {
@@ -23848,11 +24152,10 @@
     type: 15
     arg: "1500144"
     code: Bumdle_zerocharge03
-    item_name: item-11500144
-    introduction: item-21500144
+    item_name: 零电荷限定装扮券·忤逆特供
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500144
     type_sort: 1
   }
   {
@@ -23860,11 +24163,10 @@
     type: 15
     arg: "1500145"
     code: package_choose
-    item_name: item-11500145
-    introduction: item-21500145
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-决胜！热辣假期，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31500145
     type_sort: 1
   }
   {
@@ -23872,11 +24174,10 @@
     type: 15
     arg: "1500146"
     code: package_choose
-    item_name: item-11500146
-    introduction: item-21500146
+    item_name: 人形类装备自选包
+    introduction: 来自于前线协议-决胜！热辣假期，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
-    detail_introduction: item-31500146
     type_sort: 1
   }
   {
@@ -23884,11 +24185,10 @@
     type: 15
     arg: "1500147"
     code: package_random
-    item_name: item-11500147
-    introduction: item-21500147
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-决胜！热辣假期，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
-    detail_introduction: item-31500147
     type_sort: 1
   }
   {
@@ -23896,11 +24196,10 @@
     type: 15
     arg: "1500148"
     code: package_random
-    item_name: item-11500148
-    introduction: item-21500148
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-决胜！热辣假期，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
-    detail_introduction: item-31500148
     type_sort: 1
   }
   {
@@ -23908,11 +24207,10 @@
     type: 15
     arg: "1500149"
     code: Bumdle_Angulargyrus01
-    item_name: item-11500149
-    introduction: item-21500149
+    item_name: 银染显影限定装扮券·壹
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500149
     type_sort: 1
   }
   {
@@ -23920,11 +24218,10 @@
     type: 15
     arg: "1500150"
     code: Bumdle_Angulargyrus02
-    item_name: item-11500150
-    introduction: item-21500150
+    item_name: 银染显影限定装扮券·贰
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500150
     type_sort: 1
   }
   {
@@ -23932,11 +24229,10 @@
     type: 15
     arg: "1500151"
     code: Bumdle_Angulargyrus03
-    item_name: item-11500151
-    introduction: item-21500151
+    item_name: 银染显影限定装扮券·叁
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500151
     type_sort: 1
   }
   {
@@ -23944,11 +24240,10 @@
     type: 15
     arg: "1500152"
     code: Bumdle_invocation_3
-    item_name: item-11500152
-    introduction: item-21500152
+    item_name: 四星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
     rank: 1
     sort: -1
-    detail_introduction: item-31500152
     type_sort: 1
   }
   {
@@ -23956,11 +24251,10 @@
     type: 15
     arg: "1500153"
     code: Bumdle_invocation_2
-    item_name: item-11500153
-    introduction: item-21500153
+    item_name: 五星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。
     rank: 1
     sort: -1
-    detail_introduction: item-31500153
     type_sort: 1
   }
   {
@@ -23968,11 +24262,14 @@
     type: 15
     arg: "1500154"
     code: Bumdle_sangvischoose
-    item_name: item-11500154
-    introduction: item-21500154
+    item_name: 融合势力定向收归委托书
+    introduction:
+      '''
+      在仓库中使用该委托书，即可从指定范围内选择获得一位初始三星融合势力单位。
+      *若指挥官未解锁“融合势力”系统，在获得所选的初始三星融合势力单位后将暂时无法使用，待后续指挥官解锁了“融合势力”系统后可正常使用。
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500154
     type_sort: 1
   }
   {
@@ -23980,11 +24277,10 @@
     type: 15
     arg: "1500155"
     code: Bumdle_equipment
-    item_name: item-11500155
-    introduction: item-21500155
+    item_name: 五星装备自选凭证
+    introduction: 在仓库中使用该自选凭证，即可从指定范围内选择获得一个非专属五星装备。
     rank: 1
     sort: -1
-    detail_introduction: item-31500155
     type_sort: 1
   }
   {
@@ -23992,11 +24288,10 @@
     type: 15
     arg: "1500156"
     code: package_choose
-    item_name: item-11500156
-    introduction: item-21500156
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-独奏边界，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31500156
     type_sort: 1
   }
   {
@@ -24004,11 +24299,10 @@
     type: 15
     arg: "1500157"
     code: package_choose
-    item_name: item-11500157
-    introduction: item-21500157
+    item_name: 配件类装备自选包
+    introduction: 来自于前线协议-独奏边界，可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
-    detail_introduction: item-31500157
     type_sort: 1
   }
   {
@@ -24016,11 +24310,10 @@
     type: 15
     arg: "1500158"
     code: package_random
-    item_name: item-11500158
-    introduction: item-21500158
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-独奏边界，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
-    detail_introduction: item-31500158
     type_sort: 1
   }
   {
@@ -24028,11 +24321,10 @@
     type: 15
     arg: "1500159"
     code: package_random
-    item_name: item-11500159
-    introduction: item-21500159
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-独奏边界，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
-    detail_introduction: item-31500159
     type_sort: 1
   }
   {
@@ -24040,11 +24332,10 @@
     type: 15
     arg: "1500160"
     code: package_choose
-    item_name: item-11500160
-    introduction: item-21500160
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-暖梦咖啡屋，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31500160
     type_sort: 1
   }
   {
@@ -24052,11 +24343,10 @@
     type: 15
     arg: "1500161"
     code: package_choose
-    item_name: item-11500161
-    introduction: item-21500161
+    item_name: 弹匣类装备自选包
+    introduction: 来自于前线协议-暖梦咖啡屋，可从该指定投递配给序标内选择获取一件弹匣类装备
     rank: 1
     sort: -1
-    detail_introduction: item-31500161
     type_sort: 1
   }
   {
@@ -24064,11 +24354,10 @@
     type: 15
     arg: "1500162"
     code: package_random
-    item_name: item-11500162
-    introduction: item-21500162
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-暖梦咖啡屋，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
-    detail_introduction: item-31500162
     type_sort: 1
   }
   {
@@ -24076,11 +24365,10 @@
     type: 15
     arg: "1500163"
     code: package_random
-    item_name: item-11500163
-    introduction: item-21500163
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-暖梦咖啡屋，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
-    detail_introduction: item-31500163
     type_sort: 1
   }
   {
@@ -24088,11 +24376,10 @@
     type: 15
     arg: "1500164"
     code: Bumdle_IsolationForest01
-    item_name: item-11500164
-    introduction: item-21500164
+    item_name: 孤立丛林限定装扮券·壹
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500164
     type_sort: 1
   }
   {
@@ -24100,11 +24387,10 @@
     type: 15
     arg: "1500165"
     code: Bumdle_IsolationForest02
-    item_name: item-11500165
-    introduction: item-21500165
+    item_name: 孤立丛林限定装扮券·贰
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500165
     type_sort: 1
   }
   {
@@ -24112,11 +24398,10 @@
     type: 15
     arg: "1500166"
     code: Bumdle_IsolationForest03
-    item_name: item-11500166
-    introduction: item-21500166
+    item_name: 孤立丛林限定装扮券·叁
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500166
     type_sort: 1
   }
   {
@@ -24124,11 +24409,10 @@
     type: 15
     arg: "1500167"
     code: Bumdle_IsolationForest04
-    item_name: item-11500167
-    introduction: item-21500167
+    item_name: 孤立丛林限定装扮券·肆
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500167
     type_sort: 1
   }
   {
@@ -24136,11 +24420,10 @@
     type: 15
     arg: "1500168"
     code: Bumdle_invocation_3
-    item_name: item-11500168
-    introduction: item-21500168
+    item_name: 四星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
     rank: 1
     sort: -1
-    detail_introduction: item-31500168
     type_sort: 1
   }
   {
@@ -24148,11 +24431,10 @@
     type: 15
     arg: "1500169"
     code: Bumdle_invocation_2
-    item_name: item-11500169
-    introduction: item-21500169
+    item_name: 五星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。
     rank: 1
     sort: -1
-    detail_introduction: item-31500169
     type_sort: 1
   }
   {
@@ -24160,11 +24442,14 @@
     type: 15
     arg: "1500170"
     code: Bumdle_sangvischoose
-    item_name: item-11500170
-    introduction: item-21500170
+    item_name: 融合势力定向收归委托书
+    introduction:
+      '''
+      在仓库中使用该委托书，即可从指定范围内选择获得一位初始三星融合势力单位。
+      *若指挥官未解锁“融合势力”系统，在获得所选的初始三星融合势力单位后将暂时无法使用，待后续指挥官解锁了“融合势力”系统后可正常使用。
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500170
     type_sort: 1
   }
   {
@@ -24172,11 +24457,54 @@
     type: 15
     arg: "1500171"
     code: Bumdle_equipment
-    item_name: item-11500171
-    introduction: item-21500171
+    item_name: 五星装备自选凭证
+    introduction: 在仓库中使用该自选凭证，即可从指定范围内选择获得一个非专属五星装备。
     rank: 1
     sort: -1
-    detail_introduction: item-31500171
+    type_sort: 1
+  }
+  {
+    id: 1500172
+    type: 15
+    arg: "1500172"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-牧羊村物语，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500173
+    type: 15
+    arg: "1500173"
+    code: package_choose
+    item_name: 人形类装备自选包
+    introduction: 来自于前线协议-牧羊村物语，可从该指定投递配给序标内选择获取一件人形类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500174
+    type: 15
+    arg: "1500174"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-牧羊村物语，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500175
+    type: 15
+    arg: "1500175"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-牧羊村物语，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
     type_sort: 1
   }
   {
@@ -24541,11 +24869,10 @@
     type: 15
     arg: "1700031"
     code: package_choose
-    item_name: item-11700031
-    introduction: item-21700031
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700031
     type_sort: 1
   }
   {
@@ -24553,11 +24880,10 @@
     type: 15
     arg: "1700032"
     code: package_choose
-    item_name: item-11700032
-    introduction: item-21700032
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700032
     type_sort: 1
   }
   {
@@ -24565,11 +24891,10 @@
     type: 15
     arg: "1700033"
     code: package_choose
-    item_name: item-11700033
-    introduction: item-21700033
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700033
     type_sort: 1
   }
   {
@@ -24577,11 +24902,10 @@
     type: 15
     arg: "1700034"
     code: package_choose
-    item_name: item-11700034
-    introduction: item-21700034
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700034
     type_sort: 1
   }
   {
@@ -24589,11 +24913,10 @@
     type: 15
     arg: "1700035"
     code: package_choose
-    item_name: item-11700035
-    introduction: item-21700035
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700035
     type_sort: 1
   }
   {
@@ -24601,11 +24924,10 @@
     type: 15
     arg: "1700036"
     code: package_choose
-    item_name: item-11700036
-    introduction: item-21700036
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700036
     type_sort: 1
   }
   {
@@ -24613,11 +24935,10 @@
     type: 15
     arg: "1700037"
     code: package_choose
-    item_name: item-11700037
-    introduction: item-21700037
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700037
     type_sort: 1
   }
   {
@@ -24625,11 +24946,10 @@
     type: 15
     arg: "1700038"
     code: package_choose
-    item_name: item-11700038
-    introduction: item-21700038
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700038
     type_sort: 1
   }
   {
@@ -24637,11 +24957,10 @@
     type: 15
     arg: "1700039"
     code: package_choose
-    item_name: item-11700039
-    introduction: item-21700039
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700039
     type_sort: 1
   }
   {
@@ -24649,11 +24968,10 @@
     type: 15
     arg: "1700040"
     code: package_choose
-    item_name: item-11700040
-    introduction: item-21700040
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700040
     type_sort: 1
   }
   {
@@ -24661,11 +24979,10 @@
     type: 15
     arg: "1700041"
     code: package_choose
-    item_name: item-11700041
-    introduction: item-21700041
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700041
     type_sort: 1
   }
   {
@@ -24673,11 +24990,43 @@
     type: 15
     arg: "1700042"
     code: package_choose
-    item_name: item-11700042
-    introduction: item-21700042
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
     rank: 1
     sort: -1
-    detail_introduction: item-31700042
+    type_sort: 1
+  }
+  {
+    id: 1700043
+    type: 15
+    arg: "1700043"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700044
+    type: 15
+    arg: "1700044"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700045
+    type: 15
+    arg: "1700045"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
     type_sort: 1
   }
   {

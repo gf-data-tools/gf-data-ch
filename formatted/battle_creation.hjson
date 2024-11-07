@@ -51572,6 +51572,58 @@
     is_orb_effect: 1
   }
   {
+    id: 3743
+    name: 艾蕾塔子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "717"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 3744
+    name: 艾蕾塔技能子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "718"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 3745
+    name: 黑卡蒂子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "719"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
+    sound_delay: "0,2,4,6"
+    is_orb_effect: 1
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -54022,6 +54074,20 @@
     creation_type: 2
     scale: "1"
     sound_order: BT_grenade_explode
+  }
+  {
+    id: 4289
+    name: ZR-21改造子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "720"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
   }
   {
     id: 5010
@@ -63084,6 +63150,132 @@
     is_die_delete: 1
   }
   {
+    id: 6207
+    name: 白烨戈子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "0.5,0.3"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "4006"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_tiexue_shot
+  }
+  {
+    id: 6208
+    name: 白烨戈无判定子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "0.5,0.3"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_tiexue_shot
+  }
+  {
+    id: 6209
+    name: 白烨戈空袭伤害
+    code: M16A1_baozha
+    start_type: "8"
+    start_offset: "4,0,-1.7"
+    destination_type: "8"
+    destination_offset: "4,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "4007"
+    buff_id: 6315:1,6316:1,6317:1
+    buff_cd: "0,0,0"
+    is_form_play: 1
+    scale: "8,0.1,12"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 6210
+    name: 喙入场1
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1901"
+  }
+  {
+    id: 6211
+    name: 左侧判定
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: "4885"
+    buff_cd: "3"
+    scale: "1"
+  }
+  {
+    id: 6212
+    name: 轮胎尾烟
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    start_offset: "0.3,0.2"
+    destination_type: "3"
+    destination_offset: "0.3,0.2"
+    is_tracing: 1
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 6213
+    name: 喙伤害
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    hurt_id: "4008"
+    hurt_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 6214
+    name: 白烨戈枪口火光
+    code: Fire
+    start_type: "1"
+    start_offset: "0.3,0.2"
+    destination_type: "1"
+    destination_offset: "0.3,0.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
     id: 7001
     name: 战车-迫击炮己方
     code: 迫击炮
@@ -63807,6 +63999,297 @@
     buff_id: 1000002463:1
     is_form_play: 1
     scale: "1.5,1.5,1.5"
+  }
+  {
+    id: 7139
+    name: 多斯子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "-0.05,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "1512"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 7140
+    name: 多斯普攻
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1513"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7141
+    name: 多斯复仇预警内
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.8,0,0.4"
+    destination_type: "6"
+    destination_offset: "-0.8,0,0.4"
+    is_tracing: 1
+    rotate: "90,0,0"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 2572:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1.25,2.15"
+  }
+  {
+    id: 7142
+    name: 多斯复仇预警中上
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.8,0,4.6"
+    destination_type: "6"
+    destination_offset: "-0.8,0,4.6"
+    is_tracing: 1
+    rotate: "90,0,0"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 2572:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1.25,2.15"
+  }
+  {
+    id: 7143
+    name: 多斯复仇预警中下
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.8,0,-3.8"
+    destination_type: "6"
+    destination_offset: "-0.8,0,-3.8"
+    is_tracing: 1
+    rotate: "90,0,0"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 2572:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1.25,2.15"
+  }
+  {
+    id: 7144
+    name: 多斯复仇预警中左
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-3.2,0,0.4"
+    destination_type: "6"
+    destination_offset: "-3.2,0,0.4"
+    is_tracing: 1
+    rotate: "90,0,0"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 2572:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1.25,2.15"
+  }
+  {
+    id: 7145
+    name: 多斯复仇预警中右
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "1.6,0,0.4"
+    destination_type: "6"
+    destination_offset: "1.6,0,0.4"
+    is_tracing: 1
+    rotate: "90,0,0"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 2572:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1.25,2.15"
+  }
+  {
+    id: 7146
+    name: 多斯近身伤害子弹
+    start_type: "6"
+    destination_type: "5"
+    is_tracing: 1
+    route_type: 1
+    speed: 5000
+    hurt_id: "1514"
+    scale: "1"
+    trigger_creation_id: "9242"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7150
+    name: 黑卡蒂进攻模式
+    code: powerUp
+    start_type: hip
+    start_offset: "0,0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7151
+    name: 黑卡蒂防御模式
+    code: AQLD_zy_buff
+    start_type: hip
+    start_offset: "0,-0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,-0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7152
+    name: 黑卡蒂电磁弹
+    code: 2021xiahuo/ZDB_sld01
+    start_type: Lhand
+    destination_type: "6"
+    is_form_offset: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 100
+    speed: 2000
+    spin_velocity: 800
+    rotate: "0,0,130"
+    effect_area: 1
+    hurt_id: "1515"
+    is_form_play: 1
+    scale: "0.15,0.15,0.15"
+    trigger_creation_id: "7153,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 7153
+    name: 黑卡蒂电磁弹结算
+    code: 2021xiahuo/ZDB_dzmc_zt
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2.5"
+    buff_type: 101:-99,102:-99,103:-99,104:-99,105:-99,106:-99,107:-99,108:-99,109:-99
+    buff_cd: "0,0,0,0,0,0,0,0,0"
+    is_form_play: 1
+    scale: "1.25,1.25,1.25"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7154
+    name: 黑卡蒂空袭定位
+    code: M16_Elite/M16_N_Beacon
+    start_type: "6"
+    start_offset: "-0.8,0,0.4"
+    destination_type: "6"
+    destination_offset: "-0.8,0,0.4"
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "7156,7155"
+    trigger_creation_delay: "-1,90"
+  }
+  {
+    id: 7155
+    name: 黑卡蒂空袭结算范围
+    code: M16_Normal/M16_N_Explode
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "2"
+    hurt_id: "2"
+    hurt_cd: "10"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7156
+    name: 黑卡蒂空袭预警
+    code: M16_Normal/M16_N_Alert
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "90"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1,1,1"
+    sound_order: BT_Alarm
+  }
+  {
+    id: 7157
+    name: 黑卡蒂随机一列
+    code: SP_9_jianshang
+    start_type: "8"
+    start_offset: "-1.5,0,-2"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-2"
+    random_number: "1"
+    random_offset: "0,0,0;-2.4,0,0;-4.8,0,0"
+    rotate: "20,0,0"
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "3"
+    effect_param_2: "20"
+    buff_id: 2598:1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7159
+    name: 黑卡蒂连续子弹
+    code: zidan4_Enemy
+    start_type: "1"
+    start_offset: "-0.05,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "1516"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_pistol
   }
   {
     id: 7501
@@ -115246,6 +115729,42 @@
     is_form_play: 1
     creation_type: 2
     scale: "1"
+  }
+  {
+    id: 621001
+    name: 喙入场2
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1902"
+  }
+  {
+    id: 621002
+    name: 喙入场3
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1903"
+  }
+  {
+    id: 621003
+    name: 喙入场4
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1904"
+  }
+  {
+    id: 621004
+    name: 喙入场5
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1905"
   }
   {
     id: 701201

@@ -8672,6 +8672,26 @@
     boss_available: 1
   }
   {
+    id: 1031
+    name: 效果显示通用
+    conflict_type: 101
+    max_tier: 9
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 1032
+    name: 效果显示通用
+    conflict_type: 101
+    max_tier: 5
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
     id: 1100
     name: hs2000标记
     description: 若存在则未被判断
@@ -11891,6 +11911,248 @@
     boss_available: 1
     hurt_id: 1511
     hurt_cd: 3
+  }
+  {
+    id: 2566
+    name: 多斯射程降低
+    conflict_type: 2566
+    max_tier: 1
+    type: 830
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    range_number: "-50"
+  }
+  {
+    id: 2567
+    name: 多斯打药触发
+    conflict_type: 2567
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2568
+    name: 多斯血量层数
+    conflict_type: 2568
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2569
+    name: 多斯打药护盾
+    conflict_type: 2569
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 2570
+    name: 多斯打药减伤
+    conflict_type: 2570
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 2571
+    name: 多斯复仇触发
+    conflict_type: 2571
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2572
+    name: 多斯人数检测标记
+    conflict_type: 2572
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "11"
+    boss_available: 1
+    forced_skill: "450074"
+  }
+  {
+    id: 2573
+    name: 多斯人数检测反馈
+    conflict_type: 2573
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "11"
+    boss_available: 1
+  }
+  {
+    id: 2574
+    name: 多斯复仇目标
+    conflict_type: 2574
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+  }
+  {
+    id: 2575
+    name: 多斯复仇目标锁定
+    conflict_type: 2575
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+  }
+  {
+    id: 2590
+    name: 黑卡蒂攻击模式
+    conflict_type: 2590
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "7150"
+    is_form_play: 1
+  }
+  {
+    id: 2591
+    name: 黑卡蒂防御模式
+    conflict_type: 2591
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "7151"
+    is_form_play: 1
+  }
+  {
+    id: 2592
+    name: 黑卡蒂电磁弹计数
+    conflict_type: 2592
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2593
+    name: 黑卡蒂电磁弹护甲下降
+    conflict_type: 2593
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    armor_reduce_number: "50"
+  }
+  {
+    id: 2594
+    name: 黑卡蒂电磁弹回避下降
+    conflict_type: 2594
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    dodge_number: "50"
+  }
+  {
+    id: 2595
+    name: 黑卡蒂监视掉编
+    conflict_type: 2595
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5014
+  }
+  {
+    id: 2596
+    name: 黑卡蒂伤害提升
+    conflict_type: 2596
+    max_tier: 10
+    type: 101
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+    pow_number: "110"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 2597
+    name: 黑卡蒂命中提升
+    conflict_type: 2597
+    max_tier: 10
+    type: 103
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+    hit_number: "110"
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 2598
+    name: 黑卡蒂伤害下降
+    conflict_type: 2598
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "450"
+    boss_available: 1
+    pow_number: "30"
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 2599
+    name: 黑卡蒂护盾
+    conflict_type: 2599
+    max_tier: 10
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 2600
+    name: 黑卡蒂减伤
+    conflict_type: 2600
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *202
   }
   {
     id: 3000
@@ -33162,6 +33424,66 @@
     is_form_play: 1
   }
   {
+    id: 5336
+    name: CR-21改造触发
+    conflict_type: 5336
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5337
+    name: CR-21改造一技能触发
+    conflict_type: 5337
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5338
+    name: CR-21易伤
+    conflict_type: 5338
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
+    is_form_play: 1
+  }
+  {
+    id: 5339
+    name: CR-21伤害提升
+    conflict_type: 5339
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5340
+    name: CR-21二技能触发
+    conflict_type: 5340
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
     id: 5700
     name: ***
     conflict_type: 100
@@ -33490,6 +33812,307 @@
     boss_available: 1
     trigger_creation_id: "7502"
     is_form_play: 1
+  }
+  {
+    id: 6308
+    name: 白烨戈伤害下降
+    conflict_type: 6308
+    max_tier: 2
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6309
+    name: 白烨戈射速下降
+    conflict_type: 6309
+    max_tier: 2
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6310
+    name: 白烨戈命中下降
+    conflict_type: 6310
+    max_tier: 2
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6311
+    name: 白烨戈移速下降
+    conflict_type: 6311
+    max_tier: 2
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6312
+    name: 白烨戈护甲下降
+    conflict_type: 6312
+    max_tier: 2
+    type: 208
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6313
+    name: 白烨戈回避下降
+    conflict_type: 6313
+    max_tier: 2
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6314
+    name: 白烨戈减益触发
+    conflict_type: 6314
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 6315
+    name: 白烨戈空袭射速下降
+    conflict_type: 6315
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6316
+    name: 白烨戈空袭移速下降
+    conflict_type: 6316
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6317
+    name: 白烨戈空袭护甲下降
+    conflict_type: 6317
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *202
+    trigger_creation_id: "205"
+  }
+  {
+    id: 6318
+    name: 白烨戈共生伤害提升
+    conflict_type: 6318
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    available_gun_type: "1,2,3,4,5,6"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 6319
+    name: 白烨戈共生回避提升
+    conflict_type: 6319
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    dodge_number: *202
+    trigger_creation_id: "201"
+    available_gun_type: "1,2,3,4,5,6"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 6320
+    name: 白烨戈共生暴击率提升
+    conflict_type: 6320
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_number: *203
+    trigger_creation_id: "201"
+    available_gun_type: "201,202,203"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 6321
+    name: 白烨戈共生护甲提升
+    conflict_type: 6321
+    max_tier: 1
+    type: 108
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    armor_reduce_number: *204
+    trigger_creation_id: "201"
+    available_gun_type: "201,202,203"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 6322
+    name: 白烨戈Boss检测
+    conflict_type: 6322
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "760015"
+  }
+  {
+    id: 6323
+    name: 白烨戈Boss反馈
+    conflict_type: 6323
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6324
+    name: 白烨戈绞杀层数
+    conflict_type: 6324
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6325
+    name: 白烨戈伤害提升
+    conflict_type: 6325
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6326
+    name: 白烨戈射速提升
+    conflict_type: 6326
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6327
+    name: 白烨戈命中提升
+    conflict_type: 6327
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6328
+    name: 白烨戈移速提升
+    conflict_type: 6328
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    move_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6329
+    name: 白烨戈护甲提升
+    conflict_type: 6329
+    max_tier: 1
+    type: 108
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    armor_reduce_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6330
+    name: 白烨戈回避提升
+    conflict_type: 6330
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6331
+    name: 白烨戈暴击提升
+    conflict_type: 6331
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_number: *201
+    trigger_creation_id: "201"
+  }
+  {
+    id: 6332
+    name: 白烨戈暴伤提升
+    conflict_type: 6332
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: *201
+    trigger_creation_id: "201"
   }
   {
     id: 7101
@@ -58504,6 +59127,559 @@
     is_form_play: 1
   }
   {
+    id: 9643
+    name: 艾薇塔主动触发
+    conflict_type: 9643
+    max_tier: 3
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9644
+    name: 艾薇塔护甲下降
+    conflict_type: 9644
+    max_tier: 5
+    type: 208
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *202
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 9645
+    name: 艾薇塔回避下降
+    conflict_type: 9645
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *203
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 9646
+    name: 艾薇塔伤害增益标记
+    conflict_type: 9646
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003504"
+  }
+  {
+    id: 9647
+    name: 艾薇塔回避增益标记
+    conflict_type: 9647
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003505"
+  }
+  {
+    id: 9648
+    name: 艾薇塔命中增益标记
+    conflict_type: 9648
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003506"
+  }
+  {
+    id: 9649
+    name: 艾薇塔射速增益标记
+    conflict_type: 9649
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003507"
+  }
+  {
+    id: 9650
+    name: 艾薇塔移速增益标记
+    conflict_type: 9650
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003508"
+  }
+  {
+    id: 9651
+    name: 艾薇塔护甲增益标记
+    conflict_type: 9651
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003509"
+  }
+  {
+    id: 9652
+    name: 艾薇塔穿甲增益标记
+    conflict_type: 9652
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "1003510"
+  }
+  {
+    id: 9653
+    name: 艾薇塔无增益标记
+    conflict_type: 9653
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9654
+    name: 艾薇塔全队伤害提升
+    conflict_type: 9654
+    max_tier: 10
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9655
+    name: 艾薇塔装备
+    conflict_type: 9655
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9656
+    name: 艾薇塔生命层数
+    conflict_type: 9656
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9657
+    name: 艾薇塔护盾触发
+    conflict_type: 9657
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "1003513"
+  }
+  {
+    id: 9658
+    name: 艾薇塔护盾
+    conflict_type: 9658
+    max_tier: 5
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9659
+    name: 黑卡蒂目标标记
+    conflict_type: 9659
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1072
+  }
+  {
+    id: 9660
+    name: 黑卡蒂3层增幅上限
+    conflict_type: 9660
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9661
+    name: 黑卡蒂5层增幅上限
+    conflict_type: 9661
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9662
+    name: 黑卡蒂7层增幅上限
+    conflict_type: 9662
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9663
+    name: 黑卡蒂9层增幅上限
+    conflict_type: 9663
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9664
+    name: 黑卡蒂增幅层数
+    conflict_type: 9664
+    max_tier: 9
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9665
+    name: 黑卡蒂伤害层数
+    conflict_type: 9665
+    max_tier: 50
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9666
+    name: 黑卡蒂命中层数
+    conflict_type: 9666
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9667
+    name: 黑卡蒂回避层数
+    conflict_type: 9667
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9668
+    name: 黑卡蒂3层增幅伤害提升
+    conflict_type: 9668
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9669
+    name: 黑卡蒂3层增幅命中提升
+    conflict_type: 9669
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 9670
+    name: 黑卡蒂5层增幅护盾
+    conflict_type: 9670
+    max_tier: 10
+    type: 109
+    duration_type: 1
+    duration: "1500"
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9671
+    name: 黑卡蒂5层增幅减伤
+    conflict_type: 9671
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "1500"
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 9672
+    name: 黑卡蒂7层增幅触发
+    conflict_type: 9672
+    max_tier: 2
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9673
+    name: 黑卡蒂9层增幅锁编
+    conflict_type: 9673
+    max_tier: 1
+    type: 307
+    duration_type: 1
+    duration: "16"
+    boss_available: 1
+  }
+  {
+    id: 9674
+    name: 黑卡蒂胜利判定触发
+    conflict_type: 9674
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9675
+    name: 黑卡蒂胜利判定0
+    conflict_type: 9675
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9676
+    name: 黑卡蒂胜利判定1
+    conflict_type: 9676
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9677
+    name: 黑卡蒂胜利判定2
+    conflict_type: 9677
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9678
+    name: 黑卡蒂胜利判定3+
+    conflict_type: 9678
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9679
+    name: 黑卡蒂装备
+    conflict_type: 9679
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9680
+    name: 黑卡蒂增幅层数
+    conflict_type: 9680
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9681
+    name: 黑卡蒂增幅伤害提升
+    conflict_type: 9681
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "110"
+  }
+  {
+    id: 9682
+    name: 黑卡蒂增幅命中提升
+    conflict_type: 9682
+    max_tier: 5
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: "110"
+  }
+  {
+    id: 9683
+    name: 黑卡蒂增幅回避提升
+    conflict_type: 9683
+    max_tier: 5
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: "110"
+  }
+  {
+    id: 9684
+    name: 黑卡蒂主动触发
+    conflict_type: 9684
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9685
+    name: 黑卡蒂增幅2层触发
+    conflict_type: 9685
+    max_tier: 2
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9686
+    name: 黑卡蒂增幅3层触发
+    conflict_type: 9686
+    max_tier: 2
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9687
+    name: 黑卡蒂增幅4层触发
+    conflict_type: 9687
+    max_tier: 2
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9688
+    name: 黑卡蒂增幅5层触发
+    conflict_type: 9688
+    max_tier: 2
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9689
+    name: 黑卡蒂目标标记
+    conflict_type: 9689
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1073
+  }
+  {
+    id: 9690
+    name: 黑卡蒂2层增幅伤害提升
+    conflict_type: 9690
+    max_tier: 2
+    type: 101
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    pow_number: "150"
+  }
+  {
+    id: 9691
+    name: 黑卡蒂2层增幅命中提升
+    conflict_type: 9691
+    max_tier: 2
+    type: 103
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    hit_number: "150"
+  }
+  {
+    id: 9692
+    name: 黑卡蒂3层增幅护盾
+    conflict_type: 9692
+    max_tier: 10
+    type: 109
+    duration_type: 1
+    duration: "1500"
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9693
+    name: 黑卡蒂3层增幅减伤
+    conflict_type: 9693
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "1500"
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 9694
+    name: 黑卡蒂5层增幅锁编
+    conflict_type: 9694
+    max_tier: 2
+    type: 307
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+  }
+  {
     id: 9700
     name: SSG3000装备
     conflict_type: 9700
@@ -58523,6 +59699,152 @@
     duration: *201
     boss_available: 1
     pow_number: "115"
+  }
+  {
+    id: 9705
+    name: M82A1套装装备1
+    conflict_type: 9705
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9706
+    name: M82A1套装装备2
+    conflict_type: 9706
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9707
+    name: M82A1套装
+    conflict_type: 9707
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9708
+    name: IDW套装装备1
+    conflict_type: 9708
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9709
+    name: IDW套装装备2
+    conflict_type: 9709
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9710
+    name: IDW套装
+    conflict_type: 9710
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9711
+    name: M82A1冷却缩减
+    conflict_type: 9711
+    max_tier: 1
+    type: 128
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    cdr_number: "75"
+  }
+  {
+    id: 9712
+    name: M82A1套装射速提升
+    conflict_type: 9712
+    max_tier: 3
+    type: 104
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: "110"
+  }
+  {
+    id: 9713
+    name: M82A1套装暴伤提升
+    conflict_type: 9713
+    max_tier: 3
+    type: 112
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: "110"
+  }
+  {
+    id: 9714
+    name: IDW套装护盾
+    conflict_type: 9714
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: "100"
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9715
+    name: IDW套装减伤1
+    conflict_type: 9715
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    damage_reduce_number: *204
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9716
+    name: IDW套装减伤2
+    conflict_type: 9716
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    damage_reduce_number: *204
+    trigger_creation_id: "263"
+  }
+  {
+    id: 9717
+    name: IDW套装减伤3
+    conflict_type: 9717
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *104
+    boss_available: 1
+    damage_reduce_number: *204
+    is_form_play: 1
   }
   {
     id: 10000
@@ -61096,6 +62418,26 @@
     duration: "9999"
     boss_available: 1
     trigger_creation_id: "1838"
+  }
+  {
+    id: 256601
+    name: 多斯50%血量触发
+    conflict_type: 256601
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 257301
+    name: 多斯复仇检测反馈
+    conflict_type: 257301
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
   }
   {
     id: 313801
@@ -64850,6 +66192,17 @@
     duration: "-1"
     boss_available: 1
     trigger_creation_id: "426810"
+  }
+  {
+    id: 533601
+    name: CR-21判定攻击触发
+    conflict_type: 533601
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
   }
   {
     id: 580601
@@ -72464,6 +73817,138 @@
     duration_type: 1
     duration: "-1"
     watch_id: 1062
+  }
+  {
+    id: 966001
+    name: 黑卡蒂增幅伤害提升3
+    conflict_type: 966001
+    max_tier: 3
+    type: 101
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 966002
+    name: 黑卡蒂增幅命中提升3
+    conflict_type: 966002
+    max_tier: 3
+    type: 103
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 966003
+    name: 黑卡蒂增幅回避提升3
+    conflict_type: 966003
+    max_tier: 3
+    type: 102
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    dodge_number: *203
+  }
+  {
+    id: 966101
+    name: 黑卡蒂增幅伤害提升5
+    conflict_type: 966101
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 966102
+    name: 黑卡蒂增幅命中提升5
+    conflict_type: 966102
+    max_tier: 5
+    type: 103
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 966103
+    name: 黑卡蒂增幅回避提升5
+    conflict_type: 966103
+    max_tier: 5
+    type: 102
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    dodge_number: *203
+  }
+  {
+    id: 966201
+    name: 黑卡蒂增幅伤害提升7
+    conflict_type: 966201
+    max_tier: 7
+    type: 101
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 966202
+    name: 黑卡蒂增幅命中提升7
+    conflict_type: 966202
+    max_tier: 7
+    type: 103
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 966203
+    name: 黑卡蒂增幅回避提升7
+    conflict_type: 966203
+    max_tier: 7
+    type: 102
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    dodge_number: *203
+  }
+  {
+    id: 966301
+    name: 黑卡蒂增幅伤害提升9
+    conflict_type: 966301
+    max_tier: 9
+    type: 101
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 966302
+    name: 黑卡蒂增幅命中提升9
+    conflict_type: 966302
+    max_tier: 9
+    type: 103
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 966303
+    name: 黑卡蒂增幅回避提升9
+    conflict_type: 966303
+    max_tier: 9
+    type: 102
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    dodge_number: *203
   }
   {
     id: 999007

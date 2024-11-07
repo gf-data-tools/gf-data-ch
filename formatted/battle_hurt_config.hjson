@@ -4575,6 +4575,52 @@
     hit_type: 1
   }
   {
+    id: 717
+    description: 艾蕾塔普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 9644:1,9645:1
+    buff_rate: "10"
+    hit_type: 1
+  }
+  {
+    id: 718
+    description: 艾蕾塔技能攻击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 9644:1,9645:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 719
+    description: 黑卡蒂攻击
+    damage_ratio: *201
+    is_critical_hit: 1000009524
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 1000009527
+  }
+  {
+    id: 720
+    description: CR-21改造普攻
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -4803,6 +4849,61 @@
     hit_type: 1
     is_shield: 1000002461
     fix_damage: "1000002462"
+  }
+  {
+    id: 1512
+    description: 多斯远程攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 1513
+    description: 多斯近程攻击
+    damage_ratio: "150"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 1514
+    description: 多斯复仇攻击
+    damage_ratio: "300"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000002467"
+  }
+  {
+    id: 1515
+    description: 黑卡蒂电磁弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 2593:1,2594:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1516
+    description: 黑卡蒂连续子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000002474"
   }
   {
     id: 1701
@@ -11189,6 +11290,39 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 1000006101
+  }
+  {
+    id: 4006
+    description: 白烨戈普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000006109"
+  }
+  {
+    id: 4007
+    description: 白烨戈空袭
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000006109"
+  }
+  {
+    id: 4008
+    description: 喙伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000006108"
   }
   {
     id: 7772

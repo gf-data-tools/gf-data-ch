@@ -1698,6 +1698,67 @@
     recommended_team_ids: "2"
   }
   {
+    id: 1029
+    name: 白烨戈
+    en_name: Beluga
+    code: M16A1_Boss
+    introduce: 白烨戈，原是帕斯卡实验室产出的精锐战术人形，后因受“伞”病毒感染而离开格里芬，先后辗转于多地，但她从未忘记自己的使命。M16A1，雷纳德•卡加，Белуга，白烨戈……于她而言，都不过是一个代号，一段经历，真正的她从未改变。除了素体的累累伤痕，丰富的阅历还提升了她的见识和能力，让现在的她能够游刃有余地和不同的队友一起应对敌人。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 1
+    character: "2,4,6"
+    formation: 1
+    resolution: 129
+    shape_scale: "80,120"
+    ap_cost: 10
+    rank: 5
+    skill1: 760010
+    skill2_type: 2
+    skill2: 30015
+    skill3: 760013
+    skill_advance: 760014
+    skill_resolution: "760011"
+    passive_skill2: "760009"
+    dynamic_passive_skill: "760022"
+    normal_attack: 760008
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 110
+    ratio_pow: 145
+    ratio_rate: 100
+    ratio_hit: 165
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    effect_grid_effect: 4:1,30;4,30;5,50
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 44
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930015
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10602
+    gun_tag_ids: "118,103,164,108"
+    ratio_rec: 110
+    recommended_team_ids: "2"
+  }
+  {
     id: 2001
     name: 残兽
     en_name: Brute

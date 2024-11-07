@@ -15767,6 +15767,117 @@
     no_battle_damage: -1
   }
   {
+    id: 730001
+    name: 指挥官
+    guns: "570011"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 730106
+    name: 平民
+    guns: "1"
+    enemy_team_id: 730106
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730203
+    name: ？？？
+    guns: "1"
+    enemy_team_id: 730203
+    ai: 102;1;102
+    ai_content: 2;0;2
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730204
+    name: ？？？
+    guns: "1"
+    enemy_team_id: 730204
+    ai: 102;1;102
+    ai_content: 2;0;2
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730507
+    name: 平民
+    guns: "1"
+    enemy_team_id: 730507
+    ai: 101;1;101
+    ai_content: "86914,86915,86916;0;86914,86915,86916"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730508
+    name: 平民
+    guns: "1"
+    enemy_team_id: 730508
+    ai: 101;1;101
+    ai_content: "86909,86910,86911;0;86909,86910,86911"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730509
+    name: 平民
+    guns: "1"
+    enemy_team_id: 730509
+    ai: 101;1;101
+    ai_content: "86911,86912,86913;0;86911,86912,86913"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730604
+    name: ？？？
+    guns: "1"
+    enemy_team_id: 730604
+    ai: 101;1;101
+    ai_content: "86985,86986;0;86985,86986"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730605
+    name: ？？？
+    guns: "1"
+    enemy_team_id: 730605
+    ai: 101;1;101
+    ai_content: "86966,86967;0;86966,86967"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730606
+    name: ？？？
+    guns: "1"
+    enemy_team_id: 730606
+    ai: 101;1;101
+    ai_content: "86968,86987;0;86968,86987"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 730607
+    name: ？？？
+    guns: "1"
+    enemy_team_id: 730607
+    ai: 102;1;102
+    ai_content: 2;0;2
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0

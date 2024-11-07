@@ -12908,6 +12908,22 @@
     type_sort: 6
   }
   {
+    id: 30024
+    name: 马提尼亨利-莓果色的悸动
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 188
+    skin: 30024
+    poster: 330024
+    code: gift_bundle_BattlePass_SAT8
+    normal_description: 赠送获得相应好感度
+    bonus_description: 可解锁人形换装
+    description: 在宿舍内赠送给对应人形，可以获得装扮、海报以及好感度奖励。
+    sort: 2000
+    type_sort: 6
+  }
+  {
     id: 50001
     name: 汉阳造88式-致群星
     type: 2
@@ -12917,6 +12933,70 @@
     skin: 50001
     poster: 350001
     code: gift_bundle_Anniversary2024_88type
+    normal_description: 赠送获得相应好感度
+    bonus_description: 可解锁人形换装
+    description: 在宿舍内赠送给对应人形，可以获得装扮、海报以及好感度奖励。
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50002
+    name: 艾薇塔-复合呼吸
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1045
+    skin: 50002
+    poster: 350002
+    code: gift_bundle_ArenaBreakout_Evita
+    normal_description: 赠送获得相应好感度
+    bonus_description: 可解锁人形换装
+    description: 在宿舍内赠送给对应人形，可以获得装扮、海报以及好感度奖励。
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50003
+    name: 黑卡蒂-致命焦点
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1046
+    skin: 50003
+    poster: 350003
+    code: gift_bundle_ArenaBreakout_Hecate
+    normal_description: 赠送获得相应好感度
+    bonus_description: 可解锁人形换装
+    description: 在宿舍内赠送给对应人形，可以获得装扮、海报以及好感度奖励。
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50004
+    name: P90-幻影尖兵
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 245
+    skin: 50004
+    poster: 350004
+    code: gift_bundle_ArenaBreakout_P90
+    normal_description: 赠送获得相应好感度
+    bonus_description: 可解锁人形换装
+    description: 在宿舍内赠送给对应人形，可以获得装扮、海报以及好感度奖励。
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50005
+    name: MDR-DDOS特工队
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 215
+    skin: 50005
+    poster: 350005
+    code: gift_bundle_ArenaBreakout_MDR
     normal_description: 赠送获得相应好感度
     bonus_description: 可解锁人形换装
     description: 在宿舍内赠送给对应人形，可以获得装扮、海报以及好感度奖励。
@@ -13235,6 +13315,21 @@
     type_sort: 5
   }
   {
+    id: 100023
+    name: 谷物饼干
+    type: 1
+    rank: 5
+    favor: 30000
+    code: gift_item_ArenaBreakoutBiscuits
+    normal_description: 赠送获得相应好感度
+    bonus_description: 无
+    description: 在宿舍内赠送给对应人形，可以获得3点好感度。
+    item_access: "2"
+    detail_introduction: 谷物加工制作的食品，能在短时间内快速补充热量，是暗区的刚需和抢手货。
+    sort: -1018
+    type_sort: 5
+  }
+  {
     id: 200001
     name: 作战报告书
     type: 3
@@ -13542,6 +13637,21 @@
     item_access: "2"
     detail_introduction: 从2Z64区截获的数据片段，拆分解析后能获取其中的经验。
     sort: -1017
+    type_sort: 2
+  }
+  {
+    id: 200023
+    name: 钢芯子弹
+    type: 3
+    rank: 5
+    code: gift_item_ArenaBreakoutBullet
+    normal_description: 人形和妖精可获得经验值
+    bonus_description: 无
+    description: 在宿舍内赠送给对应人形，可以获得10000点经验值。
+    exp: 10000
+    item_access: "2"
+    detail_introduction: 既是物资，又是战利品，代表特遣队员曾经胜利或即将发生的战斗，是在暗区生存的资本。
+    sort: -1018
     type_sort: 2
   }
   {

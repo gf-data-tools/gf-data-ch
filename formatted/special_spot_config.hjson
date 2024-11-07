@@ -1364,6 +1364,25 @@
     death_effect_target_type: "-1"
   }
   {
+    id: 2400
+    name: 【标记】16哥光环
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 30015
+    detect_target_type: "-1"
+    detect_range: 100
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 2
+    conflict_type: 2400
+    conditions_type: 2;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 10001
     name: 【标记】歌利亚爆炸
     priority: 10001
@@ -15653,6 +15672,197 @@
     skill_config_id_on_birth: "0,0,0"
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
+  }
+  {
+    id: 730011
+    name: 烟雾弥漫
+    priority: 1
+    duration_type: "1"
+    duration_time: "2"
+    mission_buff_config_id: 730011
+    detect_target_type: "4,5,6"
+    effect_target_type: "4,5,6"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730011
+    conditions_type: "1,3;0"
+    conditions_time: 0-1,0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1019
+    effect_conditions: "1"
+  }
+  {
+    id: 730101
+    name: 【标记】平民
+    priority: 1
+    duration_type: "3"
+    duration_time: "1"
+    special_spot_config_id: 730111
+    detect_target_type: "-1"
+    detect_range: 2
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730101
+    conditions_type: 0;2
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,730101"
+    death_effect_target_type: "5,6"
+    effect_conditions: "1"
+  }
+  {
+    id: 730111
+    name: "[avg_loop]-73-EXT-1"
+    code: Spe_misisonskill
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730111
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 730201
+    name: 【标记】NPC检测
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 730211
+    detect_target_type: "301"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730201
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 730211
+    name: 【标记】NPC抵达
+    code: TargetPoint_Radar
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730211
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 730221
+    name: 【标记】NPC死亡
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730221
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 730401
+    name: 【标记】传送点1
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730401
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+    effect_conditions: "1"
+  }
+  {
+    id: 730402
+    name: 【标记】传送点2
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730402
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+    effect_conditions: "1"
+  }
+  {
+    id: 730403
+    name: 【标记】传送点3
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730403
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+    effect_conditions: "1"
+  }
+  {
+    id: 730404
+    name: 【标记】传送点4
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 730404
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+    effect_conditions: "1"
   }
   {
     id: 900001

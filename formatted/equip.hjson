@@ -2734,8 +2734,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:450,rate:500
+    passive_skill: "1003901"
     max_level: 10
     auto_select_id: 20009
+    group_id: "42"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8681,9 +8683,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:1000,pow:1000
-    passive_skill: "759040"
+    passive_skill: "759040,1003801"
     max_level: 10
     auto_select_id: 18092
+    group_id: "41"
     is_show: 1
     obtain_ids: "3068,3096"
     description_skill: 759040
@@ -13512,5 +13515,178 @@
     is_show: 1
     obtain_ids: "3111"
     description_skill: 1003701
+  }
+  {
+    id: 427
+    name: MP多用途弹
+    description:
+      '''
+      伤害+<pow>
+      穿甲+<armor_piercing>$M82A1专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "115,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_M82A1
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "231"
+    equip_introduction: 专门为M82A1配备的子弹，拥有强大的穿透能力，能有助于速战速决。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:1000
+    passive_skill: "1003802"
+    max_level: 10
+    auto_select_id: 19087
+    group_id: "41"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 428
+    name: IDW枪托
+    description:
+      '''
+      伤害+<pow>
+      回避+<dodge>$IDW改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "1,2"
+    dodge: "6,10"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: Accessories_SP_IDWMod
+    develop_duration: 2820
+    company: IOP
+    fit_guns: "20093"
+    equip_introduction: 专门为IDW设计的枪托，能有效提高射击的精确度。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: dodge:1000,pow:1000
+    passive_skill: "1003902"
+    max_level: 10
+    auto_select_id: 18093
+    group_id: "42"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 429
+    name: 医疗包
+    description:
+      '''
+      伤害<pow>
+      回避+<dodge>技能增强$艾薇塔专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-3,-1"
+    dodge: "15,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_Evita
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "1045"
+    equip_introduction: 艾薇塔经常使用的医疗包，里面除了常见的急救用品，听说还有些别的东西。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1003511"
+    max_level: 10
+    auto_select_id: 20089
+    is_addition: 1
+    is_show: 1
+    obtain_ids: "3118"
+    description_skill: 1003511
+  }
+  {
+    id: 430
+    name: 合金登山扣
+    description:
+      '''
+      伤害+<pow> 射速+<rate>
+      暴击伤害<critical_harm_rate><%>技能增强$黑卡蒂专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_Hecate
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "1046"
+    equip_introduction: 黑卡蒂随身携带的攀岩工具，即使没有什么使用痕迹，还是经常被她翻新维护。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    passive_skill: "1003618"
+    max_level: 10
+    auto_select_id: 20090
+    is_addition: 1
+    is_show: 1
+    obtain_ids: "3118"
+    description_skill: 1003618
+  }
+  {
+    id: 431
+    name: CR芯片
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      暴击伤害+<critical_harm_rate><%>$CR-21专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,8"
+    hit: "3,5"
+    critical_harm_rate: "10,15"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_CR21
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "288,20288"
+    equip_introduction: 针对特定模块升级后的芯片，能够提供CR-21在锻炼时产生的一切需求。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,hit:1000,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 20092
+    is_show: 1
+    obtain_ids: "3016"
   }
 ]
