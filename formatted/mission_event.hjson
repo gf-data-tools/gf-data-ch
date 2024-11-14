@@ -269,12 +269,9 @@
   }
   {
     id: 42
-    type: 1
+    type: 2
     mission_campaign: "-62"
     event_name: 许可！二次加载
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-05-31 10:00:00
-    end_time: 2024-06-20 10:00:00
     init_mission_id: "11479"
   }
   {
@@ -404,5 +401,12 @@
     end_time: 2024-11-28 10:00:00
     init_mission_id: "11811"
     token_item_id: "100247"
+  }
+  {
+    id: 59
+    type: 2
+    mission_campaign: "-40402"
+    event_name: 逃亡圣咏
+    init_mission_id: "11117"
   }
 ]

@@ -39581,7 +39581,7 @@
   {
     id: 11117
     integration_switch: 1-1;4-40:80:160
-    campaign: -54
+    campaign: -40402
     sub: 2
     if_emergency: -1
     special_type: 1
@@ -39613,11 +39613,12 @@
     event_score: 1|10,10000,8000,5000,1000,0,5000,10000,8000,10000,1000,4000,1:10000;2:0;3:2000;5:0;6:0;7:5000,6540001:1:10000;6540002:1:10000;6540003:1:10000;6540004:1:10000,10,,1000,5000,6540012:20000;6540013:20000;6540014:20000;6540015:20000;6540030:20000;6540031:20000;6540032:20000;6540033:20000;6540018:20000,,8000,20000,10000,5000
     score_prize: 1-0|110053:1
     recommended_team_ids: "2,1,6"
+    limit_vehicle: -1
   }
   {
     id: 11118
     integration_switch: 1-1;4-40:80:160
-    campaign: -54
+    campaign: -40402
     sub: 3
     if_emergency: -1
     endless_mode: 1
@@ -39650,6 +39651,7 @@
     score_prize: 1-0|110053:1
     environment_transform_config: "1111801"
     recommended_team_ids: "1,3,9"
+    limit_vehicle: -1
   }
   {
     id: 11119
@@ -49322,7 +49324,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "275"
     limit_team: "2"
     map_res_name: OPS5_Y
     map_information: "6000,6000|5035,3582|370,0"
@@ -49358,7 +49359,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "311"
     limit_team: "2"
     map_res_name: OPS5_Y
     map_information: "6000,6000|3312,3199|-14,0"
@@ -49393,7 +49393,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "335"
     limit_team: "2"
     map_res_name: OPS5_Y
     map_information: "6000,6000|3691,3241|207,0"
@@ -49431,7 +49430,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "361"
     limit_team: "2,*2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|5000,3500|0,1200"
@@ -49468,7 +49466,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "275"
     limit_team: "2,*2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|6000,5000|1000,800"
@@ -49506,7 +49503,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "311"
     limit_team: "2,*2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|7000,5500|-500,500"
@@ -49542,7 +49538,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "275"
     limit_team: "2"
     map_res_name: BloodNetwork_Y
     map_information: "6000,6000|4922,3393|74,0"
@@ -49578,7 +49573,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "311"
     limit_team: "2"
     map_res_name: BloodNetwork_Y
     map_information: "6000,6000|4514,3962|338,-170"
@@ -49613,7 +49607,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "335"
     limit_team: "2"
     map_res_name: BloodNetwork_Y
     map_information: "6000,6000|4584,3421|-275,0"
@@ -49651,7 +49644,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "361"
     limit_team: "2,*2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|6000,5500|0,1000"
@@ -49688,7 +49680,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "275"
     limit_team: "2,*2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|7000,6000|0,800"
@@ -49725,7 +49716,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "311"
     limit_team: "2,*2"
     map_res_name: OPS5_Y
     map_information: "10000,10000|7500,6000|-800,1200"
@@ -49762,7 +49752,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "361"
     limit_team: "3"
     map_res_name: OPS5_Y
     map_information: "6000,6000|5020,4350|539,462"
@@ -49800,7 +49789,6 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 12
-    limit_gun_pool: "361"
     limit_team: "3,*3"
     map_res_name: OPS5_Y
     map_information: "10000,10000|8500,7600|-300,800"
@@ -49836,7 +49824,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "275,335"
     map_res_name: OPS5_Y
     map_information: "6000,6000|5035,3582|370,0"
     fog_length: "0,500"
@@ -49869,7 +49856,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "311,361"
     map_res_name: OPS5_Y
     map_information: "6000,6000|5035,3582|370,0"
     fog_length: "0,500"
@@ -49902,7 +49888,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "275,335"
     map_res_name: OPS5_Y
     map_information: "6000,6000|5035,3582|370,0"
     fog_length: "0,500"
@@ -49935,7 +49920,6 @@
     expect_gun_die_num: 9
     expect_turn: 15
     turn_duration: 360000000
-    limit_gun_pool: "311,361"
     map_res_name: OPS5_Y
     map_information: "6000,6000|5035,3582|370,0"
     fog_length: "0,500"
