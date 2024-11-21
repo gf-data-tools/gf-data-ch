@@ -34684,7 +34684,6 @@
     type: 101
     motion_name: daiji_idle_01.mtn
     probability: 1
-    voice: GUN|AR15|
     name: 待机
   }
   {
@@ -34907,6 +34906,244 @@
     camera: 1
     is_hurt: 1
     voice_code: MOOD2
+  }
+  {
+    id: 1100301
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1100302
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    voice: GUN|MK3A1|FIX
+    text: GUN|MK3A1|FIX
+    name: 特殊待机1
+    camera: 1
+    delay: 1000
+    voice_code: FIX
+  }
+  {
+    id: 1100303
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    voice: GUN|MK3A1|LOWMOOD
+    text: GUN|MK3A1|LOWMOOD
+    name: 特殊待机2
+    camera: 1
+    delay: 5000
+    voice_code: LOWMOOD
+  }
+  {
+    id: 1100304
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: feet1
+    probability: 1
+    voice: GUN|MK3A1|SKILL2
+    text: GUN|MK3A1|SKILL2
+    name: 交互1
+    camera: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 1100305
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|MK3A1|GOATTACK
+    text: GUN|MK3A1|GOATTACK
+    name: 交互2
+    camera: 1
+    voice_code: GOATTACK
+  }
+  {
+    id: 1100306
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MK3A1|MEET
+    text: GUN|MK3A1|MEET
+    name: 交互3
+    camera: 1
+    delay: 3000
+    voice_code: MEET
+  }
+  {
+    id: 1100307
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MK3A1|LOADING
+    text: GUN|MK3A1|LOADING
+    name: 交互4
+    camera: 1
+    delay: 1000
+    voice_code: LOADING
+  }
+  {
+    id: 1100308
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: feet2
+    probability: 1
+    voice: GUN|MK3A1|ATTACK
+    text: GUN|MK3A1|ATTACK
+    name: 交互5
+    camera: 1
+    delay: 1000
+    voice_code: ATTACK
+  }
+  {
+    id: 1100309
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MK3A1|DIALOGUEWEDDING
+    text: GUN|MK3A1|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1100310
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|MK3A1|BREAK
+    text: GUN|MK3A1|BREAK
+    name: 上线响应
+    camera: 1
+    delay: 1000
+    voice_code: BREAK
+  }
+  {
+    id: 1100311
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|MK3A1|MOOD2
+    name: 晃动响应
+    camera: 1
+    voice_code: MOOD2
+  }
+  {
+    id: 1100312
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|MK3A1|SOULCONTRACT
+    text: GUN|MK3A1|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1100313
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1100314
+    type: 402
+    motion_name: broken_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MK3A1|OPERATIONBEGIN
+    text: GUN|MK3A1|OPERATIONBEGIN
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 1100315
+    type: 402
+    motion_name: broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MK3A1|TIP
+    text: GUN|MK3A1|TIP
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: TIP
+  }
+  {
+    id: 1100316
+    type: 402
+    motion_name: broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MK3A1|BREAK
+    text: GUN|MK3A1|BREAK
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1100317
+    type: 402
+    motion_name: broken_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MK3A1|SKILL1
+    text: GUN|MK3A1|SKILL1
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: SKILL1
+  }
+  {
+    id: 1100318
+    type: 402
+    motion_name: broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|MK3A1|FEED
+    text: GUN|MK3A1|FEED
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: FEED
+  }
+  {
+    id: 1100319
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|MK3A1|LOADING
+    text: GUN|MK3A1|LOADING
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: LOADING
+  }
+  {
+    id: 1100320
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
   }
   {
     id: 5000101
