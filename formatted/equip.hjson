@@ -13689,4 +13689,38 @@
     is_show: 1
     obtain_ids: "3016"
   }
+  {
+    id: 432
+    name: 兔兔挂饰
+    description:
+      '''
+      伤害+<pow>
+      暴击概率+<critical_percent><%>技能增强$M99专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    critical_percent: "20,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_M99
+    develop_duration: 2700
+    company: IOP
+    fit_guns: "128"
+    equip_introduction: M99喜欢挂在枪管上的饰物，按本人说法是可以辅助瞄准的。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "1004001"
+    max_level: 10
+    auto_select_id: 18092
+    is_show: 1
+    obtain_ids: "3112"
+    description_skill: 1004001
+  }
 ]

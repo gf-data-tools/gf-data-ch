@@ -16550,6 +16550,24 @@
     gun_id: "1046"
   }
   {
+    id: 2700
+    name: 2024十二月签到
+    gem: 90
+    equip_ids: "432"
+  }
+  {
+    id: 2701
+    name: 超导动能*12+超导势能*12
+    item_ids: 10603-12
+    bp_pay: 12
+  }
+  {
+    id: 2702
+    name: 超导动能*24+超导势能*24
+    item_ids: 10603-24
+    bp_pay: 24
+  }
+  {
     id: 3001
     name: 柯尔特左轮
     item_ids: 1318-1
@@ -28264,137 +28282,145 @@
     id: 10086
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110072-10
+    item_ids: 110074-10
   }
   {
     id: 10087
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110072-20
+    item_ids: 110074-20
   }
   {
     id: 10088
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110072-20
+    item_ids: 110074-20
   }
   {
     id: 10089
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110072-30
+    item_ids: 110074-30
   }
   {
     id: 10090
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110072-20
+    item_ids: 110074-20
   }
   {
     id: 10091
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110072-30
+    item_ids: 110074-30
   }
   {
     id: 10092
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110072-50
+    item_ids: 110074-50
   }
   {
     id: 10093
     name: 嘉年华奖励
     part: 100
-    item_ids: 110072-30
+    item_ids: 110074-30
   }
   {
     id: 10094
     name: 嘉年华奖励
     part: 100
-    item_ids: 110072-50
+    item_ids: 110074-50
   }
   {
     id: 10095
     name: 嘉年华奖励
     part: 100
-    item_ids: 110072-100
+    item_ids: 110074-100
   }
   {
     id: 10096
     name: 嘉年华奖励
     part: 200
-    item_ids: 110072-50
+    item_ids: 110074-50
   }
   {
     id: 10097
     name: 嘉年华奖励
     part: 200
-    item_ids: 110072-100
+    item_ids: 110074-100
   }
   {
     id: 10098
     name: 嘉年华奖励
     part: 300
-    item_ids: 110072-150
+    item_ids: 110074-150
   }
   {
     id: 10099
     name: 嘉年华奖励
-    item_ids: 110072-200,45-200
+    item_ids: 110074-200,45-200
   }
   {
     id: 10100
     name: 活跃奖励
-    ammo: 1000
-    mre: 1000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 50
     icon: Bumdle_red
   }
   {
     id: 10101
     name: 活跃奖励
-    item_ids: 9-20,4-2,6003-2,525-5
+    gem: 50
+    item_ids: 9-100,4-10,525-5
     icon: Bumdle_brown
   }
   {
     id: 10102
     name: 活跃奖励
-    item_ids: 3-5,525-5,2500-1
-    coins: 2-200
+    gem: 50
+    item_ids: 3-10,525-5
+    coins: 2-500
     icon: Bumdle_indigo
   }
   {
     id: 10103
     name: 活跃奖励
-    item_ids: 1-5,45-100,506-200,525-5,601-2,2501-1
+    gem: 50
+    item_ids: 1-10,45-1000,525-10
     icon: Bumdle_guoqing
   }
   {
     id: 10104
     name: 活跃奖励
-    core: 10
-    item_ids: 41-20,8-1
-    furniture: "20132"
+    core: 50
+    gem: 50
+    item_ids: 41-50,8-10
     icon: Bumdle_yellow
   }
   {
     id: 10105
     name: 活跃奖励
-    gift: 100003-10,10408-1
+    gem: 50
+    gift: 100003-100,11007-1
     icon: Bumdle_bline
   }
   {
     id: 10106
     name: 活跃奖励
-    item_ids: 45-100,6009-2
-    coins: 3-200
+    gem: 100
+    item_ids: 45-1000,41-50
+    coins: 3-500
     icon: Bumdle_navy
-    bp_pay: 10
   }
   {
     id: 10107
     name: 活跃奖励
-    item_ids: 45-200,41-50,1-10,103-1,10604-3
+    gem: 100
+    item_ids: 45-2000,41-100,1-10
     icon: Bumdle_blue
   }
   {
@@ -33756,6 +33782,184 @@
     id: 12615
     name: 婚纱展示柜
     furniture: "2056"
+  }
+  {
+    id: 12616
+    name: 灿烂气球
+    content: 纪念品的价值是由心意决定的，有些东西灿烂过就可以，不必长久。
+    send_limit: 1
+    commander_uniform: "3640"
+  }
+  {
+    id: 12617
+    name: 引路人的慰藉
+    content: 那些被阳光所照耀的笑容，便是他们曾在无光的黑夜里以身为炬的证明。
+    send_limit: 1
+    commander_uniform: "4120"
+  }
+  {
+    id: 12618
+    name: 酣宴使者
+    content: 为狂欢之夜揭幕的重磅嘉宾，度数却意想不到的低，即使是酒量欠佳的人形也能一享畅饮的乐趣……不过，初感醉意的时候也就离醉倒不远了。
+    send_limit: 1
+    commander_uniform: "4640"
+  }
+  {
+    id: 12619
+    name: 盛夜礼帽
+    content: 少女们一起为指挥官制作的庆典专用帽子，只是AUG偏要加鲜花，卡尔卡诺偏要加羽饰，M9甚至还想加一颗闪亮的星星，结果，它变成了蕴藏数百种饰品的“宝库”。因为分量十足，佩戴时请保护好颈椎。
+    send_limit: 1
+    commander_uniform: "5320"
+  }
+  {
+    id: 12620
+    name: 猎风英姿（蓝）
+    content: 传说以一敌百的勇士，周身常环绕着凶猛的肃杀之气。以彩旗标识之，不仅能吓退敌军，更可使友军免于误伤之尴尬。
+    send_limit: 1
+    commander_uniform: "5640"
+  }
+  {
+    id: 12621
+    name: 猎风英姿（红）
+    content: 传说以一敌百的勇士，周身常环绕着凶猛的肃杀之气。以彩旗标识之，不仅能吓退敌军，更可使友军免于误伤之尴尬。
+    send_limit: 1
+    commander_uniform: "5643"
+  }
+  {
+    id: 12622
+    name: 宴飨屠苏
+    content: 啥也别说了！这绝对是最传统，也是最干练，最适合大口痛饮的发式！指挥官，您瞧这大过年的，咱们不醉不归怎么样！？——嗜酒如命的服装设计小组
+    send_limit: 1
+    commander_uniform: "5811"
+  }
+  {
+    id: 12623
+    name: 映雪繁花
+    content: 我们花大价钱从外面买回了这个！听卖家说，这是春天盛开的第一朵鲜花，所以很贵重哦，快戴上瞧瞧吧~！——挥金如土的服装设计小组
+    send_limit: 1
+    commander_uniform: "5812"
+  }
+  {
+    id: 12624
+    name: 禧贺百家
+    content: 每到新春之际，每个人都在祝贺新年，每一位人形都对你献上祝福，并用红包装走了你的信用点——回头也去克鲁格先生那里拜个年吧？
+    send_limit: 1
+    commander_uniform: "5820"
+  }
+  {
+    id: 12625
+    name: 鸿彩满福
+    content: 思来想去，我们觉得应该把最大的福气送给指挥官，所以就把年画贴在衣服上了！当然，背后也贴了，至于贴的什么嘛……嘻嘻！——调皮捣蛋的服装设计小组
+    send_limit: 1
+    commander_uniform: "5831"
+  }
+  {
+    id: 12626
+    name: 辞寒迎春
+    content: 虽说是春节，可天气还是很冷，走亲访友时很容易着凉，所以我们加上了毛绒的衣领，这样是不是就有些温暖的春意在里面了？——温柔体贴的服装设计小组
+    send_limit: 1
+    commander_uniform: "5832"
+  }
+  {
+    id: 12627
+    name: 盛坊灯华
+    content: 知道你们喜欢灯笼，所以人手准备了一个，但这终归是照明和装饰用的传统工艺品，所以不要拿着它甩来甩去——更不要当做流星锤！
+    send_limit: 1
+    commander_uniform: "5840"
+  }
+  {
+    id: 12628
+    name: 巡祭神荼
+    content: 不知道指挥官信不信这个，反正信则有不信则无，过年喜庆，讨个好彩头嘛~！来来来，烧个头香拜一拜，然后许个愿吧！——熟知民俗的服装设计小组
+    send_limit: 1
+    commander_uniform: "5851"
+  }
+  {
+    id: 12629
+    name: 点画桃符
+    content: 根据求签结果来看，只要指挥官穿上这件服饰，就可以在新年伊始撞大运！哎，干嘛一脸怀疑的表情，这个很准的！——迷信占卜的服装设计小组
+    send_limit: 1
+    commander_uniform: "5852"
+  }
+  {
+    id: 12630
+    name: 摇摆浪潮
+    content: 唯有今天，请奏起律动的乐声，带领少女们远离尽是硝烟的战场，在这狂欢之夜肆意放浪。
+    send_limit: 1
+    commander_uniform: "5940"
+  }
+  {
+    id: 12631
+    name: 枫华刃
+    content: 秋霜初降，枫叶如火，晨光熹微。随风飘散的落红与剑锋相触，奏出清脆悦耳的铮鸣。“哎呀，指挥官，您这是读了191带来的小说吗？”……在少女的惊呼下，剑客的隐秘表演匆匆落幕。
+    send_limit: 1
+    commander_uniform: "6040"
+  }
+  {
+    id: 12632
+    name: 结彩雷动
+    item_ids: 130024-1
+    content: 俗话说爆竹声声除旧岁，用鞭炮庆祝新年的确很有年味，但在基地里燃放鞭炮是谁的主意，谁就去解决那些被炮声惊动的自动防御机枪吧。
+  }
+  {
+    id: 12633
+    name: 沙漠黄-车载霰弹枪
+    item_ids: 133136-1
+    content: 应对近距离集群的霰弹武器，涂装了和图纸配套的沙漠黄风格。
+  }
+  {
+    id: 12634
+    name: 沙漠黄-小型迫击炮
+    item_ids: 133137-1
+    content: 可进行小范围区域轰炸的迫击炮，涂装了和图纸配套的沙漠黄风格。
+  }
+  {
+    id: 12635
+    name: 沙漠黄-镭射测距仪
+    item_ids: 133138-1
+    content: 提升远程攻击精度的支援设备，涂装了和图纸配套的沙漠黄风格。
+  }
+  {
+    id: 12636
+    name: 沙漠黄-迷彩网
+    item_ids: 133139-1
+    content: 有效在战场上隐藏行踪的伪装组件，涂装了和图纸配套的沙漠黄风格。
+  }
+  {
+    id: 12637
+    name: 沙漠黄-顶部格栅装甲
+    item_ids: 133140-1
+    content: 应对战场新形势的多功能防护装甲，涂装了和图纸配套的沙漠黄风格。
+  }
+  {
+    id: 12638
+    name: 城市迷彩-车载霰弹枪
+    item_ids: 133141-1
+    content: 应对近距离集群的霰弹武器，涂装了和图纸配套的城市迷彩。
+  }
+  {
+    id: 12639
+    name: 城市迷彩-小型迫击炮
+    item_ids: 133142-1
+    content: 可进行小范围区域轰炸的迫击炮，涂装了和图纸配套的城市迷彩。
+  }
+  {
+    id: 12640
+    name: 城市迷彩-镭射测距仪
+    item_ids: 133143-1
+    content: 提升远程攻击精度的支援设备，涂装了和图纸配套的城市迷彩。
+  }
+  {
+    id: 12641
+    name: 城市迷彩-迷彩网
+    item_ids: 133144-1
+    content: 有效在战场上隐藏行踪的伪装组件，涂装了和图纸配套的城市迷彩。
+  }
+  {
+    id: 12642
+    name: 城市迷彩-顶部格栅装甲
+    item_ids: 133145-1
+    content: 应对战场新形势的多功能防护装甲，涂装了和图纸配套的城市迷彩。
   }
   {
     id: 14101

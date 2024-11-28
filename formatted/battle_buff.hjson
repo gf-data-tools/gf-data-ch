@@ -59871,6 +59871,52 @@
     is_form_play: 1
   }
   {
+    id: 9718
+    name: M99装备
+    conflict_type: 9718
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9719
+    name: M99前置冷却缩减30%
+    conflict_type: 9719
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    cdr_number: "70"
+  }
+  {
+    id: 9720
+    name: M99专属火力提升
+    conflict_type: 9720
+    max_tier: 20
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "105"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9721
+    name: M99专属火力进度条
+    conflict_type: 9721
+    max_tier: 20
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
