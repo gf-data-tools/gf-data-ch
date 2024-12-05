@@ -3923,6 +3923,16 @@
     buff_description: ShieldText
   }
   {
+    id: 480
+    name: 无BUFF标记
+    conflict_type: 48
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 500
     name: ak74火力下降
     description: 火力下降
