@@ -311,12 +311,9 @@
   }
   {
     id: 49
-    type: 1
+    type: 2
     mission_campaign: "-68"
     event_name: 错构之泉
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-04-12 10:00:00
-    end_time: 2024-05-09 10:00:00
     init_mission_id: "11631"
   }
   {
@@ -335,12 +332,9 @@
   }
   {
     id: 52
-    type: 1
+    type: 2
     mission_campaign: "-69"
     event_name: 22重困境
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-06-07 10:00:00
-    end_time: 2024-07-04 10:00:00
     init_mission_id: "11670"
   }
   {
@@ -405,5 +399,12 @@
     mission_campaign: "-40402"
     event_name: 逃亡圣咏
     init_mission_id: "11117"
+  }
+  {
+    id: 60
+    type: 2
+    mission_campaign: "-40403"
+    event_name: 自画像
+    init_mission_id: "11402,11403"
   }
 ]

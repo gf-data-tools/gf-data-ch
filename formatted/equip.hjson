@@ -6482,9 +6482,10 @@
     powerup_part: 0.48
     exclusive_rate: 3
     bonus_type: critical_percent:1000,pow:900
-    passive_skill: "115807"
+    passive_skill: "115807,1004201"
     max_level: 10
     auto_select_id: 19027
+    group_id: "44"
     is_show: 1
     obtain_ids: "3005"
     sp_description: 目标-2
@@ -9946,9 +9947,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:1000,pow:700
-    passive_skill: "759072"
+    passive_skill: "759072,1004101"
     max_level: 10
     auto_select_id: 19048
+    group_id: "43"
     is_show: 1
     obtain_ids: "3082"
     description_skill: 759072
@@ -13722,5 +13724,76 @@
     is_show: 1
     obtain_ids: "3112"
     description_skill: 1004001
+  }
+  {
+    id: 433
+    name: 梦蝶小提包
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      伤害+<pow> 命中+<hit>$ZB-26专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    hit: "1,3"
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_ZB26
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "307"
+    equip_introduction: ZB-26平时经常随身携带的小提包，能让自己在忙碌工作的时候心情变好。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,hit:700,pow:1000
+    passive_skill: "1004102"
+    max_level: 10
+    auto_select_id: 18094
+    group_id: "43"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 434
+    name: DF突击型防卫盾
+    description:
+      '''
+      伤害+<pow> 命中<hit>
+      护甲+<armor>$防卫者专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    hit: "-1,-1"
+    armor: "6,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_ColtDefender
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "302"
+    equip_introduction: 防卫者最常使用的装备，除了能有效缓解紧张状态外，还能一定程度上控制感情模块。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:1000,armor:400
+    passive_skill: "1004202"
+    max_level: 10
+    auto_select_id: 20093
+    group_id: "44"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

@@ -4621,6 +4621,26 @@
     hit_type: 1
   }
   {
+    id: 725
+    description: ZB-26套装攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1000009601
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 726
+    description: 防卫者套装攻击
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201

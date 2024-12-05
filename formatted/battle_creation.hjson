@@ -40561,6 +40561,8 @@
     hurt_id: "520"
     is_form_play: 1
     scale: "1"
+    trigger_creation_id: "3746"
+    trigger_creation_delay: "-1"
     sound_order: BT_Shot_1
     is_orb_effect: 1
   }
@@ -40581,6 +40583,8 @@
     hurt_id: "521"
     is_form_play: 1
     scale: "1"
+    trigger_creation_id: "3746"
+    trigger_creation_delay: "-1"
     sound_order: BT_Shot_1
   }
   {
@@ -40594,7 +40598,7 @@
     route_type: 1
     speed: 5000
     effect_area: 1
-    hurt_id: "1"
+    hurt_id: "725"
     is_form_play: 1
     scale: "0.35,0.35,1"
     sound_order: BT_machine
@@ -51622,6 +51626,21 @@
     sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
     sound_delay: "0,2,4,6"
     is_orb_effect: 1
+  }
+  {
+    id: 3746
+    name: 防卫者套装结算范围
+    start_type: "6"
+    destination_type: "6"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2.5"
+    hurt_id: "726"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
   }
   {
     id: 4000
@@ -100807,6 +100826,8 @@
     hurt_id: "52001"
     is_form_play: 1
     scale: "1"
+    trigger_creation_id: "3746"
+    trigger_creation_delay: "-1"
     sound_order: BT_Shot_1
     is_orb_effect: 1
   }
@@ -100827,6 +100848,8 @@
     hurt_id: "52101"
     is_form_play: 1
     scale: "1"
+    trigger_creation_id: "3746"
+    trigger_creation_delay: "-1"
     sound_order: BT_Shot_1
   }
   {
