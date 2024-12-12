@@ -29549,7 +29549,6 @@
     spot_belong: "-1"
     cd_time_type: 1
     start_range: 2
-    is_airborne: 2
     special_spot_add: 669910:1
     subsidiary_mission_skill: "669911"
     is_manual: 669910
@@ -29563,10 +29562,41 @@
     spot_belong: "-1"
     spot_echelon: "-1"
     cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 660051:1
+    subsidiary_mission_skill: "669912"
+  }
+  {
+    id: 669912
+    name: mission_skill_config-10669912
+    description: mission_skill_config-20669912
+    lvup_description: mission_skill_config-30669912
+    skill_group_id: 669912
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
     start_range: 2
-    target_id: 1||66991001
+    is_airborne: 2
+    target_id: "66991001"
+    subsidiary_mission_skill: "669913"
+  }
+  {
+    id: 669913
+    name: mission_skill_config-10669913
+    description: mission_skill_config-20669913
+    lvup_description: mission_skill_config-30669913
+    skill_group_id: 669913
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 66005101||66991001
     special_spot_minus: 669910:1
-    mission_buff_minus: 660050:1
+    mission_buff_minus: 660050:1,660051:1
   }
   {
     id: 670101
@@ -78806,7 +78836,7 @@
     spot_echelon: "-1"
     cd_time_type: 1
     target_id: "1"
-    special_spot_add: 9720402:1
+    special_spot_add: 9740402:1
   }
   {
     id: 9740103
@@ -78820,8 +78850,8 @@
     cd_time_type: 1
     start_range: 1
     trigger_id: 974010680&&972040580&&974010181
-    target_id: "972040291"
-    special_spot_minus: 9720402:1,1020101:1,1010201:1,9720404:1
+    target_id: "974040291"
+    special_spot_minus: 9740402:1,1020101:1,1010201:1,9720404:1
     subsidiary_mission_skill: "9740106"
     is_manual: 9720405
   }
@@ -78840,8 +78870,8 @@
     cd_time_type: 1
     start_range: 1
     trigger_id: 974010681&&974010181
-    target_id: (972040290&&972040390)||101010191
-    special_spot_add: 9720402:1,1020101:1
+    target_id: 974040290||101010191
+    special_spot_add: 9740402:1,1020101:1
     subsidiary_mission_skill: "9740107,9740110"
     is_manual: 9720406
   }
@@ -78854,6 +78884,7 @@
     spot_belong: "-1"
     spot_echelon: "-1"
     cd_time_type: 1
+    subsidiary_mission_skill: "9740119,9740120"
   }
   {
     id: 9740106
@@ -78889,8 +78920,9 @@
     spot_echelon: "-1"
     cd_time_type: 1
     start_range: 99
-    target_id: 101010191&&972040492
+    target_id: 101010191&&974040292
     special_spot_minus: 1040100:1
+    subsidiary_mission_skill: "9740124"
   }
   {
     id: 9740109
@@ -78901,9 +78933,8 @@
     spot_belong: "-1"
     spot_echelon: "-1"
     cd_time_type: 1
-    target_id: "1"
-    special_spot_add: 9740109:1
-    subsidiary_mission_skill: "9740111"
+    target_id: "101010091"
+    subsidiary_mission_skill: "9740123"
   }
   {
     id: 9740110
@@ -78916,7 +78947,7 @@
     cd_time_type: 1
     start_range: 99
     target_id: 101010191&&102010191
-    special_spot_add: 1010201:1,9720404:1
+    special_spot_add: 1010201:1
     special_spot_minus: 1020101:1
     subsidiary_mission_skill: "9740108"
   }
@@ -78931,7 +78962,7 @@
     cd_time_type: 1
     start_range: 5
     target_id: 102050191||974010181
-    special_spot_add: 6630021:1
+    special_spot_add: 9130610:1,6630021:1
   }
   {
     id: 9740112
@@ -78992,7 +79023,7 @@
     cd_time_type: 1
     target_id: 105010091&&104010091
     special_spot_add: 9740110:1
-    subsidiary_mission_skill: "9740111,9740118"
+    subsidiary_mission_skill: "9740118"
   }
   {
     id: 9740117
@@ -79004,7 +79035,7 @@
     spot_echelon: "-1"
     cd_time_type: 1
     target_id: 105010091&&104010090
-    subsidiary_mission_skill: "9740109"
+    special_spot_add: 9720404:1
   }
   {
     id: 9740118
@@ -79017,7 +79048,84 @@
     cd_time_type: 1
     target_id: "1"
     special_spot_add: 9740116:1
+  }
+  {
+    id: 9740119
+    name: 【标识】实际爆炸
+    skill_group_id: 9740119
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "101010091"
     subsidiary_mission_skill: "9740111"
+  }
+  {
+    id: 9740120
+    name: 【标识】预埋延迟
+    skill_group_id: 9740120
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 1010100:1
+  }
+  {
+    id: 9740121
+    name: 【标识】实际爆炸-弃用
+    skill_group_id: 9740121
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    data_pool: "100"
+    target_id: 974110791||974110792
+    special_spot_add: 9130610:1,6630021:1
+  }
+  {
+    id: 9740122
+    name: 【标识】空袭延迟
+    skill_group_id: 9740122
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "9740113,9740109,9740120"
+  }
+  {
+    id: 9740123
+    name: 【标识】在中心放空袭
+    skill_group_id: 9740123
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "101010191"
+    special_spot_add: 9740109:1
+  }
+  {
+    id: 9740124
+    name: mission_skill_config-19740124
+    description: mission_skill_config-29740124
+    lvup_description: mission_skill_config-39740124
+    skill_group_id: 9740124
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "974010181"
+    mission_buff_minus: 9740101:1,20301:1,20302:1
   }
   {
     id: 9740701

@@ -4214,6 +4214,11 @@
     mission_buff_condition: 660040*>0
   }
   {
+    id: 66005101
+    type: 4
+    mission_buff_condition: 660051*>0
+  }
+  {
     id: 66008001
     type: 3
     special_spot_condition: 660080*>0
@@ -14040,6 +14045,21 @@
     id: 974010681
     type: 4
     mission_buff_condition: 9740106*>0
+  }
+  {
+    id: 974040290
+    type: 3
+    special_spot_condition: 9740402*==0
+  }
+  {
+    id: 974040291
+    type: 3
+    special_spot_condition: 9740402*>0
+  }
+  {
+    id: 974040292
+    type: 3
+    special_spot_condition: 9740402*>1
   }
   {
     id: 974070091
