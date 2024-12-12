@@ -28911,7 +28911,7 @@
   {
     id: 660080
     name: 数据补丁
-    description: 拾取后补充弹药口粮及载具能量，并获得20000积分
+    description: 读取后补充弹药口粮及载具能量，并获得20000积分
     skill_group_id: 660080
     level: 1
     spot_type: "-1"
@@ -29542,7 +29542,7 @@
   {
     id: 669910
     name: 跃迁
-    description: 传送至2格范围内的无人点，只能使用1次
+    description: 传送至2格范围内的无人点并获得10000积分，只能使用1次
     skill_group_id: 669910
     level: 1
     spot_type: "-1"
@@ -79235,9 +79235,7 @@
   }
   {
     id: 9741107
-    name: mission_skill_config-19741107
-    description: mission_skill_config-29741107
-    lvup_description: mission_skill_config-39741107
+    name: 【标识】实际爆炸
     skill_group_id: 9741107
     level: 1
     spot_type: "-1"
@@ -79470,9 +79468,7 @@
   }
   {
     id: 9741915
-    name: mission_skill_config-19741915
-    description: mission_skill_config-29741915
-    lvup_description: mission_skill_config-39741915
+    name: 【标识】对强敌挂多动buff-合计3动/额外2动buff
     skill_group_id: 9741915
     level: 1
     spot_type: "-1"
