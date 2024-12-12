@@ -283,6 +283,64 @@
     offset: "0,0"
   }
   {
+    id: 660001
+    name: 晋升
+    code: TZD_jh
+    description: 晋升
+    priority: 1
+    size: 1.8
+    offset: "0,-50"
+  }
+  {
+    id: 660002
+    name: 数据补丁
+    code: TZD_cs_box
+    description: 数据补丁
+    priority: 1
+    duration: 9999
+    size: 2
+    offset: "0,0"
+  }
+  {
+    id: 660003
+    name: 数据补丁开启
+    code: TZD_kxz
+    description: 数据补丁开启
+    priority: 1
+    size: 2
+    offset: "0,0"
+  }
+  {
+    id: 740001
+    name: 狂风
+    code: Fly_tornado
+    description: 狂风
+    priority: 1
+    duration: 4
+    size: 2
+    sound: Blackjack_flying
+    if_starting: 4
+    relative_position: "0,0;0,0;0,0;1,1"
+    offset: "-5500,5500;6500,-6500"
+    rotation_offset: "0,0,-45;0,0,-45"
+    is_focus: 2|0.5,2
+  }
+  {
+    id: 740002
+    name: 图95
+    code: Fly_tu95
+    description: 图95
+    priority: 1
+    duration: 4
+    size: 2
+    sound: Blackjack_flying
+    if_starting: 4
+    relative_position: "0,0;0,0;0,0;1,1"
+    offset: "-5500,-5500;6500,6500"
+    rotation_offset: "0,0,45;0,0,45"
+    is_focus: 2|0.5,2
+  }
+  {
     id: 900001
     name: 机场出兵图标
     code: effectPowerup

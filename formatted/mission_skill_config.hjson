@@ -4204,6 +4204,239 @@
     special_spot_add: 2300:1,2301:1
   }
   {
+    id: 2401
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得10%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:10%
+    skill_group_id: 24
+    level: 1
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2402
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得13%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:13%
+    skill_group_id: 24
+    level: 2
+    train_coin_type: 1
+    train_coin_number: 200
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2403
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得16%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:16%
+    skill_group_id: 24
+    level: 3
+    train_coin_type: 1
+    train_coin_number: 400
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2404
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得18%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:18%
+    skill_group_id: 24
+    level: 4
+    train_coin_type: 1
+    train_coin_number: 600
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2405
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得21%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:21%
+    skill_group_id: 24
+    level: 5
+    train_coin_type: 2
+    train_coin_number: 240
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2406
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得24%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:24%
+    skill_group_id: 24
+    level: 6
+    train_coin_type: 2
+    train_coin_number: 400
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2407
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得27%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:27%
+    skill_group_id: 24
+    level: 7
+    train_coin_type: 2
+    train_coin_number: 600
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2408
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得29%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:29%
+    skill_group_id: 24
+    level: 8
+    train_coin_type: 2
+    train_coin_number: 800
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2409
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得32%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:32%
+    skill_group_id: 24
+    level: 9
+    train_coin_type: 3
+    train_coin_number: 400
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
+    id: 2410
+    name: 愈心圣颂
+    code: heal
+    description:
+      '''
+      本回合内,该梯队前五场战斗结束时分别回复各个单位10%/15%/20%/25%/30%最大生命值。
+      从第六场战斗开始该梯队获得圣佑效果,持续至本回合结束。
+      圣佑效果:本场战斗我方全体获得35%的伤害减免效果,并且每隔15秒我方全体清除属性减益效果并且免疫伤害2秒。
+      '''
+    lvup_description: 伤害减免:35%
+    skill_group_id: 24
+    level: 10
+    train_coin_type: 3
+    train_coin_number: 600
+    skill_up_time: 36000
+    spot_type: "-1"
+    spot_belong: "0,1,2,3"
+    spot_echelon: "-1"
+    cd_time: 2
+    cd_time_type: 1
+    consumption: 3
+    mission_buff_add: 2401:1
+  }
+  {
     id: 10001
     name: 拾取
     description: 拾取废弃歌利亚
@@ -27601,6 +27834,1739 @@
     start_range: 1
     target_id: "1"
     drop_item: 57:1
+  }
+  {
+    id: 660000
+    name: 梯队回合结算
+    skill_group_id: 660000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    subsidiary_mission_skill: "660041,660042,660043,660044,660045,660046,660047,660048,660049,660050,660051,660052,660053,660054,660055,660056,660057,660058,660059,660060,660061,660062,660063,660064,660065,660066,660067,660068,660069,660070"
+  }
+  {
+    id: 660001
+    name: 晋升1
+    skill_group_id: 660002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000100&&1
+    target_id: 66009102&&66000110
+    mission_buff_add: 660001:1,660011:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660002
+    name: 晋升2
+    skill_group_id: 660003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000200&&66000101&&1
+    target_id: 66009102&&66000210
+    mission_buff_add: 660002:1,660012:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660003
+    name: 晋升3
+    skill_group_id: 660004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000300&&66000201&&66000101&&1
+    target_id: 66009102&&66000310
+    mission_buff_add: 660003:1,660013:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660004
+    name: 晋升4
+    skill_group_id: 660005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000400&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66000410
+    mission_buff_add: 660004:1,660014:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660005
+    name: 晋升5
+    skill_group_id: 660006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000500&&66000401&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66000510
+    mission_buff_add: 660005:1,660015:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660006
+    name: 晋升6
+    skill_group_id: 660007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000600&&66000501&&66000401&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66000610
+    mission_buff_add: 660006:1,660016:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660007
+    name: 晋升7
+    skill_group_id: 660008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000700&&66000601&&66000501&&66000401&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66000610
+    mission_buff_add: 660007:1,660017:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660008
+    name: 晋升8
+    skill_group_id: 660009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000800&&66000701&&66000601&&66000501&&66000401&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66000810
+    mission_buff_add: 660008:1,660018:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660009
+    name: 晋升9
+    skill_group_id: 660010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66000900&&66000801&&66000701&&66000601&&66000501&&66000401&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66000910
+    mission_buff_add: 660009:1,660019:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660010
+    name: 晋升10
+    skill_group_id: 660011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 66001000&&66000901&&66000801&&66000701&&66000601&&66000501&&66000401&&66000301&&66000201&&66000101&&1
+    target_id: 66009102&&66001010
+    mission_buff_add: 660010:1,660020:1
+    mission_buff_minus: 660091:2
+    use_arbitrary: 1
+  }
+  {
+    id: 660011
+    name: 晋升1搜索
+    skill_group_id: 660011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000111"
+    target_id: "1"
+    special_spot_add: 660001:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660012
+    name: 晋升2搜索
+    skill_group_id: 660012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000211"
+    target_id: "1"
+    special_spot_add: 660002:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660013
+    name: 晋升3搜索
+    skill_group_id: 660013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000311"
+    target_id: "1"
+    special_spot_add: 660003:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660014
+    name: 晋升4搜索
+    skill_group_id: 660014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000411"
+    target_id: "1"
+    special_spot_add: 660004:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660015
+    name: 晋升5搜索
+    skill_group_id: 660015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000511"
+    target_id: "1"
+    special_spot_add: 660005:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660016
+    name: 晋升6搜索
+    skill_group_id: 660016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000611"
+    target_id: "1"
+    special_spot_add: 660006:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660017
+    name: 晋升7搜索
+    skill_group_id: 660017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000711"
+    target_id: "1"
+    special_spot_add: 660007:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660018
+    name: 晋升8搜索
+    skill_group_id: 660018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000811"
+    target_id: "1"
+    special_spot_add: 660008:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660019
+    name: 晋升9搜索
+    skill_group_id: 660019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66000911"
+    target_id: "1"
+    special_spot_add: 660009:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660020
+    name: 晋升10搜索
+    skill_group_id: 660020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "66001011"
+    target_id: "1"
+    special_spot_add: 660010:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660021
+    name: 晋升1二星
+    skill_group_id: 660021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001111&&66009203
+    mission_buff_add: 660021:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660022
+    name: 晋升2二星
+    skill_group_id: 660022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001211&&66009203
+    mission_buff_add: 660022:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660023
+    name: 晋升3二星
+    skill_group_id: 660023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001311&&66009203
+    mission_buff_add: 660023:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660024
+    name: 晋升4二星
+    skill_group_id: 660024
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001411&&66009203
+    mission_buff_add: 660024:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660025
+    name: 晋升5二星
+    skill_group_id: 660025
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001511&&66009203
+    mission_buff_add: 660025:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660026
+    name: 晋升6二星
+    skill_group_id: 660026
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001611&&66009203
+    mission_buff_add: 660026:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660027
+    name: 晋升7二星
+    skill_group_id: 660027
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001711&&66009203
+    mission_buff_add: 660027:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660028
+    name: 晋升8二星
+    skill_group_id: 660028
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001811&&66009203
+    mission_buff_add: 660028:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660029
+    name: 晋升9二星
+    skill_group_id: 660029
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66001911&&66009203
+    mission_buff_add: 660029:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660030
+    name: 晋升10二星
+    skill_group_id: 660030
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002011&&66009203
+    mission_buff_add: 660030:1,20101:1,20102:1
+    mission_buff_minus: 660092:3
+    use_arbitrary: 1
+  }
+  {
+    id: 660031
+    name: 晋升1三星
+    skill_group_id: 660031
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002111&&66009305
+    mission_buff_add: 660031:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660032
+    name: 晋升2三星
+    skill_group_id: 660032
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002211&&66009305
+    mission_buff_add: 660032:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660033
+    name: 晋升3三星
+    skill_group_id: 660033
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002311&&66009305
+    mission_buff_add: 660033:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660034
+    name: 晋升4三星
+    skill_group_id: 660034
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002411&&66009305
+    mission_buff_add: 660034:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660035
+    name: 晋升5三星
+    skill_group_id: 660035
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002511&&66009305
+    mission_buff_add: 660035:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660036
+    name: 晋升6三星
+    skill_group_id: 660036
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002611&&66009305
+    mission_buff_add: 660036:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660037
+    name: 晋升7三星
+    skill_group_id: 660037
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002711&&66009305
+    mission_buff_add: 660037:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660038
+    name: 晋升8三星
+    skill_group_id: 660038
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002811&&66009305
+    mission_buff_add: 660038:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660039
+    name: 晋升9三星
+    skill_group_id: 660039
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66002911&&66009305
+    mission_buff_add: 660039:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660040
+    name: 晋升10三星
+    skill_group_id: 660040
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "660001"
+    target_id: 66003011&&66009305
+    mission_buff_add: 660040:1,660050:1
+    mission_buff_minus: 660093:5,669901:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660041
+    name: 1一星得分
+    skill_group_id: 660041
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001111"
+  }
+  {
+    id: 660042
+    name: 2一星得分
+    skill_group_id: 660042
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001211"
+  }
+  {
+    id: 660043
+    name: 3一星得分
+    skill_group_id: 660043
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001311"
+  }
+  {
+    id: 660044
+    name: 4一星得分
+    skill_group_id: 660044
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001411"
+  }
+  {
+    id: 660045
+    name: 5一星得分
+    skill_group_id: 660045
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001511"
+  }
+  {
+    id: 660046
+    name: 6一星得分
+    skill_group_id: 660046
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001611"
+  }
+  {
+    id: 660047
+    name: 7一星得分
+    skill_group_id: 660047
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001711"
+  }
+  {
+    id: 660048
+    name: 8一星得分
+    skill_group_id: 660048
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001811"
+  }
+  {
+    id: 660049
+    name: 9一星得分
+    skill_group_id: 660049
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66001911"
+  }
+  {
+    id: 660050
+    name: 10一星得分
+    skill_group_id: 660050
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002011"
+  }
+  {
+    id: 660051
+    name: 1二星得分
+    skill_group_id: 660051
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002111"
+  }
+  {
+    id: 660052
+    name: 2二星得分
+    skill_group_id: 660052
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002211"
+  }
+  {
+    id: 660053
+    name: 3二星得分
+    skill_group_id: 660053
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002311"
+  }
+  {
+    id: 660054
+    name: 4二星得分
+    skill_group_id: 660054
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002411"
+  }
+  {
+    id: 660055
+    name: 5二星得分
+    skill_group_id: 660055
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002511"
+  }
+  {
+    id: 660056
+    name: 6二星得分
+    skill_group_id: 660056
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002611"
+  }
+  {
+    id: 660057
+    name: 7二星得分
+    skill_group_id: 660057
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002711"
+  }
+  {
+    id: 660058
+    name: 8二星得分
+    skill_group_id: 660058
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002811"
+  }
+  {
+    id: 660059
+    name: 9二星得分
+    skill_group_id: 660059
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66002911"
+  }
+  {
+    id: 660060
+    name: 10二星得分
+    skill_group_id: 660060
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003011"
+  }
+  {
+    id: 660061
+    name: 1三星得分
+    skill_group_id: 660061
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003111"
+  }
+  {
+    id: 660062
+    name: 2三星得分
+    skill_group_id: 660062
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003211"
+  }
+  {
+    id: 660063
+    name: 3三星得分
+    skill_group_id: 660063
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003311"
+  }
+  {
+    id: 660064
+    name: 4三星得分
+    skill_group_id: 660064
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003411"
+  }
+  {
+    id: 660065
+    name: 5三星得分
+    skill_group_id: 660065
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003511"
+  }
+  {
+    id: 660066
+    name: 6三星得分
+    skill_group_id: 660066
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003611"
+  }
+  {
+    id: 660067
+    name: 7三星得分
+    skill_group_id: 660067
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003711"
+  }
+  {
+    id: 660068
+    name: 8三星得分
+    skill_group_id: 660068
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003811"
+  }
+  {
+    id: 660069
+    name: 9三星得分
+    skill_group_id: 660069
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66003911"
+  }
+  {
+    id: 660070
+    name: 10三星得分
+    skill_group_id: 660070
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66004011"
+  }
+  {
+    id: 660071
+    name: "-6"
+    skill_group_id: 660071
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660071:1
+  }
+  {
+    id: 660072
+    name: "-5"
+    skill_group_id: 660072
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660072:1
+  }
+  {
+    id: 660073
+    name: "-4"
+    skill_group_id: 660073
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660073:1
+  }
+  {
+    id: 660074
+    name: "-3"
+    skill_group_id: 660074
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660074:1
+  }
+  {
+    id: 660075
+    name: "-2"
+    skill_group_id: 660075
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660075:1
+  }
+  {
+    id: 660076
+    name: "-1"
+    skill_group_id: 660076
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660076:1
+  }
+  {
+    id: 660080
+    name: 数据补丁
+    description: 拾取后补充弹药口粮及载具能量，并获得20000积分
+    skill_group_id: 660080
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_target: "660003"
+    trigger_id: "66008001"
+    target_id: "1"
+    special_spot_minus: 660080:1
+    is_manual: 660080
+    resources_change: "20,20,160"
+  }
+  {
+    id: 660081
+    name: "-1"
+    skill_group_id: 660081
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660081:1
+  }
+  {
+    id: 660082
+    name: "-2"
+    skill_group_id: 660082
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660082:1
+  }
+  {
+    id: 660083
+    name: "-3"
+    skill_group_id: 660083
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660083:1
+  }
+  {
+    id: 660084
+    name: "-4"
+    skill_group_id: 660084
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660084:1
+  }
+  {
+    id: 660085
+    name: "-5"
+    skill_group_id: 660085
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660085:1
+  }
+  {
+    id: 660086
+    name: "-6"
+    skill_group_id: 660086
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660086:1
+  }
+  {
+    id: 660090
+    name: 机场初始化
+    skill_group_id: 660090
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660090:1,669900:1
+    mission_buff_add: 660090:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660091
+    name: 击杀判定
+    skill_group_id: 660091
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "660095,660096,660097,660092,660093,660094"
+    use_arbitrary: 1
+  }
+  {
+    id: 660092
+    name: 晋升初始判定
+    skill_group_id: 660092
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "660011,660012,660013,660014,660015,660016,660017,660018,660019,660020,660001,660002,660003,660004,660005,660006,660007,660008,660009,660010"
+    use_arbitrary: 1
+  }
+  {
+    id: 660093
+    name: 晋升升级判定
+    skill_group_id: 660093
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "660021,660022,660023,660024,660025,660026,660027,660028,660029,660030,660031,660032,660033,660034,660035,660036,660037,660038,660039,660040"
+    use_arbitrary: 1
+  }
+  {
+    id: 660094
+    name: 击杀清除标记
+    skill_group_id: 660094
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_minus: 660001:1,660002:1,660003:1,660004:1,660005:1,660006:1,660007:1,660008:1,660009:1,660010:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660095
+    name: 击杀判定2
+    skill_group_id: 660095
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66009101"
+    special_spot_minus: 660091:1
+    mission_buff_add: 660091:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660096
+    name: 击杀判定3
+    skill_group_id: 660096
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66009201"
+    special_spot_minus: 660092:1
+    mission_buff_add: 660092:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660097
+    name: 击杀判定4
+    skill_group_id: 660097
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "66009301"
+    special_spot_minus: 660093:1
+    mission_buff_add: 660093:1
+    use_arbitrary: 1
+  }
+  {
+    id: 660098
+    name: 初始化
+    skill_group_id: 660098
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 660000:1
+    use_arbitrary: 1
+  }
+  {
+    id: 669800
+    name: 刷怪初始化
+    skill_group_id: 669800
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 669800:1
+  }
+  {
+    id: 669801
+    name: 内圈刷怪
+    skill_group_id: 669801
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669811,669821"
+  }
+  {
+    id: 669802
+    name: 中圈机场上方巡逻
+    skill_group_id: 669802
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669812,669822"
+  }
+  {
+    id: 669803
+    name: 中圈机场左侧巡逻
+    skill_group_id: 669803
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669813,669823"
+  }
+  {
+    id: 669804
+    name: 中圈机场右下巡逻
+    skill_group_id: 669804
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669814,669824"
+  }
+  {
+    id: 669805
+    name: 中圈机场上方警戒
+    skill_group_id: 669805
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669815,669825"
+  }
+  {
+    id: 669806
+    name: 中圈机场左下警戒
+    skill_group_id: 669806
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669816,669826"
+  }
+  {
+    id: 669807
+    name: 中圈机场右侧警戒
+    skill_group_id: 669807
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669817,669827"
+  }
+  {
+    id: 669808
+    name: 外圈机场正三角组巡逻
+    skill_group_id: 669808
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669818,669828"
+  }
+  {
+    id: 669809
+    name: 外圈机场倒三角组巡逻
+    skill_group_id: 669809
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "669819,669829"
+  }
+  {
+    id: 669810
+    name: 机场刷怪2动
+    skill_group_id: 669810
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 20401:1
+  }
+  {
+    id: 669811
+    name: 内圈刷怪
+    skill_group_id: 669811
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660015;660016;660017
+  }
+  {
+    id: 669812
+    name: 中圈机场上方巡逻
+    skill_group_id: 669812
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660018;660019;660020
+  }
+  {
+    id: 669813
+    name: 中圈机场左侧巡逻
+    skill_group_id: 669813
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660021;660022;660023
+  }
+  {
+    id: 669814
+    name: 中圈机场右下巡逻
+    skill_group_id: 669814
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660024;660025;660026
+  }
+  {
+    id: 669815
+    name: 中圈机场上方警戒
+    skill_group_id: 669815
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660027;660028;660029
+  }
+  {
+    id: 669816
+    name: 中圈机场左下警戒
+    skill_group_id: 669816
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660030;660031;660032
+  }
+  {
+    id: 669817
+    name: 中圈机场右侧警戒
+    skill_group_id: 669817
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    allyteam_summoner: 660033;660034;660035
+  }
+  {
+    id: 669818
+    name: 外圈机场正三角组巡逻
+    skill_group_id: 669818
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    subsidiary_mission_skill: "669810"
+    allyteam_summoner: 660036;660037;660038
+  }
+  {
+    id: 669819
+    name: 外圈机场倒三角组巡逻
+    skill_group_id: 669819
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980100"
+    target_id: "1"
+    subsidiary_mission_skill: "669810"
+    allyteam_summoner: 660039;660040;660041
+  }
+  {
+    id: 669821
+    name: 内圈刷怪
+    skill_group_id: 669821
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660015;660016;660017
+  }
+  {
+    id: 669822
+    name: 中圈机场上方巡逻
+    skill_group_id: 669822
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660042;660043;660044
+  }
+  {
+    id: 669823
+    name: 中圈机场左侧巡逻
+    skill_group_id: 669823
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660045;660046;660047
+  }
+  {
+    id: 669824
+    name: 中圈机场右下巡逻
+    skill_group_id: 669824
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660048;660049;660050
+  }
+  {
+    id: 669825
+    name: 中圈机场上方警戒
+    skill_group_id: 669825
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660051;660052;660053
+  }
+  {
+    id: 669826
+    name: 中圈机场左下警戒
+    skill_group_id: 669826
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660054;660055;660056
+  }
+  {
+    id: 669827
+    name: 中圈机场右侧警戒
+    skill_group_id: 669827
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    allyteam_summoner: 660057;660058;660059
+  }
+  {
+    id: 669828
+    name: 外圈机场正三角组巡逻
+    skill_group_id: 669828
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    subsidiary_mission_skill: "669810"
+    allyteam_summoner: 660060;660061;660062
+  }
+  {
+    id: 669829
+    name: 外圈机场倒三角组巡逻
+    skill_group_id: 669829
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "66980101"
+    target_id: "1"
+    subsidiary_mission_skill: "669810"
+    allyteam_summoner: 660063;660064;660065
+  }
+  {
+    id: 669901
+    name: 晋升计数显示
+    skill_group_id: 669901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: (66000110&&66000210&&66000310&&66000410&&66000510&&66000610&&66000710&&66000810&&66000910&&66001010&&66009111)||((66001111||66001211||66001311||66001411||66001511||66001611||66001711||66001811||66001911||66002011)&&66009212)||((66002111||66002211||66002311||66002411||66002511||66002611||66002711||66002811||66002911||66003011)&&66009314)
+    mission_buff_add: 669901:1
+    mission_buff_minus: 669902:1,669903:1,669904:1,669905:1
+    use_arbitrary: 1
+  }
+  {
+    id: 669902
+    name: 晋升计数显示
+    skill_group_id: 669902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: (66000110&&66000210&&66000310&&66000410&&66000510&&66000610&&66000710&&66000810&&66000910&&66001010&&66009110)||((66001111||66001211||66001311||66001411||66001511||66001611||66001711||66001811||66001911||66002011)&&66009211)||((66002111||66002211||66002311||66002411||66002511||66002611||66002711||66002811||66002911||66003011)&&66009313)
+    mission_buff_add: 669902:1
+    mission_buff_minus: 669901:1,669903:1,669904:1,669905:1
+    use_arbitrary: 1
+  }
+  {
+    id: 669903
+    name: 晋升计数显示
+    skill_group_id: 669903
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: ((66001111||66001211||66001311||66001411||66001511||66001611||66001711||66001811||66001911||66002011)&&66009210)||((66002111||66002211||66002311||66002411||66002511||66002611||66002711||66002811||66002911||66003011)&&66009312)
+    mission_buff_add: 669903:1
+    mission_buff_minus: 669901:1,669902:1,669904:1,669905:1
+    use_arbitrary: 1
+  }
+  {
+    id: 669904
+    name: 晋升计数显示
+    skill_group_id: 669904
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: (66002111||66002211||66002311||66002411||66002511||66002611||66002711||66002811||66002911||66003011)&&66009311
+    mission_buff_add: 669904:1
+    mission_buff_minus: 669901:1,669902:1,669903:1,669905:1
+    use_arbitrary: 1
+  }
+  {
+    id: 669905
+    name: 晋升计数显示
+    skill_group_id: 669905
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: (66002111||66002211||66002311||66002411||66002511||66002611||66002711||66002811||66002911||66003011)&&66009310
+    mission_buff_add: 669905:1
+    mission_buff_minus: 669901:1,669902:1,669903:1,669904:1
+    use_arbitrary: 1
+  }
+  {
+    id: 669910
+    name: 跃迁
+    description: 传送至2格范围内的无人点，只能使用1次
+    skill_group_id: 669910
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 2
+    is_airborne: 2
+    special_spot_add: 669910:1
+    subsidiary_mission_skill: "669911"
+    is_manual: 669910
+  }
+  {
+    id: 669911
+    name: 跃迁解除
+    skill_group_id: 669911
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 2
+    target_id: 1||66991001
+    special_spot_minus: 669910:1
+    mission_buff_minus: 660050:1
   }
   {
     id: 670101
@@ -76818,6 +78784,715 @@
     cd_time_type: 1
     target_id: "1"
     mission_buff_add: 640101:1
+  }
+  {
+    id: 9740101
+    name: 【标识】挂多动buff · 3步 · 己方梯队
+    skill_group_id: 9740101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    mission_buff_add: 9740101:1,20301:1,20302:1
+  }
+  {
+    id: 9740102
+    name: 【标识】物资标记
+    skill_group_id: 9740102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9720402:1
+  }
+  {
+    id: 9740103
+    name: 拾取物资
+    description: ※每个梯队最多只能携带一份物资或者杂物。
+    skill_group_id: 9740103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: 974010680&&972040580&&974010181
+    target_id: "972040291"
+    special_spot_minus: 9720402:1,1020101:1,1010201:1,9720404:1
+    subsidiary_mission_skill: "9740106"
+    is_manual: 9720405
+  }
+  {
+    id: 9740104
+    name: 放置物资
+    description:
+      '''
+      选择一处没有物资或杂物的没人的路径点放置。
+      ※可重复堆积在回收点（雷达点）上。
+      '''
+    skill_group_id: 9740104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: 974010681&&974010181
+    target_id: (972040290&&972040390)||101010191
+    special_spot_add: 9720402:1,1020101:1
+    subsidiary_mission_skill: "9740107,9740110"
+    is_manual: 9720406
+  }
+  {
+    id: 9740105
+    name: 【标识】弃用占坑
+    skill_group_id: 9740105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+  }
+  {
+    id: 9740106
+    name: 【标识】持有物资
+    skill_group_id: 9740106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 9740106:1
+  }
+  {
+    id: 9740107
+    name: 【标识】消除物资持有
+    skill_group_id: 9740107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 9740106:1
+  }
+  {
+    id: 9740108
+    name: 【标识】回收点达标检测
+    skill_group_id: 9740108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 101010191&&972040492
+    special_spot_minus: 1040100:1
+  }
+  {
+    id: 9740109
+    name: 【标识】播放轰炸特效
+    skill_group_id: 9740109
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740109:1
+    subsidiary_mission_skill: "9740111"
+  }
+  {
+    id: 9740110
+    name: 【标识】回收点物资数量检测
+    skill_group_id: 9740110
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 101010191&&102010191
+    special_spot_add: 1010201:1,9720404:1
+    special_spot_minus: 1020101:1
+    subsidiary_mission_skill: "9740108"
+  }
+  {
+    id: 9740111
+    name: 【标识】轰炸炸毁所有设施
+    skill_group_id: 9740111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 102050191||974010181
+    special_spot_add: 6630021:1
+  }
+  {
+    id: 9740112
+    name: 【标识】放置失败标记
+    skill_group_id: 9740112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 1040100:1
+  }
+  {
+    id: 9740113
+    name: 【标识】检测任务达成状态
+    skill_group_id: 9740113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "9740115,9740114"
+  }
+  {
+    id: 9740114
+    name: 【标识】第一回合先放置失败标识
+    skill_group_id: 9740114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 1040100:1,1050100:1
+  }
+  {
+    id: 9740115
+    name: 【标识】第二回合正式检测
+    skill_group_id: 9740115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "105010091"
+    subsidiary_mission_skill: "9740117,9740116"
+  }
+  {
+    id: 9740116
+    name: 【标识】第二回合失败
+    skill_group_id: 9740116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: 105010091&&104010091
+    special_spot_add: 9740110:1
+    subsidiary_mission_skill: "9740111,9740118"
+  }
+  {
+    id: 9740117
+    name: 【标识】第二回合成功
+    skill_group_id: 9740117
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: 105010091&&104010090
+    subsidiary_mission_skill: "9740109"
+  }
+  {
+    id: 9740118
+    name: 【标识】失败标记_正式
+    skill_group_id: 9740118
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740116:1
+    subsidiary_mission_skill: "9740111"
+  }
+  {
+    id: 9740701
+    name: 【标识】警戒标识
+    skill_group_id: 9740701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740700:1
+  }
+  {
+    id: 9740702
+    name: 【标识】击杀数满足_清除警戒标识
+    skill_group_id: 9740702
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "974070091"
+    special_spot_minus: 9740700:4,9740701:4
+  }
+  {
+    id: 9740703
+    name: 【标识】击杀目标添加标记_N
+    skill_group_id: 9740703
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740703:1
+    subsidiary_mission_skill: "9740706"
+    use_arbitrary: 1
+  }
+  {
+    id: 9740704
+    name: 【标识】击杀数足够_开门
+    skill_group_id: 9740704
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "102010091"
+    special_spot_minus: 1020101:1,1000001:1
+    subsidiary_mission_skill: "9740711"
+  }
+  {
+    id: 9740705
+    name: 【标识】击杀数检测_4
+    skill_group_id: 9740705
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "974070394"
+    subsidiary_mission_skill: "9740702,9740704"
+  }
+  {
+    id: 9740706
+    name: 【标识】击杀数检测_2
+    skill_group_id: 9740706
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "974070392"
+    subsidiary_mission_skill: "9740702,9740704"
+  }
+  {
+    id: 9740707
+    name: 【标识】击杀目标添加标记_H
+    skill_group_id: 9740707
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740703:1
+    subsidiary_mission_skill: "9740705,9740710"
+    use_arbitrary: 1
+  }
+  {
+    id: 9740708
+    name: 【标识】目标敌人标识
+    skill_group_id: 9740708
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 974070891||974070892||974070893||974070894||974070895||974070896
+    mission_buff_add: 9740708:1
+    subsidiary_mission_skill: "9740709"
+  }
+  {
+    id: 9740709
+    name: 【标识】开局提示文本
+    skill_group_id: 9740709
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740709:1
+  }
+  {
+    id: 9740710
+    name: 【标识】击杀敌人后第一次提示进度
+    skill_group_id: 9740710
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740710:1
+  }
+  {
+    id: 9740711
+    name: 【标识】满足击杀数后提示
+    skill_group_id: 9740711
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9740711:1
+  }
+  {
+    id: 9741101
+    name: 【标识】播放轰炸特效
+    skill_group_id: 9741101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9741101:1
+  }
+  {
+    id: 9741102
+    name: 【标识】兔子脚下_炸设施
+    skill_group_id: 9741102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "9741105,9741106"
+  }
+  {
+    id: 9741103
+    name: 【标识】指挥塔描述
+    skill_group_id: 9741103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "9741105,9741106"
+  }
+  {
+    id: 9741104
+    name: 【标识】发电站描述
+    skill_group_id: 9741104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "9741105,9741106"
+  }
+  {
+    id: 9741105
+    name: 【标识】实际爆炸
+    skill_group_id: 9741105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "101010091"
+    special_spot_add: 6630021:1
+    subsidiary_mission_skill: "9741107"
+  }
+  {
+    id: 9741106
+    name: 【标识】预埋延迟
+    skill_group_id: 9741106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 1010100:1
+  }
+  {
+    id: 9741107
+    name: mission_skill_config-19741107
+    description: mission_skill_config-29741107
+    lvup_description: mission_skill_config-39741107
+    skill_group_id: 9741107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    data_pool: "100"
+    target_id: 974110791||974110792
+    special_spot_add: 9130610:1,6630021:1
+  }
+  {
+    id: 9741401
+    name: 拆弹
+    skill_group_id: 9741401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "644997401"
+    target_id: "644997401"
+    special_spot_minus: 6449974:1,6440081:1,6440082:1,6440083:1,6440084:1,6440085:1,6440086:1,6440087:1,6440088:1,6440089:1
+    is_manual: 6440003
+  }
+  {
+    id: 9741402
+    name: 【标记】歌利亚初始化
+    skill_group_id: 9741402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6630020:1
+  }
+  {
+    id: 9741901
+    name: 【标识】物资标记
+    skill_group_id: 9741901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9720402:1
+  }
+  {
+    id: 9741902
+    name: 【标识】要道初始
+    skill_group_id: 9741902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9741902:1
+  }
+  {
+    id: 9741903
+    name: 【标识】乱石堆/要道初始
+    skill_group_id: 9741903
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9741903:1,9741902:1,1000001:1
+  }
+  {
+    id: 9741904
+    name: 拾取物资
+    description: 拾取可用于修复被损毁的要道设施。※每个梯队最多只能携带一份物资。
+    skill_group_id: 9741904
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: 974190480&&974190780&&974191181
+    target_id: "972040291"
+    special_spot_minus: 9720402:1
+    subsidiary_mission_skill: "9741911"
+    is_manual: 9720405
+  }
+  {
+    id: 9741905
+    name: 放置物资
+    description: 选择一处没有物资或杂物的没人的路径点放置。
+    skill_group_id: 9741905
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: 974190481&&972040290&&101010090&&103010090
+    target_id: 972040290&&974190290&&103010090
+    special_spot_add: 9720402:1
+    subsidiary_mission_skill: "9741912"
+    is_manual: 9720406
+  }
+  {
+    id: 9741906
+    name: 修复要道
+    description: 消耗一份物资修复要道。
+    skill_group_id: 9741906
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 974190481&&974190291
+    target_id: "974190291"
+    special_spot_minus: 9741902:1,1010200:1,1010100:1
+    subsidiary_mission_skill: "9741912"
+    is_manual: 9720406
+  }
+  {
+    id: 9741907
+    name: 拾取
+    description: 拾取可用于炸毁乱石堆或用于解决敌人。※每个梯队最多只能携带一份弃置歌利亚。
+    skill_group_id: 9741907
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 974190480&&974190780&&100000991
+    target_id: "100000991"
+    special_spot_minus: 1000009:1
+    subsidiary_mission_skill: "9741913"
+    is_manual: 94040905
+  }
+  {
+    id: 9741908
+    name: 丢出
+    description: 对敌人使用并引爆弃置歌利亚。
+    skill_group_id: 9741908
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 6630021:1
+    subsidiary_mission_skill: "9741914"
+    is_manual: 6540017
+  }
+  {
+    id: 9741909
+    name: 丢出
+    description: 对乱石堆使用并引爆弃置歌利亚。
+    skill_group_id: 9741909
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: 101010091&&974190291&&974190391
+    special_spot_add: 1010200:1
+    special_spot_minus: 9741903:1,1000001:1
+    subsidiary_mission_skill: "9741914"
+    is_manual: 6540017
+  }
+  {
+    id: 9741910
+    name: 【标识】对梯队挂标记buff
+    skill_group_id: 9741910
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9741911:1
+    mission_buff_add: 9741911:1
+  }
+  {
+    id: 9741911
+    name: 【标识】持有物资
+    skill_group_id: 9741911
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 9741904:1
+  }
+  {
+    id: 9741912
+    name: 【标识】消除物资持有
+    skill_group_id: 9741912
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 9741904:1
+  }
+  {
+    id: 9741913
+    name: 【标识】持有歌利亚
+    skill_group_id: 9741913
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 9741907:1
+  }
+  {
+    id: 9741914
+    name: 【标识】消除歌利亚持有
+    skill_group_id: 9741914
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 9741907:1
+  }
+  {
+    id: 9741915
+    name: mission_skill_config-19741915
+    description: mission_skill_config-29741915
+    lvup_description: mission_skill_config-39741915
+    skill_group_id: 9741915
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 9701205:1
+  }
+  {
+    id: 9742401
+    name: 【标识】击杀目标添加标记
+    skill_group_id: 9742401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 9742401:1
   }
   {
     id: 40400001

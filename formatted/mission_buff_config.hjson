@@ -491,6 +491,83 @@
     priority: -1
   }
   {
+    id: 2401
+    name: 愈心圣颂
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 2401
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 2401
+    priority: 1
+  }
+  {
+    id: 2402
+    name: 愈心圣颂
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 2402
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 2401
+    priority: 2
+  }
+  {
+    id: 2403
+    name: 愈心圣颂
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 2403
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 2401
+    priority: 3
+  }
+  {
+    id: 2404
+    name: 愈心圣颂
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 2404
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 2401
+    priority: 4
+  }
+  {
+    id: 2405
+    name: 愈心圣颂
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 2405
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 2401
+    priority: 5
+  }
+  {
+    id: 2406
+    name: 愈心圣颂
+    code: heal
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 757234
+    conflict_type: 2401
+    priority: 6
+  }
+  {
     id: 10001
     name: 携带buff
     description: 携带歌利亚
@@ -4470,6 +4547,729 @@
     exp_buff: "1"
     conflict_type: 640103
     carry_mission_skill: "640104"
+  }
+  {
+    id: 660001
+    name: 标记1
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660002
+    name: 标记2
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660003
+    name: 标记3
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660004
+    name: 标记4
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660005
+    name: 标记5
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660006
+    name: 标记6
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660007
+    name: 标记7
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660008
+    name: 标记8
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660009
+    name: 标记9
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660010
+    name: 标记10
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660090
+    priority: 1
+  }
+  {
+    id: 660011
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660011
+    priority: 1
+  }
+  {
+    id: 660012
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660012
+    priority: 1
+  }
+  {
+    id: 660013
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660013
+    priority: 1
+  }
+  {
+    id: 660014
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660014
+    priority: 1
+  }
+  {
+    id: 660015
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660015
+    priority: 1
+  }
+  {
+    id: 660016
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660016
+    priority: 1
+  }
+  {
+    id: 660017
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660017
+    priority: 1
+  }
+  {
+    id: 660018
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660018
+    priority: 1
+  }
+  {
+    id: 660019
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660019
+    priority: 1
+  }
+  {
+    id: 660020
+    name: 1级晋升
+    description: 晋升Ⅰ,每回合额外获得2000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660092
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise1#1E90FF
+    conflict_type: 660020
+    priority: 1
+  }
+  {
+    id: 660021
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660011
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660022
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660012
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660023
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660013
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660024
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660014
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660025
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660015
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660026
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660016
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660027
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660017
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660028
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660018
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660029
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660019
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660030
+    name: 2级晋升
+    description: 晋升Ⅱ,每回合额外获得4000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    special_spot_config_id: 660093
+    conditions_type: "4"
+    conditions_time: 0-1
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise2#1E90FF
+    conflict_type: 660020
+    priority: 2
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660031
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660011
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660032
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660012
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660033
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660013
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660034
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660014
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660035
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660015
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660036
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660016
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660037
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660017
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660038
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660018
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660039
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660019
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660040
+    name: 3级晋升
+    description: 晋升Ⅲ,每回合额外获得6000分
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 330006
+    birth_effect: 660001
+    manual_ui_code: 24rabbitrise3#1E90FF
+    conflict_type: 660020
+    priority: 3
+    vehicle_engine_efficacy: 5
+  }
+  {
+    id: 660050
+    name: 跃迁
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 660050
+    priority: 1
+    carry_mission_skill: "669910"
+  }
+  {
+    id: 660090
+    name: 标记0
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 660091
+    conditions_type: "4"
+    conditions_time: 0-1
+    conflict_type: 660090
+    priority: -2
+  }
+  {
+    id: 660091
+    name: 击杀计数
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount
+    conflict_type: 660091
+    priority: -1
+  }
+  {
+    id: 660092
+    name: 击杀计数
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount
+    conflict_type: 660092
+    priority: -1
+  }
+  {
+    id: 660093
+    name: 击杀计数
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount
+    conflict_type: 660093
+    priority: -1
+  }
+  {
+    id: 669900
+    description: 击杀2个敌人后晋升
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount#EC4702
+    conflict_type: 669900
+    priority: -2
+  }
+  {
+    id: 669901
+    description: 击杀1个敌人后晋升
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount#EC4702
+    conflict_type: 669900
+    priority: 1
+  }
+  {
+    id: 669902
+    description: 击杀2个敌人后晋升
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount#EC4702
+    conflict_type: 669900
+    priority: 1
+  }
+  {
+    id: 669903
+    description: 击杀3个敌人后晋升
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount#EC4702
+    conflict_type: 669900
+    priority: 1
+  }
+  {
+    id: 669904
+    description: 击杀4个敌人后晋升
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount#EC4702
+    conflict_type: 669900
+    priority: 1
+  }
+  {
+    id: 669905
+    description: 击杀5个敌人后晋升
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: 24rabbitcount#EC4702
+    conflict_type: 669900
+    priority: 1
   }
   {
     id: 670103
@@ -8684,6 +9484,85 @@
     conflict_type: 9721602
     priority: 3
     ext_move: 3
+  }
+  {
+    id: 9740101
+    name: 【标记】梯队标记
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 9740101
+    priority: 1
+    carry_mission_skill: "9740103"
+  }
+  {
+    id: 9740106
+    name: 持有物资
+    description:
+      '''
+      携带物资中，不能拾取更多了。
+      可以将物资堆积在收集点上或其他没有物资和杂物的无人的路径点上。
+      '''
+    code: GunBox
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 9740106
+    priority: 1
+    carry_mission_skill: "9740104"
+  }
+  {
+    id: 9740708
+    description: 带有准入权限的单位
+    code: GunBox
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 9740708
+    priority: 1
+  }
+  {
+    id: 9741904
+    name: 持有物资
+    description:
+      '''
+      携带物资中，不能拾取更多了。
+      可以将物资堆积在收集点上或其他没有物资和杂物的无人的路径点上。
+      '''
+    code: GunBox
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 9741904
+    priority: 1
+    carry_mission_skill: "9741905,9741906"
+  }
+  {
+    id: 9741907
+    name: 携带歌利亚
+    description: 携带歌利亚中，不能拾取更多了。
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 9741907
+    carry_mission_skill: "9741908,9741909"
+  }
+  {
+    id: 9741911
+    name: 【标记】梯队标记
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 9741911
+    priority: 1
+    carry_mission_skill: "9741904,9741907"
   }
   {
     id: 10000021

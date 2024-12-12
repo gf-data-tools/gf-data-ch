@@ -4637,7 +4637,6 @@
     damage_ratio: *202
     critical_hit_rate: "100"
     float_wide: 15
-    is_form_hurt: 1
     hit_type: 1
   }
   {
@@ -4924,6 +4923,46 @@
     hit_type: 1
     is_shield: 100
     fix_damage: "1000002474"
+  }
+  {
+    id: 1517
+    description: 斯提克斯附带攻击
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 2605:1000002477,2601:1000002476,2603:1000002476,2604:1000002476
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002475"
+  }
+  {
+    id: 1518
+    description: 斯提克斯缠绕攻击
+    damage_ratio: "150"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_target: 2602:1,2609:1
+  }
+  {
+    id: 1519
+    description: 斯提克斯蓄电场攻击
+    damage_ratio: "20"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 1520
+    description: 斯提克斯雷暴伤害
+    damage_ratio: "40"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
   }
   {
     id: 1701

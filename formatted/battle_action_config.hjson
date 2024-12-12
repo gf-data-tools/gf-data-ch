@@ -14436,6 +14436,18 @@
     sound_delay: "0,3,6"
   }
   {
+    id: 4066
+    name: MP41改造烟雾弹
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "4290"
+    creation_delay: "40"
+    sound_order: BT_gasbomb_woosh
+    sound_delay: "39"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
     id: 5010
     name: 炮狙射击
     action_order: "1"
@@ -19181,6 +19193,67 @@
     id: 7511
     name: 英雄妖精工具人-10
     summon_order: "2010"
+  }
+  {
+    id: 7512
+    name: 治愈妖精工具人-1
+    summon_order: "2011"
+  }
+  {
+    id: 7513
+    name: 治愈妖精工具人-2
+    summon_order: "2012"
+  }
+  {
+    id: 7514
+    name: 治愈妖精工具人-3
+    summon_order: "2013"
+  }
+  {
+    id: 7515
+    name: 治愈妖精工具人-4
+    summon_order: "2014"
+  }
+  {
+    id: 7516
+    name: 治愈妖精工具人-5
+    summon_order: "2015"
+  }
+  {
+    id: 7517
+    name: 治愈妖精工具人-6
+    summon_order: "2016"
+  }
+  {
+    id: 7518
+    name: 治愈妖精工具人-7
+    summon_order: "2017"
+  }
+  {
+    id: 7519
+    name: 治愈妖精工具人-8
+    summon_order: "2018"
+  }
+  {
+    id: 7520
+    name: 治愈妖精工具人-9
+    summon_order: "2019"
+  }
+  {
+    id: 7521
+    name: 治愈妖精工具人-10
+    summon_order: "2020"
+  }
+  {
+    id: 7522
+    name: 治愈妖精唱歌
+    creation_order: "7503,7504,7505"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 7523
+    name: 安抚型
+    creation_order: "7506"
   }
   {
     id: 8001
@@ -26304,6 +26377,77 @@
     creation_order: "7159,7159,7159,7159,7159,35,35,35,35,35"
     creation_delay: "0,3,5,7,10,0,3,5,7,10"
     sound_order: BT_pistol
+  }
+  {
+    id: 12060
+    name: 斯提克斯普攻
+    action_order: attack
+    action_playspeed: "120"
+    creation_order: "7170,7171,7173"
+    creation_delay: "9,9,10"
+  }
+  {
+    id: 12061
+    name: 斯提克斯飞弹
+    creation_order: "7175"
+  }
+  {
+    id: 12062
+    name: 斯提克斯缠绕
+    action_order: move,wait,s3,move
+    action_delay: "0,10,40,110"
+    action_playspeed: "100,100,70,100"
+    creation_order: "7177"
+    creation_delay: "60"
+    move_order: "1070,1071,1072"
+    move_delay: "0,10,110"
+  }
+  {
+    id: 12063
+    name: 斯提克斯蓄电场
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "7178"
+  }
+  {
+    id: 12064
+    name: 斯提克斯雷暴Ⅰ
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7181,718101,718102,718103,718104,718105,718106"
+    creation_delay: "45,45,55,60,65,70,50"
+    effect_order: 3(StyxBoss;蓄电雷暴;Electrical Storm;Styx)
+    effect_duration: "1"
+  }
+  {
+    id: 12065
+    name: 斯提克斯雷暴Ⅱ
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7182,718101,718102,718103,718104,718105,718106,718201,718202,718203,718204,718205,718206"
+    creation_delay: "45,45,55,60,65,70,50,45,55,60,65,70,50"
+    effect_order: 3(StyxBoss;蓄电雷暴;Electrical Storm;Styx)
+    effect_duration: "1"
+  }
+  {
+    id: 12066
+    name: 斯提克斯雷暴Ⅲ
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7182,718101,718102,718103,718104,718105,718106,718201,718202,718203,718204,718205,718206,718301,718302,718303,718304,718305,718306"
+    creation_delay: "45,45,55,60,65,70,50,45,55,60,65,70,50,45,55,60,65,70,50"
+    effect_order: 3(StyxBoss;蓄电雷暴;Electrical Storm;Styx)
+    effect_duration: "1"
+  }
+  {
+    id: 12067
+    name: 斯提克斯雷暴Ⅳ
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7182,718101,718102,718103,718104,718105,718106,718201,718202,718203,718204,718205,718206,718301,718302,718303,718304,718305,718306,718401,718402,718403,718404,718405,718406"
+    creation_delay: "45,45,55,60,65,70,50,45,55,60,65,70,50,45,55,60,65,70,50,45,55,60,65,70,50"
+    effect_order: 3(StyxBoss;蓄电雷暴;Electrical Storm;Styx)
+    effect_duration: "1"
   }
   {
     id: 13801

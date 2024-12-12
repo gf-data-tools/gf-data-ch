@@ -30640,6 +30640,180 @@
     rotate: "3"
   }
   {
+    id: 20155
+    name: 棱形格地板
+    classes: 19
+    type: 301
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 在清洁人员的不懈努力下，总算将血迹、水渍、污痕等都从凹凸不平的地板上铲除。
+    code: 202412Activity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20156
+    name: 地下避难所
+    classes: 19
+    type: 101
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 一场灾难迫使人类离开家园，来到地下三十米处建立起简陋的避难所，争吵分裂是永恒的主题，但间或的人性闪光亦能开启新的篇章。
+    code: 202412Activity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20157
+    name: 诊疗床上的呢喃
+    classes: 19
+    type: 202
+    space: "8,6,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 躺在病榻上的人类是脆弱的，而在半梦半醒的浮沉间，他们呢喃的主题总是妈妈。
+    code: 202412Activity_deco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "20"
+    interact_point_offset: *0.175,2.817,-0.285
+  }
+  {
+    id: 20158
+    name: 冷酷注视
+    classes: 19
+    type: 201
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 白炽灯持续地散发着青冷的光，丝毫不在意灯下人的喜怒哀乐。
+    code: 202412Activity_deco_02
+    texture_type: "1"
+    offset: "0.000,3.149,0.000"
+    rotate: "2"
+    touch_area: "3,5,0,0,10,0"
+  }
+  {
+    id: 20159
+    name: 垃圾桶心绪
+    classes: 19
+    type: 201
+    space: "4,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 检查报告、过期药品、染血的棉片、使用过的器具……大家一股脑地扔进来，连同自己破碎的心和迷茫的情绪。
+    code: 202412Activity_deco_03
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20160
+    name: 世界的传送门
+    classes: 19
+    type: 201
+    space: "8,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 看似破旧残败的一扇门却是通向两个世界的大门。一边是充满希望的等候，一边是紧张的时间争夺赛。
+    code: 202412Activity_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20161
+    name: 落寞导诊台
+    classes: 19
+    type: 201
+    space: "12,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 陈旧的导诊台前总是无人问津，桌面也蒙上一层薄薄的灰。
+    code: 202412Activity_deco_05
+    texture_type: "1"
+    offset: "0.156,-0.302,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20162
+    name: 无常推车
+    classes: 19
+    type: 201
+    space: "3,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 乖乖吃下苦涩药丸后，有一定几率可以获得甜蜜糖丸的奖赏，当然更大几率是只剩弥漫在嘴里的苦涩，就像人生。
+    code: 202412Activity_deco_06
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20163
+    name: 伤痛阻隔帘
+    classes: 19
+    type: 201
+    space: "10,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 视线的遮蔽在此刻带来的却是安宁，看不见帘后的真实，或许可以短暂地欺骗自己痛苦的不存在。
+    code: 202412Activity_deco_07
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20164
+    name: 输液椅的叙事
+    classes: 19
+    type: 202
+    space: "8,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 接下来的数小时，你的活动范围都将被局限在这把椅子上，可供你解读的内容只剩下输液袋、点滴速度和邻座的只言片语。
+    code: 202412Activity_deco_08
+    texture_type: "1"
+    offset: "0.000,-0.188,0.000"
+    rotate: "2"
+    interact_point: "20,20,20"
+    interact_point_offset: *-2.275,1.423,0|*0.000,1.423,0|*2.188,1.423,0
+  }
+  {
+    id: 20165
+    name: 烬中火勋章
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“卷积核”活动中的卓越战绩，“你走向死亡的国度，在灰烬中寻找火焰，在世界的尽头寻找开端。”
+    code: 202412Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20166
+    name: 海报-2024孤立丛林
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2024限时活动-孤立丛林的特典海报。
+    code: pv_202410activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: 马卡洛夫-南瓜熊熊
     classes: 300
@@ -46664,6 +46838,21 @@
     rotate: "3"
   }
   {
+    id: 311107
+    name: M1911-甜心兔厨娘
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1911的海报。
+    code: poster_Christmas2024_M1911
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 330001
     name: ST AR-15-午夏憩风
     classes: 300
@@ -47003,6 +47192,21 @@
     decompose_gift: 100003
     description: S.A.T.8的海报。
     code: poster_BattlePass_SAT8
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330025
+    name: PK-夜雪巡弋
+    classes: 301
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: PK的海报。
+    code: poster_BattlePass_PK
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

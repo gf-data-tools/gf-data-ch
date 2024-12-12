@@ -47646,7 +47646,7 @@
     win_type: "1140201"
     difficulty_recommend: "32000,99;32000,99;40,2;40,32000;0,0"
     limit_sangvis: 4
-    event_score: 1|10,20000,20000,10000,2000,50000,0,0,16000,20000,2000,0,1:10000;2:0;3:2000;5:0;6:0;7:5000,6580001:1:10000;6580002:1:10000;6580003:1:10000,20,,2000,5000,6580024:-10000;6580025:-10000;6580026:-10000;6580027:-10000;6580028:-10000;6580029:-10000;6580030:-10000;6580031:-10000;6580032:-10000;6580006:5000;6580007:10000;6580008:15000;6580043:5000;6580044:10000;6580045:15000;6589071:50000,,8000,20000,10000,5000
+    event_score: 1|10,20000,20000,10000,2000,50000,0,0,16000,20000,2000,0,1:10000;2:0;3:2000;5:0;6:0;7:5000,6580001:1:10000;6580002:1:10000;6580003:1:10000,20,,2000,5000,6580024:-10000;6580025:-10000;6580026:-10000;6580027:-10000;6580028:-10000;6580029:-10000;6580030:-10000;6580031:-10000;6580032:-10000;6580006:5000;6580007:10000;6580008:15000;6580043:5000;6580044:10000;6580045:15000;6589071:50000,,8000,20000,20000,5000
     score_prize: 1-0|110061:1
     environment_transform_config: 1140201;1140202;1140203;1140204;1140205;1140206;1140207;1140208;1140209;1140210;1140211;1140212;1140213
   }
@@ -47679,7 +47679,7 @@
     win_type: "1140301"
     difficulty_recommend: "40000,99;40000,99;40,2;40,40000;0,0"
     limit_sangvis: 4
-    event_score: 1|10,20000,20000,10000,2000,50000,0,0,16000,20000,2000,0,1:10000;2:0;3:2000;5:0;6:0;7:5000,6580001:1:10000;6580002:1:10000;6580003:1:10000,20,,2000,5000,6580024:-10000;6580025:-10000;6580026:-10000;6580027:-10000;6580028:-10000;6580029:-10000;6580030:-10000;6580031:-10000;6580032:-10000;6580006:5000;6580007:10000;6580008:15000;6580043:5000;6580044:10000;6580045:15000;6589071:50000,,8000,20000,10000,5000
+    event_score: 1|10,20000,20000,10000,2000,50000,0,0,16000,20000,2000,0,1:10000;2:0;3:2000;5:0;6:0;7:5000,6580001:1:10000;6580002:1:10000;6580003:1:10000,20,,2000,5000,6580024:-10000;6580025:-10000;6580026:-10000;6580027:-10000;6580028:-10000;6580029:-10000;6580030:-10000;6580031:-10000;6580032:-10000;6580006:5000;6580007:10000;6580008:15000;6580043:5000;6580044:10000;6580045:15000;6589071:50000,,8000,20000,20000,5000
     score_prize: 1-0|110061:1
     environment_transform_config: 1140301;1140302;1140303;1140304;1140305;1140306;1140307;1140308;1140309;1140310;1140311;1140312;1140313
   }
@@ -51408,31 +51408,31 @@
     sub: 47
     if_emergency: -1
     endless_mode: 1
-    name: mission-10011603
-    difficulty: 25000
+    name: 从潘洛斯阶梯跃下
+    difficulty: 40000
     recommend_gun_level: 120
-    exp_parameter: 50
+    exp_parameter: 58
     type: "3"
     enemy_ai_type: 3
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 7
-    limit_team: "0,10"
-    map_res_name: OPS67_Y
+    limit_gun_pool: "267,102,318,296,119"
+    limit_team: "0,*8"
+    map_res_name: BloodNetwork_Y
     map_information: "18000,18000|15000,15000|0,0"
     fog_length: "0,500"
     fog_color: "#00000000"
     drop_mission_key: "0,0,1160300:1"
     mission_group_id: 39
     open_mission_keys: 1186800:1
-    mission_describe: mission-20011603
-    round_config: 1:1,2:2,3:3
-    difficulty_recommend: 25000;120
-    difficulty_recommend_addendum: mission-30011603
-    mission_tip: mission-40011603
+    round_config: 1:1,2:4,3:3
+    limit_squad: 4
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
     event_score: 1|10,10000,8000,5000,1000,50000,0,10000,8000,10000,1000,10000,1:9000;3:5000;7:6000,0,10,0,0,0,660041:2000;660042:2000;660043:2000;660044:2000;660045:2000;660046:2000;660047:2000;660048:2000;660049:2000;660050:2000;660051:4000;660052:4000;660053:4000;660054:4000;660055:4000;660056:4000;660057:4000;660058:4000;660059:4000;660060:4000;660061:6000;660062:6000;660063:6000;660064:6000;660065:6000;660066:6000;660067:6000;660068:6000;660069:6000;660070:6000;660080:20000,0,5000,10000,8000,1000
+    score_prize: 1-0|110075:1
     environment_transform_config: 1160301;1160302;1160303
-    guide_cdn: mission-50011603
+    limit_vehicle: 2
   }
   {
     id: 11630
@@ -53104,13 +53104,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "319"
     map_res_name: OPS301_Y;OPS62_Y
     map_information: "8000,8000|7300,4435|100,-900;8000,8000|7000,4435|-800,-2500"
     adaptive_gun: "293"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "1206"
     drop_mission_key: "0,0,1170000:1;0,0,1170000:1"
     mission_group_id: 35
     open_mission_keys: 1171300:1
@@ -53138,13 +53136,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "383"
     map_res_name: OPS18_Y
     map_information: "6000,5100|7500,6000|0,-5300"
     adaptive_gun: "205,293"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1207"
     drop_mission_key: "0,0,1170100:1"
     mission_group_id: 35
     open_mission_keys: 1171500:1
@@ -53170,13 +53166,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "266"
     map_res_name: OPS302_Y
     map_information: "8000,8000|9000,6500|500,-200"
     adaptive_gun: "205,293,206"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1209"
     drop_mission_key: "0,0,1170200:1"
     mission_group_id: 35
     open_mission_keys: 1171700:1
@@ -53202,13 +53196,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "315"
     map_res_name: OPS56_Y
     map_information: "8000,8000|8500,8500|0,0"
     adaptive_gun: "205,293,206"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1212"
     drop_mission_key: "0,0,1170300:1"
     mission_group_id: 35
     open_mission_keys: 1171900:1
@@ -53234,13 +53226,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "386"
     map_res_name: BloodNetwork_Y;BloodNetwork_Y
     map_information: "10000,10000|5000,3400|1200,-1200;10000,10000|5000,3400|-2200,-1600"
     adaptive_gun: "206"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "1214"
     drop_mission_key: "0,0,1170400:1"
     mission_group_id: 35
     open_mission_keys: 1172100:1
@@ -53266,13 +53256,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "319,383,266,315,386"
     map_res_name: OPS301_Y
     map_information: "8000,8000|6950,4435|0,300"
     adaptive_gun: "205,293,206"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1211"
     drop_mission_key: "0,0,1170500:1"
     mission_group_id: 35
     open_mission_keys: 1170000:1
@@ -53298,13 +53286,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "319"
     map_res_name: OPS301_Y;OPS62_Y
     map_information: "8000,8000|8000,5735|600,-800;8000,8000|8000,4435|-500,-2500"
     adaptive_gun: "293"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "1208"
     drop_mission_key: "0,0,1170000:1;0,0,1170000:1"
     mission_group_id: 35
     open_mission_keys: 1171300:1
@@ -53333,13 +53319,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "383"
     map_res_name: OPS18_Y
     map_information: "6000,5100|7500,6000|0,-5300"
     adaptive_gun: "205,293"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1210"
     drop_mission_key: "0,0,1170100:1"
     mission_group_id: 35
     open_mission_keys: 1171500:1
@@ -53365,13 +53349,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "266"
     map_res_name: OPS302_Y
     map_information: "9000,9000|9000,6500|600,-200"
     adaptive_gun: "205,293,206"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1213"
     drop_mission_key: "0,0,1170200:1"
     mission_group_id: 35
     open_mission_keys: 1171700:1
@@ -53397,13 +53379,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "315"
     map_res_name: OPS56_Y
     map_information: "8000,8000|8500,8500|0,0"
     adaptive_gun: "205,293,206"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1215"
     drop_mission_key: "0,0,1170300:1"
     mission_group_id: 35
     open_mission_keys: 1171900:1
@@ -53429,13 +53409,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "386"
     map_res_name: BloodNetwork_Y;BloodNetwork_Y
     map_information: "10000,10000|5000,3400|1200,-1200;10000,10000|5000,3400|-2200,-1600"
     adaptive_gun: "206"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "1215"
     drop_mission_key: "0,0,1170400:1"
     mission_group_id: 35
     open_mission_keys: 1172100:1
@@ -53461,13 +53439,11 @@
     boss_team_id: "1"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "319,383,266,315,386"
     map_res_name: OPS301_Y
     map_information: "8000,8000|6950,4435|0,500"
     adaptive_gun: "205,293,206"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1216"
     drop_mission_key: "0,0,1171100:1"
     mission_group_id: 35
     open_mission_keys: 1170000:1
@@ -54015,12 +53991,10 @@
     expect_turn: 1
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "343"
     map_res_name: BloodNetwork_Y;BloodNetwork_Y
     map_information: "8000,8000|4400,3000|-1600,1700;8000,8000|4200,3300|1100,-1200"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "1226"
     support_available: 3
     drop_mission_key: "0,0,1173400:1"
     mission_group_id: 36
@@ -54119,12 +54093,10 @@
     expect_turn: 2
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "162"
     map_res_name: OPS303_Y
     map_information: "12000,12000|6000,4400|1050,2700"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1227"
     support_available: 3
     drop_mission_key: "0,0,1173800:1"
     mission_group_id: 36
@@ -54248,12 +54220,10 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "73"
     map_res_name: BloodNetwork_Y
     map_information: "8000,8000|5500,3000|0,-370"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1229"
     support_available: 3
     drop_mission_key: "0,0,1174300:1;0,0,1174300:1"
     mission_group_id: 36
@@ -54353,12 +54323,10 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "357"
     map_res_name: BloodNetwork_Y
     map_information: "12000,12000|6200,4000|-2500,-1150"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1232"
     support_available: 3
     drop_mission_key: "0,0,1174700:1"
     mission_group_id: 36
@@ -54458,12 +54426,10 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "341"
     map_res_name: OPS304_Y
     map_information: "8000,8000|7500,4500|0,-1000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1234"
     support_available: 3
     drop_mission_key: "0,0,1175100:1"
     mission_group_id: 36
@@ -54563,12 +54529,10 @@
     expect_turn: 2
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "343"
     map_res_name: BloodNetwork_Y;BloodNetwork_Y
     map_information: "13000,13000|6200,4200|1700,-1500;13000,13000|5400,3800|1850,-1700"
     fog_length: "0,500;0,500"
     fog_color: "#000000FF;#000000FF"
-    draw_event_s_id: "1228"
     support_available: 3
     drop_mission_key: "0,0,1173400:1"
     mission_group_id: 36
@@ -54592,12 +54556,10 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "162"
     map_res_name: OPS303_Y
     map_information: "12000,12000|6600,5000|300,2300"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1230"
     support_available: 3
     drop_mission_key: "0,0,1173800:1"
     mission_group_id: 36
@@ -54621,12 +54583,10 @@
     expect_turn: 5
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "73"
     map_res_name: BloodNetwork_Y
     map_information: "8000,8000|6800,3700|300,-400"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1233"
     support_available: 3
     drop_mission_key: "0,0,1174300:1;0,0,1174300:1"
     mission_group_id: 36
@@ -54651,12 +54611,10 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "357"
     map_res_name: BloodNetwork_Y
     map_information: "12000,12000|6200,4000|-2400,-1150"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1235"
     support_available: 3
     drop_mission_key: "0,0,1174700:1"
     mission_group_id: 36
@@ -54681,12 +54639,10 @@
     expect_turn: 4
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "341"
     map_res_name: OPS304_Y
     map_information: "8000,8000|7500,4500|0,-1300"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1235"
     support_available: 3
     drop_mission_key: "0,0,1175100:1"
     mission_group_id: 36
@@ -54711,12 +54667,10 @@
     expect_turn: 2
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "343,162,73,357,341"
     map_res_name: OPS303_Y
     map_information: "12000,12000|6500,4500|500,2500"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1231"
     support_available: 3
     drop_mission_key: "0,0,1176000:1"
     mission_group_id: 36
@@ -54741,12 +54695,10 @@
     expect_turn: 2
     boss_team_id: "1"
     turn_duration: 360000000
-    limit_gun_pool: "343,162,73,357,341"
     map_res_name: OPS304_Y
     map_information: "12000,12000|7500,4500|-2500,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "1236"
     support_available: 3
     drop_mission_key: "0,0,1176100:1"
     mission_group_id: 36
@@ -56584,16 +56536,1341 @@
     limit_vehicle: -1
   }
   {
+    id: 11835
+    integration_switch: 1-1
+    campaign: -74
+    sub: 1
+    if_emergency: -1
+    special_type: 9
+    name: 1-燃烧的苦海
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1183500:1"
+    mission_group_id: 39
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11836
+    campaign: -74
+    sub: 2
+    if_emergency: -1
+    name: 2-从天而降
+    difficulty: 3500
+    recommend_gun_level: 35
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS313_Y
+    map_information: "12000,12000|4500,4000|4000,-4200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1306"
+    drop_mission_key: "0,0,1183600:1"
+    mission_group_id: 39
+    open_mission_keys: 1183500:1
+    round_config: 1:22,2:22,3:3
+    limit_squad: -1
+    win_type: "9740102"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+    lose_type: "9740103"
+  }
+  {
+    id: 11837
+    integration_switch: 1-1
+    campaign: -74
+    sub: 3
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅰ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1183700:1"
+    mission_group_id: 39
+    open_mission_keys: 1183500:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11838
+    integration_switch: 1-1
+    campaign: -74
+    sub: 4
+    if_emergency: -1
+    special_type: 9
+    name: 3-如焚风呼啸
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1183800:1"
+    mission_group_id: 39
+    open_mission_keys: 1183600:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11839
+    integration_switch: 1-1
+    campaign: -74
+    sub: 5
+    if_emergency: -1
+    special_type: 9
+    name: 4-寂静的褶皱
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1183900:1"
+    mission_group_id: 39
+    open_mission_keys: 1183800:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11840
+    integration_switch: 1-1
+    campaign: -74
+    sub: 6
+    if_emergency: -1
+    special_type: 9
+    name: 5-徒然之路
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184000:1"
+    mission_group_id: 39
+    open_mission_keys: 1183900:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11841
+    integration_switch: 1-1
+    campaign: -74
+    sub: 7
+    if_emergency: -1
+    name: 6-一场蓄谋已久的死亡
+    difficulty: 3500
+    recommend_gun_level: 35
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "267"
+    map_res_name: BloodNetwork_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1291"
+    drop_mission_key: "0,0,1184100:1"
+    mission_group_id: 39
+    open_mission_keys: 1184000:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74001
+    win_type: "9740701"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11842
+    integration_switch: 1-1
+    campaign: -74
+    sub: 8
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅱ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184200:1"
+    mission_group_id: 39
+    open_mission_keys: 1184000:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11843
+    integration_switch: 1-1
+    campaign: -74
+    sub: 9
+    if_emergency: -1
+    special_type: 9
+    name: 7-溃败的悲伤骑士
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184300:1"
+    mission_group_id: 39
+    open_mission_keys: 1184100:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11844
+    integration_switch: 1-1
+    campaign: -74
+    sub: 10
+    if_emergency: -1
+    special_type: 9
+    name: 8-不会停歇的雨
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184400:1"
+    mission_group_id: 39
+    open_mission_keys: 1184300:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11845
+    campaign: -74
+    sub: 11
+    if_emergency: -1
+    name: 9-黑暗中的对话
+    difficulty: 3500
+    recommend_gun_level: 35
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS303_Y
+    map_information: "12000,12200|5000,4500|-4200,-1500"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1306"
+    drop_mission_key: "0,0,1184500:1"
+    mission_group_id: 39
+    open_mission_keys: 1184400:1
+    force_type: "2"
+    round_config: 1:22,2:22,3:22
+    limit_squad: -1
+    win_type: "9740101"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11846
+    integration_switch: 1-1
+    campaign: -74
+    sub: 12
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅲ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184600:1"
+    mission_group_id: 39
+    open_mission_keys: 1184400:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11847
+    integration_switch: 1-1
+    campaign: -74
+    sub: 13
+    if_emergency: -1
+    special_type: 9
+    name: 10-为你举起火把
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184700:1"
+    mission_group_id: 39
+    open_mission_keys: 1184500:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11848
+    integration_switch: 1-1
+    campaign: -74
+    sub: 14
+    if_emergency: -1
+    name: 11-目眩的白
+    difficulty: 5000
+    recommend_gun_level: 50
+    exp_parameter: 32
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "102"
+    map_res_name: OPS310_Y
+    map_information: "16000,16000|10000,8000|3500,-3000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1292"
+    drop_mission_key: "0,0,1184800:1;0,0,1184800:1"
+    mission_group_id: 39
+    open_mission_keys: 1184700:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74002
+    win_type: "9741401,9741402|9741405"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11849
+    integration_switch: 1-1
+    campaign: -74
+    sub: 15
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅳ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1184900:1"
+    mission_group_id: 39
+    open_mission_keys: 1184700:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11850
+    integration_switch: 1-1
+    campaign: -74
+    sub: 16
+    if_emergency: -1
+    special_type: 9
+    name: 12-被遗忘的誓言
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185000:1"
+    mission_group_id: 39
+    open_mission_keys: 1184800:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11851
+    integration_switch: 1-1
+    campaign: -74
+    sub: 17
+    if_emergency: -1
+    special_type: 9
+    name: 13-通向新世界
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185100:1"
+    mission_group_id: 39
+    open_mission_keys: 1185000:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11852
+    integration_switch: 1-1
+    campaign: -74
+    sub: 18
+    if_emergency: -1
+    special_type: 9
+    name: 14-长夜搅动着荒芜
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185200:1"
+    mission_group_id: 39
+    open_mission_keys: 1185100:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11853
+    integration_switch: 1-1
+    campaign: -74
+    sub: 19
+    if_emergency: -1
+    name: 15-断裂再接
+    difficulty: 7000
+    recommend_gun_level: 65
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "318"
+    map_res_name: OPS312_Y
+    map_information: "16000,16000|8000,7000|0,-600"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1294"
+    drop_mission_key: "0,0,1185300:1"
+    mission_group_id: 39
+    open_mission_keys: 1185200:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74003
+    win_type: "9741901"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11854
+    integration_switch: 1-1
+    campaign: -74
+    sub: 20
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅴ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185400:1"
+    mission_group_id: 39
+    open_mission_keys: 1185200:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11855
+    integration_switch: 1-1
+    campaign: -74
+    sub: 21
+    if_emergency: -1
+    special_type: 9
+    name: 16-洞穿时光之墙
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185500:1"
+    mission_group_id: 39
+    open_mission_keys: 1185300:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11856
+    integration_switch: 1-1
+    campaign: -74
+    sub: 22
+    if_emergency: -1
+    special_type: 9
+    name: 17-岸边的沙与海水
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185600:1"
+    mission_group_id: 39
+    open_mission_keys: 1185500:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11857
+    integration_switch: 1-1
+    campaign: -74
+    sub: 23
+    if_emergency: -1
+    special_type: 9
+    name: 18-一个勇敢的人
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185700:1"
+    mission_group_id: 39
+    open_mission_keys: 1185600:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11858
+    integration_switch: 1-1
+    campaign: -74
+    sub: 24
+    if_emergency: -1
+    name: 19-光的破碎
+    difficulty: 12000
+    recommend_gun_level: 81
+    exp_parameter: 42
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "296"
+    map_res_name: OPS311_Y
+    map_information: "16000,16000|7000,4500|500,200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1296"
+    drop_mission_key: "0,0,1185800:1"
+    mission_group_id: 39
+    open_mission_keys: 1185700:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74004
+    win_type: "9742401"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11859
+    integration_switch: 1-1
+    campaign: -74
+    sub: 25
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅵ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1185900:1"
+    mission_group_id: 39
+    open_mission_keys: 1185700:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11860
+    integration_switch: 1-1
+    campaign: -74
+    sub: 26
+    if_emergency: -1
+    special_type: 9
+    name: 20-啃噬树根的恶龙
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186000:1"
+    mission_group_id: 39
+    open_mission_keys: 1185800:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11861
+    integration_switch: 1-1
+    campaign: -74
+    sub: 27
+    if_emergency: -1
+    special_type: 9
+    name: 21-字句之外世界冰冷
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186100:1"
+    mission_group_id: 39
+    open_mission_keys: 1186000:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11862
+    integration_switch: 1-1
+    campaign: -74
+    sub: 28
+    if_emergency: -1
+    special_type: 9
+    name: 22-红色的穿透
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186200:1"
+    mission_group_id: 39
+    open_mission_keys: 1186100:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11863
+    integration_switch: 1-1
+    campaign: -74
+    sub: 29
+    if_emergency: -1
+    name: 23-乐土坍塌
+    difficulty: 14000
+    recommend_gun_level: 87
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "119"
+    map_res_name: OPS305_Y
+    map_information: "8000,8000|7000,5500|-1500,300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1299"
+    drop_mission_key: "0,0,1186300:1"
+    mission_group_id: 39
+    open_mission_keys: 1186200:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74005
+    win_type: "3"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11864
+    integration_switch: 1-1
+    campaign: -74
+    sub: 30
+    if_emergency: -1
+    special_type: 9
+    name: 你一生的故事Ⅶ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186400:1"
+    mission_group_id: 39
+    open_mission_keys: 1186200:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11865
+    integration_switch: 1-1
+    campaign: -74
+    sub: 31
+    if_emergency: -1
+    special_type: 9
+    name: 24-孤独灵魂的祷告
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186500:1"
+    mission_group_id: 39
+    open_mission_keys: 1186300:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11866
+    integration_switch: 1-1
+    campaign: -74
+    sub: 32
+    if_emergency: -1
+    special_type: 9
+    name: 25-在荒凉世界燃烧的火
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186600:1"
+    mission_group_id: 39
+    open_mission_keys: 1186500:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11867
+    integration_switch: 1-1
+    campaign: -74
+    sub: 33
+    if_emergency: -1
+    special_type: 9
+    name: 26-最后的落子
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186700:1"
+    mission_group_id: 39
+    open_mission_keys: 1186600:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11868
+    integration_switch: 1-1
+    campaign: -74
+    sub: 34
+    if_emergency: -1
+    special_type: 9
+    name: 27-捍卫之歌
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1186800:1"
+    mission_group_id: 39
+    open_mission_keys: 1186700:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: -1
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11869
+    integration_switch: 1-1
+    campaign: -74
+    sub: 35
+    if_emergency: -1
+    name: 莫比乌斯带上的逃亡
+    difficulty: 10000
+    recommend_gun_level: 75
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 3
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "267,102,318,296,119"
+    map_res_name: OPS310_Y
+    map_information: "8000,8000|7000,5500|0,600"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1301"
+    drop_mission_key: "0,0,1186900:1"
+    mission_group_id: 39
+    open_mission_keys: 1183600:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74006
+    win_type: "9740101"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11870
+    integration_switch: 1-1
+    campaign: -74
+    sub: 36
+    if_emergency: -1
+    name: 6-一场蓄谋已久的死亡
+    difficulty: 14000
+    recommend_gun_level: 87
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "267"
+    map_res_name: BloodNetwork_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1293"
+    drop_mission_key: "0,0,1187000:1|1184100:1"
+    mission_group_id: 39
+    open_mission_keys: 1184000:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74001
+    win_type: "9743601"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+    lose_type: "9740702"
+  }
+  {
+    id: 11871
+    integration_switch: 1-1
+    campaign: -74
+    sub: 37
+    if_emergency: -1
+    name: 11-目眩的白
+    difficulty: 20000
+    recommend_gun_level: 100
+    exp_parameter: 48
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "102"
+    map_res_name: OPS310_Y
+    map_information: "16000,16000|10000,8000|3500,-3000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1295"
+    drop_mission_key: "0,0,1187100:1|1184800:1;0,0,1187100:1|1184800:1"
+    mission_group_id: 39
+    open_mission_keys: 1184700:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74002
+    win_type: "9741401,9741403|9741405"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11872
+    integration_switch: 1-1
+    campaign: -74
+    sub: 38
+    if_emergency: -1
+    name: 15-断裂再接
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "318"
+    map_res_name: OPS312_Y
+    map_information: "16000,16000|8000,7000|0,-600"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1297"
+    drop_mission_key: "0,0,1187200:1|1185300:1"
+    mission_group_id: 39
+    open_mission_keys: 1185200:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74003
+    win_type: "9743801"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11873
+    integration_switch: 1-1
+    campaign: -74
+    sub: 39
+    if_emergency: -1
+    name: 19-光的破碎
+    difficulty: 30000
+    recommend_gun_level: 120
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "296"
+    map_res_name: OPS311_Y
+    map_information: "16000,16000|7000,4500|500,200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1300"
+    drop_mission_key: "0,0,1187300:1|1185800:1"
+    mission_group_id: 39
+    open_mission_keys: 1185700:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74004
+    win_type: "9743901"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11874
+    integration_switch: 1-1
+    campaign: -74
+    sub: 40
+    if_emergency: -1
+    name: 23-乐土坍塌
+    difficulty: 34000
+    recommend_gun_level: 120
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "119"
+    map_res_name: OPS305_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1303"
+    drop_mission_key: "0,0,1187400:1|1186300:1"
+    mission_group_id: 39
+    open_mission_keys: 1186200:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74005
+    win_type: "3"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11875
+    integration_switch: 1-1
+    campaign: -74
+    sub: 41
+    if_emergency: -1
+    name: 6-一场蓄谋已久的死亡
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "267"
+    map_res_name: BloodNetwork_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1295"
+    drop_mission_key: "0,0,1187500:1|1184100:1"
+    mission_group_id: 39
+    open_mission_keys: 1184000:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74001
+    win_type: "9744101"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+    lose_type: "9740702"
+  }
+  {
+    id: 11876
+    integration_switch: 1-1
+    campaign: -74
+    sub: 42
+    if_emergency: -1
+    name: 11-目眩的白
+    difficulty: 30000
+    recommend_gun_level: 120
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "102"
+    map_res_name: OPS310_Y
+    map_information: "16000,16000|10000,8000|3500,-3000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1298"
+    drop_mission_key: "0,0,1187600:1|1184800:1;0,0,1187600:1|1184800:1"
+    mission_group_id: 39
+    open_mission_keys: 1184700:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74002
+    win_type: "9741401,9741404|9741405"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11877
+    integration_switch: 1-1
+    campaign: -74
+    sub: 43
+    if_emergency: -1
+    name: 15-断裂再接
+    difficulty: 34000
+    recommend_gun_level: 120
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "318"
+    map_res_name: OPS312_Y
+    map_information: "16000,16000|8000,7000|0,-600"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1300"
+    drop_mission_key: "0,0,1187700:1|1185300:1"
+    mission_group_id: 39
+    open_mission_keys: 1185200:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74003
+    win_type: "9743801"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11878
+    integration_switch: 1-1
+    campaign: -74
+    sub: 44
+    if_emergency: -1
+    name: 19-光的破碎
+    difficulty: 38000
+    recommend_gun_level: 120
+    exp_parameter: 57
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "296"
+    map_res_name: OPS311_Y
+    map_information: "16000,16000|7000,4500|500,200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1303"
+    drop_mission_key: "0,0,1187800:1|1185800:1"
+    mission_group_id: 39
+    open_mission_keys: 1185700:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74004
+    win_type: "9744401"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11879
+    integration_switch: 1-1
+    campaign: -74
+    sub: 45
+    if_emergency: -1
+    name: 23-乐土坍塌
+    difficulty: 40000
+    recommend_gun_level: 120
+    exp_parameter: 58
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "119"
+    map_res_name: OPS305_Y
+    map_information: "8000,8000|7000,5500|-1500,300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1304"
+    drop_mission_key: "0,0,1187900:1|1186300:1"
+    mission_group_id: 39
+    open_mission_keys: 1186200:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74005
+    win_type: "3"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
+    id: 11880
+    integration_switch: 1-1
+    campaign: -74
+    sub: 46
+    if_emergency: -1
+    name: 莫比乌斯带上的逃亡EX
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 3
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "267,102,318,296,119"
+    map_res_name: OPS311_Y
+    map_information: "12000,12000|6000,4000|-3000,800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1305"
+    drop_mission_key: "0,0,1188000:1"
+    mission_group_id: 39
+    open_mission_keys: 1183600:1
+    round_config: 1:1,2:4,3:3
+    mapped_mission_id: 74006
+    win_type: "9740101"
+    difficulty_recommend: "1000,15;1000,15;0,0;0,0"
+  }
+  {
     id: 11881
     integration_switch: 1-1;4-40:80:160
     campaign: -52
     sub: 21
     if_emergency: -1
     special_type: 9
-    name: mission-10011881
+    name: 纯真笔尖
     difficulty: 1000
     recommend_gun_level: 15
-    exp_parameter: 10
+    exp_parameter: 21
     type: "3"
     enemy_ai_type: 4
     expect_turn: 9
@@ -56606,12 +57883,8 @@
     drop_mission_key: "0,0,1188100:1"
     mission_group_id: 24
     open_mission_keys: 1111200:1
-    mission_describe: mission-20011881
     round_config: 1:1,2:2,3:3
     difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
-    difficulty_recommend_addendum: mission-30011881
-    mission_tip: mission-40011881
-    guide_cdn: mission-50011881
   }
   {
     id: 11882
@@ -56620,10 +57893,10 @@
     sub: 22
     if_emergency: -1
     special_type: 9
-    name: mission-10011882
+    name: 美梦捕网
     difficulty: 1000
     recommend_gun_level: 15
-    exp_parameter: 10
+    exp_parameter: 21
     type: "3"
     enemy_ai_type: 4
     expect_turn: 9
@@ -56636,12 +57909,8 @@
     drop_mission_key: "0,0,1188200:1"
     mission_group_id: 24
     open_mission_keys: 1111200:1
-    mission_describe: mission-20011882
     round_config: 1:1,2:2,3:3
     difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
-    difficulty_recommend_addendum: mission-30011882
-    mission_tip: mission-40011882
-    guide_cdn: mission-50011882
   }
   {
     id: 90001

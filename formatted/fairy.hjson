@@ -1211,7 +1211,42 @@
     picture_offset: "-100,-100,0"
     picture_scale: "0.864,0.864,0.864"
     org_id: 10502
-    obtain_ids: "517"
+    obtain_ids: "517,0"
+    mod_exp: 10
+  }
+  {
+    id: 36
+    name: 治愈妖精
+    code: heal
+    description: “愿圣歌的光芒，可以抚平你的创伤♪……”
+    introduce: 拥有吟诵圣歌治愈伤痛的能力，平日可用于心理疗愈或充当氛围型BGM。
+    type: 6
+    pow: 170
+    dodge: 158
+    armor: 120
+    critical_harm_rate: 125
+    grow: 135
+    proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
+    skill_id: *24
+    quality_exp: 100
+    quality_need_number: 1:0,2:100,3:200,4:350,5:550
+    category: 2
+    develop_duration: 18600
+    retiremp: 4
+    retireammo: 1
+    retiremre: 5
+    retirepart: 1
+    powerup_mp: 10
+    powerup_ammo: 3
+    powerup_mre: 14
+    powerup_part: 3
+    ai: 3000
+    avatar_offset: "0,20,0"
+    avatar_scale: "0.6,0.6,0.6"
+    picture_offset: "-100,-100,0"
+    picture_scale: "0.864,0.864,0.864"
+    org_id: 10502
+    obtain_ids: "518"
     mod_exp: 10
   }
   {

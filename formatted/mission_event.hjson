@@ -346,22 +346,16 @@
   }
   {
     id: 54
-    type: 1
+    type: 2
     mission_campaign: "-70"
     event_name: 零电荷
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-07-12 10:00:00
-    end_time: 2024-08-08 10:00:00
     init_mission_id: "11712"
   }
   {
     id: 55
-    type: 1
+    type: 2
     mission_campaign: "-71"
     event_name: 银染显影
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-07-12 10:00:00
-    end_time: 2024-09-05 10:00:00
     init_mission_id: "11730"
   }
   {
@@ -406,5 +400,16 @@
     mission_campaign: "-40403"
     event_name: 自画像
     init_mission_id: "11402,11403"
+  }
+  {
+    id: 61
+    type: 1
+    mission_campaign: "-74"
+    event_name: 卷积核
+    draw_event_id: "400,401,402,403,404"
+    start_time: 2024-12-12 10:00:00
+    end_time: 2024-12-31 10:00:00
+    init_mission_id: "11835"
+    token_item_id: "100250"
   }
 ]

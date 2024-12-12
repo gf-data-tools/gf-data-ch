@@ -40583,7 +40583,7 @@
     hurt_id: "521"
     is_form_play: 1
     scale: "1"
-    trigger_creation_id: "3746"
+    trigger_creation_id: "374601"
     trigger_creation_delay: "-1"
     sound_order: BT_Shot_1
   }
@@ -51630,17 +51630,19 @@
   {
     id: 3746
     name: 防卫者套装结算范围
-    start_type: "6"
-    destination_type: "6"
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
     is_form_offset: 1
     exist_duration: "30"
     effect_type: 2
     effect_area: 1
-    effect_param_1: "2.5"
+    effect_param_1: *101
     hurt_id: "726"
     is_form_play: 1
     creation_type: 2
     scale: "1"
+    sound_order: BT_grenade_explode
   }
   {
     id: 4000
@@ -54107,6 +54109,118 @@
     hurt_id: "720"
     is_form_play: 1
     scale: "0.35,0.35,1"
+  }
+  {
+    id: 4290
+    name: MP41改造烟雾弹面片
+    code: 烟雾弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    exist_duration: *102
+    effect_area: 1
+    hurt_id: "423"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "111,117,36,4291"
+    trigger_creation_delay: "-1,-1,-1,-1"
+  }
+  {
+    id: 4291
+    name: MP41烟雾弹结算范围3
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    buff_id: 5341:1000009564,5342:1000009570,5343:1000009571,5344:1000009572
+    buff_cd: "30,30,30,30"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "4293"
+    trigger_creation_delay: "30"
+  }
+  {
+    id: 4292
+    name: MP41弱点特效
+    code: AQLD_debuff03
+    start_type: hip
+    start_offset: "0,0,-0.8"
+    destination_type: hip
+    destination_offset: "0,0,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 4293
+    name: MP41烟雾弹结算范围3
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    buff_id: 5341:1000009564,5342:1000009570,5343:1000009571,5344:1000009572
+    buff_cd: "30,30,30,30"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "4294"
+    trigger_creation_delay: "30"
+  }
+  {
+    id: 4294
+    name: MP41烟雾弹结算范围3
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    buff_id: 5341:1000009564,5342:1000009570,5343:1000009571,5344:1000009572
+    buff_cd: "30,30,30,30"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "4295"
+    trigger_creation_delay: "30"
+  }
+  {
+    id: 4295
+    name: MP41烟雾弹结算范围3
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *101
+    buff_id: 5341:1000009564,5342:1000009570,5343:1000009571,5344:1000009572
+    buff_cd: "0,0,0,0"
+    is_form_play: 1
+    scale: "1"
   }
   {
     id: 5010
@@ -64311,6 +64425,225 @@
     sound_order: BT_pistol
   }
   {
+    id: 7170
+    name: 斯提克斯普攻
+    start_type: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    scale: "1"
+  }
+  {
+    id: 7171
+    name: 斯提克斯普攻受击
+    code: STKS_fx_sj
+    start_type: "5"
+    destination_type: "5"
+    exist_duration: "30"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 7172
+    name: 斯提克斯麻痹毒素
+    code: STKS_fx_cr
+    start_type: "2"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "300"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 7173
+    name: 斯提克斯附加普攻
+    start_type: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1517"
+    scale: "1"
+  }
+  {
+    id: 7174
+    name: 斯提克斯麻痹毒素爆发
+    code: STKS_fx_bf
+    start_type: "2"
+    start_offset: "4,0,0"
+    destination_type: "2"
+    destination_offset: "4,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 7175
+    name: 斯提克斯飞弹预警
+    code: M16_Normal/M16_N_Alert
+    start_type: "6"
+    start_offset: "-0.8,0,0.4"
+    destination_type: "6"
+    destination_offset: "-0.8,0,0.4"
+    exist_duration: "75"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7176"
+    trigger_creation_delay: "75"
+  }
+  {
+    id: 7176
+    name: 斯提克斯飞弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "2"
+    hurt_id: "2"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7177
+    name: 斯提克斯直线伤害
+    start_type: "6"
+    start_offset: "-0.8,0,0.4"
+    destination_type: "6"
+    destination_offset: "-0.8,0,0.4"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "4"
+    hurt_id: "1518"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 7178
+    name: 斯提克斯蓄电场预警
+    code: 爆炸范围
+    start_type: "6"
+    start_offset: "-0.8,0,0.4"
+    destination_type: "6"
+    destination_offset: "-0.8,0,0.4"
+    is_tracing: 1
+    rotate: "90,0,0"
+    exist_duration: "75"
+    effect_type: 2
+    effect_area: 3
+    effect_param_1: "13"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7179,7180"
+    trigger_creation_delay: "75,75"
+  }
+  {
+    id: 7179
+    name: 斯提克斯蓄电池_底
+    code: STKS_fx_dian
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "120"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "1519"
+    hurt_cd: "15"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7180
+    name: 斯提克斯蓄电池_头
+    code: STKS_fx_dian02
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "120"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7181
+    name: 斯提克斯雷暴Ⅰ
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "118"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "8"
+    effect_param_2: "99"
+    hurt_id: "1520"
+    hurt_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7182
+    name: 斯提克斯雷暴Ⅱ
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "118"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "12"
+    effect_param_2: "99"
+    hurt_id: "1520"
+    hurt_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7183
+    name: 斯提克斯雷暴Ⅲ
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "118"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "16"
+    effect_param_2: "99"
+    hurt_id: "1520"
+    hurt_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7184
+    name: 斯提克斯雷暴Ⅳ
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "118"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "99"
+    hurt_id: "1520"
+    hurt_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
     id: 7501
     name: 英雄妖精全体伤害
     start_type: "8"
@@ -64341,6 +64674,61 @@
     effect_area: 1
     creation_type: 2
     scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 7503
+    name: 治愈妖精音符1
+    code: arai/arai_onfuku
+    start_type: "8"
+    start_offset: "-3.9,0,-1.2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.2"
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 7504
+    name: 治愈妖精音符2
+    code: arai/arai_onfuku
+    start_type: "8"
+    start_offset: "-3.9,0,-1.2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.2"
+    rotate: "0,0,-30"
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 7505
+    name: 治愈妖精音符3
+    code: arai/arai_onfuku
+    start_type: "8"
+    start_offset: "-3.9,0,-1.2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.2"
+    rotate: "0,0,30"
+    exist_duration: "60"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 7506
+    name: 安抚型
+    code: ZY_shengguang
+    start_type: "8"
+    start_offset: "0,5,0"
+    destination_type: "8"
+    destination_offset: "0,5,0"
+    is_tracing: 1
+    exist_duration: "999"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.3,1.3,1.3"
   }
   {
     id: 8001
@@ -100848,7 +101236,7 @@
     hurt_id: "52101"
     is_form_play: 1
     scale: "1"
-    trigger_creation_id: "3746"
+    trigger_creation_id: "374601"
     trigger_creation_delay: "-1"
     sound_order: BT_Shot_1
   }
@@ -104573,6 +104961,21 @@
     effect_param_1: "4"
     buff_id: 9555:1
     is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 374601
+    name: 防卫者套装结算范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "726"
+    is_form_play: 1
+    creation_type: 2
     scale: "1"
   }
   {
@@ -115974,6 +116377,342 @@
     exist_duration: "180"
     effect_area: 1
     scale: "1.5,1.5,1.5"
+  }
+  {
+    id: 718101
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-4,0,12"
+    destination_type: "3"
+    destination_offset: "-4,0,12"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718102
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-2,0,11"
+    destination_type: "3"
+    destination_offset: "-2,0,11"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718103
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-4,0,9"
+    destination_type: "3"
+    destination_offset: "-4,0,9"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718104
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-2,0,8"
+    destination_type: "3"
+    destination_offset: "-2,0,8"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718105
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-4,0,5"
+    destination_type: "3"
+    destination_offset: "-4,0,5"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718106
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-2,0,4"
+    destination_type: "3"
+    destination_offset: "-2,0,4"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718201
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-7,0,12"
+    destination_type: "3"
+    destination_offset: "-7,0,12"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718202
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-5,0,11"
+    destination_type: "3"
+    destination_offset: "-5,0,11"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718203
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-7,0,9"
+    destination_type: "3"
+    destination_offset: "-7,0,9"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718204
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-5,0,8"
+    destination_type: "3"
+    destination_offset: "-5,0,8"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718205
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-7,0,5"
+    destination_type: "3"
+    destination_offset: "-7,0,5"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718206
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-5,0,4"
+    destination_type: "3"
+    destination_offset: "-5,0,4"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718301
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-10,0,12"
+    destination_type: "3"
+    destination_offset: "-10,0,12"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718302
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-8,0,11"
+    destination_type: "3"
+    destination_offset: "-8,0,11"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718303
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-10,0,9"
+    destination_type: "3"
+    destination_offset: "-10,0,9"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718304
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-8,0,8"
+    destination_type: "3"
+    destination_offset: "-8,0,8"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718305
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-10,0,5"
+    destination_type: "3"
+    destination_offset: "-10,0,5"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718306
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-8,0,4"
+    destination_type: "3"
+    destination_offset: "-8,0,4"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718401
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-13,0,12"
+    destination_type: "3"
+    destination_offset: "-13,0,12"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718402
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-11,0,11"
+    destination_type: "3"
+    destination_offset: "-11,0,11"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718403
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-13,0,9"
+    destination_type: "3"
+    destination_offset: "-13,0,9"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718404
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-11,0,8"
+    destination_type: "3"
+    destination_offset: "-11,0,8"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718405
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-13,0,5"
+    destination_type: "3"
+    destination_offset: "-13,0,5"
+    random_number: "3"
+    random_offset: "-0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 718406
+    name: 斯提克斯雷暴Ⅰ演出
+    code: zhld/ZH_yy_lightning
+    start_type: "3"
+    start_offset: "-11,0,4"
+    destination_type: "3"
+    destination_offset: "-11,0,4"
+    random_number: "3"
+    random_offset: "0.5,0,0;0,0,-0.5;0,0,1"
+    exist_duration: "30"
+    creation_type: 2
+    scale: "1"
   }
   {
     id: 777010
