@@ -35146,6 +35146,234 @@
     is_hurt: 1
   }
   {
+    id: 1110101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: live2d_motions-11110101
+  }
+  {
+    id: 1110102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: live2d_motions-11110102
+    camera: 1
+  }
+  {
+    id: 1110103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: live2d_motions-11110103
+    camera: 1
+  }
+  {
+    id: 1110104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Erma|DIALOGUE2
+    text: GUN|Erma|DIALOGUE2
+    name: live2d_motions-11110104
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1110105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Erma|HELLO
+    text: GUN|Erma|HELLO
+    name: live2d_motions-11110105
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 1110106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Erma|BREAK
+    text: GUN|Erma|BREAK
+    name: live2d_motions-11110106
+    camera: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1110107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Erma|OPERATIONBEGIN
+    text: GUN|Erma|OPERATIONBEGIN
+    name: live2d_motions-11110107
+    camera: 1
+    voice_code: OPERATIONBEGIN
+  }
+  {
+    id: 1110108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|Erma|OPERATIONOVER
+    text: GUN|Erma|OPERATIONOVER
+    name: live2d_motions-11110108
+    camera: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1110109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Erma|DIALOGUEWEDDING
+    text: GUN|Erma|DIALOGUEWEDDING
+    name: live2d_motions-11110109
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1110110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|Erma|CHRISTMAS
+    text: GUN|Erma|CHRISTMAS
+    name: live2d_motions-11110110
+    camera: 1
+    voice_code: CHRISTMAS
+  }
+  {
+    id: 1110111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    name: live2d_motions-11110111
+    camera: 1
+  }
+  {
+    id: 1110112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|Erma|SOULCONTRACT
+    text: GUN|Erma|SOULCONTRACT
+    name: live2d_motions-11110112
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1110113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: live2d_motions-11110113
+    is_hurt: 1
+  }
+  {
+    id: 1110114
+    type: 402
+    motion_name: broken_1.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|Erma|CHRISTMAS
+    text: GUN|Erma|CHRISTMAS
+    name: live2d_motions-11110114
+    camera: 1
+    is_hurt: 1
+    voice_code: CHRISTMAS
+  }
+  {
+    id: 1110115
+    type: 402
+    motion_name: broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Erma|BREAK
+    text: GUN|Erma|BREAK
+    name: live2d_motions-11110115
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1110116
+    type: 402
+    motion_name: broken_3.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|Erma|PHRASE
+    text: GUN|Erma|PHRASE
+    name: live2d_motions-11110116
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: PHRASE
+  }
+  {
+    id: 1110117
+    type: 402
+    motion_name: broken_4.mtn
+    touch_area: mlb
+    probability: 1
+    voice: GUN|Erma|MEET
+    text: GUN|Erma|MEET
+    name: live2d_motions-11110117
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: MEET
+  }
+  {
+    id: 1110118
+    type: 402
+    motion_name: broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|Erma|LOWMOOD
+    text: GUN|Erma|LOWMOOD
+    name: live2d_motions-11110118
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: LOWMOOD
+  }
+  {
+    id: 1110119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|Erma|HELLO
+    text: GUN|Erma|HELLO
+    name: live2d_motions-11110119
+    camera: 1
+    is_hurt: 1
+    delay: 1000
+    voice_code: HELLO
+  }
+  {
+    id: 1110120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|Erma|AGREE
+    text: GUN|Erma|AGREE
+    name: live2d_motions-11110120
+    camera: 1
+    is_hurt: 1
+    voice_code: AGREE
+  }
+  {
     id: 5000101
     type: 101
     motion_name: daiji_idle_01.mtn

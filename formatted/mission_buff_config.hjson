@@ -5161,8 +5161,7 @@
   }
   {
     id: 660051
-    name: mission_buff_config-10660051
-    description: mission_buff_config-20660051
+    name: 跃迁标记
     type: 1
     duration_type: "1"
     duration_time: "999"
@@ -5193,6 +5192,7 @@
     manual_ui_code: 24rabbitcount
     conflict_type: 660091
     priority: -1
+    is_still_alive: 1
   }
   {
     id: 660092
@@ -5204,6 +5204,7 @@
     manual_ui_code: 24rabbitcount
     conflict_type: 660092
     priority: -1
+    is_still_alive: 1
   }
   {
     id: 660093
@@ -5215,6 +5216,7 @@
     manual_ui_code: 24rabbitcount
     conflict_type: 660093
     priority: -1
+    is_still_alive: 1
   }
   {
     id: 669900
@@ -9574,6 +9576,157 @@
     conflict_type: 9741911
     priority: 1
     carry_mission_skill: "9741904,9741907"
+  }
+  {
+    id: 9742901
+    description:
+      '''
+      持续尝试骇入我方单位中。
+      ※若未能及时消灭该敌方单位将会导致我方部分支援单位离线并失去战力
+      '''
+    code: medusa
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 9742901
+    priority: 1
+  }
+  {
+    id: 9742902
+    description: 为阻击布拉梅德而临时组建的小队，对布拉梅德作战时将获得加成。
+    code: Rouge_590001
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 330008
+    conflict_type: 9742902
+    priority: 1
+  }
+  {
+    id: 9742903
+    description:
+      '''
+      持续抵御骇入中。
+      ※Buff持续期间免疫骇入影响，失去Buff加持后被骇入将进入离线状态
+      '''
+    code: Sei
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 9742906
+    conditions_type: "1"
+    conditions_time: 0-2
+    conflict_type: 9742906
+    priority: 1
+  }
+  {
+    id: 9742904
+    description:
+      '''
+      持续抵御骇入中。
+      ※Buff持续期间免疫骇入影响，失去Buff加持后被骇入将进入离线状态
+      '''
+    code: Sei
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    special_spot_config_id: 9742906
+    conditions_type: "1"
+    conditions_time: 0-3
+    conflict_type: 9742906
+    priority: 1
+  }
+  {
+    id: 9742905
+    description:
+      '''
+      持续抵御骇入中。
+      ※Buff持续期间免疫骇入影响，失去Buff加持后被骇入将进入离线状态
+      '''
+    code: Sei
+    type: 1
+    duration_type: "1"
+    duration_time: "5"
+    exp_buff: "1"
+    special_spot_config_id: 9742906
+    conditions_type: "1"
+    conditions_time: 0-5
+    conflict_type: 9742906
+    priority: 1
+  }
+  {
+    id: 9742906
+    description:
+      '''
+      已被骇入并处于离线状态中，无法执行命令。
+      ※可进行梯队换位操作
+      '''
+    code: seawave
+    type: 2
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 900112
+    conflict_type: 9742906
+    priority: 1
+    ext_ap_cost: 9999
+  }
+  {
+    id: 9742907
+    description: 受协议影响，系统将会进入休眠状态。
+    code: summonerduration
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    conflict_type: 9742907
+    priority: 1
+  }
+  {
+    id: 9742908
+    description: 受协议影响，系统将会进入休眠状态。
+    code: summonerduration
+    type: 1
+    duration_type: "1"
+    duration_time: "4"
+    exp_buff: "1"
+    conflict_type: 9742908
+    priority: 1
+  }
+  {
+    id: 9742909
+    description: 受协议影响，系统将会进入休眠状态。
+    code: summonerduration
+    type: 1
+    duration_type: "1"
+    duration_time: "5"
+    exp_buff: "1"
+    conflict_type: 9742909
+    priority: 1
+  }
+  {
+    id: 9742910
+    name: 【标记】顶掉免费AP BUFF①
+    type: 2
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 20301
+    priority: 1
+  }
+  {
+    id: 9742911
+    name: 【标记】顶掉免费AP BUFF②
+    type: 2
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 20302
+    priority: 1
   }
   {
     id: 10000021

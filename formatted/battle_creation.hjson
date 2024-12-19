@@ -51645,6 +51645,68 @@
     sound_order: BT_grenade_explode
   }
   {
+    id: 3747
+    name: Erma圣诞皮肤子弹1
+    code: Erma_zidan01
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 3748
+    name: Erma圣诞皮肤子弹2
+    code: Erma_zidan02
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 3749
+    name: Erma圣诞皮肤子弹3
+    code: Erma_zidan03
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 3750
+    name: Erma圣诞皮肤子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_uzi,BT_uzi,BT_uzi,BT_uzi
+    sound_delay: "0,2,4,6"
+    is_orb_effect: 1
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -64642,6 +64704,66 @@
     hurt_cd: "30"
     is_form_play: 1
     scale: "1"
+  }
+  {
+    id: 7185
+    name: 布拉梅德特攻特效01
+    code: AQLD_buff01
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7186
+    name: 布拉梅德特攻特效02
+    code: AQLD_buff02
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7187
+    name: 布拉梅德特攻特效03
+    code: AQLD_buff03
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7188
+    name: 布拉梅德特攻特效04
+    code: AQLD_buff04
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
   }
   {
     id: 7501

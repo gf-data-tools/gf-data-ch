@@ -30641,13 +30641,13 @@
   }
   {
     id: 20155
-    name: 棱形格地板
+    name: 地下避难所
     classes: 19
     type: 301
     space: "1,1,1,1,1,0"
     deco_rate: 1000
     decompose_gift: 100003
-    description: 在清洁人员的不懈努力下，总算将血迹、水渍、污痕等都从凹凸不平的地板上铲除。
+    description: 一场灾难迫使人类离开家园，来到地下三十米处建立起简陋的避难所，争吵分裂是永恒的主题，但间或的人性闪光亦能开启新的篇章。
     code: 202412Activity_wall
     texture_type: "1"
     offset: "0,0,0"
@@ -30655,13 +30655,13 @@
   }
   {
     id: 20156
-    name: 地下避难所
+    name: 棱形格地板
     classes: 19
     type: 101
     space: "1,1,1,1,1,0"
     deco_rate: 1000
     decompose_gift: 100003
-    description: 一场灾难迫使人类离开家园，来到地下三十米处建立起简陋的避难所，争吵分裂是永恒的主题，但间或的人性闪光亦能开启新的篇章。
+    description: 在清洁人员的不懈努力下，总算将血迹、水渍、污痕等都从凹凸不平的地板上铲除。
     code: 202412Activity_floor
     texture_type: "1"
     offset: "0,0,0"
@@ -46838,6 +46838,96 @@
     rotate: "3"
   }
   {
+    id: 311101
+    name: Erma-圣夜之钥
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Erma的海报
+    code: poster_Christmas2024_Erma
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311102
+    name: M99-遥仰月华
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M99的海报
+    code: poster_Christmas2024_M99
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311103
+    name: MP7-冬鹿特遣
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MP7的海报
+    code: poster_Christmas2024_MP7
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311104
+    name: P50-星光，于丝缎摇曳
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P50的海报
+    code: poster_Christmas2024_P50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311105
+    name: EM-2-暖藏醇香
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: EM-2的海报
+    code: poster_Christmas2024_EM2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311106
+    name: 隼-霜铃响叮当
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 隼的海报
+    code: poster_Christmas2024_Falcon
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 311107
     name: M1911-甜心兔厨娘
     classes: 300
@@ -46845,7 +46935,7 @@
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: M1911的海报。
+    description: M1911的海报
     code: poster_Christmas2024_M1911
     texture_type: "1"
     sorting: "5"
