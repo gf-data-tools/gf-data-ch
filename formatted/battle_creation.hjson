@@ -2163,8 +2163,8 @@
     effect_area: 2
     effect_param_1: *103
     effect_param_2: *104
-    buff_id: 131:1,1222:1
-    buff_cd: "0,0"
+    buff_id: 131:1,1222:1,9832:1000009809
+    buff_cd: "0,0,0"
     is_form_play: 1
     scale: "2.4,1,14"
   }
@@ -22927,7 +22927,8 @@
     effect_area: 2
     effect_param_1: *103
     effect_param_2: *104
-    buff_id: "1388"
+    buff_id: 1388:1,9832:1000009809
+    buff_cd: "0,0"
     is_form_play: 1
     scale: "2.4,1,14"
   }
@@ -51707,6 +51708,267 @@
     is_orb_effect: 1
   }
   {
+    id: 3801
+    name: MDR套装沉默特效
+    code: AQLD_debuff05
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "150"
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 3802
+    name: M14套装子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "750"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3803
+    name: HTI立姿子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "751"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3804
+    name: HTI腰姿子弹1
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "752"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 3805
+    name: HTI腰姿子弹2
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "752"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3806
+    name: HTI卧姿子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "753"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3807
+    name: HTI卧姿子弹标记
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "754"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3811
+    name: 伯莱塔套装烟雾弹
+    code: 烟雾弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    exist_duration: *102
+    effect_area: 1
+    hurt_id: "423"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "3812,3813,3814,36"
+    trigger_creation_delay: "-1,-1,-1,-1"
+  }
+  {
+    id: 3812
+    name: 伯莱塔套装烟雾弹结算范围1
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 9810:1
+    buff_cd: "30"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_gasbomb_explode
+  }
+  {
+    id: 3813
+    name: 伯莱塔套装烟雾弹结算范围2
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 9811:1
+    buff_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3814
+    name: 伯莱塔套装烟雾弹结算范围3
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    buff_id: 9812:1
+    buff_cd: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3815
+    name: 超级肖蒂专属伤害下降
+    start_type: "3"
+    start_offset: "3"
+    destination_type: "3"
+    destination_offset: "3"
+    is_tracing: 1
+    exist_duration: *101
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    buff_id: 9794:1000009674
+    scale: "1,12,1"
+    is_die_delete: 1
+  }
+  {
+    id: 3816
+    name: MG5套装变奏暴击增益
+    code: AQLD_buff01
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 3817
+    name: MG5套装变奏暴击增益
+    code: AQLD_buff02
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 3818
+    name: MG5套装变奏回避增益
+    code: AQLD_buff03
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 3819
+    name: MG5套装变奏护甲增益
+    code: AQLD_buff04
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -54381,7 +54643,7 @@
     rotate: "0,90,0"
     exist_duration: "30"
     effect_area: 1
-    hurt_id: "3"
+    hurt_id: "755"
     is_form_play: 1
     scale: "1"
     trigger_creation_id: "93"
@@ -54401,7 +54663,7 @@
     rotate: "0,90,0"
     exist_duration: "30"
     effect_area: 1
-    hurt_id: "3"
+    hurt_id: "755"
     is_form_play: 1
     scale: "1"
     trigger_creation_id: "267"

@@ -5757,6 +5757,126 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 249001
+    id: 249
+    name: 自律人形-布伦·坦
+    sub_name: 自律人形-布伦·坦
+    type: 3
+    code: BrenTen_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 情报不明,谨慎应对!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 250001
+    id: 250
+    name: 自律人形-FNP-9
+    sub_name: 自律人形-FNP-9
+    type: 3
+    code: FNP9_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 情报不明,谨慎应对!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 251001
+    id: 251
+    name: 自律人形-IDW
+    sub_name: 自律人形-IDW
+    type: 3
+    code: IDW_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 情报不明,谨慎应对!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 252001
+    id: 252
+    name: 自律人形-幽灵M4
+    sub_name: 自律人形-幽灵M4
+    type: 3
+    code: SpectreM4_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 情报不明,谨慎应对!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 253001
+    id: 253
+    name: 自律人形-63式
+    sub_name: 自律人形-63式
+    type: 3
+    code: 63type_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 情报不明,谨慎应对!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 254001
+    id: 254
+    name: 自律人形-L85A1
+    sub_name: 自律人形-L85A1
+    type: 3
+    code: L85A1_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 情报不明,谨慎应对!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
     sub_id: 100001001
     id: 100001
     name: 鹗视虎
@@ -5778,508 +5898,8 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
-    sub_id: 100011001
-    id: 100011
-    name: 持盾者
-    sub_name: 持盾者
-    type: 3
-    code: DivMauler
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 在该单位接近我方单位后使用技能快速击杀即可克敌制胜。
-    character: "401,402"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100012001
-    id: 100012
-    name: 掷弹兵
-    sub_name: 掷弹兵
-    type: 3
-    code: DivGrenadier
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位将向预警位置制造较强的燃烧伤害，注意指挥人形及时移动规避
-    character: "403"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100013001
-    id: 100013
-    name: 清扫者
-    sub_name: 清扫者
-    type: 3
-    code: DivSweeper
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 注意观察该单位的移动,利用该单位左右的人形吸引他的注意力,再指挥人形及时规避他火焰喷射器造成的范围伤害。
-    character: "1001,404,415"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100014001
-    id: 100014
-    name: 跑者
-    sub_name: 跑者
-    type: 3
-    code: DivRunner
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 使用限制敌方单位移动的手段,在该目标接近我方单位前制造伤害即可克敌制胜。
-    character: "1001,405"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100015001
-    id: 100015
-    name: 警卫
-    sub_name: 警卫
-    type: 3
-    code: DivGuard
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位将向预警位置制造较强的投掷伤害，注意指挥人形及时移动规避。提升整体的生存能力也可以有效针对该目标。
-    character: "1001,406,407"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100016001
-    id: 100016
-    name: 执行者
-    sub_name: 执行者
-    type: 3
-    code: DivExecutor
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
-    character: "300"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100017001
-    id: 100017
-    name: 步枪手
-    sub_name: 步枪手
-    type: 3
-    code: DivRifleman
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
-    character: "408"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100018001
-    id: 100018
-    name: 侦察兵
-    sub_name: 侦察兵
-    type: 3
-    code: DivScout
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位将向预警位置制造投掷伤害，同时削弱受击目标，注意指挥后排人形及时移动规避。
-    character: "409,410"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100019001
-    id: 100019
-    name: 工程师
-    sub_name: 工程师
-    type: 3
-    code: DivEngineer
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 工程师将在身边放置高威胁的炮台,范围伤害将对该目标造成不小的麻烦。
-    character: "411,412,413"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100020001
-    id: 100020
-    name: 叛变特工
-    sub_name: 叛变特工
-    type: 3
-    code: DivTraitor
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 身上吸附黏弹的我方单位需尽快指挥至无人的区域,否则该单位将对我方整体造成较大的伤害。
-    character: "1001,414,415"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100021001
-    id: 100021
-    name: 特工47
-    sub_name: 特工47
-    type: 1
-    code: AK47_enemy
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。嗯。
-    character: "1001,423"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100022001
-    id: 100022
-    name: 焚烧者:罗伯特
-    sub_name: 焚烧者:罗伯特
-    type: 1
-    code: DivBurn
-    introduce: 游荡在街头的净化者成员，坚信烧光一切被污染之物才能拯救城市。他会对锁定的目标穷追不舍，直到将其彻底烧尽。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 游荡在街头的净化者成员，坚信烧光一切被污染之物才能拯救城市。他会对锁定的目标穷追不舍，直到将其彻底烧尽。可以使用精准攻击到该单位身后弱点的单位克敌制胜。
-    character: "1001,417,404,416"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100023001
-    id: 100023
-    name: 獠牙
-    sub_name: 獠牙
-    type: 1
-    code: HK416Boss
-    introduce: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
-    character: "1001,420,421,422"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100024001
-    id: 100024
-    name: 地狱火
-    sub_name: 地狱火
-    type: 1
-    code: VectorBoss
-    introduce: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
-    character: "1001,419,418,416"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100025001
-    id: 100025
-    name: 獠牙
-    sub_name: 獠牙
-    type: 1
-    code: HK416Boss
-    introduce: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 射击！移动！面对强大的敌人并取胜吧！
-    character: "1001,424,425"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100026001
-    id: 100026
-    name: 地狱火
-    sub_name: 地狱火
-    type: 1
-    code: VectorBoss
-    introduce: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 射击！移动！面对强大的敌人并取胜吧！
-    character: "1001,424,425"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100027001
-    id: 100027
-    name: 维克托
-    sub_name: 维克托
-    type: 1
-    code: Vector_enemy
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
-    character: "1001,300"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100028001
-    id: 100028
-    name: 魔化黑骑
-    sub_name: 魔化黑骑
-    type: 3
-    code: Dropkick_MeleeDevil
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 拥有极高护甲的前排单位，利用对应高穿甲弹击破即可。
-    character: "1001,303,309"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100029001
-    id: 100029
-    name: 魔化巨兽
-    sub_name: 魔化巨兽
-    type: 3
-    code: Dropkick_RemoteDevil
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 拥有极高护甲的后排单位，利用对应高穿甲弹击破即可。
-    character: "1001,309"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100030001
-    id: 100030
-    name: 刨冰精灵
-    sub_name: 刨冰精灵
-    type: 3
-    code: Dropkick_IceGhost
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位会通过叠加印记冰冻受击目标，造成真实伤害，建议迅速解决。
-    character: "1001,315,324,329"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100031001
-    id: 100031
-    name: 小单眼
-    sub_name: 小单眼
-    type: 3
-    code: Dropkick_CyclopsChan
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
-    character: "1001,303"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100032001
-    id: 100032
-    name: 撒豆使者
-    sub_name: 撒豆使者
-    type: 3
-    code: Dropkick_BeansEmissary
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位能力均衡，会眩晕我方人形，请注意提高梯队的整体作战能力应对。
-    character: "1001,324"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100033001
-    id: 100033
-    name: 贝特
-    sub_name: 贝特
-    type: 3
-    code: Dropkick_Beth
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 该单位有很强的的机动能力，能增益敌方的输出，撕咬单位后还会加长目标技能冷却时间，建议迅速解决。
-    character: "1001,304,333"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100034001
-    id: 100034
-    name: 虚假百合玲
-    sub_name: 虚假百合玲
-    type: 1
-    code: Dropkick_YurineBoss
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 能召唤强化后的魔物小兵并赋予它们强大的防御护盾，频繁对面前大片区域造成高额伤害。不过虚假百合玲在控制住敌方的强力输出单位的同时会暴露自身的弱点，趁此机会击破她吧！
-    character: "1001,321,329"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100035001
-    id: 100035
-    name: 愤怒化的米诺斯
-    sub_name: 愤怒化的米诺斯
-    type: 1
-    code: Dropkick_MinosBoss
-    introduce: 未曾设想的敌人。
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: 处于极度愤怒状态下的米诺斯，避开她是最好的选择。
-    character: "1001,329"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100036001
-    id: 100036
+    sub_id: 100009001
+    id: 100009
     name: 海边的西瓜
     sub_name: 海边的西瓜
     type: 2
@@ -6296,10 +5916,683 @@
     counter: 敲碎它！
     character: "903"
     launch_time: 2035-12-31 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100011001
+    id: 100011
+    name: 人偶歼灭者
+    sub_name: 人偶歼灭者
+    type: 3
+    code: GG_Elfeldt_SF
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100012001
+    id: 100012
+    name: 盾牌娘
+    sub_name: 盾牌娘
+    type: 3
+    code: BH2_Shield
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100013001
+    id: 100013
+    name: 普通娘
+    sub_name: 普通娘
+    type: 3
+    code: BH2_Normal
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100014001
+    id: 100014
+    name: 射手娘
+    sub_name: 射手娘
+    type: 3
+    code: BH2_Archer
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100015001
+    id: 100015
+    name: 自爆娘
+    sub_name: 自爆娘
+    type: 3
+    code: BH2_Burst
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100016001
+    id: 100016
+    name: 黑暗希儿
+    sub_name: 黑暗希儿
+    type: 1
+    code: SeeleVollerei
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100017001
+    id: 100017
+    name: 德丽莎
+    sub_name: 德丽莎
+    type: 1
+    code: TheresaApocalypse
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100018001
+    id: 100018
+    name: 持盾者
+    sub_name: 持盾者
+    type: 3
+    code: DivMauler
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 在该单位接近我方单位后使用技能快速击杀即可克敌制胜。
+    character: "401,402"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100019001
+    id: 100019
+    name: 掷弹兵
+    sub_name: 掷弹兵
+    type: 3
+    code: DivGrenadier
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位将向预警位置制造较强的燃烧伤害，注意指挥人形及时移动规避
+    character: "403"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100020001
+    id: 100020
+    name: 清扫者
+    sub_name: 清扫者
+    type: 3
+    code: DivSweeper
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 注意观察该单位的移动,利用该单位左右的人形吸引他的注意力,再指挥人形及时规避他火焰喷射器造成的范围伤害。
+    character: "1001,404,415"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100021001
+    id: 100021
+    name: 跑者
+    sub_name: 跑者
+    type: 3
+    code: DivRunner
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 使用限制敌方单位移动的手段,在该目标接近我方单位前制造伤害即可克敌制胜。
+    character: "1001,405"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100022001
+    id: 100022
+    name: 警卫
+    sub_name: 警卫
+    type: 3
+    code: DivGuard
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位将向预警位置制造较强的投掷伤害，注意指挥人形及时移动规避。提升整体的生存能力也可以有效针对该目标。
+    character: "1001,406,407"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100023001
+    id: 100023
+    name: 执行者
+    sub_name: 执行者
+    type: 3
+    code: DivExecutor
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100024001
+    id: 100024
+    name: 步枪手
+    sub_name: 步枪手
+    type: 3
+    code: DivRifleman
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "408"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100025001
+    id: 100025
+    name: 侦察兵
+    sub_name: 侦察兵
+    type: 3
+    code: DivScout
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位将向预警位置制造投掷伤害，同时削弱受击目标，注意指挥后排人形及时移动规避。
+    character: "409,410"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100026001
+    id: 100026
+    name: 工程师
+    sub_name: 工程师
+    type: 3
+    code: DivEngineer
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 工程师将在身边放置高威胁的炮台,范围伤害将对该目标造成不小的麻烦。
+    character: "411,412,413"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100027001
+    id: 100027
+    name: 叛变特工
+    sub_name: 叛变特工
+    type: 3
+    code: DivTraitor
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 身上吸附黏弹的我方单位需尽快指挥至无人的区域,否则该单位将对我方整体造成较大的伤害。
+    character: "1001,414,415"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100028001
+    id: 100028
+    name: 特工47
+    sub_name: 特工47
+    type: 1
+    code: AK47_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。嗯。
+    character: "1001,423"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100029001
+    id: 100029
+    name: 焚烧者:罗伯特
+    sub_name: 焚烧者:罗伯特
+    type: 1
+    code: DivBurn
+    introduce: 游荡在街头的净化者成员，坚信烧光一切被污染之物才能拯救城市。他会对锁定的目标穷追不舍，直到将其彻底烧尽。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 游荡在街头的净化者成员，坚信烧光一切被污染之物才能拯救城市。他会对锁定的目标穷追不舍，直到将其彻底烧尽。可以使用精准攻击到该单位身后弱点的单位克敌制胜。
+    character: "1001,417,404,416"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100030001
+    id: 100030
+    name: 獠牙
+    sub_name: 獠牙
+    type: 1
+    code: HK416Boss
+    introduce: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
+    character: "1001,420,421,422"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100030002
+    id: 100030
+    name: 獠牙
+    sub_name: 獠牙-特别型
+    type: 1
+    code: HK416Boss
+    introduce: 拥有和HK416相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥幸存者军队的能力之外，其他一切皆为谜团。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 射击！移动！面对强大的敌人并取胜吧！
+    character: "1001,424,425"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100031001
+    id: 100031
+    name: 地狱火
+    sub_name: 地狱火
+    type: 1
+    code: VectorBoss
+    introduce: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
+    character: "1001,419,418,416"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100031002
+    id: 100031
+    name: 地狱火
+    sub_name: 地狱火-特别型
+    type: 1
+    code: VectorBoss
+    introduce: 拥有和维克托相同的样貌，但似乎是只存在于《全境封锁》世界当中的AI。除了拥有能够指挥净化者阵营的能力之外，其他一切皆为谜团。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 射击！移动！面对强大的敌人并取胜吧！
+    character: "1001,424,425"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100032001
+    id: 100032
+    name: 维克托
+    sub_name: 维克托
+    type: 1
+    code: Vector_enemy
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,300"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100033001
+    id: 100033
+    name: 魔化黑骑
+    sub_name: 魔化黑骑
+    type: 3
+    code: Dropkick_MeleeDevil
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 拥有极高护甲的前排单位，利用对应高穿甲弹击破即可。
+    character: "1001,303,309"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100034001
+    id: 100034
+    name: 魔化巨兽
+    sub_name: 魔化巨兽
+    type: 3
+    code: Dropkick_RemoteDevil
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 拥有极高护甲的后排单位，利用对应高穿甲弹击破即可。
+    character: "1001,309"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100035001
+    id: 100035
+    name: 刨冰精灵
+    sub_name: 刨冰精灵
+    type: 3
+    code: Dropkick_IceGhost
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位会通过叠加印记冰冻受击目标，造成真实伤害，建议迅速解决。
+    character: "1001,315,324,329"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100036001
+    id: 100036
+    name: 小单眼
+    sub_name: 小单眼
+    type: 3
+    code: Dropkick_CyclopsChan
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,303"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
     sub_id: 100037001
     id: 100037
+    name: 撒豆使者
+    sub_name: 撒豆使者
+    type: 3
+    code: Dropkick_BeansEmissary
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，会眩晕我方人形，请注意提高梯队的整体作战能力应对。
+    character: "1001,324"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100038001
+    id: 100038
+    name: 贝特
+    sub_name: 贝特
+    type: 3
+    code: Dropkick_Beth
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位有很强的的机动能力，能增益敌方的输出，撕咬单位后还会加长目标技能冷却时间，建议迅速解决。
+    character: "1001,304,333"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100039001
+    id: 100039
+    name: 虚假百合玲
+    sub_name: 虚假百合玲
+    type: 1
+    code: Dropkick_YurineBoss
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 能召唤强化后的魔物小兵并赋予它们强大的防御护盾，频繁对面前大片区域造成高额伤害。不过虚假百合玲在控制住敌方的强力输出单位的同时会暴露自身的弱点，趁此机会击破她吧！
+    character: "1001,321,329"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100040001
+    id: 100040
+    name: 愤怒化的米诺斯
+    sub_name: 愤怒化的米诺斯
+    type: 1
+    code: Dropkick_MinosBoss
+    introduce: 未曾设想的敌人。
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 处于极度愤怒状态下的米诺斯，避开她是最好的选择。
+    character: "1001,329"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100041001
+    id: 100041
     name: 浴场刺客
     sub_name: 浴场刺客
     type: 3
@@ -6316,11 +6609,12 @@
     counter: 热衷于在浴场泡澡的不明闲散人士。性格狂躁，动手能力极强，还喜爱在泡澡时突然施展花样游泳等水上运动，因此成为了人们最不想在浴场遇见的对象。
     character: "303,313"
     enemy_skill: "10037"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100038001
-    id: 100038
+    sub_id: 100042001
+    id: 100042
     name: 浴场刺客
     sub_name: 浴场刺客
     type: 3
@@ -6337,11 +6631,12 @@
     counter: 热衷于在浴场泡澡的不明闲散人士。性格狂躁，动手能力极强，还喜爱在泡澡时突然施展花样游泳等水上运动，因此成为了人们最不想在浴场遇见的对象。
     character: "309,312,316"
     enemy_skill: "10038,140"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100039001
-    id: 100039
+    sub_id: 100043001
+    id: 100043
     name: 狂飙飞轮
     sub_name: 狂飙飞轮
     type: 4
@@ -6358,11 +6653,12 @@
     counter: 疑似拥有自我意识的车轮，会突然出现在街头，并根据自己的喜好狂奔向受害者身边……是新一代的都市传说。
     character: "304,319"
     enemy_skill: "10039"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100040001
-    id: 100040
+    sub_id: 100044001
+    id: 100044
     name: 货车狂徒
     sub_name: 货车狂徒
     type: 4
@@ -6379,11 +6675,12 @@
     counter: 神秘莫测的轻型货运卡车，交通安全法考试从未合格，但仍然放肆地在各地超速行驶，尤其喜欢在静谧的居民区街道暴冲。
     character: "1001,1003,304,902"
     enemy_skill: "10040"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100041001
-    id: 100041
+    sub_id: 100045001
+    id: 100045
     name: 泡泡机
     sub_name: 泡泡机
     type: 4
@@ -6400,11 +6697,12 @@
     counter: 用于制造摇曳泡影的微型工厂，移动缓慢，本身不具备杀伤力，因此经常遭到小朋友和家长群体的追逐。
     character: "321"
     enemy_skill: "10041"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100042001
-    id: 100042
+    sub_id: 100046001
+    id: 100046
     name: 摇曳泡影
     sub_name: 摇曳泡影
     type: 2
@@ -6421,11 +6719,12 @@
     counter: 外观酷似使用肥皂水吹制而成的泡泡，具备淡淡的皂香和梦幻的泡影。是最适合潜伏在浴场中的侦察者，悄然接近敌人的身边，在被发现时“啪”地消失掉。
     character: "319"
     enemy_skill: "10042"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100043001
-    id: 100043
+    sub_id: 100047001
+    id: 100047
     name: 罗梅罗
     sub_name: 罗梅罗
     type: 2
@@ -6442,11 +6741,12 @@
     counter: 来历不明的僵尸犬，喜爱鱿鱼丝，忠心耿耿地履行着看家护院、守护法兰秀秀的职责。看上去瘦弱娇小，一旦变身就将化为夷平一切的恶犬。
     character: "304,315"
     enemy_skill: "10043"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100044001
-    id: 100044
+    sub_id: 100048001
+    id: 100048
     name: 灰色歌者
     sub_name: 灰色歌者
     type: 3
@@ -6463,11 +6763,12 @@
     counter: 夜间咖啡馆成员之一，会高喊着“姐姐大人”奔向对方。如果没有给出正确的回应，似乎会遭到她的惩罚。
     character: "100"
     enemy_skill: "10044"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100045001
-    id: 100045
+    sub_id: 100049001
+    id: 100049
     name: 绿色歌者
     sub_name: 绿色歌者
     type: 3
@@ -6484,11 +6785,12 @@
     counter: 夜间咖啡馆成员之一，会高喊着“刘海角度”奔向对方。如果没有给出正确的回应，似乎会遭到她的惩罚。
     character: "100"
     enemy_skill: "10045"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100046001
-    id: 100046
+    sub_id: 100050001
+    id: 100050
     name: 红色歌者
     sub_name: 红色歌者
     type: 3
@@ -6505,11 +6807,12 @@
     counter: 夜间咖啡馆成员之一，会高喊着“红通通”奔向对方。如果没有给出正确的回应，似乎会遭到她的惩罚。
     character: "100"
     enemy_skill: "10046"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100047001
-    id: 100047
+    sub_id: 100051001
+    id: 100051
     name: 不羁主唱
     sub_name: 不羁主唱
     type: 3
@@ -6526,11 +6829,12 @@
     counter: 灰树乐队的主唱，冷冽不羁，看上去是乐队中最难招惹的对象，而实际上是著名和平爱好者，经常解决乐队成员惹出的麻烦。
     character: "100"
     enemy_skill: "10047"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100048001
-    id: 100048
+    sub_id: 100052001
+    id: 100052
     name: 烈焰吉他手
     sub_name: 烈焰吉他手
     type: 3
@@ -6547,11 +6851,12 @@
     counter: 灰树乐队的吉他手，随身携带红色染发剂和燃烧剂，喜欢烈焰般的颜色，在暴躁时也会亲手制造烈焰。
     character: "100"
     enemy_skill: "10048"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100049001
-    id: 100049
+    sub_id: 100053001
+    id: 100053
     name: 追影鼓手
     sub_name: 追影鼓手
     type: 3
@@ -6568,11 +6873,12 @@
     counter: 灰树乐队的鼓手，表演时的速度几乎无法用肉眼捕捉，还擅长用无人机制造出绚烂的演出特效，但偶尔也会失手把无人机飞到观众席中。
     character: "100"
     enemy_skill: "10049"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100050001
-    id: 100050
+    sub_id: 100054001
+    id: 100054
     name: 墨镜贝斯手
     sub_name: 墨镜贝斯手
     type: 3
@@ -6589,11 +6895,12 @@
     counter: 灰树乐队的贝斯手，总是将表情藏在墨镜之后，让人难以揣摩她究竟是醒是睡，手中弹奏的究竟是贝斯还是扫把。
     character: "100"
     enemy_skill: "10050"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100051001
-    id: 100051
+    sub_id: 100055001
+    id: 100055
     name: 神秘键盘手
     sub_name: 神秘键盘手
     type: 3
@@ -6610,11 +6917,12 @@
     counter: 灰树乐队的键盘手，只在演出时现身，平常几乎不出现。除了乐队的工作，似乎还有着自己的神秘任务。
     character: "100"
     enemy_skill: "10051"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100052001
-    id: 100052
+    sub_id: 100056001
+    id: 100056
     name: 都市隶人
     sub_name: 都市隶人
     type: 3
@@ -6630,11 +6938,12 @@
     counter: 情报不明,谨慎应对!
     character: "303"
     enemy_skill: "40"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100053001
-    id: 100053
+    sub_id: 100057001
+    id: 100057
     name: 都市隶人
     sub_name: 都市隶人
     type: 3
@@ -6650,11 +6959,12 @@
     counter: 情报不明,谨慎应对!
     character: "303"
     enemy_skill: "40"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100054001
-    id: 100054
+    sub_id: 100058001
+    id: 100058
     name: SPS的傀儡
     sub_name: SPS的傀儡
     type: 3
@@ -6670,11 +6980,12 @@
     range_rank: 5
     counter: 情报不明,谨慎应对!
     character: "100"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100055001
-    id: 100055
+    sub_id: 100059001
+    id: 100059
     name: KSVK的傀儡
     sub_name: KSVK的傀儡
     type: 3
@@ -6690,11 +7001,12 @@
     range_rank: 5
     counter: 情报不明,谨慎应对!
     character: "100"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100056001
-    id: 100056
+    sub_id: 100060001
+    id: 100060
     name: A545的傀儡
     sub_name: A545的傀儡
     type: 3
@@ -6710,11 +7022,12 @@
     range_rank: 5
     counter: 情报不明,谨慎应对!
     character: "100"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100057001
-    id: 100057
+    sub_id: 100061001
+    id: 100061
     name: 江崎普林
     sub_name: 江崎普林
     type: 1
@@ -6731,11 +7044,12 @@
     counter: 情报不明,谨慎应对!
     character: "1001"
     enemy_skill: "10052,10053"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100058001
-    id: 100058
+    sub_id: 100062001
+    id: 100062
     name: 岛村孝
     sub_name: 岛村孝
     type: 1
@@ -6752,11 +7066,12 @@
     counter: 情报不明,谨慎应对!
     character: "1001"
     enemy_skill: "10054,10055"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100059001
-    id: 100059
+    sub_id: 100063001
+    id: 100063
     name: 水金铃鹿
     sub_name: 水金铃鹿
     type: 1
@@ -6773,11 +7088,12 @@
     counter: 情报不明,谨慎应对!
     character: "1001"
     enemy_skill: "10056,10057,10058"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100060001
-    id: 100060
+    sub_id: 100064001
+    id: 100064
     name: 多斯保镖
     sub_name: 多斯保镖-AR
     type: 3
@@ -6793,11 +7109,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100061001
-    id: 100061
+    sub_id: 100065001
+    id: 100065
     name: 多斯保镖
     sub_name: 多斯保镖-RF
     type: 3
@@ -6813,11 +7130,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100062001
-    id: 100062
+    sub_id: 100066001
+    id: 100066
     name: 多斯保镖
     sub_name: 多斯保镖-SG
     type: 3
@@ -6833,11 +7151,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100063001
-    id: 100063
+    sub_id: 100067001
+    id: 100067
     name: 黑金队员
     sub_name: 黑金队员-AR
     type: 3
@@ -6853,11 +7172,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100064001
-    id: 100064
+    sub_id: 100068001
+    id: 100068
     name: 黑金队员
     sub_name: 黑金队员-SMG
     type: 3
@@ -6873,11 +7193,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100065001
-    id: 100065
+    sub_id: 100069001
+    id: 100069
     name: 黑金队员
     sub_name: 黑金队员-RF
     type: 3
@@ -6893,11 +7214,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100066001
-    id: 100066
+    sub_id: 100070001
+    id: 100070
     name: 多斯杀手
     sub_name: 多斯杀手
     type: 3
@@ -6913,11 +7235,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100067001
-    id: 100067
+    sub_id: 100071001
+    id: 100071
     name: 特种兵
     sub_name: 特种兵
     type: 3
@@ -6933,11 +7256,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100068001
-    id: 100068
+    sub_id: 100072001
+    id: 100072
     name: 多斯精英保镖
     sub_name: 多斯精英保镖
     type: 3
@@ -6953,11 +7277,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100069001
-    id: 100069
+    sub_id: 100073001
+    id: 100073
     name: 黑金精英队员
     sub_name: 黑金精英队员
     type: 3
@@ -6973,11 +7298,12 @@
     range_rank: 5
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100070001
-    id: 100070
+    sub_id: 100074001
+    id: 100074
     name: 多斯
     sub_name: 多斯
     type: 1
@@ -6994,11 +7320,12 @@
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,106"
     enemy_skill: "10059,10060,10061,10062"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100071001
-    id: 100071
+    sub_id: 100075001
+    id: 100075
     name: 白烨戈
     sub_name: 白烨戈
     type: 1
@@ -7015,11 +7342,12 @@
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,1004"
     enemy_skill: "8103,8202,8301"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100072001
-    id: 100072
+    sub_id: 100076001
+    id: 100076
     name: 黑卡蒂
     sub_name: 黑卡蒂
     type: 1
@@ -7036,7 +7364,8 @@
     counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
     character: "1001,107"
     enemy_skill: "10063,10064,10065,10066,10067,10068,10069"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
     sub_id: 100082001

@@ -4033,8 +4033,8 @@
     guns: "100041,100042,100043,100044,100045"
     enemy_team_id: 1575
     initial_type: 2
-    ai: 103;1;103
-    ai_content: 0;0;0
+    ai: 101;0;101
+    ai_content: "5339,5344;0;5339,5344"
     transform_condition: "1"
     transform_number: "2"
     transform_result: 0:0
@@ -16439,6 +16439,90 @@
     no_battle_damage: -1
   }
   {
+    id: 750001
+    name: 格琳娜
+    guns: "750001"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "750202"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 750002
+    name: 托卡列夫
+    guns: "750002"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "750212"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 750501
+    name: 防火墙模块
+    guns: "1"
+    enemy_team_id: 750501
+    initial_type: 2
+    ai: 0;0;101
+    ai_content: 0;0;87427,87428,87424,87419,87418,87422,87427
+    transform_condition: "6"
+    transform_number: "750501"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 750800
+    name: 指挥官
+    guns: "570011"
+    enemy_team_id: 750800
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 751001
+    name: 防火墙模块
+    guns: "1"
+    enemy_team_id: 751001
+    initial_type: 2
+    ai: 0;0;101
+    ai_content: 0;0;87452,87453,87449,87444,87443,87447,87452
+    transform_condition: "6"
+    transform_number: "750501"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 751401
+    name: 防火墙模块
+    guns: "1"
+    enemy_team_id: 751401
+    initial_type: 2
+    ai: 0;0;104
+    ai_content: 0;0;87488,87483,87479,87475,87487,87470,87469,87468,87467,87472,87477,87482,87488
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 751402
+    name: 防火墙模块
+    guns: "1"
+    enemy_team_id: 751402
+    initial_type: 2
+    ai: 0;0;104
+    ai_content: 0;0;87489,87463,87467,87471,87486,87476,87477,87478,87479,87474,87469,87464,87489
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0
@@ -24921,6 +25005,36 @@
     transform_condition: "1"
     transform_number: "6"
     icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9910001
+    name: 铁血部队
+    guns: "100041,100042,100043,100044,100045"
+    enemy_team_id: 1575
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "5338,5337;0;5338,5337"
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: 0:0
+    icon: Enemy
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9910002
+    name: 铁血部队
+    guns: "100041,100042,100043,100044,100045"
+    enemy_team_id: 1575
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "5340,5341;0;5340,5341"
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: 0:0
+    icon: Enemy
     enemy_panel_type: 1
     no_battle_damage: -1
   }

@@ -28271,6 +28271,215 @@
     interact_point_offset: *-0.613,2.874,-0.285
   }
   {
+    id: 11501
+    name: 九年如歌-游艇地板
+    classes: 115
+    type: 101
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: “听说甲板的防滑性能特别棒，怎么样都不会摔倒哎……”“所以这就是你在甲板上跳街舞的理由？！”
+    code: 2025Anniversay_floor
+    texture_type: "1"
+    sorting: "15"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11502
+    name: 九年如歌-灯火下的华都
+    classes: 115
+    type: 301
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 繁华都市的夜景。耸立的高楼鳞次栉比，宛如并肩而立的巨人，守护着眼前洒落的点点星光。
+    code: 2025Anniversay_wall
+    texture_type: "1"
+    sorting: "15"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11503
+    name: 九年如歌-庆典的一隅
+    classes: 115
+    type: 201
+    position: "17,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 几乎每场派对都有这种角落，还有在角落里默默观赏的人，共同组成点缀热闹不可或缺的一部分。
+    code: 2025Anniversay_deco_01
+    texture_type: "1"
+    sorting: "15"
+    offset: "0.021,-0.031,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11504
+    name: 九年如歌-观光者船舱
+    classes: 115
+    type: 201
+    position: "26,1"
+    space: "9,12,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: 站在这里向下看，可以俯视到波光粼粼的海面、热闹喧嚣的甲板、还有一张张熟悉的笑脸……那一瞬间，你觉得眼前的一切珍贵无比。
+    code: 2025Anniversay_deco_02_A,2025Anniversay_deco_02_B,2025Anniversay_deco_02_C,2025Anniversay_deco_02_D,2025Anniversay_4,2025Anniversay_deco_02_E
+    texture_type: "1,1,1,1,2,1"
+    sorting: "0,0,0,0,0,10"
+    offset: "0.490,-0.058,0.000|0.490,4.424,0.000|5.088,-0.058,0.000|1.084,-0.261,-0.094|-1.112,3.062,0.768|0.488,-0.060,0.000"
+    rotate: "2,2,2,2,2,2"
+    interact_point: "27"
+    interact_point_offset: *-2.319,6.260,0.996
+  }
+  {
+    id: 11506
+    name: 九年如歌-步入湛蓝
+    classes: 115
+    type: 201
+    position: "27,13"
+    space: "2,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 从甲板到泳池，一步步下沉的尽头，我们终将于蔚蓝的水色中相拥。
+    code: 2025Anniversay_deco_04
+    texture_type: "1"
+    offset: "0.021,-0.417,-0.189"
+    rotate: "2"
+  }
+  {
+    id: 11507
+    name: 九年如歌-晶亮彩灯
+    classes: 115
+    type: 201
+    position: "16,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 在这难得的时刻，我们祈求着，盼望这短暂的绚烂得以成为永恒。
+    code: 2025Anniversay_deco_05_A,2025Anniversay_deco_05_B,2025Anniversay_deco_05_C,2025Anniversay_deco_05_D
+    texture_type: "1,1,1,1"
+    sorting: "0,0,0,0"
+    offset: "-2.699,0.000,0.000|1.887,0.000,0.000|6.493,0.000,0.000|6.492,4.479,1.033"
+    rotate: "2,2,2,2"
+  }
+  {
+    id: 11508
+    name: 九年如歌-共享晚餐
+    classes: 115
+    type: 201
+    position: "18,7"
+    space: "5,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 鲜花、美食、座椅——一切都准备就绪。只要你一落座，我们的晚宴就可以开始了。
+    code: 2025Anniversay_deco_06_A,2025Anniversay_deco_06_B,2025Anniversay_deco_06_C
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.073,-0.054,0.000|-0.970,-0.098,0.000|0.784,-0.054,0.000"
+    rotate: "2,2,2"
+  }
+  {
+    id: 11509
+    name: 九年如歌-椰树之下（右）
+    classes: 115
+    type: 201
+    position: "32,0"
+    space: "3,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 游艇当然不可能长出椰树，椰树也当然不可能长出彩灯——它会出现在这里，只能作为某人精心布置的证明。
+    code: 2025Anniversay_deco_07_A,2025Anniversay_deco_07_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.104,0.000,0.000|-0.104,4.466,1.043"
+    rotate: "2,2"
+  }
+  {
+    id: 11510
+    name: 九年如歌-椰树之下（左）
+    classes: 115
+    type: 201
+    position: "1,0"
+    space: "3,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 游艇当然不可能长出椰树，椰树也当然不可能长出彩灯——它会出现在这里，只能作为某人精心布置的证明。
+    code: 2025Anniversay_deco_08
+    texture_type: "1"
+    offset: "0.198,0.000,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11511
+    name: 九年如歌-拾光者泳池
+    classes: 115
+    type: 201
+    position: "0,1"
+    space: "9,13,0,0,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: 载满星光的游泳池。不会游泳也没关系，人形们贴心地为你准备了游泳圈——只是造型有些抢眼而已。
+    code: 2025Anniversay_deco_09_B,2025Anniversay_deco_09_C,2025Anniversay_deco_09_E,2025Anniversay_2,2025Anniversay_deco_09_F
+    texture_type: "1,1,1,2,1"
+    sorting: "0,0,10,5,1"
+    offset: "3.786,-0.042,0.000|-0.820,-0.042,0.000|0.240,-0.042,0.000|-0.117,0.632,0.077|-2.065,-0.042,0.000"
+    rotate: "2,2,2,2,2"
+    interact_point: "45"
+    interact_point_offset: *-1.079,2.448,0.797
+    touch_area: "3,3,3"
+  }
+  {
+    id: 11512
+    name: 九年如歌-我们的九年
+    classes: 115
+    type: 201
+    position: "23,0"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 九是最圆满的数字。何其有幸，我们能在彼此的陪伴下走过一段不可复得的青春。
+    code: 2025Anniversay_deco_10,2025Anniversay_3
+    texture_type: "1,2"
+    sorting: "0,0"
+    offset: "0.003,-0.083,0.358|-0.042,1.585,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11513
+    name: 九年如歌-欢宴时分
+    classes: 115
+    type: 201
+    position: "20,10"
+    space: "5,4,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 华灯倒映在香槟的瓶身，晚风拂过瓶口，吹响悠扬的竖笛——我们在此刻举起酒杯，庆祝相逢。
+    code: 2025Anniversay_deco_11_A,2025Anniversay_deco_11_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-1.220,0.014,0.000|0.164,0.014,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11514
+    name: 九年如歌-休憩时分
+    classes: 115
+    type: 201
+    position: "9,4"
+    space: "6,9,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: 星光洒落在倾斜的躺椅，水波拍打着池边，奏响轻缓的夜曲——我们在此刻舒展身心，尽享惬意。
+    code: 2025Anniversay_deco_12_A,2025Anniversay_deco_12_B,2025Anniversay_deco_12_C,2025Anniversay_deco_12_D,2025Anniversay_deco_12_E
+    texture_type: "1,1,1,1,1"
+    sorting: "10,0,15,5,10"
+    offset: "-0.057,0.033,-0.514|-0.057,0.033,-0.514|-0.057,0.043,-0.514|-0.057,0.043,-0.514|-0.067,0.033,-0.514"
+    rotate: "2,2,2,2,2"
+  }
+  {
     id: 20000
     name: 名汤·拉王
     classes: 81
@@ -30812,6 +31021,99 @@
     sorting: "5"
     offset: "0,0.05,0"
     rotate: "3"
+  }
+  {
+    id: 20167
+    name: 家园温柔如旧
+    classes: 81
+    type: 203
+    space: "12,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 欢迎回来，指挥官！在等待重逢的这段时间，我们可是把艾莫号养护打扫了一遍又一遍，每一根扶手都擦得锃亮呢！
+    code: 2025SteamReturn_01,SteamReturn,2025SteamReturn_02
+    texture_type: "1,2,1"
+    sorting: "-20,-10,0"
+    offset: "0.000,-1.022,0.000|0.000,0.146,0.000|0.000,-1.001,0.000"
+    rotate: "2,2,2"
+    interact_point: "83128"
+    interact_point_offset: *0.292,0.1,0
+  }
+  {
+    id: 20168
+    name: 潜行之匣
+    classes: 19
+    type: 201
+    space: "8,4,0,0,0,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 平平无奇的纸箱。虽然尺寸足以容纳一个人形，但除了猫大概没人想钻进去。“所以里面为什么会藏着托卡列夫啊……潜行道具？还可以这么用的吗？！”
+    code: 202505Activity_ 1
+    texture_type: "2"
+    sorting: "15"
+    offset: "-0.344,0.313,0.000"
+    rotate: "2"
+    touch_area: "3,3,3"
+  }
+  {
+    id: 20169
+    name: 禁锢之眼
+    classes: 19
+    type: 201
+    space: "3,3,0,0,0,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 配有禁锢效果的监控。冰冷的电子眼可以将敌人牢牢锁入其中，但这也无可厚非。毕竟在这里，它的仁慈和你的自由，都是一种奢侈品。
+    code: 202505Activity_ 2
+    texture_type: "2"
+    sorting: "15"
+    offset: "-0.094,0.156,-0.031"
+    rotate: "2"
+    touch_area: "3,5,3"
+  }
+  {
+    id: 20170
+    name: 溯游归墟勋章
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 表彰该指挥官及其麾下的战术人形在“溯源回归”活动中的卓越战绩，“原来硝烟消散的尽头，您的身影依旧于此留驻。”
+    code: 202505Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20171
+    name: 海报-2024卷积核
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2024限时活动-卷积核的特典海报。
+    code: pv_202412activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
+    id: 20172
+    name: 热烈欢迎
+    classes: 19
+    type: 201
+    space: "2,2,0,0,0,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 为了庆祝九周年的到来，格琳娜精心订制了一套气球装置，作为本次庆典的迎宾道具。虽然成品好像和本人想象中的不太一样……但既然经费已经花出去了，就要物尽其用！
+    code: Carnival202505
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "2,2,2"
   }
   {
     id: 30001
@@ -46943,6 +47245,426 @@
     rotate: "3"
   }
   {
+    id: 311201
+    name: SPAS-15-椒花典彩
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SPAS-15的海报
+    code: poster_NewYear2025_SPAS15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311202
+    name: 蟒蛇-斩，鹤羽之舞
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 蟒蛇的海报
+    code: poster_NewYear2025_Python
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311203
+    name: 沙维奇99型-春霞出游记
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 沙维奇99型的海报
+    code: poster_NewYear2025_Savage99
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311204
+    name: M37-伏见曦狐
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M37的海报
+    code: poster_NewYear2025_Ithaca37
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311205
+    name: ZiP .22-胧雾香蔼
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ZiP的海报
+    code: poster_NewYear2025_ZIP22
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311206
+    name: 阿斯特拉左轮-红梅怜我意
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 阿斯特拉左轮的海报
+    code: poster_NewYear2025_357
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311301
+    name: 马提尼亨利-朱灯垂
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 马提尼亨利的海报
+    code: poster_SpringFestival2025_MartiniHenry
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311302
+    name: M950A-苍竹吟
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M950A的海报
+    code: poster_SpringFestival2025_M950A
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311303
+    name: 卢萨-黛葫提
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 卢萨的海报
+    code: poster_SpringFestival2025_Lusa
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311304
+    name: 79式-离弦奏
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 79式的海报
+    code: poster_SpringFestival2025_79type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311305
+    name: C-MS-孟章彩
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: C-MS的海报
+    code: poster_SpringFestival2025_CBJMS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311306
+    name: Ak 5-丹墨抄
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Ak 5的海报
+    code: poster_SpringFestival2025_Ak5
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311307
+    name: A-91-芳醁醺
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: A-91的海报
+    code: poster_SpringFestival2025_A91
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311308
+    name: M500-福箱至
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M500的海报
+    code: poster_SpringFestival2025_M500
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311401
+    name: DSR-50-秘密誓约
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: DSR-50的海报
+    code: poster_WhiteValentina2025_DSR50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311402
+    name: G41-挚诚花语
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: G41的海报
+    code: poster_WhiteValentina2025_G41
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311403
+    name: MG5-融霜绽蕊
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MG5的海报
+    code: poster_WhiteValentina2025_MG5
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311405
+    name: 9A-91-注目倾心
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 9A-91的海报
+    code: poster_WhiteValentina2025_9A91
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311406
+    name: 汉阳造88式-沁羽澄意
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 汉阳造88式的海报
+    code: poster_WhiteValentina2025_88type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311407
+    name: 纳甘左轮-隽永之约
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 纳甘左轮的海报
+    code: poster_WhiteValentina2025_M1895
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311501
+    name: HK433-莫奈的白昼
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HK433的海报
+    code: poster_Anniversary2025_HK433
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311502
+    name: 95式-流光韶羽
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 95式的海报
+    code: poster_Anniversary2025_95type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311503
+    name: QBZ-191-玄衣卷月
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: QBZ-191的海报
+    code: poster_Anniversary2025_QBZ191
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311504
+    name: SIG MCX-红粉铁拳
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SIG MCX的海报
+    code: poster_Anniversary2025_SIGMCX
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311505
+    name: TAR-21-兰鸢花铃
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TAR-21的海报
+    code: poster_Anniversary2025_TAR21
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311506
+    name: G43-时砂之镜
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: G43的海报
+    code: poster_Anniversary2025_G43
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311507
+    name: 布伦·坦-甜梦圆舞曲
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 布伦·坦的海报
+    code: poster_Anniversary2025_BrenTen
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311508
+    name: 89式自-特调时分
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 89式自的海报
+    code: poster_Anniversary2025_HowaType89
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 330001
     name: ST AR-15-午夏憩风
     classes: 300
@@ -47297,6 +48019,81 @@
     decompose_gift: 100003
     description: PK的海报。
     code: poster_BattlePass_PK
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330026
+    name: CF05-沸腾的岁月
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: CF05的海报。
+    code: poster_BattlePass_06TypeSMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330027
+    name: M14-决胜强援
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M14的海报。
+    code: poster_BattlePass_M14
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330028
+    name: 贝奥武夫-海滨猎手
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 贝奥武夫的海报
+    code: poster_BattlePass_Beowulf
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330029
+    name: LTLX7000-仲夏夜之约
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LTLX7000的海报
+    code: poster_BattlePass_LTLX7000
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330030
+    name: FO-12-芭菲贝甜
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: FO-12的海报
+    code: poster_BattlePass_FO12
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

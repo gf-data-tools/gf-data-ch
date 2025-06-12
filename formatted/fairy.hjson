@@ -1250,6 +1250,40 @@
     mod_exp: 10
   }
   {
+    id: 37
+    name: 电磁妖精
+    code: em
+    description: “是我的回合，倒下吧！”
+    introduce: 拥有使敌方迟缓的能力，平时可用于加强对电子游戏上瘾的人形的管理。
+    type: 3
+    pow: 120
+    hit: 180
+    dodge: 40
+    grow: 120
+    proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
+    skill_id: "757249"
+    quality_exp: 100
+    quality_need_number: 1:0,2:100,3:200,4:350,5:550
+    category: 1
+    develop_duration: 18600
+    retiremp: 4
+    retireammo: 1
+    retiremre: 5
+    retirepart: 1
+    powerup_mp: 10
+    powerup_ammo: 3
+    powerup_mre: 14
+    powerup_part: 3
+    ai: 3000
+    avatar_offset: "0,20,0"
+    avatar_scale: "0.6,0.6,0.6"
+    picture_offset: "-100,-100,0"
+    picture_scale: "0.864,0.864,0.864"
+    org_id: 10502
+    obtain_ids: "519"
+    mod_exp: 10
+  }
+  {
     id: 1001
     name: 八重樱
     code: Sakura

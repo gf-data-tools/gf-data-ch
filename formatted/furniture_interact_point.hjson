@@ -818,6 +818,16 @@
     end_action: wait
   }
   {
+    id: 83128
+    gun_action: sleep
+    is_cover: -1
+    sorting: 15
+    furiniture_action_interact: ",action,"
+    direction: 1
+    bone_name: point
+    end_action: lying
+  }
+  {
     id: 83306
     gun_action: 3306_swim
     is_cover: -1

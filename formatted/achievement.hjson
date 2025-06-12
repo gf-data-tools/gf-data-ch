@@ -15,6 +15,8 @@
     type_sort: 2
     sort: 22
     icon_code: 获得N把不同枪支
+    if_steam: 1
+    steam_code: different_gun_10
   }
   {
     identity: 2
@@ -69,6 +71,8 @@
     type_sort: 2
     sort: 22
     icon_code: 获得N把不同枪支
+    if_steam: 1
+    steam_code: different_gun_60
   }
   {
     identity: 5
@@ -503,6 +507,8 @@
     type_sort: 2
     sort: 21
     icon_code: 首次获得N星人形
+    if_steam: 1
+    steam_code: if_rank5_gun_1
   }
   {
     identity: 30
@@ -927,6 +933,8 @@
     type_sort: 1
     sort: 2
     icon_code: 消灭N个敌人
+    if_steam: 1
+    steam_code: enemy_die_1
   }
   {
     identity: 56
@@ -959,6 +967,8 @@
     type_sort: 1
     sort: 2
     icon_code: 消灭N个敌人
+    if_steam: 1
+    steam_code: enemy_die_1000
   }
   {
     identity: 58
@@ -1152,6 +1162,8 @@
     type_sort: 1
     sort: 4
     icon_code: 胜利
+    if_steam: 1
+    steam_code: mission_win_1
   }
   {
     identity: 70
@@ -1184,6 +1196,8 @@
     type_sort: 1
     sort: 4
     icon_code: 胜利
+    if_steam: 1
+    steam_code: mission_win_100
   }
   {
     identity: 72
@@ -1264,6 +1278,8 @@
     type_sort: 1
     sort: 5
     icon_code: 失败
+    if_steam: 1
+    steam_code: mission_lose_1
   }
   {
     identity: 77
@@ -1487,6 +1503,8 @@
     type_sort: 11
     sort: 161
     icon_code: 后勤支援
+    if_steam: 1
+    steam_code: operation_1
   }
   {
     identity: 91
@@ -1519,6 +1537,8 @@
     type_sort: 11
     sort: 161
     icon_code: 后勤支援
+    if_steam: 1
+    steam_code: operation_100
   }
   {
     identity: 93
@@ -2989,6 +3009,8 @@
     sort: 41
     icon_code: 首次获得N星装备
     unlock_function: 2
+    if_steam: 1
+    steam_code: get_equip_rank5_1
   }
   {
     identity: 187
@@ -5059,6 +5081,8 @@
     type_sort: 7
     sort: 102
     icon_code: 誓约
+    if_steam: 1
+    steam_code: soul_bond_gun_1
   }
   {
     identity: 312
@@ -5186,6 +5210,8 @@
     type_sort: 7
     sort: 103
     icon_code: 150好感度
+    if_steam: 1
+    steam_code: favor150_gun_1
   }
   {
     identity: 320
@@ -5303,6 +5329,8 @@
     type_sort: 6
     sort: 81
     icon_code: 进行N次家居采购
+    if_steam: 1
+    steam_code: gasha_count_1
   }
   {
     identity: 328
@@ -5933,6 +5961,8 @@
     type_sort: 6
     sort: 87
     icon_code: 解锁N件装扮
+    if_steam: 1
+    steam_code: different_skin_1
   }
   {
     identity: 378
@@ -7208,6 +7238,8 @@
     type_sort: 6
     sort: 91
     icon_code: 收集N只不同的宠物
+    if_steam: 1
+    steam_code: adopt_pet_1
   }
   {
     identity: 472
@@ -8342,6 +8374,8 @@
     sort: 202
     icon_code: 获得妖精
     unlock_function: 1
+    if_steam: 1
+    steam_code: different_fairy_1
   }
   {
     identity: 547
@@ -9402,6 +9436,8 @@
     sort: 242
     icon_code: 解锁火力小组
     unlock_function: 15
+    if_steam: 1
+    steam_code: squad_get_type1_unit_1
   }
   {
     identity: 622
@@ -10533,6 +10569,8 @@
     sort: 247
     icon_code: 探索N小时
     unlock_function: 17
+    if_steam: 1
+    steam_code: explore_has_time_100
   }
   {
     identity: 751
@@ -11262,12 +11300,14 @@
     type: sangvis_daily_retrieval
     count: 5
     title: 草场捉虫
-    content: 累积完成5次融合势力单位常规回收。
+    content: 累计完成5次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
     prize_id: 640
     unlock_function: 21
+    if_steam: 1
+    steam_code: sangvis_daily_retrieval_5
   }
   {
     identity: 806
@@ -11276,7 +11316,7 @@
     user_exp: 60
     item_ids: 10604-2
     title: 烛影吞蛾
-    content: 累积完成20次融合势力单位常规回收。
+    content: 累计完成20次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11289,7 +11329,7 @@
     user_exp: 100
     item_ids: 10604-3
     title: 潭中捕蛇
-    content: 累积完成50次融合势力单位常规回收。
+    content: 累计完成50次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11302,7 +11342,7 @@
     user_exp: 200
     item_ids: 10604-4
     title: 平野猎兔
-    content: 累积完成100次融合势力单位常规回收。
+    content: 累计完成100次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11315,7 +11355,7 @@
     user_exp: 500
     item_ids: 10604-5
     title: 牧边收犬
-    content: 累积完成200次融合势力单位常规回收。
+    content: 累计完成200次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11328,7 +11368,7 @@
     user_exp: 1000
     item_ids: 10604-6
     title: 崖角追鹰
-    content: 累积完成400次融合势力单位常规回收。
+    content: 累计完成400次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11341,7 +11381,7 @@
     user_exp: 2000
     item_ids: 10604-7
     title: 林幽伏虎
-    content: 累积完成800次融合势力单位常规回收。
+    content: 累计完成800次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11354,7 +11394,7 @@
     user_exp: 3000
     item_ids: 10604-8
     title: 荒原逐象
-    content: 累积完成1500次融合势力单位常规回收。
+    content: 累计完成1500次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11367,7 +11407,7 @@
     user_exp: 4000
     item_ids: 10604-9
     title: 深海伐鲸
-    content: 累积完成3000次融合势力单位常规回收。
+    content: 累计完成3000次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11380,7 +11420,7 @@
     user_exp: 5000
     item_ids: 10604-10
     title: 沤梦寻蝶
-    content: 累积完成5000次融合势力单位常规回收。
+    content: 累计完成5000次融合势力单位常规回收。
     type_sort: 15
     sort: 271
     icon_code: 免费捕获
@@ -11393,7 +11433,7 @@
     user_exp: 30
     item_ids: 605-1
     title: 苍蝇拍
-    content: 累积完成5次融合势力单位协力回收。
+    content: 累计完成5次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11406,7 +11446,7 @@
     user_exp: 60
     item_ids: 605-1
     title: 蟑螂屋
-    content: 累积完成20次融合势力单位协力回收。
+    content: 累计完成20次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11419,7 +11459,7 @@
     user_exp: 100
     item_ids: 605-1
     title: 捕虫网
-    content: 累积完成50次融合势力单位协力回收。
+    content: 累计完成50次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11432,7 +11472,7 @@
     user_exp: 200
     item_ids: 605-2
     title: 钓鱼钩
-    content: 累积完成100次融合势力单位协力回收。
+    content: 累计完成100次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11445,7 +11485,7 @@
     user_exp: 500
     item_ids: 605-2
     title: 罗雀筐
-    content: 累积完成500次融合势力单位协力回收。
+    content: 累计完成500次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11458,7 +11498,7 @@
     user_exp: 1000
     item_ids: 605-2
     title: 熬鹰酒
-    content: 累积完成1000次融合势力单位协力回收。
+    content: 累计完成1000次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11471,7 +11511,7 @@
     user_exp: 2000
     item_ids: 605-2
     title: 圈羊栅
-    content: 累积完成2000次融合势力单位协力回收。
+    content: 累计完成2000次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11484,7 +11524,7 @@
     user_exp: 3000
     item_ids: 605-3
     title: 拦马索
-    content: 累积完成4000次融合势力单位协力回收。
+    content: 累计完成4000次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11497,7 +11537,7 @@
     user_exp: 4000
     item_ids: 605-3
     title: 打虎棍
-    content: 累积完成6000次融合势力单位协力回收。
+    content: 累计完成6000次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -11510,7 +11550,7 @@
     user_exp: 5000
     item_ids: 605-3
     title: 斩龙刀
-    content: 累积完成10000次融合势力单位协力回收。
+    content: 累计完成10000次融合势力单位协力回收。
     type_sort: 15
     sort: 272
     icon_code: 付费捕获
@@ -12495,7 +12535,7 @@
     user_exp: 60
     item_ids: 606-5
     title: 一来牵手
-    content: 累积完成融合势力单位认知灌输10次。
+    content: 累计完成融合势力单位认知灌输10次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12508,7 +12548,7 @@
     user_exp: 100
     item_ids: 606-10
     title: 二次交流
-    content: 累积完成融合势力单位认知灌输20次。
+    content: 累计完成融合势力单位认知灌输20次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12521,7 +12561,7 @@
     user_exp: 200
     item_ids: 606-10
     title: 三日危情
-    content: 累积完成融合势力单位认知灌输30次。
+    content: 累计完成融合势力单位认知灌输30次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12534,7 +12574,7 @@
     user_exp: 500
     item_ids: 606-15
     title: 四月谎言
-    content: 累积完成融合势力单位认知灌输40次。
+    content: 累计完成融合势力单位认知灌输40次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12547,7 +12587,7 @@
     user_exp: 1000
     item_ids: 606-20
     title: 五夜彷徨
-    content: 累积完成融合势力单位认知灌输50次。
+    content: 累计完成融合势力单位认知灌输50次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12560,7 +12600,7 @@
     user_exp: 2000
     item_ids: 606-25
     title: 六度相遇
-    content: 累积完成融合势力单位认知灌输60次。
+    content: 累计完成融合势力单位认知灌输60次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12573,7 +12613,7 @@
     user_exp: 3000
     item_ids: 606-30
     title: 八方连接
-    content: 累积完成融合势力单位认知灌输80次。
+    content: 累计完成融合势力单位认知灌输80次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12586,7 +12626,7 @@
     user_exp: 4000
     item_ids: 606-35
     title: 百年蔷薇
-    content: 累积完成融合势力单位认知灌输100次。
+    content: 累计完成融合势力单位认知灌输100次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -12599,7 +12639,7 @@
     user_exp: 5000
     item_ids: 606-40
     title: 补完计划
-    content: 累积完成融合势力单位认知灌输120次。
+    content: 累计完成融合势力单位认知灌输120次。
     type_sort: 15
     sort: 280
     icon_code: 数据交换
@@ -15393,6 +15433,8 @@
     sort: 309
     icon_code: 解锁不同载具图鉴
     unlock_function: 30
+    if_steam: 1
+    steam_code: different_vehicle_1
   }
   {
     identity: 1095
@@ -17551,7 +17593,7 @@
     part: 1000
     core: 5
     title: 阿克索的光辉
-    content: 卷积核-11-目眩的白：摧毁所有伊阿索之匣
+    content: 卷积核-11-目眩的白：摧毁所有伊阿索之匣。
     type_sort: 100
     sort: 332
     icon_code: 12月隐藏1
@@ -17568,10 +17610,486 @@
     part: 1000
     core: 5
     title: 最后的谢幕
-    content: 完整浏览卷积核制作人员名单
+    content: 完整浏览卷积核制作人员名单。
     type_sort: 100
     sort: 333
     icon_code: 12月隐藏2
     condition: "11868"
+  }
+  {
+    identity: 1230
+    type: c_mission
+    count: 1
+    title: 小规模铁血
+    content: 通关主线任务第1章。
+    type_sort: 100
+    sort: 334
+    condition: "10"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_1
+  }
+  {
+    identity: 1231
+    type: c_mission
+    count: 1
+    title: 遗落的方糖
+    content: 通关主线任务第2章。
+    type_sort: 100
+    sort: 334
+    condition: "20"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_2
+  }
+  {
+    identity: 1232
+    type: c_mission
+    count: 1
+    title: 猎手与诱饵
+    content: 通关主线任务第3章。
+    type_sort: 100
+    sort: 334
+    condition: "30"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_3
+  }
+  {
+    identity: 1233
+    type: c_mission
+    count: 1
+    title: 真正的剧目
+    content: 通关主线任务第4章。
+    type_sort: 100
+    sort: 334
+    condition: "40"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_4
+  }
+  {
+    identity: 1234
+    type: c_mission
+    count: 1
+    title: 起床时间到
+    content: 通关主线任务第5章。
+    type_sort: 100
+    sort: 334
+    condition: "50"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_5
+  }
+  {
+    identity: 1235
+    type: c_mission
+    count: 1
+    title: 最初的魔方
+    content: 通关常驻活动魔方行动+。
+    type_sort: 100
+    sort: 334
+    condition: "10025"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_5.5
+  }
+  {
+    identity: 1236
+    type: c_mission
+    count: 1
+    title: 她的选择
+    content: 通关主线任务第6章。
+    type_sort: 100
+    sort: 334
+    condition: "60"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_6
+  }
+  {
+    identity: 1237
+    type: c_mission
+    count: 1
+    title: 代理队长
+    content: 通关主线任务第7章。
+    type_sort: 100
+    sort: 334
+    condition: "70"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_7
+  }
+  {
+    identity: 1238
+    type: c_mission
+    count: 1
+    title: 木星炮之下
+    content: 通关常驻活动失温症。
+    type_sort: 100
+    sort: 334
+    condition: "10016"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_7.5
+  }
+  {
+    identity: 1239
+    type: c_mission
+    count: 1
+    title: 致以告别的人们
+    content: 通关主线任务第8章。
+    type_sort: 100
+    sort: 334
+    condition: "80"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_8
+  }
+  {
+    identity: 1240
+    type: c_mission
+    count: 1
+    title: 坠落之梦
+    content: 通关常驻活动深层映射。
+    type_sort: 100
+    sort: 334
+    condition: "10042"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_8.5
+  }
+  {
+    identity: 1241
+    type: c_mission
+    count: 1
+    title: 黑铁天平
+    content: 通关主线任务第9章。
+    type_sort: 100
+    sort: 334
+    condition: "90"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_9
+  }
+  {
+    identity: 1242
+    type: c_mission
+    count: 1
+    title: 我在此处，雨落下
+    content: 通关主线任务第10章。
+    type_sort: 100
+    sort: 334
+    condition: "100"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_10
+  }
+  {
+    identity: 1243
+    type: c_mission
+    count: 1
+    title: 最后的可能
+    content: 通关常驻活动塌缩点。
+    type_sort: 100
+    sort: 334
+    condition: "10087"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_10.5
+  }
+  {
+    identity: 1244
+    type: c_mission
+    count: 1
+    title: 握住那双手
+    content: 通关常驻活动有序紊流。
+    type_sort: 100
+    sort: 334
+    condition: "10144"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_10.75
+  }
+  {
+    identity: 1245
+    type: c_mission
+    count: 1
+    title: 构成灵魂的是
+    content: 通关主线任务第11章。
+    type_sort: 100
+    sort: 334
+    condition: "110"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_11
+  }
+  {
+    identity: 1246
+    type: c_mission
+    count: 1
+    title: 深红谢幕
+    content: 通关常驻活动异构体。
+    type_sort: 100
+    sort: 334
+    condition: "10252"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_11.5
+  }
+  {
+    identity: 1247
+    type: c_mission
+    count: 1
+    title: 昙花海
+    content: 通关常驻活动裂变链接。
+    type_sort: 100
+    sort: 334
+    condition: "10341"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_11.75
+  }
+  {
+    identity: 1248
+    type: c_mission
+    count: 1
+    title: 向你起誓
+    content: 通关主线任务第12章。
+    type_sort: 100
+    sort: 334
+    condition: "120"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_12
+  }
+  {
+    identity: 1249
+    type: c_mission
+    count: 1
+    title: 荣光永在
+    content: 通关常驻活动偏振光。
+    type_sort: 100
+    sort: 334
+    condition: "10473"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_12.5
+  }
+  {
+    identity: 1250
+    type: c_mission
+    count: 1
+    title: 重组破碎之物
+    content: 通关主线任务第13章。
+    type_sort: 100
+    sort: 334
+    condition: "130"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13
+  }
+  {
+    identity: 1251
+    type: c_mission
+    count: 1
+    title: 谜团缠绕
+    content: 通关常驻活动双联乱数。
+    type_sort: 100
+    sort: 334
+    condition: "10579"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13.25
+  }
+  {
+    identity: 1252
+    type: c_mission
+    count: 1
+    title: 再见罗宾
+    content: 通关常驻活动镜像论。
+    type_sort: 100
+    sort: 334
+    condition: "10741"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13.5
+  }
+  {
+    identity: 1253
+    type: c_mission
+    count: 1
+    title: 格里芬效应
+    content: 通关常驻活动熵减焓增。
+    type_sort: 100
+    sort: 334
+    condition: "10904"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13.75
+  }
+  {
+    identity: 1254
+    type: c_mission
+    count: 1
+    title: 真正的方向
+    content: 通关常驻活动静风点。
+    type_sort: 100
+    sort: 334
+    condition: "11082"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13.8
+  }
+  {
+    identity: 1255
+    type: c_mission
+    count: 1
+    title: 列车的故事
+    content: 通关常驻活动纵向应变。
+    type_sort: 100
+    sort: 334
+    condition: "11210"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13.9
+  }
+  {
+    identity: 1256
+    type: c_mission
+    count: 1
+    title: 日与月
+    content: 通关常驻活动沙罗蚀相。
+    type_sort: 100
+    sort: 334
+    condition: "11259,11260"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_13.95
+  }
+  {
+    identity: 1257
+    type: c_mission
+    count: 1
+    title: 安娜
+    content: 通关常驻活动慢休克。
+    type_sort: 100
+    sort: 334
+    condition: "11418"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_14
+  }
+  {
+    identity: 1258
+    type: c_mission
+    count: 1
+    title: 最可爱的人形
+    content: 通关常驻活动错构之泉。
+    type_sort: 100
+    sort: 334
+    condition: "11658"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.1
+  }
+  {
+    identity: 1259
+    type: c_mission
+    count: 1
+    title: 苏醒
+    content: 通关常驻活动22重困境。
+    type_sort: 100
+    sort: 334
+    condition: "11687"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.2
+  }
+  {
+    identity: 1260
+    type: c_mission
+    count: 1
+    title: 雪与血
+    content: 通关常驻活动零电荷。
+    type_sort: 100
+    sort: 334
+    condition: "11723"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.3
+  }
+  {
+    identity: 1261
+    type: c_mission
+    count: 1
+    title: 重逢与暂别
+    content: 通关常驻活动银染显影。
+    type_sort: 100
+    sort: 334
+    condition: "11754"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.4
+  }
+  {
+    identity: 1262
+    type: c_mission
+    count: 1
+    title: 拉普拉斯之死
+    content: 通关常驻活动孤立丛林。
+    type_sort: 100
+    sort: 334
+    condition: "11780"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.5
+  }
+  {
+    identity: 1263
+    type: c_mission
+    count: 1
+    title: 勇敢的人
+    content: 通关常驻活动卷积核。
+    type_sort: 100
+    sort: 334
+    condition: "11868"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.75
+  }
+  {
+    identity: 1264
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 零之奇迹
+    content: 溯源回归-全网公敌：成功救援所有人质并获得胜利。
+    type_sort: 100
+    sort: 335
+    icon_code: 人质解救
+    condition: 11885:1188502,11891:1188502,11895:1189502
+  }
+  {
+    identity: 1265
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 无援的传说
+    content: 溯源回归-零零五：在不使用控制台的情况下完成关卡。
+    type_sort: 100
+    sort: 336
+    icon_code: 不使用控制台
+    condition: 11887:1188702,11892:1188702,11896:1189602
   }
 ]

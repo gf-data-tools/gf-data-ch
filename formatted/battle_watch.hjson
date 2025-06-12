@@ -523,6 +523,13 @@
     new_record_chara1: 1000009494
   }
   {
+    id: 1101
+    description: 汤姆森套装被攻击监视
+    watch_trigger_type: 2
+    activation_watch_trigger: 1101
+    activation_skills: "1004806"
+  }
+  {
     id: 2001
     description: 英雄妖精掉编监视
     max_times: 1
@@ -623,6 +630,18 @@
     activation_watch_trigger: 4002
     activation_skills: "992498"
     sp_skill_target: "1"
+  }
+  {
+    id: 4007
+    description: AK12离场监视
+    watch_trigger_type: 6
+    activation_skills: "992536"
+  }
+  {
+    id: 4008
+    description: AK12死亡监视
+    watch_trigger_type: 7
+    activation_skills: "992536"
   }
   {
     id: 5001

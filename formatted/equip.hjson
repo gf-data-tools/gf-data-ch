@@ -3598,8 +3598,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:1000,hit:1000
+    passive_skill: "1005301"
     max_level: 10
     auto_select_id: 18023
+    group_id: "48"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -4803,8 +4805,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:900,hit:500
+    passive_skill: "1006201"
     max_level: 10
     auto_select_id: 18044
+    group_id: "52"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -5105,8 +5109,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:300,critical_percent:1000,pow:1000
+    passive_skill: "1005201"
     max_level: 10
     auto_select_id: 18049
+    group_id: "47"
     is_show: 1
     obtain_ids: "3055,3096"
   }
@@ -6118,8 +6124,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: pow:500,hit:1000
+    passive_skill: "1006501"
     max_level: 10
     auto_select_id: 20032
+    group_id: "54"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -6189,6 +6197,7 @@
     auto_select_id: 18063
     is_show: 1
     obtain_ids: "3016"
+    description_skill: 902133
   }
   {
     id: 208
@@ -6449,8 +6458,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:500,pow:1000
+    passive_skill: "1005501"
     max_level: 10
     auto_select_id: 19026
+    group_id: "50"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -7121,11 +7132,13 @@
     exclusive_rate: 3
     bonus_type: dodge:600
     skill: 116202
-    passive_skill: "116201"
+    passive_skill: "116201,1004801"
     max_level: 10
     auto_select_id: 20036
+    group_id: "45"
     is_show: 1
     obtain_ids: "3007,3096"
+    description_skill: 116201
   }
   {
     id: 237
@@ -7154,9 +7167,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:500
-    passive_skill: "100507"
+    passive_skill: "100507,1006101"
     max_level: 10
     auto_select_id: 20037
+    group_id: "51"
     is_show: 1
     obtain_ids: "3008,3096"
     description_skill: 100507
@@ -7259,8 +7273,10 @@
     powerup_part: 0.33
     exclusive_rate: 3
     bonus_type: armor:500
+    passive_skill: "1006801"
     max_level: 10
     auto_select_id: 20038
+    group_id: "56"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -9124,9 +9140,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: hit:1000
-    passive_skill: "300903"
+    passive_skill: "300903,1004901"
     max_level: 10
     auto_select_id: 19043
+    group_id: "46"
     is_show: 1
     obtain_ids: "3016"
     sp_description: 梯队命中+10%
@@ -9749,9 +9766,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:800
-    passive_skill: "759065"
+    passive_skill: "759065,1005401"
     max_level: 10
     auto_select_id: 18107
+    group_id: "49"
     is_show: 1
     obtain_ids: "3074,3096"
     description_skill: 759065
@@ -11042,7 +11060,7 @@
     max_level: 10
     auto_select_id: 20063
     is_show: 1
-    obtain_ids: "3098"
+    obtain_ids: "3098,3096"
   }
   {
     id: 354
@@ -11408,7 +11426,7 @@
     max_level: 10
     auto_select_id: 20069
     is_show: 1
-    obtain_ids: "3090"
+    obtain_ids: "3090,3096"
     description_skill: 759267
   }
   {
@@ -11509,7 +11527,7 @@
     max_level: 10
     auto_select_id: 20071
     is_show: 1
-    obtain_ids: "3091"
+    obtain_ids: "3091,3096"
     description_skill: 759279
   }
   {
@@ -11609,7 +11627,7 @@
     max_level: 10
     auto_select_id: 19069
     is_show: 1
-    obtain_ids: "3092"
+    obtain_ids: "3092,3096"
     description_skill: 759291
   }
   {
@@ -11713,7 +11731,7 @@
     max_level: 10
     auto_select_id: 19071
     is_show: 1
-    obtain_ids: "3101"
+    obtain_ids: "3101,3096"
     description_skill: 759304
   }
   {
@@ -11818,7 +11836,7 @@
     max_level: 10
     auto_select_id: 20074
     is_show: 1
-    obtain_ids: "3102"
+    obtain_ids: "3102,3096"
     description_skill: 759316
   }
   {
@@ -12143,11 +12161,12 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,critical_percent:1000
-    passive_skill: "1000301"
+    passive_skill: "1000301,1006701"
     max_level: 10
     auto_select_id: 18118
+    group_id: "55"
     is_show: 1
-    obtain_ids: "3103"
+    obtain_ids: "3103,3096"
     description_skill: 1000301
   }
   {
@@ -12352,7 +12371,7 @@
     max_level: 10
     auto_select_id: 19075
     is_show: 1
-    obtain_ids: "3104"
+    obtain_ids: "3104,3096"
     description_skill: 1001001
   }
   {
@@ -12454,7 +12473,7 @@
     max_level: 10
     auto_select_id: 20082
     is_show: 1
-    obtain_ids: "3114"
+    obtain_ids: "3114,3096"
   }
   {
     id: 396
@@ -12725,7 +12744,7 @@
     max_level: 10
     auto_select_id: 19080
     is_show: 1
-    obtain_ids: "3106"
+    obtain_ids: "3106,3096"
     description_skill: 1001601
   }
   {
@@ -12790,9 +12809,10 @@
     powerup_part: 0.16
     exclusive_rate: 3
     bonus_type: critical_harm_rate:500,pow:1000
-    passive_skill: "759059"
+    passive_skill: "759059,1006401"
     max_level: 10
     auto_select_id: 20084
+    group_id: "53"
     is_show: 1
     obtain_ids: "3115"
     sp_description: 前置冷却-80%
@@ -13005,7 +13025,7 @@
     max_level: 10
     auto_select_id: 18120
     is_show: 1
-    obtain_ids: "3116"
+    obtain_ids: "3116,3096"
   }
   {
     id: 412
@@ -13073,7 +13093,7 @@
     max_level: 10
     auto_select_id: 20089
     is_show: 1
-    obtain_ids: "3108"
+    obtain_ids: "3108,3096"
     description_skill: 1002201
   }
   {
@@ -13892,5 +13912,657 @@
     is_show: 1
     obtain_ids: "3120"
     sp_description: 梯队伤害+5%
+  }
+  {
+    id: 438
+    name: 套娃挂饰
+    description:
+      '''
+      射速<rate> 伤害+<pow>
+      暴击概率+<critical_percent><%>技能增强$菲德洛夫专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    rate: "-8,-5"
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_Fedorov
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "335"
+    equip_introduction: 队友赠送的挂饰，希望菲德洛夫可以摆脱顾虑，是她非常珍爱的装饰品。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "1004701"
+    max_level: 10
+    auto_select_id: 18095
+    is_show: 1
+    obtain_ids: "3125"
+    description_skill: 1004701
+  }
+  {
+    id: 439
+    name: TS特制防跳器
+    description:
+      '''
+      回避+<dodge>
+      暴击概率+<critical_percent><%>$汤姆森专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "7,10"
+    critical_percent: "8,11"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: Accessories_SP_M1928A1
+    develop_duration: 2820
+    company: IOP
+    fit_guns: "16"
+    equip_introduction: 为汤姆森特制的防跳器，枪口帽上方有多道排气口，可以抵消不少枪口上跳力矩。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: dodge:500,critical_percent:1000
+    passive_skill: "1004802"
+    max_level: 10
+    auto_select_id: 18096
+    group_id: "45"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 440
+    name: 92式外骨骼
+    description:
+      '''
+      回避+<dodge>
+      $92式改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "11,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_92typeMod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20013"
+    equip_introduction: 制作使用的都是很常见的材料，虽然说性能不是最高的，但性价比极高。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1004902"
+    max_level: 10
+    auto_select_id: 20095
+    group_id: "46"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 441
+    name: TLL加强弹
+    description:
+      '''
+      伤害+<pow>
+      技能增强$AK-阿尔法专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "10,15"
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: Magazine_SP_AKAlfa
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "306"
+    equip_introduction: 专门为AK-阿尔法开发的.223口径步枪弹，甚至在设计里还加上了一些科幻元素。
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:700
+    passive_skill: "1005001"
+    max_level: 10
+    auto_select_id: 19089
+    is_show: 1
+    obtain_ids: "3125"
+    description_skill: 1005001
+  }
+  {
+    id: 442
+    name: 老式翻盖手机
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>$MDR专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "5,8"
+    rate: "-5,-1"
+    critical_harm_rate: "18,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_MDR
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "215"
+    equip_introduction: MDR自行改装后的老式手机，基本能满足常规的通信需求，并且可以实现MDR渴望的按键发射感。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,critical_harm_rate:400
+    passive_skill: "1005202"
+    max_level: 10
+    auto_select_id: 20096
+    group_id: "47"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 443
+    name: 战术外套
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      射速+<rate>$M14改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    rate: "1,3"
+    critical_harm_rate: "11,15"
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_M14Mod
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "20037"
+    equip_introduction: 作为经过周密设计后焕然一新的战术装备，从外表看和普通外套没啥区别，实际却有着很多特殊的功能。
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:700,rate:700
+    passive_skill: "1005302"
+    max_level: 10
+    auto_select_id: 20097
+    group_id: "48"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 444
+    name: 6.5mmCM弹
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      穿甲+<armor_piercing>技能增强$Mk48专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_harm_rate: "3,5"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_Mk48
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "121"
+    equip_introduction: 针对远程精确射击做了专门改进，弹道性能获得了极大提升。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_harm_rate:1000
+    passive_skill: "1005101"
+    max_level: 10
+    auto_select_id: 19090
+    is_show: 1
+    obtain_ids: "3125"
+    description_skill: 1005101
+  }
+  {
+    id: 445
+    name: FP翼型盾
+    description:
+      '''
+      护甲+<armor> 移速+<speed>
+      $FP-6专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "3,3"
+    armor: "6,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_FP6
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "164"
+    equip_introduction: 选用飞翼造型制作的盾牌，行动更加便捷，是FP-6最常使用的装备。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.33
+    exclusive_rate: 3
+    bonus_type: armor:500
+    passive_skill: "1005402"
+    max_level: 10
+    auto_select_id: 20098
+    group_id: "49"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 446
+    name: 战术眼镜
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      命中+<hit>$80式改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "14,16"
+    critical_percent: "18,20"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_80typeMod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20199"
+    equip_introduction: 虽然不需要进行视力矫正，但还是委托IOP制作的眼镜，戴上后但愿不会再吓到别人。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000,critical_percent:1000
+    passive_skill: "1005502"
+    max_level: 10
+    auto_select_id: 18121
+    group_id: "50"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 447
+    name: 专用盘形弹鼓
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      暴击概率+<critical_percent><%>技能增强$刘易斯专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "2,3"
+    hit: "3,5"
+    critical_percent: "21,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_Lewis
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "253"
+    equip_introduction: 在敦实的厚圆盘外表下，是大型弹鼓少有的高实用性，削减了华而不实的设计后改进得更加轻便可靠。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000,pow:1000,critical_percent:1000
+    passive_skill: "1005601"
+    max_level: 10
+    auto_select_id: 18122
+    is_show: 1
+    obtain_ids: "3125"
+    description_skill: 1005601
+  }
+  {
+    id: 448
+    name: GMV信号枪
+    description:
+      '''
+      命中+<hit>
+      梯队命中+20%$灰熊MkⅤ专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Grizzly
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "96"
+    equip_introduction: 在原有设计基础上改装为运动升级版，可以有效地将信息传递给附近的队员。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006102,759034"
+    max_level: 10
+    auto_select_id: 19091
+    group_id: "51"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队命中+20%
+  }
+  {
+    id: 449
+    name: 伯莱塔信号枪
+    description:
+      '''
+      命中+<hit>
+      梯队命中+20%$伯莱塔38型改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_MAB38Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20031"
+    equip_introduction: 可以用于发射联络和遇险求救信号，是伯莱塔38型一直随身携带的信号手枪。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006202,759034"
+    max_level: 10
+    auto_select_id: 19092
+    group_id: "52"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队命中+20%
+  }
+  {
+    id: 450
+    name: 执勤警帽
+    description:
+      '''
+      命中+<hit>
+      回避+<dodge>技能增强$超级肖蒂专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "12,18"
+    dodge: "3,5"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_SuperShorty
+    develop_duration: 3000
+    company: IOP
+    fit_guns: "156"
+    equip_introduction: 超级肖蒂执勤时经常佩戴的帽子，可能可以在人群中更显眼一点。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006301"
+    max_level: 10
+    auto_select_id: 18124
+    is_show: 1
+    obtain_ids: "321"
+    description_skill: 1006301
+  }
+  {
+    id: 451
+    name: 爆裂义手
+    description:
+      '''
+      暴击概率+<critical_percent><%> 回避<dodge>
+      暴击伤害+<critical_harm_rate><%>$M4 SOPMODII专用
+      '''
+    rank: 5
+    category: 1
+    type: 16
+    dodge: "-6,-6"
+    critical_harm_rate: "8,10"
+    critical_percent: "21,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: Accessories_SP_M4SOPMODII
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "56,20056"
+    equip_introduction: 全新升级了破坏能力后的义手，在"香蕉"的增幅下能发挥出不可小觑的力量。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:500,critical_percent:1000
+    passive_skill: "1006001"
+    max_level: 10
+    auto_select_id: 18123
+    is_show: 1
+    obtain_ids: "3133"
+    description_skill: 1006001
+  }
+  {
+    id: 452
+    name: BC抑制装置
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      射速+<rate>$DSR-50专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    rate: "1,2"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_DSR50
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "179"
+    equip_introduction: 专门为DSR-50设计的抑制器，可以大幅降低发射时产生的噪音。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: rate:1000,critical_percent:1000
+    passive_skill: "1006402"
+    max_level: 10
+    auto_select_id: 18124
+    group_id: "53"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 453
+    name: GL加强弹
+    description:
+      '''
+      伤害+<pow>
+      $加利尔改型专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "10,14"
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: Magazine_SP_ARMod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20071"
+    equip_introduction: 结合加利尔的喜好特别设计的子弹，拥有不俗的杀伤力。
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:750
+    passive_skill: "1006502"
+    max_level: 10
+    auto_select_id: 19093
+    group_id: "54"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 454
+    name: 护盾反应装甲
+    description:
+      '''
+      命中+<hit>
+      护甲+<armor>技能增强$S.A.T.8专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "3,5"
+    armor: "3,6"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_SAT8
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "188"
+    equip_introduction: S.A.T.8独具一格的反应装甲，面对敌人的榴弹，破甲弹甚至导弹都能碰上一碰。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:1000,hit:1000
+    passive_skill: "1006601"
+    max_level: 10
+    auto_select_id: 20099
+    is_show: 1
+    obtain_ids: "3126"
+    description_skill: 1006601
+  }
+  {
+    id: 455
+    name: 新式特制装具
+    description:
+      '''
+      暴击伤害+<critical_harm_rate><%>
+      弹量+<bullet_number_up>$MG5专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_harm_rate: "3,5"
+    bullet_number_up: "3,5"
+    retire_mp: 1
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 5
+    code: TDoll_SP_MG5
+    develop_duration: 3420
+    company: IOP
+    fit_guns: "109"
+    equip_introduction: 独一无二的特制单兵装具，可以容纳大量物品并且还可以分门别类摆放，用处也非常独特。
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:1000,critical_harm_rate:1000
+    passive_skill: "1006702"
+    max_level: 10
+    auto_select_id: 20100
+    group_id: "55"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 456
+    name: 红星挂坠
+    description:
+      '''
+      命中+<hit>
+      回避+<dodge>$RMB-93改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "12,18"
+    dodge: "3,5"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_RMB93Mod
+    develop_duration: 3000
+    company: IOP
+    fit_guns: "20159"
+    equip_introduction: 象征着荣誉和信任的挂坠，鞭策着RMB-93更谨慎地去遵守条款里的规定。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006802"
+    max_level: 10
+    auto_select_id: 18125
+    group_id: "56"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]

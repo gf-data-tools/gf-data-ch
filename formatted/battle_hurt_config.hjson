@@ -14,6 +14,7 @@
     id: 2
     description: 榴弹
     damage_ratio: *201
+    is_critical_hit: 1000009673
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
@@ -126,6 +127,7 @@
     description: 巨羚号角1
     damage_ratio: *201
     target_move: "2"
+    is_critical_hit: 1000467601
     critical_hit_rate: "100"
     float_wide: 15
     beat_back_percent: *204
@@ -138,6 +140,7 @@
     description: 巨羚号角2
     damage_ratio: *202
     target_move: "2"
+    is_critical_hit: 1000467601
     critical_hit_rate: "100"
     float_wide: 15
     beat_back_percent: *204
@@ -150,6 +153,7 @@
     description: 巨羚号角3
     damage_ratio: *203
     target_move: "2"
+    is_critical_hit: 1000467601
     critical_hit_rate: "100"
     float_wide: 15
     beat_back_percent: *204
@@ -173,8 +177,8 @@
   {
     id: 16
     description: 暴动宣告
-    damage_ratio: "150"
-    is_critical_hit: 1
+    damage_ratio: "100"
+    is_critical_hit: 2
     critical_hit_rate: "100"
     float_wide: 15
     is_miss: 1
@@ -2786,10 +2790,10 @@
     critical_hit_rate: "100"
     float_wide: 15
     beat_back_percent: "99"
-    buff_id_target: 4334:1
+    buff_id_target: 4334:1,9847:1000009811
     buff_rate: "100"
     target_move_percent: "100"
-    target_skill: 500104
+    target_skill: 1006805
     hit_type: 1
   }
   {
@@ -4603,7 +4607,7 @@
   {
     id: 719
     description: 黑卡蒂攻击
-    damage_ratio: *201
+    damage_ratio: "100"
     is_critical_hit: 1000009524
     critical_hit_rate: "100"
     float_wide: 15
@@ -4637,6 +4641,75 @@
     damage_ratio: *202
     critical_hit_rate: "100"
     float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 750
+    description: M14套装普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009640"
+  }
+  {
+    id: 751
+    description: HTI立姿攻击
+    damage_ratio: *103
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 752
+    description: HTI腰姿攻击
+    damage_ratio: *101
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009658"
+  }
+  {
+    id: 753
+    description: HTI卧姿攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_self: 9780:1
+    buff_rate: *204
+    hit_type: 1
+  }
+  {
+    id: 754
+    description: HTI卧姿标记子弹
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 9782:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 755
+    description: DSR-50狙击
+    damage_ratio: *201
+    is_critical_hit: 1000009806
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_self: 9821:1000009806
+    buff_rate: "100"
     hit_type: 1
   }
   {
@@ -10943,6 +11016,7 @@
     id: 2681
     description: 连珠终结MG5
     damage_ratio: *201
+    is_critical_hit: 2
     critical_hit_rate: "100"
     float_wide: 15
     is_armor: 1

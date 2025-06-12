@@ -14963,7 +14963,7 @@
     priority: 1
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "-1"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 660091
@@ -14979,7 +14979,7 @@
     priority: 1
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "-1"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 660092
@@ -14995,7 +14995,7 @@
     priority: 1
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "-1"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 660093
@@ -16495,6 +16495,376 @@
     death_effect_target_type: "-1"
     effect_duration: 1008
     effect_conditions: "1"
+  }
+  {
+    id: 750001
+    name: 【标记】陷阱生效
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750011
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750001
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750002
+    name: 【标记】陷阱生效
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750012
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750002
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750003
+    name: 【标记】陷阱生效
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750013
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750003
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750004
+    name: 【标记】陷阱生效
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750014
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750004
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750005
+    name: 【标记】陷阱生效
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750015
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750005
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750006
+    name: 【标记】陷阱生效
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750016
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750006
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750008
+    name: 【标记】未失败判定
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750011
+    name: 【标记】陷阱触发
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "750001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750012
+    name: 【标记】陷阱触发
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "750001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750013
+    name: 【标记】陷阱触发
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "750001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750014
+    name: 【标记】陷阱触发
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "750001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750015
+    name: 【标记】陷阱触发
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "750001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750016
+    name: 【标记】陷阱触发
+    priority: 2
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "750001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750018
+    name: 【标记】失败判定
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750212
+    name: 终点抵达
+    code: TargetPoint_Radar
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750212
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750401
+    name: 【标记】终点标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 750411
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750401
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 750411
+    name: 终点抵达
+    code: TargetPoint_Radar
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 750411
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 751401
+    name: 【标记】待机次数
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 751401
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 751411
+    name: 【标记】待机CD
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 751411
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 751501
+    name: 【标记】乱石堆
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 751501
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+    spot_buff_config_id: 3
   }
   {
     id: 900001

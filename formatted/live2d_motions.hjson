@@ -1472,6 +1472,745 @@
     level: 30
   }
   {
+    id: 21201
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 21202
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|NPC_Kalina|DIALOGUE2
+    text: GUN|NPC_Kalina|DIALOGUE2
+    name: 交互1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 21203
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|NPC_Kalina|PHRASE
+    text: GUN|NPC_Kalina|PHRASE
+    name: 交互2
+    voice_code: PHRASE
+  }
+  {
+    id: 21204
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|NPC_Kalina|DIALOGUE6
+    text: GUN|NPC_Kalina|DIALOGUE6
+    name: 交互3
+    delay: 1000
+    voice_code: DIALOGUE6
+  }
+  {
+    id: 21205
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 21206
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|NPC_Kalina|HELLO
+    text: GUN|NPC_Kalina|HELLO
+    name: 上线响应
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 21207
+    type: 600
+    motion_name: motions/enter.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_001
+    text: NPC|mall|kanban_musume_001
+    camera: 1
+  }
+  {
+    id: 21208
+    type: 600
+    motion_name: motions/enter.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_002
+    text: NPC|mall|kanban_musume_002
+    camera: 1
+  }
+  {
+    id: 21209
+    type: 600
+    motion_name: motions/enter.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_033
+    text: NPC|mall|kanban_musume_033
+    camera: 1
+  }
+  {
+    id: 21210
+    type: 600
+    motion_name: motions/enter.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_004
+    text: NPC|mall|kanban_musume_004
+    camera: 1
+  }
+  {
+    id: 21211
+    type: 600
+    motion_name: motions/enter.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_005
+    text: NPC|mall|kanban_musume_005
+    camera: 1
+  }
+  {
+    id: 21212
+    type: 700
+    motion_name: motions/buy.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_038
+    text: NPC|buy|kanban_musume_038
+    camera: 1
+  }
+  {
+    id: 21213
+    type: 700
+    motion_name: motions/buy.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_039
+    text: NPC|buy|kanban_musume_039
+    camera: 1
+  }
+  {
+    id: 21214
+    type: 700
+    motion_name: motions/buy.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_040
+    text: NPC|buy|kanban_musume_040
+    camera: 1
+  }
+  {
+    id: 21215
+    type: 700
+    motion_name: motions/buy.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_041
+    text: NPC|buy|kanban_musume_041
+    camera: 1
+  }
+  {
+    id: 21216
+    type: 700
+    motion_name: motions/buy.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_042
+    text: NPC|buy|kanban_musume_042
+    camera: 1
+  }
+  {
+    id: 21217
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_003
+    text: NPC|level|kanban_musume_003
+  }
+  {
+    id: 21218
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_032
+    text: NPC|level|kanban_musume_032
+  }
+  {
+    id: 21219
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_049
+    text: NPC|level|kanban_musume_049
+  }
+  {
+    id: 21220
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_008
+    text: NPC|level|kanban_musume_008
+    camera: 1
+    level: 1
+  }
+  {
+    id: 21221
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_024
+    text: NPC|level|kanban_musume_024
+    level: 2
+  }
+  {
+    id: 21222
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_050
+    text: NPC|level|kanban_musume_050
+    level: 3
+  }
+  {
+    id: 21223
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_011
+    text: NPC|level|kanban_musume_011
+    level: 4
+  }
+  {
+    id: 21224
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_007
+    text: NPC|level|kanban_musume_007
+    level: 5
+  }
+  {
+    id: 21225
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_018
+    text: NPC|level|kanban_musume_018
+    level: 6
+  }
+  {
+    id: 21226
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_055
+    text: NPC|level|kanban_musume_055
+    level: 7
+  }
+  {
+    id: 21227
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_012
+    text: NPC|level|kanban_musume_012
+    level: 8
+  }
+  {
+    id: 21228
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_009
+    text: NPC|level|kanban_musume_009
+    level: 9
+  }
+  {
+    id: 21229
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_052
+    text: NPC|level|kanban_musume_052
+    level: 10
+  }
+  {
+    id: 21230
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_029
+    text: NPC|level|kanban_musume_029
+    level: 11
+  }
+  {
+    id: 21231
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_006
+    text: NPC|level|kanban_musume_006
+    level: 12
+  }
+  {
+    id: 21232
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_054
+    text: NPC|level|kanban_musume_054
+    level: 13
+  }
+  {
+    id: 21233
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_020
+    text: NPC|level|kanban_musume_020
+    level: 14
+  }
+  {
+    id: 21234
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_036
+    text: NPC|level|kanban_musume_036
+    level: 15
+  }
+  {
+    id: 21235
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_023
+    text: NPC|level|kanban_musume_023
+    level: 16
+  }
+  {
+    id: 21236
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_056
+    text: NPC|level|kanban_musume_056
+    level: 17
+  }
+  {
+    id: 21237
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_025
+    text: NPC|level|kanban_musume_025
+    level: 18
+  }
+  {
+    id: 21238
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_034
+    text: NPC|level|kanban_musume_034
+    level: 19
+  }
+  {
+    id: 21239
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_010
+    text: NPC|level|kanban_musume_010
+    level: 20
+  }
+  {
+    id: 21240
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_022
+    text: NPC|level|kanban_musume_022
+    level: 21
+  }
+  {
+    id: 21241
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_053
+    text: NPC|level|kanban_musume_053
+    level: 22
+  }
+  {
+    id: 21242
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_037
+    text: NPC|level|kanban_musume_037
+    level: 23
+  }
+  {
+    id: 21243
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_014
+    text: NPC|level|kanban_musume_014
+    level: 24
+  }
+  {
+    id: 21244
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_028
+    text: NPC|level|kanban_musume_028
+    level: 25
+  }
+  {
+    id: 21245
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_051
+    text: NPC|level|kanban_musume_051
+    level: 26
+  }
+  {
+    id: 21246
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_021
+    text: NPC|level|kanban_musume_021
+    level: 27
+  }
+  {
+    id: 21247
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_013
+    text: NPC|level|kanban_musume_013
+    level: 28
+  }
+  {
+    id: 21248
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_030
+    text: NPC|level|kanban_musume_030
+    level: 29
+  }
+  {
+    id: 21249
+    type: 800
+    motion_name: motions/LVup.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_031
+    text: NPC|level|kanban_musume_031
+    level: 30
+  }
+  {
+    id: 21250
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_003
+    text: NPC|level|kanban_musume_003
+  }
+  {
+    id: 21251
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_032
+    text: NPC|level|kanban_musume_032
+  }
+  {
+    id: 21252
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_049
+    text: NPC|level|kanban_musume_049
+  }
+  {
+    id: 21253
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_008
+    text: NPC|level|kanban_musume_008
+    level: 1
+  }
+  {
+    id: 21254
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_024
+    text: NPC|level|kanban_musume_024
+    level: 2
+  }
+  {
+    id: 21255
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_050
+    text: NPC|level|kanban_musume_050
+    level: 3
+  }
+  {
+    id: 21256
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_011
+    text: NPC|level|kanban_musume_011
+    level: 4
+  }
+  {
+    id: 21257
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_007
+    text: NPC|level|kanban_musume_007
+    level: 5
+  }
+  {
+    id: 21258
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_018
+    text: NPC|level|kanban_musume_018
+    level: 6
+  }
+  {
+    id: 21259
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_055
+    text: NPC|level|kanban_musume_055
+    level: 7
+  }
+  {
+    id: 21260
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_012
+    text: NPC|level|kanban_musume_012
+    level: 8
+  }
+  {
+    id: 21261
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_009
+    text: NPC|level|kanban_musume_009
+    level: 9
+  }
+  {
+    id: 21262
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_052
+    text: NPC|level|kanban_musume_052
+    level: 10
+  }
+  {
+    id: 21263
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_029
+    text: NPC|level|kanban_musume_029
+    level: 11
+  }
+  {
+    id: 21264
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_006
+    text: NPC|level|kanban_musume_006
+    level: 12
+  }
+  {
+    id: 21265
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_054
+    text: NPC|level|kanban_musume_054
+    level: 13
+  }
+  {
+    id: 21266
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_020
+    text: NPC|level|kanban_musume_020
+    level: 14
+  }
+  {
+    id: 21267
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_036
+    text: NPC|level|kanban_musume_036
+    level: 15
+  }
+  {
+    id: 21268
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_023
+    text: NPC|level|kanban_musume_023
+    level: 16
+  }
+  {
+    id: 21269
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_056
+    text: NPC|level|kanban_musume_056
+    level: 17
+  }
+  {
+    id: 21270
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_025
+    text: NPC|level|kanban_musume_025
+    level: 18
+  }
+  {
+    id: 21271
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_034
+    text: NPC|level|kanban_musume_034
+    level: 19
+  }
+  {
+    id: 21272
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_010
+    text: NPC|level|kanban_musume_010
+    level: 20
+  }
+  {
+    id: 21273
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_022
+    text: NPC|level|kanban_musume_022
+    level: 21
+  }
+  {
+    id: 21274
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_053
+    text: NPC|level|kanban_musume_053
+    level: 22
+  }
+  {
+    id: 21275
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_037
+    text: NPC|level|kanban_musume_037
+    level: 23
+  }
+  {
+    id: 21276
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_014
+    text: NPC|level|kanban_musume_014
+    level: 24
+  }
+  {
+    id: 21277
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_028
+    text: NPC|level|kanban_musume_028
+    level: 25
+  }
+  {
+    id: 21278
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_051
+    text: NPC|level|kanban_musume_051
+    level: 26
+  }
+  {
+    id: 21279
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_021
+    text: NPC|level|kanban_musume_021
+    level: 27
+  }
+  {
+    id: 21280
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_013
+    text: NPC|level|kanban_musume_013
+    level: 28
+  }
+  {
+    id: 21281
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_030
+    text: NPC|level|kanban_musume_030
+    level: 29
+  }
+  {
+    id: 21282
+    type: 900
+    motion_name: motions/click.mtn
+    probability: 1
+    voice: NPC|NPC_Kalina|kanban_musume_031
+    text: NPC|level|kanban_musume_031
+    level: 30
+  }
+  {
     id: 30601
     type: 101
     motion_name: motions/daiji_idle_01.mtn
@@ -26374,6 +27113,7 @@
     probability: 0.3
     name: 特殊待机1
     camera: 1
+    is_hurt: 1
   }
   {
     id: 650318
@@ -26383,6 +27123,7 @@
     probability: 0.5
     name: 特殊待机2
     camera: 1
+    is_hurt: 1
   }
   {
     id: 650319
@@ -35372,6 +36113,938 @@
     camera: 1
     is_hurt: 1
     voice_code: AGREE
+  }
+  {
+    id: 1120101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1120102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1120103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1120104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SPAS15|FORMATION
+    text: GUN|SPAS15|FORMATION
+    name: 交互1
+    camera: 1
+    voice_code: FORMATION
+  }
+  {
+    id: 1120105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|SPAS15|BREAK
+    text: GUN|SPAS15|BREAK
+    name: 交互2
+    camera: 1
+    delay: 1000
+    voice_code: BREAK
+  }
+  {
+    id: 1120106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SPAS15|FIX
+    text: GUN|SPAS15|FIX
+    name: 交互3
+    camera: 1
+    voice_code: FIX
+  }
+  {
+    id: 1120107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SPAS15|LOADING
+    text: GUN|SPAS15|LOADING
+    name: 交互4
+    camera: 1
+    voice_code: LOADING
+  }
+  {
+    id: 1120108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SPAS15|MOOD1
+    name: 交互5
+    camera: 1
+    delay: 300
+    voice_code: MOOD1
+  }
+  {
+    id: 1120109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|SPAS15|DIALOGUEWEDDING
+    text: GUN|SPAS15|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1120110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|SPAS15|HELLO
+    text: GUN|SPAS15|HELLO
+    name: 上线响应
+    camera: 1
+    voice_code: HELLO
+  }
+  {
+    id: 1120111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|SPAS15|LOWMOOD
+    name: 晃动响应
+    camera: 1
+    voice_code: LOWMOOD
+  }
+  {
+    id: 1120112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|SPAS15|SOULCONTRACT
+    text: GUN|SPAS15|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1120113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1120114
+    type: 402
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SPAS15|BREAK
+    text: GUN|SPAS15|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: BREAK
+  }
+  {
+    id: 1120115
+    type: 402
+    motion_name: touch_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SPAS15|HELLO
+    text: GUN|SPAS15|HELLO
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: HELLO
+  }
+  {
+    id: 1120116
+    type: 402
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|SPAS15|OPERATIONOVER
+    text: GUN|SPAS15|OPERATIONOVER
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1120117
+    type: 402
+    motion_name: touch_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|SPAS15|SKILL2
+    text: GUN|SPAS15|SKILL2
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 1120118
+    type: 402
+    motion_name: touch_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|SPAS15|FIX
+    text: GUN|SPAS15|FIX
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 1120119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|SPAS15|LOADING
+    text: GUN|SPAS15|LOADING
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 4000
+    voice_code: LOADING
+  }
+  {
+    id: 1120120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 1130101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1130102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1130103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1130104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MartiniHenry|DIALOGUE2
+    text: GUN|MartiniHenry|DIALOGUE2
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1130105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MartiniHenry|NEWYEAR
+    text: GUN|MartiniHenry|NEWYEAR
+    name: 交互2
+    camera: 1
+    voice_code: NEWYEAR
+  }
+  {
+    id: 1130106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MartiniHenry|OPERATIONOVER
+    text: GUN|MartiniHenry|OPERATIONOVER
+    name: 交互3
+    camera: 1
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1130107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MartiniHenry|GOATTACK
+    text: GUN|MartiniHenry|GOATTACK
+    name: 交互4
+    camera: 1
+    voice_code: GOATTACK
+  }
+  {
+    id: 1130108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MartiniHenry|HELLO
+    text: GUN|MartiniHenry|HELLO
+    name: 交互5
+    camera: 1
+    delay: 2000
+    voice_code: HELLO
+  }
+  {
+    id: 1130109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|MartiniHenry|DIALOGUEWEDDING
+    text: GUN|MartiniHenry|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1130110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|MartiniHenry|WIN
+    text: GUN|MartiniHenry|WIN
+    name: 上线响应
+    camera: 1
+    voice_code: WIN
+  }
+  {
+    id: 1130111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1130112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|MartiniHenry|SOULCONTRACT
+    text: GUN|MartiniHenry|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1130113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1130114
+    type: 402
+    motion_name: touch_1.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MartiniHenry|DEFENSE
+    text: GUN|MartiniHenry|DEFENSE
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    delay: 2500
+    voice_code: DEFENSE
+  }
+  {
+    id: 1130115
+    type: 402
+    motion_name: touch_2.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|MartiniHenry|BREAK
+    text: GUN|MartiniHenry|BREAK
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1130116
+    type: 402
+    motion_name: touch_3.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|MartiniHenry|LOWMOOD
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: LOWMOOD
+  }
+  {
+    id: 1130117
+    type: 402
+    motion_name: touch_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|MartiniHenry|LOADING
+    text: GUN|MartiniHenry|LOADING
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: LOADING
+  }
+  {
+    id: 1130118
+    type: 402
+    motion_name: touch_5.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|MartiniHenry|DIALOGUE3
+    text: GUN|MartiniHenry|DIALOGUE3
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 1130119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|MartiniHenry|RETREAT
+    text: GUN|MartiniHenry|RETREAT
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: RETREAT
+  }
+  {
+    id: 1130120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|MartiniHenry|MOOD2
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+    voice_code: MOOD2
+  }
+  {
+    id: 1140601
+    type: 101
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1140602
+    type: 102
+    motion_name: motions/wait_1.mtn
+    hold_time: "20,22"
+    probability: 0.3
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1140603
+    type: 102
+    motion_name: motions/wait_2.mtn
+    hold_time: "30,35"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1140604
+    type: 200
+    motion_name: motions/touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE1
+    text: GUN|88typeMod|DIALOGUE1
+    name: 交互1
+    camera: 1
+    voice_code: DIALOGUE1
+  }
+  {
+    id: 1140605
+    type: 200
+    motion_name: motions/touch_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|GAIN
+    text: GUN|88typeMod|GAIN
+    name: 交互2
+    camera: 1
+    voice_code: GAIN
+  }
+  {
+    id: 1140606
+    type: 200
+    motion_name: motions/touch_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE2
+    text: GUN|88typeMod|DIALOGUE2
+    name: 交互3
+    camera: 1
+    voice_code: DIALOGUE2
+  }
+  {
+    id: 1140607
+    type: 200
+    motion_name: motions/touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE3
+    text: GUN|88typeMod|DIALOGUE3
+    name: 交互4
+    camera: 1
+    voice_code: DIALOGUE3
+  }
+  {
+    id: 1140608
+    type: 200
+    motion_name: motions/touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|WIN
+    text: GUN|88typeMod|WIN
+    name: 交互5
+    camera: 1
+    voice_code: WIN
+  }
+  {
+    id: 1140609
+    type: 200
+    motion_name: motions/touch_6.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|ATTACK
+    text: GUN|88typeMod|ATTACK
+    name: 交互6
+    camera: 1
+    voice_code: ATTACK
+  }
+  {
+    id: 1140610
+    type: 200
+    motion_name: motions/wedding_touch.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUEWEDDING
+    text: GUN|88typeMod|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1140611
+    type: 500
+    motion_name: motions/wedding.mtn
+    probability: 1
+    voice: GUN|88typeMod|SOULCONTRACT
+    text: GUN|88typeMod|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1140612
+    type: 300
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+  }
+  {
+    id: 1140613
+    type: 1000
+    motion_name: motions/login.mtn
+    probability: 1
+    name: 上线响应
+    camera: 1
+    delay: 1000
+  }
+  {
+    id: 1140614
+    type: 401
+    motion_name: motions/daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1140615
+    type: 403
+    motion_name: motions/wait_1.mtn
+    hold_time: "12,15"
+    probability: 0.3
+    name: 特殊待机1
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 1140616
+    type: 403
+    motion_name: motions/wait_2.mtn
+    hold_time: "27,30"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 1140617
+    type: 402
+    motion_name: motions/broken_1.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|BREAK
+    text: GUN|88typeMod|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    voice_code: BREAK
+  }
+  {
+    id: 1140618
+    type: 402
+    motion_name: motions/broken_2.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|88typeMod|RETREAT
+    text: GUN|88typeMod|RETREAT
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    voice_code: RETREAT
+  }
+  {
+    id: 1140619
+    type: 402
+    motion_name: motions/broken_3.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|88typeMod|FIX
+    text: GUN|88typeMod|FIX
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    voice_code: FIX
+  }
+  {
+    id: 1140620
+    type: 402
+    motion_name: motions/broken_4.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|LOWMOOD
+    text: GUN|88typeMod|LOWMOOD
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: LOWMOOD
+  }
+  {
+    id: 1140621
+    type: 402
+    motion_name: motions/broken_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|88typeMod|MOOD2
+    text: GUN|88typeMod|MOOD2
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    voice_code: MOOD2
+  }
+  {
+    id: 1140622
+    type: 301
+    motion_name: motions/shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
+  }
+  {
+    id: 1140623
+    type: 1001
+    motion_name: motions/login.mtn
+    probability: 1
+    voice: GUN|88typeMod|DIALOGUE3
+    text: GUN|88typeMod|DIALOGUE3
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    voice_code: zh
+  }
+  {
+    id: 1150101
+    type: 101
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+  }
+  {
+    id: 1150102
+    type: 102
+    motion_name: wait_1.mtn
+    hold_time: "13,15"
+    probability: 0.5
+    name: 特殊待机1
+    camera: 1
+  }
+  {
+    id: 1150103
+    type: 102
+    motion_name: wait_2.mtn
+    hold_time: "23,25"
+    probability: 0.5
+    name: 特殊待机2
+    camera: 1
+  }
+  {
+    id: 1150104
+    type: 200
+    motion_name: touch_1.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|OPERATIONOVER
+    text: GUN|HK433|OPERATIONOVER
+    name: 交互1
+    camera: 1
+    delay: 1000
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1150105
+    type: 200
+    motion_name: touch_2.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|HK433|SKILL2
+    text: GUN|HK433|SKILL2
+    name: 交互2
+    camera: 1
+    voice_code: SKILL2
+  }
+  {
+    id: 1150106
+    type: 200
+    motion_name: touch_3.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|HK433|SKILL3
+    text: GUN|HK433|SKILL3
+    name: 交互3
+    camera: 1
+    voice_code: SKILL3
+  }
+  {
+    id: 1150107
+    type: 200
+    motion_name: touch_4.mtn
+    touch_area: body
+    probability: 1
+    voice: GUN|HK433|GOATTACK
+    text: GUN|HK433|GOATTACK
+    name: 交互4
+    camera: 1
+    voice_code: GOATTACK
+  }
+  {
+    id: 1150108
+    type: 200
+    motion_name: touch_5.mtn
+    touch_area: leg
+    probability: 1
+    voice: GUN|HK433|FORMATION
+    text: GUN|HK433|FORMATION
+    name: 交互5
+    camera: 1
+    voice_code: FORMATION
+  }
+  {
+    id: 1150109
+    type: 200
+    motion_name: wedding_touch.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|DIALOGUEWEDDING
+    text: GUN|HK433|DIALOGUEWEDDING
+    name: 结契后交互
+    camera: 1
+    voice_code: DIALOGUEWEDDING
+  }
+  {
+    id: 1150110
+    type: 1000
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|HK433|GAIN
+    text: GUN|HK433|GAIN
+    name: 上线响应
+    camera: 1
+    delay: 1500
+    voice_code: GAIN
+  }
+  {
+    id: 1150111
+    type: 300
+    motion_name: shake.mtn
+    probability: 1
+    voice: GUN|HK433|MOOD2
+    name: 晃动响应
+    camera: 1
+    voice_code: MOOD2
+  }
+  {
+    id: 1150112
+    type: 500
+    motion_name: wedding.mtn
+    probability: 1
+    voice: GUN|HK433|SOULCONTRACT
+    text: GUN|HK433|SOULCONTRACT
+    name: 结契动作
+    camera: 1
+    voice_code: SOULCONTRACT
+  }
+  {
+    id: 1150113
+    type: 401
+    motion_name: daiji_idle_01.mtn
+    probability: 1
+    name: 待机
+    is_hurt: 1
+  }
+  {
+    id: 1150114
+    type: 402
+    motion_name: broken_1.mtn
+    touch_area: body2
+    probability: 1
+    voice: GUN|HK433|BREAK
+    text: GUN|HK433|BREAK
+    name: 交互1
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: BREAK
+  }
+  {
+    id: 1150115
+    type: 402
+    motion_name: broken_2.mtn
+    touch_area: leg1
+    probability: 1
+    voice: GUN|HK433|OPERATIONOVER
+    text: GUN|HK433|OPERATIONOVER
+    name: 交互2
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: OPERATIONOVER
+  }
+  {
+    id: 1150116
+    type: 402
+    motion_name: broken_3.mtn
+    touch_area: body1
+    probability: 1
+    voice: GUN|HK433|SKILL3
+    text: GUN|HK433|SKILL3
+    name: 交互3
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: SKILL3
+  }
+  {
+    id: 1150117
+    type: 402
+    motion_name: broken_4.mtn
+    touch_area: leg2
+    probability: 1
+    voice: GUN|HK433|LOADING
+    text: GUN|HK433|LOADING
+    name: 交互4
+    camera: 1
+    is_hurt: 1
+    voice_code: LOADING
+  }
+  {
+    id: 1150118
+    type: 402
+    motion_name: broken_5.mtn
+    touch_area: head
+    probability: 1
+    voice: GUN|HK433|FIX
+    text: GUN|HK433|FIX
+    name: 交互5
+    camera: 1
+    is_hurt: 1
+    delay: 3000
+    voice_code: FIX
+  }
+  {
+    id: 1150119
+    type: 1001
+    motion_name: login.mtn
+    probability: 1
+    voice: GUN|HK433|GAIN
+    text: GUN|HK433|GAIN
+    name: 上线响应
+    camera: 1
+    is_hurt: 1
+    delay: 2000
+    voice_code: GAIN
+  }
+  {
+    id: 1150120
+    type: 301
+    motion_name: shake.mtn
+    probability: 1
+    name: 晃动响应
+    camera: 1
+    is_hurt: 1
   }
   {
     id: 5000101
