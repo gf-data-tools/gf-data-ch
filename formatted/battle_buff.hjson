@@ -33756,6 +33756,38 @@
     forced_skill: "992533"
   }
   {
+    id: 5353
+    name: MP41离场标记
+    conflict_type: 5353
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5354
+    name: MP41离场监视
+    conflict_type: 5354
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 4009
+  }
+  {
+    id: 5355
+    name: MP41死亡监视
+    conflict_type: 5355
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 4010
+  }
+  {
     id: 5700
     name: ***
     conflict_type: 100
