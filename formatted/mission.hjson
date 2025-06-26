@@ -58744,35 +58744,6 @@
     difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
   }
   {
-    id: 15000
-    integration_switch: 1-1;4-40:80:160
-    campaign: -75
-    sub: 50
-    if_emergency: -1
-    name: mission-10015000
-    difficulty: 3500
-    recommend_gun_level: 35
-    exp_parameter: 28
-    type: "3"
-    enemy_ai_type: 4
-    expect_turn: 4
-    boss_team_id: "1"
-    turn_duration: 360000000
-    map_res_name: OPS67_Y
-    map_information: "8000,8000|8000,8000|0,0"
-    fog_length: "0,500"
-    fog_color: "#000000FF"
-    mission_group_id: 40
-    mission_describe: mission-20015000
-    force_type: "1"
-    round_config: 1:1,2:36,3:3
-    win_type: "990001"
-    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
-    difficulty_recommend_addendum: mission-30015000
-    mission_tip: mission-40015000
-    guide_cdn: mission-50015000
-  }
-  {
     id: 90001
     integration_switch: 1-1;4-40:80:160
     campaign: 1
