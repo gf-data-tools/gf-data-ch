@@ -61684,77 +61684,6 @@
     boss_available: 1
   }
   {
-    id: 9848
-    name: P30装备
-    conflict_type: 9848
-    max_tier: 1
-    type: 500
-    duration_type: 1
-    duration: "-1"
-    boss_available: 1
-  }
-  {
-    id: 9849
-    name: P30专属伤害提升
-    conflict_type: 9849
-    max_tier: 1
-    type: 101
-    duration_type: 1
-    duration: "99999"
-    delay: 1
-    boss_available: 1
-    pow_number: "108"
-    trigger_creation_id: "201"
-    is_form_play: 1
-    buff_animation: YellowFlash
-    buff_description: PowBuffText
-    buff_sp_attributes: "1"
-  }
-  {
-    id: 9850
-    name: P30专属射速提升
-    conflict_type: 9850
-    max_tier: 1
-    type: 104
-    duration_type: 1
-    duration: *101
-    delay: 1
-    boss_available: 1
-    rate_number: *202
-    trigger_creation_id: "201"
-    is_form_play: 1
-    buff_animation: YellowFlash
-    buff_sp_attributes: "1"
-  }
-  {
-    id: 9851
-    name: P30专属回避提升
-    conflict_type: 9851
-    max_tier: 1
-    type: 102
-    duration_type: 1
-    duration: "99999"
-    boss_available: 1
-    dodge_number: "120"
-    trigger_creation_id: "202"
-    is_form_play: 1
-    buff_animation: YellowFlash
-    buff_description: DodgeBuffText
-    buff_sp_attributes: "1"
-  }
-  {
-    id: 9852
-    name: P30专属移速提升
-    conflict_type: 9852
-    max_tier: 1
-    type: 105
-    duration_type: 1
-    duration: *101
-    boss_available: 1
-    move_number: *201
-    buff_sp_attributes: "1"
-  }
-  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -76108,16 +76037,6 @@
     duration: "15"
     boss_available: 1
     dodge_number: *203
-  }
-  {
-    id: 982101
-    name: DSR-50最高出价套装特效
-    conflict_type: 982101
-    max_tier: 1
-    type: 500
-    duration_type: 1
-    duration: "60"
-    boss_available: 1
   }
   {
     id: 999007
