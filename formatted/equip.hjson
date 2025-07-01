@@ -14567,8 +14567,12 @@
   }
   {
     id: 457
-    name: equip-10000457
-    description: equip-20000457
+    name: ST型外骨骼
+    description:
+      '''
+      回避+<dodge>
+      技能增强$P30专用
+      '''
     rank: 5
     category: 3
     type: 20
@@ -14580,7 +14584,7 @@
     develop_duration: 3120
     company: IOP
     fit_guns: "269"
-    equip_introduction: equip-30000457
+    equip_introduction: P30专门要求配备的外骨骼，方便她在被人欺负后迅速冲过去报复！
     powerup_mp: 0.3
     powerup_ammo: 0.25
     powerup_mre: 0.12
@@ -14593,7 +14597,6 @@
     group_id: "51"
     is_show: 1
     obtain_ids: "3127"
-    sp_description: equip-40000457
     description_skill: 1006901
   }
 ]
