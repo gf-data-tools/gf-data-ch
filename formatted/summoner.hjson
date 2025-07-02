@@ -26323,6 +26323,54 @@
     phase_duration: 2
   }
   {
+    id: 10001
+    name: HK416星之萤改造召唤物
+    code: empty
+    hp: 100
+    pow: 1000001038
+    range: 100
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "802906,801305"
+    dynamic_passive_skill: "802903,8029052,802904"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1"
+    start_offset: "0,0,0"
+    camp: 1
+    is_stay: 1
+  }
+  {
+    id: 10002
+    name: HK416星之萤套装召唤物
+    code: empty
+    hp: 100
+    pow: 1000001038
+    range: 100
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "8029061,801305"
+    dynamic_passive_skill: "8029031,8029054,8029041"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1"
+    start_offset: "-3,0,0"
+    camp: 1
+    is_stay: 1
+  }
+  {
     id: 10703
     name: RO635
     code: Dana_Car

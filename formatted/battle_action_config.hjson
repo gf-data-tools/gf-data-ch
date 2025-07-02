@@ -9018,6 +9018,92 @@
     creation_delay: "0,0,0,0,5,2,4,6,8,2,4,6,8"
   }
   {
+    id: 2201
+    name: HK416-星之茧
+    action_order: s
+    action_playspeed: "170"
+    creation_order: "20001,20003"
+    creation_delay: "31,32"
+    sound_order: skill_firearrow_shot
+    sound_delay: "30"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2202
+    name: HK416-星之茧额外榴弹
+    creation_order: "20004"
+  }
+  {
+    id: 2203
+    name: HK416-星之茧改造
+    action_order: s
+    action_playspeed: "170"
+    creation_order: "20006,20003"
+    creation_delay: "31,32"
+    sound_order: skill_firearrow_shot
+    sound_delay: "30"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2204
+    name: HK416-星之茧击杀
+    creation_order: "20005"
+    creation_delay: "20"
+  }
+  {
+    id: 2205
+    name: DSR最高出价狙击
+    action_order: "1"
+    action_delay: "45"
+    action_playspeed: "100"
+    creation_order: "20009,20010,20011"
+    creation_delay: "45,45,0"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "10"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2206
+    name: DSR最高出价套装特效
+    creation_order: "20013"
+  }
+  {
+    id: 2207
+    name: Ots-14晚宴统治者
+    creation_order: "20014"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2208
+    name: Kar98k-手心的朱砂痣狙击
+    action_order: "1,1"
+    action_delay: "15,31"
+    action_playspeed: "100,100"
+    creation_order: "20017,20015,20017,20015,5277,20019"
+    creation_delay: "15,15,31,31,0,0"
+    sound_order: BT_Sniper_skill_0,BT_Sniper_skill_0
+    sound_delay: "10,35"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2209
+    name: Kar98k-手心的朱砂痣改造狙击
+    action_order: "1,1"
+    action_delay: "15,31"
+    action_playspeed: "100,100"
+    creation_order: "20018,20015,20018,20015,8840,20019"
+    creation_delay: "15,15,31,31,0,0"
+    sound_order: BT_Sniper_skill_0,BT_Sniper_skill_0
+    sound_delay: "10,35"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
     id: 2609
     name: 魂竞争者普攻
     action_order: "1"
