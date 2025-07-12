@@ -61755,6 +61755,100 @@
     buff_sp_attributes: "1"
   }
   {
+    id: 9853
+    name: P90套装装备1
+    conflict_type: 9833
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9854
+    name: P90套装装备2
+    conflict_type: 9834
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9855
+    name: P90套装
+    conflict_type: 9835
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9856
+    name: K5套装装备1
+    conflict_type: 9836
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9857
+    name: K5套装装备2
+    conflict_type: 9837
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9858
+    name: K5套装
+    conflict_type: 9838
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9859
+    name: P90套装幻象死亡标识
+    conflict_type: 9859
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9860
+    name: P90套装提升暴击伤害
+    conflict_type: 9860
+    max_tier: 99
+    type: 112
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    critical_damage_number: "105"
+    trigger_creation_id: "201"
+    is_form_play: 1
+  }
+  {
+    id: 9861
+    name: P90套装幻象监视标识
+    conflict_type: 9838
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "1007007"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101

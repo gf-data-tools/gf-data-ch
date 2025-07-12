@@ -16575,30 +16575,27 @@
     type: 5
     arg: "1"
     code: profilePic_ChessFlight_season20_1
-    item_name: item-10002691
-    introduction: item-20002691
+    item_name: 蛹态塌缩 · 代号拾捌：相变
+    introduction: 蛹态塌缩 · 代号拾捌：相变
     rank: 1
-    detail_introduction: item-30002691
   }
   {
     id: 2692
     type: 5
     arg: "1"
     code: profilePic_ChessFlight_season20_2
-    item_name: item-10002692
-    introduction: item-20002692
+    item_name: 蜕变波动 · 代号拾捌：相变
+    introduction: 蜕变波动 · 代号拾捌：相变
     rank: 1
-    detail_introduction: item-30002692
   }
   {
     id: 2693
     type: 5
     arg: "1"
     code: profilePic_ChessFlight_season20_3
-    item_name: item-10002693
-    introduction: item-20002693
+    item_name: 蝶流涌现 · 代号拾捌：相变
+    introduction: 蝶流涌现 · 代号拾捌：相变
     rank: 1
-    detail_introduction: item-30002693
   }
   {
     id: 3501
@@ -18274,6 +18271,15 @@
     id: 10729
     type: 18
     arg: "10729"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
+    id: 10730
+    type: 18
+    arg: "10730"
     code: daily_points
     item_name: 灰域探查积分
     introduction: 灰域探查积分
@@ -26863,11 +26869,10 @@
     type: 15
     arg: "1500246"
     code: Bumdle_SummerdayCoupons1
-    item_name: item-11500246
-    introduction: item-21500246
+    item_name: 珍藏装扮券·夏日
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500246
     type_sort: 1
   }
   {
@@ -26875,11 +26880,10 @@
     type: 15
     arg: "1500247"
     code: Bumdle_SummerdayCoupons1
-    item_name: item-11500247
-    introduction: item-21500247
+    item_name: 尊享装扮券·夏日
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500247
     type_sort: 1
   }
   {
@@ -26887,11 +26891,10 @@
     type: 15
     arg: "1500248"
     code: Bumdle_SummerdayCoupons1
-    item_name: item-11500248
-    introduction: item-21500248
+    item_name: 至臻装扮券·夏日
+    introduction: 在仓库中使用该装扮券，即可从指定范围内选择获得一件装扮。
     rank: 1
     sort: -1
-    detail_introduction: item-31500248
     type_sort: 1
   }
   {
@@ -27640,6 +27643,39 @@
     id: 1700066
     type: 15
     arg: "1700066"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700067
+    type: 15
+    arg: "1700067"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700068
+    type: 15
+    arg: "1700068"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700069
+    type: 15
+    arg: "1700069"
     code: package_choose
     item_name: 高阶专属装备自选序标
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备

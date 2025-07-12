@@ -8502,9 +8502,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,hit:700
-    passive_skill: "759031"
+    passive_skill: "759031,1007001"
     max_level: 10
     auto_select_id: 18088
+    group_id: "57"
     is_show: 1
     obtain_ids: "3066,3096"
     description_skill: 759031
@@ -10409,8 +10410,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:800
+    passive_skill: "1007101"
     max_level: 10
     auto_select_id: 20056
+    group_id: "58"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -12541,7 +12544,7 @@
     max_level: 10
     auto_select_id: 18118
     is_show: 1
-    obtain_ids: "3105"
+    obtain_ids: "3105,3096"
     description_skill: 1001301
   }
   {
@@ -13229,7 +13232,7 @@
     max_level: 10
     auto_select_id: 20092
     is_show: 1
-    obtain_ids: "3117"
+    obtain_ids: "3117,3096"
   }
   {
     id: 418
@@ -14598,5 +14601,75 @@
     is_show: 1
     obtain_ids: "3127"
     description_skill: 1006901
+  }
+  {
+    id: 458
+    name: 灰鼠处理器
+    description:
+      '''
+      移速+<speed>
+      回避+<dodge>$P90专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "14,19"
+    speed: "2,2"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_P90
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "245"
+    equip_introduction: 为P90特别设计的专属处理器，无形中可以增强P90的模仿能力。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1007002"
+    max_level: 10
+    auto_select_id: 20102
+    group_id: "57"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 459
+    name: 命运水晶球
+    description:
+      '''
+      梯队夜视能力+5%
+      回避+<dodge>$K5改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "6,10"
+    skill_effect: 300
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: Accessories_SP_K5Mod
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "20212"
+    equip_introduction: K5随身携带的水晶球，可用于占卜各种事情的吉凶，广受人形们追捧。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:500
+    passive_skill: "759061,1007102"
+    max_level: 10
+    auto_select_id: 18126
+    group_id: "58"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 梯队夜视能力+5%
   }
 ]
