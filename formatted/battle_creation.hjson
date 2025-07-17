@@ -54222,8 +54222,8 @@
     effect_type: 1
     effect_area: 3
     effect_param_1: "14,18,19,23,24"
-    buff_id: 5287:1,5288:1,5289:1,5290:1
-    buff_cd: "0,0,0,0"
+    buff_id: 5287:1,5288:1,5289:1,5290:1,1201:1,1203:1,1204:1,1206:1
+    buff_cd: "0,0,0,0,0,0,0,0"
     scale: "1"
   }
   {
@@ -89731,6 +89731,7 @@
     is_tracing: 1
     exist_duration: "9999"
     scale: "1"
+    is_die_delete: 1
   }
   {
     id: 10068

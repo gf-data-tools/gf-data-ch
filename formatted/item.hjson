@@ -16598,6 +16598,24 @@
     rank: 1
   }
   {
+    id: 2694
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_STG44
+    item_name: StG44-涧野寻踪
+    introduction: StG44-涧野寻踪
+    rank: 1
+  }
+  {
+    id: 2695
+    type: 5
+    arg: "1"
+    code: card_BattlePass_STG44
+    item_name: 名片：岚山奇遇
+    introduction: 名片：岚山奇遇
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -18355,6 +18373,15 @@
     code: gift_bundle_BattlePass_FO12
     item_name: FO-12-芭菲贝甜
     introduction: 我承认杰克工作时偷吃了一个甜甜圈……别、别这么严肃嘛，毕竟这也是质量检查的一部分！你说对吧，指挥官？
+    rank: 1
+  }
+  {
+    id: 30031
+    type: 1
+    arg: "30031"
+    code: gift_bundle_BattlePass_STG44
+    item_name: StG44-涧野寻踪
+    introduction: 指挥官，我们出发吧？山路可能会有些脏乱，不过请放心……我会为您规划出最干净的路线的。
     rank: 1
   }
   {
@@ -23557,6 +23584,22 @@
     rank: 1
   }
   {
+    id: 140061
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第31期前线协议
+    rank: 1
+  }
+  {
+    id: 140062
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第31期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -24061,6 +24104,15 @@
     code: profileFrame_BattlePass_FO12
     item_name: 头像框·糖霜蜜次方
     introduction: 头像框·糖霜蜜次方
+    rank: 1
+  }
+  {
+    id: 200056
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_STG44
+    item_name: 头像框·浣影踏秋
+    introduction: 头像框·浣影踏秋
     rank: 1
   }
   {
@@ -26893,6 +26945,50 @@
     code: Bumdle_SummerdayCoupons1
     item_name: 至臻装扮券·夏日
     introduction: 在仓库中使用该装扮券，即可从指定范围内选择获得一件装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500249
+    type: 15
+    arg: "1500249"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-遇见甜甜圈，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500250
+    type: 15
+    arg: "1500250"
+    code: package_choose
+    item_name: 人形类装备自选包
+    introduction: 来自于前线协议-遇见甜甜圈，可从该指定投递配给序标内选择获取一件人形类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500251
+    type: 15
+    arg: "1500251"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-遇见甜甜圈，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500252
+    type: 15
+    arg: "1500252"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-遇见甜甜圈，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1
