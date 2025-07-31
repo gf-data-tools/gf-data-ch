@@ -5652,6 +5652,277 @@
     carry_mission_skill: "751512"
   }
   {
+    id: 760000
+    name: 指挥官的意志
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 760000
+    priority: 1
+  }
+  {
+    id: 760001
+    name: 威廉的注视
+    description: Big bro is watching you
+    code: fara83
+    type: 1
+    duration_type: "5"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450301
+    conflict_type: 760001
+    priority: 1
+  }
+  {
+    id: 760002
+    name: 威廉的注视
+    description: Big bro is watching you
+    code: fara83
+    type: 1
+    duration_type: "5"
+    duration_time: "2"
+    exp_buff: "1"
+    battle_skill_config_id: 450301
+    conflict_type: 760001
+    priority: 1
+  }
+  {
+    id: 760010
+    name: 威廉克星
+    description: First Blood
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450301
+    manual_ui_code: killicon_0#a84fb5
+    conflict_type: 760010
+    priority: 1
+  }
+  {
+    id: 760020
+    name: 威廉克星
+    description: Double Kill
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450302
+    manual_ui_code: killicon_0#a84fb5
+    conflict_type: 760010
+    priority: 2
+  }
+  {
+    id: 760030
+    name: 威廉克星
+    description: Killing Spree
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450303
+    manual_ui_code: killicon_1#a84fb5
+    conflict_type: 760010
+    priority: 3
+  }
+  {
+    id: 760040
+    name: 威廉克星
+    description: Dominating
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450304
+    manual_ui_code: killicon_1#a84fb5
+    conflict_type: 760010
+    priority: 4
+  }
+  {
+    id: 760050
+    name: 威廉克星
+    description: Rampage
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450305
+    manual_ui_code: killicon_2#a84fb5
+    conflict_type: 760010
+    priority: 5
+  }
+  {
+    id: 760060
+    name: 威廉克星
+    description: Unstoppable
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450306
+    manual_ui_code: killicon_2#a84fb5
+    conflict_type: 760010
+    priority: 6
+  }
+  {
+    id: 760070
+    name: 威廉克星
+    description: Godlike
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450307
+    manual_ui_code: killicon_3#a84fb5
+    conflict_type: 760010
+    priority: 7
+  }
+  {
+    id: 760080
+    name: 威廉克星
+    description: Legendary
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450308
+    manual_ui_code: killicon_3#a84fb5
+    conflict_type: 760010
+    priority: 8
+  }
+  {
+    id: 760601
+    name: 16哥
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 760601
+    priority: 1
+    carry_mission_skill: "760611"
+  }
+  {
+    id: 760602
+    name: 喙
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 760602
+    priority: 1
+    carry_mission_skill: "760612"
+  }
+  {
+    id: 760704
+    name: 携带EMP手雷
+    description: 携带EMP手雷
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 760704
+    priority: -1
+    carry_mission_skill: "760714"
+  }
+  {
+    id: 760800
+    name: 指挥官
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 760800
+    priority: -1
+    carry_mission_skill: "760810"
+  }
+  {
+    id: 760801
+    name: 连续行动C
+    description: 行动力提升
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 760801
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 760801
+    priority: 1
+    ext_move: 1
+  }
+  {
+    id: 760802
+    name: 连续行动B
+    description: 行动力提升
+    code: ExtraMove2
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 760802
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 760801
+    priority: 2
+    ext_move: 2
+  }
+  {
+    id: 760803
+    name: 连续行动A
+    description: 行动力提升
+    code: ExtraMove3
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 760801
+    priority: 3
+    ext_move: 3
+  }
+  {
+    id: 760804
+    name: 忤逆
+    description: 伤害大幅提高，行动时不消耗AP
+    code: AK15
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    battle_skill_config_id: 450308
+    special_spot_config_id: 760800
+    conditions_type: "2"
+    conditions_time: 0-1
+    free_ap_move: 1
+    conflict_type: 760804
+    priority: 1
+  }
+  {
+    id: 760820
+    name: 家具城CD
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 760820
+    priority: 1
+  }
+  {
+    id: 760902
+    name: 携带歌利亚
+    description: 携带歌利亚
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 760902
+    priority: -1
+    carry_mission_skill: "760912"
+  }
+  {
     id: 910630
     name: 护盾
     description: 护盾增幅中

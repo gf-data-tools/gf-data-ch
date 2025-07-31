@@ -513,6 +513,36 @@
     activation_skills: "1003622"
   }
   {
+    id: 1074
+    description: Hecate II友方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "1007305"
+  }
+  {
+    id: 1075
+    description: Hecate II敌方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "1007306"
+  }
+  {
+    id: 1076
+    description: Hecate II友方掉编监视
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "1007305"
+    new_record_chara1: 1000005160
+  }
+  {
+    id: 1077
+    description: Hecate II敌方掉编监视
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "1007306"
+    new_record_chara1: 1000005160
+  }
+  {
     id: 1080
     description: G41Buff监视
     record_chara1: 1000009494

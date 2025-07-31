@@ -51969,6 +51969,254 @@
     is_die_delete: 1
   }
   {
+    id: 3820
+    name: Hecate II子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "756"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3821
+    name: Hecate II狙击子弹尾迹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "757"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "3830"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 3822
+    name: IA2子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "758"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 3823
+    name: IA2技能影响格7
+    code: July_IA2_yumao
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "9"
+    buff_id: 9873:1
+    scale: "1"
+  }
+  {
+    id: 3824
+    name: IA2技能影响格3
+    code: July_IA2_yumao
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "17"
+    buff_id: 9874:1
+    scale: "1"
+  }
+  {
+    id: 3825
+    name: Mini-14子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "759"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3826
+    name: Maxim 9自伤
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "760"
+    is_single_hurt: 1
+    scale: "1"
+  }
+  {
+    id: 3827
+    name: IA2技能影响格屏蔽
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "7,8,12,13,14,18,19,1,2,3,4,5,6,10,11,15,16,20,21,22,23,24,25"
+    buff_id: 9892:1
+    scale: "1"
+  }
+  {
+    id: 3828
+    name: Maxim 9影响格自伤
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "7,9,17,19"
+    hurt_id: "761"
+    is_single_hurt: 1
+    scale: "1"
+  }
+  {
+    id: 3829
+    name: Hecate II狙击枪口火花
+    code: July_Hecate_fire
+    start_type: "1"
+    start_offset: "-0.1,-0.05"
+    destination_type: "1"
+    destination_offset: "-0.1,-0.05"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3830
+    name: Hecate II狙击子弹爆炸
+    code: July_Hecate_Hit
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 3831
+    name: Hecate II不死身特效
+    code: July_Hecate_soul
+    start_type: "3"
+    start_offset: "0.2,0,0"
+    destination_type: "3"
+    destination_offset: "0.2,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 3832
+    name: Maxim 9贝蒂坠落
+    code: July_Maxim9_bear
+    start_type: "8"
+    start_offset: "4,0,0"
+    destination_type: "8"
+    destination_offset: "4,-2,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "240"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "3833"
+    trigger_creation_delay: "30"
+  }
+  {
+    id: 3833
+    name: Maxim 9贝蒂坠落爆炸
+    code: July_Maxim9_bear_bao
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "45"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "3834"
+    trigger_creation_delay: "-1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 3834
+    name: Maxim 9贝蒂迷雾
+    code: Ganrao_ziyan
+    start_type: "7"
+    start_offset: "0,3,0"
+    destination_type: "7"
+    destination_offset: "0,3,0"
+    exist_duration: "600"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3835
+    name: Maxim 9贝蒂减益
+    code: AQLD_debuff04
+    start_type: hip
+    start_offset: "0,0,-0.8"
+    destination_type: hip
+    destination_offset: "0,0,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -65028,6 +65276,474 @@
     is_die_delete: 1
   }
   {
+    id: 7189
+    name: M16A1枪口火光
+    code: Fire
+    start_type: "1"
+    start_offset: "0.3,0,0"
+    destination_type: "1"
+    destination_offset: "0.3,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 7190
+    name: M16A1子弹
+    code: bullet/bullet2
+    start_type: "1"
+    start_offset: "0.3,0,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "3101"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 7191
+    name: M16A1无判定子弹
+    code: bullet/bullet2
+    start_type: "1"
+    start_offset: "0.3,0,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 7192
+    name: 威廉召唤-卫戍军AR
+    start_type: "8"
+    destination_type: "8"
+    random_number: "4"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,-5.6,15,0,0,15,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1906"
+  }
+  {
+    id: 7193
+    name: 威廉召唤-卫戍军SG
+    start_type: "8"
+    destination_type: "8"
+    random_number: "4"
+    random_offset: "13,0,2.8;13,0,0;13,0,-2.8;13,0,-5.6,13,0,0,13,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1907"
+  }
+  {
+    id: 7194
+    name: 威廉召唤-卫戍军RF
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "14,0,2.8;14,0,0;14,0,-2.8;14,0,-5.6,14,0,0,14,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1908"
+  }
+  {
+    id: 7195
+    name: 威廉召唤-卫戍军MG
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "14,0,2.8;14,0,0;14,0,-2.8;14,0,-5.6,14,0,0,14,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1909"
+  }
+  {
+    id: 7196
+    name: 喙伤害
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "8"
+    effect_param_2: "8"
+    hurt_id: "3102"
+    hurt_cd: "3"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 7197
+    name: 喙左侧判定
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: "4885"
+    buff_cd: "3"
+    scale: "1"
+  }
+  {
+    id: 7198
+    name: 喙轮胎尾烟
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    start_offset: "0.3,0.2"
+    destination_type: "3"
+    destination_offset: "0.3,0.2"
+    is_tracing: 1
+    exist_duration: "99999"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7199
+    name: 喙轮胎尾烟
+    code: Y_BOSS_weiyan 3
+    start_type: "3"
+    start_offset: "0.3,0.2"
+    destination_type: "3"
+    destination_offset: "0.3,0.2"
+    is_tracing: 1
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7200
+    name: 威廉召唤-雷金
+    start_type: "8"
+    destination_type: "8"
+    random_number: "6"
+    random_offset: "16,0,2.8;16,0,0;16,0,-2.8;16,0,-5.6,16,0,0,16,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1910"
+  }
+  {
+    id: 7201
+    name: 威廉召唤-欧特
+    start_type: "8"
+    destination_type: "8"
+    random_number: "4"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,-5.6,15,0,0,15,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1911"
+  }
+  {
+    id: 7202
+    name: 威廉召唤-法夫纳
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "16,0,2.8;16,0,0;16,0,-2.8;16,0,-5.6,16,0,0,16,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1912"
+  }
+  {
+    id: 7203
+    name: 威廉检测M16A1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "9"
+    buff_id: 2624:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7204
+    name: M16A1手榴弹1
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "3"
+    destination_offset: "5,0,2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7205,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 7205
+    name: M16A1手榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "3103"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7206
+    name: M16A1手榴弹2
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "3"
+    destination_offset: "5,0,-2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7205,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 7207
+    name: M16A1手榴弹3
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "3"
+    destination_offset: "5,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7205,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 7208
+    name: M16A1增益特效
+    code: AQLD_buff01
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7209
+    name: 威廉召唤-安德瓦利
+    start_type: "8"
+    destination_type: "8"
+    random_number: "6"
+    random_offset: "18,0,2.8;18,0,0;18,0,-2.8;18,0,-5.6,18,0,0,18,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1913"
+  }
+  {
+    id: 7210
+    name: 威廉召唤-洛基
+    start_type: "8"
+    destination_type: "8"
+    random_number: "2"
+    random_offset: "17,0,2.8;17,0,0;17,0,-2.8;17,0,-5.6,17,0,0,17,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1914"
+  }
+  {
+    id: 7211
+    name: 威廉召唤-赫瑞德玛
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,-5.6,15,0,0,15,0,5.6"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1915"
+  }
+  {
+    id: 7212
+    name: M16A1大招
+    code: M16A1_baozha
+    start_type: "8"
+    start_offset: "4,0,-1.7"
+    destination_type: "8"
+    destination_offset: "4,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    hurt_id: "3104"
+    is_form_play: 1
+    scale: "8,0.1,12"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7213
+    name: 威廉防护车反馈
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    buff_id: 2629:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7214
+    name: M16A1增益特效
+    code: AQLD_buff03
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7215
+    name: 威廉九头蛇反馈
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "7"
+    buff_id: 2630:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7216
+    name: 威廉检测M16A1
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "8"
+    buff_id: 2632:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7217
+    name: M16A1追杀伤害
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "2"
+    hurt_id: "3105"
+    hurt_cd: "3"
+    is_single_hurt: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 7218
+    name: 威廉召唤-卫戍军AR
+    start_type: "3"
+    destination_type: "3"
+    random_number: "3"
+    random_offset: "8,0,2.8;8,0,0;8,0,-2.8,8,0,0"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1916"
+  }
+  {
+    id: 7219
+    name: 威廉召唤-卫戍军SG
+    start_type: "3"
+    destination_type: "3"
+    random_number: "3"
+    random_offset: "8,0,2.8;8,0,0;8,0,-2.8,8,0,0"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1917"
+  }
+  {
+    id: 7220
+    name: 威廉召唤-卫戍军RF
+    start_type: "3"
+    destination_type: "3"
+    random_number: "3"
+    random_offset: "8,0,2.8;8,0,0;8,0,-2.8,8,0,0"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1918"
+  }
+  {
+    id: 7221
+    name: 威廉召唤-卫戍军MG
+    start_type: "3"
+    destination_type: "3"
+    random_number: "3"
+    random_offset: "8,0,2.8;8,0,0;8,0,-2.8,8,0,0"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1919"
+  }
+  {
     id: 7501
     name: 英雄妖精全体伤害
     start_type: "8"
@@ -65113,6 +65829,52 @@
     is_form_play: 1
     creation_type: 2
     scale: "1.3,1.3,1.3"
+  }
+  {
+    id: 7507
+    name: 海盗船冲锋
+    code: July_Yaoj_ship
+    start_type: "8"
+    start_offset: "-12,0,0"
+    destination_type: "8"
+    destination_offset: "6,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 1000
+    exist_duration: "150"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "4"
+    effect_param_2: "4"
+    hurt_id: "762"
+    hurt_cd: "3"
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    trigger_creation_id: "7508"
+    trigger_creation_delay: "45"
+    sound_order: skill_fairy_seawave
+  }
+  {
+    id: 7508
+    name: 海盗船撞击
+    code: July_Yaoj_ship_bao
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 6348:1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+    sound_order: BT_grenade_explode
   }
   {
     id: 8001

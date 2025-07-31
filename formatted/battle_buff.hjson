@@ -12286,6 +12286,330 @@
     boss_available: 1
   }
   {
+    id: 2610
+    name: 己方伤害提升50%
+    conflict_type: 2610
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "150"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2611
+    name: 己方伤害提升100%
+    conflict_type: 2611
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "200"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2612
+    name: 己方伤害提升150%
+    conflict_type: 2612
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "250"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2613
+    name: 己方伤害提升200%
+    conflict_type: 2613
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "300"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2614
+    name: 己方伤害提升250%
+    conflict_type: 2614
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "350"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2615
+    name: 己方伤害提升300%
+    conflict_type: 2615
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "400"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2616
+    name: 己方伤害提升350%
+    conflict_type: 2616
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "450"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2617
+    name: 己方伤害提升400%
+    conflict_type: 2617
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "500"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2618
+    name: M16A1移速提高
+    conflict_type: 2618
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    move_number: "10"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2619
+    name: M16A1无敌
+    conflict_type: 2619
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    fix_damage: 1000009897
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2620
+    name: 威廉召唤lv1-死亡
+    conflict_type: 2620
+    max_tier: 12
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2621
+    name: 威廉逃跑lv2
+    conflict_type: 2621
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2622
+    name: 威廉召唤lv1-死亡
+    conflict_type: 2622
+    max_tier: 12
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2623
+    name: 威廉待机lv2
+    conflict_type: 2623
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2624
+    name: 威廉近身检测
+    conflict_type: 2624
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "450111"
+  }
+  {
+    id: 2625
+    name: 威廉近身反馈
+    conflict_type: 2625
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2626
+    name: M16A1伤害加强
+    conflict_type: 2626
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    trigger_creation_id: "7208"
+    is_form_play: 1
+    fix_damage: 1000009897
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2627
+    name: M16A1射程增加
+    conflict_type: 2627
+    max_tier: 1
+    type: 830
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    range_number: "5"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2628
+    name: 威廉逃跑lv3
+    conflict_type: 2628
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2629
+    name: M16A1大招预备
+    conflict_type: 2629
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2630
+    name: M16A1增益预备
+    conflict_type: 2630
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    trigger_creation_id: "7214"
+  }
+  {
+    id: 2631
+    name: 威廉召唤lv3-死亡
+    conflict_type: 2631
+    max_tier: 11
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2632
+    name: 威廉近身检测2
+    conflict_type: 2632
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "450117"
+  }
+  {
+    id: 2633
+    name: 威廉近身反馈2
+    conflict_type: 2633
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2634
+    name: 威廉逃跑lv4
+    conflict_type: 2634
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2635
+    name: M16A1追杀
+    conflict_type: 2635
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2636
+    name: M16A1结束追杀
+    conflict_type: 2636
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    buff_sp_attributes: "1"
+  }
+  {
     id: 3000
     name: Beer
     description: Beer
@@ -34569,6 +34893,18 @@
     duration_type: 1
     duration: *101
     trigger_creation_id: "9134"
+    is_form_play: 1
+  }
+  {
+    id: 6348
+    name: 海盗船眩晕
+    conflict_type: 6348
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "209"
     is_form_play: 1
   }
   {
@@ -61847,6 +62183,384 @@
     duration: "30"
     boss_available: 1
     forced_skill: "1007007"
+  }
+  {
+    id: 9862
+    name: Kord装备
+    conflict_type: 9862
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9863
+    name: Hecate II冥魂
+    conflict_type: 9863
+    max_tier: 99
+    type: 401
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9864
+    name: Hecate II友方掉编监视
+    conflict_type: 9864
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1076
+  }
+  {
+    id: 9865
+    name: Hecate II敌方掉编监视
+    conflict_type: 9865
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1077
+  }
+  {
+    id: 9866
+    name: Hecate II友方死亡监视
+    conflict_type: 9866
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1074
+  }
+  {
+    id: 9867
+    name: Hecate II敌方死亡监视
+    conflict_type: 9867
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1075
+  }
+  {
+    id: 9868
+    name: Hecate II强化攻击累计次数
+    conflict_type: 9868
+    max_tier: 5
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9869
+    name: Hecate II触发不死身
+    conflict_type: 9869
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9870
+    name: Hecate II不死身
+    conflict_type: 9870
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    trigger_creation_id: "3831"
+    is_form_play: 1
+    fix_damage: 1000009897
+  }
+  {
+    id: 9871
+    name: Hecate II大破触发
+    conflict_type: 9871
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 9872
+    name: IA2伤害层数
+    conflict_type: 9872
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9873
+    name: IA2影响格标记7
+    conflict_type: 9873
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9874
+    name: IA2影响格标记3
+    conflict_type: 9874
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9875
+    name: IA2技能触发7
+    conflict_type: 9875
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9876
+    name: IA2技能触发3
+    conflict_type: 9876
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9877
+    name: IA2伤害增加7
+    conflict_type: 9877
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9878
+    name: IA2护盾增加7
+    conflict_type: 9878
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *202
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9879
+    name: IA2伤害增加3
+    conflict_type: 9879
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9880
+    name: IA2护盾增加3
+    conflict_type: 9880
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *202
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9881
+    name: XCR伤害提升
+    conflict_type: 9881
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9882
+    name: XCR技能触发
+    conflict_type: 9882
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9883
+    name: Mini-14护甲降低
+    conflict_type: 9883
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 9884
+    name: Mini-14被动层数
+    conflict_type: 9884
+    max_tier: 30
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9885
+    name: Maxim 9技能触发
+    conflict_type: 9885
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9886
+    name: Maxim 9自伤标记
+    conflict_type: 9886
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+  }
+  {
+    id: 9887
+    name: Maxim 9回避下降
+    conflict_type: 9887
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "3835"
+    is_form_play: 1
+  }
+  {
+    id: 9888
+    name: Maxim 9伤害下降
+    conflict_type: 9888
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "3835"
+    is_form_play: 1
+  }
+  {
+    id: 9889
+    name: Maxim 9射速下降
+    conflict_type: 9889
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    rate_number: *203
+    trigger_creation_id: "3835"
+    is_form_play: 1
+  }
+  {
+    id: 9890
+    name: 消音器标记
+    conflict_type: 9890
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9891
+    name: Maxim 9回避提升
+    conflict_type: 9891
+    max_tier: 3
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 9892
+    name: IA2技能不触发
+    conflict_type: 9892
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9893
+    name: C-93装备
+    conflict_type: 9893
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9894
+    name: C-93暴击伤害提升
+    conflict_type: 9894
+    max_tier: 2
+    type: 112
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    critical_damage_number: "110"
   }
   {
     id: 10000

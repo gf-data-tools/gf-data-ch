@@ -293,6 +293,17 @@
     skin_source: 1
   }
   {
+    id: 211
+    name: 格琳娜-前线风云
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    dialog: 虽然平时工作在后勤，但到了关键时刻，即便是我也能够冲锋陷阵……好了，指挥官，我们出发吧。
+    gift_position: "-130,-4.5"
+    class_id: 52
+    skin_source: 1
+  }
+  {
     id: 212
     name: 格琳娜-正装时刻
     fit_gun: -1
@@ -9684,7 +9695,6 @@
     name: DSR-50-秘密誓约
     fit_gun: 179
     voice: 16
-    is_hidden: 1
     dialog: 指挥官，想知道这把锁的秘密吗？嘘……要靠近才能听哦。
     illustrator_cv: 小枪,斉藤佑圭,
     order: 151
@@ -9696,7 +9706,6 @@
     name: G41-挚诚花语
     fit_gun: 62
     voice: 16
-    is_hidden: 1
     dialog: 这种花代表的含义是“忠诚”吗？我喜欢这个！我想把这些花，全都送给主人——
     illustrator_cv: RIRE,釘宮理恵,
     order: 151
@@ -9708,7 +9717,6 @@
     name: MG5-融霜绽蕊
     fit_gun: 109
     voice: 16
-    is_hidden: 1
     dialog: 真是像花一样脆弱的衣服啊……不过，就这样也不会影响到实战的，放心下达命令吧，长官。
     illustrator_cv: 二花,小清水亜美,
     order: 151
@@ -9720,7 +9728,6 @@
     name: 9A-91-注目倾心
     fit_gun: 118
     voice: 16
-    is_hidden: 1
     dialog: 指挥官，这样的我有没有让您的视线更久地停驻呢？就这样……让我们一直沐浴在彼此的目光下吧。
     order: 151
     class_id: 111
@@ -9731,7 +9738,6 @@
     name: 汉阳造88式-沁羽澄意
     fit_gun: 95
     voice: 16
-    is_hidden: 1
     dialog: 主人，请跟我来！小爱在这里已经等候多时了，只为这一刻……再靠近一点，好吗？
     order: 151
     class_id: 111
@@ -9742,7 +9748,6 @@
     name: 纳甘左轮-隽永之约
     fit_gun: 5
     voice: 16
-    is_hidden: 1
     dialog: 见证了时代的过去，还想要一起见证未来吗？指挥官，真是个贪心的人呐……
     order: 151
     class_id: 111

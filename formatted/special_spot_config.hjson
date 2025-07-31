@@ -16867,6 +16867,516 @@
     spot_buff_config_id: 3
   }
   {
+    id: 760000
+    name: 威廉标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "4,5,6"
+    detect_range: 5
+    effect_target_type: "4,5,6"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 1
+    effect_range: 5
+    conflict_type: 760000
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "760001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760001
+    name: 威廉投影标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "4,5"
+    detect_range: 5
+    effect_target_type: "4,5"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 1
+    effect_range: 5
+    conflict_type: 760001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "760001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760002
+    name: 威廉投影标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "6"
+    detect_range: 5
+    effect_target_type: "6"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 1
+    effect_range: 5
+    conflict_type: 760002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "760001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760003
+    name: 威廉检测蓝撞红
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 760008
+    detect_target_type: "1,3,301,10,305,304,8"
+    detect_range: 5
+    effect_target_type: "4,5"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 2
+    conflict_type: 760003
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760004
+    name: 威廉检测红撞蓝
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 760000
+    detect_target_type: "4,5"
+    detect_range: 5
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 2
+    conflict_type: 760004
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760005
+    name: 威廉关停标记
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 1
+    conflict_type: 760005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760006
+    name: 威廉检测蓝撞黄
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 760008
+    detect_target_type: "1,3,301,10,305,304,8"
+    detect_range: 5
+    effect_target_type: "6"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 2
+    conflict_type: 760006
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760007
+    name: 威廉检测黄撞蓝
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 760000
+    detect_target_type: "6"
+    detect_range: 5
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 2
+    conflict_type: 760007
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760008
+    name: 威廉蓝色撞怪
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 1
+    conflict_type: 760008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "760000,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760011
+    name: special_spot_config-10760011
+    description: special_spot_config-20760011
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 760002
+    detect_target_type: "4,5"
+    detect_range: 5
+    effect_target_type: "4,5"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 2
+    conflict_type: 760011
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760012
+    name: special_spot_config-10760012
+    description: special_spot_config-20760012
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 760002
+    detect_target_type: "6"
+    detect_range: 5
+    effect_target_type: "6"
+    effect_spotbelong_type: "0,1,2,3,99"
+    effect_range_type: 2
+    conflict_type: 760012
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760400
+    name: 标记兔子
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760400
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760401
+    name: 控制台初始化
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760401
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760402
+    name: EMP初始化
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760402
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760410
+    name: 控制台标记
+    priority: -1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760410
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760411
+    name: 操作控制台
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760411
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,760401"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760412
+    name: 启动EMP
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "4,5,6"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    effect_range: 2
+    conflict_type: 760412
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "1000001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_birth: 1000016
+    effect_conditions: "1"
+  }
+  {
+    id: 760420
+    name: EMP标记
+    priority: -1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760420
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760800
+    name: 击杀标记
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760800
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760801
+    name: 敌人3动
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760801
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "760802,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760802
+    name: 敌人4动
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760802
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "760803,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760810
+    name: 杂物堆
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760810
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 9720402
+    effect_conditions: "1"
+    spot_buff_config_id: 3
+  }
+  {
+    id: 760899
+    name: 失败判定
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760899
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760901
+    name: 撤离点
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 760911
+    detect_target_type: "301"
+    effect_target_type: "301"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760901
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760911
+    name: 成功撤离
+    code: TargetPoint_Radar
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760911
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
+    id: 760912
+    name: 歌利亚伤害
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 760912
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,1000052,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_birth: 1000017
+    effect_conditions: "1"
+  }
+  {
+    id: 762102
+    name: 电梯
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 762102
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "1"
+  }
+  {
     id: 900001
     name: 机场出兵
     description: 机场增援中,增援的单位更强

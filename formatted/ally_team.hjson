@@ -16523,6 +16523,359 @@
     no_battle_damage: -1
   }
   {
+    id: 760201
+    name: AR小队
+    guns: "760201,760202,760203"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760202
+    name: 忤逆小队
+    guns: "760204,760205,760206"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760403
+    name: 铁血
+    guns: "1"
+    enemy_team_id: 760403
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "6"
+    transform_number: "760452"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760407
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 760407
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760500
+    name: 玛赫莲
+    guns: "1"
+    enemy_team_id: 760500
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "2"
+    transform_number: "88305,88326,88347"
+    transform_result: 1:9066-1,1:9066-1,1:9066-1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760601
+    name: M16A1
+    guns: "760601"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "760611,760612"
+    betray_result: "1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: "760603,760603"
+    betray_result_ai: "20100#20100"
+    betray_result_ai_content: "0#0"
+  }
+  {
+    id: 760602
+    name: 喙
+    guns: "760602"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760611,760612"
+    transform_result: "2,2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760700
+    name: 忤逆小队
+    guns: "760701,760702"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760702
+    name: 布拉梅德
+    guns: "1"
+    enemy_team_id: 760702
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760703
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 760703
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760701"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760704
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 760704
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760702"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760705
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 760705
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760703"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760800
+    name: 指挥官
+    guns: "760800"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 1065
+  }
+  {
+    id: 760801
+    name: 忤逆小队
+    guns: "760204,760205,760206"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760900
+    name: 格琳娜
+    guns: "760900"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 761203
+    name: 铁血
+    guns: "1"
+    enemy_team_id: 761203
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "6"
+    transform_number: "760452"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761207
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 761207
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761402
+    name: 布拉梅德
+    guns: "1"
+    enemy_team_id: 761402
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761403
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 761403
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760701"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761404
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 761404
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760702"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761405
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 761405
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760703"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761807
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 761807
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762002
+    name: 布拉梅德
+    guns: "1"
+    enemy_team_id: 762002
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762003
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 762003
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760701"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762004
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 762004
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760702"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762005
+    name: 帕拉蒂斯
+    guns: "1"
+    enemy_team_id: 762005
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760703"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762102
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 762102
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "88723,88724,88725,88722,88719,88718,88717,88720,88723;0;88723,88724,88725,88722,88719,88718,88717,88720,88723"
+    transform_condition: "6"
+    transform_number: "762103"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762103
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 762103
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "88731,88732,88733;0;88731,88732,88733"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762104
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 762104
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "88734,88735,88736;0;88734,88735,88736"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0

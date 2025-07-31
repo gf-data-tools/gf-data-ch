@@ -892,6 +892,15 @@
     rank: 1
   }
   {
+    id: 150
+    type: 3
+    arg: "51"
+    code: Medal_202507Activity
+    item_name: 虚粒观测者勋章
+    introduction: 表彰该指挥官及其麾下的战术人形在“虚粒子对”活动中的卓越战绩，“观测者的目光是虚粒子的生命，凝视使其存在，忽视令其消散，这是你所认定的真实。”
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -16616,6 +16625,69 @@
     rank: 1
   }
   {
+    id: 2696
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_01
+    item_name: 头像：嗜战
+    introduction: 头像：嗜战
+    rank: 1
+  }
+  {
+    id: 2697
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_02
+    item_name: 头像：新世界的门票
+    introduction: 头像：新世界的门票
+    rank: 1
+  }
+  {
+    id: 2698
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_03
+    item_name: 头像：隐没月光
+    introduction: 头像：隐没月光
+    rank: 1
+  }
+  {
+    id: 2699
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_04
+    item_name: 头像：忧心
+    introduction: 头像：忧心
+    rank: 1
+  }
+  {
+    id: 2700
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_05
+    item_name: 头像：利刃
+    introduction: 头像：利刃
+    rank: 1
+  }
+  {
+    id: 2701
+    type: 5
+    arg: "1"
+    code: card_202507Activity_01
+    item_name: 名片：终局之前
+    introduction: 名片：终局之前
+    rank: 1
+  }
+  {
+    id: 2702
+    type: 5
+    arg: "1"
+    code: card_202507Activity_02
+    item_name: 名片：炽色火花
+    introduction: 名片：炽色火花
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -20920,6 +20992,71 @@
     introduction: 在梦境中倒立着肆意生长的树，根系纠缠在一起，组成一座座漂浮群岛。
     rank: 1
     daily_limit: 60;180
+  }
+  {
+    id: 100277
+    type: 4
+    arg: "100277"
+    code: Nova_medal
+    item_name: 新星勋章·卷积核
+    introduction: 新星勋章·卷积核
+    rank: 1
+  }
+  {
+    id: 100278
+    type: 4
+    arg: "100278"
+    code: Platinum_medal
+    item_name: 白金勋章·卷积核
+    introduction: 白金勋章·卷积核
+    rank: 1
+  }
+  {
+    id: 100279
+    type: 9
+    arg: "100279"
+    code: Coin_202412ConvolutionalKernel
+    item_name: 暮春孤芳
+    introduction: 一枝散发着馥郁香气的百合花被遗忘在了那个春天的末尾，等待着那个不归人将它拾起。
+    rank: 1
+    daily_limit: 60;180
+  }
+  {
+    id: 100280
+    type: 4
+    arg: "100280"
+    code: Nova_medal_black
+    item_name: 新星勋章·虚粒子对
+    introduction: 新星勋章·虚粒子对
+    rank: 1
+  }
+  {
+    id: 100281
+    type: 4
+    arg: "100281"
+    code: Platinum_medal_black
+    item_name: 白金勋章·虚粒子对
+    introduction: 白金勋章·虚粒子对
+    rank: 1
+  }
+  {
+    id: 100282
+    type: 9
+    arg: "100282"
+    code: Coin_202507VirtualPair​
+    item_name: 湮灭圆环
+    introduction: 孤独的粒子相互牵引着彼此，决意融合的同时，便是走向毁灭的开始。
+    rank: 1
+    daily_limit: 60;180
+  }
+  {
+    id: 100283
+    type: 4
+    arg: "100283"
+    code: coremask2_202507VirtualPair​
+    item_name: 蚀心面具·虚粒子对
+    introduction: 散发着诡谲气息的面具，只有通过极为艰险的考验才能获得。留在手中似乎没有什么用，但能够在商店换取到一个期望已久的相遇。
+    rank: 1
   }
   {
     id: 110001
@@ -26931,7 +27068,7 @@
     id: 1500247
     type: 15
     arg: "1500247"
-    code: Bumdle_SummerdayCoupons1
+    code: Bumdle_SummerdayCoupons2
     item_name: 尊享装扮券·夏日
     introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
     rank: 1
@@ -26942,7 +27079,7 @@
     id: 1500248
     type: 15
     arg: "1500248"
-    code: Bumdle_SummerdayCoupons1
+    code: Bumdle_SummerdayCoupons3
     item_name: 至臻装扮券·夏日
     introduction: 在仓库中使用该装扮券，即可从指定范围内选择获得一件装扮。
     rank: 1
@@ -26989,6 +27126,87 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-遇见甜甜圈，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500253
+    type: 15
+    arg: "1500253"
+    code: Bumdle_FantasyCoupons1
+    item_name: 珍藏装扮券·奇境幻想
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500254
+    type: 15
+    arg: "1500254"
+    code: Bumdle_FantasyCoupons2
+    item_name: 尊享装扮券·奇境幻想
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500255
+    type: 15
+    arg: "1500255"
+    code: Bumdle_FantasyCoupons3
+    item_name: 至臻装扮券·奇境幻想
+    introduction: 在仓库中使用该装扮券，即可从指定范围内选择获得一件装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500256
+    type: 15
+    arg: "1500256"
+    code: Bumdle_invocation_3
+    item_name: 四星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位四星战术人形。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500257
+    type: 15
+    arg: "1500257"
+    code: Bumdle_invocation_2
+    item_name: 五星人形调用函
+    introduction: 在仓库中使用该调用函，即可从指定范围内选择获得一位五星战术人形。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500258
+    type: 15
+    arg: "1500258"
+    code: Bumdle_sangvischoose
+    item_name: 融合势力定向收归委托书
+    introduction:
+      '''
+      在仓库中使用该委托书，即可从指定范围内选择获得一位初始三星融合势力单位。
+      *若指挥官未解锁“融合势力”系统，在获得所选的初始三星融合势力单位后将暂时无法使用，待后续指挥官解锁了“融合势力”系统后可正常使用。
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500259
+    type: 15
+    arg: "1500259"
+    code: Bumdle_equipment
+    item_name: 五星装备自选凭证
+    introduction: 在仓库中使用该自选凭证，即可从指定范围内选择获得一个非专属五星装备。
     rank: 1
     sort: -1
     type_sort: 1

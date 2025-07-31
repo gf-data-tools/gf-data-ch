@@ -1678,7 +1678,7 @@
     type: 2
     poster: PackageImage_WhiteValentineCoupons1
     drop_package_id: 2556
-    due_time: 2025/04/29  00:00:00
+    due_time: 2025/10/02  00:00:00
     due_prize_id: 7395
     present_info:
       '''
@@ -1691,21 +1691,21 @@
     type: 2
     poster: PackageImage_WhiteValentineCoupons2
     drop_package_id: 2557
-    due_time: 2025/04/29  00:00:00
+    due_time: 2025/10/02  00:00:00
     due_prize_id: 7396
     present_info:
       '''
       指挥官可从以下白情主题装扮中随机获得一件未拥有的装扮。
-      可获得装扮范围：FAL-最重要的日子、PK-与您同在、P7-掌心约定、56-1式-同心千千结、MP5-小小的一步、FN-57-被接纳的笑容、G36-纯白矢车菊、PKP-银白之星、G36C-迈出步伐的你、Zas M21-花之后的情愫、M1014-天使像前的心跳、灰熊MkV-星夜落雨之时、M37-和伊萨卡的漫长假日、XM8-玫瑰棋手的告白、韦伯利-日落黄昏时、95式-洋桔梗与她的季节、P22-幻想圆舞曲、79式-于尘埃间仰望、97式-风中祝祷、K5-维纳斯之阵、AUG-蓝色沉思曲、蒙德拉贡M1908-乌藤仙境、SP9-浮沫白雪
+      可获得装扮范围：FAL-最重要的日子、PK-与您同在、P7-掌心约定、56-1式-同心千千结、MP5-小小的一步、FN-57-被接纳的笑容、G36-纯白矢车菊、PKP-银白之星、G36C-迈出步伐的你、Zas M21-花之后的情愫、M1014-天使像前的心跳、灰熊MkV-星夜落雨之时、M37-和伊萨卡的漫长假日、XM8-玫瑰棋手的告白、韦伯利-日落黄昏时、95式-洋桔梗与她的季节、P22-幻想圆舞曲、79式-于尘埃间仰望、97式-风中祝祷、K5-维纳斯之阵、AUG-蓝色沉思曲、蒙德拉贡M1908-乌藤仙境、SP9-浮沫白雪
       '''
   }
   {
     item_id: 1500192
-    type: 2
+    type: 1
     poster: PackageImage_WhiteValentineCoupons3
-    drop_package_id: 2558
-    due_time: 2025/04/29  00:00:00
-    due_prize_id: 7397
+    prize_id: 13035
+    due_time: 2025/10/02  00:00:00
+    due_prize_id: 2885
     present_info:
       '''
       指挥官可从以下白情主题装扮中选择获得一件装扮。
@@ -2432,8 +2432,8 @@
   {
     item_id: 1500253
     type: 2
-    poster: PackageImage_SummerdayCoupons1
-    drop_package_id: 2596
+    poster: PackageImage_FantasyCoupons1
+    drop_package_id: 2599
     due_time: 2025/09/25  23:59:59
     due_prize_id: 7395
     present_info:
@@ -2447,8 +2447,8 @@
   {
     item_id: 1500254
     type: 2
-    poster: PackageImage_SummerdayCoupons2
-    drop_package_id: 2597
+    poster: PackageImage_FantasyCoupons2
+    drop_package_id: 2600
     due_time: 2025/09/25  23:59:59
     due_prize_id: 7396
     present_info:
@@ -2461,7 +2461,7 @@
   {
     item_id: 1500255
     type: 1
-    poster: PackageImage_SummerdayCoupons3
+    poster: PackageImage_FantasyCoupons3
     prize_id: 13010
     due_time: 2025/09/25  23:59:59
     due_prize_id: 2885
@@ -2470,6 +2470,73 @@
       "指挥官可从以下往期主题装扮中选择获得一件装扮。
       可获得装扮范围：汤姆森-恶魔猎人、NTW-20-贵族体验馆、PA-15-高校心跳物语、AUG-葬仪阵列、R93-藤萝歌仙、64式自-一份不适合她的工作、德利尔-郊狼蓝调、汉阳造88式-纯白流星负愿而行、G41-寰宇特急、汉阳造88式-超新星之魂、56-1式-无双棍舞、SIG MCX-克拉肯猎人、PA-15-踏光而来的夜
       *装扮券有效时间截止至2025年9月25日23:59，请指挥官注意把握时间。"
+      '''
+  }
+  {
+    item_id: 1500256
+    type: 1
+    poster: PackageImage_rank4
+    prize_id: 2877
+    due_time: 2026/01/31  23:59:59
+    due_prize_id: 1993
+    present_info:
+      '''
+      指挥官可从截至2025年7月10日前实装的四星战术人形中选择一位获得。
+      请指挥官前往【仓库】中选择战术人形，各种类可获得人形情况如下：
+      【HG】：柯尔特左轮、斯捷奇金、Mk23、P7、SPP-1、喷火、雷电、K5、杰里科、P30、Rex-0-1、德林加、CZ 100、ZiP .22、PPQ、P290、P10C、VP9
+      【SMG】：MP5、UMP9、UMP45、PP-90、PP-19、希普卡、UMP40、KLIN、PP-19-01、Cx4 风暴、蜜獾、MAT-49、KAC-PDW、CF05、SAF、AR-57、PPD-40、维涅龙M2、MPL、MPK、APC9K、欧文
+      【RF】：春田、莫辛-纳甘、PTRD、PSG-1、SVD、G28、PzB39、T-5000、XM3、Mk 12、SPR A3G、K31、KSVK、四式、SSG3000、塔布克、蒙德拉贡M1908、TF-Q、Saiga 308
+      【AR】：AS Val、G36、56-1式、FAMAS、TAR-21、9A-91、利贝罗勒、Ak 5、CZ2000、XM8、A-91、SAR-21、EM-2、CR-21、M82、FX-05、菲德洛夫、APC556、FARA 83、AK74M、CMR-30、MSBS、CM901、SIG M400
+      【MG】：M1918、M60、PK、MG3、Mk48、Mk46、AEK-999、阿梅利、80式、UKM-2000、绍沙、M1895 CB、PM1910、LS26、MG15
+      【SG】：M37、M590、超级肖蒂、SPAS-12、M1014、USAS-12、解放者、防卫者、V-PM5、HK512、新星、MAG-7、UTS-15
+      '''
+  }
+  {
+    item_id: 1500257
+    type: 1
+    poster: PackageImage_rank5
+    prize_id: 2878
+    due_time: 2026/01/31  23:59:59
+    due_prize_id: 1994
+    present_info:
+      '''
+      指挥官可从截至2025年7月10日前实装的五星战术人形中选择一位获得。
+      请指挥官前往【仓库】中选择战术人形，各种类可获得人形情况如下：
+      【HG】：灰熊MkⅤ、M950A、维尔德MkⅡ、NZ75、FN-57、CZ75、竞争者、蟒蛇、Px4 风暴、P22、HS2000、PA-15、沙漠之鹰、C-93、韦伯利、HP-35、蜂鸟、芮诺、M327、柯尔特沃克、P2000、柯尔特M1851N
+      【SMG】：汤姆森、维克托、G36C、索米、79式、SR-3MP、MP7、C-MS、PM-06、AK-74U、JS 9、樱花、P90、X95、PM-9、卢萨、AUG SMG、VP1915、SP9、SR-2、斯特林、Erma、Jatimatic、82式、P50
+      【RF】：Kar98k、WA2000、李-恩菲尔德、NTW-20、M99、IWS 2000、DSR-50、JS05、卡尔卡诺M1891、卡尔卡诺M91/38、芭莉斯塔、SRS、TAC-50、M82A1、M200、QBU-88、R93、SL8、VSK-94、刘氏步枪、SVCh、沙维奇99型、德利尔、HS.50、SCAR-H、M110、QBU-191、博斯、马提尼亨利、SIG CROSS
+      【AR】：G41、HK416、FAL、OTs-14、G11、95式、97式、RFB、ART556、T91、K2、Zas M21、AK-12、AN-94、MDR、AUG、K11、64式自、ADS、ACR、SIG-556、R5、89式自、AK-15、AK-阿尔法、S-ACR、VHS、SIG MCX、TKB-408、KH2002、A-545、QBZ-191、SCR、AR-18、SCAR-L、VRB、HK433、贝奥武夫、Mk.18
+      【MG】：MG5、内格夫、MG4、PKP、HK21、88式、刘易斯、MG36、Kord、RPK-16、ZB-26、RPK-203、MG338、M240L、LAMG、FM24、XM556
+      【SG】：M1887、KSG、塞伽12型、AA-12、FP-6、S.A.T.8、M870、CAWS、DP-12、LTLX7000、M6 ASW、FO-12、M26-MASS、SPAS-15、MK3A1、TPS、史蒂文斯520、史蒂文斯620
+      '''
+  }
+  {
+    item_id: 1500258
+    type: 1
+    poster: PackageImage_Sangvis
+    prize_id: 2879
+    due_time: 2026/01/31  23:59:59
+    due_prize_id: 2598
+    present_info:
+      '''
+      指挥官可从截至2025年7月10日前实装的初始三星融合势力单位中选择一位获得。
+      请指挥官前往【仓库】中选择初始三星融合势力单位，可获得初始三星融合势力单位情况如下：
+      稻草人、行裁者、猎手、干扰者、破坏者、建筑师、衔尾蛇、炼金术士、梦想家、计量官、法官、代理人、艾德琳、埃莉诺、建筑师-NVW型、干扰者-终幕魔女、破坏者-浮掠麋影、猎手-裳夜落蛾、末日魔犬、埃莉诺-沧龙掠骑者、行裁者-血魇猎狂、塔亚柔斯、稻草人-魇渊夕来、纱那、娜希斯、梦想家-雾月翼手、格雷、计量官-VWV型、白烨戈
+      *若指挥官未解锁“融合势力”系统，在获得所选的初始三星融合势力单位后将暂时无法使用，待后续指挥官解锁了“融合势力”系统后可正常使用。
+      '''
+  }
+  {
+    item_id: 1500259
+    type: 1
+    poster: PackageImage_Equip
+    prize_id: 2880
+    due_time: 2026/01/31  23:59:59
+    due_prize_id: 2599
+    present_info:
+      '''
+      指挥官可从截至2025年7月10日前实装的非专属五星装备中选择一个获得。
+      请指挥官前往【仓库】中选择非专属五星装备，可获得非专属五星装备情况如下：
+      “VFL 6-24X56”、“EOT 518”、“ITI MARS”、“PEQ-16A”、“Mk211高爆穿甲弹”、“APCR高速弹”、“IOP T4外骨骼”、“Type3防弹插板”、“IOP X4外骨骼”、“AC4消音器”、“IOP极限弹链箱”、“ILM空尖弹”、“#000猎鹿弹”、“SABOT独头弹”、“热光学迷彩披风”、“RMR T4红点”、“信号弹”、“M1022狙击弹”、“Mk1000SLAP”、“#7.5鸟弹”、“#2运算芯片”、“霰弹用闪光弹”、“SF武器灯改”、“Mk0多用途喉缩管”、“专注芯片”、“M200X LRF”、“HD100脚架”
       '''
   }
   {

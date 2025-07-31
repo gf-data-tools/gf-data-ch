@@ -4713,6 +4713,72 @@
     hit_type: 1
   }
   {
+    id: 756
+    description: Hecate II攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009891"
+  }
+  {
+    id: 757
+    description: Hecate II狙击
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000009891"
+  }
+  {
+    id: 758
+    description: IA2攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009893"
+  }
+  {
+    id: 759
+    description: Mini-14攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009896"
+  }
+  {
+    id: 760
+    description: Maxim 9自伤
+    extra_damage: "400"
+    buff_id_self: 9885:1
+    buff_rate: "100"
+  }
+  {
+    id: 761
+    description: Maxim 9影响格自伤
+    extra_damage: "50"
+  }
+  {
+    id: 762
+    description: 海盗船伤害
+    extra_damage: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -11369,6 +11435,61 @@
     fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
     range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
     range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1,15146:1
+  }
+  {
+    id: 3101
+    description: M16A1攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    extra_defbreak: "100"
+    hit_type: 1
+    is_ricochet: 100
+  }
+  {
+    id: 3102
+    description: 喙伤害
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000020002"
+  }
+  {
+    id: 3103
+    description: M16A1手榴弹
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    extra_defbreak: "100"
+    hit_type: 1
+    is_ricochet: 100
+    fix_damage: "1000020004"
+    range_buff_self: 2626:1
+  }
+  {
+    id: 3104
+    description: M16A1大招
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    extra_defbreak: "100"
+    hit_type: 1
+    is_ricochet: 100
+    fix_damage: "1000020005"
+  }
+  {
+    id: 3105
+    description: M16A1追杀伤害
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000020006"
+    range_buff_target: 2635:1
   }
   {
     id: 4001

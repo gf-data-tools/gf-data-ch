@@ -8552,7 +8552,7 @@
     spot_belong: "0,1,2,3"
     spot_echelon: "1,8,10"
     start_range: 3
-    trigger_id: "44000300"
+    trigger_id: 44000300&&1
     mission_buff_add: 440001:1
     subsidiary_mission_skill: "440003"
     is_manual: 440001
@@ -8567,7 +8567,7 @@
     spot_belong: "0,1,2,3"
     spot_echelon: "4,5,6"
     start_range: 3
-    trigger_id: "44000400"
+    trigger_id: 44000400&&1
     target_id: "44000500"
     mission_buff_add: 440002:1
     subsidiary_mission_skill: "440004"
@@ -31940,6 +31940,823 @@
     mission_buff_minus: 751502:1
   }
   {
+    id: 760000
+    name: 威廉
+    skill_group_id: 760000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760001:1,760011:1,760003:1,760004:1
+  }
+  {
+    id: 760001
+    name: 威廉投影
+    skill_group_id: 760001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760001:1,760011:1,760003:1,760004:1
+  }
+  {
+    id: 760002
+    name: 威廉投影
+    skill_group_id: 760002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760002:1,760012:1,760006:1,760007:1
+  }
+  {
+    id: 760003
+    name: 帕拉蒂斯杀手
+    skill_group_id: 760003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    subsidiary_mission_skill: "760080,760070,760060,760050,760040,760030,760020,760010"
+  }
+  {
+    id: 760004
+    name: 威廉投影
+    description: 视同威廉本人在场，令5格内的帕拉蒂斯及罗联单位获得伤害增益“威廉的注视”，我方梯队击杀被强化的单位可令下2次移动不消耗行动点并获得伤害增益“威廉克星”，最多叠加8层
+    skill_group_id: 760004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+  }
+  {
+    id: 760010
+    name: 威廉克星
+    skill_group_id: 760010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76001000
+    mission_buff_add: 760010:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760011
+    name: 关闭投影
+    description:
+      '''
+      关停威廉投影，解除他的注视带来的强化效果
+      <color=#CF8000>天黑请闭眼</color>
+      '''
+    skill_group_id: 760011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 76000101&&76000500
+    target_id: "1"
+    special_spot_minus: 760001:1,760011:1,760003:1,760004:1
+    subsidiary_mission_skill: "760021"
+    is_manual: 760003
+  }
+  {
+    id: 760012
+    name: 关闭投影
+    description:
+      '''
+      关停威廉投影，解除他的注视带来的强化效果
+      <color=#CF8000>天黑请闭眼</color>
+      '''
+    skill_group_id: 760012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "76000201"
+    target_id: "1"
+    special_spot_minus: 760002:1,760012:1,760006:1,760007:1
+    subsidiary_mission_skill: "760022"
+    is_manual: 760003
+  }
+  {
+    id: 760020
+    name: 威廉克星
+    skill_group_id: 760020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76001001
+    mission_buff_add: 760020:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760021
+    name: 关投影后续
+    skill_group_id: 760021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    mission_buff_minus: 760001:1,760002:1
+    subsidiary_mission_skill: "760031"
+  }
+  {
+    id: 760022
+    name: 关投影后续
+    skill_group_id: 760022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    mission_buff_minus: 760001:1,760002:1
+    subsidiary_mission_skill: "760032"
+  }
+  {
+    id: 760030
+    name: 威廉克星
+    skill_group_id: 760030
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76002001
+    mission_buff_add: 760030:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760031
+    name: 关投影后续
+    skill_group_id: 760031
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "76000101"
+    special_spot_add: 760001:1
+  }
+  {
+    id: 760032
+    name: 关投影后续
+    skill_group_id: 760032
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "76000201"
+    special_spot_add: 760002:1
+  }
+  {
+    id: 760040
+    name: 威廉克星
+    skill_group_id: 760040
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76003001
+    mission_buff_add: 760040:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760041
+    name: 关闭投影
+    description:
+      '''
+      关停威廉投影，解除他的注视带来的强化效果
+      <color=#CF8000>天黑请闭眼</color>
+      '''
+    skill_group_id: 760041
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 76000101&&76000501
+    target_id: "1"
+    special_spot_minus: 760001:1,760011:1,760003:1,760004:1
+    subsidiary_mission_skill: "760021"
+    is_manual: 760003
+  }
+  {
+    id: 760050
+    name: 威廉克星
+    skill_group_id: 760050
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76004001
+    mission_buff_add: 760050:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760060
+    name: 威廉克星
+    skill_group_id: 760060
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76005001
+    mission_buff_add: 760060:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760070
+    name: 威廉克星
+    skill_group_id: 760070
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76006001
+    mission_buff_add: 760070:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760080
+    name: 威廉克星
+    skill_group_id: 760080
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,8,301,303,10"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 76000001&&76000100&&76007001
+    mission_buff_add: 760080:1,20202:1
+    mission_buff_minus: 760000:1
+  }
+  {
+    id: 760400
+    name: 标记兔子
+    skill_group_id: 760400
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760400:1
+  }
+  {
+    id: 760401
+    name: 控制台初始化
+    skill_group_id: 760401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760401:1
+  }
+  {
+    id: 760402
+    name: EMP初始化
+    skill_group_id: 760402
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760402:1
+  }
+  {
+    id: 760411
+    name: 操作控制台
+    description:
+      '''
+      尝试开启通路
+      某些通道需要多个控制台同时操作
+      '''
+    skill_group_id: 760411
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 76040101&&76041001
+    target_id: "1"
+    special_spot_add: 760411:1
+    special_spot_minus: 760401:1
+    subsidiary_mission_skill: "760421"
+    is_manual: 760411
+  }
+  {
+    id: 760412
+    name: 启动EMP
+    description:
+      '''
+      启动EMP，削弱并定身2格范围内的敌人，持续1回合
+      根据使用方法不同，或许还有别的作用？
+      <color=#CF8000>这是什么？按一下？</color>
+      '''
+    skill_group_id: 760412
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 76040201&&76042000
+    target_id: "1"
+    special_spot_add: 760412:1
+    special_spot_minus: 760402:1
+    subsidiary_mission_skill: "760422,760432"
+    is_manual: 760412
+  }
+  {
+    id: 760421
+    name: 控制台标记
+    skill_group_id: 760421
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "76040101"
+    special_spot_add: 760410:1
+  }
+  {
+    id: 760422
+    name: EMP标记
+    skill_group_id: 760422
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "76040201"
+    special_spot_add: 760420:1
+  }
+  {
+    id: 760431
+    name: 操作控制台
+    description:
+      '''
+      尝试开启通路
+      某些通道需要多个控制台同时操作
+      '''
+    skill_group_id: 760431
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 76040101&&76041002
+    target_id: "1"
+    special_spot_add: 760411:1
+    special_spot_minus: 760410:3,760401:1
+    is_manual: 760411
+  }
+  {
+    id: 760432
+    name: 变
+    skill_group_id: 760432
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 2
+    trigger_id: 76040301||76120301
+    target_id: 76040301||76120301
+    special_spot_add: 1000072:1
+    subsidiary_mission_skill: "760452"
+  }
+  {
+    id: 760442
+    name: 启动EMP
+    description:
+      '''
+      启动EMP，削弱并定身2格范围内的敌人，持续1回合
+      根据使用方法不同，或许还有别的作用？
+      <color=#CF8000>这是什么？按一下？</color>
+      '''
+    skill_group_id: 760442
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 76040201&&76042001
+    target_id: "1"
+    special_spot_add: 760412:1
+    special_spot_minus: 760420:2,760402:1
+    subsidiary_mission_skill: "760432,760032"
+    is_manual: 760412
+  }
+  {
+    id: 760452
+    name: 歌利亚消失
+    skill_group_id: 760452
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+  }
+  {
+    id: 760601
+    name: 16哥
+    skill_group_id: 760601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760601:1
+  }
+  {
+    id: 760602
+    name: 喙
+    skill_group_id: 760602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760602:1
+  }
+  {
+    id: 760611
+    name: 合并
+    description:
+      '''
+      与喙合并成为一个无比强大的梯队
+      <color=#CF8000>我来组成头部！</color>
+      '''
+    skill_group_id: 760611
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "76060201"
+    is_manual: 760611
+  }
+  {
+    id: 760612
+    name: 合并
+    description:
+      '''
+      与M16A1合并成为一个无比强大的梯队
+      <color=#CF8000>刃马一体！</color>
+      '''
+    skill_group_id: 760612
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "76060101"
+    is_manual: 760612
+  }
+  {
+    id: 760701
+    name: 关机！
+    description: 关停控制中枢，令部分敌人停机
+    skill_group_id: 760701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&1
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 760701
+  }
+  {
+    id: 760702
+    name: 关机！
+    description: 关停控制中枢，令部分敌人停机
+    skill_group_id: 760702
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&1
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 760701
+  }
+  {
+    id: 760703
+    name: 关机！
+    description: 关停控制中枢，令部分敌人停机
+    skill_group_id: 760703
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&1
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 760701
+  }
+  {
+    id: 760704
+    name: 拾取EMP手雷
+    description: 拾取EMP手雷
+    skill_group_id: 760704
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&1
+    target_id: "1"
+    mission_buff_add: 760704:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 760704
+  }
+  {
+    id: 760714
+    name: 投掷
+    description:
+      '''
+      向目标投掷EMP手雷，将其削弱并定身，持续1回合
+      <color=#CF8000>You shall not pass！</color>
+      '''
+    skill_group_id: 760714
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    mission_buff_add: 1000001:1
+    subsidiary_mission_skill: "760724"
+    is_manual: 760714
+  }
+  {
+    id: 760724
+    name: 清buff
+    skill_group_id: 760724
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 760704:1
+  }
+  {
+    id: 760800
+    name: 指挥官
+    skill_group_id: 760800
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760800:2
+  }
+  {
+    id: 760801
+    name: 敌人多动初始化
+    skill_group_id: 760801
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760801:1
+  }
+  {
+    id: 760804
+    name: 忤逆
+    skill_group_id: 760804
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760804:1
+  }
+  {
+    id: 760810
+    name: 家具城之龙
+    description:
+      '''
+      推倒房间内的杂物形成阻挡物，持续1回合，冷却1回合，最多使用2次
+      <color=#CF8000>你们是抓不到我的！</color>
+      '''
+    skill_group_id: 760810
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    effect_target: "1000072"
+    trigger_id: 76082000&&1
+    special_spot_add: 760810:1
+    subsidiary_mission_skill: "760820"
+    is_manual: 760810
+  }
+  {
+    id: 760820
+    name: 家具城CD
+    skill_group_id: 760820
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760820:1
+    mission_buff_minus: 760800:1
+  }
+  {
+    id: 760899
+    name: 失败判定
+    skill_group_id: 760899
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760899:1
+  }
+  {
+    id: 760900
+    name: 格琳娜
+    skill_group_id: 760900
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 760902:1
+  }
+  {
+    id: 760901
+    name: 撤离点
+    skill_group_id: 760901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 760901:1
+  }
+  {
+    id: 760902
+    name: 拾取歌利亚
+    description: 拾取弃置歌利亚
+    skill_group_id: 760902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&1
+    target_id: "1"
+    mission_buff_add: 760902:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 760902
+  }
+  {
+    id: 760912
+    name: 投掷
+    description:
+      '''
+      向目标投掷歌利亚，直接击杀目标，对BOSS无效
+      <color=#CF8000>拜托了，歌利亚！</color>
+      '''
+    skill_group_id: 760912
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 760912:1
+    special_spot_minus: 760006:1,760007:1
+    subsidiary_mission_skill: "760922"
+    is_manual: 760912
+  }
+  {
+    id: 760922
+    name: 清buff
+    skill_group_id: 760922
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 760902:1
+  }
+  {
+    id: 761701
+    name: 关停标记
+    skill_group_id: 761701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "76000101"
+    special_spot_add: 760005:1
+  }
+  {
+    id: 762102
+    name: 电梯初始化
+    skill_group_id: 762102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 762102:1
+  }
+  {
+    id: 762103
+    name: 下班！
+    description:
+      '''
+      向部分敌人发出错误指令，令其退出战场
+      <color=#CF8000>三点几咧，饮茶先啦！</color>
+      '''
+    skill_group_id: 762103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&1
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 762103
+  }
+  {
+    id: 762112
+    name: 搭乘电梯
+    description: 搭乘电梯前往另一层
+    skill_group_id: 762112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 100
+    is_airborne: 2
+    target_id: "76210201"
+    is_manual: 762112
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"
@@ -41589,6 +42406,28 @@
       可以制作防毒面具。
       '''
     skill_group_id: 2000024
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+  }
+  {
+    id: 2000025
+    name: 落穴
+    description: 深不见底
+    skill_group_id: 2000025
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+  }
+  {
+    id: 2000026
+    name: 控制中枢
+    description: 帕拉蒂斯控制中枢，可用于控制其他设施和单位
+    skill_group_id: 2000026
     level: 1
     spot_type: "-1"
     spot_belong: "-1"

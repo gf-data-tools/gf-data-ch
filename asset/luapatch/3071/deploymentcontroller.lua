@@ -8,5 +8,11 @@ local InitCode = function(self,code)
 		self.spineHolder.transform.localPosition = CS.UnityEngine.Vector3(pos.x,pos.y,80);
 	end
 end
-
+local OnClickButton = function(self,Button)
+	if CS.CommonConfirmBoxControllerNew.hasOpen then
+		return;
+	end
+	self:OnClickButton(Button);
+end
 util.hotfix_ex(CS.DeploymentBuildingController,'InitCode',InitCode)
+util.hotfix_ex(CS.DeploymentUIController,'OnClickButton',OnClickButton)
