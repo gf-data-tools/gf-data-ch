@@ -62279,7 +62279,7 @@
     boss_available: 1
     trigger_creation_id: "3831"
     is_form_play: 1
-    fix_damage: 1000009897
+    fix_damage: 1000009913
   }
   {
     id: 9871
@@ -62561,6 +62561,168 @@
     duration: "120"
     boss_available: 1
     critical_damage_number: "110"
+  }
+  {
+    id: 9895
+    name: AUG套装装备1
+    conflict_type: 9895
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9896
+    name: AUG套装装备2
+    conflict_type: 9896
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9897
+    name: AUG套装
+    conflict_type: 9897
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9898
+    name: 春田套装装备1
+    conflict_type: 9898
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9899
+    name: 春田套装装备2
+    conflict_type: 9899
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9900
+    name: 春田套装
+    conflict_type: 9900
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9901
+    name: AUG友方死亡监视
+    conflict_type: 9901
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1078
+  }
+  {
+    id: 9902
+    name: AUG敌方死亡监视
+    conflict_type: 9902
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1079
+  }
+  {
+    id: 9903
+    name: AUG死亡标记
+    conflict_type: 9903
+    max_tier: 20
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9904
+    name: AUG套装-穿甲增加
+    conflict_type: 9904
+    max_tier: 1
+    type: 811
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    arp_number: "100"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9905
+    name: AUG套装-暴击伤害增加
+    conflict_type: 9905
+    max_tier: 1
+    type: 812
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: "30"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9906
+    name: AUG套装-伤害增加
+    conflict_type: 9906
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "200"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9907
+    name: 春田无套装技能触发
+    conflict_type: 9907
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9908
+    name: 春田套装技能触发
+    conflict_type: 9908
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9909
+    name: 春田套装护盾
+    conflict_type: 9909
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    shield_number: *201
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
   }
   {
     id: 10000

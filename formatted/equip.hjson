@@ -1393,8 +1393,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: rate:300,armor_piercing:500
+    passive_skill: "1008001"
     max_level: 10
     auto_select_id: 19001
+    group_id: "60"
     is_show: 1
     obtain_ids: "3"
   }
@@ -9111,9 +9113,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:850,critical_harm_rate:500
-    passive_skill: "759055"
+    passive_skill: "759055,1007901"
     max_level: 10
     auto_select_id: 18101
+    group_id: "59"
     is_show: 1
     obtain_ids: "3072,3096"
     description_skill: 759055
@@ -12926,7 +12929,7 @@
     max_level: 10
     auto_select_id: 19081
     is_show: 1
-    obtain_ids: "3107"
+    obtain_ids: "3107,3096"
     description_skill: 1001901
   }
   {
@@ -13371,7 +13374,7 @@
     max_level: 10
     auto_select_id: 19084
     is_show: 1
-    obtain_ids: "3110"
+    obtain_ids: "3110,3096"
     description_skill: 1003201
   }
   {
@@ -14742,5 +14745,74 @@
     is_show: 1
     obtain_ids: "3134"
     description_skill: 1007201
+  }
+  {
+    id: 462
+    name: 葬仪披风
+    description:
+      '''
+      伤害+<pow> 射速<rate>
+      暴击伤害+<critical_harm_rate><%>$AUG专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "5,8"
+    rate: "-5,-1"
+    critical_harm_rate: "18,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_AUG
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "73"
+    equip_introduction: AUG最习惯穿戴的披风，充满了温柔和痛楚的破碎感。
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,critical_harm_rate:400
+    passive_skill: "1007902"
+    max_level: 10
+    auto_select_id: 20104
+    group_id: "59"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 463
+    name: 工作围裙
+    description:
+      '''
+      伤害+<pow>
+      前置冷却-80%$春田专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_M1903
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "36"
+    equip_introduction: 春田在咖啡馆中工作时常戴的围裙，据说人形们看见这条围裙时心情都会变好~
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: pow:500
+    passive_skill: "759059,1008002"
+    max_level: 10
+    auto_select_id: 20105
+    group_id: "60"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: 前置冷却-80%
   }
 ]
