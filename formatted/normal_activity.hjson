@@ -12,6 +12,29 @@
     scene_name: Reversiblelogo
   }
   {
+    id: 23
+    campaign_id: -48
+    tag: EP.|13.75
+    order: 11
+    name: 熵减焓增
+    chapter_name: 熵减焓增
+    bg_code: active_PoincareRecurrence
+    bg_config: "#000000C7,#3D415166,#E64801,#FFFFFFFF"
+    desc: 活动时间:2021.08.26-09.23
+    scene_name: PoincareRecurrencelogo
+  }
+  {
+    id: 28
+    campaign_id: -47
+    tag: C.E.|2021
+    order: 102
+    name: 节日活动Ⅲ
+    chapter_name: 捩浪人
+    bg_code: active_Bikini2021
+    bg_config: "#000000C7,#3D415166,#22d0ab,#FFFFFFFF"
+    desc: 活动时间:2021.07.01-07.28
+  }
+  {
     id: 31
     campaign_id: -50
     tag: C.E.|2022
@@ -81,6 +104,17 @@
     bg_config: "#000000C7,#3D415166,#FF9000,#FFFFFFFF"
     desc: 活动时间:2022.12.08-12.29
     scene_name: active_eclipseslogo
+  }
+  {
+    id: 42
+    campaign_id: -67
+    tag: EP.|13.75
+    order: 11
+    name: 熵减焓增
+    chapter_name: 噩梦迷城+
+    bg_code: missionselect_PoincareRecurrenceRemake
+    event_prize_level: 10010
+    rank_id: "310"
   }
   {
     id: 43
@@ -222,5 +256,17 @@
     bg_config: "#000000C7,#3D415166,#FF4800,#FFFFFFFF"
     desc: 活动时间:2024.10.17-11.07
     scene_name: active_202410logo
+  }
+  {
+    id: 55
+    campaign_id: -49
+    tag: C.E.|2021
+    order: 102
+    name: 节日活动Ⅲ
+    chapter_name: 一币之遥
+    bg_code: active_Xmas2021
+    bg_config: "#000000C7,#3D415166,#22d0ab,#FFFFFFFF"
+    desc: 活动时间:21.12.16-22.01.06
+    scene_name: active_Xmas2021logo
   }
 ]

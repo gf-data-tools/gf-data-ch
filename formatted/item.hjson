@@ -16688,6 +16688,24 @@
     rank: 1
   }
   {
+    id: 2703
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_Six12
+    item_name: CPS-12-藏蓝色天际
+    introduction: CPS-12-藏蓝色天际
+    rank: 1
+  }
+  {
+    id: 2704
+    type: 5
+    arg: "1"
+    code: card_BattlePass_Six12
+    item_name: 名片：独战迷城
+    introduction: 名片：独战迷城
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -18463,6 +18481,15 @@
     code: gift_bundle_BattlePass_STG44
     item_name: StG44-涧野寻踪
     introduction: 指挥官，我们出发吧？山路可能会有些脏乱，不过请放心……我会为您规划出最干净的路线的。
+    rank: 1
+  }
+  {
+    id: 30032
+    type: 1
+    arg: "30032"
+    code: gift_bundle_BattlePass_Six12
+    item_name: CPS-12-藏蓝色天际
+    introduction: 从高处俯瞰这座城市的时候，让我更加坚定了守护它的决心……未来的海洋，一定也会是这般美丽吧？
     rank: 1
   }
   {
@@ -23746,6 +23773,22 @@
     rank: 1
   }
   {
+    id: 140063
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第32期前线协议
+    rank: 1
+  }
+  {
+    id: 140064
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第32期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -24259,6 +24302,15 @@
     code: profileFrame_BattlePass_STG44
     item_name: 头像框·浣影踏秋
     introduction: 头像框·浣影踏秋
+    rank: 1
+  }
+  {
+    id: 200057
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_Six12
+    item_name: 头像框·摩天奇境
+    introduction: 头像框·摩天奇境
     rank: 1
   }
   {
@@ -27024,7 +27076,7 @@
     arg: "1500242"
     code: package_choose
     item_name: 基础装备自选序标
-    introduction: 来自于前线协议-出发！浣熊探险队，可从该指定投递配给序标内选择获取一件装备
+    introduction: 来自于前线协议-遇见甜甜圈，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
     type_sort: 1
@@ -27034,8 +27086,8 @@
     type: 15
     arg: "1500243"
     code: package_choose
-    item_name: 配件类装备自选包
-    introduction: 来自于前线协议-出发！浣熊探险队，可从该指定投递配给序标内选择获取一件配件类装备
+    item_name: 人形类装备自选包
+    introduction: 来自于前线协议-遇见甜甜圈，可从该指定投递配给序标内选择获取一件人形类装备
     rank: 1
     sort: -1
     type_sort: 1
@@ -27046,7 +27098,7 @@
     arg: "1500244"
     code: package_random
     item_name: 必得未解锁人形序标
-    introduction: 来自于前线协议-出发！浣熊探险队，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    introduction: 来自于前线协议-遇见甜甜圈，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
     type_sort: 1
@@ -27057,7 +27109,7 @@
     arg: "1500245"
     code: package_random
     item_name: 前线协议-额外奖励
-    introduction: 来自于前线协议-出发！浣熊探险队，可从该区间空投序标内随机获取一项道具
+    introduction: 来自于前线协议-遇见甜甜圈，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1
@@ -27101,7 +27153,7 @@
     arg: "1500249"
     code: package_choose
     item_name: 基础装备自选序标
-    introduction: 来自于前线协议-遇见甜甜圈，可从该指定投递配给序标内选择获取一件装备
+    introduction: 来自于前线协议-出发！浣熊探险队，可从该指定投递配给序标内选择获取一件装备
     rank: 1
     sort: -1
     type_sort: 1
@@ -27111,8 +27163,8 @@
     type: 15
     arg: "1500250"
     code: package_choose
-    item_name: 人形类装备自选包
-    introduction: 来自于前线协议-遇见甜甜圈，可从该指定投递配给序标内选择获取一件人形类装备
+    item_name: 配件类装备自选包
+    introduction: 来自于前线协议-出发！浣熊探险队，可从该指定投递配给序标内选择获取一件配件类装备
     rank: 1
     sort: -1
     type_sort: 1
@@ -27123,7 +27175,7 @@
     arg: "1500251"
     code: package_random
     item_name: 必得未解锁人形序标
-    introduction: 来自于前线协议-遇见甜甜圈，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    introduction: 来自于前线协议-出发！浣熊探险队，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
     rank: 1
     sort: -1
     type_sort: 1
@@ -27134,7 +27186,7 @@
     arg: "1500252"
     code: package_random
     item_name: 前线协议-额外奖励
-    introduction: 来自于前线协议-遇见甜甜圈，可从该区间空投序标内随机获取一项道具
+    introduction: 来自于前线协议-出发！浣熊探险队，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1
@@ -27216,6 +27268,83 @@
     code: Bumdle_equipment
     item_name: 五星装备自选凭证
     introduction: 在仓库中使用该自选凭证，即可从指定范围内选择获得一个非专属五星装备。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500260
+    type: 15
+    arg: "1500260"
+    code: Bumdle_UrbanBeautyCoupons1
+    item_name: 珍藏装扮券·都市风尚
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500261
+    type: 15
+    arg: "1500261"
+    code: Bumdle_UrbanBeautyCoupons2
+    item_name: 尊享装扮券·都市风尚
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500262
+    type: 15
+    arg: "1500262"
+    code: Bumdle_UrbanBeautyCoupons3
+    item_name: 至臻装扮券·都市风尚
+    introduction: 在仓库中使用该装扮券，即可从指定范围内选择获得一件装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500263
+    type: 15
+    arg: "1500263"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-失梦都市，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500264
+    type: 15
+    arg: "1500264"
+    code: package_choose
+    item_name: 弹匣类装备自选包
+    introduction: 来自于前线协议-失梦都市，可从该指定投递配给序标内选择获取一件弹匣类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500265
+    type: 15
+    arg: "1500265"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-失梦都市，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500266
+    type: 15
+    arg: "1500266"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-失梦都市，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1
