@@ -21095,6 +21095,34 @@
     rank: 1
   }
   {
+    id: 100284
+    type: 4
+    arg: "100284"
+    code: Nova_medal
+    item_name: 新星勋章·蝴蝶星云
+    introduction: 新星勋章·蝴蝶星云
+    rank: 1
+  }
+  {
+    id: 100285
+    type: 4
+    arg: "100285"
+    code: Platinum_medal
+    item_name: 白金勋章·蝴蝶星云
+    introduction: 白金勋章·蝴蝶星云
+    rank: 1
+  }
+  {
+    id: 100286
+    type: 9
+    arg: "100286"
+    code: Coin_202411LorenzButterfly
+    item_name: 柯恩币
+    introduction: 暗区的流通货币，无论在官方还是黑市，都被认可。
+    rank: 1
+    daily_limit: 60;180
+  }
+  {
     id: 110001
     type: 4
     arg: "110001"
@@ -27345,6 +27373,54 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-失梦都市，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500267
+    type: 15
+    arg: "1500267"
+    code: Bumdle_SpringFestivalCoupons1
+    item_name: 珍藏装扮券·春节
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500268
+    type: 15
+    arg: "1500268"
+    code: Bumdle_SpringFestivalCoupons2
+    item_name: 尊享装扮券·春节
+    introduction: 在仓库中使用该装扮券，即可从指定范围内随机获得一件目前暂未拥有的装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500269
+    type: 15
+    arg: "1500269"
+    code: Bumdle_SpringFestivalCoupons3
+    item_name: 至臻装扮券·春节
+    introduction: 在仓库中使用该装扮券，即可从指定范围内选择获得一件装扮。
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500270
+    type: 15
+    arg: "1500270"
+    code: Bumdle_sangvischoose
+    item_name: 蝴蝶星云特别收归委托书
+    introduction:
+      '''
+      在仓库中使用该委托书，即可从指定范围内选择获得一位初始三星融合势力单位。
+      *若指挥官未解锁“融合势力”系统，在获得所选的初始三星融合势力单位后将暂时无法使用，待后续指挥官解锁了“融合势力”系统后可正常使用。
+      '''
     rank: 1
     sort: -1
     type_sort: 1

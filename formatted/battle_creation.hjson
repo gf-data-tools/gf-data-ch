@@ -99690,6 +99690,176 @@
     still_exist: 1
   }
   {
+    id: 20020
+    name: 索米-幸福使命特效
+    code: Aug_SM_snow
+    start_type: "3"
+    start_offset: "-0.85,1.8,0.5"
+    destination_type: "3"
+    destination_offset: "-0.8,1.8,0.4"
+    is_tracing: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 20021
+    name: 索米-幸福使命引爆
+    code: Aug_SM_ice_bao
+    start_type: "8"
+    start_offset: "4,0,-1.7"
+    destination_type: "8"
+    destination_offset: "4,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 20022
+    name: PA15-香槟怪盗伤害-单体
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "443"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "20023"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 20023
+    name: PA15-香槟怪盗特效
+    code: Aug_PA15_xb
+    start_type: "7"
+    start_offset: "0,-1,0"
+    destination_type: "7"
+    destination_offset: "0,-1,0"
+    is_form_offset: 1
+    exist_duration: "120"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 20024
+    name: 索米-幸福使命标记
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "60"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 480901:1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 20025
+    name: PA15-香槟怪盗stop
+    code: Aug_PA15_yun
+    start_type: "2"
+    start_offset: "0,1,0"
+    destination_type: "2"
+    destination_offset: "0,1,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 20026
+    name: PA15-香槟怪盗受击
+    code: Aug_PA15_yun
+    start_type: "2"
+    start_offset: "0,1,0"
+    destination_type: "2"
+    destination_offset: "0,1,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 20027
+    name: PA15-香槟怪盗标记
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "60"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 142201:1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 20028
+    name: DP-12-雾叙十字星特效
+    code: Aug_DP12_ditan
+    start_type: "3"
+    start_offset: "-8,0,0"
+    destination_type: "3"
+    destination_offset: "-8,0,0"
+    is_tracing: 1
+    exist_duration: "150"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 20029
+    name: ZB-26-暗蔷摇曳标记
+    start_type: "3"
+    start_offset: "-0.65,0,0"
+    destination_type: "3"
+    destination_offset: "-0.65,0,0"
+    exist_duration: "90"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13"
+    buff_id: 416101:1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 20030
+    name: ZB-26-暗蔷摇曳加弹
+    code: Aug_ZB26_huaban
+    start_type: "3"
+    start_offset: "-1,-0.3,0"
+    destination_type: "3"
+    destination_offset: "-1,-0.3,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
     id: 26001
     name: 人偶扳机2
     code: bullet/bullet2

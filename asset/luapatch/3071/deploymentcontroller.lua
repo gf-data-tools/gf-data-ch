@@ -14,5 +14,12 @@ local OnClickButton = function(self,Button)
 	end
 	self:OnClickButton(Button);
 end
+local OnClickTeam = function(self,spot)
+	if CS.CommonConfirmBoxControllerNew.hasOpen then
+		return;
+	end
+	self:OnClickTeam(spot);
+end
 util.hotfix_ex(CS.DeploymentBuildingController,'InitCode',InitCode)
 util.hotfix_ex(CS.DeploymentUIController,'OnClickButton',OnClickButton)
+util.hotfix_ex(CS.DeploymentTeamInfoController,'OnClickTeam',OnClickTeam)

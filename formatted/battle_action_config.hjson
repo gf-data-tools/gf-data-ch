@@ -9104,6 +9104,64 @@
     effect_duration: "1"
   }
   {
+    id: 2210
+    name: 索米-幸福使命特效
+    creation_order: "20020"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2211
+    name: 索米-幸福使命引爆
+    creation_order: "20021"
+  }
+  {
+    id: 2212
+    name: PA15-香槟怪盗特效
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "1830,20022"
+    creation_delay: "2,0"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 2213
+    name: 索米-幸福使命标记
+    creation_order: "20024"
+  }
+  {
+    id: 2214
+    name: PA15-香槟怪盗标记
+    creation_order: "20027"
+  }
+  {
+    id: 2215
+    name: PA15-香槟怪盗替身
+    summon_order: "78701"
+  }
+  {
+    id: 2216
+    name: DP-12-雾叙十字星换弹减伤
+    action_order: "3"
+    action_playspeed: "100"
+    creation_order: "2811,2812,2814,20028"
+    creation_delay: "0,0,0,0"
+  }
+  {
+    id: 2217
+    name: DP-12-雾叙十字星换弹减伤M1
+    action_order: "3"
+    action_playspeed: "100"
+    creation_order: "2811,2812,2814,20028,9004"
+    creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 2218
+    name: ZB-26-暗蔷摇曳标记
+    creation_order: "20029"
+  }
+  {
     id: 2609
     name: 魂竞争者普攻
     action_order: "1"

@@ -62725,6 +62725,28 @@
     buff_description: ShieldText
   }
   {
+    id: 9910
+    name: SAF装备
+    conflict_type: 9910
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9911
+    name: SAF专属眩晕
+    conflict_type: 9911
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -65505,6 +65527,16 @@
     buff_description: ShieldText
   }
   {
+    id: 142201
+    name: PA15-香槟怪盗标记
+    conflict_type: 500
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 143201
     name: 绍沙特效2-2
     conflict_type: 505
@@ -65514,6 +65546,27 @@
     duration: "9999"
     boss_available: 1
     trigger_creation_id: "1838"
+  }
+  {
+    id: 144601
+    name: PA15-香槟怪盗束缚
+    conflict_type: 509
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *102
+    trigger_creation_id: "20025"
+  }
+  {
+    id: 144701
+    name: PA15-香槟怪盗受击
+    conflict_type: 510
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "45"
+    boss_available: 1
+    trigger_creation_id: "20026"
   }
   {
     id: 256601
@@ -68008,6 +68061,27 @@
     boss_available: 1
   }
   {
+    id: 416101
+    name: ZB-26-暗蔷摇曳标记
+    conflict_type: 416101
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 416102
+    name: ZB-26-暗蔷摇曳加弹
+    conflict_type: 416102
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "20030"
+  }
+  {
     id: 445301
     name: 铁处女特效触发
     conflict_type: 957
@@ -68128,6 +68202,28 @@
     duration: "99999"
     boss_available: 1
     trigger_creation_id: "344405"
+  }
+  {
+    id: 478501
+    name: 索米防护护盾值
+    conflict_type: 305
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *102
+    is_form_play: 1
+  }
+  {
+    id: 480901
+    name: 索米-幸福使命标记
+    conflict_type: 480901
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 500005

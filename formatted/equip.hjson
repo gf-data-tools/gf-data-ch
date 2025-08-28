@@ -14684,7 +14684,7 @@
     description:
       '''
       伤害<pow>
-      回避+<dodge>$C-93专用
+      回避+<dodge>技能增强$C-93专用
       '''
     rank: 5
     category: 3
@@ -14814,5 +14814,39 @@
     is_show: 1
     obtain_ids: "3096"
     sp_description: 前置冷却-80%
+  }
+  {
+    id: 464
+    name: SAF芯片
+    description:
+      '''
+      回避+<dodge> 伤害+<pow>
+      技能增强$SAF专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    dodge: "20,25"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_SAF
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "304"
+    equip_introduction: 为SAF特制的芯片，在运行时还会发出好闻的气味。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:450,pow:1000
+    passive_skill: "1008101"
+    max_level: 10
+    auto_select_id: 20034
+    is_show: 1
+    obtain_ids: "3135"
+    description_skill: 1008101
   }
 ]
