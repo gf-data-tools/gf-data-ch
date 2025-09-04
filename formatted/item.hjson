@@ -18403,6 +18403,15 @@
     rank: 1
   }
   {
+    id: 10732
+    type: 18
+    arg: "10732"
+    code: daily_points
+    item_name: 灰域探查积分
+    introduction: 灰域探查积分
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -28237,6 +28246,39 @@
     id: 1700072
     type: 15
     arg: "1700072"
+    code: package_choose
+    item_name: 高阶专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700073
+    type: 15
+    arg: "1700073"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700074
+    type: 15
+    arg: "1700074"
+    code: package_choose
+    item_name: 基础专属装备自选序标
+    introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件4星及以下人形的专属装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700075
+    type: 15
+    arg: "1700075"
     code: package_choose
     item_name: 高阶专属装备自选序标
     introduction: 来自于灰域探查，打开时，可从该指定投递配给序标内选择获取一件5星人形专属装备
