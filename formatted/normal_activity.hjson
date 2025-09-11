@@ -12,6 +12,18 @@
     scene_name: Reversiblelogo
   }
   {
+    id: 21
+    campaign_id: -41
+    tag: EP.|13.25
+    order: 9
+    name: 双联乱数
+    chapter_name: 双联乱数
+    bg_code: active_DualRandomness
+    bg_config: "#000000C7,#3D415166,#E64801,#FFFFFFFF"
+    desc: 活动时间:2020.08.20-09.24
+    scene_name: DualRandomnesslogo
+  }
+  {
     id: 22
     campaign_id: -44
     tag: EP.|13.5
@@ -34,6 +46,29 @@
     bg_config: "#000000C7,#3D415166,#E64801,#FFFFFFFF"
     desc: 活动时间:2021.08.26-09.23
     scene_name: PoincareRecurrencelogo
+  }
+  {
+    id: 25
+    campaign_id: -35
+    tag: C.E.|2019
+    order: 100
+    name: 节日活动Ⅰ
+    chapter_name: 雪夜杀礼异想曲
+    bg_code: active_19Xmas
+    bg_config: "#000000C7,#3D415166,#D9531A,#FFFFFFFF"
+    desc: 活动时间:2019.12.05-12.26
+  }
+  {
+    id: 26
+    campaign_id: -37
+    tag: C.E.|2020
+    order: 101
+    name: 节日活动Ⅱ
+    chapter_name: 照相馆谜题
+    bg_code: active_WhiteDay2020
+    bg_config: "#000000C7,#3D415166,#E64801,#FFFFFFFF"
+    desc: 活动时间:2020.03.12-04.02
+    scene_name: active_WhiteDay2020logo
   }
   {
     id: 27
@@ -139,6 +174,17 @@
     bg_config: "#000000C7,#3D415166,#FF9000,#FFFFFFFF"
     desc: 活动时间:2022.12.08-12.29
     scene_name: active_eclipseslogo
+  }
+  {
+    id: 40
+    campaign_id: -63
+    tag: EP.|13.25
+    order: 9
+    name: 双联乱数
+    chapter_name: 秘密涡点+
+    bg_code: missionselect_DualRandomness_RE
+    event_prize_level: 10008
+    rank_id: "308"
   }
   {
     id: 41
