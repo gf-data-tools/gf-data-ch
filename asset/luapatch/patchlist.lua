@@ -508,6 +508,7 @@ patch3070=
 "3070/DeploymentUIController",
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
+"3070/SangvisChipDevelopUIController",
 }
 patch3071=
 {
@@ -534,6 +535,7 @@ patch3071=
 "3070/DeploymentUIController",
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
+"3070/SangvisChipDevelopUIController",
 }
 patch3080=
 {
@@ -547,6 +549,7 @@ patch3080=
 "3080/ImageBufferBlurCameraController",
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
+"3070/SangvisChipDevelopUIController",
 }
 -- va11
 print("load Va11");
