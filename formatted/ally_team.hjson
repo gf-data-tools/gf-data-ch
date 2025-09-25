@@ -16876,6 +16876,643 @@
     no_battle_damage: -1
   }
   {
+    id: 770001
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770001
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+  }
+  {
+    id: 770002
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770002
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 15
+  }
+  {
+    id: 770003
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770003
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 770004
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770004
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 45
+  }
+  {
+    id: 770005
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770005
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 60
+  }
+  {
+    id: 770006
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770006
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 75
+  }
+  {
+    id: 770007
+    name: 指挥官
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "770021"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 1030
+  }
+  {
+    id: 770008
+    name: 指挥官
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "770022"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 1020
+  }
+  {
+    id: 770009
+    name: 指挥官
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "770023"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 1010
+  }
+  {
+    id: 770010
+    name: 指挥官
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 1000
+  }
+  {
+    id: 770011
+    name: AR小队
+    guns: "770001,770002,770003"
+    fairy: 30
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770012
+    name: 404小队
+    guns: "770004,770005,770006,770007"
+    fairy: 30
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770013
+    name: 忤逆小队
+    guns: "770008,770009,770010"
+    fairy: 30
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770014
+    name: M16A1
+    guns: "770011"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "760611,760612"
+    betray_result: "1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: "770013,770013"
+    betray_result_ai: 20110:5,10,0,0#20110:5,10,0,0
+    betray_result_ai_content: "0#0"
+  }
+  {
+    id: 770015
+    name: 铁血势力
+    initial_type: 1
+    ai: 0;20110:10,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    sangvis: 770001-8,770002-17,770003-18,770004-19,770005-12,770006-13,770007-14,770008-7,770009-9
+  }
+  {
+    id: 770016
+    name: 喙
+    guns: "770012"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760611,760612"
+    transform_result: "2,2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770021
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770021
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770022
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770022
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770023
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770023
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770024
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770024
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770025
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770025
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770026
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770026
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770027
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770027
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770028
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770028
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770029
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770029
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770030
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770030
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770031
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770031
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770032
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770032
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770033
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770033
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770034
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770034
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770035
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770035
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770036
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770036
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770037
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770037
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770038
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770038
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770039
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770039
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770040
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770040
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770041
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770041
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770042
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770042
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770043
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770043
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770044
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770044
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770045
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770045
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770046
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770046
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770047
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770047
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770048
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770048
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770049
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770049
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770050
+    name: 罗联
+    guns: "1"
+    enemy_team_id: 770050
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770051
+    name: 默莉朵
+    guns: "1"
+    enemy_team_id: 770051
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770052
+    name: 恩布拉
+    guns: "1"
+    enemy_team_id: 770052
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770053
+    name: 格雷
+    guns: "1"
+    enemy_team_id: 770053
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770054
+    name: 布拉梅德
+    guns: "1"
+    enemy_team_id: 770054
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770055
+    name: 鄂视虎
+    guns: "1"
+    enemy_team_id: 770055
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770056
+    name: 斯提克斯
+    guns: "1"
+    enemy_team_id: 770056
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770057
+    name: 赫柏
+    guns: "1"
+    enemy_team_id: 770057
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770058
+    name: 尼梅兰
+    guns: "1"
+    enemy_team_id: 770058
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770059
+    name: 缇
+    guns: "1"
+    enemy_team_id: 770059
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770060
+    name: 威廉
+    guns: "1"
+    enemy_team_id: 770060
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770061
+    name: ???
+    guns: "1"
+    enemy_team_id: 770061
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0

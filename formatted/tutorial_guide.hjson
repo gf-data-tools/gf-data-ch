@@ -106,7 +106,7 @@
   {
     id: 400
     type: 1
-    child_ids: "401,402,403"
+    child_ids: "401,402,403,404"
     title: 高阶战术
     title_code: guide_higher
     sub_title: 我们面对的是更加严酷的战场。升级人形的心智，然后带着重装小队出发吧
@@ -134,6 +134,14 @@
     sub_title: 战斗太艰难了？火力小队的战场支援或许能扭转战局。
     tutorial_manual_id: 503
     rank: 4
+  }
+  {
+    id: 404
+    type: 2
+    title: 机动装甲
+    sub_title: 我们现在拥有了机动装甲！该让敌人感到颤抖了！
+    tutorial_manual_id: 2201
+    rank: 5
   }
   {
     id: 500

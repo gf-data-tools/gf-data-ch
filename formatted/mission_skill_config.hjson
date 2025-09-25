@@ -32757,6 +32757,1802 @@
     is_manual: 762112
   }
   {
+    id: 770000
+    name: 指挥官区域初始化
+    skill_group_id: 770000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770000:1
+    mission_buff_add: 770000:1
+    drop_item: 9050:-3000
+  }
+  {
+    id: 770001
+    name: 中央刷怪点初始化
+    skill_group_id: 770001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770001:1
+  }
+  {
+    id: 770002
+    name: 一区刷怪点初始化
+    skill_group_id: 770002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770002:1
+  }
+  {
+    id: 770003
+    name: 二区刷怪点初始化
+    skill_group_id: 770003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770003:1
+  }
+  {
+    id: 770004
+    name: 三区刷怪点初始化
+    skill_group_id: 770004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770004:1
+  }
+  {
+    id: 770005
+    name: 四区刷怪点初始化
+    skill_group_id: 770005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770005:1
+  }
+  {
+    id: 770006
+    name: 左下刷怪点初始化
+    skill_group_id: 770006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770006:1
+  }
+  {
+    id: 770007
+    name: 右上刷怪点初始化
+    skill_group_id: 770007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770007:1
+  }
+  {
+    id: 770009
+    name: 雷达初始化
+    skill_group_id: 770009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770009:1
+  }
+  {
+    id: 770011
+    name: 2T补给箱初始化
+    skill_group_id: 770011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770011:1,770000:1
+  }
+  {
+    id: 770012
+    name: 3T补给箱初始化
+    skill_group_id: 770012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770012:1,770000:1
+  }
+  {
+    id: 770013
+    name: 4T补给箱初始化
+    skill_group_id: 770013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770013:1,770000:1
+  }
+  {
+    id: 770014
+    name: 5T补给箱初始化
+    skill_group_id: 770014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770014:1,770000:1
+  }
+  {
+    id: 770015
+    name: 6T补给箱初始化
+    skill_group_id: 770015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770015:1,770000:1
+  }
+  {
+    id: 770016
+    name: 7T补给箱初始化
+    skill_group_id: 770016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770016:1,770000:1
+  }
+  {
+    id: 770017
+    name: 拾取补给
+    description: 拾取补给箱，为指挥官恢复50%生命，并获得10000点分数
+    skill_group_id: 770017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_target: "660003"
+    trigger_id: 77001001&&77000011
+    target_id: "1"
+    special_spot_add: 770053:1
+    special_spot_minus: 770010:1
+    is_manual: 770017
+  }
+  {
+    id: 770018
+    name: 拾取补给？
+    description:
+      '''
+      拾取补给箱，恢复50%生命及大量弹药口粮，但会遭遇神秘强敌的攻击
+      <color=#CF8000>你也是宝箱怪？</color>
+      '''
+    skill_group_id: 770018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_target: "660003"
+    trigger_id: 77001001&&77000010
+    target_id: "1"
+    special_spot_add: 770053:1
+    special_spot_minus: 770010:1
+    is_manual: 770018
+    allyteam_summoner: 770048;770049;770050
+    resources_change: "20,20,0"
+  }
+  {
+    id: 770021
+    name: 指挥官护甲升级I
+    description:
+      '''
+      交战时受到的伤害降低10%，习得指令：根性 热血
+      根性：恢复自身50%生命
+      热血：为距离5内的友方梯队提供伤害增益，1场战斗内伤害提高100%
+      '''
+    skill_group_id: 770021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77000711"
+    target_id: "1"
+    mission_buff_add: 770000:1
+    subsidiary_mission_skill: "770100,770026,770030"
+    is_manual: 770021
+    allyteam_summoner: "770008"
+    consumption_item: 9050:100
+  }
+  {
+    id: 770022
+    name: 指挥官护甲升级II
+    description:
+      '''
+      交战时受到的伤害降低20%，习得指令：感应 铁壁
+      感应：为距离5内的友方梯队提供命中增益，1回合内命中提高999
+      铁壁：为距离5内的友方梯队提供护甲增益，1回合内护甲提高30
+      '''
+    skill_group_id: 770022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77000811"
+    target_id: "1"
+    mission_buff_add: 770000:1
+    subsidiary_mission_skill: "770100,770028,770031"
+    is_manual: 770022
+    allyteam_summoner: "770009"
+    consumption_item: 9050:150
+  }
+  {
+    id: 770023
+    name: 指挥官护甲升级III
+    description:
+      '''
+      交战时受到的伤害降低30%，习得指令：预知，获得指挥光环
+      预知：为距离5内的友方梯队提供回避增益，1场战斗内回避提高999
+      指挥光环：距离5以内的友方梯队进入战斗时，命中回避提高50，移动速度提高30%
+      '''
+    skill_group_id: 770023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77000911"
+    target_id: "1"
+    mission_buff_add: 770000:1
+    subsidiary_mission_skill: "770100,770029,770036"
+    is_manual: 770023
+    allyteam_summoner: "770010"
+    consumption_item: 9050:200
+  }
+  {
+    id: 770024
+    name: 修理装置
+    description: 制作一个修理装置，获得后可消耗点数修理范围内的友方梯队
+    skill_group_id: 770024
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77002400"
+    target_id: "1"
+    special_spot_add: 770024:1
+    is_manual: 770024
+    consumption_item: 9050:50
+  }
+  {
+    id: 770025
+    name: 补给装置
+    description: 制作一个补给装置，获得后可消耗点数补给范围内的友方梯队
+    skill_group_id: 770025
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77002500"
+    target_id: "1"
+    special_spot_add: 770025:1
+    is_manual: 770025
+    consumption_item: 9050:50
+  }
+  {
+    id: 770026
+    name: 根性的心得
+    skill_group_id: 770026
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77002600"
+    target_id: "1"
+    special_spot_add: 770026:1
+  }
+  {
+    id: 770027
+    name: 机动战斗的心得
+    description:
+      '''
+      习得被动技能：加速
+      提高自身移动力，每回合前3次移动不消耗AP
+      '''
+    skill_group_id: 770027
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77002700"
+    target_id: "1"
+    special_spot_add: 770027:1
+    mission_buff_add: 770027:1
+    is_manual: 770027
+    consumption_item: 9050:50
+  }
+  {
+    id: 770028
+    name: 感应的心得
+    skill_group_id: 770028
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77002800"
+    target_id: "1"
+    special_spot_add: 770028:1
+  }
+  {
+    id: 770029
+    name: 预知的心得
+    skill_group_id: 770029
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77002900"
+    target_id: "1"
+    special_spot_add: 770029:1
+  }
+  {
+    id: 770030
+    name: 热血的心得
+    skill_group_id: 770030
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77003000"
+    target_id: "1"
+    special_spot_add: 770030:1
+  }
+  {
+    id: 770031
+    name: 铁壁的心得
+    skill_group_id: 770031
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77003100"
+    target_id: "1"
+    special_spot_add: 770031:1
+  }
+  {
+    id: 770032
+    name: 极致防御的心得
+    description:
+      '''
+      习得指令：不屈
+      为距离5内的友方梯队提供减伤增益，1场战斗内受到伤害降低75%
+      '''
+    skill_group_id: 770032
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77003200&&77010001
+    target_id: "1"
+    special_spot_add: 770032:1
+    is_manual: 770032
+    consumption_item: 9050:15
+  }
+  {
+    id: 770033
+    name: 极致机动的心得
+    description:
+      '''
+      习得被动技能：觉醒
+      进一步提高自身移动力，每回合前5次移动不消耗AP，代替加速
+      '''
+    skill_group_id: 770033
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77003300&&77002701&&77010001
+    target_id: "1"
+    special_spot_add: 770033:1
+    mission_buff_add: 770033:1
+    is_manual: 770033
+    consumption_item: 9050:15
+  }
+  {
+    id: 770034
+    name: 极致进攻的心得
+    description:
+      '''
+      习得指令：魂
+      为距离5内的友方梯队提供伤害增益，1场战斗内伤害提高120%
+      '''
+    skill_group_id: 770034
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77003400&&77010001
+    target_id: "1"
+    special_spot_add: 770034:1
+    is_manual: 770034
+    consumption_item: 9050:15
+  }
+  {
+    id: 770035
+    name: 极致穿透的心得
+    description:
+      '''
+      习得指令：直击
+      为距离5内的友方梯队提供战斗支援，下1场战斗开始时清空敌方的力场效果
+      '''
+    skill_group_id: 770035
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77003500&&77010001
+    target_id: "1"
+    special_spot_add: 770035:1
+    is_manual: 770035
+    consumption_item: 9050:15
+  }
+  {
+    id: 770036
+    name: 指挥的心得
+    skill_group_id: 770036
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77003600"
+    target_id: "1"
+    special_spot_add: 770036:1
+    mission_buff_add: 770036:1
+  }
+  {
+    id: 770037
+    name: AR小队的信号器
+    description: 制作AR小队的信号器，获得后可在距离5内的雷达处部署AR小队，AR小队自带指令：必中
+    skill_group_id: 770037
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77003700"
+    target_id: "1"
+    special_spot_add: 770037:1
+    is_manual: 770037
+    consumption_item: 9050:50
+  }
+  {
+    id: 770038
+    name: 404小队的信号器
+    description: 制作404小队的信号器，获得后可在距离5内的雷达处部署404小队，404小队自带指令：必闪
+    skill_group_id: 770038
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77003800"
+    target_id: "1"
+    special_spot_add: 770038:1
+    is_manual: 770038
+    consumption_item: 9050:50
+  }
+  {
+    id: 770039
+    name: 忤逆小队的信号器
+    description: 制作忤逆小队的信号器，获得后可在距离5内的雷达处部署忤逆小队，忤逆小队自带指令：热血
+    skill_group_id: 770039
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77003900"
+    target_id: "1"
+    special_spot_add: 770039:1
+    is_manual: 770039
+    consumption_item: 9050:50
+  }
+  {
+    id: 770040
+    name: 16哥的信号器
+    description: 制作M16A1的信号器，获得后可在距离5内的雷达处部署M16A1
+    skill_group_id: 770040
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77004000"
+    target_id: "1"
+    special_spot_add: 770040:1
+    is_manual: 770040
+    consumption_item: 9050:50
+  }
+  {
+    id: 770041
+    name: 代理人的信号器
+    description: 制作铁血小队的信号器，获得后可在距离5内的雷达处部署铁血小队，铁血小队自带指令：铁壁
+    skill_group_id: 770041
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77004100&&77010001
+    target_id: "1"
+    special_spot_add: 770041:1
+    is_manual: 770041
+    consumption_item: 9050:50
+  }
+  {
+    id: 770042
+    name: ？？？的信号器
+    description: 制作神秘人的信号器，获得后可在距离5内的雷达处进行部署
+    skill_group_id: 770042
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77004200&&77010001
+    target_id: "1"
+    special_spot_add: 770042:1
+    is_manual: 770042
+    consumption_item: 9050:50
+  }
+  {
+    id: 770043
+    name: 帕拉蒂斯的信号器
+    description: 制作帕拉蒂斯信号器，获得后可将帕拉蒂斯首领单位引导至距离5内的雷达处
+    skill_group_id: 770043
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77004300"
+    target_id: "1"
+    special_spot_add: 770043:1
+    is_manual: 770043
+    consumption_item: 9050:50
+  }
+  {
+    id: 770044
+    name: 帕拉蒂斯的信号器强化型
+    description: 制作帕拉蒂斯II型信号器，获得后可将更加强大的帕拉蒂斯首领单位引导至距离5内的雷达处
+    skill_group_id: 770044
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 77004400&&77010001
+    target_id: "1"
+    special_spot_add: 770044:1
+    is_manual: 770044
+    consumption_item: 9050:50
+  }
+  {
+    id: 770051
+    name: 修理
+    description: 为距离5内的友方梯队提供修理，恢复30%生命
+    skill_group_id: 770051
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77002401"
+    target_id: "77000010"
+    special_spot_add: 770051:1
+    is_manual: 770051
+    consumption_item: 9050:15
+  }
+  {
+    id: 770052
+    name: 补给
+    description: 为距离5内的友方梯队提供补给，恢复大量弹药口粮，额外为载具单位补充少量能量
+    skill_group_id: 770052
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77002501"
+    target_id: "77000010"
+    is_manual: 770052
+    consumption_item: 9050:15
+    resources_change: "20,20,20"
+  }
+  {
+    id: 770053
+    name: 根性
+    description: 恢复自身50%生命
+    skill_group_id: 770053
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77002601"
+    target_id: "1"
+    special_spot_add: 770053:1
+    is_manual: 770053
+    consumption_item: 9050:20
+  }
+  {
+    id: 770054
+    name: 感应
+    description: 为距离5内的友方梯队提供命中增益，1回合内命中提高999
+    skill_group_id: 770054
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77002801"
+    target_id: 77005400&&77000010
+    mission_buff_add: 770054:1
+    is_manual: 770054
+    consumption_item: 9050:30
+  }
+  {
+    id: 770055
+    name: 预知
+    description: 为距离5内的友方梯队提供回避增益，1场战斗内回避提高999
+    skill_group_id: 770055
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77002901"
+    target_id: 77005500&&77000010
+    mission_buff_add: 770055:1
+    is_manual: 770055
+    consumption_item: 9050:20
+  }
+  {
+    id: 770056
+    name: 热血
+    description: 为距离5内的友方梯队提供伤害增益，1场战斗内伤害提高100%
+    skill_group_id: 770056
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77003001"
+    target_id: 77005600&&77000010
+    mission_buff_add: 770056:1
+    is_manual: 770056
+    consumption_item: 9050:25
+  }
+  {
+    id: 770057
+    name: 铁壁
+    description: 为距离5内的友方梯队提供护甲增益，1回合内护甲提高30
+    skill_group_id: 770057
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77003101"
+    target_id: 77005700&&77000010
+    mission_buff_add: 770057:1
+    is_manual: 770057
+    consumption_item: 9050:30
+  }
+  {
+    id: 770058
+    name: 不屈
+    description: 为距离5内的友方梯队提供减伤增益，1场战斗内受到伤害降低75%
+    skill_group_id: 770058
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77003201"
+    target_id: 77005800&&77000010
+    mission_buff_add: 770058:1
+    is_manual: 770058
+    consumption_item: 9050:60
+  }
+  {
+    id: 770059
+    name: 魂
+    description: 为距离5内的友方梯队提供伤害增益，1场战斗内伤害提高120%
+    skill_group_id: 770059
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77003401"
+    target_id: 77005900&&77000010
+    mission_buff_add: 770059:1
+    is_manual: 770059
+    consumption_item: 9050:20
+  }
+  {
+    id: 770060
+    name: 直击
+    description: 为距离5内的友方梯队提供战斗支援，下1场战斗开始时清空敌方的力场效果
+    skill_group_id: 770060
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: "77003501"
+    target_id: 77006000&&77000010
+    mission_buff_add: 770060:1
+    is_manual: 770060
+    consumption_item: 9050:20
+  }
+  {
+    id: 770061
+    name: 一区刷怪
+    skill_group_id: 770061
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770067,770073"
+  }
+  {
+    id: 770062
+    name: 二区刷怪
+    skill_group_id: 770062
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770068,770074"
+  }
+  {
+    id: 770063
+    name: 三区刷怪
+    skill_group_id: 770063
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770069,770075"
+  }
+  {
+    id: 770064
+    name: 四区刷怪
+    skill_group_id: 770064
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770070,770076"
+  }
+  {
+    id: 770065
+    name: 左下刷怪
+    skill_group_id: 770065
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770071,770077"
+  }
+  {
+    id: 770066
+    name: 右上刷怪
+    skill_group_id: 770066
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770072,770078"
+  }
+  {
+    id: 770067
+    name: 一区前半刷怪
+    skill_group_id: 770067
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000201"
+    target_id: "1"
+    allyteam_summoner: 770021;770022
+  }
+  {
+    id: 770068
+    name: 二区前半刷怪
+    skill_group_id: 770068
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000301"
+    target_id: "1"
+    allyteam_summoner: 770023;770024;770025
+  }
+  {
+    id: 770069
+    name: 三区前半刷怪
+    skill_group_id: 770069
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000401"
+    target_id: "1"
+    allyteam_summoner: 770026;770027;770028
+  }
+  {
+    id: 770070
+    name: 四区前半刷怪
+    skill_group_id: 770070
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000501"
+    target_id: "1"
+    allyteam_summoner: 770029;770030;770031
+  }
+  {
+    id: 770071
+    name: 左下前半刷怪
+    skill_group_id: 770071
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000601"
+    target_id: "1"
+    allyteam_summoner: 770032;770033
+  }
+  {
+    id: 770072
+    name: 右上前半刷怪
+    skill_group_id: 770072
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000701"
+    target_id: "1"
+    allyteam_summoner: 770034;770035
+  }
+  {
+    id: 770073
+    name: 一区后半刷怪
+    skill_group_id: 770073
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000200"
+    target_id: "1"
+    allyteam_summoner: 770021;770022
+  }
+  {
+    id: 770074
+    name: 二区后半刷怪
+    skill_group_id: 770074
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000300"
+    target_id: "1"
+    allyteam_summoner: 770036;770037;770038
+  }
+  {
+    id: 770075
+    name: 三区后半刷怪
+    skill_group_id: 770075
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000400"
+    target_id: "1"
+    allyteam_summoner: 770039;770040;770041
+  }
+  {
+    id: 770076
+    name: 四区后半刷怪
+    skill_group_id: 770076
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000500"
+    target_id: "1"
+    allyteam_summoner: 770042;770043;770044;770045
+  }
+  {
+    id: 770077
+    name: 左下后半刷怪
+    skill_group_id: 770077
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000600"
+    target_id: "1"
+    allyteam_summoner: 770046;770047
+  }
+  {
+    id: 770078
+    name: 右上后半刷怪
+    skill_group_id: 770078
+    level: 1
+    spot_type: "-1"
+    spot_belong: "99"
+    cd_time_type: 1
+    trigger_id: "77000700"
+    target_id: "1"
+    allyteam_summoner: 770048;770049;770050
+  }
+  {
+    id: 770081
+    name: 部署AR小队
+    description: 在雷达点部署AR小队，同一个小队只能部署一次
+    skill_group_id: 770081
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77003701&&77008100
+    target_id: "77000901"
+    subsidiary_mission_skill: "770181,770121"
+    is_manual: 770081
+    allyteam_summoner: "770011"
+  }
+  {
+    id: 770082
+    name: 部署404小队
+    description: 在雷达点部署404小队，同一个小队只能部署一次
+    skill_group_id: 770082
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77003801&&77008200
+    target_id: "77000901"
+    subsidiary_mission_skill: "770182,770122"
+    is_manual: 770082
+    allyteam_summoner: "770012"
+  }
+  {
+    id: 770083
+    name: 部署忤逆小队
+    description: 在雷达点部署忤逆小队，同一个小队只能部署一次
+    skill_group_id: 770083
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77003901&&77008300
+    target_id: "77000901"
+    subsidiary_mission_skill: "770183,770123"
+    is_manual: 770083
+    allyteam_summoner: "770013"
+  }
+  {
+    id: 770084
+    name: 部署M16A1
+    description: 在雷达点部署M16A1，同一个小队只能部署一次
+    skill_group_id: 770084
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004001&&77008400
+    target_id: "77000901"
+    subsidiary_mission_skill: "770184,770087"
+    is_manual: 770084
+    allyteam_summoner: "770014"
+  }
+  {
+    id: 770085
+    name: 部署铁血小队
+    description: 在雷达点部署铁血小队，同一个小队只能部署一次
+    skill_group_id: 770085
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004101&&77008500
+    target_id: "77000901"
+    subsidiary_mission_skill: "770185,770124"
+    is_manual: 770085
+    allyteam_summoner: "770015"
+  }
+  {
+    id: 770086
+    name: 部署喙
+    description: 在雷达点部署喙，同一个小队只能部署一次
+    skill_group_id: 770086
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004201&&77008600
+    target_id: "77000901"
+    subsidiary_mission_skill: "770186,770088"
+    is_manual: 770086
+    allyteam_summoner: "770016"
+  }
+  {
+    id: 770087
+    name: 16哥标记
+    skill_group_id: 770087
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77001411"
+    mission_buff_add: 760601:1
+  }
+  {
+    id: 770088
+    name: 喙标记
+    skill_group_id: 770088
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77001611"
+    mission_buff_add: 760602:1
+  }
+  {
+    id: 770090
+    name: 引导默莉朵
+    description: 使用信号器引导默莉朵进入指定位置
+    skill_group_id: 770090
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004301&&77009000
+    target_id: "77000901"
+    subsidiary_mission_skill: "770190"
+    is_manual: 770090
+    allyteam_summoner: "770051"
+  }
+  {
+    id: 770091
+    name: 引导恩布拉
+    description: 使用信号器引导恩布拉进入指定位置
+    skill_group_id: 770091
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004301&&77009001&&77009100
+    target_id: "77000901"
+    subsidiary_mission_skill: "770191"
+    is_manual: 770091
+    allyteam_summoner: "770052"
+  }
+  {
+    id: 770092
+    name: 引导格雷
+    description: 使用信号器引导格雷进入指定位置
+    skill_group_id: 770092
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004301&&77009101&&77009200
+    target_id: "77000901"
+    subsidiary_mission_skill: "770192"
+    is_manual: 770092
+    allyteam_summoner: "770053"
+  }
+  {
+    id: 770093
+    name: 引导布拉梅德
+    description: 使用信号器引导布拉梅德进入指定位置
+    skill_group_id: 770093
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004301&&77009201&&77009300
+    target_id: "77000901"
+    subsidiary_mission_skill: "770193"
+    is_manual: 770093
+    allyteam_summoner: "770054"
+  }
+  {
+    id: 770094
+    name: 引导神秘首领
+    description: 使用信号器引导神秘首领进入指定位置
+    skill_group_id: 770094
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004301&&77009301&&77009400
+    target_id: "77000901"
+    subsidiary_mission_skill: "770194"
+    is_manual: 770094
+    allyteam_summoner: "770055"
+  }
+  {
+    id: 770095
+    name: 引导斯提克斯
+    description: 使用II型信号器引导斯提克斯进入指定位置
+    skill_group_id: 770095
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004401&&77009500
+    target_id: "77000901"
+    subsidiary_mission_skill: "770195"
+    is_manual: 770095
+    allyteam_summoner: "770056"
+  }
+  {
+    id: 770096
+    name: 引导赫柏
+    description: 使用II型信号器引导赫柏进入指定位置
+    skill_group_id: 770096
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004401&&77009501&&77009600
+    target_id: "77000901"
+    subsidiary_mission_skill: "770196"
+    is_manual: 770096
+    allyteam_summoner: "770057"
+  }
+  {
+    id: 770097
+    name: 引导尼梅兰
+    description: 使用II型信号器引导尼梅兰进入指定位置
+    skill_group_id: 770097
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004401&&77009601&&77009700
+    target_id: "77000901"
+    subsidiary_mission_skill: "770197"
+    is_manual: 770097
+    allyteam_summoner: "770058"
+  }
+  {
+    id: 770098
+    name: 引导缇
+    description: 使用II型信号器引导缇进入指定位置
+    skill_group_id: 770098
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004401&&77009701&&77009800
+    target_id: "77000901"
+    subsidiary_mission_skill: "770198"
+    is_manual: 770098
+    allyteam_summoner: "770059"
+  }
+  {
+    id: 770099
+    name: 引导威廉
+    description: 使用II型信号器引导威廉进入指定位置
+    skill_group_id: 770099
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 77004401&&77009801&&77009900
+    target_id: "77000901"
+    subsidiary_mission_skill: "770199"
+    is_manual: 770099
+    allyteam_summoner: "770060"
+  }
+  {
+    id: 770100
+    name: 指挥官升级补BUFF
+    skill_group_id: 770100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 770000:1
+  }
+  {
+    id: 770101
+    name: 3000怪死亡
+    skill_group_id: 770101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    drop_item: 9050:30
+  }
+  {
+    id: 770102
+    name: 4500怪死亡
+    skill_group_id: 770102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    drop_item: 9050:45
+  }
+  {
+    id: 770103
+    name: 6000怪死亡
+    skill_group_id: 770103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    drop_item: 9050:60
+  }
+  {
+    id: 770104
+    name: 7500怪死亡
+    skill_group_id: 770104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    drop_item: 9050:75
+  }
+  {
+    id: 770105
+    name: 9000怪死亡
+    skill_group_id: 770105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    drop_item: 9050:90
+  }
+  {
+    id: 770106
+    name: 10500怪死亡
+    skill_group_id: 770106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    drop_item: 9050:105
+  }
+  {
+    id: 770107
+    name: 拉普拉斯妖死亡
+    skill_group_id: 770107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770100:1
+  }
+  {
+    id: 770108
+    name: 鄂视虎死亡
+    skill_group_id: 770108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770194"
+  }
+  {
+    id: 770109
+    name: 威廉死亡
+    skill_group_id: 770109
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    subsidiary_mission_skill: "770199"
+  }
+  {
+    id: 770111
+    name: 必中
+    description: 自身1回合内命中提高999
+    skill_group_id: 770111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77005400"
+    target_id: "1"
+    mission_buff_add: 770054:1
+    is_manual: 770111
+    consumption_item: 9050:15
+  }
+  {
+    id: 770112
+    name: 必闪
+    description: 自身1场战斗内回避提高999
+    skill_group_id: 770112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77005500"
+    target_id: "1"
+    mission_buff_add: 770055:1
+    is_manual: 770112
+    consumption_item: 9050:15
+  }
+  {
+    id: 770113
+    name: 热血
+    description: 自身1场战斗内伤害提高100%
+    skill_group_id: 770113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77005600"
+    target_id: "1"
+    mission_buff_add: 770056:1
+    is_manual: 770113
+    consumption_item: 9050:15
+  }
+  {
+    id: 770114
+    name: 铁壁
+    description: 自身1回合内护甲提高30
+    skill_group_id: 770114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "77005700"
+    target_id: "1"
+    mission_buff_add: 770057:1
+    is_manual: 770114
+    consumption_item: 9050:15
+  }
+  {
+    id: 770121
+    name: AR小队标记
+    skill_group_id: 770121
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77001111"
+    mission_buff_add: 770011:1
+  }
+  {
+    id: 770122
+    name: 404小队标记
+    skill_group_id: 770122
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77001211"
+    mission_buff_add: 770012:1
+  }
+  {
+    id: 770123
+    name: 忤逆小队标记
+    skill_group_id: 770123
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77001311"
+    mission_buff_add: 770013:1
+  }
+  {
+    id: 770124
+    name: 铁血标记
+    skill_group_id: 770124
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77001511"
+    mission_buff_add: 770015:1
+  }
+  {
+    id: 770131
+    name: 2T传送点初始化
+    skill_group_id: 770131
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770111:1
+  }
+  {
+    id: 770132
+    name: 3T传送点初始化
+    skill_group_id: 770132
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770112:1
+  }
+  {
+    id: 770133
+    name: 4T传送点初始化
+    skill_group_id: 770133
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770113:1
+  }
+  {
+    id: 770134
+    name: 5T传送点初始化
+    skill_group_id: 770134
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770114:1
+  }
+  {
+    id: 770135
+    name: 6T传送点初始化
+    skill_group_id: 770135
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770115:1
+  }
+  {
+    id: 770136
+    name: 7T传送点初始化
+    skill_group_id: 770136
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 770116:1
+  }
+  {
+    id: 770181
+    name: AR小队的信号器
+    skill_group_id: 770181
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77003701"
+    special_spot_add: 770081:1
+  }
+  {
+    id: 770182
+    name: 404小队的信号器
+    skill_group_id: 770182
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77003801"
+    special_spot_add: 770082:1
+  }
+  {
+    id: 770183
+    name: 忤逆小队的信号器
+    skill_group_id: 770183
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77003901"
+    special_spot_add: 770083:1
+  }
+  {
+    id: 770184
+    name: 16哥的信号器
+    skill_group_id: 770184
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004001"
+    special_spot_add: 770084:1
+  }
+  {
+    id: 770185
+    name: 代理人的信号器
+    skill_group_id: 770185
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004101"
+    special_spot_add: 770085:1
+  }
+  {
+    id: 770186
+    name: ？？？的信号器
+    skill_group_id: 770186
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004201"
+    special_spot_add: 770086:1
+  }
+  {
+    id: 770190
+    name: 召唤BOSS1
+    skill_group_id: 770190
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004301"
+    special_spot_add: 770090:1
+  }
+  {
+    id: 770191
+    name: 召唤BOSS2
+    skill_group_id: 770191
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004301"
+    special_spot_add: 770091:1
+  }
+  {
+    id: 770192
+    name: 召唤BOSS3
+    skill_group_id: 770192
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004301"
+    special_spot_add: 770092:1
+  }
+  {
+    id: 770193
+    name: 召唤BOSS4
+    skill_group_id: 770193
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004301"
+    special_spot_add: 770093:1
+  }
+  {
+    id: 770194
+    name: 召唤BOSS5
+    skill_group_id: 770194
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004301"
+    special_spot_add: 770094:1
+  }
+  {
+    id: 770195
+    name: 召唤BOSS6
+    skill_group_id: 770195
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004401"
+    special_spot_add: 770095:1
+  }
+  {
+    id: 770196
+    name: 召唤BOSS7
+    skill_group_id: 770196
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004401"
+    special_spot_add: 770096:1
+  }
+  {
+    id: 770197
+    name: 召唤BOSS8
+    skill_group_id: 770197
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004401"
+    special_spot_add: 770097:1
+  }
+  {
+    id: 770198
+    name: 召唤BOSS9
+    skill_group_id: 770198
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004401"
+    special_spot_add: 770098:1
+  }
+  {
+    id: 770199
+    name: 召唤BOSS10
+    skill_group_id: 770199
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "77004401"
+    special_spot_add: 770099:1
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"

@@ -1601,6 +1601,7 @@
     skill3: 750963
     skill_advance: 750964
     skill_resolution: "750961"
+    passive_skill2: "450604"
     normal_attack: 750965
     baseammo: 10
     basemre: 10
@@ -1720,7 +1721,7 @@
     skill3: 760013
     skill_advance: 760014
     skill_resolution: "760011"
-    passive_skill2: "760009"
+    passive_skill2: "760009,450516"
     dynamic_passive_skill: "760022"
     normal_attack: 760008
     baseammo: 10
@@ -3184,17 +3185,14 @@
     extra: ",,"
     en_introduce: 待定
     forces: 1
-    type: 1
+    type: 2
     character: "2,4,6"
     formation: 1
     resolution: 107
     shape_scale: "80,120"
     ap_cost: 10
     rank: 5
-    skill1: 900833
-    skill2_type: 2
-    skill2: 30008
-    skill3: 900831
+    skill2_type: 1
     skill_advance: 900832
     skill_resolution: "900834"
     passive_skill2: "902167"
@@ -3218,10 +3216,6 @@
     assist_attack_range: 15
     ratio_range: 500
     search_range: 7
-    effect_grid_effect: 0:4,15;5,15|2:1,12;3,12
-    type_chip1: "1,2,3"
-    type_chip2: "1,2,3"
-    type_chip3: "1,2,3"
     illustration_id: 21
     ai: 11002
     is_additional: 1
@@ -3233,6 +3227,407 @@
     ratio_rec: 100
   }
   {
+    id: 9002
+    name: 稻草人
+    en_name: Scarecrow
+    code: Scarecrow
+    introduce: 擅长收集和分析情报，并不擅长正面作战，在铁血人形中地位较低。理性派，无口毒舌，忠于职守，鄙夷感性，面对感情丰富却只懂得服从的格里芬人形充满优越感。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 101
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450704,450703"
+    normal_attack: 900510
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 95
+    ratio_pow: 95
+    ratio_rate: 116
+    ratio_hit: 90
+    ratio_dodge: 120
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 12
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 5
+    ai: 11001
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930001
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10604
+    gun_tag_ids: "137,127,154"
+    ratio_rec: 95
+    recommended_team_ids: "1,4"
+  }
+  {
+    id: 9003
+    name: 行裁者
+    en_name: Excutioner
+    code: Excutioner
+    introduce: 相当于精英斥候，比稻草人地位稍高，两人经常搭档。莽撞冲动，大大咧咧的女汉子，热衷于堂堂正正的战斗，并不喜欢欺负弱者。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,5"
+    formation: 1
+    resolution: 102
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450705,450703"
+    normal_attack: 600309
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 125
+    ratio_pow: 105
+    ratio_rate: 88
+    ratio_hit: 95
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 40
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 5
+    illustration_id: 8
+    ai: 11002
+    is_additional: 2
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930002
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10602
+    gun_tag_ids: "117,121,111,127,113,124,125"
+    ratio_rec: 150
+    recommended_team_ids: "10"
+  }
+  {
+    id: 9004
+    name: 猎手
+    en_name: Hunter
+    code: Hunter
+    introduce: 机动和智能都比较高，擅长骚扰和追击作战，需要稻草人与行裁者的配合才能发挥最强的实力。沉着冷静，喜欢用各种手段将敌人逼到走投无路再活捉，面对格里芬十分高傲，但不屑于使用过于卑劣的手段。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 103
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450706,450703"
+    normal_attack: 900591
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 100
+    ratio_pow: 100
+    ratio_rate: 110
+    ratio_hit: 105
+    ratio_dodge: 105
+    armor_piercing: 15
+    crit: 30
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 11
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930003
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10602
+    gun_tag_ids: "139,107"
+    ratio_rec: 110
+    recommended_team_ids: "8"
+  }
+  {
+    id: 9005
+    name: 破坏者
+    en_name: Destroyer
+    code: Destroyer
+    introduce: 擅长爆破任务，解除炸弹也是专家级的，作战能力也不错，和炼金术士有时会搭档。平时高傲，毒舌，实际上是个傲娇，有点小孩子脾气，逼急了会哭鼻子，十分在意自己的身高。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 105
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450707,450703"
+    normal_attack: 900730
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 110
+    ratio_pow: 135
+    ratio_rate: 70
+    ratio_hit: 100
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 18
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930005
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10603
+    gun_tag_ids: "121,160"
+    ratio_rec: 110
+    recommended_team_ids: "6"
+  }
+  {
+    id: 9006
+    name: 建筑师
+    en_name: Architect
+    code: BossArchitect
+    introduce: 擅长远程破坏和火力支援，作战能力很强，通常独来独往。活泼开朗的没头脑元气少女，什么时候都兴高采烈，对格里芬也没有敌对意识，对于铁血只能最低限度地服从命令，但是对轰炸和破坏十分热心，所以作为敌人仍然十分危险。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 106
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450708,450703"
+    normal_attack: 900780
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 110
+    ratio_pow: 120
+    ratio_rate: 110
+    ratio_hit: 105
+    ratio_dodge: 70
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 27
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930006
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10603
+    gun_tag_ids: "121,10101"
+    ratio_rec: 110
+    recommended_team_ids: "6"
+  }
+  {
+    id: 9007
+    name: 梦想家
+    en_name: Dreamer
+    code: Dreamer
+    introduce: 偏向作战能力，拥有超远距离定点打击的能力，由伊莱莎直接下令指挥，是蝴蝶事件之后才制造的人形，因为自身能力不需要正面出击，所以平时只呆在铁血总部，以捉弄法官为乐。优雅的笑容中透着傲慢和难以捉摸，精神状态极不稳定，总是以自我为中心作战中会露出疯狂而不受控制的一面，加上可怕的破坏力，连同伴的安全都不会考虑所幸的是通常不会出现在正面战场上。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 109
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450709,450703"
+    normal_attack: 900965
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 95
+    ratio_pow: 125
+    ratio_rate: 100
+    ratio_hit: 110
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 24
+    ai: 11002
+    is_additional: 1
+    launch_time: 2020-10-01 10:00:00
+    display_enemy_team: 930009
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10604
+    gun_tag_ids: "144,154,10101"
+    ratio_rec: 95
+    recommended_team_ids: "1,4"
+  }
+  {
+    id: 9008
+    name: 计量官
+    en_name: Gager
+    code: BossGager
+    introduce: 主要担当指挥行动和人员调度，可以直接指挥作战人形，也具备不小的作战能力，地位较高，直接对代理人负责。认真严谨，一丝不苟，言行中透露出一股凛然利落的气质，即使对于敌人也很讲求原则和礼节。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 110
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "901036,901037,450710,450703"
+    normal_attack: 901035
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 105
+    ratio_pow: 100
+    ratio_rate: 120
+    ratio_hit: 125
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 26
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930010
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10602
+    gun_tag_ids: "109,124,103"
+    ratio_rec: 105
+    recommended_team_ids: "1,5"
+  }
+  {
+    id: 9009
+    name: 法官
+    en_name: Justice
+    code: Justice
+    introduce: 偏向指挥能力，负责铁血总部的防御和安全系统，相当于伊莱莎的侍卫，只会听从伊莱莎个人的命令，是蝴蝶事件之后才制造的人形，整天面对梦想家很头疼。严肃古板，充满军人的威严和风范，对伊莱莎绝对忠诚，但个子比较矮小，让人觉得缺乏气势，提出这一点的人无论敌我都会倒大霉。
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: 待定
+    forces: 1
+    type: 2
+    character: "1,4,6"
+    formation: 1
+    resolution: 111
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450711,450703"
+    normal_attack: 901223
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 130
+    ratio_pow: 95
+    ratio_rate: 110
+    ratio_hit: 110
+    ratio_dodge: 80
+    ratio_armor: 48
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 35
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930011
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10604
+    gun_tag_ids: "117,121,103,113"
+    ratio_rec: 140
+    recommended_team_ids: "9"
+  }
+  {
     id: 90001
     name: PPSh-41
     en_name: PPSh-41
@@ -3242,17 +3637,14 @@
     extra: ",,"
     en_introduce: 待定
     forces: 1
-    type: 1
+    type: 2
     character: "2,4,6"
     formation: 1
     resolution: 107
     shape_scale: "80,120"
     ap_cost: 10
     rank: 5
-    skill1: 900833
-    skill2_type: 2
-    skill2: 30008
-    skill3: 900831
+    skill2_type: 1
     skill_advance: 900832
     skill_resolution: "900834"
     passive_skill2: "902167"
@@ -3276,10 +3668,6 @@
     assist_attack_range: 15
     ratio_range: 500
     search_range: 7
-    effect_grid_effect: 0:4,15;5,15|2:1,12;3,12
-    type_chip1: "1,2,3"
-    type_chip2: "1,2,3"
-    type_chip3: "1,2,3"
     illustration_id: 21
     ai: 11002
     is_additional: 1

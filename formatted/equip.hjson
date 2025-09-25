@@ -6432,8 +6432,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:450,pow:1000
+    passive_skill: "1009301"
     max_level: 10
     auto_select_id: 20034
+    group_id: "64"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8274,9 +8276,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:700,hit:700,critical_percent:1000
-    passive_skill: "759029"
+    passive_skill: "759029,1009201"
     max_level: 10
     auto_select_id: 18084
+    group_id: "63"
     is_show: 1
     obtain_ids: "3064,3096"
     description_skill: 759029
@@ -13547,7 +13550,7 @@
     max_level: 10
     auto_select_id: 18092
     is_show: 1
-    obtain_ids: "3111"
+    obtain_ids: "3111,3096"
     description_skill: 1003701
   }
   {
@@ -13754,7 +13757,7 @@
     max_level: 10
     auto_select_id: 18092
     is_show: 1
-    obtain_ids: "3112"
+    obtain_ids: "3112,3096"
     description_skill: 1004001
   }
   {
@@ -14917,6 +14920,145 @@
     max_level: 10
     auto_select_id: 19091
     group_id: "62"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 467
+    name: M91新型弹
+    description:
+      '''
+      穿甲+<armor_piercing>
+      梯队步枪移速+10$卡尔卡诺M1891专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    armor_piercing: "130,130"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_Carcano1891
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "197"
+    equip_introduction: 在经典设计上使用了全新技术制造的新型子弹，弹道更平直，后坐力更小。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:500
+    passive_skill: "1008401,1008402"
+    max_level: 10
+    auto_select_id: 19092
+    is_show: 1
+    obtain_ids: "3135"
+    sp_description: 梯队步枪移速+10
+    description_skill: 1008401
+  }
+  {
+    id: 468
+    name: 精品挂饰
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      回避+<dodge>技能增强$AUG SMG专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "5,7"
+    hit: "7,11"
+    dodge: "10,10"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_AUGPARA
+    develop_duration: 3600
+    company: SF
+    fit_guns: "315"
+    equip_introduction: 据说可以吸引松鼠的装饰品，而且人类应该都会喜欢有个这样的挂饰吧。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: pow:450,hit:400,dodge:500
+    passive_skill: "1009101"
+    max_level: 10
+    auto_select_id: 18127
+    is_show: 1
+    obtain_ids: "3130"
+    description_skill: 1009101
+  }
+  {
+    id: 469
+    name: 旋风手斧
+    description:
+      '''
+      伤害+<pow> 穿甲+<armor_piercing>
+      命中<hit>$CZ75专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "12,15"
+    hit: "-10,-10"
+    armor_piercing: "20,25"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_CZ75
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "166"
+    equip_introduction: 安装有ACOG瞄准器的CZ75专用武器，解决了手感不适的问题，除了CZ75没有人形可以驾驭得了这种武器。
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:700,armor_piercing:1000
+    passive_skill: "1009202"
+    max_level: 10
+    auto_select_id: 19093
+    group_id: "63"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 470
+    name: 登山帽
+    description:
+      '''
+      伤害+<pow>
+      回避+<dodge>$F1改型专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "1,2"
+    dodge: "6,10"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: Accessories_SP_F1Mod
+    develop_duration: 2820
+    company: IOP
+    fit_guns: "20178"
+    equip_introduction: 专为在F1订制的登山帽，佩戴后十分容易被别人认定为一名资深的冒险家。
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: dodge:1000,pow:1000
+    passive_skill: "1009302"
+    max_level: 10
+    auto_select_id: 18128
+    group_id: "64"
     is_show: 1
     obtain_ids: "3096"
   }

@@ -1,78 +1,105 @@
 [
   {
     identity: 1
-    type: battery_collect
-    count: 3
-    title: 每周要务：电力采集
-    content: 收取3次宿舍电池。
+    type: win_normal
+    count: 50
+    title: 每周要务：普通单位
+    content: 累计消灭50个普通单位
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 2
-    type: procurement
+    type: win_boss
     count: 1
-    title: 每周要务：时装采购
-    content: 进行1次采购。
+    title: 每周要务：首领单位
+    content: 累计消灭1个首领单位
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 3
-    type: sangvis_daily_retrieval
+    type: s_win
     count: 8
-    title: 每周要务：协议同归
-    content: 进行8次收归行动（包括常规回收和协力回收）。
-    function_control_id: 21
+    title: 每周要务：战斗胜利
+    content: 累计以S评价赢得8场战斗
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 4
-    type: upgrade_skill
-    count: 3
-    title: 每周要务：集中特训
-    content: 进行3次技能训练。
-    function_control_id: 4
-    prize_id: 8309
-    exchange_prize_id: 8316
-  }
-  {
-    identity: 5
-    type: sp_develop
-    count: 4
-    title: 每周要务：军备扩建
-    content: 进行4次重型制造（包括人形、妖精）。
-    function_control_id: 3
-    prize_id: 8309
-    exchange_prize_id: 8316
-  }
-  {
-    identity: 6
     type: map_capture
     count: 15
     title: 每周要务：灰域探查
-    content: 累计占领15个灰域探查点位。
+    content: 累计占领15个灰域探查点位
     function_control_id: 29
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
+    identity: 5
+    type: develop_all
+    count: 8
+    title: 每周要务：军备扩建
+    content: 累计进行8次任意制造（人形、装备、妖精）
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 6
+    type: operation
+    count: 10
+    title: 每周要务：后勤支援
+    content: 累计完成10次后勤支援
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
     identity: 7
-    type: daily_complete
-    count: 15
-    title: 每周要务：事务处理
-    content: 累计完成15个日常事务。
+    type: combat_simulation
+    count: 12
+    title: 每周要务：模拟作战
+    content: 累计完成12次模拟作战或融合演习
+    function_control_id: 4
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 8
-    type: win_boss
-    count: 1
-    title: 每周要务：王牌克星
-    content: 战斗胜利情况下消灭1个首领单位。
+    type: explore
+    count: 5
+    title: 每周要务：前进营地
+    content: 累计进行5次前进营地探索
+    function_control_id: 17
     prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 9
+    type: procurement
+    count: 1
+    title: 每周要务：装扮采购
+    content: 累计完成1次采购
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 10
+    type: sangvis_daily_retrieval
+    count: 8
+    title: 每周要务：收归行动
+    content: 累计完成8次收归行动（包括常规回收和协力回收）
+    function_control_id: 21
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 11
+    type: weekly_complete
+    count: 4
+    title: 每周要务：特别任务
+    content: 累计完成4个其他每周任务
+    prize_id: 8318
     exchange_prize_id: 8316
   }
 ]

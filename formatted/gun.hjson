@@ -15045,12 +15045,13 @@
     ratio_range: 100
     skill1: 750348
     normal_attack: 300101
-    dynamic_passive_skill: "750346,750347"
+    passive_skill: "1009204"
+    dynamic_passive_skill: "750346,750347,1009205"
     effect_grid_center: 13
     effect_grid_pos: "7,9,12,14"
     effect_grid_effect: "1,8;2,10"
     type_equip1: 1;4,13,16,18
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 3;10
     ai: 166
     launch_time: 2017-03-30 00:00:00
@@ -15999,7 +16000,7 @@
     ratio_range: 100
     skill1: 102402
     normal_attack: 300102
-    passive_skill: "999999"
+    passive_skill: "999999,1009304"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,9"
@@ -17517,13 +17518,13 @@
     ratio_range: 100
     skill1: 107801
     normal_attack: 107805
-    passive_skill: "107806"
+    passive_skill: "107806,1008403"
     dynamic_passive_skill: "107804,107807"
     effect_grid_center: 17
     effect_guntype: "3"
     effect_grid_pos: "11,12"
     effect_grid_effect: "6,10"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
     type_equip3: 3;15
     ai: 197
@@ -26145,7 +26146,7 @@
     ratio_range: 100
     skill1: 116101
     normal_attack: 300102
-    passive_skill: "116104,116105,116106,116110,116111,756166"
+    passive_skill: "116104,116105,116106,116110,116111,756166,1009102"
     dynamic_passive_skill: "116102,116103,116108,116109"
     effect_grid_center: 13
     effect_guntype: "4"
@@ -26153,7 +26154,7 @@
     effect_grid_effect: "1,15;3,25"
     type_equip1: 3;9,10
     type_equip2: 2;6
-    type_equip3: 1;1,2,3,4,13
+    type_equip3: 1;1,2,3,4,13,18
     ai: 224
     launch_time: 2020-08-20 00:00:00
     rank_display: 5
@@ -30707,7 +30708,7 @@
     ratio_range: 100
     skill1: 750756
     normal_attack: 300106
-    passive_skill: "300202,300203,200429,750775,,750776,750777,750778,750779,750780"
+    passive_skill: "300202,300203,200429,750775,750776,750777,750778,750779,750780"
     dynamic_passive_skill: "750772,750773,750774"
     effect_grid_center: 7
     effect_guntype: "5,6"
@@ -32161,7 +32162,7 @@
     effect_guntype: "1"
     effect_grid_pos: "14,19"
     effect_grid_effect: "6,15"
-    type_equip1: 2;5,19
+    type_equip1: 2;5
     type_equip2: 1;1,2,3,13
     type_equip3: 3;15
     ai: 200
@@ -32302,6 +32303,366 @@
     atk_speed_max: 120
     ratio_rec: 102
     recommended_team_ids: "1"
+  }
+  {
+    id: 413
+    name: Unica 6
+    en_name: Unica 6
+    code: Unica6
+    extra: u介,,
+    en_introduce:
+      '''
+      Type                       Automatic revolver
+      Mass                       2.96 lb (1.35 kg)
+      Length                     275 mm (10.83 in)
+      Barrel length              152 mm (6 in)
+      Cartridge                  .357 Magnum
+      Action                     Recoil operated semi-automatic revolver
+      Feed system                6-Round Cylinder
+      Sights                     Iron sights
+                                 Fixed Two-Dot Night Sight
+      '''
+    type: 1
+    rank: 5
+    develop_duration: 3960
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 122
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 116
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 128
+    ratio_range: 100
+    skill1: 1008501
+    normal_attack: 1008503
+    passive_skill: "1008505"
+    dynamic_passive_skill: "1008510"
+    effect_grid_center: 14
+    effect_grid_pos: "18,19,20,8,9,10"
+    effect_grid_effect: "1,15;3,25"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10
+    ai: 4
+    launch_time: 2025-09-25 00:00:00
+    obtain_ids: "1"
+    rank_display: 5
+    gun_detail_bg: nation_Italy
+    org_id: 10203
+    show_damage_skin: ",0,"
+    gun_tag_ids: "126,103,108"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "2,3,4,6,8"
+  }
+  {
+    id: 414
+    name: M&P9
+    en_name: M&P9
+    code: M&P9
+    extra: 玛雅G,,
+    en_introduce:
+      '''
+      Type                       Pistol
+      Mass                       0.7 kg
+      Length                     190 mm
+      Barrel length              108 mm
+      Cartridge                  9×19mm Parabellum
+      Action                     Short recoil, locked breech
+      Feed system                Detachable box magazine
+      Sights                     Iron sights
+      '''
+    type: 1
+    rank: 4
+    develop_duration: 3540
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 106
+    ratio_rate: 108
+    ratio_speed: 100
+    ratio_hit: 115
+    ratio_dodge: 135
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 114
+    ratio_range: 100
+    skill1: 1008701
+    normal_attack: 300101
+    passive_skill: "1008702,1008703,1008704"
+    effect_grid_center: 14
+    effect_grid_pos: "18,19,20,8,9,10,14"
+    effect_grid_effect: "1,10;3,25"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10
+    ai: 212
+    launch_time: 2025-09-25 00:00:00
+    obtain_ids: "1"
+    rank_display: 4
+    gun_detail_bg: nation_US
+    org_id: 10302
+    show_damage_skin: ",0,"
+    gun_tag_ids: "111,131,103"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "2,3,4,6,8"
+  }
+  {
+    id: 415
+    name: wz.63
+    en_name: wz.63
+    code: wz63
+    extra: SoyooNG,,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+      Mass                       1.6 kg (3.53 lb)
+      Length                     583 mm (23.0 in) stock extended
+                                 333 mm (13.1 in) stock collapsed
+      Barrel length              152 mm (6.0 in)
+      Cartridge                  9×18mm Makarov
+      Action                     Straight blowback
+      Rate of fire               650 rounds/min
+      Muzzle velocity            320 m/s
+      Effective firing range     150 m
+      Feed system                15 or 25-round box magazine
+      Sights                     Flip rear sight, 
+                                 front blade 153 mm(6.0 in) sight radius
+      '''
+    type: 2
+    rank: 4
+    develop_duration: 7980
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 98
+    ratio_rate: 106
+    ratio_speed: 100
+    ratio_hit: 108
+    ratio_dodge: 130
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 108
+    ratio_range: 100
+    skill1: 1008801
+    normal_attack: 300102
+    dynamic_passive_skill: "1008802"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "7,12,17,9,14,19"
+    effect_grid_effect: "1,35;4,-10"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 150
+    launch_time: 2025-09-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 4
+    org_id: 10501
+    show_damage_skin: ",0,"
+    gun_tag_ids: "124,103"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "1"
+  }
+  {
+    id: 416
+    name: SSG M1
+    en_name: SSG M1
+    code: SSGM1
+    extra: 四々九,,
+    en_introduce:
+      '''
+      Type                       Rifle
+      Mass                       6.8 kg
+      Length                     1282 mm
+      Barrel length              690 mm
+      Caliber                    .338 Lap Mag
+      Action                     Bolt-action, repeating
+      Feed system                10 rounds
+      '''
+    type: 3
+    rank: 4
+    develop_duration: 14460
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 102
+    ratio_pow: 115
+    ratio_rate: 100
+    ratio_speed: 100
+    ratio_hit: 135
+    ratio_dodge: 85
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 130
+    ratio_range: 100
+    skill1: 1008901
+    normal_attack: 300104
+    passive_skill: "1008902,1008903,1008904,1008905,1008906"
+    effect_grid_center: 13
+    effect_guntype: "3"
+    effect_grid_pos: "7,12,9,14"
+    effect_grid_effect: "1,18"
+    type_equip1: 2;5
+    type_equip2: 1;1,2,3,13
+    type_equip3: 3;15,23
+    ai: 200
+    launch_time: 2025-09-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 4
+    org_id: 10701
+    show_damage_skin: ",0,"
+    gun_tag_ids: "138"
+    atk_speed_max: 120
+    ratio_rec: 102
+    recommended_team_ids: "2,8"
+  }
+  {
+    id: 417
+    name: EF88
+    en_name: EF88
+    code: EF88
+    extra: meru,,
+    en_introduce:
+      '''
+      Type                       Assault rifle
+      Mass                       3.4 kg
+      Length                     802 mm
+      Barrel length              508 mm
+      Cartridge                  5.56×45mm NATO
+      Rate of fire               850 m/s
+      Feed system                30-round detachable box magazine
+      '''
+    type: 4
+    rank: 5
+    develop_duration: 16080
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 130
+    ratio_pow: 120
+    ratio_rate: 112
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 80
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 120
+    ratio_range: 100
+    skill1: 1008601
+    normal_attack: 1008605
+    passive_skill: "1008603,1008604,1008606"
+    dynamic_passive_skill: "1008602"
+    effect_grid_center: 18
+    effect_grid_pos: "12,17,14,19,18,24,23"
+    effect_grid_effect: "1,30;2,-20"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2025-09-25 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    org_id: 10403
+    show_damage_skin: ",0,"
+    gun_tag_ids: "121,153"
+    atk_speed_max: 135
+    ratio_rec: 130
+    recommended_team_ids: "6"
+  }
+  {
+    id: 418
+    name: 齐亚帕三重冕
+    en_name: ChiappaTripleCrown
+    code: ChiappaTripleCrown
+    extra: --,,
+    en_introduce:
+      '''
+      Type                       Break-action shotgun
+      Mass                       8.7 lb (3.95 kg)
+      Length                     45 in (1143 mm)
+      Barrel length              28 in (711.2 mm)
+      Cartridge                  12-gauge
+                                 20-gauge
+                                 28-gauge
+                                 .410-bore
+      Action                     Break-action
+      Sights                     Fixed fiber optic
+      '''
+    type: 6
+    rank: 5
+    develop_duration: 33333
+    baseammo: 30
+    basemre: 40
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 25
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    retirepart: 5
+    ratio_life: 128
+    ratio_pow: 116
+    ratio_rate: 120
+    ratio_speed: 100
+    ratio_hit: 122
+    ratio_dodge: 98
+    ratio_armor: 120
+    armor_piercing: 15
+    crit: 40
+    special: 6
+    eat_ratio: 125
+    ratio_range: 100
+    skill1: 1009001
+    normal_attack: 750157
+    passive_skill: "1009004,1009012,300202,300203"
+    dynamic_passive_skill: "1009003,1009011,1009013,1009014"
+    effect_grid_center: 8
+    effect_guntype: "6"
+    effect_grid_pos: "2,7,12,8,4,9,14"
+    effect_grid_effect: "5,20;8,25"
+    type_equip1: 3;11
+    type_equip2: 2;7
+    type_equip3: 1;1,2,3,4,22
+    ai: 397
+    launch_time: 2025-09-25 00:00:00
+    obtain_ids: "3136"
+    rank_display: 5
+    gun_detail_bg: nation_Italy
+    org_id: 10402
+    show_damage_skin: ",0,"
+    gun_tag_ids: "163,108"
+    atk_speed_max: 60
+    ratio_rec: 128
+    recommended_team_ids: "5"
   }
   {
     id: 1001
@@ -40616,6 +40977,81 @@
     ratio_rec: 100
   }
   {
+    id: 9125
+    name: M16A1
+    en_name: M16A1
+    code: M16A1_NPC
+    type: 4
+    rank: 6
+    develop_duration: 12900
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 1100
+    ratio_pow: 440
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 50
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 450701
+    normal_attack: 300103
+    effect_grid_center: 13
+    type_equip1: 1;1,2,3,4,13,16,18,22
+    type_equip2: 2;5,6,7,8,17,19
+    type_equip3: 3;9,10,11,12,14,15,20,21,23
+    ai: 54
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 5
+    atk_speed_max: 120
+    ratio_rec: 1100
+  }
+  {
+    id: 9126
+    name: M16A1
+    en_name: M16A1
+    code: Beak_M16_ally
+    type: 4
+    rank: 6
+    develop_duration: 12900
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 1100
+    ratio_pow: 220
+    ratio_rate: 200
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 100
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 450701
+    normal_attack: 300103
+    passive_skill: "450703"
+    effect_grid_center: 13
+    type_equip1: 1;1,2,3,4,13,16,18,22
+    type_equip2: 2;5,6,7,8,17,19
+    type_equip3: 3;9,10,11,12,14,15,20,21,23
+    ai: 54
+    launch_time: 2030-12-31 23:59:59
+    rank_display: 6
+    atk_speed_max: 120
+    ratio_rec: 1100
+  }
+  {
     id: 20001
     name: 柯尔特左轮
     en_name: M1873
@@ -46364,13 +46800,14 @@
     skill1: 902234
     skill2: 902235
     normal_attack: 300102
+    passive_skill: "1009304"
     effect_grid_center: 13
     effect_guntype: "2,4"
     effect_grid_pos: "12,14,9,7"
     effect_grid_effect: "3,50;4,20"
     type_equip1: 3;9,10,20
     type_equip2: 2;6
-    type_equip3: 1;1,2,3,4,13
+    type_equip3: 1;1,2,3,4,13,18
     ai: 178
     launch_time: 2017-07-27 00:00:00
     obtain_ids: "35"

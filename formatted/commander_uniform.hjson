@@ -3739,6 +3739,160 @@
     color_icon_id: "960"
   }
   {
+    id: 6240
+    name: 蛇影权杖
+    description: 象征着智慧与长寿的蛇盘旋在做工精美的权杖上，似乎寄托了对指挥官的美好期盼。
+    code: BodyAcco
+    icon: commander_6240_icon
+    type: 4
+    uniform_class: "62"
+    color_normal: Commander_6240_N
+    bone_name: BodyBinder1
+    scale: 0.2
+    position: "-0.161,-0.137"
+    color_icon_id: "961"
+  }
+  {
+    id: 6311
+    name: 迎风徜徉
+    description: 把头发别到脑后，露出精心打理的眉毛和灯环。那个小圆圈可不会暴露你“不稳定”的状况，毕竟你可是100%的人类……嗯，或许是80%？
+    code: Head1
+    icon: commander_6311_icon
+    type: 1
+    gender: 1
+    uniform_class: "63"
+    color_normal: Commander_6311_N
+    color_0: Commander_6311_0
+    color_1: Commander_6311_1
+    color_2: Commander_6311_2
+    color_3: Commander_6311_3
+    color_4: Commander_6311_4
+    color_icon_id: "962"
+  }
+  {
+    id: 6312
+    name: 逆风飞行
+    description: 露出额头是什么新的风尚吗？我想主要是为了展示精致的义体接缝。虽然最新技术足够以假乱真，但如果不留接缝，别人怎么知道你定制了昂贵义体？
+    code: Head2
+    icon: commander_6312_icon
+    type: 1
+    gender: 2
+    uniform_class: "63"
+    color_normal: Commander_6312_N
+    color_0: Commander_6312_0
+    color_1: Commander_6312_1
+    color_2: Commander_6312_2
+    color_3: Commander_6312_3
+    color_4: Commander_6312_4
+    color_icon_id: "963"
+  }
+  {
+    id: 6320
+    name: 感知部件
+    description: 钢铁森林中最新潮也最可靠的科技部件，总是集探索照明、音乐播放、信号入侵、环境勘察于一体……这种复合道具的价格？别问那么多！
+    code: HeadAcco
+    icon: commander_6320_icon
+    type: 2
+    uniform_class: "63"
+    color_normal: Commander_6320_N
+    color_0: Commander_6320_0
+    color_1: Commander_6320_1
+    color_2: Commander_6320_2
+    color_3: Commander_6320_3
+    color_4: Commander_6320_4
+    bone_name: HairBinder2
+    scale: 0.2
+    position: "-0.066,0.214"
+    color_icon_id: "964"
+  }
+  {
+    id: 6331
+    name: 赛博迷彩
+    description: 兜帽搭配防风外套的设计可以很好地展示运动风格，对待突如其来的暴雨也有转圜余地。作为城市漫步者，这样的搭配就和丰富的配色一样精妙。
+    code: Body1
+    icon: commander_6331_icon
+    type: 3
+    gender: 1
+    uniform_class: "63"
+    color_normal: Commander_6331_N
+    color_0: Commander_6331_0
+    color_1: Commander_6331_1
+    color_2: Commander_6331_2
+    color_3: Commander_6331_3
+    color_4: Commander_6331_4
+    color_icon_id: "965"
+  }
+  {
+    id: 6332
+    name: 疏水亲肤
+    description: 外套里的短上衣是行动灵活的象征，在气温变化时穿脱外套即可实现体温的恒定……你说体温调节系统？那是最近不流行的配件！
+    code: Body2
+    icon: commander_6332_icon
+    type: 3
+    gender: 2
+    uniform_class: "63"
+    color_normal: Commander_6332_N
+    color_0: Commander_6332_0
+    color_1: Commander_6332_1
+    color_2: Commander_6332_2
+    color_3: Commander_6332_3
+    color_4: Commander_6332_4
+    color_icon_id: "966"
+  }
+  {
+    id: 6340
+    name: 行动部件
+    description: 出行道具需要好好挑选，这款色彩明艳轮廓方正而且自带灯箱的背包就不错！什么？还有动能枪械和合金刀？啊哈哈……这种事就别在意啦。
+    code: BodyAcco
+    icon: commander_6340_icon
+    type: 4
+    uniform_class: "63"
+    color_normal: Commander_6340_N
+    color_0: Commander_6340_0
+    color_1: Commander_6340_1
+    color_2: Commander_6340_2
+    color_3: Commander_6340_3
+    color_4: Commander_6340_4
+    bone_name: BodyBinder1
+    scale: 0.2
+    position: "0.013,0.057"
+    color_icon_id: "967"
+  }
+  {
+    id: 6351
+    name: 抗寒强化
+    description: 虽然不知道最近的街头小子们为什么那么爱穿九分运动裤，但无论什么天气都坚定地露脚脖子一定有它的道理。
+    code: Foot1
+    icon: commander_6351_icon
+    type: 5
+    gender: 1
+    uniform_class: "63"
+    color_normal: Commander_6351_N
+    color_0: Commander_6351_0
+    color_1: Commander_6351_1
+    color_2: Commander_6351_2
+    color_3: Commander_6351_3
+    color_4: Commander_6351_4
+    color_icon_id: "968"
+  }
+  {
+    id: 6352
+    name: 防晒强化
+    description: 豪华的腿部仿真皮肤不但可以均匀肤色，还有冬天保暖夏天防晒的效果！虽然贵一点，但这不正是都市弄潮儿需要的吗？
+    code: Foot2
+    icon: commander_6352_icon
+    type: 5
+    gender: 2
+    uniform_class: "63"
+    color_normal: Commander_6352_N
+    color_0: Commander_6352_0
+    color_1: Commander_6352_1
+    color_2: Commander_6352_2
+    color_3: Commander_6352_3
+    color_4: Commander_6352_4
+    color_icon_id: "969"
+  }
+  {
     id: 6440
     name: 披萨先生
     description: 看起来有些眼熟的玩偶。“终于轮到我登场咯！披萨先生，热身完毕哦☆”——不知道为什么，一背上它，你就情不自禁发出了这样的声音。
@@ -3751,6 +3905,20 @@
     scale: 0.16
     position: "0.020,0.070"
     color_icon_id: "961"
+  }
+  {
+    id: 6520
+    name: 静日繁花
+    description: 将这份永不凋谢的芬芳戴在头上吧。无论前线的战况如何，背后总会有这样一个人，为你打点好一切。
+    code: HeadAcco
+    icon: commander_6520_icon
+    type: 2
+    uniform_class: "65"
+    color_normal: Commander_6520_N
+    bone_name: HairBinder2
+    scale: 0.2
+    position: "-0.045,0.272"
+    color_icon_id: "962"
   }
   {
     id: 9920

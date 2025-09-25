@@ -615,6 +615,30 @@
     source_description: 2024国庆签到
   }
   {
+    id: 62
+    name: 灵韵蛇舞
+    description: 扫除旧岁，迎接新年，是时候拿起象征新一年的权杖，在舞蹈中领悟生命律动。
+    group_id: "103"
+    code: commander_6240_icon
+    path: CLASS62
+    des_year: "2025"
+    source: 2
+    source_description: 2025国庆签到
+  }
+  {
+    id: 63
+    name: 未来前沿
+    description: 就这样在街头漫步吗？当然可以。除了考虑极具科技感的时尚风向，还要记得应对多变的天气……以及多带点武器防身。
+    group_id: "104"
+    code: commander_6331_icon
+    bonus_plastic: "130025"
+    skill_id: 115
+    path: CLASS63
+    is_class: 1
+    des_year: "2025"
+    source: 2
+  }
+  {
     id: 64
     name: 元气焦点
     description: 在热闹的周年派对上成为众人瞩目的焦点，让所有人获得元气，就是你最为真挚的心愿。
@@ -624,6 +648,17 @@
     des_year: "2025"
     source: 2
     source_description: 2025周年活动奖励
+  }
+  {
+    id: 65
+    name: 静日繁花
+    description: 将这份永不凋谢的芬芳戴在头上吧。无论前线的战况如何，背后总会有这样一个人，为你打点好一切。
+    group_id: "103"
+    code: commander_6520_icon
+    path: CLASS65
+    des_year: "2025"
+    source: 2
+    source_description: 零态潮汐活动排名奖励
   }
   {
     id: 99

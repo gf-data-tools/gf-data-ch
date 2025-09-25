@@ -5801,6 +5801,7 @@
     conflict_type: 760601
     priority: 1
     carry_mission_skill: "760611"
+    is_still_alive: 1
   }
   {
     id: 760602
@@ -5812,6 +5813,7 @@
     conflict_type: 760602
     priority: 1
     carry_mission_skill: "760612"
+    is_still_alive: 1
   }
   {
     id: 760704
@@ -5921,6 +5923,204 @@
     conflict_type: 760902
     priority: -1
     carry_mission_skill: "760912"
+  }
+  {
+    id: 770000
+    name: 指挥官
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 770000
+    priority: 1
+    carry_mission_skill: "770051,770052,770053,770054,770055,770056,770057,770058,770059,770060,770081,770082,770083,770084,770085,770086,770090,770091,770092,770093,770094,770095,770096,770097,770098,770099"
+  }
+  {
+    id: 770011
+    name: AR小队标记
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 770011
+    priority: 1
+    carry_mission_skill: "770111"
+    is_still_alive: 1
+  }
+  {
+    id: 770012
+    name: 404小队标记
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 770012
+    priority: 1
+    carry_mission_skill: "770112"
+    is_still_alive: 1
+  }
+  {
+    id: 770013
+    name: 忤逆小队标记
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 770013
+    priority: 1
+    carry_mission_skill: "770113"
+    is_still_alive: 1
+  }
+  {
+    id: 770015
+    name: 铁血标记
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 770015
+    priority: 1
+    carry_mission_skill: "770114"
+    is_still_alive: 1
+  }
+  {
+    id: 770027
+    name: 加速
+    description: 每回合前3次移动不消耗AP
+    code: SpeedUp
+    type: 1
+    duration_type: "5"
+    duration_time: "3"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 770027
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770033
+    name: 觉醒
+    description: 每回合前5次移动不消耗AP
+    code: SpeedUp
+    type: 1
+    duration_type: "5"
+    duration_time: "5"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 770027
+    priority: 2
+    is_still_alive: 1
+  }
+  {
+    id: 770036
+    name: 指挥
+    description: 5格范围内的友方梯队命中闪避移动速度提高
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 770036
+    priority: 1
+    sangvis_chip_id: "4001"
+    is_still_alive: 1
+  }
+  {
+    id: 770054
+    name: 必中
+    description: 1回合内命中提高999
+    code: Chasing_AIm
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450309
+    conflict_type: 770054
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770055
+    name: 必闪
+    description: 下1场战斗闪避提高999
+    code: apc556
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450310
+    conflict_type: 770055
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770056
+    name: 热血
+    description: 下1场战斗伤害提高100%
+    code: m190
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450311
+    conflict_type: 770056
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770057
+    name: 铁壁
+    description: 1回合内护甲提高30
+    code: armorBuffSelf
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450312
+    conflict_type: 770057
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770058
+    name: 不屈
+    description: 下1场战斗受到伤害降低75%
+    code: Invincible
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450313
+    conflict_type: 770058
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770059
+    name: 魂
+    description: 下1场战斗伤害提高120%
+    code: BossArchitect1
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450314
+    conflict_type: 770059
+    priority: 1
+    is_still_alive: 1
+  }
+  {
+    id: 770060
+    name: 直击
+    description: 下1场战斗开始时清空敌人的力场
+    code: assess202309_14
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450315
+    conflict_type: 770060
+    priority: 1
+    is_still_alive: 1
   }
   {
     id: 910630

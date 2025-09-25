@@ -790,6 +790,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
+    fix_damage: "1000020019"
   }
   {
     id: 323
@@ -799,6 +800,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
+    fix_damage: "1000020019"
   }
   {
     id: 324
@@ -4780,6 +4782,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
+    fix_damage: "1000020019"
   }
   {
     id: 763
@@ -4789,6 +4792,129 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 764
+    description: Unica 6支援攻击
+    damage_ratio: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 765
+    description: EF88普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009951"
+  }
+  {
+    id: 766
+    description: EF88特殊普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009951"
+  }
+  {
+    id: 767
+    description: 齐亚帕三重冕打击
+    damage_ratio: *201
+    target_move: *101
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    beat_back_percent: "100"
+    buff_id_target: 9965:1000009980
+    buff_rate: "100"
+    target_move_percent: "100"
+    target_skill: 1009002
+    hit_type: 1
+  }
+  {
+    id: 768
+    description: 齐亚帕三重冕裂伤
+    extra_damage: "50"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 769
+    description: 齐亚帕三重冕普通攻击
+    damage_ratio: "100"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    buff_id_target: 9965:1000009980
+    buff_rate: "100"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 770
+    description: 齐亚帕三重冕鸟弹攻击
+    damage_ratio: "100"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    buff_id_target: 9965:1000009980
+    buff_rate: "100"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 771
+    description: 齐亚帕三重冕独头弹攻击
+    damage_ratio: "300"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    buff_id_target: 9965:1000009980
+    buff_rate: "100"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 772
+    description: CZ75套装飞斧
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 773
+    description: CZ75套装飞斧回旋
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
     hit_type: 1
   }
   {
@@ -5141,6 +5267,99 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
+  }
+  {
+    id: 1751
+    description: 鹗视虎普攻
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1000020007
+    is_armor: 1
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 1752
+    description: 鹗视虎螺旋丸伤害
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "99999"
+  }
+  {
+    id: 1753
+    description: 威廉狂暴伤害
+    extra_damage: "99999"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "99999"
+  }
+  {
+    id: 1754
+    description: 缇普攻
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1755
+    description: 缇必杀真伤
+    extra_damage: "99999"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    buff_id_target: 2683:1
+    buff_rate: "100"
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "99999"
+  }
+  {
+    id: 1756
+    description: 缇撕裂真伤
+    extra_damage: "99999"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "99999"
+  }
+  {
+    id: 1757
+    description: M16A1手榴弹
+    damage_ratio: "500"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 1758
+    description: 缇过载自伤
+    extra_damage: "100000"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "100000"
+  }
+  {
+    id: 1759
+    description: 缇穿刺伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    is_armor: 1
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
   }
   {
     id: 2001
@@ -9465,6 +9684,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
+    fix_damage: "1000020019"
   }
   {
     id: 2484
@@ -9473,6 +9693,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
+    fix_damage: "1000020019"
   }
   {
     id: 2485
@@ -11199,6 +11420,22 @@
     hit_type: 1
   }
   {
+    id: 2701
+    description: EF88榴弹结算范围
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2702
+    description: SSG M1显示消buff
+    buff_id_self: 9945:-30,3301:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 3001
     description: 普通攻击【真普攻】【轻武器】
     damage_ratio: *202
@@ -11503,6 +11740,19 @@
     hit_type: 1
     fix_damage: "1000020006"
     range_buff_target: 2635:1
+  }
+  {
+    id: 3106
+    description: 零态潮汐-开场炸力场
+    damage_ratio: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    extra_defbreak: "999999"
+    hit_type: 2
+    is_ricochet: 100
   }
   {
     id: 4001

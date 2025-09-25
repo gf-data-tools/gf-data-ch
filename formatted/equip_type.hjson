@@ -33,7 +33,7 @@
     category: 1
     code: NightBattle_Equipment
     fit_gun_type: "1,2,4,6"
-    des: 可以抵消人形的<color=#FFB400FF>夜战命中惩罚</color>
+    des: 可以抵消人形的<color=#FFB400FF>夜战命中惩罚</color>，分为红外指示器和武器灯适用于不同人形。
   }
   {
     type: 5
@@ -41,7 +41,7 @@
     category: 2
     code: AP_Ammo
     fit_gun_type: "3,5"
-    des: 可以提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害
+    des: 可以提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害，分为穿甲弹和狙击弹用于不同场合。
   }
   {
     type: 6
@@ -49,7 +49,7 @@
     category: 2
     code: HP_Ammo
     fit_gun_type: "1,2"
-    des: 可以提升人形的<color=#FFB400FF>伤害</color>，但会减少<color=#FFB400FF>穿甲</color>
+    des: 可以提升人形的<color=#FFB400FF>伤害能力</color>和<color=#FFB400FF>辅助能力</color>，分为空尖弹和信号枪用于不同场合。
   }
   {
     type: 7
@@ -57,7 +57,7 @@
     category: 2
     code: Shotgun_Shells
     fit_gun_type: "6"
-    des: 可以提升人形的<color=#FFB400FF>伤害能力</color>，分为独头弹，猎鹿弹和鸟弹用于不同场合
+    des: 可以提升人形的<color=#FFB400FF>伤害能力</color>，分为独头弹，猎鹿弹，鸟弹和霰弹用闪光弹用于不同场合。
   }
   {
     type: 8
@@ -73,7 +73,7 @@
     category: 3
     code: Chip
     fit_gun_type: "2,4"
-    des: 可以提升人形的<color=#FFB400FF>伤害</color>和<color=#FFB400FF>射速</color>，但会减少<color=#FFB400FF>暴击伤害</color>
+    des: 可以提升人形的<color=#FFB400FF>伤害能力</color>，分为运算芯片和专注芯片适用于不同人形。
   }
   {
     type: 10
@@ -136,7 +136,7 @@
     category: 2
     code: Special_AP_Ammo
     fit_gun_type: "5"
-    des: 可以大幅提升人形的<color=#FFB400FF>穿甲能力</color>，提升对装甲单位的伤害
+    des: 可以大幅提升人形的<color=#FFB400FF>穿甲能力</color>，但会减少<color=#FFB400FF>射速</color>。
   }
   {
     type: 18

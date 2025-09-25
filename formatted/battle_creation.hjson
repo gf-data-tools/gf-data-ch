@@ -52255,6 +52255,501 @@
     sound_order: BT_grenade_explode
   }
   {
+    id: 3838
+    name: Unica 6支援-1级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1702"
+  }
+  {
+    id: 3839
+    name: Unica 6支援-2级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1703"
+  }
+  {
+    id: 3840
+    name: Unica 6支援-3级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1704"
+  }
+  {
+    id: 3841
+    name: Unica 6支援-4级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1705"
+  }
+  {
+    id: 3842
+    name: Unica 6支援-5级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1706"
+  }
+  {
+    id: 3843
+    name: Unica 6支援-6级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1707"
+  }
+  {
+    id: 3844
+    name: Unica 6支援-7级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1708"
+  }
+  {
+    id: 3845
+    name: Unica 6支援-8级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1709"
+  }
+  {
+    id: 3846
+    name: Unica 6支援-9级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1710"
+  }
+  {
+    id: 3847
+    name: Unica 6支援-10级-第一队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "1711"
+  }
+  {
+    id: 3848
+    name: Unica 6支援子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "764"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 3849
+    name: EF88榴弹
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.35,0.35"
+    trigger_creation_id: "3850"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 3850
+    name: EF88榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2701"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 3851
+    name: EF88子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "765"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 3852
+    name: EF88特殊子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "766"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 3853
+    name: M&P9开场扫描
+    code: Ketwk_dl02
+    start_type: "8"
+    start_offset: "-15,0,-2"
+    destination_type: "8"
+    destination_offset: "25,0,-2"
+    is_tracing: 1
+    route_type: 1
+    speed: 2500
+    exist_duration: "30"
+    effect_area: 1
+    scale: "3,3,1"
+  }
+  {
+    id: 3854
+    name: M&P9安全标记
+    code: Sep_MP9_safe
+    start_type: "3"
+    start_offset: "-0.4,2,0"
+    destination_type: "3"
+    destination_offset: "-0.4,2,0"
+    is_tracing: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 3855
+    name: M&P9高危标记
+    code: Sep_MP9_warning
+    start_type: "3"
+    start_offset: "1,0.3,0"
+    destination_type: "3"
+    destination_offset: "1,0.3,0"
+    is_tracing: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 3856
+    name: SSG M1盾牌
+    code: Sep_SSGM1_dun
+    start_type: "2"
+    start_offset: "-0.4,-0.2,0"
+    destination_type: "2"
+    destination_offset: "-0.4,-0.2,0"
+    is_tracing: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 3857
+    name: SSG M1清显示buff
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    effect_area: 1
+    hurt_id: "2702"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3858
+    name: SSG M1狙击子弹尾迹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "3"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 3859
+    name: 齐亚帕三重冕爆裂射击
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "767"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 3860
+    name: 齐亚帕三重冕子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "769"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 3861
+    name: 齐亚帕三重冕鸟弹子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "770"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 3862
+    name: 齐亚帕三重冕独头弹子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "771"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 3863
+    name: 齐亚帕三重冕枪口火光
+    code: QYP_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "40"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 3864
+    name: CZ75套装飞斧
+    code: axe
+    start_type: "2"
+    destination_type: "5"
+    destination_offset: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 2
+    route_hight: 100
+    speed: 2500
+    hurt_id: "772"
+    is_form_play: 1
+    scale: "0.4,0.4"
+    trigger_creation_id: "3865,3866,3869"
+    trigger_creation_delay: "-1,-1,-1"
+    sound_order: BT_SAxe_throw
+  }
+  {
+    id: 3865
+    name: CZ75套装飞斧爆炸
+    code: 编织者飞弹爆炸
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "27"
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.1,0.1"
+    sound_order: BT_SAxe_hit
+  }
+  {
+    id: 3866
+    name: CZ75套装飞斧回旋
+    code: axe
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -100
+    speed: 2000
+    is_form_play: 1
+    scale: "0.4,0.4"
+    sound_order: BT_SAxe_throw
+  }
+  {
+    id: 3867
+    name: CZ75套装落地扬尘
+    code: HitBack
+    start_type: "3"
+    start_offset: "-1"
+    destination_type: "3"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    exist_duration: "90"
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 3868
+    name: CZ75套装飞斧范围
+    start_type: "2"
+    destination_type: "5"
+    destination_offset: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    route_type: 2
+    route_hight: 100
+    speed: 2500
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "773"
+    hurt_cd: "5"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "0.4,0.4"
+  }
+  {
+    id: 3869
+    name: CZ75套装飞斧回旋范围
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: -100
+    speed: 2000
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "773"
+    hurt_cd: "5"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "0.4,0.4"
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -65419,6 +65914,7 @@
     effect_param_2: "8"
     hurt_id: "3102"
     hurt_cd: "3"
+    is_single_hurt: 1
     creation_type: 2
     scale: "1"
   }
@@ -65782,6 +66278,383 @@
     summoner_order: "1919"
   }
   {
+    id: 7222
+    name: 零态潮汐-开场炸力场
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "3106"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 7223
+    name: 鹗视虎子弹
+    code: SubBulletB
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    effect_area: 1
+    hurt_id: "1751"
+    is_form_play: 1
+    scale: "1.8,1,1"
+    sound_order: BT_uzi
+  }
+  {
+    id: 7224
+    name: 鹗视虎枪口火光
+    code: Noel/sheji
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "0,0,180"
+    exist_duration: "4"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1,1,0.5"
+    trigger_creation_id: "7225"
+    trigger_creation_delay: "1"
+  }
+  {
+    id: 7225
+    name: 鹗视虎枪口火光2
+    code: Noel/sheji
+    start_type: "1"
+    start_offset: "-0.4,0.14,0"
+    destination_type: "1"
+    destination_offset: "-0.4,0.14,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "0,0,180"
+    exist_duration: "4"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1,1,0.5"
+    trigger_creation_id: "7226"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 7226
+    name: 鹗视虎子弹
+    code: SubBulletB
+    start_type: "1"
+    start_offset: "-0.4,0.14,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 4000
+    rotate: "0,0,180"
+    effect_area: 1
+    hurt_id: "1751"
+    is_form_play: 1
+    scale: "1.8,1,1"
+    sound_order: BT_uzi
+  }
+  {
+    id: 7277
+    name: 鹗视虎预警
+    code: 爆炸范围
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "4"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2;2.4,0,0;2.4,0,4.2;2.4,0,-4.2;-2.4,0,0;-2.4,0,4.2;-2.4,0,-4.2"
+    rotate: "90,0,0"
+    exist_duration: "61"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "7278"
+    trigger_creation_delay: "60"
+  }
+  {
+    id: 7278
+    name: 鹗视虎螺旋丸
+    code: 2019summer/Y_19_summer_1_1
+    start_type: ball
+    start_offset: "0,-0.6,0"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 2000
+    exist_duration: "50"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7279"
+    trigger_creation_delay: "-1"
+    sound_order: skill_hugerobot_enemy_white_cast
+  }
+  {
+    id: 7279
+    name: 鹗视虎螺旋丸爆炸
+    code: Zhanqu19926/Y_19_summer_1_3
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "3"
+    effect_param_2: "2"
+    hurt_id: "1752"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1.2,1.2"
+    sound_order: skill_hugerobot_enemy_white_explo
+  }
+  {
+    id: 7280
+    name: 鹗视虎弱点易伤
+    code: AQLD_debuff04
+    start_type: hip
+    start_offset: "0,-0.5,-0.8"
+    destination_type: hip
+    destination_offset: "0,-0.5,-0.8"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    rotate: "20,-12,0"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2"
+    is_die_delete: 1
+  }
+  {
+    id: 7281
+    name: 鹗视虎狂暴
+    code: Zhanqu19926/Y_Boss_Gebbennu 2
+    start_type: "3"
+    start_offset: "-0.54,2.9,0"
+    destination_type: "3"
+    destination_offset: "-0.54,2.9,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "90"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "1752"
+    is_form_play: 1
+    scale: "0.5,0.5"
+  }
+  {
+    id: 7282
+    name: 威廉护卫部队-光头保镖
+    start_type: "8"
+    destination_type: "8"
+    random_number: "5"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,0;15,0,-1.4;15,0,-1.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1920"
+  }
+  {
+    id: 7283
+    name: 威廉护卫部队-黑发保镖
+    start_type: "8"
+    destination_type: "8"
+    random_number: "5"
+    random_offset: "13,0,2.8;13,0,0;13,0,-2.8;13,0,0;13,0,1.4;13,0,-1.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1921"
+  }
+  {
+    id: 7284
+    name: 威廉护卫部队-安德瓦利
+    start_type: "8"
+    destination_type: "8"
+    random_number: "6"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,0;15,0,-1.4;15,0,-1.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1922"
+  }
+  {
+    id: 7285
+    name: 威廉护卫部队-涅托怒锤
+    start_type: "8"
+    destination_type: "8"
+    random_number: "6"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,0;15,0,-1.4;15,0,-1.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1923"
+  }
+  {
+    id: 7286
+    name: 威廉护卫部队-涅托巡卫
+    start_type: "8"
+    destination_type: "8"
+    random_number: "6"
+    random_offset: "13,0,2.8;13,0,0;13,0,-2.8;13,0,0;13,0,1.4;13,0,-1.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1924"
+  }
+  {
+    id: 7287
+    name: 威廉护卫部队-涅托鹰眼
+    start_type: "8"
+    destination_type: "8"
+    random_number: "3"
+    random_offset: "15,0,2.8;15,0,0;15,0,-2.8;15,0,0;15,0,-1.4;15,0,-1.4"
+    exist_duration: "30"
+    scale: "1"
+    summoner_order: "1925"
+  }
+  {
+    id: 7288
+    name: 威廉狂暴
+    code: M16A1_baozha
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "150"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "1753"
+    hurt_cd: "10"
+    is_form_play: 1
+    scale: "8,0.1,12"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7289
+    name: 缇普攻一段
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1754"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7290
+    name: 缇普攻二段
+    start_type: "2"
+    destination_type: "5"
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1754"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7291
+    name: 缇必杀伤害
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1755"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7292
+    name: M16A1手榴弹1
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "3"
+    destination_offset: "5,0,2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "7293,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 7293
+    name: M16A1手榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "1757"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 7294
+    name: 鹗视虎范围检测
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "8"
+    effect_param_2: "99"
+    buff_id: 2688:1
+    buff_cd: "10"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 7295
+    name: 缇穿刺伤害
+    start_type: "2"
+    destination_type: "2"
+    destination_offset: "-5,0,0"
+    is_form_offset: 1
+    route_type: 6
+    speed: 10000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "1759"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+  }
+  {
     id: 7501
     name: 英雄妖精全体伤害
     start_type: "8"
@@ -65913,6 +66786,19 @@
     creation_type: 1
     scale: "1"
     sound_order: BT_grenade_explode
+  }
+  {
+    id: 7509
+    name: 疾跑妖精特殊前缀特效
+    code: Sep_JP_YY
+    start_type: "2"
+    start_offset: "-0.2,-0.5,0"
+    destination_type: "2"
+    destination_offset: "-0.2,-0.5,0"
+    is_tracing: 1
+    exist_duration: "60"
+    scale: "1"
+    is_die_delete: 1
   }
   {
     id: 8001
@@ -106627,6 +107513,396 @@
     is_form_play: 1
     creation_type: 2
     scale: "1"
+  }
+  {
+    id: 383801
+    name: Unica 6支援-1级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170201"
+  }
+  {
+    id: 383802
+    name: Unica 6支援-1级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170202"
+  }
+  {
+    id: 383803
+    name: Unica 6支援-1级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170203"
+  }
+  {
+    id: 383901
+    name: Unica 6支援-2级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170301"
+  }
+  {
+    id: 383902
+    name: Unica 6支援-2级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170302"
+  }
+  {
+    id: 383903
+    name: Unica 6支援-2级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170303"
+  }
+  {
+    id: 384001
+    name: Unica 6支援-3级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170401"
+  }
+  {
+    id: 384002
+    name: Unica 6支援-3级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170402"
+  }
+  {
+    id: 384003
+    name: Unica 6支援-3级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170403"
+  }
+  {
+    id: 384101
+    name: Unica 6支援-4级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170501"
+  }
+  {
+    id: 384102
+    name: Unica 6支援-4级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170502"
+  }
+  {
+    id: 384103
+    name: Unica 6支援-4级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170503"
+  }
+  {
+    id: 384201
+    name: Unica 6支援-5级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170601"
+  }
+  {
+    id: 384202
+    name: Unica 6支援-5级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170602"
+  }
+  {
+    id: 384203
+    name: Unica 6支援-5级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170603"
+  }
+  {
+    id: 384301
+    name: Unica 6支援-6级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170701"
+  }
+  {
+    id: 384302
+    name: Unica 6支援-6级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170702"
+  }
+  {
+    id: 384303
+    name: Unica 6支援-6级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170703"
+  }
+  {
+    id: 384401
+    name: Unica 6支援-7级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170801"
+  }
+  {
+    id: 384402
+    name: Unica 6支援-7级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170802"
+  }
+  {
+    id: 384403
+    name: Unica 6支援-7级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170803"
+  }
+  {
+    id: 384501
+    name: Unica 6支援-8级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170901"
+  }
+  {
+    id: 384502
+    name: Unica 6支援-8级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170902"
+  }
+  {
+    id: 384503
+    name: Unica 6支援-8级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "170903"
+  }
+  {
+    id: 384601
+    name: Unica 6支援-9级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "171001"
+  }
+  {
+    id: 384602
+    name: Unica 6支援-9级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "171002"
+  }
+  {
+    id: 384603
+    name: Unica 6支援-9级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "171003"
+  }
+  {
+    id: 384701
+    name: Unica 6支援-10级-第二队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "171101"
+  }
+  {
+    id: 384702
+    name: Unica 6支援-10级-第三队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "171102"
+  }
+  {
+    id: 384703
+    name: Unica 6支援-10级-第四队
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "5"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2;0,0,2.1;0,0,-2.1
+    effect_area: 1
+    scale: "1"
+    summoner_order: "171103"
   }
   {
     id: 426401
