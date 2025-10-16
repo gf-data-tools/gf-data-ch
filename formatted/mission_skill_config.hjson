@@ -34553,6 +34553,985 @@
     special_spot_add: 770099:1
   }
   {
+    id: 780000
+    name: 指挥官
+    skill_group_id: 780000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 780000:1
+  }
+  {
+    id: 780001
+    name: 指挥工作台
+    description:
+      '''
+      习得指令：必中 必闪 热血 铁壁
+      消耗20点数，赋予自身一个对应的战斗属性BUFF
+      '''
+    skill_group_id: 780001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000100"
+    target_id: "1"
+    mission_buff_add: 780001:1
+    is_manual: 780001
+  }
+  {
+    id: 780002
+    name: 歌利亚架子
+    description:
+      '''
+      习得指令：投掷歌利亚
+      消耗30点数向目标投掷歌利亚，直接消灭非首领敌人
+      '''
+    skill_group_id: 780002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000200"
+    target_id: "1"
+    mission_buff_add: 780002:1
+    is_manual: 780002
+    drop_item: 9050:10
+  }
+  {
+    id: 780003
+    name: 黑客控制台
+    description:
+      '''
+      习得指令：主动防御
+      消耗30点数赋予自身遮蔽效果，不会被敌人发现且不会受到某些烦人的设施干扰
+      '''
+    skill_group_id: 780003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000300"
+    target_id: "1"
+    mission_buff_add: 780003:1
+    is_manual: 780003
+    drop_item: 9050:10
+  }
+  {
+    id: 780004
+    name: 战斗续行的心得
+    description:
+      '''
+      习得指令：根性
+      消耗20点数恢复自身50%生命
+      '''
+    skill_group_id: 780004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000400"
+    target_id: "1"
+    mission_buff_add: 780004:1
+    is_manual: 780004
+  }
+  {
+    id: 780005
+    name: 机动战斗的心得
+    description:
+      '''
+      消耗10点数习得被动技能：加速
+      提高自身移动力，每回合前3次移动不消耗AP
+      '''
+    skill_group_id: 780005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000500"
+    target_id: "1"
+    mission_buff_add: 780005:1,770027:1
+    is_manual: 780005
+    consumption_item: 9050:10
+  }
+  {
+    id: 780006
+    name: 极致防御的心得
+    description: 习得指令：不屈//消耗25点数，n1场战斗内受到伤害降低75%，由指挥官学习时可对距离5内的友方梯队使用
+    skill_group_id: 780006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000600"
+    target_id: "1"
+    mission_buff_add: 780006:1
+    is_manual: 780006
+  }
+  {
+    id: 780007
+    name: 极致机动的心得
+    description:
+      '''
+      消耗10点数习得被动技能：觉醒
+      进一步提高自身移动力，每回合前5次移动不消耗AP，代替加速
+      '''
+    skill_group_id: 780007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000700"
+    target_id: "1"
+    mission_buff_add: 780007:1,770033:1
+    is_manual: 780007
+    consumption_item: 9050:10
+  }
+  {
+    id: 780008
+    name: 极致进攻的心得
+    description:
+      '''
+      习得指令：魂
+      消耗25点数，1场战斗内伤害提高120%，由指挥官学习时可对距离5内的友方梯队使用
+      '''
+    skill_group_id: 780008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000800"
+    target_id: "1"
+    mission_buff_add: 780008:1
+    is_manual: 780008
+  }
+  {
+    id: 780009
+    name: 极致穿透的心得
+    description:
+      '''
+      习得指令：直击
+      消耗20点数，下1场战斗开始时清空敌方的力场效果，由指挥官学习时可对距离5内的友方梯队使用
+      '''
+    skill_group_id: 780009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78000900"
+    target_id: "1"
+    mission_buff_add: 780009:1
+    is_manual: 780009
+  }
+  {
+    id: 780011
+    name: 修理
+    description: 为距离5内的友方梯队提供修理，恢复30%生命
+    skill_group_id: 780011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "78000000"
+    special_spot_add: 780011:1
+    is_manual: 780011
+    consumption_item: 9050:20
+  }
+  {
+    id: 780012
+    name: 补给
+    description: 为距离5内的友方梯队提供补给，恢复大量弹药口粮，额外为载具单位补充少量能量
+    skill_group_id: 780012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    target_id: "78000000"
+    is_manual: 780012
+    consumption_item: 9050:20
+    resources_change: "20,20,20"
+  }
+  {
+    id: 780013
+    name: 感应
+    description: 为距离5内的友方梯队提供命中增益，1回合内命中提高999
+    skill_group_id: 780013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 78001300&&78000000
+    mission_buff_add: 780013:1
+    is_manual: 780013
+    consumption_item: 9050:20
+  }
+  {
+    id: 780014
+    name: 预知
+    description: 为距离5内的友方梯队提供回避增益，1场战斗内回避提高999
+    skill_group_id: 780014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 78001400&&78000000
+    mission_buff_add: 780014:1
+    is_manual: 780014
+    consumption_item: 9050:20
+  }
+  {
+    id: 780015
+    name: 热血
+    description: 为距离5内的友方梯队提供伤害增益，1场战斗内伤害提高100%
+    skill_group_id: 780015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 78001500&&78000000
+    mission_buff_add: 780015:1
+    is_manual: 780015
+    consumption_item: 9050:20
+  }
+  {
+    id: 780016
+    name: 铁壁
+    description: 为距离5内的友方梯队提供护甲增益，1回合内护甲提高30
+    skill_group_id: 780016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    target_id: 78001600&&78000000
+    mission_buff_add: 780016:1
+    is_manual: 780016
+    consumption_item: 9050:20
+  }
+  {
+    id: 780017
+    name: 不屈
+    description: 为距离5内的友方梯队提供减伤增益，1场战斗内受到伤害降低75%
+    skill_group_id: 780017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 78000001&&1
+    target_id: 78001700&&78000000
+    mission_buff_add: 780017:1
+    is_manual: 780017
+    consumption_item: 9050:25
+  }
+  {
+    id: 780018
+    name: 魂
+    description: 为距离5内的友方梯队提供伤害增益，1场战斗内伤害提高120%
+    skill_group_id: 780018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 78000001&&1
+    target_id: 78001800&&78000000
+    mission_buff_add: 780018:1
+    is_manual: 780018
+    consumption_item: 9050:25
+  }
+  {
+    id: 780019
+    name: 直击
+    description: 为距离5内的友方梯队提供战斗支援，下1场战斗开始时清空敌方的力场效果
+    skill_group_id: 780019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8,10,301,303"
+    cd_time_type: 1
+    start_range: 5
+    trigger_id: 78000001&&1
+    target_id: 78001900&&78000000
+    mission_buff_add: 780019:1
+    is_manual: 780019
+    consumption_item: 9050:20
+  }
+  {
+    id: 780020
+    name: 根性
+    description: 恢复自身50%生命
+    skill_group_id: 780020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780020:1
+    is_manual: 780020
+    consumption_item: 9050:30
+  }
+  {
+    id: 780021
+    name: 投掷歌利亚
+    description: 向目标投掷歌利亚，直接消灭非首领敌人
+    skill_group_id: 780021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 780021:1
+    is_manual: 780021
+    consumption_item: 9050:30
+  }
+  {
+    id: 780022
+    name: 主动防御
+    description: 赋予自身遮蔽效果，1回合内不会被敌人发现且不会受到某些烦人的设施干扰
+    skill_group_id: 780022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78001200"
+    target_id: "1"
+    mission_buff_add: 780012:1,580122:1
+    is_manual: 780022
+    consumption_item: 9050:30
+  }
+  {
+    id: 780023
+    name: 必中
+    description: 为自身提供命中增益，1回合内命中提高999
+    skill_group_id: 780023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78001300"
+    target_id: "1"
+    mission_buff_add: 780013:1
+    is_manual: 780023
+    consumption_item: 9050:20
+  }
+  {
+    id: 780024
+    name: 必闪
+    description: 为自身提供回避增益，1场战斗内回避提高999
+    skill_group_id: 780024
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78001400"
+    target_id: "1"
+    mission_buff_add: 780014:1
+    is_manual: 780024
+    consumption_item: 9050:20
+  }
+  {
+    id: 780025
+    name: 热血
+    description: 为自身提供伤害增益，1场战斗内伤害提高100%
+    skill_group_id: 780025
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78001500"
+    target_id: "1"
+    mission_buff_add: 780015:1
+    is_manual: 780025
+    consumption_item: 9050:20
+  }
+  {
+    id: 780026
+    name: 铁壁
+    description: 为自身提供护甲增益，1回合内护甲提高30
+    skill_group_id: 780026
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78001600"
+    target_id: "1"
+    mission_buff_add: 780016:1
+    is_manual: 780026
+    consumption_item: 9050:20
+  }
+  {
+    id: 780027
+    name: 不屈
+    description: 为自身提供减伤增益，1场战斗内受到伤害降低75%
+    skill_group_id: 780027
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 78001700&&78000000
+    target_id: "1"
+    mission_buff_add: 780017:1
+    is_manual: 780027
+    consumption_item: 9050:25
+  }
+  {
+    id: 780028
+    name: 魂
+    description: 为自身提供伤害增益，1场战斗内伤害提高120%
+    skill_group_id: 780028
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 78001800&&78000000
+    target_id: "1"
+    mission_buff_add: 780018:1
+    is_manual: 780028
+    consumption_item: 9050:25
+  }
+  {
+    id: 780029
+    name: 直击
+    description: 为自身提供战斗支援，下1场战斗开始时清空敌方的力场效果
+    skill_group_id: 780029
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 78001900&&78000000
+    target_id: "1"
+    mission_buff_add: 780019:1
+    is_manual: 780029
+    consumption_item: 9050:20
+  }
+  {
+    id: 780031
+    name: 指挥工作台
+    description: 可习得指令：必中 必闪 热血 铁壁
+    skill_group_id: 780031
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780032
+    name: 歌利亚架子
+    description:
+      '''
+      可习得指令：投掷歌利亚，学习时获得10点指挥点数
+      向目标投掷歌利亚，直接消灭非首领敌人
+      '''
+    skill_group_id: 780032
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780033
+    name: 黑客控制台
+    description:
+      '''
+      可习得指令：主动防御，学习时获得10点指挥点数
+      赋予自身遮蔽效果，不会被敌人发现且不会受到某些烦人的设施干扰
+      '''
+    skill_group_id: 780033
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780034
+    name: 战斗续行的心得
+    description:
+      '''
+      可习得指令：根性
+      恢复自身50%生命
+      '''
+    skill_group_id: 780034
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780035
+    name: 机动战斗的心得
+    description:
+      '''
+      可消耗点数习得被动技能：加速
+      提高自身移动力，每回合前3次移动不消耗AP
+      '''
+    skill_group_id: 780035
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780036
+    name: 极致防御的心得
+    description:
+      '''
+      可习得指令：不屈
+      1场战斗内受到伤害降低75%，由指挥官学习时可对距离5内的友方梯队使用
+      '''
+    skill_group_id: 780036
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780037
+    name: 极致机动的心得
+    description:
+      '''
+      可消耗点数习得被动技能：觉醒
+      进一步提高自身移动力，每回合前5次移动不消耗AP，代替加速
+      '''
+    skill_group_id: 780037
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780038
+    name: 极致进攻的心得
+    description:
+      '''
+      可习得指令：魂
+      1场战斗内伤害提高120%，由指挥官学习时可对距离5内的友方梯队使用
+      '''
+    skill_group_id: 780038
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780039
+    name: 极致穿透的心得
+    description:
+      '''
+      可习得指令：直击
+      下1场战斗开始时清空敌方的力场效果，由指挥官学习时可对距离5内的友方梯队使用
+      '''
+    skill_group_id: 780039
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780090
+    name: 撤离点
+    skill_group_id: 780090
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780090:1
+  }
+  {
+    id: 780091
+    name: 撤离
+    description: 撤离现场
+    skill_group_id: 780091
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 78020101||78060101
+    target_id: "1"
+    special_spot_add: 780091:1
+    is_manual: 780091
+  }
+  {
+    id: 780098
+    name: 点数初始化
+    skill_group_id: 780098
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    drop_item: 9050:-3000
+  }
+  {
+    id: 780099
+    name: 怪物死亡点数
+    skill_group_id: 780099
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    drop_item: 9050:10
+    use_arbitrary: 1
+  }
+  {
+    id: 780100
+    name: 失败标记
+    skill_group_id: 780100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780100:1
+  }
+  {
+    id: 780400
+    name: 变电站
+    description: 为场内的帕拉蒂斯单位提供支援，断电后不知道会发生什么
+    skill_group_id: 780400
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780401
+    name: 关闭变电站
+    description: 拉闸！
+    skill_group_id: 780401
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100007201"
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 780401
+  }
+  {
+    id: 780501
+    name: 黑客行动
+    description: 尝试骇入网络，会发生什么呢？
+    skill_group_id: 780501
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&78000301&&78050101
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 780501
+  }
+  {
+    id: 780502
+    name: 缇
+    skill_group_id: 780502
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780502:1
+  }
+  {
+    id: 780600
+    name: 控制台
+    description: 一个能够连通二级平层的电子战接口，某“人”已经蠢蠢欲动了
+    skill_group_id: 780600
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+  }
+  {
+    id: 780601
+    name: 潜入二级平层
+    description: 兵蚁的素体打不过你们，我还不能去二级平层下黑手吗
+    skill_group_id: 780601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&78060801
+    target_id: "1"
+    subsidiary_mission_skill: "1000073"
+    is_manual: 780601
+  }
+  {
+    id: 780602
+    name: 击杀计数
+    skill_group_id: 780602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    drop_item: 9051:1
+  }
+  {
+    id: 780603
+    name: 雷达显现
+    skill_group_id: 780603
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "78060201"
+    target_id: "1"
+  }
+  {
+    id: 780604
+    name: 潜入二级平层
+    skill_group_id: 780604
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 780020:1
+  }
+  {
+    id: 780612
+    name: 1号狗子死亡
+    skill_group_id: 780612
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "780602"
+  }
+  {
+    id: 780613
+    name: 2号狗子死亡
+    skill_group_id: 780613
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "780602"
+  }
+  {
+    id: 780614
+    name: 3号狗子死亡
+    skill_group_id: 780614
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "780602"
+  }
+  {
+    id: 780615
+    name: 4号狗子死亡
+    skill_group_id: 780615
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "780602"
+  }
+  {
+    id: 780616
+    name: 5号狗子死亡
+    skill_group_id: 780616
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "780602"
+  }
+  {
+    id: 780617
+    name: 6号狗子死亡
+    skill_group_id: 780617
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "780602"
+  }
+  {
+    id: 780701
+    name: 击杀计数
+    skill_group_id: 780701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780701:1
+  }
+  {
+    id: 780900
+    name: 威廉跑路
+    skill_group_id: 780900
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    allyteam_summoner: "780900"
+  }
+  {
+    id: 780901
+    name: 指挥官登场
+    skill_group_id: 780901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_minus: 780905:1
+    mission_buff_minus: 580120:1,580121:1,580123:1
+    allyteam_summoner: "780901"
+  }
+  {
+    id: 780902
+    name: 光柱1初始化
+    skill_group_id: 780902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780902:1
+  }
+  {
+    id: 780903
+    name: 光柱2初始化
+    skill_group_id: 780903
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780903:1
+  }
+  {
+    id: 780904
+    name: 光柱3初始化
+    skill_group_id: 780904
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780904:1
+  }
+  {
+    id: 780905
+    name: 门神初始化
+    skill_group_id: 780905
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 780905:1
+  }
+  {
+    id: 783700
+    name: 归宿
+    skill_group_id: 783700
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 783700:1
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"

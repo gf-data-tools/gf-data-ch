@@ -509,6 +509,7 @@ patch3070=
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
 "3070/SangvisChipDevelopUIController",
+"3070/Probability",
 }
 patch3071=
 {
@@ -536,6 +537,10 @@ patch3071=
 "3070/RankingListUIController",
 "3070/OPSEventPrizeUIController",
 "3070/SangvisChipDevelopUIController",
+"3071/SunBornUserCenter",
+"3080/FactoryTopController",
+"3071/ServerInfo",
+"3071/MallController",
 }
 patch3080=
 {
@@ -551,6 +556,19 @@ patch3080=
 "3070/OPSEventPrizeUIController",
 "3070/SangvisChipDevelopUIController",
 "3080/FormationController",
+"3080/FactoryTopController",
+"3080/DeploymentCrossController",
+"3080/AVGCreditsController",
+}
+patch3081=
+{
+"3081/AVGController",
+"3081/CommonBundleConfirmBoxController",
+"3081/DeploymentController",
+"3081/DeploymentUIController",
+"3081/Probability",
+"3071/ServerInfo",
+"3071/MallController",
 }
 -- va11
 print("load Va11");

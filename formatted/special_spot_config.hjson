@@ -18569,6 +18569,387 @@
     is_still_alive: 1
   }
   {
+    id: 780005
+    name: 加速
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "770027,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780007
+    name: 觉醒
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780007
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "770033,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780011
+    name: 修理
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780011
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,780011,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780020
+    name: 根性
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780020
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,780020,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780021
+    name: 歌利亚
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780021
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,780021,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_birth: 1000017
+    is_still_alive: 1
+  }
+  {
+    id: 780090
+    name: 撤离点
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 780092
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780090
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780091
+    name: 手动撤离
+    code: TargetPoint_Radar
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780091
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780092
+    name: 自动撤离
+    code: TargetPoint_Radar
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780092
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,780093"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780093
+    name: 威廉
+    code: BossWilliam
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780093
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780100
+    name: 失败
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780100
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780502
+    name: "[avg]-77-A-50"
+    priority: 1
+    duration_type: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780502
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780602
+    name: 计数
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780602
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780701
+    name: 计数
+    priority: -1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780701
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780902
+    name: 光柱1
+    priority: 1
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780902
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,780912"
+    death_effect_target_type: "-1"
+    effect_duration: 780902
+    is_still_alive: 1
+  }
+  {
+    id: 780903
+    name: 光柱2
+    priority: 1
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780903
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,780913"
+    death_effect_target_type: "-1"
+    effect_duration: 780903
+    is_still_alive: 1
+  }
+  {
+    id: 780904
+    name: 光柱3
+    priority: 1
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780904
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,780914"
+    death_effect_target_type: "-1"
+    effect_duration: 780904
+    is_still_alive: 1
+  }
+  {
+    id: 780905
+    name: 传送
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780905
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780912
+    name: "[avg]-78-8-1"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780912
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780913
+    name: "[avg]-78-8-2"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780913
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 780914
+    name: "[avg]-78-8-3"
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 780914
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 783700
+    name: 归宿
+    code: M4A1_Boss
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 783700
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
     id: 900001
     name: 机场出兵
     description: 机场增援中,增援的单位更强

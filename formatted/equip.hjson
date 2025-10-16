@@ -7975,8 +7975,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:700,hit:1000
+    passive_skill: "1009701"
     max_level: 10
     auto_select_id: 18078
+    group_id: "66"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -10823,7 +10825,7 @@
     code: 弹匣_特殊_托卡列夫
     develop_duration: 3600
     company: IOP
-    fit_guns: "6"
+    fit_guns: "6,20006"
     equip_introduction: 在旧世界战场中使用的一种子弹，是托卡列夫非常喜欢使用的规格。
     powerup_mp: 0.48
     powerup_ammo: 0.48
@@ -11103,9 +11105,10 @@
     powerup_part: 0.16
     exclusive_rate: 3
     bonus_type: critical_harm_rate:1000,hit:1000
-    passive_skill: "759232"
+    passive_skill: "759232,1009601"
     max_level: 10
     auto_select_id: 20064
+    group_id: "65"
     is_show: 1
     obtain_ids: "3088,3096"
     description_skill: 759232
@@ -13893,7 +13896,7 @@
     max_level: 10
     auto_select_id: 19088
     is_show: 1
-    obtain_ids: "3119"
+    obtain_ids: "3119,3096"
   }
   {
     id: 437
@@ -13960,7 +13963,7 @@
     max_level: 10
     auto_select_id: 18095
     is_show: 1
-    obtain_ids: "3125"
+    obtain_ids: "3125,3096"
     description_skill: 1004701
   }
   {
@@ -14849,7 +14852,7 @@
     bonus_type: dodge:450,pow:1000
     passive_skill: "1008101"
     max_level: 10
-    auto_select_id: 20034
+    auto_select_id: 20106
     is_show: 1
     obtain_ids: "3129"
     description_skill: 1008101
@@ -14884,7 +14887,7 @@
     bonus_type: armor:400
     passive_skill: "1008202"
     max_level: 10
-    auto_select_id: 20035
+    auto_select_id: 20107
     group_id: "61"
     is_show: 1
     obtain_ids: "3096"
@@ -14976,7 +14979,7 @@
     retire_part: 2
     code: Accessories_SP_AUGPARA
     develop_duration: 3600
-    company: SF
+    company: IOP
     fit_guns: "315"
     equip_introduction: 据说可以吸引松鼠的装饰品，而且人类应该都会喜欢有个这样的挂饰吧。
     powerup_mp: 0.45
@@ -15059,6 +15062,177 @@
     max_level: 10
     auto_select_id: 18128
     group_id: "64"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 471
+    name: M91式望远瞄准镜
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      射速+<rate>$卡尔卡诺M91/38专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    rate: "1,2"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_Carcano1938
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "198"
+    equip_introduction: 全新升级后的一款瞄准镜，可以帮助使用者看清和识别远处的目标，非常适用于远距离精确狙击任务。
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: rate:1000,critical_percent:1000
+    passive_skill: "1009401"
+    max_level: 10
+    auto_select_id: 18129
+    is_show: 1
+    obtain_ids: "522"
+    description_skill: 1009401
+  }
+  {
+    id: 472
+    name: 防爆护臂
+    description:
+      '''
+      伤害<pow> 回避+<dodge>
+       护甲+<armor>$托卡列夫专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-10,-10"
+    dodge: "6,10"
+    armor: "3,5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_TT33
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "6,20006"
+    equip_introduction: 全新升级后的托卡列夫特别申请订制的护臂，佩戴上后仿佛全身都充满了力量。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000,armor:1000
+    max_level: 10
+    auto_select_id: 20108
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 473
+    name: PMII瞄准镜
+    description:
+      '''
+      射速+<rate>
+      暴击概率+<critical_percent><%>技能增强$G28专用
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    rate: "3,5"
+    critical_percent: "20,25"
+    retire_mp: 3
+    retire_ammo: 2
+    retire_mre: 4
+    retire_part: 1
+    code: Accessories_SP_G28
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "146"
+    equip_introduction: G28专用的一款瞄准镜，配备了单独的侧向视差调节旋钮，可以大幅提升视差，光学性能也是极其优秀。
+    powerup_mp: 0.4
+    powerup_ammo: 0.2
+    powerup_mre: 0.6
+    powerup_part: 0.18
+    exclusive_rate: 3
+    bonus_type: rate:1000,critical_percent:800
+    passive_skill: "1009501"
+    max_level: 10
+    auto_select_id: 18130
+    is_show: 1
+    obtain_ids: "3131"
+    description_skill: 1009501
+  }
+  {
+    id: 474
+    name: PAB亚音速弹
+    description:
+      '''
+      伤害+<pow>
+      穿甲+<armor_piercing>$VSK-94专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "115,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_VSK94
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "312"
+    equip_introduction: 对钢芯做了全新的设计，硬度和准确性也都有了大幅的提高。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:1000
+    passive_skill: "1009602"
+    max_level: 10
+    auto_select_id: 19094
+    group_id: "65"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 475
+    name: 骑士腿甲
+    description:
+      '''
+      伤害+<pow> 命中+<hit>
+      回避+<dodge>$利贝罗勒改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,15"
+    hit: "3,5"
+    dodge: "8,10"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_RibeyrollesMod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20171"
+    equip_introduction: 为了能够站上战场，利贝罗勒亲自设计的外骨骼腿甲，装备后似乎可以重拾失去的自信。
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:700,hit:1000,dodge:1000
+    passive_skill: "1009702"
+    max_level: 10
+    auto_select_id: 20109
+    group_id: "66"
     is_show: 1
     obtain_ids: "3096"
   }

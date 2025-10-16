@@ -21,42 +21,30 @@
   }
   {
     id: 3
-    type: 1
+    type: 2
     mission_campaign: "-10,-11,-12"
     event_name: 深层映射
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10030"
   }
   {
     id: 4
-    type: 1
+    type: 2
     mission_campaign: "-16,-17,-18"
     event_name: 塌缩点
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10092"
   }
   {
     id: 5
-    type: 1
+    type: 2
     mission_campaign: "-24,-25,-26,-28"
     event_name: 有序紊流
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10156"
   }
   {
     id: 6
-    type: 1
+    type: 2
     mission_campaign: "-31"
     event_name: 异构体
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10194"
   }
   {
@@ -68,12 +56,9 @@
   }
   {
     id: 8
-    type: 1
+    type: 2
     mission_campaign: "-36"
     event_name: 偏振光
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10426"
   }
   {
@@ -142,12 +127,9 @@
   }
   {
     id: 22
-    type: 1
+    type: 2
     mission_campaign: "-53"
-    event_name: 异构体
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
+    event_name: 混沌落幕
     init_mission_id: "11116"
   }
   {
@@ -187,12 +169,9 @@
   }
   {
     id: 28
-    type: 1
+    type: 2
     mission_campaign: "-34"
     event_name: 诡疫狂潮
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10381"
   }
   {
@@ -256,12 +235,9 @@
   }
   {
     id: 37
-    type: 1
+    type: 2
     mission_campaign: "-60"
     event_name: 谜境守卫+
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "11435"
   }
   {
@@ -327,12 +303,9 @@
   }
   {
     id: 46
-    type: 1
+    type: 2
     mission_campaign: "-39"
     event_name: 马蜂窝+
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10508"
   }
   {
@@ -354,12 +327,9 @@
   }
   {
     id: 50
-    type: 1
+    type: 2
     mission_campaign: "-45"
     event_name: 飓风营救+
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10766"
   }
   {
@@ -479,5 +449,17 @@
     start_time: 2025-09-23 10:00:00
     end_time: 2025-10-16 10:00:00
     init_mission_id: "11946"
+    token_item_id: "100282"
+  }
+  {
+    id: 65
+    type: 1
+    mission_campaign: "-78"
+    event_name: 零态潮汐
+    draw_event_id: "400,401,402,403,404"
+    start_time: 2025-10-16 10:00:00
+    end_time: 2025-11-06 10:00:00
+    init_mission_id: "11947"
+    token_item_id: "100291"
   }
 ]

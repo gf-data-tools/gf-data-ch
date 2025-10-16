@@ -19116,6 +19116,59 @@
     stop_time_duration: "40"
   }
   {
+    id: 6113
+    name: 缇昼间普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "6215,6216"
+    creation_delay: "4,8"
+  }
+  {
+    id: 6114
+    name: 缇夜间普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "6217,6218"
+    creation_delay: "4,8"
+  }
+  {
+    id: 6115
+    name: 缇大招
+    action_order: s4,s5
+    action_delay: "0,25"
+    action_playspeed: "100,100"
+    creation_order: "6219,6220,6221,6222,6223"
+    creation_delay: "90,90,85,0,21"
+    effect_order: 3(Teal;双影蝶;Double Shadow Butterfly;Teal)
+    effect_delay: "1"
+    effect_duration: "1"
+    move_order: "1079"
+    move_delay: "60"
+  }
+  {
+    id: 6116
+    name: 缇大招解析
+    action_order: s4,s5
+    action_delay: "0,25"
+    action_playspeed: "100,100"
+    creation_order: "6224,6220,6221,6222,6223"
+    creation_delay: "90,90,85,0,21"
+    effect_order: 3(Teal_1;双影蝶;Double Shadow Butterfly;Teal)
+    effect_delay: "1"
+    effect_duration: "1"
+    move_order: "1079"
+    move_delay: "60"
+  }
+  {
+    id: 6117
+    name: 缇六段爪击
+    action_order: s,s2
+    action_delay: "0,45"
+    action_playspeed: "100,100"
+    creation_order: "6225,6225,6225,6226,6225,6225,6225"
+    creation_delay: "56,72,88,0,60,75,89"
+  }
+  {
     id: 7001
     name: 单管单挺通用口径机枪【真普攻】
     creation_order: "6101,6124,6130,139,139,9,9,9,9,6130,6130,6130,6130"
@@ -19404,6 +19457,21 @@
     name: 海盗妖精战船
     creation_order: "7507"
     creation_delay: "30"
+  }
+  {
+    id: 7525
+    name: 黑洞妖精生成黑洞
+    creation_order: "7510"
+  }
+  {
+    id: 7526
+    name: 黑洞妖精吸引
+    creation_order: "7511"
+  }
+  {
+    id: 7527
+    name: 黑洞妖精吸引
+    move_order: "1080"
   }
   {
     id: 8001
@@ -22965,62 +23033,62 @@
   {
     id: 8554
     name: 塔妹支援开局1
-    creation_order: "9036,9067"
-    creation_delay: "1,0"
+    creation_order: "9036,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8555
     name: 塔妹支援开局2
-    creation_order: "9037,9067"
-    creation_delay: "1,0"
+    creation_order: "9037,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8556
     name: 塔妹支援开局3
-    creation_order: "9038,9067"
-    creation_delay: "1,0"
+    creation_order: "9038,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8557
     name: 塔妹支援开局4
-    creation_order: "9039,9067"
-    creation_delay: "1,0"
+    creation_order: "9039,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8558
     name: 塔妹支援开局5
-    creation_order: "9040,9067"
-    creation_delay: "1,0"
+    creation_order: "9040,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8559
     name: 塔妹支援开局6
-    creation_order: "9041,9067"
-    creation_delay: "1,0"
+    creation_order: "9041,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8560
     name: 塔妹支援开局7
-    creation_order: "9042,9067"
-    creation_delay: "1,0"
+    creation_order: "9042,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8561
     name: 塔妹支援开局8
-    creation_order: "9067,9067"
-    creation_delay: "1,0"
+    creation_order: "9067,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8562
     name: 塔妹支援开局9
-    creation_order: "9044,9067"
-    creation_delay: "1,0"
+    creation_order: "9044,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8563
     name: 塔妹支援开局10
-    creation_order: "9045,9067"
-    creation_delay: "1,0"
+    creation_order: "9045,9067,5790"
+    creation_delay: "1,0,0"
   }
   {
     id: 8564
@@ -26277,6 +26345,14 @@
     sound_delay: "39"
   }
   {
+    id: 9302
+    name: G28普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "3870,21,139"
+    creation_delay: "0,0,0"
+  }
+  {
     id: 9995
     name: 战区boss特效
     creation_order: "386,10000,238"
@@ -27214,6 +27290,160 @@
     sound_delay: "40,49"
     move_order: "820,235,236"
     move_delay: "69,76,77"
+  }
+  {
+    id: 12122
+    name: 露尼西亚普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "7298"
+  }
+  {
+    id: 12123
+    name: 露尼西亚溯光蝴蝶
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "7300,7301,7302"
+    creation_delay: "50,50,50"
+  }
+  {
+    id: 12124
+    name: 露尼西亚光棘投掷
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "7303"
+    creation_delay: "60"
+  }
+  {
+    id: 12125
+    name: 露尼西亚宿命终章
+    action_order: s
+    action_playspeed: "70"
+    creation_order: "7319,7320,7321,7304"
+    creation_delay: "60,60,60,120"
+    effect_order: 3(BossLunasia;宿命终章;Destiny Epilogue;Lunasia)
+    effect_delay: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 12126
+    name: 露尼西亚问道过去
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7306"
+    creation_delay: "80"
+  }
+  {
+    id: 12127
+    name: 露尼西亚问道现在
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7307"
+    creation_delay: "80"
+  }
+  {
+    id: 12128
+    name: 露尼西亚问道未来
+    action_order: s
+    action_playspeed: "100"
+    creation_order: "7308"
+    creation_delay: "80"
+  }
+  {
+    id: 12129
+    name: 露尼西亚-First
+    action_order: s,sp
+    action_delay: "0,30"
+    action_playspeed: "100,100"
+    creation_order: "7309,7310,7311"
+    creation_delay: "0,40,35"
+    avg_order: -Lunasia-Past
+    avg_delay: "25"
+    bgm_order: BGM_ev2412_ED
+  }
+  {
+    id: 12130
+    name: 露尼西亚-Second
+    action_order: s,sp
+    action_delay: "0,30"
+    action_playspeed: "100,100"
+    creation_order: "7312,7313,7311"
+    creation_delay: "0,40,35"
+    avg_order: -Lunasia-Now
+    avg_delay: "25"
+  }
+  {
+    id: 12131
+    name: 露尼西亚-Third
+    action_order: s,sp
+    action_delay: "0,30"
+    action_playspeed: "100,100"
+    creation_order: "7318,7315,7311"
+    creation_delay: "0,40,35"
+    avg_order: -Lunasia-Future
+    avg_delay: "25"
+  }
+  {
+    id: 12132
+    name: 露尼西亚宿命交织
+    action_order: s,sp,die
+    action_delay: "0,60,120"
+    action_playspeed: "70,50,30"
+    creation_order: "7319,7320,7321"
+    creation_delay: "60,60,60"
+    effect_order: 3(Lunasia;宿命交织;Destiny Interweave;Lunasia)
+    effect_delay: "61"
+    effect_duration: "1"
+    stop_time_duration: "240"
+    avg_order: -Lunasia-LastGain
+    avg_delay: "60"
+  }
+  {
+    id: 12133
+    name: 露尼西亚终末打击-404
+    action_order: s
+    action_playspeed: "70"
+    creation_order: "7319,7320,7321,7304,7322,7323,7324,7325,7326,7327,7328,7329,7330"
+    creation_delay: "60,60,60,120,31,41,51,61,135,135,135,135,135"
+    stop_time_duration: "180"
+    avg_order: -Lunasia-LastBattle
+    avg_delay: "30"
+  }
+  {
+    id: 12134
+    name: 露尼西亚-忤逆
+    creation_order: "7333,7334,7335,7336,7337"
+    creation_delay: "70,80,90,100,160"
+    stop_time_delay: "50"
+    stop_time_duration: "180"
+    avg_order: -Lunasia-LastBegin
+    avg_delay: "55"
+  }
+  {
+    id: 12135
+    name: 露尼西亚-AR
+    creation_order: "7338,7339,7340,7341,7342"
+    creation_delay: "70,80,90,100,160"
+    stop_time_delay: "50"
+    stop_time_duration: "225"
+    avg_order: -Lunasia-Last
+    avg_delay: "55"
+  }
+  {
+    id: 12136
+    name: 露尼西亚-格里芬
+    creation_order: "7343,7344,7345,7346,7347"
+    creation_delay: "70,80,90,100,160"
+    stop_time_delay: "50"
+    stop_time_duration: "225"
+    avg_order: -Lunasia-LastAce
+    avg_delay: "55"
+  }
+  {
+    id: 12137
+    name: 露尼西亚普攻-时停
+    action_order: wait
+    action_playspeed: "100"
   }
   {
     id: 13001
@@ -29746,6 +29976,56 @@
     id: 541860
     name: 刘皮肤10204增援lv10
     creation_order: "570160"
+  }
+  {
+    id: 541861
+    name: 刘皮肤11603增援lv1
+    creation_order: "570161"
+  }
+  {
+    id: 541862
+    name: 刘皮肤11603增援lv2
+    creation_order: "570162"
+  }
+  {
+    id: 541863
+    name: 刘皮肤11603增援lv3
+    creation_order: "570163"
+  }
+  {
+    id: 541864
+    name: 刘皮肤11603增援lv4
+    creation_order: "570164"
+  }
+  {
+    id: 541865
+    name: 刘皮肤11603增援lv5
+    creation_order: "570165"
+  }
+  {
+    id: 541866
+    name: 刘皮肤11603增援lv6
+    creation_order: "570166"
+  }
+  {
+    id: 541867
+    name: 刘皮肤11603增援lv7
+    creation_order: "570167"
+  }
+  {
+    id: 541868
+    name: 刘皮肤11603增援lv8
+    creation_order: "570168"
+  }
+  {
+    id: 541869
+    name: 刘皮肤11603增援lv9
+    creation_order: "570169"
+  }
+  {
+    id: 541870
+    name: 刘皮肤11603增援lv10
+    creation_order: "570170"
   }
   {
     id: 542701

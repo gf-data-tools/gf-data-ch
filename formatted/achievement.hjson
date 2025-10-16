@@ -18126,4 +18126,110 @@
     icon_code: 无形之手
     condition: 11924:1192402
   }
+  {
+    identity: 1268
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 与光同行
+    content: 零态潮汐-“回归忧国之路”:在不关闭变电站的情况下完成关卡。
+    type_sort: 100
+    sort: 339
+    icon_code: 与光同行
+    condition: 11950:1195002
+  }
+  {
+    identity: 1269
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 清道夫
+    content: 零态潮汐-“迈向未来的代价”：完成关卡时击杀至少12个敌人。
+    type_sort: 100
+    sort: 340
+    icon_code: 清道夫
+    condition: 11953:1195302,11958:1195302,11963:1195302
+  }
+  {
+    identity: 1270
+    type: c_no_skip_activity
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 感恩有你
+    content: 完整浏览零态潮汐制作人员名单。
+    type_sort: 100
+    sort: 341
+    icon_code: 感恩有你
+    condition: "11985"
+  }
+  {
+    identity: 1271
+    type: speical_mission_final
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: 更新世界的锋芒
+    content: 通关少女前线所有主线战役和主线活动。
+    type_sort: 100
+    sort: 342
+    icon_code: 更新世界锋芒
+  }
+  {
+    identity: 1272
+    type: c_mission
+    count: 1
+    title: 沉默的告别
+    content: 通关常驻活动溯源回归。
+    type_sort: 100
+    sort: 334
+    condition: "11916"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.7
+  }
+  {
+    identity: 1273
+    type: c_mission
+    count: 1
+    title: 通往新世界
+    content: 通关常驻活动虚粒子对。
+    type_sort: 100
+    sort: 334
+    condition: "11945"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.8
+  }
+  {
+    identity: 1274
+    type: c_mission
+    count: 1
+    title: 无需为何
+    content: 通关常驻活动零态潮汐。
+    type_sort: 100
+    sort: 334
+    condition: "11985"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.9
+  }
 ]

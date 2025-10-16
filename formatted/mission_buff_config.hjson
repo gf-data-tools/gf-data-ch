@@ -6123,6 +6123,235 @@
     is_still_alive: 1
   }
   {
+    id: 780000
+    name: 指挥官
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780000
+    priority: 1
+    carry_mission_skill: "780011,780012,780013,780014,780015,780016"
+    sangvis_chip_id: "4001"
+  }
+  {
+    id: 780001
+    name: 基础战斗技能组
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780001
+    priority: 1
+    carry_mission_skill: "780023,780024,780025,780026"
+  }
+  {
+    id: 780002
+    name: 歌利亚架子
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780002
+    priority: 1
+    carry_mission_skill: "780021"
+  }
+  {
+    id: 780003
+    name: 黑客控制台
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780003
+    priority: 1
+    carry_mission_skill: "780022"
+  }
+  {
+    id: 780004
+    name: 战斗续行的心得
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780004
+    priority: 1
+    carry_mission_skill: "780020"
+  }
+  {
+    id: 780005
+    name: 机动战斗的心得
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 780005
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 780005
+    priority: 1
+  }
+  {
+    id: 780006
+    name: 极致防御的心得
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780006
+    priority: 1
+    carry_mission_skill: "780017,780027"
+  }
+  {
+    id: 780007
+    name: 极致机动的心得
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    special_spot_config_id: 780007
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 780007
+    priority: 1
+  }
+  {
+    id: 780008
+    name: 极致进攻的心得
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780008
+    priority: 1
+    carry_mission_skill: "780018,780028"
+  }
+  {
+    id: 780009
+    name: 极致穿透的心得
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780009
+    priority: 1
+    carry_mission_skill: "780019,780029"
+  }
+  {
+    id: 780012
+    name: 电磁屏蔽
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 780012
+    priority: 1
+  }
+  {
+    id: 780013
+    name: 必中
+    description: 1回合内命中提高999
+    code: Chasing_AIm
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450309
+    conflict_type: 780013
+    priority: 1
+  }
+  {
+    id: 780014
+    name: 必闪
+    description: 下1场战斗闪避提高999
+    code: apc556
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450310
+    conflict_type: 780014
+    priority: 1
+  }
+  {
+    id: 780015
+    name: 热血
+    description: 下1场战斗伤害提高100%
+    code: m190
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450311
+    conflict_type: 780015
+    priority: 1
+  }
+  {
+    id: 780016
+    name: 铁壁
+    description: 1回合内护甲提高30
+    code: armorBuffSelf
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450312
+    conflict_type: 780016
+    priority: 1
+  }
+  {
+    id: 780017
+    name: 不屈
+    description: 下1场战斗受到伤害降低75%
+    code: Invincible
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450313
+    conflict_type: 780017
+    priority: 1
+  }
+  {
+    id: 780018
+    name: 魂
+    description: 下1场战斗伤害提高120%
+    code: BossArchitect1
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450314
+    conflict_type: 780018
+    priority: 1
+  }
+  {
+    id: 780019
+    name: 直击
+    description: 下1场战斗开始时清空敌人的力场
+    code: assess202309_14
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 450315
+    conflict_type: 780019
+    priority: 1
+  }
+  {
+    id: 780020
+    name: 二级平层的丹德莱
+    description: 强 无敌
+    code: 561mod
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 780020
+    priority: 1
+    is_still_alive: 1
+  }
+  {
     id: 910630
     name: 护盾
     description: 护盾增幅中
