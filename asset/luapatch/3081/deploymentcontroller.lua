@@ -28,6 +28,12 @@ local BuildCastSkillOnDeathHandler = function(self,data)
 	self:InsertSomePlayPerformances(function()
 		self:AddAllCanPlayPerformanceLayer();
 	end);
+	if self:HasTeamCanTrans() then
+		CS.DeploymentController.hasTeamTraning = true;
+		self:InsertSomePlayPerformances(function()
+				self:CheckTeamTrans();
+			end,true);
+	end
 	self:AddAndPlayPerformance(function()
 		self:CheckBattle();
 	end);
