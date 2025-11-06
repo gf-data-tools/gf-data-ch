@@ -4940,6 +4940,25 @@
     fix_damage: "1000010014"
   }
   {
+    id: 776
+    description: IWS2000攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000010017"
+  }
+  {
+    id: 777
+    description: KSG反击
+    extra_damage: "50"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201

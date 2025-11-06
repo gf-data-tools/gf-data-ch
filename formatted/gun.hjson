@@ -9794,7 +9794,7 @@
     effect_grid_effect: "4,20"
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 106
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "1,2"
@@ -10369,7 +10369,7 @@
     effect_grid_effect: "8,20"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,21
+    type_equip3: 3;14,21,20
     ai: 112
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "1,2"
@@ -13591,7 +13591,7 @@
     effect_guntype: "1"
     effect_grid_pos: "12,14"
     effect_grid_effect: "6,18"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
     type_equip3: 3;15
     ai: 148
@@ -14153,7 +14153,7 @@
     effect_guntype: "5"
     effect_grid_pos: "3,5"
     effect_grid_effect: "3,55"
-    type_equip1: 3;11
+    type_equip1: 3;11,20
     type_equip2: 2;7
     type_equip3: 1;1,2,3,4,22
     ai: 155
@@ -14311,14 +14311,14 @@
     ratio_range: 100
     skill1: 105404
     normal_attack: 300106
-    passive_skill: "300202,300203,756181"
+    passive_skill: "300202,300203,756181,1010402"
     effect_grid_center: 8
     effect_guntype: "5"
     effect_grid_pos: "2,4"
     effect_grid_effect: "1,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4,22
+    type_equip3: 1;1,2,3,4,22,18
     ai: 157
     launch_time: 2017-01-13 00:00:00
     obtain_ids: "2"
@@ -22774,7 +22774,7 @@
     effect_grid_effect: "2,12;8,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,21
+    type_equip3: 3;14,21,20
     ai: 199
     launch_time: 2019-04-29 00:00:00
     obtain_ids: "1,2"
@@ -25050,7 +25050,7 @@
     effect_guntype: "2"
     effect_grid_pos: "18,19"
     effect_grid_effect: "3,50;4,12"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 48
@@ -30472,7 +30472,6 @@
     type_equip3: 3;10
     ai: 212
     launch_time: 2023-04-24 00:00:00
-    obtain_ids: "258"
     rank_display: 4
     gun_detail_bg: nation_German
     org_id: 10703
@@ -30535,7 +30534,6 @@
     type_equip3: 1;1,2,3,4,13
     ai: 150
     launch_time: 2023-04-24 00:00:00
-    obtain_ids: "259"
     rank_display: 5
     org_id: 10702
     related_story_id: 100384
@@ -30592,7 +30590,7 @@
     type_equip3: 3;9,10
     ai: 48
     launch_time: 2023-04-24 00:00:00
-    obtain_ids: "257"
+    obtain_ids: "431"
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10402
@@ -30657,7 +30655,7 @@
     type_equip3: 3;9,10,14,21
     ai: 238
     launch_time: 2023-04-24 00:00:00
-    obtain_ids: "257"
+    obtain_ids: "431"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10202
@@ -30721,7 +30719,6 @@
     type_equip3: 1;1,2,3,4,22
     ai: 229
     launch_time: 2023-04-24 00:00:00
-    obtain_ids: "258"
     rank_display: 5
     gun_detail_bg: nation_Belgium
     org_id: 10802

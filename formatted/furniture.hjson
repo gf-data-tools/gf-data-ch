@@ -28271,6 +28271,231 @@
     interact_point_offset: *-0.613,2.874,-0.285
   }
   {
+    id: 11401
+    name: 寄望春樱-落语缤纷
+    classes: 114
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 迈出步伐的下一刻，一阵微风迎面拂过。如雾般悉数纷飞的落樱，掩盖了灰黄草地的足迹。
+    code: NewYear2025_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11402
+    name: 寄望春樱-澄空日和
+    classes: 114
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 碧波如洗的天色，一如你瞳眸中倒映而出的、一成不变的澄澈。
+    code: NewYear2025_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11403
+    name: 寄望春樱-一树繁樱
+    classes: 114
+    type: 201
+    position: "0,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 听闻樱花飘落的速度，恰似心跳的间隙。如果用数字来衡量的话……大约是秒速五厘米。
+    code: NewYear2025_deco_01_A,NewYear2025_deco_01_B,NewYear2025_deco_01_C,NewYear2025_deco_01_D,NewYear2025_deco_A
+    texture_type: "1,1,1,1,2"
+    sorting: "10,10,10,10,0"
+    offset: "0,-0.146,-0.031|0,4.338,1.001|4.608,4.338,1.001|4.608,-0.146,-0.031|0,2.398,0.553"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 11404
+    name: 寄望春樱-和果铺子
+    classes: 114
+    type: 201
+    position: "24,7"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 要来一串三色团子吗？粉色代表春樱，白色代表冬雪，绿色……代表接下来想要与你共度的夏天。
+    code: NewYear2025_deco_02
+    texture_type: "1"
+    sorting: "20"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "17"
+    interact_point_offset: *-0.350,0.285,-0.285
+  }
+  {
+    id: 11405
+    name: 寄望春樱-第九年的追忆
+    classes: 114
+    type: 201
+    position: "7,13"
+    space: "4,1,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: “九年的春去秋来，还真是漫长”……你看着被细心装点的照片墙，陷入了如梦似幻的回忆。
+    code: NewYear2025_deco_03
+    texture_type: "1"
+    offset: "0,-0.104,0"
+    rotate: "2"
+  }
+  {
+    id: 11406
+    name: 寄望春樱-雨染碧塘
+    classes: 114
+    type: 201
+    position: "27,11"
+    space: "6,3,0,0,0,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: 纷飞的花瓣缓缓飘落池水，泛起阵阵涟漪。一片一片，一圈一圈。
+    code: NewYear2025_deco_04
+    texture_type: "1"
+    sorting: "10"
+    offset: "0,-0.104,0"
+    rotate: "2"
+  }
+  {
+    id: 11407
+    name: 寄望春樱-一树纷樱
+    classes: 114
+    type: 201
+    position: "32,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 听闻樱花飘落的速度，恰似心跳的间隙。如果用数字来衡量的话……大约是秒速五厘米。
+    code: NewYear2025_deco_05_A,NewYear2025_deco_05_B,NewYear2025_deco_05_C,NewYear2025_deco_05_D,NewYear2025_deco_A
+    texture_type: "1,1,1,1,2"
+    sorting: "10,10,10,10,0"
+    offset: "-0.886,-0.156,-0.031|-0.886,4.327,1.001|3.721,4.327,1.001|3.721,-0.156,-0.031|-0.886,2.387,0.553"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 11408
+    name: 寄望春樱-共赏春时
+    classes: 114
+    type: 201
+    position: "12,5"
+    space: "8,7,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 仅携一方薄毯、一壶热茶、三五知己，即可共赏春时——此情此景，又难得能有几回呢？
+    code: NewYear2025_deco_06_A,NewYear2025_deco_06_B,NewYear2025_deco_06_C
+    texture_type: "1,1,1"
+    sorting: "0,10,10"
+    offset: "-0.146,-0.156,0|-1.157,0.083,0|0.980,0.083,0"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *2.508,0.996,-0.285|*-3.063,0.996,-0.285
+  }
+  {
+    id: 11409
+    name: 寄望春樱-品茗时分
+    classes: 114
+    type: 201
+    position: "1,3"
+    space: "8,7,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 终于有了可以一起赏樱、一起品茶、一起倾诉心意的人……真是太好了。
+    code: NewYear2025_deco_07
+    texture_type: "1"
+    offset: "0,-0.313,0"
+    rotate: "2"
+    interact_point: "20"
+    interact_point_offset: *-1.167,0.000,-0.285
+  }
+  {
+    id: 11410
+    name: 寄望春樱-花灯如梦
+    classes: 114
+    type: 201
+    position: "32,9"
+    space: "1,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: 灯影与花影交织在一起，倒映的池水将这副画面揉碎，宛如一幅幅流动的绮梦。
+    code: NewYear2025_deco_C
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "3,3,3"
+  }
+  {
+    id: 11411
+    name: 寄望春樱-花见椿
+    classes: 114
+    type: 201
+    position: "9,2"
+    space: "3,2,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: 印有樱花祭图样的海报。即便无需如此张扬，春风中氤氲的芳香也会代为宣告。
+    code: NewYear2025_deco_08,NewYear2025_deco_08
+    texture_type: "1,1"
+    sorting: "0,10"
+    offset: "-0.521,0,0|0.104,0,0"
+    rotate: "2,2"
+  }
+  {
+    id: 11412
+    name: 寄望春樱-驶向相遇
+    classes: 114
+    type: 201
+    position: "3,0"
+    space: "14,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: 透过车窗的薄雾，远远望见站台边驻足挥手的你。那一刻，我懂得了这趟旅途带给我的意义。
+    code: NewYear2025_deco_09_A,NewYear2025_deco_09_B,NewYear2025_deco_B
+    texture_type: "1,1,2"
+    sorting: "0,0,10"
+    offset: "-0.085,-0.157,0|4.513,-0.157,0|0.886,1.376,0.349"
+    rotate: "2,2,2"
+  }
+  {
+    id: 11413
+    name: 寄望春樱-优品铺子
+    classes: 114
+    type: 201
+    position: "22,1"
+    space: "9,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: 收下这串风铃吧，当它叮咚作响的时候，便是微风携来的、得以具象的思念。
+    code: NewYear2025_deco_10,NewYear2025_deco_D
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0,-0.417,0|-0.782,1.001,0.315"
+    rotate: "2,2"
+  }
+  {
+    id: 11414
+    name: 寄望春樱-元气特饮
+    classes: 114
+    type: 201
+    position: "1,12"
+    space: "5,2,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: 橱窗里摆满了粉色包装的汽水饮料，似乎是樱花口味特供……你想象着那股奇妙的味道，不由打了个寒颤。
+    code: NewYear2025_deco_11
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
     id: 11501
     name: 九年如歌-游艇地板
     classes: 115

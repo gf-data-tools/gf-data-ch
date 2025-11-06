@@ -2352,10 +2352,10 @@
     name: 爆破践踏触发1
     description: 用来触发爆破践踏普攻技能
     conflict_type: 315
-    max_tier: 3
+    max_tier: 5
     type: 400
     duration_type: 2
-    duration: "180"
+    duration: "210"
     boss_available: 1
   }
   {
@@ -35187,7 +35187,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "-1"
+    duration: *101
     boss_available: 1
     is_form_play: 1
   }
@@ -65626,6 +65626,286 @@
     forced_skill: "1009707"
   }
   {
+    id: 11019
+    name: IWS 2000装备
+    conflict_type: 11019
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11020
+    name: M82装备
+    conflict_type: 11020
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11021
+    name: M82专属伤害提升
+    conflict_type: 11021
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11022
+    name: M82专属射速提升
+    conflict_type: 11022
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11023
+    name: M82专属命中提升
+    conflict_type: 11023
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11024
+    name: M82专属移速提升
+    conflict_type: 11024
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11025
+    name: M82专属护甲提升
+    conflict_type: 11025
+    max_tier: 1
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11026
+    name: M82专属回避提升
+    conflict_type: 11026
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11027
+    name: M82专属暴击提升
+    conflict_type: 11027
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11028
+    name: M82专属暴伤提升
+    conflict_type: 11028
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: "105"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11029
+    name: FAL装备
+    conflict_type: 11029
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11030
+    name: 绍沙装备
+    conflict_type: 11030
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11031
+    name: 绍沙专属伤害提升
+    conflict_type: 11031
+    max_tier: 10
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "110"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11032
+    name: 绍沙专属命中提升
+    conflict_type: 11032
+    max_tier: 10
+    type: 103
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: "110"
+    trigger_creation_id: "201"
+  }
+  {
+    id: 11033
+    name: 内格夫装备
+    conflict_type: 11033
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11034
+    name: 内格夫专属伤害提升
+    conflict_type: 11034
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 11035
+    name: 内格夫专属效果显示
+    conflict_type: 106
+    max_tier: 5
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 11036
+    name: M590装备
+    conflict_type: 11036
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11037
+    name: M590装备冷却缩减30%
+    conflict_type: 11037
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "70"
+  }
+  {
+    id: 11038
+    name: M590装备冷却缩减15%
+    conflict_type: 11038
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "85"
+  }
+  {
+    id: 11039
+    name: M590专属护甲提升
+    conflict_type: 11039
+    max_tier: 1
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+  }
+  {
+    id: 11040
+    name: KSG装备
+    conflict_type: 11040
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11041
+    name: KSG装备冷却缩减30%
+    conflict_type: 11041
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "70"
+  }
+  {
+    id: 11042
+    name: KSG装备冷却缩减15%
+    conflict_type: 11042
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "85"
+  }
+  {
+    id: 11043
+    name: KSG监视反击
+    conflict_type: 11043
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1088
+  }
+  {
     id: 12801
     name: 地狱犬索敌
     conflict_type: 101
@@ -66044,6 +66324,7 @@
     duration_type: 1
     duration: *101
     trigger_creation_id: "209"
+    is_form_play: 1
   }
   {
     id: 15035

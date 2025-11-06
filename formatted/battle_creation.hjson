@@ -603,7 +603,7 @@
     rotate: "0,90,0"
     exist_duration: "30"
     effect_area: 1
-    hurt_id: "1"
+    hurt_id: "776"
     is_form_play: 1
     scale: "1"
     trigger_creation_id: "314"
@@ -52765,6 +52765,39 @@
     scale: "0.7,0.7"
     sound_order: BT_rifle
     is_orb_effect: 1
+  }
+  {
+    id: 3871
+    name: IWS2000子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "776"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 3872
+    name: KSG反击
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "99"
+    effect_param_2: "99"
+    hurt_id: "777"
+    is_form_play: 1
+    scale: "0.5,0.5"
   }
   {
     id: 4000
