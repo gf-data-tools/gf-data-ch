@@ -8,12 +8,9 @@
   }
   {
     id: 2
-    type: 1
+    type: 2
     mission_campaign: "-6,-7"
     event_name: 魔方行动+
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "10018"
   }
   {
@@ -400,12 +397,9 @@
   }
   {
     id: 61
-    type: 1
+    type: 2
     mission_campaign: "-74"
     event_name: 卷积核
-    draw_event_id: "400,401,402,403,404"
-    start_time: 2024-12-12 10:00:00
-    end_time: 2024-12-31 10:00:00
     init_mission_id: "11835"
     token_item_id: "100250"
   }
@@ -452,5 +446,12 @@
     end_time: 2025-11-06 10:00:00
     init_mission_id: "11947"
     token_item_id: "100291"
+  }
+  {
+    id: 66
+    type: 2
+    mission_campaign: "-40404"
+    event_name: 从潘洛斯阶梯跃下
+    init_mission_id: "11603"
   }
 ]

@@ -44,6 +44,28 @@
     rank_id: "301"
   }
   {
+    id: 5
+    campaign_id: -6
+    tag: EP.|5.5
+    order: 1
+    name: 魔方行动+
+    chapter_name: 魔方行动
+    bg_code: active_cube
+    bg_config: "#000000C7,#00253A66,#114C67FF,#FFFFFFFF"
+    desc: 活动时间:2016.08.11-09.01
+  }
+  {
+    id: 6
+    campaign_id: -7
+    tag: EP.|5.5
+    order: 1
+    name: 魔方行动+
+    chapter_name: 盲拆法则
+    bg_code: active_cube
+    bg_config: "#000000C7,#00253A66,#114C67FF,#FFFFFFFF"
+    desc: 活动时间:2017.03.30-04.20
+  }
+  {
     id: 7
     campaign_id: -10
     tag: EP.|8.5
@@ -611,5 +633,28 @@
     bg_config: "#000000C7,#3D415166,#22d0ab,#FFFFFFFF"
     desc: 活动时间:21.12.16-22.01.06
     scene_name: active_Xmas2021logo
+  }
+  {
+    id: 56
+    campaign_id: -74
+    tag: EP.|15.6
+    order: 20
+    name: 卷积核
+    chapter_name: 卷积核
+    bg_code: active_202412
+    bg_config: "#000000C7,#3D415166,#196689,#FFFFFFFF"
+    desc: 活动时间:2024.12.12-12.31
+    scene_name: active_202412logo
+  }
+  {
+    id: 57
+    campaign_id: -40404
+    tag: EP.|15.6
+    order: 20
+    name: 卷积核
+    chapter_name: 从潘洛斯阶梯跃下
+    bg_code: missionselect_202412activityExt
+    event_prize_level: 10014
+    rank_id: "314"
   }
 ]
