@@ -65874,25 +65874,25 @@
   }
   {
     id: 11041
-    name: KSG装备冷却缩减30%
+    name: KSG装备冷却缩减20%
     conflict_type: 11041
     max_tier: 1
     type: 129
     duration_type: 1
     duration: "99999"
     boss_available: 1
-    cdr_number: "70"
+    cdr_number: "80"
   }
   {
     id: 11042
-    name: KSG装备冷却缩减15%
+    name: KSG装备冷却缩减25%
     conflict_type: 11042
     max_tier: 1
     type: 129
     duration_type: 1
     duration: "99999"
     boss_available: 1
-    cdr_number: "85"
+    cdr_number: "75"
   }
   {
     id: 11043
@@ -65904,6 +65904,113 @@
     duration: *101
     boss_available: 1
     watch_id: 1088
+  }
+  {
+    id: 11064
+    name: 刘易斯套装装备1
+    conflict_type: 11064
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11065
+    name: 刘易斯套装装备2
+    conflict_type: 11065
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11066
+    name: 刘易斯套装
+    conflict_type: 11066
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11067
+    name: M1897套装装备1
+    conflict_type: 11067
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11068
+    name: M1897套装装备2
+    conflict_type: 11068
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11069
+    name: M1897套装
+    conflict_type: 11069
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11070
+    name: 刘易斯换弹计数
+    conflict_type: 11070
+    max_tier: 3
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11071
+    name: 刘易斯套装伤害降低
+    conflict_type: 11071
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    pow_number: "80"
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 11072
+    name: 刘易斯套装回避降低
+    conflict_type: 11072
+    max_tier: 1
+    type: 202
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    dodge_number: "80"
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 11073
+    name: M1897套装冷却缩减25%
+    conflict_type: 11073
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "75"
   }
   {
     id: 12801

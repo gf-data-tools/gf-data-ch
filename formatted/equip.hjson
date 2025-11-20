@@ -6165,8 +6165,10 @@
     powerup_part: 0.45
     exclusive_rate: 3
     bonus_type: pow:500,hit:1000
+    passive_skill: "1011101"
     max_level: 10
     auto_select_id: 19023
+    group_id: "68"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -14064,7 +14066,7 @@
     max_level: 10
     auto_select_id: 19089
     is_show: 1
-    obtain_ids: "3125"
+    obtain_ids: "3125,3096"
     description_skill: 1005001
   }
   {
@@ -14166,7 +14168,7 @@
     max_level: 10
     auto_select_id: 19090
     is_show: 1
-    obtain_ids: "3125"
+    obtain_ids: "3125,3096"
     description_skill: 1005101
   }
   {
@@ -14266,9 +14268,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,pow:1000,critical_percent:1000
-    passive_skill: "1005601"
+    passive_skill: "1005601,1011001"
     max_level: 10
     auto_select_id: 18122
+    group_id: "67"
     is_show: 1
     obtain_ids: "3125"
     description_skill: 1005601
@@ -15481,5 +15484,74 @@
     is_show: 1
     obtain_ids: "3142"
     description_skill: 1010401
+  }
+  {
+    id: 483
+    name: Mk新型弹
+    description:
+      '''
+      暴击概率+<critical_percent><%>
+      穿甲+<armor_piercing>$刘易斯专用
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_percent: "6,10"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_Lewis
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "253"
+    equip_introduction: 使用了最新技术研发的子弹，非常适配刘易斯的作战风格。
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_percent:1000
+    passive_skill: "1011002"
+    max_level: 10
+    auto_select_id: 19096
+    group_id: "67"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 484
+    name: JS机动盾
+    description:
+      '''
+      护甲+<armor> 移速+<speed>
+      $M1897改型专用
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "3,5"
+    armor: "6,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_M1897Mod
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "20152"
+    equip_introduction: M1897最喜欢使用的盾牌，是她在战场上醒目的标志。
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.33
+    exclusive_rate: 3
+    bonus_type: armor:400
+    passive_skill: "1011102"
+    max_level: 10
+    auto_select_id: 20114
+    group_id: "68"
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]
