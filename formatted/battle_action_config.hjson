@@ -19169,6 +19169,40 @@
     creation_delay: "56,72,88,0,60,75,89"
   }
   {
+    id: 6501
+    name: 纳甘左轮满套装第七次普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "6501,21,138"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 6502
+    name: SV-98普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "6502,21,139"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 6503
+    name: G36满套装普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "6503,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 6504
+    name: Kar98k满套装普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "6504,21,139"
+    creation_delay: "0,0,0"
+  }
+  {
     id: 7001
     name: 单管单挺通用口径机枪【真普攻】
     creation_order: "6101,6124,6130,139,139,9,9,9,9,6130,6130,6130,6130"
@@ -26364,6 +26398,26 @@
     id: 9304
     name: KSG反击
     creation_order: "3872"
+  }
+  {
+    id: 9305
+    name: 93R技能普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "3873,3873,3873,21,138"
+    creation_delay: "0,3,6,0,0"
+  }
+  {
+    id: 9306
+    name: Rex Alpha增益
+    creation_order: "3874"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 9307
+    name: Hi-Point C9额外伤害
+    creation_order: "3875"
   }
   {
     id: 9995

@@ -246,6 +246,7 @@
     id: 22
     description: 爆破榴弹内圈
     damage_ratio: *201
+    is_critical_hit: 1000006547
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
@@ -255,6 +256,7 @@
     id: 23
     description: 爆破榴弹中圈
     damage_ratio: *202
+    is_critical_hit: 1000006547
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
@@ -264,6 +266,7 @@
     id: 24
     description: 爆破榴弹外圈
     damage_ratio: *203
+    is_critical_hit: 1000006547
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
@@ -2452,7 +2455,7 @@
     is_miss: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: "1000001460"
+    fix_damage: "1000006575"
     ui_control: 1
   }
   {
@@ -2475,7 +2478,7 @@
     float_wide: 15
     hit_type: 1
     is_shield: 100
-    fix_damage: "1000001460"
+    fix_damage: "1000006574"
   }
   {
     id: 501
@@ -4765,7 +4768,7 @@
   {
     id: 760
     description: Maxim 9自伤
-    extra_damage: "400"
+    extra_damage: "50"
     buff_id_self: 9885:1
     buff_rate: "100"
   }
@@ -4955,6 +4958,32 @@
     id: 777
     description: KSG反击
     extra_damage: "50"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 778
+    description: 93R攻击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 779
+    description: RexAlpha增益判断
+    buff_id_target: 1000010028:1,1000010029:1,1204:1000010034
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 780
+    description: Hi-Point C9额外伤害
+    extra_damage: *201
     critical_hit_rate: "100"
     hit_type: 1
   }
@@ -5452,8 +5481,9 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1
-    is_armor: 1
+    is_form_hurt: 1000006502
+    is_miss: 1000006503
+    is_armor: 1000006503
     buff_id_target: 9411:1000005508
     buff_rate: "100"
     hit_type: 1
@@ -11975,6 +12005,53 @@
     buff_rate: "100"
     hit_type: 1
     range_buff_target: 6375:1000006122
+  }
+  {
+    id: 6501
+    description: 纳甘左轮满套装第七次攻击
+    extra_damage: *201
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    buff_id_target: 6506:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 6502
+    description: SV-98攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000006545"
+  }
+  {
+    id: 6503
+    description: G36满套装攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_self: 6533:1
+    buff_rate: "5"
+    hit_type: 1
+  }
+  {
+    id: 6504
+    description: Kar98k满套装攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000006580"
   }
   {
     id: 7772

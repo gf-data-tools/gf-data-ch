@@ -52800,6 +52800,52 @@
     scale: "0.5,0.5"
   }
   {
+    id: 3873
+    name: 93R子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "778"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 3874
+    name: RexAlpha增益判断子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "779"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 3875
+    name: Hi-Point C9额外伤害
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "780"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
     id: 4000
     name: 白色boss普攻预警1
     start_type: "6"
@@ -64777,6 +64823,73 @@
     exist_duration: "30"
     is_form_play: 1
     scale: "1"
+  }
+  {
+    id: 6501
+    name: 纳甘左轮满套装第七次子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "6501"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 6502
+    name: SV-98子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "6502"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 6503
+    name: G36满套装子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "6503"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 6504
+    name: Kar98k满套装子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "6504"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
   }
   {
     id: 7001
@@ -79528,7 +79641,8 @@
     effect_type: 1
     effect_area: 3
     effect_param_1: "13"
-    buff_id: 8407:1
+    buff_id: 8407:1,6545:1000006578,6546:1000006578
+    buff_cd: "0,0,0"
     scale: "1"
     is_die_delete: 1
   }

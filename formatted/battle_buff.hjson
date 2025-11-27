@@ -36860,6 +36860,593 @@
     forced_skill: "757279"
   }
   {
+    id: 6501
+    name: M1911套装装备3
+    conflict_type: 6501
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6502
+    name: M1911满套装
+    conflict_type: 6502
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6503
+    name: 纳甘左轮套装装备3
+    conflict_type: 6503
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6504
+    name: 纳甘左轮满套装
+    conflict_type: 6504
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6505
+    name: 纳甘左轮攻击计数
+    conflict_type: 6505
+    max_tier: 6
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6506
+    name: 纳甘左轮满套装眩晕
+    conflict_type: 6506
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 6507
+    name: 司登MkⅡ套装装备3
+    conflict_type: 6507
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6508
+    name: 司登MkⅡ满套装
+    conflict_type: 6508
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6509
+    name: 司登MkⅡ满套装抗性提升
+    conflict_type: 6509
+    max_tier: 1
+    type: 838
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    parameter_value: "100"
+  }
+  {
+    id: 6510
+    name: C96套装装备1
+    conflict_type: 6510
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6511
+    name: C96套装装备2
+    conflict_type: 6511
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6512
+    name: C96套装装备3
+    conflict_type: 6512
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6513
+    name: C96满套装
+    conflict_type: 6513
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6514
+    name: C96满套装夜晚标记
+    conflict_type: 6514
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+  }
+  {
+    id: 6515
+    name: C96满套装命中降低
+    conflict_type: 6515
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: "10"
+    trigger_creation_id: "207"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 6516
+    name: SV-98套装装备3
+    conflict_type: 6516
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6517
+    name: SV-98满套装
+    conflict_type: 6517
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6518
+    name: SV-98满套装伪装计数
+    conflict_type: 6518
+    max_tier: 30
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6519
+    name: SV-98满套装伪装增益I触发
+    conflict_type: 6519
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6520
+    name: SV-98满套装伪装增益II触发
+    conflict_type: 6520
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6521
+    name: SV-98满套装伪装增益III触发
+    conflict_type: 6521
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6522
+    name: SV-98满套装暴击伤害提升
+    conflict_type: 6522
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: "120"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 6523
+    name: SV-98满套装受击计数
+    conflict_type: 6523
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1092
+  }
+  {
+    id: 6524
+    name: SV-98满套装免伤
+    conflict_type: 6524
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000006544
+  }
+  {
+    id: 6525
+    name: STG44套装装备3
+    conflict_type: 6525
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6526
+    name: STG44满套装
+    conflict_type: 6526
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6527
+    name: STG44满套装冷却缩减25%
+    conflict_type: 6527
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "75"
+  }
+  {
+    id: 6528
+    name: G3套装装备3
+    conflict_type: 6528
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6529
+    name: G3满套装
+    conflict_type: 6529
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6530
+    name: G3满套装冷却缩减25%
+    conflict_type: 6530
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "75"
+  }
+  {
+    id: 6531
+    name: G36套装装备3
+    conflict_type: 6531
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6532
+    name: G36满套装
+    conflict_type: 6532
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6533
+    name: G36满套装护盾触发
+    conflict_type: 6533
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6534
+    name: G36满套装护盾
+    conflict_type: 6534
+    max_tier: 99
+    type: 109
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    shield_number: "10"
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 6535
+    name: 柯尔特左轮套装装备3
+    conflict_type: 6535
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6536
+    name: 柯尔特左轮满套装
+    conflict_type: 6536
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6537
+    name: 柯尔特左轮满套装免伤
+    conflict_type: 6537
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    fix_damage: 1000006572
+  }
+  {
+    id: 6538
+    name: 柯尔特左轮满套装伤害提升
+    conflict_type: 6538
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: "1100"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 6539
+    name: NTW-20套装装备3
+    conflict_type: 6539
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6540
+    name: NTW-20满套装
+    conflict_type: 6540
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6541
+    name: 李-恩菲尔德套装装备1
+    conflict_type: 6541
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6542
+    name: 李-恩菲尔德套装装备2
+    conflict_type: 6542
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6543
+    name: 李-恩菲尔德套装装备3
+    conflict_type: 6543
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6544
+    name: 李-恩菲尔德满套装
+    conflict_type: 6544
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6545
+    name: 李-恩菲尔德满套装队长位增益触发
+    conflict_type: 6545
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 6546
+    name: 李-恩菲尔德满套装非队长位增益触发
+    conflict_type: 6546
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 6547
+    name: Kar98k套装装备1
+    conflict_type: 6547
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6548
+    name: Kar98k套装装备2
+    conflict_type: 6548
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6549
+    name: Kar98k套装装备3
+    conflict_type: 6549
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6550
+    name: Kar98k满套装
+    conflict_type: 6550
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6551
+    name: As Val套装装备1
+    conflict_type: 6551
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6552
+    name: As Val套装装备2
+    conflict_type: 6552
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6553
+    name: As Val套装装备3
+    conflict_type: 6553
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6554
+    name: As Val满套装
+    conflict_type: 6554
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 6555
+    name: As Val满套装监视暴击
+    conflict_type: 6555
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1093
+  }
+  {
+    id: 6556
+    name: As Val满套装穿甲增加
+    conflict_type: 6556
+    max_tier: 200
+    type: 811
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    arp_number: "10"
+  }
+  {
     id: 7101
     name: ****
     conflict_type: 320
@@ -57278,7 +57865,7 @@
     id: 9210
     name: 梯队伤害+5%
     conflict_type: 2344
-    max_tier: 1
+    max_tier: 10
     type: 101
     duration_type: 1
     duration: "-1"
@@ -65906,6 +66493,254 @@
     watch_id: 1088
   }
   {
+    id: 11044
+    name: LR-300增益标记
+    conflict_type: 11044
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11045
+    name: LR-300伤害提升
+    conflict_type: 11045
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "7185"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11046
+    name: LR-300穿甲增加
+    conflict_type: 11046
+    max_tier: 1
+    type: 811
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: *202
+    trigger_creation_id: "7185"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11047
+    name: LR-300射速降低
+    conflict_type: 11047
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11048
+    name: LR-300命中降低
+    conflict_type: 11048
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+    trigger_creation_id: "205"
+    is_form_play: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11049
+    name: LR-300增益消失触发
+    conflict_type: 11049
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11050
+    name: LR-300监视死亡
+    conflict_type: 11050
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1089
+  }
+  {
+    id: 11051
+    name: 93R技能触发
+    conflict_type: 11051
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 11052
+    name: 93R射速降低
+    conflict_type: 11052
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 11053
+    name: 93R检测标记
+    conflict_type: 11053
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "1"
+    forced_skill: "1010604"
+  }
+  {
+    id: 11054
+    name: 93R检测HG反馈
+    conflict_type: 11054
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11055
+    name: 93R伤害增加
+    conflict_type: 11055
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "1000010027"
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11056
+    name: Mx4风暴回避提升
+    conflict_type: 11056
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 11057
+    name: Mx4风暴命中提升
+    conflict_type: 11057
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 11058
+    name: Mx4风暴监视回避
+    conflict_type: 11058
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1090
+  }
+  {
+    id: 11059
+    name: Mx4风暴伤害增加
+    conflict_type: 11059
+    max_tier: 100
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11060
+    name: RexAlpha队长射速提升
+    conflict_type: 11060
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 11061
+    name: RexAlpha召唤物伤害提升
+    conflict_type: 11061
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 11062
+    name: Hi-Point C9穿甲提升
+    conflict_type: 11062
+    max_tier: 1
+    type: 111
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+  }
+  {
+    id: 11063
+    name: Hi-Point C9穿甲监视
+    conflict_type: 11063
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1091
+  }
+  {
     id: 11064
     name: 刘易斯套装装备1
     conflict_type: 11064
@@ -66011,6 +66846,21 @@
     duration: "99999"
     boss_available: 1
     cdr_number: "75"
+  }
+  {
+    id: 11074
+    name: Hi-Point C9伤害提升
+    conflict_type: 11074
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
   }
   {
     id: 12801

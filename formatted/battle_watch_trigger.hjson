@@ -159,6 +159,28 @@
     hurt_type: "0,1,2,3"
   }
   {
+    id: 1104
+    description: Mx4风暴受击监视
+    hurt_type: "3"
+  }
+  {
+    id: 1105
+    description: Hi-Point C9穿甲监视
+    hurt_from: "2"
+    hurt_type: "2"
+    hurt_judge: 1000005546
+  }
+  {
+    id: 1106
+    description: SV-98满套装受击监视
+    hurt_type: "0,1,2"
+  }
+  {
+    id: 1107
+    description: AsVal监视暴击
+    hurt_type: "1"
+  }
+  {
     id: 2001
     description: 距离监视
     buff_judge: 1000009002

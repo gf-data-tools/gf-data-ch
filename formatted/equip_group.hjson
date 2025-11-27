@@ -168,8 +168,8 @@
     name: 林间行动
     des: 为NTW-20量身定制的套装，不管是作战还是飙车都非常拉风。
     code: EgroupNTW20
-    equip_unit: "170,0,371"
-    group_skill: 2:759295
+    equip_unit: "170,494,371"
+    group_skill: 2:759295,3:759508
     fit_gun: "20053"
   }
   {
@@ -186,8 +186,8 @@
     name: 为了大家
     des: 为G3量身定制的套装，寄托着G3想要帮助大家的决心。
     code: EgroupG3
-    equip_unit: "124,0,374"
-    group_skill: 2:759308
+    equip_unit: "124,491,374"
+    group_skill: 2:759308,3:759505
     fit_gun: "20063"
   }
   {
@@ -195,8 +195,8 @@
     name: Darling
     des: 为M1911量身定制的套装，命名遵循了她本人的强烈要求。
     code: EgroupM1911
-    equip_unit: "375,101,0"
-    group_skill: 2:759312
+    equip_unit: "375,101,485"
+    group_skill: 2:759312,3:759502
     fit_gun: "20002"
   }
   {
@@ -222,8 +222,8 @@
     name: 女仆准则
     des: 为G36量身定制的套装，可以帮助G36在处理工作的同时不会失去女仆的优雅。
     code: EgroupG36
-    equip_unit: "130,0,390"
-    group_skill: 2:1000403
+    equip_unit: "130,492,390"
+    group_skill: 2:1000403,3:1000410
     fit_gun: "20064"
   }
   {
@@ -258,8 +258,8 @@
     name: 别针行动
     des: 为SV-98量身定制的套装，能够有效帮助她更好地测量和计算。
     code: EgroupSV98
-    equip_unit: "398,0,115"
-    group_skill: 2:1001403
+    equip_unit: "398,489,115"
+    group_skill: 2:1001403,3:1001406
     fit_gun: "20044"
   }
   {
@@ -285,8 +285,8 @@
     name: 走火女王
     des: 为司登MkⅡ量身定制的套装，直面自己的缺陷后终于可以独当一面了。
     code: EgroupStenMK2
-    equip_unit: "407,0,128"
-    group_skill: 2:1001803
+    equip_unit: "407,487,128"
+    group_skill: 2:1001803,3:1001806
     fit_gun: "20029"
   }
   {
@@ -303,8 +303,8 @@
     name: 使命必达
     des: 为StG44量身定制的套装，为了完成被赋予的使命，装备的升级不可避免。
     code: EgroupStG44
-    equip_unit: "0,136,410"
-    group_skill: 2:1002103
+    equip_unit: "490,136,410"
+    group_skill: 2:1002103,3:1002106
     fit_gun: "20061"
   }
   {
@@ -321,8 +321,8 @@
     name: 收藏家
     des: 为纳甘左轮量身定制的套装，在打扫战场，挑拣废品等行动里可以发挥关键作用，说不定什么时候就能收集到重要情报。
     code: EgroupM1895
-    equip_unit: "113,0,415"
-    group_skill: 2:1002403
+    equip_unit: "113,486,415"
+    group_skill: 2:1002403,3:1002406
     fit_gun: "20005"
   }
   {
@@ -357,8 +357,8 @@
     name: 西部可乐
     des: 为柯尔特左轮量身定制的套装，喝完可乐才有力量进行决斗！
     code: EgroupM1873
-    equip_unit: "122,423,0"
-    group_skill: 2:1003403
+    equip_unit: "122,423,493"
+    group_skill: 2:1003403,3:1003406
     fit_gun: "20001"
   }
   {
@@ -612,5 +612,41 @@
     equip_unit: "484,206,0"
     group_skill: 2:1011103
     fit_gun: "20152"
+  }
+  {
+    id: 69
+    name: 核心危机
+    des: 为C96量身定制的套装，能帮助小队在夜晚发挥出强悍的作战能力。
+    code: EgrouC96
+    equip_unit: "167,488,353"
+    group_skill: 3:1011204
+    fit_gun: "20012"
+  }
+  {
+    id: 70
+    name: Misha
+    des: 为AS Val量身定制的套装，非常适合在夜间执行作战任务。
+    code: EgroupASVAL
+    equip_unit: "497,135,360"
+    group_skill: 3:1011504
+    fit_gun: "20060"
+  }
+  {
+    id: 71
+    name: 皇家荣耀
+    des: 为李-恩菲尔德量身定制的套装，可以时刻提醒自己要心存荣耀，不屈于强敌。
+    code: EgroupMLEMK1
+    equip_unit: "298,160,495"
+    group_skill: 3:1011304
+    fit_gun: "20050"
+  }
+  {
+    id: 72
+    name: 贵族战车
+    des: 为Kar98k量身定制的套装，最适合重视荣誉胜过的人形执行作战任务了。
+    code: Egroup98K
+    equip_unit: "496.105,297"
+    group_skill: 3:1011404
+    fit_gun: "20046"
   }
 ]
