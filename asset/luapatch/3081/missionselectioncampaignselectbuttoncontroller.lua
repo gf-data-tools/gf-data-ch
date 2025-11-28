@@ -4,8 +4,16 @@ xlua.private_accessible(CS.MissionSelectionIntroduceController)
 
 xlua.private_accessible(CS.MissionSelectionMissionBarController)
 xlua.private_accessible(CS.MissionSelectionMissionDetailController)
+xlua.private_accessible(CS.MissionSelectionController)
 
-
+local mPlayUITweens = function(self)
+	if self.goOperationMisson.gameObject.activeSelf==true then
+			self.listCampaignBar[14].gameObject:SetActive(false);
+		else
+			self.listCampaignBar[14].gameObject:SetActive(true);
+		end
+	self:PlayUITweens()	
+end
 local mInit = function(self,...)
 	--local jsondata = select(1, ...);
 	self:Init(...)
@@ -39,6 +47,7 @@ local mRequestMissionCombinationHandle = function(self,data)
 		itemCS.textCode.text ="A-"..self.mission.missionInfo.sub
 	end
 end
+util.hotfix_ex(CS.MissionSelectionController,'PlayUITweens',mPlayUITweens)
 util.hotfix_ex(CS.MissionSelectionCampaignSelectButtonController,'Init',mInit)
 util.hotfix_ex(CS.MissionSelectionIntroduceController,'UpdateInfo',mUpdateInfo)
 util.hotfix_ex(CS.MissionSelectionMissionBarController,'ShowDrawEventIcon',mShowDrawEventIcon)
