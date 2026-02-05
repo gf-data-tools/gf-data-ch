@@ -27513,6 +27513,173 @@
     action_playspeed: "100"
   }
   {
+    id: 12201
+    name: 梦想家开场后跳
+    action_order: jump
+    action_delay: "1"
+    action_playspeed: "100"
+    creation_order: "386"
+    creation_delay: "61"
+    sound_order: Agent_SKILL1_JP_0
+    move_order: "1712"
+    move_delay: "26"
+  }
+  {
+    id: 12202
+    name: 梦想家狙击
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "7401"
+    sound_order: BT_pistol
+  }
+  {
+    id: 12203
+    name: 梦想家狂暴
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "7402"
+    sound_order: BT_pistol
+  }
+  {
+    id: 12204
+    name: 破坏者炮击
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "7403,7404"
+    creation_delay: "0,10"
+  }
+  {
+    id: 12205
+    name: 精英破坏者轰炸
+    action_order: "102,103"
+    action_delay: "80,164"
+    action_playspeed: "200,100"
+    creation_order: "7406"
+    creation_delay: "180"
+    move_order: "204,205,206"
+    move_delay: "164,174,274"
+  }
+  {
+    id: 12206
+    name: 梦想家召唤
+    creation_order: "7408"
+  }
+  {
+    id: 12207
+    name: 末日魔犬普攻
+    action_order: "1"
+    action_playspeed: "200"
+    creation_order: "7409,7410"
+    creation_delay: "0,2"
+  }
+  {
+    id: 12208
+    name: 梦想家近身检测
+    creation_order: "7411"
+  }
+  {
+    id: 12209
+    name: 梦想家狂暴
+    action_order: "1"
+    action_delay: "300"
+    action_playspeed: "100"
+    creation_order: "7402"
+    creation_delay: "300"
+    sound_order: BT_pistol
+  }
+  {
+    id: 12210
+    name: 计量官普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "7412,7412,35,35"
+    creation_delay: "0,5,0,5"
+  }
+  {
+    id: 12211
+    name: 建筑师普攻
+    action_order: "1"
+    action_delay: "60"
+    action_playspeed: "100"
+    creation_order: "7413"
+    sound_order: MissileExplo
+    sound_delay: "90"
+  }
+  {
+    id: 12212
+    name: 代理人普攻
+    action_order: attack
+    action_delay: "1"
+    action_playspeed: "100"
+    creation_order: "7419,7420,7421,7422,7423,7424"
+    creation_delay: "0,3,7,10,0,2"
+  }
+  {
+    id: 12213
+    name: 行裁者普攻
+    action_order: spattack2
+    action_playspeed: "100"
+    creation_order: "7425,7426"
+    creation_delay: "5,7"
+  }
+  {
+    id: 12214
+    name: 猎手普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "7427,7428"
+    creation_delay: "0,4"
+    sound_order: BT_pistol
+  }
+  {
+    id: 12215
+    name: 炼金术士普攻
+    action_order: skillposs1,skill,skillposs2
+    action_delay: "1,41,100"
+    action_playspeed: "100,100,100"
+    creation_order: "7429,7429,7429"
+    creation_delay: "48,60,72"
+    sound_order: ani_lianjinshushi
+    sound_delay: "40"
+  }
+  {
+    id: 12216
+    name: 炼金术士伤害
+    creation_order: "7430"
+  }
+  {
+    id: 12217
+    name: 法官嘲讽
+    action_order: "104"
+    action_playspeed: "100"
+    creation_order: "7431"
+    creation_delay: "45"
+  }
+  {
+    id: 12218
+    name: 魇渊夕来普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "7432,7433,7434,7435,7436,7437,7438"
+    creation_delay: "5,11,8,5,11,8,8"
+  }
+  {
+    id: 12219
+    name: 魇渊夕来禁锢
+    action_order: "1"
+    action_delay: "300"
+    action_playspeed: "100"
+    creation_order: "7439"
+    creation_delay: "30"
+    sound_order: BT_pistol
+  }
+  {
+    id: 12220
+    name: 梦想家假普攻
+    action_order: wait
+    action_playspeed: "100"
+  }
+  {
     id: 13001
     name: M16A1普攻
     action_order: attack

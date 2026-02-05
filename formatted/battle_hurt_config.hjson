@@ -1816,7 +1816,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_armor: 1
+    is_armor: 1000010101
     buff_id_target: 1363:1
     buff_rate: "100"
     hit_type: 1
@@ -5470,6 +5470,156 @@
     description: 露尼西亚宿命终章
     extra_damage: "99999"
     critical_hit_rate: "100"
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+  }
+  {
+    id: 1770
+    description: 梦想家狙击
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000010112"
+  }
+  {
+    id: 1771
+    description: 梦想家狂暴
+    extra_damage: "99999"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+  }
+  {
+    id: 1772
+    description: 破坏者榴弹
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000010113"
+  }
+  {
+    id: 1773
+    description: 破坏者轰炸
+    damage_ratio: "300"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000010113"
+  }
+  {
+    id: 1774
+    description: 末日魔犬攻击
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1775
+    description: 计量官普攻
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 2766:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000010116"
+  }
+  {
+    id: 1776
+    description: 建筑师普攻
+    damage_ratio: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000010116"
+  }
+  {
+    id: 1777
+    description: 建筑师燃烧
+    damage_ratio: "10"
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: "1000010116"
+  }
+  {
+    id: 1778
+    description: 代理人攻击
+    damage_ratio: "25"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 2773:1,2774:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1779
+    description: 行裁者攻击
+    damage_ratio: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1780
+    description: 猎手攻击
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 2776:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000010118"
+  }
+  {
+    id: 1781
+    description: 炼金术士攻击
+    damage_ratio: "30"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1782
+    description: 新春稻草人子弹
+    damage_ratio: "40"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 1783
+    description: 新春稻草人禁锢
+    extra_damage: "100"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1784
+    description: 新春稻草人dot
+    extra_damage: "10"
+    critical_hit_rate: "100"
+    buff_rate: "100"
     hit_type: 1
     is_ricochet: 100
     is_shield: 100

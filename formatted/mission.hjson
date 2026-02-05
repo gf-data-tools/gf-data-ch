@@ -61398,6 +61398,70 @@
     difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
   }
   {
+    id: 11987
+    integration_switch: 1-1;4-40:80:160
+    campaign: -79
+    sub: 1
+    if_emergency: -1
+    special_type: 1
+    name: 铁雨礼赞-序
+    difficulty: 1500
+    recommend_gun_level: 20
+    exp_parameter: 23
+    type: "2"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 3
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS1_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1198701"
+    mission_group_id: 44
+    round_config: 1:1,2:2,3:3
+    win_type: "1"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11988
+    integration_switch: 1-1;4-40:80:160
+    campaign: -79
+    sub: 2
+    if_emergency: -1
+    endless_mode: 1
+    special_type: 1
+    name: 铁雨礼赞
+    difficulty: 1500
+    recommend_gun_level: 20
+    exp_parameter: 23
+    type: "6"
+    enemy_ai_type: 3
+    expect_enemy_die_num: 10
+    expect_gun_die_num: 10
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 5
+    limit_team: "0,*8"
+    map_res_name: OPS316_Y
+    map_information: "12000,12000|12000,12000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    random_line_spot: "97417"
+    drop_mission_key: "0,0,1198801"
+    mission_group_id: 44
+    open_mission_keys: 1198701:1
+    round_config: 1:1,2:4,3:3
+    limit_squad: 4
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+    event_score: 1|10,10000,8000,5000,1000,50000,0,10000,8000,10000,1000,10000,1:9000;3:5000;7:6000,0,10,0,0,0,800004:15000;800002:100000,0,5000,10000,8000,1000
+    score_prize: 1-0|110081:1
+    limit_vehicle: 2
+  }
+  {
     id: 90001
     integration_switch: 1-1;4-40:80:160
     campaign: 1

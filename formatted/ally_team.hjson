@@ -17884,6 +17884,36 @@
     no_battle_damage: 49
   }
   {
+    id: 800101
+    name: 格里芬
+    guns: "800101,800102,800103,800104"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 800102
+    name: 格里芬
+    guns: "800105,800106,800107"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 800103
+    name: 格里芬
+    guns: "800108,800109,800110"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0

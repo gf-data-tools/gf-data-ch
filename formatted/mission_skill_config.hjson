@@ -35532,6 +35532,148 @@
     special_spot_add: 783700:1
   }
   {
+    id: 800001
+    name: 机场初始化
+    skill_group_id: 800001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 800001:1
+  }
+  {
+    id: 800002
+    name: 启动
+    description: 燃放场上所有被放置的烟花，照亮2格范围内点位，并强化被照亮的机场、补给点和我方梯队，持续3回合。起爆装置只能使用1次，使用后不再获得烟花
+    skill_group_id: 800002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    effect_target: "800101"
+    trigger_id: "100007201"
+    target_id: "80000401"
+    special_spot_add: 800002:1
+    special_spot_minus: 800004:1
+    subsidiary_mission_skill: "1000073,800005,800009"
+    is_manual: 800002
+  }
+  {
+    id: 800003
+    name: 机场预处理
+    skill_group_id: 800003
+    level: 1
+    spot_type: "3,7"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 2
+    special_spot_add: 800003:1
+  }
+  {
+    id: 800004
+    name: 放置烟花
+    description: 放置一个烟花，可被起爆器引爆
+    skill_group_id: 800004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "80000101"
+    target_id: "1"
+    special_spot_add: 800004:1
+    subsidiary_mission_skill: "800003,800008"
+    is_manual: 800004
+    drop_item: 9053:-1
+  }
+  {
+    id: 800005
+    name: 机场强化
+    skill_group_id: 800005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "80000301"
+    special_spot_add: 800005:1
+    special_spot_minus: 800003:1
+  }
+  {
+    id: 800006
+    name: 获得烟花
+    skill_group_id: 800006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "100007201"
+    drop_item: 9053:1
+  }
+  {
+    id: 800007
+    name: 起爆器初始化
+    skill_group_id: 800007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "1000072"
+    drop_item: 9053:-99
+  }
+  {
+    id: 800008
+    name: 补给点预处理
+    skill_group_id: 800008
+    level: 1
+    spot_type: "5"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 2
+    special_spot_add: 800008:1
+  }
+  {
+    id: 800009
+    name: 空投强化
+    skill_group_id: 800009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "80000801"
+    special_spot_add: 800009:1
+    special_spot_minus: 800008:1
+  }
+  {
+    id: 800010
+    name: 战场整备
+    description: 为友方梯队提供补给，恢复大量弹药口粮，额外为载具单位补充能量。该补给箱可多次使用，但每个梯队每个回合只能使用1次。
+    skill_group_id: 800010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 80000901&&80001000
+    target_id: "1"
+    mission_buff_add: 800010:1
+    is_manual: 800010
+    resources_change: "20,20,200"
+  }
+  {
     id: 900001
     name: 机场出兵
     code: "1"

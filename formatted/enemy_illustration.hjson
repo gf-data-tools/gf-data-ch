@@ -202,6 +202,30 @@
     related_story_id: 200008
   }
   {
+    sub_id: 8002
+    id: 8
+    name: 行裁者
+    sub_name: 行裁者-幻想型
+    type: 1
+    code: Excutioner
+    introduce: 相当于精英斥候，比稻草人地位稍高，两人经常搭档。莽撞冲动，大大咧咧的女汉子，热衷于堂堂正正的战斗，并不喜欢欺负弱者。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 2
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,202,309,1007"
+    enemy_skill: "286"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",伊藤静,"
+    spine_scale: "80,80,1"
+  }
+  {
     sub_id: 9001
     id: 9
     name: 猎鸥
@@ -271,6 +295,30 @@
     spine_scale: "75,75,1"
     org_id: 10602
     related_story_id: 200011
+  }
+  {
+    sub_id: 11002
+    id: 11
+    name: 猎手
+    sub_name: 猎手-幻想型
+    type: 1
+    code: Hunter
+    introduce: 机动和智能都比较高，擅长骚扰和追击作战，需要稻草人与行裁者的配合才能发挥最强的实力。沉着冷静，喜欢用各种手段将敌人逼到走投无路再活捉，面对格里芬十分高傲，但不屑于使用过于卑劣的手段。
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 4
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,203,309,1007"
+    enemy_skill: "287"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",萩原あみ,"
+    spine_scale: "75,75,1"
   }
   {
     sub_id: 12001
@@ -384,6 +432,28 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 16002
+    id: 16
+    name: 蝎甲兽
+    sub_name: 蝎甲兽-特化型
+    type: 4
+    code: Manticore
+    introduce: 军方订购的常规军用机甲特化型，进一步提升了装甲能力和机动性。
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 2
+    range_rank: 3
+    counter: 拥有一定护甲，输出能力优秀，不是适合长时间对抗的敌人，请注意提高梯队的整体作战能力应对。
+    character: "1003,302,309,301"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
     sub_id: 17001
     id: 17
     name: 干扰者
@@ -436,6 +506,29 @@
     related_story_id: 200017
   }
   {
+    sub_id: 17003
+    id: 17
+    name: 干扰者
+    sub_name: 干扰者-幻想型
+    type: 1
+    code: Intruder
+    introduce: 负责提供作战策略，也擅长破解和干扰工作，可以直接指挥作战人形，是稍高级的人形，直接对计量官负责。优雅温和的言行背后，令人感到的是巨大的空洞，喜欢人类的戏剧，可能是希望从中找到自己的个性。
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,204,1007"
+    enemy_skill: "288"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",大坪由佳,"
+    spine_scale: "85,85,1"
+  }
+  {
     sub_id: 18001
     id: 18
     name: 破坏者
@@ -459,6 +552,29 @@
     spine_scale: "85,85,1"
     org_id: 10603
     related_story_id: 200018
+  }
+  {
+    sub_id: 18002
+    id: 18
+    name: 破坏者
+    sub_name: 破坏者-幻想型
+    type: 1
+    code: Destroyer
+    introduce: 擅长爆破任务，解除炸弹也是专家级的，作战能力也不错，和炼金术士有时会搭档。平时高傲，毒舌，实际上是个傲娇，有点小孩子脾气，逼急了会哭鼻子，十分在意自己的身高。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: 该单位具有极高的单发伤害，但是攻速较慢，命中一般，回避型人形会有更好的防御效果。
+    character: "1001,206,1007"
+    enemy_skill: "278,279"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",高田憂希,"
+    spine_scale: "85,85,1"
   }
   {
     sub_id: 19001
@@ -561,6 +677,30 @@
     related_story_id: 200021
   }
   {
+    sub_id: 21003
+    id: 21
+    name: 衔尾蛇
+    sub_name: 衔尾蛇-幻想型
+    type: 1
+    code: Weaver
+    introduce: 擅长短距离的突破或者防御作战，智能和作战能力很高，是蝴蝶事件之后才制造的人形，但因为是制造时期的试验品，AI极不稳定且很难被控制。表面沉稳内心高傲，拥有强劲的武力和智力优势，但是实战经验较少，而且行事风格捉摸不定，令敌我双方都难以预判，因此具有极高的危险度。
+    forces: 1
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: 该单位将向预警位置制造较强伤害，请注意指挥人形及时移动规避。
+    character: "1001,210,309,1007"
+    enemy_skill: "289"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",大久保瑠美,"
+    spine_scale: "80,80,1"
+  }
+  {
     sub_id: 22001
     id: 22
     name: 衔尾蛇Elite
@@ -608,6 +748,29 @@
     spine_scale: "85,85,1"
     org_id: 10602
     related_story_id: 200023
+  }
+  {
+    sub_id: 23002
+    id: 23
+    name: 炼金术士
+    sub_name: 炼金术士-幻想型
+    type: 1
+    code: Alchemist
+    introduce: 擅长应对各种战术需求，也精通审讯逼供，是铁血作战的精英，和破坏者有时会搭档。狂妄自大，嚣张而残忍，为达目的不择手段，有施虐倾向，将格里芬视为满足欲望的玩物，不过心理成熟，可以为铁血的同伴挺身而出。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,205,1007"
+    enemy_skill: "290"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",佐藤有世,"
+    spine_scale: "85,85,1"
   }
   {
     sub_id: 24001
@@ -660,6 +823,29 @@
     spine_scale: "75,75,1"
     org_id: 10604
     related_story_id: 200024
+  }
+  {
+    sub_id: 24003
+    id: 24
+    name: 梦想家
+    sub_name: 梦想家-幻想型
+    type: 1
+    code: Dreamer
+    introduce: 偏向作战能力，拥有超远距离定点打击的能力，由伊莱莎直接下令指挥，是蝴蝶事件之后才制造的人形，因为自身能力不需要正面出击，所以平时只呆在铁血总部，以捉弄法官为乐。优雅的笑容中透着傲慢和难以捉摸，精神状态极不稳定，总是以自我为中心作战中会露出疯狂而不受控制的一面，加上可怕的破坏力，连同伴的安全都不会考虑所幸的是通常不会出现在正面战场上。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位射程较远，请注意梯队整体移动速度，避免移动时间过长导致战损加重。
+    character: "1001,209"
+    enemy_skill: "276,277"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",奥野香耶,"
+    spine_scale: "75,75,1"
   }
   {
     sub_id: 25001
@@ -735,6 +921,29 @@
     related_story_id: 200026
   }
   {
+    sub_id: 26003
+    id: 26
+    name: 计量官
+    sub_name: 计量官-幻想型
+    type: 1
+    code: BossGager
+    introduce: 主要担当指挥行动和人员调度，可以直接指挥作战人形，也具备不小的作战能力，地位较高，直接对代理人负责。认真严谨，一丝不苟，言行中透露出一股凛然利落的气质，即使对于敌人也很讲求原则和礼节。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1001,207,1007"
+    enemy_skill: "281,282,283"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",石川由依,"
+    spine_scale: "85,85,1"
+  }
+  {
     sub_id: 27001
     id: 27
     name: 建筑师
@@ -786,6 +995,29 @@
     spine_scale: "85,85,1"
     org_id: 10603
     related_story_id: 200027
+  }
+  {
+    sub_id: 27003
+    id: 27
+    name: 建筑师
+    sub_name: 建筑师-幻想型
+    type: 1
+    code: BossArchitect
+    introduce: 擅长远程破坏和火力支援，作战能力很强，通常独来独往。活泼开朗的没头脑元气少女，什么时候都兴高采烈，对格里芬也没有敌对意识，对于铁血只能最低限度地服从命令，但是对轰炸和破坏十分热心，所以作为敌人仍然十分危险。
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: 该单位将向预警位置制造较强伤害，且附带范围溅射，请注意指挥人形及时移动规避。
+    character: "1001,319"
+    enemy_skill: "280,282,283"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",大坪由佳,"
+    spine_scale: "85,85,1"
   }
   {
     sub_id: 28001
@@ -1064,6 +1296,30 @@
     spine_scale: "70,70,1"
     org_id: 10604
     related_story_id: 200035
+  }
+  {
+    sub_id: 35004
+    id: 35
+    name: 法官
+    sub_name: 法官-幻想型
+    type: 1
+    code: Justice
+    introduce: 偏向指挥能力，负责铁血总部的防御和安全系统，相当于伊莱莎的侍卫，只会听从伊莱莎个人的命令，是蝴蝶事件之后才制造的人形，整天面对梦想家很头疼。严肃古板，充满军人的威严和风范，对伊莱莎绝对忠诚，但个子比较矮小，让人觉得缺乏气势，提出这一点的人无论敌我都会倒大霉。
+    forces: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: 该单位攻速较高、伤害一般，且会同时攻击多个单位，推荐使用霰弹枪人形搭配足够的护甲进行抵御，同时请注意及时躲避地面的紫色区域，避免受到持续的伤害以及弱化效果。
+    character: "1001,211,309,1007"
+    enemy_skill: "291"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",豊崎愛生,"
+    spine_scale: "70,70,1"
   }
   {
     sub_id: 36001
@@ -1416,6 +1672,29 @@
     related_story_id: 200045
   }
   {
+    sub_id: 45003
+    id: 45
+    name: 代理人
+    sub_name: 代理人-幻想型
+    type: 1
+    code: Agent
+    introduce: 负责伊莱莎与下属铁血的沟通联络工作和后勤管理，作战人形都直接听从她的命令，地位极高，无论战斗还是指挥都很擅长，可以指挥所有作战人形。冷淡平静，有条不紊的言行做派，对敌我都会用尊敬的语气，但实际上除了对主人十分尊重之外，称呼他人的词汇都很低劣，尤其对于格里芬更是充满蔑视。
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: 在该角色生成护盾时，请注意集中火力将护盾击破以中断蓄力，避免蓄力的高伤害攻击。
+    character: "1001,212"
+    enemy_skill: "284,285"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",生天目仁美,"
+    spine_scale: "80,80,1"
+  }
+  {
     sub_id: 46001
     id: 46
     name: 射击士
@@ -1705,6 +1984,28 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 55002
+    id: 55
+    name: 巡游者SWAP
+    sub_name: 巡游者SWAP-特化型
+    type: 2
+    code: Prowler_SWAP
+    introduce: 巡游者的特化版，机动性和防御能力都得到了加强，在战场上十分灵活难缠。
+    forces: 1
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 1
+    hit_rank: 1
+    dodge_rank: 1
+    rate_rank: 3
+    speed_rank: 2
+    range_rank: 2
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "300"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
     sub_id: 56001
     id: 56
     name: 猎鸥SWAP
@@ -1725,6 +2026,29 @@
     character: "1003,307"
     enemy_skill: "5"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 56002
+    id: 56
+    name: 猎鸥SWAP
+    sub_name: 猎鸥SWAP-特化型
+    type: 3
+    code: Jaeger_SWAP
+    introduce: 猎鸥的特化版，火力和精准度上得到了巨大的加强，但也牺牲了一定的机动性，总体来说是更加难缠的对手。
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 1
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: 该单位主要担当后排输出，攻速较慢、命中较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排的人形进行处理。
+    character: "1003,307"
+    enemy_skill: "5"
+    launch_time: 2035-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
@@ -1751,6 +2075,29 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 57002
+    id: 57
+    name: 护卫者SWAP
+    sub_name: 护卫者SWAP-特化型
+    type: 3
+    code: Guard_SWAP
+    introduce: 护卫者的特化版，防御能力得到了进一步的加强，不过杀伤能力会有一定的减弱。
+    forces: 1
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 5
+    hit_rank: 3
+    dodge_rank: 1
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 2
+    counter: 该单位为近战单位，防御能力较强，但相对的对我方造成有效伤害的能力较弱，主要威胁来自其他负责输出的单位，请注意选用合适的枪种人形以优先处理被护卫者掩护的单位。
+    character: "303,310"
+    enemy_skill: "4"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "90,90,1"
+  }
+  {
     sub_id: 58001
     id: 58
     name: 龙骑兵SWAP
@@ -1771,6 +2118,29 @@
     character: "1003,304"
     enemy_skill: "7"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "75,75,1"
+  }
+  {
+    sub_id: 58002
+    id: 58
+    name: 龙骑兵SWAP
+    sub_name: 龙骑兵SWAP-特化型
+    type: 3
+    code: Dragoon_SWAP
+    introduce: 龙骑兵的特化版，综合能力都得到了进一步的进化，要谨慎与其交手。
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 5
+    range_rank: 5
+    counter: 该单位能力均衡，请注意提高梯队的整体作战能力应对。
+    character: "1003,304"
+    enemy_skill: "7"
+    launch_time: 2035-5-20 00:00:00
     spine_scale: "75,75,1"
   }
   {
@@ -1796,6 +2166,28 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 59002
+    id: 59
+    name: 痛击者SWAP
+    sub_name: 痛击者SWAP-特化型
+    type: 3
+    code: Striker_SWAP
+    introduce: 痛击者的特化版，极大强度地提高了穿甲能力，并且防御能力也有不小的加强。
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 3
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 4
+    counter: 该单位攻速较高、伤害一般，但是拥有加强的穿甲能力。
+    character: "308"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
     sub_id: 60001
     id: 60
     name: 圣盾SWAP
@@ -1816,6 +2208,29 @@
     character: "303,309,310"
     enemy_skill: "9"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 60002
+    id: 60
+    name: 圣盾SWAP
+    sub_name: 圣盾SWAP-特化型
+    type: 5
+    code: Aegis_SWAP
+    introduce: 被铁血入侵的"圣盾"型军用作战机甲的特化版，装甲能力得到了毁灭性的加强，是非常坚实的前排作战单位。
+    forces: 1
+    if_capture: 1
+    pow_rank: 2
+    life_rank: 5
+    hit_rank: 2
+    rate_rank: 3
+    armor_rank: 5
+    speed_rank: 2
+    range_rank: 2
+    counter: 护甲单位，有较高的伤害承担能力，建议优先击杀受该单位掩护的输出单位
+    character: "303,309,310"
+    enemy_skill: "9"
+    launch_time: 2035-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
@@ -2320,6 +2735,29 @@
     spine_scale: "40,40,1"
   }
   {
+    sub_id: 80003
+    id: 80
+    name: AA-02 负罪者
+    sub_name: AA-02 负罪者-幻想型
+    type: 1
+    code: Ares
+    introduce: 负罪者：军方生产的精英机甲，原本是某位军人专属的座驾。性能卓越，搭载有高强度的火力，除却巨炮以外亦可使用导弹作为攻击手段，同时也拥有护盾作为防御，可以说是具备全方位碾压性的战术机甲，其名“负罪者”。
+    forces: 2
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 7
+    counter: 拥有较高护甲，会向预警位置造成较强伤害，带护盾状态下若受到穿透打击则会有一定的硬直反馈。请注意及时指挥人形躲避预警伤害。
+    character: "1001,302,309,326,316"
+    enemy_skill: "93,94,95,295"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "40,40,1"
+  }
+  {
     sub_id: 81001
     id: 81
     name: 伊莱莎
@@ -2469,6 +2907,29 @@
     character: "1001,303"
     enemy_skill: "88,90,92"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 86002
+    id: 86
+    name: 切割者SWAP
+    sub_name: 切割者SWAP-特化型
+    type: 3
+    code: Ripper_SWAP
+    introduce: 性能大幅增强后的切割者特化型，火力和回避能力都有了可观的提升。
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 6
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 3
+    counter: 该单位在受到致命伤害时会获得一定的保护,要做好持久战的准备。
+    character: "1001,303"
+    enemy_skill: "88,90,92"
+    launch_time: 2035-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
@@ -2632,6 +3093,29 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 94002
+    id: 94
+    name: 胡蜂SWAP
+    sub_name: 胡蜂SWAP-特化型
+    type: 3
+    code: Vespid_SWAP
+    introduce: 性能大幅增强后的胡蜂特化型，各方面能力都得了不小的提升。
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: 该单位能力可对我方单位造成针对性的伤害和削弱,需要思考配队应对。
+    character: "1001,300"
+    enemy_skill: "89,91"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
     sub_id: 95001
     id: 95
     name: 残兽SWAP
@@ -2654,6 +3138,28 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 95002
+    id: 95
+    name: 残兽SWAP
+    sub_name: 残兽SWAP-特化型
+    type: 3
+    code: Brute_SWAP
+    introduce: 性能大幅增强后的残兽特化型，会对我方护甲单位造成极大的威胁。
+    forces: 1
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 2
+    counter: 该单位拥有较高的破甲值，对霰弹枪人形来说是个危险的存在，请注意避免我方霰弹枪人形与她接触。推荐使用冲锋枪、手枪等回避型人形担当前排。
+    character: "1003,303,315"
+    enemy_skill: "54,55"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
     sub_id: 96001
     id: 96
     name: 钢狮SWAP
@@ -2673,6 +3179,28 @@
     character: "1003,309,307"
     enemy_skill: "56"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 96002
+    id: 96
+    name: 钢狮SWAP
+    sub_name: 钢狮SWAP-特化型
+    type: 4
+    code: Nemeum_SWAP2
+    introduce: 性能大幅增强后的钢狮特化型，极大幅度增强了装甲性能，不容小觑。
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    rate_rank: 2
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 4
+    counter: 护甲单位，主要担当后排输出，攻速较慢、命中和伤害较高，对我方前排单位造成的伤害比较稳定且显著，建议选用索敌逻辑为打击后排且带穿甲能力的人形进行处理。
+    character: "1003,309,307"
+    enemy_skill: "56"
+    launch_time: 2035-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
@@ -4834,6 +5362,28 @@
     counter: 情报不明,谨慎应对!
     character: "1001"
     enemy_skill: "179,116,180,181,182,183"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 194002
+    id: 194
+    name: 魇渊夕来
+    sub_name: 魇渊夕来-幻想型
+    type: 1
+    code: Scarecrow_SpringFes
+    introduce: 稻草人-魇渊夕来，火力改造强化后的新型号。迭代升级后的浮游枪能为稻草人提供更强大的输出，而安装在稻草人指尖的指挥端口也得到了信号加强，和浮游枪之间的链接也更为紧密。据说服装设计灵感来源于神话传说中会在年底来到人类村庄大肆破坏的猛兽，它双眼的凶光能划破夜晚的黑暗，锋利的爪子能撕碎一切阻碍……恰如此刻的稻草人。
+    forces: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: 情报不明,谨慎应对!
+    character: "1001"
+    enemy_skill: "292,293,294"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "70,70,1"
   }

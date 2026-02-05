@@ -4690,6 +4690,37 @@
     list_ranking: 1
   }
   {
+    id: 931
+    description: 梦想家找敌方输出最高
+    target_type: 1
+    target_number: 1
+    select_order: "12"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 932
+    description: 破坏者找敌方输出最低
+    target_type: 1
+    target_number: 1
+    select_order: "12,9"
+    is_ascend_order: "0,0"
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 933
+    description: 炼金术士随机选择目标释放
+    target_type: 1
+    target_number: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
     id: 1000
     description: 单管多机枪组随机目标
     target_type: 1

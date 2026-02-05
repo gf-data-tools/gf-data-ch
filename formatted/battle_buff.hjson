@@ -13889,6 +13889,323 @@
     boss_available: 1
   }
   {
+    id: 2760
+    name: 破坏者离场标记
+    conflict_type: 2760
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2761
+    name: 末日魔犬减伤增益
+    conflict_type: 2761
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2762
+    name: 末日魔犬离场标记
+    conflict_type: 2762
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2763
+    name: 梦想家近身检测
+    conflict_type: 2763
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "451013"
+  }
+  {
+    id: 2764
+    name: 梦想家近身反馈
+    conflict_type: 2764
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2765
+    name: 梦想家无敌
+    conflict_type: 2765
+    max_tier: 1
+    type: 120
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2766
+    name: 计量官射速下降
+    conflict_type: 2766
+    max_tier: 99
+    type: 205
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    move_number: "90"
+  }
+  {
+    id: 2767
+    name: 建筑师生命值标记
+    conflict_type: 2767
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "9"
+    boss_available: 1
+  }
+  {
+    id: 2768
+    name: 计量官生命值标记
+    conflict_type: 2768
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "9"
+    boss_available: 1
+  }
+  {
+    id: 2769
+    name: 建筑师伤害提升
+    conflict_type: 2769
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "1000"
+    trigger_creation_id: "7331"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2770
+    name: 计量官伤害提升
+    conflict_type: 2770
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "1000"
+    trigger_creation_id: "7331"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2771
+    name: Boss离场伤害提升
+    conflict_type: 2771
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "100"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2772
+    name: Boss离场伤害减免
+    conflict_type: 2772
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: "50"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2773
+    name: 代理人伤害减少
+    conflict_type: 2773
+    max_tier: 99999
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "-1"
+  }
+  {
+    id: 2774
+    name: 代理人回避减少
+    conflict_type: 2774
+    max_tier: 99999
+    type: 802
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    dodge_number: "-1"
+  }
+  {
+    id: 2775
+    name: 行裁者护甲减少
+    conflict_type: 2775
+    max_tier: 99
+    type: 808
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    armor_reduce_number: "-50"
+  }
+  {
+    id: 2776
+    name: 猎手增伤标记
+    conflict_type: 2776
+    max_tier: 20
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2777
+    name: 干扰者护盾
+    conflict_type: 2777
+    max_tier: 10
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: "10000"
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 2778
+    name: 干扰者伤害提升
+    conflict_type: 2778
+    max_tier: 10
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "110"
+  }
+  {
+    id: 2779
+    name: 衔尾蛇易伤
+    conflict_type: 2779
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: "110"
+  }
+  {
+    id: 2780
+    name: 炼金术士标记
+    conflict_type: 2780
+    max_tier: 9
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+  }
+  {
+    id: 2781
+    name: 炼金术士无敌
+    conflict_type: 2781
+    max_tier: 1
+    type: 120
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+  }
+  {
+    id: 2782
+    name: 法官嘲讽
+    conflict_type: 2782
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+  }
+  {
+    id: 2783
+    name: 法官刚毅
+    conflict_type: 2783
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    fix_damage: 1000010119
+  }
+  {
+    id: 2784
+    name: 代理人减伤
+    conflict_type: 2784
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: "90"
+  }
+  {
+    id: 2785
+    name: 新春稻草人禁锢
+    description: 禁足
+    conflict_type: 2785
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "900"
+    boss_available: 1
+  }
+  {
+    id: 2786
+    name: 新春稻草人血量特动触发
+    conflict_type: 2786
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2787
+    name: 新春稻草人dot
+    conflict_type: 2787
+    max_tier: 1
+    type: 136
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    hurt_id: 1784
+    hurt_cd: 10
+  }
+  {
+    id: 2788
+    name: 叶戈尔限伤
+    conflict_type: 2788
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000010120
+  }
+  {
     id: 3000
     name: Beer
     description: Beer
@@ -36857,6 +37174,30 @@
     duration: "-1"
     boss_available: 1
     forced_skill: "757279"
+  }
+  {
+    id: 6392
+    name: 太空妖精回避增加
+    conflict_type: 6392
+    max_tier: 1
+    type: 802
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    available_gun_type: "5,6"
+  }
+  {
+    id: 6393
+    name: 太空妖精移速增加
+    conflict_type: 6393
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+    available_gun_type: "5,6"
   }
   {
     id: 6501
@@ -65464,7 +65805,7 @@
     max_tier: 5
     type: 400
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65474,7 +65815,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65494,7 +65835,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65504,7 +65845,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65572,7 +65913,7 @@
     max_tier: 1
     type: 128
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
     cdr_number: "70"
   }
@@ -65583,7 +65924,7 @@
     max_tier: 1
     type: 128
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
     cdr_number: "80"
   }
@@ -65594,7 +65935,7 @@
     max_tier: 1
     type: 202
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
     dodge_number: *201
     buff_sp_attributes: "1"
@@ -65606,7 +65947,7 @@
     max_tier: 1
     type: 110
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
     damage_reduce_number: *202
     buff_sp_attributes: "1"
@@ -65618,7 +65959,7 @@
     max_tier: 5
     type: 801
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
     pow_number: *201
     available_gun_type: "2"
@@ -65631,7 +65972,7 @@
     max_tier: 5
     type: 500
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65641,7 +65982,7 @@
     max_tier: 30
     type: 405
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65651,7 +65992,7 @@
     max_tier: 30
     type: 401
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -65683,7 +66024,7 @@
     max_tier: 1
     type: 500
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
     watch_id: 1081
   }
@@ -65694,7 +66035,7 @@
     max_tier: 100
     type: 415
     duration_type: 1
-    duration: "9999"
+    duration: "99999"
     boss_available: 1
   }
   {
@@ -66857,6 +67198,16 @@
     is_form_play: 1
     buff_animation: YellowFlash
     buff_description: PowBuffText
+  }
+  {
+    id: 12001
+    name: M200装备
+    conflict_type: 12001
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 12801
@@ -69125,6 +69476,42 @@
     duration: "99999"
     boss_available: 1
     pow_number: "100"
+  }
+  {
+    id: 20035
+    name: 全队夜视提升
+    conflict_type: 20035
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    night_view_percent: "100"
+  }
+  {
+    id: 20036
+    name: 全队伤害提升
+    conflict_type: 20036
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "120"
+  }
+  {
+    id: 20037
+    name: 全队护盾增加
+    conflict_type: 20037
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    shield_number: "100"
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
   }
   {
     id: 30701
