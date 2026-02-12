@@ -3949,6 +3949,106 @@
     color_icon_id: "964"
   }
   {
+    id: 6811
+    name: 夜色短发
+    description: 融入深沉夜色是你的潜入习惯，悄无声息地抵达才是最酷的出现方式。这个发型简约顺滑易于打理，即使在不方便理发的环境也能轻松应对。
+    code: Head1
+    icon: commander_6811_icon
+    type: 1
+    gender: 1
+    uniform_class: "68"
+    color_normal: Commander_6811_N
+    color_icon_id: "965"
+  }
+  {
+    id: 6812
+    name: 砂色长发
+    description: 与沙漠迷彩浑然一体是你的伪装习惯，恰到好处的留长还能具有一定的失温防护效果……最重要的是，这个造型不会被头盔压塌。
+    code: Head2
+    icon: commander_6812_icon
+    type: 1
+    gender: 2
+    uniform_class: "68"
+    color_normal: Commander_6812_N
+    color_icon_id: "966"
+  }
+  {
+    id: 6820
+    name: 战术防护
+    description: 防护头盔和面罩，足够保护你不受大部分侵扰；耳机和夜视仪，能让你最大化地探知周遭战况。放心前进吧，记得关注敌人的动向。
+    code: HeadAcco
+    icon: commander_6820_icon
+    type: 2
+    uniform_class: "68"
+    color_normal: Commander_6820_N
+    bone_name: HairBinder2
+    scale: 0.2
+    position: "-0.137,0.207"
+    color_icon_id: "967"
+  }
+  {
+    id: 6831
+    name: 迷彩匿踪
+    description: 战术套装的迷彩纹样都经过仔细研究，最终呈现出极佳的隐匿效果。无论是原地伏击，又或者从身后绕道，都能为你提供掩护……接下来需要考虑的，就是开火的角度了。
+    code: Body1
+    icon: commander_6831_icon
+    type: 3
+    gender: 1
+    uniform_class: "68"
+    color_normal: Commander_6831_N
+    color_icon_id: "968"
+  }
+  {
+    id: 6832
+    name: 火线防护
+    description: 除了优越的复合材质服装，轻量化关节护甲和手套也必不可少。飞来的弹片，发烫的枪管，或许还有飘散的毒雾……这些都不能阻挡你的脚步。
+    code: Body2
+    icon: commander_6832_icon
+    type: 3
+    gender: 2
+    uniform_class: "68"
+    color_normal: Commander_6832_N
+    color_icon_id: "969"
+  }
+  {
+    id: 6840
+    name: 饱和战备
+    description: 没有人知道任务目的地会遭遇什么变化，你只能尽量准备得多一点。装好医疗包，挂满弹挂，护甲和手雷也绝不嫌多——千万别嫌多，全都带上。
+    code: BodyAcco
+    icon: commander_6840_icon
+    type: 4
+    uniform_class: "68"
+    color_normal: Commander_6840_N
+    bone_name: BodyBinder1
+    scale: 0.2
+    position: "0.020,0.070"
+    color_icon_id: "970"
+  }
+  {
+    id: 6851
+    name: 耐磨长裤
+    description: 基于实用哲学考虑，后勤部为你准备了厚实耐磨的下装，能起到很强的防护作用。当然，也不能当作腿部装甲看待，它只是一条朴实的裤子。
+    code: Foot1
+    icon: commander_6851_icon
+    type: 5
+    gender: 1
+    uniform_class: "68"
+    color_normal: Commander_6851_N
+    color_icon_id: "971"
+  }
+  {
+    id: 6852
+    name: 机动长袜
+    description: 基于美观哲学考虑，后勤部为你准备了利于机动的长袜，方便你在腿上加装更多的腿包和枪械，同时不妨碍穿裙子。有时候，这可比裤子凉快多了。
+    code: Foot2
+    icon: commander_6852_icon
+    type: 5
+    gender: 2
+    uniform_class: "68"
+    color_normal: Commander_6852_N
+    color_icon_id: "972"
+  }
+  {
     id: 9920
     name: 活力伪装
     description: 永远展现最好的我。

@@ -17237,6 +17237,24 @@
     rank: 1
   }
   {
+    id: 2760
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_6P62
+    item_name: 6P62-心动竞技
+    introduction: 6P62-心动竞技
+    rank: 1
+  }
+  {
+    id: 2761
+    type: 5
+    arg: "1"
+    code: card_BattlePass_6P62
+    item_name: 名片：6P62的通关指令
+    introduction: 名片：6P62的通关指令
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -19151,6 +19169,15 @@
     code: gift_bundle_BattlePass_JS9mm
     item_name: JS 9-残垣之上
     introduction: 今天的巡查地点就是这里吗？……好，我明白了。不论环境有多糟糕，我的行动都会一如既往地井井有条。
+    rank: 1
+  }
+  {
+    id: 30037
+    type: 1
+    arg: "30037"
+    code: gift_bundle_BattlePass_6P62
+    item_name: 6P62-心动竞技
+    introduction: 这个电竞房是我的秘密基地，只对特别的人开放——指挥官，您要一起来一局吗？输的人可是要接受惩罚的哦！
     rank: 1
   }
   {
@@ -22622,6 +22649,33 @@
     rank: 1
   }
   {
+    id: 110082
+    type: 4
+    arg: "110082"
+    code: PT
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
+    id: 110083
+    type: 4
+    arg: "110083"
+    code: PT
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
+    id: 110084
+    type: 4
+    arg: "110084"
+    code: PT
+    item_name: 活动点数
+    introduction: 活动点数
+    rank: 1
+  }
+  {
     id: 120001
     type: 10
     arg: "1"
@@ -24687,6 +24741,22 @@
     rank: 1
   }
   {
+    id: 140073
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第37期前线协议
+    rank: 1
+  }
+  {
+    id: 140074
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第37期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -25245,6 +25315,15 @@
     code: profileFrame_BattlePass_JS9mm
     item_name: 头像框·墟末曙光
     introduction: 头像框·墟末曙光
+    rank: 1
+  }
+  {
+    id: 200062
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_6P62
+    item_name: 头像框·方块幻想
+    introduction: 头像框·方块幻想
     rank: 1
   }
   {
@@ -29319,6 +29398,50 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-破晓的规章，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500359
+    type: 15
+    arg: "1500359"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-心动竞技，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500360
+    type: 15
+    arg: "1500360"
+    code: package_choose
+    item_name: 配件类装备自选包
+    introduction: 来自于前线协议-心动竞技，可从该指定投递配给序标内选择获取一件配件类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500361
+    type: 15
+    arg: "1500361"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-心动竞技，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500362
+    type: 15
+    arg: "1500362"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-心动竞技，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1

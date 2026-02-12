@@ -30106,6 +30106,36 @@
     gift: 30002-1
   }
   {
+    id: 8653
+    name: 通行证68-36
+    item_ids: 140073-1
+  }
+  {
+    id: 8654
+    name: 通行证98-36
+    item_ids: 140074-1,10606-300,200062-1,2761-1
+  }
+  {
+    id: 8655
+    name: 通行证30-36
+    item_ids: 140074-1,10606-300,200062-1,2761-1
+  }
+  {
+    id: 8656
+    name: CF05-沸腾的岁月
+    gift: 30026-1
+  }
+  {
+    id: 8657
+    name: M950A-头槌症候群
+    gift: 30014-1
+  }
+  {
+    id: 8658
+    name: 刘易斯-马踏文杏衬
+    gift: 30003-1
+  }
+  {
     id: 9101
     name: 来自2016年圣诞节的照片
     item_ids: 1212-1
@@ -30357,84 +30387,84 @@
     id: 10086
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110080-10
+    item_ids: 110082-10
   }
   {
     id: 10087
     name: 嘉年华奖励
     mp: 100
-    item_ids: 110080-20
+    item_ids: 110082-20
   }
   {
     id: 10088
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110080-20
+    item_ids: 110082-20
   }
   {
     id: 10089
     name: 嘉年华奖励
     ammo: 200
-    item_ids: 110080-30
+    item_ids: 110082-30
   }
   {
     id: 10090
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110080-20
+    item_ids: 110082-20
   }
   {
     id: 10091
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110080-30
+    item_ids: 110082-30
   }
   {
     id: 10092
     name: 嘉年华奖励
     mre: 200
-    item_ids: 110080-50
+    item_ids: 110082-50
   }
   {
     id: 10093
     name: 嘉年华奖励
     part: 100
-    item_ids: 110080-30
+    item_ids: 110082-30
   }
   {
     id: 10094
     name: 嘉年华奖励
     part: 100
-    item_ids: 110080-50
+    item_ids: 110082-50
   }
   {
     id: 10095
     name: 嘉年华奖励
     part: 100
-    item_ids: 110080-100
+    item_ids: 110082-100
   }
   {
     id: 10096
     name: 嘉年华奖励
     part: 200
-    item_ids: 110080-50
+    item_ids: 110082-50
   }
   {
     id: 10097
     name: 嘉年华奖励
     part: 200
-    item_ids: 110080-100
+    item_ids: 110082-100
   }
   {
     id: 10098
     name: 嘉年华奖励
     part: 300
-    item_ids: 110080-150
+    item_ids: 110082-150
   }
   {
     id: 10099
     name: 嘉年华奖励
-    item_ids: 110080-200,45-200
+    item_ids: 110082-200,45-200
   }
   {
     id: 10100
@@ -30472,7 +30502,8 @@
   {
     id: 10105
     name: 1800活跃奖励
-    gift: 11206-1,100003-10
+    gun_id: "424"
+    gift: 100003-10
     icon: Bumdle_bline
   }
   {
@@ -38819,6 +38850,296 @@
     gift: 100003-5
     icon: Bumdle_PrototypeFairy
     fairy_ids: 26-0-100-5,26-0-100-5
+  }
+  {
+    id: 13448
+    name: 嘉年华奖励
+    mp: 100
+    item_ids: 110083-10
+  }
+  {
+    id: 13449
+    name: 嘉年华奖励
+    mp: 100
+    item_ids: 110083-20
+  }
+  {
+    id: 13450
+    name: 嘉年华奖励
+    ammo: 200
+    item_ids: 110083-20
+  }
+  {
+    id: 13451
+    name: 嘉年华奖励
+    ammo: 200
+    item_ids: 110083-30
+  }
+  {
+    id: 13452
+    name: 嘉年华奖励
+    mre: 200
+    item_ids: 110083-20
+  }
+  {
+    id: 13453
+    name: 嘉年华奖励
+    mre: 200
+    item_ids: 110083-30
+  }
+  {
+    id: 13454
+    name: 嘉年华奖励
+    mre: 200
+    item_ids: 110083-50
+  }
+  {
+    id: 13455
+    name: 嘉年华奖励
+    part: 100
+    item_ids: 110083-30
+  }
+  {
+    id: 13456
+    name: 嘉年华奖励
+    part: 100
+    item_ids: 110083-50
+  }
+  {
+    id: 13457
+    name: 嘉年华奖励
+    part: 100
+    item_ids: 110083-100
+  }
+  {
+    id: 13458
+    name: 嘉年华奖励
+    part: 200
+    item_ids: 110083-50
+  }
+  {
+    id: 13459
+    name: 嘉年华奖励
+    part: 200
+    item_ids: 110083-100
+  }
+  {
+    id: 13460
+    name: 嘉年华奖励
+    part: 300
+    item_ids: 110083-150
+  }
+  {
+    id: 13461
+    name: 嘉年华奖励
+    item_ids: 110083-200,45-200
+  }
+  {
+    id: 13462
+    name: 100活跃奖励
+    ammo: 1000
+    mre: 1000
+    icon: Bumdle_red
+  }
+  {
+    id: 13463
+    name: 200活跃奖励
+    item_ids: 9-20,4-5,6003-2,525-5
+    icon: Bumdle_brown
+  }
+  {
+    id: 13464
+    name: 500活跃奖励
+    item_ids: 3-5,525-5
+    coins: 2-200
+    icon: Bumdle_indigo
+    commander_uniform: "6811,6812"
+  }
+  {
+    id: 13465
+    name: 800活跃奖励
+    item_ids: 1-5,506-200,45-100,601-2,525-5
+    icon: Bumdle_guoqing
+    commander_uniform: "6851,6852"
+  }
+  {
+    id: 13466
+    name: 1200活跃奖励
+    core: 10
+    item_ids: 41-20,8-1
+    icon: Bumdle_yellow
+    commander_uniform: "6820"
+  }
+  {
+    id: 13467
+    name: 1800活跃奖励
+    gift: 100003-10
+    icon: Bumdle_bline
+    commander_uniform: "6831,6832"
+  }
+  {
+    id: 13468
+    name: 2000活跃奖励
+    item_ids: 45-100,6009-2
+    coins: 3-200
+    icon: Bumdle_navy
+    bp_pay: 10
+    commander_uniform: "6840"
+  }
+  {
+    id: 13469
+    name: 2400活跃奖励
+    item_ids: 45-200,41-50,1-10,103-1,10604-3
+    icon: Bumdle_blue
+  }
+  {
+    id: 13470
+    name: 3000活跃奖励
+    item_ids: 103-1
+    icon: Bumdle_may
+  }
+  {
+    id: 13471
+    name: 嘉年华奖励
+    mp: 100
+    item_ids: 110084-10
+  }
+  {
+    id: 13472
+    name: 嘉年华奖励
+    mp: 100
+    item_ids: 110084-20
+  }
+  {
+    id: 13473
+    name: 嘉年华奖励
+    ammo: 200
+    item_ids: 110084-20
+  }
+  {
+    id: 13474
+    name: 嘉年华奖励
+    ammo: 200
+    item_ids: 110084-30
+  }
+  {
+    id: 13475
+    name: 嘉年华奖励
+    mre: 200
+    item_ids: 110084-20
+  }
+  {
+    id: 13476
+    name: 嘉年华奖励
+    mre: 200
+    item_ids: 110084-30
+  }
+  {
+    id: 13477
+    name: 嘉年华奖励
+    mre: 200
+    item_ids: 110084-50
+  }
+  {
+    id: 13478
+    name: 嘉年华奖励
+    part: 100
+    item_ids: 110084-30
+  }
+  {
+    id: 13479
+    name: 嘉年华奖励
+    part: 100
+    item_ids: 110084-50
+  }
+  {
+    id: 13480
+    name: 嘉年华奖励
+    part: 100
+    item_ids: 110084-100
+  }
+  {
+    id: 13481
+    name: 嘉年华奖励
+    part: 200
+    item_ids: 110084-50
+  }
+  {
+    id: 13482
+    name: 嘉年华奖励
+    part: 200
+    item_ids: 110084-100
+  }
+  {
+    id: 13483
+    name: 嘉年华奖励
+    part: 300
+    item_ids: 110084-150
+  }
+  {
+    id: 13484
+    name: 嘉年华奖励
+    item_ids: 110084-200,45-200
+  }
+  {
+    id: 13485
+    name: 100活跃奖励
+    ammo: 1000
+    mre: 1000
+    icon: Bumdle_red
+  }
+  {
+    id: 13486
+    name: 200活跃奖励
+    item_ids: 9-20,4-5,6003-2,525-5
+    icon: Bumdle_brown
+  }
+  {
+    id: 13487
+    name: 500活跃奖励
+    item_ids: 3-5,525-5
+    coins: 2-200
+    icon: Bumdle_indigo
+  }
+  {
+    id: 13488
+    name: 800活跃奖励
+    item_ids: 1-5,506-200,45-100,601-2,525-5
+    icon: Bumdle_guoqing
+  }
+  {
+    id: 13489
+    name: 1200活跃奖励
+    core: 10
+    item_ids: 41-20,8-1
+    icon: Bumdle_yellow
+  }
+  {
+    id: 13490
+    name: 1800活跃奖励
+    gun_id: "425"
+    gift: 100003-10
+    icon: Bumdle_bline
+  }
+  {
+    id: 13491
+    name: 2000活跃奖励
+    item_ids: 45-100,6009-2
+    coins: 3-200
+    icon: Bumdle_navy
+    bp_pay: 10
+  }
+  {
+    id: 13492
+    name: 2400活跃奖励
+    item_ids: 45-200,41-50,1-10,103-1,10604-3
+    icon: Bumdle_blue
+  }
+  {
+    id: 13493
+    name: 3000活跃奖励
+    item_ids: 103-1
+    icon: Bumdle_may
   }
   {
     id: 14101
@@ -64045,6 +64366,28 @@
     item_ids: 1500357-1
   }
   {
+    id: 120186
+    name: 增量补给-15级-37
+    item_ids: 41-30,1500359-1
+  }
+  {
+    id: 120187
+    name: 增量补给-25级-37
+    item_ids: 41-30
+    gift: 30037-1
+  }
+  {
+    id: 120188
+    name: 增量补给-35级-37
+    item_ids: 41-30,1500360-1
+  }
+  {
+    id: 120189
+    name: 增量补给-45级-37
+    gem: 680
+    item_ids: 1500361-1
+  }
+  {
     id: 121001
     name: 喧闹之石
     furniture: "7240"
@@ -64918,6 +65261,21 @@
     id: 130108
     name: 进阶付费展示奖励-36
     item_ids: 10606-300,200061-1,2758-1
+  }
+  {
+    id: 130109
+    name: 前线协议额外奖励-37
+    item_ids: 1500362-1
+  }
+  {
+    id: 130110
+    name: 基础付费展示奖励-37
+    item_ids: 602-1,1500359-1,30037-1,1500360-1,1500361-1,505-680
+  }
+  {
+    id: 130111
+    name: 进阶付费展示奖励-37
+    item_ids: 10606-300,200062-1,2761-1
   }
   {
     id: 140001
@@ -66471,6 +66829,46 @@
     id: 140308
     name: 36-必得未解锁人形序标灰熊MkⅤ
     gun_id: "96"
+  }
+  {
+    id: 140309
+    name: 37-必得未解锁人形序标Unica 6
+    gun_id: "413"
+  }
+  {
+    id: 140310
+    name: 37-必得未解锁人形序标P50
+    gun_id: "401"
+  }
+  {
+    id: 140311
+    name: 37-必得未解锁人形序标HK433
+    gun_id: "390"
+  }
+  {
+    id: 140312
+    name: 37-必得未解锁人形序标A-545
+    gun_id: "356"
+  }
+  {
+    id: 140313
+    name: 37-必得未解锁人形序标MG36
+    gun_id: "263"
+  }
+  {
+    id: 140314
+    name: 37-必得未解锁人形序标PA-15
+    gun_id: "260"
+  }
+  {
+    id: 140315
+    name: 37-必得未解锁人形序标88式
+    gun_id: "238"
+  }
+  {
+    id: 140316
+    name: 37-必得未解锁人形序标MP7
+    gun_id: "28"
   }
   {
     id: 150001

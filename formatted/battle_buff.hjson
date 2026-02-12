@@ -67200,6 +67200,274 @@
     buff_description: PowBuffText
   }
   {
+    id: 11075
+    name: M887移速下降
+    conflict_type: 11075
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11076
+    name: M887移速减少
+    conflict_type: 11076
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: "-99"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11077
+    name: M887射速下降
+    conflict_type: 11077
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11078
+    name: M887射速减少
+    conflict_type: 11078
+    max_tier: 1
+    type: 804
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: "-999"
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 11079
+    name: M887技能触发
+    conflict_type: 11079
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 11080
+    name: M887技能减伤1级
+    conflict_type: 11080
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010035
+  }
+  {
+    id: 11081
+    name: M887技能减伤2级
+    conflict_type: 11081
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010036
+  }
+  {
+    id: 11082
+    name: M887技能减伤3级
+    conflict_type: 11082
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010037
+  }
+  {
+    id: 11083
+    name: M887技能减伤4级
+    conflict_type: 11083
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010038
+  }
+  {
+    id: 11084
+    name: M887技能减伤5级
+    conflict_type: 11084
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010039
+  }
+  {
+    id: 11085
+    name: M887技能减伤6级
+    conflict_type: 11085
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010040
+  }
+  {
+    id: 11086
+    name: M887技能减伤7级
+    conflict_type: 11086
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010041
+  }
+  {
+    id: 11087
+    name: M887技能减伤8级
+    conflict_type: 11087
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010042
+  }
+  {
+    id: 11088
+    name: M887技能减伤9级
+    conflict_type: 11088
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010043
+  }
+  {
+    id: 11089
+    name: M887技能减伤10级
+    conflict_type: 11089
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000010044
+  }
+  {
+    id: 11090
+    name: M887监视受击
+    conflict_type: 11090
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1094
+  }
+  {
+    id: 11091
+    name: M887护甲增加
+    conflict_type: 11091
+    max_tier: 300
+    type: 808
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    armor_reduce_number: "1"
+  }
+  {
+    id: 11092
+    name: M887增益触发
+    conflict_type: 11092
+    max_tier: 300
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11093
+    name: M887护甲层数
+    conflict_type: 11093
+    max_tier: 300
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11094
+    name: M887受击计数
+    conflict_type: 11094
+    max_tier: 100
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11095
+    name: M887嘲讽
+    conflict_type: 11095
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 11096
+    name: 53式生命值层数
+    conflict_type: 11096
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11097
+    name: 53式伤害层数
+    conflict_type: 11097
+    max_tier: 500
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11098
+    name: 53式射速层数
+    conflict_type: 11098
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 11099
+    name: 53式支援触发
+    conflict_type: 11099
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 12001
     name: M200装备
     conflict_type: 12001
