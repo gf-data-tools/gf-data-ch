@@ -17273,6 +17273,24 @@
     rank: 1
   }
   {
+    id: 2764
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1891
+    item_name: 莫辛-纳甘-雾冬旅人
+    introduction: 莫辛-纳甘-雾冬旅人
+    rank: 1
+  }
+  {
+    id: 2765
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1891
+    item_name: 名片：雾锁冬途
+    introduction: 名片：雾锁冬途
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -19205,6 +19223,15 @@
     code: gift_bundle_BattlePass_AUGPARA
     item_name: AUG SMG-花与白日梦
     introduction: 这是为SOP2小姐准备的向日葵，这是给AUG小姐的……嗯？前辈问我为什么这么了解大家？因为观察可爱的同事也是工作的一部分哦~
+    rank: 1
+  }
+  {
+    id: 30039
+    type: 1
+    arg: "30039"
+    code: gift_bundle_BattlePass_M1891
+    item_name: 莫辛-纳甘-雾冬旅人
+    introduction: 红茶的味道，总是能勾起我的很多回忆……不过最重要的部分，果然还是要从遇见您的那天开始呢。
     rank: 1
   }
   {
@@ -24800,6 +24827,22 @@
     rank: 1
   }
   {
+    id: 140077
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第39期前线协议
+    rank: 1
+  }
+  {
+    id: 140078
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第39期前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -25374,8 +25417,17 @@
     type: 1
     arg: "1"
     code: profileFrame_BattlePass_AUGPARA
-    item_name: 头像框：摇曳春影
-    introduction: 头像框：摇曳春影
+    item_name: 头像框·摇曳春影
+    introduction: 头像框·摇曳春影
+    rank: 1
+  }
+  {
+    id: 200064
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1891
+    item_name: 头像框·浮光茶会
+    introduction: 头像框·浮光茶会
     rank: 1
   }
   {
@@ -29538,6 +29590,50 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-献给你的花束，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500367
+    type: 15
+    arg: "1500367"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-白夜号列车，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500368
+    type: 15
+    arg: "1500368"
+    code: package_choose
+    item_name: 人形类装备自选包
+    introduction: 来自于前线协议-白夜号列车，可从该指定投递配给序标内选择获取一件人形类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500369
+    type: 15
+    arg: "1500369"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-白夜号列车，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500370
+    type: 15
+    arg: "1500370"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-白夜号列车，可从该区间空投序标内随机获取一项道具
     rank: 1
     sort: -1
     type_sort: 1
