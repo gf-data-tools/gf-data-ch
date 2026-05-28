@@ -17291,6 +17291,24 @@
     rank: 1
   }
   {
+    id: 2766
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1919A4
+    item_name: M1919A4-鸭宝特攻
+    introduction: M1919A4-鸭宝特攻
+    rank: 1
+  }
+  {
+    id: 2767
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1919A4
+    item_name: 名片：鸭倒性胜利
+    introduction: 名片：鸭倒性胜利
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -19232,6 +19250,15 @@
     code: gift_bundle_BattlePass_M1891
     item_name: 莫辛-纳甘-雾冬旅人
     introduction: 红茶的味道，总是能勾起我的很多回忆……不过最重要的部分，果然还是要从遇见您的那天开始呢。
+    rank: 1
+  }
+  {
+    id: 30040
+    type: 1
+    arg: "30040"
+    code: gift_bundle_BattlePass_M1919A4
+    item_name: M1919A4-鸭宝特攻
+    introduction: 快一点啦，指挥官！我们要把这排货架上打折的零食，还有这些小黄鸭~统统都带回家！
     rank: 1
   }
   {
@@ -24843,6 +24870,102 @@
     rank: 1
   }
   {
+    id: 140079
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第40期前线协议
+    rank: 1
+  }
+  {
+    id: 140080
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第40期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140081
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第41期前线协议
+    rank: 1
+  }
+  {
+    id: 140082
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第41期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140083
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第42期前线协议
+    rank: 1
+  }
+  {
+    id: 140084
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第42期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140085
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第43期前线协议
+    rank: 1
+  }
+  {
+    id: 140086
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第43期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140087
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第44期前线协议
+    rank: 1
+  }
+  {
+    id: 140088
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第44期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140089
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *常驻前线协议
+    rank: 1
+  }
+  {
+    id: 140090
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *常驻前线协议进阶
+    rank: 1
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -25428,6 +25551,15 @@
     code: profileFrame_BattlePass_M1891
     item_name: 头像框·浮光茶会
     introduction: 头像框·浮光茶会
+    rank: 1
+  }
+  {
+    id: 200065
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1919A4
+    item_name: 头像框·全鸭出击
+    introduction: 头像框·全鸭出击
     rank: 1
   }
   {
@@ -29634,6 +29766,259 @@
     code: package_random
     item_name: 前线协议-额外奖励
     introduction: 来自于前线协议-白夜号列车，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500371
+    type: 15
+    arg: "1500371"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议-惊喜采购日！，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500372
+    type: 15
+    arg: "1500372"
+    code: package_choose
+    item_name: 配件类装备自选包
+    introduction: 来自于前线协议-惊喜采购日！，可从该指定投递配给序标内选择获取一件配件类装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500373
+    type: 15
+    arg: "1500373"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议-惊喜采购日！，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500374
+    type: 15
+    arg: "1500374"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议-惊喜采购日！，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500375
+    type: 15
+    arg: "1500375"
+    code: package_choose
+    item_name: 基础装备自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500376
+    type: 15
+    arg: "1500376"
+    code: package_choose
+    item_name: 进阶装备自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装备
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500377
+    type: 15
+    arg: "1500377"
+    code: package_random
+    item_name: 必得未解锁人形序标
+    introduction: 来自于前线协议，可必定获得该序标内图鉴未解锁的人形，若所有人形都已解锁，将随机获取其中之一
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500378
+    type: 15
+    arg: "1500378"
+    code: package_random
+    item_name: 前线协议-额外奖励
+    introduction: 来自于前线协议，可从该区间空投序标内随机获取一项道具
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500379
+    type: 15
+    arg: "1500379"
+    code: package_choose
+    item_name: 前线协议装扮自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装扮
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500380
+    type: 15
+    arg: "1500380"
+    code: package_choose
+    item_name: 前线协议头像框自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个头像框
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500381
+    type: 15
+    arg: "1500381"
+    code: package_choose
+    item_name: 前线协议名片自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500382
+    type: 15
+    arg: "1500382"
+    code: package_choose
+    item_name: 前线协议装扮自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装扮
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500383
+    type: 15
+    arg: "1500383"
+    code: package_choose
+    item_name: 前线协议头像框自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个头像框
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500384
+    type: 15
+    arg: "1500384"
+    code: package_choose
+    item_name: 前线协议名片自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500385
+    type: 15
+    arg: "1500385"
+    code: package_choose
+    item_name: 前线协议装扮自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装扮
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500386
+    type: 15
+    arg: "1500386"
+    code: package_choose
+    item_name: 前线协议头像框自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个头像框
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500387
+    type: 15
+    arg: "1500387"
+    code: package_choose
+    item_name: 前线协议名片自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500388
+    type: 15
+    arg: "1500388"
+    code: package_choose
+    item_name: 前线协议装扮自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装扮
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500389
+    type: 15
+    arg: "1500389"
+    code: package_choose
+    item_name: 前线协议头像框自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个头像框
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500390
+    type: 15
+    arg: "1500390"
+    code: package_choose
+    item_name: 前线协议名片自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500391
+    type: 15
+    arg: "1500391"
+    code: package_choose
+    item_name: 前线协议装扮自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装扮
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500392
+    type: 15
+    arg: "1500392"
+    code: package_choose
+    item_name: 前线协议头像框自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个头像框
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500393
+    type: 15
+    arg: "1500393"
+    code: package_choose
+    item_name: 前线协议名片自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
     rank: 1
     sort: -1
     type_sort: 1
