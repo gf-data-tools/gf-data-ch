@@ -24954,11 +24954,27 @@
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
-    item_name: *常驻前线协议
+    item_name: *第45期前线协议
     rank: 1
   }
   {
     id: 140090
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *第45期前线协议进阶
+    rank: 1
+  }
+  {
+    id: 140091
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: *常驻前线协议
+    rank: 1
+  }
+  {
+    id: 140092
     type: 14
     arg: "1"
     code: Y_Z_zhihuiguan_Chessman
@@ -30016,6 +30032,39 @@
     id: 1500393
     type: 15
     arg: "1500393"
+    code: package_choose
+    item_name: 前线协议名片自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500394
+    type: 15
+    arg: "1500394"
+    code: package_choose
+    item_name: 前线协议装扮自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一件装扮
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500395
+    type: 15
+    arg: "1500395"
+    code: package_choose
+    item_name: 前线协议头像框自选序标
+    introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个头像框
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500396
+    type: 15
+    arg: "1500396"
     code: package_choose
     item_name: 前线协议名片自选序标
     introduction: 来自于前线协议，可从该指定投递配给序标内选择获取一个名片
